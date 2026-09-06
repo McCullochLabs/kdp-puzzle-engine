@@ -1,0 +1,22 @@
+{
+  "version": "1",
+  "book_id": "15edfd7ce297",
+  "runs": [
+    {
+      "run_id": "786019954d82b576",
+      "started": "2026-09-04T22:25:59",
+      "facts_fingerprint": "88ecf812455a175ff0974976dc180c618bb6d78d9acc418a5214e838736ff204",
+      "result": "needs_human_review",
+      "failed_stage": "validate"
+    }
+  ],
+  "stages": {
+    "validate": {
+      "status": "needs_human_review",
+      "failed": "2026-09-04T22:26:08",
+      "detail": "This book is very similar to 'Space for Kids & Teens Word Search' (48% shared vocabulary). Choose a fresh word bank before publishing both. | Production stop: only 35% of puzzle words match this Space cover promise. Strengthen the word bank before creating a package. | Production stop: topic fit is 35% for this Space book. Strengthen the word bank before packaging it."
+    }
+  },
+  "facts_fingerprint": "88ecf812455a175ff0974976dc180c618bb6d78d9acc418a5214e838736ff204",
+  "last_started": "2026-09-04T22:25:59"
+}

@@ -18,820 +18,829 @@
   },
   "puzzles": [
     {
-      "name": "Traditions 1",
+      "name": "Puzzle 01",
       "words": [
-        "ABBREVIATION",
-        "ABOLISHING",
-        "ABOMINABLE",
-        "ABORIGINAL",
-        "ABORTIONS",
-        "ABRASION",
-        "ABSENCE",
-        "ABSENCES",
-        "ABSOLVE",
-        "ABSORBED",
-        "ABUSING",
-        "ACADEMIA"
-      ]
-    },
-    {
-      "name": "Seasonal Moments 2",
-      "words": [
-        "ACADEMIC",
-        "ACCELERATING",
-        "ACCENTED",
-        "ACCEPT",
-        "ACCEPTABILITY",
-        "ACCEPTED",
-        "ACCIDENTAL",
-        "ACCOLADES",
-        "ACCOMMODATIONS",
-        "ACCOMPLICE",
-        "ACCOMPLICES",
-        "ACCOMPLISHED"
-      ]
-    },
-    {
-      "name": "Favorites 3",
-      "words": [
-        "ACCOMPLISHES",
-        "ACCOMPLISHMENT",
-        "ACCOMPLISHMENTS",
-        "ACCORD",
-        "ACCORDANCE",
-        "ACCORDINGLY",
-        "ACCOUNTABLE",
-        "ACCOUNTANTS",
-        "ACCOUNTING",
-        "ACCREDITED",
-        "ACCUMULATE",
-        "ACCUMULATES"
-      ]
-    },
-    {
-      "name": "Celebrations 4",
-      "words": [
-        "ACCUMULATOR",
-        "ACCUSATIONS",
-        "ACCUSING",
-        "ACETAMINOPHEN",
+        "BACKDROP",
+        "BLOCKER",
         "ACHIEVABLE",
-        "ACQUISITIONS",
-        "ACRYLIC",
-        "ACTIVELY",
-        "ACTUALITY",
-        "ADAMANT",
-        "ADAPTATIONS",
-        "ADDENDUM"
-      ]
-    },
-    {
-      "name": "Cozy Details 5",
-      "words": [
-        "ADDICTS",
-        "ADDITIVE",
-        "ADELAIDE",
-        "ADHERENCE",
-        "ADIPOSE",
-        "ADJOURNED",
-        "ADJUSTABLE",
-        "ADJUSTED",
-        "ADJUSTING",
-        "ADJUSTS",
-        "ADJUTANT",
-        "ADMINISTERS"
-      ]
-    },
-    {
-      "name": "Memory Lane 6",
-      "words": [
-        "ADMINISTRATIONS",
-        "ADMIRABLY",
-        "ADMIRALTY",
-        "ADMIRER",
-        "ADMITTED",
-        "ADOPTING",
-        "ADOPTION",
-        "ADOPTIVE",
-        "ADORED",
-        "ADORING",
-        "ADORNED",
-        "ADRENALIN"
-      ]
-    },
-    {
-      "name": "Traditions 7",
-      "words": [
-        "ADULTHOOD",
-        "ADVANCED",
-        "ADVANCEMENT",
-        "ADVANCES",
-        "ADVENTURER",
-        "ADVERSARY",
-        "ADVERSELY",
-        "ADVERSITY",
-        "ADVERTISE",
-        "ADVERTISEMENT",
-        "ADVISABLE",
-        "ADVISORY"
-      ]
-    },
-    {
-      "name": "Seasonal Moments 8",
-      "words": [
-        "ADVOCACY",
         "ADVOCATES",
-        "AEROBIC",
-        "AERONAUTICAL",
-        "AEROPLANE",
-        "AEROSOL",
-        "AFFECTIVE",
-        "AFFILIATE",
-        "AFFILIATES",
-        "AFFIRMATION",
-        "AFFLUENT",
-        "AFFORDS"
-      ]
-    },
-    {
-      "name": "Favorites 9",
-      "words": [
-        "AFGHANISTAN",
-        "AFTERWARD",
-        "AGEING",
-        "AGENCY",
-        "AGGRAVATED",
-        "AGGREGATES",
-        "AGGREGATOR",
-        "AGGRESSIVELY",
-        "AGILITY",
-        "AGITATION",
-        "AGONIST",
-        "AGRARIAN"
-      ]
-    },
-    {
-      "name": "Celebrations 10",
-      "words": [
-        "AGREEING",
-        "AGRIBUSINESS",
-        "AIRBAGS",
-        "AIRFIELD",
-        "AIRFLOW",
-        "AISLES",
-        "ALADDIN",
-        "ALASKAN",
-        "ALBANIAN",
-        "ALBERTO",
-        "ALCHEMIST",
-        "ALCOHOLISM"
-      ]
-    },
-    {
-      "name": "Cozy Details 11",
-      "words": [
-        "ALDERMEN",
-        "ALEPPO",
-        "ALEXANDRA",
-        "ALFALFA",
-        "ALGEBRAS",
-        "ALGERIA",
-        "ALGERIAN",
-        "ALGIERS",
-        "ALLEGES",
-        "ALLEGHENY",
-        "ALLERGENS",
-        "ALLERGIC"
-      ]
-    },
-    {
-      "name": "Memory Lane 12",
-      "words": [
-        "ALLERGY",
-        "ALLEYS",
-        "ALLIANCES",
-        "ALLIED",
-        "ALLOCATED",
-        "ALLUDED",
-        "ALLURING",
-        "ALLUSIONS",
-        "ALMONDS",
-        "ALTERATION",
-        "ALTERCATION",
-        "ALTERING"
-      ]
-    },
-    {
-      "name": "Traditions 13",
-      "words": [
-        "ALTERNATING",
-        "ALTERNATIVELY",
-        "ALTERNATIVES",
-        "ALTITUDE",
-        "ALTOGETHER",
-        "ALUMNI",
-        "AMASSING",
-        "AMATEURS",
-        "AMAZES",
-        "AMBIENT",
-        "AMBROSE",
-        "AMBULANCE"
-      ]
-    },
-    {
-      "name": "Seasonal Moments 14",
-      "words": [
-        "AMBUSH",
-        "AMBUSHED",
-        "AMENITIES",
-        "AMERICAS",
-        "AMETHYST",
-        "AMICABLE",
-        "AMIDST",
-        "AMMONIA",
-        "AMOROUS",
-        "AMORTIZATION",
-        "AMOUNTING",
-        "AMPHETAMINES"
-      ]
-    },
-    {
-      "name": "Favorites 15",
-      "words": [
-        "AMPHIBIAN",
-        "AMPLIFIED",
-        "ANALOGIES",
-        "ANALYSES",
-        "ANARCHISM",
-        "ANCESTRAL",
-        "ANCHOR",
-        "ANCHORED",
-        "ANCIENT",
-        "ANCIENTS",
-        "ANDERS",
-        "ANDREA"
-      ]
-    },
-    {
-      "name": "Celebrations 16",
-      "words": [
-        "ANDREAS",
-        "ANDREW",
-        "ANEMIA",
-        "ANGELIC",
-        "ANGLED",
-        "ANGLING",
-        "ANGOLA",
-        "ANIMATOR",
-        "ANNIHILATE",
-        "ANNOTATED",
-        "ANNOYED",
-        "ANNUITIES"
-      ]
-    },
-    {
-      "name": "Cozy Details 17",
-      "words": [
-        "ANOMALY",
-        "ANONYMOUSLY",
-        "ANSWERING",
-        "ANTENNAS",
-        "ANTHROPOLOGY",
-        "ANTIBODIES",
-        "ANTIBODY",
-        "ANTICIPATING",
-        "ANTIMICROBIAL",
-        "ANTIOXIDANTS",
-        "ANTIQUATED",
-        "ANTIQUE"
-      ]
-    },
-    {
-      "name": "Memory Lane 18",
-      "words": [
-        "ANTISEPTIC",
-        "ANTITRUST",
-        "ANXIETY",
-        "ANYHOW",
-        "ANYWHERE",
-        "APARTHEID",
-        "APOCALYPTIC",
-        "APOLOGETIC",
-        "APOLOGISED",
-        "APOLOGIST",
-        "APOLOGISTS",
-        "APOLOGIZING"
-      ]
-    },
-    {
-      "name": "Traditions 19",
-      "words": [
-        "APPALACHIAN",
-        "APPALLED",
-        "APPARATUS",
-        "APPEAR",
-        "APPEARANCE",
-        "APPEARANCES",
-        "APPEARED",
-        "APPELLANT",
-        "APPENDIX",
-        "APPLAUDING",
-        "APPLIANCES",
-        "APPLICANT"
-      ]
-    },
-    {
-      "name": "Seasonal Moments 20",
-      "words": [
-        "APPLICATIONS",
-        "APPOINT",
-        "APPOINTMENT",
-        "APPRAISAL",
-        "APPRECIATED",
-        "APPRECIATES",
-        "APPRECIATION",
-        "APPRECIATIVE",
-        "APPREHENSION",
-        "APPRENTICES",
-        "APPROACH",
-        "APPROACHED"
-      ]
-    },
-    {
-      "name": "Favorites 21",
-      "words": [
-        "APPROVING",
-        "APRICOT",
-        "APROPOS",
-        "APTITUDE",
-        "AQUEDUCT",
-        "ARABIAN",
-        "ARBITRAGE",
-        "ARBITRARILY",
-        "ARCHAEOLOGY",
-        "ARCHEOLOGY",
-        "ARCHERS",
-        "ARCHITECTS"
-      ]
-    },
-    {
-      "name": "Celebrations 22",
-      "words": [
-        "ARCHITECTURAL",
-        "ARCHIVAL",
-        "ARDENT",
-        "ARGENTINE",
-        "ARISTOCRACY",
-        "ARISTOCRAT",
-        "ARITHMETIC",
-        "ARMENIANS",
-        "ARMISTICE",
-        "ARMOURED",
-        "AROMATIC",
-        "ARRANGEMENTS"
-      ]
-    },
-    {
-      "name": "Cozy Details 23",
-      "words": [
-        "ARRANGING",
-        "ARRHYTHMIA",
         "ARROGANT",
-        "ARSENIC",
-        "ARTHRITIS",
-        "ARTIFICIAL",
-        "ARTISAN",
-        "ARTISANS",
-        "ASBESTOS",
-        "ASCEND",
-        "ASCERTAIN",
-        "ASCETIC"
-      ]
-    },
-    {
-      "name": "Memory Lane 24",
-      "words": [
-        "ASCRIBED",
-        "ASHAMED",
-        "ASPARAGUS",
-        "ASPIRATION",
-        "ASPIRATIONS",
-        "ASPIRE",
-        "ASPIRIN",
-        "ASSASSIN",
-        "ASSASSINATION",
-        "ASSEMBLAGE",
-        "ASSEMBLING",
-        "ASSERTED"
-      ]
-    },
-    {
-      "name": "Traditions 25",
-      "words": [
-        "ASSERTING",
-        "ASSERTIONS",
-        "ASSERTIVE",
-        "ASSIGNED",
-        "ASSIMILATE",
-        "ASSIMILATION",
-        "ASSIST",
-        "ASSISTANT",
-        "ASSOCIATE",
-        "ASSOCIATION",
-        "ASSOCIATIONS",
-        "ASSORTMENT"
-      ]
-    },
-    {
-      "name": "Seasonal Moments 26",
-      "words": [
-        "ASSUMED",
-        "ASSUMPTIONS",
-        "ASSURANCE",
-        "ASSURANCES",
-        "ASSYRIANS",
+        "ARISTOCRACY",
+        "ACCOUNTABLE",
         "ASTEROIDS",
-        "ASTOUNDED",
-        "ASTROLOGY",
-        "ASYMPTOMATIC",
-        "ATHENA",
-        "ATHENS",
-        "ATHLETICS"
+        "BLOWER",
+        "BROADCASTED",
+        "BAMBOO",
+        "ANDREW"
       ]
     },
     {
-      "name": "Favorites 27",
+      "name": "Puzzle 02",
+      "words": [
+        "AUSTERITY",
+        "BAFFLING",
+        "ADJUSTS",
+        "BATTLES",
+        "BITTER",
+        "ANTICIPATING",
+        "ASSORTMENT",
+        "BIOGRAPHIES",
+        "BLENDS",
+        "BRAVEST",
+        "AVERAGE",
+        "ANALOGIES"
+      ]
+    },
+    {
+      "name": "Puzzle 03",
+      "words": [
+        "ARISTOCRAT",
+        "ASTOUNDED",
+        "APOLOGISED",
+        "BABYSIT",
+        "AEROBIC",
+        "ADDENDUM",
+        "BATTLESHIPS",
+        "APPOINTMENT",
+        "AVIONICS",
+        "AEROPLANE",
+        "BENDER",
+        "ASPIRATIONS"
+      ]
+    },
+    {
+      "name": "Puzzle 04",
+      "words": [
+        "ANDREA",
+        "ADJUSTING",
+        "BOXERS",
+        "ATHENS",
+        "ANNIHILATE",
+        "BROKERS",
+        "BEARDED",
+        "AUTHORITARIAN",
+        "BRIDGEWATER",
+        "AROMATIC",
+        "APPLAUDING",
+        "ANCIENT"
+      ]
+    },
+    {
+      "name": "Puzzle 05",
+      "words": [
+        "AGRARIAN",
+        "BEDSIDE",
+        "ADELAIDE",
+        "ALLEYS",
+        "ACCOMPLICE",
+        "ADVISORY",
+        "BERSERK",
+        "AUTONOMIC",
+        "BROADCASTER",
+        "ADVERTISEMENT",
+        "BROWSERS",
+        "ARABIAN"
+      ]
+    },
+    {
+      "name": "Puzzle 06",
+      "words": [
+        "ALGIERS",
+        "ATHENA",
+        "ANCHORED",
+        "AUSTRALASIAN",
+        "ALLUDED",
+        "BRUNSWICK",
+        "ANTIBODY",
+        "BROCCOLI",
+        "ASSERTIONS",
+        "APPOINT",
+        "ADVENTURER",
+        "ANOMALY"
+      ]
+    },
+    {
+      "name": "Puzzle 07",
+      "words": [
+        "ANTIOXIDANTS",
+        "BARBARIANS",
+        "BLOCKADED",
+        "AUDIOVISUAL",
+        "ANGLING",
+        "BLENDED",
+        "ALLEGES",
+        "BLUEPRINT",
+        "ASSOCIATIONS",
+        "APROPOS",
+        "BABCOCK",
+        "ASPIRIN"
+      ]
+    },
+    {
+      "name": "Puzzle 08",
+      "words": [
+        "ADHERENCE",
+        "APPEAR",
+        "ASSIMILATION",
+        "BIBLIOGRAPHY",
+        "BALDWIN",
+        "ASPARAGUS",
+        "ARTISAN",
+        "BIOHAZARD",
+        "AUTHORITATIVE",
+        "BAKERS",
+        "BANDAGED",
+        "ANTIQUATED"
+      ]
+    },
+    {
+      "name": "Puzzle 09",
+      "words": [
+        "ANTIQUE",
+        "ALLERGIC",
+        "BINOCULARS",
+        "ANDREAS",
+        "AWAKENING",
+        "BACKWARD",
+        "ACCELERATING",
+        "AUTHORITY",
+        "APPREHENSION",
+        "ADJUTANT",
+        "BADMINTON",
+        "ADDICTS"
+      ]
+    },
+    {
+      "name": "Puzzle 10",
+      "words": [
+        "ALMONDS",
+        "ACCOMPLISHED",
+        "ACADEMIA",
+        "ANTITRUST",
+        "AFTERWARD",
+        "BRIDGET",
+        "BRIEFS",
+        "ALADDIN",
+        "APPROACHED",
+        "ASSUMPTIONS",
+        "BACHELOR",
+        "ACCUSING"
+      ]
+    },
+    {
+      "name": "Puzzle 11",
+      "words": [
+        "BRUISES",
+        "BARREN",
+        "ASSEMBLING",
+        "ARBITRAGE",
+        "AUSTRIA",
+        "AGRIBUSINESS",
+        "ALLOCATED",
+        "ALTERNATING",
+        "ANXIETY",
+        "ADVISABLE",
+        "ADVANCED",
+        "BRADFORD"
+      ]
+    },
+    {
+      "name": "Puzzle 12",
       "words": [
         "ATMOSPHERE",
-        "ATROCITIES",
-        "ATROCITY",
-        "ATTACHED",
+        "APOLOGIZING",
+        "BANSHEE",
+        "BREEZES",
+        "AUDITOR",
+        "ALTERNATIVES",
+        "AMBUSHED",
+        "BATCHES",
+        "APPLIANCES",
+        "BITTERLY",
+        "AMBROSE",
+        "BARBECUE"
+      ]
+    },
+    {
+      "name": "Puzzle 13",
+      "words": [
+        "BLINDED",
+        "APPLICATIONS",
+        "BEREAVED",
+        "ALBERTO",
+        "BOILER",
+        "BRIEFINGS",
+        "BOULEVARD",
+        "ACCORDANCE",
+        "BREAKAWAY",
+        "BEETLE",
+        "ASSOCIATE",
+        "APPRECIATED"
+      ]
+    },
+    {
+      "name": "Puzzle 14",
+      "words": [
+        "BRUNETTE",
+        "AQUEDUCT",
+        "BRAKES",
+        "BATSMAN",
+        "AMOROUS",
+        "BEREAVEMENT",
+        "ADMITTED",
+        "ANYWHERE",
+        "BIOLOGISTS",
+        "BLASTER",
+        "BARRETT",
+        "ALLEGHENY"
+      ]
+    },
+    {
+      "name": "Puzzle 15",
+      "words": [
+        "AMASSING",
+        "BODYGUARD",
+        "BRUISED",
+        "ANTENNAS",
+        "ARRANGEMENTS",
+        "ADJUSTED",
+        "ACETAMINOPHEN",
+        "BELTING",
+        "BREEDER",
+        "ASSURANCE",
+        "BLUEBERRY",
+        "BOHEMIA"
+      ]
+    },
+    {
+      "name": "Puzzle 16",
+      "words": [
+        "BIOMASS",
+        "AUDIENCE",
+        "BOMBERS",
+        "ADIPOSE",
+        "AGGRAVATED",
+        "BOOKLETS",
+        "BELFAST",
+        "BITCHING",
+        "AUSTIN",
+        "ASYMPTOMATIC",
+        "ARDENT",
+        "BRAKING"
+      ]
+    },
+    {
+      "name": "Puzzle 17",
+      "words": [
+        "ACTIVELY",
+        "AUDIENCES",
+        "APRICOT",
+        "ALCHEMIST",
+        "BARONET",
+        "ALEXANDRA",
+        "ADJUSTABLE",
+        "BELONGED",
+        "BROOKLYN",
+        "BENCHMARKS",
+        "ARBITRARILY",
+        "ASCERTAIN"
+      ]
+    },
+    {
+      "name": "Puzzle 18",
+      "words": [
+        "BLACKED",
+        "BEGGARS",
+        "ADOPTIVE",
+        "APPLICANT",
+        "ALDERMEN",
+        "AUDITIONS",
+        "BATHING",
+        "BOOSTED",
+        "AGITATION",
+        "APARTHEID",
+        "AUTUMN",
+        "ADVERSARY"
+      ]
+    },
+    {
+      "name": "Puzzle 19",
+      "words": [
+        "BERKSHIRE",
+        "APTITUDE",
+        "BOOKKEEPING",
+        "AUDACITY",
+        "BAKING",
+        "BANQUETS",
+        "AMATEURS",
+        "BLASTED",
+        "ARITHMETIC",
+        "ANNOTATED",
+        "BLOODSHED",
+        "ACTUALITY"
+      ]
+    },
+    {
+      "name": "Puzzle 20",
+      "words": [
+        "BARRISTER",
+        "BOTCHED",
+        "BLENDER",
+        "BISCUITS",
+        "ALASKAN",
+        "AMAZES",
+        "BANGED",
+        "AMPHETAMINES",
+        "BETRAY",
+        "AMERICAS",
+        "ALEPPO",
+        "AFFILIATES"
+      ]
+    },
+    {
+      "name": "Puzzle 21",
+      "words": [
+        "APOCALYPTIC",
+        "BITTERNESS",
+        "ADRENALIN",
+        "BISEXUAL",
+        "ANGLED",
+        "ASSASSINATION",
+        "AMBULANCE",
+        "ASSERTED",
+        "ADMINISTERS",
+        "APPRECIATES",
         "ATTACHMENTS",
-        "ATTAINMENT",
-        "ATTEMPTED",
-        "ATTENDEES",
-        "ATTRACTED",
+        "BREWED"
+      ]
+    },
+    {
+      "name": "Puzzle 22",
+      "words": [
+        "BENZENE",
+        "BOLLOCKS",
+        "ADORED",
+        "BOTHERS",
+        "APPELLANT",
+        "BENEFACTOR",
+        "BARTER",
+        "BOUNDS",
+        "ADDITIVE",
+        "AGGRESSIVELY",
+        "BROADEST",
+        "AGONIST"
+      ]
+    },
+    {
+      "name": "Puzzle 23",
+      "words": [
+        "BLESSES",
+        "ABSORBED",
+        "BOOKSHOP",
+        "AGEING",
+        "APPRECIATIVE",
+        "AFFECTIVE",
+        "ACCUMULATE",
+        "BOOKMARKS",
+        "BICENTENNIAL",
+        "AFFLUENT",
+        "ADAMANT",
+        "BOWLING"
+      ]
+    },
+    {
+      "name": "Puzzle 24",
+      "words": [
+        "BLURRING",
+        "ALTERCATION",
+        "APPROACH",
+        "ACCUMULATES",
+        "BIRKENHEAD",
+        "ARRHYTHMIA",
+        "ACCOUNTING",
+        "AUSPICES",
+        "BREATHS",
+        "AFFORDS",
+        "BLENDING",
+        "BALANCES"
+      ]
+    },
+    {
+      "name": "Puzzle 25",
+      "words": [
+        "BOASTING",
+        "AVENGERS",
+        "BAHADUR",
+        "BRETHREN",
+        "BOOING",
+        "ANTISEPTIC",
+        "BEAUTIFULLY",
+        "BASKET",
+        "ARTIFICIAL",
+        "ANEMIA",
+        "AUSTRALIANS",
+        "BLOCKS"
+      ]
+    },
+    {
+      "name": "Puzzle 26",
+      "words": [
+        "ANCIENTS",
+        "ANCESTRAL",
+        "BRIEFCASE",
+        "ALGERIA",
+        "BOARDED",
+        "ASSURANCES",
+        "BROKERAGE",
+        "ACCOMPLISHMENT",
+        "AGILITY",
+        "ACCOMPLISHMENTS",
+        "BLIZZARD",
+        "ANTIMICROBIAL"
+      ]
+    },
+    {
+      "name": "Puzzle 27",
+      "words": [
+        "ABRASION",
+        "BEAGLE",
+        "ADVOCACY",
+        "BROKEN",
+        "BERGER",
+        "BEFOREHAND",
+        "ARCHERS",
+        "ALLIANCES",
+        "ARRANGING",
+        "ACCEPTED",
+        "BREWERY",
+        "ARMOURED"
+      ]
+    },
+    {
+      "name": "Puzzle 28",
+      "words": [
+        "BIKING",
+        "ALBANIAN",
+        "BICYCLES",
         "ATTRACTIONS",
+        "ADVERTISE",
+        "AMICABLE",
+        "BLOOMED",
+        "BLACKSMITH",
+        "ALLERGY",
+        "BOUNDED",
+        "ATTEMPTED",
+        "BANISH"
+      ]
+    },
+    {
+      "name": "Puzzle 29",
+      "words": [
+        "AGREEING",
+        "BOOTLEG",
+        "ANARCHISM",
+        "ANGOLA",
+        "ALTOGETHER",
+        "BLACKBIRD",
+        "BRUSHES",
+        "ACADEMIC",
+        "BARBARIAN",
+        "ATROCITIES",
+        "APOLOGISTS",
+        "ANCHOR"
+      ]
+    },
+    {
+      "name": "Puzzle 30",
+      "words": [
+        "BEARISH",
+        "BARBADOS",
+        "ASTROLOGY",
+        "BOUTIQUE",
+        "ASSYRIANS",
+        "BRITISH",
+        "ATROCITY",
+        "ARCHAEOLOGY",
+        "ALFALFA",
+        "ABSENCES",
+        "ANNOYED",
+        "AUTHORIZE"
+      ]
+    },
+    {
+      "name": "Puzzle 31",
+      "words": [
+        "AVOIDANCE",
+        "APPRAISAL",
+        "BORROWING",
+        "ARSENIC",
+        "ACCIDENTAL",
+        "AMETHYST",
+        "ASSEMBLAGE",
+        "ABSOLVE",
+        "BATTLEFIELD",
+        "ALTERNATIVELY",
+        "AMPLIFIED",
+        "ASPIRATION"
+      ]
+    },
+    {
+      "name": "Puzzle 32",
+      "words": [
+        "AGGREGATOR",
+        "BOREDOM",
+        "ADVANCES",
+        "AMPHIBIAN",
+        "ADMINISTRATIONS",
+        "BROADCASTS",
+        "BEQUEATHED",
+        "APPRENTICES",
+        "ACCUMULATOR",
+        "AVENUES",
+        "ARMISTICE",
+        "ARMENIANS"
+      ]
+    },
+    {
+      "name": "Puzzle 33",
+      "words": [
+        "BIDDER",
+        "APPENDIX",
+        "BEHEADED",
+        "BEARDS",
+        "BEDROCK",
+        "ACCOMPLISHES",
+        "AUTOMOTIVE",
+        "ASBESTOS",
+        "ASCEND",
+        "BAGGAGE",
+        "BEVERAGES",
+        "ASSOCIATION"
+      ]
+    },
+    {
+      "name": "Puzzle 34",
+      "words": [
+        "BIRACIAL",
+        "AWKWARDLY",
+        "ASCETIC",
+        "BANKRUPTCY",
+        "BENGALI",
+        "ACCORD",
+        "AERONAUTICAL",
+        "ALTERATION",
+        "ACCOLADES",
+        "BESPOKE",
+        "ARTISANS",
+        "ABUSING"
+      ]
+    },
+    {
+      "name": "Puzzle 35",
+      "words": [
+        "BANDAGE",
+        "ADVANCEMENT",
+        "BESTOWED",
+        "AMOUNTING",
+        "ANYHOW",
+        "ATHLETICS",
+        "BACKGROUNDS",
+        "AGENCY",
+        "AUGMENTED",
+        "BIRDSONG",
+        "ASSUMED",
+        "BEGOTTEN"
+      ]
+    },
+    {
+      "name": "Puzzle 36",
+      "words": [
+        "ANIMATOR",
+        "ATTAINMENT",
+        "BEETHOVEN",
+        "BERNICE",
+        "ASPIRE",
+        "BRANCHES",
+        "AIRFIELD",
+        "BLAZER",
+        "AUGUSTUS",
+        "ALTITUDE",
+        "ABOMINABLE",
+        "BATTALIONS"
+      ]
+    },
+    {
+      "name": "Puzzle 37",
+      "words": [
+        "ANNUITIES",
+        "ADAPTATIONS",
+        "AMBIENT",
+        "ACQUISITIONS",
+        "AEROSOL",
+        "BANDIT",
+        "ADORNED",
+        "AMENITIES",
+        "ACCENTED",
+        "BLEACH",
+        "ALTERING",
+        "AUTOMATIC"
+      ]
+    },
+    {
+      "name": "Puzzle 38",
+      "words": [
+        "ALGEBRAS",
+        "ABORIGINAL",
+        "AWARENESS",
+        "BLUEBIRD",
+        "ALLURING",
+        "BACTERIUM",
+        "ALLERGENS",
+        "ABBREVIATION",
+        "BRIDES",
+        "BHUTAN",
+        "ARGENTINE",
+        "ALLUSIONS"
+      ]
+    },
+    {
+      "name": "Puzzle 39",
+      "words": [
+        "ADVERSITY",
+        "ANDERS",
+        "ASSERTIVE",
+        "BEFITTING",
+        "BILINGUAL",
+        "AIRFLOW",
+        "AWFULLY",
+        "APPROVING",
+        "BAPTIZED",
+        "AFFIRMATION",
+        "AISLES",
+        "BIOGRAPHICAL"
+      ]
+    },
+    {
+      "name": "Puzzle 40",
+      "words": [
+        "BACKLOG",
+        "APPEARANCE",
+        "ACCREDITED",
+        "ADMIRER",
+        "ASSIGNED",
+        "AMMONIA",
+        "ADVERSELY",
+        "ANONYMOUSLY",
+        "ALCOHOLISM",
+        "ACCOMMODATIONS",
+        "APOLOGETIC",
+        "BOOSTING"
+      ]
+    },
+    {
+      "name": "Puzzle 41",
+      "words": [
+        "BARCELONA",
+        "BROADEN",
+        "BIOPSY",
+        "APPEARED",
+        "AIRBAGS",
+        "APPALACHIAN",
+        "ASSIST",
+        "ARCHIVAL",
+        "ASSISTANT",
+        "BEAUMONT",
+        "BASTIAN",
+        "BOUTIQUES"
+      ]
+    },
+    {
+      "name": "Puzzle 42",
+      "words": [
+        "ATTACHED",
+        "ALGERIAN",
+        "BRUNCH",
+        "ANTIBODIES",
+        "BLATANT",
         "ATTRACTIVENESS",
+        "ASCRIBED",
+        "BARRING",
+        "ARCHITECTURAL",
+        "ANSWERING",
+        "BABYLONIAN",
+        "APPALLED"
+      ]
+    },
+    {
+      "name": "Puzzle 43",
+      "words": [
+        "ARCHITECTS",
+        "ASSASSIN",
+        "ALLIED",
+        "ATTRACTED",
+        "ACCEPTABILITY",
+        "ACCOMPLICES",
+        "AMBUSH",
+        "ARTHRITIS",
+        "AUTOMAKER",
+        "BEARABLE",
+        "ACCOUNTANTS",
+        "AFFILIATE"
+      ]
+    },
+    {
+      "name": "Puzzle 44",
+      "words": [
+        "APPEARANCES",
+        "VOCABULARY",
+        "APOLOGIST",
+        "BLOWJOB",
+        "APPARATUS",
+        "BRIGHTENED",
+        "ATTENDEES",
+        "ADOPTION",
+        "ADULTHOOD",
+        "BALLOON",
+        "ADJOURNED",
+        "BOOKSTORES"
+      ]
+    },
+    {
+      "name": "Puzzle 45",
+      "words": [
+        "BLOCKADE",
+        "BLAINE",
+        "ADORING",
+        "AUTISTIC",
+        "BACKWARDS",
+        "BOUNCING",
+        "AMIDST",
+        "ANALYSES",
+        "ADMIRALTY",
+        "APPRECIATION",
+        "ANGELIC",
         "AUCKLAND"
       ]
     },
     {
-      "name": "Celebrations 28",
+      "name": "Puzzle 46",
       "words": [
-        "AUDACITY",
-        "AUDIENCE",
-        "AUDIENCES",
-        "AUDIOVISUAL",
-        "AUDITIONS",
-        "AUDITOR",
-        "AUGMENTED",
-        "AUGUSTA",
-        "AUGUSTUS",
-        "AUSPICES",
-        "AUSTERITY",
-        "AUSTIN"
-      ]
-    },
-    {
-      "name": "Cozy Details 29",
-      "words": [
-        "AUSTRALASIAN",
-        "AUSTRALIANS",
-        "AUSTRIA",
-        "AUTHORITARIAN",
-        "AUTHORITATIVE",
-        "AUTHORITY",
-        "AUTHORIZE",
-        "AUTISTIC",
-        "AUTOMAKER",
-        "AUTOMATIC",
-        "AUTOMOTIVE",
-        "AUTONOMIC"
-      ]
-    },
-    {
-      "name": "Memory Lane 30",
-      "words": [
-        "AUTUMN",
-        "AVENGERS",
-        "AVENUES",
-        "AVERAGE",
-        "AVIONICS",
-        "AVOIDANCE",
-        "AWAITED",
-        "AWAKENING",
-        "AWARENESS",
-        "AWFULLY",
-        "AWKWARDLY",
-        "AYRSHIRE"
-      ]
-    },
-    {
-      "name": "Traditions 31",
-      "words": [
-        "BABCOCK",
-        "BABYLONIAN",
-        "BABYSIT",
-        "BACHELOR",
-        "BACKDROP",
-        "BACKGROUNDS",
-        "BACKLOG",
-        "BACKUPS",
-        "BACKWARD",
-        "BACKWARDS",
-        "BACTERIUM",
-        "BADMINTON"
-      ]
-    },
-    {
-      "name": "Seasonal Moments 32",
-      "words": [
-        "BAFFLING",
-        "BAGGAGE",
-        "BAHADUR",
-        "BAKERS",
-        "BAKING",
-        "BALANCES",
-        "BALDWIN",
-        "BALKAN",
-        "BALLOON",
-        "BAMBOO",
-        "BANDAGE",
-        "BANDAGED"
-      ]
-    },
-    {
-      "name": "Favorites 33",
-      "words": [
-        "BANDIT",
-        "BANGED",
-        "BANISH",
-        "BANKRUPTCY",
-        "BANQUETS",
-        "BANSHEE",
-        "BAPTIZED",
-        "BARBADOS",
-        "BARBARIAN",
-        "BARBARIANS",
-        "BARBECUE",
-        "BARCELONA"
-      ]
-    },
-    {
-      "name": "Celebrations 34",
-      "words": [
-        "BARONET",
-        "BAROQUE",
-        "BARREN",
-        "BARRETT",
-        "BARRING",
-        "BARRISTER",
-        "BARTER",
-        "BASKET",
-        "BASTIAN",
-        "BATCHES",
-        "BATHING",
-        "BATSMAN"
-      ]
-    },
-    {
-      "name": "Cozy Details 35",
-      "words": [
-        "BATTALIONS",
-        "BATTLEFIELD",
-        "BATTLES",
-        "BATTLESHIP",
-        "BATTLESHIPS",
-        "BEAGLE",
-        "BEARABLE",
-        "BEARDED",
-        "BEARDS",
-        "BEARISH",
-        "BEAUMONT",
-        "BEAUTIFULLY"
-      ]
-    },
-    {
-      "name": "Memory Lane 36",
-      "words": [
-        "BEDROCK",
-        "BEDSIDE",
-        "BEDTIME",
-        "BEETHOVEN",
-        "BEETLE",
-        "BEFITTING",
-        "BEFOREHAND",
-        "BEGGARS",
-        "BEGOTTEN",
-        "BEHEADED",
-        "BELFAST",
-        "BELONGED"
-      ]
-    },
-    {
-      "name": "Traditions 37",
-      "words": [
-        "BELTING",
-        "BENCHMARKS",
-        "BENDER",
-        "BENEFACTOR",
-        "BENGALI",
-        "BENZENE",
-        "BEQUEATHED",
-        "BEREAVED",
-        "BEREAVEMENT",
-        "BERGER",
-        "BERKSHIRE",
-        "BERNICE"
-      ]
-    },
-    {
-      "name": "Seasonal Moments 38",
-      "words": [
-        "BERSERK",
-        "BERTRAND",
-        "BESPOKE",
-        "BESTOWED",
-        "BETRAY",
-        "BEVERAGES",
-        "BHUTAN",
-        "BIBLIOGRAPHY",
-        "BICENTENNIAL",
-        "BICYCLE",
-        "BICYCLES",
-        "BIDDER"
-      ]
-    },
-    {
-      "name": "Favorites 39",
-      "words": [
-        "BIKING",
-        "BILINGUAL",
-        "BINOCULARS",
-        "BIOGRAPHICAL",
-        "BIOGRAPHIES",
-        "BIOHAZARD",
-        "BIOLOGISTS",
-        "BIOMASS",
-        "BIOPSY",
         "BIPARTISAN",
-        "BIRACIAL",
-        "BIRDSONG"
-      ]
-    },
-    {
-      "name": "Celebrations 40",
-      "words": [
-        "BIRKENHEAD",
-        "BISCUITS",
-        "BISEXUAL",
-        "BITCHING",
-        "BITTER",
-        "BITTERLY",
-        "BITTERNESS",
-        "BLACKBIRD",
-        "BLACKED",
-        "BLACKSMITH",
-        "BLAINE",
-        "BLASTED"
-      ]
-    },
-    {
-      "name": "Cozy Details 41",
-      "words": [
-        "BLASTER",
-        "BLATANT",
-        "BLAZER",
-        "BLEACH",
-        "BLENDED",
-        "BLENDER",
-        "BLENDING",
-        "BLENDS",
-        "BLESSES",
-        "BLINDED",
-        "BLISTERS",
-        "BLIZZARD"
-      ]
-    },
-    {
-      "name": "Memory Lane 42",
-      "words": [
-        "BLOCKADE",
-        "BLOCKADED",
-        "BLOCKER",
-        "BLOCKS",
-        "BLOODSHED",
-        "BLOOMED",
-        "BLOWER",
-        "BLOWJOB",
-        "BLUEBERRY",
-        "BLUEBIRD",
-        "BLUEPRINT",
-        "BLURRING"
-      ]
-    },
-    {
-      "name": "Traditions 43",
-      "words": [
-        "BOARDED",
-        "BOASTING",
-        "BODILY",
-        "BODYGUARD",
-        "BOHEMIA",
-        "BOILER",
-        "BOLLOCKS",
-        "BOMBERS",
-        "BOOING",
+        "BEDTIME",
+        "BACKUPS",
+        "ABOLISHING",
+        "BICYCLE",
+        "BERTRAND",
+        "ARCHEOLOGY",
         "BOOKING",
-        "BOOKKEEPING",
-        "BOOKLETS"
+        "BODILY",
+        "AMORTIZATION",
+        "ACRYLIC",
+        "ANTHROPOLOGY"
       ]
     },
     {
-      "name": "Seasonal Moments 44",
+      "name": "Puzzle 47",
       "words": [
-        "BOOKMARKS",
-        "BOOKSHOP",
-        "BOOKSTORES",
-        "BOOSTED",
-        "BOOSTING",
-        "BOOTLEG",
-        "BOREDOM",
-        "BORROWING",
-        "BOTCHED",
-        "BOTHERS",
+        "BAROQUE",
+        "AWAITED",
         "BOTSWANA",
-        "BOULEVARD"
-      ]
-    },
-    {
-      "name": "Favorites 45",
-      "words": [
-        "BOUNCING",
-        "BOUNDED",
-        "BOUNDS",
-        "BOUTIQUE",
-        "BOUTIQUES",
-        "BOWLING",
-        "BOXERS",
-        "BRADFORD",
+        "ABSENCE",
         "BRAGGING",
-        "BRAKES",
-        "BRAKING",
-        "BRANCHES"
+        "ACCEPT",
+        "ACCORDINGLY",
+        "BALKAN",
+        "ASHAMED",
+        "ASSIMILATE",
+        "AFGHANISTAN",
+        "ALUMNI"
       ]
     },
     {
-      "name": "Celebrations 46",
+      "name": "Puzzle 48",
       "words": [
         "BRAVELY",
-        "BRAVEST",
-        "BREACHED",
-        "BREAKAWAY",
         "BREAKERS",
-        "BREATHS",
-        "BREEDER",
-        "BREEZES",
-        "BRETHREN",
-        "BREWED",
-        "BREWERY",
-        "BRIDES"
-      ]
-    },
-    {
-      "name": "Cozy Details 47",
-      "words": [
-        "BRIDGET",
-        "BRIDGEWATER",
-        "BRIEFCASE",
-        "BRIEFINGS",
-        "BRIEFS",
-        "BRIGHTENED",
-        "BRITISH",
-        "BROADCASTED",
-        "BROADCASTER",
-        "BROADCASTS",
-        "BROADEN",
-        "BROADEST"
-      ]
-    },
-    {
-      "name": "Memory Lane 48",
-      "words": [
-        "BROCCOLI",
-        "BROKEN",
-        "BROKERAGE",
-        "BROKERS",
-        "BROOKLYN",
-        "BROWSERS",
-        "BRUISED",
-        "BRUISES",
-        "BRUNCH",
-        "BRUNETTE",
-        "BRUNSWICK",
-        "BRUSHES"
+        "AYRSHIRE",
+        "BREACHED",
+        "ASSERTING",
+        "ADMIRABLY",
+        "ACCUSATIONS",
+        "AUGUSTA",
+        "ADOPTING",
+        "BATTLESHIP",
+        "BLISTERS",
+        "AGGREGATES"
       ]
     }
-  ]
+  ],
+  "quality_review": {
+    "production_ready": true,
+    "verdict": "REBUILT",
+    "notes": [
+      "Seeded non-alphabetical allocation",
+      "Honest vocabulary page labels",
+      "Reported sensitive mismatch replaced"
+    ]
+  }
 }

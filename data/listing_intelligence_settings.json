@@ -1,0 +1,6 @@
+{
+  "enabled": true,
+  "provider_order": ["gemini", "local_fallback"],
+  "preserve_human_edits": true,
+  "note": "Gemini is the primary optional listing-intelligence source when configured. Verified facts, local validation, and deterministic fallback remain required."
+}

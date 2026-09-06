@@ -9,8 +9,13 @@ out/
 .pytest_cache/
 
 .venv/
+.venv-32bit-backup/
+.venv64/
 tmp/
 backups/
+archive/
+reports/
+desktop_launcher_dist/
 
 *.db
 *.sqlite
@@ -20,6 +25,8 @@ production_lock.json
 launch_batch_tracker.json
 recent_themes.json
 theme_completion_report.txt
+error_log.json
+data/error_logs/
 
 word_banks/*.before*
 
@@ -27,3 +34,5 @@ word_banks/*.before*
 word_banks/word_intelligence/repair_plans/
 word_banks/word_intelligence/snapshots/
 word_banks/word_intelligence/review_queue.json
+word_banks/word_intelligence/word_store.pre_*.json
+word_banks/word_intelligence/word_store.previous.json

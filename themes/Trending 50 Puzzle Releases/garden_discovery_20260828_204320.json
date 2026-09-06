@@ -1,0 +1,880 @@
+{
+  "title": "Garden Discovery Word Search",
+  "subtitle": "50 large-print puzzles for flower, plant and homegrown fun",
+  "author": "Jordan M. Slade",
+  "series": "Slade Puzzle Co. Garden Discovery Series",
+  "audience": "Adults and Teens",
+  "palette": "spring-meadow",
+  "recommended_palette": "spring-meadow",
+  "cover_style": "photo",
+  "recommended_cover_style": "photo",
+  "cover_badge": "50 LARGE-PRINT PUZZLES • NO REPEATED WORDS",
+  "cover_imprint": "Slade Puzzle Co.",
+  "no_repeat_words": true,
+  "difficulty_label": "Relaxing",
+  "detected_topic": "Gardening",
+  "source_word_bank": {
+    "name": "Guided Builder Master Word Bank",
+    "topics": [
+      "Gardening and Garden Life",
+      "Homesteading"
+    ],
+    "selection_policy": "Direct named-topic pool; normalized, unique, 3–21 letters"
+  },
+  "clipart_search_terms": "Gardening",
+  "puzzles": [
+    {
+      "name": "Gardening Puzzle 01",
+      "words": [
+        "HARVESTMEAL",
+        "PRUNINGKNIFE",
+        "GOATSHED",
+        "CURRANTBUSH",
+        "FEEDSTORE",
+        "CREAMSEPARATOR",
+        "FENCEGATE",
+        "SPRINGWATER",
+        "COWBELL",
+        "PERENNIALBED",
+        "COLDFRAME",
+        "BARNRAISER"
+      ]
+    },
+    {
+      "name": "Gardening Puzzle 02",
+      "words": [
+        "RURALMARKET",
+        "KALEIDOSCOPE",
+        "ACREAGE",
+        "AMARANTH",
+        "ARBORVITAE",
+        "STOCKYARD",
+        "TULIP",
+        "CELLAR",
+        "BUCKWHEAT",
+        "TRAILERING",
+        "PIECRUST",
+        "FIREPITSTONE"
+      ]
+    },
+    {
+      "name": "Gardening Puzzle 03",
+      "words": [
+        "SHELFPAPER",
+        "CLAYPOT",
+        "CHEESEBOARD",
+        "ALYSSUM",
+        "LIVESTOCKFEED",
+        "CORN",
+        "FLOWERGARDEN",
+        "WOODBUCKET",
+        "CARAWAY",
+        "PEACHTREE",
+        "COWPASTURE",
+        "FIELDGUIDE"
+      ]
+    },
+    {
+      "name": "Gardening Puzzle 04",
+      "words": [
+        "PRESSURECANNER",
+        "RAINCOAT",
+        "GREENBEAN",
+        "COMPOSTING",
+        "CHEESEPRESS",
+        "MORNINGGLORY",
+        "GARDENINGGLOVES",
+        "BARNLIGHT",
+        "PEONY",
+        "BERRYBUSH",
+        "CHEESECURD",
+        "WASHERBOARD"
+      ]
+    },
+    {
+      "name": "Gardening Puzzle 05",
+      "words": [
+        "WASHBOARD",
+        "GARDENPEST",
+        "BASIL",
+        "STRAWBERRY",
+        "PINE",
+        "FRESHCREAM",
+        "NASTURTIUM",
+        "APPLEBUTTER",
+        "COWSMILK",
+        "ALLIUM",
+        "FROSTCLOTH",
+        "GROUNDNUT"
+      ]
+    },
+    {
+      "name": "Gardening Puzzle 06",
+      "words": [
+        "FIELDPEAS",
+        "PEANUT",
+        "WATERHOSE",
+        "OATMILK",
+        "HERBPRESS",
+        "MOSS",
+        "GARDENIA",
+        "SYRUP",
+        "SOURDOUGHLOAF",
+        "PICNIC",
+        "FARMSTEAD",
+        "SEEDPACKET"
+      ]
+    },
+    {
+      "name": "Gardening Puzzle 07",
+      "words": [
+        "LONGHORN",
+        "HERITAGEBREED",
+        "PASTURESEED",
+        "TARRAGON",
+        "REDCLOVER",
+        "EGGLAYER",
+        "ROOF",
+        "STRINGBEAN",
+        "GARDENBED",
+        "AIRPLANT",
+        "HARVESTBASKET",
+        "WATERCAN"
+      ]
+    },
+    {
+      "name": "Gardening Puzzle 08",
+      "words": [
+        "HOLLY",
+        "HAYFORK",
+        "CANDLEWICK",
+        "HERBGARDEN",
+        "TOOLBELT",
+        "CURRANT",
+        "TOMATILLO",
+        "APPLESAUCE",
+        "CABBAGEPATCH",
+        "SUNRISE",
+        "APRICOT",
+        "ROOTBALL"
+      ]
+    },
+    {
+      "name": "Gardening Puzzle 09",
+      "words": [
+        "SNOWFALL",
+        "GARDENPLANNING",
+        "SHOVEL",
+        "SOIL",
+        "DEHYDRATING",
+        "GREENHOUSEPOT",
+        "ENDIVE",
+        "EDIBLEGARDEN",
+        "CANNINGLID",
+        "POTTING",
+        "SEEDDRILL",
+        "SEEDLABEL"
+      ]
+    },
+    {
+      "name": "Gardening Puzzle 10",
+      "words": [
+        "PRODUCECART",
+        "BUCKET",
+        "PASTUREMIX",
+        "GOATPEN",
+        "KITCHENKNIFE",
+        "YARN",
+        "HERBSPIRAL",
+        "PEPPER",
+        "COLEUS",
+        "FLAXSEED",
+        "JAMJAR",
+        "WATERCRESS"
+      ]
+    },
+    {
+      "name": "Gardening Puzzle 11",
+      "words": [
+        "GARDENPLOT",
+        "KITCHENGARDEN",
+        "WATERINGWAND",
+        "WINDOWBOX",
+        "HORSEPASTURE",
+        "CELANDINE",
+        "WICKER",
+        "LARDER",
+        "MOLASSESJAR",
+        "NATURALSOAP",
+        "LANTANA",
+        "RAINBARREL"
+      ]
+    },
+    {
+      "name": "Gardening Puzzle 12",
+      "words": [
+        "IRRIGATION",
+        "PERENNIAL",
+        "HARVESTMOON",
+        "STRAWHAT",
+        "PRODUCEWASH",
+        "OSTEOSPERMUM",
+        "TOOLCHEST",
+        "SEEDLINGTRAY",
+        "HORSEFEED",
+        "SOAPDISH",
+        "FROST",
+        "KITCHENRACK"
+      ]
+    },
+    {
+      "name": "Gardening Puzzle 13",
+      "words": [
+        "GARDENHARVEST",
+        "BEANSTALK",
+        "GARDENMARKER",
+        "CROPTUNNEL",
+        "PRAIRIEHAY",
+        "SEEDPRESS",
+        "PLOW",
+        "WEIGELA",
+        "COWSHED",
+        "SEEDPOTATO",
+        "MOUNTAIN",
+        "BEESWING"
+      ]
+    },
+    {
+      "name": "Gardening Puzzle 14",
+      "words": [
+        "AGROFORESTRY",
+        "GARDENBASKET",
+        "GARDENFORK",
+        "KNIFEHANDLE",
+        "TRANSPLANTING",
+        "LANDPLOT",
+        "HYDRANGEABUSH",
+        "BRUSSELSPROUT",
+        "FIELDCROP",
+        "SELFRELIANCE",
+        "TAP",
+        "COBBLESTONE"
+      ]
+    },
+    {
+      "name": "Gardening Puzzle 15",
+      "words": [
+        "FRAGRANCEGARDEN",
+        "VALERIAN",
+        "HAYBALE",
+        "BIRDNETTING",
+        "PIGFEED",
+        "FARMYARD",
+        "SORGHUM",
+        "APRON",
+        "SHEEPFOLD",
+        "ASPARAGUS",
+        "ROCKGARDEN",
+        "LIVESTOCKBARN"
+      ]
+    },
+    {
+      "name": "Gardening Puzzle 16",
+      "words": [
+        "FEEDMILL",
+        "NATIVEFLOWER",
+        "SEEDSTARTING",
+        "SHED",
+        "LEAFMOULD",
+        "FARMPATH",
+        "HERD",
+        "KETTLE",
+        "SEEDLINGPOT",
+        "COLDSMOKE",
+        "VICTORYGARDEN",
+        "COOPCRAFT"
+      ]
+    },
+    {
+      "name": "Gardening Puzzle 17",
+      "words": [
+        "GLACIER",
+        "CATTAIL",
+        "LAYINGHEN",
+        "ROSEMARY",
+        "HIKING",
+        "HABITAT",
+        "PRAIRIEGARDEN",
+        "SHADEGARDEN",
+        "SOLARCHARGER",
+        "PEPPERPLANT",
+        "PLANTSTAKE",
+        "DIANELLA"
+      ]
+    },
+    {
+      "name": "Gardening Puzzle 18",
+      "words": [
+        "BLOOM",
+        "SKY",
+        "APPLEBLOSSOM",
+        "FRESHBREAD",
+        "SMALLHOLDING",
+        "HEIRLOOM",
+        "SENSORYGARDEN",
+        "MEADOW",
+        "GARDENHOE",
+        "FIELD",
+        "YOKE",
+        "HYSSOP"
+      ]
+    },
+    {
+      "name": "Gardening Puzzle 19",
+      "words": [
+        "VIOLET",
+        "WHEELBARROW",
+        "GARDENLABEL",
+        "LEUCANTHEMUM",
+        "TOOLRACK",
+        "BARK",
+        "GARDENTWINE",
+        "CANNINGBATH",
+        "TRELLISARCH",
+        "SEEDBED",
+        "STAR",
+        "GRAPEFRUIT"
+      ]
+    },
+    {
+      "name": "Gardening Puzzle 20",
+      "words": [
+        "LINT",
+        "MINT",
+        "WATERPUMP",
+        "PUMPKINPATCH",
+        "GAZANIA",
+        "SNOWDROP",
+        "FORAGECROP",
+        "GARDENINGBOOK",
+        "MUSHROOMBED",
+        "CALFPEN",
+        "HERBBOX",
+        "KITCHENPLOT"
+      ]
+    },
+    {
+      "name": "Gardening Puzzle 21",
+      "words": [
+        "CORNFLOWER",
+        "CHICKENFEED",
+        "SHEEPDOG",
+        "CLOVERFIELD",
+        "LAMBPEN",
+        "DRIPPER",
+        "SOURMILK",
+        "GARDENPUMP",
+        "EGGWASH",
+        "ALLOTMENT",
+        "CABBAGEROW",
+        "WEATHERVANE"
+      ]
+    },
+    {
+      "name": "Gardening Puzzle 22",
+      "words": [
+        "PASTUREGATE",
+        "BULBPLANT",
+        "HUCKLEBERRY",
+        "YARNSPINNER",
+        "PRAIRIEGRASS",
+        "HONEYSUCKLE",
+        "SUGAR",
+        "MARSHMALLOW",
+        "PIGPEN",
+        "SQUASHPATCH",
+        "CHRYSANTHEMUM",
+        "PASTUREWALK"
+      ]
+    },
+    {
+      "name": "Gardening Puzzle 23",
+      "words": [
+        "RURALHOME",
+        "HYDRANGEA",
+        "MORNINGCHORES",
+        "JERKY",
+        "WINDOWSILL",
+        "ANISE",
+        "BEEKEEPER",
+        "FARMSTAND",
+        "BULB",
+        "LEEK",
+        "WILDCRAFT",
+        "YARDBIRD"
+      ]
+    },
+    {
+      "name": "Gardening Puzzle 24",
+      "words": [
+        "EARTHWORM",
+        "BOULDER",
+        "COLDBOX",
+        "KITCHENRANGE",
+        "VINCA",
+        "DOUGHBOX",
+        "COVERCROP",
+        "FIREPIT",
+        "SHALLOT",
+        "SOILAMENDMENT",
+        "GARLICBULB",
+        "APPLECIDER"
+      ]
+    },
+    {
+      "name": "Gardening Puzzle 25",
+      "words": [
+        "CANNING",
+        "EGGPLANT",
+        "PONDLIFE",
+        "BROODYHEN",
+        "WORKBOOTS",
+        "MARIGOLDBED",
+        "ROCK",
+        "CANNINGLABEL",
+        "STATICE",
+        "SILO",
+        "LANDSCAPING",
+        "GARDENARCH"
+      ]
+    },
+    {
+      "name": "Gardening Puzzle 26",
+      "words": [
+        "CHICKENCOOP",
+        "MASONJAR",
+        "PRESSURELID",
+        "CUTTINGGARDEN",
+        "FENCEPOST",
+        "FARMCART",
+        "MILKCAN",
+        "HANDFORK",
+        "COUNTRYSIDE",
+        "LILYPAD",
+        "FARMHOUSEBREAD",
+        "LADYBUG"
+      ]
+    },
+    {
+      "name": "Gardening Puzzle 27",
+      "words": [
+        "SPRING",
+        "NICOTIANA",
+        "SEEDTAPE",
+        "SUGARING",
+        "GRAPE",
+        "JAMCROCK",
+        "BEETSOUP",
+        "SOAPMAKING",
+        "OATMEAL",
+        "FARMFRESH",
+        "DESERTGARDEN",
+        "CLOTHESLINE"
+      ]
+    },
+    {
+      "name": "Gardening Puzzle 28",
+      "words": [
+        "RYE",
+        "SOILPROBE",
+        "EGGBASKET",
+        "POLYANTHUS",
+        "CARNATION",
+        "TRACTORSEAT",
+        "SHELFSTABLE",
+        "CHICKENWIRE",
+        "HOLLYHOCK",
+        "CORIANDER",
+        "KAYAK",
+        "COMPOSTHEAP"
+      ]
+    },
+    {
+      "name": "Gardening Puzzle 29",
+      "words": [
+        "ZUCCHINI",
+        "WATERBUTT",
+        "JERSEYCOW",
+        "HEARTHSTONE",
+        "TRACTORTRAIL",
+        "REDCURRANT",
+        "APPLEORCHARD",
+        "FOODSTORAGE",
+        "GRAPESHOT",
+        "WATERINGCAN",
+        "DAISY",
+        "LOGCABIN"
+      ]
+    },
+    {
+      "name": "Gardening Puzzle 30",
+      "words": [
+        "IRIS",
+        "STREAM",
+        "SEEDCOAT",
+        "ONIONBRAID",
+        "BEANPOLE",
+        "ALPINE",
+        "JASMINE",
+        "MAPLEWOOD",
+        "DAYLILY",
+        "HANDTOOL",
+        "SMOKEMEAT",
+        "BUTTERFLYGARDEN"
+      ]
+    },
+    {
+      "name": "Gardening Puzzle 31",
+      "words": [
+        "WOOL",
+        "ELDERFLOWER",
+        "RAINCHAIN",
+        "ORCHARDGRASS",
+        "CALENDULA",
+        "CHICKENS",
+        "FIGTREE",
+        "ORCHARDROW",
+        "HERBSALT",
+        "LEMON",
+        "STEVIA",
+        "GARDENCOMPANION"
+      ]
+    },
+    {
+      "name": "Gardening Puzzle 32",
+      "words": [
+        "CORNPONE",
+        "CREEK",
+        "GREENHOUSEFAN",
+        "GERMINATION",
+        "ALFALFA",
+        "GROWER",
+        "HORSESHOE",
+        "LIME",
+        "TOOLROOM",
+        "RANUNCULUS",
+        "GARDENLATTICE",
+        "PLUMTREE"
+      ]
+    },
+    {
+      "name": "Gardening Puzzle 33",
+      "words": [
+        "LIVESTOCKGUARD",
+        "KITCHENHERBS",
+        "SUGARBEET",
+        "HONEYCAKE",
+        "BERRY",
+        "THIMBLE",
+        "SPINNER",
+        "POTATO",
+        "GERMINATIONTEST",
+        "HENSHED",
+        "KIWI",
+        "LAKE"
+      ]
+    },
+    {
+      "name": "Gardening Puzzle 34",
+      "words": [
+        "TOMATO",
+        "APPLEPIE",
+        "PENSTEMON",
+        "RASPBERR",
+        "MULCHLAYER",
+        "COBWEB",
+        "GARDENWORKSHOP",
+        "FIG",
+        "SMOKE",
+        "HERBALTEA",
+        "PRODUCEBASKET",
+        "BALCONYGARDEN"
+      ]
+    },
+    {
+      "name": "Gardening Puzzle 35",
+      "words": [
+        "CHICKENRUN",
+        "XERISCAPE",
+        "HERBALBATH",
+        "LEGHORN",
+        "POPPY",
+        "LOTUS",
+        "CRANBERRY",
+        "FOODMILL",
+        "CROPLAND",
+        "WEEDCLOTH",
+        "SOILMOISTURE",
+        "WATERBARREL"
+      ]
+    },
+    {
+      "name": "Gardening Puzzle 36",
+      "words": [
+        "JELLYJAR",
+        "STAKE",
+        "DUCKS",
+        "PATCHWORK",
+        "LOGSPLITTER",
+        "LIVESTOCK",
+        "GRAINCART",
+        "SCALLION",
+        "RUSTIC",
+        "EGGGATHERING",
+        "PANTRY",
+        "POULTRY"
+      ]
+    },
+    {
+      "name": "Gardening Puzzle 37",
+      "words": [
+        "ESCAROLE",
+        "PLANTPROPAGATION",
+        "GARDENSTOOL",
+        "BEESWAX",
+        "BORAGE",
+        "WEEDBASKET",
+        "LINENCLOTH",
+        "CAMPANULA",
+        "MAP",
+        "HONEYBEE",
+        "RIVER",
+        "SHADECLOTH"
+      ]
+    },
+    {
+      "name": "Gardening Puzzle 38",
+      "words": [
+        "GARDENRECYCLE",
+        "ROOTBOX",
+        "QUAIL",
+        "SHISO",
+        "HERDBOOK",
+        "WOODFRAME",
+        "COLOSTRUM",
+        "BREADPROOF",
+        "CHICKPEAS",
+        "FIREWOOD",
+        "HAYMOW",
+        "GARDENPLAN"
+      ]
+    },
+    {
+      "name": "Gardening Puzzle 39",
+      "words": [
+        "SUNSET",
+        "CATMINT",
+        "SPICEJAR",
+        "DAIRYMAID",
+        "FARMANIMAL",
+        "RABBITRY",
+        "CUCUMBERVINE",
+        "MULCHBED",
+        "OATFIELD",
+        "ANEMONE",
+        "POTAGER",
+        "RASPBERRY"
+      ]
+    },
+    {
+      "name": "Gardening Puzzle 40",
+      "words": [
+        "POTTINGTABLE",
+        "SALT",
+        "LARD",
+        "WOODSMOKE",
+        "MILKINGPARLOR",
+        "KITCHENCLOTH",
+        "CANYON",
+        "MELON",
+        "GREENHOUSEBENCH",
+        "MOONSHINE",
+        "FARMHAND",
+        "CROPPATCH"
+      ]
+    },
+    {
+      "name": "Gardening Puzzle 41",
+      "words": [
+        "COMPOSTPILE",
+        "LOAFBREAD",
+        "HEN",
+        "CARROT",
+        "INCUBATOR",
+        "SPINNINGWHEEL",
+        "CALF",
+        "DRYINGRACK",
+        "HOSTA",
+        "WINDVANE",
+        "ORCHARDTREE",
+        "WEEDER"
+      ]
+    },
+    {
+      "name": "Gardening Puzzle 42",
+      "words": [
+        "EVERGREEN",
+        "STALL",
+        "FENNEL",
+        "DEW",
+        "SONGBIRD",
+        "GREENHOUSEPLANT",
+        "FARMKITCHEN",
+        "PINECONE",
+        "FARMTABLE",
+        "BLOODMEAL",
+        "JAM",
+        "PARSNIP"
+      ]
+    },
+    {
+      "name": "Gardening Puzzle 43",
+      "words": [
+        "PICKLINGJAR",
+        "BORDER",
+        "GARDENKNIFE",
+        "MULCHRING",
+        "GRAINMILL",
+        "CHUTNEY",
+        "GARLIC",
+        "CROPS",
+        "HONEYWAX",
+        "WOODSHOP",
+        "DAIRY",
+        "SOAPPOT"
+      ]
+    },
+    {
+      "name": "Gardening Puzzle 44",
+      "words": [
+        "CIDERPRESS",
+        "FERN",
+        "GARDENWEED",
+        "BOTTLING",
+        "CASTIRONPAN",
+        "FARMGATE",
+        "FARMLEDGER",
+        "VEGETABLECELLAR",
+        "BIRDBATH",
+        "TRANSPLANT",
+        "GARDENLIGHT",
+        "DRYBEANS"
+      ]
+    },
+    {
+      "name": "Gardening Puzzle 45",
+      "words": [
+        "CANNINGWAX",
+        "SPRINKLER",
+        "GOATCHEESE",
+        "WINDMILL",
+        "REDBARN",
+        "TABLE",
+        "FRUITPRESS",
+        "ECHINACEA",
+        "CINNAMON",
+        "CORNMEAL",
+        "WAXCLOTH",
+        "SUNFLOWERFIELD"
+      ]
+    },
+    {
+      "name": "Gardening Puzzle 46",
+      "words": [
+        "TEA",
+        "COMPOST",
+        "DEEPWATERING",
+        "BACKYARDGARDEN",
+        "SOURDOUGHSTARTER",
+        "LEAFCOMPOST",
+        "ROOSTER",
+        "CELOSIA",
+        "CANNINGRACK",
+        "BROOD",
+        "SOILMIX",
+        "WOODLANDGARDEN"
+      ]
+    },
+    {
+      "name": "Gardening Puzzle 47",
+      "words": [
+        "WOODPILE",
+        "DELPHINIUM",
+        "OAK",
+        "SPINNERWHEEL",
+        "BEANPATCH",
+        "BARNBOARD",
+        "OXALIS",
+        "SUGARHOUSE",
+        "WOOLCARDER",
+        "COMPASS",
+        "SHOVELFUL",
+        "FEVERFEW"
+      ]
+    },
+    {
+      "name": "Gardening Puzzle 48",
+      "words": [
+        "NURSERY",
+        "CUCUMBER",
+        "TULIPBULB",
+        "CILANTRO",
+        "MARKETGARDEN",
+        "TENT",
+        "PUMPKIN",
+        "FRUITGARDEN",
+        "SAXIFRAGE",
+        "KALANCHOE",
+        "CHICKENLITTER",
+        "OUTDOORFARM"
+      ]
+    },
+    {
+      "name": "Gardening Puzzle 49",
+      "words": [
+        "WOODFENCE",
+        "WEEDFORK",
+        "ORCHARDGATE",
+        "LETTUCELEAF",
+        "RHUBARBPATCH",
+        "SUSTAINABLE",
+        "SAP",
+        "TORENIA",
+        "FRUITPIE",
+        "HATCHLING",
+        "TRELLIS",
+        "CLEMATIS"
+      ]
+    },
+    {
+      "name": "Gardening Puzzle 50",
+      "words": [
+        "HOSENOZZLE",
+        "HOEING",
+        "BUTTERMAKING",
+        "CAULIFLOWER",
+        "ROOTCELLAR",
+        "BARNBEAM",
+        "CLIMBINGROSE",
+        "LOAFPAN",
+        "INCUBATORTRAY",
+        "EPIMEDIUM",
+        "TRAILMAP",
+        "HOSE"
+      ]
+    }
+  ],
+  "market_research_note": "Selected from current market research and only built after the existing named Master Library pool cleared the full 50 × 12 no-repeat requirement. Market interest is not a sales guarantee.",
+  "cover_art_path": "cover_assets\\background_photos\\gardening_vegetables_v3.png",
+  "cover_art_focus": "center"
+}

@@ -17,20 +17,21 @@
       "Food traditions often reflect local ingredients, climate, migration, and family customs.",
       "Spices and herbs can add aroma, color, and flavor to a meal.",
       "Trying a new recipe can be a simple way to learn about another place or tradition."
-    ]
+    ],
+    "puzzle_target": 100
   },
   "puzzles": [
     {
       "name": "Flavors of the World Puzzle 001",
       "words": [
-        "MIXTAPE",
+        "CROISSANT",
         "PASTA",
         "COMFY",
-        "SERVE",
+        "CRUST",
         "ABSORBENT",
         "HUNT",
         "PLANT",
-        "ROADTRIP",
+        "ENTRYWAY",
         "ASH",
         "DOGWOOD",
         "HATCHLING",
@@ -40,7 +41,7 @@
     {
       "name": "Flavors of the World Puzzle 002",
       "words": [
-        "COLOR",
+        "EPIMEDIUM",
         "EXTREMESPORTS",
         "OUTDO",
         "SPOUT",
@@ -48,8 +49,8 @@
         "CHIVES",
         "PROCESSOR",
         "AUSTEN",
-        "CAMPING",
-        "TELEVISION",
+        "EQUATOR",
+        "ESCAROLE",
         "ALLTHAT",
         "BUCKET"
       ]
@@ -62,11 +63,11 @@
         "HOMEMADE",
         "WALLPAPER",
         "BAT",
-        "BLUEJAY",
+        "ESPALIER",
         "PERENNIAL",
         "PARACHUTEPANTS",
         "PEA",
-        "MOVIE",
+        "EUPHORBIA",
         "DOWN",
         "SALT"
       ]
@@ -92,7 +93,7 @@
       "name": "Flavors of the World Puzzle 005",
       "words": [
         "COMPANION",
-        "WIRELESSCONTROLLER",
+        "EVAPORATION",
         "HOLLY",
         "VESSEL",
         "COMFORT",
@@ -102,14 +103,14 @@
         "MAGNOLIA",
         "HELP",
         "YARROW",
-        "WORDSEARCH"
+        "EVERGREEN"
       ]
     },
     {
       "name": "Flavors of the World Puzzle 006",
       "words": [
         "SPIDERPLANT",
-        "TOYSTORE",
+        "EVERGREENGARLAND",
         "SPECTACLE",
         "CILANTRO",
         "STRETCH",
@@ -117,7 +118,7 @@
         "BRANCH",
         "VACATE",
         "WELCOME",
-        "MULTIPLAYER",
+        "EXPERIMENT",
         "OMG",
         "THORN"
       ]
@@ -125,16 +126,16 @@
     {
       "name": "Flavors of the World Puzzle 007",
       "words": [
-        "BLUE",
-        "BRIGHT",
-        "RAVEN",
+        "EXTREMEWEATHER",
+        "FAIRWEATHER",
+        "FALL",
         "STEM",
         "CURIOUS",
         "BOOMBOX",
-        "PARK",
+        "FALLACIOUS",
         "FASTFORWARD",
         "TECHNO",
-        "CARDINAL",
+        "FALLBONFIRE",
         "DOUGH",
         "HAIRSPRAY"
       ]
@@ -144,16 +145,16 @@
       "words": [
         "FASTFOOD",
         "LINE",
-        "OSPREY",
+        "FALLCAMPFIRE",
         "JUNEBERRY",
-        "CLUE",
+        "FALLCANDLE",
         "SUNHAT",
-        "EQUIPMENT",
-        "DESERT",
+        "FALLCIDER",
+        "FALLCOLOR",
         "FLAMES",
         "VIEW",
         "DRIVE",
-        "BAY"
+        "FALLEN"
       ]
     },
     {
@@ -167,8 +168,8 @@
         "LESSON",
         "COMMENT",
         "LEMONADE",
-        "FICTION",
-        "PHOTOBOOTH",
+        "FALLFESTIVAL",
+        "FALLFOREST",
         "DRINK",
         "CAMCORDER"
       ]
@@ -182,9 +183,9 @@
         "TEAM",
         "CALCULATOR",
         "CAFE",
-        "CHICKADEE",
+        "FALLGUYS",
         "HOUSE",
-        "RHYTHM",
+        "FALLHARVEST",
         "MEATS",
         "BARREL",
         "DISPLAY"
@@ -196,7 +197,7 @@
         "COSTUME",
         "USERNAME",
         "PULP",
-        "CARTRIDGE",
+        "FALLHIKE",
         "ROUTINE",
         "JADE",
         "CAMERABAG",
@@ -217,9 +218,9 @@
         "HURRICANE",
         "PREVENT",
         "FISHING",
-        "RINGTONE",
+        "FALLING",
         "TRIP",
-        "NIGHTSKY",
+        "FALLKITCHEN",
         "QUINCE",
         "QUARTERHORSE"
       ]
@@ -237,7 +238,7 @@
         "FOODS",
         "BOND",
         "FOXGLOVE",
-        "NEST",
+        "FALLLANTERN",
         "CACTUS"
       ]
     },
@@ -245,7 +246,7 @@
       "name": "Flavors of the World Puzzle 014",
       "words": [
         "SHOPPINGMALL",
-        "TEXTMESSAGE",
+        "FALLLEAVES",
         "ICECREAM",
         "GLOSS",
         "PETAL",
@@ -263,8 +264,8 @@
       "words": [
         "ASIF",
         "TEMPERATURE",
-        "WIZARD",
-        "BOAT",
+        "FALLMARKET",
+        "FALLNIGHT",
         "LAGOON",
         "SHARE",
         "HEATWAVE",
@@ -272,17 +273,17 @@
         "MOUNTAIN",
         "SPEED",
         "NASTURTIUM",
-        "CINEMA"
+        "FALLOUT"
       ]
     },
     {
       "name": "Flavors of the World Puzzle 016",
       "words": [
-        "CEDAR",
+        "FALLPARTY",
         "STEAK",
         "FROSTEDTIPS",
         "GRAVY",
-        "RESCUE",
+        "FALLPORCH",
         "YEW",
         "PATHWAY",
         "SHUFFLE",
@@ -332,7 +333,7 @@
         "ECHEVERIA",
         "FLOATS",
         "CURRANT",
-        "ROMANCE",
+        "FALLRECIPE",
         "SWEETPOTATO",
         "PINK",
         "MONSTERA",
@@ -347,8 +348,8 @@
       "name": "Flavors of the World Puzzle 020",
       "words": [
         "DECORATE",
-        "AVATAR",
-        "THRUSH",
+        "FALLSEASON",
+        "FALLSUNSET",
         "HORNBEAM",
         "TREATS",
         "READER",
@@ -385,7 +386,7 @@
         "CELLPHONE",
         "SMILE",
         "FARM",
-        "NEBULA",
+        "FALLSVIEW",
         "EPIC",
         "SKATEPARK",
         "MEASURINGCUP",
@@ -417,13 +418,13 @@
         "HUMMINGBIRD",
         "FLY",
         "COLUMBINE",
-        "SCOREBOARD",
+        "FALLWEATHER",
         "GRODY",
         "KITEFLYER",
         "BORAGE",
         "SPIDER",
         "CELLAR",
-        "PENCIL",
+        "FAMILYCHRISTMAS",
         "RIDE",
         "CRYSTALBALL"
       ]
@@ -435,7 +436,7 @@
         "CHOP",
         "COFFEEBEAN",
         "DROUGHT",
-        "SEASON",
+        "FAMILYGATHERING",
         "MARKET",
         "AJUGA",
         "ALPINES",
@@ -450,7 +451,7 @@
       "words": [
         "SCENT",
         "ROOTCELLAR",
-        "GALAXY",
+        "FAMILYROOM",
         "STEW",
         "STRAWBERRY",
         "HEDGEHOG",
@@ -458,7 +459,7 @@
         "FROZENYOGURT",
         "ORCHARD",
         "BOUNTY",
-        "SUNNY",
+        "FARMANIMAL",
         "SHORELINE"
       ]
     },
@@ -474,9 +475,9 @@
         "INSTANTCAMERA",
         "SKATEBOARD",
         "TOOL",
-        "MEMORYCARD",
+        "FARMBENCH",
         "WINDOWBOX",
-        "DRUMS"
+        "FARMCART"
       ]
     },
     {
@@ -484,8 +485,8 @@
       "words": [
         "PROPAGATE",
         "BINDER",
-        "ARTIST",
-        "WASP",
+        "FARMCRAFT",
+        "FARMDOG",
         "CORDLESSPHONE",
         "PAGER",
         "HUT",
@@ -500,10 +501,10 @@
       "name": "Flavors of the World Puzzle 029",
       "words": [
         "POPPY",
-        "PASSENGER",
+        "FARMFRESH",
         "BLUEBERRY",
         "UMBRELLA",
-        "CATALOG",
+        "FARMGATE",
         "GUIDE",
         "COOKIE",
         "LINER",
@@ -520,7 +521,7 @@
         "PERFORM",
         "ONLINEGAMING",
         "PHONEBOOK",
-        "PSYCH",
+        "FARMHAND",
         "MANGO",
         "GIFTS",
         "SMOKE",
@@ -536,7 +537,7 @@
         "MEASURE",
         "HOLE",
         "SORREL",
-        "ACCESSORY",
+        "FARMHOUSE",
         "SQUASH",
         "PYROTECHNIC",
         "PORTABLECDPLAYER",
@@ -551,14 +552,14 @@
       "name": "Flavors of the World Puzzle 032",
       "words": [
         "NAVIGATE",
-        "PARKINGLOT",
+        "FARMHOUSEBREAD",
         "MODELKIT",
         "TIE",
         "SEASIDE",
         "DICHONDRA",
         "HUSK",
         "BLOG",
-        "RADIO",
+        "FARMHOUSECHEESE",
         "WALK",
         "READING",
         "FILL"
@@ -567,34 +568,34 @@
     {
       "name": "Flavors of the World Puzzle 033",
       "words": [
-        "ACHIEVEMENT",
+        "FARMHOUSEGARDEN",
         "FIREWOOD",
         "BOTTLE",
-        "CANOPY",
+        "FARMHOUSEMEAL",
         "RECHARGE",
-        "SPACESHUTTLE",
+        "FARMJOURNAL",
         "PIE",
         "HELIOTROPE",
         "STYLISH",
         "GLAZE",
         "SHIP",
-        "VINEYARD"
+        "FARMKITCHEN"
       ]
     },
     {
       "name": "Flavors of the World Puzzle 034",
       "words": [
-        "PIXEL",
-        "TUNE",
+        "FARMLEDGER",
+        "FARMPATH",
         "MAPLE",
-        "SPACE",
-        "FEATHER",
+        "FARMPOND",
+        "FARMSTAND",
         "RAINBOW",
         "CHERRY",
         "LAUREL",
         "COMPUTERROOM",
         "TRADITION",
-        "MOVIENIGHT",
+        "FARMSTEAD",
         "LATTE"
       ]
     },
@@ -602,15 +603,15 @@
       "name": "Flavors of the World Puzzle 035",
       "words": [
         "GREENHOUSE",
-        "QUIETTIME",
-        "YEARBOOK",
+        "FARMSTYLE",
+        "FARMTABLE",
         "WEIGHTS",
-        "POETRY",
-        "ASTRONOMY",
+        "FARMWAGON",
+        "FARMYARD",
         "RISE",
         "SEEDLING",
         "ARUGULA",
-        "CHAMELEON",
+        "FEEDBUCKET",
         "PLANTER",
         "SHEARLINGBOOTS"
       ]
@@ -627,7 +628,7 @@
         "SOAP",
         "ROLLERSKATES",
         "REPORTCARD",
-        "PLAYLIST",
+        "FEEDCORN",
         "BLESSINGS",
         "GAME"
       ]
@@ -637,13 +638,13 @@
       "words": [
         "CROP",
         "PICNIC",
-        "ROTATION",
+        "FEEDMILL",
         "FIN",
         "SODA",
         "DENIM",
         "JAZZERCISE",
         "SPRINKLER",
-        "NOEL",
+        "FEEDSTORE",
         "MOCHA",
         "CUTTING",
         "COBBLE"
@@ -652,9 +653,9 @@
     {
       "name": "Flavors of the World Puzzle 038",
       "words": [
-        "JOURNEY",
-        "BOOKWORM",
-        "GAMEROOM",
+        "FENCEGATE",
+        "FENCEPOST",
+        "FENCEWIRE",
         "GARDEN",
         "SINGSONG",
         "EARLGREY",
@@ -670,7 +671,7 @@
       "name": "Flavors of the World Puzzle 039",
       "words": [
         "MUSICLIBRARY",
-        "CDPLAYER",
+        "FENNEL",
         "LAYOUT",
         "COUNTRYSIDE",
         "SUN",
@@ -688,13 +689,13 @@
       "words": [
         "PUDDLE",
         "BRAMBLE",
-        "MYSTERY",
+        "FERN",
         "SPRING",
         "WAVE",
         "POTTINGMIX",
         "SHELLFISH",
         "LAWN",
-        "FINCH",
+        "FERTILIZER",
         "ROLLOFFILM",
         "GRAVEYARD",
         "SWALLOWTAIL"
@@ -714,7 +715,7 @@
         "CLIP",
         "MOTHER",
         "HAIRCLIP",
-        "GAMECONSOLE"
+        "FESTIVAL"
       ]
     },
     {
@@ -722,14 +723,14 @@
       "words": [
         "DINE",
         "CUCUMBER",
-        "GAMENIGHT",
+        "FESTIVEBOW",
         "DAHLIA",
-        "PASSWORD",
-        "ASTRONAUT",
+        "FESTIVECOOKIE",
+        "FESTIVEFEAST",
         "CHILDREN",
         "VHS",
         "SAVORY",
-        "MONSTER",
+        "FESTIVEFIREPLACE",
         "WISTERIA",
         "SNIP"
       ]
@@ -740,9 +741,9 @@
         "RASP",
         "BODYGLITTER",
         "SLIDES",
-        "CASSIOPEIA",
+        "FESTIVEHOME",
         "BABYTEE",
-        "ISLAND",
+        "FESTIVEJOY",
         "WINDOWSHOPPING",
         "ARBOR",
         "CURSOR",
@@ -771,33 +772,33 @@
     {
       "name": "Flavors of the World Puzzle 045",
       "words": [
-        "POWERUP",
+        "FESTIVEMAIL",
         "FRUITSNACKS",
         "ANCHOR",
-        "TREASURE",
+        "FESTIVEPARTY",
         "DIALUP",
         "POWERPOINT",
         "CARPHONE",
         "DICKENS",
-        "ARCH",
+        "FESTIVEPHOTO",
         "SOFA",
         "PECANPIE",
-        "FOUNTAIN"
+        "FESTIVERED"
       ]
     },
     {
       "name": "Flavors of the World Puzzle 046",
       "words": [
         "SALTWATER",
-        "MOVIETHEATER",
-        "COASTLINE",
+        "FESTIVEWREATH",
+        "FEVERFEW",
         "BROCCOLI",
         "CRIMSON",
-        "STARFISH",
+        "FIELD",
         "SUGAR",
         "GAZE",
-        "LITERATURE",
-        "IGUANA",
+        "FIELDBEANS",
+        "FIELDCROP",
         "TIMER",
         "HAIRGEL"
       ]
@@ -810,13 +811,13 @@
         "PARMESAN",
         "INHERIT",
         "GOUDA",
-        "HERB",
-        "TRUNK",
+        "FIELDGUIDE",
+        "FIELDPEAS",
         "SEDUM",
-        "DOCK",
-        "LEGACY",
+        "FIELDSTONE",
+        "FIG",
         "COOK",
-        "TRAINING"
+        "FIGTREE"
       ]
     },
     {
@@ -862,7 +863,7 @@
         "SNOWDROP",
         "DECKS",
         "SOARING",
-        "BIRDSONG",
+        "FIRBRANCH",
         "HAIRMETAL",
         "VIOLET",
         "HAYBALE",
@@ -884,7 +885,7 @@
         "FENCE",
         "MEAT",
         "LILAC",
-        "GOLF"
+        "FIREPIT"
       ]
     },
     {
@@ -908,8 +909,8 @@
       "name": "Flavors of the World Puzzle 053",
       "words": [
         "GRATITUDE",
-        "BOYBAND",
-        "PESTICIDE",
+        "FIREPITSTONE",
+        "FIREPLACE",
         "TEXTURE",
         "FLAVORS",
         "FUN",
@@ -929,8 +930,8 @@
         "SWEATBAND",
         "MILKWEED",
         "THEAT",
-        "BAKER",
-        "NIGHT",
+        "FIREPLACEGLOW",
+        "FIRESTARTER",
         "CASUAL",
         "HELICONIA",
         "CLIMATE",
@@ -949,7 +950,7 @@
         "FREESIA",
         "TENNIS",
         "CONEFLOWER",
-        "STUFFING",
+        "FISHPOND",
         "CREATIVE",
         "OUTDOOR",
         "ELECTRONICSSTORE"
@@ -958,27 +959,27 @@
     {
       "name": "Flavors of the World Puzzle 056",
       "words": [
-        "INDEX",
+        "FLAGS",
         "LENTIL",
         "BOUNCE",
         "SALTY",
         "PERM",
         "PLUM",
         "EYE",
-        "COLLECTION",
-        "WORD",
+        "FLASHFLOOD",
+        "FLATBREAD",
         "SHALLOT",
         "FRAGRANT",
-        "FEAST"
+        "FLAXSEED"
       ]
     },
     {
       "name": "Flavors of the World Puzzle 057",
       "words": [
         "CINNAMON",
-        "COACH",
-        "OWL",
-        "WARBLER",
+        "FLOCK",
+        "FLOODPLAIN",
+        "FLOWER",
         "BIGHAIR",
         "SECRET",
         "COMPUTERLAB",
@@ -999,17 +1000,17 @@
         "PASSION",
         "PASTRY",
         "BLUEBELL",
-        "WEBCAM",
+        "FLOWERBED",
         "SAUCER",
         "CARDIO",
         "NUTS",
-        "COAST"
+        "FLOWERBORDER"
       ]
     },
     {
       "name": "Flavors of the World Puzzle 059",
       "words": [
-        "WEREWOLF",
+        "FLOWERFARM",
         "TRIM",
         "PEAR",
         "GUM",
@@ -1028,16 +1029,696 @@
       "words": [
         "TARO",
         "KNEAD",
-        "PRUNER",
-        "GETAWAY",
+        "FLOWERGARDEN",
+        "FLOWERPOT",
         "URSA",
-        "PRESERVE",
+        "FLOWERSEED",
         "BURST",
-        "NOTEBOOK",
+        "FODDER",
         "QUARTER",
         "NODUH",
         "FIND",
-        "IMAGINATION"
+        "FOG"
+      ]
+    },
+    {
+      "name": "Flavors of the World Word Search 61",
+      "words": [
+        "ACANTHUS",
+        "ACHILLEA",
+        "ACORN",
+        "ACREAGE",
+        "ADVENT",
+        "ADVENTCALENDAR",
+        "AGAPANTHUS",
+        "AGAVE",
+        "AGRICULTURE",
+        "AGROFORESTRY",
+        "AGROTEK",
+        "AIRMASS"
+      ]
+    },
+    {
+      "name": "Flavors of the World Word Search 62",
+      "words": [
+        "AIRPLANT",
+        "ALFALFA",
+        "ALLIUM",
+        "ALLOTMENT",
+        "ALMANAC",
+        "ALPACA",
+        "ALPINE",
+        "ALYSSUM",
+        "AMARANTH",
+        "AMARYLLIS",
+        "ANEMOMETER",
+        "ANEMONE"
+      ]
+    },
+    {
+      "name": "Flavors of the World Word Search 63",
+      "words": [
+        "ANGELIC",
+        "ANGORA",
+        "ANISE",
+        "ANTHEM",
+        "ANTICYCLONE",
+        "APIARY",
+        "APIARYBOX",
+        "APPLEBLOSSOM",
+        "APPLEBUTTER",
+        "APPLECIDER",
+        "APPLEORCHARD",
+        "APPLEPIE"
+      ]
+    },
+    {
+      "name": "Flavors of the World Word Search 64",
+      "words": [
+        "APPLESAUCE",
+        "APRICOT",
+        "APRICOTTREE",
+        "APRON",
+        "AQUAPONICS",
+        "ARBORVITAE",
+        "ARBUTUS",
+        "ARCTICAIR",
+        "ARID",
+        "ARONIA",
+        "ARTICHOKE",
+        "ASPARAGUS"
+      ]
+    },
+    {
+      "name": "Flavors of the World Word Search 65",
+      "words": [
+        "ASTER",
+        "ATMOSPHERE",
+        "AURORA",
+        "AUTUMN",
+        "AUTUMNAIR",
+        "AUTUMNAPPLE",
+        "AUTUMNBAKING",
+        "AUTUMNBARN",
+        "AUTUMNBONFIRE",
+        "AUTUMNCANDLE",
+        "AUTUMNCOLOR",
+        "AUTUMNFESTIVAL"
+      ]
+    },
+    {
+      "name": "Flavors of the World Word Search 66",
+      "words": [
+        "AUTUMNFOREST",
+        "AUTUMNHARVEST",
+        "AUTUMNHIKE",
+        "AUTUMNLANE",
+        "AUTUMNLEAVES",
+        "AUTUMNMARKET",
+        "AUTUMNMOON",
+        "AUTUMNMORNING",
+        "AUTUMNNIGHT",
+        "AUTUMNPARTY",
+        "AUTUMNPATH",
+        "AUTUMNPICNIC"
+      ]
+    },
+    {
+      "name": "Flavors of the World Word Search 67",
+      "words": [
+        "AUTUMNPIE",
+        "AUTUMNPORCH",
+        "AUTUMNRECIPE",
+        "AUTUMNSUNSET",
+        "AUTUMNWALK",
+        "AUTUMNWEEKEND",
+        "AZALEA",
+        "BACKPORCH",
+        "BACKYARDCHICKENS",
+        "BACKYARDFARM",
+        "BACKYARDGARDEN",
+        "BAKINGDAY"
+      ]
+    },
+    {
+      "name": "Flavors of the World Word Search 68",
+      "words": [
+        "BAKINGPAN",
+        "BALCONYGARDEN",
+        "BALSAM",
+        "BANNETON",
+        "BARK",
+        "BARLEY",
+        "BARLEYFIELD",
+        "BARN",
+        "BARNBEAM",
+        "BARNBOARD",
+        "BARNCAT",
+        "BARNCLEANING"
+      ]
+    },
+    {
+      "name": "Flavors of the World Word Search 69",
+      "words": [
+        "BARNFLOOR",
+        "BARNLIGHT",
+        "BARNLOFT",
+        "BARNRAISER",
+        "BARNWOOD",
+        "BARNYARD",
+        "BAROMETER",
+        "BASIL",
+        "BASKET",
+        "BAUBLE",
+        "BAYLEAF",
+        "BEADING"
+      ]
+    },
+    {
+      "name": "Flavors of the World Word Search 70",
+      "words": [
+        "BEAN",
+        "BEANPATCH",
+        "BEANPOLE",
+        "BEANSTALK",
+        "BED",
+        "BEDROOM",
+        "BEEHIVE",
+        "BEEHIVEFRAME",
+        "BEEKEEPER",
+        "BEEKEEPERSUIT",
+        "BEEKEEPING",
+        "BEESWAX"
+      ]
+    },
+    {
+      "name": "Flavors of the World Word Search 71",
+      "words": [
+        "BEESWING",
+        "BEET",
+        "BEETROOT",
+        "BEETS",
+        "BEETSOUP",
+        "BEGONIA",
+        "BELLPEPPER",
+        "BELLRINGING",
+        "BERGAMOT",
+        "BERRY",
+        "BERRYBUSH",
+        "BIN"
+      ]
+    },
+    {
+      "name": "Flavors of the World Word Search 72",
+      "words": [
+        "BIOLOGY",
+        "BIRDBATH",
+        "BIRDING",
+        "BIRDNETTING",
+        "BIRTHDAY",
+        "BIRTHDAYBANNER",
+        "BLACKBERRY",
+        "BLACKBERRYPATCH",
+        "BLACKCAT",
+        "BLACKEYEDSUSAN",
+        "BLACKSMITH",
+        "BLANKET"
+      ]
+    },
+    {
+      "name": "Flavors of the World Word Search 73",
+      "words": [
+        "BLOODMEAL",
+        "BLOSSOM",
+        "BLOSSOMTIME",
+        "BLUEBERR",
+        "BOARDFENCE",
+        "BOGGARDEN",
+        "BOKCHOY",
+        "BONFIRE",
+        "BOOKSHELF",
+        "BORDER",
+        "BORDERPLANT",
+        "BOTANY"
+      ]
+    },
+    {
+      "name": "Flavors of the World Word Search 74",
+      "words": [
+        "BOTTLING",
+        "BOULDER",
+        "BOXWOOD",
+        "BREADBOX",
+        "BREADMAKING",
+        "BREADOVEN",
+        "BREADPROOF",
+        "BREEZE",
+        "BREWER",
+        "BROCCOLIPATCH",
+        "BROOD",
+        "BROODER"
+      ]
+    },
+    {
+      "name": "Flavors of the World Word Search 75",
+      "words": [
+        "BROODHEN",
+        "BROODYHEN",
+        "BROOMSTICK",
+        "BRUSSELSPROUT",
+        "BUCKWHEAT",
+        "BULB",
+        "BULBPLANT",
+        "BUSH",
+        "BUSHBEAN",
+        "BUTTERCUP",
+        "BUTTERFLYGARDEN",
+        "BUTTERMAKING"
+      ]
+    },
+    {
+      "name": "Flavors of the World Word Search 76",
+      "words": [
+        "BUTTERMOLD",
+        "CABBAGE",
+        "CABBAGEPATCH",
+        "CABBAGEROW",
+        "CAGE",
+        "CALENDULA",
+        "CALF",
+        "CALFPEN",
+        "CAMPANULA",
+        "CAMPGROUND",
+        "CAMPSITE",
+        "CANDLE"
+      ]
+    },
+    {
+      "name": "Flavors of the World Word Search 77",
+      "words": [
+        "CANDLECRAFT",
+        "CANDLEHOLDER",
+        "CANDLELIGHT",
+        "CANDLEWICK",
+        "CANDYBOWL",
+        "CANDYCANE",
+        "CANDYCORN",
+        "CANDYSTORE",
+        "CANES",
+        "CANNER",
+        "CANNING",
+        "CANNINGBATH"
+      ]
+    },
+    {
+      "name": "Flavors of the World Word Search 78",
+      "words": [
+        "CANNINGFUNNEL",
+        "CANNINGJAR",
+        "CANNINGLABEL",
+        "CANNINGLID",
+        "CANNINGPOT",
+        "CANNINGRACK",
+        "CANNINGSEAL",
+        "CANNINGTONGS",
+        "CANNINGWAX",
+        "CANNINGWEIGHT",
+        "CANOE",
+        "CANTALOUPE"
+      ]
+    },
+    {
+      "name": "Flavors of the World Word Search 79",
+      "words": [
+        "CANYON",
+        "CAPE",
+        "CARAMELAPPLE",
+        "CARAWAY",
+        "CARDMAKING",
+        "CARDOON",
+        "CARNATION",
+        "CAROLBOOK",
+        "CAROLING",
+        "CAROLSINGER",
+        "CARROT",
+        "CARROTPATCH"
+      ]
+    },
+    {
+      "name": "Flavors of the World Word Search 80",
+      "words": [
+        "CASTIRON",
+        "CASTIRONPAN",
+        "CATMINT",
+        "CATTAIL",
+        "CATTLEGUARD",
+        "CAULIFLOWER",
+        "CELANDINE",
+        "CELEBRATION",
+        "CELEBRATIONCENTER",
+        "CELERIAC",
+        "CELERY",
+        "CELLARING"
+      ]
+    },
+    {
+      "name": "Flavors of the World Word Search 81",
+      "words": [
+        "CELOSIA",
+        "CENTERPIECE",
+        "CERAMICS",
+        "CHAIR",
+        "CHAMOMILE",
+        "CHARD",
+        "CHEER",
+        "CHEESEBOARD",
+        "CHEESECLOTH",
+        "CHEESECURD",
+        "CHEESEMAKING",
+        "CHEESEPRESS"
+      ]
+    },
+    {
+      "name": "Flavors of the World Word Search 82",
+      "words": [
+        "CHEESEWHEEL",
+        "CHEMISTRY",
+        "CHESS",
+        "CHICKENBROTH",
+        "CHICKENCOOP",
+        "CHICKENFEED",
+        "CHICKENHOUSE",
+        "CHICKENLITTER",
+        "CHICKENRUN",
+        "CHICKENS",
+        "CHICKENTRACTOR",
+        "CHICKENWIRE"
+      ]
+    },
+    {
+      "name": "Flavors of the World Word Search 83",
+      "words": [
+        "CHICKPEAS",
+        "CHIMNEY",
+        "CHIVE",
+        "CHORES",
+        "CHRISTMAS",
+        "CHRISTMASCARD",
+        "CHRISTMASCOOKIE",
+        "CHRISTMASDAY",
+        "CHRISTMASDECOR",
+        "CHRISTMASDINNER",
+        "CHRISTMASEVE",
+        "CHRISTMASGIFT"
+      ]
+    },
+    {
+      "name": "Flavors of the World Word Search 84",
+      "words": [
+        "CHRISTMASLIGHTS",
+        "CHRISTMASMARKET",
+        "CHRISTMASMORNING",
+        "CHRISTMASMOVIE",
+        "CHRISTMASMUSIC",
+        "CHRISTMASPARTY",
+        "CHRISTMASTREE",
+        "CHRISTMASWISH",
+        "CHRYSANTHEMUM",
+        "CHUTNEY",
+        "CIDERJUG",
+        "CIDERPRESS"
+      ]
+    },
+    {
+      "name": "Flavors of the World Word Search 85",
+      "words": [
+        "CINERARIA",
+        "CINNAMONSTICK",
+        "CIRRUS",
+        "CISTERN",
+        "CISTUS",
+        "CLAUS",
+        "CLAYOVEN",
+        "CLAYPOT",
+        "CLEANING",
+        "CLEMATIS",
+        "CLIMATECHANGE",
+        "CLIMATEPATTERN"
+      ]
+    },
+    {
+      "name": "Flavors of the World Word Search 86",
+      "words": [
+        "CLIMATEZONE",
+        "CLIMATOLOGY",
+        "CLIMBING",
+        "CLIMBINGROSE",
+        "CLOSET",
+        "CLOTHESLINE",
+        "CLOUDBASE",
+        "CLOUDBURST",
+        "CLOUDCOVER",
+        "CLOUDDECK",
+        "CLOUDFORMATION",
+        "CLOUDINESS"
+      ]
+    },
+    {
+      "name": "Flavors of the World Word Search 87",
+      "words": [
+        "CLOVERFIELD",
+        "COASTALCLIMATE",
+        "COBBLESTONE",
+        "COBOVEN",
+        "COBWEB",
+        "COCKSCOMB",
+        "COCOA",
+        "COFFEE",
+        "COFFEEGRINDER",
+        "COLDBOX",
+        "COLDFRAME",
+        "COLDFRONT"
+      ]
+    },
+    {
+      "name": "Flavors of the World Word Search 88",
+      "words": [
+        "COLDSMOKE",
+        "COLDSPELL",
+        "COLDWEATHER",
+        "COLEUS",
+        "COLLECTING",
+        "COLORING",
+        "COLOSTRUM",
+        "COMPASS",
+        "COMPOST",
+        "COMPOSTBIN",
+        "COMPOSTHEAP",
+        "COMPOSTING"
+      ]
+    },
+    {
+      "name": "Flavors of the World Word Search 89",
+      "words": [
+        "COMPOSTPILE",
+        "COMPOSTTEA",
+        "CONDENSATION",
+        "CONTAINERGARDEN",
+        "CONTAINERPLANT",
+        "CONTINENTALCLIMATE",
+        "CONVECTION",
+        "COOKING",
+        "COOPCRAFT",
+        "COREOPSIS",
+        "CORIANDER",
+        "CORN"
+      ]
+    },
+    {
+      "name": "Flavors of the World Word Search 90",
+      "words": [
+        "CORNBREAD",
+        "CORNCRIB",
+        "CORNFLOWER",
+        "CORNMAZE",
+        "CORNMEAL",
+        "CORNPONE",
+        "CORNSTALK",
+        "COSMOS",
+        "COSTUMECONTEST",
+        "COSTUMEPARADE",
+        "COTONEASTER",
+        "COTTAGEGARDEN"
+      ]
+    },
+    {
+      "name": "Flavors of the World Word Search 91",
+      "words": [
+        "COUNTDOWN",
+        "COUNTRYKITCHEN",
+        "COVERCROP",
+        "COWBELL",
+        "COWHIDE",
+        "COWPASTURE",
+        "COWSHED",
+        "COWSMILK",
+        "COZY",
+        "COZYBLANKET",
+        "COZYFIRE",
+        "COZYKITCHEN"
+      ]
+    },
+    {
+      "name": "Flavors of the World Word Search 92",
+      "words": [
+        "COZYREADING",
+        "COZYSWEATER",
+        "CRAFTTABLE",
+        "CREAMERY",
+        "CREAMSEPARATOR",
+        "CREEPINGTHYME",
+        "CREEPYNIGHT",
+        "CRISPAIR",
+        "CROCHET",
+        "CROCUS",
+        "CROPLAND",
+        "CROPPATCH"
+      ]
+    },
+    {
+      "name": "Flavors of the World Word Search 93",
+      "words": [
+        "CROPROTATION",
+        "CROPS",
+        "CROPTUNNEL",
+        "CROSSSTITCH",
+        "CROWFIELD",
+        "CUCUMBERVINE",
+        "CULTIVATOR",
+        "CUMULONIMBUS",
+        "CUPBOARD",
+        "CUPOFCOCOA",
+        "CURE",
+        "CURIOSITY"
+      ]
+    },
+    {
+      "name": "Flavors of the World Word Search 94",
+      "words": [
+        "CURRANTBUSH",
+        "CURRENT",
+        "CUSHION",
+        "CUTTINGGARDEN",
+        "CYCLAMEN",
+        "CYCLONE",
+        "DAFFODIL",
+        "DAIRY",
+        "DAIRYBARN",
+        "DAIRYCOW",
+        "DAIRYGOAT",
+        "DAIRYING"
+      ]
+    },
+    {
+      "name": "Flavors of the World Word Search 95",
+      "words": [
+        "DAIRYMAID",
+        "DAISY",
+        "DAYLILY",
+        "DAYPACK",
+        "DECEMBER",
+        "DECEMBERNIGHT",
+        "DECORATIONS",
+        "DEEPWATERING",
+        "DEHYDRATING",
+        "DELPHINIUM",
+        "DESERTCLIMATE",
+        "DESERTGARDEN"
+      ]
+    },
+    {
+      "name": "Flavors of the World Word Search 96",
+      "words": [
+        "DESK",
+        "DEW",
+        "DEWPOINT",
+        "DIANELLA",
+        "DIANTHUS",
+        "DIGGING",
+        "DILL",
+        "DININGROOM",
+        "DISCOVERY",
+        "DISTILLING",
+        "DOOR",
+        "DOORLATCH"
+      ]
+    },
+    {
+      "name": "Flavors of the World Word Search 97",
+      "words": [
+        "DOORMAT",
+        "DOORWREATH",
+        "DOUGHBOX",
+        "DOWNFALL",
+        "DRAWING",
+        "DRIPLINE",
+        "DRIPPER",
+        "DRIZZLE",
+        "DROUGHTINDEX",
+        "DRYBEANS",
+        "DRYGOODS",
+        "DRYING"
+      ]
+    },
+    {
+      "name": "Flavors of the World Word Search 98",
+      "words": [
+        "DRYINGRACK",
+        "DRYSPELL",
+        "DUCKEGG",
+        "DUCKHOUSE",
+        "DUCKLING",
+        "DUCKPOND",
+        "DUCKS",
+        "DUSTSTORM",
+        "EARTH",
+        "EARTHWORM",
+        "EASTER",
+        "EASTERBASKET"
+      ]
+    },
+    {
+      "name": "Flavors of the World Word Search 99",
+      "words": [
+        "EASTERBUNNY",
+        "EASTEREGG",
+        "EASTERLILY",
+        "EASTERMORNING",
+        "EASTERN",
+        "EASTERPARADE",
+        "EASTERTREAT",
+        "ECHINACEA",
+        "ECOSYSTEM",
+        "EDIBLEGARDEN",
+        "EGG",
+        "EGGBASKET"
+      ]
+    },
+    {
+      "name": "Flavors of the World Word Search 100",
+      "words": [
+        "EGGCARTON",
+        "EGGGATHERING",
+        "EGGLAYER",
+        "EGGPAINTING",
+        "EGGROLL",
+        "EGGWASH",
+        "ELDERBERRY",
+        "ELECTRICFENCE",
+        "ELMWOOD",
+        "EMBROIDERY",
+        "EMERGENCYLANTERN",
+        "ENAMELWARE"
       ]
     }
   ],
@@ -1067,5 +1748,12 @@
       "Baking and Food"
     ],
     "checked_at": "2026-08-22T10:08:39"
+  },
+  "quality_review": {
+    "checked_at": "20260824-213944",
+    "source": "verified_word_intelligence_repair",
+    "verdict": "PASS_WITH_NOTES",
+    "production_ready": true,
+    "changes": 121
   }
 }

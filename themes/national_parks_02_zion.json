@@ -85,10 +85,10 @@
         "COURTHOUSE",
         "QUINCE",
         "PORTRAY",
-        "FOLK",
-        "COMMUNITY",
+        "ACADIA",
+        "ACCELERATOR",
         "SPYSHOW",
-        "JAWS",
+        "ACCESSORY",
         "FLAKE",
         "QUARTZ"
       ]
@@ -105,8 +105,8 @@
         "ANGELSLANDING",
         "TUNA",
         "TURRET",
-        "ACTOR",
-        "TRUTH",
+        "ACCORD",
+        "ACCORDHYBRID",
         "CATSKILLS"
       ]
     },
@@ -136,7 +136,7 @@
         "GENRE",
         "LEGS",
         "SHOOFLYPIE",
-        "JOYSTICK",
+        "ACORN",
         "VIEW",
         "HISTORY",
         "DEEPSEA",
@@ -175,7 +175,7 @@
         "COASTAL",
         "MOISTURE",
         "SAILS",
-        "STINGRAY"
+        "ACURA"
       ]
     },
     {
@@ -188,7 +188,7 @@
         "PARROTS",
         "CAUSEWAY",
         "AUSTRALIA",
-        "TUNE",
+        "ADVENTURE",
         "TEEING",
         "SLICE",
         "SALTWATER",
@@ -272,7 +272,7 @@
         "ENDANGER",
         "TRAILRIDE",
         "WINGS",
-        "BATTLE",
+        "ADVENTURETRAIL",
         "PADDLEBOARD",
         "LIZARD",
         "INLANDEMPIRE",
@@ -305,10 +305,10 @@
         "MONAHANS",
         "GROOVE",
         "LLANO",
-        "JUSTICE",
+        "AEROSTAR",
         "THOUSANDISLANDS",
         "HEROES",
-        "GROUPER",
+        "AGROFORESTRY",
         "SATELLITE",
         "CITRUS",
         "SMOKE"
@@ -341,7 +341,7 @@
         "PASSENGER",
         "BIRCH",
         "HORNED",
-        "TEMPLE",
+        "AIRCONDITIONER",
         "LYNXES",
         "QUIETTIME",
         "TIDAL",
@@ -378,7 +378,7 @@
         "DEPTH",
         "MOON",
         "COMFY",
-        "FAMOUS",
+        "AIRFILTER",
         "ANALYSIS"
       ]
     },
@@ -444,9 +444,9 @@
         "BURROW",
         "CANOE",
         "RANCHROAD",
-        "DANCEFLOOR",
+        "AIRFRESHENER",
         "DEBRIS",
-        "DISCIPLINE",
+        "AIRPORT",
         "CEREMONY"
       ]
     },
@@ -491,7 +491,7 @@
         "FORTRESS",
         "SURVIVE",
         "QUALITY",
-        "PAGE",
+        "AIRPUMP",
         "CARDS",
         "PULSE",
         "LIGHTHEART",
@@ -546,7 +546,7 @@
         "MOTORIST",
         "PHALANX",
         "ROOFTOP",
-        "CHARACTER",
+        "ALASKAPARKS",
         "FENCE",
         "LANDMARK",
         "DRYLAKE"
@@ -558,14 +558,14 @@
         "CENTRALCOAST",
         "TARO",
         "HUMPBACK",
-        "CREEPER",
+        "ALERO",
         "ROAST",
         "FARE",
         "SPROUT",
         "APPALACHIAN",
         "CONFECTION",
         "EFFECTS",
-        "WELLNESS",
+        "ALIGNMENT",
         "NIGHTCLUB"
       ]
     },
@@ -576,7 +576,7 @@
         "FEAR",
         "EDUCATE",
         "DICHONDRA",
-        "NOVEL",
+        "ALLIES",
         "RECYCLE",
         "MINT",
         "MORAN",
@@ -596,7 +596,7 @@
         "BARNACLE",
         "DIBBER",
         "COLLECTS",
-        "READING",
+        "ALLROAD",
         "VENDOR",
         "CATERPILLAR",
         "IDENTITY",
@@ -612,9 +612,9 @@
         "BEACON",
         "COMPUTER",
         "LILAC",
-        "MOVIENIGHT",
+        "ALLWHEEL",
         "INDIANADUNES",
-        "ARTWORK",
+        "ALPINE",
         "ASSAY",
         "MING",
         "NORTHCOAST"
@@ -657,12 +657,12 @@
     {
       "name": "Zion Canyon Cliffs Puzzle 039",
       "words": [
-        "CAESAR",
+        "ALPINEFOREST",
         "GRAY",
         "SAMURAI",
         "POSEIDON",
         "TUB",
-        "THREAD",
+        "ALPINEGLOW",
         "COFFEE",
         "TAKIN",
         "BREEZY",
@@ -684,7 +684,7 @@
         "LOGS",
         "STARGAZING",
         "PECANPIE",
-        "SNOWS",
+        "ALPINEHUT",
         "ROLLER"
       ]
     },
@@ -692,7 +692,7 @@
       "name": "Zion Canyon Cliffs Puzzle 041",
       "words": [
         "VARIETY",
-        "MUSICIAN",
+        "ALPINELAKE",
         "BLESSINGS",
         "SHOAL",
         "DRIFTWOOD",
@@ -714,9 +714,9 @@
         "GREENHOUSE",
         "CLIMAX",
         "PEAT",
-        "CASTLE",
+        "ALPINEPASS",
         "HOLLYHOCK",
-        "COACH",
+        "ALPINEWILDFLOWER",
         "RAVEN",
         "PYRAMID",
         "TOURS"
@@ -736,7 +736,7 @@
         "OAR",
         "TIPPLE",
         "RAILTRAIL",
-        "JUKEBOX"
+        "ALTERNATOR"
       ]
     },
     {
@@ -752,7 +752,7 @@
         "GOAT",
         "ROCKET",
         "DINER",
-        "HARMONY",
+        "ALTERNATORBELT",
         "SCENIC"
       ]
     },
@@ -764,7 +764,7 @@
         "COYOTES",
         "OAKSAVANNA",
         "FURY",
-        "LOOT",
+        "ALTIMA",
         "BENTHIC",
         "SPEAR",
         "BAYOU",
@@ -799,7 +799,7 @@
         "COUNTRY",
         "CIRCUS",
         "PARIS",
-        "PAINTER",
+        "AMBULANCE",
         "MONSTERA",
         "NEEDLE",
         "STANDUP",
@@ -817,7 +817,7 @@
         "GUARDIAN",
         "TENDER",
         "VCR",
-        "SPOTLIGHT",
+        "AMERICA",
         "HIMALAYA",
         "GULF",
         "TEXMEX",
@@ -862,5 +862,12 @@
       "National Parks"
     ],
     "checked_at": "2026-08-22T10:08:38"
+  },
+  "quality_review": {
+    "checked_at": "20260824-213754",
+    "source": "verified_word_intelligence_repair",
+    "verdict": "PASS_WITH_NOTES",
+    "production_ready": false,
+    "changes": 34
   }
 }

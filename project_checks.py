@@ -10,6 +10,23 @@ from cover import PALETTES
 
 
 VALID_COVER_STYLES = {"playful", "sunburst", "classic", "bold", "retro", "minimal", "gallery", "colorblock", "ticket", "halo", "stripe", "photo"}
+# Themes created in earlier versions can store the friendly UI wording instead
+# of the compact renderer key.  Both are supported by the live cover workflow,
+# so the library audit must recognise both forms rather than reporting a false
+# production stop.
+COVER_STYLE_LABELS = {
+    "Playful Illustrated": "playful", "Sunburst Poster": "sunburst",
+    "Classic": "classic", "Bold Spotlight": "bold", "Retro Pop": "retro",
+    "Minimal": "minimal", "Gallery Frame": "gallery", "Color Block": "colorblock",
+    "Ticket Stub": "ticket", "Halo Spotlight": "halo", "Diagonal Stripe": "stripe",
+    "Photo Hero": "photo",
+}
+
+
+def canonical_cover_style(value: object) -> str:
+    """Return the renderer key for either a saved key or a friendly UI label."""
+    style = str(value or "").strip()
+    return COVER_STYLE_LABELS.get(style, style.casefold())
 
 
 def recommended_us_paperback_price(page_count: int) -> tuple[float, float]:
@@ -128,7 +145,7 @@ def run_project_check(themes_dir: Path) -> tuple[list[str], list[str]]:
         if not str(data.get("title", "")).strip(): problems.append(f"{path.name}: missing title.")
         if not str(data.get("author", "")).strip(): problems.append(f"{path.name}: missing author.")
         palette = str(data.get("palette") or "")
-        style = str(data.get("cover_style") or "")
+        style = canonical_cover_style(data.get("cover_style"))
         if palette not in PALETTES: problems.append(f"{path.name}: unknown cover color family '{palette}'.")
         if style not in VALID_COVER_STYLES: problems.append(f"{path.name}: unknown cover layout '{style}'.")
         signature = data.get("signature_edition")

@@ -1,0 +1,49 @@
+{
+  "schema_version": 1,
+  "proposals": [
+    {
+      "topic": "General Knowledge & Curiosity",
+      "puzzle_type": "Scramble Trivia",
+      "audience": "Adults & Teens",
+      "buyer_angle": "Strongest current local catalog opportunity",
+      "evidence_summary": "Live research was unavailable (HTTPError); this is a local readiness suggestion, not a trend claim.",
+      "source_urls": [],
+      "source": "Local catalog fallback",
+      "research_date": "2026-09-05",
+      "local_capacity_note": "Review the existing production checks."
+    },
+    {
+      "topic": "General Knowledge & Curiosity",
+      "puzzle_type": "Scramble Trivia",
+      "audience": "Adults & Teens",
+      "buyer_angle": "Strongest current local catalog opportunity",
+      "evidence_summary": "Live research was unavailable (HTTPError); this is a local readiness suggestion, not a trend claim.",
+      "source_urls": [],
+      "source": "Local catalog fallback",
+      "research_date": "2026-09-05",
+      "local_capacity_note": "Review the existing production checks."
+    },
+    {
+      "topic": "General Knowledge & Curiosity",
+      "puzzle_type": "Scramble Trivia",
+      "audience": "Adults & Teens",
+      "buyer_angle": "Strongest current local catalog opportunity",
+      "evidence_summary": "Live research was unavailable (HTTPError); this is a local readiness suggestion, not a trend claim.",
+      "source_urls": [],
+      "source": "Local catalog fallback",
+      "research_date": "2026-09-05",
+      "local_capacity_note": "Review the existing production checks."
+    },
+    {
+      "topic": "General Knowledge & Curiosity",
+      "puzzle_type": "Scramble Trivia",
+      "audience": "Adults & Teens",
+      "buyer_angle": "Strongest current local catalog opportunity",
+      "evidence_summary": "Live research was unavailable (HTTPError); this is a local readiness suggestion, not a trend claim.",
+      "source_urls": [],
+      "source": "Local catalog fallback",
+      "research_date": "2026-09-05",
+      "local_capacity_note": "Review the existing production checks."
+    }
+  ]
+}

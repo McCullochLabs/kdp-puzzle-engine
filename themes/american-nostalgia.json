@@ -33,7 +33,7 @@
         "DRIVESIN",
         "COWBOY",
         "CARNEASADA",
-        "CHAMPION",
+        "ACCESSORY",
         "COSTUME",
         "FIVE",
         "LONGSPEAK"
@@ -48,12 +48,12 @@
         "UMBRELLA",
         "PASSENGER",
         "TECHNOLOGY",
-        "SCREAM",
+        "ACCORDHYBRID",
         "CHEESESTEAK",
         "LACE",
         "HOLIDAY",
         "HORSEPOWER",
-        "TREASURE"
+        "ACORN"
       ]
     },
     {
@@ -66,7 +66,7 @@
         "TRUNK",
         "GIRAFFE",
         "BOUFFANT",
-        "VIDEOGAME",
+        "ACURA",
         "SUNSET",
         "SEASHELL",
         "RAFTING",
@@ -93,13 +93,13 @@
     {
       "name": "Vinyl Records",
       "words": [
-        "FLAMINGO",
+        "ADVENTURETRAIL",
         "TRAILERPARK",
         "RESIST",
         "PIEROGI",
         "MISSION",
         "QUAIL",
-        "HANDHELDGAME",
+        "AEROSTAR",
         "SNACKBAR",
         "TWANG",
         "CONTRAST",
@@ -136,7 +136,7 @@
         "SPORT",
         "BARRIER",
         "HIMALAYA",
-        "PENCIL",
+        "AIRCONDITIONER",
         "FAUNA",
         "WAX"
       ]
@@ -147,7 +147,7 @@
         "HAUNTEDHOUSE",
         "GLACIER",
         "AMBULANCE",
-        "CROSS",
+        "AIRFRESHENER",
         "DOCUMENT",
         "SUMMIT",
         "GOLDCOLOR",
@@ -163,11 +163,11 @@
       "words": [
         "BEAKS",
         "COBBLER",
-        "GAMESTORE",
+        "AIRPUMP",
         "PHOTOKIOSK",
         "HOOKS",
         "MASK",
-        "COMICBOOK",
+        "ALASKAPARKS",
         "BLANKET",
         "OCEANMIST",
         "CHALLENGER",
@@ -183,11 +183,11 @@
         "HOOF",
         "SOCIETY",
         "ROAD",
-        "RESTORATION",
+        "ALERO",
         "AIRBORNE",
         "LEGEND",
         "SAHARA",
-        "THEATER",
+        "ALIGNMENT",
         "COUNTRYSIDE",
         "FACT"
       ]
@@ -230,9 +230,9 @@
       "name": "Carnival Games",
       "words": [
         "FUR",
-        "INTERNET",
+        "ALLROAD",
         "COWRIE",
-        "BOOKCASE",
+        "ALPINEFOREST",
         "KATANA",
         "IMPERIAL",
         "HOHRAINFOREST",
@@ -282,12 +282,12 @@
       "words": [
         "SILVERADO",
         "GHOST",
-        "TEMPLE",
+        "ALPINEGLOW",
         "KEYS",
         "HAWK",
         "MARSH",
         "AVENGER",
-        "ACTOR",
+        "ALPINEHUT",
         "PUFFIN",
         "PARKINGLOT",
         "ABILENE",
@@ -305,7 +305,7 @@
         "SPACEAGE",
         "SWELL",
         "RIO",
-        "ACTRESS",
+        "ALPINELAKE",
         "SEA",
         "VENOMOUS",
         "REDLEGGEDFROG"
@@ -322,7 +322,7 @@
         "FLASH",
         "REEL",
         "TAILGATE",
-        "DOWNLOAD",
+        "ALPINEPASS",
         "TTYL",
         "TEXMEX",
         "ABOLITION"
@@ -359,7 +359,7 @@
         "CXFIVE",
         "SOUNDBAR",
         "ACADIA",
-        "ACOUSTIC"
+        "ALPINEWILDFLOWER"
       ]
     },
     {
@@ -393,14 +393,14 @@
         "ONLINEGAMING",
         "STORY",
         "CLING",
-        "ACTION"
+        "ALTERNATOR"
       ]
     },
     {
       "name": "Old Computers",
       "words": [
         "DANCING",
-        "AUTHOR",
+        "ALTERNATORBELT",
         "TVDINNER",
         "AWNING",
         "PHASER",
@@ -410,7 +410,7 @@
         "SATIRE",
         "BOAS",
         "EVOLUTION",
-        "ROMANCE"
+        "ALTIMA"
       ]
     },
     {
@@ -450,7 +450,7 @@
     {
       "name": "Nostalgic Foods",
       "words": [
-        "FARM",
+        "AMERICANALLIGATOR",
         "ICONS",
         "GRANDVITARA",
         "BRAZIL",
@@ -472,7 +472,7 @@
         "ALTITUDE",
         "DUNE",
         "SATELLITE",
-        "OPENMIC",
+        "AMIGO",
         "CARPOOL",
         "GLIDE",
         "CASAGRANDE",
@@ -486,7 +486,7 @@
       "words": [
         "COMMENTARY",
         "SIDEPONY",
-        "BLOCKBUSTER",
+        "AMPERA",
         "TURKEY",
         "LAME",
         "DRINKS",
@@ -495,13 +495,13 @@
         "CALDERA",
         "DOMELIGHT",
         "NEWWAVE",
-        "POPCORN"
+        "ANACOSTIA"
       ]
     },
     {
       "name": "Ice Cream Trucks",
       "words": [
-        "SATURDAYNIGHT",
+        "ANDROIDAUTO",
         "ENCLOSURE",
         "TORTOISE",
         "FARE",
@@ -509,7 +509,7 @@
         "GUADALUPERIVER",
         "OTTOMAN",
         "PURPLENEEDLEGRASS",
-        "FARMLAND",
+        "ANTELOPECANYON",
         "GOLDEN",
         "CARCOVER",
         "TUSKER"
@@ -537,7 +537,7 @@
       "words": [
         "FEATHER",
         "CHARGERDAYTONA",
-        "BOOKMARK",
+        "ANTENNA",
         "HATCHLING",
         "BUTTERFLY",
         "LEOPARDS",
@@ -553,7 +553,7 @@
       "name": "American Musicals",
       "words": [
         "CONCH",
-        "ALBUMS",
+        "ANTIFREEZE",
         "BURROW",
         "SUNRISE",
         "BEARFLAG",
@@ -575,7 +575,7 @@
         "SURVIVAL",
         "CALLERID",
         "PATH",
-        "SUPPORT",
+        "ANTLER",
         "GALLOP",
         "ISLANDER",
         "RIDGELINE",
@@ -628,7 +628,7 @@
         "OYSTER",
         "ROCKCRAWLING",
         "NEEDLE",
-        "COLLECTOR",
+        "APPALACHIANTRAIL",
         "TREEHOUSE",
         "ROLLS",
         "SWAPPED"
@@ -664,7 +664,7 @@
         "VOYAGE",
         "LAKE",
         "DESTINY",
-        "PAINTER",
+        "ARCADIA",
         "ADDAX"
       ]
     },
@@ -673,8 +673,8 @@
       "words": [
         "BLUEBIRDS",
         "RANGER",
-        "JOURNAL",
-        "VINYL",
+        "ARCH",
+        "ARCHES",
         "FORTUNETOY",
         "GROOVE",
         "BUTTERFLYCLIP",
@@ -714,7 +714,7 @@
         "OAKLAND",
         "CRUSADER",
         "PHONEBOOTH",
-        "SHIELD",
+        "ARCTICFOX",
         "HONEY",
         "LANDFORM"
       ]
@@ -726,7 +726,7 @@
         "AUSTEN",
         "GUESTS",
         "VULNERABLE",
-        "COMMUNITY",
+        "ARIETTA",
         "PASSENGERSEAT",
         "CLUES",
         "RAPIDS",
@@ -808,9 +808,9 @@
       "name": "All-American Memories Word Quest 047",
       "words": [
         "ALBATROSS",
-        "ALBUM",
+        "ARMADA",
         "ALEXANDER",
-        "ALGAE",
+        "ARMISTICE",
         "ALIEN",
         "ALIENS",
         "ALLEGHENIES",
@@ -824,7 +824,7 @@
     {
       "name": "All-American Memories Word Quest 048",
       "words": [
-        "ALTAR",
+        "ARMREST",
         "AMARILLO",
         "AMERICA",
         "AMPHIBIAN",
@@ -835,7 +835,7 @@
         "ANCHOR",
         "ANCHOVY",
         "ANCIENT",
-        "ANGEL"
+        "ARROYO"
       ]
     }
   ],
@@ -877,5 +877,12 @@
       "Travel and Geography"
     ],
     "checked_at": "2026-08-22T10:08:38"
+  },
+  "quality_review": {
+    "checked_at": "20260824-213643",
+    "source": "verified_word_intelligence_repair",
+    "verdict": "PASS_WITH_NOTES",
+    "production_ready": false,
+    "changes": 41
   }
 }

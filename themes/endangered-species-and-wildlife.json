@@ -28,12 +28,12 @@
         "RIDGE",
         "ARCHIVIST",
         "SKIING",
-        "ALBUMS",
+        "ACORN",
         "BREAKER",
         "DECORATE",
         "GOLDCOAST",
         "BURIAL",
-        "CAROUSEL",
+        "ADVENTURE",
         "ARTIFACT",
         "WANDER",
         "PROSPECTOR"
@@ -97,7 +97,7 @@
         "WESTERNPA",
         "TARPON",
         "RELAXING",
-        "JOURNAL",
+        "ADVENTURETRAIL",
         "TWANG",
         "HOLIDAY",
         "THREAT",
@@ -154,7 +154,7 @@
         "BACKPACK",
         "FRENZY",
         "GRAND",
-        "BROADCAST",
+        "AIRPORT",
         "SPRINGWATER"
       ]
     },
@@ -185,7 +185,7 @@
         "TACTIC",
         "MCALLEN",
         "WARM",
-        "BILLBOARD",
+        "ALASKAPARKS",
         "OVERSEASHIGHWAY",
         "HOWLS",
         "AMPLITUDE",
@@ -248,7 +248,7 @@
       "words": [
         "SAND",
         "FORTYNINER",
-        "OSCAR",
+        "ALPINE",
         "HANDLEBAR",
         "EXPEDITION",
         "AIR",
@@ -290,7 +290,7 @@
         "WESTERNNEWYORK",
         "SEASON",
         "NETTLE",
-        "CHURCH",
+        "ALPINEFOREST",
         "CHARACTERS"
       ]
     },
@@ -325,13 +325,13 @@
         "WARLORD",
         "SNORKELING",
         "SPINNER",
-        "ACOUSTIC"
+        "ALPINEGLOW"
       ]
     },
     {
       "name": "Polar Bear",
       "words": [
-        "PRODUCER",
+        "ALPINEHUT",
         "APPETITE",
         "FONDUEPOT",
         "CAMERA",
@@ -357,7 +357,7 @@
         "DEFEND",
         "COLORFUL",
         "SNOWCAP",
-        "GAMEPLAY",
+        "ALPINELAKE",
         "FLOW",
         "LAUNCH"
       ]
@@ -365,13 +365,13 @@
     {
       "name": "North Atlantic Right Whale",
       "words": [
-        "DIRECTOR",
+        "ALPINEPASS",
         "SCHOOL",
         "KEYSTONESTATE",
         "MONTEREY",
-        "GARDENS",
+        "ALPINEWILDFLOWER",
         "EGRET",
-        "RESERVES",
+        "AMERICA",
         "PANTHERS",
         "DRIVESIN",
         "POLAR",
@@ -382,7 +382,7 @@
     {
       "name": "Siberian Tiger",
       "words": [
-        "PHOTOGRAPH",
+        "AMERICANALLIGATOR",
         "SPURS",
         "TRAVELS",
         "SKI",
@@ -419,7 +419,7 @@
         "CLAIM",
         "MOTEL",
         "MIDWAY",
-        "BATTLEFIELD",
+        "AMPHIBIAN",
         "AWARE",
         "ADVERTS",
         "MARQUEE",
@@ -427,7 +427,7 @@
         "RUINS",
         "SENATE",
         "WALK",
-        "ACTION"
+        "ANACOSTIA"
       ]
     },
     {
@@ -438,7 +438,7 @@
         "WARP",
         "SPACE",
         "COMPASS",
-        "RACING",
+        "ANEMONE",
         "APPALACHIAN",
         "MEADOW",
         "ALBANY",
@@ -467,7 +467,7 @@
     {
       "name": "Bali Starling",
       "words": [
-        "CLASSICROCK",
+        "ANGLERFISH",
         "NATURE",
         "OXYGEN",
         "PATRIOT",
@@ -523,7 +523,7 @@
         "FAJITA",
         "STRONG",
         "BRAIN",
-        "OPENMIC",
+        "ANTELOPECANYON",
         "GLAM",
         "APPLE",
         "SHIP",
@@ -535,14 +535,14 @@
     {
       "name": "Radiated Tortoise",
       "words": [
-        "MOVIENIGHT",
+        "ANTLER",
         "COBBLER",
         "LANDFORM",
         "BOATING",
         "CALCULATOR",
         "LODGE",
         "SHADE",
-        "FARM",
+        "APPALACHIANTRAIL",
         "ROCK",
         "COUPLESSKATE",
         "SAGEBRUSH",
@@ -558,20 +558,20 @@
         "KATANA",
         "BEHAVIORS",
         "PORTRAY",
-        "TEAMWORK",
+        "ARCH",
         "PRAWN",
         "RIGGER",
         "MONITORS",
         "CLIMAX",
-        "CAESAR"
+        "ARCHES"
       ]
     },
     {
       "name": "Leatherback Sea Turtle",
       "words": [
         "HOOK",
-        "SMILE",
-        "ARCADES",
+        "ARCTICFOX",
+        "ARROYO",
         "BEACHGEAR",
         "REELTOREEL",
         "HURRICANERIDGE",
@@ -605,7 +605,7 @@
       "words": [
         "MARY",
         "TEMPLAR",
-        "TOURNAMENT",
+        "ASPEN",
         "BEANBAG",
         "ALLIES",
         "COATOFARMS",
@@ -627,7 +627,7 @@
         "IGUANAS",
         "LONDON",
         "GATE",
-        "BARBECUE",
+        "ASPENLEAF",
         "GREENS",
         "LEARN",
         "GECKOS",
@@ -648,7 +648,7 @@
         "DEMOCRACY",
         "COMPUTER",
         "SEAWEED",
-        "COLOR"
+        "AUTUMN"
       ]
     },
     {
@@ -665,7 +665,7 @@
         "NEON",
         "SKYLINEDRIVE",
         "TOXIN",
-        "ACTOR"
+        "AVALANCHE"
       ]
     },
     {
@@ -733,14 +733,14 @@
         "FORUM",
         "TRAVELER",
         "EFFORT",
-        "CELEBRITY"
+        "AWARDSEASON"
       ]
     },
     {
       "name": "Dama Gazelle",
       "words": [
-        "GLORY",
-        "COSPLAY",
+        "BACKCOUNTRY",
+        "BACKCOUNTRYROAD",
         "SEMINOLECANYON",
         "ECOSYSTEMS",
         "SETTLE",
@@ -764,7 +764,7 @@
         "PICTURE",
         "PEACOCKS",
         "YUCCA",
-        "FILMMAKER",
+        "BACKPACKTRAIL",
         "FOREST",
         "NATURAL",
         "DRAGSTRIP"
@@ -774,7 +774,7 @@
       "name": "Markhor Goat",
       "words": [
         "SCENICBYWAY",
-        "SINGER",
+        "BACKSEAT",
         "STEPPE",
         "SAILS",
         "BEHAVIOR",
@@ -784,7 +784,7 @@
         "TORCH",
         "BOARDSHORTS",
         "TRACKED",
-        "STRATEGY"
+        "BACKWATER"
       ]
     },
     {
@@ -807,8 +807,8 @@
     {
       "name": "Takin Goat",
       "words": [
-        "STAGE",
-        "PEACE",
+        "BADLANDS",
+        "BADLANDSBUTTE",
         "TAXATION",
         "LAKEPLACID",
         "BAG",
@@ -832,8 +832,8 @@
         "TURQUOISE",
         "RECYCLE",
         "SHOW",
-        "POSTER",
-        "THRONE",
+        "BALSAMFIR",
+        "BARRIERBEACH",
         "PACKS",
         "AIRBOAT"
       ]
@@ -875,5 +875,12 @@
       "Ocean Life"
     ],
     "checked_at": "2026-08-22T10:08:38"
+  },
+  "quality_review": {
+    "checked_at": "20260824-213643",
+    "source": "verified_word_intelligence_repair",
+    "verdict": "PASS_WITH_NOTES",
+    "production_ready": false,
+    "changes": 39
   }
 }

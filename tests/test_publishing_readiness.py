@@ -62,14 +62,23 @@ def test_readiness_labels_cover_all_underlying_states(book_factory):
     for key, (_status, label, indicator) in cases.items():
         assert row(rows, key)["readiness_label"] == label
         assert row(rows, key)["indicator"] == indicator
-    # Template-cover platforms always carry an advisory note, so they read as
-    # "Not started" until prepared; B&N's plain check can come back clean.
-    assert row(rows, "bookvault")["readiness_label"] == "Not started"
+    # Printer-template reminders are visible advisory notes, not missing book
+    # data. The handoff folders can be prepared before the user has selected
+    # that printer's exact production specification.
+    assert row(rows, "bookvault")["readiness_label"] == "Can be prepared now"
     assert row(rows, "barnes_noble")["readiness_label"] == "Can be prepared now"
     empty_book = book_factory(with_files=False)
     empty_rows = marketplace_rows(empty_book, full_records())
     assert row(empty_rows, "amazon")["readiness_label"] == "Not started"
     assert row(empty_rows, "amazon")["indicator"] == ""
+
+
+def test_printer_preparation_never_claims_final_upload_readiness(book_factory):
+    rows = marketplace_rows(book_factory(), full_records(ingram={"status": "Prepared — Final Cover Needed"}))
+    ingram = row(rows, "ingram")
+    assert ingram["readiness_label"] == "Prepared — build final platform cover"
+    assert ingram["indicator"] == "attention"
+    assert "final IngramSpark cover" in " ".join(next_actions(rows))
 
 
 def test_error_row_surfaces_persisted_message_and_local_folder(book_factory):
@@ -87,8 +96,9 @@ def test_only_stored_published_state_counts_as_published(book_factory):
         etsy={"status": "Not Prepared", "url": "https://example.com/leftover"},
     )
     counts = whats_left(marketplace_rows(book, records))
-    assert counts == {"total": 7, "published": 1, "uploaded": 0, "ready_to_upload": 0,
-                      "ready_to_prepare": 6, "needs_attention": 0, "needs_items": 0}
+    assert counts == {"total": 8, "published": 1, "uploaded": 0, "ready_to_upload": 0,
+                      "ready_to_prepare": 7, "needs_attention": 0, "needs_items": 0,
+                      "final_cover_needed": 0}
     rows = marketplace_rows(book, records)
     assert "Live" not in row(rows, "etsy")["readiness_label"]
     assert row(rows, "amazon")["external_id"] == "B0LIVE"
@@ -135,7 +145,7 @@ def test_not_started_platforms_do_not_clutter_next_actions(book_factory):
         **{key: {"status": "Published"} for key in ("amazon", "etsy", "website", "barnes_noble")},
     )
     rows = marketplace_rows(book, records)
-    assert whats_left(rows)["ready_to_prepare"] == 3  # ingram + lulu + bookvault stay Not Prepared
+    assert whats_left(rows)["ready_to_prepare"] == 4  # ingram + lulu + bookvault + Payhip stay Not Prepared
     assert next_actions(rows) == []
 
 
@@ -147,8 +157,9 @@ def test_whats_left_counts_a_mixed_catalog(book_factory):
         website={"status": "Ready"}, lulu={"status": "Uploaded"}, bookvault={"status": "Not Prepared"},
     )
     counts = whats_left(marketplace_rows(book, records))
-    assert counts == {"total": 7, "published": 2, "uploaded": 1, "ready_to_upload": 1,
-                      "ready_to_prepare": 1, "needs_attention": 1, "needs_items": 1}
+    assert counts == {"total": 8, "published": 2, "uploaded": 1, "ready_to_upload": 1,
+                      "ready_to_prepare": 2, "needs_attention": 1, "needs_items": 1,
+                      "final_cover_needed": 0}
 
 
 def test_next_actions_are_capped_at_five(book_factory):
@@ -167,7 +178,7 @@ def test_everything_published_leaves_no_remaining_actions(book_factory):
     book = book_factory()
     records = full_records(**{key: {"status": "Published"} for key in MARKETPLACES})
     rows = marketplace_rows(book, records)
-    assert whats_left(rows)["published"] == 7
+    assert whats_left(rows)["published"] == 8
     assert next_actions(rows) == []
 
 
@@ -187,9 +198,14 @@ def test_classify_prepare_report_buckets_each_outcome():
     assert buckets["other"] == []
 
 
+def test_classify_prepare_report_keeps_template_cover_work_visible():
+    buckets = classify_prepare_report([("b1", "ingram", "Prepared — Final Cover Needed")])
+    assert buckets["final_cover_needed"] == [("b1", "ingram")]
+
+
 def test_classify_prepare_report_handles_all_ready_and_unknown_strings():
     ready = classify_prepare_report([("b1", key, "Ready") for key in MARKETPLACES])
-    assert len(ready["prepared"]) == 7 and not any(ready[key] for key in ("needs_review", "already_confirmed", "errors"))
+    assert len(ready["prepared"]) == 8 and not any(ready[key] for key in ("needs_review", "already_confirmed", "errors"))
     odd = classify_prepare_report([("b1", "amazon", "Something Unexpected")])
     assert odd["other"] == [("b1", "amazon", "Something Unexpected")]
 

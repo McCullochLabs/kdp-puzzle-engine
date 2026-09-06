@@ -16,7 +16,7 @@
         "NESTS",
         "FURNITURE",
         "RAILWAY",
-        "THREAD",
+        "ACADIA",
         "PARODY",
         "PALACE"
       ]
@@ -27,8 +27,8 @@
         "SEQUENCE",
         "MAYFLOWER",
         "STARFISH",
-        "HARMONY",
-        "ARCADE",
+        "ACCELERATOR",
+        "ACCESSORY",
         "PONDEROSA",
         "NAZI",
         "DIVE",
@@ -41,7 +41,7 @@
     {
       "name": "Fashion",
       "words": [
-        "SANCTUARY",
+        "ACCORD",
         "OILDERRICK",
         "DEEP",
         "TRADINGPOST",
@@ -49,7 +49,7 @@
         "SALT",
         "BEANBAG",
         "ARMS",
-        "SCREEN",
+        "ACCORDHYBRID",
         "SONAR",
         "MAKO",
         "ZOO"
@@ -68,7 +68,7 @@
         "BIOLOGY",
         "LILAC",
         "WATCH",
-        "FILM",
+        "ACORN",
         "GOLDENSTATE"
       ]
     },
@@ -144,7 +144,7 @@
       "name": "Food & Fondue",
       "words": [
         "BOOGIE",
-        "PARK",
+        "ACURA",
         "AVENUE",
         "COOKOUT",
         "STATELINE",
@@ -171,7 +171,7 @@
         "ANCHOVY",
         "REFUGE",
         "RIVER",
-        "FANART"
+        "ADVENTURE"
       ]
     },
     {
@@ -179,11 +179,11 @@
       "words": [
         "SOLVE",
         "SHEARS",
-        "SONG",
+        "ADVENTURETRAIL",
         "PROMOTE",
-        "FILMMAKER",
+        "AEROSTAR",
         "DIVING",
-        "UNITY",
+        "AGROFORESTRY",
         "KNIGHTS",
         "BOOK",
         "QUALITY",
@@ -203,7 +203,7 @@
         "PETRICHOR",
         "CHAIN",
         "THANKFUL",
-        "FRIENDS",
+        "AIRCONDITIONER",
         "COMMUNICATE",
         "RANKING"
       ]
@@ -281,8 +281,8 @@
       "words": [
         "GORILLAS",
         "NORTHCOUNTRY",
-        "ORNAMENT",
-        "ARCADES",
+        "AIRFILTER",
+        "AIRFRESHENER",
         "SYRACUSE",
         "CLOWNFISH",
         "COBBLESTONE",
@@ -320,8 +320,8 @@
         "WORDSEARCH",
         "COCONUT",
         "GERANIUM",
-        "PLANKTON",
-        "BLOCKBUSTER",
+        "AIRPORT",
+        "AIRPUMP",
         "AMERICA",
         "ELECTRIC",
         "SEARCH"
@@ -356,7 +356,7 @@
         "CANYON",
         "COLD",
         "SAGE",
-        "GROUPER",
+        "ALASKAPARKS",
         "PULSE",
         "TOOTH"
       ]
@@ -375,7 +375,7 @@
         "PISTACHIO",
         "CHIP",
         "COUNTRY",
-        "FOLK"
+        "ALERO"
       ]
     },
     {
@@ -384,14 +384,14 @@
         "TULIP",
         "CHALET",
         "BLENNY",
-        "FIDDLE",
+        "ALIGNMENT",
         "HUMOR",
-        "WRITERS",
+        "ALLIES",
         "ROOMS",
         "ENGAGING",
         "CAT",
         "NEAP",
-        "CHAPTER",
+        "ALLROAD",
         "PEACESIGN"
       ]
     },
@@ -400,7 +400,7 @@
       "words": [
         "NIGELLA",
         "SHARK",
-        "FILTER",
+        "ALLWHEEL",
         "BOBCATS",
         "SILLY",
         "SNOWMELT",
@@ -421,9 +421,9 @@
         "LIZARD",
         "EUCALYPTUS",
         "TUDOR",
-        "TEMPLE",
+        "ALPINE",
         "DAYHIKE",
-        "POSTER",
+        "ALPINEFOREST",
         "PASSION",
         "SHALLOT",
         "CAMERAS"
@@ -438,7 +438,7 @@
         "RAFTING",
         "ROADSIGN",
         "SCRIPTS",
-        "HIGHSCORE",
+        "ALPINEGLOW",
         "SNAIL",
         "ARMOR",
         "PROGRESS",
@@ -470,8 +470,8 @@
         "DRAWING",
         "PADDLING",
         "CONQUEST",
-        "HEADPHONES",
-        "DIRECTOR",
+        "ALPINEHUT",
+        "ALPINELAKE",
         "TANG",
         "CRASH",
         "SNOOK",
@@ -509,15 +509,15 @@
         "BURGER",
         "PASSENGER",
         "SCRAPPLE",
-        "CRAFT",
+        "ALPINEPASS",
         "ZOOKEEPER",
-        "PUZZLE"
+        "ALPINEWILDFLOWER"
       ]
     },
     {
       "name": "TV Night: Memory Lane",
       "words": [
-        "CONCERT",
+        "ALTERNATOR",
         "HUMUS",
         "SOLAR",
         "BLUEBIRD",
@@ -573,7 +573,7 @@
         "OCEANIC",
         "ZONE",
         "GHOST",
-        "WARMTH",
+        "ALTERNATORBELT",
         "BLESSINGS",
         "CAUSEWAY",
         "LANCASTER",
@@ -587,16 +587,16 @@
       "words": [
         "GECKOS",
         "SCALES",
-        "PATTERN",
+        "ALTIMA",
         "MANURE",
         "NATURALIZE",
-        "COLLECTOR",
+        "AMBULANCE",
         "BUTTERCUP",
-        "TREASURE",
-        "DISCIPLINE",
+        "AMERICANALLIGATOR",
+        "AMIGO",
         "MONUMENT",
-        "WINNER",
-        "PAINTER"
+        "AMPERA",
+        "AMPHIBIAN"
       ]
     },
     {
@@ -610,7 +610,7 @@
         "THRILL",
         "ARCHIVIST",
         "HANDLEBAR",
-        "CHAMPION",
+        "AMPLIFIER",
         "SLUICE",
         "PILOT",
         "NAPA"
@@ -626,7 +626,7 @@
         "COMPUTER",
         "ADVENT",
         "DELIGHT",
-        "DANCEFLOOR",
+        "ANACOSTIA",
         "ATLAS",
         "ROWING",
         "MARCH",
@@ -645,7 +645,7 @@
         "QUIZZES",
         "TRAINSET",
         "FAVORITE",
-        "WORD",
+        "ANDROIDAUTO",
         "SIDEWALK",
         "INFLATE"
       ]
@@ -658,13 +658,13 @@
         "RESCUES",
         "OXYGEN",
         "JAMMING",
-        "TURTLES",
+        "ANTELOPECANYON",
         "DOWNPOUR",
         "GRANDPRISMATIC",
         "BASEBALL",
         "COURSE",
         "COFFIN",
-        "HEAVENLY"
+        "ANTENNA"
       ]
     },
     {
@@ -690,7 +690,7 @@
         "FIRE",
         "SCHEDULE",
         "GENIUS",
-        "WESTERN",
+        "ANTIFREEZE",
         "GETTYSBURG",
         "WEATHER",
         "HEIRLOOM",
@@ -726,7 +726,7 @@
         "PREY",
         "JAVELINA",
         "FREIGHTS",
-        "FAMOUS",
+        "ANTLER",
         "PANNING",
         "SPINY",
         "SOCCER",
@@ -741,7 +741,7 @@
         "NECK",
         "GATHERING",
         "ALMOND",
-        "ROMANCE",
+        "APPALACHIANTRAIL",
         "MONAHANS",
         "TRAILHEAD",
         "GOINGTOSUN",
@@ -762,9 +762,9 @@
         "SIEGE",
         "CHEVY",
         "ELEVATION",
-        "POPCORN",
+        "ARCADIA",
         "COMBER",
-        "CHARACTER",
+        "ARCTICFOX",
         "SWEETPEA",
         "BOILINGRIVER"
       ]
@@ -792,7 +792,7 @@
         "POSTERS",
         "LEOPARDS",
         "MYCORRHIZAE",
-        "BOOKCASE",
+        "ARIETTA",
         "AVOCADO",
         "CHIVALRY",
         "MYTH",
@@ -893,5 +893,12 @@
       "National Parks"
     ],
     "checked_at": "2026-08-22T10:08:37"
+  },
+  "quality_review": {
+    "checked_at": "20260824-213612",
+    "source": "verified_word_intelligence_repair",
+    "verdict": "PASS_WITH_NOTES",
+    "production_ready": false,
+    "changes": 48
   }
 }

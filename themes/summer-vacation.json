@@ -25,7 +25,7 @@
     {
       "name": "Beach House",
       "words": [
-        "NOVEL",
+        "ACANTHUS",
         "LOTION",
         "MEASURE",
         "RABBIT",
@@ -42,7 +42,7 @@
     {
       "name": "Summer Breeze",
       "words": [
-        "EQUIPMENT",
+        "ACHILLEA",
         "TRELLIS",
         "PEAR",
         "BROWNIE",
@@ -68,8 +68,8 @@
         "SETTING",
         "GUARDIAN",
         "LEYLANDII",
-        "SPOTLIGHT",
-        "CHILDHOOD",
+        "ACREAGE",
+        "AGAPANTHUS",
         "SURFER"
       ]
     },
@@ -85,7 +85,7 @@
         "BRAMBLE",
         "SWEEP",
         "BLUE",
-        "BALANCE",
+        "AGRICULTURE",
         "SYRUP",
         "WINTER"
       ]
@@ -95,7 +95,7 @@
       "words": [
         "SEAWEATHER",
         "CEDAR",
-        "THANKFUL",
+        "AGROFORESTRY",
         "BAMBOO",
         "FREETIME",
         "SAFFRON",
@@ -113,7 +113,7 @@
         "HARDY",
         "CATERPILLAR",
         "LAGOON",
-        "ALGAE",
+        "AGROTEK",
         "MAGNOLIA",
         "DISCOVER",
         "STRIPE",
@@ -130,13 +130,13 @@
         "FOAM",
         "REEF",
         "TOPPING",
-        "DOUGH",
+        "AIRPLANT",
         "BRAINGAME",
         "SNIP",
         "GALAXY",
         "SOCIAL",
         "FUNNY",
-        "BAKER",
+        "ALFALFA",
         "PIECRUST",
         "SUNSCREEN"
       ]
@@ -145,14 +145,14 @@
       "name": "Surfboard",
       "words": [
         "ASH",
-        "FROSTING",
+        "ALLIUM",
         "JAM",
         "CONTRAST",
         "SMELL",
         "CANOE",
         "BLAZINGSTAR",
         "SOAP",
-        "LITERATURE",
+        "ALLOTMENT",
         "STICKY",
         "TROPICAL",
         "CAN"
@@ -238,7 +238,7 @@
         "REEL",
         "MAYFLOWER",
         "PEACH",
-        "TRUNK",
+        "ALPACA",
         "RUSSET",
         "PASS"
       ]
@@ -265,13 +265,13 @@
       "words": [
         "GARDEN",
         "MOTHER",
-        "FOUNTAIN",
+        "ALPINE",
         "BIRDSONG",
         "ROMAINE",
         "NOISE",
         "CAMP",
         "GETAWAY",
-        "EMERGENCY",
+        "ALYSSUM",
         "VACATION",
         "LOCAL",
         "POTTINGMIX"
@@ -317,15 +317,15 @@
         "PATIO",
         "FAUCET",
         "BRANCH",
-        "PUZZLE",
+        "AMARANTH",
         "PERENNIAL",
         "SUMMER",
         "ROD",
         "CHAIR",
         "FREE",
-        "FICTION",
+        "AMARYLLIS",
         "GARLIC",
-        "PAGE"
+        "ANGORA"
       ]
     },
     {
@@ -353,7 +353,7 @@
         "CLEMATIS",
         "PAST",
         "ANNUAL",
-        "NOEL",
+        "ANISE",
         "CREEPINGJENNY",
         "CURRANT",
         "CONTAINER",
@@ -375,7 +375,7 @@
         "LUPINE",
         "CATEGORY",
         "CHAMOMILE",
-        "BEAT",
+        "APIARY",
         "HOLLY"
       ]
     },
@@ -404,7 +404,7 @@
         "CENTERPIECE",
         "SHALLOT",
         "HUNT",
-        "LIBRARY",
+        "APIARYBOX",
         "NURTURE",
         "CLASS",
         "CAKE",
@@ -426,7 +426,7 @@
         "SOUP",
         "SOARING",
         "CREATIVITY",
-        "HERB",
+        "APPLEBLOSSOM",
         "INSTRUCTOR"
       ]
     },
@@ -435,7 +435,7 @@
       "words": [
         "PADDLE",
         "FLIGHT",
-        "KELP",
+        "APPLEBUTTER",
         "FISHING",
         "LEARN",
         "POOL",
@@ -460,7 +460,7 @@
         "CHICKEN",
         "SOURDOUGH",
         "GREEN",
-        "GRATITUDE",
+        "APPLECIDER",
         "SLATE"
       ]
     },
@@ -468,10 +468,10 @@
       "name": "Beach Umbrella",
       "words": [
         "SWITCHGRASS",
-        "GOLF",
+        "APPLEORCHARD",
         "FACE",
         "WOODEN",
-        "FERRY",
+        "APPLEPIE",
         "SALT",
         "MILK",
         "SUN",
@@ -488,7 +488,7 @@
         "STYLISH",
         "PERFORM",
         "WORDSEARCH",
-        "CINEMA",
+        "APPLESAUCE",
         "VIEW",
         "RAKE",
         "SNOW",
@@ -507,7 +507,7 @@
         "ESCALLONIA",
         "LUNCH",
         "PEARL",
-        "COLOR",
+        "APRICOT",
         "TOASTY",
         "MONSTERA",
         "BEACH",
@@ -536,8 +536,8 @@
       "name": "Summer Lovin",
       "words": [
         "SKIN",
-        "WORMS",
-        "FASHION",
+        "APRICOTTREE",
+        "APRON",
         "FIREWOOD",
         "POPLAR",
         "RAISEDBED",
@@ -557,7 +557,7 @@
         "NOODLE",
         "RASPBERRY",
         "CINNAMON",
-        "CASTLE",
+        "AQUAPONICS",
         "HOSE",
         "SAUNA",
         "BERGAMOT",
@@ -569,7 +569,7 @@
     {
       "name": "Golf Cart",
       "words": [
-        "SCREEN",
+        "ARBOR",
         "VEGETABLE",
         "PARASOL",
         "EGGPLANT",
@@ -610,7 +610,7 @@
         "UTENSIL",
         "BUTTER",
         "LOAM",
-        "ACCESSORY",
+        "ARBORVITAE",
         "ICECREAM",
         "VIGILANT",
         "WHEELBARROW",
@@ -677,7 +677,7 @@
         "PAGODA",
         "BEE",
         "GRAVEL",
-        "AUTHOR",
+        "ARBUTUS",
         "HOVERFLY",
         "PARFAIT",
         "CAMPFIRE",
@@ -688,8 +688,8 @@
     {
       "name": "Tide Pool",
       "words": [
-        "GOLDENROD",
-        "WARMTH",
+        "ARONIA",
+        "ARTICHOKE",
         "NOZZLE",
         "ORION",
         "PROMENADE",
@@ -708,7 +708,7 @@
         "PINK",
         "DRIP",
         "PUREE",
-        "SMILE",
+        "ARUGULA",
         "SURFING",
         "SYCAMORE",
         "SWIMMER",
@@ -722,13 +722,13 @@
     {
       "name": "Kite Flying",
       "words": [
-        "YEAST",
-        "UNITY",
+        "ASPARAGUS",
+        "ASTER",
         "FEEDER",
         "COASTLINE",
         "KITCHEN",
         "PYROTECHNIC",
-        "SONGS",
+        "AZALEA",
         "DISH",
         "LUXURY",
         "TIP",
@@ -750,7 +750,7 @@
         "DRIVE",
         "AIRY",
         "PARSLEY",
-        "LOVE"
+        "BACKPACK"
       ]
     },
     {
@@ -763,7 +763,7 @@
         "COB",
         "RISE",
         "AGAVE",
-        "STUFFING",
+        "BACKPORCH",
         "PIER",
         "BIENNIAL",
         "MUSTARD",
@@ -773,7 +773,7 @@
     {
       "name": "Beach Bonfire",
       "words": [
-        "STAGE",
+        "BACKYARDCHICKENS",
         "LARKSPUR",
         "SURF",
         "PEONY",
@@ -813,9 +813,9 @@
         "TOES",
         "CHIPMUNK",
         "PINE",
-        "COACH",
+        "BACKYARDFARM",
         "AROMA",
-        "ICING",
+        "BACKYARDGARDEN",
         "TASTE",
         "GENRE",
         "MILL"
@@ -876,5 +876,12 @@
       "Gardening"
     ],
     "checked_at": "2026-08-22T10:08:39"
+  },
+  "quality_review": {
+    "checked_at": "20260824-213944",
+    "source": "verified_word_intelligence_repair",
+    "verdict": "PASS_WITH_NOTES",
+    "production_ready": false,
+    "changes": 44
   }
 }

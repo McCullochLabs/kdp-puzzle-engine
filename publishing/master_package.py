@@ -6,6 +6,8 @@ import os
 import shutil
 from pathlib import Path
 
+from .package_layout import package_file
+
 
 PLATFORM_GUIDES = {
     "KDP": "https://kdp.amazon.com/en_US/help/topic/G201857950",
@@ -14,6 +16,9 @@ PLATFORM_GUIDES = {
     "Lulu": "https://help.lulu.com/en/support/solutions/articles/64000255462",
     "Bookvault": "https://help.bookvault.app/hubfs/Guide%20To%20PDFs%20-%20Digital%20Version%20.pdf",
     "Barnes & Noble": "https://help.barnesandnoble.com/hc/en-us/articles/5353991979163-How-to-Submit-Content",
+    "Shopify": "https://shopify.dev/docs/api/admin-graphql",
+    "WooCommerce": "https://developer.woocommerce.com/docs/apis/rest-api/v3/products",
+    "Wix": "https://dev.wix.com/docs/rest/business-solutions/stores",
 }
 
 
@@ -41,9 +46,11 @@ def _write(path: Path, text: str) -> None:
 
 def build_master_package(folder: Path, metadata: dict) -> Path | None:
     """Make a safe upload map without ever modifying the original package files."""
-    interior = folder / "interior.pdf"
-    cover = folder / "kdp_full_wrap.pdf"
-    front = folder / "front_cover.png"
+    # New packages use the organized layout; package_file also preserves
+    # compatibility with earlier flat packages.
+    interior = package_file(folder, "interior.pdf")
+    cover = package_file(folder, "kdp_full_wrap.pdf")
+    front = package_file(folder, "front_cover.png")
     if not interior.is_file() or not cover.is_file():
         return None
 
@@ -99,24 +106,34 @@ Official guidance: {PLATFORM_GUIDES['Etsy']}
     _copy(interior, website / "digital_download.pdf"); _copy(front, website / "product_cover.png")
     _write(website / "PRODUCT_SETUP.txt", "DIRECT WEBSITE PRODUCT\n\nUse digital_download.pdf for a downloadable puzzle-book product. Use product_cover.png as the product image. The print wrap is not a customer download. Set the product description, price, tax, delivery, and refund terms in your own store platform.\n")
 
+    for number, platform, slug in (("03A", "Shopify", "shopify"), ("03B", "WooCommerce", "woocommerce"), ("03C", "Wix", "wix")):
+        target = root / f"{number}_{slug.upper()}"
+        _copy(interior, target / "digital_download.pdf"); _copy(front, target / "product_cover.png")
+        _write(target / "PRODUCT_HANDOFF.txt", f"""{platform.upper()} PRODUCT HANDOFF
+This folder is a safe local handoff, not a live listing. Use digital_download.pdf only for a deliberately configured digital product. Use product_cover.png as the primary product image.
+
+For a physical product, create the storefront listing separately and connect its fulfillment route (for example, Lulu) before accepting orders. Do not give customers a printer production wrap as a digital download.
+Official developer guidance: {PLATFORM_GUIDES[platform]}
+""")
+
     for number, platform, slug in (("04", "IngramSpark", "ingramspark"), ("05", "Lulu", "lulu"), ("06", "Bookvault", "bookvault")):
         target = root / f"{number}_{slug.upper()}"
         _copy(interior, target / "interior_reusable_if_spec_matches.pdf")
-        _copy(cover, target / "kdp_cover_reference_only.pdf")
         _copy(front, target / "front_cover_reference.png")
         _write(target / "BUILD_PLATFORM_COVER_FIRST.txt", f"""{platform.upper()} PRINT HANDOFF
 The interior file is supplied as a possible starting point. Reuse it only after confirming its trim size, bleed, margins, paper selection, and page count match your {platform} title setup.
 
-Do NOT upload kdp_cover_reference_only.pdf as the final {platform} cover. Build a new full cover spread using that platform's current template/calculator. Printer templates use their own spine width and cover dimensions.
+The Amazon KDP wrap is intentionally not copied here. Build a new full cover spread using {platform}'s current template/calculator; printer templates use their own spine width and cover dimensions.
 
 Then upload the platform-specific interior and newly built cover as separate PDFs. Confirm embedded fonts, flattened transparency, no crop/trim marks, and 300-DPI images where applicable. Order or review a proof before release.
 Official guidance: {PLATFORM_GUIDES[platform]}
 """)
 
     bn = root / "07_BARNES_NOBLE"
+    _copy(interior, bn / "interior_reusable_if_spec_matches.pdf")
     _copy(front, bn / "front_cover_listing_image.png")
     _write(bn / "CATALOG_HANDOFF.txt", f"""BARNES & NOBLE HANDOFF
-This folder contains the front-cover image and master metadata. Use the current B&N/partner setup instructions for the actual print files and ISBN workflow.
+The interior file is supplied as a possible starting point. Reuse it only after confirming its trim size, bleed, margins, paper selection, and page count match your B&N Press setup. The Amazon KDP wrap is intentionally not copied here; build the final cover on B&N Press's current template.
 For catalog merchandising, use a single front-cover image—not the full KDP wrap. Keep title, contributor, ISBN, price, description, and categories consistent with your selected distribution route.
 Official content guidance: {PLATFORM_GUIDES['Barnes & Noble']}
 """)

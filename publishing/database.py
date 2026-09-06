@@ -2,11 +2,12 @@
 from __future__ import annotations
 
 import json
+import hashlib
 import sqlite3
 from datetime import datetime
 from pathlib import Path
 
-MARKETPLACES = ("amazon", "etsy", "ingram", "website", "lulu", "bookvault", "barnes_noble")
+MARKETPLACES = ("amazon", "etsy", "ingram", "website", "lulu", "bookvault", "barnes_noble", "payhip")
 # Confirmed upload/live states. Automated flows (prepare, local scans, future
 # API/browser adapters) must never move a marketplace backwards from these or
 # overwrite the identifiers the user confirmed; only explicit manual saves may.
@@ -27,6 +28,10 @@ class PublishingDatabase:
                 CREATE TABLE IF NOT EXISTS marketplace_status (book_id TEXT NOT NULL, marketplace TEXT NOT NULL, status TEXT NOT NULL DEFAULT 'Not Prepared', external_id TEXT DEFAULT '', url TEXT DEFAULT '', updated_at TEXT NOT NULL, PRIMARY KEY (book_id, marketplace), FOREIGN KEY(book_id) REFERENCES books(book_id));
                 CREATE TABLE IF NOT EXISTS isbns (isbn TEXT PRIMARY KEY, book_id TEXT, title TEXT, format TEXT, source TEXT, assigned_at TEXT);
                 CREATE TABLE IF NOT EXISTS bundles (bundle_id TEXT PRIMARY KEY, title TEXT NOT NULL, book_ids_json TEXT NOT NULL, metadata_json TEXT NOT NULL, output_path TEXT NOT NULL, created_at TEXT NOT NULL);
+                CREATE TABLE IF NOT EXISTS approved_production_queue (queue_id INTEGER PRIMARY KEY AUTOINCREMENT, book_id TEXT NOT NULL UNIQUE, status TEXT NOT NULL DEFAULT 'Approved', added_at TEXT NOT NULL, updated_at TEXT NOT NULL, note TEXT DEFAULT '');
+                CREATE TABLE IF NOT EXISTS release_locks (lock_id INTEGER PRIMARY KEY AUTOINCREMENT, book_id TEXT NOT NULL, revision INTEGER NOT NULL, package_path TEXT NOT NULL, snapshot_json TEXT NOT NULL, snapshot_sha256 TEXT NOT NULL, locked_at TEXT NOT NULL, UNIQUE(book_id, revision));
+                CREATE TABLE IF NOT EXISTS cover_concepts (concept_id INTEGER PRIMARY KEY AUTOINCREMENT, book_id TEXT NOT NULL, label TEXT NOT NULL, direction_json TEXT NOT NULL, selected INTEGER NOT NULL DEFAULT 0, created_at TEXT NOT NULL, UNIQUE(book_id, label));
+                CREATE TABLE IF NOT EXISTS final_local_reviews (review_id INTEGER PRIMARY KEY AUTOINCREMENT, book_id TEXT NOT NULL, proof_id TEXT NOT NULL DEFAULT '', package_path TEXT NOT NULL DEFAULT '', reviewed_at TEXT NOT NULL, reviewer_source TEXT NOT NULL DEFAULT 'human', note TEXT NOT NULL DEFAULT '', UNIQUE(book_id, proof_id, package_path));
             """)
             # Additive migration for older catalogs: the persisted preparation
             # error message arrived after the first release of this table.
@@ -46,6 +51,15 @@ class PublishingDatabase:
                 db.execute("ALTER TABLE marketplace_status ADD COLUMN idempotency_key TEXT NOT NULL DEFAULT ''")
             if "last_synced_at" not in columns:
                 db.execute("ALTER TABLE marketplace_status ADD COLUMN last_synced_at TEXT NOT NULL DEFAULT ''")
+            queue_columns = {row[1] for row in db.execute("PRAGMA table_info(approved_production_queue)")}
+            for name, definition in (
+                ("sort_order", "INTEGER NOT NULL DEFAULT 0"),
+                ("target_marketplaces_json", "TEXT NOT NULL DEFAULT '[]'"),
+                ("target_launch_date", "TEXT NOT NULL DEFAULT ''"),
+                ("stop_reason", "TEXT NOT NULL DEFAULT ''"),
+            ):
+                if name not in queue_columns:
+                    db.execute(f"ALTER TABLE approved_production_queue ADD COLUMN {name} {definition}")
             # Append-only history of marketplace status changes. Rows are never
             # updated or deleted, so the publishing trail survives catalog prunes
             # and gives every screen one truthful answer to "what happened here?".
@@ -259,6 +273,185 @@ class PublishingDatabase:
             item = dict(row); item["book_ids"] = json.loads(item.pop("book_ids_json")); item["metadata"] = json.loads(item.pop("metadata_json")); result.append(item)
         return result
 
+    # -- Approved production and immutable release records -----------------
+
+    def approve_for_production(self, book_id: str, note: str = "", marketplaces: list[str] | None = None,
+                               launch_date: str = "") -> None:
+        now = datetime.now().isoformat(timespec="seconds")
+        with self._connect() as db:
+            order = db.execute("SELECT COALESCE(MAX(sort_order), 0) + 1 FROM approved_production_queue").fetchone()[0]
+            targets = [item for item in (marketplaces or ["amazon", "etsy", "website"]) if item in MARKETPLACES]
+            db.execute("""INSERT INTO approved_production_queue(book_id,status,added_at,updated_at,note,sort_order,target_marketplaces_json,target_launch_date,stop_reason) VALUES(?,?,?,?,?,?,?,?,?)
+                          ON CONFLICT(book_id) DO UPDATE SET status='Approved', updated_at=excluded.updated_at, note=excluded.note, target_marketplaces_json=excluded.target_marketplaces_json, target_launch_date=excluded.target_launch_date, stop_reason=''""",
+                       (book_id, "Approved", now, now, str(note).strip(), order, json.dumps(targets), str(launch_date).strip(), ""))
+
+    def approved_production_queue(self) -> list[dict]:
+        with self._connect() as db:
+            rows = db.execute("SELECT * FROM approved_production_queue ORDER BY sort_order, queue_id").fetchall()
+        result = []
+        for row in rows:
+            item = dict(row)
+            try: item["target_marketplaces"] = json.loads(item.pop("target_marketplaces_json") or "[]")
+            except json.JSONDecodeError: item["target_marketplaces"] = []
+            result.append(item)
+        return result
+
+    def set_approval_status(self, book_id: str, status: str, note: str = "") -> None:
+        if status not in {"Approved", "In progress", "Completed", "Needs attention", "Abandoned"}:
+            raise ValueError("Unknown approval status")
+        with self._connect() as db:
+            db.execute("UPDATE approved_production_queue SET status=?, note=?, stop_reason=?, updated_at=? WHERE book_id=?",
+                       (status, str(note).strip(), str(note).strip() if status in {"Needs attention", "Abandoned"} else "", datetime.now().isoformat(timespec="seconds"), book_id))
+
+    def update_approval_plan(self, book_id: str, marketplaces: list[str], launch_date: str = "") -> None:
+        targets = [item for item in marketplaces if item in MARKETPLACES]
+        with self._connect() as db:
+            db.execute("UPDATE approved_production_queue SET target_marketplaces_json=?, target_launch_date=?, updated_at=? WHERE book_id=?",
+                       (json.dumps(targets), str(launch_date).strip(), datetime.now().isoformat(timespec="seconds"), book_id))
+
+    def move_approval_item(self, book_id: str, direction: int) -> bool:
+        rows = self.approved_production_queue(); index = next((i for i, row in enumerate(rows) if row["book_id"] == book_id), None)
+        if index is None or not 0 <= index + direction < len(rows): return False
+        other = rows[index + direction]
+        with self._connect() as db:
+            db.execute("UPDATE approved_production_queue SET sort_order=? WHERE book_id=?", (other["sort_order"], book_id))
+            db.execute("UPDATE approved_production_queue SET sort_order=? WHERE book_id=?", (rows[index]["sort_order"], other["book_id"]))
+        return True
+
+    def save_cover_concept(self, book_id: str, label: str, direction: dict, selected: bool = False) -> None:
+        now = datetime.now().isoformat(timespec="seconds")
+        with self._connect() as db:
+            if selected: db.execute("UPDATE cover_concepts SET selected=0 WHERE book_id=?", (book_id,))
+            db.execute("INSERT INTO cover_concepts(book_id,label,direction_json,selected,created_at) VALUES(?,?,?,?,?) ON CONFLICT(book_id,label) DO UPDATE SET direction_json=excluded.direction_json, selected=excluded.selected, created_at=excluded.created_at",
+                       (book_id, str(label).strip() or "Concept", json.dumps(direction, ensure_ascii=False), int(selected), now))
+
+    def cover_concepts(self, book_id: str) -> list[dict]:
+        with self._connect() as db: rows = db.execute("SELECT * FROM cover_concepts WHERE book_id=? ORDER BY selected DESC, concept_id", (book_id,)).fetchall()
+        result=[]
+        for row in rows:
+            item=dict(row); item["direction"] = json.loads(item.pop("direction_json")); result.append(item)
+        return result
+
+    def set_approval_status_for_source(self, source_key: str, status: str, note: str = "") -> bool:
+        """Update a queued item from a creator outcome without guessing a book ID."""
+        with self._connect() as db:
+            row = db.execute("SELECT book_id FROM books WHERE source_key=?", (str(source_key),)).fetchone()
+        if not row:
+            return False
+        self.set_approval_status(row["book_id"], status, note)
+        return True
+
+    def lock_release(self, book_id: str) -> dict:
+        book = self.get_book(book_id)
+        if not book or not str(book.get("package_path") or "").strip():
+            raise ValueError("Create the complete package before locking this release.")
+        package = Path(book["package_path"])
+        from .package_layout import package_file
+        from background_generation.index import verify_rendered_cover_approval
+        cover_ok, cover_reason, _cover_proof = verify_rendered_cover_approval(package_file(package, "front_cover.png"))
+        if not cover_ok:
+            raise ValueError("Cover Art Required — release cannot be locked: " + cover_reason)
+        files = {}
+        for key, raw in (book["metadata"].get("files") or {}).items():
+            path = Path(str(raw))
+            if path.is_file(): files[key] = {"path": str(path), "sha256": hashlib.sha256(path.read_bytes()).hexdigest(), "bytes": path.stat().st_size}
+        for path in package.glob("*.pdf") if package.is_dir() else ():
+            files.setdefault(path.name, {"path": str(path), "sha256": hashlib.sha256(path.read_bytes()).hexdigest(), "bytes": path.stat().st_size})
+        snapshot = {"book_id": book_id, "source_key": book["source_key"], "package_path": book["package_path"], "metadata": book["metadata"], "statuses": book["statuses"], "file_checksums": files}
+        encoded = json.dumps(snapshot, sort_keys=True, ensure_ascii=False, separators=(",", ":"))
+        digest = hashlib.sha256(encoded.encode("utf-8")).hexdigest()
+        now = datetime.now().isoformat(timespec="seconds")
+        with self._connect() as db:
+            row = db.execute("SELECT revision,snapshot_sha256,locked_at FROM release_locks WHERE book_id=? ORDER BY revision DESC LIMIT 1", (book_id,)).fetchone()
+            if row and row["snapshot_sha256"] == digest:
+                return {"revision": row["revision"], "sha256": digest, "locked_at": row["locked_at"], "unchanged": True}
+            revision = int(row["revision"] if row else 0) + 1
+            db.execute("INSERT INTO release_locks(book_id,revision,package_path,snapshot_json,snapshot_sha256,locked_at) VALUES(?,?,?,?,?,?)", (book_id, revision, book["package_path"], encoded, digest, now))
+        return {"revision": revision, "sha256": digest, "locked_at": now, "unchanged": False}
+
+    def release_locks(self, book_id: str) -> list[dict]:
+        with self._connect() as db:
+            rows = db.execute("SELECT lock_id,book_id,revision,package_path,snapshot_sha256,locked_at FROM release_locks WHERE book_id=? ORDER BY revision DESC", (book_id,)).fetchall()
+        return [dict(row) for row in rows]
+
+    def latest_release_lock_snapshot(self, book_id: str) -> dict | None:
+        """Return the newest immutable release snapshot for read-only checks.
+
+        This does not create a lock or alter release state.  It lets the
+        publishing screens prove that the cover being shown is the one that
+        was included in the latest locked release, when a lock exists.
+        """
+        with self._connect() as db:
+            row = db.execute(
+                "SELECT revision,snapshot_json,snapshot_sha256,locked_at FROM release_locks "
+                "WHERE book_id=? ORDER BY revision DESC LIMIT 1", (book_id,)
+            ).fetchone()
+        if not row:
+            return None
+        try:
+            snapshot = json.loads(row["snapshot_json"])
+        except (TypeError, json.JSONDecodeError):
+            snapshot = {}
+        return {
+            "revision": row["revision"], "sha256": row["snapshot_sha256"],
+            "locked_at": row["locked_at"], "snapshot": snapshot if isinstance(snapshot, dict) else {},
+        }
+
+    def lock_production_proof(self, book_id: str, proof: dict) -> dict:
+        """Append a Phase 4 local-proof revision without touching marketplace state."""
+        book = self.get_book(book_id)
+        if not book:
+            raise ValueError("Book was not found.")
+        if str(proof.get("status") or "") not in {"ready_for_final_local_review", "ready_for_platform_preview"}:
+            raise ValueError("A release lock requires a passing local production proof.")
+        package = str(book.get("package_path") or "")
+        if not package:
+            raise ValueError("A package path is required for a release lock.")
+        from .package_layout import package_file
+        from background_generation.index import verify_rendered_cover_approval
+        cover_ok, cover_reason, _cover_proof = verify_rendered_cover_approval(package_file(Path(package), "front_cover.png"))
+        if not cover_ok:
+            raise ValueError("Cover Art Required — production proof cannot be locked: " + cover_reason)
+        snapshot = {"phase4_production_proof": proof, "book_id": book_id, "package_path": package,
+                    "marketplace_statuses": book.get("statuses") or {}}
+        encoded = json.dumps(snapshot, sort_keys=True, ensure_ascii=False, separators=(",", ":"))
+        digest = hashlib.sha256(encoded.encode("utf-8")).hexdigest(); now = datetime.now().isoformat(timespec="seconds")
+        with self._connect() as db:
+            prior = db.execute("SELECT revision,snapshot_sha256,locked_at FROM release_locks WHERE book_id=? ORDER BY revision DESC LIMIT 1", (book_id,)).fetchone()
+            if prior and prior["snapshot_sha256"] == digest:
+                return {"revision": prior["revision"], "sha256": digest, "locked_at": prior["locked_at"], "unchanged": True}
+            revision = int(prior["revision"] if prior else 0) + 1
+            db.execute("INSERT INTO release_locks(book_id,revision,package_path,snapshot_json,snapshot_sha256,locked_at) VALUES(?,?,?,?,?,?)", (book_id, revision, package, encoded, digest, now))
+        return {"revision": revision, "sha256": digest, "locked_at": now, "unchanged": False}
+
+    def record_final_local_review(self, book_id: str, proof_id: str = "", package_path: str = "", note: str = "") -> dict:
+        """Persist an explicit human final-review decision.
+
+        Opening a preview is deliberately not enough.  This lightweight record
+        is the durable source for the Phase 5 "Final Local Review" step and
+        never changes marketplace history or release artifacts.
+        """
+        if not self.get_book(book_id):
+            raise ValueError("Book was not found.")
+        now = datetime.now().isoformat(timespec="seconds")
+        values = (book_id, str(proof_id or ""), str(package_path or ""), now, "human", str(note or "").strip())
+        with self._connect() as db:
+            db.execute("INSERT OR REPLACE INTO final_local_reviews(book_id,proof_id,package_path,reviewed_at,reviewer_source,note) VALUES(?,?,?,?,?,?)", values)
+        return {"book_id": book_id, "proof_id": values[1], "package_path": values[2], "reviewed_at": now, "reviewer_source": "human", "note": values[5]}
+
+    def final_local_review(self, book_id: str, proof_id: str = "", package_path: str = "") -> dict | None:
+        """Return the newest explicit review matching the current product truth."""
+        query = "SELECT book_id,proof_id,package_path,reviewed_at,reviewer_source,note FROM final_local_reviews WHERE book_id=?"
+        params: list[str] = [book_id]
+        if proof_id:
+            query += " AND proof_id=?"; params.append(proof_id)
+        if package_path:
+            query += " AND package_path=?"; params.append(package_path)
+        query += " ORDER BY reviewed_at DESC, review_id DESC LIMIT 1"
+        with self._connect() as db:
+            row = db.execute(query, tuple(params)).fetchone()
+        return dict(row) if row else None
+
     def prune_sources(self, active_source_keys: set[str]) -> int:
         """Remove only stale/duplicate catalog rows; never touches a theme or package file."""
         with self._connect() as db:
@@ -306,6 +499,21 @@ class PublishingDatabase:
                 for row in candidates:
                     if row["book_id"] != keep["book_id"] and row not in protected:
                         remove.append(row["book_id"])
+            for book_id in remove:
+                db.execute("DELETE FROM marketplace_status WHERE book_id=?", (book_id,))
+                db.execute("DELETE FROM books WHERE book_id=?", (book_id,))
+            return len(remove)
+
+    def prune_recovery_archive_packages(self) -> int:
+        """Remove catalog-only rows that point into the recoverable archive.
+
+        The Recovery Center intentionally keeps partial and superseded files on
+        disk.  They must never appear as live books in Publishing Center.
+        This touches database rows only; it never deletes or moves a package.
+        """
+        with self._connect() as db:
+            rows = db.execute("SELECT book_id, source_key, package_path FROM books").fetchall()
+            remove = [row["book_id"] for row in rows if "_recovery_archive" in str(row["source_key"] or "").casefold() or "_recovery_archive" in str(row["package_path"] or "").casefold()]
             for book_id in remove:
                 db.execute("DELETE FROM marketplace_status WHERE book_id=?", (book_id,))
                 db.execute("DELETE FROM books WHERE book_id=?", (book_id,))

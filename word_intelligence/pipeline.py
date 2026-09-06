@@ -21,7 +21,12 @@ from .taxonomy import TopicTaxonomy
 def load_taxonomy(project_root=".") -> TopicTaxonomy:
     bank = _load_json(Path(project_root) / "word_banks"
                       / "Guided_Builder_Master_Word_Bank.json") or {}
-    return TopicTaxonomy.from_master_bank(bank)
+    taxonomy = TopicTaxonomy.from_master_bank(bank)
+    # Shared legacy aliases must resolve in capacity checks and audits too,
+    # not only inside the Book Planner's optional saved-route flow.
+    from .topic_routing import apply_builtin_aliases
+    apply_builtin_aliases(taxonomy)
+    return taxonomy
 
 
 def load_or_build_store(taxonomy, project_root=".", state_dir=DEFAULT_STATE_DIR):

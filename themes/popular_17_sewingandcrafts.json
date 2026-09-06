@@ -860,5 +860,12 @@
       "Sports and Hobbies"
     ],
     "checked_at": "2026-08-22T10:08:39"
+  },
+  "quality_review": {
+    "checked_at": "20260824-215539",
+    "source": "wi2_validation-20260824-215229.json",
+    "verdict": "FAIL",
+    "production_ready": false,
+    "message": "This legacy word bank needs a curated topic rebuild before production."
   }
 }

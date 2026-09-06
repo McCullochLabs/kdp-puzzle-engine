@@ -54,3 +54,12 @@ in its own `out/` folder.
 
 The window runs `wordsearch.py` unchanged, so the command-line instructions
 above remain available as the dependable baseline.
+
+## Supported production route
+
+For every new commercial book, use **Start Word Search Creator** and its
+Word Search or Puzzle Book Studio flows. They create the organized package,
+run the current local proof and release-contract checks, and connect the
+result to Publishing Center. The root-level `build_*.py` and `rebuild_*.py`
+scripts are retained only for historical repair/reference; they are not the
+normal production path. See [Production Paths](docs/PRODUCTION_PATHS.md).

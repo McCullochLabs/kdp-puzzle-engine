@@ -26,6 +26,11 @@ from .records import (
     SIGNAL_EXISTING,
     TopicLink,
     WordRecord,
+    APPROVED,
+    PROPOSED,
+    REJECTED,
+    SIGNAL_HUMAN_DECISION,
+
 )
 from .taxonomy import _name_tokens_in_order, canonical_slug
 
@@ -132,6 +137,61 @@ class WordIntelligenceStore:
             norm = clean_surface(word)
             if norm:
                 self.dictionary_words.add(norm)
+
+    def ingest_curated_seeds(self, doc: dict, taxonomy) -> dict:
+        """Curated Phase-4 seed vocabulary - strong, explainable anchors.
+
+        Adds TRUSTED links with explicit human-curation provenance.  Never
+        overwrites an existing human decision: trusted/approved links are
+        preserved as-is, REJECTED links are never flipped, and proposed
+        links are yielded to TRUSTED only when the word is genuinely the
+        curated topic's seed.  build_store() calls this on every rebuild;
+        the resulting TRUSTED links persist in word_store.json.
+        """
+        if taxonomy is None:
+            return {"added": 0, "kept": 0, "skipped_unknown_topic": 0,
+                    "skipped_rejected": 0}
+        resolve = taxonomy.resolve
+        added = kept = bad_topic = bad_rejected = 0
+        for seed in doc.get("seeds", []):
+            cid = resolve(seed.get("topic_id", ""))
+            if not cid or cid not in self.topic_lexicon:
+                bad_topic += 1
+                continue
+            norm = clean_surface(seed.get("word", ""))
+            if len(norm) < 2:
+                bad_topic += 1
+                continue
+            record = self._record_for(norm, seed.get("word", norm))
+            source = doc.get("provenance", "curated_seed")
+            if source not in record.sources:
+                record.sources.append(source)
+            link = record.link_for(cid)
+            if link is None:
+                record.topics.append(TopicLink(
+                    topic_id=cid, status=TRUSTED, confidence=100.0,
+                    evidence=[EvidenceItem(
+                        SIGNAL_HUMAN_DECISION,
+                        f"Phase-4 curated seed ({source})", 100.0)]))
+                self.topic_lexicon[cid].add(norm)
+                added += 1
+            elif link.status in (TRUSTED, APPROVED):
+                self.topic_lexicon[cid].add(norm)
+                kept += 1
+            elif link.status == REJECTED:
+                bad_rejected += 1
+            elif link.status == PROPOSED:
+                link.status = TRUSTED
+                link.confidence = 100.0
+                link.evidence = [EvidenceItem(
+                    SIGNAL_HUMAN_DECISION,
+                    f"Phase-4 curated seed ({source})", 100.0)]
+                self.topic_lexicon[cid].add(norm)
+                added += 1
+        return {"added": added, "kept": kept,
+                "skipped_unknown_topic": bad_topic,
+                "skipped_rejected": bad_rejected}
+
 
     def ingest_candidate_catalog(self, catalog: dict, taxonomy=None) -> None:
         """Zipf familiarity cache + existing root suggestions (one signal each)."""
@@ -282,6 +342,12 @@ def build_store(project_root=".", taxonomy=None) -> tuple[WordIntelligenceStore,
     bank = _load_json(root / "word_banks" / "Guided_Builder_Master_Word_Bank.json") or {}
     store.ingest_master_bank(bank, taxonomy)
     report["trusted_records"] = len(store.records)
+
+
+    # Curated Phase-4 seed vocabulary (additive, human-decision-preserving).
+    seeds_doc = _load_json(root / "word_banks" / "word_intelligence"
+                           / "curated_seeds.json") or {}
+    report["curated_seeds"] = store.ingest_curated_seeds(seeds_doc, taxonomy)
 
     catalog = _load_json(root / "word_banks" / "source_data" / "dwyl_topic_candidate_catalog.json") or {}
     store.ingest_candidate_catalog(catalog, taxonomy)

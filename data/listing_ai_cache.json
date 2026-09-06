@@ -1,0 +1,337 @@
+{
+  "c7f4d727e429|amazon|listing-v2-gemini-first|Gemini|gemini-3.5-flash-lite": {
+    "provider": "Gemini",
+    "model": "gemini-3.5-flash-lite",
+    "prompt_version": "listing-v2-gemini-first",
+    "generated_at": "2026-09-02T17:25:11",
+    "revision": "17547dd3535d60c6b8d2b998d7283ffccd2aaf97b586099104f5a870fbde28df",
+    "validation": "repaired",
+    "source_status": "Gemini + local repair",
+    "content": {
+      "subtitle": "50 puzzles about space, planets and stargazing",
+      "description": "Explore the universe with Cosmic Discovery Word Search by Jordan M. Slade, part of the Slade Puzzle Co. Cosmic Discovery Series. This 84-page paperback puzzle book features 50 standard-difficulty word search puzzles centered around space, planets, and stargazing. Designed in an 8.5x11 inch format for adults and teens, it includes solutions in the back so you can check your work as you journey through the cosmos.",
+      "keywords": [
+        "space word search",
+        "astronomy puzzle book",
+        "planet word search puzzles",
+        "stargazing activity book",
+        "space puzzles for teens",
+        "adult space word find",
+        "Jordan M Slade puzzles"
+      ],
+      "tags": [
+        "space",
+        "astronomy",
+        "puzzle book",
+        "planets",
+        "stargazing",
+        "activity"
+      ],
+      "marketing_hooks": [
+        "Explore the cosmos with 50 space-themed word search puzzles.",
+        "Journey through planets and stargazing from the comfort of your home.",
+        "A stellar puzzle experience created by Jordan M. Slade for adults and teens."
+      ],
+      "short_ad_copy": "Discover the universe with Cosmic Discovery Word Search by Jordan M. Slade. Featuring 50 space and planet-themed puzzles for adults and teens!",
+      "capcut_prompt": "Create an engaging, fast-paced video showing a person opening an 8.5x11 inch paperback book titled 'Cosmic Discovery Word Search'. Highlight the space and astronomy theme, flipping through pages of standard-difficulty puzzles, and briefly show the solution pages in the back. Use clean, stellar background music.",
+      "audience_positioning": "Targeted at adults and teens who enjoy space, astronomy, planets, stargazing, and word search puzzles.",
+      "buyer_benefits": [
+        "Enjoy 50 engaging space and astronomy themed word search puzzles",
+        "Test your skills with standard-difficulty puzzles designed for adults and teens",
+        "Easily check your answers with solutions included in the back",
+        "Comfortable 8.5x11 inch paperback format for easy reading and writing"
+      ],
+      "category_suggestions": [
+        "Games & Activities / Word & Word Search"
+      ],
+      "differentiators": [
+        "Part of the Slade Puzzle Co. Cosmic Discovery Series by Jordan M. Slade",
+        "Dedicated space and astronomy theme focusing on planets and stargazing",
+        "Includes 50 standard-difficulty puzzles tailored for adults and teens"
+      ],
+      "feature_bullets": [
+        "50 space and astronomy themed word search puzzles",
+        "Standard difficulty suitable for adults and teens",
+        "Solutions included at the back of the book",
+        "Convenient 8.5x11 inch paperback format",
+        "Total page count of 84 pages",
+        "Authored by Jordan M. Slade as part of the Slade Puzzle Co. Cosmic Discovery Series"
+      ],
+      "product_summary": "Cosmic Discovery Word Search by Jordan M. Slade is an 84-page paperback puzzle book containing 50 standard-difficulty word search puzzles about space, planets, and stargazing for adults and teens.",
+      "short_description": "An 84-page paperback word search puzzle book featuring 50 space and astronomy themed puzzles by Jordan M. Slade."
+    },
+    "critic_notes": [
+      "Subtitle, feature bullets, buyer benefits, and CapCut prompt claim the book is 'large-print', but verified fact 'large_print' is false."
+    ],
+    "critic_source": "Gemini critic + local validation",
+    "cached": false
+  },
+  "499613be48e6|amazon|listing-v2-gemini-first|Gemini|gemini-3.5-flash-lite": {
+    "provider": "Gemini",
+    "model": "gemini-3.5-flash-lite",
+    "prompt_version": "listing-v2-gemini-first",
+    "generated_at": "2026-09-05T09:10:42",
+    "revision": "18e01d03f84bd5680e72ead994b3459aa012e8efc84375cbcf74cc7b272e0876",
+    "validation": "passed",
+    "source_status": "Gemini + local validation",
+    "content": {
+      "subtitle": "100 Number, Letter & Shape Logic Puzzles with Full Solutions",
+      "description": "Engage your mind with Large Print Sudoku by Jordan M. Slade. This paperback puzzle book features 100 number, letter, and shape logic puzzles designed in a signature-scale collection across 208 pages. Suited for adults and teens, the book offers a mixed difficulty level suitable for various skill sets. With large print formatting on an 8.5x11 trim, solving is accessible and comfortable for daily practice. Full solutions are included in the back of the book to help you check your work or unblock tricky grids.",
+      "keywords": [
+        "Sudoku puzzle book for adults",
+        "Logic puzzles with solutions",
+        "Mixed difficulty sudoku",
+        "Teens sudoku book",
+        "Jordan M. Slade puzzles",
+        "Number letter shape logic"
+      ],
+      "tags": [
+        "Puzzles",
+        "Logic",
+        "Activity Book",
+        "Adults",
+        "Teens"
+      ],
+      "marketing_hooks": [
+        "Explore 100 number, letter, and shape logic puzzles in large print!",
+        "Enjoy a comfortable puzzle-solving experience with 8.5x11 large print formatting.",
+        "Challenge your brain with a mixed difficulty collection crafted by Jordan M. Slade."
+      ],
+      "short_ad_copy": "Challenge your brain with Large Print Sudoku by Jordan M. Slade, featuring 100 logic puzzles and full solutions.",
+      "capcut_prompt": "Create an upbeat, clean vertical video showcasing an 8.5x11 paperback puzzle book titled Large Print Sudoku by Jordan M. Slade. Highlight text overlays emphasizing 100 number, letter, and shape logic puzzles, large print formatting, mixed difficulty, and full solutions included for adults and teens.",
+      "audience_positioning": "Designed specifically for adults and teens seeking an accessible, large print logic puzzle experience with a mix of difficulties.",
+      "buyer_benefits": [
+        "Reduces eye strain during extended solving sessions with clear large print formatting.",
+        "Provides varied mental stimulation with number, letter, and shape logic puzzles.",
+        "Offers clear guidance and reassurance with full solutions included."
+      ],
+      "category_suggestions": [
+        "Games & Activities / Puzzles",
+        "Games & Activities / Sudoku"
+      ],
+      "differentiators": [
+        "Features a signature-scale collection of 100 puzzles incorporating numbers, letters, and shapes.",
+        "Spans 208 pages in an accessible 8.5x11 large print paperback format.",
+        "Authored by Jordan M. Slade with mixed difficulty levels for varied engagement."
+      ],
+      "feature_bullets": [
+        "Contains 100 number, letter, and shape logic puzzles",
+        "Large print interior formatted for easy reading",
+        "Mixed difficulty levels suitable for adults and teens",
+        "Full solutions included at the back",
+        "Spans 208 pages in a large 8.5x11 paperback format"
+      ],
+      "product_summary": "Large Print Sudoku by Jordan M. Slade is a 208-page paperback puzzle book featuring 100 number, letter, and shape logic puzzles of mixed difficulty, complete with full solutions.",
+      "short_description": "A 208-page large print paperback puzzle book featuring 100 mixed-difficulty number, letter, and shape logic puzzles with full solutions."
+    },
+    "critic_notes": [
+      "Local listing critic found no obvious generic, duplicate, or fact-risk issue.",
+      "Gemini critic was unavailable; retained the locally validated primary listing."
+    ],
+    "critic_source": "local critic",
+    "cached": false
+  },
+  "dbce0b33fca6|amazon|listing-v2-gemini-first|Gemini|gemini-3.5-flash-lite": {
+    "provider": "Gemini",
+    "model": "gemini-3.5-flash-lite",
+    "prompt_version": "listing-v2-gemini-first",
+    "generated_at": "2026-09-05T09:11:09",
+    "revision": "5b6bef47d3cc61a74f48c27f0c0c710cc4071d56288f5d554deb7e73e697b457",
+    "validation": "passed",
+    "source_status": "Gemini + local validation",
+    "content": {
+      "subtitle": "24 checked code-breaking puzzles with solutions",
+      "description": "Dive into the Acceptance Cryptogram Collection by Jordan M. Slade, a paperback puzzle book designed for adults and teens. This 32-page, 8.5x11 inch book features 24 checked code-breaking puzzles of mixed difficulty to test your cipher-solving skills. Complete with a rear answer key, every puzzle has been verified to ensure a smooth decryption experience without dead ends.",
+      "keywords": [
+        "cryptogram puzzles for adults",
+        "code breaking activity book",
+        "cipher puzzle book for teens",
+        "mixed difficulty cryptograms",
+        "cryptogram book with solutions",
+        "Jordan M Slade puzzle books",
+        "paperback cryptography games"
+      ],
+      "tags": [
+        "cryptograms",
+        "code breaker",
+        "ciphers",
+        "puzzle book",
+        "adult puzzles",
+        "teen activities",
+        "logic games"
+      ],
+      "marketing_hooks": [
+        "Test your cipher-solving skills with 24 verified cryptograms.",
+        "Designed specifically for adults and teens seeking a mental challenge.",
+        "Includes a complete solution key for quick progress checks."
+      ],
+      "short_ad_copy": "Challenge your mind with the Acceptance Cryptogram Collection by Jordan M. Slade. Featuring 24 checked code-breaking puzzles and solutions for adults and teens.",
+      "capcut_prompt": "Create an engaging 15-second vertical video. Show a close-up of a hand flipping through the 8.5x11 paperback pages of Acceptance Cryptogram Collection by Jordan M. Slade. Highlight text overlays: '24 Code-Breaking Puzzles', 'Mixed Difficulty', and 'Solutions Included'. End with a shot of the cover and text prompting viewers to grab their copy.",
+      "audience_positioning": "Tailored for adults and teens who enjoy word puzzles, ciphers, and code-breaking challenges.",
+      "buyer_benefits": [
+        "Provides hours of engaging entertainment with 24 distinct cryptogram puzzles.",
+        "Offers a balanced challenge suitable for both beginners and experienced solvers through mixed difficulty levels.",
+        "Allows you to easily verify your answers using the included solutions.",
+        "Delivers a comfortable, portable layout in a standard 8.5x11 inch paperback format."
+      ],
+      "category_suggestions": [
+        "Games & Activities / Puzzles"
+      ],
+      "differentiators": [
+        "Features 24 checked puzzles created by author Jordan M. Slade.",
+        "Compact 32-page paperback format optimized for daily puzzle solving.",
+        "Includes verified solutions to eliminate guessing frustration."
+      ],
+      "feature_bullets": [
+        "24 checked code-breaking puzzles",
+        "Mixed difficulty levels suitable for adults and teens",
+        "Solutions included at the back of the book",
+        "32-page paperback format",
+        "Convenient 8.5x11 inch trim size",
+        "Authored by Jordan M. Slade"
+      ],
+      "product_summary": "The Acceptance Cryptogram Collection by Jordan M. Slade is a 32-page paperback puzzle book featuring 24 checked code-breaking puzzles with solutions, designed in an 8.5x11 inch format for adults and teens of mixed skill levels.",
+      "short_description": "A 32-page paperback cryptogram puzzle book featuring 24 checked code-breaking challenges and solutions for adults and teens."
+    },
+    "critic_notes": [
+      "Local listing critic found no obvious generic, duplicate, or fact-risk issue."
+    ],
+    "critic_source": "Gemini critic + local validation",
+    "cached": false
+  },
+  "6bd01bf148db|amazon|listing-v2-gemini-first|Gemini|gemini-3.5-flash-lite": {
+    "provider": "Gemini",
+    "model": "gemini-3.5-flash-lite",
+    "prompt_version": "listing-v2-gemini-first",
+    "generated_at": "2026-09-05T09:11:17",
+    "revision": "645c764ac8f7a9be64a0b84177a490e3d3d9997968e938a1a0172c31fe5c3019",
+    "validation": "passed",
+    "source_status": "Gemini + local validation",
+    "content": {
+      "subtitle": "24 word challenges and quick facts with answers",
+      "description": "Engage your mind with Acceptance Curiosity Scramble Final by Jordan M. Slade, a paperback puzzle book designed for adults and teens. This 8.5x11 inch, 24-page volume features 24 standard-difficulty word scramble and trivia puzzles centered around general knowledge and curiosity. Each puzzle is paired with quick facts, and complete solutions are included in the back of the book for easy checking. Priced at $9.99, this compact and focused activity book offers a stimulating test of wits.",
+      "keywords": [
+        "word scramble puzzle book for adults",
+        "general knowledge trivia challenges",
+        "teens word games paperback",
+        "curiosity puzzles with answers",
+        "Jordan M Slade puzzle books",
+        "standard difficulty word scrambles",
+        "educational trivia and word games"
+      ],
+      "tags": [
+        "word scramble",
+        "trivia puzzles",
+        "general knowledge",
+        "adult activity book",
+        "teens puzzle book",
+        "Jordan M Slade",
+        "paperback puzzles"
+      ],
+      "marketing_hooks": [
+        "Challenge your mind with 24 unique word scrambles and trivia facts!",
+        "Test your general knowledge with standard-difficulty puzzles designed for adults and teens.",
+        "Includes complete solutions so you can check your answers instantly."
+      ],
+      "short_ad_copy": "Discover Acceptance Curiosity Scramble Final by Jordan M. Slade\u2014a 24-puzzle paperback book featuring word scrambles, trivia, and quick facts with answers included.",
+      "capcut_prompt": "Create an upbeat, engaging vertical video showcasing the cover of Acceptance Curiosity Scramble Final. Use text overlays highlighting '24 Word Challenges', 'General Knowledge & Curiosity', and 'Solutions Included'. Show quick interior glimpses of the 8.5x11 paperback pages to appeal to adults and teens looking for fun puzzle books.",
+      "audience_positioning": "Designed specifically for adults and teens who enjoy testing their general knowledge through word scrambles and trivia challenges.",
+      "buyer_benefits": [
+        "Enjoy 24 engaging word scramble and trivia puzzles",
+        "Learn interesting quick facts alongside every challenge",
+        "Easily check your work with solutions included in the book",
+        "Standard difficulty provides an accessible yet stimulating test for teens and adults"
+      ],
+      "category_suggestions": [
+        "Games & Activities / Word & Word Search"
+      ],
+      "differentiators": [
+        "Combines word scrambles with trivia and quick facts",
+        "Created by author Jordan M. Slade",
+        "Compact 24-page paperback format at an accessible price point"
+      ],
+      "feature_bullets": [
+        "24 standard-difficulty word scramble and trivia puzzles",
+        "Includes quick facts with every puzzle",
+        "Complete solutions included for self-checking",
+        "Large 8.5x11 inch paperback format",
+        "Tailored for adults and teens",
+        "Written by Jordan M. Slade"
+      ],
+      "product_summary": "Acceptance Curiosity Scramble Final by Jordan M. Slade is an 8.5x11 paperback puzzle book featuring 24 standard-difficulty word scramble and trivia challenges combined with quick facts and full solutions.",
+      "short_description": "A 24-page paperback puzzle book for adults and teens featuring standard-difficulty word scrambles, trivia, quick facts, and included solutions."
+    },
+    "critic_notes": [
+      "Local listing critic found no obvious generic, duplicate, or fact-risk issue."
+    ],
+    "critic_source": "Gemini critic + local validation",
+    "cached": false
+  },
+  "32671dcb200a|amazon|listing-v2-gemini-first|Gemini|gemini-3.5-flash-lite": {
+    "provider": "Gemini",
+    "model": "gemini-3.5-flash-lite",
+    "prompt_version": "listing-v2-gemini-first",
+    "generated_at": "2026-09-05T09:13:38",
+    "revision": "d91eeb26525bd8844dfc84b54e83c99986f29476e21bdd20d586a767d0d1c653",
+    "validation": "passed",
+    "source_status": "Gemini + local validation",
+    "content": {
+      "subtitle": "24 Sudoku, cryptogram, scramble, and trivia challenges",
+      "description": "Engage your mind with Acceptance Variety Brain Games Final by Jordan M. Slade. This 40-page paperback puzzle book features 24 mixed brain games across a variety of challenges, including Sudoku, cryptogram, scramble, and trivia. Designed in a standard 8.5x11 inch trim format with mixed difficulty levels suitable for both adults and teens. Solutions are conveniently included at the back, allowing you to check your work as you go through this general knowledge and curiosity activity book.",
+      "keywords": [
+        "Sudoku puzzles for adults and teens",
+        "mixed brain games paperback",
+        "cryptogram and word scramble books",
+        "trivia challenge activity book",
+        "Jordan M Slade puzzle book",
+        "8.5x11 general knowledge puzzles",
+        "brain games with solutions included"
+      ],
+      "tags": [
+        "Sudoku",
+        "Cryptogram",
+        "Word Scramble",
+        "Trivia",
+        "Puzzle Book",
+        "Jordan M Slade"
+      ],
+      "marketing_hooks": [
+        "Test your wits with 24 mixed brain games by Jordan M. Slade!",
+        "Features a combination of Sudoku, cryptogram, scramble, and trivia challenges.",
+        "Includes solutions for every puzzle so you can easily check your answers.",
+        "A compact 40-page paperback puzzle book designed for adults and teens."
+      ],
+      "short_ad_copy": "Challenge your mind with Acceptance Variety Brain Games Final by Jordan M. Slade. Featuring 24 mixed puzzles including Sudoku, cryptogram, scramble, and trivia with solutions included.",
+      "capcut_prompt": "Create an engaging video showing the 40-page paperback puzzle book Acceptance Variety Brain Games Final by Jordan M. Slade. Highlight the 24 mixed challenges including Sudoku, cryptogram, scramble, and trivia, and show the included solutions pages.",
+      "audience_positioning": "Ideal for adults and teens looking for a variety of mixed brain games to test their general knowledge and curiosity.",
+      "buyer_benefits": [
+        "Provides 24 varied puzzle challenges to keep your mind engaged",
+        "Includes solutions so you can verify your answers",
+        "Convenient 8.5x11 inch paperback format for easy reading and writing",
+        "Suitable for both adults and teens of mixed skill levels"
+      ],
+      "category_suggestions": [
+        "Games & Activities / Puzzles"
+      ],
+      "differentiators": [
+        "Combines Sudoku, cryptogram, scramble, and trivia into a single 24-puzzle collection",
+        "Authored by Jordan M. Slade",
+        "Includes complete solutions for all 24 challenges"
+      ],
+      "feature_bullets": [
+        "24 mixed brain games including Sudoku, cryptogram, scramble, and trivia",
+        "Mixed difficulty levels suitable for adults and teens",
+        "Solutions included at the back of the book",
+        "40-page paperback format with an 8.5x11 inch trim size",
+        "Authored by Jordan M. Slade"
+      ],
+      "product_summary": "Acceptance Variety Brain Games Final by Jordan M. Slade is a 40-page paperback puzzle book featuring 24 mixed challenges, including Sudoku, cryptogram, word scramble, and trivia. Designed with mixed difficulty levels for adults and teens, it includes complete solutions.",
+      "short_description": "A 40-page paperback puzzle book by Jordan M. Slade featuring 24 mixed Sudoku, cryptogram, scramble, and trivia challenges with solutions included."
+    },
+    "critic_notes": [
+      "Local listing critic found no obvious generic, duplicate, or fact-risk issue."
+    ],
+    "critic_source": "Gemini critic + local validation",
+    "cached": false
+  }
+}

@@ -27,48 +27,48 @@
       "words": [
         "BEANS",
         "TOPTEN",
-        "SCREAM",
-        "BACKYARD",
+        "ADVENT",
+        "ADVENTCALENDAR",
         "FEELING",
         "STAND",
-        "INTERNETSTAR",
+        "AIRMASS",
         "HIDE",
         "TENT",
         "PROGRAM",
-        "TSHIRT",
+        "ALMANAC",
         "PHONECARD"
       ]
     },
     {
       "name": "Ice Cream Truck",
       "words": [
-        "CHANNEL",
-        "BOAT",
-        "HELMET",
+        "ALPINE",
+        "ANEMOMETER",
+        "ANGELIC",
         "MASHED",
         "SEESAW",
-        "DIRECTOR",
+        "ANTHEM",
         "KIN",
         "TOMHANKS",
         "AMUSEMENT",
         "SAUCE",
-        "DISCO",
+        "ANTICYCLONE",
         "ABALONE"
       ]
     },
     {
       "name": "Puppy Love",
       "words": [
-        "THEGODFATHER",
+        "APRON",
         "JAPAN",
-        "GAMEOFTHRONES",
+        "ARCTICAIR",
         "OVERALLS",
-        "RECORDSTORE",
-        "MUGGLE",
+        "ARID",
+        "ATMOSPHERE",
         "DESKTOP",
         "KNEEPADS",
         "FILL",
-        "SECRETAGENT",
+        "AURORA",
         "SOFA",
         "THUNDER"
       ]
@@ -77,16 +77,16 @@
       "name": "Candy Store",
       "words": [
         "WUTANG",
-        "SINGLE",
+        "AUTUMNAIR",
         "FERTILIZER",
         "AREYOUSCARED",
-        "SOUNDOFMUSIC",
-        "ANCHORMAN",
+        "AUTUMNAPPLE",
+        "AUTUMNBAKING",
         "LOLLIPOP",
         "GUMDROPS",
         "OVEN",
-        "BINGEWATCH",
-        "SCREEN",
+        "AUTUMNBARN",
+        "AUTUMNBONFIRE",
         "BURGERKING"
       ]
     },
@@ -96,15 +96,15 @@
         "CHEER",
         "MALLDAY",
         "FUNDS",
-        "SYNTHESIZER",
+        "AUTUMNCANDLE",
         "PEPRALLY",
         "POP",
-        "MADMAX",
+        "AUTUMNCOLOR",
         "BLOCKPUZZLE",
         "HARRYPOTTER",
         "SNOWDAY",
         "MARKET",
-        "WHITE"
+        "AUTUMNFESTIVAL"
       ]
     },
     {
@@ -112,16 +112,16 @@
       "words": [
         "FLAVOR",
         "SIDEBANGS",
-        "SHERLOCK",
-        "EARBUDS",
+        "AUTUMNFOREST",
+        "AUTUMNHARVEST",
         "FACE",
         "PINK",
-        "HERCULES",
-        "MUSICCHART",
-        "GOTHAM",
+        "AUTUMNHIKE",
+        "AUTUMNLANE",
+        "AUTUMNLEAVES",
         "KITCHEN",
-        "YELLOWSTONE",
-        "ROCKYBALBOA"
+        "AUTUMNMARKET",
+        "AUTUMNMOON"
       ]
     },
     {
@@ -131,13 +131,13 @@
         "SUNTAN",
         "ARMAGEDDON",
         "SOUP",
-        "TERMINATOR",
+        "AUTUMNMORNING",
         "WORLDOFWARCRAFT",
-        "SNAKE",
+        "AUTUMNNIGHT",
         "TOAST",
         "JUNGLE",
-        "TELEVISION",
-        "TROLLS",
+        "AUTUMNPARTY",
+        "AUTUMNPATH",
         "QUARTERHORSE"
       ]
     },
@@ -153,24 +153,24 @@
         "HOOF",
         "DEGREES",
         "GALAGA",
-        "MADONNA",
-        "CHEATCODE",
-        "ACTION"
+        "AUTUMNPICNIC",
+        "AUTUMNPIE",
+        "AUTUMNPORCH"
       ]
     },
     {
       "name": "Bubble Gum",
       "words": [
         "MASCARA",
-        "THECROWN",
+        "AUTUMNRECIPE",
         "WINGS",
         "HOP",
-        "FANTHEORY",
+        "AUTUMNSUNSET",
         "ALLSAINTS",
         "INSTRUCTOR",
-        "FOLLOWERCOUNT",
-        "BRUNOMARS",
-        "FORTNITE",
+        "AUTUMNWALK",
+        "AUTUMNWEEKEND",
+        "BAKING",
         "BREEZE",
         "MAP"
       ]
@@ -180,13 +180,13 @@
       "words": [
         "BOYMEETSWORLD",
         "MARBLES",
-        "FISH",
-        "FINDINGNEMO",
+        "BAKINGDAY",
+        "BARK",
         "RENTAL",
         "CAFETERIA",
         "DOMINOS",
-        "GIRLGROUP",
-        "SOIL",
+        "BAROMETER",
+        "BASKET",
         "INSTANTMESSAGE",
         "PRACTICE",
         "ABILENE"
@@ -196,12 +196,12 @@
       "name": "Roller Skates",
       "words": [
         "MEAL",
-        "STEREO",
+        "BAUBLE",
         "CHAIN",
         "CHASE",
         "GINGERBREAD",
         "SOAP",
-        "TEA",
+        "BEADING",
         "CHALK",
         "PARENTS",
         "MIXCD",
@@ -212,10 +212,10 @@
     {
       "name": "Ferris Wheel",
       "words": [
-        "YEARBOOK",
+        "BEDROOM",
         "STOCKING",
         "CORNMAZE",
-        "FASTANDFURIOUS",
+        "BELLRINGING",
         "CARROT",
         "LITEBRITE",
         "COMPETE",
@@ -229,24 +229,24 @@
     {
       "name": "Circus Clown",
       "words": [
-        "SPIDERMAN",
-        "TOYS",
+        "BIOLOGY",
+        "BIRDING",
         "SUNBATH",
         "GREEN",
         "EXCITEMENT",
         "TEMPERATURE",
-        "BLUES",
+        "BIRTHDAY",
         "LIGHTNING",
         "REPTILE",
-        "FANEXPO",
+        "BIRTHDAYBANNER",
         "TUNES",
-        "KARATEKID"
+        "BLACKCAT"
       ]
     },
     {
       "name": "Toy Box",
       "words": [
-        "THANKFUL",
+        "BLANKET",
         "SCARF",
         "PHOTOALBUM",
         "ANIMANIACS",
@@ -256,7 +256,7 @@
         "LEARN",
         "WIFI",
         "SCRAMBLED",
-        "KPOP",
+        "BLIZZARD",
         "ABOLITION"
       ]
     },
@@ -266,13 +266,13 @@
         "MMA",
         "TEXTME",
         "NUTCRACKER",
-        "BOYBAND",
+        "BOOKSHELF",
         "ENERGYDRINK",
         "KITEFLYING",
         "HOMEIMPROVEMENT",
-        "NERF",
-        "CHER",
-        "PAPARAZZI",
+        "BOULDER",
+        "BROOMSTICK",
+        "CAMPFIRE",
         "CHILD",
         "MPPLAYER"
       ]
@@ -281,31 +281,31 @@
       "name": "Lemonade Stand",
       "words": [
         "CUT",
-        "KARAOKEBAR",
-        "PAPER",
-        "JAWS",
+        "CAMPGROUND",
+        "CAMPSITE",
+        "CANDLE",
         "SEASONAL",
-        "DAY",
+        "CANDLECRAFT",
         "SCOOBYDOO",
         "HALLOWEEN",
-        "PSYCH",
+        "CANDLEHOLDER",
         "WRITE",
-        "MUSICSTREAM",
+        "CANDYBOWL",
         "PROCESSOR"
       ]
     },
     {
       "name": "Water Gun",
       "words": [
-        "MONSTER",
+        "CANDYCANE",
         "BABYTEE",
         "ACID",
         "VELOUR",
-        "DANCEHALL",
+        "CANDYCORN",
         "APPLIANCE",
         "JCPENNEY",
         "ELF",
-        "CHATROOM",
+        "CANDYSTORE",
         "MOCHA",
         "REINDEER",
         "HUMMINGBIRD"
@@ -314,18 +314,18 @@
     {
       "name": "Sidewalk Chalk",
       "words": [
-        "WORD",
+        "CANOE",
         "CARD",
-        "SIMCITY",
-        "SLUMBERPARTY",
-        "MULAN",
+        "CANYON",
+        "CARAMELAPPLE",
+        "CARDMAKING",
         "SPLASH",
-        "COMICCON",
-        "QUEEREYE",
+        "CAROLBOOK",
+        "CAROLING",
         "HOMEY",
         "JASMINE",
         "SCHOOLDANCE",
-        "EXPLORER"
+        "CAROLSINGER"
       ]
     },
     {
@@ -338,7 +338,7 @@
         "PANCAKE",
         "REDROVER",
         "BAD",
-        "MUSICFAN",
+        "CELEBRATION",
         "SIBLINGS",
         "GARDEN",
         "SPORT",
@@ -350,15 +350,15 @@
       "words": [
         "SUNRISE",
         "BAKE",
-        "DRUMS",
+        "CELEBRATIONCENTER",
         "LASERDISC",
         "BEEF",
         "CHUTE",
         "BONFIRE",
         "PAJAMAS",
         "PEDALS",
-        "COMEDY",
-        "TRAILER",
+        "CENTERPIECE",
+        "CERAMICS",
         "GRAPHICTEE"
       ]
     },
@@ -366,14 +366,14 @@
       "name": "Birthday Cake",
       "words": [
         "DAWSONSCREEK",
-        "VINYLRECORD",
-        "STARCRAFT",
-        "WESTERN",
+        "CHAIR",
+        "CHEMISTRY",
+        "CHESS",
         "SUNDAY",
         "HIGHLIGHTER",
         "FRIES",
-        "BEACHES",
-        "MARVEL",
+        "CHRISTMAS",
+        "CHRISTMASCARD",
         "DOUG",
         "ABSORB",
         "ABYSS"
@@ -383,15 +383,15 @@
       "name": "Backyard Campout",
       "words": [
         "SOAK",
-        "GUITAR",
+        "CHRISTMASCOOKIE",
         "MISTLETOE",
         "HIDEANDSEEK",
-        "WEBSITE",
-        "BACKSTREETBOYS",
-        "CABLETV",
-        "AVENGERS",
+        "CHRISTMASDAY",
+        "CHRISTMASDECOR",
+        "CHRISTMASDINNER",
+        "CHRISTMASEVE",
         "SLAPBRACELET",
-        "CAVALIER",
+        "CHRISTMASGIFT",
         "KEEPSAKE",
         "GRATE"
       ]
@@ -401,15 +401,15 @@
       "words": [
         "MOVE",
         "CHALKBOARD",
-        "PADDINGTON",
+        "CHRISTMASLIGHTS",
         "PATHS",
-        "ROCKET",
-        "TEXTMESSAGE",
+        "CHRISTMASMARKET",
+        "CHRISTMASMORNING",
         "BUBBLEGUM",
         "SCRUNCHIE",
-        "TITANIC",
-        "SWIFTIE",
-        "THRILLER",
+        "CHRISTMASMOVIE",
+        "CHRISTMASMUSIC",
+        "CHRISTMASPARTY",
         "BOUND"
       ]
     },
@@ -417,47 +417,47 @@
       "name": "Board Games",
       "words": [
         "BATTER",
-        "HOMEALONE",
+        "CHRISTMASTREE",
         "MILKSHAKE",
-        "DEDICATION",
+        "CHRISTMASWISH",
         "BLOWING",
-        "GRANTURISMO",
-        "WANDAVISION",
-        "CORVETTE",
-        "SUGAR",
+        "CINNAMON",
+        "CINNAMONSTICK",
+        "CIRRUS",
+        "CLAUS",
         "SABRINA",
-        "JAR",
-        "SLEEPOVER"
+        "CLEANING",
+        "CLIMATECHANGE"
       ]
     },
     {
       "name": "Card Games",
       "words": [
-        "KEYBOARD",
+        "CLIMATEPATTERN",
         "SLIME",
         "REFRESH",
         "SKATESHOP",
         "TRADITION",
-        "GRYFFINDOR",
+        "CLIMATEZONE",
         "COAL",
         "DEPARTMENTSTORE",
-        "PEAKYBLINDERS",
+        "CLIMATOLOGY",
         "CREAT",
-        "VLOGGER",
-        "HOTWHEELS"
+        "CLIMBING",
+        "CLOSET"
       ]
     },
     {
       "name": "Puzzle Books",
       "words": [
-        "FAN",
-        "COMICSTRIP",
+        "CLOUDBASE",
+        "CLOUDBURST",
         "AUTUMN",
         "OUTDOOR",
-        "YODA",
-        "STRANGERTHINGS",
-        "MOVIETHEATER",
-        "LUCASFILM",
+        "CLOUDCOVER",
+        "CLOUDDECK",
+        "CLOUDFORMATION",
+        "CLOUDINESS",
         "BACKPACK",
         "JAZZERCISE",
         "PEACH",
@@ -468,17 +468,17 @@
       "name": "Cookie Baking",
       "words": [
         "MINTS",
-        "CARDINAL",
+        "COASTALCLIMATE",
         "SUNSET",
         "RINK",
         "TIN",
         "SUBWAY",
         "FUNNY",
         "CHUNKYHIGHLIGHTS",
-        "TALENTSCOUT",
+        "COCOA",
         "COLDBLOODED",
         "EVERGREEN",
-        "BEETLEJUICE"
+        "COFFEE"
       ]
     },
     {
@@ -486,12 +486,12 @@
       "words": [
         "HULA",
         "DODGEBALL",
-        "BRIDGETON",
+        "COLDFRONT",
         "MOUSE",
         "PERM",
-        "SHEEP",
+        "COLDSPELL",
         "EYELINER",
-        "THROWBACK",
+        "COLDWEATHER",
         "CRACKERS",
         "BASEBALL",
         "TRACKS",
@@ -502,13 +502,13 @@
       "name": "Butterfly Net",
       "words": [
         "DISPOSABLECAMERA",
-        "BILLBOARD",
+        "COLLECTING",
         "RECREATION",
-        "COLLECTION",
-        "CLASSICROCK",
+        "COLORING",
+        "COMPASS",
         "COKE",
         "SHEARLINGBOOTS",
-        "ACOUSTIC",
+        "CONDENSATION",
         "VENDOR",
         "THOUGHT",
         "CARTOYS",
@@ -520,16 +520,16 @@
       "words": [
         "FLAME",
         "SCARECROW",
-        "HOMERSIMPSON",
+        "CONTINENTALCLIMATE",
         "TOMBRIDER",
-        "ROCKSTAR",
+        "CONVECTION",
         "NOWAY",
         "TEAR",
         "COMMAND",
         "RUNNER",
         "MUG",
         "ARBYS",
-        "SEQUEL"
+        "COOKING"
       ]
     },
     {
@@ -539,29 +539,29 @@
         "NOEL",
         "GRIND",
         "SNEAKERSTORE",
-        "NEST",
-        "CHAMELEON",
+        "CORNSTALK",
+        "COSTUME",
         "PIZZAHUT",
         "CRUNCH",
-        "CLUE",
+        "COSTUMECONTEST",
         "ATTRACTION",
-        "STAGECREW",
-        "SCHOOLOFROCK"
+        "COSTUMEPARADE",
+        "COUNTDOWN"
       ]
     },
     {
       "name": "Zoo Adventure",
       "words": [
-        "RINGTONE",
+        "COZY",
         "GYMCLASS",
         "MARIAHCAREY",
         "CHEWING",
         "FREEZE",
         "LFO",
-        "SURVIVOR",
+        "COZYBLANKET",
         "WEIGHTS",
         "ACORN",
-        "PASSWORD",
+        "COZYFIRE",
         "PRIZE",
         "PERFUME"
       ]
@@ -569,7 +569,7 @@
     {
       "name": "Amusement Park",
       "words": [
-        "LILNASX",
+        "COZYKITCHEN",
         "NURTURE",
         "CLIMATE",
         "HALFPIPE",
@@ -578,8 +578,8 @@
         "CHOKER",
         "TOTALLY",
         "VIDEOCASE",
-        "EPISODE",
-        "TRIVIA",
+        "COZYREADING",
+        "COZYSWEATER",
         "SWAMP"
       ]
     },
@@ -588,14 +588,14 @@
       "words": [
         "YOSHISLAND",
         "DUMPLING",
-        "PERFORMANCE",
+        "CRAFTTABLE",
         "ANOLIS",
         "ROCKOSMODERNLIFE",
-        "CRUST",
+        "CRANBERRY",
         "PRODUCE",
         "MODELKIT",
-        "SNORLAX",
-        "IRONMAN",
+        "CREEK",
+        "CREEPYNIGHT",
         "MACARONI",
         "FITNESS"
       ]
@@ -603,16 +603,16 @@
     {
       "name": "Face Painting",
       "words": [
-        "BRAIN",
-        "BLONDIE",
-        "ARCADES",
-        "TRADINGCARD",
-        "BLOCKBUSTER",
+        "CRISPAIR",
+        "CROCHET",
+        "CROSSSTITCH",
+        "CROWFIELD",
+        "CUMULONIMBUS",
         "DANCE",
-        "DONALD",
-        "HOODIE",
-        "STARFOX",
-        "WEEKENDFUN",
+        "CUPBOARD",
+        "CUPOFCOCOA",
+        "CURIOSITY",
+        "CURRENT",
         "LABORATORY",
         "DARE"
       ]
@@ -623,14 +623,14 @@
         "HEAT",
         "LEVEL",
         "BEAUTY",
-        "OLIVE",
-        "MUSICAWARDSHOW",
+        "CUSHION",
+        "CYCLONE",
         "COLD",
         "MOLD",
-        "HANNAHMONTANA",
+        "DAYPACK",
         "WILDLIFE",
-        "PHOTOBOOTH",
-        "WINNER",
+        "DECEMBER",
+        "DECEMBERNIGHT",
         "WRISTBAND"
       ]
     },
@@ -640,15 +640,15 @@
         "BAGGYJEANS",
         "BIRD",
         "RELEASE",
-        "WESTWORLD",
-        "JOURNEY",
-        "PLAYLIST",
+        "DECORATIONS",
+        "DESERTCLIMATE",
+        "DESK",
         "BOND",
         "SKATING",
         "MACAROON",
-        "PERFORMER",
-        "SONGWRITER",
-        "ACADIA"
+        "DEW",
+        "DEWPOINT",
+        "DININGROOM"
       ]
     },
     {
@@ -657,47 +657,47 @@
         "CHENILLE",
         "GUSHERS",
         "ONION",
-        "MANDALORIAN",
+        "DISCOVERY",
         "SPRINKLE",
         "ENTERTAIN",
-        "NUMBERONE",
-        "BLACKPANTHER",
+        "DOORMAT",
+        "DOORWREATH",
         "GATORADE",
         "NAS",
         "FIREWORKS",
-        "WREATH"
+        "DRAWING"
       ]
     },
     {
       "name": "Sledding Hill",
       "words": [
         "SERENE",
-        "SPOILER",
+        "DRIZZLE",
         "COBWEB",
         "BODYGLITTER",
         "FROSTEDTIPS",
         "CHOWDER",
-        "DONKEYKONG",
-        "DISNEY",
-        "NOSTALGIA",
+        "DROUGHT",
+        "DROUGHTINDEX",
+        "DRYSPELL",
         "SATURDAY",
         "HIGHLIGHTS",
-        "COSPLAY"
+        "DUSTSTORM"
       ]
     },
     {
       "name": "Snowman Building",
       "words": [
         "RELATE",
-        "SOUL",
-        "GREENDAY",
-        "TOBYKEITH",
-        "LETTER",
-        "ACTIONFIGURE",
-        "EXPLORE",
+        "EARTH",
+        "EASTER",
+        "EASTERBASKET",
+        "EASTERBUNNY",
+        "EASTEREGG",
+        "EASTERLILY",
         "EXCITE",
-        "THEATER",
-        "SONICMOVIE",
+        "EASTERMORNING",
+        "EASTERPARADE",
         "ESCALATOR",
         "INK"
       ]
@@ -705,15 +705,15 @@
     {
       "name": "Christmas Tree",
       "words": [
-        "SHREK",
+        "EASTERTREAT",
         "ANCESTOR",
         "FURBY",
-        "CLEAN",
-        "DRAIN",
-        "SOULMUSIC",
+        "ECOSYSTEM",
+        "EGGPAINTING",
+        "EGGROLL",
         "MARYJBLIGE",
         "BATTERIES",
-        "SATELLITE",
+        "EMBROIDERY",
         "MAKER",
         "ACROPOLIS",
         "ACTIONTOY"
@@ -729,61 +729,61 @@
         "BLAST",
         "CLASS",
         "CHAINWALLET",
-        "CLIFFHANGER",
+        "ENTRYWAY",
         "SHOULDERPADS",
-        "STAR",
-        "KEYCHAIN",
-        "SATURDAYNIGHT"
+        "EQUATOR",
+        "EVAPORATION",
+        "EVERGREENGARLAND"
       ]
     },
     {
       "name": "Halloween Costume",
       "words": [
         "MORTALKOMBAT",
-        "DISNEYLAND",
-        "DESERT",
+        "EXPERIMENT",
+        "EXTREMEWEATHER",
         "GAGME",
-        "EEVEE",
-        "CHORES",
-        "CLUELESS",
-        "ROBOT",
-        "SEATTLE",
-        "ENTERTAINMENT",
-        "BLUEY",
+        "FAIRWEATHER",
+        "FALL",
+        "FALLBONFIRE",
+        "FALLCAMPFIRE",
+        "FALLCANDLE",
+        "FALLCIDER",
+        "FALLCOLOR",
         "BRAINGAME"
       ]
     },
     {
       "name": "Thanksgiving Feast",
       "words": [
-        "KETTLE",
+        "FALLFESTIVAL",
         "TRICKS",
         "PURPLE",
-        "SCHITTSCREEK",
+        "FALLFOREST",
         "PEPPER",
         "MANE",
         "LOL",
-        "DUNE",
+        "FALLHARVEST",
         "CANDLELIGHT",
         "CREEPY",
-        "VAMPIRE",
+        "FALLHIKE",
         "BAG"
       ]
     },
     {
       "name": "Family Reunion",
       "words": [
-        "VIDEOGAME",
+        "FALLKITCHEN",
         "PEA",
-        "GREASE",
-        "WIZARD",
-        "WORDSEARCH",
-        "DIGITALART",
-        "PAN",
-        "POTION",
-        "HARMONY",
+        "FALLLANTERN",
+        "FALLLEAVES",
+        "FALLMARKET",
+        "FALLNIGHT",
+        "FALLPARTY",
+        "FALLPORCH",
+        "FALLRECIPE",
         "HOMEROOM",
-        "LOVE",
+        "FALLSEASON",
         "SEASIDE"
       ]
     },
@@ -793,14 +793,14 @@
         "MOVIERENTAL",
         "PEPSI",
         "LEONARDODICAPRIO",
-        "LITTLEMIX",
+        "FALLSUNSET",
         "CHIMNEY",
         "TRAY",
-        "THEPRINCESSDIARIES",
-        "ROUTINE",
-        "POKEMON",
-        "BROADWAY",
-        "STARS",
+        "FALLWEATHER",
+        "FAMILYCHRISTMAS",
+        "FAMILYGATHERING",
+        "FAMILYROOM",
+        "FERN",
         "ACTIVIST"
       ]
     },
@@ -808,14 +808,14 @@
       "name": "Photo Album",
       "words": [
         "FORK",
-        "HOLLYWOODSIGN",
+        "FESTIVAL",
         "TURN",
-        "MUSICVENUE",
-        "DOWNTONABBEY",
+        "FESTIVEBOW",
+        "FESTIVECOOKIE",
         "STEW",
         "SUMMER",
-        "REDCARPETLOOK",
-        "ZACHBRYAN",
+        "FESTIVEFEAST",
+        "FESTIVEFIREPLACE",
         "PAGER",
         "INDIA",
         "PIPE"
@@ -824,18 +824,18 @@
     {
       "name": "Diary Entries",
       "words": [
-        "JOYSTICK",
+        "FESTIVEHOME",
         "EDDEDDNEDDY",
         "BERRY",
         "WARMUP",
         "ALICEINCHAINS",
-        "RESIDENTEVIL",
+        "FESTIVEJOY",
         "VEGETABLE",
-        "CELEBRITYNEWS",
+        "FESTIVEMAIL",
         "KEANUREEVES",
         "EGGS",
         "SNAP",
-        "SEINFELD"
+        "FESTIVEPARTY"
       ]
     }
   ],
@@ -876,5 +876,12 @@
       "Holidays"
     ],
     "checked_at": "2026-08-22T10:08:38"
+  },
+  "quality_review": {
+    "checked_at": "20260824-213643",
+    "source": "verified_word_intelligence_repair",
+    "verdict": "PASS_WITH_NOTES",
+    "production_ready": false,
+    "changes": 227
   }
 }

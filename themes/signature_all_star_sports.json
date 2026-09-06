@@ -8,7 +8,7 @@
   "detected_topic": "Sports and Hobbies",
   "clipart_search_terms": "Sports and Hobbies Tailgateparty Wirelesscontroller Boxtruck illustration clipart transparent background",
   "signature_edition": {
-    "enabled": true,
+    "enabled": false,
     "passport_title": "All-Star Sports Passport",
     "achievement_title": "Signature Edition",
     "achievement_message": "A calm challenge, one puzzle at a time.",
@@ -17,7 +17,9 @@
       "Sports can be enjoyed as a player, spectator, volunteer, coach, or fan.",
       "Team sports often depend on communication, practice, and shared strategy.",
       "Individual sports can build focus, confidence, and personal goal setting."
-    ]
+    ],
+    "candidate": true,
+    "reason": "Needs 451 more topic-linked words before it can be a 100-puzzle Signature Edition."
   },
   "puzzles": [
     {
@@ -1067,5 +1069,13 @@
       "Sports and Hobbies"
     ],
     "checked_at": "2026-08-22T10:08:39"
+  },
+  "production_status": "Signature candidate — expand word bank before publishing",
+  "quality_review": {
+    "checked_at": "20260824-215539",
+    "source": "wi2_validation-20260824-215229.json",
+    "verdict": "FAIL",
+    "production_ready": false,
+    "message": "This legacy word bank needs a curated topic rebuild before production."
   }
 }

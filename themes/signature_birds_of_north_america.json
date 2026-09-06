@@ -17,7 +17,8 @@
       "Birdwatching can be enjoyed from a backyard, park, trail, or window.",
       "Birds use feathers for flight, insulation, display, and protection.",
       "Many bird species migrate seasonally between nesting and wintering areas."
-    ]
+    ],
+    "puzzle_target": 100
   },
   "puzzles": [
     {
@@ -1038,6 +1039,686 @@
         "SKIING",
         "STREET",
         "TUB"
+      ]
+    },
+    {
+      "name": "Birds of North America Word Search 61",
+      "words": [
+        "ABYSSINIAN",
+        "ACORN",
+        "ADOPTABLE",
+        "ADOPTION",
+        "ADVENTURETRAIL",
+        "ADVOCATE",
+        "ADVOCATES",
+        "ADVOCATING",
+        "AGILITY",
+        "AIREDALE",
+        "AKITA",
+        "ALASKAPARKS"
+      ]
+    },
+    {
+      "name": "Birds of North America Word Search 62",
+      "words": [
+        "ALLOCATED",
+        "ALLOCATION",
+        "ALPINE",
+        "ALPINEFOREST",
+        "ALPINEGLOW",
+        "ALPINEHUT",
+        "ALPINELAKE",
+        "ALPINEPASS",
+        "ALPINEWILDFLOWER",
+        "ALTERCATION",
+        "AMERICA",
+        "AMERICANALLIGATOR"
+      ]
+    },
+    {
+      "name": "Birds of North America Word Search 63",
+      "words": [
+        "AMERICANBULLDOG",
+        "AMERICANSHORTHAIR",
+        "ANACOSTIA",
+        "ANGELFISH",
+        "ANGRYBIRDS",
+        "ANIMAL",
+        "ANIMALBLANKET",
+        "ANIMALBOWL",
+        "ANIMALCARE",
+        "ANIMALCLINIC",
+        "ANIMALCOLLAR",
+        "ANIMALCRATE"
+      ]
+    },
+    {
+      "name": "Birds of North America Word Search 64",
+      "words": [
+        "ANIMALCROSSING",
+        "ANIMALFOOD",
+        "ANIMALFRIEND",
+        "ANIMALHABITAT",
+        "ANIMALHOME",
+        "ANIMALLOVER",
+        "ANIMALPARK",
+        "ANIMALPLAY",
+        "ANIMALPORTRAIT",
+        "ANIMALRESCUE",
+        "ANIMALS",
+        "ANIMALSHAMPOO"
+      ]
+    },
+    {
+      "name": "Birds of North America Word Search 65",
+      "words": [
+        "ANIMALTOY",
+        "ANIMALTRAINING",
+        "ANIMALWALK",
+        "ANIMALWELL",
+        "ANTELOPECANYON",
+        "ANTLER",
+        "APPALACHIANTRAIL",
+        "APPETITE",
+        "APPLICATION",
+        "APPLICATIONS",
+        "AQUARIUM",
+        "AQUARIUMCARE"
+      ]
+    },
+    {
+      "name": "Birds of North America Word Search 66",
+      "words": [
+        "AQUARIUMFILTER",
+        "AQUARIUMHOOD",
+        "AQUARIUMPLANT",
+        "AQUARIUMPUMP",
+        "ARCH",
+        "ARCHES",
+        "ARCTICFOX",
+        "ASPEN",
+        "ASPENLEAF",
+        "AUSTRALIANSHEPHERD",
+        "AUTUMN",
+        "AVALANCHE"
+      ]
+    },
+    {
+      "name": "Birds of North America Word Search 67",
+      "words": [
+        "AVIARY",
+        "BACKCOUNTRY",
+        "BACKCOUNTRYROAD",
+        "BACKPACKTRAIL",
+        "BACKWATER",
+        "BACKYARD",
+        "BACKYARDBIRD",
+        "BADLANDS",
+        "BADLANDSBUTTE",
+        "BALSAMFIR",
+        "BARK",
+        "BARNCAT"
+      ]
+    },
+    {
+      "name": "Birds of North America Word Search 68",
+      "words": [
+        "BARRIERBEACH",
+        "BASALT",
+        "BASIN",
+        "BASINLAKE",
+        "BASINRANGE",
+        "BASSET",
+        "BEAGLE",
+        "BEARBERRY",
+        "BEARDEDDRAGON",
+        "BEARGRASS",
+        "BEARTRACK",
+        "BEAVERPOND"
+      ]
+    },
+    {
+      "name": "Birds of North America Word Search 69",
+      "words": [
+        "BEETLE",
+        "BELLCOLLAR",
+        "BENGAL",
+        "BERNESE",
+        "BICHON",
+        "BIGBEND",
+        "BIGHORNSHEEP",
+        "BIGHORNTRAIL",
+        "BINOCULARS",
+        "BIODIVERSITY",
+        "BIRCHBARK",
+        "BIRCHFOREST"
+      ]
+    },
+    {
+      "name": "Birds of North America Word Search 70",
+      "words": [
+        "BIRDBATH",
+        "BIRDCAGE",
+        "BIRDCAGECLEAN",
+        "BIRDCAGECOVER",
+        "BIRDCAGEFOOD",
+        "BIRDCAGEPERCH",
+        "BIRDCALL",
+        "BIRDCARE",
+        "BIRDCHECKLIST",
+        "BIRDFEEDER",
+        "BIRDFOOD",
+        "BIRDHOUSE"
+      ]
+    },
+    {
+      "name": "Birds of North America Word Search 71",
+      "words": [
+        "BIRDING",
+        "BIRDLIFE",
+        "BIRDNEST",
+        "BIRDNETTING",
+        "BIRDPERCH",
+        "BIRDS",
+        "BIRDSEED",
+        "BIRDSONG",
+        "BIRDSTAND",
+        "BIRDTOY",
+        "BIRMAN",
+        "BISCAYNE"
+      ]
+    },
+    {
+      "name": "Birds of North America Word Search 72",
+      "words": [
+        "BISCUIT",
+        "BISONRANGE",
+        "BLACKBIRD",
+        "BLACKCANYON",
+        "BLACKCAT",
+        "BLACKSPRUCE",
+        "BLACKWATER",
+        "BLOODHOUND",
+        "BLUEBIRD",
+        "BLUEHERON",
+        "BLUEJAY",
+        "BLUERIDGEPARKWAY"
+      ]
+    },
+    {
+      "name": "Birds of North America Word Search 73",
+      "words": [
+        "BLUFF",
+        "BLUFFVIEW",
+        "BOARDING",
+        "BOARDWALK",
+        "BORDERCOLLIE",
+        "BOSTONTERRIER",
+        "BOULDERFIELD",
+        "BOULDERTRAIL",
+        "BOXER",
+        "BROOK",
+        "BRUSH",
+        "BRUSHLAND"
+      ]
+    },
+    {
+      "name": "Birds of North America Word Search 74",
+      "words": [
+        "BRYCECANYON",
+        "BUDGIE",
+        "BULLDOG",
+        "BULLMASTIFF",
+        "BUTTE",
+        "CABIN",
+        "CAGECLEANING",
+        "CAIRNTERRIER",
+        "CALICO",
+        "CAMPFIRE",
+        "CAMPSITE",
+        "CAMPSTOVE"
+      ]
+    },
+    {
+      "name": "Birds of North America Word Search 75",
+      "words": [
+        "CANARY",
+        "CANINE",
+        "CANOPY",
+        "CANOPYTRAIL",
+        "CANYON",
+        "CANYONBIRD",
+        "CANYONCOUNTRY",
+        "CANYONFLOOR",
+        "CANYONHIKE",
+        "CANYONLAKE",
+        "CANYONLANDS",
+        "CANYONLOOP"
+      ]
+    },
+    {
+      "name": "Birds of North America Word Search 76",
+      "words": [
+        "CANYONPATH",
+        "CANYONRIDGE",
+        "CANYONRIM",
+        "CANYONSTREAM",
+        "CANYONVIEW",
+        "CANYONWALL",
+        "CANYONWREN",
+        "CAPITAL",
+        "CAPITOLREEF",
+        "CARDINAL",
+        "CARIBOU",
+        "CARICATURES"
+      ]
+    },
+    {
+      "name": "Birds of North America Word Search 77",
+      "words": [
+        "CARLSBADCAVERNS",
+        "CARPET",
+        "CARPETCLEANER",
+        "CARPETED",
+        "CARRIER",
+        "CAT",
+        "CATADOPTION",
+        "CATALOG",
+        "CATALOGS",
+        "CATALYSTS",
+        "CATALYTICCONVERTER",
+        "CATARACT"
+      ]
+    },
+    {
+      "name": "Birds of North America Word Search 78",
+      "words": [
+        "CATASTROPHE",
+        "CATASTROPHIC",
+        "CATBED",
+        "CATBEDCOVER",
+        "CATBEDROOM",
+        "CATBEHAVIOR",
+        "CATBOWL",
+        "CATBOWLMAT",
+        "CATBRUSH",
+        "CATCAFE",
+        "CATCARE",
+        "CATCARRIER"
+      ]
+    },
+    {
+      "name": "Birds of North America Word Search 79",
+      "words": [
+        "CATCARRIERBAG",
+        "CATCATCHER",
+        "CATCHERS",
+        "CATCHING",
+        "CATCHPHRASE",
+        "CATCLAWCARE",
+        "CATCLIMBER",
+        "CATCOLLAR",
+        "CATCOMPANIONSHIP",
+        "CATCONDO",
+        "CATCUDDLE",
+        "CATEGORIZATION"
+      ]
+    },
+    {
+      "name": "Birds of North America Word Search 80",
+      "words": [
+        "CATEGORIZED",
+        "CATEGORY",
+        "CATER",
+        "CATEXERCISE",
+        "CATFISH",
+        "CATFOOD",
+        "CATFOODBOWL",
+        "CATGARDEN",
+        "CATGROOMER",
+        "CATGROOMING",
+        "CATGROOMINGKIT",
+        "CATHAMMOCK"
+      ]
+    },
+    {
+      "name": "Birds of North America Word Search 81",
+      "words": [
+        "CATHEALTH",
+        "CATHEDRAL",
+        "CATHERINE",
+        "CATHODE",
+        "CATHOLICISM",
+        "CATHOLICS",
+        "CATHOUSE",
+        "CATLITTER",
+        "CATLITTERMAT",
+        "CATLOVER",
+        "CATMINT",
+        "CATNAP"
+      ]
+    },
+    {
+      "name": "Birds of North America Word Search 82",
+      "words": [
+        "CATNIP",
+        "CATNIPMOUSE",
+        "CATOWNER",
+        "CATPLAY",
+        "CATPLAYHOUSE",
+        "CATPLAYTIME",
+        "CATPUZZLE",
+        "CATRESCUE",
+        "CATRESCUEGROUP",
+        "CATROOM",
+        "CATSCRATCHPAD",
+        "CATSHAMPOO"
+      ]
+    },
+    {
+      "name": "Birds of North America Word Search 83",
+      "words": [
+        "CATSHELTER",
+        "CATSHOW",
+        "CATSITTER",
+        "CATSPA",
+        "CATSTRETCHER",
+        "CATTAIL",
+        "CATTEASER",
+        "CATTERY",
+        "CATTLEGUARD",
+        "CATTOY",
+        "CATTREAT",
+        "CATTUNNEL"
+      ]
+    },
+    {
+      "name": "Birds of North America Word Search 84",
+      "words": [
+        "CATWAND",
+        "CATWATCH",
+        "CATWINDOW",
+        "CAVE",
+        "CAVEENTRANCE",
+        "CAVEFISH",
+        "CAVEPASS",
+        "CAVEPOOL",
+        "CAVETOUR",
+        "CAVEWALL",
+        "CAVEWATER",
+        "CEDARCONE"
+      ]
+    },
+    {
+      "name": "Birds of North America Word Search 85",
+      "words": [
+        "CEDARFOREST",
+        "CEDARTRAIL",
+        "CERTIFICATE",
+        "CERTIFICATES",
+        "CERTIFICATION",
+        "CHANNELISLANDS",
+        "CHAPARRAL",
+        "CHARTREUX",
+        "CHEWTOY",
+        "CHICKADEE",
+        "CHIHUAHUA",
+        "CHINCHILLA"
+      ]
+    },
+    {
+      "name": "Birds of North America Word Search 86",
+      "words": [
+        "CHOWCHOW",
+        "CITY",
+        "CLARIFICATION",
+        "CLAW",
+        "CLIFF",
+        "CLIFFDWELLING",
+        "CLIFFEDGE",
+        "CLIFFROSE",
+        "CLIFFSIDE",
+        "CLIFFTOP",
+        "CLIFFTRAIL",
+        "CLIMBING"
+      ]
+    },
+    {
+      "name": "Birds of North America Word Search 87",
+      "words": [
+        "CLIMBINGTREE",
+        "CLIPPER",
+        "CLOUDFOREST",
+        "COASTALTIDE",
+        "COASTREDWOOD",
+        "COASTTRAIL",
+        "COCKAPOO",
+        "COCKATIEL",
+        "COCKERSPANIEL",
+        "COLLAR",
+        "COLLIE",
+        "COLORADOPLATEAU"
+      ]
+    },
+    {
+      "name": "Birds of North America Word Search 88",
+      "words": [
+        "COMMUNICATE",
+        "COMMUNICATED",
+        "COMMUNICATION",
+        "COMMUNICATORS",
+        "COMPANIONSHIP",
+        "COMPETED",
+        "COMPETING",
+        "COMPETITIONS",
+        "COMPETITIVE",
+        "COMPETITIVELY",
+        "CONFISCATED",
+        "CONGAREE"
+      ]
+    },
+    {
+      "name": "Birds of North America Word Search 89",
+      "words": [
+        "CONIFER",
+        "CONIFERCONE",
+        "CONIFERFOREST",
+        "CORGI",
+        "CORNISHREX",
+        "COUNTRY",
+        "COZYCAT",
+        "CRATER",
+        "CRATERLAKE",
+        "CREEK",
+        "CREEKBED",
+        "CREEKCROSSING"
+      ]
+    },
+    {
+      "name": "Birds of North America Word Search 90",
+      "words": [
+        "CREEKSIDE",
+        "CREEKTRAIL",
+        "CROW",
+        "CUDDLECAT",
+        "CUDDLING",
+        "CUYAHOGAVALLEY",
+        "DACHSHUND",
+        "DALMATIAN",
+        "DAYHIKE",
+        "DAYPACK",
+        "DAYPACKTRAIL",
+        "DEATHVALLEY"
+      ]
+    },
+    {
+      "name": "Birds of North America Word Search 91",
+      "words": [
+        "DEATHVALLEYDUNES",
+        "DECIDUOUS",
+        "DEDICATION",
+        "DEERTRACK",
+        "DELICATE",
+        "DELICATELY",
+        "DENALI",
+        "DENTALCARE",
+        "DESERT",
+        "DESERTBIGHORN",
+        "DESERTBLOOM",
+        "DESERTCACTUS"
+      ]
+    },
+    {
+      "name": "Birds of North America Word Search 92",
+      "words": [
+        "DESERTFLOOR",
+        "DESERTFOX",
+        "DESERTMESA",
+        "DESERTROCK",
+        "DESERTSCAPE",
+        "DESERTTORTOISE",
+        "DESERTTRAIL",
+        "DESERTVIEW",
+        "DEVONREX",
+        "DEW",
+        "DIET",
+        "DISH"
+      ]
+    },
+    {
+      "name": "Birds of North America Word Search 93",
+      "words": [
+        "DOBERMAN",
+        "DOG",
+        "DOGADOPTION",
+        "DOGAGILITY",
+        "DOGBED",
+        "DOGBEDCOVER",
+        "DOGBEHAVIOR",
+        "DOGBOWL",
+        "DOGBOWLMAT",
+        "DOGBRUSH",
+        "DOGCARE",
+        "DOGCARRIERBAG"
+      ]
+    },
+    {
+      "name": "Birds of North America Word Search 94",
+      "words": [
+        "DOGCATCHER",
+        "DOGCLAWCARE",
+        "DOGCLIMBER",
+        "DOGCOLLAR",
+        "DOGCOMPANIONSHIP",
+        "DOGEXERCISE",
+        "DOGFOOD",
+        "DOGFOODBOWL",
+        "DOGGROOMER",
+        "DOGGROOMINGKIT",
+        "DOGHEALTH",
+        "DOGHOUSE"
+      ]
+    },
+    {
+      "name": "Birds of North America Word Search 95",
+      "words": [
+        "DOGHOUSEMAT",
+        "DOGKENNEL",
+        "DOGLEASHHOOK",
+        "DOGLOVER",
+        "DOGPARK",
+        "DOGPLAYTIME",
+        "DOGPUZZLE",
+        "DOGRAINCOAT",
+        "DOGRESCUE",
+        "DOGRESCUEGROUP",
+        "DOGS",
+        "DOGSHELTER"
+      ]
+    },
+    {
+      "name": "Birds of North America Word Search 96",
+      "words": [
+        "DOGSITTER",
+        "DOGSPA",
+        "DOGSTRETCHER",
+        "DOGTAG",
+        "DOGTOY",
+        "DOGTREAT",
+        "DOGTREATJAR",
+        "DOGTREATS",
+        "DOGWALKER",
+        "DOGWASH",
+        "DOGWHISTLE",
+        "DOMESTICATED"
+      ]
+    },
+    {
+      "name": "Birds of North America Word Search 97",
+      "words": [
+        "DOMESTICCAT",
+        "DRYTORTUGAS",
+        "DUNE",
+        "DUNECREST",
+        "DUNEGRASS",
+        "DUNEHIKE",
+        "DUNEVIEW",
+        "DUPLICATE",
+        "EAGLE",
+        "EAGLEFLIGHT",
+        "ECOLOGY",
+        "ECOSYSTEM"
+      ]
+    },
+    {
+      "name": "Birds of North America Word Search 98",
+      "words": [
+        "EDUCATE",
+        "EDUCATING",
+        "EDUCATIONAL",
+        "EDUCATOR",
+        "ELEVATION",
+        "ELK",
+        "ELKTRAIL",
+        "ENDOGENOUS",
+        "ENGLISHSETTER",
+        "ERADICATE",
+        "EVERGREEN",
+        "EVERGREENFOREST"
+      ]
+    },
+    {
+      "name": "Birds of North America Word Search 99",
+      "words": [
+        "EVERGREENS",
+        "FABRICATING",
+        "FALCONFLIGHT",
+        "FALLSVIEW",
+        "FARMANIMAL",
+        "FARMDOG",
+        "FEEDER",
+        "FELINE",
+        "FELINETOY",
+        "FERN",
+        "FERNLEAF",
+        "FERRET"
+      ]
+    },
+    {
+      "name": "Birds of North America Word Search 100",
+      "words": [
+        "FETCH",
+        "FIELDGUIDE",
+        "FINCH",
+        "FIREBIRD",
+        "FIRELOOKOUT",
+        "FIREPIT",
+        "FIRETOWER",
+        "FIREWEED",
+        "FISH",
+        "FISHBOWL",
+        "FISHCARE",
+        "FISHFEEDER"
       ]
     }
   ],

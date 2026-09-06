@@ -1,0 +1,72 @@
+{
+  "version": "1",
+  "book_id": "58aea02503d3",
+  "runs": [
+    {
+      "run_id": "f959986fa80703d5",
+      "started": "2026-09-04T21:53:42",
+      "facts_fingerprint": "5d68a966f3c01164cf364d7ef0141d53ccd173605aabb04c363258f1f0780dee",
+      "result": "running"
+    }
+  ],
+  "stages": {
+    "validate": {
+      "status": "complete",
+      "fingerprint": "98e09833265a220456301ff905d0f4b7b26d9cf2c811b588df17f805231e678c",
+      "completed": "2026-09-04T21:53:42",
+      "detail": "Contributor, content capacity, and automatic-plan checks passed before generation.",
+      "artifact": ""
+    },
+    "generate": {
+      "status": "complete",
+      "fingerprint": "a86466afd727be702485513588bbec9a8b7f716dd4279d842b2b075c6789f6ac",
+      "completed": "2026-09-04T21:53:47",
+      "detail": "Interior and answer pages were generated from the selected puzzle type and seed.",
+      "artifact": "C:\\Users\\jorda\\Desktop\\Word Search Creator\\kdp-puzzle-engine\\out\\large_print_sudoku_20260904_215342\\01_PRINT_UPLOADS\\interior.pdf"
+    },
+    "cover": {
+      "status": "complete",
+      "fingerprint": "3fd3977ae8f6fa082cdb772a9435fe7965fa198e8c03583dbe40c623ecf6f3e0",
+      "completed": "2026-09-04T21:53:55",
+      "detail": "Front cover was rendered from verified facts and approved matching art.",
+      "artifact": "C:\\Users\\jorda\\Desktop\\Word Search Creator\\kdp-puzzle-engine\\out\\large_print_sudoku_20260904_215342\\03_PREVIEWS\\front_cover.png"
+    },
+    "preflight": {
+      "status": "complete",
+      "fingerprint": "8382e09ee683b4f78c4bd414b1bcec7968efb632bd306a5cfbed468a11687f4f",
+      "completed": "2026-09-04T21:54:18",
+      "detail": "Wrap and print preflight passed using the final interior page count.",
+      "artifact": "C:\\Users\\jorda\\Desktop\\Word Search Creator\\kdp-puzzle-engine\\out\\large_print_sudoku_20260904_215342\\01_PRINT_UPLOADS\\kdp_full_wrap.pdf"
+    },
+    "listing": {
+      "status": "complete",
+      "fingerprint": "9eedd4fc23a91d4c7f74565f6f44c02c5d47e7f856475d6fe50d8a7021b4e1e1",
+      "completed": "2026-09-04T21:54:18",
+      "detail": "Listing kit was generated from verified book facts.",
+      "artifact": ""
+    },
+    "qa": {
+      "status": "complete",
+      "fingerprint": "cc06404762f4693f31ece564f9e58bf92b5b19d22b462a350d96c5ddd609eae0",
+      "completed": "2026-09-04T21:54:30",
+      "detail": "QA Passed Locally",
+      "artifact": ""
+    },
+    "package": {
+      "status": "complete",
+      "fingerprint": "b911b4325d3ee99d5fb1ec1db8f5a0051d7d45ff758724a3bb86ced6722796f9",
+      "completed": "2026-09-04T21:55:42",
+      "detail": "Final package inspection passed and master release files were created.",
+      "artifact": "C:\\Users\\jorda\\Desktop\\Word Search Creator\\kdp-puzzle-engine\\out\\large_print_sudoku_20260904_215342"
+    },
+    "register": {
+      "status": "complete",
+      "fingerprint": "8a07bd061eb4fc050d77fcf5c47eab3623b656f9cf157fd0bca7cd3b05690797",
+      "completed": "2026-09-04T21:55:43",
+      "detail": "Finished package was registered in Publishing Center.",
+      "artifact": ""
+    }
+  },
+  "facts_fingerprint": "5d68a966f3c01164cf364d7ef0141d53ccd173605aabb04c363258f1f0780dee",
+  "last_started": "2026-09-04T21:53:42"
+}

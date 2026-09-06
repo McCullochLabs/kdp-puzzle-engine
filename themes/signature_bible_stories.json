@@ -17,7 +17,8 @@
       "The Bible is made up of many books, written in different literary styles.",
       "Bible stories are often shared across generations through reading, study, and conversation.",
       "Psalms, Proverbs, parables, and historical accounts each offer a different way to explore faith."
-    ]
+    ],
+    "puzzle_target": 100
   },
   "puzzles": [
     {
@@ -1039,6 +1040,686 @@
         "PROTAGONIST",
         "BLUEJAY"
       ]
+    },
+    {
+      "name": "Bible Stories Word Search 61",
+      "words": [
+        "ABEDNEGO",
+        "ABIGAIL",
+        "ABISHAI",
+        "ABNER",
+        "ABOMINATION",
+        "ABOUNDING",
+        "ABRAHAM",
+        "ABRAHAMIC",
+        "ACCOUNTABILITY",
+        "ACHAIA",
+        "ADAM",
+        "ADMONITION"
+      ]
+    },
+    {
+      "name": "Bible Stories Word Search 62",
+      "words": [
+        "ADONIJAH",
+        "ADORATION",
+        "ADVOCATE",
+        "AGRIPPA",
+        "AHAB",
+        "AHAZ",
+        "AHIJAH",
+        "ALMIGHTY",
+        "ALTAR",
+        "AMEN",
+        "AMOS",
+        "ANANIAS"
+      ]
+    },
+    {
+      "name": "Bible Stories Word Search 63",
+      "words": [
+        "ANDREW",
+        "ANGEL",
+        "ANNA",
+        "ANOINTING",
+        "ANSWEREDPRAYER",
+        "ANTIOCH",
+        "APOSTLE",
+        "APOSTLESHIP",
+        "AQUILA",
+        "ARAUNAH",
+        "ARIMATHEA",
+        "ARMOROFGOD"
+      ]
+    },
+    {
+      "name": "Bible Stories Word Search 64",
+      "words": [
+        "ASAPH",
+        "ASCENSION",
+        "ASHER",
+        "ASSURANCE",
+        "ATHALIAH",
+        "AUTOBIOGRAPHY",
+        "BALANCE",
+        "BAPTISM",
+        "BARABBAS",
+        "BARAK",
+        "BARNABAS",
+        "BARTHOLOMEW"
+      ]
+    },
+    {
+      "name": "Bible Stories Word Search 65",
+      "words": [
+        "BATH",
+        "BATHSHEBA",
+        "BEATITUDE",
+        "BELIEF",
+        "BELIEVER",
+        "BELOVED",
+        "BELSHAZZAR",
+        "BENJAMIN",
+        "BEREA",
+        "BETHANY",
+        "BETHLEHEM",
+        "BIBLE"
+      ]
+    },
+    {
+      "name": "Bible Stories Word Search 66",
+      "words": [
+        "BIBLIOGRAPHY",
+        "BIOGRAPHY",
+        "BOAZ",
+        "BOLDNESS",
+        "BOOKBINDING",
+        "BOOKCASE",
+        "BOOKCLUB",
+        "BOOKCOVER",
+        "BOOKFAIR",
+        "BOOKISH",
+        "BOOKJACKET",
+        "BOOKMOBILE"
+      ]
+    },
+    {
+      "name": "Bible Stories Word Search 67",
+      "words": [
+        "BOOKPLATE",
+        "BOOKSELLER",
+        "BOOKSHELF",
+        "BOOKSHOP",
+        "BOOKSTORE",
+        "BOOKWORM",
+        "BREAD",
+        "BREADOFLIFE",
+        "BREATHING",
+        "CAESAR",
+        "CAESAREA",
+        "CAIN"
+      ]
+    },
+    {
+      "name": "Bible Stories Word Search 68",
+      "words": [
+        "CAIPHAS",
+        "CALLING",
+        "CALVARY",
+        "CANA",
+        "CANAAN",
+        "CENTURION",
+        "CHAPEL",
+        "CHAPTERBOOK",
+        "CHARITY",
+        "CHECKOUT",
+        "CHERISHING",
+        "CHERUB"
+      ]
+    },
+    {
+      "name": "Bible Stories Word Search 69",
+      "words": [
+        "CHILDOFGOD",
+        "CHLOE",
+        "CHOIR",
+        "CHOSENONE",
+        "CHRISTIANITY",
+        "CHURCH",
+        "CHURCHES",
+        "CLARITY",
+        "CLASSIC",
+        "COLUMNIST",
+        "COMFORT",
+        "COMFORTER"
+      ]
+    },
+    {
+      "name": "Bible Stories Word Search 70",
+      "words": [
+        "COMICS",
+        "COMMANDMENT",
+        "COMMUNION",
+        "COMMUNITY",
+        "COMPASSION",
+        "CONFESSION",
+        "CONGREGATION",
+        "CONSECRATION",
+        "COPYEDITOR",
+        "CORINTH",
+        "CORNELIUS",
+        "CORNERSTONE"
+      ]
+    },
+    {
+      "name": "Bible Stories Word Search 71",
+      "words": [
+        "COURAGE",
+        "COVERPAGE",
+        "CREATION",
+        "CREATOR",
+        "CREED",
+        "CROSS",
+        "CURATOR",
+        "DAILYBREAD",
+        "DAN",
+        "DEBORAH",
+        "DEDICATION",
+        "DELILAH"
+      ]
+    },
+    {
+      "name": "Bible Stories Word Search 72",
+      "words": [
+        "DELIVERANCE",
+        "DEMAS",
+        "DEUTERONOMY",
+        "DEVOTION",
+        "DICTIONARY",
+        "DINAH",
+        "DISCERNMENT",
+        "DISCIPLE",
+        "DISCIPLESHIP",
+        "DISCIPLINE",
+        "DISCIPLINES",
+        "DISGRACED"
+      ]
+    },
+    {
+      "name": "Bible Stories Word Search 73",
+      "words": [
+        "DORCAS",
+        "DOVE",
+        "DRAGRACE",
+        "DRAMA",
+        "EASTER",
+        "EBOOK",
+        "ECCLESIASTES",
+        "EDEN",
+        "EDITOR",
+        "ELIJAH",
+        "ELISHA",
+        "ELIZABETH"
+      ]
+    },
+    {
+      "name": "Bible Stories Word Search 74",
+      "words": [
+        "EMMANUEL",
+        "ENCOURAGEMENT",
+        "ENCYCLOPEDIA",
+        "EPHESIAN",
+        "EPISTLE",
+        "ESSAY",
+        "ETERNITY",
+        "EVANGELIST",
+        "EVERLASTING",
+        "EXERCISE",
+        "EXILE",
+        "EZEKIEL"
+      ]
+    },
+    {
+      "name": "Bible Stories Word Search 75",
+      "words": [
+        "EZRA",
+        "FAITHFUL",
+        "FAITHFULNESS",
+        "FAITHHOPE",
+        "FAITHWALK",
+        "FASTING",
+        "FATHERHEART",
+        "FATHERHOOD",
+        "FEAST",
+        "FELIX",
+        "FELLOWSHIP",
+        "FICTION"
+      ]
+    },
+    {
+      "name": "Bible Stories Word Search 76",
+      "words": [
+        "FIRELIGHT",
+        "FIRSTFRUIT",
+        "FOLKTALE",
+        "FORGIVENESS",
+        "FORGIVENESSPRAYER",
+        "FRANKINCENSE",
+        "FREEDOM",
+        "FRESHAIR",
+        "FRUITFULNESS",
+        "GABRIEL",
+        "GALATIANS",
+        "GALILEE"
+      ]
+    },
+    {
+      "name": "Bible Stories Word Search 77",
+      "words": [
+        "GENTILE",
+        "GENTLENESS",
+        "GIDEON",
+        "GLORY",
+        "GODLY",
+        "GOODNESS",
+        "GOSPELS",
+        "GRACEFILLED",
+        "GRACEFUL",
+        "GRATEFUL",
+        "GRATEFULNESS",
+        "GREATCOMMISSION"
+      ]
+    },
+    {
+      "name": "Bible Stories Word Search 78",
+      "words": [
+        "HABAKKUK",
+        "HAGGAI",
+        "HALLELUJAH",
+        "HANNAH",
+        "HARDCOVER",
+        "HARP",
+        "HEALING",
+        "HEALINGPRAYER",
+        "HEART",
+        "HEARTHEALING",
+        "HEAVENLY",
+        "HEBREW"
+      ]
+    },
+    {
+      "name": "Bible Stories Word Search 79",
+      "words": [
+        "HERITAGE",
+        "HEROD",
+        "HEZEKIAH",
+        "HOLINESS",
+        "HOLYSPIRIT",
+        "HOPEFILLED",
+        "HOSANNA",
+        "HOSEA",
+        "HOSPITALITY",
+        "HUMILITY",
+        "ILLUSTRATOR",
+        "INCENSE"
+      ]
+    },
+    {
+      "name": "Bible Stories Word Search 80",
+      "words": [
+        "INDEX",
+        "INHERITANCE",
+        "INNERPEACE",
+        "INSPIRATION",
+        "INTERCEDE",
+        "INTERCESSION",
+        "ISAAC",
+        "ISHMAEL",
+        "ISRAEL",
+        "ITHAMAR",
+        "JACKET",
+        "JACOB"
+      ]
+    },
+    {
+      "name": "Bible Stories Word Search 81",
+      "words": [
+        "JAIRUS",
+        "JAMES",
+        "JEPTHAH",
+        "JEREMIAH",
+        "JERICHO",
+        "JERUSALEM",
+        "JESUS",
+        "JOB",
+        "JOEL",
+        "JONATHAN",
+        "JOPPA",
+        "JOSEPH"
+      ]
+    },
+    {
+      "name": "Bible Stories Word Search 82",
+      "words": [
+        "JOSHUA",
+        "JOURNAL",
+        "JOURNALING",
+        "JOYFULHEARTED",
+        "JUDAH",
+        "JUDAS",
+        "JUDE",
+        "JUDGES",
+        "JUNIUS",
+        "JUSTICE",
+        "KADESH",
+        "KEEPER"
+      ]
+    },
+    {
+      "name": "Bible Stories Word Search 83",
+      "words": [
+        "KINDNESS",
+        "KINGDOM",
+        "KINGDOMCOME",
+        "LAMENT",
+        "LAMENTATIONS",
+        "LAMP",
+        "LAUGHTER",
+        "LAW",
+        "LAZARUS",
+        "LEAFLET",
+        "LEAH",
+        "LEBANON"
+      ]
+    },
+    {
+      "name": "Bible Stories Word Search 84",
+      "words": [
+        "LENT",
+        "LETTER",
+        "LEVITICUS",
+        "LIBRARIAN",
+        "LIFE",
+        "LIGHT",
+        "LIGHTBEARER",
+        "LITERATURE",
+        "LIVINGFAITH",
+        "LIVINGWATER",
+        "LORDSHIP",
+        "LOYALTY"
+      ]
+    },
+    {
+      "name": "Bible Stories Word Search 85",
+      "words": [
+        "LYDIA",
+        "MALACHI",
+        "MALTA",
+        "MANASSEH",
+        "MANNA",
+        "MANUSCRIPT",
+        "MARTHA",
+        "MARTYR",
+        "MARYMAGDALENE",
+        "MEDES",
+        "MEEKNESS",
+        "MELCHIZEDEK"
+      ]
+    },
+    {
+      "name": "Bible Stories Word Search 86",
+      "words": [
+        "MEMOIR",
+        "MERCYSEAT",
+        "MESSIAH",
+        "MICAH",
+        "MICHAL",
+        "MIDIAN",
+        "MINDFUL",
+        "MINISTRY",
+        "MIRACLE",
+        "MIRIAM",
+        "MISSION",
+        "MORDECAI"
+      ]
+    },
+    {
+      "name": "Bible Stories Word Search 87",
+      "words": [
+        "MORNING",
+        "MOUNTAINTOP",
+        "MOVEMENT",
+        "MUSTARDSEED",
+        "MYRRH",
+        "NABOTH",
+        "NAHUM",
+        "NAOMI",
+        "NAP",
+        "NATHAN",
+        "NATIVITY",
+        "NAZARENE"
+      ]
+    },
+    {
+      "name": "Bible Stories Word Search 88",
+      "words": [
+        "NAZARETH",
+        "NEBUCHADNEZZAR",
+        "NEHEMIAH",
+        "NEIGHBOR",
+        "NEWCOVENANT",
+        "NEWTESTAMENT",
+        "NICODEMUS",
+        "NINEVEH",
+        "NOVELIZATION",
+        "OBADIAH",
+        "OBEDIENCE",
+        "OFFERING"
+      ]
+    },
+    {
+      "name": "Bible Stories Word Search 89",
+      "words": [
+        "OLDTESTAMENT",
+        "OLIVE",
+        "OLIVEBRANCH",
+        "OLIVEPRESS",
+        "ONESIMUS",
+        "OPHIR",
+        "ORPHAN",
+        "PAGE",
+        "PALMBRANCH",
+        "PARADISE",
+        "PASSOVER",
+        "PAUL"
+      ]
+    },
+    {
+      "name": "Bible Stories Word Search 90",
+      "words": [
+        "PEACEFUL",
+        "PEACEKEEPER",
+        "PEACEMAKER",
+        "PENTECOST",
+        "PERSEVERANCE",
+        "PETER",
+        "PHARAOH",
+        "PHILEMON",
+        "PHILIPPI",
+        "PHILISTINES",
+        "PILATE",
+        "PILGRIMAGE"
+      ]
+    },
+    {
+      "name": "Bible Stories Word Search 91",
+      "words": [
+        "POET",
+        "PRAYERBOOK",
+        "PRAYERMEETING",
+        "PRAYERS",
+        "PRAYERWARRIOR",
+        "PREFACE",
+        "PRESENCE",
+        "PRIEST",
+        "PROMISEDLAND",
+        "PROOFREADER",
+        "PROPHET",
+        "PROVIDENCE"
+      ]
+    },
+    {
+      "name": "Bible Stories Word Search 92",
+      "words": [
+        "PSALMIST",
+        "PUBLISHER",
+        "PURITY",
+        "PURPOSE",
+        "QUIET",
+        "RABBI",
+        "RACHEL",
+        "RAHAB",
+        "RAMAH",
+        "READING",
+        "READINGLAMP",
+        "READINGLIST"
+      ]
+    },
+    {
+      "name": "Bible Stories Word Search 93",
+      "words": [
+        "READINGROOM",
+        "REBEKAH",
+        "RECONCILIATION",
+        "REDEMPTION",
+        "REDEMPTIONSTORY",
+        "REFERENCE",
+        "REFLECTION",
+        "REFUGE",
+        "REFUGEANDSTRENGTH",
+        "REJOICE",
+        "RESTFUL",
+        "RESTORATION"
+      ]
+    },
+    {
+      "name": "Bible Stories Word Search 94",
+      "words": [
+        "RESURRECTION",
+        "RIGHTEOUSNESS",
+        "RISEN",
+        "RIVER",
+        "ROBE",
+        "SABBATH",
+        "SACRIFICE",
+        "SAINT",
+        "SALOME",
+        "SALVATION",
+        "SAMARIA",
+        "SAMUEL"
+      ]
+    },
+    {
+      "name": "Bible Stories Word Search 95",
+      "words": [
+        "SANCTUARY",
+        "SARAH",
+        "SAUL",
+        "SAVIOR",
+        "SAVIORLIGHT",
+        "SCREENPLAY",
+        "SCRIPTURESTUDY",
+        "SCROLL",
+        "SELFCARE",
+        "SERMON",
+        "SERVANT",
+        "SERVANTLEADER"
+      ]
+    },
+    {
+      "name": "Bible Stories Word Search 96",
+      "words": [
+        "SERVANTSHIP",
+        "SERVICE",
+        "SHECHEM",
+        "SHEPHERD",
+        "SHILOH",
+        "SHOFAR",
+        "SHORTSTORY",
+        "SIGNET",
+        "SILAS",
+        "SILENCE",
+        "SIMEON",
+        "SINAI"
+      ]
+    },
+    {
+      "name": "Bible Stories Word Search 97",
+      "words": [
+        "SISTERHOOD",
+        "SLEEP",
+        "SLOWDOWN",
+        "SODOM",
+        "SOLOMON",
+        "SONG",
+        "SPIRIT",
+        "SPIRITUALGIFT",
+        "STEADFAST",
+        "STEADFASTLOVE",
+        "STEPHEN",
+        "STEWARDSHIP"
+      ]
+    },
+    {
+      "name": "Bible Stories Word Search 98",
+      "words": [
+        "STORYTELLER",
+        "STORYTIME",
+        "STRENGTH",
+        "SUBSCRIPTION",
+        "SUPPLICATION",
+        "SUSANNA",
+        "TABERNACLE",
+        "TARSUS",
+        "TEA",
+        "TEACHER",
+        "TEMPLE",
+        "TESTIMONY"
+      ]
+    },
+    {
+      "name": "Bible Stories Word Search 99",
+      "words": [
+        "THANKFUL",
+        "THANKFULHEART",
+        "THANKSGIVING",
+        "THESAURUS",
+        "THESSALONIANS",
+        "THOMAS",
+        "THRONE",
+        "TIBERIAS",
+        "TIMOTHY",
+        "TITLEPAGE",
+        "TITUS",
+        "TOBIAH"
+      ]
+    },
+    {
+      "name": "Bible Stories Word Search 100",
+      "words": [
+        "TOMB",
+        "TRANSLATOR",
+        "TRAVELOGUE",
+        "TRUMPET",
+        "TRUST",
+        "TRUSTWORTHINESS",
+        "TRUTH",
+        "TRUTHSEEKER",
+        "TYRE",
+        "UNDERSTANDING",
+        "UNFAITHFUL",
+        "UNITY"
+      ]
     }
   ],
   "difficulty_label": "Relaxing",
@@ -1065,5 +1746,12 @@
       "Bible and Faith"
     ],
     "checked_at": "2026-08-22T10:08:39"
+  },
+  "quality_review": {
+    "checked_at": "20260824-215539",
+    "source": "wi2_validation-20260824-215229.json",
+    "verdict": "FAIL",
+    "production_ready": false,
+    "message": "This legacy word bank needs a curated topic rebuild before production."
   }
 }

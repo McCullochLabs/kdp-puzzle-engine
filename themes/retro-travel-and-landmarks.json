@@ -77,7 +77,7 @@
       "name": "Steam Locomotive",
       "words": [
         "SKI",
-        "POSTER",
+        "ACCELERATOR",
         "SEGMENT",
         "BAROQUE",
         "SAILING",
@@ -87,7 +87,7 @@
         "STONECRAB",
         "ACIDWASH",
         "FROST",
-        "RERUN"
+        "ACCESSORY"
       ]
     },
     {
@@ -95,7 +95,7 @@
       "words": [
         "KEYSTONE",
         "SUNLIGHT",
-        "MANUSCRIPT",
+        "ACCORD",
         "PREY",
         "TOWER",
         "TONE",
@@ -115,7 +115,7 @@
         "ABYSS",
         "CENTRALNEWYORK",
         "CARKEY",
-        "NOVELIST",
+        "ACCORDHYBRID",
         "TEXTURE",
         "PUZZLETIME",
         "SALSA",
@@ -162,7 +162,7 @@
       "name": "Leaning Tower",
       "words": [
         "CHEETAHS",
-        "FICTION",
+        "ACURA",
         "SURGE",
         "BOULDER",
         "SIPHON",
@@ -180,13 +180,13 @@
       "words": [
         "DESERTROAD",
         "CANADA",
-        "FARM",
+        "ADVENTURETRAIL",
         "TAOS",
         "ACORN",
         "COLONIAL",
         "GREATDANE",
         "PILOT",
-        "ALTAR",
+        "AEROSTAR",
         "NISSAN",
         "MASTER",
         "ABILENE"
@@ -202,9 +202,9 @@
         "CANYON",
         "OILPAN",
         "WADDLE",
-        "HIPHOP",
+        "AIRCONDITIONER",
         "TAP",
-        "HANDHELD",
+        "AIRFILTER",
         "STEAMBOAT",
         "ABOLISH"
       ]
@@ -305,7 +305,7 @@
         "SCORPION",
         "ITINERARY",
         "THROWER",
-        "BETHLEHEM",
+        "AIRFRESHENER",
         "SIGNAL",
         "PLANKTON",
         "LEMURS"
@@ -325,7 +325,7 @@
         "SONGBOOK",
         "RIOGRANDE",
         "SUBTITLE",
-        "CHAMPION"
+        "AIRPORT"
       ]
     },
     {
@@ -349,15 +349,15 @@
       "name": "London Bridge",
       "words": [
         "SCHEDULE",
-        "PAUSE",
+        "AIRPUMP",
         "GRUNGE",
-        "PRIMETIME",
+        "ALASKAPARKS",
         "MEMORIAL",
         "COFFEETABLE",
         "MOUSE",
         "SHELLFISH",
         "SHOT",
-        "CELEBRITY",
+        "ALIGNMENT",
         "HIGHWAYDRIVE",
         "REFOREST"
       ]
@@ -404,11 +404,11 @@
         "WRISTBAND",
         "SCOUT",
         "TRICK",
-        "ORNAMENT",
-        "WRITERS",
+        "ALLIES",
+        "ALLROAD",
         "COASTER",
         "PIPEFISH",
-        "BATTLEFIELD",
+        "ALLWHEEL",
         "CHAINRING",
         "SEABED"
       ]
@@ -443,14 +443,14 @@
         "PALMS",
         "OFFROAD",
         "FRONT",
-        "ACTRESS",
+        "ALPINE",
         "TORQUE"
       ]
     },
     {
       "name": "Famous Monuments",
       "words": [
-        "RESTORATION",
+        "ALPINEFOREST",
         "GRANITE",
         "PICKUP",
         "TSX",
@@ -458,7 +458,7 @@
         "LONGSHIP",
         "TEMPERATURE",
         "MALTS",
-        "KNIGHT",
+        "ALPINEGLOW",
         "KAYAKING",
         "BLOG",
         "SANDS"
@@ -490,7 +490,7 @@
         "SAUSAGE",
         "BEARS",
         "VACATIONRIDE",
-        "CINEMA",
+        "ALPINEHUT",
         "SCHOOLDANCE",
         "EGRET",
         "ORANGE",
@@ -511,7 +511,7 @@
         "INSECTS",
         "PROBE",
         "TRAP",
-        "TREASURE",
+        "ALPINELAKE",
         "COOKOUT"
       ]
     },
@@ -563,7 +563,7 @@
         "PYTHONS",
         "CALIFORNIA",
         "WETSUIT",
-        "BOOKCASE"
+        "ALPINEPASS"
       ]
     },
     {
@@ -592,7 +592,7 @@
         "ALIEN",
         "WILDFLOWER",
         "GEOPARK",
-        "VICTORY",
+        "ALPINEWILDFLOWER",
         "HAGGLE",
         "POLYP",
         "FRENZY",
@@ -637,12 +637,12 @@
     {
       "name": "River Cruise",
       "words": [
-        "ELIZABETH",
+        "ALTERNATOR",
         "STEAMER",
         "HAN",
         "PURPLE",
         "EXPLORE",
-        "FABRIC",
+        "ALTERNATORBELT",
         "PROTECTED",
         "FUELINJECTOR",
         "ARCHER",
@@ -750,7 +750,7 @@
         "POLISH",
         "DISCOBALL",
         "CLUBMAN",
-        "ARTIST"
+        "ALTIMA"
       ]
     },
     {
@@ -763,7 +763,7 @@
         "DRIVINGSAFE",
         "CLASS",
         "PROPELLER",
-        "COMMUNITY",
+        "AMBULANCE",
         "DEPARTMENTSTORE",
         "CARVE",
         "TORTOISE",
@@ -813,7 +813,7 @@
         "PLAYLIST",
         "FLOAT",
         "GUAVA",
-        "COLLECTOR",
+        "AMERICA",
         "TAURUS",
         "TIREGAUGE",
         "BRONCO",
@@ -825,12 +825,12 @@
       "name": "Vintage Road Trip Word Quest 048",
       "words": [
         "ACADIA",
-        "ACOUSTIC",
+        "AMERICANALLIGATOR",
         "ACROPOLIS",
-        "ACTION",
+        "AMIGO",
         "ACTIONTOY",
         "ACTIVIST",
-        "ACTOR",
+        "AMPERA",
         "ACTORS",
         "ADAPTATION",
         "ADAPTIVE",
@@ -877,5 +877,12 @@
       "Travel and Geography"
     ],
     "checked_at": "2026-08-22T10:08:39"
+  },
+  "quality_review": {
+    "checked_at": "20260824-213922",
+    "source": "verified_word_intelligence_repair",
+    "verdict": "PASS_WITH_NOTES",
+    "production_ready": false,
+    "changes": 32
   }
 }

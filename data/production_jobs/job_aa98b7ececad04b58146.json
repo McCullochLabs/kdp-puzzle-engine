@@ -1,0 +1,181 @@
+{
+  "schema_version": 1,
+  "production_job_id": "job_aa98b7ececad04b58146",
+  "book_id": "a3961204f5d4",
+  "book_plan_id": "automatic-word-scramble-+-trivia",
+  "puzzle_type": "Word Scramble + Trivia",
+  "status": "waiting_for_review",
+  "context": {
+    "book_id": "a3961204f5d4",
+    "source_key": "generated:Word Scramble + Trivia:General Knowledge & Curiosity",
+    "package_path": "",
+    "title": "Acceptance Curiosity Scramble Final",
+    "subtitle": "24 word challenges and quick facts with answers",
+    "author": "Jordan M. Slade",
+    "series": null,
+    "theme": null,
+    "detected_topic": "General Knowledge & Curiosity",
+    "puzzle_type": "Word Scramble + Trivia",
+    "puzzle_count": 24,
+    "puzzle_seed": 62831,
+    "page_count": null,
+    "trim_size": "8.5x11",
+    "difficulty": "Standard",
+    "difficulty_label": null,
+    "audience": null,
+    "large_print": null,
+    "signature_edition": null,
+    "no_repeat_words": null,
+    "answer_key": null,
+    "files": {},
+    "price": null,
+    "description": null,
+    "brand": "",
+    "metadata_locked": false,
+    "conflicts": [],
+    "fingerprint": "255b033ce2c2209a1d312fd881d086717ed2b4683119f29ed957de8a5c6dad25",
+    "book_plan_id": "automatic-word-scramble-+-trivia",
+    "source_revision": "255b033ce2c2209a1d312fd881d086717ed2b4683119f29ed957de8a5c6dad25",
+    "cover_style": "Automatic matching",
+    "palette": "tropical-pop",
+    "content_plan_approval": {
+      "source": "acceptance_test.operator_confirmation",
+      "evidence_id": "20260905-padding-rebuild"
+    }
+  },
+  "fingerprints": {
+    "idea": "b6840ab2976a430df74b34fa8690f3c0a4f82aad5fe1317fcb87ab1aa709f847",
+    "feasibility": "79be1a6ea70d077dc7988d83b61fd9fa37b31539d3c1ec2c9d5aa2746f810132",
+    "content_plan": "79be1a6ea70d077dc7988d83b61fd9fa37b31539d3c1ec2c9d5aa2746f810132",
+    "generation": "79be1a6ea70d077dc7988d83b61fd9fa37b31539d3c1ec2c9d5aa2746f810132",
+    "cover": "0d14943e9d4a58e47a7481b441acc496c1fdf43fb33ddbc98525d6a168c35a39",
+    "product_qa": "7c0cb86334bddd1aa786b98b592c17a381c7618f74e789607a1c8c1e4c901fb7",
+    "listing": "23d38c5ef4a5fdb3189dd7a8549fe5e510c22a3a45e3f1dcff2162a40577b233",
+    "package": "278dda4967d5a19a95efeaa34929473c46c3de71746685a2e8dd264cdb10f37a",
+    "final_review": "278dda4967d5a19a95efeaa34929473c46c3de71746685a2e8dd264cdb10f37a",
+    "platform_preview": "278dda4967d5a19a95efeaa34929473c46c3de71746685a2e8dd264cdb10f37a",
+    "marketplace_handoff": "278dda4967d5a19a95efeaa34929473c46c3de71746685a2e8dd264cdb10f37a"
+  },
+  "steps": {
+    "idea": {
+      "status": "complete",
+      "fingerprint": "b6840ab2976a430df74b34fa8690f3c0a4f82aad5fe1317fcb87ab1aa709f847",
+      "completed_at": "2026-09-05T16:06:40+00:00",
+      "artifact": "",
+      "detail": "Adopted from the existing checked production route."
+    },
+    "feasibility": {
+      "status": "complete",
+      "fingerprint": "79be1a6ea70d077dc7988d83b61fd9fa37b31539d3c1ec2c9d5aa2746f810132",
+      "completed_at": "2026-09-05T16:06:40+00:00",
+      "artifact": "",
+      "detail": "Adopted from the existing checked production route."
+    },
+    "content_plan": {
+      "status": "approved",
+      "fingerprint": "79be1a6ea70d077dc7988d83b61fd9fa37b31539d3c1ec2c9d5aa2746f810132",
+      "completed_at": "2026-09-05T16:06:40+00:00",
+      "artifact": "",
+      "detail": "Adopted from persisted content-plan approval evidence.",
+      "human_evidence": {
+        "source": "acceptance_test.operator_confirmation",
+        "evidence_id": "20260905-padding-rebuild"
+      }
+    },
+    "generation": {
+      "status": "complete",
+      "fingerprint": "79be1a6ea70d077dc7988d83b61fd9fa37b31539d3c1ec2c9d5aa2746f810132",
+      "completed_at": "2026-09-05T16:06:40+00:00",
+      "artifact": "C:\\Users\\jorda\\Desktop\\Word Search Creator\\kdp-puzzle-engine\\out\\acceptance_curiosity_scramble_final_20260905_090640\\01_PRINT_UPLOADS\\interior.pdf",
+      "detail": "Interior and answer pages were generated from the selected puzzle type and seed."
+    },
+    "cover": {
+      "status": "complete",
+      "fingerprint": "0d14943e9d4a58e47a7481b441acc496c1fdf43fb33ddbc98525d6a168c35a39",
+      "completed_at": "2026-09-05T16:06:41+00:00",
+      "artifact": "C:\\Users\\jorda\\Desktop\\Word Search Creator\\kdp-puzzle-engine\\out\\acceptance_curiosity_scramble_final_20260905_090640\\03_PREVIEWS\\front_cover.png",
+      "detail": "Front cover was rendered from verified facts and approved matching art."
+    },
+    "product_qa": {
+      "status": "complete",
+      "fingerprint": "7c0cb86334bddd1aa786b98b592c17a381c7618f74e789607a1c8c1e4c901fb7",
+      "completed_at": "2026-09-05T16:06:50+00:00",
+      "artifact": "",
+      "detail": "QA Passed Locally"
+    },
+    "listing": {
+      "status": "complete",
+      "fingerprint": "23d38c5ef4a5fdb3189dd7a8549fe5e510c22a3a45e3f1dcff2162a40577b233",
+      "completed_at": "2026-09-05T16:06:50+00:00",
+      "artifact": "",
+      "detail": "Listing kit was generated from verified book facts."
+    },
+    "package": {
+      "status": "complete",
+      "fingerprint": "278dda4967d5a19a95efeaa34929473c46c3de71746685a2e8dd264cdb10f37a",
+      "completed_at": "2026-09-05T16:06:55+00:00",
+      "artifact": "C:\\Users\\jorda\\Desktop\\Word Search Creator\\kdp-puzzle-engine\\out\\acceptance_curiosity_scramble_final_20260905_090640",
+      "detail": "Final package inspection passed and master release files were created."
+    }
+  },
+  "events": [
+    {
+      "at": "2026-09-05T16:06:40+00:00",
+      "event": "started_or_resumed"
+    },
+    {
+      "at": "2026-09-05T16:06:40+00:00",
+      "event": "stage_complete",
+      "stage": "idea",
+      "status": "complete"
+    },
+    {
+      "at": "2026-09-05T16:06:40+00:00",
+      "event": "stage_complete",
+      "stage": "feasibility",
+      "status": "complete"
+    },
+    {
+      "at": "2026-09-05T16:06:40+00:00",
+      "event": "stage_complete",
+      "stage": "content_plan",
+      "status": "approved"
+    },
+    {
+      "at": "2026-09-05T16:06:40+00:00",
+      "event": "stage_complete",
+      "stage": "generation",
+      "status": "complete"
+    },
+    {
+      "at": "2026-09-05T16:06:41+00:00",
+      "event": "stage_complete",
+      "stage": "cover",
+      "status": "complete"
+    },
+    {
+      "at": "2026-09-05T16:06:50+00:00",
+      "event": "stage_complete",
+      "stage": "product_qa",
+      "status": "complete"
+    },
+    {
+      "at": "2026-09-05T16:06:50+00:00",
+      "event": "stage_complete",
+      "stage": "listing",
+      "status": "complete"
+    },
+    {
+      "at": "2026-09-05T16:06:55+00:00",
+      "event": "stage_complete",
+      "stage": "package",
+      "status": "complete"
+    }
+  ],
+  "created_at": "2026-09-05T16:06:40+00:00",
+  "updated_at": "2026-09-05T16:06:55+00:00",
+  "paused": false,
+  "current_stage": "final_review",
+  "next_action": "Complete Final Local Review",
+  "attention": []
+}

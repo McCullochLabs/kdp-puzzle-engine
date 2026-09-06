@@ -26,7 +26,7 @@
       "name": "Film Cameras",
       "words": [
         "MANE",
-        "CHAPTER",
+        "ACCELERATOR",
         "CABRIOLET",
         "CARDINALS",
         "RECORD",
@@ -49,7 +49,7 @@
         "ORACLE",
         "LIONFISH",
         "FILMNOIR",
-        "HEADPHONES",
+        "ACCESSORY",
         "TERRITORY",
         "MOTEL",
         "ABALONE",
@@ -60,7 +60,7 @@
       "name": "Movie Nights",
       "words": [
         "RENEGADE",
-        "GAMESTORE",
+        "ACCORDHYBRID",
         "CHIMPANZEES",
         "FEARLESS",
         "PASSENGERSEAT",
@@ -98,7 +98,7 @@
         "CARDGAME",
         "TWIST",
         "SCHOOL",
-        "RHYTHM",
+        "ACORN",
         "RELAXED",
         "BEACHGRASS",
         "FRONTSEAT",
@@ -145,7 +145,7 @@
       "name": "Blockbuster Hits",
       "words": [
         "WORKOUT",
-        "EARBUDS",
+        "ACURA",
         "DESERTTORTOISE",
         "STING",
         "HURRICANE",
@@ -179,8 +179,8 @@
       "name": "Red Carpet",
       "words": [
         "DESERTROAD",
-        "TOYSTORE",
-        "FANTASY",
+        "ADVENTURE",
+        "ADVENTURETRAIL",
         "CROCODILES",
         "FONDUEPOT",
         "CHAIN",
@@ -188,7 +188,7 @@
         "UTICA",
         "TRAILERPARK",
         "BRAKEPAD",
-        "ACOUSTIC",
+        "AEROSTAR",
         "ACROPOLIS"
       ]
     },
@@ -250,7 +250,7 @@
         "FUELINJECTOR",
         "CHEESESTEAK",
         "WATERFALL",
-        "NOTEBOOK",
+        "AIRCONDITIONER",
         "PERFUME",
         "DESTINY",
         "TROPICAL",
@@ -269,7 +269,7 @@
         "LEARN",
         "SIENNA",
         "BARN",
-        "SNOWS",
+        "AIRFILTER",
         "RIGGER",
         "NORTHRIM",
         "ECHO",
@@ -286,12 +286,12 @@
         "FERRY",
         "SKILLED",
         "STARFISH",
-        "STRATEGY",
+        "AIRFRESHENER",
         "HAMMOCK",
         "SCUTE",
-        "PARADISE",
+        "AIRPORT",
         "WALKWAY",
-        "ACTION"
+        "AIRPUMP"
       ]
     },
     {
@@ -340,7 +340,7 @@
         "ORTHODOX",
         "BLAZER",
         "PRIUS",
-        "SCREAM",
+        "ALASKAPARKS",
         "MECHANISM",
         "HOUSE"
       ]
@@ -370,12 +370,12 @@
         "HAWK",
         "BOAT",
         "BENITOITE",
-        "ARTWORK",
+        "ALERO",
         "CAPTURE",
         "REDUCE",
         "TELESCOPE",
         "ROADSIGN",
-        "MUSICIAN",
+        "ALIGNMENT",
         "SHUFFLE"
       ]
     },
@@ -386,8 +386,8 @@
         "SCIENCE",
         "HAIRSPRAY",
         "WHARF",
-        "ACHIEVEMENT",
-        "LIFE",
+        "ALLROAD",
+        "ALLWHEEL",
         "FLOWER",
         "GETAWAY",
         "SONATA",
@@ -405,11 +405,11 @@
         "CAPTIVA",
         "MOON",
         "SYRACUSE",
-        "SMILE",
+        "ALPINE",
         "CENTRALVALLEY",
         "SCENICBYWAY",
         "COLORADODESERT",
-        "TOMB",
+        "ALPINEFOREST",
         "FLYERS"
       ]
     },
@@ -469,13 +469,13 @@
       "words": [
         "LAKEHAVASU",
         "SHELTERS",
-        "HEADSET",
+        "ALPINEGLOW",
         "AMPLITUDE",
         "MISSEDCALL",
-        "BARBECUE",
+        "ALPINEHUT",
         "MOSS",
         "TAMARINS",
-        "CONTROLLER",
+        "ALPINELAKE",
         "CARSEAT",
         "ROME",
         "APERTURE"
@@ -495,7 +495,7 @@
         "ROD",
         "SAIL",
         "NAVY",
-        "PAINTER"
+        "ALPINEPASS"
       ]
     },
     {
@@ -509,10 +509,10 @@
         "VELOSTER",
         "PACIFIC",
         "WEBPAGE",
-        "SINGER",
+        "ALPINEWILDFLOWER",
         "ATMOSPHERE",
-        "MANUSCRIPT",
-        "ACTOR"
+        "ALTERNATOR",
+        "ALTERNATORBELT"
       ]
     },
     {
@@ -521,7 +521,7 @@
         "MOONROCKET",
         "TRADINGCARDS",
         "ROMAN",
-        "VINYL",
+        "ALTIMA",
         "QUAIL",
         "CIVIC",
         "MILK",
@@ -580,7 +580,7 @@
         "ORANGUTAN",
         "LANTERN",
         "YARD",
-        "ACTRESS"
+        "AMBULANCE"
       ]
     },
     {
@@ -590,7 +590,7 @@
         "HOMESTEAD",
         "EGYPTIAN",
         "EQUIP",
-        "LUNCHBOX",
+        "AMERICANALLIGATOR",
         "ACCORD",
         "FRAME",
         "LIMESTONE",
@@ -607,10 +607,10 @@
         "TOTALLY",
         "FORT",
         "ELK",
-        "PATTERN",
+        "AMPERA",
         "SILO",
         "KAIBAB",
-        "FARM",
+        "AMPLIFIER",
         "OCEANPATH",
         "BRONCO",
         "POLISH",
@@ -624,13 +624,13 @@
         "CEMENTMIXER",
         "MODELY",
         "PROTAGONIST",
-        "CASTLE",
+        "ANACOSTIA",
         "PROJECT",
         "COOLER",
         "WILDERNESS",
         "COURTHOUSE",
         "LUCID",
-        "VICTORY",
+        "ANTELOPECANYON",
         "ADAPTATION"
       ]
     },
@@ -638,7 +638,7 @@
       "name": "Film Archives",
       "words": [
         "BALLOON",
-        "FRIENDS",
+        "ANTENNA",
         "ROYALTY",
         "SORENTO",
         "SANTABARBARA",
@@ -648,7 +648,7 @@
         "BERKELEY",
         "COPPERBREAKS",
         "REMOTECONTROL",
-        "HADES"
+        "ANTIFREEZE"
       ]
     },
     {
@@ -656,7 +656,7 @@
       "words": [
         "TACO",
         "XTERRA",
-        "PRODUCER",
+        "ANTLER",
         "SPINY",
         "PRETZEL",
         "GRAPEFRUIT",
@@ -673,9 +673,9 @@
       "words": [
         "AMIGO",
         "OCALA",
-        "WRITING",
+        "APPALACHIANTRAIL",
         "LAVACREEK",
-        "TIDEPOOL",
+        "ARCADIA",
         "MUFFIN",
         "GOLDENPOPPY",
         "RATTLESNAKE",
@@ -693,13 +693,13 @@
         "THRILL",
         "PANHANDLE",
         "WILLOW",
-        "PARK",
+        "ARCH",
         "RASHGUARD",
         "INKWELL",
-        "GAMEROOM",
+        "ARCHES",
         "SCULPT",
         "DENTON",
-        "KEYBOARD"
+        "ARCTICFOX"
       ]
     },
     {
@@ -729,7 +729,7 @@
         "RESERVES",
         "RVLIFE",
         "PANDAS",
-        "BOOKSTORE",
+        "ARMISTICE",
         "SPLASH",
         "VEHICLE",
         "LACE",
@@ -746,7 +746,7 @@
         "ATHENA",
         "TRAVELS",
         "ATHLETE",
-        "CLASSIC",
+        "ARMREST",
         "TOKYO",
         "IGUANAS",
         "ENCHANTEDROCK",
@@ -811,11 +811,11 @@
         "STAGHORN",
         "SPIDER",
         "POOLING",
-        "EXERCISE",
+        "ARROYO",
         "CAPUCHIN",
         "PATIO",
         "MARSHMALLOW",
-        "FAN",
+        "ASCENT",
         "ATLANTICCOAST",
         "OBSERVES",
         "STROLL"
@@ -829,7 +829,7 @@
         "DRINKS",
         "CDROM",
         "STORY",
-        "KINGDOM",
+        "ASPENLEAF",
         "HAT",
         "MOUNTAINLAUREL",
         "DESERTBIGHORN",
@@ -877,5 +877,12 @@
       "Travel and Geography"
     ],
     "checked_at": "2026-08-22T10:08:38"
+  },
+  "quality_review": {
+    "checked_at": "20260824-213754",
+    "source": "verified_word_intelligence_repair",
+    "verdict": "PASS_WITH_NOTES",
+    "production_ready": false,
+    "changes": 47
   }
 }

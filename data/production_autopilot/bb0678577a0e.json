@@ -1,0 +1,22 @@
+{
+  "version": "1",
+  "book_id": "bb0678577a0e",
+  "runs": [
+    {
+      "run_id": "9f1ef5ff727c6e31",
+      "started": "2026-08-28T22:25:00",
+      "facts_fingerprint": "491c26da7b1765b2a48684bffcafe279e5e3b683ca7905ab4658ea7c890d2aea",
+      "result": "needs_human_review",
+      "failed_stage": "validate"
+    }
+  ],
+  "stages": {
+    "validate": {
+      "status": "needs_human_review",
+      "failed": "2026-08-28T22:25:03",
+      "detail": "Production truth: 40 word(s) point outside the topic and its anchors"
+    }
+  },
+  "facts_fingerprint": "491c26da7b1765b2a48684bffcafe279e5e3b683ca7905ab4658ea7c890d2aea",
+  "last_started": "2026-08-28T22:25:00"
+}

@@ -53,7 +53,7 @@
         "HABITAT",
         "GUN",
         "STROLL",
-        "FILMMAKER",
+        "ACADIA",
         "ACCESSORY",
         "LEVELS",
         "CARERS"
@@ -64,11 +64,11 @@
       "words": [
         "CONTRAST",
         "ADVENTURE",
-        "THEATER",
+        "ACCELERATOR",
         "MONITORS",
         "FUNFAIR",
         "KOALA",
-        "MARKER",
+        "ACCORD",
         "MAIN",
         "BURNER",
         "REDBUD",
@@ -116,11 +116,11 @@
         "PILOT",
         "ORCHARD",
         "LIGHTHOUSE",
-        "HERITAGE",
+        "ACCORDHYBRID",
         "FUTURE",
         "CONEFLOWER",
         "ELDERBERRY",
-        "PAINTER",
+        "ACORN",
         "FENCE",
         "PICKAXE",
         "BRISKET",
@@ -136,7 +136,7 @@
         "TOURS",
         "CLIMB",
         "PASSION",
-        "BATTLE",
+        "ACURA",
         "COLORADORIVER",
         "PROSPECT",
         "YACHT",
@@ -154,7 +154,7 @@
         "ELECTRONICS",
         "ARMADILLO",
         "BEACHY",
-        "BOOKSTORE",
+        "ADVENTURETRAIL",
         "SCIENCE",
         "WAFFLE",
         "DARK",
@@ -185,13 +185,13 @@
         "BOOT",
         "PROPELLER",
         "GOLDENROD",
-        "BLOCKBUSTER",
+        "AEROSTAR",
         "JASMINE",
         "DEN",
         "AQUATIC",
         "EDUCATE",
         "PARASOL",
-        "DANCEFLOOR",
+        "AGROFORESTRY",
         "HOE"
       ]
     },
@@ -221,7 +221,7 @@
         "SERVALS",
         "LEADER",
         "ANCIENT",
-        "SHOOTER",
+        "AIRCONDITIONER",
         "OCEANPATH",
         "SOUTHERNTIER",
         "IRIS",
@@ -267,8 +267,8 @@
       "name": "Great Smoky Mountains Forest Trails Puzzle 016",
       "words": [
         "FRUIT",
-        "STUFFING",
-        "CENTURION",
+        "AIRFILTER",
+        "AIRFRESHENER",
         "SKY",
         "FRAME",
         "BLOCK",
@@ -308,7 +308,7 @@
         "YUCCA",
         "MONSTERA",
         "REDUCE",
-        "CHAMPION",
+        "AIRPORT",
         "DEBRIS",
         "GROOM",
         "EMERALDPOOLS"
@@ -377,7 +377,7 @@
         "FORTWORTH",
         "CANYON",
         "CELLAR",
-        "SMILE",
+        "AIRPUMP",
         "VEHICLE",
         "GILAMONSTER"
       ]
@@ -392,9 +392,9 @@
         "PURE",
         "PIONEER",
         "SAGEBRUSH",
-        "PRINCE",
+        "ALASKAPARKS",
         "AMUSEMENT",
-        "STAGE",
+        "ALERO",
         "REPTILES",
         "NAZI"
       ]
@@ -425,7 +425,7 @@
         "STEAK",
         "TABLE",
         "TOOLBOX",
-        "OFFICE",
+        "ALIGNMENT",
         "DEVELOP",
         "HOTPANTS",
         "MIGRATES",
@@ -446,7 +446,7 @@
         "BAMBOO",
         "MULCH",
         "QUEEN",
-        "PUZZLE",
+        "ALLIES",
         "CONCH"
       ]
     },
@@ -454,7 +454,7 @@
       "name": "Great Smoky Mountains Forest Trails Puzzle 027",
       "words": [
         "WIND",
-        "KEEPER",
+        "ALLROAD",
         "KITE",
         "CONVERTIBLE",
         "GRILL",
@@ -505,7 +505,7 @@
       "name": "Great Smoky Mountains Forest Trails Puzzle 030",
       "words": [
         "BERGAMOT",
-        "MUSICIAN",
+        "ALLWHEEL",
         "PINBALL",
         "ACTIVITIES",
         "ELEPHANTEAR",
@@ -528,10 +528,10 @@
         "MYTH",
         "WARM",
         "SWIM",
-        "RESTORATION",
+        "ALPINE",
         "CHILI",
         "SHOP",
-        "CRAFT",
+        "ALPINEFOREST",
         "TETONRANGE"
       ]
     },
@@ -577,12 +577,12 @@
         "QUAIL",
         "THIN",
         "CROCUS",
-        "CHALLENGE",
+        "ALPINEGLOW",
         "CARGO",
         "TIDY",
         "LEAFY",
         "SANTABARBARA",
-        "LITERATURE",
+        "ALPINEHUT",
         "SOUVENIR"
       ]
     },
@@ -629,7 +629,7 @@
         "PROFIT",
         "CONSOLE",
         "EARTH",
-        "FILM",
+        "ALPINELAKE",
         "NORSE",
         "IMAGINATION",
         "VISION",
@@ -667,7 +667,7 @@
         "PLANES",
         "SKIN",
         "MANTA",
-        "FAMOUS",
+        "ALPINEPASS",
         "RETAIL"
       ]
     },
@@ -701,7 +701,7 @@
         "GENRE",
         "CONSTITUTION",
         "SHRUBS",
-        "JOURNAL",
+        "ALPINEWILDFLOWER",
         "MONEY"
       ]
     },
@@ -727,16 +727,16 @@
       "words": [
         "ELPASO",
         "CROCK",
-        "MOVIENIGHT",
+        "ALTERNATOR",
         "SALAD",
-        "GAMEROOM",
+        "ALTERNATORBELT",
         "MARLIN",
         "LONGBOAT",
         "PANTOMIME",
         "ICE",
         "ENTERPRISE",
         "CORNDOG",
-        "BATTLEFIELD"
+        "ALTIMA"
       ]
     },
     {
@@ -766,7 +766,7 @@
         "CORPUSCHRISTI",
         "WORKSHOPS",
         "HORN",
-        "FANART",
+        "AMBULANCE",
         "CABLE",
         "WASH",
         "FLOW",
@@ -778,7 +778,7 @@
       "words": [
         "FLOWER",
         "STUNTS",
-        "GRATITUDE",
+        "AMERICA",
         "TUDOR",
         "MEMORIES",
         "PUTTER",
@@ -862,5 +862,12 @@
       "National Parks"
     ],
     "checked_at": "2026-08-22T10:08:38"
+  },
+  "quality_review": {
+    "checked_at": "20260824-213754",
+    "source": "verified_word_intelligence_repair",
+    "verdict": "PASS_WITH_NOTES",
+    "production_ready": false,
+    "changes": 32
   }
 }

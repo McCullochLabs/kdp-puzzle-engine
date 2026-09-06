@@ -1,0 +1,50 @@
+{
+  "version": "1",
+  "book_id": "441f060acf9f",
+  "runs": [
+    {
+      "run_id": "31ad4d39db486eb5",
+      "started": "2026-08-28T22:08:29",
+      "facts_fingerprint": "654581f4b71f3f9e286d40144daa5b738048e6b49dd821029371ae2183954d49",
+      "result": "failed",
+      "failed_stage": "preflight"
+    }
+  ],
+  "stages": {
+    "validate": {
+      "status": "complete",
+      "fingerprint": "76561f79f91fb166893394d1e67257a1f02e6c9f42584267bc4406c39a47cb24",
+      "completed": "2026-08-28T22:08:32",
+      "detail": "Capacity, title, safety, and source checks passed before generation.",
+      "artifact": ""
+    },
+    "generate": {
+      "status": "complete",
+      "fingerprint": "84a6bde4b768e515d4b7a6b7897c3e84acd47ba9f456d8ab983d73b8769d2396",
+      "completed": "2026-08-28T22:08:34",
+      "detail": "Interior PDF was generated from the selected theme and seed.",
+      "artifact": "C:\\Users\\jorda\\Desktop\\Word Search Creator\\kdp-puzzle-engine\\out\\Advanced_Vocabulary_Challenge_Word_Search_20260828_220832\\01_PRINT_UPLOADS\\interior.pdf"
+    },
+    "cover": {
+      "status": "complete",
+      "fingerprint": "af4be66ff4b38ea496bbd67af0826dc6d61209a4c615dba53bfab135178b1301",
+      "completed": "2026-08-28T22:08:37",
+      "detail": "Front cover was rendered with the verified title, badge, and selected approved art.",
+      "artifact": "C:\\Users\\jorda\\Desktop\\Word Search Creator\\kdp-puzzle-engine\\out\\Advanced_Vocabulary_Challenge_Word_Search_20260828_220832\\03_PREVIEWS\\front_cover.png"
+    },
+    "listing": {
+      "status": "complete",
+      "fingerprint": "8feda77d26fa4ef5e66638aef64cbfc54e18effbfe27e3f67ffccdc1f84474e1",
+      "completed": "2026-08-28T22:08:38",
+      "detail": "Listing kit and upload checklist were generated from package facts.",
+      "artifact": ""
+    },
+    "preflight": {
+      "status": "failed",
+      "failed": "2026-08-28T22:09:27",
+      "detail": "Final package intelligence stopped the handoff:\nThis book reuses reserved words from a finalized book."
+    }
+  },
+  "facts_fingerprint": "654581f4b71f3f9e286d40144daa5b738048e6b49dd821029371ae2183954d49",
+  "last_started": "2026-08-28T22:08:29"
+}

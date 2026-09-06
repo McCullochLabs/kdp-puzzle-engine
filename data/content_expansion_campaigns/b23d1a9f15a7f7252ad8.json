@@ -1,0 +1,23 @@
+{
+  "campaign_id": "b23d1a9f15a7f7252ad8",
+  "topic_id": "Summer activities",
+  "content_type": "word_or_phrase",
+  "puzzle_type": "word_search",
+  "target_format": {
+    "puzzle_count": 60,
+    "items_per_puzzle": 12
+  },
+  "required_capacity": 720,
+  "verified_capacity_before": 0,
+  "minimum_deficit": 720,
+  "recommended_capacity_target": 768,
+  "review_pool_estimate": 120,
+  "candidate_sources": [
+    "existing_content_registry"
+  ],
+  "candidate_ids": [],
+  "mini_theme_gaps": [],
+  "status": "needs_candidate_discovery",
+  "created_at": "2026-08-28T14:58:44+00:00",
+  "schema_version": 1
+}

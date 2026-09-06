@@ -33,7 +33,8 @@
       "Our solar system includes the Sun, eight planets, dwarf planets, moons, asteroids, and comets.",
       "A light-year measures distance—the distance light travels in one year—not time.",
       "Planets outside our solar system are called exoplanets."
-    ]
+    ],
+    "puzzle_target": 100
   },
   "draft": true,
   "puzzles": [

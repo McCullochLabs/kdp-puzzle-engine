@@ -1,0 +1,879 @@
+{
+  "title": "American Moments Word Search",
+  "subtitle": "50 large-print puzzles about history, people and places",
+  "author": "Jordan M. Slade",
+  "series": "Slade Puzzle Co. American Moments Series",
+  "audience": "Adults and Teens",
+  "palette": "usa",
+  "recommended_palette": "usa",
+  "cover_style": "photo",
+  "recommended_cover_style": "photo",
+  "cover_badge": "50 LARGE-PRINT PUZZLES • NO REPEATED WORDS",
+  "cover_imprint": "Slade Puzzle Co.",
+  "no_repeat_words": true,
+  "difficulty_label": "Standard",
+  "detected_topic": "American History",
+  "source_word_bank": {
+    "name": "Guided Builder Master Word Bank",
+    "topics": [
+      "American History"
+    ],
+    "selection_policy": "Direct named-topic pool; normalized, unique, 3–21 letters"
+  },
+  "clipart_search_terms": "American History",
+  "puzzles": [
+    {
+      "name": "American History Puzzle 01",
+      "words": [
+        "PRESUPPOSITION",
+        "ESSENTIAL",
+        "TRAIT",
+        "CONTEST",
+        "FEARLESS",
+        "DARE",
+        "GOLDEN",
+        "BALTIMORE",
+        "PRESENTATION",
+        "PICKETS",
+        "ALERT",
+        "BOTTOM"
+      ]
+    },
+    {
+      "name": "American History Puzzle 02",
+      "words": [
+        "FIFTEEN",
+        "LOPEZ",
+        "PRECEDENT",
+        "WITHDRAWAL",
+        "AWKWARD",
+        "EXACT",
+        "DOMINANCE",
+        "HELD",
+        "DISCUSS",
+        "DISABILITY",
+        "HAWAIIAN",
+        "PERIODICAL"
+      ]
+    },
+    {
+      "name": "American History Puzzle 03",
+      "words": [
+        "INFURIATED",
+        "PROVINCIAL",
+        "DISCOVERED",
+        "DIVINE",
+        "EXCUSE",
+        "INDIRECT",
+        "COERCE",
+        "ENGAGEMENT",
+        "UTTERANCE",
+        "WORTHY",
+        "OBJECTS",
+        "WIDOW"
+      ]
+    },
+    {
+      "name": "American History Puzzle 04",
+      "words": [
+        "ALLY",
+        "CITADEL",
+        "TEACHING",
+        "AYLLON",
+        "STRINGENCY",
+        "CANADIAN",
+        "IMPOSSIBLE",
+        "HERD",
+        "CROPS",
+        "FRANCISCO",
+        "TRAVELS",
+        "ACQUIESCENCE"
+      ]
+    },
+    {
+      "name": "American History Puzzle 05",
+      "words": [
+        "APPEARING",
+        "DIVISIONS",
+        "DECISIONS",
+        "IMMIGRATION",
+        "RESORTED",
+        "PRINTING",
+        "FREQUENTLY",
+        "COMMISSIONED",
+        "GOODMAN",
+        "SUBJECT",
+        "BORDERS",
+        "WINNING"
+      ]
+    },
+    {
+      "name": "American History Puzzle 06",
+      "words": [
+        "CLOSER",
+        "IMPRISONMENT",
+        "CHOSEN",
+        "RUINED",
+        "OPENED",
+        "NOBILITY",
+        "DEBTS",
+        "SHOP",
+        "EIGHTEEN",
+        "LANDS",
+        "NINETEEN",
+        "SAVANNAH"
+      ]
+    },
+    {
+      "name": "American History Puzzle 07",
+      "words": [
+        "SUSPENSION",
+        "TELLING",
+        "WOMAN",
+        "INELIGIBLE",
+        "THEREFROM",
+        "BLUFF",
+        "WHATSOEVER",
+        "SWAMP",
+        "WITHDRAWN",
+        "MARSHAL",
+        "WITHIN",
+        "FACED"
+      ]
+    },
+    {
+      "name": "American History Puzzle 08",
+      "words": [
+        "FORMERLY",
+        "CALLED",
+        "ABUNDANCE",
+        "IMPRESSMENT",
+        "MOSTLY",
+        "MOSES",
+        "MEDAL",
+        "THOMAS",
+        "EQUITY",
+        "SHAFTESBURY",
+        "SELDOM",
+        "POSITIVE"
+      ]
+    },
+    {
+      "name": "American History Puzzle 09",
+      "words": [
+        "FEET",
+        "TRIUMPHS",
+        "THEREIN",
+        "DEFINITE",
+        "EXPRESSING",
+        "CHASE",
+        "DIVIDED",
+        "DESIRABLE",
+        "CANADIANS",
+        "CHURCH",
+        "SAMUEL",
+        "HATTERAS"
+      ]
+    },
+    {
+      "name": "American History Puzzle 10",
+      "words": [
+        "ISLES",
+        "LOWER",
+        "CASES",
+        "SOUTHWESTERN",
+        "PIONEER",
+        "CHANNEL",
+        "FITCH",
+        "QUEEN",
+        "ORIGINAL",
+        "STAMPED",
+        "ADVENTURER",
+        "STOCKHOLDERS"
+      ]
+    },
+    {
+      "name": "American History Puzzle 11",
+      "words": [
+        "LIQUOR",
+        "BERKELEY",
+        "DEFECTIVE",
+        "UNSATISFACTORY",
+        "MARBLE",
+        "DESTROYED",
+        "DIAMETER",
+        "AMBIGUITY",
+        "INJUSTICE",
+        "MEMORABLE",
+        "ETHER",
+        "GENERATION"
+      ]
+    },
+    {
+      "name": "American History Puzzle 12",
+      "words": [
+        "ADMINISTERED",
+        "BEWITCHED",
+        "MAYOR",
+        "JUSTICE",
+        "BEACH",
+        "EFFIGY",
+        "MIGRATION",
+        "REGIONS",
+        "CORRUPTION",
+        "GUARD",
+        "EIGHTY",
+        "ACCLAMATION"
+      ]
+    },
+    {
+      "name": "American History Puzzle 13",
+      "words": [
+        "VOYAGES",
+        "ABSORBED",
+        "FASTER",
+        "RURAL",
+        "WEIGHTS",
+        "GIVEN",
+        "OLDER",
+        "BLOODSHED",
+        "FIERY",
+        "ELEVEN",
+        "GARRISONED",
+        "LEANING"
+      ]
+    },
+    {
+      "name": "American History Puzzle 14",
+      "words": [
+        "CONSTITUENTS",
+        "WEIGHT",
+        "SUEZ",
+        "DETENTION",
+        "AGGRESSION",
+        "CHIEFLY",
+        "BEET",
+        "MAILS",
+        "DEMONSTRATED",
+        "INTOLERANCE",
+        "AFFORD",
+        "CONSISTING"
+      ]
+    },
+    {
+      "name": "American History Puzzle 15",
+      "words": [
+        "ENLIGHTENED",
+        "OUTBREAKS",
+        "EPISCOPAL",
+        "VINDICATED",
+        "DOMED",
+        "STRICKEN",
+        "SURVEY",
+        "CONSULS",
+        "EMPEROR",
+        "NAVIGABLE",
+        "ACQUISITION",
+        "MOUNTAIN"
+      ]
+    },
+    {
+      "name": "American History Puzzle 16",
+      "words": [
+        "FATALLY",
+        "MASTERS",
+        "SERVE",
+        "DOMINATED",
+        "FLANK",
+        "PUNISHMENT",
+        "DAVIS",
+        "IMPEACH",
+        "DEPTH",
+        "CANALS",
+        "CORRESPONDING",
+        "PRIVILEGES"
+      ]
+    },
+    {
+      "name": "American History Puzzle 17",
+      "words": [
+        "WATSON",
+        "YAZOO",
+        "GALVESTON",
+        "POSTMASTER",
+        "MEAN",
+        "HAULING",
+        "CANOES",
+        "DEFENDING",
+        "SPECIE",
+        "BENEDICT",
+        "CLASSIFICATION",
+        "DATED"
+      ]
+    },
+    {
+      "name": "American History Puzzle 18",
+      "words": [
+        "REWARD",
+        "WALL",
+        "MONDAY",
+        "EXTENDING",
+        "PUNISH",
+        "DOCUMENTS",
+        "PERSON",
+        "GENERATIONS",
+        "QUOTA",
+        "NECK",
+        "FOLLOWED",
+        "MILEAGE"
+      ]
+    },
+    {
+      "name": "American History Puzzle 19",
+      "words": [
+        "SUNDAY",
+        "VENEZUELA",
+        "CONSIDERED",
+        "PROVIDES",
+        "THEREAFTER",
+        "DECLARE",
+        "INTRINSIC",
+        "DEPENDENCIES",
+        "IMPRESS",
+        "RECEIVE",
+        "NORMAL",
+        "FIERCELY"
+      ]
+    },
+    {
+      "name": "American History Puzzle 20",
+      "words": [
+        "APPLIED",
+        "OFFICIALS",
+        "UNIMPAIRED",
+        "MOONLIGHT",
+        "CERTAINLY",
+        "CONGRESSES",
+        "SHOSHONE",
+        "CENSUS",
+        "SAVINGS",
+        "OCCASIONING",
+        "PERPETUATE",
+        "BUREAU"
+      ]
+    },
+    {
+      "name": "American History Puzzle 21",
+      "words": [
+        "INTERPOSE",
+        "RESEMBLING",
+        "HAMPTON",
+        "DOMAIN",
+        "CAST",
+        "FEDERAL",
+        "THOROUGHNESS",
+        "CONSTRUED",
+        "FORCED",
+        "RENDERED",
+        "JURISDICTION",
+        "HAVING"
+      ]
+    },
+    {
+      "name": "American History Puzzle 22",
+      "words": [
+        "CENTREVILLE",
+        "MEETING",
+        "MATERIAL",
+        "STATIONS",
+        "SOVEREIGNTY",
+        "INTEMPERANCE",
+        "WILLIAMS",
+        "FILIPINOS",
+        "SALLE",
+        "PREACHER",
+        "ANNOUNCED",
+        "BEYOND"
+      ]
+    },
+    {
+      "name": "American History Puzzle 23",
+      "words": [
+        "UNDERSTANDING",
+        "BRIGADE",
+        "FORCES",
+        "DONATION",
+        "PROVIDING",
+        "GEOGRAPHICAL",
+        "COOK",
+        "BALLOTS",
+        "GAGE",
+        "SENTIMENT",
+        "CARRY",
+        "LEAPED"
+      ]
+    },
+    {
+      "name": "American History Puzzle 24",
+      "words": [
+        "SPITE",
+        "BURY",
+        "ZEALOUS",
+        "ADDITION",
+        "SENATORIAL",
+        "RUNS",
+        "SOUND",
+        "PRAYER",
+        "GUIDE",
+        "OCCUPANTS",
+        "COMMERCE",
+        "NEVADA"
+      ]
+    },
+    {
+      "name": "American History Puzzle 25",
+      "words": [
+        "GROUP",
+        "SUPPLIES",
+        "SPIRITS",
+        "ADHERED",
+        "COLLAPSED",
+        "ABATIS",
+        "ROCKY",
+        "MEETINGS",
+        "CHART",
+        "CONSUMMATE",
+        "CHICKASAWS",
+        "PARTIALLY"
+      ]
+    },
+    {
+      "name": "American History Puzzle 26",
+      "words": [
+        "BARN",
+        "UNDERTAKE",
+        "DRIVEN",
+        "OPPOSING",
+        "DIVORCE",
+        "DIRECT",
+        "ATLANTIC",
+        "FATHER",
+        "STRAIN",
+        "GLANCE",
+        "CONTRACTION",
+        "INDEBTED"
+      ]
+    },
+    {
+      "name": "American History Puzzle 27",
+      "words": [
+        "INVITATION",
+        "PREDICT",
+        "DEATHS",
+        "MONTCALM",
+        "DAYLIGHT",
+        "CORPS",
+        "PARADE",
+        "RESIGN",
+        "RUGGED",
+        "PREACHERS",
+        "APPOINTMENTS",
+        "SHOPS"
+      ]
+    },
+    {
+      "name": "American History Puzzle 28",
+      "words": [
+        "MONK",
+        "HEMMENT",
+        "EXHAUSTED",
+        "PROPHESIED",
+        "GERMANY",
+        "OFFICEHOLDERS",
+        "BOUNDLESS",
+        "STRIDES",
+        "FORESEEN",
+        "MINNEAPOLIS",
+        "SUBMIT",
+        "WAVING"
+      ]
+    },
+    {
+      "name": "American History Puzzle 29",
+      "words": [
+        "BRITON",
+        "DECLINING",
+        "DESERTED",
+        "UNFRIENDLY",
+        "SHOT",
+        "REMAINING",
+        "IGNORANCE",
+        "CLUMSY",
+        "PREPARATIONS",
+        "WARWICK",
+        "COMPULSORY",
+        "INFINITELY"
+      ]
+    },
+    {
+      "name": "American History Puzzle 30",
+      "words": [
+        "NEEDS",
+        "PROPOSED",
+        "MODIFIED",
+        "PRIVY",
+        "EARS",
+        "PROTECTIVE",
+        "ENACTMENTS",
+        "RIOTERS",
+        "CONTRAST",
+        "MOVED",
+        "SPARED",
+        "FEWER"
+      ]
+    },
+    {
+      "name": "American History Puzzle 31",
+      "words": [
+        "GRAND",
+        "TABLE",
+        "ADJOURNED",
+        "SLOWLY",
+        "INTENT",
+        "FRESH",
+        "JOHNSON",
+        "SUSPEND",
+        "MOHEGANS",
+        "OPPOSITE",
+        "ASSERTING",
+        "APPLICATIONS"
+      ]
+    },
+    {
+      "name": "American History Puzzle 32",
+      "words": [
+        "THENCE",
+        "EXTRAVAGANT",
+        "ENTERTAIN",
+        "REVISION",
+        "DEPARTMENTS",
+        "DECEASE",
+        "RAILWAY",
+        "ALBEMARLE",
+        "PLOT",
+        "PASSIONATE",
+        "DEPRECIATED",
+        "TOMB"
+      ]
+    },
+    {
+      "name": "American History Puzzle 33",
+      "words": [
+        "LIBRARIES",
+        "COMMEMORATIVE",
+        "DEMONSTRATE",
+        "PRESENTLY",
+        "VICINITY",
+        "DISAFFECTED",
+        "PLAINTIFF",
+        "BELGIUM",
+        "COMPARED",
+        "REVEAL",
+        "SHAPED",
+        "EARLY"
+      ]
+    },
+    {
+      "name": "American History Puzzle 34",
+      "words": [
+        "VETOED",
+        "HOUSEHOLD",
+        "DREW",
+        "SHIPPED",
+        "TROOP",
+        "WHEREAS",
+        "REVERSED",
+        "MARKETS",
+        "DENYING",
+        "FAULTS",
+        "ENACTED",
+        "REPRESENTATIVE"
+      ]
+    },
+    {
+      "name": "American History Puzzle 35",
+      "words": [
+        "ISLAND",
+        "FAMILY",
+        "STAY",
+        "CARROLL",
+        "FURY",
+        "PELAGIC",
+        "BENTON",
+        "BRIGADIER",
+        "AGGREGATE",
+        "DICKINSON",
+        "INTERFERING",
+        "FEUDAL"
+      ]
+    },
+    {
+      "name": "American History Puzzle 36",
+      "words": [
+        "APPLE",
+        "LACK",
+        "UNAIDED",
+        "SUPPLEMENTARY",
+        "SHOCK",
+        "SELLS",
+        "SPENT",
+        "GROWN",
+        "KILLED",
+        "UNPRECEDENTED",
+        "PETTY",
+        "GILBERT"
+      ]
+    },
+    {
+      "name": "American History Puzzle 37",
+      "words": [
+        "QUASI",
+        "LABRADOR",
+        "SHORTENED",
+        "TRIUMPHANT",
+        "FISHER",
+        "REVOLUTIONS",
+        "WHENCE",
+        "NEIGHBORING",
+        "ROBERVAL",
+        "TOLERATED",
+        "ELECTRICITY",
+        "CONCERNED"
+      ]
+    },
+    {
+      "name": "American History Puzzle 38",
+      "words": [
+        "RENTS",
+        "INSTANTLY",
+        "SAGADAHOC",
+        "COLONIST",
+        "MENTAL",
+        "INSTEAD",
+        "FRENCH",
+        "REMAINS",
+        "BRAVELY",
+        "REPLENISHED",
+        "SUPREMACY",
+        "HARBOR"
+      ]
+    },
+    {
+      "name": "American History Puzzle 39",
+      "words": [
+        "OUTCRY",
+        "PITTED",
+        "WISH",
+        "NIGH",
+        "ENTAILED",
+        "CITY",
+        "PRELIMINARY",
+        "SWEDES",
+        "VALUE",
+        "NOBLE",
+        "SEALING",
+        "CHEERING"
+      ]
+    },
+    {
+      "name": "American History Puzzle 40",
+      "words": [
+        "BAND",
+        "KNICKERBOCKER",
+        "MINERAL",
+        "HOMELESS",
+        "TARLETON",
+        "SUCCUMBED",
+        "INDIFFERENCE",
+        "ENACTMENT",
+        "REMARKABLY",
+        "FEED",
+        "EXCEPT",
+        "VARIETY"
+      ]
+    },
+    {
+      "name": "American History Puzzle 41",
+      "words": [
+        "MINNESOTA",
+        "HORSEBACK",
+        "EVOKED",
+        "GATE",
+        "COMMON",
+        "BERLIN",
+        "CAMP",
+        "HEADSHIP",
+        "NATIONALITIES",
+        "YEAS",
+        "FIGHTING",
+        "DONELSON"
+      ]
+    },
+    {
+      "name": "American History Puzzle 42",
+      "words": [
+        "BLAME",
+        "STUNNED",
+        "GASPE",
+        "GOODLY",
+        "ARBITRARY",
+        "FREDERICK",
+        "GENOA",
+        "UNPOPULAR",
+        "DELAYED",
+        "SADDLE",
+        "THEREFORE",
+        "NEEDED"
+      ]
+    },
+    {
+      "name": "American History Puzzle 43",
+      "words": [
+        "POCAHONTAS",
+        "STORES",
+        "INCLUDING",
+        "ACTIVITY",
+        "ARISE",
+        "ATTEMPTS",
+        "COSTING",
+        "INTERSTATE",
+        "OUGHT",
+        "SOON",
+        "BOOM",
+        "EXPORT"
+      ]
+    },
+    {
+      "name": "American History Puzzle 44",
+      "words": [
+        "RULE",
+        "FASHIONABLE",
+        "TROOPS",
+        "SYMBOL",
+        "ENABLING",
+        "TOUCHED",
+        "FILLMORE",
+        "ARROGANT",
+        "REFERENCE",
+        "DEDICATED",
+        "TREASON",
+        "AGGRAVATED"
+      ]
+    },
+    {
+      "name": "American History Puzzle 45",
+      "words": [
+        "TYPE",
+        "REDSKINS",
+        "MAINE",
+        "HOUSED",
+        "CONVICTIONS",
+        "FINDING",
+        "PUMP",
+        "STOUGHTON",
+        "SINGULAR",
+        "EMPOWERED",
+        "SOULS",
+        "CODEBREAKER"
+      ]
+    },
+    {
+      "name": "American History Puzzle 46",
+      "words": [
+        "MIDST",
+        "INVENTED",
+        "MURDERED",
+        "GUILFORD",
+        "DAILY",
+        "BOTTLED",
+        "WOOD",
+        "HINT",
+        "FLOOD",
+        "TENTH",
+        "PIKE",
+        "CLEARED"
+      ]
+    },
+    {
+      "name": "American History Puzzle 47",
+      "words": [
+        "LIBERALS",
+        "IRRIGATED",
+        "TOWN",
+        "RECENT",
+        "WINFIELD",
+        "ANNOUNCEMENT",
+        "DUKE",
+        "FRIAR",
+        "MASTS",
+        "REPRESENTED",
+        "DISPLAY",
+        "TOBACCO"
+      ]
+    },
+    {
+      "name": "American History Puzzle 48",
+      "words": [
+        "MONOCACY",
+        "RELIGION",
+        "EFFORTS",
+        "PLEAD",
+        "REPUBLICS",
+        "WHEELER",
+        "WING",
+        "CORPSE",
+        "TERRIBLE",
+        "SUSPECTED",
+        "SHELLS",
+        "DRAWING"
+      ]
+    },
+    {
+      "name": "American History Puzzle 49",
+      "words": [
+        "LOSSES",
+        "YUKON",
+        "BLACKS",
+        "APIECE",
+        "PREVENTING",
+        "IMAGE",
+        "YELLOW",
+        "PERRYVILLE",
+        "FLED",
+        "THERETOFORE",
+        "DREADED",
+        "SLEEPING"
+      ]
+    },
+    {
+      "name": "American History Puzzle 50",
+      "words": [
+        "MURDEROUS",
+        "WALLACE",
+        "SEMINOLES",
+        "JUSTLY",
+        "BANDS",
+        "RANKS",
+        "REST",
+        "DALE",
+        "CHURCHES",
+        "SEVERAL",
+        "POLL",
+        "ASSIMILATION"
+      ]
+    }
+  ],
+  "market_research_note": "Selected from current market research and only built after the existing named Master Library pool cleared the full 50 × 12 no-repeat requirement. Market interest is not a sales guarantee.",
+  "cover_art_path": "cover_assets\\background_photos\\american_history_museum_v3.png",
+  "cover_art_focus": "center"
+}

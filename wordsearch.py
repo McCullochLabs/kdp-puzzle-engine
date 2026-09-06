@@ -30,6 +30,19 @@ PDF_FONT_FAMILIES = {
     "MonoB": "mono-bold",
 }
 
+# Interior accents are deliberately quiet: they give each small run of puzzles
+# its own visual identity without competing with the grid or reducing print
+# readability.  The color order is deterministic, so a regenerated book keeps
+# the same chapter treatment.
+INTERIOR_ACCENTS = (
+    (0.14, 0.42, 0.55),  # ocean blue
+    (0.29, 0.48, 0.31),  # garden green
+    (0.56, 0.30, 0.42),  # berry
+    (0.59, 0.39, 0.12),  # warm amber
+    (0.30, 0.34, 0.58),  # indigo
+    (0.42, 0.32, 0.24),  # earth
+)
+
 def register_fonts() -> None:
     unresolved = [
         alias for alias, family in PDF_FONT_FAMILIES.items()
@@ -155,7 +168,9 @@ def draw_word_list(c: Canvas, words: list[str], gx: float, top_y: float,
     c.setFillColorRGB(0, 0, 0)
     c.setFont("SansB", heading_font)
     c.drawCentredString(PAGE_W / 2, top_y, "FIND THESE WORDS")
-    words = sorted(words)
+    # Preserve the seeded, editorially mixed order supplied by the book plan.
+    # Alphabetizing here made every finished puzzle read like a dictionary.
+    words = list(words)
     rows = math.ceil(len(words) / cols)
     col_w = grid_w / cols
     c.setFont("Sans", word_font)
@@ -177,7 +192,10 @@ def footer(c: Canvas, page_no: int) -> None:
 def front_matter(c: Canvas, title: str, subtitle: str, author: str) -> None:
     # title page
     c.setFillColorRGB(0.10, 0.10, 0.10)
-    for i, line in enumerate(_wrap(title.upper(), 16)):
+    title_lines = _wrap(title.upper(), 16)
+    title_top = PAGE_H - 220
+    title_step = 38
+    for i, line in enumerate(title_lines):
         # Character wrapping alone is not enough for wide capital letters.
         # Keep every title line within the same print-safe area as the puzzles.
         title_font = 30
@@ -187,13 +205,18 @@ def front_matter(c: Canvas, title: str, subtitle: str, author: str) -> None:
                 break
             title_font -= 1
         c.setFont("SansB", title_font)
-        c.drawCentredString(PAGE_W / 2, PAGE_H - 250 - i * 38, line)
+        c.drawCentredString(PAGE_W / 2, title_top - i * title_step, line)
+    title_bottom = title_top - max(0, len(title_lines) - 1) * title_step
+    subtitle_top = title_bottom - 46
     c.setFont("Sans", 15)
-    for i, line in enumerate(_wrap(subtitle, 40)):
-        c.drawCentredString(PAGE_W / 2, PAGE_H - 360 - i * 22, line)
+    subtitle_lines = _wrap(subtitle, 40)
+    for i, line in enumerate(subtitle_lines):
+        c.drawCentredString(PAGE_W / 2, subtitle_top - i * 22, line)
+    subtitle_bottom = subtitle_top - max(0, len(subtitle_lines) - 1) * 22
     c.setStrokeColorRGB(0.7, 0.7, 0.7)
     c.setLineWidth(1)
-    c.line(PAGE_W / 2 - 80, PAGE_H - 410, PAGE_W / 2 + 80, PAGE_H - 410)
+    rule_y = subtitle_bottom - 32
+    c.line(PAGE_W / 2 - 80, rule_y, PAGE_W / 2 + 80, rule_y)
     c.setFont("Sans", 13)
     c.drawCentredString(PAGE_W / 2, 120, author)
     c.showPage()
@@ -238,14 +261,124 @@ def front_matter(c: Canvas, title: str, subtitle: str, author: str) -> None:
     c.showPage()
 
 
+def _interior_section_config(data: dict) -> dict:
+    """Return safe, optional section settings without changing old themes.
+
+    A saved theme may supply ``interior_sections`` with a group size, optional
+    divider pages, and optional named ranges.  Themes without that data still
+    receive a restrained five-puzzle chapter treatment, so the improvement is
+    useful immediately and does not require a library migration.
+    """
+    raw = data.get("interior_sections")
+    config = dict(raw) if isinstance(raw, dict) else {}
+    try:
+        group_size = int(config.get("group_size") or 5)
+    except (TypeError, ValueError):
+        group_size = 5
+    config["group_size"] = min(10, max(3, group_size))
+    config["divider_pages"] = bool(config.get("divider_pages", False))
+    return config
+
+
+def _section_title_for(data: dict, puzzles: list[dict], start: int, end: int,
+                       chapter_number: int, config: dict) -> str:
+    """Prefer a reviewed mini-theme; otherwise name an honest topic chapter."""
+    named = config.get("sections")
+    if isinstance(named, list):
+        for item in named:
+            if not isinstance(item, dict):
+                continue
+            entries = item.get("puzzles")
+            if isinstance(entries, list) and any(int(value) == start + 1 for value in entries if str(value).isdigit()):
+                label = str(item.get("title") or item.get("mini_theme") or "").strip()
+                if label:
+                    return label
+            try:
+                first = int(item.get("start") or 0)
+                last = int(item.get("end") or first)
+            except (TypeError, ValueError):
+                first = last = 0
+            if first and first <= start + 1 <= last:
+                label = str(item.get("title") or item.get("mini_theme") or "").strip()
+                if label:
+                    return label
+
+    themes = [str(item.get("mini_theme") or item.get("section") or item.get("category") or "").strip()
+              for item in puzzles[start:end] if isinstance(item, dict)]
+    themes = [item for item in themes if item]
+    if themes:
+        # A plan can rotate mini-themes within a page.  The most common one is
+        # the honest, stable label for the visual chapter.
+        return max(sorted(set(themes)), key=lambda item: themes.count(item))
+    topic = str(data.get("detected_topic") or data.get("theme") or data.get("series") or "WORD SEARCH").strip()
+    return f"{topic} - CHAPTER {chapter_number}"
+
+
+def interior_section_plan(data: dict, puzzles: list[dict]) -> list[dict]:
+    """Build one visual chapter descriptor per puzzle without moving content."""
+    config = _interior_section_config(data)
+    group_size = config["group_size"]
+    plan: list[dict] = []
+    for start in range(0, len(puzzles), group_size):
+        end = min(len(puzzles), start + group_size)
+        chapter = start // group_size + 1
+        plan.extend({
+            "chapter": chapter,
+            "title": _section_title_for(data, puzzles, start, end, chapter, config),
+            "accent": INTERIOR_ACCENTS[(chapter - 1) % len(INTERIOR_ACCENTS)],
+            "starts_section": offset == start,
+            "divider_pages": config["divider_pages"],
+        } for offset in range(start, end))
+    return plan
+
+
+def interior_divider_page_count(data: dict, puzzles: list[dict]) -> int:
+    """Expose optional divider count for package page-count estimates."""
+    return sum(1 for item in interior_section_plan(data, puzzles)
+               if item["starts_section"] and item["divider_pages"])
+
+
+def section_divider_page(c: Canvas, section: dict, page_no: int, running_title: str) -> None:
+    """An optional, reader-friendly transition page between named sections."""
+    red, green, blue = section["accent"]
+    c.setFillColorRGB(red, green, blue)
+    c.roundRect(MARGIN, PAGE_H - 306, PAGE_W - 2 * MARGIN, 160, 14, stroke=0, fill=1)
+    c.setFillColorRGB(1, 1, 1)
+    c.setFont("SansB", 12)
+    c.drawCentredString(PAGE_W / 2, PAGE_H - 195, f"CHAPTER {section['chapter']}")
+    title = str(section["title"]).upper()
+    size = 27
+    while size > 14:
+        c.setFont("SansB", size)
+        if c.stringWidth(title, "SansB", size) <= PAGE_W - 2 * MARGIN - 44:
+            break
+        size -= 1
+    c.setFont("SansB", size)
+    c.drawCentredString(PAGE_W / 2, PAGE_H - 245, title)
+    c.setFillColorRGB(0.22, 0.22, 0.22)
+    c.setFont("Sans", 13)
+    c.drawCentredString(PAGE_W / 2, PAGE_H - 365, "A fresh set of puzzles begins here.")
+    c.setFillColorRGB(0.45, 0.45, 0.45)
+    c.setFont("Sans", 9)
+    c.drawCentredString(PAGE_W / 2, 58, running_title)
+    footer(c, page_no)
+    c.showPage()
+
+
 def puzzle_page(c: Canvas, idx: int, name: str, grid: Grid, words: list[str],
-                 page_no: int, running_title: str) -> None:
+                 page_no: int, running_title: str, section: dict | None = None) -> None:
     c.setFillColorRGB(0.5, 0.5, 0.5)
     c.setFont("Sans", 10)
     c.drawCentredString(PAGE_W / 2, PAGE_H - 40, running_title)
+    section = section or {"chapter": 1, "title": "", "accent": INTERIOR_ACCENTS[0]}
+    accent = section.get("accent", INTERIOR_ACCENTS[0])
     c.setFillColorRGB(0.1, 0.1, 0.1)
     c.setFont("SansB", 12)
     c.drawString(MARGIN, PAGE_H - 64, f"PUZZLE {idx}")
+    c.setFillColorRGB(*accent)
+    c.setFont("SansB", 9)
+    chapter_label = f"CHAPTER {section.get('chapter', 1)}"
+    c.drawRightString(PAGE_W - MARGIN, PAGE_H - 64, chapter_label)
     # Long themed puzzle names must never enter the trim or gutter area.  A
     # centered heading can otherwise look fine on screen while extending past
     # the physical page edge (which KDP correctly rejects).  Scale the title
@@ -260,6 +393,9 @@ def puzzle_page(c: Canvas, idx: int, name: str, grid: Grid, words: list[str],
         heading_font -= 1
     c.setFont("SansB", heading_font)
     c.drawCentredString(PAGE_W / 2, PAGE_H - 96, heading)
+    c.setStrokeColorRGB(*accent)
+    c.setLineWidth(2.4)
+    c.line(PAGE_W / 2 - 44, PAGE_H - 108, PAGE_W / 2 + 44, PAGE_H - 108)
 
     N = len(grid)
     if N <= 15:
@@ -646,10 +782,15 @@ def main() -> None:
 
     solutions = []
     page_no = 1
+    section_plan = interior_section_plan(data, puzzles)
     for i, p in enumerate(puzzles, start=1):
+        section = section_plan[i - 1]
+        if section["starts_section"] and section["divider_pages"]:
+            section_divider_page(c, section, page_no, running)
+            page_no += 1
         words = clean_words(p["words"])
         grid, placements, placed = generate_puzzle(words, N=grid_size_for(words))
-        puzzle_page(c, i, p["name"], grid, placed, page_no, running)
+        puzzle_page(c, i, p["name"], grid, placed, page_no, running, section)
         solutions.append((i, p["name"], grid, placements))
         if len(placed) < len(words):
             print(f"  note: puzzle {i} '{p['name']}' placed {len(placed)}/{len(words)} words")

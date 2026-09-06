@@ -34,7 +34,7 @@
         "LEOPARDS",
         "FLY",
         "SEAOTTERS",
-        "FANTASY",
+        "ACCELERATOR",
         "ELEGANT",
         "ROCKYMOUNTAIN"
       ]
@@ -44,14 +44,14 @@
       "words": [
         "LONGSHIP",
         "TRAILRIDE",
-        "SNAKE",
+        "ACCORD",
         "NATIONALPARK",
         "BEACHSHOP",
         "LASER",
         "PIER",
-        "RESTORATION",
+        "ACCORDHYBRID",
         "COLORTV",
-        "FIDDLE",
+        "ACORN",
         "SWALLOWTAIL",
         "MEETUPS"
       ]
@@ -60,7 +60,7 @@
       "name": "Mountain Hike",
       "words": [
         "DROPS",
-        "HIGHSCORE",
+        "ACURA",
         "BIGBENDRANCH",
         "NORTHCOAST",
         "DARING",
@@ -81,7 +81,7 @@
         "GLADIATOR",
         "STRIPE",
         "SCRIPTS",
-        "VINEYARD",
+        "ADVENTURE",
         "LAUREL",
         "ROAM",
         "GULF",
@@ -128,7 +128,7 @@
       "name": "Wildlife Safari",
       "words": [
         "TOES",
-        "CALM",
+        "ADVENTURETRAIL",
         "CAMPFIRE",
         "DISCOVERY",
         "CAB",
@@ -154,7 +154,7 @@
         "KOALAS",
         "HONOR",
         "EXPLOSION",
-        "WORD",
+        "AEROSTAR",
         "SPIDER"
       ]
     },
@@ -162,7 +162,7 @@
       "name": "River Cruise",
       "words": [
         "CIRCUIT",
-        "HEADPHONES",
+        "AGROFORESTRY",
         "DINER",
         "DIVING",
         "JUMPROPE",
@@ -230,13 +230,13 @@
       "name": "Horse Riding",
       "words": [
         "PRICKLY",
-        "ALGAE",
+        "AIRCONDITIONER",
         "EFFORTS",
         "PIGEON",
         "MAPLE",
-        "ACTION",
+        "AIRFILTER",
         "CLIFF",
-        "JOURNAL",
+        "AIRFRESHENER",
         "STAKE",
         "PREVENT",
         "SHOWCASE",
@@ -250,7 +250,7 @@
         "BEADS",
         "FURNACE",
         "ARCHITECT",
-        "TARANTULA",
+        "AIRPORT",
         "CURRICULUM",
         "BEARLAKE",
         "GLIDE",
@@ -274,7 +274,7 @@
         "EMBERS",
         "NIGHTSKY",
         "POLYP",
-        "ACOUSTIC"
+        "AIRPUMP"
       ]
     },
     {
@@ -301,7 +301,7 @@
         "GUADALUPE",
         "BODIE",
         "PANDAS",
-        "HERO",
+        "ALASKAPARKS",
         "BEATNIK",
         "REFUGES",
         "FIREPLACE",
@@ -335,7 +335,7 @@
         "HEIGHT",
         "PRUNE",
         "BIRDSONG",
-        "HOLLYWOOD",
+        "ALERO",
         "STALLED",
         "CONTRAST",
         "PLOUGH",
@@ -349,7 +349,7 @@
       "name": "Star Gazing",
       "words": [
         "TULIP",
-        "WREATH",
+        "ALIGNMENT",
         "GRILL",
         "WOOD",
         "WATERTOWER",
@@ -373,7 +373,7 @@
         "GIRAFFE",
         "SOCCER",
         "HUSK",
-        "TRUTH",
+        "ALLIES",
         "COCONUTS",
         "FLOAT",
         "DIGITALWATCH"
@@ -433,15 +433,15 @@
     {
       "name": "National Park",
       "words": [
-        "JAZZ",
+        "ALLROAD",
         "TONE",
-        "SWORD",
+        "ALLWHEEL",
         "BERKELEY",
         "REHEARSAL",
         "SLOTCANYON",
         "SUNHAT",
         "QUAIL",
-        "PHARAOH",
+        "ALPINE",
         "BLACK",
         "MONK",
         "ACTIONTOY"
@@ -458,7 +458,7 @@
         "LATIN",
         "SPIN",
         "RAFT",
-        "NURSE",
+        "ALPINEFOREST",
         "ENVIRONMENT",
         "GOBY",
         "HOBBY"
@@ -471,7 +471,7 @@
         "CHAMOMILE",
         "BIGSUR",
         "LADYBUG",
-        "STINGRAY",
+        "ALPINEGLOW",
         "DUTCHCOUNTRY",
         "HORNEDLIZARD",
         "WALKWAY",
@@ -489,7 +489,7 @@
         "SWAY",
         "GULFCOAST",
         "PORT",
-        "WORKER",
+        "ALPINEHUT",
         "TENDER",
         "HOVERFLY",
         "DOGFACEBUTTERFLY",
@@ -519,14 +519,14 @@
       "name": "Rock Climbing",
       "words": [
         "TUBES",
-        "PLANKTON",
+        "ALPINELAKE",
         "LEARN",
         "GAZELLE",
         "SWIMMER",
         "IGUANAS",
-        "SLEEP",
+        "ALPINEPASS",
         "VENOMOUS",
-        "WELLNESS",
+        "ALPINEWILDFLOWER",
         "ORDER",
         "DECAY",
         "SCENICDRIVE"
@@ -543,9 +543,9 @@
         "MANOR",
         "MOTEL",
         "LAUNDRY",
-        "ORCHESTRA",
+        "ALTERNATOR",
         "MUG",
-        "CINEMA",
+        "ALTERNATORBELT",
         "ACTIVITY"
       ]
     },
@@ -553,7 +553,7 @@
       "name": "Fishing Rod",
       "words": [
         "TOWEL",
-        "GEARS",
+        "ALTIMA",
         "KAIBAB",
         "MOUNTWHITNEY",
         "PLOT",
@@ -595,7 +595,7 @@
         "IBEX",
         "PROSPECT",
         "SPORTCOAT",
-        "WARMTH",
+        "AMBULANCE",
         "BOARDS",
         "SHELTER"
       ]
@@ -607,7 +607,7 @@
         "TREASURECOAST",
         "CREATIVITY",
         "VACATION",
-        "SCREAM",
+        "AMERICA",
         "REUSE",
         "WAITER",
         "QUICHE",
@@ -622,13 +622,13 @@
       "words": [
         "SAXIFRAGE",
         "LICHEN",
-        "SUPPORT",
+        "AMERICANALLIGATOR",
         "BAROQUE",
         "FIGHT",
         "SPICE",
         "PETROCK",
         "NICOTIANA",
-        "PHOTOGRAPH",
+        "AMIGO",
         "TIGER",
         "EXPLORING",
         "CLOWN"
@@ -640,21 +640,21 @@
         "ECOLOGY",
         "ORANGECOUNTY",
         "ENDLESSMOUNTAINS",
-        "TOAD",
+        "AMPERA",
         "DRAGONFLY",
         "FILMS",
         "SURFING",
-        "OCTOPUS",
+        "AMPHIBIAN",
         "CATTLEDRIVE",
         "BOOTY",
         "JUNGLE",
-        "ACTOR"
+        "AMPLIFIER"
       ]
     },
     {
       "name": "Nature Photography",
       "words": [
-        "FILMMAKER",
+        "ANACOSTIA",
         "BURST",
         "WARNING",
         "ELEVATION",
@@ -705,7 +705,7 @@
     {
       "name": "Fresh Air",
       "words": [
-        "ICONIC",
+        "ANDROIDAUTO",
         "COMBER",
         "LEGACY",
         "DISCOBALL",
@@ -731,7 +731,7 @@
         "HELIOTROPE",
         "PHOENIX",
         "SPECTATOR",
-        "PENGUIN",
+        "ANTELOPECANYON",
         "CONES",
         "ORANGUTAN"
       ]
@@ -742,7 +742,7 @@
         "MIGRATE",
         "ALIEN",
         "CALIPH",
-        "BOOKWORM",
+        "ANTENNA",
         "DRAWING",
         "DOLL",
         "SALADBAR",
@@ -801,7 +801,7 @@
         "SHOT",
         "FERN",
         "PLAY",
-        "ACTRESS"
+        "ANTIFREEZE"
       ]
     },
     {
@@ -811,13 +811,13 @@
         "DRIVEWAY",
         "KATSURA",
         "CAFE",
-        "MOVIENIGHT",
+        "ANTLER",
         "LONGBOAT",
         "JADE",
-        "RELAX",
+        "APPALACHIANTRAIL",
         "OWL",
         "RELAXED",
-        "BOOKCASE",
+        "ARCADIA",
         "ADAPTIVE"
       ]
     },
@@ -826,7 +826,7 @@
       "words": [
         "DAYTONA",
         "FREIGHTS",
-        "DRUMS",
+        "ARCH",
         "FOODS",
         "HARDY",
         "SPACECOAST",
@@ -877,5 +877,12 @@
       "National Parks"
     ],
     "checked_at": "2026-08-22T10:08:38"
+  },
+  "quality_review": {
+    "checked_at": "20260824-213855",
+    "source": "verified_word_intelligence_repair",
+    "verdict": "PASS_WITH_NOTES",
+    "production_ready": false,
+    "changes": 46
   }
 }

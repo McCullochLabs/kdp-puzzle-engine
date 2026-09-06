@@ -15,17 +15,18 @@
       "Homesteading often combines food growing, food preservation, practical skills, and care for home resources.",
       "Extension services are a reliable local source for region-specific growing and food-safety guidance.",
       "Keeping a simple garden or harvest journal helps record what works in your own climate."
-    ]
+    ],
+    "puzzle_target": 100
   },
   "puzzles": [
     {
       "name": "Homesteading Puzzle 001",
       "words": [
-        "HERBS",
+        "GARLICBULB",
         "WHEAT",
         "POOL",
         "SALTY",
-        "CLUE",
+        "GAZANIA",
         "PLANK",
         "JELLY",
         "HUMUS",
@@ -61,7 +62,7 @@
         "WOODEN",
         "AIRY",
         "PEAR",
-        "PAN",
+        "GERANIUM",
         "MAGNOLIA",
         "KEEL",
         "MEAL",
@@ -91,7 +92,7 @@
       "words": [
         "SCALE",
         "DEADHEAD",
-        "SERVE",
+        "GERMINATION",
         "COUNSELOR",
         "TART",
         "SOIL",
@@ -115,7 +116,7 @@
         "ROOTS",
         "NOODLE",
         "SWALLOWTAIL",
-        "DRAGONFLY",
+        "GERMINATIONTEST",
         "SNOWDROP",
         "FLYER"
       ]
@@ -125,10 +126,10 @@
       "words": [
         "EAT",
         "WINDOWBOX",
-        "SONGS",
+        "GLADIOLUS",
         "TEAM",
         "CROCK",
-        "EQUIPMENT",
+        "GOATBARN",
         "CREEK",
         "COMPANION",
         "BLAZINGSTAR",
@@ -151,7 +152,7 @@
         "SALTWATER",
         "SAUNA",
         "MARIGOLD",
-        "COOKBOOK"
+        "GOATBUTTER"
       ]
     },
     {
@@ -163,7 +164,7 @@
         "GAMES",
         "BLEND",
         "NAP",
-        "CASTLE",
+        "GOATCHEESE",
         "MOWER",
         "BROTH",
         "JASMINE",
@@ -191,9 +192,9 @@
     {
       "name": "Homesteading Puzzle 011",
       "words": [
-        "SUNGLASSES",
+        "GOATFIBER",
         "BLACKBERRY",
-        "SEATS",
+        "GOATKID",
         "PLATTER",
         "SPRUCE",
         "PASS",
@@ -225,7 +226,7 @@
     {
       "name": "Homesteading Puzzle 013",
       "words": [
-        "HORIZON",
+        "GOATMILK",
         "TIMBER",
         "RIVER",
         "GLOVES",
@@ -235,8 +236,8 @@
         "GENTLE",
         "CHURN",
         "HOST",
-        "TRUNK",
-        "ARCH"
+        "GOATMILKSOAP",
+        "GOATPEN"
       ]
     },
     {
@@ -263,7 +264,7 @@
         "THORN",
         "BUNDLE",
         "INSTRUCTOR",
-        "MUSTARD",
+        "GOATS",
         "LAUREL",
         "MALLOW",
         "BLUEBELL",
@@ -294,11 +295,11 @@
       "name": "Homesteading Puzzle 017",
       "words": [
         "MILL",
-        "CINEMA",
+        "GOATSHED",
         "GARDENIA",
-        "FILM",
+        "GOATSKIN",
         "TARRAGON",
-        "MARSH",
+        "GOATSOAP",
         "SANDAL",
         "THANKSGIVING",
         "HARDY",
@@ -327,17 +328,17 @@
     {
       "name": "Homesteading Puzzle 019",
       "words": [
-        "METEOR",
+        "GOATWOOL",
         "HELIOTROPE",
         "PILGRIM",
-        "ISLAND",
-        "CARING",
+        "GOOSEBERRY",
+        "GRAINBIN",
         "MOLD",
-        "PUZZLE",
+        "GRAINCART",
         "BRIAR",
         "DANCE",
-        "BEETLE",
-        "THRUSH",
+        "GRAINMILL",
+        "GRAINSTORAGE",
         "DELIGHT"
       ]
     },
@@ -347,14 +348,14 @@
         "FOUNT",
         "NUTS",
         "SOARING",
-        "WARMTH",
+        "GRANARY",
         "SUNRISE",
         "EMBERS",
         "URSA",
         "GAZE",
         "PINECONE",
         "APPETIZER",
-        "BRAIN",
+        "GRAPE",
         "PIES"
       ]
     },
@@ -365,7 +366,7 @@
         "GENRE",
         "FENCE",
         "BUOYANT",
-        "SUNNY",
+        "GRAPEFRUIT",
         "DANDELION",
         "FLOUR",
         "GRATE",
@@ -399,11 +400,11 @@
         "KALE",
         "HANGING",
         "VESSEL",
-        "WORD",
+        "GRAPESHOT",
         "ZUCCHINI",
         "NIGELLA",
-        "NEBULA",
-        "EMERGENCY",
+        "GRAPEVINE",
+        "GRASSLAND",
         "HUMMINGBIRD",
         "GIFTS",
         "CRUST"
@@ -416,7 +417,7 @@
         "FOODS",
         "SPICY",
         "DICHONDRA",
-        "FICTION",
+        "GREENBEAN",
         "CART",
         "PRESS",
         "AMBIENT",
@@ -434,12 +435,12 @@
         "FRESH",
         "FUN",
         "COMFY",
-        "GRAIN",
+        "GREENHOUSE",
         "DETHATCH",
         "CORE",
         "ROSE",
         "GERMINATE",
-        "VEHICLE",
+        "GREENHOUSEBENCH",
         "CREAM"
       ]
     },
@@ -466,13 +467,13 @@
         "DROUGHT",
         "LEMONADE",
         "WEED",
-        "NOVEL",
+        "GREENHOUSEFAN",
         "QUIETTIME",
         "BIRDS",
         "HEDGEHOG",
         "YEW",
         "GENEROUS",
-        "CORAL",
+        "GREENHOUSEGLASS",
         "RASPBERRY",
         "SPEEDBOAT"
       ]
@@ -483,13 +484,13 @@
         "SNIP",
         "PRINT",
         "RABBIT",
-        "TIDE",
+        "GREENHOUSEGROWER",
         "PARSLEY",
         "FROST",
-        "CHALLENGE",
+        "GREENHOUSEHEAT",
         "TROPIC",
         "GOAT",
-        "SERENITY",
+        "GREENHOUSEKIT",
         "CALENDULA",
         "EGG"
       ]
@@ -501,7 +502,7 @@
         "OUTDOOR",
         "MEMORIES",
         "PEBBLE",
-        "MOON",
+        "GREENHOUSEPLANT",
         "LEARN",
         "SKILL",
         "EXCITING",
@@ -518,7 +519,7 @@
         "HORNBEAM",
         "URN",
         "CARD",
-        "ORION",
+        "GREENHOUSEPOT",
         "TUBEROSE",
         "PIE",
         "CHILDREN",
@@ -531,14 +532,14 @@
     {
       "name": "Homesteading Puzzle 031",
       "words": [
-        "COASTLINE",
+        "GREENHOUSETOOL",
         "MACARONI",
         "SLUG",
         "KITCHEN",
         "PLUMERIA",
         "DOUGH",
         "RECHARGE",
-        "CELESTIAL",
+        "GREENMANURE",
         "ONION",
         "CATEGORY",
         "EXTRACT",
@@ -569,7 +570,7 @@
         "FIREPIT",
         "MACAROON",
         "CHOP",
-        "OCEANIC",
+        "GRIDDLE",
         "CELEBRATE",
         "PRIVET",
         "YOLK",
@@ -588,10 +589,10 @@
         "CREVICE",
         "STYLISH",
         "KNIFE",
-        "QUEST",
+        "GROUNDCHERRY",
         "BRAMBLE",
-        "RHYTHM",
-        "ROTATION",
+        "GROUNDCOVER",
+        "GROUNDNUT",
         "COMFORT",
         "PROTECT"
       ]
@@ -616,17 +617,17 @@
     {
       "name": "Homesteading Puzzle 036",
       "words": [
-        "BOAT",
+        "GROVE",
         "XMAS",
-        "ESCAPE",
+        "GROWER",
         "ELEPHANTEAR",
-        "ROMANCE",
-        "WORDSEARCH",
+        "GROWLIGHT",
+        "HABITAT",
         "OIL",
         "NEST",
         "FOREST",
         "TIP",
-        "SAFETY",
+        "HANDCULTIVATOR",
         "PORTION"
       ]
     },
@@ -654,13 +655,13 @@
         "SYMMETRY",
         "ALOE",
         "HOLIDAY",
-        "TIDAL",
+        "HANDFORK",
         "TIE",
         "RACCOON",
         "WARM",
         "VOLLEYBALL",
         "HOSE",
-        "WINDY",
+        "HANDMADE",
         "ROBIN"
       ]
     },
@@ -670,7 +671,7 @@
         "MOLE",
         "CULINARY",
         "FLEDGLING",
-        "BREAD",
+        "HANDMADEBREAD",
         "BASIL",
         "SHAPE",
         "INFLATE",
@@ -687,7 +688,7 @@
         "CINNAMON",
         "SPIKE",
         "SPRINKLER",
-        "WEEKEND",
+        "HANDMIXER",
         "MOISTURE",
         "CENTERPIECE",
         "PASTE",
@@ -704,14 +705,14 @@
         "TOAST",
         "ACID",
         "TABLE",
-        "JOURNEY",
+        "HANDPRUNER",
         "RINSE",
         "CHAMOMILE",
-        "CABIN",
+        "HANDPUMP",
         "AERIAL",
         "MOTHER",
         "PARTY",
-        "HERB",
+        "HANDSEWING",
         "GAS"
       ]
     },
@@ -720,23 +721,23 @@
       "words": [
         "MULCH",
         "FESTIVE",
-        "FASHION",
+        "HANDSPADE",
         "KOI",
         "MAP",
         "BAIT",
         "DRESSING",
-        "WIND",
+        "HANDTOOL",
         "COURT",
         "STAR",
         "BOWL",
-        "PADDLE"
+        "HANDTROWEL"
       ]
     },
     {
       "name": "Homesteading Puzzle 043",
       "words": [
         "POWERFUL",
-        "CLAY",
+        "HARVESTAPPLE",
         "MEATS",
         "STOVE",
         "BUMBLEBEE",
@@ -752,18 +753,18 @@
     {
       "name": "Homesteading Puzzle 044",
       "words": [
-        "GRANITE",
+        "HARVESTBARN",
         "DRESS",
         "PASSIONFLOWER",
-        "SPIRIT",
+        "HARVESTBASKET",
         "PADS",
-        "SWITCHGRASS",
+        "HARVESTCIDER",
         "SNOW",
         "CROCUS",
         "CHERRY",
-        "BAY",
+        "HARVESTCORN",
         "RAMBLER",
-        "FEAST"
+        "HARVESTDAY"
       ]
     },
     {
@@ -787,13 +788,13 @@
       "name": "Homesteading Puzzle 046",
       "words": [
         "BUSHEL",
-        "WHITE",
+        "HARVESTDECOR",
         "GATE",
         "UNWIND",
         "PLUM",
         "THEAT",
         "BAMBOO",
-        "CLOUDS",
+        "HARVESTFESTIVAL",
         "PETAL",
         "FILL",
         "FROSTING",
@@ -804,7 +805,7 @@
       "name": "Homesteading Puzzle 047",
       "words": [
         "JAMMING",
-        "DESERT",
+        "HARVESTFIRE",
         "WAVE",
         "TOY",
         "COOKIES",
@@ -828,9 +829,9 @@
         "OUTDOORS",
         "LAKE",
         "PISTIL",
-        "LITERATURE",
+        "HARVESTGARDEN",
         "PEA",
-        "SCREEN",
+        "HARVESTHOME",
         "KNEAD"
       ]
     },
@@ -857,7 +858,7 @@
         "COOKER",
         "NUTRIENT",
         "PEACEFUL",
-        "GLITTER",
+        "HARVESTING",
         "DAISY",
         "COLLARD",
         "SEED",
@@ -880,7 +881,7 @@
         "SWEETPOTATO",
         "LAUGH",
         "NOODLES",
-        "SOLAR",
+        "HARVESTMEAL",
         "MINCE",
         "SALT"
       ]
@@ -898,7 +899,7 @@
         "ROMAINE",
         "BLUEBERRY",
         "SHADE",
-        "UNITY",
+        "HARVESTMOON",
         "OCEAN"
       ]
     },
@@ -924,7 +925,7 @@
       "words": [
         "VEGETABLE",
         "WALNUT",
-        "LICHEN",
+        "HARVESTPARADE",
         "LARKSPUR",
         "PRODUCE",
         "TUBE",
@@ -942,7 +943,7 @@
         "KETTLE",
         "GOURD",
         "SKYSHOW",
-        "GLOW",
+        "HARVESTPIE",
         "RECIPE",
         "BREW",
         "ENTERTAIN",
@@ -966,7 +967,7 @@
         "OUTDO",
         "ART",
         "LINKS",
-        "SAND",
+        "HARVESTPUMPKIN",
         "MASK"
       ]
     },
@@ -975,10 +976,10 @@
       "words": [
         "CHUTE",
         "COMMUNITY",
-        "CEDAR",
+        "HARVESTRECIPE",
         "COBBLE",
         "FISHES",
-        "ALGAE",
+        "HARVESTTABLE",
         "FACE",
         "SERENE",
         "CARROT",
@@ -1018,7 +1019,7 @@
         "FENNEL",
         "PUMP",
         "SOAP",
-        "GOLDENROD"
+        "HARVESTTIME"
       ]
     },
     {
@@ -1028,14 +1029,694 @@
         "TROUGH",
         "COFFEE",
         "DIVING",
-        "ADVENTURE",
+        "HATCHLING",
         "CHIPMUNK",
-        "OLIVE",
+        "HAYBALE",
         "POPLAR",
         "LIFELINE",
         "REPOT",
-        "PARADISE",
+        "HAYFIELD",
         "CATCH"
+      ]
+    },
+    {
+      "name": "Homesteading Word Search 61",
+      "words": [
+        "ACANTHUS",
+        "ACHILLEA",
+        "ACREAGE",
+        "AGAPANTHUS",
+        "AGAVE",
+        "AGRICULTURE",
+        "AGROFORESTRY",
+        "AGROTEK",
+        "AIRPLANT",
+        "ALFALFA",
+        "ALLIUM",
+        "ALLOTMENT"
+      ]
+    },
+    {
+      "name": "Homesteading Word Search 62",
+      "words": [
+        "ALPACA",
+        "ALPINE",
+        "ALPINEWILDFLOWER",
+        "ALYSSUM",
+        "AMARANTH",
+        "AMARYLLIS",
+        "ANEMONE",
+        "ANGORA",
+        "ANISE",
+        "ANNUAL",
+        "APIARY",
+        "APIARYBOX"
+      ]
+    },
+    {
+      "name": "Homesteading Word Search 63",
+      "words": [
+        "APPLEBLOSSOM",
+        "APPLEBUTTER",
+        "APPLECIDER",
+        "APPLEORCHARD",
+        "APPLEPIE",
+        "APPLESAUCE",
+        "APRICOT",
+        "APRICOTTREE",
+        "APRON",
+        "AQUAPONICS",
+        "ARBORVITAE",
+        "ARBUTUS"
+      ]
+    },
+    {
+      "name": "Homesteading Word Search 64",
+      "words": [
+        "ARONIA",
+        "ARTICHOKE",
+        "ASPARAGUS",
+        "ASTER",
+        "AUTUMNHARVEST",
+        "AZALEA",
+        "BACKPACK",
+        "BACKPORCH",
+        "BACKYARDCHICKENS",
+        "BACKYARDFARM",
+        "BACKYARDGARDEN",
+        "BAKING"
+      ]
+    },
+    {
+      "name": "Homesteading Word Search 65",
+      "words": [
+        "BAKINGPAN",
+        "BALCONYGARDEN",
+        "BALSAM",
+        "BANNETON",
+        "BARK",
+        "BARLEY",
+        "BARLEYFIELD",
+        "BARN",
+        "BARNBEAM",
+        "BARNBOARD",
+        "BARNCAT",
+        "BARNCLEANING"
+      ]
+    },
+    {
+      "name": "Homesteading Word Search 66",
+      "words": [
+        "BARNFLOOR",
+        "BARNLIGHT",
+        "BARNLOFT",
+        "BARNRAISER",
+        "BARNWOOD",
+        "BARNYARD",
+        "BAYLEAF",
+        "BEANPATCH",
+        "BEANPOLE",
+        "BEANSTALK",
+        "BED",
+        "BEDROOM"
+      ]
+    },
+    {
+      "name": "Homesteading Word Search 67",
+      "words": [
+        "BEEHIVE",
+        "BEEHIVEFRAME",
+        "BEEKEEPER",
+        "BEEKEEPERSUIT",
+        "BEEKEEPING",
+        "BEESWING",
+        "BEETROOT",
+        "BEETS",
+        "BEETSOUP",
+        "BELLPEPPER",
+        "BERGAMOT",
+        "BERRYBUSH"
+      ]
+    },
+    {
+      "name": "Homesteading Word Search 68",
+      "words": [
+        "BIN",
+        "BIODYNAMIC",
+        "BIRDNETTING",
+        "BIRDSEED",
+        "BLACKBERRYPATCH",
+        "BLACKEYEDSUSAN",
+        "BLACKSMITH",
+        "BLANKET",
+        "BLOODMEAL",
+        "BLOOM",
+        "BLOSSOM",
+        "BLOSSOMTIME"
+      ]
+    },
+    {
+      "name": "Homesteading Word Search 69",
+      "words": [
+        "BLUEBERR",
+        "BOARDFENCE",
+        "BOGGARDEN",
+        "BOKCHOY",
+        "BOOKSHELF",
+        "BORDER",
+        "BORDERPLANT",
+        "BOTANY",
+        "BOTTLING",
+        "BOULDER",
+        "BOXWOOD",
+        "BREADBOX"
+      ]
+    },
+    {
+      "name": "Homesteading Word Search 70",
+      "words": [
+        "BREADMAKING",
+        "BREADOVEN",
+        "BREADPROOF",
+        "BREWER",
+        "BROCCOLIPATCH",
+        "BROOD",
+        "BROODER",
+        "BROODHEN",
+        "BROODYHEN",
+        "BRUSSELSPROUT",
+        "BUCKET",
+        "BUCKWHEAT"
+      ]
+    },
+    {
+      "name": "Homesteading Word Search 71",
+      "words": [
+        "BULBPLANT",
+        "BUSH",
+        "BUSHBEAN",
+        "BUTTERFLYGARDEN",
+        "BUTTERMAKING",
+        "BUTTERMOLD",
+        "CABBAGE",
+        "CABBAGEPATCH",
+        "CABBAGEROW",
+        "CAGE",
+        "CALF",
+        "CALFPEN"
+      ]
+    },
+    {
+      "name": "Homesteading Word Search 72",
+      "words": [
+        "CAMPANULA",
+        "CAMPFIRE",
+        "CAMPGROUND",
+        "CAMPSITE",
+        "CANDLE",
+        "CANDLEWICK",
+        "CANES",
+        "CANNER",
+        "CANNING",
+        "CANNINGBATH",
+        "CANNINGFUNNEL",
+        "CANNINGJAR"
+      ]
+    },
+    {
+      "name": "Homesteading Word Search 73",
+      "words": [
+        "CANNINGLABEL",
+        "CANNINGLID",
+        "CANNINGPOT",
+        "CANNINGRACK",
+        "CANNINGSEAL",
+        "CANNINGTONGS",
+        "CANNINGWAX",
+        "CANNINGWEIGHT",
+        "CANOE",
+        "CANTALOUPE",
+        "CAPE",
+        "CARAWAY"
+      ]
+    },
+    {
+      "name": "Homesteading Word Search 74",
+      "words": [
+        "CARDOON",
+        "CARNATION",
+        "CARROTPATCH",
+        "CASTIRON",
+        "CASTIRONPAN",
+        "CATGARDEN",
+        "CATMINT",
+        "CATTAIL",
+        "CATTLEGUARD",
+        "CAULDRON",
+        "CAULIFLOWER",
+        "CELANDINE"
+      ]
+    },
+    {
+      "name": "Homesteading Word Search 75",
+      "words": [
+        "CELERIAC",
+        "CELERY",
+        "CELLAR",
+        "CELLARING",
+        "CELOSIA",
+        "CHAIR",
+        "CHEESEBOARD",
+        "CHEESECLOTH",
+        "CHEESECURD",
+        "CHEESEMAKING",
+        "CHEESEPRESS",
+        "CHEESEWHEEL"
+      ]
+    },
+    {
+      "name": "Homesteading Word Search 76",
+      "words": [
+        "CHICKENBROTH",
+        "CHICKENCOOP",
+        "CHICKENFEED",
+        "CHICKENHOUSE",
+        "CHICKENLITTER",
+        "CHICKENRUN",
+        "CHICKENS",
+        "CHICKENTRACTOR",
+        "CHICKENWIRE",
+        "CHICKPEAS",
+        "CHIVE",
+        "CHORES"
+      ]
+    },
+    {
+      "name": "Homesteading Word Search 77",
+      "words": [
+        "CHRYSANTHEMUM",
+        "CHUTNEY",
+        "CIDERJUG",
+        "CIDERPRESS",
+        "CILANTRO",
+        "CINERARIA",
+        "CISTERN",
+        "CISTUS",
+        "CLAYOVEN",
+        "CLAYPOT",
+        "CLEANING",
+        "CLIMBING"
+      ]
+    },
+    {
+      "name": "Homesteading Word Search 78",
+      "words": [
+        "CLIMBINGROSE",
+        "CLOSET",
+        "CLOTHESLINE",
+        "CLOVER",
+        "CLOVERFIELD",
+        "COBBLESTONE",
+        "COBOVEN",
+        "COBWEB",
+        "COCKSCOMB",
+        "COFFEEGRINDER",
+        "COLDBOX",
+        "COLDFRAME"
+      ]
+    },
+    {
+      "name": "Homesteading Word Search 79",
+      "words": [
+        "COLDSMOKE",
+        "COLEUS",
+        "COLOSTRUM",
+        "COLUMBINE",
+        "COMPASS",
+        "COMPOSTBIN",
+        "COMPOSTHEAP",
+        "COMPOSTING",
+        "COMPOSTPILE",
+        "COMPOSTTEA",
+        "CONEFLOWER",
+        "CONTAINERGARDEN"
+      ]
+    },
+    {
+      "name": "Homesteading Word Search 80",
+      "words": [
+        "CONTAINERPLANT",
+        "COOPCRAFT",
+        "COREOPSIS",
+        "CORIANDER",
+        "CORNCRIB",
+        "CORNFLOWER",
+        "CORNMEAL",
+        "CORNPONE",
+        "CORNSTALK",
+        "COSMOS",
+        "COTONEASTER",
+        "COTTAGEGARDEN"
+      ]
+    },
+    {
+      "name": "Homesteading Word Search 81",
+      "words": [
+        "COUNTRYKITCHEN",
+        "COVERCROP",
+        "COWBELL",
+        "COWHIDE",
+        "COWPASTURE",
+        "COWSHED",
+        "COWSMILK",
+        "CRANBERRY",
+        "CREAMERY",
+        "CREAMSEPARATOR",
+        "CREEPINGTHYME",
+        "CROP"
+      ]
+    },
+    {
+      "name": "Homesteading Word Search 82",
+      "words": [
+        "CROPLAND",
+        "CROPPATCH",
+        "CROPROTATION",
+        "CROPS",
+        "CROPTUNNEL",
+        "CUCUMBER",
+        "CUCUMBERVINE",
+        "CULTIVATOR",
+        "CUPBOARD",
+        "CURE",
+        "CURRANT",
+        "CURRANTBUSH"
+      ]
+    },
+    {
+      "name": "Homesteading Word Search 83",
+      "words": [
+        "CUSHION",
+        "CUTTINGGARDEN",
+        "CYCLAMEN",
+        "DAHLIA",
+        "DAIRY",
+        "DAIRYBARN",
+        "DAIRYCOW",
+        "DAIRYGOAT",
+        "DAIRYING",
+        "DAIRYMAID",
+        "DAYLILY",
+        "DAYPACK"
+      ]
+    },
+    {
+      "name": "Homesteading Word Search 84",
+      "words": [
+        "DEEPWATERING",
+        "DEHYDRATING",
+        "DESERTGARDEN",
+        "DESK",
+        "DEW",
+        "DIANELLA",
+        "DIANTHUS",
+        "DIGGING",
+        "DILL",
+        "DININGROOM",
+        "DISTILLING",
+        "DOOR"
+      ]
+    },
+    {
+      "name": "Homesteading Word Search 85",
+      "words": [
+        "DOORLATCH",
+        "DOORMAT",
+        "DOUGHBOX",
+        "DRIPLINE",
+        "DRIPPER",
+        "DRYBEANS",
+        "DRYGOODS",
+        "DRYING",
+        "DRYINGRACK",
+        "DUCKEGG",
+        "DUCKHOUSE",
+        "DUCKLING"
+      ]
+    },
+    {
+      "name": "Homesteading Word Search 86",
+      "words": [
+        "DUCKPOND",
+        "DUCKS",
+        "EARTHWORM",
+        "ECHINACEA",
+        "EDIBLEGARDEN",
+        "EGGBASKET",
+        "EGGCARTON",
+        "EGGGATHERING",
+        "EGGLAYER",
+        "EGGPLANT",
+        "EGGWASH",
+        "ELDERFLOWER"
+      ]
+    },
+    {
+      "name": "Homesteading Word Search 87",
+      "words": [
+        "ELECTRICFENCE",
+        "ELMWOOD",
+        "EMERGENCYLANTERN",
+        "ENAMELWARE",
+        "ENDIVE",
+        "ENTRYWAY",
+        "EPIMEDIUM",
+        "ESCAROLE",
+        "ESPALIER",
+        "EUPHORBIA",
+        "EVERGREEN",
+        "FALLHARVEST"
+      ]
+    },
+    {
+      "name": "Homesteading Word Search 88",
+      "words": [
+        "FAMILYROOM",
+        "FARM",
+        "FARMANIMAL",
+        "FARMBENCH",
+        "FARMCART",
+        "FARMCRAFT",
+        "FARMDOG",
+        "FARMER",
+        "FARMFRESH",
+        "FARMGATE",
+        "FARMHAND",
+        "FARMHOUSE"
+      ]
+    },
+    {
+      "name": "Homesteading Word Search 89",
+      "words": [
+        "FARMHOUSEBREAD",
+        "FARMHOUSECHEESE",
+        "FARMHOUSEGARDEN",
+        "FARMHOUSEMEAL",
+        "FARMINGSIMULATOR",
+        "FARMJOURNAL",
+        "FARMKITCHEN",
+        "FARMLEDGER",
+        "FARMPATH",
+        "FARMPOND",
+        "FARMSTAND",
+        "FARMSTEAD"
+      ]
+    },
+    {
+      "name": "Homesteading Word Search 90",
+      "words": [
+        "FARMSTYLE",
+        "FARMTABLE",
+        "FARMTRACTOR",
+        "FARMWAGON",
+        "FARMYARD",
+        "FEEDBUCKET",
+        "FEEDCORN",
+        "FEEDMILL",
+        "FEEDSTORE",
+        "FENCEGATE",
+        "FENCEPOST",
+        "FENCEWIRE"
+      ]
+    },
+    {
+      "name": "Homesteading Word Search 91",
+      "words": [
+        "FERTILIZER",
+        "FEVERFEW",
+        "FIELD",
+        "FIELDBEANS",
+        "FIELDCROP",
+        "FIELDGUIDE",
+        "FIELDPEAS",
+        "FIELDSTONE",
+        "FIG",
+        "FIGTREE",
+        "FIREPITSTONE",
+        "FIREPLACE"
+      ]
+    },
+    {
+      "name": "Homesteading Word Search 92",
+      "words": [
+        "FIRESTARTER",
+        "FISHING",
+        "FISHPOND",
+        "FLATBREAD",
+        "FLAXSEED",
+        "FLOCK",
+        "FLOWER",
+        "FLOWERBED",
+        "FLOWERBORDER",
+        "FLOWERFARM",
+        "FLOWERGARDEN",
+        "FLOWERPOT"
+      ]
+    },
+    {
+      "name": "Homesteading Word Search 93",
+      "words": [
+        "FLOWERS",
+        "FLOWERSEED",
+        "FODDER",
+        "FOLIAGE",
+        "FOODCELLAR",
+        "FOODCO",
+        "FOODDEHYDRATOR",
+        "FOODMILL",
+        "FOODPRESERVER",
+        "FOODSTORAGE",
+        "FORAGE",
+        "FORAGECROP"
+      ]
+    },
+    {
+      "name": "Homesteading Word Search 94",
+      "words": [
+        "FORESTGARDEN",
+        "FORKHANDLE",
+        "FOXGLOVE",
+        "FRAGRANCEGARDEN",
+        "FRESHBREAD",
+        "FRESHCREAM",
+        "FRIDGE",
+        "FROSTCLOTH",
+        "FRUITCAKE",
+        "FRUITCELLAR",
+        "FRUITGARDEN",
+        "FRUITPIE"
+      ]
+    },
+    {
+      "name": "Homesteading Word Search 95",
+      "words": [
+        "FRUITPRESS",
+        "FRUITSTAND",
+        "FUCHSIA",
+        "GAILLARDIA",
+        "GARDEN",
+        "GARDENAPRON",
+        "GARDENARCH",
+        "GARDENBASKET",
+        "GARDENBED",
+        "GARDENBENCH",
+        "GARDENBOOTS",
+        "GARDENBORDER"
+      ]
+    },
+    {
+      "name": "Homesteading Word Search 96",
+      "words": [
+        "GARDENCALENDAR",
+        "GARDENCENTER",
+        "GARDENCLOCHE",
+        "GARDENCOMPANION",
+        "GARDENCOMPOST",
+        "GARDENER",
+        "GARDENERS",
+        "GARDENFENCE",
+        "GARDENFORK",
+        "GARDENFOUNTAIN",
+        "GARDENHARVEST",
+        "GARDENHELPER"
+      ]
+    },
+    {
+      "name": "Homesteading Word Search 97",
+      "words": [
+        "GARDENHOE",
+        "GARDENHOSE",
+        "GARDENING",
+        "GARDENINGBOOK",
+        "GARDENINGGLOVES",
+        "GARDENJOURNAL",
+        "GARDENKNIFE",
+        "GARDENLABEL",
+        "GARDENLATTICE",
+        "GARDENLAYOUT",
+        "GARDENLIGHT",
+        "GARDENMAP"
+      ]
+    },
+    {
+      "name": "Homesteading Word Search 98",
+      "words": [
+        "GARDENMARKER",
+        "GARDENMULCH",
+        "GARDENPATH",
+        "GARDENPEST",
+        "GARDENPLAN",
+        "GARDENPLANNING",
+        "GARDENPLOT",
+        "GARDENPOND",
+        "GARDENPOT",
+        "GARDENPOUCH",
+        "GARDENPRODUCE",
+        "GARDENPRUNER"
+      ]
+    },
+    {
+      "name": "Homesteading Word Search 99",
+      "words": [
+        "GARDENPUMP",
+        "GARDENRAKE",
+        "GARDENRECYCLE",
+        "GARDENROOM",
+        "GARDENROW",
+        "GARDENS",
+        "GARDENSEED",
+        "GARDENSHED",
+        "GARDENSIEVE",
+        "GARDENSTAKE",
+        "GARDENSTONE",
+        "GARDENSTOOL"
+      ]
+    },
+    {
+      "name": "Homesteading Word Search 100",
+      "words": [
+        "GARDENSTORAGE",
+        "GARDENSTORE",
+        "GARDENSTRING",
+        "GARDENTWINE",
+        "GARDENWALL",
+        "GARDENWEED",
+        "GARDENWHEEL",
+        "GARDENWORK",
+        "GARDENWORKGLOVES",
+        "GARDENWORKSHOP",
+        "GARLIC",
+        "GARLICBRAID"
       ]
     }
   ],
@@ -1066,5 +1747,12 @@
       "Homesteading"
     ],
     "checked_at": "2026-08-22T10:08:39"
+  },
+  "quality_review": {
+    "checked_at": "20260824-213944",
+    "source": "verified_word_intelligence_repair",
+    "verdict": "PASS_WITH_NOTES",
+    "production_ready": true,
+    "changes": 84
   }
 }

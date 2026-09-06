@@ -1,0 +1,95 @@
+{
+  "schema_version": 1,
+  "production_job_id": "job_f3c4d9f4069c415e751e",
+  "book_id": "1726b0adbabd",
+  "book_plan_id": "automatic-mixed-brain-games",
+  "puzzle_type": "Mixed Brain Games",
+  "status": "waiting_for_review",
+  "context": {
+    "book_id": "1726b0adbabd",
+    "source_key": "generated:Mixed Brain Games:General Starter",
+    "package_path": "",
+    "title": "The Everyday Brain Games Collection",
+    "subtitle": "60 Sudoku, Cryptograms, and Word Scramble Challenges",
+    "author": "Jordan M. Slade",
+    "series": null,
+    "theme": null,
+    "detected_topic": "General Starter",
+    "puzzle_type": "Mixed Brain Games",
+    "puzzle_count": 60,
+    "puzzle_seed": 151182837,
+    "page_count": null,
+    "trim_size": "8.5x11",
+    "difficulty": "Mixed",
+    "difficulty_label": null,
+    "audience": null,
+    "large_print": null,
+    "signature_edition": null,
+    "no_repeat_words": null,
+    "answer_key": null,
+    "files": {},
+    "price": null,
+    "description": null,
+    "brand": "",
+    "metadata_locked": false,
+    "conflicts": [],
+    "fingerprint": "7dcbee157a6e89a20d7172ca8edfc6daf871cdad9a202d7ea4e8ed4c66a9d934",
+    "book_plan_id": "automatic-mixed-brain-games",
+    "source_revision": "7dcbee157a6e89a20d7172ca8edfc6daf871cdad9a202d7ea4e8ed4c66a9d934",
+    "cover_style": "Automatic matching",
+    "palette": "midnight-gold"
+  },
+  "fingerprints": {
+    "idea": "d2dc5c5a35534459fd4a257431f981ce12522c79944a19498a13b4cfe25f600f",
+    "feasibility": "2218ee548908544fa67a1a645f61a5798a4612fba4f2ad591c438f5d27162cfe",
+    "content_plan": "2218ee548908544fa67a1a645f61a5798a4612fba4f2ad591c438f5d27162cfe",
+    "generation": "2218ee548908544fa67a1a645f61a5798a4612fba4f2ad591c438f5d27162cfe",
+    "cover": "1cea6fc7b05f84143f716a68e1ce435af73bce56639ae5bc6c73782afc8f4cd4",
+    "product_qa": "417be04d19b05254bfad4e9ee4d6f8bd612231e721895de63fd2efea5da25853",
+    "listing": "1bd81e549f6859ccabb061a8eb65864e2c6ae5041247918ef78f4c40399ebc47",
+    "package": "805a24318eb09b9d86d2ce5f8a6f1ae45023a1ab1851309c28b2b1138cb9c2e7",
+    "final_review": "805a24318eb09b9d86d2ce5f8a6f1ae45023a1ab1851309c28b2b1138cb9c2e7",
+    "platform_preview": "805a24318eb09b9d86d2ce5f8a6f1ae45023a1ab1851309c28b2b1138cb9c2e7",
+    "marketplace_handoff": "805a24318eb09b9d86d2ce5f8a6f1ae45023a1ab1851309c28b2b1138cb9c2e7"
+  },
+  "steps": {
+    "idea": {
+      "status": "complete",
+      "fingerprint": "d2dc5c5a35534459fd4a257431f981ce12522c79944a19498a13b4cfe25f600f",
+      "completed_at": "2026-09-05T04:45:56+00:00",
+      "artifact": "",
+      "detail": "Adopted from the existing checked production route."
+    },
+    "feasibility": {
+      "status": "complete",
+      "fingerprint": "2218ee548908544fa67a1a645f61a5798a4612fba4f2ad591c438f5d27162cfe",
+      "completed_at": "2026-09-05T04:45:56+00:00",
+      "artifact": "",
+      "detail": "Adopted from the existing checked production route."
+    }
+  },
+  "events": [
+    {
+      "at": "2026-09-05T04:45:56+00:00",
+      "event": "started_or_resumed"
+    },
+    {
+      "at": "2026-09-05T04:45:56+00:00",
+      "event": "stage_complete",
+      "stage": "idea",
+      "status": "complete"
+    },
+    {
+      "at": "2026-09-05T04:45:56+00:00",
+      "event": "stage_complete",
+      "stage": "feasibility",
+      "status": "complete"
+    }
+  ],
+  "created_at": "2026-09-05T04:45:56+00:00",
+  "updated_at": "2026-09-05T04:45:56+00:00",
+  "paused": false,
+  "current_stage": "content_plan",
+  "next_action": "Review Book Plan",
+  "attention": []
+}

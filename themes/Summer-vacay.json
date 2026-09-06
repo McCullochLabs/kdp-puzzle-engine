@@ -28,7 +28,7 @@
         "CLOUD",
         "SHAPE",
         "HUNT",
-        "TRUNK",
+        "ACANTHUS",
         "FAMILY",
         "SANDALS",
         "ENDIVE",
@@ -43,7 +43,7 @@
       "words": [
         "CASSEROLE",
         "BRIGHT",
-        "WARMTH",
+        "ACHILLEA",
         "SCRAMBLED",
         "EMBERS",
         "PORTION",
@@ -61,7 +61,7 @@
         "GRATE",
         "CHICORY",
         "CLEAR",
-        "CLUE",
+        "ACREAGE",
         "FOUNT",
         "WAVES",
         "SAIL",
@@ -101,8 +101,8 @@
         "SHED",
         "BORDER",
         "TUBEROSE",
-        "WORMS",
-        "CHAPTER",
+        "AGAPANTHUS",
+        "AGRICULTURE",
         "COBBLE"
       ]
     },
@@ -117,7 +117,7 @@
         "BIENNIAL",
         "COCONUT",
         "COOKIES",
-        "AUTHOR",
+        "AGROFORESTRY",
         "ZUCCHINI",
         "MARKET",
         "STREAM"
@@ -134,8 +134,8 @@
         "BROTH",
         "VIBRANT",
         "COOKWARE",
-        "PUZZLE",
-        "GLAZE",
+        "AGROTEK",
+        "AIRPLANT",
         "MANURE",
         "AMBER"
       ]
@@ -187,7 +187,7 @@
         "DRIVE",
         "GRIT",
         "FROST",
-        "SCREEN",
+        "ALFALFA",
         "STORM"
       ]
     },
@@ -195,7 +195,7 @@
       "name": "BBQ Grill",
       "words": [
         "CHEESE",
-        "HERBS",
+        "ALLIUM",
         "HOMECOOKED",
         "SERENE",
         "CONCH",
@@ -212,7 +212,7 @@
       "name": "Watermelon",
       "words": [
         "SAGE",
-        "OLIVE",
+        "ALLOTMENT",
         "POTATO",
         "BERGAMOT",
         "CHILD",
@@ -236,7 +236,7 @@
         "SWALLOWTAIL",
         "MAP",
         "SQUASH",
-        "BALANCE",
+        "ALPACA",
         "COLD",
         "PASSION",
         "DISCOVER"
@@ -264,8 +264,8 @@
       "words": [
         "CHAIR",
         "HAVEN",
-        "CHEF",
-        "YEAST",
+        "ALPINE",
+        "ALYSSUM",
         "SPICY",
         "WINDY",
         "SCENT",
@@ -348,7 +348,7 @@
       "name": "Tropical Flowers",
       "words": [
         "AERATE",
-        "HERB",
+        "AMARANTH",
         "RING",
         "TRAVEL",
         "SUET",
@@ -373,7 +373,7 @@
         "PALM",
         "NATURE",
         "DRINK",
-        "PARK",
+        "AMARYLLIS",
         "BLUEBELL",
         "SWIMMER"
       ]
@@ -382,8 +382,8 @@
       "name": "Lake House",
       "words": [
         "CORN",
-        "NOEL",
-        "ROMANCE",
+        "ANGORA",
+        "ANISE",
         "COOKIE",
         "MOTHER",
         "HOUSE",
@@ -426,7 +426,7 @@
         "FOIL",
         "PEARL",
         "CULINARY",
-        "MORNING"
+        "APIARY"
       ]
     },
     {
@@ -438,7 +438,7 @@
         "RASP",
         "NUTRIENT",
         "BUD",
-        "KNEAD",
+        "APIARYBOX",
         "PANCAKE",
         "WHIP",
         "WILDLIFE",
@@ -453,12 +453,12 @@
         "STOCK",
         "SOURDOUGH",
         "PORCH",
-        "CALM",
+        "APPLEBLOSSOM",
         "SALTY",
         "RECALL",
         "SEASON",
         "PRUNER",
-        "NEIGHBOR",
+        "APPLEBUTTER",
         "WREN",
         "LOGS"
       ]
@@ -471,7 +471,7 @@
         "THIN",
         "DONUTS",
         "GETAWAY",
-        "THANKFUL",
+        "APPLECIDER",
         "ROMAINE",
         "PAST",
         "SEED",
@@ -489,11 +489,11 @@
         "SEASIDE",
         "LAGOON",
         "FLAMES",
-        "CORAL",
+        "APPLEORCHARD",
         "DUMPLING",
         "FLASH",
         "RAIN",
-        "KELP",
+        "APPLEPIE",
         "BUTTER"
       ]
     },
@@ -521,7 +521,7 @@
         "NUTRITION",
         "VANILLA",
         "FOOD",
-        "FICTION",
+        "APPLESAUCE",
         "FERN",
         "BENCH",
         "ROOMS",
@@ -534,7 +534,7 @@
     {
       "name": "Island Getaway",
       "words": [
-        "SAFETY",
+        "APRICOTTREE",
         "FLOODLIGHT",
         "NET",
         "BONFIRE",
@@ -562,14 +562,14 @@
         "SOARING",
         "HOPS",
         "BRIDGE",
-        "QUEST"
+        "APRON"
       ]
     },
     {
       "name": "Sandy Toes",
       "words": [
         "LIFELINE",
-        "TREASURE",
+        "AQUAPONICS",
         "NOODLE",
         "SPARROW",
         "FIREWOOD",
@@ -587,7 +587,7 @@
       "words": [
         "CRUMB",
         "MINCE",
-        "BOOKWORM",
+        "ARBORVITAE",
         "HONEY",
         "PLATE",
         "SWEEP",
@@ -595,7 +595,7 @@
         "WEATHER",
         "SMELL",
         "CUT",
-        "CONCERT",
+        "ARBUTUS",
         "RITUAL"
       ]
     },
@@ -603,7 +603,7 @@
       "name": "Pier Fishing",
       "words": [
         "CUP",
-        "EQUIPMENT",
+        "ARONIA",
         "ARUGULA",
         "WATERMELON",
         "LEASH",
@@ -625,11 +625,11 @@
         "ZEN",
         "POPLAR",
         "GENEROSITY",
-        "STUFFING",
+        "ARTICHOKE",
         "PLUM",
         "FIG",
         "PIER",
-        "CHILDHOOD",
+        "ASPARAGUS",
         "BORAGE"
       ]
     },
@@ -656,12 +656,12 @@
         "CINNAMON",
         "SYCAMORE",
         "COB",
-        "ICING",
+        "AZALEA",
         "PUZZLETIME",
         "PYRACANTHA",
         "POWERFUL",
         "BEE",
-        "FROSTING",
+        "BACKPACK",
         "ABSORBENT",
         "SCALLOP",
         "FALLLEAVES"
@@ -688,7 +688,7 @@
       "name": "Driftwood",
       "words": [
         "PROTECTOR",
-        "MOVIE",
+        "BACKPORCH",
         "SHELL",
         "COZY",
         "SPIDERPLANT",
@@ -739,7 +739,7 @@
       "name": "Ice Cream Cone",
       "words": [
         "TOES",
-        "COMFORT",
+        "BACKYARDCHICKENS",
         "MOWER",
         "PARFAIT",
         "BEAUTY",
@@ -747,7 +747,7 @@
         "SUN",
         "GUIDE",
         "TURKEY",
-        "CASTLE",
+        "BACKYARDFARM",
         "SIZZLE",
         "MYCORRHIZAE"
       ]
@@ -755,7 +755,7 @@
     {
       "name": "Beach Bonfire",
       "words": [
-        "PASTRY",
+        "BACKYARDGARDEN",
         "WHISTLE",
         "RECIPE",
         "INSTRUCTOR",
@@ -773,15 +773,15 @@
       "name": "Stargazing",
       "words": [
         "EXPLORE",
-        "RELAX",
+        "BAKINGPAN",
         "MEMORY",
         "RESORT",
         "RIDE",
         "SUNRISE",
         "GENEROUS",
         "JUNEBERRY",
-        "SONGS",
-        "COLOR",
+        "BALCONYGARDEN",
+        "BALSAM",
         "RADISH",
         "ABSORB"
       ]
@@ -795,7 +795,7 @@
         "CHAR",
         "TIN",
         "RECHARGE",
-        "KINDNESS",
+        "BANNETON",
         "GEL",
         "BROWNIE",
         "COASTAL",
@@ -815,7 +815,7 @@
         "BOIL",
         "REEF",
         "GALAXY",
-        "GOLDENROD",
+        "BARK",
         "BREAKFAST",
         "GAZE"
       ]
@@ -867,7 +867,7 @@
         "HANGING",
         "SUGAR",
         "DELPHINIUM",
-        "EMERGENCY",
+        "BARLEY",
         "DECORATING"
       ]
     },
@@ -875,7 +875,7 @@
       "name": "Seaside Resort",
       "words": [
         "GAMES",
-        "CHALLENGE",
+        "BARLEYFIELD",
         "BOOK",
         "TIME",
         "RESCUE",
@@ -894,7 +894,7 @@
         "SOAR",
         "SAND",
         "SUPPER",
-        "ARTIST",
+        "BARN",
         "SPRINKLES",
         "TREAT",
         "SEASHELL",
@@ -952,7 +952,7 @@
         "LUXURY",
         "COOKING",
         "CELESTIAL",
-        "PASSENGER",
+        "BARNBEAM",
         "LENTIL"
       ]
     },
@@ -979,7 +979,7 @@
         "LICHEN",
         "TRANSPLANT",
         "REPOT",
-        "FILTER",
+        "BARNBOARD",
         "SIMMER",
         "IRRIGATION",
         "BEAN",
@@ -993,7 +993,7 @@
     {
       "name": "Fireworks Display (Summer)",
       "words": [
-        "SPOTLIGHT",
+        "BARNCAT",
         "ECOSYSTEM",
         "PLANK",
         "CELLAR",
@@ -1033,9 +1033,9 @@
         "NURTURE",
         "TENDRIL",
         "FIN",
-        "ANTENNA",
+        "BARNCLEANING",
         "SMOOTHIE",
-        "LETTER",
+        "BARNFLOOR",
         "GOURD",
         "WEEKEND",
         "EVERGREEN"
@@ -1045,7 +1045,7 @@
       "name": "Ocean Waves (Summer)",
       "words": [
         "SOUP",
-        "CRUST",
+        "BARNLIGHT",
         "FOCAL",
         "BASIN",
         "TREATS",
@@ -1104,9 +1104,9 @@
         "BLESSINGS",
         "PISTIL",
         "GRAVEL",
-        "CLAY",
+        "BARNLOFT",
         "CHICKENCOOP",
-        "TOAD"
+        "BARNRAISER"
       ]
     },
     {
@@ -1119,7 +1119,7 @@
         "MEASURE",
         "SAILING",
         "FOODS",
-        "COACH",
+        "BARNWOOD",
         "FURROW",
         "PASTA",
         "LOAF",
@@ -1139,7 +1139,7 @@
         "MACARONI",
         "FAVORITE",
         "CAKE",
-        "LEGACY",
+        "BARNYARD",
         "PRESERVING"
       ]
     },
@@ -1149,15 +1149,15 @@
         "POT",
         "SUNHAT",
         "SNACKS",
-        "GOLF",
+        "BASIL",
         "SEEDSTART",
         "CUSTOM",
         "HEALTH",
         "SNORKEL",
         "LABEL",
         "FARM",
-        "TUNE",
-        "FEAST"
+        "BAYLEAF",
+        "BEADING"
       ]
     },
     {
@@ -1168,7 +1168,7 @@
         "TASTE",
         "RASPBERRY",
         "VIGILANT",
-        "CREEPER",
+        "BEANPATCH",
         "FRIED",
         "TENNIS",
         "MULCH",
@@ -1191,7 +1191,7 @@
         "STEAK",
         "FIRE",
         "ACORN",
-        "ACOUSTIC"
+        "BEANPOLE"
       ]
     },
     {
@@ -1254,7 +1254,7 @@
         "NIGHT",
         "MENU",
         "UMBRELLA",
-        "TEMPLE",
+        "BEANSTALK",
         "LAYOUT",
         "OIL",
         "PARASOL",
@@ -1267,8 +1267,8 @@
       "words": [
         "WELCOME",
         "NECTAR",
-        "UNITY",
-        "READING",
+        "BED",
+        "BEDROOM",
         "SNIP",
         "HAYRIDE",
         "SPRUCE",
@@ -1302,13 +1302,13 @@
         "EXTRACT",
         "SPAS",
         "SHARING",
-        "BEAT",
+        "BEEHIVE",
         "CREATIVE",
         "STONE",
         "CLOUDS",
         "INFLATE",
         "MOISTURE",
-        "COOKBOOK",
+        "BEEHIVEFRAME",
         "PIES",
         "JAR"
       ]
@@ -1317,7 +1317,7 @@
       "name": "Paddleboard Ride",
       "words": [
         "OPOSSUM",
-        "FRIENDS",
+        "BEEKEEPER",
         "SPREAD",
         "DRESSING",
         "CREATIVITY",
@@ -1358,7 +1358,7 @@
         "SPADE",
         "BOUNCE",
         "FEATHERS",
-        "SERENITY",
+        "BEEKEEPERSUIT",
         "HIBISCUS",
         "HUMMINGBIRD",
         "MIST"
@@ -1369,7 +1369,7 @@
       "words": [
         "DETHATCH",
         "HOLLY",
-        "LITERATURE",
+        "BEEKEEPING",
         "LEISURE",
         "FREESIA",
         "NAVY",
@@ -1402,15 +1402,15 @@
       "name": "Garden Walk",
       "words": [
         "TRAY",
-        "BREAD",
+        "BEESWING",
         "DESERT",
         "MILK",
         "GLIDE",
         "NICOTIANA",
         "CARE",
         "LILY",
-        "ALGAE",
-        "GLITTER",
+        "BEETROOT",
+        "BEETS",
         "CAMP",
         "WALNUT"
       ]
@@ -1438,11 +1438,11 @@
         "LOTION",
         "ROOTS",
         "EGGS",
-        "FILM",
+        "BEETSOUP",
         "TRELLIS",
         "PICK",
         "BIRDBATH",
-        "SMILE",
+        "BEGONIA",
         "WICKER",
         "COSMOS",
         "SQUASHBLOSSOM",
@@ -1456,13 +1456,13 @@
         "HAWTHORN",
         "RAKE",
         "FOOTPATH",
-        "JOY",
+        "BELLPEPPER",
         "CUTTING",
         "SAFE",
         "SUNDAY",
         "ETHNIC",
         "GLOW",
-        "CINEMA",
+        "BERRYBUSH",
         "CONES"
       ]
     },
@@ -1472,11 +1472,11 @@
         "COCOON",
         "SPIKE",
         "MOUND",
-        "STAGE",
+        "BIN",
         "CASSIOPEIA",
         "SHOVEL",
         "DRAGONFLY",
-        "WORD",
+        "BIRDING",
         "SQUIRREL",
         "PINECONE",
         "PLAY",
@@ -1497,7 +1497,7 @@
         "BULB",
         "CREVICE",
         "COLORFUL",
-        "ACTION"
+        "BIRDNETTING"
       ]
     },
     {
@@ -1540,7 +1540,7 @@
         "ROBIN",
         "BUOYANT",
         "FICUS",
-        "PAGE",
+        "BIRTHDAY",
         "VETCH",
         "JETS",
         "OCEANIC",
@@ -1555,7 +1555,7 @@
       "name": "Summer Salad (Summer)",
       "words": [
         "PEA",
-        "POPCORN",
+        "BLACKBERRYPATCH",
         "MARINE",
         "FUEL",
         "STARFISH",
@@ -1577,7 +1577,7 @@
         "WAFFLE",
         "ELM",
         "STRING",
-        "ESCAPE",
+        "BLACKEYEDSUSAN",
         "DECKS",
         "MEALS",
         "HOTEL",
@@ -1614,7 +1614,7 @@
         "POND",
         "GRAVY",
         "MEASURINGCUP",
-        "INDEX",
+        "BLACKSMITH",
         "QUINCE",
         "YARROW"
       ]
@@ -1657,5 +1657,12 @@
       "Gardening"
     ],
     "checked_at": "2026-08-22T10:08:39"
+  },
+  "quality_review": {
+    "checked_at": "20260824-213944",
+    "source": "verified_word_intelligence_repair",
+    "verdict": "PASS_WITH_NOTES",
+    "production_ready": false,
+    "changes": 85
   }
 }

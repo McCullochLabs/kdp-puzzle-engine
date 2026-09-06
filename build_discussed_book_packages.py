@@ -12,6 +12,8 @@ from pathlib import Path
 
 from pypdf import PdfReader
 
+import word_search_creator as studio
+
 
 APP_DIR = Path(__file__).resolve().parent
 OUT_DIR = APP_DIR / "out" / "Discussed Book Packages"
@@ -73,16 +75,30 @@ def build(theme_path: Path, series_name: str, number: int) -> tuple[bool, str]:
     try:
         run(["wordsearch.py", "--themes", str(theme_path), "--out", str(interior), "--seed", str(240100 + number)])
         pages = len(PdfReader(interior).pages)
-        style = str(data.get("cover_style", "gallery")).lower()
-        if style not in ALLOWED_STYLES:
-            style = "gallery"
-        run([
+        # Route cover art through the same approved asset pipeline used by the
+        # GUI and other batch builders.  This selects the best eligible
+        # generated/approved background for the book's topic, or reports why a
+        # fallback is needed.
+        choice = studio.recommend_background_photo(data)
+        if choice:
+            art = APP_DIR / str(choice["file"])
+            style = "photo"
+            cover_art = str(art)
+            art_focus = str(choice.get("focus") or "center")
+        else:
+            raise RuntimeError(
+                "COVER ART REQUIRED - no approved topic-matched background is available. "
+                "Approve a suitable asset before building this book."
+            )
+        cover_command = [
             "cover.py", "--title", title, "--subtitle", str(data.get("subtitle", "")),
             "--author", "Slade Puzzles", "--badge", str(data.get("cover_badge", f"{len(data.get('puzzles', []))} LARGE-PRINT PUZZLES")),
             "--difficulty", str(data.get("difficulty_label", "Standard")),
             "--palette", str(data.get("palette", "ocean-breeze")), "--style", style,
             "--theme-file", str(theme_path), "--out", str(front),
-        ])
+        ]
+        cover_command.extend(["--art", cover_art, "--art-focus", art_focus])
+        run(cover_command)
         back = (f"Relax with {len(data.get('puzzles', []))} large-print word search puzzles in a theme you will love.\n\n"
                 "Clear grids, complete solutions, and no repeated words within this book make every puzzle a fresh challenge.")
         run(["wrap_cover.py", "--front", str(front), "--pages", str(pages), "--palette", str(data.get("palette", "ocean-breeze")),

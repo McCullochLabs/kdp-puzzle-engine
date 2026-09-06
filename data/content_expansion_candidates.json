@@ -1,0 +1,1580 @@
+{
+  "schema_version": 1,
+  "candidates": [
+    {
+      "candidate_id": "485738d7e025df89d69e4bd9",
+      "campaign_id": "1cf4399b06913b20fbdc",
+      "source_content_id": "",
+      "display": "Camping",
+      "normalized": "CAMPING",
+      "topic_id": "Summer Activities",
+      "puzzle_type": "word_search",
+      "tier": "Review Carefully",
+      "reasons": [
+        "Generated candidate — human review required"
+      ],
+      "provenance": "generated:gemini",
+      "status": "generated_unreviewed"
+    },
+    {
+      "candidate_id": "92849b1f46049af2c5f0dc02",
+      "campaign_id": "1cf4399b06913b20fbdc",
+      "source_content_id": "",
+      "display": "Hiking",
+      "normalized": "HIKING",
+      "topic_id": "Summer Activities",
+      "puzzle_type": "word_search",
+      "tier": "Review Carefully",
+      "reasons": [
+        "Generated candidate — human review required"
+      ],
+      "provenance": "generated:gemini",
+      "status": "generated_unreviewed"
+    },
+    {
+      "candidate_id": "a212d84ace05cec42b5c5b22",
+      "campaign_id": "1cf4399b06913b20fbdc",
+      "source_content_id": "",
+      "display": "Swimming",
+      "normalized": "SWIMMING",
+      "topic_id": "Summer Activities",
+      "puzzle_type": "word_search",
+      "tier": "Review Carefully",
+      "reasons": [
+        "Generated candidate — human review required"
+      ],
+      "provenance": "generated:gemini",
+      "status": "generated_unreviewed"
+    },
+    {
+      "candidate_id": "91028ddd2359600efa4880e3",
+      "campaign_id": "1cf4399b06913b20fbdc",
+      "source_content_id": "",
+      "display": "Surfing",
+      "normalized": "SURFING",
+      "topic_id": "Summer Activities",
+      "puzzle_type": "word_search",
+      "tier": "Review Carefully",
+      "reasons": [
+        "Generated candidate — human review required"
+      ],
+      "provenance": "generated:gemini",
+      "status": "generated_unreviewed"
+    },
+    {
+      "candidate_id": "abbae0f3ed1bc4ad2e177ab3",
+      "campaign_id": "1cf4399b06913b20fbdc",
+      "source_content_id": "",
+      "display": "Kayaking",
+      "normalized": "KAYAKING",
+      "topic_id": "Summer Activities",
+      "puzzle_type": "word_search",
+      "tier": "Review Carefully",
+      "reasons": [
+        "Generated candidate — human review required"
+      ],
+      "provenance": "generated:gemini",
+      "status": "generated_unreviewed"
+    },
+    {
+      "candidate_id": "bd436c4101ff3951c9c376ca",
+      "campaign_id": "1cf4399b06913b20fbdc",
+      "source_content_id": "",
+      "display": "Snorkeling",
+      "normalized": "SNORKELING",
+      "topic_id": "Summer Activities",
+      "puzzle_type": "word_search",
+      "tier": "Review Carefully",
+      "reasons": [
+        "Generated candidate — human review required"
+      ],
+      "provenance": "generated:gemini",
+      "status": "generated_unreviewed"
+    },
+    {
+      "candidate_id": "0029127a686d0db9cb12134b",
+      "campaign_id": "1cf4399b06913b20fbdc",
+      "source_content_id": "",
+      "display": "Sailing",
+      "normalized": "SAILING",
+      "topic_id": "Summer Activities",
+      "puzzle_type": "word_search",
+      "tier": "Review Carefully",
+      "reasons": [
+        "Generated candidate — human review required"
+      ],
+      "provenance": "generated:gemini",
+      "status": "generated_unreviewed"
+    },
+    {
+      "candidate_id": "3771f7fc743ff519f8f7e2be",
+      "campaign_id": "1cf4399b06913b20fbdc",
+      "source_content_id": "",
+      "display": "Fishing",
+      "normalized": "FISHING",
+      "topic_id": "Summer Activities",
+      "puzzle_type": "word_search",
+      "tier": "Review Carefully",
+      "reasons": [
+        "Generated candidate — human review required"
+      ],
+      "provenance": "generated:gemini",
+      "status": "generated_unreviewed"
+    },
+    {
+      "candidate_id": "58115e0e6f389ac745cd4d73",
+      "campaign_id": "1cf4399b06913b20fbdc",
+      "source_content_id": "",
+      "display": "Grilling",
+      "normalized": "GRILLING",
+      "topic_id": "Summer Activities",
+      "puzzle_type": "word_search",
+      "tier": "Review Carefully",
+      "reasons": [
+        "Generated candidate — human review required"
+      ],
+      "provenance": "generated:gemini",
+      "status": "generated_unreviewed"
+    },
+    {
+      "candidate_id": "34183f350f34b9f0c0a869c7",
+      "campaign_id": "1cf4399b06913b20fbdc",
+      "source_content_id": "",
+      "display": "Picnic",
+      "normalized": "PICNIC",
+      "topic_id": "Summer Activities",
+      "puzzle_type": "word_search",
+      "tier": "Review Carefully",
+      "reasons": [
+        "Generated candidate — human review required"
+      ],
+      "provenance": "generated:gemini",
+      "status": "generated_unreviewed"
+    },
+    {
+      "candidate_id": "974fbc529e7e107cd19a59df",
+      "campaign_id": "1cf4399b06913b20fbdc",
+      "source_content_id": "",
+      "display": "Barbecue",
+      "normalized": "BARBECUE",
+      "topic_id": "Summer Activities",
+      "puzzle_type": "word_search",
+      "tier": "Review Carefully",
+      "reasons": [
+        "Generated candidate — human review required"
+      ],
+      "provenance": "generated:gemini",
+      "status": "generated_unreviewed"
+    },
+    {
+      "candidate_id": "0e3e6e96ed14357e8cbeed1e",
+      "campaign_id": "1cf4399b06913b20fbdc",
+      "source_content_id": "",
+      "display": "Stargazing",
+      "normalized": "STARGAZING",
+      "topic_id": "Summer Activities",
+      "puzzle_type": "word_search",
+      "tier": "Review Carefully",
+      "reasons": [
+        "Generated candidate — human review required"
+      ],
+      "provenance": "generated:gemini",
+      "status": "generated_unreviewed"
+    },
+    {
+      "candidate_id": "afe1d52185c8f075600c13ec",
+      "campaign_id": "1cf4399b06913b20fbdc",
+      "source_content_id": "",
+      "display": "Bonfire",
+      "normalized": "BONFIRE",
+      "topic_id": "Summer Activities",
+      "puzzle_type": "word_search",
+      "tier": "Review Carefully",
+      "reasons": [
+        "Generated candidate — human review required"
+      ],
+      "provenance": "generated:gemini",
+      "status": "generated_unreviewed"
+    },
+    {
+      "candidate_id": "df24e501bfcafdb1ffcf688f",
+      "campaign_id": "1cf4399b06913b20fbdc",
+      "source_content_id": "",
+      "display": "Gardening",
+      "normalized": "GARDENING",
+      "topic_id": "Summer Activities",
+      "puzzle_type": "word_search",
+      "tier": "Review Carefully",
+      "reasons": [
+        "Generated candidate — human review required"
+      ],
+      "provenance": "generated:gemini",
+      "status": "generated_unreviewed"
+    },
+    {
+      "candidate_id": "fd8f38f9c8ec79024ea6ab52",
+      "campaign_id": "1cf4399b06913b20fbdc",
+      "source_content_id": "",
+      "display": "Bicycling",
+      "normalized": "BICYCLING",
+      "topic_id": "Summer Activities",
+      "puzzle_type": "word_search",
+      "tier": "Review Carefully",
+      "reasons": [
+        "Generated candidate — human review required"
+      ],
+      "provenance": "generated:gemini",
+      "status": "generated_unreviewed"
+    },
+    {
+      "candidate_id": "585daf7aea95ed6b5aced5e3",
+      "campaign_id": "1cf4399b06913b20fbdc",
+      "source_content_id": "",
+      "display": "Running",
+      "normalized": "RUNNING",
+      "topic_id": "Summer Activities",
+      "puzzle_type": "word_search",
+      "tier": "Review Carefully",
+      "reasons": [
+        "Generated candidate — human review required"
+      ],
+      "provenance": "generated:gemini",
+      "status": "generated_unreviewed"
+    },
+    {
+      "candidate_id": "015f550b60eefb1202b6953b",
+      "campaign_id": "1cf4399b06913b20fbdc",
+      "source_content_id": "",
+      "display": "Jogging",
+      "normalized": "JOGGING",
+      "topic_id": "Summer Activities",
+      "puzzle_type": "word_search",
+      "tier": "Review Carefully",
+      "reasons": [
+        "Generated candidate — human review required"
+      ],
+      "provenance": "generated:gemini",
+      "status": "generated_unreviewed"
+    },
+    {
+      "candidate_id": "2d5c1d8736722f97f82a6996",
+      "campaign_id": "1cf4399b06913b20fbdc",
+      "source_content_id": "",
+      "display": "Frisbee",
+      "normalized": "FRISBEE",
+      "topic_id": "Summer Activities",
+      "puzzle_type": "word_search",
+      "tier": "Review Carefully",
+      "reasons": [
+        "Generated candidate — human review required"
+      ],
+      "provenance": "generated:gemini",
+      "status": "generated_unreviewed"
+    },
+    {
+      "candidate_id": "5f00cb7d804016a8e5e9e459",
+      "campaign_id": "1cf4399b06913b20fbdc",
+      "source_content_id": "",
+      "display": "Volleyball",
+      "normalized": "VOLLEYBALL",
+      "topic_id": "Summer Activities",
+      "puzzle_type": "word_search",
+      "tier": "Review Carefully",
+      "reasons": [
+        "Generated candidate — human review required"
+      ],
+      "provenance": "generated:gemini",
+      "status": "generated_unreviewed"
+    },
+    {
+      "candidate_id": "cdf6367f7e8ead574c25e2a4",
+      "campaign_id": "1cf4399b06913b20fbdc",
+      "source_content_id": "",
+      "display": "Sunbathing",
+      "normalized": "SUNBATHING",
+      "topic_id": "Summer Activities",
+      "puzzle_type": "word_search",
+      "tier": "Review Carefully",
+      "reasons": [
+        "Generated candidate — human review required"
+      ],
+      "provenance": "generated:gemini",
+      "status": "generated_unreviewed"
+    },
+    {
+      "candidate_id": "39073d391b80a39538135685",
+      "campaign_id": "1cf4399b06913b20fbdc",
+      "source_content_id": "",
+      "display": "Hammock",
+      "normalized": "HAMMOCK",
+      "topic_id": "Summer Activities",
+      "puzzle_type": "word_search",
+      "tier": "Review Carefully",
+      "reasons": [
+        "Generated candidate — human review required"
+      ],
+      "provenance": "generated:gemini",
+      "status": "generated_unreviewed"
+    },
+    {
+      "candidate_id": "5a784cbc54c561c2844371f6",
+      "campaign_id": "1cf4399b06913b20fbdc",
+      "source_content_id": "",
+      "display": "Reading",
+      "normalized": "READING",
+      "topic_id": "Summer Activities",
+      "puzzle_type": "word_search",
+      "tier": "Review Carefully",
+      "reasons": [
+        "Generated candidate — human review required"
+      ],
+      "provenance": "generated:gemini",
+      "status": "generated_unreviewed"
+    },
+    {
+      "candidate_id": "4707565c2442f17f268f1dc0",
+      "campaign_id": "1cf4399b06913b20fbdc",
+      "source_content_id": "",
+      "display": "Birdwatching",
+      "normalized": "BIRDWATCHING",
+      "topic_id": "Summer Activities",
+      "puzzle_type": "word_search",
+      "tier": "Review Carefully",
+      "reasons": [
+        "Generated candidate — human review required"
+      ],
+      "provenance": "generated:gemini",
+      "status": "generated_unreviewed"
+    },
+    {
+      "candidate_id": "f01711f36af2ef3ff0a397a5",
+      "campaign_id": "1cf4399b06913b20fbdc",
+      "source_content_id": "",
+      "display": "Photography",
+      "normalized": "PHOTOGRAPHY",
+      "topic_id": "Summer Activities",
+      "puzzle_type": "word_search",
+      "tier": "Review Carefully",
+      "reasons": [
+        "Generated candidate — human review required"
+      ],
+      "provenance": "generated:gemini",
+      "status": "generated_unreviewed"
+    },
+    {
+      "candidate_id": "818ae4c7b6f3754fede0cc85",
+      "campaign_id": "1cf4399b06913b20fbdc",
+      "source_content_id": "",
+      "display": "Painting",
+      "normalized": "PAINTING",
+      "topic_id": "Summer Activities",
+      "puzzle_type": "word_search",
+      "tier": "Review Carefully",
+      "reasons": [
+        "Generated candidate — human review required"
+      ],
+      "provenance": "generated:gemini",
+      "status": "generated_unreviewed"
+    },
+    {
+      "candidate_id": "fe71cda2c593d48aa0020979",
+      "campaign_id": "1cf4399b06913b20fbdc",
+      "source_content_id": "",
+      "display": "Pottery",
+      "normalized": "POTTERY",
+      "topic_id": "Summer Activities",
+      "puzzle_type": "word_search",
+      "tier": "Review Carefully",
+      "reasons": [
+        "Generated candidate — human review required"
+      ],
+      "provenance": "generated:gemini",
+      "status": "generated_unreviewed"
+    },
+    {
+      "candidate_id": "231394c88c9c6456742a8d5e",
+      "campaign_id": "1cf4399b06913b20fbdc",
+      "source_content_id": "",
+      "display": "Traveling",
+      "normalized": "TRAVELING",
+      "topic_id": "Summer Activities",
+      "puzzle_type": "word_search",
+      "tier": "Review Carefully",
+      "reasons": [
+        "Generated candidate — human review required"
+      ],
+      "provenance": "generated:gemini",
+      "status": "generated_unreviewed"
+    },
+    {
+      "candidate_id": "5d00ea7ba5096f41175b75c0",
+      "campaign_id": "1cf4399b06913b20fbdc",
+      "source_content_id": "",
+      "display": "Sightseeing",
+      "normalized": "SIGHTSEEING",
+      "topic_id": "Summer Activities",
+      "puzzle_type": "word_search",
+      "tier": "Review Carefully",
+      "reasons": [
+        "Generated candidate — human review required"
+      ],
+      "provenance": "generated:gemini",
+      "status": "generated_unreviewed"
+    },
+    {
+      "candidate_id": "4e0ba2e76ea47c62ea9451b2",
+      "campaign_id": "1cf4399b06913b20fbdc",
+      "source_content_id": "",
+      "display": "Exploring",
+      "normalized": "EXPLORING",
+      "topic_id": "Summer Activities",
+      "puzzle_type": "word_search",
+      "tier": "Review Carefully",
+      "reasons": [
+        "Generated candidate — human review required"
+      ],
+      "provenance": "generated:gemini",
+      "status": "generated_unreviewed"
+    },
+    {
+      "candidate_id": "ac28cbdbeb8a41f510fd7863",
+      "campaign_id": "1cf4399b06913b20fbdc",
+      "source_content_id": "",
+      "display": "Roadtrip",
+      "normalized": "ROADTRIP",
+      "topic_id": "Summer Activities",
+      "puzzle_type": "word_search",
+      "tier": "Review Carefully",
+      "reasons": [
+        "Generated candidate — human review required"
+      ],
+      "provenance": "generated:gemini",
+      "status": "generated_unreviewed"
+    },
+    {
+      "candidate_id": "f395592b140c09ab5341e30e",
+      "campaign_id": "1cf4399b06913b20fbdc",
+      "source_content_id": "",
+      "display": "Climbing",
+      "normalized": "CLIMBING",
+      "topic_id": "Summer Activities",
+      "puzzle_type": "word_search",
+      "tier": "Review Carefully",
+      "reasons": [
+        "Generated candidate — human review required"
+      ],
+      "provenance": "generated:gemini",
+      "status": "generated_unreviewed"
+    },
+    {
+      "candidate_id": "27ef9790bb4cea6d13178ace",
+      "campaign_id": "1cf4399b06913b20fbdc",
+      "source_content_id": "",
+      "display": "Rafting",
+      "normalized": "RAFTING",
+      "topic_id": "Summer Activities",
+      "puzzle_type": "word_search",
+      "tier": "Review Carefully",
+      "reasons": [
+        "Generated candidate — human review required"
+      ],
+      "provenance": "generated:gemini",
+      "status": "generated_unreviewed"
+    },
+    {
+      "candidate_id": "0fc78daddd92fdf381af45fd",
+      "campaign_id": "1cf4399b06913b20fbdc",
+      "source_content_id": "",
+      "display": "Paddleboard",
+      "normalized": "PADDLEBOARD",
+      "topic_id": "Summer Activities",
+      "puzzle_type": "word_search",
+      "tier": "Review Carefully",
+      "reasons": [
+        "Generated candidate — human review required"
+      ],
+      "provenance": "generated:gemini",
+      "status": "generated_unreviewed"
+    },
+    {
+      "candidate_id": "704471042411cb59378f5acc",
+      "campaign_id": "1cf4399b06913b20fbdc",
+      "source_content_id": "",
+      "display": "Kiteflying",
+      "normalized": "KITEFLYING",
+      "topic_id": "Summer Activities",
+      "puzzle_type": "word_search",
+      "tier": "Review Carefully",
+      "reasons": [
+        "Generated candidate — human review required"
+      ],
+      "provenance": "generated:gemini",
+      "status": "generated_unreviewed"
+    },
+    {
+      "candidate_id": "65114eef38804affef97a5a8",
+      "campaign_id": "1cf4399b06913b20fbdc",
+      "source_content_id": "",
+      "display": "Skateboarding",
+      "normalized": "SKATEBOARDING",
+      "topic_id": "Summer Activities",
+      "puzzle_type": "word_search",
+      "tier": "Review Carefully",
+      "reasons": [
+        "Generated candidate — human review required"
+      ],
+      "provenance": "generated:gemini",
+      "status": "generated_unreviewed"
+    },
+    {
+      "candidate_id": "8a545ab980c47a1b996c8061",
+      "campaign_id": "1cf4399b06913b20fbdc",
+      "source_content_id": "",
+      "display": "Rollerblading",
+      "normalized": "ROLLERBLADING",
+      "topic_id": "Summer Activities",
+      "puzzle_type": "word_search",
+      "tier": "Review Carefully",
+      "reasons": [
+        "Generated candidate — human review required"
+      ],
+      "provenance": "generated:gemini",
+      "status": "generated_unreviewed"
+    },
+    {
+      "candidate_id": "a915c93cc7cb7edc3ccd9484",
+      "campaign_id": "1cf4399b06913b20fbdc",
+      "source_content_id": "",
+      "display": "Geocaching",
+      "normalized": "GEOCACHING",
+      "topic_id": "Summer Activities",
+      "puzzle_type": "word_search",
+      "tier": "Review Carefully",
+      "reasons": [
+        "Generated candidate — human review required"
+      ],
+      "provenance": "generated:gemini",
+      "status": "generated_unreviewed"
+    },
+    {
+      "candidate_id": "c7fc317e8460e0a7ac92cabb",
+      "campaign_id": "1cf4399b06913b20fbdc",
+      "source_content_id": "",
+      "display": "Snack",
+      "normalized": "SNACK",
+      "topic_id": "Summer Activities",
+      "puzzle_type": "word_search",
+      "tier": "Review Carefully",
+      "reasons": [
+        "Generated candidate — human review required"
+      ],
+      "provenance": "generated:gemini",
+      "status": "generated_unreviewed"
+    },
+    {
+      "candidate_id": "62ebcaeab06cacc9602b73de",
+      "campaign_id": "1cf4399b06913b20fbdc",
+      "source_content_id": "",
+      "display": "Lemonade",
+      "normalized": "LEMONADE",
+      "topic_id": "Summer Activities",
+      "puzzle_type": "word_search",
+      "tier": "Review Carefully",
+      "reasons": [
+        "Generated candidate — human review required"
+      ],
+      "provenance": "generated:gemini",
+      "status": "generated_unreviewed"
+    },
+    {
+      "candidate_id": "9b77bddcc9b745b5a7a0cada",
+      "campaign_id": "1cf4399b06913b20fbdc",
+      "source_content_id": "",
+      "display": "Fireworks",
+      "normalized": "FIREWORKS",
+      "topic_id": "Summer Activities",
+      "puzzle_type": "word_search",
+      "tier": "Review Carefully",
+      "reasons": [
+        "Generated candidate — human review required"
+      ],
+      "provenance": "generated:gemini",
+      "status": "generated_unreviewed"
+    },
+    {
+      "candidate_id": "673447cad4dbd9b6f0fb30fb",
+      "campaign_id": "a2bd7236b5b262d4107a",
+      "source_content_id": "",
+      "display": "Steam Locomotive",
+      "normalized": "STEAMLOCOMOTIVE",
+      "topic_id": "Vintage Railroads",
+      "puzzle_type": "word_search",
+      "tier": "Review Carefully",
+      "reasons": [
+        "Generated candidate — human review required"
+      ],
+      "provenance": "generated:gemini",
+      "status": "generated_unreviewed"
+    },
+    {
+      "candidate_id": "0c49b5a1c34acae4252cf93b",
+      "campaign_id": "a2bd7236b5b262d4107a",
+      "source_content_id": "",
+      "display": "Caboose",
+      "normalized": "CABOOSE",
+      "topic_id": "Vintage Railroads",
+      "puzzle_type": "word_search",
+      "tier": "Review Carefully",
+      "reasons": [
+        "Generated candidate — human review required"
+      ],
+      "provenance": "generated:gemini",
+      "status": "generated_unreviewed"
+    },
+    {
+      "candidate_id": "cd27210fcc62422766d19e8e",
+      "campaign_id": "a2bd7236b5b262d4107a",
+      "source_content_id": "",
+      "display": "Coal Tender",
+      "normalized": "COALTENDER",
+      "topic_id": "Vintage Railroads",
+      "puzzle_type": "word_search",
+      "tier": "Review Carefully",
+      "reasons": [
+        "Generated candidate — human review required"
+      ],
+      "provenance": "generated:gemini",
+      "status": "generated_unreviewed"
+    },
+    {
+      "candidate_id": "6a6e01940a60b97e00145814",
+      "campaign_id": "a2bd7236b5b262d4107a",
+      "source_content_id": "",
+      "display": "Passenger Car",
+      "normalized": "PASSENGERCAR",
+      "topic_id": "Vintage Railroads",
+      "puzzle_type": "word_search",
+      "tier": "Review Carefully",
+      "reasons": [
+        "Generated candidate — human review required"
+      ],
+      "provenance": "generated:gemini",
+      "status": "generated_unreviewed"
+    },
+    {
+      "candidate_id": "9d79ce0ee153e5c4e2017467",
+      "campaign_id": "a2bd7236b5b262d4107a",
+      "source_content_id": "",
+      "display": "Boxcar",
+      "normalized": "BOXCAR",
+      "topic_id": "Vintage Railroads",
+      "puzzle_type": "word_search",
+      "tier": "Review Carefully",
+      "reasons": [
+        "Generated candidate — human review required"
+      ],
+      "provenance": "generated:gemini",
+      "status": "generated_unreviewed"
+    },
+    {
+      "candidate_id": "e087f33e3294e23d93285e16",
+      "campaign_id": "a2bd7236b5b262d4107a",
+      "source_content_id": "",
+      "display": "Baggage Car",
+      "normalized": "BAGGAGECAR",
+      "topic_id": "Vintage Railroads",
+      "puzzle_type": "word_search",
+      "tier": "Review Carefully",
+      "reasons": [
+        "Generated candidate — human review required"
+      ],
+      "provenance": "generated:gemini",
+      "status": "generated_unreviewed"
+    },
+    {
+      "candidate_id": "757a872f0c7b1d619fc9fcb1",
+      "campaign_id": "a2bd7236b5b262d4107a",
+      "source_content_id": "",
+      "display": "Iron Horse",
+      "normalized": "IRONHORSE",
+      "topic_id": "Vintage Railroads",
+      "puzzle_type": "word_search",
+      "tier": "Review Carefully",
+      "reasons": [
+        "Generated candidate — human review required"
+      ],
+      "provenance": "generated:gemini",
+      "status": "generated_unreviewed"
+    },
+    {
+      "candidate_id": "b8832ab140be57007ddf288b",
+      "campaign_id": "a2bd7236b5b262d4107a",
+      "source_content_id": "",
+      "display": "Transcontinental",
+      "normalized": "TRANSCONTINENTAL",
+      "topic_id": "Vintage Railroads",
+      "puzzle_type": "word_search",
+      "tier": "Review Carefully",
+      "reasons": [
+        "Generated candidate — human review required"
+      ],
+      "provenance": "generated:gemini",
+      "status": "generated_unreviewed"
+    },
+    {
+      "candidate_id": "3f5f94c7cfb47a7cd4b34716",
+      "campaign_id": "a2bd7236b5b262d4107a",
+      "source_content_id": "",
+      "display": "Golden Spike",
+      "normalized": "GOLDENSPIKE",
+      "topic_id": "Vintage Railroads",
+      "puzzle_type": "word_search",
+      "tier": "Review Carefully",
+      "reasons": [
+        "Generated candidate — human review required"
+      ],
+      "provenance": "generated:gemini",
+      "status": "generated_unreviewed"
+    },
+    {
+      "candidate_id": "5d5d34e76cd6c1ee31adac62",
+      "campaign_id": "a2bd7236b5b262d4107a",
+      "source_content_id": "",
+      "display": "Gauge",
+      "normalized": "GAUGE",
+      "topic_id": "Vintage Railroads",
+      "puzzle_type": "word_search",
+      "tier": "Review Carefully",
+      "reasons": [
+        "Generated candidate — human review required"
+      ],
+      "provenance": "generated:gemini",
+      "status": "generated_unreviewed"
+    },
+    {
+      "candidate_id": "7902a4ed627eb9df388a90a2",
+      "campaign_id": "a2bd7236b5b262d4107a",
+      "source_content_id": "",
+      "display": "Trestle",
+      "normalized": "TRESTLE",
+      "topic_id": "Vintage Railroads",
+      "puzzle_type": "word_search",
+      "tier": "Review Carefully",
+      "reasons": [
+        "Generated candidate — human review required"
+      ],
+      "provenance": "generated:gemini",
+      "status": "generated_unreviewed"
+    },
+    {
+      "candidate_id": "9a7345eb9575ed8b233f9def",
+      "campaign_id": "a2bd7236b5b262d4107a",
+      "source_content_id": "",
+      "display": "Roundhouse",
+      "normalized": "ROUNDHOUSE",
+      "topic_id": "Vintage Railroads",
+      "puzzle_type": "word_search",
+      "tier": "Review Carefully",
+      "reasons": [
+        "Generated candidate — human review required"
+      ],
+      "provenance": "generated:gemini",
+      "status": "generated_unreviewed"
+    },
+    {
+      "candidate_id": "4369e51ff83974ddea9836cf",
+      "campaign_id": "a2bd7236b5b262d4107a",
+      "source_content_id": "",
+      "display": "Turntable",
+      "normalized": "TURNTABLE",
+      "topic_id": "Vintage Railroads",
+      "puzzle_type": "word_search",
+      "tier": "Review Carefully",
+      "reasons": [
+        "Generated candidate — human review required"
+      ],
+      "provenance": "generated:gemini",
+      "status": "generated_unreviewed"
+    },
+    {
+      "candidate_id": "3c4550e4d4a669a73e8c1409",
+      "campaign_id": "a2bd7236b5b262d4107a",
+      "source_content_id": "",
+      "display": "Switchboard",
+      "normalized": "SWITCHBOARD",
+      "topic_id": "Vintage Railroads",
+      "puzzle_type": "word_search",
+      "tier": "Review Carefully",
+      "reasons": [
+        "Generated candidate — human review required"
+      ],
+      "provenance": "generated:gemini",
+      "status": "generated_unreviewed"
+    },
+    {
+      "candidate_id": "c22a22f6e42b116871e61261",
+      "campaign_id": "a2bd7236b5b262d4107a",
+      "source_content_id": "",
+      "display": "Telegraph",
+      "normalized": "TELEGRAPH",
+      "topic_id": "Vintage Railroads",
+      "puzzle_type": "word_search",
+      "tier": "Review Carefully",
+      "reasons": [
+        "Generated candidate — human review required"
+      ],
+      "provenance": "generated:gemini",
+      "status": "generated_unreviewed"
+    },
+    {
+      "candidate_id": "76877b82444fd0f0cd192af0",
+      "campaign_id": "a2bd7236b5b262d4107a",
+      "source_content_id": "",
+      "display": "Depot",
+      "normalized": "DEPOT",
+      "topic_id": "Vintage Railroads",
+      "puzzle_type": "word_search",
+      "tier": "Review Carefully",
+      "reasons": [
+        "Generated candidate — human review required"
+      ],
+      "provenance": "generated:gemini",
+      "status": "generated_unreviewed"
+    },
+    {
+      "candidate_id": "67d1ef596440e2269215015a",
+      "campaign_id": "a2bd7236b5b262d4107a",
+      "source_content_id": "",
+      "display": "Platform",
+      "normalized": "PLATFORM",
+      "topic_id": "Vintage Railroads",
+      "puzzle_type": "word_search",
+      "tier": "Review Carefully",
+      "reasons": [
+        "Generated candidate — human review required"
+      ],
+      "provenance": "generated:gemini",
+      "status": "generated_unreviewed"
+    },
+    {
+      "candidate_id": "731035a7d40226c0a0cdcb4b",
+      "campaign_id": "a2bd7236b5b262d4107a",
+      "source_content_id": "",
+      "display": "Ticket Window",
+      "normalized": "TICKETWINDOW",
+      "topic_id": "Vintage Railroads",
+      "puzzle_type": "word_search",
+      "tier": "Review Carefully",
+      "reasons": [
+        "Generated candidate — human review required"
+      ],
+      "provenance": "generated:gemini",
+      "status": "generated_unreviewed"
+    },
+    {
+      "candidate_id": "50b40258cc9af2a820a29f13",
+      "campaign_id": "a2bd7236b5b262d4107a",
+      "source_content_id": "",
+      "display": "Waiting Room",
+      "normalized": "WAITINGROOM",
+      "topic_id": "Vintage Railroads",
+      "puzzle_type": "word_search",
+      "tier": "Review Carefully",
+      "reasons": [
+        "Generated candidate — human review required"
+      ],
+      "provenance": "generated:gemini",
+      "status": "generated_unreviewed"
+    },
+    {
+      "candidate_id": "60a937d7c0505a55291532e2",
+      "campaign_id": "a2bd7236b5b262d4107a",
+      "source_content_id": "",
+      "display": "Water Tank",
+      "normalized": "WATERTANK",
+      "topic_id": "Vintage Railroads",
+      "puzzle_type": "word_search",
+      "tier": "Review Carefully",
+      "reasons": [
+        "Generated candidate — human review required"
+      ],
+      "provenance": "generated:gemini",
+      "status": "generated_unreviewed"
+    },
+    {
+      "candidate_id": "c99c01014373f1f2455f2ec2",
+      "campaign_id": "a2bd7236b5b262d4107a",
+      "source_content_id": "",
+      "display": "Sleeping Car",
+      "normalized": "SLEEPINGCAR",
+      "topic_id": "Vintage Railroads",
+      "puzzle_type": "word_search",
+      "tier": "Review Carefully",
+      "reasons": [
+        "Generated candidate — human review required"
+      ],
+      "provenance": "generated:gemini",
+      "status": "generated_unreviewed"
+    },
+    {
+      "candidate_id": "dab58c6299a67594570fab08",
+      "campaign_id": "a2bd7236b5b262d4107a",
+      "source_content_id": "",
+      "display": "Dining Car",
+      "normalized": "DININGCAR",
+      "topic_id": "Vintage Railroads",
+      "puzzle_type": "word_search",
+      "tier": "Review Carefully",
+      "reasons": [
+        "Generated candidate — human review required"
+      ],
+      "provenance": "generated:gemini",
+      "status": "generated_unreviewed"
+    },
+    {
+      "candidate_id": "df5dad1e33bb3eb3addc7ea1",
+      "campaign_id": "a2bd7236b5b262d4107a",
+      "source_content_id": "",
+      "display": "Observation Car",
+      "normalized": "OBSERVATIONCAR",
+      "topic_id": "Vintage Railroads",
+      "puzzle_type": "word_search",
+      "tier": "Review Carefully",
+      "reasons": [
+        "Generated candidate — human review required"
+      ],
+      "provenance": "generated:gemini",
+      "status": "generated_unreviewed"
+    },
+    {
+      "candidate_id": "fe6c6be506e1a01a94271b21",
+      "campaign_id": "a2bd7236b5b262d4107a",
+      "source_content_id": "",
+      "display": "Conductor",
+      "normalized": "CONDUCTOR",
+      "topic_id": "Vintage Railroads",
+      "puzzle_type": "word_search",
+      "tier": "Review Carefully",
+      "reasons": [
+        "Generated candidate — human review required"
+      ],
+      "provenance": "generated:gemini",
+      "status": "generated_unreviewed"
+    },
+    {
+      "candidate_id": "21c4e98a41998e6ea075e9df",
+      "campaign_id": "a2bd7236b5b262d4107a",
+      "source_content_id": "",
+      "display": "Timetable",
+      "normalized": "TIMETABLE",
+      "topic_id": "Vintage Railroads",
+      "puzzle_type": "word_search",
+      "tier": "Review Carefully",
+      "reasons": [
+        "Generated candidate — human review required"
+      ],
+      "provenance": "generated:gemini",
+      "status": "generated_unreviewed"
+    },
+    {
+      "candidate_id": "cc42c4ce96b49c0b111c69b3",
+      "campaign_id": "d668bc69520d0bb4126c",
+      "source_content_id": "",
+      "display": "COMPASS",
+      "normalized": "COMPASS",
+      "topic_id": "Outdoor Survival Skills",
+      "puzzle_type": "word_search",
+      "tier": "Review Carefully",
+      "reasons": [
+        "Generated candidate — human review required"
+      ],
+      "provenance": "generated:gemini",
+      "status": "generated_unreviewed"
+    },
+    {
+      "candidate_id": "d8c3bd3d848a66a0cc0eb2d3",
+      "campaign_id": "d668bc69520d0bb4126c",
+      "source_content_id": "",
+      "display": "NORTH STAR",
+      "normalized": "NORTHSTAR",
+      "topic_id": "Outdoor Survival Skills",
+      "puzzle_type": "word_search",
+      "tier": "Review Carefully",
+      "reasons": [
+        "Generated candidate — human review required"
+      ],
+      "provenance": "generated:gemini",
+      "status": "generated_unreviewed"
+    },
+    {
+      "candidate_id": "cb18af876719b07a03c7fd16",
+      "campaign_id": "d668bc69520d0bb4126c",
+      "source_content_id": "",
+      "display": "TOPO MAP",
+      "normalized": "TOPOMAP",
+      "topic_id": "Outdoor Survival Skills",
+      "puzzle_type": "word_search",
+      "tier": "Review Carefully",
+      "reasons": [
+        "Generated candidate — human review required"
+      ],
+      "provenance": "generated:gemini",
+      "status": "generated_unreviewed"
+    },
+    {
+      "candidate_id": "434eb86683edb25e3ebe3c11",
+      "campaign_id": "d668bc69520d0bb4126c",
+      "source_content_id": "",
+      "display": "LANDMARK",
+      "normalized": "LANDMARK",
+      "topic_id": "Outdoor Survival Skills",
+      "puzzle_type": "word_search",
+      "tier": "Review Carefully",
+      "reasons": [
+        "Generated candidate — human review required"
+      ],
+      "provenance": "generated:gemini",
+      "status": "generated_unreviewed"
+    },
+    {
+      "candidate_id": "f5bdc571e127cd0067570da6",
+      "campaign_id": "d668bc69520d0bb4126c",
+      "source_content_id": "",
+      "display": "BEARING",
+      "normalized": "BEARING",
+      "topic_id": "Outdoor Survival Skills",
+      "puzzle_type": "word_search",
+      "tier": "Review Carefully",
+      "reasons": [
+        "Generated candidate — human review required"
+      ],
+      "provenance": "generated:gemini",
+      "status": "generated_unreviewed"
+    },
+    {
+      "candidate_id": "beda591e9cb5728f846b4886",
+      "campaign_id": "d668bc69520d0bb4126c",
+      "source_content_id": "",
+      "display": "TARPAULIN",
+      "normalized": "TARPAULIN",
+      "topic_id": "Outdoor Survival Skills",
+      "puzzle_type": "word_search",
+      "tier": "Review Carefully",
+      "reasons": [
+        "Generated candidate — human review required"
+      ],
+      "provenance": "generated:gemini",
+      "status": "generated_unreviewed"
+    },
+    {
+      "candidate_id": "e6e1863021c72af68f7d514a",
+      "campaign_id": "d668bc69520d0bb4126c",
+      "source_content_id": "",
+      "display": "LEAN TO",
+      "normalized": "LEANTO",
+      "topic_id": "Outdoor Survival Skills",
+      "puzzle_type": "word_search",
+      "tier": "Review Carefully",
+      "reasons": [
+        "Generated candidate — human review required"
+      ],
+      "provenance": "generated:gemini",
+      "status": "generated_unreviewed"
+    },
+    {
+      "candidate_id": "2747d0056577172059eb8a31",
+      "campaign_id": "d668bc69520d0bb4126c",
+      "source_content_id": "",
+      "display": "RIDGE LINE",
+      "normalized": "RIDGELINE",
+      "topic_id": "Outdoor Survival Skills",
+      "puzzle_type": "word_search",
+      "tier": "Review Carefully",
+      "reasons": [
+        "Generated candidate — human review required"
+      ],
+      "provenance": "generated:gemini",
+      "status": "generated_unreviewed"
+    },
+    {
+      "candidate_id": "b1eefddebc810d04502b9310",
+      "campaign_id": "d668bc69520d0bb4126c",
+      "source_content_id": "",
+      "display": "INSULATION",
+      "normalized": "INSULATION",
+      "topic_id": "Outdoor Survival Skills",
+      "puzzle_type": "word_search",
+      "tier": "Review Carefully",
+      "reasons": [
+        "Generated candidate — human review required"
+      ],
+      "provenance": "generated:gemini",
+      "status": "generated_unreviewed"
+    },
+    {
+      "candidate_id": "235b75c6748b4df338e51041",
+      "campaign_id": "d668bc69520d0bb4126c",
+      "source_content_id": "",
+      "display": "PARACORD",
+      "normalized": "PARACORD",
+      "topic_id": "Outdoor Survival Skills",
+      "puzzle_type": "word_search",
+      "tier": "Review Carefully",
+      "reasons": [
+        "Generated candidate — human review required"
+      ],
+      "provenance": "generated:gemini",
+      "status": "generated_unreviewed"
+    },
+    {
+      "candidate_id": "e9a11597f1e583a4639172fa",
+      "campaign_id": "d668bc69520d0bb4126c",
+      "source_content_id": "",
+      "display": "FIRST AID",
+      "normalized": "FIRSTAID",
+      "topic_id": "Outdoor Survival Skills",
+      "puzzle_type": "word_search",
+      "tier": "Review Carefully",
+      "reasons": [
+        "Generated candidate — human review required"
+      ],
+      "provenance": "generated:gemini",
+      "status": "generated_unreviewed"
+    },
+    {
+      "candidate_id": "1c4f0c623cb33937531a52de",
+      "campaign_id": "d668bc69520d0bb4126c",
+      "source_content_id": "",
+      "display": "WATER FILTER",
+      "normalized": "WATERFILTER",
+      "topic_id": "Outdoor Survival Skills",
+      "puzzle_type": "word_search",
+      "tier": "Review Carefully",
+      "reasons": [
+        "Generated candidate — human review required"
+      ],
+      "provenance": "generated:gemini",
+      "status": "generated_unreviewed"
+    },
+    {
+      "candidate_id": "640c9e1b9e4eccbbfcc33b05",
+      "campaign_id": "d668bc69520d0bb4126c",
+      "source_content_id": "",
+      "display": "FIRE BLANKET",
+      "normalized": "FIREBLANKET",
+      "topic_id": "Outdoor Survival Skills",
+      "puzzle_type": "word_search",
+      "tier": "Review Carefully",
+      "reasons": [
+        "Generated candidate — human review required"
+      ],
+      "provenance": "generated:gemini",
+      "status": "generated_unreviewed"
+    },
+    {
+      "candidate_id": "0668e28e8000c9f9d866a66e",
+      "campaign_id": "d668bc69520d0bb4126c",
+      "source_content_id": "",
+      "display": "SIGNAL MIRROR",
+      "normalized": "SIGNALMIRROR",
+      "topic_id": "Outdoor Survival Skills",
+      "puzzle_type": "word_search",
+      "tier": "Review Carefully",
+      "reasons": [
+        "Generated candidate — human review required"
+      ],
+      "provenance": "generated:gemini",
+      "status": "generated_unreviewed"
+    },
+    {
+      "candidate_id": "0d848cb211bb763bb2d85d13",
+      "campaign_id": "d668bc69520d0bb4126c",
+      "source_content_id": "",
+      "display": "TICK REMOVER",
+      "normalized": "TICKREMOVER",
+      "topic_id": "Outdoor Survival Skills",
+      "puzzle_type": "word_search",
+      "tier": "Review Carefully",
+      "reasons": [
+        "Generated candidate — human review required"
+      ],
+      "provenance": "generated:gemini",
+      "status": "generated_unreviewed"
+    },
+    {
+      "candidate_id": "ee1f83ce8fec06e81f66a33f",
+      "campaign_id": "d668bc69520d0bb4126c",
+      "source_content_id": "",
+      "display": "FLINT",
+      "normalized": "FLINT",
+      "topic_id": "Outdoor Survival Skills",
+      "puzzle_type": "word_search",
+      "tier": "Review Carefully",
+      "reasons": [
+        "Generated candidate — human review required"
+      ],
+      "provenance": "generated:gemini",
+      "status": "generated_unreviewed"
+    },
+    {
+      "candidate_id": "b285436eaaee2d1d5825a96d",
+      "campaign_id": "d668bc69520d0bb4126c",
+      "source_content_id": "",
+      "display": "TINDER",
+      "normalized": "TINDER",
+      "topic_id": "Outdoor Survival Skills",
+      "puzzle_type": "word_search",
+      "tier": "Review Carefully",
+      "reasons": [
+        "Generated candidate — human review required"
+      ],
+      "provenance": "generated:gemini",
+      "status": "generated_unreviewed"
+    },
+    {
+      "candidate_id": "097eb877ea7c5ba5216c6fe9",
+      "campaign_id": "d668bc69520d0bb4126c",
+      "source_content_id": "",
+      "display": "MULTI TOOL",
+      "normalized": "MULTITOOL",
+      "topic_id": "Outdoor Survival Skills",
+      "puzzle_type": "word_search",
+      "tier": "Review Carefully",
+      "reasons": [
+        "Generated candidate — human review required"
+      ],
+      "provenance": "generated:gemini",
+      "status": "generated_unreviewed"
+    },
+    {
+      "candidate_id": "ab4084b96acdedbe3f4efe29",
+      "campaign_id": "d668bc69520d0bb4126c",
+      "source_content_id": "",
+      "display": "HEADLAMP",
+      "normalized": "HEADLAMP",
+      "topic_id": "Outdoor Survival Skills",
+      "puzzle_type": "word_search",
+      "tier": "Review Carefully",
+      "reasons": [
+        "Generated candidate — human review required"
+      ],
+      "provenance": "generated:gemini",
+      "status": "generated_unreviewed"
+    },
+    {
+      "candidate_id": "b50aa57693854e3f524ced9a",
+      "campaign_id": "d668bc69520d0bb4126c",
+      "source_content_id": "",
+      "display": "WHISTLE",
+      "normalized": "WHISTLE",
+      "topic_id": "Outdoor Survival Skills",
+      "puzzle_type": "word_search",
+      "tier": "Review Carefully",
+      "reasons": [
+        "Generated candidate — human review required"
+      ],
+      "provenance": "generated:gemini",
+      "status": "generated_unreviewed"
+    },
+    {
+      "candidate_id": "a06f6e44d3c516b9ae76bb4a",
+      "campaign_id": "d668bc69520d0bb4126c",
+      "source_content_id": "",
+      "display": "FORAGING",
+      "normalized": "FORAGING",
+      "topic_id": "Outdoor Survival Skills",
+      "puzzle_type": "word_search",
+      "tier": "Review Carefully",
+      "reasons": [
+        "Generated candidate — human review required"
+      ],
+      "provenance": "generated:gemini",
+      "status": "generated_unreviewed"
+    },
+    {
+      "candidate_id": "3e6bdbd2789b71c2b950010e",
+      "campaign_id": "d668bc69520d0bb4126c",
+      "source_content_id": "",
+      "display": "WEATHER VANE",
+      "normalized": "WEATHERVANE",
+      "topic_id": "Outdoor Survival Skills",
+      "puzzle_type": "word_search",
+      "tier": "Review Carefully",
+      "reasons": [
+        "Generated candidate — human review required"
+      ],
+      "provenance": "generated:gemini",
+      "status": "generated_unreviewed"
+    },
+    {
+      "candidate_id": "ea69c80db822c1bf292d5186",
+      "campaign_id": "d668bc69520d0bb4126c",
+      "source_content_id": "",
+      "display": "DEHYDRATION",
+      "normalized": "DEHYDRATION",
+      "topic_id": "Outdoor Survival Skills",
+      "puzzle_type": "word_search",
+      "tier": "Review Carefully",
+      "reasons": [
+        "Generated candidate — human review required"
+      ],
+      "provenance": "generated:gemini",
+      "status": "generated_unreviewed"
+    },
+    {
+      "candidate_id": "4fa301340ea9cc8dc45a560a",
+      "campaign_id": "d668bc69520d0bb4126c",
+      "source_content_id": "",
+      "display": "BIVOUAC",
+      "normalized": "BIVOUAC",
+      "topic_id": "Outdoor Survival Skills",
+      "puzzle_type": "word_search",
+      "tier": "Review Carefully",
+      "reasons": [
+        "Generated candidate — human review required"
+      ],
+      "provenance": "generated:gemini",
+      "status": "generated_unreviewed"
+    },
+    {
+      "candidate_id": "36029726d2b8e1124e0df62f",
+      "campaign_id": "d668bc69520d0bb4126c",
+      "source_content_id": "",
+      "display": "SPLINT",
+      "normalized": "SPLINT",
+      "topic_id": "Outdoor Survival Skills",
+      "puzzle_type": "word_search",
+      "tier": "Review Carefully",
+      "reasons": [
+        "Generated candidate — human review required"
+      ],
+      "provenance": "generated:gemini",
+      "status": "generated_unreviewed"
+    },
+    {
+      "candidate_id": "b3c6257bb643421baa1bf771",
+      "campaign_id": "60ab64f1e4b185027d42",
+      "source_content_id": "",
+      "display": "rail planter",
+      "normalized": "RAILPLANTER",
+      "topic_id": "Urban Gardening",
+      "puzzle_type": "word_search",
+      "tier": "Review Carefully",
+      "reasons": [
+        "Generated candidate — human review required"
+      ],
+      "provenance": "generated:gemini",
+      "status": "generated_unreviewed"
+    },
+    {
+      "candidate_id": "fe185124d497af719215bf62",
+      "campaign_id": "60ab64f1e4b185027d42",
+      "source_content_id": "",
+      "display": "hanging basket",
+      "normalized": "HANGINGBASKET",
+      "topic_id": "Urban Gardening",
+      "puzzle_type": "word_search",
+      "tier": "Review Carefully",
+      "reasons": [
+        "Generated candidate — human review required"
+      ],
+      "provenance": "generated:gemini",
+      "status": "generated_unreviewed"
+    },
+    {
+      "candidate_id": "88752cefa5096980715811e3",
+      "campaign_id": "60ab64f1e4b185027d42",
+      "source_content_id": "",
+      "display": "railing box",
+      "normalized": "RAILINGBOX",
+      "topic_id": "Urban Gardening",
+      "puzzle_type": "word_search",
+      "tier": "Review Carefully",
+      "reasons": [
+        "Generated candidate — human review required"
+      ],
+      "provenance": "generated:gemini",
+      "status": "generated_unreviewed"
+    },
+    {
+      "candidate_id": "cad1541d78bad731818a1594",
+      "campaign_id": "60ab64f1e4b185027d42",
+      "source_content_id": "",
+      "display": "clay pot",
+      "normalized": "CLAYPOT",
+      "topic_id": "Urban Gardening",
+      "puzzle_type": "word_search",
+      "tier": "Review Carefully",
+      "reasons": [
+        "Generated candidate — human review required"
+      ],
+      "provenance": "generated:gemini",
+      "status": "generated_unreviewed"
+    },
+    {
+      "candidate_id": "ba6800efb3accc1afeba7444",
+      "campaign_id": "60ab64f1e4b185027d42",
+      "source_content_id": "",
+      "display": "grow bag",
+      "normalized": "GROWBAG",
+      "topic_id": "Urban Gardening",
+      "puzzle_type": "word_search",
+      "tier": "Review Carefully",
+      "reasons": [
+        "Generated candidate — human review required"
+      ],
+      "provenance": "generated:gemini",
+      "status": "generated_unreviewed"
+    },
+    {
+      "candidate_id": "b96891ff236b7c8944604ba4",
+      "campaign_id": "60ab64f1e4b185027d42",
+      "source_content_id": "",
+      "display": "potting soil",
+      "normalized": "POTTINGSOIL",
+      "topic_id": "Urban Gardening",
+      "puzzle_type": "word_search",
+      "tier": "Review Carefully",
+      "reasons": [
+        "Generated candidate — human review required"
+      ],
+      "provenance": "generated:gemini",
+      "status": "generated_unreviewed"
+    },
+    {
+      "candidate_id": "4ed7b92c7fb339900cdfb460",
+      "campaign_id": "60ab64f1e4b185027d42",
+      "source_content_id": "",
+      "display": "drainage hole",
+      "normalized": "DRAINAGEHOLE",
+      "topic_id": "Urban Gardening",
+      "puzzle_type": "word_search",
+      "tier": "Review Carefully",
+      "reasons": [
+        "Generated candidate — human review required"
+      ],
+      "provenance": "generated:gemini",
+      "status": "generated_unreviewed"
+    },
+    {
+      "candidate_id": "a74ad9933272b31145322f0a",
+      "campaign_id": "60ab64f1e4b185027d42",
+      "source_content_id": "",
+      "display": "plot",
+      "normalized": "PLOT",
+      "topic_id": "Urban Gardening",
+      "puzzle_type": "word_search",
+      "tier": "Review Carefully",
+      "reasons": [
+        "Generated candidate — human review required"
+      ],
+      "provenance": "generated:gemini",
+      "status": "generated_unreviewed"
+    },
+    {
+      "candidate_id": "3b0a64de750f3f28838e6e7c",
+      "campaign_id": "60ab64f1e4b185027d42",
+      "source_content_id": "",
+      "display": "shared shed",
+      "normalized": "SHAREDSHED",
+      "topic_id": "Urban Gardening",
+      "puzzle_type": "word_search",
+      "tier": "Review Carefully",
+      "reasons": [
+        "Generated candidate — human review required"
+      ],
+      "provenance": "generated:gemini",
+      "status": "generated_unreviewed"
+    },
+    {
+      "candidate_id": "466f245b7de2ef71dea62353",
+      "campaign_id": "60ab64f1e4b185027d42",
+      "source_content_id": "",
+      "display": "tool library",
+      "normalized": "TOOLLIBRARY",
+      "topic_id": "Urban Gardening",
+      "puzzle_type": "word_search",
+      "tier": "Review Carefully",
+      "reasons": [
+        "Generated candidate — human review required"
+      ],
+      "provenance": "generated:gemini",
+      "status": "generated_unreviewed"
+    },
+    {
+      "candidate_id": "d3d4cabfb8190944378dd28f",
+      "campaign_id": "60ab64f1e4b185027d42",
+      "source_content_id": "",
+      "display": "compost bin",
+      "normalized": "COMPOSTBIN",
+      "topic_id": "Urban Gardening",
+      "puzzle_type": "word_search",
+      "tier": "Review Carefully",
+      "reasons": [
+        "Generated candidate — human review required"
+      ],
+      "provenance": "generated:gemini",
+      "status": "generated_unreviewed"
+    },
+    {
+      "candidate_id": "baaeef3e272853ac08a47ec0",
+      "campaign_id": "60ab64f1e4b185027d42",
+      "source_content_id": "",
+      "display": "microgreens",
+      "normalized": "MICROGREENS",
+      "topic_id": "Urban Gardening",
+      "puzzle_type": "word_search",
+      "tier": "Review Carefully",
+      "reasons": [
+        "Generated candidate — human review required"
+      ],
+      "provenance": "generated:gemini",
+      "status": "generated_unreviewed"
+    },
+    {
+      "candidate_id": "b05a2262424da9e88e4124d0",
+      "campaign_id": "60ab64f1e4b185027d42",
+      "source_content_id": "",
+      "display": "herb rack",
+      "normalized": "HERBRACK",
+      "topic_id": "Urban Gardening",
+      "puzzle_type": "word_search",
+      "tier": "Review Carefully",
+      "reasons": [
+        "Generated candidate — human review required"
+      ],
+      "provenance": "generated:gemini",
+      "status": "generated_unreviewed"
+    },
+    {
+      "candidate_id": "d8ffde06a2fc2327949f83e0",
+      "campaign_id": "60ab64f1e4b185027d42",
+      "source_content_id": "",
+      "display": "windowsill",
+      "normalized": "WINDOWSILL",
+      "topic_id": "Urban Gardening",
+      "puzzle_type": "word_search",
+      "tier": "Review Carefully",
+      "reasons": [
+        "Generated candidate — human review required"
+      ],
+      "provenance": "generated:gemini",
+      "status": "generated_unreviewed"
+    },
+    {
+      "candidate_id": "76cab0e3fd268af3e77f53e4",
+      "campaign_id": "60ab64f1e4b185027d42",
+      "source_content_id": "",
+      "display": "vertical grid",
+      "normalized": "VERTICALGRID",
+      "topic_id": "Urban Gardening",
+      "puzzle_type": "word_search",
+      "tier": "Review Carefully",
+      "reasons": [
+        "Generated candidate — human review required"
+      ],
+      "provenance": "generated:gemini",
+      "status": "generated_unreviewed"
+    }
+  ]
+}

@@ -1,0 +1,72 @@
+{
+  "version": "1",
+  "book_id": "929d349db486",
+  "runs": [
+    {
+      "run_id": "0b7c5b1d1eb4bc14",
+      "started": "2026-09-04T22:06:19",
+      "facts_fingerprint": "d9c824043a88ef09f8eb618eaa321d9b91f66ae91705c18c3005d40bc6743871",
+      "result": "running"
+    }
+  ],
+  "stages": {
+    "validate": {
+      "status": "complete",
+      "fingerprint": "fae89c509d64487552a12e65d37ef1de02dfd583008a78835893eeb0559340fe",
+      "completed": "2026-09-04T22:06:19",
+      "detail": "Contributor, content capacity, and automatic-plan checks passed before generation.",
+      "artifact": ""
+    },
+    "generate": {
+      "status": "complete",
+      "fingerprint": "17e219ef125aad9b070592d7c05501d74091cd34394a936110954dddc0b95806",
+      "completed": "2026-09-04T22:06:20",
+      "detail": "Interior and answer pages were generated from the selected puzzle type and seed.",
+      "artifact": "C:\\Users\\jorda\\Desktop\\Word Search Creator\\kdp-puzzle-engine\\out\\acceptance_mixed_brain_games_20260904_220619\\01_PRINT_UPLOADS\\interior.pdf"
+    },
+    "cover": {
+      "status": "complete",
+      "fingerprint": "b287ce0846283884ae3a534dcb4127e44bce3a5a044ad60417e9a7bff36b601c",
+      "completed": "2026-09-04T22:06:29",
+      "detail": "Front cover was rendered from verified facts and approved matching art.",
+      "artifact": "C:\\Users\\jorda\\Desktop\\Word Search Creator\\kdp-puzzle-engine\\out\\acceptance_mixed_brain_games_20260904_220619\\03_PREVIEWS\\front_cover.png"
+    },
+    "preflight": {
+      "status": "complete",
+      "fingerprint": "d296a4177714a73c9bbb53875d1130a3dae9e510d961f6fc6ba8fb876ee646c0",
+      "completed": "2026-09-04T22:06:55",
+      "detail": "Wrap and print preflight passed using the final interior page count.",
+      "artifact": "C:\\Users\\jorda\\Desktop\\Word Search Creator\\kdp-puzzle-engine\\out\\acceptance_mixed_brain_games_20260904_220619\\01_PRINT_UPLOADS\\kdp_full_wrap.pdf"
+    },
+    "listing": {
+      "status": "complete",
+      "fingerprint": "f687f854426dd12abd570a4ed67609f92ebba12a2ed027106366854d0d8ce56b",
+      "completed": "2026-09-04T22:06:55",
+      "detail": "Listing kit was generated from verified book facts.",
+      "artifact": ""
+    },
+    "qa": {
+      "status": "complete",
+      "fingerprint": "34c55d672394d8056bfe6c4c09fa64c60810d29c724bc715840a9dd2fbc8e04b",
+      "completed": "2026-09-04T22:07:02",
+      "detail": "QA Needs Review",
+      "artifact": ""
+    },
+    "package": {
+      "status": "complete",
+      "fingerprint": "394eee9e38316d60f3bd5bba4257cf968b0c7e23d884af5827843fa11c5f949e",
+      "completed": "2026-09-04T22:08:12",
+      "detail": "Final package inspection passed and master release files were created.",
+      "artifact": "C:\\Users\\jorda\\Desktop\\Word Search Creator\\kdp-puzzle-engine\\out\\acceptance_mixed_brain_games_20260904_220619"
+    },
+    "register": {
+      "status": "complete",
+      "fingerprint": "67620596b8378343e416aa3e3c288fea5bd14cc8147064a6550b246ccbf41ee4",
+      "completed": "2026-09-04T22:08:13",
+      "detail": "Finished package was registered in Publishing Center.",
+      "artifact": ""
+    }
+  },
+  "facts_fingerprint": "d9c824043a88ef09f8eb618eaa321d9b91f66ae91705c18c3005d40bc6743871",
+  "last_started": "2026-09-04T22:06:19"
+}

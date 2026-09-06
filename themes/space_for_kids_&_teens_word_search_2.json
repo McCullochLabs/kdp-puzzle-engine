@@ -1,0 +1,834 @@
+{
+  "title": "Space for Kids & Teens Word Search",
+  "subtitle": "No-repeat themed word search puzzles for adults & teens",
+  "author": "Jordan M. Slade",
+  "audience": "Adults & Teens",
+  "buyer_angle": "Relaxation",
+  "palette": "midnight-gold",
+  "cover_style": "halo",
+  "detected_topic": "Space for Kids & Teens",
+  "recommended_palette": "midnight-gold",
+  "recommended_cover_style": "halo",
+  "difficulty_label": "Challenging",
+  "clipart_search_terms": "Space for Kids & Teens illustration clipart transparent background",
+  "no_repeat_words": true,
+  "cover_badge": "NO REPEATED WORDS",
+  "puzzles": [
+    {
+      "name": "Space for Kids & Teens Puzzle 001",
+      "words": [
+        "FEATHER",
+        "ATLANTIS",
+        "NORMA",
+        "GRAVITYGAME",
+        "POLARORBIT",
+        "NEUTRINO",
+        "SEMIMAJOR",
+        "UNIVERSEBOOK",
+        "SPACEWEATHER",
+        "TELESCOPEMOUNT",
+        "ANDROMEDA",
+        "ASCENSION"
+      ]
+    },
+    {
+      "name": "Space for Kids & Teens Puzzle 002",
+      "words": [
+        "POLLUX",
+        "PHOTOSPHERE",
+        "ORIONNEBULA",
+        "AQUILA",
+        "ARIEL",
+        "STARCAMP",
+        "HELIOS",
+        "ULTRAVIOLETBAND",
+        "SPACEFLIGHT",
+        "ARTEMISONE",
+        "MAGNETOPAUSE",
+        "RUSALKA"
+      ]
+    },
+    {
+      "name": "Space for Kids & Teens Puzzle 003",
+      "words": [
+        "PARALLAX",
+        "FLUENCE",
+        "BABYPLANET",
+        "REGOLITH",
+        "CHELYABINSK",
+        "MOUNTAIN",
+        "ORBITPLANE",
+        "METEORSHOWER",
+        "DAEDALIA",
+        "INFRARED",
+        "ATEA",
+        "INGENUITY"
+      ]
+    },
+    {
+      "name": "Space for Kids & Teens Puzzle 004",
+      "words": [
+        "BOLOMETRIC",
+        "SUN",
+        "HAMAL",
+        "CELESTIAL",
+        "UNIVERSECLUB",
+        "DELPHINUS",
+        "ASTRONOMYCLUB",
+        "SPACELAB",
+        "ALIEN",
+        "PSYCH",
+        "FORTUNA",
+        "TETHYS"
+      ]
+    },
+    {
+      "name": "Space for Kids & Teens Puzzle 005",
+      "words": [
+        "MAGNITUDE",
+        "HAYABUSA",
+        "PUCK",
+        "GIBBOUS",
+        "GEOSYNCHRONOUS",
+        "MOONPARTY",
+        "BLACKBODY",
+        "LEGRANGE",
+        "VENUSPROBE",
+        "SURVEYOR",
+        "BIGBANG",
+        "SOLARFLARE"
+      ]
+    },
+    {
+      "name": "Space for Kids & Teens Puzzle 006",
+      "words": [
+        "EXPLOREMORE",
+        "CAPELLA",
+        "HELIOCENTRIC",
+        "CURIOSITY",
+        "PARTHENOPE",
+        "LEDA",
+        "HEAVENS",
+        "STARALBUM",
+        "CAPRICORNUS",
+        "DWARF",
+        "SPACEEXPLORER",
+        "INTERSTELLAR"
+      ]
+    },
+    {
+      "name": "Space for Kids & Teens Puzzle 007",
+      "words": [
+        "RADIANCE",
+        "BIANCA",
+        "ZODIAC",
+        "HUBBLE",
+        "ALNILAM",
+        "AEOLUS",
+        "OORTCLOUD",
+        "GIANTPLANET",
+        "CIRCUMLUNAR",
+        "MOONSTONE",
+        "COMMANDMODULE",
+        "LUNA"
+      ]
+    },
+    {
+      "name": "Space for Kids & Teens Puzzle 008",
+      "words": [
+        "KALYKE",
+        "SELENE",
+        "ARGO",
+        "ROCKYWORLD",
+        "KEPLER",
+        "JOURNEY",
+        "GODDARD",
+        "NIGHTLIGHT",
+        "GRAVITATIONAL",
+        "SOLARIS",
+        "PERIHELION",
+        "COUNTDOWN"
+      ]
+    },
+    {
+      "name": "Space for Kids & Teens Puzzle 009",
+      "words": [
+        "PICTOR",
+        "ACTAEON",
+        "STARCLOUD",
+        "DAPHNIS",
+        "COMA",
+        "SINOPE",
+        "DESDEMONA",
+        "ALBI",
+        "FLIGHTPLAN",
+        "ALTITUDE",
+        "ASTROGEOLOGY",
+        "SUNNY"
+      ]
+    },
+    {
+      "name": "Space for Kids & Teens Puzzle 010",
+      "words": [
+        "MINORPLANET",
+        "TELESCOPECASE",
+        "SPHERE",
+        "INCLINATION",
+        "MAGNETOGRAM",
+        "SPACEGARDEN",
+        "JETSTREAM",
+        "RHEA",
+        "TERRESTRIAL",
+        "MIRANDA",
+        "POLARISPROBE",
+        "CRYOVOLCANO"
+      ]
+    },
+    {
+      "name": "Space for Kids & Teens Puzzle 011",
+      "words": [
+        "HEPHAESTUS",
+        "OBSERVATION",
+        "PALEOBLUE",
+        "VISIBLELIGHT",
+        "BERENICES",
+        "BRIGHTSKY",
+        "STARGLOW",
+        "METEOR",
+        "ASELLUS",
+        "OUTGASSING",
+        "BASALT",
+        "MOONCHILD"
+      ]
+    },
+    {
+      "name": "Space for Kids & Teens Puzzle 012",
+      "words": [
+        "ARIES",
+        "CRESSIDA",
+        "LANTERN",
+        "NEBULACLOUD",
+        "BEYOND",
+        "ROUNDPLANET",
+        "ZODIACAL",
+        "TRANSIT",
+        "BELINDA",
+        "AEGIR",
+        "CARPO",
+        "CHANDRAYAAN"
+      ]
+    },
+    {
+      "name": "Space for Kids & Teens Puzzle 013",
+      "words": [
+        "QUIESCENT",
+        "MEGACLITE",
+        "STARLESSON",
+        "ASTRONOMER",
+        "PISCES",
+        "ASTRONAUT",
+        "APUS",
+        "EGEDE",
+        "SABIK",
+        "VOYAGERPROBE",
+        "GEOCENTRIC",
+        "INNERPLANET"
+      ]
+    },
+    {
+      "name": "Space for Kids & Teens Puzzle 014",
+      "words": [
+        "HAUMEA",
+        "MOONBEAM",
+        "RETURN",
+        "LITTLEDIPPER",
+        "THEMISTO",
+        "WASP",
+        "SNOWFLAKE",
+        "ISOTROPE",
+        "GASCLOUD",
+        "COUNTDOWNCLOCK",
+        "NEBULAE",
+        "EMISSIONLINE"
+      ]
+    },
+    {
+      "name": "Space for Kids & Teens Puzzle 015",
+      "words": [
+        "STARLINER",
+        "IONOSPHERE",
+        "OUTERPLANET",
+        "SYCORAX",
+        "TUCANA",
+        "LONGPERIOD",
+        "CONTINENTS",
+        "VULCAN",
+        "FARAWAY",
+        "TRIANGULUM",
+        "RADIOTELESCOPE",
+        "PLANETDAY"
+      ]
+    },
+    {
+      "name": "Space for Kids & Teens Puzzle 016",
+      "words": [
+        "DISCOVERYDAY",
+        "MATTER",
+        "GAIA",
+        "MISSIONPATCH",
+        "RADIOMETER",
+        "IDUN",
+        "SPACEHAB",
+        "PAYLOAD",
+        "METEOROID",
+        "ARGUS",
+        "ALKAID",
+        "DARKNEBULA"
+      ]
+    },
+    {
+      "name": "Space for Kids & Teens Puzzle 017",
+      "words": [
+        "ELARA",
+        "SPACEPARTY",
+        "WAVELENGTH",
+        "NIGHT",
+        "DAWNMISSION",
+        "URSAMAJOR",
+        "SOLARRADIUS",
+        "MOONRAKER",
+        "XUNTIAN",
+        "CHANDRAYAANONE",
+        "TESS",
+        "ELECTRA"
+      ]
+    },
+    {
+      "name": "Space for Kids & Teens Puzzle 018",
+      "words": [
+        "MICROLENSING",
+        "SPACEAGE",
+        "STARMUSEUM",
+        "SPACECAMP",
+        "ROCKETTOY",
+        "SUNHALO",
+        "APSIS",
+        "SOLARECLIPSE",
+        "NIGHTMOON",
+        "MOONDANCE",
+        "ORION",
+        "MILKYWAY"
+      ]
+    },
+    {
+      "name": "Space for Kids & Teens Puzzle 019",
+      "words": [
+        "OPTICALTELESCOPE",
+        "ORBIT",
+        "STARSTORY",
+        "TARANIS",
+        "TINYPLANET",
+        "ASTRONAUTTEAM",
+        "LYSITHEA",
+        "SOJOURNER",
+        "COLUMBIA",
+        "NEARSHOOTER",
+        "HYDRUS",
+        "TERRAN"
+      ]
+    },
+    {
+      "name": "Space for Kids & Teens Puzzle 020",
+      "words": [
+        "MEGARA",
+        "ASTROBIOLOGY",
+        "MAGIC",
+        "ANGULARSIZE",
+        "PROGRADE",
+        "ASTEROIDFIELD",
+        "STARADVENTURE",
+        "BODES",
+        "FLARESTAR",
+        "ROTATION",
+        "ASTROMETRY",
+        "QUETA"
+      ]
+    },
+    {
+      "name": "Space for Kids & Teens Puzzle 021",
+      "words": [
+        "LAUNCHING",
+        "SUPERNOVAE",
+        "GAMMARRAY",
+        "FIREFLY",
+        "ALPHERATZ",
+        "SUNDIAL",
+        "DEBRISDISK",
+        "BLAZAR",
+        "LAB",
+        "SPACEBADGE",
+        "COMETTAIL",
+        "GREATREDSPOT"
+      ]
+    },
+    {
+      "name": "Space for Kids & Teens Puzzle 022",
+      "words": [
+        "MICROMETEORITE",
+        "DWARFPLANET",
+        "PROTOGALAXY",
+        "ANTAPEX",
+        "CAMELOPARDALIS",
+        "KORE",
+        "PARACHUTE",
+        "SPECIMEN",
+        "CYGNUS",
+        "BLUEPLANET",
+        "ASTEROID",
+        "UNIVERSEGUIDE"
+      ]
+    },
+    {
+      "name": "Space for Kids & Teens Puzzle 023",
+      "words": [
+        "LRO",
+        "BRADBURY",
+        "CENTAURUS",
+        "PROTON",
+        "STARWATCH",
+        "SAGITTA",
+        "GLOWING",
+        "DREAM",
+        "TARVOS",
+        "RAINCLOUD",
+        "MESSENGER",
+        "MOLECULARCLOUD"
+      ]
+    },
+    {
+      "name": "Space for Kids & Teens Puzzle 024",
+      "words": [
+        "ELECTROSTATIC",
+        "STARFRUIT",
+        "STEPHANO",
+        "MARTIAN",
+        "VOYAGERONE",
+        "TWILIGHTLINE",
+        "INTERFEROMETER",
+        "PLANETARYCORE",
+        "APOLLO",
+        "EXTRAGALACTIC",
+        "SUNBEAM",
+        "STARBOOK"
+      ]
+    },
+    {
+      "name": "Space for Kids & Teens Puzzle 025",
+      "words": [
+        "SATURNRINGS",
+        "PATHFINDER",
+        "MAB",
+        "UMBRIEL",
+        "HIMALIA",
+        "ULTRAVIOLETVIEW",
+        "SCINTILLATION",
+        "DENEB",
+        "HYDROCARBON",
+        "PLANETQUIZ",
+        "EURYBATES",
+        "FOSSIL"
+      ]
+    },
+    {
+      "name": "Space for Kids & Teens Puzzle 026",
+      "words": [
+        "VIKINGORBITER",
+        "ECCENTRICITY",
+        "LUPUS",
+        "THERMONUCLEAR",
+        "CAPSULE",
+        "AIRPLANE",
+        "HELIUM",
+        "VESTA",
+        "SHENZHOU",
+        "BIELA",
+        "COMPACTOBJECT",
+        "RADIALORBIT"
+      ]
+    },
+    {
+      "name": "Space for Kids & Teens Puzzle 027",
+      "words": [
+        "GOMEISA",
+        "DIONE",
+        "AKATSUKI",
+        "SATELLITEORBIT",
+        "SPACEPUZZLE",
+        "UNIVERSEVIEW",
+        "SKYFIELD",
+        "EARTH",
+        "PROMINENCE",
+        "STARTRAIL",
+        "CALYPSO",
+        "HEBE"
+      ]
+    },
+    {
+      "name": "Space for Kids & Teens Puzzle 028",
+      "words": [
+        "PLANETTOUR",
+        "FACULA",
+        "ULTRACOOL",
+        "METEORSTREAM",
+        "THEMIS",
+        "VALENTINE",
+        "WEATHER",
+        "INTERPLANETARY",
+        "ALHENA",
+        "TELESCOPESCOPE",
+        "RINGPLANE",
+        "SOLARCORONA"
+      ]
+    },
+    {
+      "name": "Space for Kids & Teens Puzzle 029",
+      "words": [
+        "EXOSPHERE",
+        "SOYUZ",
+        "ROSALINDFRANKLIN",
+        "STYX",
+        "CASSIOPEIA",
+        "MARSSKY",
+        "POLARISDAWN",
+        "HYDROSTATIC",
+        "MOONROCK",
+        "FALCONHEAVY",
+        "CLOUDY",
+        "ANGSTROM"
+      ]
+    },
+    {
+      "name": "Space for Kids & Teens Puzzle 030",
+      "words": [
+        "PEGASUS",
+        "COSMICVIEW",
+        "SUBSOLAR",
+        "ROCKETRIDE",
+        "DRAGONFLY",
+        "TRAPPIST",
+        "LUNARCYCLE",
+        "KEPLERIAN",
+        "ZODIACLIGHT",
+        "TONATIUH",
+        "PLUTO",
+        "UMBRA"
+      ]
+    },
+    {
+      "name": "Space for Kids & Teens Puzzle 031",
+      "words": [
+        "FULLMOON",
+        "ENCELADUS",
+        "CELESTIALEQUATOR",
+        "NEMESIS",
+        "ROCKETRACE",
+        "CREW",
+        "JUPITERTROJAN",
+        "HELIOPAUSE",
+        "FLUX",
+        "TELESCOPIC",
+        "HORIZONLINE",
+        "FARSIDEFLYBY"
+      ]
+    },
+    {
+      "name": "Space for Kids & Teens Puzzle 032",
+      "words": [
+        "ROCKETWATCH",
+        "SPACESTORY",
+        "SUBGIANT",
+        "ORBITERCRAFT",
+        "CORONAL",
+        "SEMIMAJORAXIS",
+        "SATURN",
+        "AURORABOREALIS",
+        "ECLIPSETIME",
+        "EXOMARS",
+        "STARTRAVEL",
+        "PEACEFUL"
+      ]
+    },
+    {
+      "name": "Space for Kids & Teens Puzzle 033",
+      "words": [
+        "COPERNICUS",
+        "NIGHTFALL",
+        "ORCUS",
+        "ANALEMMA",
+        "SCIENCEBOOK",
+        "ZUBENELGENUBI",
+        "PARKER",
+        "LARISSA",
+        "PROTEUS",
+        "PIONEER",
+        "AURORA",
+        "COSMICRAY"
+      ]
+    },
+    {
+      "name": "Space for Kids & Teens Puzzle 034",
+      "words": [
+        "TITIUS",
+        "DEIMOS",
+        "SATELLITE",
+        "SAMPLETUBE",
+        "IMAGINING",
+        "SUPERMOON",
+        "STARPATH",
+        "LIGHTCURVE",
+        "LAUNCHSITE",
+        "ALIENWORLD",
+        "MOONLET",
+        "SUPERMASSIVE"
+      ]
+    },
+    {
+      "name": "Space for Kids & Teens Puzzle 035",
+      "words": [
+        "SATELLITEVIEW",
+        "PASIPHAE",
+        "GLOW",
+        "IRRADIANCE",
+        "COSMICBACKGROUND",
+        "GALAXY",
+        "TRINCULO",
+        "METIS",
+        "ABSORPTIONLINE",
+        "TRANSNEPTUNIAN",
+        "YARA",
+        "TELESCOPEARRAY"
+      ]
+    },
+    {
+      "name": "Space for Kids & Teens Puzzle 036",
+      "words": [
+        "SPECTRUM",
+        "KILOPARSEC",
+        "NIX",
+        "AFTERGLOW",
+        "SUNSPOT",
+        "VELA",
+        "NEPTUNIAN",
+        "MAGNETOSPHERE",
+        "ALNITAK",
+        "ROCKYPLANET",
+        "ANGULARMOMENTUM",
+        "FOREGROUND"
+      ]
+    },
+    {
+      "name": "Space for Kids & Teens Puzzle 037",
+      "words": [
+        "AIR",
+        "CLEMENTINE",
+        "SATELLITEBUS",
+        "ALCYONEUS",
+        "HARVESTMOON",
+        "ADVENTURE",
+        "MULTIVERSE",
+        "NAUSICAA",
+        "BLUEMOON",
+        "NANOMETER",
+        "IONTAIL",
+        "GRANULATION"
+      ]
+    },
+    {
+      "name": "Space for Kids & Teens Puzzle 038",
+      "words": [
+        "AURORARING",
+        "CALORISBASIN",
+        "ORIX",
+        "EUROPACLIPPER",
+        "RESONANCE",
+        "LEO",
+        "PLANETTRIP",
+        "SOHO",
+        "WHITEDWARF",
+        "SOLAREVENT",
+        "MOON",
+        "ANTARES"
+      ]
+    },
+    {
+      "name": "Space for Kids & Teens Puzzle 039",
+      "words": [
+        "JUPITER",
+        "DUBHE",
+        "VIRGO",
+        "KALYPSO",
+        "LAIKA",
+        "ROCHE",
+        "UNIVERSEJOURNEY",
+        "POLARIMETER",
+        "BIOLOGY",
+        "CORDELIA",
+        "PLANETFAMILY",
+        "LONGITUDE"
+      ]
+    },
+    {
+      "name": "Space for Kids & Teens Puzzle 040",
+      "words": [
+        "MISSION",
+        "ROCKETTEAM",
+        "CLIMATE",
+        "TRANSITFINDER",
+        "STELLAR",
+        "ACCRETIONDISK",
+        "NEUTRONSTAR",
+        "EXPLORE",
+        "STARMAP",
+        "LAUNCHPAD",
+        "JUNO",
+        "METEORPATH"
+      ]
+    },
+    {
+      "name": "Space for Kids & Teens Puzzle 041",
+      "words": [
+        "CETUS",
+        "LUCY",
+        "ICEGIANT",
+        "URANUS",
+        "BLACKHOLE",
+        "DAWN",
+        "FURUD",
+        "SPACESAFARI",
+        "ELECTRONVOLT",
+        "MOONRISE",
+        "FUSION",
+        "EARTHSHADOW"
+      ]
+    },
+    {
+      "name": "Space for Kids & Teens Puzzle 042",
+      "words": [
+        "DISTANT",
+        "OLYMPUSMONS",
+        "STARATLAS",
+        "EAGLEMODULE",
+        "STARJOURNAL",
+        "CIRCUMSTELLAR",
+        "WISE",
+        "MISSIONLOGO",
+        "CAELUM",
+        "FRANCISCO",
+        "WHITECAP",
+        "PARSEC"
+      ]
+    },
+    {
+      "name": "Space for Kids & Teens Puzzle 043",
+      "words": [
+        "SATELLITEPHONE",
+        "URANUSRINGS",
+        "STARCOMPASS",
+        "LIGHTPOLLUTION",
+        "STARCHART",
+        "ALCYONE",
+        "LYRA",
+        "SPACEWALK",
+        "COLDPLANET",
+        "HYDROGEN",
+        "FARBAUTI",
+        "ORBITWATCH"
+      ]
+    },
+    {
+      "name": "Space for Kids & Teens Puzzle 044",
+      "words": [
+        "SCORPIO",
+        "MOONQUAKES",
+        "PLASMA",
+        "ATOM",
+        "SERPENS",
+        "SUNRAY",
+        "COSMICDUST",
+        "CALDERA",
+        "SOLARCROWN",
+        "CALLIOPE",
+        "ROCKETENGINE",
+        "SUNRISE"
+      ]
+    },
+    {
+      "name": "Space for Kids & Teens Puzzle 045",
+      "words": [
+        "LUNARORBITER",
+        "CALLIRRHOE",
+        "LUNARVALLEY",
+        "STARSHIP",
+        "MOONBEAMS",
+        "IONIZATION",
+        "FREQUENCY",
+        "RESEARCH",
+        "COSMOCHEMICAL",
+        "CARME",
+        "SUNWARD",
+        "DYSNOMIA"
+      ]
+    },
+    {
+      "name": "Space for Kids & Teens Puzzle 046",
+      "words": [
+        "EARTHSHINE",
+        "SATURNMOON",
+        "MAIA",
+        "ECLIPSINGBINARY",
+        "ROSETTA",
+        "SPACETIME",
+        "VARDA",
+        "EXPERIMENT",
+        "MASSNUMBER",
+        "ASTROPARTICLE",
+        "ASTEROPE",
+        "TITANIA"
+      ]
+    },
+    {
+      "name": "Space for Kids & Teens Puzzle 047",
+      "words": [
+        "DEEPIMPACT",
+        "SCIENCEFAIR",
+        "CHANGE",
+        "ABLATIONZONE",
+        "STARSTREAM",
+        "ASTRONOMY",
+        "THYONE",
+        "EARTHRISE",
+        "AQUARIUS",
+        "GEOTAIL",
+        "CRATER",
+        "QUARK"
+      ]
+    },
+    {
+      "name": "Space for Kids & Teens Puzzle 048",
+      "words": [
+        "PRECESSION",
+        "FOBOS",
+        "ECLIPSEGLASSES",
+        "SPACERACE",
+        "ZOND",
+        "TELEMETRY",
+        "TAURUS",
+        "DUSTCLOUD",
+        "ARACELI",
+        "CELESTIALSPHERE",
+        "SKATHI",
+        "CORCAROLI"
+      ]
+    }
+  ]
+}

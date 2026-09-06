@@ -1,0 +1,65 @@
+{
+  "version": "1",
+  "book_id": "6b34126657fa",
+  "runs": [
+    {
+      "run_id": "786e25f8c6e057d7",
+      "started": "2026-08-27T16:03:25",
+      "facts_fingerprint": "8b8cea5b5a112041942fff1b02e4a6adc33653b3fc9c4dda3da0c4ea3efdd2ff",
+      "result": "running"
+    }
+  ],
+  "stages": {
+    "validate": {
+      "status": "complete",
+      "fingerprint": "7ab6a55bd8cca8ee7acd5796637b4a1327769cbb6b8ec1622afcde2e78c4e3c7",
+      "completed": "2026-08-27T16:03:26",
+      "detail": "Contributor, content capacity, and automatic-plan checks passed before generation.",
+      "artifact": ""
+    },
+    "generate": {
+      "status": "complete",
+      "fingerprint": "accd1724d26dc5849d205d66cf9f38b3bd6817ec9b63f20287c460bb4db52232",
+      "completed": "2026-08-27T16:03:26",
+      "detail": "Interior and answer pages were generated from the selected puzzle type and seed.",
+      "artifact": "C:\\Users\\jorda\\Desktop\\Word Search Creator\\kdp-puzzle-engine\\out\\kitchen_table_scramble_and_trivia_20260827_160326\\01_PRINT_UPLOADS\\interior.pdf"
+    },
+    "cover": {
+      "status": "complete",
+      "fingerprint": "37277d0d67fa52ddb7bf2b93c04f08e5e0991b418682c895961175bff8f765ab",
+      "completed": "2026-08-27T16:03:27",
+      "detail": "Front cover was rendered from verified facts and approved matching art.",
+      "artifact": "C:\\Users\\jorda\\Desktop\\Word Search Creator\\kdp-puzzle-engine\\out\\kitchen_table_scramble_and_trivia_20260827_160326\\03_PREVIEWS\\front_cover.png"
+    },
+    "preflight": {
+      "status": "complete",
+      "fingerprint": "401bd4d5b9796dba53c988553b04bddf085d9ed3fde05d94569e546a5269e14e",
+      "completed": "2026-08-27T16:03:30",
+      "detail": "Wrap and print preflight passed using the final interior page count.",
+      "artifact": "C:\\Users\\jorda\\Desktop\\Word Search Creator\\kdp-puzzle-engine\\out\\kitchen_table_scramble_and_trivia_20260827_160326\\01_PRINT_UPLOADS\\kdp_full_wrap.pdf"
+    },
+    "listing": {
+      "status": "complete",
+      "fingerprint": "48fc8c7eedbec5d39d47e5f710dd7e3bff3cb2f0d621824803aa89de63754523",
+      "completed": "2026-08-27T16:03:30",
+      "detail": "Listing kit was generated from verified book facts.",
+      "artifact": ""
+    },
+    "package": {
+      "status": "complete",
+      "fingerprint": "a562550a34c69998f699019754a0e46dbf89805003bf620639a9df2e04c118d7",
+      "completed": "2026-08-27T16:03:33",
+      "detail": "Final package inspection passed and master release files were created.",
+      "artifact": "C:\\Users\\jorda\\Desktop\\Word Search Creator\\kdp-puzzle-engine\\out\\kitchen_table_scramble_and_trivia_20260827_160326"
+    },
+    "register": {
+      "status": "complete",
+      "fingerprint": "0ee33c3c7be3d59303cdace63aa2cab6ca8787e49316d7d46b09fc1a12640ea5",
+      "completed": "2026-08-27T16:03:33",
+      "detail": "Finished package was registered in Publishing Center.",
+      "artifact": ""
+    }
+  },
+  "facts_fingerprint": "8b8cea5b5a112041942fff1b02e4a6adc33653b3fc9c4dda3da0c4ea3efdd2ff",
+  "last_started": "2026-08-27T16:03:25"
+}

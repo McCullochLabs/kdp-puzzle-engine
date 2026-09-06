@@ -24,6 +24,7 @@ from .records import (
     TRUSTED,
     EvidenceItem,
     SIGNAL_AMBIGUITY,
+    SIGNAL_THEME_HISTORY,
     TopicLink,
     band_of,
 )
@@ -122,6 +123,22 @@ class Classifier:
                 evidence.append(EvidenceItem(
                     SIGNAL_AMBIGUITY,
                     "Score damped: word has unresolved alternate senses", 0.0))
+            # WI2 Phase 3 promotion guard: VERY_HIGH must rest on more than
+            # theme-history repetition.  Without an independent anchor-grade
+            # signal (exact lexicon / curated research / strong phrase
+            # support) the link is capped inside the audited HIGH band.
+            if conf >= AUTO_LINK_MIN:
+                independent = [e for e in evidence
+                               if e.signal != SIGNAL_THEME_HISTORY
+                               and e.weight >= 60]
+                history_only = [e for e in evidence
+                                if e.signal == SIGNAL_THEME_HISTORY]
+                if not independent and history_only:
+                    conf = min(conf, AUDIT_BAND_MIN + 9.0)
+                    evidence.append(EvidenceItem(
+                        "promotion_guard",
+                        "Theme history alone capped below auto-promotion",
+                        0.0))
             if conf >= PROPOSAL_FLOOR:
                 scored.append((cid, conf, evidence))
 

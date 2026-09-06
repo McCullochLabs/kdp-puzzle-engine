@@ -1,0 +1,181 @@
+{
+  "schema_version": 1,
+  "production_job_id": "job_4f72eb2ef9670fb92644",
+  "book_id": "0e03cf8c20c3",
+  "book_plan_id": "automatic-cryptogram",
+  "puzzle_type": "Cryptogram",
+  "status": "waiting_for_review",
+  "context": {
+    "book_id": "0e03cf8c20c3",
+    "source_key": "generated:Cryptogram:General Starter",
+    "package_path": "",
+    "title": "Acceptance Cryptogram Collection",
+    "subtitle": "24 checked code-breaking puzzles with solutions",
+    "author": "Jordan M. Slade",
+    "series": null,
+    "theme": null,
+    "detected_topic": "General Starter",
+    "puzzle_type": "Cryptogram",
+    "puzzle_count": 24,
+    "puzzle_seed": 47235153,
+    "page_count": null,
+    "trim_size": "8.5x11",
+    "difficulty": "Mixed",
+    "difficulty_label": null,
+    "audience": null,
+    "large_print": null,
+    "signature_edition": null,
+    "no_repeat_words": null,
+    "answer_key": null,
+    "files": {},
+    "price": null,
+    "description": null,
+    "brand": "",
+    "metadata_locked": false,
+    "conflicts": [],
+    "fingerprint": "b48fe7df3bebca1393c0346c5d1916ddb4f893a3706d48587e7b8d1d407e72d9",
+    "book_plan_id": "automatic-cryptogram",
+    "source_revision": "b48fe7df3bebca1393c0346c5d1916ddb4f893a3706d48587e7b8d1d407e72d9",
+    "cover_style": "Automatic matching",
+    "palette": "library-burgundy",
+    "content_plan_approval": {
+      "source": "acceptance_test.operator_review",
+      "evidence_id": "accept-20260904220538"
+    }
+  },
+  "fingerprints": {
+    "idea": "4b0e6b4f096ad6b42aa3ee8a7f81af4ad54091c13b4eafd4b86fdd32609c3a58",
+    "feasibility": "ab3d24132521b87c3b3c67ebdec0720ddc121988ac38b16450dda5fca53f122f",
+    "content_plan": "ab3d24132521b87c3b3c67ebdec0720ddc121988ac38b16450dda5fca53f122f",
+    "generation": "ab3d24132521b87c3b3c67ebdec0720ddc121988ac38b16450dda5fca53f122f",
+    "cover": "7c5d0f68318c971bffeb4abd057886d988864dce196f8300b97dfde52734efa6",
+    "product_qa": "e2755c9d797d074e28b83200a28b7a8d7702c1d11ea404529999f188409240a4",
+    "listing": "62d71cc6dbb53adcf6d362cbcc7a6b76c3aaea5e57123af9005cbc41db9380fb",
+    "package": "40fd589b895a143040c1f34bf82bb9fb306cd54e89bfbcb21075d9c70c03dd5a",
+    "final_review": "40fd589b895a143040c1f34bf82bb9fb306cd54e89bfbcb21075d9c70c03dd5a",
+    "platform_preview": "40fd589b895a143040c1f34bf82bb9fb306cd54e89bfbcb21075d9c70c03dd5a",
+    "marketplace_handoff": "40fd589b895a143040c1f34bf82bb9fb306cd54e89bfbcb21075d9c70c03dd5a"
+  },
+  "steps": {
+    "idea": {
+      "status": "complete",
+      "fingerprint": "4b0e6b4f096ad6b42aa3ee8a7f81af4ad54091c13b4eafd4b86fdd32609c3a58",
+      "completed_at": "2026-09-05T05:05:38+00:00",
+      "artifact": "",
+      "detail": "Adopted from the existing checked production route."
+    },
+    "feasibility": {
+      "status": "complete",
+      "fingerprint": "ab3d24132521b87c3b3c67ebdec0720ddc121988ac38b16450dda5fca53f122f",
+      "completed_at": "2026-09-05T05:05:38+00:00",
+      "artifact": "",
+      "detail": "Adopted from the existing checked production route."
+    },
+    "content_plan": {
+      "status": "approved",
+      "fingerprint": "ab3d24132521b87c3b3c67ebdec0720ddc121988ac38b16450dda5fca53f122f",
+      "completed_at": "2026-09-05T05:05:38+00:00",
+      "artifact": "",
+      "detail": "Adopted from persisted content-plan approval evidence.",
+      "human_evidence": {
+        "source": "acceptance_test.operator_review",
+        "evidence_id": "accept-20260904220538"
+      }
+    },
+    "generation": {
+      "status": "complete",
+      "fingerprint": "ab3d24132521b87c3b3c67ebdec0720ddc121988ac38b16450dda5fca53f122f",
+      "completed_at": "2026-09-05T05:05:39+00:00",
+      "artifact": "C:\\Users\\jorda\\Desktop\\Word Search Creator\\kdp-puzzle-engine\\out\\acceptance_cryptogram_collection_20260904_220538\\01_PRINT_UPLOADS\\interior.pdf",
+      "detail": "Interior and answer pages were generated from the selected puzzle type and seed."
+    },
+    "cover": {
+      "status": "complete",
+      "fingerprint": "7c5d0f68318c971bffeb4abd057886d988864dce196f8300b97dfde52734efa6",
+      "completed_at": "2026-09-05T05:05:41+00:00",
+      "artifact": "C:\\Users\\jorda\\Desktop\\Word Search Creator\\kdp-puzzle-engine\\out\\acceptance_cryptogram_collection_20260904_220538\\03_PREVIEWS\\front_cover.png",
+      "detail": "Front cover was rendered from verified facts and approved matching art."
+    },
+    "product_qa": {
+      "status": "complete",
+      "fingerprint": "e2755c9d797d074e28b83200a28b7a8d7702c1d11ea404529999f188409240a4",
+      "completed_at": "2026-09-05T05:05:50+00:00",
+      "artifact": "",
+      "detail": "QA Passed Locally"
+    },
+    "listing": {
+      "status": "complete",
+      "fingerprint": "62d71cc6dbb53adcf6d362cbcc7a6b76c3aaea5e57123af9005cbc41db9380fb",
+      "completed_at": "2026-09-05T05:05:50+00:00",
+      "artifact": "",
+      "detail": "Listing kit was generated from verified book facts."
+    },
+    "package": {
+      "status": "complete",
+      "fingerprint": "40fd589b895a143040c1f34bf82bb9fb306cd54e89bfbcb21075d9c70c03dd5a",
+      "completed_at": "2026-09-05T05:05:57+00:00",
+      "artifact": "C:\\Users\\jorda\\Desktop\\Word Search Creator\\kdp-puzzle-engine\\out\\acceptance_cryptogram_collection_20260904_220538",
+      "detail": "Final package inspection passed and master release files were created."
+    }
+  },
+  "events": [
+    {
+      "at": "2026-09-05T05:05:38+00:00",
+      "event": "started_or_resumed"
+    },
+    {
+      "at": "2026-09-05T05:05:38+00:00",
+      "event": "stage_complete",
+      "stage": "idea",
+      "status": "complete"
+    },
+    {
+      "at": "2026-09-05T05:05:38+00:00",
+      "event": "stage_complete",
+      "stage": "feasibility",
+      "status": "complete"
+    },
+    {
+      "at": "2026-09-05T05:05:38+00:00",
+      "event": "stage_complete",
+      "stage": "content_plan",
+      "status": "approved"
+    },
+    {
+      "at": "2026-09-05T05:05:39+00:00",
+      "event": "stage_complete",
+      "stage": "generation",
+      "status": "complete"
+    },
+    {
+      "at": "2026-09-05T05:05:41+00:00",
+      "event": "stage_complete",
+      "stage": "cover",
+      "status": "complete"
+    },
+    {
+      "at": "2026-09-05T05:05:50+00:00",
+      "event": "stage_complete",
+      "stage": "product_qa",
+      "status": "complete"
+    },
+    {
+      "at": "2026-09-05T05:05:50+00:00",
+      "event": "stage_complete",
+      "stage": "listing",
+      "status": "complete"
+    },
+    {
+      "at": "2026-09-05T05:05:57+00:00",
+      "event": "stage_complete",
+      "stage": "package",
+      "status": "complete"
+    }
+  ],
+  "created_at": "2026-09-05T05:05:38+00:00",
+  "updated_at": "2026-09-05T05:05:57+00:00",
+  "paused": false,
+  "current_stage": "final_review",
+  "next_action": "Complete Final Local Review",
+  "attention": []
+}

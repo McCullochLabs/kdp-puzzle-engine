@@ -14,5 +14,25 @@
   "Through the Decades": {
     "palette": "ocean-life",
     "style": "photo"
+  },
+  "SladePuzzleCo Adult Collection": {
+    "palette": "midnight-gold",
+    "style": "ticket"
+  },
+  "Slade Puzzles Seasonal & Learning Collection": {
+    "palette": "library-burgundy",
+    "style": "photo"
+  },
+  "Vocabulary Ladder Collection": {
+    "palette": "starlight-indigo",
+    "style": "photo"
+  },
+  "Space for Kids & Teens": {
+    "palette": "starlight-indigo",
+    "style": "photo"
+  },
+  "National Parks": {
+    "palette": "forest-cabin",
+    "style": "photo"
   }
 }

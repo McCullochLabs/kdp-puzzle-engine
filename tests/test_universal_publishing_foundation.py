@@ -325,7 +325,7 @@ class TestRegistry:
         assert registry.get_export_integration("amazon_kdp") is not None
 
     def test_get_integration_info_unknown_is_none(self):
-        assert registry.get_integration_info("shopify") is None
+        assert registry.get_integration_info("not_a_channel") is None
         assert registry.get_integration_info(None) is None
 
     def test_explicit_registration_no_dynamic_scanning(self):

@@ -1,0 +1,19 @@
+{
+  "schema_version": 1,
+  "example_only": true,
+  "note": "Non-production schema illustration. A runtime proof must be regenerated from a valid Book Plan and current package artifacts.",
+  "proof_id": "deterministic-proof-id",
+  "book_plan_id": "deterministic-plan-id",
+  "book_id": "local-catalog-id",
+  "package_id": "package-identity-hash",
+  "source_revision": "source-revision-hash",
+  "capacity_proof": "capacity-proof-hash",
+  "book_plan_hash": "canonical-plan-sha256",
+  "artifacts": {
+    "interior": {"path": "01_PRINT_UPLOADS/interior.pdf", "sha256": "sha256", "status": "passed"},
+    "cover": {"path": "03_PREVIEWS/front_cover.png", "sha256": "sha256", "status": "passed"},
+    "wrap": {"path": "01_PRINT_UPLOADS/kdp_full_wrap.pdf", "sha256": "sha256", "status": "passed"}
+  },
+  "status": "ready_for_platform_preview",
+  "content_verification_mode": "strict_verified"
+}

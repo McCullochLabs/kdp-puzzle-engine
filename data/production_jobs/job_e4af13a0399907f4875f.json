@@ -1,0 +1,181 @@
+{
+  "schema_version": 1,
+  "production_job_id": "job_e4af13a0399907f4875f",
+  "book_id": "929d349db486",
+  "book_plan_id": "automatic-mixed-brain-games",
+  "puzzle_type": "Mixed Brain Games",
+  "status": "waiting_for_review",
+  "context": {
+    "book_id": "929d349db486",
+    "source_key": "generated:Mixed Brain Games:General Starter",
+    "package_path": "",
+    "title": "Acceptance Mixed Brain Games",
+    "subtitle": "24 Sudoku, cryptogram, scramble, and trivia challenges",
+    "author": "Jordan M. Slade",
+    "series": null,
+    "theme": null,
+    "detected_topic": "General Starter",
+    "puzzle_type": "Mixed Brain Games",
+    "puzzle_count": 24,
+    "puzzle_seed": 14930692,
+    "page_count": null,
+    "trim_size": "8.5x11",
+    "difficulty": "Mixed",
+    "difficulty_label": null,
+    "audience": null,
+    "large_print": null,
+    "signature_edition": null,
+    "no_repeat_words": null,
+    "answer_key": null,
+    "files": {},
+    "price": null,
+    "description": null,
+    "brand": "",
+    "metadata_locked": false,
+    "conflicts": [],
+    "fingerprint": "d9c824043a88ef09f8eb618eaa321d9b91f66ae91705c18c3005d40bc6743871",
+    "book_plan_id": "automatic-mixed-brain-games",
+    "source_revision": "d9c824043a88ef09f8eb618eaa321d9b91f66ae91705c18c3005d40bc6743871",
+    "cover_style": "Automatic matching",
+    "palette": "midnight-gold",
+    "content_plan_approval": {
+      "source": "acceptance_test.operator_review",
+      "evidence_id": "accept-20260904220538"
+    }
+  },
+  "fingerprints": {
+    "idea": "2da691759c8965ff06d5aaf1595dade28469f92768753c66103e375ae6c44d58",
+    "feasibility": "b20fdfe950bc2cbe0468f43ff19363e0ec5dd04af1428aa07ac0df5530e1c106",
+    "content_plan": "b20fdfe950bc2cbe0468f43ff19363e0ec5dd04af1428aa07ac0df5530e1c106",
+    "generation": "b20fdfe950bc2cbe0468f43ff19363e0ec5dd04af1428aa07ac0df5530e1c106",
+    "cover": "f5d56e245c7659629de44d891abf088a6cf96609c83d3f85b208110ee5ed72ec",
+    "product_qa": "63d13b509c0686d73e6e8056ad6b77901b18ab3c2585a59843f722e007015df8",
+    "listing": "65cb20201d8827b6b2a6760805a08f2261ebc5402362255b4805bb8d7e6628f2",
+    "package": "4d431b5e25eceec1ceb118eb1969d28a8968f067fced5c2c12c8164658913a18",
+    "final_review": "4d431b5e25eceec1ceb118eb1969d28a8968f067fced5c2c12c8164658913a18",
+    "platform_preview": "4d431b5e25eceec1ceb118eb1969d28a8968f067fced5c2c12c8164658913a18",
+    "marketplace_handoff": "4d431b5e25eceec1ceb118eb1969d28a8968f067fced5c2c12c8164658913a18"
+  },
+  "steps": {
+    "idea": {
+      "status": "complete",
+      "fingerprint": "2da691759c8965ff06d5aaf1595dade28469f92768753c66103e375ae6c44d58",
+      "completed_at": "2026-09-05T05:06:19+00:00",
+      "artifact": "",
+      "detail": "Adopted from the existing checked production route."
+    },
+    "feasibility": {
+      "status": "complete",
+      "fingerprint": "b20fdfe950bc2cbe0468f43ff19363e0ec5dd04af1428aa07ac0df5530e1c106",
+      "completed_at": "2026-09-05T05:06:19+00:00",
+      "artifact": "",
+      "detail": "Adopted from the existing checked production route."
+    },
+    "content_plan": {
+      "status": "approved",
+      "fingerprint": "b20fdfe950bc2cbe0468f43ff19363e0ec5dd04af1428aa07ac0df5530e1c106",
+      "completed_at": "2026-09-05T05:06:19+00:00",
+      "artifact": "",
+      "detail": "Adopted from persisted content-plan approval evidence.",
+      "human_evidence": {
+        "source": "acceptance_test.operator_review",
+        "evidence_id": "accept-20260904220538"
+      }
+    },
+    "generation": {
+      "status": "complete",
+      "fingerprint": "b20fdfe950bc2cbe0468f43ff19363e0ec5dd04af1428aa07ac0df5530e1c106",
+      "completed_at": "2026-09-05T05:06:20+00:00",
+      "artifact": "C:\\Users\\jorda\\Desktop\\Word Search Creator\\kdp-puzzle-engine\\out\\acceptance_mixed_brain_games_20260904_220619\\01_PRINT_UPLOADS\\interior.pdf",
+      "detail": "Interior and answer pages were generated from the selected puzzle type and seed."
+    },
+    "cover": {
+      "status": "complete",
+      "fingerprint": "f5d56e245c7659629de44d891abf088a6cf96609c83d3f85b208110ee5ed72ec",
+      "completed_at": "2026-09-05T05:06:29+00:00",
+      "artifact": "C:\\Users\\jorda\\Desktop\\Word Search Creator\\kdp-puzzle-engine\\out\\acceptance_mixed_brain_games_20260904_220619\\03_PREVIEWS\\front_cover.png",
+      "detail": "Front cover was rendered from verified facts and approved matching art."
+    },
+    "product_qa": {
+      "status": "complete",
+      "fingerprint": "63d13b509c0686d73e6e8056ad6b77901b18ab3c2585a59843f722e007015df8",
+      "completed_at": "2026-09-05T05:07:02+00:00",
+      "artifact": "",
+      "detail": "QA Needs Review"
+    },
+    "listing": {
+      "status": "complete",
+      "fingerprint": "65cb20201d8827b6b2a6760805a08f2261ebc5402362255b4805bb8d7e6628f2",
+      "completed_at": "2026-09-05T05:07:02+00:00",
+      "artifact": "",
+      "detail": "Listing kit was generated from verified book facts."
+    },
+    "package": {
+      "status": "complete",
+      "fingerprint": "4d431b5e25eceec1ceb118eb1969d28a8968f067fced5c2c12c8164658913a18",
+      "completed_at": "2026-09-05T05:08:12+00:00",
+      "artifact": "C:\\Users\\jorda\\Desktop\\Word Search Creator\\kdp-puzzle-engine\\out\\acceptance_mixed_brain_games_20260904_220619",
+      "detail": "Final package inspection passed and master release files were created."
+    }
+  },
+  "events": [
+    {
+      "at": "2026-09-05T05:06:19+00:00",
+      "event": "started_or_resumed"
+    },
+    {
+      "at": "2026-09-05T05:06:19+00:00",
+      "event": "stage_complete",
+      "stage": "idea",
+      "status": "complete"
+    },
+    {
+      "at": "2026-09-05T05:06:19+00:00",
+      "event": "stage_complete",
+      "stage": "feasibility",
+      "status": "complete"
+    },
+    {
+      "at": "2026-09-05T05:06:19+00:00",
+      "event": "stage_complete",
+      "stage": "content_plan",
+      "status": "approved"
+    },
+    {
+      "at": "2026-09-05T05:06:20+00:00",
+      "event": "stage_complete",
+      "stage": "generation",
+      "status": "complete"
+    },
+    {
+      "at": "2026-09-05T05:06:29+00:00",
+      "event": "stage_complete",
+      "stage": "cover",
+      "status": "complete"
+    },
+    {
+      "at": "2026-09-05T05:07:02+00:00",
+      "event": "stage_complete",
+      "stage": "product_qa",
+      "status": "complete"
+    },
+    {
+      "at": "2026-09-05T05:07:02+00:00",
+      "event": "stage_complete",
+      "stage": "listing",
+      "status": "complete"
+    },
+    {
+      "at": "2026-09-05T05:08:12+00:00",
+      "event": "stage_complete",
+      "stage": "package",
+      "status": "complete"
+    }
+  ],
+  "created_at": "2026-09-05T05:06:19+00:00",
+  "updated_at": "2026-09-05T05:08:12+00:00",
+  "paused": false,
+  "current_stage": "final_review",
+  "next_action": "Complete Final Local Review",
+  "attention": []
+}

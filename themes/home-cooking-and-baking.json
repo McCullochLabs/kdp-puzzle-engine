@@ -26,10 +26,10 @@
       "name": "Baker's Oven",
       "words": [
         "MEMBERSHIP",
-        "HEADPHONES",
+        "ACANTHUS",
         "RECALL",
         "CANTER",
-        "ROMANCE",
+        "ACHILLEA",
         "MOUNTAIN",
         "HOMEWORK",
         "COB",
@@ -47,7 +47,7 @@
         "EGG",
         "SHAKESPEARE",
         "ITALIAN",
-        "WEBSITE",
+        "ACORN",
         "DELICIOUS",
         "FARM",
         "HOLIDAY",
@@ -81,13 +81,13 @@
         "LAUREL",
         "PISTIL",
         "MOUND",
-        "ROBIN",
+        "ACREAGE",
         "PURPLE",
-        "SERVE",
-        "EMERGENCY",
+        "ADVENTCALENDAR",
+        "AGAPANTHUS",
         "TUBULAR",
         "PICTURE",
-        "ROCKET"
+        "AGAVE"
       ]
     },
     {
@@ -127,10 +127,10 @@
     {
       "name": "Pastry Dough",
       "words": [
-        "SNAKE",
+        "AGRICULTURE",
         "SNAPSHOT",
-        "CATALOG",
-        "TVGUIDE",
+        "AGROFORESTRY",
+        "AGROTEK",
         "DESKTOP",
         "OVERALLS",
         "KEYPAD",
@@ -144,7 +144,7 @@
     {
       "name": "Recipe Book",
       "words": [
-        "ASTRONOMY",
+        "AIRMASS",
         "SEEDSTART",
         "SWAMP",
         "AERIAL",
@@ -154,7 +154,7 @@
         "APHID",
         "EPIC",
         "GAMES",
-        "RECORDSTORE",
+        "AIRPLANT",
         "ABOLITION"
       ]
     },
@@ -163,14 +163,14 @@
       "words": [
         "BLEND",
         "CLIFFS",
-        "CASSIOPEIA",
+        "ALFALFA",
         "TRANSPLANT",
         "HIBISCUS",
-        "COBRA",
+        "ALLIUM",
         "SWEETPOTATO",
         "CULINARY",
         "SANDAL",
-        "TREASURE",
+        "ALLOTMENT",
         "LIFELINE",
         "ABSORB"
       ]
@@ -183,30 +183,30 @@
         "BOARD",
         "SCHOOLBINDER",
         "WINDOWSHOPPING",
-        "COOKBOOK",
+        "ALMANAC",
         "PRESERVING",
         "COOKING",
         "SUNFLOWER",
         "PORCH",
         "ABYSS",
-        "ACADIA"
+        "ALPACA"
       ]
     },
     {
       "name": "Apple Pie",
       "words": [
         "KATSURA",
-        "BEACH",
-        "WIRELESSCONTROLLER",
+        "ALPINE",
+        "ALYSSUM",
         "SWIMMER",
         "CORNBREAD",
         "PACHYSANDRA",
         "POWERPOINT",
-        "NEIGHBOR",
+        "AMARANTH",
         "COBBLE",
         "COMMAND",
         "DEVELOP",
-        "ACOUSTIC"
+        "AMARYLLIS"
       ]
     },
     {
@@ -218,7 +218,7 @@
         "CAMERAPHONE",
         "FLOWER",
         "STEM",
-        "UNITY",
+        "ANEMOMETER",
         "ABSORBENT",
         "LILYTURF",
         "CREVICE",
@@ -230,7 +230,7 @@
       "name": "Cupcake Tower",
       "words": [
         "BUOYANT",
-        "MIDNIGHT",
+        "ANEMONE",
         "GOAT",
         "FERTILIZER",
         "PALMS",
@@ -240,7 +240,7 @@
         "CAPPUCCINO",
         "KIOSK",
         "ACROPOLIS",
-        "ACTION"
+        "ANGELIC"
       ]
     },
     {
@@ -250,11 +250,11 @@
         "ORCHID",
         "SOFTWARE",
         "PARASOL",
-        "TEXTMESSAGE",
+        "ANGORA",
         "BERRIES",
         "BIRDBATH",
         "BRIE",
-        "WORDSEARCH",
+        "ANISE",
         "SMOKE",
         "THEAT",
         "CORNMAZE"
@@ -266,11 +266,11 @@
         "PARTY",
         "GADGET",
         "FLIGHT",
-        "WORMS",
+        "ANNUAL",
         "VIBRATE",
         "TOOL",
-        "RABBIT",
-        "WICKED",
+        "ANTHEM",
+        "ANTICYCLONE",
         "WINDBREAKER",
         "WATERMELON",
         "PREVENT",
@@ -283,11 +283,11 @@
         "JUNGLE",
         "HORSE",
         "AUSTRALIA",
-        "TAIL",
+        "APIARY",
         "LAME",
         "FLIPPHONE",
         "SPREAD",
-        "FILTER",
+        "APIARYBOX",
         "ROSEMARY",
         "DEW",
         "VIDEOSTORE",
@@ -300,21 +300,21 @@
         "LIPGLOSS",
         "CONE",
         "TROPIC",
-        "INTERNET",
+        "APPLEBLOSSOM",
         "TRADIT",
         "WITCH",
         "BLIZZARD",
         "LANTERN",
-        "YEARBOOK",
+        "APPLEBUTTER",
         "WING",
         "ACTIVITY",
-        "ACTOR"
+        "APPLECIDER"
       ]
     },
     {
       "name": "Honey Jar",
       "words": [
-        "MUSTARD",
+        "APPLEORCHARD",
         "TORNADO",
         "MEASURE",
         "CHAIR",
@@ -322,24 +322,24 @@
         "LOCKER",
         "RADICAL",
         "NOZZLE",
-        "GAMECONSOLE",
+        "APPLEPIE",
         "RECHARGE",
-        "BEETLE",
-        "GETAWAY"
+        "APPLESAUCE",
+        "APRICOT"
       ]
     },
     {
       "name": "Ice Cream Maker",
       "words": [
-        "PARK",
+        "APRICOTTREE",
         "TITLE",
         "FROG",
         "LANDLINE",
-        "DRAIN",
+        "APRON",
         "COZY",
         "DILL",
         "PECKING",
-        "SURF",
+        "AQUAPONICS",
         "KALE",
         "VOLLEYBALL",
         "GELPEN"
@@ -349,7 +349,7 @@
       "name": "Juice Blender",
       "words": [
         "MERLOT",
-        "MOVIE",
+        "ARBOR",
         "FLASHDRIVE",
         "PADS",
         "CRUNCH",
@@ -373,9 +373,9 @@
         "BUCKETHAT",
         "COUNTRYSIDE",
         "ELEPHANTEAR",
-        "IMAGINATION",
+        "ARBORVITAE",
         "CROCODILE",
-        "COAST",
+        "ARBUTUS",
         "BUTTON"
       ]
     },
@@ -392,7 +392,7 @@
         "SUMMER",
         "OCTOBER",
         "PROFILE",
-        "VIPER",
+        "ARCTICAIR",
         "HUMIDITY"
       ]
     },
@@ -407,26 +407,26 @@
         "DOLL",
         "CAMCORDER",
         "TEXTME",
-        "GLITTER",
+        "ARID",
         "CROP",
         "ACTORS",
-        "ACTRESS"
+        "ARONIA"
       ]
     },
     {
       "name": "Nutmeg Grinder",
       "words": [
         "BONUSFEATURES",
-        "PLAYLIST",
-        "PADDLE",
-        "CHAPTER",
+        "ARTICHOKE",
+        "ARUGULA",
+        "ASPARAGUS",
         "BUMBLEBEE",
         "MIST",
         "DROUGHT",
-        "MUSICVIDEO",
+        "ASTER",
         "STRIPE",
         "PUMPKIN",
-        "SATELLITE",
+        "ATMOSPHERE",
         "MEAT"
       ]
     },
@@ -441,9 +441,9 @@
         "SHARE",
         "VENOM",
         "WIFI",
-        "FABLE",
+        "AURORA",
         "BODYGLITTER",
-        "PUZZLE",
+        "AUTUMN",
         "ADAPTATION"
       ]
     },
@@ -452,8 +452,8 @@
       "words": [
         "TECHNO",
         "CAMERABAG",
-        "PHOTOBOOTH",
-        "LIGHT",
+        "AUTUMNAIR",
+        "AUTUMNAPPLE",
         "SOW",
         "WATERINGCAN",
         "PLANTER",
@@ -473,12 +473,12 @@
         "VIEWFINDER",
         "CREEPINGJENNY",
         "CHOCOLATE",
-        "CHAMELEON",
-        "SERENITY",
+        "AUTUMNBAKING",
+        "AUTUMNBARN",
         "FROSTEDTIPS",
         "BURRITO",
         "BOTTLE",
-        "MOVIETHEATER"
+        "AUTUMNBONFIRE"
       ]
     },
     {
@@ -487,15 +487,15 @@
         "KETTLE",
         "GRASS",
         "MONSOON",
-        "SPARKLE",
+        "AUTUMNCANDLE",
         "BIODYNAMIC",
         "MILL",
-        "COLLECTION",
+        "AUTUMNCOLOR",
         "SOIL",
-        "WARMTH",
+        "AUTUMNFESTIVAL",
         "WILLOW",
         "TIDY",
-        "QUIETTIME"
+        "AUTUMNFOREST"
       ]
     },
     {
@@ -505,13 +505,13 @@
         "FRAGRANT",
         "INSTANTMESSAGE",
         "SOAP",
-        "LIGHTHOUSE",
+        "AUTUMNHARVEST",
         "MOSS",
         "SOFA",
         "FOUNT",
         "RELEASE",
         "BEEF",
-        "WORD",
+        "AUTUMNHIKE",
         "GRAVEYARD"
       ]
     },
@@ -519,11 +519,11 @@
       "name": "Tart Pan",
       "words": [
         "COOKER",
-        "MEMORYCARD",
+        "AUTUMNLANE",
         "MANE",
         "CREAMY",
-        "GRAIN",
-        "CHATROOM",
+        "AUTUMNLEAVES",
+        "AUTUMNMARKET",
         "BRANCH",
         "NUTRIENT",
         "SEOUL",
@@ -539,9 +539,9 @@
         "PASS",
         "SWEET",
         "PARACHUTEPANTS",
-        "SAGUARO",
+        "AUTUMNMOON",
         "ARCADETOKEN",
-        "TUNE",
+        "AUTUMNMORNING",
         "HONEYSUCKLE",
         "WIDESCREEN",
         "SKATEBOARD",
@@ -560,7 +560,7 @@
         "RALLY",
         "STONE",
         "SPECTACLE",
-        "SAFETY",
+        "AUTUMNNIGHT",
         "MEATS",
         "MACHINE",
         "ADDAX"
@@ -580,18 +580,18 @@
         "ORGANIC",
         "AEROBICS",
         "TENNIS",
-        "PIER"
+        "AUTUMNPARTY"
       ]
     },
     {
       "name": "Xmas Cookies",
       "words": [
         "VHS",
-        "GAMERTAG",
+        "AUTUMNPATH",
         "PERFORM",
         "COMMENT",
-        "FILM",
-        "FICTION",
+        "AUTUMNPICNIC",
+        "AUTUMNPIE",
         "SPRINK",
         "DECK",
         "PRICKLY",
@@ -610,7 +610,7 @@
         "HAUNTEDHOUSE",
         "BUTTERFLYCLIPS",
         "MULLET",
-        "LEGACY",
+        "AUTUMNPORCH",
         "CAFE",
         "DRESS",
         "ADIRONDACKS",
@@ -640,10 +640,10 @@
         "SPIKE",
         "AQUATIC",
         "DENIM",
-        "FINCH",
+        "AUTUMNRECIPE",
         "MOVIERENTAL",
         "RUSSET",
-        "SPOTLIGHT",
+        "AUTUMNSUNSET",
         "STRETCH",
         "JUICY",
         "TUBE",
@@ -660,9 +660,9 @@
         "DETHATCH",
         "HONEY",
         "PEARL",
-        "BOAT",
+        "AUTUMNWALK",
         "TRACK",
-        "CELESTIAL",
+        "AUTUMNWEEKEND",
         "DESIGN",
         "BAD",
         "RAIN"
@@ -673,12 +673,12 @@
       "words": [
         "POTHOS",
         "CONTRAST",
-        "FEATHER",
+        "AZALEA",
         "REEF",
-        "THRUSH",
-        "GUITAR",
+        "BACKPACK",
+        "BACKPORCH",
         "GRILL",
-        "CARING",
+        "BACKYARDCHICKENS",
         "BAIT",
         "GRAPES",
         "ADOPT",
@@ -689,16 +689,16 @@
       "name": "Food Processor",
       "words": [
         "GOUDA",
-        "EARBUDS",
+        "BACKYARDFARM",
         "DISKDRIVE",
-        "CABIN",
+        "BACKYARDGARDEN",
         "BAG",
         "RICE",
         "PRIMROSE",
         "LOWRISEJEANS",
         "COW",
         "COUNSELOR",
-        "FLASH",
+        "BAKING",
         "JUMP"
       ]
     },
@@ -722,16 +722,16 @@
     {
       "name": "Holiday Treats",
       "words": [
-        "BEAT",
+        "BAKINGDAY",
         "SAXIFRAGE",
         "SIDEBANGS",
         "PETAL",
-        "PSYCH",
+        "BAKINGPAN",
         "PIE",
         "NAVY",
         "SPRINKLER",
         "POLLEN",
-        "AVATAR",
+        "BALCONYGARDEN",
         "TOES",
         "TEXTING"
       ]
@@ -741,7 +741,7 @@
       "words": [
         "FEATHERS",
         "PERGOLA",
-        "RADIO",
+        "BALSAM",
         "ROD",
         "FOODCOURT",
         "MALLOW",
@@ -749,7 +749,7 @@
         "RASP",
         "CROCUS",
         "OCEANVIEW",
-        "REMOTE",
+        "BANNETON",
         "ADVENT"
       ]
     },
@@ -777,7 +777,7 @@
         "PEONY",
         "MOISTURE",
         "ASIF",
-        "ARTIST",
+        "BARK",
         "TASTING",
         "HOSE",
         "LEAFY",
@@ -790,24 +790,24 @@
     {
       "name": "Loaf Pan",
       "words": [
-        "NIGHT",
+        "BARLEY",
         "EXOTIC",
         "SQUAWK",
         "AROMA",
         "FIND",
         "PROJECTOR",
-        "SNEAKERS",
+        "BARLEYFIELD",
         "GRANDMA",
         "ACIDWASH",
         "BOIL",
         "APPLIANCE",
-        "CHEF"
+        "BARN"
       ]
     },
     {
       "name": "Macaroon Tree",
       "words": [
-        "ACTIONFIGURE",
+        "BARNBEAM",
         "STROLL",
         "BROTH",
         "THORN",
@@ -818,7 +818,7 @@
         "HAYBALE",
         "MOLE",
         "GATHER",
-        "ADVENTURE"
+        "BARNBOARD"
       ]
     },
     {
@@ -876,5 +876,12 @@
       "Baking and Food"
     ],
     "checked_at": "2026-08-22T10:08:38"
+  },
+  "quality_review": {
+    "checked_at": "20260824-213716",
+    "source": "verified_word_intelligence_repair",
+    "verdict": "PASS_WITH_NOTES",
+    "production_ready": false,
+    "changes": 98
   }
 }

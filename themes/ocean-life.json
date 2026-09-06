@@ -66,8 +66,8 @@
         "SANCTUARIES",
         "LOON",
         "EQUIP",
-        "CARDGAME",
-        "HIGHSCORE",
+        "ACORN",
+        "ADVENTURETRAIL",
         "FURNITURE",
         "CABOOSE",
         "DISCOBALL"
@@ -95,7 +95,7 @@
       "words": [
         "NAPOLEON",
         "BOOGIE",
-        "SHOOTER",
+        "ALASKAPARKS",
         "MUMMY",
         "SERENE",
         "LUNCH",
@@ -112,12 +112,12 @@
       "words": [
         "OUTDOOR",
         "TRANSLATE",
-        "NOVEL",
+        "ALPINEFOREST",
         "COLORADORIVER",
         "MARINA",
         "PANEL",
         "SCIENCE",
-        "NOMINEE",
+        "ALPINEGLOW",
         "WHALES",
         "RECIPE",
         "TOGETHER",
@@ -128,7 +128,7 @@
       "name": "Lobsters",
       "words": [
         "GOLDRUSH",
-        "ACTION",
+        "ALPINEHUT",
         "CUTTING",
         "SPRAY",
         "RETAIL",
@@ -179,7 +179,7 @@
       "name": "Octopus",
       "words": [
         "SUNFLOWER",
-        "TOURNAMENT",
+        "ALPINELAKE",
         "ASSAY",
         "PASTRAMI",
         "PANTHER",
@@ -218,7 +218,7 @@
         "REMOTE",
         "ELPASO",
         "MONARCH",
-        "CAESAR",
+        "ALPINEPASS",
         "BOULDER",
         "LIBRARYS",
         "RIPPLE",
@@ -281,7 +281,7 @@
       "name": "Sea Otters",
       "words": [
         "BURRITO",
-        "JOYSTICK",
+        "ALPINEWILDFLOWER",
         "EGGS",
         "STINGRAY",
         "CLAW",
@@ -291,7 +291,7 @@
         "SIBERIAN",
         "PROMOTE",
         "SAIL",
-        "TREASURE"
+        "AMERICANALLIGATOR"
       ]
     },
     {
@@ -302,11 +302,11 @@
         "CHARMING",
         "CRUISE",
         "DIRECT",
-        "PARADISE",
+        "AMPHIBIAN",
         "METRO",
         "FOUNDRY",
         "HUNT",
-        "KEY",
+        "ANACOSTIA",
         "RECOVERY",
         "IMAGE"
       ]
@@ -349,7 +349,7 @@
       "name": "Starfish",
       "words": [
         "SNAKERIVER",
-        "CLUE",
+        "ANEMONE",
         "SANDALS",
         "COCONUT",
         "CIDER",
@@ -369,7 +369,7 @@
         "FARMROAD",
         "WETSUITS",
         "CLASSICS",
-        "BOOKSTORE",
+        "ANGLERFISH",
         "CABBAGE",
         "LONGBOAT",
         "JUMP",
@@ -426,7 +426,7 @@
         "LABOR",
         "YACHT",
         "RAVEN",
-        "HADES",
+        "ANTELOPECANYON",
         "TRUCKER"
       ]
     },
@@ -438,7 +438,7 @@
         "ROWING",
         "CREW",
         "QUALITY",
-        "ORCHESTRA",
+        "ANTLER",
         "INLANDEMPIRE",
         "PACIFICCOAST",
         "WHALE",
@@ -455,8 +455,8 @@
         "MEETUPS",
         "LONDON",
         "EXPERIENCE",
-        "MELODY",
-        "PEACE",
+        "APPALACHIANTRAIL",
+        "ARCHES",
         "MOTORCYCLE",
         "MANGO",
         "PLAYERS",
@@ -471,13 +471,13 @@
         "MOONPROGRAM",
         "ROYAL",
         "LAUNCH",
-        "ALBUM",
+        "ARCTICFOX",
         "PASSENGER",
         "HOUSE",
         "COLORADOPLATEAU",
         "SNACKS",
         "LOCK",
-        "BRISKET",
+        "ARROYO",
         "BUILDING"
       ]
     },
@@ -501,7 +501,7 @@
     {
       "name": "Seaweed",
       "words": [
-        "GARDENS",
+        "ASPEN",
         "COASTER",
         "HARVESTGOLD",
         "ANGELSLANDING",
@@ -519,14 +519,14 @@
       "name": "Manatees",
       "words": [
         "TAXATION",
-        "CONSERVATION",
+        "ASPENLEAF",
         "SILLY",
         "HUMAN",
         "FARE",
-        "COSPLAY",
+        "AUTUMN",
         "FURNACE",
         "INNERCANYON",
-        "FEAST",
+        "AVALANCHE",
         "SCOOTER",
         "JUMPERS",
         "WRAP"
@@ -544,7 +544,7 @@
         "RUINS",
         "CHARADE",
         "GLADIATOR",
-        "JAWS",
+        "AWARDSEASON",
         "IVORY",
         "TURNPIKE"
       ]
@@ -591,7 +591,7 @@
         "BEACHY",
         "GELATIN",
         "TOWPATH",
-        "COMEDY",
+        "BACKCOUNTRY",
         "CBRADIO",
         "COLA",
         "PICKUP",
@@ -677,7 +677,7 @@
         "LANDFORM",
         "EMOTION",
         "ROWHOUSE",
-        "ORNAMENT",
+        "BACKCOUNTRYROAD",
         "PROTECTS",
         "FREE",
         "FORTDAVIS",
@@ -692,10 +692,10 @@
         "MANOR",
         "PLAY",
         "SEATURTLE",
-        "BROADWAY",
+        "BACKPACK",
         "PROSPECTOR",
         "SCENICDRIVE",
-        "BLOCKBUSTER",
+        "BACKPACKTRAIL",
         "IMMIGRATE",
         "GRILL",
         "KOLACHE",
@@ -728,7 +728,7 @@
         "ARCH",
         "VOLUNTEERS",
         "MONKEYS",
-        "GLITTER",
+        "BACKSEAT",
         "QUAIL",
         "PITCHER",
         "LIGHTNING",
@@ -743,7 +743,7 @@
         "WINERY",
         "GIANT",
         "WOODEN",
-        "CONCERT",
+        "BACKWATER",
         "KOALAS",
         "CHIMICHANGA",
         "STARFISH",
@@ -756,7 +756,7 @@
     {
       "name": "Sea Migration",
       "words": [
-        "SCREEN",
+        "BADLANDS",
         "MANAGEMENT",
         "CAPUCHIN",
         "EXPLOSIVE",
@@ -780,18 +780,18 @@
         "ABSORB",
         "ABYSS",
         "ACADIA",
-        "ACOUSTIC",
+        "BADLANDSBUTTE",
         "ACROPOLIS",
         "ACTIONTOY",
         "ACTIVIST",
-        "ACTOR"
+        "BALSAMFIR"
       ]
     },
     {
       "name": "Under the Sea Word Quest 046",
       "words": [
         "ACTORS",
-        "ACTRESS",
+        "BARK",
         "ADAPTATION",
         "ADAPTIVE",
         "ADDAX",
@@ -824,7 +824,7 @@
     {
       "name": "Under the Sea Word Quest 048",
       "words": [
-        "ALBUMS",
+        "BARRIERBEACH",
         "ALEXANDER",
         "ALGAE",
         "ALIENS",
@@ -834,7 +834,7 @@
         "ALLIGATOR",
         "ALMOND",
         "ALPINE",
-        "ALTAR",
+        "BASALT",
         "ALTITUDE"
       ]
     }
@@ -875,5 +875,12 @@
       "Ocean Life"
     ],
     "checked_at": "2026-08-22T10:08:38"
+  },
+  "quality_review": {
+    "checked_at": "20260824-213855",
+    "source": "verified_word_intelligence_repair",
+    "verdict": "PASS_WITH_NOTES",
+    "production_ready": false,
+    "changes": 37
   }
 }

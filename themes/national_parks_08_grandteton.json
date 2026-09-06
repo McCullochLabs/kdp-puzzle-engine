@@ -19,8 +19,8 @@
         "TURQUOISE",
         "PRIMATES",
         "COPSHOW",
-        "MONSTER",
-        "ORNAMENT",
+        "ACADIA",
+        "ACCELERATOR",
         "RADICAL",
         "RADISH"
       ]
@@ -56,7 +56,7 @@
         "KINGSCANYON",
         "HOMECONSOLE",
         "FORM",
-        "COOKBOOK"
+        "ACCESSORY"
       ]
     },
     {
@@ -85,7 +85,7 @@
         "TIDES",
         "ARENA",
         "VERSATILE",
-        "PHOTOGRAPH",
+        "ACCORD",
         "PHRASES",
         "NEST",
         "CEDAR",
@@ -104,7 +104,7 @@
         "ROAR",
         "TRAWL",
         "SPARK",
-        "HERBS",
+        "ACCORDHYBRID",
         "DISK",
         "SONAR",
         "STRING"
@@ -131,24 +131,24 @@
       "name": "Grand Teton Mountain Lakes Puzzle 008",
       "words": [
         "PANHANDLE",
-        "CHURCH",
+        "ACORN",
         "MONK",
         "CONDOR",
         "SAGUARO",
         "MUSTACHE",
         "VACATIONS",
         "ARCHER",
-        "SCREEN",
-        "READING",
+        "ACURA",
+        "ADVENTURE",
         "NEAP",
-        "PRIMETIME"
+        "ADVENTURETRAIL"
       ]
     },
     {
       "name": "Grand Teton Mountain Lakes Puzzle 009",
       "words": [
-        "BLOCKBUSTER",
-        "SPORTS",
+        "AEROSTAR",
+        "AGROFORESTRY",
         "INDUSTRY",
         "PUZZLES",
         "TINTED",
@@ -183,7 +183,7 @@
       "words": [
         "SHORELINE",
         "OTTER",
-        "GLITTER",
+        "AIRCONDITIONER",
         "PEA",
         "IMMIGRATION",
         "COMPUTER",
@@ -191,7 +191,7 @@
         "CANAL",
         "CRAFTED",
         "ROAM",
-        "CHALLENGE",
+        "AIRFILTER",
         "NURSERY"
       ]
     },
@@ -207,7 +207,7 @@
         "SWELL",
         "SUSTAIN",
         "BAY",
-        "SCREAM",
+        "AIRFRESHENER",
         "RAVEN",
         "RUNS"
       ]
@@ -215,7 +215,7 @@
     {
       "name": "Grand Teton Mountain Lakes Puzzle 013",
       "words": [
-        "ARTWORK",
+        "AIRPUMP",
         "WETLAND",
         "GRIZZLY",
         "TROPIC",
@@ -235,7 +235,7 @@
         "SAHARA",
         "FRIEND",
         "HORIZON",
-        "WATER",
+        "ALASKAPARKS",
         "HOTPANTS",
         "BEACHCHAIR",
         "WEATHER",
@@ -256,8 +256,8 @@
         "COVEREDBRIDGE",
         "YARROW",
         "GLASS",
-        "RESTORATION",
-        "SOUNDTRACK",
+        "ALERO",
+        "ALIGNMENT",
         "CONSERVATION",
         "REFLECT",
         "MING"
@@ -273,7 +273,7 @@
         "FAMILYSHOW",
         "PRESERVE",
         "HAY",
-        "BANJO",
+        "ALLIES",
         "SIGNAL",
         "ROUGH",
         "GARDENIA",
@@ -292,8 +292,8 @@
         "MYTHOLOGY",
         "WACO",
         "PEREGRINE",
-        "GARDENS",
-        "PATTERN",
+        "ALLROAD",
+        "ALLWHEEL",
         "SALTFLAT"
       ]
     },
@@ -317,7 +317,7 @@
     {
       "name": "Grand Teton Mountain Lakes Puzzle 019",
       "words": [
-        "SINGLE",
+        "ALPINEFOREST",
         "YELLOWSTONE",
         "ORCHARD",
         "PILGRIM",
@@ -327,7 +327,7 @@
         "SIFAKAS",
         "EGRET",
         "AIRPORT",
-        "TIDEPOOL",
+        "ALPINEGLOW",
         "THUNDER"
       ]
     },
@@ -341,7 +341,7 @@
         "WIND",
         "HARBOR",
         "SAILS",
-        "ORCHESTRA",
+        "ALPINEHUT",
         "FIRE",
         "GECKOS",
         "SYMPHONY",
@@ -360,7 +360,7 @@
         "NUTRIENT",
         "HIGHWAY",
         "WONDER",
-        "ARTIST",
+        "ALPINELAKE",
         "WESTERNNEWYORK",
         "MONKEYS"
       ]
@@ -370,7 +370,7 @@
       "words": [
         "SPRITE",
         "CAUSEWAY",
-        "TELEVISION",
+        "ALPINEPASS",
         "PISTACHIO",
         "TRUCKER",
         "SURFACE",
@@ -410,7 +410,7 @@
         "TRACKING",
         "LARIAT",
         "THIN",
-        "PEACE",
+        "ALPINEWILDFLOWER",
         "LEMON",
         "MOUND",
         "POUCH"
@@ -420,10 +420,10 @@
       "name": "Grand Teton Mountain Lakes Puzzle 025",
       "words": [
         "HILLCOUNTRY",
-        "LIBRARY",
+        "ALTERNATOR",
         "FRIES",
         "CREVICE",
-        "WINNER",
+        "ALTERNATORBELT",
         "PEACH",
         "BLADE",
         "EXPLOSIVE",
@@ -437,7 +437,7 @@
       "name": "Grand Teton Mountain Lakes Puzzle 026",
       "words": [
         "VOYAGE",
-        "SINGER",
+        "ALTIMA",
         "CONVERSATIONPIT",
         "PHLOX",
         "FISHING",
@@ -464,7 +464,7 @@
         "TRAILMAP",
         "SAMURAI",
         "SURFBOARD",
-        "MARKER"
+        "AMBULANCE"
       ]
     },
     {
@@ -558,7 +558,7 @@
         "WORKOUT",
         "VISA",
         "MATE",
-        "FRIENDS",
+        "AMERICA",
         "CRANBERRY",
         "FLAME",
         "VIRGINRIVER",
@@ -591,8 +591,8 @@
       "words": [
         "CHALET",
         "AMBER",
-        "MUSICIAN",
-        "ELIZABETH",
+        "AMERICANALLIGATOR",
+        "AMIGO",
         "BICYCLE",
         "HABITAT",
         "MANDRILLS",
@@ -646,7 +646,7 @@
         "LACES",
         "FREIGHTS",
         "SOUTHERNTIER",
-        "TEAMWORK",
+        "AMPERA",
         "MEDIA",
         "MOTOWN",
         "ROSEMARY",
@@ -725,7 +725,7 @@
     {
       "name": "Grand Teton Mountain Lakes Puzzle 043",
       "words": [
-        "ARCADE",
+        "AMPHIBIAN",
         "BOATS",
         "GOLF",
         "CHIVEBLOSSOM",
@@ -747,7 +747,7 @@
         "COMIC",
         "GULFWATER",
         "PLAYFUL",
-        "ALTAR",
+        "AMPLIFIER",
         "TRANSPLANT",
         "HERD",
         "SMART",
@@ -821,7 +821,7 @@
         "CHEVY",
         "SOLE",
         "SHELTERS",
-        "COLOR"
+        "ANACOSTIA"
       ]
     }
   ],
@@ -862,5 +862,12 @@
       "National Parks"
     ],
     "checked_at": "2026-08-22T10:08:38"
+  },
+  "quality_review": {
+    "checked_at": "20260824-213825",
+    "source": "verified_word_intelligence_repair",
+    "verdict": "PASS_WITH_NOTES",
+    "production_ready": false,
+    "changes": 38
   }
 }

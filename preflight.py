@@ -10,6 +10,7 @@ import sys
 from pathlib import Path
 
 from pypdf import PdfReader
+from publishing.package_layout import package_file
 
 TRIM_W, TRIM_H = 8.5, 11.0
 BLEED = 0.125
@@ -28,8 +29,8 @@ def _page_size(reader: PdfReader) -> tuple[float, float]:
 def preflight(book_dir: str | Path) -> tuple[bool, list[str]]:
     """Check the actual files made by this app and return plain-English lines."""
     folder = Path(book_dir)
-    interior = folder / "interior.pdf"
-    wrap = folder / "kdp_full_wrap.pdf"
+    interior = package_file(folder, "interior.pdf")
+    wrap = package_file(folder, "kdp_full_wrap.pdf")
     if not wrap.is_file():
         wrap = folder / "wrap.pdf"
     results: list[str] = []

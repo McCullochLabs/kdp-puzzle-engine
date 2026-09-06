@@ -1743,6 +1743,7 @@
       "Try using one favorite word from each puzzle in a sentence.",
       "This Passport celebrates your vocabulary progress."
     ],
-    "challenge": "Word Power Challenge: choose one new word and use it in a real sentence."
+    "challenge": "Word Power Challenge: choose one new word and use it in a real sentence.",
+    "puzzle_target": 100
   }
 }

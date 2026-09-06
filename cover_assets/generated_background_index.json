@@ -1,0 +1,3393 @@
+{
+  "assets": [
+    {
+      "asset_id": "bg_3c78605afe819d39",
+      "classification": "APPROVED_CHATGPT_GENERATED",
+      "created_at": "2026-08-27T00:55:58+00:00",
+      "focus": "center",
+      "health": {
+        "height": 1536,
+        "variance": 4261.77,
+        "width": 1024
+      },
+      "lifecycle_state": "active",
+      "name": "American History Heritage",
+      "orientation": "portrait",
+      "palette": "usa",
+      "path": "cover_assets\\background_photos\\american_history_heritage_v2.png",
+      "perceptual_hash": "03070f0707070763",
+      "production_approved": true,
+      "project_generated": true,
+      "provenance": {
+        "audited_at": "2026-08-27T00:55:58+00:00",
+        "basis": "Existing Slade Puzzles AI background library manifest",
+        "provider": "ChatGPT project generation"
+      },
+      "sha256": "8c2687103aee07f2c1786096f3b408d0feb79e7913602760d01bcc35ca761198",
+      "source_type": "generated_art",
+      "topics": [
+        "american history",
+        "american",
+        "history",
+        "founding",
+        "heritage",
+        "revolution",
+        "civil war",
+        "president"
+      ],
+      "updated_at": "2026-09-06T03:03:48+00:00",
+      "usage": [
+        {
+          "at": "2026-08-27T15:13:01+00:00",
+          "package": "C:\\Users\\jorda\\Desktop\\Word Search Creator\\kdp-puzzle-engine\\out\\american_heritage_cipher_challenge_20260827_081214",
+          "theme": "History & Heritage",
+          "title": "American Heritage Cipher Challenge"
+        },
+        {
+          "at": "2026-08-27T15:13:53+00:00",
+          "package": "C:\\Users\\jorda\\Desktop\\Word Search Creator\\kdp-puzzle-engine\\out\\american_heritage_cipher_challenge_20260827_081300",
+          "theme": "History & Heritage",
+          "title": "American Heritage Cipher Challenge"
+        },
+        {
+          "at": "2026-08-27T23:03:18+00:00",
+          "package": "C:\\Users\\jorda\\Desktop\\Word Search Creator\\kdp-puzzle-engine\\out\\american_heritage_cipher_challenge_20260827_160243",
+          "theme": "History & Heritage",
+          "title": "American Heritage Cipher Challenge"
+        }
+      ],
+      "visual_family_id": "vf_03070f0707070763"
+    },
+    {
+      "asset_id": "bg_5aed39df3a3d9f33",
+      "classification": "APPROVED_CHATGPT_GENERATED",
+      "created_at": "2026-08-27T00:55:58+00:00",
+      "focus": "center",
+      "health": {
+        "height": 1536,
+        "variance": 4353.5,
+        "width": 1024
+      },
+      "lifecycle_state": "active",
+      "name": "American History Heritage",
+      "orientation": "portrait",
+      "palette": "usa",
+      "path": "cover_assets\\background_photos\\american_history_museum_v3.png",
+      "perceptual_hash": "19070f071f0e0b19",
+      "production_approved": true,
+      "project_generated": true,
+      "provenance": {
+        "audited_at": "2026-08-27T00:55:58+00:00",
+        "basis": "Existing Slade Puzzles AI background library manifest",
+        "provider": "ChatGPT project generation"
+      },
+      "sha256": "77ccba06a25fe11648a74e0eaa35908950cf992fc15c778bc136b7536c0c06c6",
+      "source_type": "generated_art",
+      "topics": [
+        "american history",
+        "american",
+        "history",
+        "founding",
+        "heritage",
+        "revolution",
+        "civil war",
+        "president"
+      ],
+      "updated_at": "2026-09-06T03:03:48+00:00",
+      "usage": [
+        {
+          "at": "2026-08-29T03:41:59+00:00",
+          "package": "",
+          "theme": "C:\\Users\\jorda\\Desktop\\Word Search Creator\\kdp-puzzle-engine\\themes\\Trending 50 Puzzle Releases\\american_moments_20260828_203806.json",
+          "title": "American Moments Word Search"
+        }
+      ],
+      "visual_family_id": "vf_19070f071f0e0b19"
+    },
+    {
+      "asset_id": "bg_aba8e1b7ad9b7b18",
+      "classification": "APPROVED_CHATGPT_GENERATED",
+      "created_at": "2026-08-27T00:55:58+00:00",
+      "focus": "center",
+      "health": {
+        "height": 1536,
+        "variance": 4019.52,
+        "width": 1024
+      },
+      "lifecycle_state": "active",
+      "name": "American History Heritage",
+      "orientation": "portrait",
+      "palette": "usa",
+      "path": "cover_assets\\background_photos\\american_history_museum_v4.png",
+      "perceptual_hash": "8c070b2b170f2516",
+      "production_approved": true,
+      "project_generated": true,
+      "provenance": {
+        "audited_at": "2026-08-27T00:55:58+00:00",
+        "basis": "Existing Slade Puzzles AI background library manifest",
+        "provider": "ChatGPT project generation"
+      },
+      "sha256": "252c8e05c62cde0f3ee719e16ded4066ef50cf5feedfdf55eee06ea6ec394e0e",
+      "source_type": "generated_art",
+      "topics": [
+        "american history",
+        "american",
+        "history",
+        "founding",
+        "heritage",
+        "revolution",
+        "civil war",
+        "president"
+      ],
+      "updated_at": "2026-09-06T03:03:49+00:00",
+      "usage": [],
+      "visual_family_id": "vf_8c070b2b170f2516"
+    },
+    {
+      "asset_id": "bg_a0f1a358e33b33e1",
+      "classification": "APPROVED_CHATGPT_GENERATED",
+      "created_at": "2026-08-27T00:55:58+00:00",
+      "focus": "center",
+      "health": {
+        "height": 1536,
+        "variance": 5454.6,
+        "width": 1024
+      },
+      "lifecycle_state": "active",
+      "name": "Autumn and Halloween",
+      "orientation": "portrait",
+      "palette": "autumn-harvest",
+      "path": "cover_assets\\background_photos\\autumn_halloween.png",
+      "perceptual_hash": "02000001410d070f",
+      "production_approved": true,
+      "project_generated": true,
+      "provenance": {
+        "audited_at": "2026-08-27T00:55:58+00:00",
+        "basis": "Existing Slade Puzzles AI background library manifest",
+        "provider": "ChatGPT project generation"
+      },
+      "sha256": "cfb22eaf39cac9297869f9b5eca70f155e7f10b74f0be80809435df36b8332ce",
+      "source_type": "generated_art",
+      "topics": [
+        "halloween",
+        "autumn",
+        "fall",
+        "thanksgiving",
+        "harvest"
+      ],
+      "updated_at": "2026-09-06T03:03:49+00:00",
+      "usage": [],
+      "visual_family_id": "vf_02000001410d070f"
+    },
+    {
+      "asset_id": "bg_449755f3bd40a5c4",
+      "classification": "APPROVED_CHATGPT_GENERATED",
+      "created_at": "2026-08-27T00:55:59+00:00",
+      "focus": "center",
+      "health": {
+        "height": 1536,
+        "variance": 1167.83,
+        "width": 1024
+      },
+      "lifecycle_state": "active",
+      "name": "Autumn and Halloween",
+      "orientation": "portrait",
+      "palette": "autumn-harvest",
+      "path": "cover_assets\\background_photos\\autumn_halloween_v2.png",
+      "perceptual_hash": "3f3fdf3f0d737013",
+      "production_approved": true,
+      "project_generated": true,
+      "provenance": {
+        "audited_at": "2026-08-27T00:55:59+00:00",
+        "basis": "Existing Slade Puzzles AI background library manifest",
+        "provider": "ChatGPT project generation"
+      },
+      "sha256": "41b8386a9cecd36fd84f91a917f4718ca8dbca6ed72b90697bb1b71228c33ada",
+      "source_type": "generated_art",
+      "topics": [
+        "halloween",
+        "autumn",
+        "fall",
+        "thanksgiving",
+        "harvest"
+      ],
+      "updated_at": "2026-09-06T03:03:49+00:00",
+      "usage": [],
+      "visual_family_id": "vf_3f3fdf3f0d737013"
+    },
+    {
+      "asset_id": "bg_7af0c607f4f1d08d",
+      "classification": "APPROVED_CHATGPT_GENERATED",
+      "created_at": "2026-08-27T00:55:59+00:00",
+      "focus": "center",
+      "health": {
+        "height": 1536,
+        "variance": 4985.09,
+        "width": 1024
+      },
+      "lifecycle_state": "active",
+      "name": "Autumn and Halloween",
+      "orientation": "portrait",
+      "palette": "autumn-harvest",
+      "path": "cover_assets\\background_photos\\autumn_harvest_v3.png",
+      "perceptual_hash": "0c040007ff854c66",
+      "production_approved": true,
+      "project_generated": true,
+      "provenance": {
+        "audited_at": "2026-08-27T00:55:59+00:00",
+        "basis": "Existing Slade Puzzles AI background library manifest",
+        "provider": "ChatGPT project generation"
+      },
+      "sha256": "ecfeb84d6d041adf0a88dacba51d56b204df0a9b2ae79c07c88c78c833d5291c",
+      "source_type": "generated_art",
+      "topics": [
+        "halloween",
+        "autumn",
+        "fall",
+        "thanksgiving",
+        "harvest"
+      ],
+      "updated_at": "2026-09-06T03:03:49+00:00",
+      "usage": [],
+      "visual_family_id": "vf_0c040007ff854c66"
+    },
+    {
+      "asset_id": "bg_dadb00f774d5d279",
+      "classification": "APPROVED_CHATGPT_GENERATED",
+      "created_at": "2026-08-27T00:55:59+00:00",
+      "focus": "center",
+      "health": {
+        "height": 1536,
+        "variance": 2778.24,
+        "width": 1024
+      },
+      "lifecycle_state": "active",
+      "name": "Bible and Faith Sunrise",
+      "orientation": "portrait",
+      "palette": "bible",
+      "path": "cover_assets\\background_photos\\bible_chapel_v3.png",
+      "perceptual_hash": "134b4b3f2e1f0f3e",
+      "production_approved": true,
+      "project_generated": true,
+      "provenance": {
+        "audited_at": "2026-08-27T00:55:59+00:00",
+        "basis": "Existing Slade Puzzles AI background library manifest",
+        "provider": "ChatGPT project generation"
+      },
+      "sha256": "8df00752cc831d3cdff7ab9c5c7d7989b4e6d2b89bd665d810da8497bfbab597",
+      "source_type": "generated_art",
+      "topics": [
+        "bible",
+        "faith",
+        "scripture",
+        "christian",
+        "encouragement",
+        "prayer",
+        "devotional"
+      ],
+      "updated_at": "2026-09-06T03:03:49+00:00",
+      "usage": [
+        {
+          "at": "2026-08-29T03:40:18+00:00",
+          "package": "",
+          "theme": "C:\\Users\\jorda\\Desktop\\Word Search Creator\\kdp-puzzle-engine\\themes\\Trending 50 Puzzle Releases\\faithful_words_20260828_203806.json",
+          "title": "Faithful Words Word Search"
+        }
+      ],
+      "visual_family_id": "vf_134b4b3f2e1f0f3e"
+    },
+    {
+      "asset_id": "bg_54f9faf531547ee4",
+      "classification": "APPROVED_CHATGPT_GENERATED",
+      "created_at": "2026-08-27T00:55:59+00:00",
+      "focus": "center",
+      "health": {
+        "height": 1536,
+        "variance": 2509.89,
+        "width": 1024
+      },
+      "lifecycle_state": "active",
+      "name": "Bible and Faith Sunrise",
+      "orientation": "portrait",
+      "palette": "bible",
+      "path": "cover_assets\\background_photos\\bible_faith_sunrise_v2.png",
+      "perceptual_hash": "0303070703032307",
+      "production_approved": true,
+      "project_generated": true,
+      "provenance": {
+        "audited_at": "2026-08-27T00:55:59+00:00",
+        "basis": "Existing Slade Puzzles AI background library manifest",
+        "provider": "ChatGPT project generation"
+      },
+      "sha256": "58764b874329455d1aed8a92dbab1c5e19b45a2934d5f9af0a003d7244788d2e",
+      "source_type": "generated_art",
+      "topics": [
+        "bible",
+        "faith",
+        "scripture",
+        "christian",
+        "encouragement",
+        "prayer",
+        "devotional"
+      ],
+      "updated_at": "2026-09-06T03:03:49+00:00",
+      "usage": [],
+      "visual_family_id": "vf_0303070703032307"
+    },
+    {
+      "asset_id": "bg_24877f72ece5293f",
+      "classification": "APPROVED_CHATGPT_GENERATED",
+      "created_at": "2026-08-27T00:55:59+00:00",
+      "focus": "center",
+      "health": {
+        "height": 1536,
+        "variance": 2999.25,
+        "width": 1024
+      },
+      "lifecycle_state": "active",
+      "name": "Bible and Faith Sunrise",
+      "orientation": "portrait",
+      "palette": "bible",
+      "path": "cover_assets\\background_photos\\bible_garden_v4.png",
+      "perceptual_hash": "030719351f273e6f",
+      "production_approved": true,
+      "project_generated": true,
+      "provenance": {
+        "audited_at": "2026-08-27T00:55:59+00:00",
+        "basis": "Existing Slade Puzzles AI background library manifest",
+        "provider": "ChatGPT project generation"
+      },
+      "sha256": "19fcea5303b41575526e07bf862b12e06d0dc1f5b672af3df23e25d13233e03a",
+      "source_type": "generated_art",
+      "topics": [
+        "bible",
+        "faith",
+        "scripture",
+        "christian",
+        "encouragement",
+        "prayer",
+        "devotional"
+      ],
+      "updated_at": "2026-09-06T03:03:50+00:00",
+      "usage": [],
+      "visual_family_id": "vf_030719351f273e6f"
+    },
+    {
+      "asset_id": "bg_96e6b6139554c20a",
+      "classification": "APPROVED_CHATGPT_GENERATED",
+      "created_at": "2026-08-27T00:56:00+00:00",
+      "focus": "center",
+      "health": {
+        "height": 1536,
+        "variance": 4158.52,
+        "width": 1024
+      },
+      "lifecycle_state": "active",
+      "name": "Birds and Wildflowers",
+      "orientation": "portrait",
+      "palette": "birds",
+      "path": "cover_assets\\background_photos\\birds_autumn_v3.png",
+      "perceptual_hash": "373e3f2f078f872b",
+      "production_approved": true,
+      "project_generated": true,
+      "provenance": {
+        "audited_at": "2026-08-27T00:56:00+00:00",
+        "basis": "Existing Slade Puzzles AI background library manifest",
+        "provider": "ChatGPT project generation"
+      },
+      "sha256": "fabc0b06123fb6de957cda2966da6ee6976fb8bdaf85e5c8d0f9f592fb3f553c",
+      "source_type": "generated_art",
+      "topics": [
+        "bird",
+        "birds",
+        "birdwatching",
+        "songbird",
+        "wildlife",
+        "nature"
+      ],
+      "updated_at": "2026-09-06T03:03:50+00:00",
+      "usage": [],
+      "visual_family_id": "vf_373e3f2f078f872b"
+    },
+    {
+      "asset_id": "bg_034258c346913440",
+      "classification": "APPROVED_CHATGPT_GENERATED",
+      "created_at": "2026-08-27T00:56:00+00:00",
+      "focus": "center",
+      "health": {
+        "height": 1536,
+        "variance": 3158.64,
+        "width": 1024
+      },
+      "lifecycle_state": "active",
+      "name": "Birds and Wildflowers",
+      "orientation": "portrait",
+      "palette": "birds",
+      "path": "cover_assets\\background_photos\\birds_hummingbird_v4.png",
+      "perceptual_hash": "0f076f170f1b0f07",
+      "production_approved": true,
+      "project_generated": true,
+      "provenance": {
+        "audited_at": "2026-08-27T00:56:00+00:00",
+        "basis": "Existing Slade Puzzles AI background library manifest",
+        "provider": "ChatGPT project generation"
+      },
+      "sha256": "2b65d1a35571093f84e566130d0745223159245739a88790ea2eafc4cdca3b0d",
+      "source_type": "generated_art",
+      "topics": [
+        "bird",
+        "birds",
+        "birdwatching",
+        "songbird",
+        "wildlife",
+        "nature"
+      ],
+      "updated_at": "2026-09-06T03:03:50+00:00",
+      "usage": [
+        {
+          "at": "2026-08-27T15:52:19+00:00",
+          "package": "",
+          "theme": "C:\\Users\\jorda\\Desktop\\Word Search Creator\\kdp-puzzle-engine\\themes\\Launch Collection\\Verified Release Candidates\\backyard_birdwatching_preproduction.json",
+          "title": "Backyard Birdwatching Word Search"
+        }
+      ],
+      "visual_family_id": "vf_0f076f170f1b0f07"
+    },
+    {
+      "asset_id": "bg_43ea089031564aaa",
+      "classification": "APPROVED_CHATGPT_GENERATED",
+      "created_at": "2026-08-27T00:56:00+00:00",
+      "focus": "center",
+      "health": {
+        "height": 1536,
+        "variance": 3294.27,
+        "width": 1024
+      },
+      "lifecycle_state": "active",
+      "name": "Birds and Wildflowers",
+      "orientation": "portrait",
+      "palette": "birds",
+      "path": "cover_assets\\background_photos\\birds_wildflowers_v2.png",
+      "perceptual_hash": "868e2f13078f8f27",
+      "production_approved": true,
+      "project_generated": true,
+      "provenance": {
+        "audited_at": "2026-08-27T00:56:00+00:00",
+        "basis": "Existing Slade Puzzles AI background library manifest",
+        "provider": "ChatGPT project generation"
+      },
+      "sha256": "53f5272e0bbbf8bbc92c67a75d60d484feb5fc6e420ed5a3f637f469b13bb502",
+      "source_type": "generated_art",
+      "topics": [
+        "bird",
+        "birds",
+        "birdwatching",
+        "songbird",
+        "wildlife",
+        "nature"
+      ],
+      "updated_at": "2026-09-06T03:03:50+00:00",
+      "usage": [],
+      "visual_family_id": "vf_868e2f13078f8f27"
+    },
+    {
+      "asset_id": "bg_67981d599902e300",
+      "classification": "APPROVED_CHATGPT_GENERATED",
+      "created_at": "2026-08-27T00:56:00+00:00",
+      "focus": "center",
+      "health": {
+        "height": 1537,
+        "variance": 1363.02,
+        "width": 1023
+      },
+      "lifecycle_state": "active",
+      "name": "Books and Reading",
+      "orientation": "portrait",
+      "palette": "library-burgundy",
+      "path": "cover_assets\\background_photos\\books_library_v2.png",
+      "perceptual_hash": "838f8e8eacb0c721",
+      "production_approved": true,
+      "project_generated": true,
+      "provenance": {
+        "audited_at": "2026-08-27T00:56:00+00:00",
+        "basis": "Existing Slade Puzzles AI background library manifest",
+        "provider": "ChatGPT project generation"
+      },
+      "sha256": "abd07503e2230937b52764ed9a9ceaefbc3d317fb3878aabd4acbc9d2a873d17",
+      "source_type": "generated_art",
+      "topics": [
+        "book",
+        "reading",
+        "library",
+        "literature",
+        "vocabulary"
+      ],
+      "updated_at": "2026-09-06T03:03:50+00:00",
+      "usage": [],
+      "visual_family_id": "vf_838f8e8eacb0c721"
+    },
+    {
+      "asset_id": "bg_77b3f0b5c662456b",
+      "classification": "APPROVED_CHATGPT_GENERATED",
+      "created_at": "2026-08-27T00:56:00+00:00",
+      "focus": "center",
+      "health": {
+        "height": 1536,
+        "variance": 3189.37,
+        "width": 1024
+      },
+      "lifecycle_state": "active",
+      "name": "Books and Reading",
+      "orientation": "portrait",
+      "palette": "library-burgundy",
+      "path": "cover_assets\\background_photos\\books_nook_v3.png",
+      "perceptual_hash": "9f9fcfc3c68cdddb",
+      "production_approved": true,
+      "project_generated": true,
+      "provenance": {
+        "audited_at": "2026-08-27T00:56:00+00:00",
+        "basis": "Existing Slade Puzzles AI background library manifest",
+        "provider": "ChatGPT project generation"
+      },
+      "sha256": "a3f8215c1780447d63e2cf982abe533d5721a3d976413c5803bc8280bf4f6db0",
+      "source_type": "generated_art",
+      "topics": [
+        "book",
+        "reading",
+        "library",
+        "literature",
+        "vocabulary"
+      ],
+      "updated_at": "2026-09-06T03:03:50+00:00",
+      "usage": [],
+      "visual_family_id": "vf_9f9fcfc3c68cdddb"
+    },
+    {
+      "asset_id": "bg_d0888fcf19cd2a88",
+      "classification": "APPROVED_CHATGPT_GENERATED",
+      "created_at": "2026-08-27T00:56:00+00:00",
+      "focus": "center",
+      "health": {
+        "height": 1536,
+        "variance": 1879.95,
+        "width": 1024
+      },
+      "lifecycle_state": "active",
+      "name": "Books and Reading",
+      "orientation": "portrait",
+      "palette": "library-burgundy",
+      "path": "cover_assets\\background_photos\\books_reading.png",
+      "perceptual_hash": "040466e6dcc86605",
+      "production_approved": true,
+      "project_generated": true,
+      "provenance": {
+        "audited_at": "2026-08-27T00:56:00+00:00",
+        "basis": "Existing Slade Puzzles AI background library manifest",
+        "provider": "ChatGPT project generation"
+      },
+      "sha256": "b9b67587519f1d9c2f0f85d5518bf2202c2d03ddb180c9b75cb3295b930abcef",
+      "source_type": "generated_art",
+      "topics": [
+        "book",
+        "reading",
+        "library",
+        "literature",
+        "vocabulary"
+      ],
+      "updated_at": "2026-09-06T03:03:51+00:00",
+      "usage": [
+        {
+          "at": "2026-08-27T23:02:13+00:00",
+          "package": "",
+          "theme": "C:\\Users\\jorda\\Desktop\\Word Search Creator\\kdp-puzzle-engine\\themes\\Vocabulary Ladder Collection\\vocabulary_adventures_grade_school.json",
+          "title": "Vocabulary Adventures: Grade School"
+        }
+      ],
+      "visual_family_id": "vf_040466e6dcc86605"
+    },
+    {
+      "asset_id": "bg_874c26567c26b7e5",
+      "classification": "APPROVED_CHATGPT_GENERATED",
+      "created_at": "2026-08-27T00:56:01+00:00",
+      "focus": "center",
+      "health": {
+        "height": 1536,
+        "variance": 2250.62,
+        "width": 1024
+      },
+      "lifecycle_state": "active",
+      "name": "Food and Kitchen",
+      "orientation": "portrait",
+      "palette": "food",
+      "path": "cover_assets\\background_photos\\food_baking_v2.png",
+      "perceptual_hash": "0703030363e87333",
+      "production_approved": true,
+      "project_generated": true,
+      "provenance": {
+        "audited_at": "2026-08-27T00:56:01+00:00",
+        "basis": "Existing Slade Puzzles AI background library manifest",
+        "provider": "ChatGPT project generation"
+      },
+      "sha256": "568f06a08e11abcdcfe8bb9a669f1aadac939de452d97dce42348f5334804875",
+      "source_type": "generated_art",
+      "topics": [
+        "food",
+        "baking",
+        "kitchen",
+        "cooking",
+        "recipe",
+        "dessert"
+      ],
+      "updated_at": "2026-09-06T03:03:51+00:00",
+      "usage": [
+        {
+          "at": "2026-08-28T23:28:37+00:00",
+          "package": "C:\\Users\\jorda\\Desktop\\Word Search Creator\\kdp-puzzle-engine\\tmp\\phase8_acceptance_20260828\\out\\phase_8_scramble_acceptance_20260828_162829",
+          "theme": "Food & Home",
+          "title": "Phase 8 Scramble Acceptance"
+        }
+      ],
+      "visual_family_id": "vf_0703030363e87333"
+    },
+    {
+      "asset_id": "bg_9b1c76d9ec8603a4",
+      "classification": "APPROVED_CHATGPT_GENERATED",
+      "created_at": "2026-08-27T00:56:01+00:00",
+      "focus": "center",
+      "health": {
+        "height": 1536,
+        "variance": 4277.79,
+        "width": 1024
+      },
+      "lifecycle_state": "active",
+      "name": "Food and Kitchen",
+      "orientation": "portrait",
+      "palette": "food",
+      "path": "cover_assets\\background_photos\\food_kitchen.png",
+      "perceptual_hash": "3f3f9f0f8767cfc8",
+      "production_approved": true,
+      "project_generated": true,
+      "provenance": {
+        "audited_at": "2026-08-27T00:56:01+00:00",
+        "basis": "Existing Slade Puzzles AI background library manifest",
+        "provider": "ChatGPT project generation"
+      },
+      "sha256": "bfc979b283f962051769c8d17bf5b3bc4ab69c30112dd678a606671e5adf1122",
+      "source_type": "generated_art",
+      "topics": [
+        "food",
+        "baking",
+        "kitchen",
+        "cooking",
+        "recipe",
+        "dessert"
+      ],
+      "updated_at": "2026-09-06T03:03:51+00:00",
+      "usage": [],
+      "visual_family_id": "vf_3f3f9f0f8767cfc8"
+    },
+    {
+      "asset_id": "bg_f91df79e53214767",
+      "classification": "APPROVED_CHATGPT_GENERATED",
+      "created_at": "2026-08-27T00:56:01+00:00",
+      "focus": "center",
+      "health": {
+        "height": 1536,
+        "variance": 5895.36,
+        "width": 1024
+      },
+      "lifecycle_state": "active",
+      "name": "Food and Kitchen",
+      "orientation": "portrait",
+      "palette": "food",
+      "path": "cover_assets\\background_photos\\food_produce_v3.png",
+      "perceptual_hash": "fffe013a92d99bad",
+      "production_approved": true,
+      "project_generated": true,
+      "provenance": {
+        "audited_at": "2026-08-27T00:56:01+00:00",
+        "basis": "Existing Slade Puzzles AI background library manifest",
+        "provider": "ChatGPT project generation"
+      },
+      "sha256": "aed4d31f03b9caa5e5deadea4ff07b34d21c8291e075e0289bc8ffc24aa1ed9d",
+      "source_type": "generated_art",
+      "topics": [
+        "food",
+        "baking",
+        "kitchen",
+        "cooking",
+        "recipe",
+        "dessert"
+      ],
+      "updated_at": "2026-09-06T03:03:51+00:00",
+      "usage": [
+        {
+          "at": "2026-08-27T15:13:16+00:00",
+          "package": "C:\\Users\\jorda\\Desktop\\Word Search Creator\\kdp-puzzle-engine\\out\\kitchen_table_scramble_and_trivia_20260827_081308",
+          "theme": "Food & Home",
+          "title": "Kitchen Table Scramble and Trivia"
+        },
+        {
+          "at": "2026-08-27T15:14:34+00:00",
+          "package": "C:\\Users\\jorda\\Desktop\\Word Search Creator\\kdp-puzzle-engine\\out\\kitchen_table_scramble_and_trivia_20260827_081423",
+          "theme": "Food & Home",
+          "title": "Kitchen Table Scramble and Trivia"
+        },
+        {
+          "at": "2026-08-27T23:03:33+00:00",
+          "package": "C:\\Users\\jorda\\Desktop\\Word Search Creator\\kdp-puzzle-engine\\out\\kitchen_table_scramble_and_trivia_20260827_160326",
+          "theme": "Food & Home",
+          "title": "Kitchen Table Scramble and Trivia"
+        }
+      ],
+      "visual_family_id": "vf_fffe013a92d99bad"
+    },
+    {
+      "asset_id": "bg_257bb3997db75647",
+      "classification": "APPROVED_CHATGPT_GENERATED",
+      "created_at": "2026-08-27T00:56:01+00:00",
+      "focus": "center",
+      "health": {
+        "height": 1536,
+        "variance": 4073.74,
+        "width": 1024
+      },
+      "lifecycle_state": "active",
+      "name": "Garden and Growing Things",
+      "orientation": "portrait",
+      "palette": "spring-meadow",
+      "path": "cover_assets\\background_photos\\gardening.png",
+      "perceptual_hash": "0f4f17312cd9711f",
+      "production_approved": true,
+      "project_generated": true,
+      "provenance": {
+        "audited_at": "2026-08-27T00:56:01+00:00",
+        "basis": "Existing Slade Puzzles AI background library manifest",
+        "provider": "ChatGPT project generation"
+      },
+      "sha256": "9d5736aaf6cba834c397de1d79e663e8ba7544182dfe0a7f5b9ad719dfa1f065",
+      "source_type": "generated_art",
+      "topics": [
+        "garden",
+        "gardening",
+        "herb",
+        "flower",
+        "vegetable",
+        "homestead"
+      ],
+      "updated_at": "2026-09-06T03:03:51+00:00",
+      "usage": [],
+      "visual_family_id": "vf_0f4f17312cd9711f"
+    },
+    {
+      "asset_id": "bg_889e9157a2b92c5e",
+      "classification": "APPROVED_CHATGPT_GENERATED",
+      "created_at": "2026-08-27T00:56:01+00:00",
+      "focus": "center",
+      "health": {
+        "height": 1402,
+        "variance": 6001.53,
+        "width": 1122
+      },
+      "lifecycle_state": "active",
+      "name": "Garden and Growing Things",
+      "orientation": "portrait",
+      "palette": "spring-meadow",
+      "path": "cover_assets\\background_photos\\gardening_greenhouse_v2.png",
+      "perceptual_hash": "0000c39612366537",
+      "production_approved": true,
+      "project_generated": true,
+      "provenance": {
+        "audited_at": "2026-08-27T00:56:01+00:00",
+        "basis": "Existing Slade Puzzles AI background library manifest",
+        "provider": "ChatGPT project generation"
+      },
+      "sha256": "1e7e030e94fc2786998b5fdd4402c90eeeb1450a32900a48d6f166d2f172f473",
+      "source_type": "generated_art",
+      "topics": [
+        "garden",
+        "gardening",
+        "herb",
+        "flower",
+        "vegetable",
+        "homestead"
+      ],
+      "updated_at": "2026-09-06T03:03:52+00:00",
+      "usage": [
+        {
+          "at": "2026-08-27T15:12:07+00:00",
+          "package": "C:\\Users\\jorda\\Desktop\\Word Search Creator\\kdp-puzzle-engine\\out\\garden_path_symbols_sudoku_20260827_081158",
+          "theme": "Garden & Growing",
+          "title": "Garden Path Symbols Sudoku"
+        },
+        {
+          "at": "2026-08-27T15:26:25+00:00",
+          "package": "",
+          "theme": "C:\\Users\\jorda\\Desktop\\Word Search Creator\\kdp-puzzle-engine\\themes\\gardening.json",
+          "title": "Garden Sanctuary Word Search"
+        },
+        {
+          "at": "2026-08-27T15:40:16+00:00",
+          "package": "C:\\Users\\jorda\\Desktop\\Word Search Creator\\kdp-puzzle-engine\\out\\garden_cipher_trail_20260827_083914",
+          "theme": "Garden & Growing",
+          "title": "Garden Cipher Trail"
+        },
+        {
+          "at": "2026-08-27T23:02:34+00:00",
+          "package": "C:\\Users\\jorda\\Desktop\\Word Search Creator\\kdp-puzzle-engine\\out\\garden_path_symbols_sudoku_20260827_160223",
+          "theme": "Garden & Growing",
+          "title": "Garden Path Symbols Sudoku"
+        }
+      ],
+      "visual_family_id": "vf_0000c39612366537"
+    },
+    {
+      "asset_id": "bg_ece3b26283ad8efc",
+      "classification": "APPROVED_CHATGPT_GENERATED",
+      "created_at": "2026-08-27T00:56:02+00:00",
+      "focus": "center",
+      "health": {
+        "height": 1536,
+        "variance": 6094.33,
+        "width": 1024
+      },
+      "lifecycle_state": "active",
+      "name": "Garden and Growing Things",
+      "orientation": "portrait",
+      "palette": "spring-meadow",
+      "path": "cover_assets\\background_photos\\gardening_vegetables_v3.png",
+      "perceptual_hash": "00001b17531f7b0d",
+      "production_approved": true,
+      "project_generated": true,
+      "provenance": {
+        "audited_at": "2026-08-27T00:56:02+00:00",
+        "basis": "Existing Slade Puzzles AI background library manifest",
+        "provider": "ChatGPT project generation"
+      },
+      "sha256": "eb240c91a74c1ead7a0e29dd98c7a5e79a10160fb7bddbf5de375f1040591f54",
+      "source_type": "generated_art",
+      "topics": [
+        "garden",
+        "gardening",
+        "herb",
+        "flower",
+        "vegetable",
+        "homestead"
+      ],
+      "updated_at": "2026-09-06T03:03:52+00:00",
+      "usage": [
+        {
+          "at": "2026-08-29T03:44:08+00:00",
+          "package": "",
+          "theme": "C:\\Users\\jorda\\Desktop\\Word Search Creator\\kdp-puzzle-engine\\themes\\Trending 50 Puzzle Releases\\garden_discovery_20260828_204320.json",
+          "title": "Garden Discovery Word Search"
+        }
+      ],
+      "visual_family_id": "vf_00001b17531f7b0d"
+    },
+    {
+      "asset_id": "bg_b0326d61c8a3d436",
+      "classification": "APPROVED_CHATGPT_GENERATED",
+      "created_at": "2026-08-27T00:56:02+00:00",
+      "focus": "center",
+      "health": {
+        "height": 1535,
+        "variance": 4138.45,
+        "width": 1024
+      },
+      "lifecycle_state": "active",
+      "name": "National Parks \u2014 Alpine Peaks",
+      "orientation": "portrait",
+      "palette": "nature",
+      "path": "cover_assets\\background_photos\\national_parks_alpine_v2.png",
+      "perceptual_hash": "ffffff1e061f1d4c",
+      "production_approved": true,
+      "project_generated": true,
+      "provenance": {
+        "audited_at": "2026-08-27T00:56:02+00:00",
+        "basis": "Existing Slade Puzzles AI background library manifest",
+        "provider": "ChatGPT project generation"
+      },
+      "sha256": "e7b82d18bb9ac9f529b975bd9dcb98a06353523f8fc68a20d9a47b9086cbbf66",
+      "source_type": "generated_art",
+      "topics": [
+        "rocky mountain",
+        "alpine peaks"
+      ],
+      "updated_at": "2026-09-06T03:03:52+00:00",
+      "usage": [
+        {
+          "at": "2026-08-27T15:38:29+00:00",
+          "package": "C:\\Users\\jorda\\Desktop\\Word Search Creator\\kdp-puzzle-engine\\out\\forest_calm_symbols_sudoku_20260827_083820",
+          "theme": "Nature & Outdoors",
+          "title": "Forest Calm Symbols Sudoku"
+        }
+      ],
+      "visual_family_id": "vf_ffffff1e061f1d4c"
+    },
+    {
+      "asset_id": "bg_313c3d6e50acaa50",
+      "classification": "APPROVED_CHATGPT_GENERATED",
+      "created_at": "2026-08-27T00:56:02+00:00",
+      "focus": "center",
+      "health": {
+        "height": 1536,
+        "variance": 6772.0,
+        "width": 1024
+      },
+      "lifecycle_state": "active",
+      "name": "National Parks \u2014 Forest",
+      "orientation": "portrait",
+      "palette": "forest-cabin",
+      "path": "cover_assets\\background_photos\\national_parks_forest_v3.png",
+      "perceptual_hash": "7b735f2f2f064c1d",
+      "production_approved": true,
+      "project_generated": true,
+      "provenance": {
+        "audited_at": "2026-08-27T00:56:02+00:00",
+        "basis": "Existing Slade Puzzles AI background library manifest",
+        "provider": "ChatGPT project generation"
+      },
+      "sha256": "ed845e7ea2e929efe3d151876c38f26fe90af456b7598324377200be11f0ea40",
+      "source_type": "generated_art",
+      "topics": [
+        "great smoky",
+        "shenandoah",
+        "forest trails",
+        "blue ridge forests"
+      ],
+      "updated_at": "2026-09-06T03:03:52+00:00",
+      "usage": [
+        {
+          "at": "2026-08-27T15:20:15+00:00",
+          "package": "",
+          "theme": "C:\\Users\\jorda\\Desktop\\Word Search Creator\\kdp-puzzle-engine\\themes\\national_parks_01_greatsmokymountains.json",
+          "title": "Great Smoky Mountains Word Search"
+        },
+        {
+          "at": "2026-08-27T15:37:58+00:00",
+          "package": "C:\\Users\\jorda\\Desktop\\Word Search Creator\\kdp-puzzle-engine\\out\\ocean_calm_symbols_sudoku_20260827_083740",
+          "theme": "Nature & Outdoors",
+          "title": "Ocean Calm Symbols Sudoku"
+        }
+      ],
+      "visual_family_id": "vf_7b735f2f2f064c1d"
+    },
+    {
+      "asset_id": "bg_ab7dc27e81ae2d58",
+      "classification": "APPROVED_CHATGPT_GENERATED",
+      "created_at": "2026-08-27T00:56:02+00:00",
+      "focus": "center",
+      "health": {
+        "height": 1536,
+        "variance": 4578.41,
+        "width": 1024
+      },
+      "lifecycle_state": "active",
+      "name": "National Parks and Outdoors",
+      "orientation": "portrait",
+      "palette": "forest-cabin",
+      "path": "cover_assets\\background_photos\\national_parks_outdoors.png",
+      "perceptual_hash": "00600f1f2f4e4e1d",
+      "production_approved": true,
+      "project_generated": true,
+      "provenance": {
+        "audited_at": "2026-08-27T00:56:02+00:00",
+        "basis": "Existing Slade Puzzles AI background library manifest",
+        "provider": "ChatGPT project generation"
+      },
+      "sha256": "6533f92b8b2a7350f44acc6617620d7c267b953c91a49172224ee8102b0a8720",
+      "source_type": "generated_art",
+      "topics": [
+        "national park",
+        "parks",
+        "outdoor",
+        "nature",
+        "trail",
+        "hiking",
+        "camping",
+        "wildlife"
+      ],
+      "updated_at": "2026-09-06T03:03:52+00:00",
+      "usage": [
+        {
+          "at": "2026-08-27T15:13:24+00:00",
+          "package": "C:\\Users\\jorda\\Desktop\\Word Search Creator\\kdp-puzzle-engine\\out\\wild_places_brain_games_collection_20260827_081316",
+          "theme": "Nature & Outdoors",
+          "title": "Wild Places Brain Games Collection"
+        },
+        {
+          "at": "2026-08-27T15:14:51+00:00",
+          "package": "C:\\Users\\jorda\\Desktop\\Word Search Creator\\kdp-puzzle-engine\\out\\wild_places_brain_games_collection_20260827_081445",
+          "theme": "Nature & Outdoors",
+          "title": "Wild Places Brain Games Collection"
+        },
+        {
+          "at": "2026-08-27T23:03:40+00:00",
+          "package": "C:\\Users\\jorda\\Desktop\\Word Search Creator\\kdp-puzzle-engine\\out\\wild_places_brain_games_collection_20260827_160333",
+          "theme": "Nature & Outdoors",
+          "title": "Wild Places Brain Games Collection"
+        }
+      ],
+      "visual_family_id": "vf_00600f1f2f4e4e1d"
+    },
+    {
+      "asset_id": "bg_0983e4965d38fe69",
+      "classification": "APPROVED_CHATGPT_GENERATED",
+      "created_at": "2026-08-27T00:56:02+00:00",
+      "focus": "center",
+      "health": {
+        "height": 1536,
+        "variance": 3275.95,
+        "width": 1024
+      },
+      "lifecycle_state": "active",
+      "name": "Ocean and Coastal Life",
+      "orientation": "portrait",
+      "palette": "ocean-life",
+      "path": "cover_assets\\background_photos\\ocean_life.png",
+      "perceptual_hash": "1f1f3f1f0f26cc8e",
+      "production_approved": true,
+      "project_generated": true,
+      "provenance": {
+        "audited_at": "2026-08-27T00:56:02+00:00",
+        "basis": "Existing Slade Puzzles AI background library manifest",
+        "provider": "ChatGPT project generation"
+      },
+      "sha256": "358d3734d6533fb09b7275b7f2a6a2e9c6680f6d6407f10eb6ba27003b38685a",
+      "source_type": "generated_art",
+      "topics": [
+        "ocean",
+        "marine",
+        "sea",
+        "beach",
+        "coastal",
+        "water"
+      ],
+      "updated_at": "2026-09-06T03:03:52+00:00",
+      "usage": [],
+      "visual_family_id": "vf_1f1f3f1f0f26cc8e"
+    },
+    {
+      "asset_id": "bg_2584f17ea0fa389b",
+      "classification": "APPROVED_CHATGPT_GENERATED",
+      "created_at": "2026-08-27T00:56:03+00:00",
+      "focus": "center",
+      "health": {
+        "height": 1536,
+        "variance": 4161.63,
+        "width": 1024
+      },
+      "lifecycle_state": "active",
+      "name": "Ocean and Coastal Life",
+      "orientation": "portrait",
+      "palette": "ocean-life",
+      "path": "cover_assets\\background_photos\\ocean_turtle_v3.png",
+      "perceptual_hash": "0f0f0f1b53ca7126",
+      "production_approved": true,
+      "project_generated": true,
+      "provenance": {
+        "audited_at": "2026-08-27T00:56:03+00:00",
+        "basis": "Existing Slade Puzzles AI background library manifest",
+        "provider": "ChatGPT project generation"
+      },
+      "sha256": "b1cf9102efcbaca57c70323d406135238048925ff17249514625ab57c6329b4d",
+      "source_type": "generated_art",
+      "topics": [
+        "ocean",
+        "marine",
+        "sea",
+        "beach",
+        "coastal",
+        "water"
+      ],
+      "updated_at": "2026-09-06T03:03:53+00:00",
+      "usage": [
+        {
+          "at": "2026-08-27T15:43:23+00:00",
+          "package": "",
+          "theme": "C:\\Users\\jorda\\Desktop\\Word Search Creator\\kdp-puzzle-engine\\themes\\ocean-life.json",
+          "title": "Ocean Treasures Word Search"
+        }
+      ],
+      "visual_family_id": "vf_0f0f0f1b53ca7126"
+    },
+    {
+      "asset_id": "bg_9a33718245398249",
+      "classification": "APPROVED_CHATGPT_GENERATED",
+      "created_at": "2026-08-27T00:56:03+00:00",
+      "focus": "center",
+      "health": {
+        "height": 1536,
+        "variance": 3564.33,
+        "width": 1024
+      },
+      "lifecycle_state": "active",
+      "name": "Ocean and Coastal Life",
+      "orientation": "portrait",
+      "palette": "ocean-life",
+      "path": "cover_assets\\background_photos\\ocean_whale_v2.png",
+      "perceptual_hash": "3f3f3f1fcb2f666e",
+      "production_approved": true,
+      "project_generated": true,
+      "provenance": {
+        "audited_at": "2026-08-27T00:56:03+00:00",
+        "basis": "Existing Slade Puzzles AI background library manifest",
+        "provider": "ChatGPT project generation"
+      },
+      "sha256": "bec403e13f676ac78b1dee357fcfa9376206a37967a38f84ce25ed86ee5fbc8f",
+      "source_type": "generated_art",
+      "topics": [
+        "ocean",
+        "marine",
+        "sea",
+        "beach",
+        "coastal",
+        "water"
+      ],
+      "updated_at": "2026-09-06T03:03:53+00:00",
+      "usage": [
+        {
+          "at": "2026-08-27T22:56:35+00:00",
+          "package": "",
+          "theme": "C:\\Users\\jorda\\Desktop\\Word Search Creator\\kdp-puzzle-engine\\themes\\Launch Collection\\Verified Release Candidates\\classic_cars_road_trips.json",
+          "title": "Classic Cars and Road Trips Word Search"
+        },
+        {
+          "at": "2026-08-27T22:59:49+00:00",
+          "package": "",
+          "theme": "C:\\Users\\jorda\\Desktop\\Word Search Creator\\kdp-puzzle-engine\\themes\\Launch Collection\\Verified Release Candidates\\classic_cars_road_trips.json",
+          "title": "Classic Cars and Road Trips Word Search"
+        },
+        {
+          "at": "2026-08-27T23:01:14+00:00",
+          "package": "",
+          "theme": "C:\\Users\\jorda\\Desktop\\Word Search Creator\\kdp-puzzle-engine\\themes\\Launch Collection\\Verified Release Candidates\\classic_cars_road_trips.json",
+          "title": "Classic Cars and Road Trips Word Search"
+        }
+      ],
+      "visual_family_id": "vf_3f3f3f1fcb2f666e"
+    },
+    {
+      "asset_id": "bg_434bca3bd0ed3397",
+      "classification": "APPROVED_CHATGPT_GENERATED",
+      "created_at": "2026-08-27T00:56:03+00:00",
+      "focus": "center",
+      "health": {
+        "height": 1536,
+        "variance": 4321.75,
+        "width": 1024
+      },
+      "lifecycle_state": "active",
+      "name": "National Parks \u2014 Natural Arches",
+      "orientation": "portrait",
+      "palette": "desert-sun",
+      "path": "cover_assets\\background_photos\\parks_arches.png",
+      "perceptual_hash": "000000fe8713bf19",
+      "production_approved": true,
+      "project_generated": true,
+      "provenance": {
+        "audited_at": "2026-08-27T00:56:03+00:00",
+        "basis": "Existing Slade Puzzles AI background library manifest",
+        "provider": "ChatGPT project generation"
+      },
+      "sha256": "1b8dac38962dbacf444f4a065efd4d13cd26224e11fd00a19c4dc5e1e5fc66a3",
+      "source_type": "generated_art",
+      "topics": [
+        "arches word",
+        "stone arches"
+      ],
+      "updated_at": "2026-09-06T03:03:53+00:00",
+      "usage": [],
+      "visual_family_id": "vf_000000fe8713bf19"
+    },
+    {
+      "asset_id": "bg_19de336b4f254c3e",
+      "classification": "APPROVED_CHATGPT_GENERATED",
+      "created_at": "2026-08-27T00:56:03+00:00",
+      "focus": "center",
+      "health": {
+        "height": 1536,
+        "variance": 4119.21,
+        "width": 1024
+      },
+      "lifecycle_state": "active",
+      "name": "National Parks \u2014 Canyon",
+      "orientation": "portrait",
+      "palette": "desert-sun",
+      "path": "cover_assets\\background_photos\\parks_canyon.png",
+      "perceptual_hash": "3f7f5bff5bba3065",
+      "production_approved": true,
+      "project_generated": true,
+      "provenance": {
+        "audited_at": "2026-08-27T00:56:03+00:00",
+        "basis": "Existing Slade Puzzles AI background library manifest",
+        "provider": "ChatGPT project generation"
+      },
+      "sha256": "2ed86efbf93c1ce45919646275472a2a570d4410debf691a9332e48e1f4c1999",
+      "source_type": "generated_art",
+      "topics": [
+        "zion",
+        "grand canyon",
+        "canyon cliffs",
+        "canyon"
+      ],
+      "updated_at": "2026-09-06T03:03:53+00:00",
+      "usage": [],
+      "visual_family_id": "vf_3f7f5bff5bba3065"
+    },
+    {
+      "asset_id": "bg_0b00d266daf66d48",
+      "classification": "APPROVED_CHATGPT_GENERATED",
+      "created_at": "2026-08-27T00:56:03+00:00",
+      "focus": "center",
+      "health": {
+        "height": 1402,
+        "variance": 1723.99,
+        "width": 1122
+      },
+      "lifecycle_state": "active",
+      "name": "National Parks \u2014 Caves",
+      "orientation": "portrait",
+      "palette": "graphite-copper",
+      "path": "cover_assets\\background_photos\\parks_cave.png",
+      "perceptual_hash": "3f7fcf454353d373",
+      "production_approved": true,
+      "project_generated": true,
+      "provenance": {
+        "audited_at": "2026-08-27T00:56:03+00:00",
+        "basis": "Existing Slade Puzzles AI background library manifest",
+        "provider": "ChatGPT project generation"
+      },
+      "sha256": "f8c325bc18a15cd11eae218a10d7b16d47a149554e7ab39d8d2776f516f1f066",
+      "source_type": "generated_art",
+      "topics": [
+        "cave",
+        "cavern",
+        "underground"
+      ],
+      "updated_at": "2026-09-06T03:03:53+00:00",
+      "usage": [],
+      "visual_family_id": "vf_3f7fcf454353d373"
+    },
+    {
+      "asset_id": "bg_6423d74edd2d8d66",
+      "classification": "APPROVED_CHATGPT_GENERATED",
+      "created_at": "2026-08-27T00:56:03+00:00",
+      "focus": "center",
+      "health": {
+        "height": 1536,
+        "variance": 3588.06,
+        "width": 1024
+      },
+      "lifecycle_state": "active",
+      "name": "National Parks \u2014 Coast",
+      "orientation": "portrait",
+      "palette": "coastal-blue",
+      "path": "cover_assets\\background_photos\\parks_coast.png",
+      "perceptual_hash": "fafdf3ff3f2f73c7",
+      "production_approved": true,
+      "project_generated": true,
+      "provenance": {
+        "audited_at": "2026-08-27T00:56:03+00:00",
+        "basis": "Existing Slade Puzzles AI background library manifest",
+        "provider": "ChatGPT project generation"
+      },
+      "sha256": "c99c9753fea63e1c2983a4a728f12000b828d3bb2fcf63ecdc6631207cf75f22",
+      "source_type": "generated_art",
+      "topics": [
+        "acadia",
+        "coastal shores",
+        "coast"
+      ],
+      "updated_at": "2026-09-06T03:03:53+00:00",
+      "usage": [],
+      "visual_family_id": "vf_fafdf3ff3f2f73c7"
+    },
+    {
+      "asset_id": "bg_708d6f4cba8bf202",
+      "classification": "APPROVED_CHATGPT_GENERATED",
+      "created_at": "2026-08-27T00:56:04+00:00",
+      "focus": "center",
+      "health": {
+        "height": 1402,
+        "variance": 3235.25,
+        "width": 1122
+      },
+      "lifecycle_state": "active",
+      "name": "National Parks \u2014 Desert",
+      "orientation": "portrait",
+      "palette": "desert-sun",
+      "path": "cover_assets\\background_photos\\parks_desert.png",
+      "perceptual_hash": "000000010fe347f6",
+      "production_approved": true,
+      "project_generated": true,
+      "provenance": {
+        "audited_at": "2026-08-27T00:56:04+00:00",
+        "basis": "Existing Slade Puzzles AI background library manifest",
+        "provider": "ChatGPT project generation"
+      },
+      "sha256": "43fec973eb12d3e9c769a3dcc692a26e1ab40f5552dce00162ec4fa82a39357a",
+      "source_type": "generated_art",
+      "topics": [
+        "joshua tree",
+        "death valley",
+        "desert vistas",
+        "desert night",
+        "desert basins"
+      ],
+      "updated_at": "2026-09-06T03:03:54+00:00",
+      "usage": [],
+      "visual_family_id": "vf_000000010fe347f6"
+    },
+    {
+      "asset_id": "bg_6fe1b5f88b48a63c",
+      "classification": "APPROVED_CHATGPT_GENERATED",
+      "created_at": "2026-08-27T00:56:04+00:00",
+      "focus": "center",
+      "health": {
+        "height": 1536,
+        "variance": 3535.38,
+        "width": 1024
+      },
+      "lifecycle_state": "active",
+      "name": "National Parks \u2014 Dunes",
+      "orientation": "portrait",
+      "palette": "beach-vacation",
+      "path": "cover_assets\\background_photos\\parks_dunes.png",
+      "perceptual_hash": "f8f8f9ff82076606",
+      "production_approved": true,
+      "project_generated": true,
+      "provenance": {
+        "audited_at": "2026-08-27T00:56:04+00:00",
+        "basis": "Existing Slade Puzzles AI background library manifest",
+        "provider": "ChatGPT project generation"
+      },
+      "sha256": "964c9ac6ff2e2c9b898b74a9b82dd42d58f5ce38e248ade23e96b6082559147d",
+      "source_type": "generated_art",
+      "topics": [
+        "indiana dunes",
+        "shores and sand",
+        "dunes"
+      ],
+      "updated_at": "2026-09-06T03:03:54+00:00",
+      "usage": [],
+      "visual_family_id": "vf_f8f8f9ff82076606"
+    },
+    {
+      "asset_id": "bg_5de6183c29723e8a",
+      "classification": "APPROVED_CHATGPT_GENERATED",
+      "created_at": "2026-08-27T00:56:04+00:00",
+      "focus": "center",
+      "health": {
+        "height": 1402,
+        "variance": 3171.1,
+        "width": 1122
+      },
+      "lifecycle_state": "active",
+      "name": "National Parks \u2014 Geysers",
+      "orientation": "portrait",
+      "palette": "ocean-breeze",
+      "path": "cover_assets\\background_photos\\parks_geyser.png",
+      "perceptual_hash": "ffffff0c3d798026",
+      "production_approved": true,
+      "project_generated": true,
+      "provenance": {
+        "audited_at": "2026-08-27T00:56:04+00:00",
+        "basis": "Existing Slade Puzzles AI background library manifest",
+        "provider": "ChatGPT project generation"
+      },
+      "sha256": "c1ac75632329ed95b49c386e00d040e79e446b2288e6ef5e630a0eb1ace2f072",
+      "source_type": "generated_art",
+      "topics": [
+        "yellowstone",
+        "geyser",
+        "geysers"
+      ],
+      "updated_at": "2026-09-06T03:03:54+00:00",
+      "usage": [],
+      "visual_family_id": "vf_ffffff0c3d798026"
+    },
+    {
+      "asset_id": "bg_b1dca5c2cd9a5aca",
+      "classification": "APPROVED_CHATGPT_GENERATED",
+      "created_at": "2026-08-27T00:56:04+00:00",
+      "focus": "center",
+      "health": {
+        "height": 1536,
+        "variance": 3391.74,
+        "width": 1024
+      },
+      "lifecycle_state": "active",
+      "name": "National Parks \u2014 Hoodoos",
+      "orientation": "portrait",
+      "palette": "spooky-night",
+      "path": "cover_assets\\background_photos\\parks_hoodoos.png",
+      "perceptual_hash": "2f6fdfefe546c9cd",
+      "production_approved": true,
+      "project_generated": true,
+      "provenance": {
+        "audited_at": "2026-08-27T00:56:04+00:00",
+        "basis": "Existing Slade Puzzles AI background library manifest",
+        "provider": "ChatGPT project generation"
+      },
+      "sha256": "9e9c72e4e4a706261d1602b31d8554dc88f362158af1e598d3fdd1377957a1ff",
+      "source_type": "generated_art",
+      "topics": [
+        "bryce canyon",
+        "hoodoos",
+        "starlight"
+      ],
+      "updated_at": "2026-09-06T03:03:54+00:00",
+      "usage": [],
+      "visual_family_id": "vf_2f6fdfefe546c9cd"
+    },
+    {
+      "asset_id": "bg_7abf0c9b2e634b35",
+      "classification": "APPROVED_CHATGPT_GENERATED",
+      "created_at": "2026-08-27T00:56:04+00:00",
+      "focus": "center",
+      "health": {
+        "height": 1448,
+        "variance": 3384.4,
+        "width": 1086
+      },
+      "lifecycle_state": "active",
+      "name": "National Parks \u2014 Mountain Lakes",
+      "orientation": "portrait",
+      "palette": "ocean-breeze",
+      "path": "cover_assets\\background_photos\\parks_lake.png",
+      "perceptual_hash": "ffff5d0d0d746c84",
+      "production_approved": true,
+      "project_generated": true,
+      "provenance": {
+        "audited_at": "2026-08-27T00:56:04+00:00",
+        "basis": "Existing Slade Puzzles AI background library manifest",
+        "provider": "ChatGPT project generation"
+      },
+      "sha256": "355ca53d408d4bd29717f3df832d4874b249cc4b242814dba9433289e4177559",
+      "source_type": "generated_art",
+      "topics": [
+        "grand teton",
+        "glacier word",
+        "mountain lakes",
+        "lakes and wildflowers"
+      ],
+      "updated_at": "2026-09-06T03:03:54+00:00",
+      "usage": [],
+      "visual_family_id": "vf_ffff5d0d0d746c84"
+    },
+    {
+      "asset_id": "bg_f40e8dd2e32115d8",
+      "classification": "APPROVED_CHATGPT_GENERATED",
+      "created_at": "2026-08-27T00:56:04+00:00",
+      "focus": "center",
+      "health": {
+        "height": 1536,
+        "variance": 5828.42,
+        "width": 1024
+      },
+      "lifecycle_state": "active",
+      "name": "National Parks \u2014 Rainforest",
+      "orientation": "portrait",
+      "palette": "forest-cabin",
+      "path": "cover_assets\\background_photos\\parks_rainforest.png",
+      "perceptual_hash": "01138f8d9d8c1da3",
+      "production_approved": true,
+      "project_generated": true,
+      "provenance": {
+        "audited_at": "2026-08-27T00:56:04+00:00",
+        "basis": "Existing Slade Puzzles AI background library manifest",
+        "provider": "ChatGPT project generation"
+      },
+      "sha256": "26d84b423fd01d0c04217dd48b7838cd8656894ab488538e7649c07e031ba25a",
+      "source_type": "generated_art",
+      "topics": [
+        "olympic",
+        "rainforests"
+      ],
+      "updated_at": "2026-09-06T03:03:54+00:00",
+      "usage": [],
+      "visual_family_id": "vf_01138f8d9d8c1da3"
+    },
+    {
+      "asset_id": "bg_c79549b08613af65",
+      "classification": "APPROVED_CHATGPT_GENERATED",
+      "created_at": "2026-08-27T00:56:05+00:00",
+      "focus": "center",
+      "health": {
+        "height": 1402,
+        "variance": 3798.21,
+        "width": 1122
+      },
+      "lifecycle_state": "active",
+      "name": "National Parks \u2014 River Gorge",
+      "orientation": "portrait",
+      "palette": "forest-cabin",
+      "path": "cover_assets\\background_photos\\parks_river_gorge.png",
+      "perceptual_hash": "0f593f0f0c07601c",
+      "production_approved": true,
+      "project_generated": true,
+      "provenance": {
+        "audited_at": "2026-08-27T00:56:05+00:00",
+        "basis": "Existing Slade Puzzles AI background library manifest",
+        "provider": "ChatGPT project generation"
+      },
+      "sha256": "3467c3c3b8b695b0973dd9c99fc7806964fbbd38a26927cc2f27df62cbbc5738",
+      "source_type": "generated_art",
+      "topics": [
+        "cuyahoga",
+        "new river gorge",
+        "rivers and rails",
+        "rivers and rapids"
+      ],
+      "updated_at": "2026-09-06T03:03:55+00:00",
+      "usage": [],
+      "visual_family_id": "vf_0f593f0f0c07601c"
+    },
+    {
+      "asset_id": "bg_23d07a6e0004348b",
+      "classification": "APPROVED_CHATGPT_GENERATED",
+      "created_at": "2026-08-27T00:56:05+00:00",
+      "focus": "center",
+      "health": {
+        "height": 1402,
+        "variance": 3398.97,
+        "width": 1122
+      },
+      "lifecycle_state": "active",
+      "name": "National Parks \u2014 Thermal Springs",
+      "orientation": "portrait",
+      "palette": "ocean-breeze",
+      "path": "cover_assets\\background_photos\\parks_thermal.png",
+      "perceptual_hash": "7f7f9f9f8d333b38",
+      "production_approved": true,
+      "project_generated": true,
+      "provenance": {
+        "audited_at": "2026-08-27T00:56:05+00:00",
+        "basis": "Existing Slade Puzzles AI background library manifest",
+        "provider": "ChatGPT project generation"
+      },
+      "sha256": "a2a4c0c2f9150151444db4b099c1b6345820b273b2b532ec791a223f8aaf80f8",
+      "source_type": "generated_art",
+      "topics": [
+        "hot springs",
+        "thermal waters"
+      ],
+      "updated_at": "2026-09-06T03:03:55+00:00",
+      "usage": [],
+      "visual_family_id": "vf_7f7f9f9f8d333b38"
+    },
+    {
+      "asset_id": "bg_2452919729549440",
+      "classification": "APPROVED_CHATGPT_GENERATED",
+      "created_at": "2026-08-27T00:56:05+00:00",
+      "focus": "center",
+      "health": {
+        "height": 1402,
+        "variance": 3972.79,
+        "width": 1122
+      },
+      "lifecycle_state": "active",
+      "name": "National Parks \u2014 Volcano",
+      "orientation": "portrait",
+      "palette": "starlight-indigo",
+      "path": "cover_assets\\background_photos\\parks_volcano.png",
+      "perceptual_hash": "fffffe9204848929",
+      "production_approved": true,
+      "project_generated": true,
+      "provenance": {
+        "audited_at": "2026-08-27T00:56:05+00:00",
+        "basis": "Existing Slade Puzzles AI background library manifest",
+        "provider": "ChatGPT project generation"
+      },
+      "sha256": "f133e9c859bb5d24fafe95491384bea703042c964090ecccf1d0fe612de7b037",
+      "source_type": "generated_art",
+      "topics": [
+        "mount rainier",
+        "volcano and meadows"
+      ],
+      "updated_at": "2026-09-06T03:03:55+00:00",
+      "usage": [],
+      "visual_family_id": "vf_fffffe9204848929"
+    },
+    {
+      "asset_id": "bg_e7d5b3cae8184d22",
+      "classification": "APPROVED_CHATGPT_GENERATED",
+      "created_at": "2026-08-27T00:56:05+00:00",
+      "focus": "center",
+      "health": {
+        "height": 1536,
+        "variance": 2939.0,
+        "width": 1024
+      },
+      "lifecycle_state": "active",
+      "name": "National Parks \u2014 Waterfalls",
+      "orientation": "portrait",
+      "palette": "nature",
+      "path": "cover_assets\\background_photos\\parks_waterfall.png",
+      "perceptual_hash": "4d1d64430e2d4474",
+      "production_approved": true,
+      "project_generated": true,
+      "provenance": {
+        "audited_at": "2026-08-27T00:56:05+00:00",
+        "basis": "Existing Slade Puzzles AI background library manifest",
+        "provider": "ChatGPT project generation"
+      },
+      "sha256": "ed79e6c9e7ff68369423598593376eca13ed7b656fda3031ec61c7f5da7cfabe",
+      "source_type": "generated_art",
+      "topics": [
+        "yosemite",
+        "granite and waterfalls",
+        "waterfall"
+      ],
+      "updated_at": "2026-09-06T03:03:55+00:00",
+      "usage": [],
+      "visual_family_id": "vf_4d1d64430e2d4474"
+    },
+    {
+      "asset_id": "bg_3d99426c229c45d6",
+      "classification": "APPROVED_CHATGPT_GENERATED",
+      "created_at": "2026-08-27T00:56:05+00:00",
+      "focus": "center",
+      "health": {
+        "height": 1536,
+        "variance": 4785.74,
+        "width": 1024
+      },
+      "lifecycle_state": "active",
+      "name": "Pets and Animals",
+      "orientation": "portrait",
+      "palette": "animals",
+      "path": "cover_assets\\background_photos\\pets.png",
+      "perceptual_hash": "a73f0f630f27361c",
+      "production_approved": true,
+      "project_generated": true,
+      "provenance": {
+        "audited_at": "2026-08-27T00:56:05+00:00",
+        "basis": "Existing Slade Puzzles AI background library manifest",
+        "provider": "ChatGPT project generation"
+      },
+      "sha256": "54687fd98364eed07392200594f823c12cc77c7ef6f6d00f7828b461eb6ecc92",
+      "source_type": "generated_art",
+      "topics": [
+        "pet",
+        "pets",
+        "dog",
+        "cat",
+        "animal",
+        "bird",
+        "reptile"
+      ],
+      "updated_at": "2026-09-06T03:03:55+00:00",
+      "usage": [],
+      "visual_family_id": "vf_a73f0f630f27361c"
+    },
+    {
+      "asset_id": "bg_3d6b56b385c86fb6",
+      "classification": "APPROVED_CHATGPT_GENERATED",
+      "created_at": "2026-08-27T00:56:05+00:00",
+      "focus": "center",
+      "health": {
+        "height": 1536,
+        "variance": 3391.81,
+        "width": 1024
+      },
+      "lifecycle_state": "active",
+      "name": "Pets and Animals",
+      "orientation": "portrait",
+      "palette": "animals",
+      "path": "cover_assets\\background_photos\\pets_cat_v3.png",
+      "perceptual_hash": "43455b1b5f8fcb7d",
+      "production_approved": true,
+      "project_generated": true,
+      "provenance": {
+        "audited_at": "2026-08-27T00:56:05+00:00",
+        "basis": "Existing Slade Puzzles AI background library manifest",
+        "provider": "ChatGPT project generation"
+      },
+      "sha256": "f6871901d23466ca627e6ddfc14458cf16d1d6b9a0e8905bfd9ce3df8da3e1cc",
+      "source_type": "generated_art",
+      "topics": [
+        "pet",
+        "pets",
+        "dog",
+        "cat",
+        "animal",
+        "bird",
+        "reptile"
+      ],
+      "updated_at": "2026-09-06T03:03:56+00:00",
+      "usage": [
+        {
+          "at": "2026-08-27T15:40:55+00:00",
+          "package": "C:\\Users\\jorda\\Desktop\\Word Search Creator\\kdp-puzzle-engine\\out\\backyard_wildlife_scramble_and_trivia_20260827_084049",
+          "theme": "Pets & Animal Life",
+          "title": "Backyard Wildlife Scramble and Trivia"
+        }
+      ],
+      "visual_family_id": "vf_43455b1b5f8fcb7d"
+    },
+    {
+      "asset_id": "bg_c6d25a08ea45bc47",
+      "classification": "APPROVED_CHATGPT_GENERATED",
+      "created_at": "2026-08-27T00:56:06+00:00",
+      "focus": "center",
+      "health": {
+        "height": 1536,
+        "variance": 3822.65,
+        "width": 1024
+      },
+      "lifecycle_state": "active",
+      "name": "Pets and Animals",
+      "orientation": "portrait",
+      "palette": "animals",
+      "path": "cover_assets\\background_photos\\pets_puppy_v2.png",
+      "perceptual_hash": "3f7b592727135f27",
+      "production_approved": true,
+      "project_generated": true,
+      "provenance": {
+        "audited_at": "2026-08-27T00:56:06+00:00",
+        "basis": "Existing Slade Puzzles AI background library manifest",
+        "provider": "ChatGPT project generation"
+      },
+      "sha256": "bc47e4fd96cd8da85e57819b3c5ed01c303b29d5f966f7c3cbfb6b312b2133b8",
+      "source_type": "generated_art",
+      "topics": [
+        "pet",
+        "pets",
+        "dog",
+        "cat",
+        "animal",
+        "bird",
+        "reptile"
+      ],
+      "updated_at": "2026-09-06T03:03:56+00:00",
+      "usage": [],
+      "visual_family_id": "vf_3f7b592727135f27"
+    },
+    {
+      "asset_id": "bg_ac67cdbd29c88878",
+      "classification": "APPROVED_CHATGPT_GENERATED",
+      "created_at": "2026-08-27T00:56:06+00:00",
+      "focus": "center",
+      "health": {
+        "height": 1426,
+        "variance": 6529.14,
+        "width": 1103
+      },
+      "lifecycle_state": "active",
+      "name": "Cryptogram Cipher",
+      "orientation": "portrait",
+      "palette": "library-burgundy",
+      "path": "cover_assets\\background_photos\\puzzle_cryptogram_artdeco_v3.png",
+      "perceptual_hash": "130b7b050f6f6bb2",
+      "production_approved": true,
+      "project_generated": true,
+      "provenance": {
+        "audited_at": "2026-08-27T00:56:06+00:00",
+        "basis": "Existing Slade Puzzles AI background library manifest",
+        "provider": "ChatGPT project generation"
+      },
+      "sha256": "cb3d9d4d083fe2214582840f779792322332d868dfb5ac4567fc4b030c0632f4",
+      "source_type": "generated_art",
+      "topics": [
+        "cryptogram",
+        "cipher",
+        "code breaking",
+        "codebreaker"
+      ],
+      "updated_at": "2026-09-06T03:03:56+00:00",
+      "usage": [
+        {
+          "at": "2026-09-05T05:05:57+00:00",
+          "package": "C:\\Users\\jorda\\Desktop\\Word Search Creator\\kdp-puzzle-engine\\out\\acceptance_cryptogram_collection_20260904_220538",
+          "theme": "General Starter",
+          "title": "Acceptance Cryptogram Collection"
+        }
+      ],
+      "visual_family_id": "vf_130b7b050f6f6bb2"
+    },
+    {
+      "asset_id": "bg_2451ad84fb140e9a",
+      "classification": "APPROVED_CHATGPT_GENERATED",
+      "created_at": "2026-08-27T00:56:06+00:00",
+      "focus": "center",
+      "health": {
+        "height": 1426,
+        "variance": 3720.8,
+        "width": 1103
+      },
+      "lifecycle_state": "active",
+      "name": "Cryptogram Cipher",
+      "orientation": "portrait",
+      "palette": "library-burgundy",
+      "path": "cover_assets\\background_photos\\puzzle_cryptogram_cipher_v1.png",
+      "perceptual_hash": "020203e2872e0f0f",
+      "production_approved": true,
+      "project_generated": true,
+      "provenance": {
+        "audited_at": "2026-08-27T00:56:06+00:00",
+        "basis": "Existing Slade Puzzles AI background library manifest",
+        "provider": "ChatGPT project generation"
+      },
+      "sha256": "aa64537e55f9e3acc408366208ee5540715ca224c14e11925ad8a144c12b4571",
+      "source_type": "generated_art",
+      "topics": [
+        "cryptogram",
+        "cipher",
+        "code breaking",
+        "codebreaker"
+      ],
+      "updated_at": "2026-09-06T03:03:56+00:00",
+      "usage": [],
+      "visual_family_id": "vf_020203e2872e0f0f"
+    },
+    {
+      "asset_id": "bg_ca650809faa490ef",
+      "classification": "APPROVED_CHATGPT_GENERATED",
+      "created_at": "2026-08-27T00:56:06+00:00",
+      "focus": "center",
+      "health": {
+        "height": 1426,
+        "variance": 1085.5,
+        "width": 1103
+      },
+      "lifecycle_state": "active",
+      "name": "Cryptogram Cipher",
+      "orientation": "portrait",
+      "palette": "library-burgundy",
+      "path": "cover_assets\\background_photos\\puzzle_cryptogram_vintage_v2.png",
+      "perceptual_hash": "1f3f3fc79f2d3b93",
+      "production_approved": true,
+      "project_generated": true,
+      "provenance": {
+        "audited_at": "2026-08-27T00:56:06+00:00",
+        "basis": "Existing Slade Puzzles AI background library manifest",
+        "provider": "ChatGPT project generation"
+      },
+      "sha256": "7fcc6ec87ff6fdac0893755686ecfacce9f55df699fbc4abe3e4c83fa2479f25",
+      "source_type": "generated_art",
+      "topics": [
+        "cryptogram",
+        "cipher",
+        "code breaking",
+        "codebreaker"
+      ],
+      "updated_at": "2026-09-06T03:03:56+00:00",
+      "usage": [],
+      "visual_family_id": "vf_1f3f3fc79f2d3b93"
+    },
+    {
+      "asset_id": "bg_5dce3a18faba9487",
+      "classification": "APPROVED_CHATGPT_GENERATED",
+      "created_at": "2026-08-27T00:56:06+00:00",
+      "focus": "center",
+      "health": {
+        "height": 1426,
+        "variance": 4328.24,
+        "width": 1103
+      },
+      "lifecycle_state": "active",
+      "name": "Word Scramble and Trivia",
+      "orientation": "portrait",
+      "palette": "tropical-pop",
+      "path": "cover_assets\\background_photos\\puzzle_scramble_gamenight_v2.png",
+      "perceptual_hash": "1f0f8f4eeb0d3ce1",
+      "production_approved": true,
+      "project_generated": true,
+      "provenance": {
+        "audited_at": "2026-08-27T00:56:06+00:00",
+        "basis": "Existing Slade Puzzles AI background library manifest",
+        "provider": "ChatGPT project generation"
+      },
+      "sha256": "d1d4c51b42ca2b48be357c8139df72971105238c6c87214ef4b42ddf4e46766b",
+      "source_type": "generated_art",
+      "topics": [
+        "word scramble",
+        "trivia",
+        "quiz",
+        "word game"
+      ],
+      "updated_at": "2026-09-06T03:03:56+00:00",
+      "usage": [
+        {
+          "at": "2026-08-27T15:09:03+00:00",
+          "package": "C:\\Users\\jorda\\AppData\\Local\\Temp\\puzzle_package_smoke_30ir3luw\\puzzle_books\\everyday_brain_breaks_20260827_080810",
+          "theme": "General Starter",
+          "title": "Everyday Brain Breaks"
+        },
+        {
+          "at": "2026-09-05T16:07:41+00:00",
+          "package": "C:\\Users\\jorda\\Desktop\\Word Search Creator\\kdp-puzzle-engine\\out\\acceptance_variety_brain_games_final_20260905_090657",
+          "theme": "General Knowledge & Curiosity",
+          "title": "Acceptance Variety Brain Games Final"
+        }
+      ],
+      "visual_family_id": "vf_1f0f8f4eeb0d3ce1"
+    },
+    {
+      "asset_id": "bg_9f3156849a18fdba",
+      "classification": "APPROVED_CHATGPT_GENERATED",
+      "created_at": "2026-08-27T00:56:07+00:00",
+      "focus": "center",
+      "health": {
+        "height": 1426,
+        "variance": 5390.06,
+        "width": 1103
+      },
+      "lifecycle_state": "active",
+      "name": "Word Scramble and Trivia",
+      "orientation": "portrait",
+      "palette": "tropical-pop",
+      "path": "cover_assets\\background_photos\\puzzle_scramble_retroquiz_v3.png",
+      "perceptual_hash": "630b2b030e071d2d",
+      "production_approved": true,
+      "project_generated": true,
+      "provenance": {
+        "audited_at": "2026-08-27T00:56:07+00:00",
+        "basis": "Existing Slade Puzzles AI background library manifest",
+        "provider": "ChatGPT project generation"
+      },
+      "sha256": "ae802bd9fd614c329f752f42d218e47b0adf25e2ba95a179ff66e21f6c7acc8f",
+      "source_type": "generated_art",
+      "topics": [
+        "word scramble",
+        "trivia",
+        "quiz",
+        "word game"
+      ],
+      "updated_at": "2026-09-06T03:03:57+00:00",
+      "usage": [
+        {
+          "at": "2026-08-27T15:08:10+00:00",
+          "package": "C:\\Users\\jorda\\AppData\\Local\\Temp\\puzzle_package_smoke_30ir3luw\\puzzle_books\\curious_minds_scramble_20260827_080805",
+          "theme": "General Starter",
+          "title": "Curious Minds Scramble"
+        },
+        {
+          "at": "2026-08-27T19:06:31+00:00",
+          "package": "C:\\Users\\jorda\\AppData\\Local\\Temp\\puzzle_package_smoke_ixfnqvts\\puzzle_books\\curious_minds_scramble_20260827_120626",
+          "theme": "General Starter",
+          "title": "Curious Minds Scramble"
+        },
+        {
+          "at": "2026-08-28T23:29:22+00:00",
+          "package": "C:\\Users\\jorda\\Desktop\\Word Search Creator\\kdp-puzzle-engine\\tmp\\phase8_acceptance_20260828\\out\\phase_8_mixed_games_acceptance_20260828_162837",
+          "theme": "General Knowledge & Curiosity",
+          "title": "Phase 8 Mixed Games Acceptance"
+        },
+        {
+          "at": "2026-08-28T23:30:42+00:00",
+          "package": "C:\\Users\\jorda\\Desktop\\Word Search Creator\\kdp-puzzle-engine\\tmp\\phase8_acceptance_mixed_20260828\\out\\phase_8_mixed_games_acceptance_20260828_163000",
+          "theme": "General Knowledge & Curiosity",
+          "title": "Phase 8 Mixed Games Acceptance"
+        }
+      ],
+      "visual_family_id": "vf_630b2b030e071d2d"
+    },
+    {
+      "asset_id": "bg_4811cd11adaa9ebd",
+      "classification": "APPROVED_CHATGPT_GENERATED",
+      "created_at": "2026-08-27T00:56:07+00:00",
+      "focus": "center",
+      "health": {
+        "height": 1426,
+        "variance": 4221.32,
+        "width": 1103
+      },
+      "lifecycle_state": "active",
+      "name": "Word Scramble and Trivia",
+      "orientation": "portrait",
+      "palette": "tropical-pop",
+      "path": "cover_assets\\background_photos\\puzzle_scramble_trivia_v1.png",
+      "perceptual_hash": "07235f210717cf0a",
+      "production_approved": true,
+      "project_generated": true,
+      "provenance": {
+        "audited_at": "2026-08-27T00:56:07+00:00",
+        "basis": "Existing Slade Puzzles AI background library manifest",
+        "provider": "ChatGPT project generation"
+      },
+      "sha256": "754b2cb617c9e393c41bdebbcc6282130159c183ad2892310899f52bcd8936c6",
+      "source_type": "generated_art",
+      "topics": [
+        "word scramble",
+        "trivia",
+        "quiz",
+        "word game"
+      ],
+      "updated_at": "2026-09-06T03:03:57+00:00",
+      "usage": [
+        {
+          "at": "2026-09-05T05:06:18+00:00",
+          "package": "C:\\Users\\jorda\\Desktop\\Word Search Creator\\kdp-puzzle-engine\\out\\acceptance_scramble_and_trivia_20260904_220558",
+          "theme": "General Starter",
+          "title": "Acceptance Scramble and Trivia"
+        },
+        {
+          "at": "2026-09-05T16:06:55+00:00",
+          "package": "C:\\Users\\jorda\\Desktop\\Word Search Creator\\kdp-puzzle-engine\\out\\acceptance_curiosity_scramble_final_20260905_090640",
+          "theme": "General Knowledge & Curiosity",
+          "title": "Acceptance Curiosity Scramble Final"
+        }
+      ],
+      "visual_family_id": "vf_07235f210717cf0a"
+    },
+    {
+      "asset_id": "bg_4a5033776c2266a4",
+      "classification": "APPROVED_CHATGPT_GENERATED",
+      "created_at": "2026-08-27T00:56:07+00:00",
+      "focus": "center",
+      "health": {
+        "height": 1536,
+        "variance": 2629.03,
+        "width": 1024
+      },
+      "lifecycle_state": "active",
+      "name": "90s and Retro Nostalgia",
+      "orientation": "portrait",
+      "palette": "pixel-neon",
+      "path": "cover_assets\\background_photos\\retro_90s.png",
+      "perceptual_hash": "0101010101a58ece",
+      "production_approved": true,
+      "project_generated": true,
+      "provenance": {
+        "audited_at": "2026-08-27T00:56:07+00:00",
+        "basis": "Existing Slade Puzzles AI background library manifest",
+        "provider": "ChatGPT project generation"
+      },
+      "sha256": "1e79f7d2af0a2c0d352ac1834d0b0d7a14d114abfd4449a116e200838ae17bf1",
+      "source_type": "generated_art",
+      "topics": [
+        "90s",
+        "1990",
+        "nostalgia",
+        "retro",
+        "decade",
+        "video game",
+        "pop culture"
+      ],
+      "updated_at": "2026-09-06T03:03:57+00:00",
+      "usage": [],
+      "visual_family_id": "vf_0101010101a58ece"
+    },
+    {
+      "asset_id": "bg_e7f497f15a8b8dfc",
+      "classification": "APPROVED_CHATGPT_GENERATED",
+      "created_at": "2026-08-27T00:56:08+00:00",
+      "focus": "center",
+      "health": {
+        "height": 1536,
+        "variance": 1912.93,
+        "width": 1024
+      },
+      "lifecycle_state": "active",
+      "name": "90s and Retro Nostalgia",
+      "orientation": "portrait",
+      "palette": "pixel-neon",
+      "path": "cover_assets\\background_photos\\retro_arcade_v2.png",
+      "perceptual_hash": "80648ad478078f1f",
+      "production_approved": true,
+      "project_generated": true,
+      "provenance": {
+        "audited_at": "2026-08-27T00:56:08+00:00",
+        "basis": "Existing Slade Puzzles AI background library manifest",
+        "provider": "ChatGPT project generation"
+      },
+      "sha256": "a7999ccbdeecf3f4777002be8caca1d1016f517f311ed81787ac216cbc9b1934",
+      "source_type": "generated_art",
+      "topics": [
+        "90s",
+        "1990",
+        "nostalgia",
+        "retro",
+        "decade",
+        "video game",
+        "pop culture"
+      ],
+      "updated_at": "2026-09-06T03:03:57+00:00",
+      "usage": [],
+      "visual_family_id": "vf_80648ad478078f1f"
+    },
+    {
+      "asset_id": "bg_ca2e20e5d36a634e",
+      "classification": "APPROVED_CHATGPT_GENERATED",
+      "created_at": "2026-08-27T00:56:08+00:00",
+      "focus": "center",
+      "health": {
+        "height": 1492,
+        "variance": 2677.17,
+        "width": 1054
+      },
+      "lifecycle_state": "active",
+      "name": "90s and Retro Nostalgia",
+      "orientation": "portrait",
+      "palette": "pixel-neon",
+      "path": "cover_assets\\background_photos\\retro_flatlay_v3.png",
+      "perceptual_hash": "1a2aac39c4b53f4d",
+      "production_approved": true,
+      "project_generated": true,
+      "provenance": {
+        "audited_at": "2026-08-27T00:56:08+00:00",
+        "basis": "Existing Slade Puzzles AI background library manifest",
+        "provider": "ChatGPT project generation"
+      },
+      "sha256": "a30ff47ce867e8cb22e9a091bdc20907220605b0fcafe6396b19351094b19061",
+      "source_type": "generated_art",
+      "topics": [
+        "90s",
+        "1990",
+        "nostalgia",
+        "retro",
+        "decade",
+        "video game",
+        "pop culture"
+      ],
+      "updated_at": "2026-09-06T03:03:57+00:00",
+      "usage": [],
+      "visual_family_id": "vf_1a2aac39c4b53f4d"
+    },
+    {
+      "asset_id": "bg_173e8ee699d7331d",
+      "classification": "APPROVED_CHATGPT_GENERATED",
+      "created_at": "2026-08-27T00:56:08+00:00",
+      "focus": "center",
+      "health": {
+        "height": 1536,
+        "variance": 3778.69,
+        "width": 1024
+      },
+      "lifecycle_state": "active",
+      "name": "Road Trips and Vehicles",
+      "orientation": "portrait",
+      "palette": "graphite-copper",
+      "path": "cover_assets\\background_photos\\road_trip_vehicles.png",
+      "perceptual_hash": "f8f8f81e2d2cbe1f",
+      "production_approved": true,
+      "project_generated": true,
+      "provenance": {
+        "audited_at": "2026-08-27T00:56:08+00:00",
+        "basis": "Existing Slade Puzzles AI background library manifest",
+        "provider": "ChatGPT project generation"
+      },
+      "sha256": "46df5029117f17bf19300120b74bd50e1b4cab468fb4a1aa4dda34f1eff179a9",
+      "source_type": "generated_art",
+      "topics": [
+        "car",
+        "vehicle",
+        "truck",
+        "road",
+        "travel",
+        "rv",
+        "camper",
+        "automotive"
+      ],
+      "updated_at": "2026-09-06T03:03:57+00:00",
+      "usage": [
+        {
+          "at": "2026-08-27T15:17:58+00:00",
+          "package": "",
+          "theme": "C:\\Users\\jorda\\Desktop\\Word Search Creator\\kdp-puzzle-engine\\themes\\Launch Collection\\Verified Release Candidates\\classic_cars_road_trips.json",
+          "title": "Classic Cars and Road Trips Word Search"
+        },
+        {
+          "at": "2026-08-27T15:38:53+00:00",
+          "package": "C:\\Users\\jorda\\Desktop\\Word Search Creator\\kdp-puzzle-engine\\out\\roadside_symbols_sudoku_20260827_083844",
+          "theme": "Cars & Adventure",
+          "title": "Roadside Symbols Sudoku"
+        },
+        {
+          "at": "2026-08-27T15:42:04+00:00",
+          "package": "C:\\Users\\jorda\\Desktop\\Word Search Creator\\kdp-puzzle-engine\\out\\motor_mile_brain_games_20260827_084156",
+          "theme": "Cars & Adventure",
+          "title": "Motor Mile Brain Games"
+        }
+      ],
+      "visual_family_id": "vf_f8f8f81e2d2cbe1f"
+    },
+    {
+      "asset_id": "bg_10bb79b3fe3e8936",
+      "classification": "APPROVED_CHATGPT_GENERATED",
+      "created_at": "2026-08-27T00:56:08+00:00",
+      "focus": "center",
+      "health": {
+        "height": 1536,
+        "variance": 2593.73,
+        "width": 1024
+      },
+      "lifecycle_state": "active",
+      "name": "Elementary School Learning",
+      "orientation": "portrait",
+      "palette": "tropical-pop",
+      "path": "cover_assets\\background_photos\\school_elementary_learning_v1.png",
+      "perceptual_hash": "dff99da9c899b3c3",
+      "production_approved": true,
+      "project_generated": true,
+      "provenance": {
+        "audited_at": "2026-08-27T00:56:08+00:00",
+        "basis": "Existing Slade Puzzles AI background library manifest",
+        "provider": "ChatGPT project generation"
+      },
+      "sha256": "0c511f837a9a8076227805ef0b4ce185f9fce157291c7f62c4669ca01a3e1443",
+      "source_type": "generated_art",
+      "topics": [
+        "grade 5",
+        "grade school",
+        "elementary",
+        "vocabulary ladder",
+        "word quest",
+        "elementary vocabulary",
+        "grade vocabulary"
+      ],
+      "updated_at": "2026-09-06T03:03:58+00:00",
+      "usage": [],
+      "visual_family_id": "vf_dff99da9c899b3c3"
+    },
+    {
+      "asset_id": "bg_7ed583b23f7c9fb7",
+      "classification": "APPROVED_CHATGPT_GENERATED",
+      "created_at": "2026-08-27T00:56:08+00:00",
+      "focus": "center",
+      "health": {
+        "height": 1536,
+        "variance": 2173.14,
+        "width": 1024
+      },
+      "lifecycle_state": "active",
+      "name": "High School Learning",
+      "orientation": "portrait",
+      "palette": "library-burgundy",
+      "path": "cover_assets\\background_photos\\school_high_learning_v1.png",
+      "perceptual_hash": "0f0f4f473d6d2e69",
+      "production_approved": true,
+      "project_generated": true,
+      "provenance": {
+        "audited_at": "2026-08-27T00:56:08+00:00",
+        "basis": "Existing Slade Puzzles AI background library manifest",
+        "provider": "ChatGPT project generation"
+      },
+      "sha256": "f72076d3dae60d6f6f240cb15930fc357424f714c8a8af70a89bb3c86c8b6ff9",
+      "source_type": "generated_art",
+      "topics": [
+        "high school",
+        "grade 9",
+        "grade 10",
+        "grade 11",
+        "grade 12",
+        "vocabulary mastery",
+        "high school vocabulary"
+      ],
+      "updated_at": "2026-09-06T03:03:58+00:00",
+      "usage": [],
+      "visual_family_id": "vf_0f0f4f473d6d2e69"
+    },
+    {
+      "asset_id": "bg_2f67b984e8ebf772",
+      "classification": "APPROVED_CHATGPT_GENERATED",
+      "created_at": "2026-08-27T00:56:08+00:00",
+      "focus": "center",
+      "health": {
+        "height": 1536,
+        "variance": 3504.54,
+        "width": 1024
+      },
+      "lifecycle_state": "active",
+      "name": "Middle School Learning",
+      "orientation": "portrait",
+      "palette": "starlight-indigo",
+      "path": "cover_assets\\background_photos\\school_middle_learning_v1.png",
+      "perceptual_hash": "0f8fc0d2589e66ff",
+      "production_approved": true,
+      "project_generated": true,
+      "provenance": {
+        "audited_at": "2026-08-27T00:56:08+00:00",
+        "basis": "Existing Slade Puzzles AI background library manifest",
+        "provider": "ChatGPT project generation"
+      },
+      "sha256": "daf93d111911dd4efd055fd01b3a6725d456baabd0d9a01a0121e21d7c4f0924",
+      "source_type": "generated_art",
+      "topics": [
+        "middle school",
+        "grade 6",
+        "grade 7",
+        "grade 8",
+        "word wise",
+        "middle vocabulary"
+      ],
+      "updated_at": "2026-09-06T03:03:58+00:00",
+      "usage": [
+        {
+          "at": "2026-08-27T15:14:26+00:00",
+          "package": "C:\\Users\\jorda\\Desktop\\Word Search Creator\\kdp-puzzle-engine\\out\\study_break_brain_games_collection_20260827_081324",
+          "theme": "School & Vocabulary",
+          "title": "Study Break Brain Games Collection"
+        },
+        {
+          "at": "2026-08-27T15:16:00+00:00",
+          "package": "C:\\Users\\jorda\\Desktop\\Word Search Creator\\kdp-puzzle-engine\\out\\study_break_brain_games_collection_20260827_081503",
+          "theme": "School & Vocabulary",
+          "title": "Study Break Brain Games Collection"
+        },
+        {
+          "at": "2026-08-27T23:04:26+00:00",
+          "package": "C:\\Users\\jorda\\Desktop\\Word Search Creator\\kdp-puzzle-engine\\out\\study_break_brain_games_collection_20260827_160340",
+          "theme": "School & Vocabulary",
+          "title": "Study Break Brain Games Collection"
+        }
+      ],
+      "visual_family_id": "vf_0f8fc0d2589e66ff"
+    },
+    {
+      "asset_id": "bg_b56228f4265bf55f",
+      "classification": "APPROVED_CHATGPT_GENERATED",
+      "created_at": "2026-08-27T00:56:08+00:00",
+      "focus": "center",
+      "health": {
+        "height": 1536,
+        "variance": 886.3,
+        "width": 1024
+      },
+      "lifecycle_state": "active",
+      "name": "Space and Astronomy",
+      "orientation": "portrait",
+      "palette": "starlight-indigo",
+      "path": "cover_assets\\background_photos\\space_astronomy.png",
+      "perceptual_hash": "1f4f1f1f0f07f93b",
+      "production_approved": true,
+      "project_generated": true,
+      "provenance": {
+        "audited_at": "2026-08-27T00:56:08+00:00",
+        "basis": "Existing Slade Puzzles AI background library manifest",
+        "provider": "ChatGPT project generation"
+      },
+      "sha256": "666490da894ffe3f23f24a7690822246b664047f01ff0044063904350065cca0",
+      "source_type": "generated_art",
+      "topics": [
+        "space",
+        "astronomy",
+        "planet",
+        "solar",
+        "star",
+        "galaxy",
+        "rocket"
+      ],
+      "updated_at": "2026-09-06T03:03:58+00:00",
+      "usage": [
+        {
+          "at": "2026-08-27T15:11:58+00:00",
+          "package": "C:\\Users\\jorda\\Desktop\\Word Search Creator\\kdp-puzzle-engine\\out\\starlight_symbols_sudoku_20260827_081147",
+          "theme": "Space & Astronomy",
+          "title": "Starlight Symbols Sudoku"
+        },
+        {
+          "at": "2026-08-27T15:40:36+00:00",
+          "package": "C:\\Users\\jorda\\Desktop\\Word Search Creator\\kdp-puzzle-engine\\out\\stargazer_scramble_and_trivia_20260827_084029",
+          "theme": "Space & Astronomy",
+          "title": "Stargazer Scramble and Trivia"
+        },
+        {
+          "at": "2026-08-27T23:02:23+00:00",
+          "package": "C:\\Users\\jorda\\Desktop\\Word Search Creator\\kdp-puzzle-engine\\out\\stargazer_symbols_sudoku_20260827_160213",
+          "theme": "Space & Astronomy",
+          "title": "Stargazer Symbols Sudoku"
+        },
+        {
+          "at": "2026-08-28T23:28:29+00:00",
+          "package": "C:\\Users\\jorda\\Desktop\\Word Search Creator\\kdp-puzzle-engine\\tmp\\phase8_acceptance_20260828\\out\\phase_8_cryptogram_acceptance_20260828_162821",
+          "theme": "Space & Astronomy",
+          "title": "Phase 8 Cryptogram Acceptance"
+        }
+      ],
+      "visual_family_id": "vf_1f4f1f1f0f07f93b"
+    },
+    {
+      "asset_id": "bg_0bab64959a7498dd",
+      "classification": "APPROVED_CHATGPT_GENERATED",
+      "created_at": "2026-08-27T00:56:09+00:00",
+      "focus": "center",
+      "health": {
+        "height": 1536,
+        "variance": 1663.0,
+        "width": 1024
+      },
+      "lifecycle_state": "active",
+      "name": "Space and Astronomy",
+      "orientation": "portrait",
+      "palette": "starlight-indigo",
+      "path": "cover_assets\\background_photos\\space_planet_v2.png",
+      "perceptual_hash": "21005064d1d94903",
+      "production_approved": true,
+      "project_generated": true,
+      "provenance": {
+        "audited_at": "2026-08-27T00:56:09+00:00",
+        "basis": "Existing Slade Puzzles AI background library manifest",
+        "provider": "ChatGPT project generation"
+      },
+      "sha256": "27a2a6b0edfc4e9a24b0b089a460d4cbc77ed327c4d76e3f61cb29f2ecde159f",
+      "source_type": "generated_art",
+      "topics": [
+        "space",
+        "astronomy",
+        "planet",
+        "solar",
+        "star",
+        "galaxy",
+        "rocket"
+      ],
+      "updated_at": "2026-09-06T03:03:58+00:00",
+      "usage": [
+        {
+          "at": "2026-08-27T15:08:05+00:00",
+          "package": "C:\\Users\\jorda\\AppData\\Local\\Temp\\puzzle_package_smoke_30ir3luw\\puzzle_books\\night_sky_cryptograms_20260827_080800",
+          "theme": "Space & Astronomy",
+          "title": "Night Sky Cryptograms"
+        },
+        {
+          "at": "2026-08-27T19:06:25+00:00",
+          "package": "C:\\Users\\jorda\\AppData\\Local\\Temp\\puzzle_package_smoke_ixfnqvts\\puzzle_books\\night_sky_cryptograms_20260827_120620",
+          "theme": "Space & Astronomy",
+          "title": "Night Sky Cryptograms"
+        },
+        {
+          "at": "2026-08-29T03:39:04+00:00",
+          "package": "",
+          "theme": "C:\\Users\\jorda\\Desktop\\Word Search Creator\\kdp-puzzle-engine\\themes\\Trending 50 Puzzle Releases\\cosmic_discovery_20260828_203806.json",
+          "title": "Cosmic Discovery Word Search"
+        }
+      ],
+      "visual_family_id": "vf_21005064d1d94903"
+    },
+    {
+      "asset_id": "bg_2f86f9a850a9dd9c",
+      "classification": "APPROVED_CHATGPT_GENERATED",
+      "created_at": "2026-08-27T00:56:09+00:00",
+      "focus": "center",
+      "health": {
+        "height": 1536,
+        "variance": 2806.15,
+        "width": 1024
+      },
+      "lifecycle_state": "active",
+      "name": "Space and Astronomy",
+      "orientation": "portrait",
+      "palette": "starlight-indigo",
+      "path": "cover_assets\\background_photos\\space_rocket_v3.png",
+      "perceptual_hash": "0000000048080853",
+      "production_approved": true,
+      "project_generated": true,
+      "provenance": {
+        "audited_at": "2026-08-27T00:56:09+00:00",
+        "basis": "Existing Slade Puzzles AI background library manifest",
+        "provider": "ChatGPT project generation"
+      },
+      "sha256": "c9f8aa8184973286fab1e2813d67aab2368b9ef88c5f2a551944df9f33bfd4d6",
+      "source_type": "generated_art",
+      "topics": [
+        "space",
+        "astronomy",
+        "planet",
+        "solar",
+        "star",
+        "galaxy",
+        "rocket"
+      ],
+      "updated_at": "2026-09-06T03:03:58+00:00",
+      "usage": [
+        {
+          "at": "2026-08-27T15:12:14+00:00",
+          "package": "C:\\Users\\jorda\\Desktop\\Word Search Creator\\kdp-puzzle-engine\\out\\celestial_cipher_challenge_20260827_081207",
+          "theme": "Space & Astronomy",
+          "title": "Celestial Cipher Challenge"
+        },
+        {
+          "at": "2026-08-27T23:02:42+00:00",
+          "package": "C:\\Users\\jorda\\Desktop\\Word Search Creator\\kdp-puzzle-engine\\out\\celestial_cipher_challenge_20260827_160235",
+          "theme": "Space & Astronomy",
+          "title": "Celestial Cipher Challenge"
+        }
+      ],
+      "visual_family_id": "vf_0000000048080853"
+    },
+    {
+      "asset_id": "bg_6f78b7ca0a7f527f",
+      "classification": "APPROVED_CHATGPT_GENERATED",
+      "created_at": "2026-08-27T00:56:09+00:00",
+      "focus": "center",
+      "health": {
+        "height": 1536,
+        "variance": 1317.6,
+        "width": 1024
+      },
+      "lifecycle_state": "active",
+      "name": "Sports and Hobbies",
+      "orientation": "portrait",
+      "palette": "sports",
+      "path": "cover_assets\\background_photos\\sports.png",
+      "perceptual_hash": "2f7f3fd9e94fa42a",
+      "production_approved": true,
+      "project_generated": true,
+      "provenance": {
+        "audited_at": "2026-08-27T00:56:09+00:00",
+        "basis": "Existing Slade Puzzles AI background library manifest",
+        "provider": "ChatGPT project generation"
+      },
+      "sha256": "d977b9eac915a7971ea4c81917b3d3da33c1ba1773f6abb8b6e1499970d04a2f",
+      "source_type": "generated_art",
+      "topics": [
+        "sport",
+        "sports",
+        "golf",
+        "fishing",
+        "baseball",
+        "football",
+        "basketball"
+      ],
+      "updated_at": "2026-09-06T03:03:59+00:00",
+      "usage": [],
+      "visual_family_id": "vf_2f7f3fd9e94fa42a"
+    },
+    {
+      "asset_id": "bg_a209ad47b2fc1fc2",
+      "classification": "APPROVED_CHATGPT_GENERATED",
+      "created_at": "2026-08-27T00:56:09+00:00",
+      "focus": "center",
+      "health": {
+        "height": 1402,
+        "variance": 3381.49,
+        "width": 1122
+      },
+      "lifecycle_state": "active",
+      "name": "Sports and Hobbies",
+      "orientation": "portrait",
+      "palette": "sports",
+      "path": "cover_assets\\background_photos\\sports_fishing_v3.png",
+      "perceptual_hash": "fffeff6d0c2dfff1",
+      "production_approved": true,
+      "project_generated": true,
+      "provenance": {
+        "audited_at": "2026-08-27T00:56:09+00:00",
+        "basis": "Existing Slade Puzzles AI background library manifest",
+        "provider": "ChatGPT project generation"
+      },
+      "sha256": "bc6bba29ffe11dc76abb1acd297681be69c12fa5f6819b86591d17030a8d6f90",
+      "source_type": "generated_art",
+      "topics": [
+        "sport",
+        "sports",
+        "golf",
+        "fishing",
+        "baseball",
+        "football",
+        "basketball"
+      ],
+      "updated_at": "2026-09-06T03:03:59+00:00",
+      "usage": [],
+      "visual_family_id": "vf_fffeff6d0c2dfff1"
+    },
+    {
+      "asset_id": "bg_39de1c32e22ad529",
+      "classification": "APPROVED_CHATGPT_GENERATED",
+      "created_at": "2026-08-27T00:56:09+00:00",
+      "focus": "center",
+      "health": {
+        "height": 1536,
+        "variance": 3959.28,
+        "width": 1024
+      },
+      "lifecycle_state": "active",
+      "name": "Sports and Hobbies",
+      "orientation": "portrait",
+      "palette": "sports",
+      "path": "cover_assets\\background_photos\\sports_golf_v2.png",
+      "perceptual_hash": "8107050707195b43",
+      "production_approved": true,
+      "project_generated": true,
+      "provenance": {
+        "audited_at": "2026-08-27T00:56:09+00:00",
+        "basis": "Existing Slade Puzzles AI background library manifest",
+        "provider": "ChatGPT project generation"
+      },
+      "sha256": "7e138376f0f88a8009d2213430df6a2aebd1d3a743c8945729502f4702904671",
+      "source_type": "generated_art",
+      "topics": [
+        "sport",
+        "sports",
+        "golf",
+        "fishing",
+        "baseball",
+        "football",
+        "basketball"
+      ],
+      "updated_at": "2026-09-06T03:03:59+00:00",
+      "usage": [],
+      "visual_family_id": "vf_8107050707195b43"
+    },
+    {
+      "asset_id": "bg_761265e560f53b48",
+      "classification": "APPROVED_CHATGPT_GENERATED",
+      "created_at": "2026-09-06T03:03:59+00:00",
+      "focus": "center",
+      "health": {
+        "height": 1426,
+        "variance": 856.0,
+        "width": 1103
+      },
+      "lifecycle_state": "active",
+      "name": "Sudoku Premium Logic",
+      "orientation": "portrait",
+      "palette": "starlight-indigo",
+      "path": "cover_assets\\background_photos\\sudoku_logic_luxe_v4.png",
+      "perceptual_hash": "cd86446971b1cbd9",
+      "production_approved": true,
+      "project_generated": true,
+      "provenance": {
+        "audited_at": "2026-09-06T03:03:59+00:00",
+        "basis": "Existing Slade Puzzles AI background library manifest",
+        "provider": "ChatGPT project generation"
+      },
+      "sha256": "abf483e10a7e94c0af073a52c3b99e76744240ac154cc94143d090d729739bc3",
+      "source_type": "generated_art",
+      "topics": [
+        "sudoku",
+        "number puzzle",
+        "logic puzzle",
+        "brain games"
+      ],
+      "updated_at": "2026-09-06T03:03:59+00:00",
+      "usage": [],
+      "visual_family_id": "vf_cd86446971b1cbd9"
+    },
+    {
+      "asset_id": "bg_d962b35d08867459",
+      "classification": "APPROVED_CHATGPT_GENERATED",
+      "created_at": "2026-09-06T03:03:59+00:00",
+      "focus": "center",
+      "health": {
+        "height": 1426,
+        "variance": 4130.11,
+        "width": 1103
+      },
+      "lifecycle_state": "active",
+      "name": "Sudoku Premium Logic",
+      "orientation": "portrait",
+      "palette": "starlight-indigo",
+      "path": "cover_assets\\background_photos\\sudoku_papercraft_v5.png",
+      "perceptual_hash": "3f3d1b1b0e4be7eb",
+      "production_approved": true,
+      "project_generated": true,
+      "provenance": {
+        "audited_at": "2026-09-06T03:03:59+00:00",
+        "basis": "Existing Slade Puzzles AI background library manifest",
+        "provider": "ChatGPT project generation"
+      },
+      "sha256": "4e7d6418b28603063c48e01c1ad399e5ea83e162cec6d597ee3d19218aa2ec56",
+      "source_type": "generated_art",
+      "topics": [
+        "sudoku",
+        "number puzzle",
+        "logic puzzle",
+        "brain games"
+      ],
+      "updated_at": "2026-09-06T03:03:59+00:00",
+      "usage": [],
+      "visual_family_id": "vf_3f3d1b1b0e4be7eb"
+    },
+    {
+      "asset_id": "bg_8db66f20c49c71dc",
+      "classification": "APPROVED_CHATGPT_GENERATED",
+      "created_at": "2026-09-06T03:04:00+00:00",
+      "focus": "center",
+      "health": {
+        "height": 1426,
+        "variance": 633.66,
+        "width": 1103
+      },
+      "lifecycle_state": "active",
+      "name": "Sudoku Premium Logic",
+      "orientation": "portrait",
+      "palette": "starlight-indigo",
+      "path": "cover_assets\\background_photos\\sudoku_quiet_ritual_v6.png",
+      "perceptual_hash": "3c1fdf3f3f3c9382",
+      "production_approved": true,
+      "project_generated": true,
+      "provenance": {
+        "audited_at": "2026-09-06T03:04:00+00:00",
+        "basis": "Existing Slade Puzzles AI background library manifest",
+        "provider": "ChatGPT project generation"
+      },
+      "sha256": "d2e463ec0d9e7a63b3f26e04e1cef66bf0ce72a1128ed878aab13b8f4d3bf919",
+      "source_type": "generated_art",
+      "topics": [
+        "sudoku",
+        "number puzzle",
+        "logic puzzle",
+        "brain games"
+      ],
+      "updated_at": "2026-09-06T03:04:00+00:00",
+      "usage": [],
+      "visual_family_id": "vf_3c1fdf3f3f3c9382"
+    },
+    {
+      "asset_id": "bg_44f9fa391d871e39",
+      "classification": "APPROVED_CHATGPT_GENERATED",
+      "created_at": "2026-08-27T00:56:09+00:00",
+      "focus": "center",
+      "health": {
+        "height": 1536,
+        "variance": 2023.3,
+        "width": 1024
+      },
+      "lifecycle_state": "active",
+      "name": "Travel, History and States",
+      "orientation": "portrait",
+      "palette": "retro-travel-and-landmarks",
+      "path": "cover_assets\\background_photos\\travel_history.png",
+      "perceptual_hash": "0f0f03038e1b5a7e",
+      "production_approved": true,
+      "project_generated": true,
+      "provenance": {
+        "audited_at": "2026-08-27T00:56:09+00:00",
+        "basis": "Existing Slade Puzzles AI background library manifest",
+        "provider": "ChatGPT project generation"
+      },
+      "sha256": "429e2306da28c0500ad00fe07c970b59e2e96237e435eda9cff38ea76b3abcc3",
+      "source_type": "generated_art",
+      "topics": [
+        "travel",
+        "history",
+        "state",
+        "america",
+        "american",
+        "geography",
+        "world war"
+      ],
+      "updated_at": "2026-09-06T03:04:00+00:00",
+      "usage": [],
+      "visual_family_id": "vf_0f0f03038e1b5a7e"
+    },
+    {
+      "asset_id": "bg_80fbf3514ea8cbcb",
+      "classification": "APPROVED_CHATGPT_GENERATED",
+      "created_at": "2026-08-27T00:56:10+00:00",
+      "focus": "center",
+      "health": {
+        "height": 1536,
+        "variance": 2322.92,
+        "width": 1024
+      },
+      "lifecycle_state": "active",
+      "name": "Travel, History and States",
+      "orientation": "portrait",
+      "palette": "retro-travel-and-landmarks",
+      "path": "cover_assets\\background_photos\\travel_skyline_v3.png",
+      "perceptual_hash": "000000000c123262",
+      "production_approved": true,
+      "project_generated": true,
+      "provenance": {
+        "audited_at": "2026-08-27T00:56:10+00:00",
+        "basis": "Existing Slade Puzzles AI background library manifest",
+        "provider": "ChatGPT project generation"
+      },
+      "sha256": "991c4291542b4f70e9d4849ea06cef900de95e42113602ef2f2d3fe0d0620730",
+      "source_type": "generated_art",
+      "topics": [
+        "travel",
+        "history",
+        "state",
+        "america",
+        "american",
+        "geography",
+        "world war"
+      ],
+      "updated_at": "2026-09-06T03:04:00+00:00",
+      "usage": [
+        {
+          "at": "2026-08-27T15:13:08+00:00",
+          "package": "C:\\Users\\jorda\\Desktop\\Word Search Creator\\kdp-puzzle-engine\\out\\great_american_road_trip_scramble_and_trivia_20260827_081301",
+          "theme": "Travel & Adventure",
+          "title": "Great American Road Trip Scramble and Trivia"
+        },
+        {
+          "at": "2026-08-27T15:14:09+00:00",
+          "package": "C:\\Users\\jorda\\Desktop\\Word Search Creator\\kdp-puzzle-engine\\out\\great_american_road_trip_scramble_and_trivia_20260827_081403",
+          "theme": "Travel & Adventure",
+          "title": "Great American Road Trip Scramble and Trivia"
+        },
+        {
+          "at": "2026-08-27T23:03:25+00:00",
+          "package": "C:\\Users\\jorda\\Desktop\\Word Search Creator\\kdp-puzzle-engine\\out\\great_american_road_trip_scramble_and_trivia_20260827_160319",
+          "theme": "Travel & Adventure",
+          "title": "Great American Road Trip Scramble and Trivia"
+        }
+      ],
+      "visual_family_id": "vf_000000000c123262"
+    },
+    {
+      "asset_id": "bg_d0d49e7dec001494",
+      "classification": "APPROVED_CHATGPT_GENERATED",
+      "created_at": "2026-08-27T00:56:10+00:00",
+      "focus": "center",
+      "health": {
+        "height": 1536,
+        "variance": 2035.44,
+        "width": 1024
+      },
+      "lifecycle_state": "active",
+      "name": "Travel, History and States",
+      "orientation": "portrait",
+      "palette": "retro-travel-and-landmarks",
+      "path": "cover_assets\\background_photos\\travel_suitcase_v2.png",
+      "perceptual_hash": "7f7f3f3fe7c383c3",
+      "production_approved": true,
+      "project_generated": true,
+      "provenance": {
+        "audited_at": "2026-08-27T00:56:10+00:00",
+        "basis": "Existing Slade Puzzles AI background library manifest",
+        "provider": "ChatGPT project generation"
+      },
+      "sha256": "feacfee66e3b8be32705c2feac1e0db85c3f0b36b29a5e1e79ae74fe5694f222",
+      "source_type": "generated_art",
+      "topics": [
+        "travel",
+        "history",
+        "state",
+        "america",
+        "american",
+        "geography",
+        "world war"
+      ],
+      "updated_at": "2026-09-06T03:04:00+00:00",
+      "usage": [
+        {
+          "at": "2026-08-27T15:40:14+00:00",
+          "package": "C:\\Users\\jorda\\Desktop\\Word Search Creator\\kdp-puzzle-engine\\out\\world_traveler_cipher_challenge_20260827_084002",
+          "theme": "Travel & Adventure",
+          "title": "World Traveler Cipher Challenge"
+        }
+      ],
+      "visual_family_id": "vf_7f7f3f3fe7c383c3"
+    },
+    {
+      "asset_id": "bg_4f3d0a7d81b67ea4",
+      "classification": "APPROVED_CHATGPT_GENERATED",
+      "created_at": "2026-08-27T00:56:10+00:00",
+      "focus": "center",
+      "health": {
+        "height": 1536,
+        "variance": 3845.4,
+        "width": 1024
+      },
+      "lifecycle_state": "active",
+      "name": "Road Trips and Vehicles",
+      "orientation": "portrait",
+      "palette": "graphite-copper",
+      "path": "cover_assets\\background_photos\\vehicles_camping_v2.png",
+      "perceptual_hash": "000000008096b77c",
+      "production_approved": true,
+      "project_generated": true,
+      "provenance": {
+        "audited_at": "2026-08-27T00:56:10+00:00",
+        "basis": "Existing Slade Puzzles AI background library manifest",
+        "provider": "ChatGPT project generation"
+      },
+      "sha256": "de680b017ef1e4a901554a9c979442495f800890db846ee49bec83d091416fb7",
+      "source_type": "generated_art",
+      "topics": [
+        "car",
+        "vehicle",
+        "truck",
+        "road",
+        "travel",
+        "rv",
+        "camper",
+        "automotive"
+      ],
+      "updated_at": "2026-09-06T03:04:00+00:00",
+      "usage": [
+        {
+          "at": "2026-08-29T03:41:10+00:00",
+          "package": "",
+          "theme": "C:\\Users\\jorda\\Desktop\\Word Search Creator\\kdp-puzzle-engine\\themes\\Trending 50 Puzzle Releases\\road_trip_classics_20260828_203806.json",
+          "title": "Road Trip Classics Word Search"
+        }
+      ],
+      "visual_family_id": "vf_000000008096b77c"
+    },
+    {
+      "asset_id": "bg_6279ff715e385710",
+      "classification": "APPROVED_CHATGPT_GENERATED",
+      "created_at": "2026-08-27T00:56:10+00:00",
+      "focus": "center",
+      "health": {
+        "height": 1536,
+        "variance": 5564.99,
+        "width": 1024
+      },
+      "lifecycle_state": "active",
+      "name": "Road Trips and Vehicles",
+      "orientation": "portrait",
+      "palette": "graphite-copper",
+      "path": "cover_assets\\background_photos\\vehicles_vintage_v3.png",
+      "perceptual_hash": "9160100203fa605f",
+      "production_approved": true,
+      "project_generated": true,
+      "provenance": {
+        "audited_at": "2026-08-27T00:56:10+00:00",
+        "basis": "Existing Slade Puzzles AI background library manifest",
+        "provider": "ChatGPT project generation"
+      },
+      "sha256": "f99eddaa5da885a6745a475f6af45ae6993453700577a8d440fa309c3e78f4a4",
+      "source_type": "generated_art",
+      "topics": [
+        "car",
+        "vehicle",
+        "truck",
+        "road",
+        "travel",
+        "rv",
+        "camper",
+        "automotive"
+      ],
+      "updated_at": "2026-09-06T03:04:00+00:00",
+      "usage": [
+        {
+          "at": "2026-08-27T23:10:10+00:00",
+          "package": "",
+          "theme": "C:\\Users\\jorda\\Desktop\\Word Search Creator\\kdp-puzzle-engine\\themes\\Launch Collection\\Verified Release Candidates\\classic_cars_road_trips.json",
+          "title": "Classic Cars and Road Trips Word Search"
+        }
+      ],
+      "visual_family_id": "vf_9160100203fa605f"
+    },
+    {
+      "asset_id": "bg_67d7d30f7a7aa82c",
+      "classification": "APPROVED_CHATGPT_GENERATED",
+      "created_at": "2026-08-27T00:56:10+00:00",
+      "focus": "center",
+      "health": {
+        "height": 1536,
+        "variance": 3622.75,
+        "width": 1024
+      },
+      "lifecycle_state": "active",
+      "name": "Weather and Sky",
+      "orientation": "portrait",
+      "palette": "starlight-indigo",
+      "path": "cover_assets\\background_photos\\weather_seasons_v4.png",
+      "perceptual_hash": "23670f0f170f2d7d",
+      "production_approved": true,
+      "project_generated": true,
+      "provenance": {
+        "audited_at": "2026-08-27T00:56:10+00:00",
+        "basis": "Existing Slade Puzzles AI background library manifest",
+        "provider": "ChatGPT project generation"
+      },
+      "sha256": "6bfcfbe120339165e8a48b30a65337ac7c256d5d27385653396517ac9e039765",
+      "source_type": "generated_art",
+      "topics": [
+        "weather",
+        "climate",
+        "storm",
+        "rain",
+        "cloud",
+        "rainbow",
+        "season"
+      ],
+      "updated_at": "2026-09-06T03:04:01+00:00",
+      "usage": [],
+      "visual_family_id": "vf_23670f0f170f2d7d"
+    },
+    {
+      "asset_id": "bg_cdd9a874c430c447",
+      "classification": "APPROVED_CHATGPT_GENERATED",
+      "created_at": "2026-08-27T00:56:10+00:00",
+      "focus": "center",
+      "health": {
+        "height": 1536,
+        "variance": 2506.71,
+        "width": 1024
+      },
+      "lifecycle_state": "active",
+      "name": "Weather and Sky",
+      "orientation": "portrait",
+      "palette": "starlight-indigo",
+      "path": "cover_assets\\background_photos\\weather_sky_v2.png",
+      "perceptual_hash": "01811f0f070f1f37",
+      "production_approved": true,
+      "project_generated": true,
+      "provenance": {
+        "audited_at": "2026-08-27T00:56:10+00:00",
+        "basis": "Existing Slade Puzzles AI background library manifest",
+        "provider": "ChatGPT project generation"
+      },
+      "sha256": "7f81fc50d6ef041a748b069924afd04cb07e8e3aeb759bff12ea348f01ec1266",
+      "source_type": "generated_art",
+      "topics": [
+        "weather",
+        "climate",
+        "storm",
+        "rain",
+        "cloud",
+        "rainbow",
+        "season"
+      ],
+      "updated_at": "2026-09-06T03:04:01+00:00",
+      "usage": [],
+      "visual_family_id": "vf_01811f0f070f1f37"
+    },
+    {
+      "asset_id": "bg_a1999e787950854a",
+      "classification": "APPROVED_CHATGPT_GENERATED",
+      "created_at": "2026-08-27T00:56:11+00:00",
+      "focus": "center",
+      "health": {
+        "height": 1536,
+        "variance": 1686.02,
+        "width": 1024
+      },
+      "lifecycle_state": "active",
+      "name": "Weather and Sky",
+      "orientation": "portrait",
+      "palette": "starlight-indigo",
+      "path": "cover_assets\\background_photos\\weather_storm_v3.png",
+      "perceptual_hash": "3f13c10917070316",
+      "production_approved": true,
+      "project_generated": true,
+      "provenance": {
+        "audited_at": "2026-08-27T00:56:11+00:00",
+        "basis": "Existing Slade Puzzles AI background library manifest",
+        "provider": "ChatGPT project generation"
+      },
+      "sha256": "6809e847f3f11bf9f34513acb9d2a84e4dbd149f5bd192adbcc5c13be25ee6f4",
+      "source_type": "generated_art",
+      "topics": [
+        "weather",
+        "climate",
+        "storm",
+        "rain",
+        "cloud",
+        "rainbow",
+        "season"
+      ],
+      "updated_at": "2026-09-06T03:04:01+00:00",
+      "usage": [],
+      "visual_family_id": "vf_3f13c10917070316"
+    },
+    {
+      "asset_id": "bg_14f74ceab338d6c9",
+      "classification": "APPROVED_CHATGPT_GENERATED",
+      "created_at": "2026-08-27T00:56:11+00:00",
+      "focus": "center",
+      "health": {
+        "height": 1536,
+        "variance": 2795.67,
+        "width": 1024
+      },
+      "lifecycle_state": "active",
+      "name": "Winter and Christmas",
+      "orientation": "portrait",
+      "palette": "winter-frost",
+      "path": "cover_assets\\background_photos\\winter_barn_v2.png",
+      "perceptual_hash": "353f1f333c33331f",
+      "production_approved": true,
+      "project_generated": true,
+      "provenance": {
+        "audited_at": "2026-08-27T00:56:11+00:00",
+        "basis": "Existing Slade Puzzles AI background library manifest",
+        "provider": "ChatGPT project generation"
+      },
+      "sha256": "9f5fbfffbda7b82e5599d7474809f5348b6e289819a1a902fecb5f47f92c685e",
+      "source_type": "generated_art",
+      "topics": [
+        "christmas",
+        "winter",
+        "holiday",
+        "snow"
+      ],
+      "updated_at": "2026-09-06T03:04:01+00:00",
+      "usage": [],
+      "visual_family_id": "vf_353f1f333c33331f"
+    },
+    {
+      "asset_id": "bg_6a23c38eec1b1f6f",
+      "classification": "APPROVED_CHATGPT_GENERATED",
+      "created_at": "2026-08-27T00:56:11+00:00",
+      "focus": "center",
+      "health": {
+        "height": 1536,
+        "variance": 875.09,
+        "width": 1024
+      },
+      "lifecycle_state": "active",
+      "name": "Winter and Christmas",
+      "orientation": "portrait",
+      "palette": "winter-frost",
+      "path": "cover_assets\\background_photos\\winter_fireplace_v3.png",
+      "perceptual_hash": "0f0f0f3b39bdadaf",
+      "production_approved": true,
+      "project_generated": true,
+      "provenance": {
+        "audited_at": "2026-08-27T00:56:11+00:00",
+        "basis": "Existing Slade Puzzles AI background library manifest",
+        "provider": "ChatGPT project generation"
+      },
+      "sha256": "f198755b215d75788b673cac17832ecd81d578551f1fb1a70002ab039772185f",
+      "source_type": "generated_art",
+      "topics": [
+        "christmas",
+        "winter",
+        "holiday",
+        "snow"
+      ],
+      "updated_at": "2026-09-06T03:04:01+00:00",
+      "usage": [],
+      "visual_family_id": "vf_0f0f0f3b39bdadaf"
+    },
+    {
+      "asset_id": "bg_6e54c5e4b33d76bf",
+      "classification": "APPROVED_CHATGPT_GENERATED",
+      "created_at": "2026-08-27T00:56:11+00:00",
+      "focus": "center",
+      "health": {
+        "height": 1536,
+        "variance": 1613.68,
+        "width": 1024
+      },
+      "lifecycle_state": "active",
+      "name": "Winter and Christmas",
+      "orientation": "portrait",
+      "palette": "winter-frost",
+      "path": "cover_assets\\background_photos\\winter_holidays.png",
+      "perceptual_hash": "0f0f0b0f3773495f",
+      "production_approved": true,
+      "project_generated": true,
+      "provenance": {
+        "audited_at": "2026-08-27T00:56:11+00:00",
+        "basis": "Existing Slade Puzzles AI background library manifest",
+        "provider": "ChatGPT project generation"
+      },
+      "sha256": "dadfe40c6b009eeec3a183b38a0115ebfd1929e12cdbbb2296460e43d5bb029f",
+      "source_type": "generated_art",
+      "topics": [
+        "christmas",
+        "winter",
+        "holiday",
+        "snow"
+      ],
+      "updated_at": "2026-09-06T03:04:01+00:00",
+      "usage": [
+        {
+          "at": "2026-08-27T15:42:07+00:00",
+          "package": "C:\\Users\\jorda\\Desktop\\Word Search Creator\\kdp-puzzle-engine\\out\\holiday_puzzle_party_20260827_084107",
+          "theme": "Holidays & Seasons",
+          "title": "Holiday Puzzle Party"
+        }
+      ],
+      "visual_family_id": "vf_0f0f0b0f3773495f"
+    },
+    {
+      "asset_id": "bg_9604ef10a22cdc70",
+      "classification": "APPROVED_CHATGPT_GENERATED",
+      "created_at": "2026-08-27T00:56:07+00:00",
+      "focus": "center",
+      "health": {
+        "height": 1426,
+        "variance": 3745.9,
+        "width": 1103
+      },
+      "lifecycle_state": "retired",
+      "missing_from_disk": true,
+      "name": "Sudoku Numbers",
+      "orientation": "portrait",
+      "palette": "starlight-indigo",
+      "path": "cover_assets\\background_photos\\puzzle_sudoku_calm_v2.png",
+      "perceptual_hash": "020000038f06271f",
+      "production_approved": false,
+      "project_generated": true,
+      "provenance": {
+        "audited_at": "2026-08-27T00:56:07+00:00",
+        "basis": "Existing Slade Puzzles AI background library manifest",
+        "provider": "ChatGPT project generation"
+      },
+      "retired_from_new_production": true,
+      "sha256": "be86dbe9f5f5700f1b7b9b895936d9261d86e2bce6ee2cf6b28a40bbe77f66d3",
+      "source_type": "generated_art",
+      "topics": [
+        "sudoku",
+        "number puzzle",
+        "logic puzzle"
+      ],
+      "updated_at": "2026-09-06T03:04:01+00:00",
+      "usage": [
+        {
+          "at": "2026-09-05T04:55:42+00:00",
+          "package": "C:\\Users\\jorda\\Desktop\\Word Search Creator\\kdp-puzzle-engine\\out\\large_print_sudoku_20260904_215342",
+          "theme": "General Starter",
+          "title": "Large Print Sudoku"
+        },
+        {
+          "at": "2026-09-05T05:08:12+00:00",
+          "package": "C:\\Users\\jorda\\Desktop\\Word Search Creator\\kdp-puzzle-engine\\out\\acceptance_mixed_brain_games_20260904_220619",
+          "theme": "General Starter",
+          "title": "Acceptance Mixed Brain Games"
+        }
+      ],
+      "visual_family_id": "vf_020000038f06271f"
+    },
+    {
+      "asset_id": "bg_452f7da8217871ae",
+      "classification": "APPROVED_CHATGPT_GENERATED",
+      "created_at": "2026-08-27T00:56:07+00:00",
+      "focus": "center",
+      "health": {
+        "height": 1426,
+        "variance": 4346.94,
+        "width": 1103
+      },
+      "lifecycle_state": "retired",
+      "missing_from_disk": true,
+      "name": "Sudoku Numbers",
+      "orientation": "portrait",
+      "palette": "starlight-indigo",
+      "path": "cover_assets\\background_photos\\puzzle_sudoku_geometric_v3.png",
+      "perceptual_hash": "ffefb14f0fb3cc74",
+      "production_approved": false,
+      "project_generated": true,
+      "provenance": {
+        "audited_at": "2026-08-27T00:56:07+00:00",
+        "basis": "Existing Slade Puzzles AI background library manifest",
+        "provider": "ChatGPT project generation"
+      },
+      "retired_from_new_production": true,
+      "sha256": "6466b24cf94d29917d8be082623d6fbd85a1470e3a71529d35ea54f5485902ad",
+      "source_type": "generated_art",
+      "topics": [
+        "sudoku",
+        "number puzzle",
+        "logic puzzle"
+      ],
+      "updated_at": "2026-09-06T03:04:01+00:00",
+      "usage": [
+        {
+          "at": "2026-08-28T23:28:20+00:00",
+          "package": "C:\\Users\\jorda\\Desktop\\Word Search Creator\\kdp-puzzle-engine\\tmp\\phase8_acceptance_20260828\\out\\phase_8_sudoku_acceptance_20260828_162809",
+          "theme": "General Starter",
+          "title": "Phase 8 Sudoku Acceptance"
+        }
+      ],
+      "visual_family_id": "vf_ffefb14f0fb3cc74"
+    },
+    {
+      "asset_id": "bg_fabc30744efc4fa5",
+      "classification": "APPROVED_CHATGPT_GENERATED",
+      "created_at": "2026-08-27T00:56:07+00:00",
+      "focus": "center",
+      "health": {
+        "height": 1426,
+        "variance": 2495.64,
+        "width": 1103
+      },
+      "lifecycle_state": "retired",
+      "missing_from_disk": true,
+      "name": "Sudoku Numbers",
+      "orientation": "portrait",
+      "palette": "starlight-indigo",
+      "path": "cover_assets\\background_photos\\puzzle_sudoku_numbers_v1.png",
+      "perceptual_hash": "7e7b7fb7773f3f05",
+      "production_approved": false,
+      "project_generated": true,
+      "provenance": {
+        "audited_at": "2026-08-27T00:56:07+00:00",
+        "basis": "Existing Slade Puzzles AI background library manifest",
+        "provider": "ChatGPT project generation"
+      },
+      "retired_from_new_production": true,
+      "sha256": "3965c7fc3aed38be4dfab914b04f5c7d4173ad8664af780d3c6aa1223c4e8b4a",
+      "source_type": "generated_art",
+      "topics": [
+        "sudoku",
+        "number puzzle",
+        "logic puzzle"
+      ],
+      "updated_at": "2026-09-06T03:04:01+00:00",
+      "usage": [
+        {
+          "at": "2026-08-27T15:06:30+00:00",
+          "package": "C:\\Users\\jorda\\AppData\\Local\\Temp\\puzzle_package_smoke_8y2u2v2g\\puzzle_books\\quiet_symbols_sudoku_20260827_080624",
+          "theme": "General Starter",
+          "title": "Quiet Symbols Sudoku"
+        },
+        {
+          "at": "2026-08-27T15:07:19+00:00",
+          "package": "C:\\Users\\jorda\\AppData\\Local\\Temp\\puzzle_package_smoke__ciavx9d\\puzzle_books\\quiet_symbols_sudoku_20260827_080712",
+          "theme": "General Starter",
+          "title": "Quiet Symbols Sudoku"
+        },
+        {
+          "at": "2026-08-27T15:08:00+00:00",
+          "package": "C:\\Users\\jorda\\AppData\\Local\\Temp\\puzzle_package_smoke_30ir3luw\\puzzle_books\\quiet_symbols_sudoku_20260827_080752",
+          "theme": "General Starter",
+          "title": "Quiet Symbols Sudoku"
+        },
+        {
+          "at": "2026-08-27T18:48:08+00:00",
+          "package": "C:\\Users\\jorda\\AppData\\Local\\Temp\\sladepuzzles-autopilot-smoke\\autopilot_sudoku_smoke_test_20260827_114801",
+          "theme": "General Starter",
+          "title": "Autopilot Sudoku Smoke Test"
+        },
+        {
+          "at": "2026-08-27T19:06:19+00:00",
+          "package": "C:\\Users\\jorda\\AppData\\Local\\Temp\\puzzle_package_smoke_ixfnqvts\\puzzle_books\\quiet_symbols_sudoku_20260827_120612",
+          "theme": "General Starter",
+          "title": "Quiet Symbols Sudoku"
+        }
+      ],
+      "visual_family_id": "vf_7e7b7fb7773f3f05"
+    }
+  ],
+  "audit_notes": [
+    {
+      "action": "legacy_manifest_audit",
+      "at": "2026-08-27T00:56:11+00:00",
+      "policy": "Unknown or invalid assets remain on disk but are excluded from automatic production selection.",
+      "summary": {
+        "approved": 77,
+        "invalid": 0,
+        "quarantined": 0,
+        "unchanged": 0
+      }
+    },
+    {
+      "action": "legacy_manifest_audit",
+      "at": "2026-08-28T03:43:11+00:00",
+      "policy": "Unknown or invalid assets remain on disk but are excluded from automatic production selection.",
+      "summary": {
+        "approved": 77,
+        "invalid": 0,
+        "quarantined": 0,
+        "unchanged": 0
+      }
+    },
+    {
+      "action": "safe_discovery_metadata_refresh",
+      "at": "2026-09-06T02:10:31+00:00",
+      "fields_changed": 308,
+      "policy": "Only image-derived discovery metadata changed; approvals, provenance, files, and usage were preserved."
+    },
+    {
+      "action": "legacy_manifest_audit",
+      "at": "2026-09-06T03:04:01+00:00",
+      "policy": "Unknown or invalid assets remain on disk but are excluded from automatic production selection.",
+      "summary": {
+        "approved": 77,
+        "invalid": 0,
+        "quarantined": 0,
+        "unchanged": 0
+      }
+    }
+  ],
+  "created_at": "2026-08-27T00:55:58+00:00",
+  "schema_version": 1,
+  "updated_at": "2026-09-06T03:04:01+00:00"
+}

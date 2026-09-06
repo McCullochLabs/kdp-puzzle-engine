@@ -17,7 +17,8 @@
       "Travel can include nearby day trips as well as faraway destinations.",
       "Maps, guidebooks, and local museums can add context to a journey.",
       "Keeping a travel journal is one way to remember places, sounds, and small discoveries."
-    ]
+    ],
+    "puzzle_target": 100
   },
   "puzzles": [
     {
@@ -1038,6 +1039,686 @@
         "KIDS",
         "DISC",
         "BONES"
+      ]
+    },
+    {
+      "name": "Great Journeys Word Search 61",
+      "words": [
+        "ACADIA",
+        "ACCELERATOR",
+        "ACCESSORY",
+        "ACCORDHYBRID",
+        "ACORN",
+        "ACURA",
+        "ADVENTURE",
+        "ADVENTURETRAIL",
+        "AIRCONDITIONER",
+        "AIRFRESHENER",
+        "AIRPORT",
+        "AIRPUMP"
+      ]
+    },
+    {
+      "name": "Great Journeys Word Search 62",
+      "words": [
+        "ALASKAPARKS",
+        "ALERO",
+        "ALIGNMENT",
+        "ALLIES",
+        "ALLROAD",
+        "ALLWHEEL",
+        "ALPINE",
+        "ALPINEFOREST",
+        "ALPINEGLOW",
+        "ALPINEHUT",
+        "ALPINELAKE",
+        "ALPINEPASS"
+      ]
+    },
+    {
+      "name": "Great Journeys Word Search 63",
+      "words": [
+        "ALPINEWILDFLOWER",
+        "ALTERNATORBELT",
+        "ALTIMA",
+        "AMERICA",
+        "AMERICANALLIGATOR",
+        "AMIGO",
+        "AMPERA",
+        "AMPHIBIAN",
+        "AMPLIFIER",
+        "ANACOSTIA",
+        "ANDROIDAUTO",
+        "ANTELOPECANYON"
+      ]
+    },
+    {
+      "name": "Great Journeys Word Search 64",
+      "words": [
+        "ANTIFREEZE",
+        "ANTLER",
+        "APPALACHIANTRAIL",
+        "ARCADIA",
+        "ARCH",
+        "ARCHES",
+        "ARCTICFOX",
+        "ARIETTA",
+        "ARMADA",
+        "ARMISTICE",
+        "ARMREST",
+        "ARROYO"
+      ]
+    },
+    {
+      "name": "Great Journeys Word Search 65",
+      "words": [
+        "ASCENT",
+        "ASPEN",
+        "ASPENLEAF",
+        "ASTROVAN",
+        "ATLAS",
+        "AUDI",
+        "AUTOBODY",
+        "AUTODEALER",
+        "AUTODESIGN",
+        "AUTOGLASS",
+        "AUTOMATIC",
+        "AUTOMOBILE"
+      ]
+    },
+    {
+      "name": "Great Journeys Word Search 66",
+      "words": [
+        "AUTOMOTIVE",
+        "AUTOSHOP",
+        "AUTOWORKER",
+        "AUTUMN",
+        "AUXILIARY",
+        "AVALANCHE",
+        "AVALON",
+        "AVENGER",
+        "AVIATOR",
+        "AWNING",
+        "AXLE",
+        "BACKCOUNTRY"
+      ]
+    },
+    {
+      "name": "Great Journeys Word Search 67",
+      "words": [
+        "BACKCOUNTRYROAD",
+        "BACKPACK",
+        "BACKPACKTRAIL",
+        "BACKROAD",
+        "BACKUPCAMERA",
+        "BACKWATER",
+        "BADLANDS",
+        "BADLANDSBUTTE",
+        "BAJA",
+        "BALSAMFIR",
+        "BARK",
+        "BARRIERBEACH"
+      ]
+    },
+    {
+      "name": "Great Journeys Word Search 68",
+      "words": [
+        "BASALT",
+        "BASIN",
+        "BASINLAKE",
+        "BASINRANGE",
+        "BASS",
+        "BATTALION",
+        "BATTERY",
+        "BAY",
+        "BEACH",
+        "BEACHTRIP",
+        "BEARBERRY",
+        "BEARGRASS"
+      ]
+    },
+    {
+      "name": "Great Journeys Word Search 69",
+      "words": [
+        "BEARING",
+        "BEARTRACK",
+        "BEAVERPOND",
+        "BED",
+        "BEDLINER",
+        "BEETLE",
+        "BELAIR",
+        "BENTAYGA",
+        "BERLINGO",
+        "BICYCLE",
+        "BIGBEND",
+        "BIGHORNSHEEP"
+      ]
+    },
+    {
+      "name": "Great Journeys Word Search 70",
+      "words": [
+        "BIGHORNTRAIL",
+        "BIGSUR",
+        "BIKERIDE",
+        "BINOCULARS",
+        "BIODIVERSITY",
+        "BIRCHBARK",
+        "BIRCHFOREST",
+        "BIRDCHECKLIST",
+        "BIRDLIFE",
+        "BISCAYNE",
+        "BISON",
+        "BISONRANGE"
+      ]
+    },
+    {
+      "name": "Great Journeys Word Search 71",
+      "words": [
+        "BLACKBEAR",
+        "BLACKCANYON",
+        "BLACKSPRUCE",
+        "BLACKWATER",
+        "BLAZER",
+        "BLESSING",
+        "BLUEHERON",
+        "BLUEJAY",
+        "BLUERIDGE",
+        "BLUERIDGEPARKWAY",
+        "BLUETOOTH",
+        "BLUFF"
+      ]
+    },
+    {
+      "name": "Great Journeys Word Search 72",
+      "words": [
+        "BLUFFVIEW",
+        "BOAT",
+        "BODYSHOP",
+        "BOLT",
+        "BOOSTERSEAT",
+        "BORA",
+        "BOULDER",
+        "BOULDERFIELD",
+        "BOULDERTRAIL",
+        "BOXTRUCK",
+        "BRAKE",
+        "BRAKECHECK"
+      ]
+    },
+    {
+      "name": "Great Journeys Word Search 73",
+      "words": [
+        "BRAKEFLUID",
+        "BRAKEHOSE",
+        "BRAKELIGHT",
+        "BRAKEPAD",
+        "BRAKEPEDAL",
+        "BRAKEROTOR",
+        "BREEZEWAY",
+        "BRIDGE",
+        "BRONCO",
+        "BROOK",
+        "BRUSHLAND",
+        "BRYCECANYON"
+      ]
+    },
+    {
+      "name": "Great Journeys Word Search 74",
+      "words": [
+        "BUMPERGUARD",
+        "BUNKHOUSE",
+        "BUTTE",
+        "CAB",
+        "CABRIOLET",
+        "CALIBER",
+        "CALIPER",
+        "CAMARO",
+        "CAMPER",
+        "CAMPERLIFE",
+        "CAMPERSHELL",
+        "CAMPFIRE"
+      ]
+    },
+    {
+      "name": "Great Journeys Word Search 75",
+      "words": [
+        "CAMPGROUND",
+        "CAMPING",
+        "CAMPINGVAN",
+        "CAMPKITCHEN",
+        "CAMPMEAL",
+        "CAMPOUT",
+        "CAMPSITE",
+        "CAMPSTORE",
+        "CAMPSTOVE",
+        "CAMPTRAIL",
+        "CAMRY",
+        "CAMSHAFT"
+      ]
+    },
+    {
+      "name": "Great Journeys Word Search 76",
+      "words": [
+        "CANOE",
+        "CANOPY",
+        "CANOPYTRAIL",
+        "CANYON",
+        "CANYONBIRD",
+        "CANYONCOUNTRY",
+        "CANYONFLOOR",
+        "CANYONHIKE",
+        "CANYONLAKE",
+        "CANYONLANDS",
+        "CANYONLOOP",
+        "CANYONPATH"
+      ]
+    },
+    {
+      "name": "Great Journeys Word Search 77",
+      "words": [
+        "CANYONRIDGE",
+        "CANYONRIM",
+        "CANYONSTREAM",
+        "CANYONVIEW",
+        "CANYONWALL",
+        "CANYONWREN",
+        "CAPITOLREEF",
+        "CAPRICE",
+        "CARALARM",
+        "CARAUCTION",
+        "CARAVAN",
+        "CARBATTERY"
+      ]
+    },
+    {
+      "name": "Great Journeys Word Search 78",
+      "words": [
+        "CARBOOK",
+        "CARCLEAN",
+        "CARCLUB",
+        "CARCOLLECTION",
+        "CARCOVER",
+        "CARCULTURE",
+        "CARDETAILING",
+        "CARENTHUSIAST",
+        "CARGAME",
+        "CARGARAGE",
+        "CARGOVAN",
+        "CARIBOU"
+      ]
+    },
+    {
+      "name": "Great Journeys Word Search 79",
+      "words": [
+        "CARJOURNAL",
+        "CARKEY",
+        "CARLIFESTYLE",
+        "CARLOVER",
+        "CARLSBADCAVERNS",
+        "CARMEET",
+        "CARMODEL",
+        "CARMUSEUM",
+        "CARNIVAL",
+        "CARPARADE",
+        "CARPARTS",
+        "CARPET"
+      ]
+    },
+    {
+      "name": "Great Journeys Word Search 80",
+      "words": [
+        "CARPETCLEANER",
+        "CARPLAY",
+        "CARPOLISH",
+        "CARPOOL",
+        "CARREPAIR",
+        "CARRIDE",
+        "CARSAFETY",
+        "CARSEATCOVER",
+        "CARSHOW",
+        "CARSOAP",
+        "CARSPOTTING",
+        "CARTOOLS"
+      ]
+    },
+    {
+      "name": "Great Journeys Word Search 81",
+      "words": [
+        "CARTOONCAR",
+        "CARTRAVEL",
+        "CARWASH",
+        "CARWASHSOAP",
+        "CARWHEEL",
+        "CARWINDOW",
+        "CATALYTICCONVERTER",
+        "CAVALIER",
+        "CAVE",
+        "CAVEENTRANCE",
+        "CAVEFISH",
+        "CAVEPASS"
+      ]
+    },
+    {
+      "name": "Great Journeys Word Search 82",
+      "words": [
+        "CAVEPOOL",
+        "CAVERN",
+        "CAVETOUR",
+        "CAVEWALL",
+        "CAVEWATER",
+        "CEDARCONE",
+        "CEDARFOREST",
+        "CEDARTRAIL",
+        "CELICA",
+        "CEMENTMIXER",
+        "CENTURY",
+        "CHALLENGER"
+      ]
+    },
+    {
+      "name": "Great Journeys Word Search 83",
+      "words": [
+        "CHANNELISLANDS",
+        "CHAPARRAL",
+        "CHARGER",
+        "CHARGING",
+        "CHARGINGCABLE",
+        "CHARGINGPORT",
+        "CHARGINGSTATION",
+        "CHECKUP",
+        "CHEROKEE",
+        "CHEVELLE",
+        "CHILDSEAT",
+        "CIRRUS"
+      ]
+    },
+    {
+      "name": "Great Journeys Word Search 84",
+      "words": [
+        "CITY",
+        "CITYBUS",
+        "CITYCAR",
+        "CITYDRIVE",
+        "CIVIC",
+        "CLASSICCAR",
+        "CLASSICTRUCK",
+        "CLEAN",
+        "CLEANING",
+        "CLIFF",
+        "CLIFFDWELLING",
+        "CLIFFEDGE"
+      ]
+    },
+    {
+      "name": "Great Journeys Word Search 85",
+      "words": [
+        "CLIFFROSE",
+        "CLIFFSIDE",
+        "CLIFFTOP",
+        "CLIFFTRAIL",
+        "CLIMBING",
+        "CLOUDFOREST",
+        "CLUBMAN",
+        "COASTALTIDE",
+        "COASTLINE",
+        "COASTREDWOOD",
+        "COASTTRAIL",
+        "COBRA"
+      ]
+    },
+    {
+      "name": "Great Journeys Word Search 86",
+      "words": [
+        "CODEBREAKER",
+        "COILOVER",
+        "COLDAIRINTAKE",
+        "COLORADOPLATEAU",
+        "COMET",
+        "COMMANDER",
+        "COMPACTCAR",
+        "COMPASS",
+        "COMPASSION",
+        "CONCORDE",
+        "CONGAREE",
+        "CONIFER"
+      ]
+    },
+    {
+      "name": "Great Journeys Word Search 87",
+      "words": [
+        "CONIFERCONE",
+        "CONIFERFOREST",
+        "CONSOLE",
+        "CONSOLECOVER",
+        "CONTINENTAL",
+        "CONTROLARM",
+        "CONVERTIBLE",
+        "CONVOY",
+        "COOLANT",
+        "COOLER",
+        "COROLLA",
+        "CORVETTE"
+      ]
+    },
+    {
+      "name": "Great Journeys Word Search 88",
+      "words": [
+        "COUNTRY",
+        "COUNTRYDRIVE",
+        "COUNTRYMAN",
+        "COVE",
+        "CRANE",
+        "CRANKSHAFT",
+        "CRATER",
+        "CRATERLAKE",
+        "CREEK",
+        "CREEKBED",
+        "CREEKCROSSING",
+        "CREEKSIDE"
+      ]
+    },
+    {
+      "name": "Great Journeys Word Search 89",
+      "words": [
+        "CREEKTRAIL",
+        "CROSSTREK",
+        "CROSSWALK",
+        "CRUISECONTROL",
+        "CRUISER",
+        "CRUISING",
+        "CRV",
+        "CUPHOLDER",
+        "CURBWEIGHT",
+        "CUTLASS",
+        "CUYAHOGAVALLEY",
+        "CXFIVE"
+      ]
+    },
+    {
+      "name": "Great Journeys Word Search 90",
+      "words": [
+        "CXNINETY",
+        "CYLINDER",
+        "DAKOTA",
+        "DASHBOARD",
+        "DASHBOARDCAM",
+        "DASHBOARDLIGHT",
+        "DASHCAM",
+        "DASHMAT",
+        "DAYHIKE",
+        "DAYPACK",
+        "DAYPACKTRAIL",
+        "DAYTRIP"
+      ]
+    },
+    {
+      "name": "Great Journeys Word Search 91",
+      "words": [
+        "DDAY",
+        "DEALERSHIP",
+        "DEATHVALLEY",
+        "DEATHVALLEYDUNES",
+        "DECIDUOUS",
+        "DEERTRACK",
+        "DELICA",
+        "DELIVERYVAN",
+        "DENALI",
+        "DESERT",
+        "DESERTBIGHORN",
+        "DESERTBLOOM"
+      ]
+    },
+    {
+      "name": "Great Journeys Word Search 92",
+      "words": [
+        "DESERTCACTUS",
+        "DESERTFLOOR",
+        "DESERTFOX",
+        "DESERTMESA",
+        "DESERTROAD",
+        "DESERTROCK",
+        "DESERTSCAPE",
+        "DESERTTORTOISE",
+        "DESERTTRAIL",
+        "DESERTVIEW",
+        "DESTINATION",
+        "DEVILLE"
+      ]
+    },
+    {
+      "name": "Great Journeys Word Search 93",
+      "words": [
+        "DEVOTION",
+        "DEW",
+        "DIFFERENTIAL",
+        "DIPSTICK",
+        "DIRTBIKE",
+        "DOCK",
+        "DOMELIGHT",
+        "DOORHANDLE",
+        "DOORLOCK",
+        "DOORPANEL",
+        "DOWNPIPE",
+        "DRAGONFLY"
+      ]
+    },
+    {
+      "name": "Great Journeys Word Search 94",
+      "words": [
+        "DREAMCAR",
+        "DRIFTWOOD",
+        "DRIVER",
+        "DRIVESHAFT",
+        "DRIVETHROUGH",
+        "DRIVEWAY",
+        "DRIVING",
+        "DRIVINGGAME",
+        "DRIVINGSAFE",
+        "DRIVINGTEST",
+        "DRYTORTUGAS",
+        "DUMPTRUCK"
+      ]
+    },
+    {
+      "name": "Great Journeys Word Search 95",
+      "words": [
+        "DUNE",
+        "DUNECREST",
+        "DUNEGRASS",
+        "DUNEHIKE",
+        "DUNEVIEW",
+        "DURANGO",
+        "DUSTER",
+        "EAGLEFLIGHT",
+        "ECOLOGY",
+        "ECOSPORT",
+        "ECOSYSTEM",
+        "EIGHTEENWHEELER"
+      ]
+    },
+    {
+      "name": "Great Journeys Word Search 96",
+      "words": [
+        "ELANTRA",
+        "ELCAMINO",
+        "ELECTRIC",
+        "ELECTRICCAR",
+        "ELEMENT",
+        "ELEVATION",
+        "ELK",
+        "ELKTRAIL",
+        "EMERGENCY",
+        "ENCLAVE",
+        "ENCORE",
+        "ENGINEBAY"
+      ]
+    },
+    {
+      "name": "Great Journeys Word Search 97",
+      "words": [
+        "ENGINEOIL",
+        "EQUALIZER",
+        "ESCALADE",
+        "ESCAPE",
+        "ESTUARY",
+        "ETHANOL",
+        "EVACUEE",
+        "EVERGLADES",
+        "EVERGREEN",
+        "EVERGREENFOREST",
+        "EVERGREENS",
+        "EXCAVATOR"
+      ]
+    },
+    {
+      "name": "Great Journeys Word Search 98",
+      "words": [
+        "EXHAUST",
+        "EXPEDITION",
+        "EXPLORER",
+        "FAIRLANE",
+        "FAIRMONT",
+        "FAITHFULNESS",
+        "FALCON",
+        "FALCONFLIGHT",
+        "FALLSVIEW",
+        "FAMILYCAR",
+        "FAMILYROADTRIP",
+        "FAMILYTRIP"
+      ]
+    },
+    {
+      "name": "Great Journeys Word Search 99",
+      "words": [
+        "FAMILYVAN",
+        "FARMTRACTOR",
+        "FELLOWSHIP",
+        "FERN",
+        "FERNLEAF",
+        "FIELD",
+        "FIELDGUIDE",
+        "FIESTA",
+        "FIFTHWHEEL",
+        "FIREBIRD",
+        "FIRELOOKOUT",
+        "FIREPIT"
+      ]
+    },
+    {
+      "name": "Great Journeys Word Search 100",
+      "words": [
+        "FIRETOWER",
+        "FIRETRUCK",
+        "FIREWEED",
+        "FISH",
+        "FISHING",
+        "FISHINGPOLE",
+        "FIT",
+        "FLATBED",
+        "FLEETWOOD",
+        "FLOORMAT",
+        "FLOWER",
+        "FOCUS"
       ]
     }
   ],

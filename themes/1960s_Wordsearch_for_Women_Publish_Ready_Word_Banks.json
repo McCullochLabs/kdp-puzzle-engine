@@ -18,7 +18,7 @@
         "FLOPPYDISK",
         "SKATESHOP",
         "BACKPACKING",
-        "WATER"
+        "ACADIA"
       ]
     },
     {
@@ -30,7 +30,7 @@
         "BASKETBAL",
         "SONAR",
         "TOWN",
-        "LETTER",
+        "ACCELERATOR",
         "FOURWHEELER",
         "MIRROR",
         "CLIMB",
@@ -50,7 +50,7 @@
         "ROOT",
         "QUIZZES",
         "NOT",
-        "HANDHELD",
+        "ACCESSORY",
         "ANIMATE",
         "INSTRUCTOR"
       ]
@@ -62,8 +62,8 @@
         "ASIF",
         "EXPLORE",
         "SUFFRAGE",
-        "ROBOT",
-        "BANJO",
+        "ACCORD",
+        "ACCORDHYBRID",
         "BOBCAT",
         "GENERALSTORE",
         "BLUEBIRDS",
@@ -79,7 +79,7 @@
         "BRIDALVEIL",
         "ROCKS",
         "PORT",
-        "RERUN",
+        "ACORN",
         "RENEGADE",
         "HYBRIDCAR",
         "LONGDRIVE",
@@ -109,7 +109,7 @@
     {
       "name": "Television",
       "words": [
-        "READING",
+        "ACURA",
         "BEAUTY",
         "RIVIAN",
         "FORD",
@@ -134,7 +134,7 @@
         "COUNTYLINE",
         "CAMSHAFT",
         "BUTTONS",
-        "PRINCE",
+        "ADVENTURE",
         "VIBRATE",
         "ORLANDO",
         "SANDS"
@@ -151,8 +151,8 @@
         "PRONGHORN",
         "SPECIES",
         "MALL",
-        "CURATOR",
-        "WIZARD",
+        "ADVENTURETRAIL",
+        "AEROSTAR",
         "LEATHER",
         "MILL"
       ]
@@ -231,7 +231,7 @@
         "BRAZOS",
         "BALLOON",
         "EXCAVATE",
-        "BATTLE",
+        "AIRCONDITIONER",
         "SALAD",
         "FREDERICKSBURG",
         "WETSUIT",
@@ -255,7 +255,7 @@
         "REBELS",
         "FORKLIFT",
         "HALLPASS",
-        "BILLBOARD",
+        "AIRFILTER",
         "DIP"
       ]
     },
@@ -273,7 +273,7 @@
         "BOOM",
         "FUR",
         "MULLET",
-        "CELEBRITY"
+        "AIRPORT"
       ]
     },
     {
@@ -283,14 +283,14 @@
         "ROGUE",
         "SURFBOARD",
         "TREEHOUSE",
-        "TREASURE",
+        "AIRPUMP",
         "SANFRANCISCO",
         "RENDER",
         "RICE",
         "PRESSURE",
         "CONSTRUCT",
         "EXOTIC",
-        "WESTERN"
+        "ALASKAPARKS"
       ]
     },
     {
@@ -304,7 +304,7 @@
         "WILD",
         "EGGBASKET",
         "BEATNIK",
-        "SLEEPOVER",
+        "ALERO",
         "COMPUTER",
         "TRAVEL",
         "LUCID"
@@ -331,14 +331,14 @@
       "name": "Cars & Roads: Essentials",
       "words": [
         "EXCELLENT",
-        "MOVEMENT",
-        "CAESAR",
+        "ALIGNMENT",
+        "ALLIES",
         "MUSCLECOUPE",
         "CAMPINGGEAR",
         "RASHGUARD",
         "HAMMOCK",
         "EXCURSION",
-        "EARBUDS",
+        "ALLWHEEL",
         "WINDMILL",
         "ARTIFACT",
         "SUNSCREEN"
@@ -388,7 +388,7 @@
         "ATHLETE",
         "SETUP",
         "REINS",
-        "PUZZLE",
+        "ALPINE",
         "VALLEYQUAIL",
         "SUNRISEPOINT",
         "JUICEBOX",
@@ -456,7 +456,7 @@
         "WOOD",
         "GOINGTOSUN",
         "SKILL",
-        "VAMPIRE",
+        "ALPINEFOREST",
         "VIEWER",
         "YUKON",
         "AUTOS",
@@ -467,10 +467,10 @@
       "name": "Tech & Gadgets: Memory Lane",
       "words": [
         "RIDGELINE",
-        "MIXTAPE",
+        "ALPINEGLOW",
         "EUROPE",
         "NIGHTDRIVE",
-        "KELP",
+        "ALPINEHUT",
         "CATS",
         "COLORADO",
         "PRINTER",
@@ -519,12 +519,12 @@
       "words": [
         "SUSQUEHANNAVALLEY",
         "IBIS",
-        "MOVIENIGHT",
+        "ALPINELAKE",
         "SUNHATS",
         "ROFL",
         "TORINO",
         "CLASSICS",
-        "COOKBOOK",
+        "ALPINEPASS",
         "COHORT",
         "DENIM",
         "EMERGENCY",
@@ -558,7 +558,7 @@
         "BALCONY",
         "SHOPPINGMALL",
         "MOUNTAINROAD",
-        "BARBECUE",
+        "ALPINEWILDFLOWER",
         "DRINK",
         "RARE",
         "CLASS",
@@ -587,7 +587,7 @@
       "words": [
         "REELS",
         "HAWKS",
-        "SANCTUARY",
+        "ALTERNATOR",
         "MILKING",
         "APOLLO",
         "OXYGEN",
@@ -647,7 +647,7 @@
         "JAVELINA",
         "GATE",
         "SPACEFLIGHT",
-        "SLEEP"
+        "ALTERNATORBELT"
       ]
     },
     {
@@ -709,7 +709,7 @@
         "FARMERSMARKET",
         "KEYWEST",
         "TRUCKERHAT",
-        "FAITH",
+        "ALTIMA",
         "FAIR",
         "DEPARTMENTSTORE",
         "SUNSHINE",
@@ -745,8 +745,8 @@
         "SLUICE",
         "ELEGANT",
         "CHOLLA",
-        "TEAMWORK",
-        "OPENMIC",
+        "AMBULANCE",
+        "AMERICA",
         "HIMALAYA",
         "DUGONG",
         "POUCH"
@@ -766,7 +766,7 @@
         "PENNSYLVANIAWILDS",
         "TREKKER",
         "DENSE",
-        "HEAVENLY"
+        "AMERICANALLIGATOR"
       ]
     },
     {
@@ -774,7 +774,7 @@
       "words": [
         "GIANTSEQUOIA",
         "SCENERY",
-        "ROMANCE",
+        "AMIGO",
         "ATHENS",
         "SKYLAB",
         "COLDAIRINTAKE",
@@ -799,7 +799,7 @@
         "AIRFRESHENER",
         "DARKSKY",
         "YARD",
-        "TOURNAMENT",
+        "AMPERA",
         "MOHAWKVALLEY"
       ]
     },
@@ -893,5 +893,12 @@
       "Travel and Geography"
     ],
     "checked_at": "2026-08-22T10:08:37"
+  },
+  "quality_review": {
+    "checked_at": "20260824-213612",
+    "source": "verified_word_intelligence_repair",
+    "verdict": "PASS_WITH_NOTES",
+    "production_ready": false,
+    "changes": 34
   }
 }

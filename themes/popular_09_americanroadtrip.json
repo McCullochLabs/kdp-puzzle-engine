@@ -13,7 +13,7 @@
         "TROPICS",
         "LOTION",
         "SANDDUNE",
-        "COMMUNITY",
+        "ACADIA",
         "RADISH",
         "SQUIRRELS",
         "JETTY",
@@ -37,8 +37,8 @@
         "SWIVEL",
         "RECORDSHOP",
         "CASUAL",
-        "FANTASY",
-        "SNOWS"
+        "ACCELERATOR",
+        "ACCESSORY"
       ]
     },
     {
@@ -50,7 +50,7 @@
         "TROUT",
         "DISCOVER",
         "BAT",
-        "SUPPORT",
+        "ACCORD",
         "RIMTRAIL",
         "LIONFISH",
         "UNIVERSE",
@@ -67,7 +67,7 @@
         "CARGO",
         "MACHINE",
         "MARIGOLD",
-        "FARMLAND",
+        "ACCORDHYBRID",
         "CANNA",
         "PICNIC",
         "ARTIFACT",
@@ -102,7 +102,7 @@
         "ISLAM",
         "SWEETTEA",
         "SEASTAR",
-        "TVGUIDE",
+        "ACURA",
         "SEASHELL",
         "TIGERS",
         "PLACER",
@@ -129,13 +129,13 @@
     {
       "name": "American Road Trip Puzzle 008",
       "words": [
-        "MOVIE",
+        "ADVENTURE",
         "WARLORD",
         "TIGHTS",
         "SARATOGA",
         "FRUIT",
         "SALTFLAT",
-        "SCREEN",
+        "ADVENTURETRAIL",
         "AGAVE",
         "LODGE",
         "OXYGEN",
@@ -188,7 +188,7 @@
         "STALLED",
         "KEYWEST",
         "SOFT",
-        "ALBUMS",
+        "AEROSTAR",
         "SATIRE",
         "APES",
         "EXPLORING"
@@ -197,7 +197,7 @@
     {
       "name": "American Road Trip Puzzle 012",
       "words": [
-        "LOOT",
+        "AGROFORESTRY",
         "GARDEN",
         "STEEP",
         "SOUND",
@@ -284,14 +284,14 @@
       "words": [
         "DEBRIS",
         "STARFISH",
-        "HEADPHONES",
+        "AIRCONDITIONER",
         "FAJITA",
         "RUDDER",
         "PROTECTED",
         "BUTTERCUP",
         "CROCODILES",
         "HABITUATE",
-        "SCREAM",
+        "AIRFILTER",
         "TRAVELGUIDE",
         "CLEVER"
       ]
@@ -323,7 +323,7 @@
         "MODELING",
         "HAVEN",
         "PANORAMA",
-        "FICTION",
+        "AIRFRESHENER",
         "WANDER",
         "CALENDULA",
         "HOLLYHOCK",
@@ -361,13 +361,13 @@
         "STADIUM",
         "MUSHROOM",
         "HARNESS",
-        "SOUNDTRACK"
+        "AIRPORT"
       ]
     },
     {
       "name": "American Road Trip Puzzle 022",
       "words": [
-        "FANART",
+        "AIRPUMP",
         "SPAS",
         "CHILDREN",
         "TUSK",
@@ -377,7 +377,7 @@
         "TIMEKEEP",
         "MAMMAL",
         "BURIAL",
-        "STAGE",
+        "ALASKAPARKS",
         "BUMBLEBEE"
       ]
     },
@@ -526,7 +526,7 @@
         "BOARDS",
         "STEAM",
         "PEARL",
-        "PAPERBACK",
+        "ALERO",
         "SHALLOT",
         "NUTS",
         "UTICA",
@@ -554,7 +554,7 @@
     {
       "name": "American Road Trip Puzzle 033",
       "words": [
-        "POPCORN",
+        "ALIGNMENT",
         "SLIDE",
         "WOODPANELING",
         "WRACK",
@@ -591,13 +591,13 @@
         "CONTROLS",
         "SUNLIGHT",
         "CERAMIC",
-        "LETTER",
+        "ALLIES",
         "HARD",
         "CROSSROAD",
         "GERMINATE",
         "MECHANISM",
         "SNACKBAR",
-        "PRINCE",
+        "ALLROAD",
         "VIGILANT",
         "CRUISE"
       ]
@@ -623,7 +623,7 @@
       "name": "American Road Trip Puzzle 037",
       "words": [
         "POD",
-        "WATER",
+        "ALLWHEEL",
         "RAKE",
         "RELAXING",
         "BISBEE",
@@ -656,7 +656,7 @@
     {
       "name": "American Road Trip Puzzle 039",
       "words": [
-        "PAGE",
+        "ALPINE",
         "MASTER",
         "TWINE",
         "CHAR",
@@ -707,14 +707,14 @@
     {
       "name": "American Road Trip Puzzle 042",
       "words": [
-        "MONSTER",
+        "ALPINEFOREST",
         "PISTIL",
         "MICROBE",
         "COOKOUT",
         "PITTSBURGH",
         "STEAMER",
         "RANCHER",
-        "GEARS",
+        "ALPINEGLOW",
         "HONOR",
         "DEEP",
         "WELCOME",
@@ -726,7 +726,7 @@
       "words": [
         "BOARDSHORTS",
         "SANDWICH",
-        "WRITING",
+        "ALPINEHUT",
         "INVASION",
         "THANKFUL",
         "FOSSIL",
@@ -747,8 +747,8 @@
         "EGGPLANT",
         "HANDLE",
         "NEIGHBORHOOD",
-        "MANUSCRIPT",
-        "DOLPHIN",
+        "ALPINELAKE",
+        "ALPINEPASS",
         "PROPELLER",
         "SNOWDROP",
         "ROLLERDISCO",
@@ -761,15 +761,15 @@
         "LIZARDS",
         "RYEBREAD",
         "LIBERTY",
-        "SWORD",
+        "ALPINEWILDFLOWER",
         "CHICKADEE",
         "SOLAR",
         "SANDIEGO",
         "VENDOR",
         "MOSS",
         "PROGRAM",
-        "SIMULATION",
-        "NOVEL"
+        "ALTERNATOR",
+        "ALTERNATORBELT"
       ]
     },
     {
@@ -816,7 +816,7 @@
         "SWING",
         "PUTTER",
         "GELATIN",
-        "GUITAR",
+        "ALTIMA",
         "KING",
         "FROND",
         "SKIN",
@@ -861,5 +861,12 @@
       "National Parks"
     ],
     "checked_at": "2026-08-22T10:08:39"
+  },
+  "quality_review": {
+    "checked_at": "20260824-213855",
+    "source": "verified_word_intelligence_repair",
+    "verdict": "PASS_WITH_NOTES",
+    "production_ready": false,
+    "changes": 31
   }
 }

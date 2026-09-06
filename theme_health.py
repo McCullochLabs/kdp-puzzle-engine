@@ -12,6 +12,11 @@ from datetime import datetime
 from pathlib import Path
 
 
+# Bump this when the shared production gate becomes stricter. A green result
+# from an older rule set must never keep a theme marked publish-ready.
+CURRENT_GATE_VERSION = 2
+
+
 def _fingerprint(path: Path) -> str:
     return hashlib.sha256(path.read_bytes()).hexdigest()
 
@@ -35,7 +40,9 @@ def read_theme_health(cache_path: Path, theme_path: Path) -> dict | None:
     """Return a result only when it belongs to the current file contents."""
     try:
         record = _load(cache_path).get(str(theme_path.resolve()))
-        if not isinstance(record, dict) or record.get("fingerprint") != _fingerprint(theme_path):
+        if (not isinstance(record, dict) or
+                record.get("fingerprint") != _fingerprint(theme_path) or
+                record.get("gate_version") != CURRENT_GATE_VERSION):
             return None
         return record
     except OSError:
@@ -47,10 +54,12 @@ def record_theme_health(cache_path: Path, theme_path: Path, errors: list[str], w
     payload = _load(cache_path)
     record = {
         "fingerprint": _fingerprint(theme_path),
-        "status": "Passed" if not errors else "Blocked",
+        "status": ("Passed" if not errors and not warnings
+                   else "Passed with notes" if not errors else "Blocked"),
         "errors": list(errors),
         "warnings": list(warnings),
         "checked_at": datetime.now().isoformat(timespec="seconds"),
+        "gate_version": CURRENT_GATE_VERSION,
     }
     payload[str(theme_path.resolve())] = record
     _save(cache_path, payload)

@@ -1,0 +1,65 @@
+{
+  "version": "1",
+  "book_id": "3d072da61334",
+  "runs": [
+    {
+      "run_id": "d1cd27a1caf6121b",
+      "started": "2026-08-27T16:02:23",
+      "facts_fingerprint": "69c6a7bcdfe6614763a80933b4b4f6ab93d16270d79508cc80ae1ad598649bf9",
+      "result": "running"
+    }
+  ],
+  "stages": {
+    "validate": {
+      "status": "complete",
+      "fingerprint": "22c287cb5c7ebc250887811f1614cfccb465de289adceb40ebed1c2820e54fe6",
+      "completed": "2026-08-27T16:02:23",
+      "detail": "Contributor, content capacity, and automatic-plan checks passed before generation.",
+      "artifact": ""
+    },
+    "generate": {
+      "status": "complete",
+      "fingerprint": "ed12839e7762c3f259374ac4bb61550ce6bb138e9e1c85719791abac7dd5070b",
+      "completed": "2026-08-27T16:02:25",
+      "detail": "Interior and answer pages were generated from the selected puzzle type and seed.",
+      "artifact": "C:\\Users\\jorda\\Desktop\\Word Search Creator\\kdp-puzzle-engine\\out\\garden_path_symbols_sudoku_20260827_160223\\01_PRINT_UPLOADS\\interior.pdf"
+    },
+    "cover": {
+      "status": "complete",
+      "fingerprint": "a7232cc100901613539f39e6c1c40ab6e28e7141b0a41710f62f014b029323ee",
+      "completed": "2026-08-27T16:02:26",
+      "detail": "Front cover was rendered from verified facts and approved matching art.",
+      "artifact": "C:\\Users\\jorda\\Desktop\\Word Search Creator\\kdp-puzzle-engine\\out\\garden_path_symbols_sudoku_20260827_160223\\03_PREVIEWS\\front_cover.png"
+    },
+    "preflight": {
+      "status": "complete",
+      "fingerprint": "90ac3b1398319d4f23735954d88781a7bada34025074d16ea8c59b6b7356afbb",
+      "completed": "2026-08-27T16:02:29",
+      "detail": "Wrap and print preflight passed using the final interior page count.",
+      "artifact": "C:\\Users\\jorda\\Desktop\\Word Search Creator\\kdp-puzzle-engine\\out\\garden_path_symbols_sudoku_20260827_160223\\01_PRINT_UPLOADS\\kdp_full_wrap.pdf"
+    },
+    "listing": {
+      "status": "complete",
+      "fingerprint": "e1bb2b448887f52efab2a079e18a6d69ca75adc83765d0305d2943a9b5aa6c9a",
+      "completed": "2026-08-27T16:02:29",
+      "detail": "Listing kit was generated from verified book facts.",
+      "artifact": ""
+    },
+    "package": {
+      "status": "complete",
+      "fingerprint": "25ce36be83ce4b9e96704950504d21d781f77517de9dbe01c15f909ecb62ecd0",
+      "completed": "2026-08-27T16:02:34",
+      "detail": "Final package inspection passed and master release files were created.",
+      "artifact": "C:\\Users\\jorda\\Desktop\\Word Search Creator\\kdp-puzzle-engine\\out\\garden_path_symbols_sudoku_20260827_160223"
+    },
+    "register": {
+      "status": "complete",
+      "fingerprint": "71673b2514bedeb6bc1e8d4165c85f2cf96c2009a835b6a98a5d6f8f352e4e79",
+      "completed": "2026-08-27T16:02:34",
+      "detail": "Finished package was registered in Publishing Center.",
+      "artifact": ""
+    }
+  },
+  "facts_fingerprint": "69c6a7bcdfe6614763a80933b4b4f6ab93d16270d79508cc80ae1ad598649bf9",
+  "last_started": "2026-08-27T16:02:23"
+}

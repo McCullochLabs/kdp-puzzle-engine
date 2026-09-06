@@ -30,5 +30,45 @@
     "imprint": "Jordan M. Slade",
     "art": "C:\\Users\\jorda\\Desktop\\Word Search Creator\\kdp-puzzle-engine\\cover_assets\\background_photos\\ocean_life.png",
     "art_focus": "center"
+  },
+  "themes\\Adult Collection\\cocktail_hour_word_search.json": {
+    "palette": "midnight-gold",
+    "style": "ticket",
+    "badge": "ADULTS ONLY \u2022 48 PUZZLES",
+    "imprint": "Jordan M. Slade",
+    "art": "",
+    "art_focus": "center"
+  },
+  "themes\\Launch Collection\\Verified Release Candidates\\advanced_vocabulary_challenge.json": {
+    "palette": "library-burgundy",
+    "style": "photo",
+    "badge": "48 LARGE-PRINT PUZZLES",
+    "imprint": "Jordan M. Slade",
+    "art": "C:\\Users\\jorda\\Desktop\\Word Search Creator\\kdp-puzzle-engine\\cover_assets\\background_photos\\school_high_learning_v1.png",
+    "art_focus": "center"
+  },
+  "themes\\Vocabulary Ladder Collection\\word_wise_middle_school_vocabulary.json": {
+    "palette": "starlight-indigo",
+    "style": "photo",
+    "badge": "NO REPEATED WORDS",
+    "imprint": "Jordan M. Slade",
+    "art": "C:\\Users\\jorda\\Desktop\\Word Search Creator\\kdp-puzzle-engine\\cover_assets\\background_photos\\school_middle_learning_v1.png",
+    "art_focus": "center"
+  },
+  "themes\\space_for_kids_&_teens_word_search_2.json": {
+    "palette": "starlight-indigo",
+    "style": "photo",
+    "badge": "NO REPEATED WORDS",
+    "imprint": "Jordan M. Slade",
+    "art": "C:\\Users\\jorda\\Desktop\\Word Search Creator\\kdp-puzzle-engine\\cover_assets\\background_photos\\space_rocket_v3.png",
+    "art_focus": "center"
+  },
+  "themes\\space_for_kids_&_teens_word_search.json": {
+    "palette": "forest-cabin",
+    "style": "photo",
+    "badge": "NO REPEATED WORDS",
+    "imprint": "Jordan M. Slade",
+    "art": "C:\\Users\\jorda\\Desktop\\Word Search Creator\\kdp-puzzle-engine\\cover_assets\\background_photos\\national_parks_outdoors.png",
+    "art_focus": "center"
   }
 }

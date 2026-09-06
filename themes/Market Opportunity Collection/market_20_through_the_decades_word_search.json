@@ -406,8 +406,8 @@
         "GAMEFACE",
         "KARAOKE",
         "STRANGERTHINGS",
-        "POKEMON",
-        "XBOX",
+        "ABBA",
+        "ACADIA",
         "ONLINEFRIEND",
         "WATCHDOGS",
         "HOLLYWOOD"
@@ -610,7 +610,7 @@
         "SCREENPLAY",
         "HEROINE",
         "MOVIE",
-        "MINECRAFT",
+        "ACCELERATOR",
         "JANETJACKSON",
         "ACOUSTIC",
         "GAMEPLAY",
@@ -648,7 +648,7 @@
         "RAVENCLAW",
         "QUEST",
         "GRANDTHEFTAUTO",
-        "STARWARS"
+        "ACCESSORY"
       ]
     },
     {
@@ -849,5 +849,12 @@
       "Ocean Life"
     ],
     "checked_at": "2026-08-22T10:08:38"
+  },
+  "quality_review": {
+    "checked_at": "20260824-213754",
+    "source": "verified_word_intelligence_repair",
+    "verdict": "PASS_WITH_NOTES",
+    "production_ready": false,
+    "changes": 4
   }
 }

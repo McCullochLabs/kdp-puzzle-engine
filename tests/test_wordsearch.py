@@ -22,6 +22,26 @@ def test_clean_words_drops_empty_results():
     assert ws.clean_words(["123", "-- ", "cat"]) == ["CAT"]
 
 
+def test_interior_section_plan_adds_consistent_chapters_without_reordering_puzzles():
+    puzzles = [{"name": f"Puzzle {number}", "words": ["CAT"], "mini_theme": "Planets" if number <= 5 else "Stars"}
+               for number in range(1, 8)]
+    plan = ws.interior_section_plan({"detected_topic": "Space", "interior_sections": {"group_size": 5, "divider_pages": True}}, puzzles)
+    assert len(plan) == len(puzzles)
+    assert [item["chapter"] for item in plan] == [1, 1, 1, 1, 1, 2, 2]
+    assert [item["starts_section"] for item in plan] == [True, False, False, False, False, True, False]
+    assert [item["title"] for item in plan[:5]] == ["Planets"] * 5
+    assert ws.interior_divider_page_count({"interior_sections": {"group_size": 5, "divider_pages": True}}, puzzles) == 2
+
+
+def test_direct_paste_kdp_description_contains_no_html_markup():
+    data = {"title": "Garden Discovery Word Search", "detected_topic": "Gardening", "no_repeat_words": True,
+            "puzzles": [{"words": ["ROSE"]} for _ in range(48)]}
+    text = app.kdp_enhanced_description(data)
+    assert "<p>" not in text and "<li>" not in text and "<b>" not in text
+    assert "Inside this collection:" in text
+    assert "- 48 themed word search puzzles" in text
+
+
 def test_quick_readiness_does_not_call_a_protected_word_bank_ready():
     data = {
         "title": "Test Book",
@@ -31,6 +51,20 @@ def test_quick_readiness_does_not_call_a_protected_word_bank_ready():
     ready, label = app.quick_theme_readiness(data)
     assert not ready
     assert "safe word" in label.lower()
+
+
+def test_quick_readiness_blocks_dictionary_style_alphabetical_books():
+    data = {
+        "title": "Dictionary Looking Book",
+        "puzzles": [
+            {"name": f"Puzzle {number}",
+             "words": [f"WORD{chr(65 + number // 26)}{chr(65 + number % 26)}{chr(65 + index)}" for index in range(12)]}
+            for number in range(48)
+        ],
+    }
+    ready, label = app.quick_theme_readiness(data)
+    assert not ready
+    assert "alphabetized" in label.lower()
 
 
 def test_pdf_engine_uses_ascii_for_visible_separators():

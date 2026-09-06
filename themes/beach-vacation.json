@@ -31,7 +31,7 @@
         "CENTRALPA",
         "BURRITO",
         "PATIO",
-        "MOVIENIGHT",
+        "ACORN",
         "AMERICA",
         "EVENING",
         "LEGION",
@@ -112,7 +112,7 @@
       "words": [
         "JAGUAR",
         "BEACHWEAR",
-        "TRUTH",
+        "ADVENTURE",
         "BICYCLE",
         "GALAXY",
         "CHAPS",
@@ -149,7 +149,7 @@
         "CLING",
         "DEFEND",
         "INNERCANYON",
-        "VICTORY",
+        "ADVENTURETRAIL",
         "LAKEPLACID",
         "WHARF",
         "LIVEOAK",
@@ -188,7 +188,7 @@
         "COSMOS",
         "GLAM",
         "VIKING",
-        "CHALLENGE",
+        "AIRPORT",
         "SPACEAGE"
       ]
     },
@@ -197,14 +197,14 @@
       "words": [
         "TURNTABLE",
         "NIGHTCLUB",
-        "FIDDLE",
+        "ALASKAPARKS",
         "HUNTING",
         "MARINA",
         "EXPRESSION",
         "VEHICLE",
         "RESTORE",
         "LEAP",
-        "CAESAR",
+        "ALPINE",
         "REGION",
         "ABALONE"
       ]
@@ -253,7 +253,7 @@
         "EXTINCTION",
         "SANDDUNE",
         "TRITIP",
-        "FAN",
+        "ALPINEFOREST",
         "WETLAND",
         "COVE",
         "CENTRALNEWYORK",
@@ -267,7 +267,7 @@
         "COBBLESTONE",
         "SOFTWARE",
         "TUNA",
-        "MUSICIAN",
+        "ALPINEGLOW",
         "PIPINGPLOVER",
         "INSTRUCTOR",
         "TRAVELGUIDE",
@@ -282,7 +282,7 @@
       "words": [
         "SLOTCANYON",
         "SHADE",
-        "HEADPHONES",
+        "ALPINEHUT",
         "HIP",
         "TYPEWRITER",
         "VISA",
@@ -291,7 +291,7 @@
         "STING",
         "BURROW",
         "NIGHTS",
-        "BOARDGAME"
+        "ALPINELAKE"
       ]
     },
     {
@@ -303,7 +303,7 @@
         "COLOSSEUM",
         "KINGSCANYON",
         "OCTOPUS",
-        "ORNAMENT",
+        "ALPINEPASS",
         "PARODY",
         "GROUPER",
         "OLYMPICS",
@@ -315,15 +315,15 @@
       "name": "Sea Turtle",
       "words": [
         "KIDS",
-        "RACING",
+        "ALPINEWILDFLOWER",
         "CAPUCHIN",
         "MAINFRAME",
         "TOON",
-        "ROADS",
+        "AMERICANALLIGATOR",
         "GAME",
         "PLAY",
         "BLOOMS",
-        "TEAMWORK",
+        "AMPHIBIAN",
         "COPPERBREAKS",
         "MOUNTAINGOAT"
       ]
@@ -359,7 +359,7 @@
         "REPRINTS",
         "FLEET",
         "RESTSTOP",
-        "KNIGHT"
+        "ANACOSTIA"
       ]
     },
     {
@@ -421,7 +421,7 @@
         "POPS",
         "ATHENS",
         "OUTDOORS",
-        "PRIMETIME",
+        "ANEMONE",
         "MARKHOR",
         "FRIES",
         "CAMPFIRE",
@@ -438,8 +438,8 @@
         "EMPIRE",
         "SPRAY",
         "TUSK",
-        "TOURNAMENT",
-        "CHURCH",
+        "ANGLERFISH",
+        "ANTELOPECANYON",
         "ANIMAL",
         "ARCHAEOLOGY",
         "WAREHOUSE",
@@ -469,14 +469,14 @@
       "words": [
         "COMPETE",
         "VEST",
-        "PUZZLE",
+        "ANTLER",
         "REPAIRS",
         "BOARDS",
         "COMMENT",
         "BRYCECANYON",
         "ROOKIE",
         "FORT",
-        "PRINCE",
+        "APPALACHIANTRAIL",
         "SATIRE",
         "WOLF"
       ]
@@ -506,7 +506,7 @@
         "BELL",
         "ADOPT",
         "VOLUNTEERS",
-        "SMILE",
+        "ARCH",
         "SUNTENT",
         "GOPHERTORTOISE",
         "MAXIDRESS",
@@ -553,7 +553,7 @@
       "name": "Shark Encounter",
       "words": [
         "TREATS",
-        "BRISKET",
+        "ARCHES",
         "CROWD",
         "CUSTOMS",
         "YORK",
@@ -586,7 +586,7 @@
     {
       "name": "Buoy Marker",
       "words": [
-        "COOKBOOK",
+        "ARCTICFOX",
         "ANGLER",
         "SUBMAR",
         "WHITEOAK",
@@ -621,7 +621,7 @@
       "name": "Sandy Toes",
       "words": [
         "OVERSEASHIGHWAY",
-        "DRAMA",
+        "ASPENLEAF",
         "PUDDLE",
         "MOTORIST",
         "MOJAVE",
@@ -631,14 +631,14 @@
         "RIPPLE",
         "BRUNCH",
         "SANDWICH",
-        "DISCO"
+        "AVALANCHE"
       ]
     },
     {
       "name": "Surf Shop",
       "words": [
         "HELMET",
-        "MOVIE",
+        "AWARDSEASON",
         "CARD",
         "OPTICAL",
         "KEYSTONESTATE",
@@ -648,7 +648,7 @@
         "GARLIC",
         "MULEDEER",
         "ACADIA",
-        "ACOUSTIC"
+        "BACKCOUNTRY"
       ]
     },
     {
@@ -664,7 +664,7 @@
         "SETTLER",
         "BOOGIE",
         "ACROPOLIS",
-        "ACTION",
+        "BACKCOUNTRYROAD",
         "ACTIONTOY"
       ]
     },
@@ -679,7 +679,7 @@
         "RESORTS",
         "LAUNDRY",
         "GOODTIMES",
-        "ACTRESS",
+        "BACKPACK",
         "PINUPS",
         "MOTEL",
         "ACTIVIST"
@@ -696,7 +696,7 @@
         "TRACKS",
         "CARDS",
         "CEREMONY",
-        "CROSS",
+        "BACKPACKTRAIL",
         "DANCE",
         "TRANSPORT",
         "PICNIC"
@@ -783,7 +783,7 @@
         "COWBOY",
         "SALES",
         "MULE",
-        "FABRIC",
+        "BACKSEAT",
         "BASEBALL"
       ]
     },
@@ -792,7 +792,7 @@
       "words": [
         "BENITOITE",
         "HORSES",
-        "NOTEBOOK",
+        "BACKWATER",
         "PUZZLES",
         "EGYPTIAN",
         "BRAZOS",
@@ -810,7 +810,7 @@
         "ZOO",
         "INCA",
         "GALLOP",
-        "POSTER",
+        "BADLANDS",
         "CURL",
         "PACIFICCOAST",
         "HIDE",
@@ -833,9 +833,9 @@
         "AUTUMN",
         "SWEETTEA",
         "PARIS",
-        "BOOKSTORE",
+        "BADLANDSBUTTE",
         "ROCKS",
-        "ACTOR"
+        "BALSAMFIR"
       ]
     }
   ],
@@ -875,5 +875,12 @@
       "Ocean Life"
     ],
     "checked_at": "2026-08-22T10:08:38"
+  },
+  "quality_review": {
+    "checked_at": "20260824-213643",
+    "source": "verified_word_intelligence_repair",
+    "verdict": "PASS_WITH_NOTES",
+    "production_ready": false,
+    "changes": 35
   }
 }

@@ -1,0 +1,26 @@
+{
+  "active": null,
+  "history": [
+    {
+      "job_id": "58aea02503d3",
+      "label": "Large Print Sudoku",
+      "started": "2026-09-04T21:53:42",
+      "status": "complete",
+      "finished": "2026-09-04T21:55:43"
+    },
+    {
+      "job_id": "1726b0adbabd",
+      "label": "The Everyday Brain Games Collection",
+      "started": "2026-09-04T21:45:56",
+      "status": "needs_attention",
+      "finished": "2026-09-04T21:45:59"
+    },
+    {
+      "job_id": "f6ffc8648f38",
+      "label": "Advanced Vocabulary Challenge Word Search",
+      "started": "2026-08-28T22:08:32",
+      "status": "needs_attention",
+      "finished": "2026-08-28T22:09:27"
+    }
+  ]
+}

@@ -4,7 +4,9 @@ from __future__ import annotations
 import traceback
 from pathlib import Path
 
-TRACE_FILE = Path(__file__).resolve().parent / "out" / "error_logs" / "startup_trace.txt"
+# `out` is reserved for finished book packages. Startup diagnostics belong in
+# the app's data area so a failed launch never looks like a partial book.
+TRACE_FILE = Path(__file__).resolve().parent / "data" / "error_logs" / "startup_trace.txt"
 
 
 def trace(message: str) -> None:
@@ -13,7 +15,7 @@ def trace(message: str) -> None:
 
 
 def show_startup_problem(details: str) -> None:
-    log_folder = Path(__file__).resolve().parent / "out" / "error_logs"
+    log_folder = Path(__file__).resolve().parent / "data" / "error_logs"
     log_folder.mkdir(parents=True, exist_ok=True)
     log_file = log_folder / "startup_problem.txt"
     log_file.write_text(details, encoding="utf-8")

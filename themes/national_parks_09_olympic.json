@@ -18,7 +18,7 @@
         "AIRPLANE",
         "DAISY",
         "FOSSIL",
-        "SCREAM",
+        "ACCELERATOR",
         "LOTION",
         "WAVES",
         "GARAGEBAND",
@@ -56,7 +56,7 @@
         "MASTER",
         "MULEDEER",
         "TONE",
-        "PEACE"
+        "ACCESSORY"
       ]
     },
     {
@@ -67,13 +67,13 @@
         "PLATFORMSHOES",
         "METRO",
         "EXPLORER",
-        "SWORD",
+        "ACCORD",
         "ABALONE",
         "MATE",
         "INSTINCTS",
         "PUFFER",
         "ERIECANAL",
-        "STUFFING"
+        "ACCORDHYBRID"
       ]
     },
     {
@@ -89,7 +89,7 @@
         "LAYOUT",
         "ROAR",
         "BEACHY",
-        "FLOWERS",
+        "ACORN",
         "LOSTMAPLES"
       ]
     },
@@ -117,7 +117,7 @@
         "PECAN",
         "TRADITION",
         "OPEN",
-        "JOURNAL",
+        "ACURA",
         "SPINE",
         "CATCH",
         "EYELINER",
@@ -183,7 +183,7 @@
       "words": [
         "BAROQUE",
         "REFLECT",
-        "NOVEL",
+        "ADVENTURE",
         "RECORD",
         "EXCURSION",
         "RECREATE",
@@ -199,7 +199,7 @@
       "name": "Olympic Rainforests and Coast Puzzle 012",
       "words": [
         "PADDLEBOARD",
-        "SUPPORT",
+        "ADVENTURETRAIL",
         "COASTER",
         "PETRICHOR",
         "WOLF",
@@ -208,7 +208,7 @@
         "CARROT",
         "UNIVERSE",
         "FORAGING",
-        "MELODY",
+        "AEROSTAR",
         "SEAGULL"
       ]
     },
@@ -219,9 +219,9 @@
         "PONYCAR",
         "VIEWPOINT",
         "RESIST",
-        "AUTHORS",
+        "AGROFORESTRY",
         "PAST",
-        "NOTEBOOK",
+        "AIRCONDITIONER",
         "SPYSHOW",
         "CARE",
         "BROMELIAD",
@@ -255,7 +255,7 @@
         "POTLUCK",
         "ROBINS",
         "BALL",
-        "GROUPER",
+        "AIRFILTER",
         "BIKE",
         "TACTIC",
         "CARVE",
@@ -271,7 +271,7 @@
         "BACTRIAN",
         "CREW",
         "WORKSHOPS",
-        "FABRIC",
+        "AIRFRESHENER",
         "LONDON",
         "TANG",
         "CONTRAST",
@@ -292,7 +292,7 @@
         "LIGHTNING",
         "CADESCOVE",
         "ABSORBENT",
-        "SARDINE",
+        "AIRPORT",
         "PEACOCKS",
         "SHOE"
       ]
@@ -335,7 +335,7 @@
       "name": "Olympic Rainforests and Coast Puzzle 020",
       "words": [
         "TENTACLE",
-        "PAINTER",
+        "AIRPUMP",
         "VESSEL",
         "MINT",
         "TROLLEY",
@@ -370,7 +370,7 @@
       "words": [
         "PINACOLADA",
         "CATALOG",
-        "FIDDLE",
+        "ALASKAPARKS",
         "FARMERSMARKET",
         "STATIONS",
         "LOSANGELES",
@@ -385,16 +385,16 @@
     {
       "name": "Olympic Rainforests and Coast Puzzle 023",
       "words": [
-        "BOOKWORM",
+        "ALERO",
         "TOURIST",
         "MACEDON",
-        "SINGLE",
-        "HERBS",
+        "ALIGNMENT",
+        "ALLIES",
         "ROUTESIXTYSIX",
         "MINES",
         "PEAKS",
         "MOWER",
-        "PAGE",
+        "ALLROAD",
         "CHARD",
         "MICROPHONE"
       ]
@@ -402,7 +402,7 @@
     {
       "name": "Olympic Rainforests and Coast Puzzle 024",
       "words": [
-        "FANART",
+        "ALLWHEEL",
         "GENEROUS",
         "MONK",
         "ENCHILADA",
@@ -419,7 +419,7 @@
     {
       "name": "Olympic Rainforests and Coast Puzzle 025",
       "words": [
-        "WELLNESS",
+        "ALPINE",
         "LORDS",
         "PLAYER",
         "MIST",
@@ -455,7 +455,7 @@
       "words": [
         "POND",
         "APPRAISAL",
-        "CHURCH",
+        "ALPINEFOREST",
         "WOLVES",
         "BRAZOSBEND",
         "SPIKE",
@@ -541,7 +541,7 @@
         "STRONG",
         "GUADALUPE",
         "KOALA",
-        "FOLK",
+        "ALPINEGLOW",
         "GUPPY",
         "BLACKBEANS",
         "HURRICANERIDGE",
@@ -563,7 +563,7 @@
         "FORTUNETOY",
         "HONKYTONK",
         "CALDERA",
-        "FILMMAKER",
+        "ALPINEHUT",
         "SANDDUNE",
         "SPARKLE",
         "FOODS"
@@ -589,13 +589,13 @@
     {
       "name": "Olympic Rainforests and Coast Puzzle 035",
       "words": [
-        "MANATEE",
+        "ALPINELAKE",
         "WORKOUT",
         "STATUES",
         "NAVY",
         "SOCIAL",
         "CASTING",
-        "RESTORATION",
+        "ALPINEPASS",
         "HOTROD",
         "LEAP",
         "CAPUCHIN",
@@ -715,7 +715,7 @@
         "SHELTERS",
         "BOOTY",
         "OAKSAVANNA",
-        "HADES",
+        "ALPINEWILDFLOWER",
         "FUTURE",
         "TAKIN",
         "SPAS",
@@ -730,7 +730,7 @@
         "OCEANPATH",
         "CHICKENCOOP",
         "CORRAL",
-        "ALTAR",
+        "ALTERNATOR",
         "NARWHAL",
         "GESTURE",
         "STOCK",
@@ -748,7 +748,7 @@
         "HONORS",
         "JACKRABBIT",
         "RESTORE",
-        "CASSETTE",
+        "ALTERNATORBELT",
         "CLAIM",
         "TRAINSET",
         "ROLE",
@@ -759,7 +759,7 @@
     {
       "name": "Olympic Rainforests and Coast Puzzle 045",
       "words": [
-        "CLASSIC",
+        "ALTIMA",
         "BIGAPPLE",
         "CAMERA",
         "CASSIOPEIA",
@@ -787,14 +787,14 @@
         "BREAKWATER",
         "GAINESVILLE",
         "SNOOK",
-        "LOYALTY"
+        "AMBULANCE"
       ]
     },
     {
       "name": "Olympic Rainforests and Coast Puzzle 047",
       "words": [
-        "LIFE",
-        "COMEDY",
+        "AMERICA",
+        "AMERICANALLIGATOR",
         "SAVANNA",
         "LAUNCH",
         "FUR",
@@ -862,5 +862,12 @@
       "National Parks"
     ],
     "checked_at": "2026-08-22T10:08:38"
+  },
+  "quality_review": {
+    "checked_at": "20260824-213825",
+    "source": "verified_word_intelligence_repair",
+    "verdict": "PASS_WITH_NOTES",
+    "production_ready": false,
+    "changes": 34
   }
 }

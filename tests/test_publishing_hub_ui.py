@@ -17,12 +17,13 @@ from publishing.ui import (
     split_issues,
     whats_left_text,
 )
+from publishing.production_orchestrator import ProductionJobIndex
 
 
 def test_grid_labels_cover_every_marketplace_in_canonical_order():
     assert tuple(DISPLAY_GRID[key] for key in MARKETPLACES) == (
         "Amazon KDP", "Etsy", "IngramSpark", "Website / Direct",
-        "Lulu", "BookVault", "Barnes & Noble Press",
+        "Lulu", "BookVault", "Barnes & Noble Press", "Payhip digital downloads",
     )
 
 
@@ -96,3 +97,10 @@ def test_market_connection_dialogs_keep_lightweight_construction_contracts():
     assert list(connections) == ["self", "parent"]
     assert list(connect) == ["self", "parent", "on_done"]
     assert connect["on_done"].default is None
+
+
+def test_publishing_center_exposes_the_canonical_production_queue():
+    source = inspect.getsource(__import__("publishing.ui", fromlist=["PublishingManagerDialog"]).PublishingManagerDialog)
+    assert "Production queue" in source
+    assert "ProductionJobIndex" in source
+    assert "refresh_production_queue" in source

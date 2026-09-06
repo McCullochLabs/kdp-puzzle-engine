@@ -15,7 +15,7 @@
         "RUNNER",
         "TOOL",
         "NEBULA",
-        "PRUNER",
+        "ACADIA",
         "CHOLLA",
         "HILLS",
         "PROSPECTOR",
@@ -34,7 +34,7 @@
         "SHIFTDRESS",
         "ISLANDS",
         "SPIKE",
-        "EQUIPMENT",
+        "ACCELERATOR",
         "NOVEMBER",
         "FAIR",
         "DARK",
@@ -46,16 +46,16 @@
       "name": "Joshua Tree Desert Night Puzzle 003",
       "words": [
         "RESEARCH",
-        "HARMONY",
+        "ACCESSORY",
         "POTHOS",
         "GRAVE",
         "THANKSGIVING",
-        "TREASURE",
+        "ACCORD",
         "MOTELS",
         "ROADS",
         "TOWPATH",
         "GULFCOAST",
-        "WINNER",
+        "ACCORDHYBRID",
         "PEACOCKS"
       ]
     },
@@ -85,11 +85,11 @@
         "GLASSES",
         "SEASTAR",
         "COMMANDMODULE",
-        "ACTOR",
+        "ACORN",
         "NATIONAL",
         "LAUREL",
         "CONSTITUTION",
-        "FILTER",
+        "ACURA",
         "REINS"
       ]
     },
@@ -123,18 +123,18 @@
         "STRING",
         "CAGE",
         "CIVIL",
-        "BLOCKBUSTER",
+        "ADVENTURE",
         "MAPLESYRUP"
       ]
     },
     {
       "name": "Joshua Tree Desert Night Puzzle 008",
       "words": [
-        "SIMULATION",
+        "ADVENTURETRAIL",
         "ISLANDER",
         "DESERTVIEW",
         "ENDLESSMOUNTAINS",
-        "KINGDOM",
+        "AEROSTAR",
         "POPPY",
         "OSCAR",
         "RETREAT",
@@ -221,7 +221,7 @@
         "ORCHARD",
         "AVENUE",
         "SPIRAL",
-        "PEACE",
+        "AGROFORESTRY",
         "DISK",
         "ENCLOSURE",
         "TEMPLAR",
@@ -252,7 +252,7 @@
         "HONOR",
         "CONVOY",
         "LATERAL",
-        "STUFFING",
+        "AIRCONDITIONER",
         "SHADES",
         "LOG",
         "MOTORCYCLE",
@@ -275,7 +275,7 @@
         "TROPIC",
         "FORESTS",
         "MALLOW",
-        "DANCEFLOOR",
+        "AIRFILTER",
         "HOMEVIDEO",
         "BLOCK"
       ]
@@ -287,10 +287,10 @@
         "WETLAND",
         "WATERMELON",
         "SWIMMER",
-        "RESTORATION",
+        "AIRFRESHENER",
         "ZEUS",
         "TOWNHALL",
-        "ALGAE",
+        "AIRPORT",
         "SUMMER",
         "SILVER",
         "FIN",
@@ -353,9 +353,9 @@
       "words": [
         "TEEING",
         "WING",
-        "RELAX",
+        "AIRPUMP",
         "CORDUROY",
-        "TRUTH",
+        "ALASKAPARKS",
         "REDUCE",
         "OCEANAIR",
         "ZINNIA",
@@ -389,7 +389,7 @@
         "SYSTEM",
         "FINCH",
         "MILK",
-        "AUTHOR",
+        "ALERO",
         "PALACE",
         "RED",
         "CHIRP",
@@ -404,7 +404,7 @@
       "words": [
         "CUSTOMS",
         "DRIVE",
-        "OCTOPUS",
+        "ALIGNMENT",
         "SWAMP",
         "SWALLOWTAIL",
         "BERGAMOT",
@@ -436,7 +436,7 @@
     {
       "name": "Joshua Tree Desert Night Puzzle 026",
       "words": [
-        "PAINTER",
+        "ALLIES",
         "STARLIGHT",
         "AFRICA",
         "GOINGTOSUN",
@@ -446,7 +446,7 @@
         "RUTABAGA",
         "SEEDSTART",
         "ELPASO",
-        "TVGUIDE",
+        "ALLROAD",
         "COOLING"
       ]
     },
@@ -525,12 +525,12 @@
         "BANDAGE",
         "BUNDLE",
         "FIGHT",
-        "ROMANCE",
+        "ALLWHEEL",
         "UTICA",
         "SWEETTEA",
         "CHOCOLATE",
         "MASS",
-        "PENGUIN",
+        "ALPINE",
         "STEAMER",
         "HOWLS"
       ]
@@ -572,7 +572,7 @@
     {
       "name": "Joshua Tree Desert Night Puzzle 034",
       "words": [
-        "CLASSICROCK",
+        "ALPINEFOREST",
         "SNAKERIVER",
         "ARCHIVIST",
         "HEAT",
@@ -594,11 +594,11 @@
         "BENGAL",
         "PATCHWORK",
         "HANGING",
-        "FOLK",
+        "ALPINEGLOW",
         "SUSTAINABLE",
         "SMOKYMOUNTAINS",
         "PRICKLY",
-        "DISCO",
+        "ALPINEHUT",
         "POTTINGMIX",
         "RUINS"
       ]
@@ -608,7 +608,7 @@
       "words": [
         "CLIMBING",
         "PLATEAU",
-        "FAN",
+        "ALPINELAKE",
         "GENOCIDE",
         "MUSIC",
         "PORT",
@@ -644,7 +644,7 @@
         "QUIZZES",
         "GIANTSEQUOIA",
         "GIRAFFE",
-        "HEADPHONES",
+        "ALPINEPASS",
         "CUCUMBER",
         "PALMTREE",
         "RAINSHADOW",
@@ -658,7 +658,7 @@
       "name": "Joshua Tree Desert Night Puzzle 039",
       "words": [
         "CHILI",
-        "FAMOUS",
+        "ALPINEWILDFLOWER",
         "BOARD",
         "RARE",
         "BLACKBEAR",
@@ -743,10 +743,10 @@
       "name": "Joshua Tree Desert Night Puzzle 044",
       "words": [
         "STYLE",
-        "BOOKCASE",
+        "ALTERNATOR",
         "OXYGEN",
         "SURFER",
-        "RHYTHM",
+        "ALTERNATORBELT",
         "MAST",
         "AUTOGRAPHS",
         "WATERINGCAN",
@@ -764,7 +764,7 @@
         "BAG",
         "MARKET",
         "WILDFLOWERS",
-        "DRUMS",
+        "ALTIMA",
         "MARBLE",
         "NAPOLEON",
         "PARASAIL",
@@ -786,7 +786,7 @@
         "FIREWOOD",
         "TENTACLE",
         "ACROPOLIS",
-        "TOMB",
+        "AMBULANCE",
         "GRAY"
       ]
     },
@@ -862,5 +862,12 @@
       "National Parks"
     ],
     "checked_at": "2026-08-22T10:08:38"
+  },
+  "quality_review": {
+    "checked_at": "20260824-213825",
+    "source": "verified_word_intelligence_repair",
+    "verdict": "PASS_WITH_NOTES",
+    "production_ready": false,
+    "changes": 33
   }
 }

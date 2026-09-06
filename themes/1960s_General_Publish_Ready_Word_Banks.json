@@ -92,18 +92,18 @@
     {
       "name": "Toys & Games",
       "words": [
-        "GOAT",
+        "ABBA",
         "CONVERSATION",
         "HULL",
-        "GRANITE",
+        "ACOUSTIC",
         "MONEY",
         "TEXTMESSAGE",
         "FIRSTAID",
         "BIGHORN",
-        "TURTLE",
+        "ACTION",
         "CAR",
         "SPECIES",
-        "APRICOT"
+        "ACTIONFIGURE"
       ]
     },
     {
@@ -127,11 +127,11 @@
       "name": "Flower Power",
       "words": [
         "COCONUT",
-        "WHISKER",
+        "ADDAMSFAMILY",
         "HENRY",
-        "LANGUAGE",
+        "ADELE",
         "CLAM",
-        "FLYING",
+        "ADVENTURE",
         "IVORY",
         "RAIL",
         "SUNNYSIDE",
@@ -144,23 +144,23 @@
       "name": "Tech & Gadgets",
       "words": [
         "MAKO",
-        "RECIPE",
-        "CLOUD",
+        "AEROSMITH",
+        "AFTERPARTY",
         "COBRA",
         "POLAR",
         "COLDBLOODED",
         "LMAO",
         "DANCE",
         "SERVICE",
-        "SEED",
+        "AFTERSHOW",
         "CHAMPION",
-        "LAUNCHPAD"
+        "ALADDIN"
       ]
     },
     {
       "name": "Beach & Surf",
       "words": [
-        "HARNESS",
+        "ALBUM",
         "GEORGE",
         "WARM",
         "DAMSEL",
@@ -177,9 +177,9 @@
     {
       "name": "Coffeehouse",
       "words": [
-        "ALLIES",
+        "ALICEINWONDERLAND",
         "GOLDCOLOR",
-        "LONGHORN",
+        "ALISTER",
         "PEDERNALES",
         "TANKTRUCK",
         "CLEAN",
@@ -203,7 +203,7 @@
         "CDROM",
         "MOVIERENTAL",
         "COILOVER",
-        "SANDSTONE",
+        "ALTERNATIVEROCK",
         "APES",
         "GEOPARK"
       ]
@@ -214,7 +214,7 @@
         "SKATEPARK",
         "ROADSCENE",
         "SIDE",
-        "BLACKCAT",
+        "AMERICANIDOL",
         "LOOT",
         "CART",
         "TEXTURE",
@@ -228,15 +228,15 @@
     {
       "name": "Mod Fashion: Essentials",
       "words": [
-        "FLASHLIGHT",
+        "AMERICASGOTTALENT",
         "PEBBLE",
-        "COAST",
+        "ANCHORMAN",
         "RECYCLE",
-        "BIRDING",
+        "ANIMATED",
         "BAT",
-        "TARANTULA",
-        "BLUERIDGE",
-        "ALGAE",
+        "ANIMATION",
+        "ANIME",
+        "APP",
         "PARROT",
         "SABLE",
         "WORKVAN"
@@ -247,16 +247,16 @@
       "words": [
         "AFRICA",
         "ROLLERDISCO",
-        "MANUSCRIPT",
-        "WINTER",
+        "AQUAMAN",
+        "ARCADE",
         "WINDSHIELDWIPER",
         "CARPARK",
         "GENTOO",
-        "BIRDS",
+        "ARCADECABINET",
         "PARASAIL",
         "BARRACUDA",
         "PUP",
-        "FARM"
+        "ARCADECLASSIC"
       ]
     },
     {
@@ -265,10 +265,10 @@
         "ADAPTATION",
         "VARIETYSHOW",
         "LAVACREEK",
-        "WATER",
+        "ARCADEGAME",
         "AZTEC",
         "TAMPA",
-        "ELIZABETH",
+        "ARCADEHALL",
         "KEYDEER",
         "STEAMER",
         "BEACHDAY",
@@ -290,7 +290,7 @@
         "BEETLE",
         "MAP",
         "RAP",
-        "BENGAL"
+        "ARCADEJOYSTICK"
       ]
     },
     {
@@ -304,10 +304,10 @@
         "HEATER",
         "DEVELOP",
         "HERO",
-        "SUNSHINE",
+        "ARCADEMACHINE",
         "PORTRAY",
         "FRONTWHEEL",
-        "SANCTUARY"
+        "AUTOGRAPH"
       ]
     },
     {
@@ -323,25 +323,25 @@
         "CRAFTED",
         "ARCHIVE",
         "CENTRALCOAST",
-        "COFFEE",
+        "AVATARFILM",
         "CHISHOLMTRAIL"
       ]
     },
     {
       "name": "Flower Power: Essentials",
       "words": [
-        "LIFE",
+        "AVENGERS",
         "POWERUP",
         "SCENERY",
         "OTTAWA",
         "KEY",
         "BREEZY",
-        "MONUMENT",
+        "AWARDNIGHT",
         "PRIUSPRIME",
         "STROLL",
         "WALLPAPER",
         "MASTER",
-        "COASTER"
+        "AWARDSEASON"
       ]
     },
     {
@@ -356,7 +356,7 @@
         "PENDULUM",
         "FAIRMONT",
         "TALKTOTHEHAND",
-        "BARN",
+        "AWARDSHOW",
         "COMPACTCAR",
         "SPINY"
       ]
@@ -364,9 +364,9 @@
     {
       "name": "Beach & Surf: Essentials",
       "words": [
-        "STARS",
+        "AWARDWINNER",
         "RAFTING",
-        "YUCCA",
+        "BACKLOT",
         "BOAT",
         "CULTURE",
         "REINTRODUCE",
@@ -375,7 +375,7 @@
         "MUSSEL",
         "TRACKING",
         "HEROES",
-        "WONDER"
+        "BACKSTAGE"
       ]
     },
     {
@@ -384,7 +384,7 @@
         "AUDIOBOOK",
         "AXLE",
         "TRACKED",
-        "PADDLE",
+        "BACKSTAGEPASS",
         "DIVING",
         "FEUDAL",
         "CLEVER",
@@ -400,7 +400,7 @@
       "words": [
         "TEMPLAR",
         "SLOUGH",
-        "JACKOLANTERN",
+        "BACKSTREETBOYS",
         "FRY",
         "SYNC",
         "BUFFALOWINGS",
@@ -408,7 +408,7 @@
         "MANGO",
         "CBRADIO",
         "EMOTE",
-        "DROUGHT",
+        "BACKTOTHEFUTURE",
         "SEAWEED"
       ]
     },
@@ -423,7 +423,7 @@
         "EMPIRESTATE",
         "SCENICS",
         "TUNNEL",
-        "NURSERY",
+        "BALLAD",
         "WHELK",
         "CROSSTREK",
         "DAMA"
@@ -436,10 +436,10 @@
         "BOXTRUCK",
         "USBDRIVE",
         "CRUSHER",
-        "HAYRIDE",
-        "ACORN",
+        "BAND",
+        "BANJO",
         "STORAGE",
-        "WATCHMAN",
+        "BARBIECORE",
         "SCHOOLBINDER",
         "RECORDSTORE",
         "PONTOON",
@@ -458,7 +458,7 @@
         "MODELY",
         "ICON",
         "GENERALSTORE",
-        "AUTHOR",
+        "BARTSIMPSON",
         "SAUSAGE",
         "BEEPER"
       ]
@@ -473,7 +473,7 @@
         "CARACALS",
         "ROADSTER",
         "VIDEONIGHT",
-        "BLUEJAY",
+        "BASS",
         "VERDEVALLEY",
         "SKIING",
         "LANDING",
@@ -492,7 +492,7 @@
         "ARIZONA",
         "ETHANOL",
         "SCRIPTS",
-        "COASTAL",
+        "BATMAN",
         "BATTERY",
         "SUCCESS"
       ]
@@ -500,7 +500,7 @@
     {
       "name": "Toys & Games: Memory Lane",
       "words": [
-        "HEIRLOOM",
+        "BEAT",
         "THAMES",
         "INDIA",
         "STREET",
@@ -518,15 +518,15 @@
       "name": "Space Race: Memory Lane",
       "words": [
         "MUSIC",
-        "PRESERVES",
-        "GARDEN",
-        "TIDES",
+        "BEETLEJUICE",
+        "BESTSELLER",
+        "BESTSELLING",
         "FOSTERCARE",
-        "FUR",
+        "BIGBANGTHEORY",
         "APPRAISAL",
-        "ITINERARY",
+        "BIGSCREEN",
         "COLORTV",
-        "RESCUE",
+        "BILLBOARD",
         "RESCUES",
         "FORESTER"
       ]
@@ -535,12 +535,12 @@
       "name": "Flower Power: Memory Lane",
       "words": [
         "CHARM",
-        "ARCH",
+        "BILLIEEILISH",
         "TRAVELER",
         "DUTCHFOOD",
         "PALODURO",
         "NODUH",
-        "BEACH",
+        "BINGE",
         "DISC",
         "MOHAWKRIVER",
         "SEEK",
@@ -553,14 +553,14 @@
       "words": [
         "DIRECTOR",
         "MERCERIVER",
-        "IGUANA",
-        "EGG",
+        "BINGEWATCH",
+        "BIRTHDAYPARTY",
         "SCORPION",
         "OLYMPUS",
         "MURANO",
         "MOUNTAINEER",
         "LLANO",
-        "LETTUCE",
+        "BLACKPANTHER",
         "SOCIETY",
         "NEAP"
       ]
@@ -577,8 +577,8 @@
         "TREKKER",
         "DANCECRAZE",
         "WALRUS",
-        "STARFISH",
-        "MOON",
+        "BLACKWIDOW",
+        "BLADERUNNER",
         "RECREATE"
       ]
     },
@@ -595,8 +595,8 @@
         "CLASSIC",
         "HORNED",
         "FIN",
-        "COSMOS",
-        "READING"
+        "BLOCKBUSTER",
+        "BLONDIE"
       ]
     },
     {
@@ -620,17 +620,17 @@
       "name": "Cars & Roads: Everyday Memories",
       "words": [
         "LAKEMICHIGAN",
-        "DIGGING",
+        "BLUES",
         "MAINFRAME",
         "TOPOGRAPHY",
         "TOXIN",
         "RENDER",
-        "STATE",
+        "BLUEY",
         "CHILLY",
         "PETAL",
         "EMAIL",
         "CHRYSLER",
-        "SHELTER"
+        "BOARDGAME"
       ]
     },
     {
@@ -646,7 +646,7 @@
         "DARING",
         "EXPEDITION",
         "BEACHSIDE",
-        "OUTDOORS",
+        "BONJOVI",
         "RATING"
       ]
     },
@@ -657,9 +657,9 @@
         "BATHHOUSE",
         "RESORTS",
         "RENEGADE",
-        "PRAIRIE",
+        "BOOKCLUB",
         "ROADGAMES",
-        "MULEDEER",
+        "BOXOFFICE",
         "PATRIOT",
         "CLICK",
         "GRANCOUPE",
@@ -693,10 +693,10 @@
         "LABEL",
         "ROOT",
         "MAINSTREET",
-        "BIGBEND",
+        "BOYBAND",
         "PADDLEBOARD",
         "MACRAME",
-        "LIME",
+        "BOYZIIMEN",
         "HERMIT",
         "RELAXATION"
       ]
@@ -706,15 +706,15 @@
       "words": [
         "HOLLYWOOD",
         "COLUMN",
-        "SUGAR",
-        "BLANKET",
+        "BREAKDANCE",
+        "BREAKINGBAD",
         "ALLTHAT",
         "COPEPOD",
-        "NEWRIVERGORGE",
+        "BRIDGERTON",
         "CARTOGRAPHY",
         "RIDER",
         "EXCELLENT",
-        "MOONLIGHT",
+        "BRIDGETON",
         "REFUGES"
       ]
     },
@@ -722,7 +722,7 @@
       "name": "Space Race: Everyday Memories",
       "words": [
         "DUMPTRUCK",
-        "AUTHORS",
+        "BROOKLYNNINENINE",
         "SUNGLASSES",
         "COOL",
         "RUNNER",
@@ -730,7 +730,7 @@
         "CONSTITUTION",
         "ROADSIGN",
         "WHITEOAK",
-        "INSECT",
+        "BRUNOMARS",
         "RITUAL",
         "MOGOLLONRIM"
       ]
@@ -743,7 +743,7 @@
         "DRAMA",
         "TOURIST",
         "WIZARD",
-        "SHORELINE",
+        "CABLECHANNEL",
         "MUMMY",
         "HAUL",
         "RESORT",
@@ -755,13 +755,13 @@
     {
       "name": "Tech & Gadgets: Everyday Memories",
       "words": [
-        "FREEDOM",
+        "CABLETV",
         "HYUNDAI",
         "ANHINGA",
         "LOGGER",
         "PIPEFISH",
         "FORTUNE",
-        "RAINBOW",
+        "CAMEO",
         "SERVICEBOOK",
         "TAILGATEPARTY",
         "TRADES",
@@ -772,7 +772,7 @@
     {
       "name": "Beach & Surf: Everyday Memories",
       "words": [
-        "WASHINGTON",
+        "CANDYMAN",
         "DRIVE",
         "WIDESCREEN",
         "PITTSBURGH",
@@ -809,7 +809,7 @@
         "YEAR",
         "CHARGINGSTATION",
         "ELKHORN",
-        "WORKSHOP",
+        "CAPTAINAMERICA",
         "LOBBY",
         "ANGLER",
         "LASERDISC",
@@ -827,10 +827,10 @@
         "LEG",
         "ROBOT",
         "TREES",
-        "POETRY",
-        "PRONGHORN",
+        "CARDGAME",
+        "CARRIEUNDERWOOD",
         "DEBRIS",
-        "GEYSER",
+        "CARTOON",
         "READ",
         "MODEM",
         "FAMILYSHOW",
@@ -882,7 +882,7 @@
         "STATEFAIR",
         "PENCIL",
         "FORTRESS",
-        "HEAVENLY",
+        "CASABLANCA",
         "LEVEL",
         "MARQUEE",
         "GUNFIGHT"
@@ -896,7 +896,7 @@
         "SUNDAE",
         "BRAVE",
         "NIGHTS",
-        "THUNDER",
+        "CASSETTE",
         "MINIATURE",
         "LAUREL",
         "EGYPTIAN",
@@ -929,7 +929,7 @@
         "DALLAS",
         "BRAZIL",
         "CANNON",
-        "SUNNY",
+        "CASTINGCALL",
         "HIGHWAYMAN",
         "STRING",
         "PURE",
@@ -967,7 +967,7 @@
         "MESQUITE",
         "UMBRELLA",
         "INSTINCT",
-        "WRITERS",
+        "CATCHPHRASE",
         "WILD",
         "GOKART",
         "CADDOLAKE"
@@ -982,10 +982,10 @@
         "MOTOR",
         "DEMOCRACY",
         "SCALLOP",
-        "SALMON",
+        "CDPLAYER",
         "NORSE",
         "QING",
-        "SAHARA",
+        "CELEBNEWS",
         "HILLS",
         "HIGHSCORE"
       ]
@@ -997,7 +997,7 @@
         "PANTHERS",
         "DARKSKY",
         "HOTSAUCE",
-        "BARBECUE",
+        "CELEBRATION",
         "CHEVELLE",
         "MINIBUS",
         "WATERBED",
@@ -1013,12 +1013,12 @@
         "SHUTTLEBUS",
         "LANTERN",
         "FLIGHTS",
-        "DAIRY",
+        "CELEBRITY",
         "CUPCAKE",
-        "AMERICA",
-        "TOMATO",
+        "CELEBRITYNEWS",
+        "CELEBRITYSTYLE",
         "SHELLFISH",
-        "ALPINE",
+        "CELLO",
         "CHEVY",
         "WILDNESS",
         "CYLINDER"
@@ -1036,7 +1036,7 @@
         "NATURAL",
         "TOYCAR",
         "COMPACTDISC",
-        "BORDER",
+        "CHALLENGE",
         "COPPER",
         "DENIMJACKET"
       ]
@@ -1050,7 +1050,7 @@
         "WESTERNPA",
         "WILDEBEEST",
         "CUBANSANDWICH",
-        "AMPHIBIAN",
+        "CHANNEL",
         "RETREAT",
         "PLANO",
         "COMMUNE",
@@ -1063,14 +1063,14 @@
       "words": [
         "HAIRMETAL",
         "WEBPAGE",
-        "CURATOR",
+        "CHARLIESANGELS",
         "COSPLAY",
         "PATRIARCH",
-        "SOURDOUGH",
+        "CHARTTOPPER",
         "SEARCHENGINE",
-        "CORNMAZE",
+        "CHATROOM",
         "DIFFERENTIAL",
-        "LAKE",
+        "CHER",
         "PROJECT",
         "EXCAVATOR"
       ]
@@ -1100,7 +1100,7 @@
         "MARCH",
         "CITYHALL",
         "EQUAL",
-        "COMFORT",
+        "CHEWBACCA",
         "AUTOS",
         "BUBBLE",
         "QUALITY",
@@ -1114,7 +1114,7 @@
       "words": [
         "PROTECTION",
         "OLDCITY",
-        "COVE",
+        "CHICAGO",
         "OPINION",
         "CHUNKYHIGHLIGHTS",
         "ALIENS",
@@ -1132,12 +1132,12 @@
         "PANNING",
         "SUPERCHARGER",
         "COACHES",
-        "PRESERVE",
+        "CHOIR",
         "OVERALLS",
         "MOUNTAINTRIP",
         "TENTACLE",
         "SOLSTICE",
-        "SEASONING",
+        "CHOREOGRAPHY",
         "SNOOK",
         "SULTANS",
         "DEER"
@@ -1167,10 +1167,10 @@
         "HAWKSBILL",
         "SEQUENCE",
         "TROT",
-        "TEMPERATURE",
+        "CHORUS",
         "LANCER",
         "ROAR",
-        "HOMESTEAD",
+        "CINDERELLA",
         "CARNIVAL",
         "LEASHES",
         "FRENCH",
@@ -1200,7 +1200,7 @@
         "ANCHOR",
         "CAFE",
         "SWALLOWS",
-        "PENGUIN",
+        "CINEMA",
         "FREIGHTS",
         "PATIO",
         "KFIVE",
@@ -1218,7 +1218,7 @@
         "CIRRUS",
         "TOUR",
         "AMPERA",
-        "NIGHT",
+        "CINEMATIC",
         "DOORHANDLE",
         "BIOMES",
         "IRON",
@@ -1239,7 +1239,7 @@
         "SEMITRUCK",
         "SKYLAB",
         "WATERPUMP",
-        "CENTURION",
+        "CLARINET",
         "TAHOE",
         "SATURDAY",
         "WRISTBAND"
@@ -1257,7 +1257,7 @@
         "BASTROP",
         "CAMPSTORE",
         "MONOCHROME",
-        "BRIDGE",
+        "CLASSICROCK",
         "GRADATION",
         "SPA"
       ]
@@ -1271,18 +1271,18 @@
         "ROLLERSKATES",
         "ORTHODOX",
         "LODGE",
-        "BLACKBEAR",
+        "CLIFFHANGER",
         "SHOWROOM",
         "SOAR",
         "JACKSONVILLE",
-        "ROOSTER",
+        "CLUELESS",
         "NATURALIZE"
       ]
     },
     {
       "name": "Television: Retro Recall",
       "words": [
-        "ASTRONAUT",
+        "COCO",
         "DIP",
         "SPARROWS",
         "MONITORS",
@@ -1301,15 +1301,15 @@
       "words": [
         "HORSEBACK",
         "FINS",
-        "CLIMATE",
+        "COLDPLAY",
         "CONGO",
         "FARMROAD",
         "MINISKIRT",
         "MIDLAND",
         "LAMBORGHINI",
         "FIREFLIES",
-        "HAUNTEDHOUSE",
-        "MOVEMENT",
+        "COLLECTING",
+        "COLLECTOR",
         "PASSPORT"
       ]
     },
@@ -1323,8 +1323,8 @@
         "CHOPPER",
         "CRANKSHAFT",
         "HOMEVIDEO",
-        "REFUGE",
-        "SUMMIT",
+        "COMEDIAN",
+        "COMEDY",
         "NEGATIVE",
         "SHAKE",
         "GULPER"
@@ -1335,13 +1335,13 @@
       "words": [
         "FARMERSMARKET",
         "SERIAL",
-        "FISH",
+        "COMEDYNIGHT",
         "ANOLIS",
         "BAIT",
         "CLINGMANSDOME",
         "SOCCER",
         "TAILLIGHT",
-        "WALK",
+        "COMICARTIST",
         "VIDEOGAME",
         "TECHNO",
         "BEAVER"
@@ -1355,7 +1355,7 @@
         "MORAN",
         "SAFEDRIVER",
         "CELLULOID",
-        "RED",
+        "COMICBOOK",
         "MAPAPP",
         "WILDFLOWERS",
         "UTV",
@@ -1372,7 +1372,7 @@
         "ESCALATOR",
         "LANDFORM",
         "YARIS",
-        "JUSTICE",
+        "COMICCON",
         "AUDITORIUM",
         "ACTOR",
         "TOWER",
@@ -1402,13 +1402,13 @@
       "name": "Coffeehouse: Retro Recall",
       "words": [
         "OPENMIC",
-        "ARCADES",
+        "COMICSTRIP",
         "LEGION",
         "OAKSAVANNA",
         "POPULAR",
         "RAMP",
         "SOCIAL",
-        "CHAMELEON",
+        "CONCERT",
         "MARINE",
         "EYELINER",
         "INCA",
@@ -1422,14 +1422,14 @@
         "CATS",
         "LINE",
         "COHORT",
-        "FERN",
+        "CONCERTTICKET",
         "SPINES",
         "POLLUTION",
         "TYPEWRITER",
         "XTERRA",
         "SPOTTED",
         "TIGER",
-        "PAGE"
+        "CONCERTTOUR"
       ]
     },
     {
@@ -1452,8 +1452,8 @@
     {
       "name": "Mod Fashion: Back in the Day",
       "words": [
-        "TIDE",
-        "DUCKLING",
+        "COSTUME",
+        "COSTUMEPLAY",
         "CARMEET",
         "PUZZLES",
         "SMOKYMOUNTAINS",
@@ -1473,7 +1473,7 @@
         "CAMPFIRE",
         "SIDEBYSIDE",
         "POWERPOINT",
-        "OCEANS",
+        "COUNTRYMUSIC",
         "SCUTTLE",
         "CLOCK",
         "CROWD",
@@ -1494,8 +1494,8 @@
         "BODACIOUS",
         "USB",
         "HONEY",
-        "TRAVEL",
-        "PARK",
+        "CPO",
+        "CREATOR",
         "ARCHITECT",
         "SHIELD"
       ]
@@ -1522,8 +1522,8 @@
       "words": [
         "GRANOLA",
         "VISUALS",
-        "DESERTVIEW",
-        "WICKER",
+        "CROSSOVER",
+        "CULTCLASSIC",
         "DAKOTA",
         "CARPHONE",
         "REEF",
@@ -1537,7 +1537,7 @@
     {
       "name": "Space Race: Back in the Day",
       "words": [
-        "SUN",
+        "CULTUREBUZZ",
         "CROCODILES",
         "SNEAKERS",
         "FAXMACHINE",
@@ -1546,7 +1546,7 @@
         "STATEHOOD",
         "TIGUAN",
         "FRONTSEAT",
-        "SPINNER",
+        "CULTURECLUB",
         "ARMADILLO",
         "WHALE"
       ]
@@ -1554,7 +1554,7 @@
     {
       "name": "Flower Power: Back in the Day",
       "words": [
-        "GROUPER",
+        "DANCECHALLENGE",
         "HUMAN",
         "BACTRIAN",
         "IMAGINE",
@@ -1564,7 +1564,7 @@
         "HIGHLIGHT",
         "CAMPGROUND",
         "THRIVE",
-        "KINGSCANYON",
+        "DANCECREW",
         "HUMOR"
       ]
     },
@@ -1575,8 +1575,8 @@
         "SOARING",
         "ROCKCRAWLING",
         "COMMENTARY",
-        "CLIFF",
-        "COUNTDOWN",
+        "DANCEFLOOR",
+        "DANCEHALL",
         "ENCLOSURE",
         "FRIES",
         "MARBLES",
@@ -1590,13 +1590,13 @@
       "words": [
         "YOSEMITEFALLS",
         "CAMPOUT",
-        "COMMUNICATE",
+        "DANCEPARTY",
         "GUARD",
         "GELATIN",
         "HOLDFAST",
         "ELANTRA",
         "INSTRUCTOR",
-        "AUTUMN",
+        "DANCEPOP",
         "PANELS",
         "DEPTH",
         "SNACKBAR"
@@ -1606,13 +1606,13 @@
       "name": "Coffeehouse: Back in the Day",
       "words": [
         "IGNITION",
-        "ALTITUDE",
+        "DANCER",
         "LUNCH",
         "GLS",
-        "SLEEP",
+        "DAREDEVIL",
         "GOGO",
         "NUGGET",
-        "BEEHIVE",
+        "DARTHVADER",
         "BRAKEFLUID",
         "QUARTERS",
         "SQUAREDANCE",
@@ -1633,7 +1633,7 @@
         "WITTY",
         "ZONE",
         "DRYLAKE",
-        "PIER"
+        "DAYTIME"
       ]
     },
     {
@@ -1643,14 +1643,14 @@
         "FLOAT",
         "ROMANCE",
         "SOFA",
-        "SCARECROW",
+        "DEADPOOL",
         "REGISTRATION",
         "NATIONAL",
         "RAIDER",
         "WHOOPIEPIE",
         "RADICAL",
         "HOMEY",
-        "SAGE"
+        "DESPICABLEME"
       ]
     },
     {
@@ -1692,14 +1692,14 @@
       "words": [
         "GHOST",
         "PECTORAL",
-        "PAN",
-        "CAVERN",
+        "DESTINYSCHILD",
+        "DETECTIVE",
         "BLENNY",
-        "AGAVE",
+        "DIGITALART",
         "ROADWORK",
         "PAWS",
         "SKATESHOP",
-        "STABLE",
+        "DIGITALCREATOR",
         "KNOT",
         "FUELINJECTOR"
       ]
@@ -1744,5 +1744,12 @@
       "Travel and Geography"
     ],
     "checked_at": "2026-08-22T10:08:37"
+  },
+  "quality_review": {
+    "checked_at": "20260824-213612",
+    "source": "verified_word_intelligence_repair",
+    "verdict": "PASS_WITH_NOTES",
+    "production_ready": false,
+    "changes": 155
   }
 }

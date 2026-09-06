@@ -1,0 +1,23 @@
+{
+  "built_at": "2026-08-28T05:05:12+00:00",
+  "engine_version": "word_intelligence_phase1",
+  "missing_sources": [],
+  "record_count": 51351,
+  "schema_version": 1,
+  "source_hashes": {
+    "candidate_catalog": "68a3cf2f7665bb3d647184eba105228a3ce316c4f64c9f78f5335d843c535cbf",
+    "content_library": "c513fe8d3c3c0ad64c7ba91b3f70e1353ba182e496ba51578ee9d46cf3873fc4",
+    "curated_seeds": "28fcb42a4609f2193e92584a55bba466e5fe9362da3c7d6bef0448473e23374f",
+    "dictionary": "3ed0c94610d8bcf7c11bbb49c56aa49c7234d32b66824df91f554169e572da48",
+    "grade_bands": "f2a6e5094cb273e70e4cde79114cd74cd95b01896decf6702c6385d85a92687a",
+    "master_bank": "111d3fcead5a3479bb2efec505d2d0c5a8fbec4a9e58f60349c677390b394b73"
+  },
+  "source_paths": {
+    "candidate_catalog": "word_banks/source_data/dwyl_topic_candidate_catalog.json",
+    "content_library": "word_banks/puzzle_content_library.json",
+    "curated_seeds": "word_banks/word_intelligence/curated_seeds.json",
+    "dictionary": "word_banks/source_data/dwyl_words_alpha.txt",
+    "grade_bands": "word_banks/source_data/education_grade_word_bands.json",
+    "master_bank": "word_banks/Guided_Builder_Master_Word_Bank.json"
+  }
+}

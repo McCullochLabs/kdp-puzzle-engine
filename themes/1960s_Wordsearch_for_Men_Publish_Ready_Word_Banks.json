@@ -13,8 +13,8 @@
         "FURRY",
         "FREEWAY",
         "RECORD",
-        "TOMB",
-        "TEXTMESSAGE",
+        "ACCELERATOR",
+        "ACCESSORY",
         "CARSEATCOVER",
         "CLEVER",
         "CANDLE",
@@ -65,7 +65,7 @@
         "CROCODILE",
         "RECYCLE",
         "FASTFORWARD",
-        "SKATE",
+        "ACCORD",
         "PIE",
         "WORDSEARCH",
         "KRILL",
@@ -76,7 +76,7 @@
       "name": "Toys & Games",
       "words": [
         "FOG",
-        "COMICBOOK",
+        "ACCORDHYBRID",
         "PANTHERS",
         "CAST",
         "BMX",
@@ -92,9 +92,9 @@
     {
       "name": "Everyday Home",
       "words": [
-        "CENTURION",
+        "ACORN",
         "MAXIDRESS",
-        "FLAMINGO",
+        "ACURA",
         "CHAINWALLET",
         "TALENT",
         "VICTORIA",
@@ -109,7 +109,7 @@
     {
       "name": "Flower Power",
       "words": [
-        "RHYTHM",
+        "ADVENTURE",
         "HUMAN",
         "FLOPPYDISK",
         "ANTIQUES",
@@ -202,7 +202,7 @@
         "FLEETWOOD",
         "ZION",
         "CONTROLARM",
-        "READERS",
+        "ADVENTURETRAIL",
         "TSX",
         "CDROM",
         "PINUPS"
@@ -211,9 +211,9 @@
     {
       "name": "Space Race: Essentials",
       "words": [
-        "DIRECTOR",
+        "AEROSTAR",
         "QUAY",
-        "BILLBOARD",
+        "AIRCONDITIONER",
         "BEHAVIOR",
         "LANDMARK",
         "SILLY",
@@ -229,7 +229,7 @@
       "name": "Road Trip: Essentials",
       "words": [
         "PHOENIX",
-        "GAMEOVER",
+        "AIRFILTER",
         "WACO",
         "BISBEE",
         "INSPECTION",
@@ -245,7 +245,7 @@
     {
       "name": "Beach & Surf: Essentials",
       "words": [
-        "DOWNLOAD",
+        "AIRFRESHENER",
         "WINDSTAR",
         "SPHINX",
         "COMPACTCAR",
@@ -281,7 +281,7 @@
       "words": [
         "SPORTSCAR",
         "ESTUARY",
-        "VIDEOGAME",
+        "AIRPORT",
         "HOTSAUCE",
         "NEON",
         "REELS",
@@ -301,7 +301,7 @@
         "ROOSTER",
         "HOOK",
         "ASSAY",
-        "FABRIC",
+        "AIRPUMP",
         "DAMA",
         "PHOTO",
         "HYBRIDCAR",
@@ -316,7 +316,7 @@
         "MOVIES",
         "WATERTOWER",
         "WILD",
-        "FARM",
+        "ALASKAPARKS",
         "COCONUT",
         "BELLBOTTOMS",
         "CREATIVE",
@@ -351,10 +351,10 @@
         "RANCHHAND",
         "GROUSE",
         "BALCONY",
-        "FAITH",
+        "ALERO",
         "SOVEREIGN",
         "MEDUSA",
-        "CHURCH",
+        "ALIGNMENT",
         "BRAZOSBEND",
         "STEEL",
         "FRONTSEAT",
@@ -367,15 +367,15 @@
         "SPIN",
         "SERFS",
         "GRID",
-        "OPENMIC",
+        "ALLIES",
         "MMA",
         "FUSION",
-        "HARMONY",
+        "ALLWHEEL",
         "MAYAN",
         "SPARETIRE",
         "PULSAR",
         "CHANGE",
-        "SNAKE"
+        "ALPINE"
       ]
     },
     {
@@ -488,7 +488,7 @@
         "TWILIGHT",
         "JETSKI",
         "NARRATIVE",
-        "BOARDGAME",
+        "ALPINEFOREST",
         "CONVENT",
         "DESERTROAD",
         "SHELTERS",
@@ -538,7 +538,7 @@
         "AUSTEN",
         "MEMORIAL",
         "SCOUT",
-        "MUSICIAN",
+        "ALPINEGLOW",
         "CATTLEDRIVE",
         "ROADGAMES",
         "OAKLAND",
@@ -603,12 +603,12 @@
       "name": "Mod Fashion: Memory Lane",
       "words": [
         "CLAM",
-        "TRIVIA",
+        "ALPINEHUT",
         "BMW",
         "PENNSYLVANIA",
         "JALAPENO",
         "SORENTO",
-        "BOYBAND",
+        "ALPINELAKE",
         "NAVIGATION",
         "TREASURES",
         "CHARGINGSTATION",
@@ -620,12 +620,12 @@
       "name": "Space Race: Everyday Memories",
       "words": [
         "PICKUPTRUCK",
-        "BANJO",
+        "ALPINEPASS",
         "MALL",
         "TRANSLATE",
         "EQUESTRIAN",
-        "WESTERN",
-        "FILMMAKER",
+        "ALPINEWILDFLOWER",
+        "ALTERNATOR",
         "TONE",
         "INDONESIA",
         "CRV",
@@ -689,7 +689,7 @@
       "words": [
         "COMPOSER",
         "SCHOOLDANCE",
-        "BARBECUE",
+        "ALTERNATORBELT",
         "HERMIT",
         "TRAILERPARK",
         "GLACIERPOINT",
@@ -707,7 +707,7 @@
         "JUDGE",
         "PUTTER",
         "AQUATIC",
-        "PAPER",
+        "ALTIMA",
         "SHUTTLEBUS",
         "BUTTERFLY",
         "SAGEBRUSH",
@@ -746,9 +746,9 @@
         "BIOLOGY",
         "SING",
         "PLAYGROUND",
-        "PATTERN",
+        "AMBULANCE",
         "CENTRALPA",
-        "PEACE",
+        "AMERICA",
         "CHEST"
       ]
     },
@@ -808,7 +808,7 @@
       "words": [
         "MARINE",
         "MONTERO",
-        "GAMECONSOLE",
+        "AMERICANALLIGATOR",
         "ENTERPRISE",
         "GOGO",
         "VOYAGER",
@@ -843,13 +843,13 @@
         "FRINGE",
         "POUCH",
         "TELESCOPE",
-        "LETTER",
+        "AMIGO",
         "MANATEES",
         "CONCESS",
         "WAX",
         "JOURNEY",
         "SCENIC",
-        "VINEYARD",
+        "AMPERA",
         "SHOPPE",
         "LAPTOP"
       ]
@@ -893,5 +893,12 @@
       "Travel and Geography"
     ],
     "checked_at": "2026-08-22T10:08:37"
+  },
+  "quality_review": {
+    "checked_at": "20260824-213612",
+    "source": "verified_word_intelligence_repair",
+    "verdict": "PASS_WITH_NOTES",
+    "production_ready": false,
+    "changes": 34
   }
 }

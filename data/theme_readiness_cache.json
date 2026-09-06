@@ -8,10 +8,15 @@
   },
   "C:\\Users\\jorda\\Desktop\\Word Search Creator\\kdp-puzzle-engine\\themes\\Launch Collection\\Verified Release Candidates\\advanced_vocabulary_challenge.json": {
     "fingerprint": "313d4b08238c30577863d14d67e1f23865d77ffb67241fb901995475c2c69866",
-    "status": "Passed",
+    "status": "Passed with notes",
     "errors": [],
-    "warnings": [],
-    "checked_at": "2026-08-23T14:25:48"
+    "warnings": [
+      "Some shared vocabulary with 'Vocabulary Mastery: High School \u2014 Signature Edition' (48%). Review it before publishing both books.",
+      "Production truth: One mini-theme dominates the book",
+      "Production truth: 48 puzzle label(s) do not clearly match this topic (for example, 'Traditions 1'). Rename them or use simple Puzzle numbers."
+    ],
+    "checked_at": "2026-08-28T22:08:32",
+    "gate_version": 2
   },
   "C:\\Users\\jorda\\Desktop\\Word Search Creator\\kdp-puzzle-engine\\themes\\Launch Collection\\Verified Release Candidates\\classic_cars_road_trips.json": {
     "fingerprint": "dbb64ee34fb77abc020b65d5c6637cc88e022ad0d59f400b491bdaf9dd3e3e0d",
@@ -31,5 +36,658 @@
       "Some shared vocabulary with 'Garden Lovers Word Search' (45%). Review it before publishing both books."
     ],
     "checked_at": "2026-08-23T14:27:13"
+  },
+  "C:\\Users\\jorda\\Desktop\\Word Search Creator\\kdp-puzzle-engine\\themes\\Market Opportunity Collection\\market_03_gardening_word_search_flowers_and_homegrown_fun.json": {
+    "fingerprint": "20b42f6bee169d6084482c0c1c4ddb1fcec5902b2a0c89356da6421cfd028bc5",
+    "status": "Blocked",
+    "errors": [
+      "This theme's verified word-quality review is not production-ready (PASS_WITH_NOTES). Rebuild its word pool from the matching topic before creating a package.",
+      "Production stop: only 23% of recognized words match Gardening, Gardening and Garden Life, Nature. Rebuild the word pool before creating a package.",
+      "Protected-name safety stop: remove or replace the flagged brand, franchise, or celebrity terms before creating an automatic package.",
+      "Production truth: 258 word(s) point outside the topic and its anchors"
+    ],
+    "warnings": [
+      "Topic fit is only 23% against the closest Master Library topic(s): Gardening, Gardening and Garden Life, Nature. Review the word bank so the cover promise matches the puzzles.",
+      "Rights review needed for possible protected names: MARIO. Remove them from automatic books unless you have permission. This is a review reminder, not legal advice.",
+      "Production truth: 17 review-tier word(s) need human eyes",
+      "Production truth: One mini-theme dominates the book",
+      "Production truth: 48 puzzle label(s) do not clearly match this topic (for example, 'Gardening Word Search: Flowers and Homegrown Fun Puzzle 001'). Rename them or use simple Puzzle numbers."
+    ],
+    "checked_at": "2026-08-26T12:28:23",
+    "gate_version": 2
+  },
+  "C:\\Users\\jorda\\Desktop\\Word Search Creator\\kdp-puzzle-engine\\themes\\Market Opportunity Collection\\market_04_national_parks_word_search_trails_and_wonders.json": {
+    "fingerprint": "bc379f737679e6e555e3b3fb2e87a8adbc43bb08c007ac9d0c8c76b5e185772e",
+    "status": "Blocked",
+    "errors": [
+      "This theme's verified word-quality review is not production-ready (PASS_WITH_NOTES). Rebuild its word pool from the matching topic before creating a package.",
+      "Production stop: only 10% of recognized words match National Parks, Nature, Travel and Geography. Rebuild the word pool before creating a package.",
+      "Production truth: 277 word(s) point outside the topic and its anchors"
+    ],
+    "warnings": [
+      "Topic fit is only 10% against the closest Master Library topic(s): National Parks, Nature, Travel and Geography. Review the word bank so the cover promise matches the puzzles.",
+      "Production truth: One mini-theme dominates the book",
+      "Production truth: 48 puzzle label(s) do not clearly match this topic (for example, 'National Parks Word Search: Trails and Wonders Puzzle 001'). Rename them or use simple Puzzle numbers."
+    ],
+    "checked_at": "2026-08-26T12:28:25",
+    "gate_version": 2
+  },
+  "C:\\Users\\jorda\\Desktop\\Word Search Creator\\kdp-puzzle-engine\\themes\\popular_03_horselover.json": {
+    "fingerprint": "e8ef662645860c6bdd80bc5d777a97073a237e65ed5fdce4f8fc6a40f1f130a0",
+    "status": "Blocked",
+    "errors": [
+      "This book is very similar to 'Farm Animals Word Search' (100% shared vocabulary). Choose a fresh word bank before publishing both.",
+      "Production stop: only 4% of recognized words match Farm Country and Rural Life, Outdoor Adventure. Rebuild the word pool before creating a package."
+    ],
+    "warnings": [
+      "Some shared vocabulary with 'Coffee and Tea Word Search' (53%). Review it before publishing both books.",
+      "Some shared vocabulary with 'Wine and Cheese Word Search' (53%). Review it before publishing both books.",
+      "Topic fit is only 4% against the closest Master Library topic(s): Farm Country and Rural Life, Outdoor Adventure. Review the word bank so the cover promise matches the puzzles.",
+      "Production truth: One mini-theme dominates the book",
+      "Production truth: This topic does not yet have a reviewed mini-theme map; coherence cannot be certified",
+      "Production truth: This topic needs a reviewed mini-theme map before the app can certify puzzle coherence."
+    ],
+    "checked_at": "2026-08-26T12:32:40",
+    "gate_version": 2
+  },
+  "C:\\Users\\jorda\\Desktop\\Word Search Creator\\kdp-puzzle-engine\\themes\\popular_08_worldcountriesandcapitals.json": {
+    "fingerprint": "77d593625955e763814419979b6bfc06440144725d23d60d88eec56a0e891014",
+    "status": "Blocked",
+    "errors": [
+      "Production stop: only 3% of recognized words match Travel and Geography, Travel Road Trips and Getaways, US Geography and Landmarks. Rebuild the word pool before creating a package."
+    ],
+    "warnings": [
+      "Topic fit is only 3% against the closest Master Library topic(s): Travel and Geography, Travel Road Trips and Getaways, US Geography and Landmarks. Review the word bank so the cover promise matches the puzzles.",
+      "Production truth: One mini-theme dominates the book",
+      "Production truth: This topic does not yet have a reviewed mini-theme map; coherence cannot be certified",
+      "Production truth: This topic needs a reviewed mini-theme map before the app can certify puzzle coherence."
+    ],
+    "checked_at": "2026-08-26T12:32:41",
+    "gate_version": 2
+  },
+  "C:\\Users\\jorda\\Desktop\\Word Search Creator\\kdp-puzzle-engine\\themes\\christmas_100.json": {
+    "fingerprint": "81a6a6ccd758185d06c32ddaa7944f0028c42a3af0167aa87d7a0d82effda92d",
+    "status": "Blocked",
+    "errors": [
+      "This book is very similar to 'Christmas Traditions Word Search' (100% shared vocabulary). Choose a fresh word bank before publishing both.",
+      "Production stop: only 69% of recognized words match Christmas, Christmas and Winter, Holiday and Seasonal Life. Rebuild the word pool before creating a package."
+    ],
+    "warnings": [
+      "Some shared vocabulary with 'Holiday Celebrations Word Search' (57%). Review it before publishing both books.",
+      "Some shared vocabulary with 'Haunted Halloween Word Search' (52%). Review it before publishing both books.",
+      "Cover/listing text mentions 100 puzzles, but this theme contains 48. Update the promise before publishing.",
+      "Production truth: One mini-theme dominates the book",
+      "Production truth: 48 puzzle label(s) do not clearly match this topic (for example, 'Christmas Puzzle 001'). Rename them or use simple Puzzle numbers.",
+      "KDP listing review: No series is assigned. Leave the KDP series field blank unless this book truly belongs to an established series."
+    ],
+    "checked_at": "2026-08-26T12:33:44",
+    "gate_version": 2
+  },
+  "C:\\Users\\jorda\\Desktop\\Word Search Creator\\kdp-puzzle-engine\\themes\\halloween_100.json": {
+    "fingerprint": "4fb350cf8f348975203344372c61b1e954889b8f31d0354919ad74cfe0b48c52",
+    "status": "Blocked",
+    "errors": [
+      "Production stop: only 64% of recognized words match Halloween, Halloween Autumn and Harvest. Rebuild the word pool before creating a package."
+    ],
+    "warnings": [
+      "Some shared vocabulary with 'Seasonal Celebrations Word Search' (56%). Review it before publishing both books.",
+      "Some shared vocabulary with 'Cozy Autumn Word Search' (56%). Review it before publishing both books.",
+      "Some shared vocabulary with 'Weather and Climate Word Search' (54%). Review it before publishing both books.",
+      "Cover/listing text mentions 100 puzzles, but this theme contains 48. Update the promise before publishing.",
+      "Production truth: One mini-theme dominates the book",
+      "Production truth: This topic does not yet have a reviewed mini-theme map; coherence cannot be certified",
+      "Production truth: This topic needs a reviewed mini-theme map before the app can certify puzzle coherence.",
+      "KDP listing review: No series is assigned. Leave the KDP series field blank unless this book truly belongs to an established series."
+    ],
+    "checked_at": "2026-08-26T12:33:45",
+    "gate_version": 2
+  },
+  "C:\\Users\\jorda\\Desktop\\Word Search Creator\\kdp-puzzle-engine\\themes\\popular_12_coffeeandtea.json": {
+    "fingerprint": "1d37922639a672aad84efdcbae80b1a92f91d45696f16ec60ae5f2856a0e4ca4",
+    "status": "Blocked",
+    "errors": [
+      "This book is very similar to 'Wine and Cheese Word Search' (100% shared vocabulary). Choose a fresh word bank before publishing both.",
+      "Production stop: only 31% of recognized words match Baking and Food, Garden to Table. Rebuild the word pool before creating a package."
+    ],
+    "warnings": [
+      "Some shared vocabulary with 'Horse Lover Word Search' (53%). Review it before publishing both books.",
+      "Some shared vocabulary with 'Farm Animals Word Search' (53%). Review it before publishing both books.",
+      "Production truth: One mini-theme dominates the book",
+      "Production truth: This topic does not yet have a reviewed mini-theme map; coherence cannot be certified",
+      "Production truth: This topic needs a reviewed mini-theme map before the app can certify puzzle coherence."
+    ],
+    "checked_at": "2026-08-26T12:33:46",
+    "gate_version": 2
+  },
+  "C:\\Users\\jorda\\Desktop\\Word Search Creator\\kdp-puzzle-engine\\themes\\popular_14_fishing.json": {
+    "fingerprint": "eab3ebdad0c3d6d5ece498c2dd20c64489176232c057e648da7a8b17850d5482",
+    "status": "Blocked",
+    "errors": [
+      "Production stop: only 6% of recognized words match Outdoor Adventure, Coastal Lake and River Life, Nature. Rebuild the word pool before creating a package."
+    ],
+    "warnings": [
+      "Topic fit is only 6% against the closest Master Library topic(s): Outdoor Adventure, Coastal Lake and River Life, Nature. Review the word bank so the cover promise matches the puzzles.",
+      "Production truth: One mini-theme dominates the book",
+      "Production truth: This topic does not yet have a reviewed mini-theme map; coherence cannot be certified",
+      "Production truth: This topic needs a reviewed mini-theme map before the app can certify puzzle coherence."
+    ],
+    "checked_at": "2026-08-26T12:33:47",
+    "gate_version": 2
+  },
+  "C:\\Users\\jorda\\Desktop\\Word Search Creator\\kdp-puzzle-engine\\themes\\reptiles_48.json": {
+    "fingerprint": "5385210a59681a0467b9f5acc5b47606fc487ca310e6d0fb109414958a4392ba",
+    "status": "Blocked",
+    "errors": [
+      "Production stop: only 4% of recognized words match Nature, Forest Wildlife and Outdoors. Rebuild the word pool before creating a package."
+    ],
+    "warnings": [
+      "Topic fit is only 4% against the closest Master Library topic(s): Nature, Forest Wildlife and Outdoors. Review the word bank so the cover promise matches the puzzles.",
+      "Production truth: One mini-theme dominates the book",
+      "Production truth: This topic does not yet have a reviewed mini-theme map; coherence cannot be certified",
+      "Production truth: This topic needs a reviewed mini-theme map before the app can certify puzzle coherence.",
+      "KDP listing review: No series is assigned. Leave the KDP series field blank unless this book truly belongs to an established series."
+    ],
+    "checked_at": "2026-08-26T12:33:48",
+    "gate_version": 2
+  },
+  "C:\\Users\\jorda\\Desktop\\Word Search Creator\\kdp-puzzle-engine\\themes\\signature_herbsfruitsandvegetableswordsearch.json": {
+    "fingerprint": "d906d08bff8f482bd8749fecdb47fd87e1e7ac6bee3dfd2d8ed28a9ff46b544e",
+    "status": "Blocked",
+    "errors": [
+      "Production stop: only 33% of recognized words match Herbs Fruits and Vegetables, Word Skills and Brain Games, Wellness and Self Care. Rebuild the word pool before creating a package.",
+      "Production truth: 378 word(s) point outside the topic and its anchors"
+    ],
+    "warnings": [
+      "Some shared vocabulary with 'Signature Gardening Word Search' (48%). Review it before publishing both books.",
+      "Cover/listing text mentions 60 puzzles, but this theme contains 100. Update the promise before publishing.",
+      "Production truth: 58 review-tier word(s) need human eyes",
+      "Production truth: One mini-theme dominates the book",
+      "Production truth: 100 puzzle label(s) do not clearly match this topic (for example, 'Herbs Fruits and Vegetables Puzzle 001'). Rename them or use simple Puzzle numbers.",
+      "KDP listing review: No series is assigned. Leave the KDP series field blank unless this book truly belongs to an established series."
+    ],
+    "checked_at": "2026-08-26T12:34:10",
+    "gate_version": 2
+  },
+  "C:\\Users\\jorda\\Desktop\\Word Search Creator\\kdp-puzzle-engine\\themes\\signature_homesteadingwordsearch.json": {
+    "fingerprint": "54fd880f97aae1f71b0d2a23b7bf6ce33b2667d194e99a37c0b6ea096bc9f591",
+    "status": "Blocked",
+    "errors": [
+      "Production truth: 385 word(s) point outside the topic and its anchors"
+    ],
+    "warnings": [
+      "Some shared vocabulary with 'Horse Lover Word Search' (45%). Review it before publishing both books.",
+      "Some shared vocabulary with 'Farm Animals Word Search' (45%). Review it before publishing both books.",
+      "Cover/listing text mentions 60 puzzles, but this theme contains 100. Update the promise before publishing.",
+      "Clean-library topic check: 70% of recognized words match the intended topic. Strengthen the word bank before publishing.",
+      "Production truth: 68 review-tier word(s) need human eyes",
+      "Production truth: One mini-theme dominates the book",
+      "Production truth: This topic does not yet have a reviewed mini-theme map; coherence cannot be certified",
+      "Production truth: This topic needs a reviewed mini-theme map before the app can certify puzzle coherence.",
+      "KDP listing review: No series is assigned. Leave the KDP series field blank unless this book truly belongs to an established series."
+    ],
+    "checked_at": "2026-08-26T12:34:11",
+    "gate_version": 2
+  },
+  "C:\\Users\\jorda\\Desktop\\Word Search Creator\\kdp-puzzle-engine\\themes\\signature_signaturegardeningwordsearch.json": {
+    "fingerprint": "d6081e9f8e550edbef0a8a87a33405441756fd95e2f380b5a58e2eb6b4908723",
+    "status": "Blocked",
+    "errors": [
+      "Production truth: 369 word(s) point outside the topic and its anchors"
+    ],
+    "warnings": [
+      "Some shared vocabulary with 'Herbs Fruits and Vegetables Word Search' (48%). Review it before publishing both books.",
+      "Cover/listing text mentions 60 puzzles, but this theme contains 100. Update the promise before publishing.",
+      "Clean-library topic check: 70% of recognized words match the intended topic. Strengthen the word bank before publishing.",
+      "Production truth: 59 review-tier word(s) need human eyes",
+      "Production truth: One mini-theme dominates the book",
+      "Production truth: This topic does not yet have a reviewed mini-theme map; coherence cannot be certified",
+      "Production truth: This topic needs a reviewed mini-theme map before the app can certify puzzle coherence.",
+      "KDP listing review: No series is assigned. Leave the KDP series field blank unless this book truly belongs to an established series."
+    ],
+    "checked_at": "2026-08-26T12:34:13",
+    "gate_version": 2
+  },
+  "C:\\Users\\jorda\\Desktop\\Word Search Creator\\kdp-puzzle-engine\\themes\\signature_flavors_of_the_world.json": {
+    "fingerprint": "b2670bd9652c466b99d916967526e0b9f2021e3ffc7fb44971a89c79eba2e7ee",
+    "status": "Blocked",
+    "errors": [
+      "Production stop: only 9% of recognized words match Baking and Food, Nature, Word Skills and Brain Games. Rebuild the word pool before creating a package.",
+      "Production truth: 329 word(s) point outside the topic and its anchors"
+    ],
+    "warnings": [
+      "Some shared vocabulary with 'Coffee and Tea Word Search' (47%). Review it before publishing both books.",
+      "Some shared vocabulary with 'Wine and Cheese Word Search' (47%). Review it before publishing both books.",
+      "Topic fit is only 9% against the closest Master Library topic(s): Baking and Food, Nature, Word Skills and Brain Games. Review the word bank so the cover promise matches the puzzles.",
+      "Cover/listing text mentions 60 puzzles, but this theme contains 100. Update the promise before publishing.",
+      "Production truth: 68 review-tier word(s) need human eyes",
+      "Production truth: One mini-theme dominates the book",
+      "Production truth: This topic does not yet have a reviewed mini-theme map; coherence cannot be certified",
+      "Production truth: This topic needs a reviewed mini-theme map before the app can certify puzzle coherence."
+    ],
+    "checked_at": "2026-08-26T12:34:14",
+    "gate_version": 2
+  },
+  "C:\\Users\\jorda\\Desktop\\Word Search Creator\\kdp-puzzle-engine\\themes\\thanksgiving_100.json": {
+    "fingerprint": "c5552ecc07e2a965bd85adddb31bf19ee9a79e26447cf4e7342fc47fe050ee83",
+    "status": "Blocked",
+    "errors": [
+      "Protected-name safety stop: remove or replace the flagged brand, franchise, or celebrity terms before creating an automatic package."
+    ],
+    "warnings": [
+      "Rights review needed for possible protected names: HARRYPOTTER, MARIO. Remove them from automatic books unless you have permission. This is a review reminder, not legal advice.",
+      "Clean-library topic check: 70% of recognized words match the intended topic. Strengthen the word bank before publishing.",
+      "KDP listing review: No series is assigned. Leave the KDP series field blank unless this book truly belongs to an established series."
+    ],
+    "checked_at": "2026-08-26T12:34:15",
+    "gate_version": 2
+  },
+  "C:\\Users\\jorda\\Desktop\\Word Search Creator\\kdp-puzzle-engine\\themes\\pets_100.json": {
+    "fingerprint": "1dc10454368fd9525d7eb96a2216587034734fad209ccad9eea4fc4ad0401a32",
+    "status": "Blocked",
+    "errors": [
+      "Production stop: only 65% of recognized words match Pets and Animal Care, Cats & Pets, Dogs & Pets. Rebuild the word pool before creating a package."
+    ],
+    "warnings": [
+      "Cover/listing text mentions 100 puzzles, but this theme contains 48. Update the promise before publishing.",
+      "Production truth: One mini-theme dominates the book",
+      "Production truth: This topic does not yet have a reviewed mini-theme map; coherence cannot be certified",
+      "Production truth: This topic needs a reviewed mini-theme map before the app can certify puzzle coherence.",
+      "KDP listing review: No series is assigned. Leave the KDP series field blank unless this book truly belongs to an established series."
+    ],
+    "checked_at": "2026-08-26T12:34:16",
+    "gate_version": 2
+  },
+  "C:\\Users\\jorda\\Desktop\\Word Search Creator\\kdp-puzzle-engine\\themes\\Market Opportunity Collection\\market_13_american_history_word_search.json": {
+    "fingerprint": "fb7dfbf274f48c0c0ff1d6fbb5ed6014bf5c19263fbdf078430c1e9fceb10f99",
+    "status": "Blocked",
+    "errors": [
+      "This book is very similar to 'US History for Adults' (100% shared vocabulary). Choose a fresh word bank before publishing both.",
+      "This book is very similar to 'US History for Teens' (100% shared vocabulary). Choose a fresh word bank before publishing both.",
+      "This book is very similar to 'World War II History for Men' (100% shared vocabulary). Choose a fresh word bank before publishing both.",
+      "Production stop: only 11% of recognized words match American History, American Heritage. Rebuild the word pool before creating a package."
+    ],
+    "warnings": [
+      "Topic fit is only 11% against the closest Master Library topic(s): American History, American Heritage. Review the word bank so the cover promise matches the puzzles.",
+      "Production truth: One mini-theme dominates the book",
+      "Production truth: This topic does not yet have a reviewed mini-theme map; coherence cannot be certified",
+      "Production truth: This topic needs a reviewed mini-theme map before the app can certify puzzle coherence."
+    ],
+    "checked_at": "2026-08-26T12:34:17",
+    "gate_version": 2
+  },
+  "C:\\Users\\jorda\\Desktop\\Word Search Creator\\kdp-puzzle-engine\\themes\\Vocabulary Ladder Collection\\vocabulary_adventures_grade_school.json": {
+    "fingerprint": "9943ab6601a52bf8a841b9e179d489fdb0274e18793c03f37e985fa0cb01f1c5",
+    "status": "Passed with notes",
+    "errors": [],
+    "warnings": [
+      "Production truth: One mini-theme dominates the book",
+      "Production truth: 48 puzzle label(s) do not clearly match this topic (for example, 'Everyday Words'). Rename them or use simple Puzzle numbers."
+    ],
+    "checked_at": "2026-08-26T12:36:08",
+    "gate_version": 2
+  },
+  "C:\\Users\\jorda\\Desktop\\Word Search Creator\\kdp-puzzle-engine\\themes\\Vocabulary Ladder Collection\\Grades 5 to 12\\Signature 100 Puzzle Editions\\vocabulary_ladder_grade_5_signature_100_puzzles_20260822_174220.json": {
+    "fingerprint": "22ab4700aba68e1788abc6d01a9b64d07c27606318aaceda2fafe3f971261217",
+    "status": "Blocked",
+    "errors": [
+      "This book is very similar to 'Vocabulary Ladder: Grade 5 Word Quest - Signature Edition' (100% shared vocabulary). Choose a fresh word bank before publishing both.",
+      "Production stop: Photo Hero needs a valid local cover picture."
+    ],
+    "warnings": [
+      "Production truth: One mini-theme dominates the book",
+      "Production truth: This topic does not yet have a reviewed mini-theme map; coherence cannot be certified",
+      "Production truth: This topic needs a reviewed mini-theme map before the app can certify puzzle coherence."
+    ],
+    "checked_at": "2026-08-26T12:34:39",
+    "gate_version": 2
+  },
+  "C:\\Users\\jorda\\Desktop\\Word Search Creator\\kdp-puzzle-engine\\themes\\Vocabulary Ladder Collection\\Grades 5 to 12\\Signature 100 Puzzle Editions\\vocabulary_ladder_grade_8_signature_100_puzzles_20260822_174220.json": {
+    "fingerprint": "f949a618d0c5c520c9d72616590c708f2a0e22bc5b4b6545d71dc12379cdb947",
+    "status": "Blocked",
+    "errors": [
+      "This book is very similar to 'Vocabulary Ladder: Grade 8 Word Quest - Signature Edition' (100% shared vocabulary). Choose a fresh word bank before publishing both.",
+      "Production stop: Photo Hero needs a valid local cover picture."
+    ],
+    "warnings": [
+      "Production truth: One mini-theme dominates the book",
+      "Production truth: This topic does not yet have a reviewed mini-theme map; coherence cannot be certified",
+      "Production truth: This topic needs a reviewed mini-theme map before the app can certify puzzle coherence."
+    ],
+    "checked_at": "2026-08-26T12:34:40",
+    "gate_version": 2
+  },
+  "C:\\Users\\jorda\\Desktop\\Word Search Creator\\kdp-puzzle-engine\\themes\\Vocabulary Ladder Collection\\word_wise_middle_school_vocabulary.json": {
+    "fingerprint": "4f15afcf99f48f1fb2b2e45ab59b5e9cd8201f064232488c2988656fe1685d33",
+    "status": "Blocked",
+    "errors": [
+      "Production truth: 40 word(s) point outside the topic and its anchors"
+    ],
+    "warnings": [
+      "Production truth: One mini-theme dominates the book",
+      "Production truth: 48 puzzle label(s) do not clearly match this topic (for example, 'Everyday Words'). Rename them or use simple Puzzle numbers."
+    ],
+    "checked_at": "2026-08-28T22:25:03",
+    "gate_version": 2
+  },
+  "C:\\Users\\jorda\\Desktop\\Word Search Creator\\kdp-puzzle-engine\\themes\\Vocabulary Ladder Collection\\vocabulary_mastery_high_school.json": {
+    "fingerprint": "2247daf1f77a21ffafd9be7e51765929fb19eb1961503b92d7fb3864412aa128",
+    "status": "Blocked",
+    "errors": [
+      "This book has only 16 puzzles. Slade production standard is at least 48 puzzles.",
+      "Production truth: 147 word(s) point outside the topic and its anchors"
+    ],
+    "warnings": [
+      "Production truth: One mini-theme dominates the book",
+      "Production truth: 16 puzzle label(s) do not clearly match this topic (for example, 'Everyday Words'). Rename them or use simple Puzzle numbers."
+    ],
+    "checked_at": "2026-08-26T12:35:15",
+    "gate_version": 2
+  },
+  "C:\\Users\\jorda\\Desktop\\Word Search Creator\\kdp-puzzle-engine\\themes\\Vocabulary Ladder Collection\\Grades 5 to 12\\vocabulary_ladder_grade_12.json": {
+    "fingerprint": "b6a799eb3739911c4a0bcf5288e91595b853466bb8dc8b5297ee35da0aa4115e",
+    "status": "Passed with notes",
+    "errors": [],
+    "warnings": [
+      "Production truth: One mini-theme dominates the book",
+      "Production truth: This topic does not yet have a reviewed mini-theme map; coherence cannot be certified",
+      "Production truth: This topic needs a reviewed mini-theme map before the app can certify puzzle coherence."
+    ],
+    "checked_at": "2026-08-26T12:35:17",
+    "gate_version": 2
+  },
+  "C:\\Users\\jorda\\Desktop\\Word Search Creator\\kdp-puzzle-engine\\themes\\Adult Collection\\cocktail_hour_word_search.json": {
+    "fingerprint": "ae6b9e790def4e9363a7383b64dd71ea754783607aaeaae4fa9ce2c088e5964b",
+    "status": "Blocked",
+    "errors": [
+      "Cocktail Hour, Nightlife & Social Club Puzzle 001: one or more words are blank or longer than 21 letters.",
+      "Cocktail Hour, Nightlife & Social Club Puzzle 002: one or more words are blank or longer than 21 letters.",
+      "Cocktail Hour, Nightlife & Social Club Puzzle 003: one or more words are blank or longer than 21 letters.",
+      "Cocktail Hour, Nightlife & Social Club Puzzle 004: one or more words are blank or longer than 21 letters.",
+      "Cocktail Hour, Nightlife & Social Club Puzzle 005: one or more words are blank or longer than 21 letters.",
+      "Cocktail Hour, Nightlife & Social Club Puzzle 006: one or more words are blank or longer than 21 letters.",
+      "Cocktail Hour, Nightlife & Social Club Puzzle 007: one or more words are blank or longer than 21 letters.",
+      "Cocktail Hour, Nightlife & Social Club Puzzle 008: one or more words are blank or longer than 21 letters.",
+      "Cocktail Hour, Nightlife & Social Club Puzzle 009: one or more words are blank or longer than 21 letters.",
+      "Cocktail Hour, Nightlife & Social Club Puzzle 010: one or more words are blank or longer than 21 letters.",
+      "Cocktail Hour, Nightlife & Social Club Puzzle 011: one or more words are blank or longer than 21 letters.",
+      "Cocktail Hour, Nightlife & Social Club Puzzle 012: one or more words are blank or longer than 21 letters.",
+      "Cocktail Hour, Nightlife & Social Club Puzzle 013: one or more words are blank or longer than 21 letters.",
+      "Cocktail Hour, Nightlife & Social Club Puzzle 014: one or more words are blank or longer than 21 letters.",
+      "Cocktail Hour, Nightlife & Social Club Puzzle 015: one or more words are blank or longer than 21 letters.",
+      "Cocktail Hour, Nightlife & Social Club Puzzle 016: one or more words are blank or longer than 21 letters.",
+      "Cocktail Hour, Nightlife & Social Club Puzzle 017: one or more words are blank or longer than 21 letters.",
+      "Cocktail Hour, Nightlife & Social Club Puzzle 018: one or more words are blank or longer than 21 letters.",
+      "Cocktail Hour, Nightlife & Social Club Puzzle 019: one or more words are blank or longer than 21 letters.",
+      "Cocktail Hour, Nightlife & Social Club Puzzle 020: one or more words are blank or longer than 21 letters.",
+      "Cocktail Hour, Nightlife & Social Club Puzzle 021: one or more words are blank or longer than 21 letters.",
+      "Cocktail Hour, Nightlife & Social Club Puzzle 022: one or more words are blank or longer than 21 letters.",
+      "Cocktail Hour, Nightlife & Social Club Puzzle 023: one or more words are blank or longer than 21 letters.",
+      "Cocktail Hour, Nightlife & Social Club Puzzle 024: one or more words are blank or longer than 21 letters.",
+      "Cocktail Hour, Nightlife & Social Club Puzzle 025: one or more words are blank or longer than 21 letters.",
+      "Cocktail Hour, Nightlife & Social Club Puzzle 026: one or more words are blank or longer than 21 letters.",
+      "Cocktail Hour, Nightlife & Social Club Puzzle 027: one or more words are blank or longer than 21 letters.",
+      "Cocktail Hour, Nightlife & Social Club Puzzle 028: one or more words are blank or longer than 21 letters.",
+      "Cocktail Hour, Nightlife & Social Club Puzzle 029: one or more words are blank or longer than 21 letters.",
+      "Cocktail Hour, Nightlife & Social Club Puzzle 030: one or more words are blank or longer than 21 letters.",
+      "Cocktail Hour, Nightlife & Social Club Puzzle 031: one or more words are blank or longer than 21 letters.",
+      "Cocktail Hour, Nightlife & Social Club Puzzle 032: one or more words are blank or longer than 21 letters.",
+      "Cocktail Hour, Nightlife & Social Club Puzzle 033: one or more words are blank or longer than 21 letters.",
+      "Cocktail Hour, Nightlife & Social Club Puzzle 035: one or more words are blank or longer than 21 letters.",
+      "Cocktail Hour, Nightlife & Social Club Puzzle 036: one or more words are blank or longer than 21 letters.",
+      "Cocktail Hour, Nightlife & Social Club Puzzle 037: one or more words are blank or longer than 21 letters.",
+      "Cocktail Hour, Nightlife & Social Club Puzzle 038: one or more words are blank or longer than 21 letters.",
+      "Cocktail Hour, Nightlife & Social Club Puzzle 039: one or more words are blank or longer than 21 letters.",
+      "Cocktail Hour, Nightlife & Social Club Puzzle 040: one or more words are blank or longer than 21 letters.",
+      "Cocktail Hour, Nightlife & Social Club Puzzle 041: one or more words are blank or longer than 21 letters.",
+      "Cocktail Hour, Nightlife & Social Club Puzzle 042: one or more words are blank or longer than 21 letters.",
+      "Cocktail Hour, Nightlife & Social Club Puzzle 043: one or more words are blank or longer than 21 letters.",
+      "Cocktail Hour, Nightlife & Social Club Puzzle 044: one or more words are blank or longer than 21 letters.",
+      "Cocktail Hour, Nightlife & Social Club Puzzle 045: one or more words are blank or longer than 21 letters.",
+      "Cocktail Hour, Nightlife & Social Club Puzzle 046: one or more words are blank or longer than 21 letters.",
+      "Cocktail Hour, Nightlife & Social Club Puzzle 047: one or more words are blank or longer than 21 letters.",
+      "Cocktail Hour, Nightlife & Social Club Puzzle 048: one or more words are blank or longer than 21 letters.",
+      "Production stop: only 0% of recognized words match Cocktail Hour, Nightlife & Social Club, Word Skills and Brain Games. Rebuild the word pool before creating a package."
+    ],
+    "warnings": [
+      "47 puzzle(s) use 5, 6, 7, 8, 9, 10, 11-word lists instead of the usual 12 or 20. They are supported and will size automatically.",
+      "Topic fit is only 0% against the closest Master Library topic(s): Cocktail Hour, Nightlife & Social Club, Word Skills and Brain Games. Review the word bank so the cover promise matches the puzzles.",
+      "Production truth: One mini-theme dominates the book",
+      "Production truth: This topic does not yet have a reviewed mini-theme map; coherence cannot be certified",
+      "Production truth: This topic needs a reviewed mini-theme map before the app can certify puzzle coherence."
+    ],
+    "checked_at": "2026-08-27T17:13:48",
+    "gate_version": 2
+  },
+  "C:\\Users\\jorda\\Desktop\\Word Search Creator\\kdp-puzzle-engine\\themes\\Adult Collection\\range_&_outdoors_word_search.json": {
+    "fingerprint": "c0cb81c6c8e8fcfaaf176b61f18b39688e096b5718d27a99905b6f4db663c136",
+    "status": "Blocked",
+    "errors": [
+      "Responsible Firearms, Range & Outdoor Heritage Puzzle 001: one or more words are blank or longer than 21 letters.",
+      "Responsible Firearms, Range & Outdoor Heritage Puzzle 002: one or more words are blank or longer than 21 letters.",
+      "Responsible Firearms, Range & Outdoor Heritage Puzzle 003: one or more words are blank or longer than 21 letters.",
+      "Responsible Firearms, Range & Outdoor Heritage Puzzle 004: one or more words are blank or longer than 21 letters.",
+      "Responsible Firearms, Range & Outdoor Heritage Puzzle 005: one or more words are blank or longer than 21 letters.",
+      "Responsible Firearms, Range & Outdoor Heritage Puzzle 006: one or more words are blank or longer than 21 letters.",
+      "Responsible Firearms, Range & Outdoor Heritage Puzzle 007: one or more words are blank or longer than 21 letters.",
+      "Responsible Firearms, Range & Outdoor Heritage Puzzle 008: one or more words are blank or longer than 21 letters.",
+      "Responsible Firearms, Range & Outdoor Heritage Puzzle 009: one or more words are blank or longer than 21 letters.",
+      "Responsible Firearms, Range & Outdoor Heritage Puzzle 010: one or more words are blank or longer than 21 letters.",
+      "Responsible Firearms, Range & Outdoor Heritage Puzzle 011: one or more words are blank or longer than 21 letters.",
+      "Responsible Firearms, Range & Outdoor Heritage Puzzle 012: one or more words are blank or longer than 21 letters.",
+      "Responsible Firearms, Range & Outdoor Heritage Puzzle 013: one or more words are blank or longer than 21 letters.",
+      "Responsible Firearms, Range & Outdoor Heritage Puzzle 014: one or more words are blank or longer than 21 letters.",
+      "Responsible Firearms, Range & Outdoor Heritage Puzzle 015: one or more words are blank or longer than 21 letters.",
+      "Responsible Firearms, Range & Outdoor Heritage Puzzle 016: one or more words are blank or longer than 21 letters.",
+      "Responsible Firearms, Range & Outdoor Heritage Puzzle 017: one or more words are blank or longer than 21 letters.",
+      "Responsible Firearms, Range & Outdoor Heritage Puzzle 018: one or more words are blank or longer than 21 letters.",
+      "Responsible Firearms, Range & Outdoor Heritage Puzzle 019: one or more words are blank or longer than 21 letters.",
+      "Responsible Firearms, Range & Outdoor Heritage Puzzle 020: one or more words are blank or longer than 21 letters.",
+      "Responsible Firearms, Range & Outdoor Heritage Puzzle 021: one or more words are blank or longer than 21 letters.",
+      "Responsible Firearms, Range & Outdoor Heritage Puzzle 022: one or more words are blank or longer than 21 letters.",
+      "Responsible Firearms, Range & Outdoor Heritage Puzzle 023: one or more words are blank or longer than 21 letters.",
+      "Responsible Firearms, Range & Outdoor Heritage Puzzle 024: one or more words are blank or longer than 21 letters.",
+      "Responsible Firearms, Range & Outdoor Heritage Puzzle 025: one or more words are blank or longer than 21 letters.",
+      "Responsible Firearms, Range & Outdoor Heritage Puzzle 026: one or more words are blank or longer than 21 letters.",
+      "Responsible Firearms, Range & Outdoor Heritage Puzzle 027: one or more words are blank or longer than 21 letters.",
+      "Responsible Firearms, Range & Outdoor Heritage Puzzle 028: one or more words are blank or longer than 21 letters.",
+      "Responsible Firearms, Range & Outdoor Heritage Puzzle 029: one or more words are blank or longer than 21 letters.",
+      "Responsible Firearms, Range & Outdoor Heritage Puzzle 030: one or more words are blank or longer than 21 letters.",
+      "Responsible Firearms, Range & Outdoor Heritage Puzzle 031: one or more words are blank or longer than 21 letters.",
+      "Responsible Firearms, Range & Outdoor Heritage Puzzle 032: one or more words are blank or longer than 21 letters.",
+      "Responsible Firearms, Range & Outdoor Heritage Puzzle 033: one or more words are blank or longer than 21 letters.",
+      "Responsible Firearms, Range & Outdoor Heritage Puzzle 034: one or more words are blank or longer than 21 letters.",
+      "Responsible Firearms, Range & Outdoor Heritage Puzzle 035: one or more words are blank or longer than 21 letters.",
+      "Responsible Firearms, Range & Outdoor Heritage Puzzle 036: one or more words are blank or longer than 21 letters.",
+      "Responsible Firearms, Range & Outdoor Heritage Puzzle 037: one or more words are blank or longer than 21 letters.",
+      "Responsible Firearms, Range & Outdoor Heritage Puzzle 038: one or more words are blank or longer than 21 letters.",
+      "Responsible Firearms, Range & Outdoor Heritage Puzzle 039: one or more words are blank or longer than 21 letters.",
+      "Responsible Firearms, Range & Outdoor Heritage Puzzle 040: one or more words are blank or longer than 21 letters.",
+      "Responsible Firearms, Range & Outdoor Heritage Puzzle 041: one or more words are blank or longer than 21 letters.",
+      "Responsible Firearms, Range & Outdoor Heritage Puzzle 042: one or more words are blank or longer than 21 letters.",
+      "Responsible Firearms, Range & Outdoor Heritage Puzzle 043: one or more words are blank or longer than 21 letters.",
+      "Responsible Firearms, Range & Outdoor Heritage Puzzle 044: one or more words are blank or longer than 21 letters.",
+      "Responsible Firearms, Range & Outdoor Heritage Puzzle 045: one or more words are blank or longer than 21 letters.",
+      "Responsible Firearms, Range & Outdoor Heritage Puzzle 046: one or more words are blank or longer than 21 letters.",
+      "Responsible Firearms, Range & Outdoor Heritage Puzzle 047: one or more words are blank or longer than 21 letters.",
+      "Responsible Firearms, Range & Outdoor Heritage Puzzle 048: one or more words are blank or longer than 21 letters.",
+      "Production stop: too few puzzle words are recognized in the matching topic sources. Rebuild the book from its proven topic pool before creating a package."
+    ],
+    "warnings": [
+      "45 puzzle(s) use 1, 2, 3, 4, 5-word lists instead of the usual 12 or 20. They are supported and will size automatically.",
+      "Production truth: One mini-theme dominates the book",
+      "Production truth: This topic does not yet have a reviewed mini-theme map; coherence cannot be certified",
+      "Production truth: This topic needs a reviewed mini-theme map before the app can certify puzzle coherence."
+    ],
+    "checked_at": "2026-08-26T12:38:52",
+    "gate_version": 2
+  },
+  "C:\\Users\\jorda\\Desktop\\Word Search Creator\\kdp-puzzle-engine\\themes\\Adult Collection\\chill_culture_word_search.json": {
+    "fingerprint": "e728d1937df3ae56574cfb1c1accb4c27bb40a3583ee5c16bd8e337642eb34b5",
+    "status": "Blocked",
+    "errors": [
+      "Cannabis Culture, Chill & Legal Lifestyle Puzzle 001: one or more words are blank or longer than 21 letters.",
+      "Cannabis Culture, Chill & Legal Lifestyle Puzzle 002: one or more words are blank or longer than 21 letters.",
+      "Cannabis Culture, Chill & Legal Lifestyle Puzzle 003: one or more words are blank or longer than 21 letters.",
+      "Cannabis Culture, Chill & Legal Lifestyle Puzzle 004: one or more words are blank or longer than 21 letters.",
+      "Cannabis Culture, Chill & Legal Lifestyle Puzzle 005: one or more words are blank or longer than 21 letters.",
+      "Cannabis Culture, Chill & Legal Lifestyle Puzzle 006: one or more words are blank or longer than 21 letters.",
+      "Cannabis Culture, Chill & Legal Lifestyle Puzzle 007: one or more words are blank or longer than 21 letters.",
+      "Cannabis Culture, Chill & Legal Lifestyle Puzzle 008: one or more words are blank or longer than 21 letters.",
+      "Cannabis Culture, Chill & Legal Lifestyle Puzzle 009: one or more words are blank or longer than 21 letters.",
+      "Cannabis Culture, Chill & Legal Lifestyle Puzzle 010: one or more words are blank or longer than 21 letters.",
+      "Cannabis Culture, Chill & Legal Lifestyle Puzzle 011: one or more words are blank or longer than 21 letters.",
+      "Cannabis Culture, Chill & Legal Lifestyle Puzzle 012: one or more words are blank or longer than 21 letters.",
+      "Cannabis Culture, Chill & Legal Lifestyle Puzzle 013: one or more words are blank or longer than 21 letters.",
+      "Cannabis Culture, Chill & Legal Lifestyle Puzzle 014: one or more words are blank or longer than 21 letters.",
+      "Cannabis Culture, Chill & Legal Lifestyle Puzzle 015: one or more words are blank or longer than 21 letters.",
+      "Cannabis Culture, Chill & Legal Lifestyle Puzzle 016: one or more words are blank or longer than 21 letters.",
+      "Cannabis Culture, Chill & Legal Lifestyle Puzzle 017: one or more words are blank or longer than 21 letters.",
+      "Cannabis Culture, Chill & Legal Lifestyle Puzzle 018: one or more words are blank or longer than 21 letters.",
+      "Cannabis Culture, Chill & Legal Lifestyle Puzzle 019: one or more words are blank or longer than 21 letters.",
+      "Cannabis Culture, Chill & Legal Lifestyle Puzzle 020: one or more words are blank or longer than 21 letters.",
+      "Cannabis Culture, Chill & Legal Lifestyle Puzzle 021: one or more words are blank or longer than 21 letters.",
+      "Cannabis Culture, Chill & Legal Lifestyle Puzzle 022: one or more words are blank or longer than 21 letters.",
+      "Cannabis Culture, Chill & Legal Lifestyle Puzzle 023: one or more words are blank or longer than 21 letters.",
+      "Cannabis Culture, Chill & Legal Lifestyle Puzzle 024: one or more words are blank or longer than 21 letters.",
+      "Cannabis Culture, Chill & Legal Lifestyle Puzzle 025: one or more words are blank or longer than 21 letters.",
+      "Cannabis Culture, Chill & Legal Lifestyle Puzzle 026: one or more words are blank or longer than 21 letters.",
+      "Cannabis Culture, Chill & Legal Lifestyle Puzzle 027: one or more words are blank or longer than 21 letters.",
+      "Cannabis Culture, Chill & Legal Lifestyle Puzzle 028: one or more words are blank or longer than 21 letters.",
+      "Cannabis Culture, Chill & Legal Lifestyle Puzzle 029: one or more words are blank or longer than 21 letters.",
+      "Cannabis Culture, Chill & Legal Lifestyle Puzzle 030: one or more words are blank or longer than 21 letters.",
+      "Cannabis Culture, Chill & Legal Lifestyle Puzzle 031: one or more words are blank or longer than 21 letters.",
+      "Cannabis Culture, Chill & Legal Lifestyle Puzzle 032: one or more words are blank or longer than 21 letters.",
+      "Cannabis Culture, Chill & Legal Lifestyle Puzzle 033: one or more words are blank or longer than 21 letters.",
+      "Cannabis Culture, Chill & Legal Lifestyle Puzzle 034: one or more words are blank or longer than 21 letters.",
+      "Cannabis Culture, Chill & Legal Lifestyle Puzzle 035: one or more words are blank or longer than 21 letters.",
+      "Cannabis Culture, Chill & Legal Lifestyle Puzzle 036: one or more words are blank or longer than 21 letters.",
+      "Cannabis Culture, Chill & Legal Lifestyle Puzzle 037: one or more words are blank or longer than 21 letters.",
+      "Cannabis Culture, Chill & Legal Lifestyle Puzzle 038: one or more words are blank or longer than 21 letters.",
+      "Cannabis Culture, Chill & Legal Lifestyle Puzzle 039: one or more words are blank or longer than 21 letters.",
+      "Cannabis Culture, Chill & Legal Lifestyle Puzzle 040: one or more words are blank or longer than 21 letters.",
+      "Cannabis Culture, Chill & Legal Lifestyle Puzzle 041: one or more words are blank or longer than 21 letters.",
+      "Cannabis Culture, Chill & Legal Lifestyle Puzzle 042: one or more words are blank or longer than 21 letters.",
+      "Cannabis Culture, Chill & Legal Lifestyle Puzzle 043: one or more words are blank or longer than 21 letters.",
+      "Cannabis Culture, Chill & Legal Lifestyle Puzzle 044: one or more words are blank or longer than 21 letters.",
+      "Cannabis Culture, Chill & Legal Lifestyle Puzzle 045: one or more words are blank or longer than 21 letters.",
+      "Cannabis Culture, Chill & Legal Lifestyle Puzzle 046: one or more words are blank or longer than 21 letters.",
+      "Cannabis Culture, Chill & Legal Lifestyle Puzzle 047: one or more words are blank or longer than 21 letters.",
+      "Cannabis Culture, Chill & Legal Lifestyle Puzzle 048: one or more words are blank or longer than 21 letters.",
+      "Production stop: too few puzzle words are recognized in the matching topic sources. Rebuild the book from its proven topic pool before creating a package."
+    ],
+    "warnings": [
+      "48 puzzle(s) use 1, 2, 3, 4, 5, 6, 7, 8, 9-word lists instead of the usual 12 or 20. They are supported and will size automatically.",
+      "Production truth: One mini-theme dominates the book",
+      "Production truth: This topic does not yet have a reviewed mini-theme map; coherence cannot be certified",
+      "Production truth: This topic needs a reviewed mini-theme map before the app can certify puzzle coherence."
+    ],
+    "checked_at": "2026-08-26T12:38:54",
+    "gate_version": 2
+  },
+  "C:\\Users\\jorda\\Desktop\\Word Search Creator\\kdp-puzzle-engine\\themes\\Trending 50 Puzzle Releases\\garden_discovery_20260828_203806.json": {
+    "fingerprint": "2b051a85cb68ffd7b32da7e3cbf296fefc4b6f5748805c04197eb2da50ebd7d7",
+    "status": "Blocked",
+    "errors": [
+      "Production stop: only 0% of recognized words match Gardening. Rebuild the word pool before creating a package."
+    ],
+    "warnings": [
+      "Topic fit is only 0% against the closest Master Library topic(s): Gardening. Review the word bank so the cover promise matches the puzzles.",
+      "Production truth: 57 review-tier word(s) need human eyes",
+      "Production truth: One mini-theme dominates the book",
+      "Production truth: 50 puzzle label(s) do not clearly match this topic (for example, 'Gardening Puzzle 01'). Rename them or use simple Puzzle numbers."
+    ],
+    "checked_at": "2026-08-28T20:38:13",
+    "gate_version": 2
+  },
+  "C:\\Users\\jorda\\Desktop\\Word Search Creator\\kdp-puzzle-engine\\themes\\Trending 50 Puzzle Releases\\cosmic_discovery_20260828_203806.json": {
+    "fingerprint": "308005b860207c246395a3d2fce54d7c5f5482f277bc7082bd481e71a22fe3ee",
+    "status": "Passed with notes",
+    "errors": [],
+    "warnings": [
+      "Production truth: 54 review-tier word(s) need human eyes",
+      "Production truth: One mini-theme dominates the book",
+      "Production truth: 50 puzzle label(s) do not clearly match this topic (for example, 'Space & Astronomy Puzzle 01'). Rename them or use simple Puzzle numbers."
+    ],
+    "checked_at": "2026-08-28T20:38:15",
+    "gate_version": 2
+  },
+  "C:\\Users\\jorda\\Desktop\\Word Search Creator\\kdp-puzzle-engine\\themes\\Trending 50 Puzzle Releases\\faithful_words_20260828_203806.json": {
+    "fingerprint": "80ae29804c5cdd8f0cc1125c670833a3ed841c4872cb5db98ad5126a5e1b3d25",
+    "status": "Passed with notes",
+    "errors": [],
+    "warnings": [
+      "Production truth: One mini-theme dominates the book",
+      "Production truth: This topic does not yet have a reviewed mini-theme map; coherence cannot be certified",
+      "Production truth: This topic needs a reviewed mini-theme map before the app can certify puzzle coherence."
+    ],
+    "checked_at": "2026-08-28T20:39:05",
+    "gate_version": 2
+  },
+  "C:\\Users\\jorda\\Desktop\\Word Search Creator\\kdp-puzzle-engine\\themes\\Trending 50 Puzzle Releases\\road_trip_classics_20260828_203806.json": {
+    "fingerprint": "b96d91a4f27a7fb635b6d5f188f761072f2505b108f684963f95459a22ee3aa8",
+    "status": "Passed with notes",
+    "errors": [],
+    "warnings": [
+      "Some shared vocabulary with 'Cars, Trucks and Road Trips Word Search' (55%). Review it before publishing both books.",
+      "Some shared vocabulary with 'Cars, Trucks and Road Trips Word Search' (54%). Review it before publishing both books.",
+      "Some shared vocabulary with 'Classic Cars and Road Trips Word Search' (54%). Review it before publishing both books.",
+      "Production truth: 19 review-tier word(s) need human eyes",
+      "Production truth: One mini-theme dominates the book",
+      "Production truth: 50 puzzle label(s) do not clearly match this topic (for example, 'Vehicles & Automotive Puzzle 01'). Rename them or use simple Puzzle numbers."
+    ],
+    "checked_at": "2026-08-28T20:40:20",
+    "gate_version": 2
+  },
+  "C:\\Users\\jorda\\Desktop\\Word Search Creator\\kdp-puzzle-engine\\themes\\Trending 50 Puzzle Releases\\american_moments_20260828_203806.json": {
+    "fingerprint": "a330a38494887e264a6ef69b4e42c10857021d982607fd5f8ac6e64c0226303e",
+    "status": "Passed with notes",
+    "errors": [],
+    "warnings": [
+      "Production truth: One mini-theme dominates the book",
+      "Production truth: This topic does not yet have a reviewed mini-theme map; coherence cannot be certified",
+      "Production truth: This topic needs a reviewed mini-theme map before the app can certify puzzle coherence."
+    ],
+    "checked_at": "2026-08-28T20:41:11",
+    "gate_version": 2
+  },
+  "C:\\Users\\jorda\\Desktop\\Word Search Creator\\kdp-puzzle-engine\\themes\\Trending 50 Puzzle Releases\\garden_discovery_20260828_204320.json": {
+    "fingerprint": "9c5373ff1ac293bd9ecff49024d6ee676c5a6bc02e5d9e0a82fe5935a512286a",
+    "status": "Passed with notes",
+    "errors": [],
+    "warnings": [
+      "Production truth: 47 review-tier word(s) need human eyes",
+      "Production truth: One mini-theme dominates the book",
+      "Production truth: 50 puzzle label(s) do not clearly match this topic (for example, 'Gardening Puzzle 01'). Rename them or use simple Puzzle numbers."
+    ],
+    "checked_at": "2026-08-28T20:43:25",
+    "gate_version": 2
+  },
+  "C:\\Users\\jorda\\Desktop\\Word Search Creator\\kdp-puzzle-engine\\themes\\Trending 50 Puzzle Releases\\cosmic_discovery_20260902_172233.json": {
+    "fingerprint": "c626696662aa511f0acbaffa2db452fac1383b9e33a1717da5ef7941e1961859",
+    "status": "Blocked",
+    "errors": [
+      "This book is very similar to 'Cosmic Discovery Word Search' (28% shared vocabulary). Choose a fresh word bank before publishing both."
+    ],
+    "warnings": [
+      "Production truth: 59 review-tier word(s) need human eyes",
+      "Production truth: One mini-theme dominates the book",
+      "Production truth: 50 puzzle label(s) do not clearly match this topic (for example, 'Space & Astronomy Puzzle 01'). Rename them or use simple Puzzle numbers."
+    ],
+    "checked_at": "2026-09-02T17:23:03",
+    "gate_version": 2
+  },
+  "C:\\Users\\jorda\\Desktop\\Word Search Creator\\kdp-puzzle-engine\\themes\\space_for_kids_&_teens_word_search_2.json": {
+    "fingerprint": "718527032787320a253fc7cec6d1c29c5fb3ea0abd007100367590a23c990b5a",
+    "status": "Blocked",
+    "errors": [
+      "This book is very similar to 'Space for Kids & Teens Word Search' (48% shared vocabulary). Choose a fresh word bank before publishing both.",
+      "Production stop: only 35% of puzzle words match this Space cover promise. Strengthen the word bank before creating a package.",
+      "Production stop: topic fit is 35% for this Space book. Strengthen the word bank before packaging it."
+    ],
+    "warnings": [
+      "KDP listing review: No series is assigned. Leave the KDP series field blank unless this book truly belongs to an established series."
+    ],
+    "checked_at": "2026-09-04T22:26:08",
+    "gate_version": 2
   }
 }

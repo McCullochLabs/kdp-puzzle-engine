@@ -51,14 +51,90 @@ def words_for_topic(store, topic_id: str, min_band: str = "medium") -> list[str]
     return out
 
 
-def estimate_capacity(words_count: int, words_per_puzzle: int) -> dict:
-    """No-repeat book math mirroring the master bank's own conventions."""
-    puzzles = words_count // words_per_puzzle if words_per_puzzle > 0 else 0
+def estimate_capacity(words_count: int, words_per_puzzle: int,
+                      max_word_reuse: int = 0) -> dict:
+    """No-repeat book math mirroring the master bank's own conventions.
+
+    ``max_word_reuse`` > 0 models controlled reuse: each word may appear in
+    up to that many puzzles, which is how narrow niches survive large book
+    requests (spec PART O/AS).  The default keeps the historic unique-only
+    semantics.
+    """
+    if words_per_puzzle <= 0:
+        return {
+            "unique_words": words_count,
+            "no_repeat_0_word_puzzles": 0,
+            "books_48_puzzles": 0,
+            "books_100_puzzles": 0,
+        }
+    effective = words_count * (max_word_reuse + 1) if max_word_reuse else words_count
+    puzzles = effective // words_per_puzzle
+    key = (f"no_repeat_{words_per_puzzle}_word_puzzles"
+           if not max_word_reuse else
+           f"reuse_x{max_word_reuse}_{words_per_puzzle}_word_puzzles")
     return {
         "unique_words": words_count,
-        f"no_repeat_{words_per_puzzle}_word_puzzles": puzzles,
+        "max_word_reuse": max_word_reuse,
+        key: puzzles,
         "books_48_puzzles": puzzles // 48,
         "books_100_puzzles": puzzles // 100,
+    }
+
+
+def topic_capacity_report(store, taxonomy, topic_id: str,
+                          requested_sizes=((12, 48), (15, 50), (20, 100))) -> dict:
+    """Quality-stratified capacity for one topic (spec PART G / PART O).
+
+    Answers 'can this niche support a commercial book?' honestly: raw
+    vocabulary counts are separated from genuinely usable capacity after
+    quality tiers and repetition constraints.
+    """
+    cid = taxonomy.resolve(topic_id)
+    if not cid:
+        return {"topic_id": topic_id, "resolved": False}
+    members = [store.get(n) for n in words_for_topic(store, cid, min_band="low")]
+    tiers = {"excellent": 0, "good": 0, "acceptable": 0, "review": 0}
+    safe_pool: list[str] = []
+    trusted = 0
+    from .records import APPROVED, PROPOSED, TRUSTED, band_of
+    for record in members:
+        quality = assess_quality(record)
+        if quality.worthiness == PuzzleWorthiness.PREFERRED:
+            tiers["excellent"] += 1
+            safe_pool.append(record.normalized)
+        elif quality.worthiness == PuzzleWorthiness.ACCEPTABLE:
+            tiers["good" if quality.familiarity in ("common", "familiar")
+                  else "acceptable"] += 1
+            safe_pool.append(record.normalized)
+        elif quality.worthiness == PuzzleWorthiness.SPECIALIZED:
+            tiers["acceptable"] += 1
+        else:
+            tiers["review"] += 1
+        link = record.link_for(cid)
+        if link and link.status in (TRUSTED, APPROVED):
+            trusted += 1
+
+    sizes = {}
+    for words_per, target_count in requested_sizes:
+        strict = estimate_capacity(tiers["excellent"] + tiers["good"],
+                                   words_per)["no_repeat_%d_word_puzzles" % words_per] \
+            if words_per else 0
+        relaxed = estimate_capacity(len(safe_pool), words_per,
+                                    max_word_reuse=2)[f"reuse_x2_{words_per}_word_puzzles"]
+        sizes[words_per] = {
+            "unique_only_capacity": strict,
+            "supports_requested_books": strict >= target_count,
+            "controlled_reuse_capacity_x2": relaxed,
+            "reuse_supports_requested_books": relaxed >= target_count,
+        }
+    return {
+        "topic_id": cid,
+        "display_name": taxonomy.display_name(cid),
+        "resolved": True,
+        "tiers": tiers,
+        "trusted_words": trusted,
+        "safe_unique_pool": len(safe_pool),
+        "capacity": sizes,
     }
 
 

@@ -1,0 +1,831 @@
+{
+  "title": "Cozy Pets Word Search",
+  "subtitle": "48 large-print puzzles for cat, dog and pet lovers",
+  "author": "Jordan M. Slade",
+  "audience": "Adults & Teens",
+  "palette": "animals",
+  "cover_style": "playful",
+  "detected_topic": "Cats, Dogs & Happy Pets",
+  "difficulty_label": "Challenging",
+  "clipart_search_terms": "cats dogs house pets cozy illustration",
+  "no_repeat_words": true,
+  "cover_badge": "NO REPEATED WORDS",
+  "puzzles": [
+    {
+      "name": "Cozy Pets Puzzle 001",
+      "words": [
+        "TRAIL",
+        "RABBITBOWL",
+        "KELPIE",
+        "FELINETOY",
+        "CATHOUSE",
+        "PAPILLON",
+        "REPTILETANK",
+        "HAMSTER",
+        "ANIMALBLANKET",
+        "DOGRAINCOAT",
+        "DOBERMAN",
+        "BIRDSEED"
+      ]
+    },
+    {
+      "name": "Cozy Pets Puzzle 002",
+      "words": [
+        "GOLDFISH",
+        "CAIRNTERRIER",
+        "GROVE",
+        "CATBEHAVIOR",
+        "COLLIE",
+        "CAMPGROUND",
+        "BEAGLE",
+        "DOGFOODBOWL",
+        "ANIMALTOY",
+        "BINOCULARS",
+        "MEADOWLARK",
+        "CATGROOMINGKIT"
+      ]
+    },
+    {
+      "name": "Cozy Pets Puzzle 003",
+      "words": [
+        "PETFOODBOWL",
+        "BASSET",
+        "OBEDIENCE",
+        "CALICO",
+        "LOVEBIRD",
+        "DOGCLAWCARE",
+        "CATPLAY",
+        "DOGCATCHER",
+        "GOLDENRETRIEVER",
+        "FIELD",
+        "AQUARIUMPUMP",
+        "KAYAK"
+      ]
+    },
+    {
+      "name": "Cozy Pets Puzzle 004",
+      "words": [
+        "CATCOLLAR",
+        "YORKSHIRETERRIER",
+        "DOGAGILITY",
+        "PEKINGESE",
+        "KINGFISHER",
+        "BIRDFOOD",
+        "DOGGROOMINGKIT",
+        "TURTLETANK",
+        "PETBED",
+        "ANIMALFRIEND",
+        "OLDENGLISHSHEEPDOG",
+        "BACKYARD"
+      ]
+    },
+    {
+      "name": "Cozy Pets Puzzle 005",
+      "words": [
+        "PETCLINIC",
+        "GLACIER",
+        "PETSHOP",
+        "DOGPUZZLE",
+        "WATERDISH",
+        "ANGELFISH",
+        "NATIVEPLANT",
+        "COMPASS",
+        "RAGDOLL",
+        "SCENTWORK",
+        "WATERBOWL",
+        "MEADOW"
+      ]
+    },
+    {
+      "name": "Cozy Pets Puzzle 006",
+      "words": [
+        "DOGRESCUE",
+        "CREEK",
+        "PUPPYTRAINING",
+        "OCICAT",
+        "PETEXERCISEBALL",
+        "PETTOYBOX",
+        "SERVICEDOG",
+        "LHASAAPSO",
+        "FEEDER",
+        "MOUNTAIN",
+        "CLIPPER",
+        "CATFOOD"
+      ]
+    },
+    {
+      "name": "Cozy Pets Puzzle 007",
+      "words": [
+        "DOGBEDCOVER",
+        "DOGHEALTH",
+        "VETOFFICE",
+        "DOGPARK",
+        "WALKIES",
+        "PETLOVER",
+        "AQUARIUMFILTER",
+        "WHISKERCARE",
+        "BIRDSTAND",
+        "PETCOLLAR",
+        "WIREFOXTERRIER",
+        "SCHNAUZER"
+      ]
+    },
+    {
+      "name": "Cozy Pets Puzzle 008",
+      "words": [
+        "FEATHER",
+        "FRENCHBULLDOG",
+        "PETTRAINER",
+        "ANIMALHABITAT",
+        "AUTUMN",
+        "PRAIRIE",
+        "FISHFEEDER",
+        "PETMEDICATION",
+        "SHIBA",
+        "WALK",
+        "SAMOYED",
+        "COCKERSPANIEL"
+      ]
+    },
+    {
+      "name": "Cozy Pets Puzzle 009",
+      "words": [
+        "CHICKADEE",
+        "WOODLAND",
+        "SHELTIE",
+        "RAGAMUFFIN",
+        "DOGADOPTION",
+        "CATTOY",
+        "PITBULL",
+        "DOGRESCUEGROUP",
+        "RAIN",
+        "WINDOWPERCH",
+        "PETGATE",
+        "HIKING"
+      ]
+    },
+    {
+      "name": "Cozy Pets Puzzle 010",
+      "words": [
+        "ACORN",
+        "NAILCLIP",
+        "WHIPPET",
+        "HUSKY",
+        "CATWAND",
+        "CARDINAL",
+        "PETADOPTION",
+        "BIRDCARE",
+        "REPTILECARE",
+        "SPRINGERSPANIEL",
+        "SCOTTISHFOLD",
+        "PETSHAMPOO"
+      ]
+    },
+    {
+      "name": "Cozy Pets Puzzle 011",
+      "words": [
+        "FOODBOWL",
+        "PETSAFE",
+        "HILLSIDE",
+        "SHELTER",
+        "BIRDCAGEPERCH",
+        "INSECT",
+        "VETVISIT",
+        "SKY",
+        "CHEWTOY",
+        "QUIETTIME",
+        "PETBLANKET",
+        "CATPUZZLE"
+      ]
+    },
+    {
+      "name": "Cozy Pets Puzzle 012",
+      "words": [
+        "PETGROOMING",
+        "RAT",
+        "AGILITY",
+        "NESTLING",
+        "FISHING",
+        "PETSAFESPACE",
+        "PETWASH",
+        "CATBRUSH",
+        "DOGTAG",
+        "ANIMALFOOD",
+        "GROOMINGBRUSH",
+        "MAINECOON"
+      ]
+    },
+    {
+      "name": "Cozy Pets Puzzle 013",
+      "words": [
+        "FUR",
+        "SONGBIRD",
+        "BOULDER",
+        "DOGWALKER",
+        "DOGBRUSH",
+        "PETRESCUE",
+        "PETCAGE",
+        "GOODBOY",
+        "CATGARDEN",
+        "AQUARIUMCARE",
+        "RABBITRUN",
+        "PERCHING"
+      ]
+    },
+    {
+      "name": "Cozy Pets Puzzle 014",
+      "words": [
+        "PETCAREKIT",
+        "HAVANESE",
+        "WHISKERPAD",
+        "PETBLANKIE",
+        "PETFIRSTAID",
+        "MALTESE",
+        "CATWINDOW",
+        "AUSTRALIANSHEPHERD",
+        "NEWFOUNDLAND",
+        "SEEDLING",
+        "BIRDBATH",
+        "CATSHELTER"
+      ]
+    },
+    {
+      "name": "Cozy Pets Puzzle 015",
+      "words": [
+        "COCKATIEL",
+        "BACKPACK",
+        "CATLOVER",
+        "BLUEBIRD",
+        "AQUARIUMPLANT",
+        "CATLITTER",
+        "BIRDING",
+        "PETSTORE",
+        "CATFOODBOWL",
+        "RETRIEVER",
+        "PET",
+        "CATHEALTH"
+      ]
+    },
+    {
+      "name": "Cozy Pets Puzzle 016",
+      "words": [
+        "DOGEXERCISE",
+        "ORCHARD",
+        "HAMMOCK",
+        "CLIMBINGTREE",
+        "BIRDCAGECLEAN",
+        "LITTERBOX",
+        "VIZSLA",
+        "FRESHWATERFISH",
+        "PUG",
+        "ORIOLE",
+        "PETTRANSPORT",
+        "GERBIL"
+      ]
+    },
+    {
+      "name": "Cozy Pets Puzzle 017",
+      "words": [
+        "ROCK",
+        "LABRADOR",
+        "AKITA",
+        "BENGAL",
+        "WEIMARANER",
+        "LITTERMAT",
+        "PETPORTRAITURE",
+        "ANIMALSHAMPOO",
+        "COCKAPOO",
+        "CATCLIMBER",
+        "CATRESCUE",
+        "DOGTREATS"
+      ]
+    },
+    {
+      "name": "Cozy Pets Puzzle 018",
+      "words": [
+        "ABYSSINIAN",
+        "FISHHABITAT",
+        "ANIMALWALK",
+        "RABBITCAGE",
+        "BLOODHOUND",
+        "CATOWNER",
+        "MUZZLE",
+        "BICHON",
+        "LEAF",
+        "CUDDLING",
+        "DOGTREATJAR",
+        "CATNIP"
+      ]
+    },
+    {
+      "name": "Cozy Pets Puzzle 019",
+      "words": [
+        "LAPCAT",
+        "WOODS",
+        "VETCLINIC",
+        "DOGSTRETCHER",
+        "ANIMAL",
+        "ANIMALTRAINING",
+        "SLEEPYCAT",
+        "CATSPA",
+        "DOGSITTER",
+        "BIRDFEEDER",
+        "SHELTERDOG",
+        "PETPLAY"
+      ]
+    },
+    {
+      "name": "Cozy Pets Puzzle 020",
+      "words": [
+        "DOGLOVER",
+        "DOG",
+        "NEST",
+        "EAGLE",
+        "CATBOWL",
+        "MAP",
+        "ADOPTION",
+        "SCRATCHINGPOST",
+        "TREAT",
+        "DISH",
+        "FRISBEE",
+        "CATCOMPANIONSHIP"
+      ]
+    },
+    {
+      "name": "Cozy Pets Puzzle 021",
+      "words": [
+        "CATGROOMING",
+        "DOGBOWLMAT",
+        "MEOW",
+        "ANIMALCARE",
+        "PUPPYPLAY",
+        "FISHCARE",
+        "DEW",
+        "RUSSIANBLUE",
+        "BORDERCOLLIE",
+        "PETDOOR",
+        "PETOWNER",
+        "POODLE"
+      ]
+    },
+    {
+      "name": "Cozy Pets Puzzle 022",
+      "words": [
+        "TRAINING",
+        "GROOMINGTABLE",
+        "KIBBLE",
+        "SNOWFALL",
+        "AMERICANBULLDOG",
+        "DOGTREAT",
+        "ANIMALCLINIC",
+        "DOGBOWL",
+        "CAGECLEANING",
+        "DOGPLAYTIME",
+        "LITTERCATCHER",
+        "FLEA"
+      ]
+    },
+    {
+      "name": "Cozy Pets Puzzle 023",
+      "words": [
+        "WORMING",
+        "CATGROOMER",
+        "TURTLE",
+        "SPHYNX",
+        "BIRMAN",
+        "PETCOMPANION",
+        "CARRIER",
+        "PETGROOMER",
+        "TRAVELCRATE",
+        "GOLDENDOODLE",
+        "CATSCRATCHPAD",
+        "BULLMASTIFF"
+      ]
+    },
+    {
+      "name": "Cozy Pets Puzzle 024",
+      "words": [
+        "DENTALCARE",
+        "PETKEEPER",
+        "ALPINE",
+        "MAT",
+        "PETBATH",
+        "DOGWHISTLE",
+        "CANINE",
+        "RABBITCARE",
+        "RESCUE",
+        "CATTREAT",
+        "FLOWER",
+        "PINE"
+      ]
+    },
+    {
+      "name": "Cozy Pets Puzzle 025",
+      "words": [
+        "FERN",
+        "SHAMPOO",
+        "KITTYCARE",
+        "CAMPSITE",
+        "CATSTRETCHER",
+        "GECKO",
+        "VETCARE",
+        "WATERFOUNTAIN",
+        "NORWEGIANFOREST",
+        "GREATDANE",
+        "PETPASSPORT",
+        "TRAILMAP"
+      ]
+    },
+    {
+      "name": "Cozy Pets Puzzle 026",
+      "words": [
+        "PETRESCUEHOME",
+        "DOGCARE",
+        "HAIRBALL",
+        "PETCRATE",
+        "ADOPTABLE",
+        "PETPLAYROOM",
+        "PETNAIL",
+        "DALMATIAN",
+        "BOSTONTERRIER",
+        "PETCARRIER",
+        "CAMPFIRE",
+        "GUINEAPIG"
+      ]
+    },
+    {
+      "name": "Cozy Pets Puzzle 027",
+      "words": [
+        "PICNIC",
+        "RIVER",
+        "SCOTTISHTERRIER",
+        "MANX",
+        "SHARPEI",
+        "DOGBED",
+        "CORGI",
+        "PARAKEET",
+        "CLAW",
+        "COZYCAT",
+        "MINIATUREPINSCHER",
+        "SPARROW"
+      ]
+    },
+    {
+      "name": "Cozy Pets Puzzle 028",
+      "words": [
+        "FETCH",
+        "CHARTREUX",
+        "BERNESE",
+        "WATERFALL",
+        "CATSHOW",
+        "PETIDTAG",
+        "PETSTROLLER",
+        "SAVANNAH",
+        "PLUMAGE",
+        "TANK",
+        "TANKFILTER",
+        "DACHSHUND"
+      ]
+    },
+    {
+      "name": "Cozy Pets Puzzle 029",
+      "words": [
+        "GREYHOUND",
+        "BOARDING",
+        "CATROOM",
+        "HARNESSHOOK",
+        "SIAMESE",
+        "BACKYARDBIRD",
+        "CHOWCHOW",
+        "CATCARRIER",
+        "CATSITTER",
+        "SIBERIAN",
+        "CHIHUAHUA",
+        "WREN"
+      ]
+    },
+    {
+      "name": "Cozy Pets Puzzle 030",
+      "words": [
+        "BIRDCAGEFOOD",
+        "SHORELINE",
+        "CATBOWLMAT",
+        "PETGROOMKIT",
+        "PLAYPEN",
+        "DOGGROOMER",
+        "PETEXERCISE",
+        "HAWK",
+        "TOYGER",
+        "BISCUIT",
+        "DOGBEHAVIOR",
+        "AMERICANSHORTHAIR"
+      ]
+    },
+    {
+      "name": "Cozy Pets Puzzle 031",
+      "words": [
+        "PETCOMFORT",
+        "BELLCOLLAR",
+        "COMPANIONSHIP",
+        "TRAILHEAD",
+        "TOYBASKET",
+        "TENT",
+        "WATERBIRD",
+        "WOODPECKER",
+        "SUNRISE",
+        "IRISHSETTER",
+        "ANIMALCOLLAR",
+        "LEASH"
+      ]
+    },
+    {
+      "name": "Cozy Pets Puzzle 032",
+      "words": [
+        "BARK",
+        "CATCONDO",
+        "ENGLISHSETTER",
+        "CAT",
+        "CATHAMMOCK",
+        "TURTLECARE",
+        "PETFRIENDLY",
+        "PETCARE",
+        "SUNBEAMCAT",
+        "MIGRATION",
+        "FISHKEEPERKIT",
+        "MINIATURESCHNAUZER"
+      ]
+    },
+    {
+      "name": "Cozy Pets Puzzle 033",
+      "words": [
+        "CORNISHREX",
+        "CATBEDROOM",
+        "REPTILEFOOD",
+        "PETBRUSH",
+        "VACCINATION",
+        "LITTER",
+        "MUNCHKIN",
+        "DAYPACK",
+        "CATLITTERMAT",
+        "TUXEDOCAT",
+        "HOUSECAT",
+        "STARGAZING"
+      ]
+    },
+    {
+      "name": "Cozy Pets Puzzle 034",
+      "words": [
+        "GROOMING",
+        "PETDISH",
+        "WETLAND",
+        "ANIMALPARK",
+        "TAG",
+        "AQUARIUMHOOD",
+        "TREATJAR",
+        "PAW",
+        "LONGHAIR",
+        "PETLEASH",
+        "IGUANA",
+        "PUPPYCLASS"
+      ]
+    },
+    {
+      "name": "Cozy Pets Puzzle 035",
+      "words": [
+        "SPRING",
+        "DOGFOOD",
+        "STANDARDPOODLE",
+        "ANIMALPLAY",
+        "WHISKER",
+        "CATPLAYHOUSE",
+        "HARNESS",
+        "PURRING",
+        "DIET",
+        "SUGARGLIDER",
+        "DOGWASH",
+        "INDOORCAT"
+      ]
+    },
+    {
+      "name": "Cozy Pets Puzzle 036",
+      "words": [
+        "SOFTPAWS",
+        "CHINCHILLA",
+        "CATCUDDLE",
+        "DOGLEASHHOOK",
+        "TURTLEFOOD",
+        "CATBED",
+        "HERON",
+        "FISHBOWL",
+        "HAMSTERWHEEL",
+        "DOGCARRIERBAG",
+        "POINTER",
+        "COLLAR"
+      ]
+    },
+    {
+      "name": "Cozy Pets Puzzle 037",
+      "words": [
+        "PETHEALTHCARE",
+        "BIRDCALL",
+        "FELINE",
+        "MOSS",
+        "BEHAVIOR",
+        "CATCAFE",
+        "CANARY",
+        "GUINEACARE",
+        "CATSHAMPOO",
+        "FROST",
+        "MASTIFF",
+        "PETBUDDY"
+      ]
+    },
+    {
+      "name": "Cozy Pets Puzzle 038",
+      "words": [
+        "TOYS",
+        "CATCARE",
+        "BRUSH",
+        "PERSIAN",
+        "PETINSURANCE",
+        "WILDLIFE",
+        "GERMANSHEPHERD",
+        "AIREDALE",
+        "CATPLAYTIME",
+        "CATTERY",
+        "DOGKENNEL",
+        "DOGSHELTER"
+      ]
+    },
+    {
+      "name": "Cozy Pets Puzzle 039",
+      "words": [
+        "CLIMBING",
+        "POMERANIAN",
+        "BIRDPERCH",
+        "EVERGREEN",
+        "NAP",
+        "KENNELCARE",
+        "PETSAFETY",
+        "TAIL",
+        "BIRDCAGECOVER",
+        "LAKE",
+        "CATCARRIERBAG",
+        "ROPE"
+      ]
+    },
+    {
+      "name": "Cozy Pets Puzzle 040",
+      "words": [
+        "PETHEALTH",
+        "FISHNET",
+        "ROTTWEILER",
+        "STREAM",
+        "RABBITTOY",
+        "PETFOOD",
+        "WARBLER",
+        "CROW",
+        "BULLDOG",
+        "CATCATCHER",
+        "OUTDOORS",
+        "FALCON"
+      ]
+    },
+    {
+      "name": "Cozy Pets Puzzle 041",
+      "words": [
+        "SMALLPET",
+        "TABBY",
+        "PETTRAVEL",
+        "TANKHEATER",
+        "PUPPY",
+        "EGRET",
+        "DOGTOY",
+        "ANIMALRESCUE",
+        "PETFRIEND",
+        "JACKRUSSELL",
+        "GARDEN",
+        "FISH"
+      ]
+    },
+    {
+      "name": "Cozy Pets Puzzle 042",
+      "words": [
+        "PETHOME",
+        "PETPLAYMAT",
+        "BIRDCAGE",
+        "PETCHECKUP",
+        "BIRDNEST",
+        "HOUSEBREAKING",
+        "CATBEDCOVER",
+        "CATNIPMOUSE",
+        "ANIMALBOWL",
+        "DOGHOUSEMAT",
+        "ANIMALLOVER",
+        "ROBIN"
+      ]
+    },
+    {
+      "name": "Cozy Pets Puzzle 043",
+      "words": [
+        "GRASSLAND",
+        "CATCLAWCARE",
+        "TANKCLEANING",
+        "PLAYTIME",
+        "CATEXERCISE",
+        "BIRDHOUSE",
+        "DOGSPA",
+        "HABITAT",
+        "MICROCHIP",
+        "AQUARIUM",
+        "QUIETCAT",
+        "DOGCLIMBER"
+      ]
+    },
+    {
+      "name": "Cozy Pets Puzzle 044",
+      "words": [
+        "PETTHERAPY",
+        "FURBALL",
+        "STBERNARD",
+        "TRAININGTREAT",
+        "PETACTIVITY",
+        "FISHFOODJAR",
+        "FOREST",
+        "CANYON",
+        "NEUTER",
+        "VETERINARIAN",
+        "PETBATHMAT",
+        "SWALLOW"
+      ]
+    },
+    {
+      "name": "Cozy Pets Puzzle 045",
+      "words": [
+        "PETROUTINE",
+        "RESCUEHOME",
+        "WILDFLOWER",
+        "SUNSET",
+        "CATRESCUEGROUP",
+        "DEVONREX",
+        "BIRDTOY",
+        "PETPORTRAIT",
+        "CATWATCH",
+        "RABBITFOOD",
+        "TORTOISE",
+        "PETBOARDING"
+      ]
+    },
+    {
+      "name": "Cozy Pets Puzzle 046",
+      "words": [
+        "BEARDEDDRAGON",
+        "ANIMALCRATE",
+        "BUDGIE",
+        "ANIMALHOME",
+        "DOGCOLLAR",
+        "PETSCHOOL",
+        "CATNAP",
+        "PETSLEEP",
+        "HERMITCRAB",
+        "BOXER",
+        "FISHFOOD",
+        "NATURE"
+      ]
+    },
+    {
+      "name": "Cozy Pets Puzzle 047",
+      "words": [
+        "KITTEN",
+        "ANIMALPORTRAIT",
+        "CATTEASER",
+        "DOMESTICCAT",
+        "AVIARY",
+        "CANOE",
+        "SPAY",
+        "PORTUGUESEWATERDOG",
+        "PETJOURNAL",
+        "TAILWAG",
+        "FISHKEEPER",
+        "CATADOPTION"
+      ]
+    },
+    {
+      "name": "Cozy Pets Puzzle 048",
+      "words": [
+        "HABITATCARE",
+        "RABBIT",
+        "PETSITTER",
+        "SHELTERANIMAL",
+        "OWL",
+        "PETWELLNESS",
+        "FISHPOND",
+        "FINCH",
+        "SHIHTZU",
+        "VALLEY",
+        "CATTUNNEL",
+        "DOGCOMPANIONSHIP"
+      ]
+    }
+  ]
+}

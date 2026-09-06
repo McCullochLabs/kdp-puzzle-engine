@@ -1,0 +1,65 @@
+{
+  "version": "1",
+  "book_id": "b07712d763b0",
+  "runs": [
+    {
+      "run_id": "2b2aa148da288a84",
+      "started": "2026-08-27T16:03:40",
+      "facts_fingerprint": "47361855533cddd7b4abbbe7801521cbe0306e53b0460f84c735d3cffc1fbcf7",
+      "result": "running"
+    }
+  ],
+  "stages": {
+    "validate": {
+      "status": "complete",
+      "fingerprint": "d7ceaf84c8b0ca0c9d6d5722e8b3ab377f915d48dc097d7a9472d2c5a2b76acd",
+      "completed": "2026-08-27T16:03:40",
+      "detail": "Contributor, content capacity, and automatic-plan checks passed before generation.",
+      "artifact": ""
+    },
+    "generate": {
+      "status": "complete",
+      "fingerprint": "c90d3520d827cbba837040e2a5f99fb69bccd960a9d5f4b6780230b535ae964d",
+      "completed": "2026-08-27T16:03:41",
+      "detail": "Interior and answer pages were generated from the selected puzzle type and seed.",
+      "artifact": "C:\\Users\\jorda\\Desktop\\Word Search Creator\\kdp-puzzle-engine\\out\\study_break_brain_games_collection_20260827_160340\\01_PRINT_UPLOADS\\interior.pdf"
+    },
+    "cover": {
+      "status": "complete",
+      "fingerprint": "f0357a7890bdb269e7cd65569a0cd6707cdc4d989b20b8c0d576035f783b4ad8",
+      "completed": "2026-08-27T16:03:45",
+      "detail": "Front cover was rendered from verified facts and approved matching art.",
+      "artifact": "C:\\Users\\jorda\\Desktop\\Word Search Creator\\kdp-puzzle-engine\\out\\study_break_brain_games_collection_20260827_160340\\03_PREVIEWS\\front_cover.png"
+    },
+    "preflight": {
+      "status": "complete",
+      "fingerprint": "da0684790e6dfc0f83dec684d146c7ce5cbc1d412873b0cfe0751881fd15dbbb",
+      "completed": "2026-08-27T16:03:56",
+      "detail": "Wrap and print preflight passed using the final interior page count.",
+      "artifact": "C:\\Users\\jorda\\Desktop\\Word Search Creator\\kdp-puzzle-engine\\out\\study_break_brain_games_collection_20260827_160340\\01_PRINT_UPLOADS\\kdp_full_wrap.pdf"
+    },
+    "listing": {
+      "status": "complete",
+      "fingerprint": "b235b4ae3d2acfc07a01622495da87e52a0a4dc8ffe0903c466b542c0aaedf22",
+      "completed": "2026-08-27T16:03:56",
+      "detail": "Listing kit was generated from verified book facts.",
+      "artifact": ""
+    },
+    "package": {
+      "status": "complete",
+      "fingerprint": "0ca312defa27d65d570b1b6f8960b4c24750e0c4b418f835dd628187053c9428",
+      "completed": "2026-08-27T16:04:26",
+      "detail": "Final package inspection passed and master release files were created.",
+      "artifact": "C:\\Users\\jorda\\Desktop\\Word Search Creator\\kdp-puzzle-engine\\out\\study_break_brain_games_collection_20260827_160340"
+    },
+    "register": {
+      "status": "complete",
+      "fingerprint": "d765695c873fb80f949873cdeead7efdf1f47a3d138b91c8d4a55da06f45d312",
+      "completed": "2026-08-27T16:04:26",
+      "detail": "Finished package was registered in Publishing Center.",
+      "artifact": ""
+    }
+  },
+  "facts_fingerprint": "47361855533cddd7b4abbbe7801521cbe0306e53b0460f84c735d3cffc1fbcf7",
+  "last_started": "2026-08-27T16:03:40"
+}

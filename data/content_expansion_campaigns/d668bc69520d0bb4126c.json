@@ -1,0 +1,23 @@
+{
+  "campaign_id": "d668bc69520d0bb4126c",
+  "topic_id": "Outdoor Survival Skills",
+  "content_type": "word_or_phrase",
+  "puzzle_type": "word_search",
+  "target_format": {
+    "puzzle_count": 48,
+    "items_per_puzzle": 12
+  },
+  "required_capacity": 576,
+  "verified_capacity_before": 0,
+  "minimum_deficit": 576,
+  "recommended_capacity_target": 624,
+  "review_pool_estimate": 120,
+  "candidate_sources": [
+    "existing_content_registry"
+  ],
+  "candidate_ids": [],
+  "mini_theme_gaps": [],
+  "status": "needs_candidate_discovery",
+  "created_at": "2026-08-28T18:29:28+00:00",
+  "schema_version": 1
+}

@@ -17,7 +17,8 @@
       "Nature can be explored in a local park, garden, neighborhood, or national park.",
       "Seasonal changes affect plants, animals, weather, and daylight.",
       "Observing nature closely can turn an ordinary walk into a small adventure."
-    ]
+    ],
+    "puzzle_target": 100
   },
   "puzzles": [
     {
@@ -1038,6 +1039,686 @@
         "CAPUCHIN",
         "SCREEN",
         "COMPETE"
+      ]
+    },
+    {
+      "name": "Nature's Wonders Word Search 61",
+      "words": [
+        "ABELL",
+        "ABLATION",
+        "ABLATIONZONE",
+        "ABSOLUTEMAGNITUDE",
+        "ABSORPTIONLINE",
+        "ABYSSINIAN",
+        "ACADIA",
+        "ACANTHUS",
+        "ACCRETION",
+        "ACCRETIONDISK",
+        "ACHILLEA",
+        "ACORN"
+      ]
+    },
+    {
+      "name": "Nature's Wonders Word Search 62",
+      "words": [
+        "ACREAGE",
+        "ACTAEON",
+        "ACTIVEGALAXY",
+        "ADELAIDE",
+        "ADOPTABLE",
+        "ADOPTION",
+        "ADRASTEA",
+        "ADVENT",
+        "ADVENTCALENDAR",
+        "ADVENTURE",
+        "ADVENTURETRAIL",
+        "ADVOCATE"
+      ]
+    },
+    {
+      "name": "Nature's Wonders Word Search 63",
+      "words": [
+        "ADVOCATES",
+        "ADVOCATING",
+        "AEGIR",
+        "AEOLIS",
+        "AEOLUS",
+        "AEROSPACE",
+        "AEROSTAR",
+        "AETHRA",
+        "AFTERGLOW",
+        "AGAPANTHUS",
+        "AGAVE",
+        "AGILITY"
+      ]
+    },
+    {
+      "name": "Nature's Wonders Word Search 64",
+      "words": [
+        "AGRICULTURE",
+        "AGROFORESTRY",
+        "AGROTEK",
+        "AIREDALE",
+        "AIRMASS",
+        "AIRPLANT",
+        "AKATSUKI",
+        "AKITA",
+        "ALASKAPARKS",
+        "ALBEDO",
+        "ALBI",
+        "ALCMENA"
+      ]
+    },
+    {
+      "name": "Nature's Wonders Word Search 65",
+      "words": [
+        "ALCYONE",
+        "ALCYONEUS",
+        "ALDEBARAN",
+        "ALFALFA",
+        "ALGOL",
+        "ALGORAB",
+        "ALHENA",
+        "ALIEN",
+        "ALIENWORLD",
+        "ALKAID",
+        "ALLIUM",
+        "ALLOCATED"
+      ]
+    },
+    {
+      "name": "Nature's Wonders Word Search 66",
+      "words": [
+        "ALLOCATION",
+        "ALLOTMENT",
+        "ALMANAC",
+        "ALMATHEA",
+        "ALNILAM",
+        "ALNITAK",
+        "ALPACA",
+        "ALPHARD",
+        "ALPHERATZ",
+        "ALPINE",
+        "ALPINEFOREST",
+        "ALPINEGLOW"
+      ]
+    },
+    {
+      "name": "Nature's Wonders Word Search 67",
+      "words": [
+        "ALPINEHUT",
+        "ALPINELAKE",
+        "ALPINEPASS",
+        "ALPINEWILDFLOWER",
+        "ALSHAIN",
+        "ALTAIR",
+        "ALTERCATION",
+        "ALTITUDE",
+        "ALTOCUMULUS",
+        "ALUDRA",
+        "ALYSSUM",
+        "AMALTHEA"
+      ]
+    },
+    {
+      "name": "Nature's Wonders Word Search 68",
+      "words": [
+        "AMARANTH",
+        "AMARYLLIS",
+        "AMAZING",
+        "AMERICA",
+        "AMERICANALLIGATOR",
+        "AMERICANBULLDOG",
+        "AMERICANSHORTHAIR",
+        "AMMONIA",
+        "AMPHIBIAN",
+        "ANACOSTIA",
+        "ANALEMMA",
+        "ANANKE"
+      ]
+    },
+    {
+      "name": "Nature's Wonders Word Search 69",
+      "words": [
+        "ANDROMEDA",
+        "ANEMOMETER",
+        "ANEMONE",
+        "ANGELFISH",
+        "ANGELIC",
+        "ANGORA",
+        "ANGRYBIRDS",
+        "ANGSTROM",
+        "ANGULARMOMENTUM",
+        "ANGULARSIZE",
+        "ANIMAL",
+        "ANIMALBLANKET"
+      ]
+    },
+    {
+      "name": "Nature's Wonders Word Search 70",
+      "words": [
+        "ANIMALBOWL",
+        "ANIMALCARE",
+        "ANIMALCLINIC",
+        "ANIMALCOLLAR",
+        "ANIMALCRATE",
+        "ANIMALCROSSING",
+        "ANIMALFOOD",
+        "ANIMALFRIEND",
+        "ANIMALHABITAT",
+        "ANIMALHOME",
+        "ANIMALLOVER",
+        "ANIMALPARK"
+      ]
+    },
+    {
+      "name": "Nature's Wonders Word Search 71",
+      "words": [
+        "ANIMALPLAY",
+        "ANIMALPORTRAIT",
+        "ANIMALRESCUE",
+        "ANIMALSHAMPOO",
+        "ANIMALTOY",
+        "ANIMALTRAINING",
+        "ANIMALWALK",
+        "ANIMALWELL",
+        "ANISE",
+        "ANNUAL",
+        "ANOMALOUS",
+        "ANTAPEX"
+      ]
+    },
+    {
+      "name": "Nature's Wonders Word Search 72",
+      "words": [
+        "ANTARES",
+        "ANTELOPECANYON",
+        "ANTHEM",
+        "ANTICYCLONE",
+        "ANTIMATTER",
+        "ANTIOPE",
+        "ANTLER",
+        "ANTLIA",
+        "ANTUMBRA",
+        "APHELION",
+        "APIARY",
+        "APIARYBOX"
+      ]
+    },
+    {
+      "name": "Nature's Wonders Word Search 73",
+      "words": [
+        "APOAPSIS",
+        "APOLLOELEVEN",
+        "APPALACHIANTRAIL",
+        "APPETITE",
+        "APPLEBLOSSOM",
+        "APPLEBUTTER",
+        "APPLEORCHARD",
+        "APPLEPIE",
+        "APPLESAUCE",
+        "APPLICATION",
+        "APPLICATIONS",
+        "APRICOT"
+      ]
+    },
+    {
+      "name": "Nature's Wonders Word Search 74",
+      "words": [
+        "APRICOTTREE",
+        "APRON",
+        "APSIS",
+        "APUS",
+        "AQUAPONICS",
+        "AQUARIUM",
+        "AQUARIUMCARE",
+        "AQUARIUMFILTER",
+        "AQUARIUMHOOD",
+        "AQUARIUMPLANT",
+        "AQUARIUMPUMP",
+        "AQUARIUS"
+      ]
+    },
+    {
+      "name": "Nature's Wonders Word Search 75",
+      "words": [
+        "AQUILA",
+        "ARACELI",
+        "ARBOR",
+        "ARBORVITAE",
+        "ARBUTUS",
+        "ARCH",
+        "ARCHES",
+        "ARCMINUTE",
+        "ARCSECOND",
+        "ARCTICAIR",
+        "ARCTICFOX",
+        "ARCTURUS"
+      ]
+    },
+    {
+      "name": "Nature's Wonders Word Search 76",
+      "words": [
+        "ARES",
+        "ARGO",
+        "ARGONAUT",
+        "ARGUS",
+        "ARIANE",
+        "ARID",
+        "ARIEL",
+        "ARIES",
+        "ARMSTRONG",
+        "ARONIA",
+        "ARROKOTH",
+        "ARROYO"
+      ]
+    },
+    {
+      "name": "Nature's Wonders Word Search 77",
+      "words": [
+        "ARTEMIS",
+        "ARTEMISONE",
+        "ARTICHOKE",
+        "ARUGULA",
+        "ASCENSION",
+        "ASELLUS",
+        "ASPARAGUS",
+        "ASPEN",
+        "ASPENLEAF",
+        "ASTER",
+        "ASTEROID",
+        "ASTEROIDBELT"
+      ]
+    },
+    {
+      "name": "Nature's Wonders Word Search 78",
+      "words": [
+        "ASTEROIDFIELD",
+        "ASTEROPE",
+        "ASTEROSEISMOLOGY",
+        "ASTRAEUS",
+        "ASTROBIOLOGY",
+        "ASTROBOT",
+        "ASTROCHEMICAL",
+        "ASTRODYNAMICS",
+        "ASTROGEOLOGY",
+        "ASTROLOGY",
+        "ASTROMETRIC",
+        "ASTROMETRY"
+      ]
+    },
+    {
+      "name": "Nature's Wonders Word Search 79",
+      "words": [
+        "ASTRONAUT",
+        "ASTRONAUTHELMET",
+        "ASTRONAUTICS",
+        "ASTRONAUTPATCH",
+        "ASTRONAUTTEAM",
+        "ASTRONOMER",
+        "ASTRONOMYCLUB",
+        "ASTROPARTICLE",
+        "ASTROPHOTOGRAPHY",
+        "ASTROSPHERE",
+        "ASTROVAN",
+        "ATEA"
+      ]
+    },
+    {
+      "name": "Nature's Wonders Word Search 80",
+      "words": [
+        "ATHENA",
+        "ATLANTIS",
+        "ATLAS",
+        "ATLASMOON",
+        "ATMOSPHERE",
+        "ATOM",
+        "AURIGA",
+        "AURORA",
+        "AURORAAUSTRALIS",
+        "AURORABOREALIS",
+        "AURORAL",
+        "AURORARING"
+      ]
+    },
+    {
+      "name": "Nature's Wonders Word Search 81",
+      "words": [
+        "AURORAUSTRALIS",
+        "AUSTRALIANSHEPHERD",
+        "AUTUMN",
+        "AUTUMNAIR",
+        "AUTUMNAPPLE",
+        "AUTUMNBAKING",
+        "AUTUMNBARN",
+        "AUTUMNBONFIRE",
+        "AUTUMNCANDLE",
+        "AUTUMNCOLOR",
+        "AUTUMNFESTIVAL",
+        "AUTUMNFOREST"
+      ]
+    },
+    {
+      "name": "Nature's Wonders Word Search 82",
+      "words": [
+        "AUTUMNHARVEST",
+        "AUTUMNHIKE",
+        "AUTUMNLANE",
+        "AUTUMNLEAVES",
+        "AUTUMNMARKET",
+        "AUTUMNMOON",
+        "AUTUMNMORNING",
+        "AUTUMNNIGHT",
+        "AUTUMNPARTY",
+        "AUTUMNPATH",
+        "AUTUMNPICNIC",
+        "AUTUMNPIE"
+      ]
+    },
+    {
+      "name": "Nature's Wonders Word Search 83",
+      "words": [
+        "AUTUMNPORCH",
+        "AUTUMNRECIPE",
+        "AUTUMNSUNSET",
+        "AUTUMNWALK",
+        "AUTUMNWEEKEND",
+        "AVALANCHE",
+        "AVIARY",
+        "AWARDSEASON",
+        "AXIS",
+        "AZALEA",
+        "BABYPLANET",
+        "BACKCOUNTRY"
+      ]
+    },
+    {
+      "name": "Nature's Wonders Word Search 84",
+      "words": [
+        "BACKCOUNTRYROAD",
+        "BACKPACK",
+        "BACKPACKTRAIL",
+        "BACKPORCH",
+        "BACKSEAT",
+        "BACKWATER",
+        "BACKYARD",
+        "BACKYARDBIRD",
+        "BACKYARDCHICKENS",
+        "BACKYARDFARM",
+        "BACKYARDGARDEN",
+        "BADLANDS"
+      ]
+    },
+    {
+      "name": "Nature's Wonders Word Search 85",
+      "words": [
+        "BADLANDSBUTTE",
+        "BAKING",
+        "BAKINGDAY",
+        "BAKINGPAN",
+        "BALCONYGARDEN",
+        "BALLOON",
+        "BALSAM",
+        "BALSAMFIR",
+        "BANNETON",
+        "BARLEY",
+        "BARLEYFIELD",
+        "BARN"
+      ]
+    },
+    {
+      "name": "Nature's Wonders Word Search 86",
+      "words": [
+        "BARNBEAM",
+        "BARNBOARD",
+        "BARNCAT",
+        "BARNCLEANING",
+        "BARNFLOOR",
+        "BARNLIGHT",
+        "BARNLOFT",
+        "BARNRAISER",
+        "BARNWOOD",
+        "BARNYARD",
+        "BAROMETER",
+        "BARRIERBEACH"
+      ]
+    },
+    {
+      "name": "Nature's Wonders Word Search 87",
+      "words": [
+        "BARYCENTER",
+        "BARYCENTRIC",
+        "BARYOGENESIS",
+        "BARYON",
+        "BARYONIC",
+        "BASALT",
+        "BASIN",
+        "BASINLAKE",
+        "BASINRANGE",
+        "BASKET",
+        "BASSET",
+        "BAUBLE"
+      ]
+    },
+    {
+      "name": "Nature's Wonders Word Search 88",
+      "words": [
+        "BAY",
+        "BAYLEAF",
+        "BEACH",
+        "BEACHES",
+        "BEACHTRIP",
+        "BEADING",
+        "BEAGLE",
+        "BEAN",
+        "BEANPATCH",
+        "BEANPOLE",
+        "BEANSTALK",
+        "BEARBERRY"
+      ]
+    },
+    {
+      "name": "Nature's Wonders Word Search 89",
+      "words": [
+        "BEARDEDDRAGON",
+        "BEARGRASS",
+        "BEARTRACK",
+        "BEAVERPOND",
+        "BED",
+        "BEDROOM",
+        "BEEHIVE",
+        "BEEHIVEFRAME",
+        "BEEKEEPER",
+        "BEEKEEPERSUIT",
+        "BEEKEEPING",
+        "BEESWAX"
+      ]
+    },
+    {
+      "name": "Nature's Wonders Word Search 90",
+      "words": [
+        "BEESWING",
+        "BEET",
+        "BEETLE",
+        "BEETROOT",
+        "BEETS",
+        "BEETSOUP",
+        "BEGONIA",
+        "BEHAVIOR",
+        "BELINDA",
+        "BELLATRIX",
+        "BELLCOLLAR",
+        "BELLONA"
+      ]
+    },
+    {
+      "name": "Nature's Wonders Word Search 91",
+      "words": [
+        "BELLPEPPER",
+        "BELLRINGING",
+        "BENETNASCH",
+        "BENGAL",
+        "BENNU",
+        "BEPICOLOMBO",
+        "BERENICES",
+        "BERGAMOT",
+        "BERNESE",
+        "BERRY",
+        "BERRYBUSH",
+        "BETELGEUSE"
+      ]
+    },
+    {
+      "name": "Nature's Wonders Word Search 92",
+      "words": [
+        "BEYOND",
+        "BIANCA",
+        "BICHON",
+        "BIELA",
+        "BIGBANG",
+        "BIGBEND",
+        "BIGDIPPER",
+        "BIGHORNSHEEP",
+        "BIGHORNTRAIL",
+        "BIGSUR",
+        "BIN",
+        "BINARYSYSTEM"
+      ]
+    },
+    {
+      "name": "Nature's Wonders Word Search 93",
+      "words": [
+        "BINOCULARS",
+        "BIODIVERSITY",
+        "BIODYNAMIC",
+        "BIOLOGY",
+        "BIOSIGNATURE",
+        "BIRCHBARK",
+        "BIRCHFOREST",
+        "BIRDCAGE",
+        "BIRDCAGECLEAN",
+        "BIRDCAGECOVER",
+        "BIRDCAGEFOOD",
+        "BIRDCAGEPERCH"
+      ]
+    },
+    {
+      "name": "Nature's Wonders Word Search 94",
+      "words": [
+        "BIRDCALL",
+        "BIRDCARE",
+        "BIRDCHECKLIST",
+        "BIRDFEEDER",
+        "BIRDFOOD",
+        "BIRDHOUSE",
+        "BIRDING",
+        "BIRDLIFE",
+        "BIRDNEST",
+        "BIRDNETTING",
+        "BIRDPERCH",
+        "BIRDS"
+      ]
+    },
+    {
+      "name": "Nature's Wonders Word Search 95",
+      "words": [
+        "BIRDSEED",
+        "BIRDSONG",
+        "BIRDSTAND",
+        "BIRDTOY",
+        "BIRMAN",
+        "BIRTHDAY",
+        "BIRTHDAYBANNER",
+        "BISCAYNE",
+        "BISCUIT",
+        "BISONRANGE",
+        "BLACKBEAR",
+        "BLACKBERRY"
+      ]
+    },
+    {
+      "name": "Nature's Wonders Word Search 96",
+      "words": [
+        "BLACKBERRYPATCH",
+        "BLACKBIRD",
+        "BLACKBODY",
+        "BLACKCANYON",
+        "BLACKCAT",
+        "BLACKEYEDSUSAN",
+        "BLACKHOLE",
+        "BLACKSMITH",
+        "BLACKSPRUCE",
+        "BLACKWATER",
+        "BLAKE",
+        "BLANKET"
+      ]
+    },
+    {
+      "name": "Nature's Wonders Word Search 97",
+      "words": [
+        "BLAZAR",
+        "BLIZZARD",
+        "BLOODHOUND",
+        "BLOODMEAL",
+        "BLOOM",
+        "BLOSSOM",
+        "BLOSSOMTIME",
+        "BLUE",
+        "BLUEBERR",
+        "BLUEBERRY",
+        "BLUEBIRD",
+        "BLUEHERON"
+      ]
+    },
+    {
+      "name": "Nature's Wonders Word Search 98",
+      "words": [
+        "BLUEMOON",
+        "BLUEPLANET",
+        "BLUERIDGEPARKWAY",
+        "BLUESHIFT",
+        "BLUESKY",
+        "BLUFF",
+        "BLUFFVIEW",
+        "BOARDFENCE",
+        "BOARDING",
+        "BOARDWALK",
+        "BOAT",
+        "BODES"
+      ]
+    },
+    {
+      "name": "Nature's Wonders Word Search 99",
+      "words": [
+        "BOGGARDEN",
+        "BOKCHOY",
+        "BOLIDE",
+        "BOLOMETRIC",
+        "BONFIRE",
+        "BOOKSHELF",
+        "BOOSTER",
+        "BOOSTERSEAT",
+        "BOOTES",
+        "BORDERCOLLIE",
+        "BORDERPLANT",
+        "BOREALIS"
+      ]
+    },
+    {
+      "name": "Nature's Wonders Word Search 100",
+      "words": [
+        "BOREAS",
+        "BORMAN",
+        "BOSTONTERRIER",
+        "BOTANY",
+        "BOTES",
+        "BOTTLING",
+        "BOULDER",
+        "BOULDERFIELD",
+        "BOULDERTRAIL",
+        "BOXER",
+        "BRADBURY",
+        "BRAIN"
       ]
     }
   ],

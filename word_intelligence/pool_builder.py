@@ -7,6 +7,17 @@ never silently reused or dropped.
 
 The builder NEVER invents vocabulary: if the pool cannot satisfy the
 request it returns the shortfall with actionable detail.
+
+Word Intelligence 2.0 additions (spec PART H/I/J):
+
+*   STRICTNESS - ``strict`` / ``balanced`` / ``broad`` controls how wide the
+    quality/familiarity net is cast.  It NEVER widens topical scope: a broad
+    BBQ book still contains only BBQ vocabulary.
+*   CLUSTER COHERENCE - puzzles draw primarily from one concept cluster
+    (mini-theme) at a time, rotating across clusters so the BOOK spreads
+    over the topic while each PUZZLE stays internally coherent.
+*   DIVERSITY - usage counts, configurable controlled reuse and explicit
+    repetition-pressure reporting instead of silent recycling.
 """
 
 from __future__ import annotations
@@ -14,7 +25,8 @@ from __future__ import annotations
 import random
 from dataclasses import dataclass, field
 
-from .analysis import words_for_topic, estimate_capacity
+from .analysis import estimate_capacity, words_for_topic
+from .clusters import GENERAL_CLUSTER, assign_clusters
 from .quality import PuzzleWorthiness, assess_quality, familiarity_tier
 
 
@@ -29,6 +41,20 @@ MAX_SPECIALTY_SHARE = 0.2   # specialty words per puzzle
 MIN_ANCHORS_PER_PUZZLE = 1
 MAX_ANCHOR_TARGET = 4
 
+# Strictness -> minimum confidence band of links eligible for the pool.
+# Topical scope never changes with strictness; only how proven a link must
+# be and how familiar the vocabulary needs to be.
+STRICTNESS_MIN_BAND = {
+    "strict": "high",      # trusted/high-confidence anchors only
+    "balanced": "medium",  # default commercial behaviour
+    "broad": "low",        # wider related vocabulary, still screened
+}
+STRICTNESS_MIN_ZIPF_BONUS = {
+    "strict": 0.4,         # demand slightly more familiar words too
+    "balanced": 0.0,
+    "broad": -0.3,         # allow deeper specialty cuts, still >= floor
+}
+
 
 @dataclass
 class PoolRequest:
@@ -39,6 +65,9 @@ class PoolRequest:
     subtopics: list[str] | None = None      # canonical subtopic ids to balance
     series_context: list[str] | None = None # words already used by sibling books
     seed: int | None = None
+    strictness: str = "balanced"            # strict | balanced | broad
+    max_word_reuse: int = 0                 # 0 = unique-only (previous behaviour)
+    cluster_aware: bool = True              # mini-theme assembly
 
 
 @dataclass
@@ -48,6 +77,9 @@ class PoolResult:
     warnings: list[str] = field(default_factory=list)
     shortfall: int = 0
     capacity: dict = field(default_factory=dict)
+    puzzle_clusters: list[str] = field(default_factory=list)
+    reuse_counts: dict[str, int] = field(default_factory=dict)
+    repetition_pressure: float = 0.0   # reused slots / total slots
 
     def to_dict(self) -> dict:
         return {
@@ -56,11 +88,16 @@ class PoolResult:
             "warnings": list(self.warnings),
             "shortfall": self.shortfall,
             "capacity": dict(self.capacity),
+            "puzzle_clusters": list(self.puzzle_clusters),
+            "reuse_counts": dict(self.reuse_counts),
+            "repetition_pressure": self.repetition_pressure,
         }
 
 
-def _difficulty_ok(record, difficulty: str) -> tuple[bool, str]:
+def _difficulty_ok(record, difficulty: str,
+                   strictness: str = "balanced") -> tuple[bool, str]:
     min_zipf = DIFFICULTY_MIN_ZIPF.get(difficulty, DIFFICULTY_MIN_ZIPF["medium"])
+    min_zipf += STRICTNESS_MIN_ZIPF_BONUS.get(strictness, 0.0)
     if record.safety_review:
         return False, "safety"
     quality = assess_quality(record)
@@ -68,7 +105,7 @@ def _difficulty_ok(record, difficulty: str) -> tuple[bool, str]:
         return False, "quality exclude"
     freq = record.frequency
     if freq is not None and freq < min_zipf:
-        return False, f"zipf {freq:.1f} below {difficulty} floor {min_zipf}"
+        return False, f"zipf {freq:.1f} below {difficulty} floor {min_zipf:.1f}"
     if quality.worthiness == PuzzleWorthiness.REVIEW:
         return False, "needs review"
     if quality.worthiness == PuzzleWorthiness.SPECIALIZED and difficulty == "easy":
@@ -77,16 +114,25 @@ def _difficulty_ok(record, difficulty: str) -> tuple[bool, str]:
 
 
 def collect_eligible_words(store, taxonomy, request: PoolRequest,
-                           min_band: str = "medium") -> dict[str, list[str]]:
-    """Eligible pool keyed by role: anchor / support / specialty."""
+                           min_band: str | None = None) -> dict[str, list[str]]:
+    """Eligible pool keyed by role: anchor / support / specialty.
+
+    ``min_band`` defaults to the strictness-derived band so callers get
+    consistent behaviour without repeating the mapping themselves.
+    """
     from .quality import role_for
     from .records import APPROVED, PROPOSED, TRUSTED, band_of
 
+    if min_band is None:
+        min_band = STRICTNESS_MIN_BAND.get(request.strictness, "medium")
     roles: dict[str, list[str]] = {"anchor": [], "support": [], "specialty": []}
     used_elsewhere = set(request.series_context or [])
     for norm in words_for_topic(store, request.topic_id, min_band=min_band):
+        if norm in used_elsewhere:
+            continue
         record = store.get(norm)
-        ok, _reason = _difficulty_ok(record, request.difficulty)
+        ok, _reason = _difficulty_ok(record, request.difficulty,
+                                     request.strictness)
         if not ok:
             continue
         link = record.link_for(request.topic_id)
@@ -97,8 +143,25 @@ def collect_eligible_words(store, taxonomy, request: PoolRequest,
     return roles
 
 
+def _cluster_rotation(clusters: dict[str, list[str]], puzzle_count: int,
+                      rng: random.Random) -> list[str]:
+    """Deterministic cluster order: biggest first, round-robin repeats.
+
+    Rotating spreads the BOOK across the topic's mini-themes while each
+    individual puzzle stays inside one of them (spec PART I vs PART S).
+    """
+    order = sorted((c for c in clusters
+                    if c != GENERAL_CLUSTER and clusters[c]),
+                   key=lambda c: (-len(clusters[c]), c))
+    if clusters.get(GENERAL_CLUSTER):
+        order.append(GENERAL_CLUSTER)
+    if not order:
+        return [GENERAL_CLUSTER] * max(puzzle_count, 1)
+    return [order[i % len(order)] for i in range(puzzle_count)]
+
+
 def build_word_pool(store, taxonomy, request: PoolRequest,
-                    min_band: str = "medium") -> PoolResult:
+                    min_band: str | None = None) -> PoolResult:
     rng = random.Random(request.seed)
     needed = request.puzzle_count * request.words_per_puzzle
     result = PoolResult()
@@ -107,12 +170,28 @@ def build_word_pool(store, taxonomy, request: PoolRequest,
     all_eligible = sorted(set().union(*roles.values()))
     result.capacity = estimate_capacity(len(all_eligible), request.words_per_puzzle)
 
+    # Cluster map drives mini-theme coherence (spec PART I).  Cheap even
+    # for large pools; skipped entirely when the caller disables it.
+    word_clusters: dict[str, str] = {}
+    if request.cluster_aware:
+        word_clusters = assign_clusters(taxonomy=taxonomy, store=store,
+                                        topic_id=request.topic_id,
+                                        words=all_eligible)
+    clusters: dict[str, list[str]] = {}
+    for norm in all_eligible:
+        clusters.setdefault(word_clusters.get(norm, GENERAL_CLUSTER),
+                            []).append(norm)
+    rotation = (_cluster_rotation(clusters, request.puzzle_count, rng)
+                if request.cluster_aware else
+                [GENERAL_CLUSTER] * max(request.puzzle_count, 1))
+
     for role in ("anchor", "support", "specialty"):
         roles[role] = sorted(set(roles[role]) - set(request.series_context or []))
         rng.shuffle(roles[role])
 
     total_available = sum(len(v) for v in roles.values())
-    if total_available < needed:
+    max_reuse = max(0, int(request.max_word_reuse))
+    if total_available < needed and max_reuse == 0:
         result.shortfall = needed - total_available
         result.warnings.append(
             f"Pool short by {result.shortfall} eligible words "
@@ -123,54 +202,98 @@ def build_word_pool(store, taxonomy, request: PoolRequest,
     anchors = roles["anchor"]
     supports = roles["support"]
     specialties = roles["specialty"]
+    usage: dict[str, int] = {n: 0 for n in all_eligible}
 
-    max_specialty_per_puzzle = int(request.words_per_puzzle * MAX_SPECIALTY_SHARE)
-    consumed: set[str] = set()
+    def take(pool: list[str], count: int, prefer: set[str]) -> list[str]:
+        """Pop up to ``count`` words honouring the reuse cap.
+
+        Words inside ``prefer`` (this puzzle's primary cluster) are drawn
+        first; among equals the least-used word wins so vocabulary spreads
+        across the book before anything repeats.
+        """
+        taken: list[str] = []
+        taken_set: set[str] = set()
+        while len(taken) < count and pool:
+            # Soft mini-theme preference: use primary-cluster words when any
+            # are still available under the caps, otherwise fall back to the
+            # wider pool so a small cluster can never stall a puzzle.
+            usable = [w for w in pool
+                      if usage[w] <= max_reuse and w not in taken_set]
+            preferred = [w for w in usable if w in prefer]
+            if preferred:
+                usable = preferred
+            if not usable:
+                break
+            pick = min(usable, key=lambda w: (usage[w], w))
+            if max_reuse == 0:
+                # Unique-only mode keeps the historic behaviour: a chosen
+                # word leaves the candidate pool entirely.
+                pool.remove(pick)
+            # Controlled-reuse mode keeps the word available across puzzles
+            # until its cap (usage[w] <= max_reuse) is exceeded; the
+            # least-used-first key guarantees progress, and taken_set keeps
+            # a single puzzle duplicate-free.
+            taken.append(pick)
+            taken_set.add(pick)
+        return taken
+
+    anchor_target_by_puzzle = min(
+        MAX_ANCHOR_TARGET,
+        max(MIN_ANCHORS_PER_PUZZLE, request.words_per_puzzle // 6))
+    specialty_cap = int(request.words_per_puzzle * MAX_SPECIALTY_SHARE)
 
     for index in range(request.puzzle_count):
+        primary = rotation[index]
         puzzle: list[str] = []
 
-        def take(pool: list[str], count: int) -> None:
-            taken = 0
-            while taken < count and pool:
-                candidate = pool.pop()
-                if candidate in consumed:
-                    continue
-                puzzle.append(candidate)
-                consumed.add(candidate)
-                taken += 1
+        def draw(pool: list[str], count: int) -> None:
+            if not pool:
+                return
+            prefer = {w for w in pool
+                      if word_clusters.get(w, GENERAL_CLUSTER) == primary}
+            puzzle.extend(take(pool, count, prefer))
 
-        # Anchor presence first, then support fill, then a specialty garnish.
-        anchor_target = min(MAX_ANCHOR_TARGET,
-                            max(MIN_ANCHORS_PER_PUZZLE,
-                                request.words_per_puzzle // 6))
-        take(anchors, anchor_target)
-        specialty_target = min(max_specialty_per_puzzle, len(specialties))
-        take(specialties, specialty_target)
+        draw(anchors, anchor_target_by_puzzle)
+        draw(specialties, min(specialty_cap, len(specialties)))
         remaining = request.words_per_puzzle - len(puzzle)
-        take(supports, remaining)
-        # Top up from any pool if support ran dry.
+        draw(supports, remaining)
         if len(puzzle) < request.words_per_puzzle:
+            # Top up across every role, still favouring the mini-theme.
             for backup in (supports, anchors, specialties):
-                before = len(puzzle)
-                take(backup, request.words_per_puzzle - len(puzzle))
+                draw(backup, request.words_per_puzzle - len(puzzle))
                 if len(puzzle) >= request.words_per_puzzle:
                     break
         if len(puzzle) < request.words_per_puzzle:
             break  # exhausted mid-run; report shortfall below
-        result.puzzles.append(sorted(puzzle))
+        for word in puzzle:
+            usage[word] = usage.get(word, 0) + 1
+        # Candidate storage is intentionally sorted for stable audits, but the
+        # reader-facing word list must not look like a dictionary page. Mix
+        # each completed puzzle with the request's seeded RNG so reruns remain
+        # reproducible without returning A-to-Z lists.
+        rng.shuffle(puzzle)
+        result.puzzles.append(list(puzzle))
+        result.puzzle_clusters.append(primary)
 
     placed = sum(len(p) for p in result.puzzles)
-    expected = min(needed, total_available)
+    reused_slots = sum(count - 1 for count in usage.values() if count > 1)
+    result.reuse_counts = {w: c for w, c in sorted(usage.items()) if c > 1}
+    if placed:
+        result.repetition_pressure = round(reused_slots / placed, 4)
     if placed < needed:
         result.shortfall = needed - placed
         result.warnings.append(
             f"Built {len(result.puzzles)} of {request.puzzle_count} puzzles "
             f"before exhausting the pool")
+    if reused_slots:
+        result.warnings.append(
+            f"Controlled reuse applied: {reused_slots} repeated slot(s) "
+            f"(max_word_reuse={max_reuse}); topic capacity below request")
 
     leftovers: set[str] = set()
     for role in ("anchor", "support", "specialty"):
         leftovers |= set(roles[role])
+    consumed = {w for w, c in usage.items() if c}
     leftovers -= consumed
     result.unused_pool = sorted(leftovers)
     return result

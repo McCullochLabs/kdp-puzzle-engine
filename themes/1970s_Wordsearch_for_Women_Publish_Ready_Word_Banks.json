@@ -75,13 +75,13 @@
     {
       "name": "Rock & Records",
       "words": [
-        "FILM",
+        "ACADIA",
         "EXPLOSIVE",
         "COMMUNICATE",
         "GOGO",
         "FOOTBALL",
         "SHERIFF",
-        "SLEEP",
+        "ACCELERATOR",
         "ELCAPITAN",
         "EXCAVATION",
         "SPACEFLIGHT",
@@ -102,7 +102,7 @@
         "CHEESECAKE",
         "CLEAN",
         "ERIECANAL",
-        "RELAX",
+        "ACCESSORY",
         "CITY"
       ]
     },
@@ -126,7 +126,7 @@
     {
       "name": "Cars & Vans",
       "words": [
-        "SINGER",
+        "ACCORD",
         "RAIN",
         "MOOSE",
         "MOUSE",
@@ -148,9 +148,9 @@
         "PARASOL",
         "BATHHOUSE",
         "MARFA",
-        "CELEBRITY",
+        "ACORN",
         "LANDSCAPE",
-        "COOKBOOK",
+        "ACURA",
         "BARRACUDA",
         "BARISTA",
         "PARMESAN",
@@ -188,7 +188,7 @@
         "MAXIDRESS",
         "BYZANTINE",
         "GARAGESALE",
-        "HANDHELDGAME"
+        "ADVENTURE"
       ]
     },
     {
@@ -239,13 +239,13 @@
         "POLLUTION",
         "ACTIVIST",
         "CLOUD",
-        "DRUMS"
+        "ADVENTURETRAIL"
       ]
     },
     {
       "name": "Rock & Records: Essentials",
       "words": [
-        "SYNTHESIZER",
+        "AIRCONDITIONER",
         "COFFEEHOUSE",
         "HAIRGEL",
         "TARTAR",
@@ -266,7 +266,7 @@
         "CARSHOW",
         "WEEKENDDRIVE",
         "LIFTKIT",
-        "FARMLAND",
+        "AIRFILTER",
         "TEEING",
         "CARPET",
         "BOAS",
@@ -316,7 +316,7 @@
         "SKYLINEDRIVE",
         "PEARL",
         "ROADTRIP",
-        "NURSE",
+        "AIRFRESHENER",
         "PATIO",
         "ADIRONDACKS",
         "AFRICA",
@@ -333,14 +333,14 @@
         "ANCIENT",
         "MOUNTAINEER",
         "PLIERS",
-        "SNAKE",
+        "AIRPORT",
         "BEARING",
         "CRAWL",
         "EXCAVATOR",
         "FIG",
-        "WINNER",
+        "AIRPUMP",
         "MERCURYCAR",
-        "COSPLAY",
+        "ALASKAPARKS",
         "OMG"
       ]
     },
@@ -354,8 +354,8 @@
         "JAVAN",
         "SPINES",
         "MESSAGE",
-        "LOYALTY",
-        "FANDOM",
+        "ALERO",
+        "ALIGNMENT",
         "EMERALDPOOLS",
         "SEPPUKU",
         "LABOR"
@@ -371,8 +371,8 @@
         "XTERRA",
         "ZOO",
         "FAIRLANE",
-        "PAUSE",
-        "TEXTMESSAGE",
+        "ALLIES",
+        "ALLROAD",
         "MALLDAY",
         "CRIMPEDHAIR",
         "LEARNING"
@@ -392,7 +392,7 @@
         "CAMRY",
         "IRON",
         "MAKO",
-        "TRIVIA"
+        "ALLWHEEL"
       ]
     },
     {
@@ -406,7 +406,7 @@
         "MEMORABLE",
         "BASEBALL",
         "BOOTH",
-        "COLOR",
+        "ALPINEFOREST",
         "SAFEDRIVER",
         "HATCHBACK",
         "BLIZZARD"
@@ -450,7 +450,7 @@
       "name": "Tech & Video: Memory Lane",
       "words": [
         "PINUPS",
-        "TELEVISION",
+        "ALPINEGLOW",
         "HURRICANE",
         "APPETITE",
         "WATERPUMP",
@@ -458,7 +458,7 @@
         "PARKING",
         "GLAMROCK",
         "SHINE",
-        "ALTAR",
+        "ALPINEHUT",
         "SLOUGH",
         "HIDE"
       ]
@@ -485,11 +485,11 @@
       "words": [
         "CHARTS",
         "PRAIRIE",
-        "NEWRELEASE",
-        "PENCIL",
+        "ALPINELAKE",
+        "ALPINEPASS",
         "SCENIC",
         "NORTHCOUNTRY",
-        "MARKER",
+        "ALPINEWILDFLOWER",
         "NOBLES",
         "MANUAL",
         "HOLDER",
@@ -556,7 +556,7 @@
         "LIPGLOSS",
         "THANKFUL",
         "FARE",
-        "WATER",
+        "ALTERNATOR",
         "FREEWHEEL",
         "SURFWAX",
         "STING",
@@ -591,7 +591,7 @@
         "CHARACTERS",
         "BAJA",
         "HAIRSPRAY",
-        "SHIELD",
+        "ALTERNATORBELT",
         "EQUAL",
         "AUTOSHOP",
         "ADDAX",
@@ -611,7 +611,7 @@
         "GUAVA",
         "SPONGE",
         "BEEPER",
-        "SCREAM",
+        "ALTIMA",
         "PEAK",
         "BURGER"
       ]
@@ -639,10 +639,10 @@
         "FAMILYSHOW",
         "MICROPROCESSOR",
         "CARWASH",
-        "ARCADES",
+        "AMBULANCE",
         "CAMERAPHONE",
         "MOONPROGRAM",
-        "FAMOUS",
+        "AMERICA",
         "ENCHILADA",
         "NET",
         "TERN",
@@ -693,7 +693,7 @@
         "SEASTAR",
         "MUSTANGISLAND",
         "GLOVEBOX",
-        "CDPLAYER",
+        "AMERICANALLIGATOR",
         "TRACTOR",
         "SCHOOLDANCE",
         "PARKS",
@@ -711,7 +711,7 @@
         "TUB",
         "REMOTECAR",
         "CHOKER",
-        "HADES",
+        "AMIGO",
         "MEADOW",
         "POLICECAR",
         "PLACER",
@@ -721,7 +721,7 @@
     {
       "name": "Home Decor: Weekend Flashback",
       "words": [
-        "FABLE",
+        "AMPERA",
         "PRESCOTT",
         "DRINKS",
         "WAGON",
@@ -741,7 +741,7 @@
         "CHAIN",
         "TWOSTEP",
         "GORGE",
-        "EARBUDS",
+        "AMPHIBIAN",
         "DEEPSEA",
         "SITCOM",
         "RIDDLES",
@@ -759,7 +759,7 @@
         "SCALLOP",
         "BELUGA",
         "HOOK",
-        "HOODIE",
+        "AMPLIFIER",
         "TURNTABLE",
         "JUDGE",
         "TURBOCHARGER",
@@ -798,7 +798,7 @@
         "DELI",
         "CAMPTRAIL",
         "CANISTER",
-        "NOVELIST",
+        "ANACOSTIA",
         "REINS",
         "CARCOVER"
       ]
@@ -808,7 +808,7 @@
       "words": [
         "EGYPTIAN",
         "GLAM",
-        "CROSS",
+        "ANTELOPECANYON",
         "PORCUPINES",
         "WIPER",
         "MONTERO",
@@ -849,7 +849,7 @@
         "PALMETTO",
         "TEETH",
         "GRADATION",
-        "PHOTOGRAPH",
+        "ANTIFREEZE",
         "COLORTV",
         "SPECTACLES"
       ]
@@ -893,5 +893,12 @@
       "Travel and Geography"
     ],
     "checked_at": "2026-08-22T10:08:37"
+  },
+  "quality_review": {
+    "checked_at": "20260824-213612",
+    "source": "verified_word_intelligence_repair",
+    "verdict": "PASS_WITH_NOTES",
+    "production_ready": false,
+    "changes": 38
   }
 }

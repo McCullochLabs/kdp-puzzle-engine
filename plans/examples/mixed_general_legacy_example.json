@@ -1,0 +1,200 @@
+{
+  "schema_version": 1,
+  "book_plan_id": "148a64ecf2d9e39410da6021",
+  "created_at": "2026-08-28T12:03:26+00:00",
+  "puzzle_type": "mixed",
+  "topic_ids": [
+    "General"
+  ],
+  "format": {
+    "puzzle_count": 6,
+    "items_per_puzzle": 1,
+    "difficulty": "standard",
+    "large_print": false,
+    "symbol_set": "numbers",
+    "grid_size": 9
+  },
+  "seed": 41,
+  "review_policy": "legacy_compatible",
+  "freshness_policy": "allow_all",
+  "source_revision": "d5d8ecf7130da85da27e0c5711ab4c66fe481fb6c7c30504e370a4320066f3a9",
+  "capacity_proof": "da7b2d507b47c4af6c30a14abe871a24a2143a6d3884e5979a081ab27434de87",
+  "selected_content_ids": [],
+  "puzzle_allocations": [],
+  "quality_snapshot": {
+    "section_count": 3,
+    "general_pool_explicit": true
+  },
+  "warnings": [
+    "Mixed plan is a section contract; existing routing is unchanged."
+  ],
+  "freshness_snapshot": {},
+  "section_plans": {
+    "sudoku": {
+      "schema_version": 1,
+      "book_plan_id": "7db02e2b71495c53198e3fd1",
+      "created_at": "2026-08-28T12:03:26+00:00",
+      "puzzle_type": "sudoku",
+      "topic_ids": [
+        "General"
+      ],
+      "format": {
+        "puzzle_count": 2,
+        "items_per_puzzle": 1,
+        "difficulty": "standard",
+        "large_print": false,
+        "symbol_set": "numbers",
+        "grid_size": 9
+      },
+      "seed": 41,
+      "review_policy": "legacy_compatible",
+      "freshness_policy": "allow_all",
+      "source_revision": "d5d8ecf7130da85da27e0c5711ab4c66fe481fb6c7c30504e370a4320066f3a9",
+      "capacity_proof": "acbedb03dff070c2e0e5d11691fe878641062e4aba69b5b2efbe42f1e485198f",
+      "selected_content_ids": [],
+      "puzzle_allocations": [],
+      "quality_snapshot": {
+        "difficulty_distribution": {
+          "standard": 2
+        },
+        "symbol_set": "numbers",
+        "grid_size": 9,
+        "unique_solution_required": true,
+        "determinism": "seed passed to existing generator"
+      },
+      "warnings": [
+        "Sudoku grids are generated and uniqueness-validated by the existing specialized generator."
+      ],
+      "freshness_snapshot": {},
+      "section_plans": {}
+    },
+    "cryptogram": {
+      "schema_version": 1,
+      "book_plan_id": "d1abd00b3fbaed192cbb354a",
+      "created_at": "2026-08-28T12:03:26+00:00",
+      "puzzle_type": "cryptogram",
+      "topic_ids": [
+        "General"
+      ],
+      "format": {
+        "puzzle_count": 2,
+        "items_per_puzzle": 1,
+        "difficulty": "standard",
+        "large_print": false,
+        "symbol_set": "numbers",
+        "grid_size": 9
+      },
+      "seed": 1050,
+      "review_policy": "legacy_compatible",
+      "freshness_policy": "allow_all",
+      "source_revision": "d5d8ecf7130da85da27e0c5711ab4c66fe481fb6c7c30504e370a4320066f3a9",
+      "capacity_proof": "ab1b28636982e7ce45640f74df594a1f97fa8f8d83350aae4d452dc26fbfad30",
+      "selected_content_ids": [
+        "cryptogram_prompt_558717b5c1251e7f7100",
+        "cryptogram_prompt_7296b6820cc5cb7f17e2"
+      ],
+      "puzzle_allocations": [
+        {
+          "puzzle_number": 1,
+          "content_ids": [
+            "cryptogram_prompt_558717b5c1251e7f7100"
+          ],
+          "mini_theme": "",
+          "section": ""
+        },
+        {
+          "puzzle_number": 2,
+          "content_ids": [
+            "cryptogram_prompt_7296b6820cc5cb7f17e2"
+          ],
+          "mini_theme": "",
+          "section": ""
+        }
+      ],
+      "quality_snapshot": {
+        "topic_fit": 1.0,
+        "diversity_score": 0.0,
+        "max_mini_theme_concentration": 0.0,
+        "freshness_status": "clean",
+        "related_topics_used": false
+      },
+      "warnings": [
+        "legacy_compatible planning is not strict editorial verification.",
+        "mini_theme_map_missing: no trustworthy mini-theme metadata was supplied by the selected records."
+      ],
+      "freshness_snapshot": {
+        "history_source": "word_reservations",
+        "excluded_counts": {
+          "duplicate_normalized": 1,
+          "wrong_content_type": 30280
+        },
+        "unknown_history_count": 0
+      },
+      "section_plans": {}
+    },
+    "scramble_trivia": {
+      "schema_version": 1,
+      "book_plan_id": "0e34ad55eb8af0b357db3d29",
+      "created_at": "2026-08-28T12:03:26+00:00",
+      "puzzle_type": "scramble_trivia",
+      "topic_ids": [
+        "General"
+      ],
+      "format": {
+        "puzzle_count": 2,
+        "items_per_puzzle": 1,
+        "difficulty": "standard",
+        "large_print": false,
+        "symbol_set": "numbers",
+        "grid_size": 9
+      },
+      "seed": 2058,
+      "review_policy": "legacy_compatible",
+      "freshness_policy": "allow_all",
+      "source_revision": "d5d8ecf7130da85da27e0c5711ab4c66fe481fb6c7c30504e370a4320066f3a9",
+      "capacity_proof": "4e2c743153f9e426554b601a7a7e8087d2f5fc86d2776012690324d1a0908212",
+      "selected_content_ids": [
+        "trivia_0ad9c2dd95c7dba4a392",
+        "trivia_2a4eaf8ea13afb433edc"
+      ],
+      "puzzle_allocations": [
+        {
+          "puzzle_number": 1,
+          "content_ids": [
+            "trivia_0ad9c2dd95c7dba4a392"
+          ],
+          "mini_theme": "",
+          "section": ""
+        },
+        {
+          "puzzle_number": 2,
+          "content_ids": [
+            "trivia_2a4eaf8ea13afb433edc"
+          ],
+          "mini_theme": "",
+          "section": ""
+        }
+      ],
+      "quality_snapshot": {
+        "topic_fit": 1.0,
+        "diversity_score": 0.0,
+        "max_mini_theme_concentration": 0.0,
+        "freshness_status": "clean",
+        "related_topics_used": false
+      },
+      "warnings": [
+        "legacy_compatible planning is not strict editorial verification.",
+        "mini_theme_map_missing: no trustworthy mini-theme metadata was supplied by the selected records."
+      ],
+      "freshness_snapshot": {
+        "history_source": "word_reservations",
+        "excluded_counts": {
+          "wrong_content_type": 30280,
+          "duplicate_normalized": 8
+        },
+        "unknown_history_count": 0
+      },
+      "section_plans": {}
+    }
+  }
+}

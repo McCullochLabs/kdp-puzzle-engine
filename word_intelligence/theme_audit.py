@@ -143,8 +143,19 @@ def resolve_target_topics(theme: dict, taxonomy) -> tuple[list[str], str]:
     return [], "unresolved"
 
 
-def _classify_word(norm, record, targets, related_ids, taxonomy) -> WordFinding:
+def _classify_word(norm, record, targets, related_ids, taxonomy,
+                   compatible_ids=None, sibling_ids=None) -> WordFinding:
+    """Grade one word against the theme's target topics.
+
+    ``compatible_ids`` is the multi-anchor closure (target + taxonomy
+    neighbours + curated anchor pairs).  Words pointing only inside it are
+    legitimately themed and must not fail the book.  ``sibling_ids`` (same
+    family) softens a bare off_topic to weak: still surfaced for review,
+    never silently accepted.
+    """
     display = record.display if record else norm.title()
+    compatible_ids = compatible_ids or set()
+    sibling_ids = sibling_ids or set()
     if record is None:
         return WordFinding(norm, norm.title(), "unverified",
                            "Unknown to the intelligence store")
@@ -178,12 +189,26 @@ def _classify_word(norm, record, targets, related_ids, taxonomy) -> WordFinding:
     if any(l.topic_id in related_ids for l in record.topics):
         return WordFinding(norm, display, "related",
                            "Belongs to a neighbouring topic")
+    anchors_hit = sorted({l.topic_id for l in record.topics
+                          if l.topic_id in compatible_ids})
+    if anchors_hit:
+        names = "/".join(taxonomy.display_name(c) for c in anchors_hit[:3])
+        return WordFinding(norm, display, "related",
+                           f"Multi-anchor match via {names}")
 
     elsewhere = [l for l in record.topics
-                 if not _is_catch_all_topic(taxonomy, l.topic_id)]
+                 if not _is_catch_all_topic(taxonomy, l.topic_id)
+                 and (l.status in (TRUSTED, APPROVED)
+                      or band_of(l.confidence) in ("very_high", "high"))]
     if elsewhere:
         others = "/".join(sorted({l.topic_id for l in elsewhere})[:3])
         return WordFinding(norm, display, "off_topic", f"Points elsewhere: {others}")
+
+    # Only weak/medium counter-evidence exists: not enough to accuse the
+    # word of being off-topic, but worth surfacing as unresolved context.
+    if record.topics:
+        return WordFinding(norm, display, "unverified",
+                           "Only weak competing signals so far")
 
     if record.topics:
         # Only catch-all memberships: nothing topical to judge with yet.
@@ -258,13 +283,20 @@ def audit_theme(theme_data: dict, theme_file: str, store, taxonomy,
                 used_puzzle_names = True
         key = targets[0] if targets else ""
         if key not in related_cache:
+            from .anchors import compatibility_closure, family_sibling_ids
             related: set[str] = set()
+            compatible: set[str] = set()
             for cid in targets:
                 related |= taxonomy.related_closure(cid, hops=1)
-            related_cache[key] = related
+                compatible |= compatibility_closure(taxonomy, cid)
+            related_cache[key] = (related, compatible,
+                                  family_sibling_ids(taxonomy, key))
+        related, compatible, siblings = related_cache[key]
         for norm in words_here:
             record = store.get(norm)
-            finding = _classify_word(norm, record, set(targets), related_cache[key], taxonomy)
+            finding = _classify_word(norm, record, set(targets), related,
+                                     taxonomy, compatible_ids=compatible,
+                                     sibling_ids=siblings)
             finding.puzzle_index = puzzle_index
             existing = findings_by_norm.get(norm)
             if existing is None or (existing.status == "off_topic"

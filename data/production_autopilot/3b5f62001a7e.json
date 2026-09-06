@@ -1,0 +1,65 @@
+{
+  "version": "1",
+  "book_id": "3b5f62001a7e",
+  "runs": [
+    {
+      "run_id": "733d3cdf09ed0aff",
+      "started": "2026-08-27T16:03:33",
+      "facts_fingerprint": "93a162d7fa90004fe375bfadb67ee271f7bf78a03a1bee31a208a58645991c37",
+      "result": "running"
+    }
+  ],
+  "stages": {
+    "validate": {
+      "status": "complete",
+      "fingerprint": "a8f5688fe6013e8719eabeb4d9a5f50e85e4c814a2e68417f5259f5513fe9824",
+      "completed": "2026-08-27T16:03:33",
+      "detail": "Contributor, content capacity, and automatic-plan checks passed before generation.",
+      "artifact": ""
+    },
+    "generate": {
+      "status": "complete",
+      "fingerprint": "36533a4ecfdd5802e40e613a2f59a1dbb0d3110f3862a80698613c8674b4ddfc",
+      "completed": "2026-08-27T16:03:34",
+      "detail": "Interior and answer pages were generated from the selected puzzle type and seed.",
+      "artifact": "C:\\Users\\jorda\\Desktop\\Word Search Creator\\kdp-puzzle-engine\\out\\wild_places_brain_games_collection_20260827_160333\\01_PRINT_UPLOADS\\interior.pdf"
+    },
+    "cover": {
+      "status": "complete",
+      "fingerprint": "1738266d949748499d384b246ddeebf5beae79a481a13df0d4b5b0aebbd6061e",
+      "completed": "2026-08-27T16:03:35",
+      "detail": "Front cover was rendered from verified facts and approved matching art.",
+      "artifact": "C:\\Users\\jorda\\Desktop\\Word Search Creator\\kdp-puzzle-engine\\out\\wild_places_brain_games_collection_20260827_160333\\03_PREVIEWS\\front_cover.png"
+    },
+    "preflight": {
+      "status": "complete",
+      "fingerprint": "e632a5307619d3f7602c93f4113c354e46bcfc1d20acb54e777d431a5dc64298",
+      "completed": "2026-08-27T16:03:37",
+      "detail": "Wrap and print preflight passed using the final interior page count.",
+      "artifact": "C:\\Users\\jorda\\Desktop\\Word Search Creator\\kdp-puzzle-engine\\out\\wild_places_brain_games_collection_20260827_160333\\01_PRINT_UPLOADS\\kdp_full_wrap.pdf"
+    },
+    "listing": {
+      "status": "complete",
+      "fingerprint": "76d172332ff06985d277f133ccd6bd69804557534b4be0e89472506d8e3fe810",
+      "completed": "2026-08-27T16:03:37",
+      "detail": "Listing kit was generated from verified book facts.",
+      "artifact": ""
+    },
+    "package": {
+      "status": "complete",
+      "fingerprint": "8f3a4db8a1e1157e71574b12d5ded2e54504ab99707f325528c1473cac05bfd3",
+      "completed": "2026-08-27T16:03:40",
+      "detail": "Final package inspection passed and master release files were created.",
+      "artifact": "C:\\Users\\jorda\\Desktop\\Word Search Creator\\kdp-puzzle-engine\\out\\wild_places_brain_games_collection_20260827_160333"
+    },
+    "register": {
+      "status": "complete",
+      "fingerprint": "3eccc855c0f363795d34c4eb83ecbfcae000601e26d5247e116fcaa8af426eed",
+      "completed": "2026-08-27T16:03:40",
+      "detail": "Finished package was registered in Publishing Center.",
+      "artifact": ""
+    }
+  },
+  "facts_fingerprint": "93a162d7fa90004fe375bfadb67ee271f7bf78a03a1bee31a208a58645991c37",
+  "last_started": "2026-08-27T16:03:33"
+}

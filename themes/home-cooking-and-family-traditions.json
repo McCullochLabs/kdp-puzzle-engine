@@ -29,7 +29,7 @@
         "SWEEP",
         "FIREPLACE",
         "THANKSGIVING",
-        "IMAGINATION",
+        "ACANTHUS",
         "MAKER",
         "FORK",
         "ORCHID",
@@ -68,7 +68,7 @@
         "HOMECOOKED",
         "BEACON",
         "STOVE",
-        "THRUSH",
+        "ACHILLEA",
         "MACHINE",
         "ICEBERG"
       ]
@@ -94,14 +94,14 @@
       "name": "Homemade Pasta",
       "words": [
         "TOMATO",
-        "BRIDGE",
+        "ACORN",
         "DATA",
-        "TVSERIES",
+        "ACREAGE",
         "EXPLODE",
         "SNACKS",
         "POLLEN",
         "BOXSET",
-        "TIDAL",
+        "ADVENTCALENDAR",
         "BULB",
         "LEMONADE",
         "ABALONE"
@@ -110,11 +110,11 @@
     {
       "name": "Holiday Feasts",
       "words": [
-        "LOVE",
+        "AGAPANTHUS",
         "NECTAR",
         "NET",
         "CULINARY",
-        "EXPLORE",
+        "AGRICULTURE",
         "BONFIRE",
         "CUP",
         "BAT",
@@ -127,18 +127,18 @@
     {
       "name": "Comfort Food",
       "words": [
-        "SCHOOLBUS",
+        "AGROFORESTRY",
         "SCREENSAVER",
         "MONARCH",
         "SYMMETRY",
-        "PSYCH",
+        "AGROTEK",
         "GAMES",
-        "TRAVEL",
+        "AIRMASS",
         "BODACIOUS",
         "PASSION",
-        "CAMPING",
-        "TRUNK",
-        "HORIZON"
+        "AIRPLANT",
+        "ALFALFA",
+        "ALLIUM"
       ]
     },
     {
@@ -147,7 +147,7 @@
         "HUMUS",
         "POT",
         "MAPLE",
-        "WEREWOLF",
+        "ALLOTMENT",
         "SKY",
         "BARN",
         "FRAGRANT",
@@ -181,8 +181,8 @@
         "ROLLER",
         "RASP",
         "FIREPIT",
-        "BEETLE",
-        "BAKER",
+        "ALMANAC",
+        "ALPACA",
         "CORKSCREW",
         "FISHES",
         "JUG",
@@ -202,7 +202,7 @@
         "PURPLE",
         "LAWN",
         "MEALS",
-        "CONCERT",
+        "ALYSSUM",
         "BUMBLEBEE",
         "REEF",
         "HEDGEHOG",
@@ -213,12 +213,12 @@
       "name": "Mother's Cooking",
       "words": [
         "SCENIC",
-        "BOARDGAME",
+        "AMARANTH",
         "ROD",
         "VIBRANT",
         "CAMERAPHONE",
         "HABITAT",
-        "CHAMELEON",
+        "AMARYLLIS",
         "PERGOLA",
         "YOYO",
         "TABLECLOTH",
@@ -234,8 +234,8 @@
         "VIDEOSTORE",
         "ENTERTAIN",
         "GUM",
-        "BASIN",
-        "PLAYLIST",
+        "ANEMOMETER",
+        "ANEMONE",
         "FLOPPYDISK",
         "STAR",
         "MOBILE",
@@ -263,9 +263,9 @@
     {
       "name": "Food Memories",
       "words": [
-        "SERENITY",
+        "ANGELIC",
         "DAHLIA",
-        "BLUEJAY",
+        "ANGORA",
         "STYLE",
         "LOTION",
         "SLAPBRACELET",
@@ -286,7 +286,7 @@
         "BEE",
         "ICESTORM",
         "VIDEONIGHT",
-        "WHITE",
+        "ANISE",
         "CREAM",
         "HARDY",
         "SCARECROW",
@@ -298,13 +298,13 @@
       "name": "Home Baked Bread",
       "words": [
         "KEYPAD",
-        "LIBRARY",
+        "ANNUAL",
         "TRICKS",
         "MISSEDCALL",
-        "SPARROW",
+        "ANTHEM",
         "PARIS",
         "TOWER",
-        "MOVIETHEATER",
+        "ANTICYCLONE",
         "GATE",
         "STYLISH",
         "AIRBORNE",
@@ -315,12 +315,12 @@
       "name": "Sunday Dinner",
       "words": [
         "FOIL",
-        "ACTIONFIGURE",
+        "APIARY",
         "DESSERT",
         "FILL",
-        "CELESTIAL",
+        "APIARYBOX",
         "BERRIES",
-        "ACHIEVEMENT",
+        "APPLEBLOSSOM",
         "TUBE",
         "PATHWAY",
         "SUNSHINE",
@@ -333,8 +333,8 @@
       "words": [
         "EXCELLENT",
         "BFF",
-        "NEON",
-        "JOY",
+        "APPLEBUTTER",
+        "APPLECIDER",
         "ICING",
         "HOMECOMPUTER",
         "MEASURE",
@@ -349,9 +349,9 @@
       "name": "Recipe Book",
       "words": [
         "LASERDISC",
-        "DESERT",
+        "APPLEORCHARD",
         "PIG",
-        "DISH",
+        "APPLEPIE",
         "WEATHERED",
         "GAZE",
         "WHIP",
@@ -359,7 +359,7 @@
         "SPECTACLE",
         "SQUEEZE",
         "CALLERID",
-        "ISLAND"
+        "APPLESAUCE"
       ]
     },
     {
@@ -370,24 +370,24 @@
         "DEEP",
         "SPOON",
         "GLASSES",
-        "KEYBOARD",
+        "APRICOT",
         "HAMMOCK",
         "SEA",
         "BASEBALLCAP",
-        "SEATS",
-        "ROADTRIP",
+        "APRICOTTREE",
+        "APRON",
         "SPIKEDHAIR"
       ]
     },
     {
       "name": "Food Heritage",
       "words": [
-        "HARBOR",
+        "AQUAPONICS",
         "BLACKCAT",
         "DELICIOUS",
         "SIZZLE",
         "PASTA",
-        "BISCUIT",
+        "ARBOR",
         "DOWN",
         "STEW",
         "PAGER",
@@ -403,7 +403,7 @@
         "GRAVY",
         "LARKSPUR",
         "SHELLFISH",
-        "GAMECONSOLE",
+        "ARBORVITAE",
         "FREE",
         "PARSNIP",
         "SNACKCAKE",
@@ -417,15 +417,15 @@
       "name": "Family Favorites",
       "words": [
         "TORNADO",
-        "RESCUE",
+        "ARBUTUS",
         "TRICK",
         "PROSECCO",
         "FLOODLIGHT",
         "LID",
         "BRIDLE",
         "PICK",
-        "CATEGORY",
-        "TELEVISION",
+        "ARCTICAIR",
+        "ARID",
         "UTENSIL",
         "BANDANA"
       ]
@@ -438,9 +438,9 @@
         "CHARCUTERIE",
         "THISTLE",
         "SPICY",
-        "WORMS",
+        "ARONIA",
         "PERSONALCOMPUTER",
-        "BIRDS",
+        "ARTICHOKE",
         "MASCARA",
         "WREATH",
         "MEATS",
@@ -452,11 +452,11 @@
       "words": [
         "SEASONAL",
         "BRONZER",
-        "FEAST",
+        "ARUGULA",
         "NOVEMBER",
         "JASMINE",
         "SKATESHOP",
-        "MOVIENIGHT",
+        "ASPARAGUS",
         "PYROTECHNIC",
         "COMPUTER",
         "RELAX",
@@ -494,7 +494,7 @@
         "BUNDLE",
         "MUSICCHANNEL",
         "CARROT",
-        "AUTHOR",
+        "ASTER",
         "SCHOOLDANCE"
       ]
     },
@@ -521,15 +521,15 @@
         "EASTER",
         "RAINBARREL",
         "EPIC",
-        "QUIETTIME",
+        "ATMOSPHERE",
         "LEMON",
         "GOLD",
         "PUZZLETIME",
-        "COMET",
+        "AURORA",
         "SHEARS",
-        "COASTLINE",
-        "WONDER",
-        "CLAY"
+        "AUTUMN",
+        "AUTUMNAIR",
+        "AUTUMNAPPLE"
       ]
     },
     {
@@ -541,7 +541,7 @@
         "CHICKEN",
         "TURKEY",
         "SAIL",
-        "BLUEBIRD",
+        "AUTUMNBAKING",
         "TARTS",
         "NAP",
         "OCEAN",
@@ -558,9 +558,9 @@
         "ESCALATOR",
         "PRESERVING",
         "MINCE",
-        "IGUANA",
+        "AUTUMNBARN",
         "ILLUMINATE",
-        "LETTER",
+        "AUTUMNBONFIRE",
         "SURFBOARD",
         "CONFECTION",
         "ROOTS"
@@ -569,14 +569,14 @@
     {
       "name": "Cooking Together",
       "words": [
-        "BOAT",
+        "AUTUMNCANDLE",
         "NACHOS",
         "VENT",
         "PHAT",
         "BLOCK",
         "GATHERING",
         "COMPUTERROOM",
-        "ARCADE",
+        "AUTUMNCOLOR",
         "VISION",
         "HOLIDAY",
         "WICKER",
@@ -606,13 +606,13 @@
         "TOOL",
         "BUTTERFLYCLIP",
         "SOARING",
-        "PARK",
+        "AUTUMNFESTIVAL",
         "SKILL",
         "BUCKET",
         "ROLLOFFILM",
         "BURNEDCD",
         "ONION",
-        "HANDHELD",
+        "AUTUMNFOREST",
         "INTEREST",
         "PADS"
       ]
@@ -620,15 +620,15 @@
     {
       "name": "Kitchen Treasures",
       "words": [
-        "PIER",
+        "AUTUMNHARVEST",
         "PLAYER",
         "BRB",
-        "ESCAPE",
+        "AUTUMNHIKE",
         "WELCOME",
         "CHEESE",
         "PRINTER",
-        "CLOUD",
-        "RINGTONE",
+        "AUTUMNLANE",
+        "AUTUMNLEAVES",
         "EQUESTRIAN",
         "CONTACTS",
         "STOCK"
@@ -646,7 +646,7 @@
         "FORAGING",
         "GARDEN",
         "VINE",
-        "TURTLE",
+        "AUTUMNMARKET",
         "AUSTEN",
         "ABOLITION"
       ]
@@ -662,7 +662,7 @@
         "CUT",
         "CREVICE",
         "CHAR",
-        "PENCIL",
+        "AUTUMNMOON",
         "WIDESCREEN",
         "ABSORB",
         "ABYSS"
@@ -674,49 +674,49 @@
         "CLASS",
         "SYNTHPOP",
         "PURE",
-        "ROCKET",
+        "AUTUMNMORNING",
         "BORAGE",
         "TEAPOT",
         "KITEFLYER",
         "BILBERRY",
         "FRIED",
         "CORNBREAD",
-        "CHICKADEE",
-        "JOYSTICK"
+        "AUTUMNNIGHT",
+        "AUTUMNPARTY"
       ]
     },
     {
       "name": "Kitchen Stories",
       "words": [
-        "WINDY",
+        "AUTUMNPATH",
         "SUNSET",
         "BROCCOLI",
         "TOES",
         "DISKDRIVE",
         "HUMIDITY",
-        "ASTRONAUT",
+        "AUTUMNPICNIC",
         "BAKE",
         "BUCKETHAT",
-        "CLEAN",
+        "AUTUMNPIE",
         "BIRDOFPARADISE",
-        "ACADIA"
+        "AUTUMNPORCH"
       ]
     },
     {
       "name": "Food History",
       "words": [
         "SCENERY",
-        "ORION",
+        "AUTUMNRECIPE",
         "HOLLY",
         "LIFELINE",
         "SEAWEED",
         "MIXCD",
-        "VIDEOGAME",
+        "AUTUMNSUNSET",
         "NAILPOLISH",
         "TEXTBOOK",
-        "NOTEBOOK",
+        "AUTUMNWALK",
         "BEANS",
-        "ACOUSTIC"
+        "AUTUMNWEEKEND"
       ]
     },
     {
@@ -724,13 +724,13 @@
       "words": [
         "CHAIR",
         "STONE",
-        "TRAINING",
+        "AZALEA",
         "EXPLOSION",
         "WEIGHTS",
         "COW",
         "PRATIA",
-        "MICROCHIP",
-        "LIGHTHOUSE",
+        "BACKPACK",
+        "BACKPORCH",
         "THOROUGHBRED",
         "WARM",
         "ACROPOLIS"
@@ -742,7 +742,7 @@
         "PALM",
         "GOUDA",
         "BUSHEL",
-        "COBRA",
+        "BACKYARDCHICKENS",
         "SKIN",
         "TUB",
         "CUISINE",
@@ -750,13 +750,13 @@
         "PERM",
         "MEDIAPLAYER",
         "WINGS",
-        "ACTION"
+        "BACKYARDFARM"
       ]
     },
     {
       "name": "Family Cooking",
       "words": [
-        "WEBCAM",
+        "BACKYARDGARDEN",
         "TITLE",
         "GEL",
         "WIFI",
@@ -774,9 +774,9 @@
       "name": "Family Table Traditions Word Quest 045",
       "words": [
         "ACTIVITY",
-        "ACTOR",
+        "BAKING",
         "ACTORS",
-        "ACTRESS",
+        "BAKINGDAY",
         "ADAPTATION",
         "ADAPTIVE",
         "ADDAX",
@@ -791,17 +791,17 @@
       "name": "Family Table Traditions Word Quest 046",
       "words": [
         "ADVENT",
-        "ADVENTURE",
+        "BAKINGPAN",
         "ADVERTISE",
         "ADVERTS",
         "AERIAL",
         "AFRICA",
         "AFRO",
         "AGAVE",
-        "AIR",
+        "BALCONYGARDEN",
         "AIRBOAT",
-        "AIRPLANE",
-        "AIRPORT"
+        "BALSAM",
+        "BANNETON"
       ]
     },
     {
@@ -809,28 +809,28 @@
       "words": [
         "ALBANY",
         "ALBATROSS",
-        "ALBUM",
-        "ALBUMS",
+        "BARK",
+        "BARLEY",
         "ALEXANDER",
-        "ALGAE",
-        "ALIEN",
+        "BARLEYFIELD",
+        "BARNBEAM",
         "ALIENS",
         "ALLEGHENIES",
         "ALLENTOWN",
-        "ALLIES",
+        "BARNBOARD",
         "ALPINE"
       ]
     },
     {
       "name": "Family Table Traditions Word Quest 048",
       "words": [
-        "ALTAR",
-        "ALTITUDE",
+        "BARNCAT",
+        "BARNCLEANING",
         "AMARILLO",
-        "AMERICA",
-        "AMPHIBIAN",
+        "BARNFLOOR",
+        "BARNLIGHT",
         "AMPHITHEATER",
-        "AMPLIFIER",
+        "BARNLOFT",
         "AMPLITUDE",
         "AMUSE",
         "AMUSEMENT",
@@ -876,5 +876,12 @@
       "Baking and Food"
     ],
     "checked_at": "2026-08-22T10:08:38"
+  },
+  "quality_review": {
+    "checked_at": "20260824-213716",
+    "source": "verified_word_intelligence_repair",
+    "verdict": "PASS_WITH_NOTES",
+    "production_ready": false,
+    "changes": 100
   }
 }

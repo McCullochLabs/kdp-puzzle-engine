@@ -1,0 +1,72 @@
+{
+  "version": "1",
+  "book_id": "13d6cd3eb5de",
+  "runs": [
+    {
+      "run_id": "d85d73e58026b318",
+      "started": "2026-09-04T22:05:58",
+      "facts_fingerprint": "78c8219d949b7de8924cd66f44b9733059ce63b27464fb6390d7473535b7e0e2",
+      "result": "running"
+    }
+  ],
+  "stages": {
+    "validate": {
+      "status": "complete",
+      "fingerprint": "3bdc4a4ed8d7adee0e88b13c6a8b1ce263b9f14bfaa5abf953cb0e50619c1d46",
+      "completed": "2026-09-04T22:05:58",
+      "detail": "Contributor, content capacity, and automatic-plan checks passed before generation.",
+      "artifact": ""
+    },
+    "generate": {
+      "status": "complete",
+      "fingerprint": "9c7610f19905f9a08e9c425245889c2e0e7c04a7c8dd44c9a0f683d358edd7bf",
+      "completed": "2026-09-04T22:05:59",
+      "detail": "Interior and answer pages were generated from the selected puzzle type and seed.",
+      "artifact": "C:\\Users\\jorda\\Desktop\\Word Search Creator\\kdp-puzzle-engine\\out\\acceptance_scramble_and_trivia_20260904_220558\\01_PRINT_UPLOADS\\interior.pdf"
+    },
+    "cover": {
+      "status": "complete",
+      "fingerprint": "7bf366894f005249d8b1972746869b3b36a9b89b13f6e0a13c602f80c558f064",
+      "completed": "2026-09-04T22:06:02",
+      "detail": "Front cover was rendered from verified facts and approved matching art.",
+      "artifact": "C:\\Users\\jorda\\Desktop\\Word Search Creator\\kdp-puzzle-engine\\out\\acceptance_scramble_and_trivia_20260904_220558\\03_PREVIEWS\\front_cover.png"
+    },
+    "preflight": {
+      "status": "complete",
+      "fingerprint": "c06843635388115fa1bdd6ce5e3b1261f61acfd4ec2c8f504db2f2e1899577a8",
+      "completed": "2026-09-04T22:06:07",
+      "detail": "Wrap and print preflight passed using the final interior page count.",
+      "artifact": "C:\\Users\\jorda\\Desktop\\Word Search Creator\\kdp-puzzle-engine\\out\\acceptance_scramble_and_trivia_20260904_220558\\01_PRINT_UPLOADS\\kdp_full_wrap.pdf"
+    },
+    "listing": {
+      "status": "complete",
+      "fingerprint": "a822c0f824cca7c8450fd1b266f389f1cf71864293c176cff4c9552df35f155a",
+      "completed": "2026-09-04T22:06:07",
+      "detail": "Listing kit was generated from verified book facts.",
+      "artifact": ""
+    },
+    "qa": {
+      "status": "complete",
+      "fingerprint": "5ac36a0da212d82d294f1f8f02636fbba92db647b2bac0960a2078ee204bccb0",
+      "completed": "2026-09-04T22:06:10",
+      "detail": "QA Needs Review",
+      "artifact": ""
+    },
+    "package": {
+      "status": "complete",
+      "fingerprint": "4e5b6b357611578b06475de74bf0fe7bd678aee0fe13550ee586c716531ecafb",
+      "completed": "2026-09-04T22:06:18",
+      "detail": "Final package inspection passed and master release files were created.",
+      "artifact": "C:\\Users\\jorda\\Desktop\\Word Search Creator\\kdp-puzzle-engine\\out\\acceptance_scramble_and_trivia_20260904_220558"
+    },
+    "register": {
+      "status": "complete",
+      "fingerprint": "6577b556a93d23bbc0e75b2206780e5cae432404a2d252c20b854083d969cde4",
+      "completed": "2026-09-04T22:06:19",
+      "detail": "Finished package was registered in Publishing Center.",
+      "artifact": ""
+    }
+  },
+  "facts_fingerprint": "78c8219d949b7de8924cd66f44b9733059ce63b27464fb6390d7473535b7e0e2",
+  "last_started": "2026-09-04T22:05:58"
+}

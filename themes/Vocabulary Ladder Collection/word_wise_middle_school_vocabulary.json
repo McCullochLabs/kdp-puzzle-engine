@@ -27,223 +27,835 @@
     {
       "name": "Everyday Words",
       "words": [
-        "ABILITY",
-        "ABUNDANT",
-        "ACCURATE",
-        "ACTIVATE",
-        "ADAPT",
-        "ADEQUATE",
-        "ADVOCATE",
-        "ANALYZE",
-        "ANCIENT",
-        "ANTICIPATE",
-        "APPARENT",
-        "APPROACH"
+        "ABOLITION",
+        "ABSENCE",
+        "ABSOLUTELY",
+        "ABSORB",
+        "ABSORPTION",
+        "ABYSS",
+        "ACADEMICS",
+        "ACCENT",
+        "ACCEPTANCE",
+        "ACCESSING",
+        "ACCESSION",
+        "ACCESSORY"
       ]
     },
     {
       "name": "Words for Learning",
       "words": [
-        "ARRANGE",
-        "ASSUME",
-        "ASTONISH",
-        "ATTEMPT",
-        "ATTITUDE",
-        "AUTHENTIC",
-        "AVAILABLE",
-        "AVOID",
-        "BALANCE",
-        "BENEFIT",
-        "BRIEF",
-        "CALCULATE"
+        "ACCIDENTS",
+        "ACCLAIMED",
+        "ACCOMPANIED",
+        "ACCORDING",
+        "ACCOUNT",
+        "ACCUSED",
+        "ACHIEVEMENT",
+        "ACQUIRE",
+        "ACQUIRING",
+        "ACQUITTED",
+        "ACROSS",
+        "ACTIVATION"
       ]
     },
     {
       "name": "Words for Feelings",
       "words": [
-        "CAPABLE",
-        "CHALLENGE",
-        "CLARIFY",
-        "COMBINE",
-        "COMPARE",
-        "COMPETE",
-        "COMPLEX",
-        "CONCENTRATE",
-        "CONCLUDE",
-        "CONDUCT",
-        "CONFIRM",
-        "CONNECT"
+        "ACTIVISM",
+        "ADAMS",
+        "ADAPTATION",
+        "ADDICT",
+        "ADDICTED",
+        "ADDICTIVE",
+        "ADDISON",
+        "ADDITION",
+        "ADEQUATELY",
+        "ADJACENT",
+        "ADJUSTMENTS",
+        "ADMIN"
       ]
     },
     {
       "name": "Words for Actions",
       "words": [
-        "CONSIDER",
-        "CONSISTENT",
-        "CONTRAST",
-        "CONVINCE",
-        "COOPERATE",
-        "CREATE",
-        "CURIOUS",
-        "DEBATE",
-        "DECREASE",
-        "DEFINE",
-        "DEMONSTRATE",
-        "DESCRIBE"
+        "ADMINISTER",
+        "ADMIRABLE",
+        "ADMIRED",
+        "ADMIT",
+        "ADOBE",
+        "ADOLESCENT",
+        "ADRIAN",
+        "ADVANCEMENT",
+        "ADVANTAGE",
+        "ADVERTISED",
+        "ADVISERS",
+        "ADVOCATE"
       ]
     },
     {
       "name": "Words for Describing",
       "words": [
-        "DETERMINE",
-        "DEVELOP",
-        "DISTINGUISH",
-        "DIVERSE",
-        "DOCUMENT",
-        "DURATION",
-        "EFFECT",
-        "EFFICIENT",
-        "ELABORATE",
-        "EMERGE",
-        "EMPHASIZE",
-        "ENABLE"
+        "ADVOCATING",
+        "AEROSPACE",
+        "AFFECTED",
+        "AFFECTING",
+        "AFFILIATION",
+        "AFFINITY",
+        "AFRICANS",
+        "AGAIN",
+        "AGENT",
+        "AGENTS",
+        "AGILE",
+        "ALABAMA"
       ]
     },
     {
       "name": "Words for People",
       "words": [
-        "ENCOUNTER",
-        "ENHANCE",
-        "ENORMOUS",
-        "ENVIRONMENT",
-        "ESTABLISH",
-        "ESTIMATE",
-        "EVALUATE",
-        "EVIDENCE",
-        "EXPAND",
-        "EXPLAIN",
-        "FACTOR",
-        "FEATURE"
+        "ALBUMS",
+        "ALEXANDER",
+        "ALEXANDRIA",
+        "ALFRED",
+        "ALGORITHM",
+        "ALGORITHMS",
+        "ALIGNED",
+        "ALIKE",
+        "ALLEGATION",
+        "ALLEGING",
+        "ALLOCATION",
+        "ALLOWING"
       ]
     },
     {
       "name": "Words for Places",
       "words": [
-        "FLEXIBLE",
-        "FOCUS",
-        "FORMULATE",
-        "FREQUENT",
-        "FUNCTION",
-        "GENERATE",
-        "GRADUAL",
-        "HIGHLIGHT",
-        "IDENTIFY",
-        "ILLUSTRATE",
-        "IMPACT",
-        "IMPROVE"
+        "ALMIGHTY",
+        "ALOUD",
+        "ALPHA",
+        "ALPHABET",
+        "ALTERNATIVE",
+        "ALUMINIUM",
+        "AMANDA",
+        "AMATEUR",
+        "AMAZINGLY",
+        "AMBIGUOUS",
+        "AMENDMENTS",
+        "AMMUNITION"
       ]
     },
     {
       "name": "Words for Nature",
       "words": [
-        "INCLUDE",
-        "INDICATE",
-        "INFLUENCE",
-        "INFORM",
-        "INSPIRE",
-        "INTENSE",
-        "INTERPRET",
-        "INVESTIGATE",
-        "JUSTIFY",
-        "LANGUAGE",
-        "LOGICAL",
-        "MAINTAIN"
+        "AMONG",
+        "AMONGST",
+        "AMOUNTED",
+        "AMPLE",
+        "AMSTERDAM",
+        "ANALYZE",
+        "ANCESTRY",
+        "ANCHOR",
+        "ANGEL",
+        "ANIMATION",
+        "ANIME",
+        "ANITA"
       ]
     },
     {
       "name": "Words for Ideas",
       "words": [
-        "MAJOR",
-        "METHOD",
-        "MODIFY",
-        "MOTIVATE",
-        "NEGOTIATE",
-        "OBSERVE",
-        "OBTAIN",
-        "OCCUR",
-        "PARTICIPATE",
-        "PARTICULAR",
-        "PERCEIVE",
-        "PERFORM"
+        "ANNIVERSARY",
+        "ANNOUNCED",
+        "ANNOUNCER",
+        "ANNOUNCES",
+        "ANSWERED",
+        "ANTHOLOGY",
+        "ANTIQUITY",
+        "ANXIETY",
+        "ANXIOUS",
+        "ANYONE",
+        "ANYWAYS",
+        "APART"
       ]
     },
     {
       "name": "Words for Stories",
       "words": [
-        "PERIOD",
-        "PERSUADE",
-        "POTENTIAL",
-        "PREDICT",
-        "PREVIOUS",
-        "PRIMARY",
-        "PRIORITY",
-        "PROCESS",
-        "PROMOTE",
-        "PROVIDE",
-        "PUBLISH",
-        "QUALIFY"
+        "APARTMENT",
+        "APOCALYPSE",
+        "APOLLO",
+        "APPAREL",
+        "APPEAL",
+        "APPEALED",
+        "APPEALING",
+        "APPEARS",
+        "APPETITE",
+        "APPLAUSE",
+        "APPLICANTS",
+        "APPLICATION"
       ]
     },
     {
       "name": "Words for School",
       "words": [
-        "REACT",
-        "REASONABLE",
-        "RECOGNIZE",
-        "RECOMMEND",
-        "REFLECT",
-        "REGION",
-        "REGULATE",
-        "RELEVANT",
-        "REQUIRE",
-        "RESEARCH",
-        "RESPOND",
-        "REVEAL"
+        "APPROVAL",
+        "APPROVED",
+        "APRIL",
+        "ARABS",
+        "ARBITRARY",
+        "ARCHITECT",
+        "AREAS",
+        "ARENA",
+        "ARGENTINA",
+        "ARGUED",
+        "ARGUMENTS",
+        "ARLINGTON"
       ]
     },
     {
       "name": "Words for Growth",
       "words": [
-        "REVISE",
-        "ROLE",
-        "ROUTE",
-        "SELECT",
-        "SEQUENCE",
-        "SIGNIFICANT",
-        "SIMILAR",
-        "SIMPLIFY",
-        "SOLUTION",
-        "SOURCE",
-        "SPECIFIC",
-        "STRATEGY"
+        "ARMIES",
+        "ARMORED",
+        "ARRANGE",
+        "ARRIVE",
+        "ARROW",
+        "ARTHUR",
+        "ARTICULATE",
+        "ARTIFACTS",
+        "ARTILLERY",
+        "ARTIST",
+        "ARTISTIC",
+        "ARTWORK"
       ]
     },
     {
       "name": "Words for Decisions",
       "words": [
-        "STRUCTURE",
-        "SUMMARIZE",
-        "SUPPORT",
-        "SURVEY",
-        "SYMBOL",
-        "TECHNIQUE",
-        "TEMPORARY",
-        "THEORY",
-        "TRANSFER",
-        "TRANSFORM",
-        "UNIQUE",
-        "VALID"
+        "ASCENT",
+        "ASIAN",
+        "ASKED",
+        "ASKING",
+        "ASSEMBLED",
+        "ASSERTION",
+        "ASSESSING",
+        "ASSET",
+        "ASSIGNMENT",
+        "ASSIST",
+        "ASSISTANTS",
+        "ASSURED"
+      ]
+    },
+    {
+      "name": "Middle School Vocabulary Puzzle 14",
+      "words": [
+        "ATHEIST",
+        "ATLANTA",
+        "ATOMS",
+        "ATTACK",
+        "ATTENDANCE",
+        "ATTENDANT",
+        "ATTENDS",
+        "ATTENTION",
+        "ATTIRE",
+        "ATTITUDES",
+        "ATTORNEY",
+        "ATTRACTIVE"
+      ]
+    },
+    {
+      "name": "Middle School Vocabulary Puzzle 15",
+      "words": [
+        "ATTRIBUTED",
+        "ATTRIBUTES",
+        "AUCTION",
+        "AUDIOBOOK",
+        "AUDIT",
+        "AUDITORIUM",
+        "AUGUST",
+        "AUGUSTINE",
+        "AUSTIN",
+        "AUSTRALIAN",
+        "AUTHENTIC",
+        "AUTHOR"
+      ]
+    },
+    {
+      "name": "Middle School Vocabulary Puzzle 16",
+      "words": [
+        "AUTHORITARIAN",
+        "AUTHORITATIVE",
+        "AUTHORITY",
+        "AUTHORIZE",
+        "AUTHORIZED",
+        "AUTHORS",
+        "AUTONOMOUS",
+        "AUXILIARY",
+        "AVATAR",
+        "AVENUE",
+        "AVERAGING",
+        "AVOIDING"
+      ]
+    },
+    {
+      "name": "Middle School Vocabulary Puzzle 17",
+      "words": [
+        "AWAITING",
+        "AWARDING",
+        "AWARE",
+        "AWFUL",
+        "AWHILE",
+        "BABIES",
+        "BACKBONE",
+        "BACKYARD",
+        "BACTERIA",
+        "BADASS",
+        "BADLY",
+        "BAKED"
+      ]
+    },
+    {
+      "name": "Middle School Vocabulary Puzzle 18",
+      "words": [
+        "BAKERY",
+        "BALANCING",
+        "BALLAD",
+        "BALTIC",
+        "BANDWIDTH",
+        "BANKER",
+        "BANKRUPT",
+        "BANNERS",
+        "BARBER",
+        "BARELY",
+        "BARRACKS",
+        "BARRIERS"
+      ]
+    },
+    {
+      "name": "Middle School Vocabulary Puzzle 19",
+      "words": [
+        "BARRY",
+        "BARTON",
+        "BASEMENT",
+        "BASES",
+        "BASICALLY",
+        "BASICS",
+        "BASIS",
+        "BATES",
+        "BATMAN",
+        "BATTLE",
+        "BAXTER",
+        "BEACHES"
+      ]
+    },
+    {
+      "name": "Middle School Vocabulary Puzzle 20",
+      "words": [
+        "BEANS",
+        "BEARINGS",
+        "BEARS",
+        "BEAST",
+        "BEAVER",
+        "BECOMES",
+        "BEDROOMS",
+        "BEGINNING",
+        "BEGINNINGS",
+        "BEHAVIORAL",
+        "BELGIAN",
+        "BELLE"
+      ]
+    },
+    {
+      "name": "Middle School Vocabulary Puzzle 21",
+      "words": [
+        "BELLY",
+        "BELONGS",
+        "BELOW",
+        "BENDING",
+        "BENEFITS",
+        "BENGAL",
+        "BENJAMIN",
+        "BERKELEY",
+        "BERRIES",
+        "BETRAYAL",
+        "BETTING",
+        "BEVERAGE"
+      ]
+    },
+    {
+      "name": "Middle School Vocabulary Puzzle 22",
+      "words": [
+        "BIKES",
+        "BINDING",
+        "BIRMINGHAM",
+        "BIRTH",
+        "BIRTHS",
+        "BISCUITS",
+        "BISHOP",
+        "BITCHES",
+        "BLACK",
+        "BLAKE",
+        "BLAME",
+        "BLASTING"
+      ]
+    },
+    {
+      "name": "Middle School Vocabulary Puzzle 23",
+      "words": [
+        "BLAZE",
+        "BLAZING",
+        "BLEAK",
+        "BLESS",
+        "BLIND",
+        "BLINDNESS",
+        "BLINK",
+        "BLISS",
+        "BLOCKBUSTER",
+        "BLOCKED",
+        "BLONDE",
+        "BLOSSOM"
+      ]
+    },
+    {
+      "name": "Middle School Vocabulary Puzzle 24",
+      "words": [
+        "BOARDING",
+        "BOARDS",
+        "BOEING",
+        "BOHEMIAN",
+        "BOLTS",
+        "BOMBAY",
+        "BOMBED",
+        "BONDING",
+        "BONUSES",
+        "BOOBS",
+        "BOOKBINDING",
+        "BOOKCASE"
+      ]
+    },
+    {
+      "name": "Middle School Vocabulary Puzzle 25",
+      "words": [
+        "BOOKCLUB",
+        "BOOKCOVER",
+        "BOOKED",
+        "BOOKFAIR",
+        "BOOKING",
+        "BOOKISH",
+        "BOOKJACKET",
+        "BOOKKEEPING",
+        "BOOKLET",
+        "BOOKLETS",
+        "BOOKMARK",
+        "BOOKMARKS"
+      ]
+    },
+    {
+      "name": "Middle School Vocabulary Puzzle 26",
+      "words": [
+        "BOOKMOBILE",
+        "BOOKPLATE",
+        "BOOKS",
+        "BOOKSELLER",
+        "BOOKSHELF",
+        "BOOKSHOP",
+        "BOOKSTORE",
+        "BOOKSTORES",
+        "BOOKWORM",
+        "BOOSTER",
+        "BOOSTS",
+        "BOOTS"
+      ]
+    },
+    {
+      "name": "Middle School Vocabulary Puzzle 27",
+      "words": [
+        "BORIS",
+        "BORNE",
+        "BOROUGH",
+        "BOSSES",
+        "BOSTON",
+        "BOUNCED",
+        "BOUNDARIES",
+        "BOUNDARY",
+        "BOUNTY",
+        "BOUQUET",
+        "BOURGEOIS",
+        "BOXER"
+      ]
+    },
+    {
+      "name": "Middle School Vocabulary Puzzle 28",
+      "words": [
+        "BOYFRIEND",
+        "BRACELET",
+        "BRACES",
+        "BRAIN",
+        "BRAINS",
+        "BRANDING",
+        "BRAWL",
+        "BREAD",
+        "BREADBOX",
+        "BREADMAKING",
+        "BREADOFLIFE",
+        "BREADOVEN"
+      ]
+    },
+    {
+      "name": "Middle School Vocabulary Puzzle 29",
+      "words": [
+        "BREADPROOF",
+        "BREAKER",
+        "BREAKING",
+        "BREAKUP",
+        "BRENDAN",
+        "BRICK",
+        "BRIEF",
+        "BRIEFING",
+        "BRIEFLY",
+        "BRIGHTER",
+        "BRILLIANT",
+        "BRITAIN"
+      ]
+    },
+    {
+      "name": "Middle School Vocabulary Puzzle 30",
+      "words": [
+        "BROAD",
+        "BROADWAY",
+        "BROCK",
+        "BRONCOS",
+        "BROTHERS",
+        "BROWNING",
+        "BRUNO",
+        "BRUTAL",
+        "BRUTE",
+        "BUBBLES",
+        "BUCKETS",
+        "BUCKLE"
+      ]
+    },
+    {
+      "name": "Middle School Vocabulary Puzzle 31",
+      "words": [
+        "BUCKS",
+        "BUDDHISM",
+        "BUDDHIST",
+        "BUDDIES",
+        "BUENOS",
+        "BUFFET",
+        "BUFFY",
+        "BUILDER",
+        "BULLET",
+        "BULLIED",
+        "BULLY",
+        "BUNCH"
+      ]
+    },
+    {
+      "name": "Middle School Vocabulary Puzzle 32",
+      "words": [
+        "BUNDLE",
+        "BURKE",
+        "BURTON",
+        "BUSINESSES",
+        "BUSTING",
+        "BUTTER",
+        "BUYING",
+        "CAFETERIA",
+        "CALCIUM",
+        "CALGARY",
+        "CALIBER",
+        "CALIF"
+      ]
+    },
+    {
+      "name": "Middle School Vocabulary Puzzle 33",
+      "words": [
+        "CALLS",
+        "CALORIES",
+        "CAMEL",
+        "CAMEO",
+        "CAMERA",
+        "CAMPAIGN",
+        "CAMPING",
+        "CANCERS",
+        "CANDIDATES",
+        "CANDLE",
+        "CANDY",
+        "CANNED"
+      ]
+    },
+    {
+      "name": "Middle School Vocabulary Puzzle 34",
+      "words": [
+        "CANNON",
+        "CAPABILITY",
+        "CAPACITIES",
+        "CAPITALISM",
+        "CAPSULE",
+        "CAPTAIN",
+        "CAPTION",
+        "CARBOOK",
+        "CAREER",
+        "CARELESS",
+        "CARES",
+        "CARLOS"
+      ]
+    },
+    {
+      "name": "Middle School Vocabulary Puzzle 35",
+      "words": [
+        "CARMEN",
+        "CARNIVAL",
+        "CAROLBOOK",
+        "CAROLINE",
+        "CARROLL",
+        "CARSON",
+        "CARTER",
+        "CARTOON",
+        "CASES",
+        "CASTING",
+        "CASUALLY",
+        "CASUALTIES"
+      ]
+    },
+    {
+      "name": "Middle School Vocabulary Puzzle 36",
+      "words": [
+        "CATER",
+        "CATHERINE",
+        "CATHOLICS",
+        "CAUCASIAN",
+        "CAUGHT",
+        "CAVES",
+        "CEASE",
+        "CEDAR",
+        "CELEBRATED",
+        "CELLS",
+        "CEMETERY",
+        "CENSUS"
+      ]
+    },
+    {
+      "name": "Middle School Vocabulary Puzzle 37",
+      "words": [
+        "CENTERED",
+        "CENTRED",
+        "CEREBRAL",
+        "CERTAINLY",
+        "CHAIN",
+        "CHALK",
+        "CHANGE",
+        "CHANTING",
+        "CHAPMAN",
+        "CHAPTER",
+        "CHAPTERBOOK",
+        "CHARITY"
+      ]
+    },
+    {
+      "name": "Middle School Vocabulary Puzzle 38",
+      "words": [
+        "CHARLESTON",
+        "CHARLOTTE",
+        "CHARTERED",
+        "CHEAP",
+        "CHEATED",
+        "CHEEK",
+        "CHEEKS",
+        "CHEEKY",
+        "CHEMIST",
+        "CHEWING",
+        "CHICK",
+        "CHICKENS"
+      ]
+    },
+    {
+      "name": "Middle School Vocabulary Puzzle 39",
+      "words": [
+        "CHIEFLY",
+        "CHILDHOOD",
+        "CHILDISH",
+        "CHILE",
+        "CHILLY",
+        "CHINESE",
+        "CHIPS",
+        "CHOICES",
+        "CHOKING",
+        "CHOOSES",
+        "CHORD",
+        "CHORES"
+      ]
+    },
+    {
+      "name": "Middle School Vocabulary Puzzle 40",
+      "words": [
+        "CHRIS",
+        "CHRISTIANS",
+        "CHRISTIE",
+        "CHRISTMAS",
+        "CHRISTOPHER",
+        "CHRONIC",
+        "CHRONICLE",
+        "CHRONICLES",
+        "CHUCK",
+        "CHURCHES",
+        "CIGARETTES",
+        "CINDERELLA"
+      ]
+    },
+    {
+      "name": "Middle School Vocabulary Puzzle 41",
+      "words": [
+        "CITATION",
+        "CIVIC",
+        "CIVILIAN",
+        "CLARA",
+        "CLARENCE",
+        "CLASS",
+        "CLAUDE",
+        "CLEAN",
+        "CLEANER",
+        "CLEAR",
+        "CLEARANCE",
+        "CLEARED"
+      ]
+    },
+    {
+      "name": "Middle School Vocabulary Puzzle 42",
+      "words": [
+        "CLEARING",
+        "CLEVELAND",
+        "CLIMAX",
+        "CLING",
+        "CLINICAL",
+        "CLONE",
+        "CLOTHES",
+        "CLOUD",
+        "CLOUDS",
+        "CLUBS",
+        "CLYDE",
+        "COALITION"
+      ]
+    },
+    {
+      "name": "Middle School Vocabulary Puzzle 43",
+      "words": [
+        "COASTER",
+        "COASTLINE",
+        "COCKS",
+        "COCKTAILS",
+        "COCOA",
+        "COFFEE",
+        "COGNITIVE",
+        "COLDSPELL",
+        "COLLEAGUES",
+        "COLLECTOR",
+        "COLLEGES",
+        "COLUMNS"
+      ]
+    },
+    {
+      "name": "Middle School Vocabulary Puzzle 44",
+      "words": [
+        "COMBINED",
+        "COMBINES",
+        "COMBUSTION",
+        "COMICBOOK",
+        "COMING",
+        "COMMANDED",
+        "COMMANDER",
+        "COMMANDING",
+        "COMMENT",
+        "COMMENTARY",
+        "COMMENTED",
+        "COMMISSION"
+      ]
+    },
+    {
+      "name": "Middle School Vocabulary Puzzle 45",
+      "words": [
+        "COMMITTEE",
+        "COMMITTEES",
+        "COMMODITIES",
+        "COMMODITY",
+        "COMPANIES",
+        "COMPANIONS",
+        "COMPANY",
+        "COMPARATIVE",
+        "COMPARE",
+        "COMPARED",
+        "COMPATIBLE",
+        "COMPELLED"
+      ]
+    },
+    {
+      "name": "Middle School Vocabulary Puzzle 46",
+      "words": [
+        "COMPENSATE",
+        "COMPLAINED",
+        "COMPLAINT",
+        "COMPLETION",
+        "COMPLEXITY",
+        "COMPONENT",
+        "COMPOSE",
+        "COMPOSER",
+        "COMPOSITE",
+        "COMPOUNDS",
+        "COMPRESSED",
+        "COMPRESSION"
+      ]
+    },
+    {
+      "name": "Middle School Vocabulary Puzzle 47",
+      "words": [
+        "COMPROMISED",
+        "CONCEIVED",
+        "CONCENTRATE",
+        "CONCEPTUAL",
+        "CONCERNING",
+        "CONCLUDE",
+        "CONCLUDED",
+        "CONCLUDES",
+        "CONCUSSION",
+        "CONDUCTED",
+        "CONDUCTING",
+        "CONFESSION"
+      ]
+    },
+    {
+      "name": "Middle School Vocabulary Puzzle 48",
+      "words": [
+        "CONFIRMED",
+        "CONFISCATED",
+        "CONFRONT",
+        "CONFRONTED",
+        "CONGESTION",
+        "CONGO",
+        "CONQUEST",
+        "CONSIST",
+        "CONSISTED",
+        "CONSTANTLY",
+        "CONSTITUENT",
+        "CONSTRUCT"
       ]
     }
-  ]
+  ],
+  "quality_review": {
+    "production_ready": true,
+    "verdict": "PASS",
+    "checked_at": "20260825-181855",
+    "source": "verified_legacy_rebuild",
+    "topic": "Middle School Vocabulary"
+  },
+  "source_word_bank": {
+    "topics": [
+      "Middle School Vocabulary"
+    ],
+    "rebuilt_from_verified_pool": true
+  },
+  "signature_edition": {
+    "enabled": false,
+    "candidate": false
+  }
 }

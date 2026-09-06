@@ -222,11 +222,18 @@ class TestIntegrationDiscovery:
         # No API adapter exists - only the export builder.
         assert info.get("export_key") == "amazon_kdp"
 
-    def test_planned_channels_advertise_nothing(self):
-        for key in ("ingram", "lulu", "bookvault", "barnes_noble"):
+    def test_unimplemented_channel_stays_planned(self):
+        for key in ("bookvault",):
             info = integration_info_for(key)
             assert info["status"] == "planned"
             assert not any(info["capabilities"].values())
+
+    def test_new_channels_advertise_safe_export_only_support(self):
+        for key in ("ingram", "lulu", "barnes_noble", "shopify", "woocommerce", "wix"):
+            info = integration_info_for(key)
+            assert info["mode"] == "export_only" and info["status"] == "active"
+            assert info["capabilities"]["can_export_package"]
+            assert not info["capabilities"]["can_create_listing"]
 
     def test_unknown_key_returns_none(self):
         assert integration_info_for("mars") is None
@@ -255,8 +262,8 @@ class TestExportGating:
     def test_disabled_for_api_channels(self):
         assert export_action_enabled(self._row(key="etsy"), integration_info_for("etsy")) is False
 
-    def test_disabled_for_planned_channels(self):
-        assert export_action_enabled(self._row(key="ingram"), integration_info_for("ingram")) is False
+    def test_enabled_for_new_active_export_channels(self):
+        assert export_action_enabled(self._row(key="ingram"), integration_info_for("ingram")) is True
 
     def test_disabled_without_row_or_info(self):
         assert export_action_enabled(None, integration_info_for("amazon")) is False

@@ -15,7 +15,8 @@
       "A basic vegetable garden plan includes site selection, soil preparation, planting, maintenance, and harvest.",
       "Many herbs can be grown at home, including in containers or sunny indoor spaces.",
       "Local Extension resources can help gardeners choose varieties for their growing conditions."
-    ]
+    ],
+    "puzzle_target": 100
   },
   "puzzles": [
     {
@@ -23,16 +24,16 @@
       "words": [
         "BIKE",
         "SCHOOLDANCE",
-        "CLASSIC",
-        "MOTORCYCLE",
-        "HARMONY",
+        "GARDENLIGHT",
+        "GARDENMAP",
+        "GARDENMARKER",
         "HUMOR",
         "BASEBALLCAP",
         "NOT",
-        "FANDOM",
-        "DANCEFLOOR",
+        "GARDENMULCH",
+        "GARDENPATH",
         "SEPPUKU",
-        "POPCORN"
+        "GARDENPEST"
       ]
     },
     {
@@ -45,7 +46,7 @@
         "HOOF",
         "CREAM",
         "CANNON",
-        "CRAFT",
+        "GARDENPLAN",
         "HORIZON",
         "FORECAST",
         "DELIGHT",
@@ -77,13 +78,13 @@
         "MODEM",
         "TALES",
         "TREASURES",
-        "HATCHBACK",
+        "GARDENPLANNING",
         "HOTROD",
         "COLLECT",
         "EXTINCT",
         "FISH",
         "GESTURE",
-        "WIZARD"
+        "GARDENPLOT"
       ]
     },
     {
@@ -94,10 +95,10 @@
         "BEEHIVE",
         "INDUSTRY",
         "ROCKET",
-        "FICTION",
-        "ORNAMENT",
+        "GARDENPOND",
+        "GARDENPOT",
         "WITCH",
-        "RINGTONE",
+        "GARDENPOUCH",
         "DRAWBRIDGE",
         "RITUAL",
         "TORCH"
@@ -126,7 +127,7 @@
         "LEVELS",
         "RIDE",
         "COUNTDOWN",
-        "PLAYLIST",
+        "GARDENPRODUCE",
         "TROPHIES",
         "MUSICLIBRARY",
         "HOMEWORK",
@@ -142,8 +143,8 @@
       "words": [
         "ARCHIVIST",
         "CONFED",
-        "SCREEN",
-        "YEARBOOK",
+        "GARDENPRUNER",
+        "GARDENPUMP",
         "COMPUTER",
         "CHALKBOARD",
         "SUCCESS",
@@ -166,7 +167,7 @@
         "SHADE",
         "HIKING",
         "WRISTBAND",
-        "WEBSITE",
+        "GARDENRAKE",
         "GLAMROCK",
         "COBWEB"
       ]
@@ -191,9 +192,9 @@
     {
       "name": "Signature Gardening Puzzle 011",
       "words": [
-        "MICROPHONE",
+        "GARDENRECYCLE",
         "CONSERVE",
-        "STRETCH",
+        "GARDENROOM",
         "PUZZLETIME",
         "MASON",
         "PARACHUTE",
@@ -202,14 +203,14 @@
         "HARMON",
         "DISCOVER",
         "CONVENT",
-        "BICYCLE"
+        "GARDENROW"
       ]
     },
     {
       "name": "Signature Gardening Puzzle 012",
       "words": [
         "HAN",
-        "LOYALTY",
+        "GARDENSEED",
         "TIEDYE",
         "BAD",
         "SHORE",
@@ -226,13 +227,13 @@
       "name": "Signature Gardening Puzzle 013",
       "words": [
         "CAMERA",
-        "NOMINEE",
+        "GARDENSHED",
         "ANSWERINGMACHINE",
         "ELECTRONICSSTORE",
         "PHONEBOOK",
         "VISIT",
-        "CRUISING",
-        "ARCADES",
+        "GARDENSIEVE",
+        "GARDENSTAKE",
         "WHATEVER",
         "DESIGNER",
         "BELL",
@@ -249,7 +250,7 @@
         "COUNTERCULTURE",
         "MISSIONCONTROL",
         "AMPLITUDE",
-        "TOOLBOX",
+        "GARDENSTONE",
         "TWANG",
         "SEOUL",
         "CYCLIST",
@@ -264,11 +265,11 @@
         "OASIS",
         "SNOWFLAKE",
         "WASSUP",
-        "WEREWOLF",
+        "GARDENSTOOL",
         "DIRECTION",
         "SHUTTER",
         "COOLDOWN",
-        "CURATOR",
+        "GARDENSTORAGE",
         "REVENUE",
         "MERLOT"
       ]
@@ -280,7 +281,7 @@
         "BEACH",
         "PATRIARCH",
         "BATTLES",
-        "GAMESTORE",
+        "GARDENSTORE",
         "SUN",
         "CONTROLS",
         "TIGHTS",
@@ -299,9 +300,9 @@
         "GIRLPOWER",
         "PLAYER",
         "CANADA",
-        "CELEBRITY",
+        "GARDENSTRING",
         "MEDALS",
-        "CHARGER",
+        "GARDENTWINE",
         "FLATIRON",
         "GLASS",
         "ACTIVIST"
@@ -313,15 +314,15 @@
         "SUBJECT",
         "WESTERNNEWYORK",
         "CHROME",
-        "CLASSICROCK",
-        "COSPLAY",
-        "HOODIE",
+        "GARDENWALL",
+        "GARDENWEED",
+        "GARDENWHEEL",
         "FAIRS",
-        "GAMERTAG",
-        "DIESEL",
+        "GARDENWORK",
+        "GARDENWORKGLOVES",
         "SPACE",
         "PARKS",
-        "COOKBOOK"
+        "GARDENWORKSHOP"
       ]
     },
     {
@@ -330,14 +331,14 @@
         "WRAPDRESS",
         "PORTFOLIO",
         "LIGHTS",
-        "TOMB",
+        "GARLIC",
         "ORACLE",
         "RETREAT",
         "ANTIQUE",
         "ROLLERRINK",
-        "MONSTER",
+        "GARLICBRAID",
         "TEALEAF",
-        "FRIENDS",
+        "GARLICBULB",
         "CHIC"
       ]
     },
@@ -345,14 +346,14 @@
       "name": "Signature Gardening Puzzle 020",
       "words": [
         "CEREMONY",
-        "GAMEPLAY",
+        "GAZANIA",
         "FOREST",
         "SUMMER",
         "TOMATO",
         "PANNING",
         "CARDINAL",
         "UTICA",
-        "PRIMETIME",
+        "GENEALOGY",
         "CLOCKRADIO",
         "WIFI",
         "BRAINGAME"
@@ -363,10 +364,10 @@
       "words": [
         "NEWS",
         "TASTING",
-        "PEACE",
-        "CONVERTIBLE",
+        "GERANIUM",
+        "GERMINATE",
         "SATURDAY",
-        "ENGINE",
+        "GERMINATION",
         "CAMPING",
         "MALL",
         "DANCEMUSIC",
@@ -405,24 +406,24 @@
         "NAZI",
         "MALTS",
         "SEEDLING",
-        "THRONE",
+        "GERMINATIONTEST",
         "CANDLE"
       ]
     },
     {
       "name": "Signature Gardening Puzzle 024",
       "words": [
-        "DRAMA",
+        "GLACIER",
         "LAUNCH",
         "ABOLITION",
         "SCENIC",
         "GROWTH",
         "RANCH",
-        "EARBUDS",
-        "CDPLAYER",
+        "GLADIOLUS",
+        "GOAT",
         "PHOTOLAB",
-        "RERUN",
-        "PAPER",
+        "GOATBARN",
+        "GOATBUTTER",
         "WATERFALL"
       ]
     },
@@ -433,7 +434,7 @@
         "HIGHLIGHTS",
         "PAGER",
         "DROPS",
-        "KEY",
+        "GOATCHEESE",
         "GOD",
         "TEMPERATURE",
         "GALLOP",
@@ -449,13 +450,13 @@
         "HAGGLE",
         "DATE",
         "STUDIES",
-        "MUSTANG",
+        "GOATFIBER",
         "VELOUR",
         "PINUPS",
         "REBELS",
         "CRUSADE",
         "HALFPIPE",
-        "MILEMARKER",
+        "GOATKID",
         "PURPLE",
         "ROD"
       ]
@@ -466,11 +467,11 @@
         "SNEAKERSTORE",
         "MARY",
         "APPRAISAL",
-        "OSCAR",
+        "GOATMILK",
         "BARN",
         "LABOR",
         "TOPOGRAPHY",
-        "VAMPIRE",
+        "GOATMILKSOAP",
         "LOCOMOTIVE",
         "OVERHEAD",
         "CHARDONNAY",
@@ -488,10 +489,10 @@
         "FACT",
         "SUBMAR",
         "EARLGREY",
-        "LANGUAGE",
+        "GOATPEN",
         "PHALANX",
         "CIDER",
-        "ORCHESTRA"
+        "GOATS"
       ]
     },
     {
@@ -518,12 +519,12 @@
         "CHARACTERS",
         "SHOWCASE",
         "GODS",
-        "MELODY",
+        "GOATSHED",
         "CELLULOID",
         "GUM",
-        "WHEEL",
+        "GOATSKIN",
         "OWL",
-        "CARBURETOR",
+        "GOATSOAP",
         "CHEVY",
         "STATIONS"
       ]
@@ -533,12 +534,12 @@
       "words": [
         "BELLBOTTOMS",
         "SUNRISE",
-        "SHOOTER",
+        "GOATWOOL",
         "MOUSE",
         "MOSS",
         "GHOST",
         "COASTAL",
-        "TRUCK",
+        "GOOSEBERRY",
         "DELI",
         "HIPPIE",
         "MEDIA",
@@ -603,7 +604,7 @@
         "UNIVERSE",
         "JACKOLANTERN",
         "VACUUM",
-        "MUSCLECAR",
+        "GOURD",
         "LAB",
         "GOLDFINCH",
         "STARGAZING",
@@ -617,7 +618,7 @@
       "name": "Signature Gardening Puzzle 036",
       "words": [
         "LANDSCAPE",
-        "WESTERN",
+        "GRAINBIN",
         "CLAPPER",
         "STATIONWAGON",
         "WRAP",
@@ -639,9 +640,9 @@
         "QUICHE",
         "GUNFIGHT",
         "TOWER",
-        "SYNTHESIZER",
+        "GRAINCART",
         "CODEX",
-        "WORD",
+        "GRAINMILL",
         "SONGBOOK",
         "MOTELS",
         "BRAZIL"
@@ -650,7 +651,7 @@
     {
       "name": "Signature Gardening Puzzle 038",
       "words": [
-        "FILM",
+        "GRAINSTORAGE",
         "SOUTHERNTIER",
         "SPACEWALK",
         "TOTALLY",
@@ -668,7 +669,7 @@
       "name": "Signature Gardening Puzzle 039",
       "words": [
         "HUDSONVALLEY",
-        "BASS",
+        "GRANARY",
         "TOWN",
         "REPORTCARD",
         "VOLLEYBALL",
@@ -685,7 +686,7 @@
       "name": "Signature Gardening Puzzle 040",
       "words": [
         "MEDIEVAL",
-        "BLOCKBUSTER",
+        "GRAPEFRUIT",
         "LAKEGEORGE",
         "OCTOBER",
         "CASSEROLE",
@@ -710,7 +711,7 @@
         "PADDLING",
         "PLAYERS",
         "CASTS",
-        "LANPARTY",
+        "GRAPESHOT",
         "STATUES",
         "WALK"
       ]
@@ -724,11 +725,11 @@
         "VIEWFINDER",
         "ROCK",
         "FRIES",
-        "SPORTS",
-        "CHEATCODE",
+        "GRAPEVINE",
+        "GRASSLAND",
         "GNARLY",
         "HANGINGPLANT",
-        "REBEL",
+        "GREENBEAN",
         "BUTTONDOWN"
       ]
     },
@@ -738,7 +739,7 @@
         "RETAIL",
         "FRONT",
         "ARTIFACT",
-        "WEBCAM",
+        "GREENHOUSE",
         "SUNSCREEN",
         "TRAFFIC",
         "SUNSHINE",
@@ -752,17 +753,17 @@
     {
       "name": "Signature Gardening Puzzle 044",
       "words": [
-        "CAR",
+        "GREENHOUSEBENCH",
         "BFF",
         "SCENE",
         "GOGOBOOTS",
         "PONYCAR",
         "COSTUME",
         "SPLASHDOWN",
-        "PHOTOGRAPH",
-        "NEON",
+        "GREENHOUSEFAN",
+        "GREENHOUSEGLASS",
         "FUNK",
-        "SLEEPOVER",
+        "GREENHOUSEGROWER",
         "RIDDLES"
       ]
     },
@@ -791,7 +792,7 @@
         "ZEUS",
         "KATANA",
         "COACHES",
-        "BOOKMARK",
+        "GREENHOUSEHEAT",
         "SURFING",
         "SPECTATOR",
         "PAST",
@@ -803,8 +804,8 @@
     {
       "name": "Signature Gardening Puzzle 047",
       "words": [
-        "CASTLE",
-        "HERO",
+        "GREENHOUSEKIT",
+        "GREENHOUSEPLANT",
         "BUOY",
         "NARRATE",
         "OLYMPICS",
@@ -828,8 +829,8 @@
         "VENDINGMACHINE",
         "FIZZY",
         "LASERDISC",
-        "GLADIATOR",
-        "FAITH",
+        "GREENHOUSEPOT",
+        "GREENHOUSETOOL",
         "DANCECRAZE",
         "COMPOSITION"
       ]
@@ -844,7 +845,7 @@
         "EDITING",
         "RINK",
         "ALTERNATIVE",
-        "THEATER",
+        "GREENMANURE",
         "EXCITING",
         "NONFICTION",
         "BARISTA",
@@ -865,23 +866,23 @@
         "EXPLOSIVE",
         "BENCH",
         "PICTURE",
-        "NOVEL"
+        "GRIDDLE"
       ]
     },
     {
       "name": "Signature Gardening Puzzle 051",
       "words": [
         "GORGE",
-        "CARTOON",
+        "GROUNDCHERRY",
         "YACHT",
-        "PAINTER",
+        "GROUNDCOVER",
         "PHRASES",
         "HIGHLIGHT",
         "DIGITALWATCH",
         "SILENT",
         "STAR",
         "LANDMARK",
-        "STAGE",
+        "GROUNDNUT",
         "ARABIAN"
       ]
     },
@@ -927,7 +928,7 @@
         "VIDEOCASE",
         "FLY",
         "DUCKLING",
-        "AUTHORS",
+        "GROVE",
         "EMOTION",
         "COMET",
         "FLYING",
@@ -947,26 +948,26 @@
         "SNOWSHOE",
         "PLANET",
         "POTLUCK",
-        "FANART",
-        "SAHARA",
+        "GROWER",
+        "GROWLIGHT",
         "LONGISLAND",
-        "BLUETOOTH"
+        "HALLOWEEN"
       ]
     },
     {
       "name": "Signature Gardening Puzzle 056",
       "words": [
-        "MEMORIAL",
+        "HANDCULTIVATOR",
         "PLOT",
         "SCRIPT",
         "GAME",
         "COLOSSEUM",
         "FREETIME",
         "MIDNIGHT",
-        "VINYL",
+        "HANDFORK",
         "BOSS",
         "DICKENS",
-        "HEADSET",
+        "HANDMADE",
         "GRAPES"
       ]
     },
@@ -978,7 +979,7 @@
         "SOLVE",
         "FAMILYSHOW",
         "TUBETOP",
-        "TOURNAMENT",
+        "HANDMADEBREAD",
         "CONSTRUCT",
         "SHAGCARPET",
         "APPLECIDER",
@@ -999,7 +1000,7 @@
         "BANNER",
         "ROMAN",
         "CROWD",
-        "CROSS",
+        "HANDMIXER",
         "MILK",
         "LEGWARMERS"
       ]
@@ -1014,7 +1015,7 @@
         "WARBLER",
         "CAMOUFLAGE",
         "SYNTHPOP",
-        "ACTIONFIGURE",
+        "HANDPRUNER",
         "MYSTERY",
         "CAFETERIA",
         "WHEELS",
@@ -1025,8 +1026,8 @@
       "name": "Signature Gardening Puzzle 060",
       "words": [
         "CLAWS",
-        "TVSERIES",
-        "BILLBOARD",
+        "HANDPUMP",
+        "HANDSEWING",
         "SETUP",
         "WEALTH",
         "HAIRMETAL",
@@ -1036,6 +1037,686 @@
         "PORTABLECDPLAYER",
         "IGUANA",
         "HOMESTEAD"
+      ]
+    },
+    {
+      "name": "Signature Gardening Word Search 61",
+      "words": [
+        "ACANTHUS",
+        "ACHILLEA",
+        "ACORN",
+        "ACREAGE",
+        "AGAPANTHUS",
+        "AGAVE",
+        "AGRICULTURE",
+        "AGROFORESTRY",
+        "AGROTEK",
+        "AIRPLANT",
+        "ALFALFA",
+        "ALLIUM"
+      ]
+    },
+    {
+      "name": "Signature Gardening Word Search 62",
+      "words": [
+        "ALLOTMENT",
+        "ALPACA",
+        "ALPINE",
+        "ALYSSUM",
+        "AMARANTH",
+        "AMARYLLIS",
+        "ANEMONE",
+        "ANGORA",
+        "ANISE",
+        "ANNUAL",
+        "APIARY",
+        "APIARYBOX"
+      ]
+    },
+    {
+      "name": "Signature Gardening Word Search 63",
+      "words": [
+        "APPLEBLOSSOM",
+        "APPLEBUTTER",
+        "APPLEORCHARD",
+        "APPLEPIE",
+        "APPLESAUCE",
+        "APRICOT",
+        "APRICOTTREE",
+        "APRON",
+        "AQUAPONICS",
+        "ARBOR",
+        "ARBORVITAE",
+        "ARBUTUS"
+      ]
+    },
+    {
+      "name": "Signature Gardening Word Search 64",
+      "words": [
+        "ARONIA",
+        "ARTICHOKE",
+        "ARUGULA",
+        "ASPARAGUS",
+        "ASTER",
+        "AUTUMN",
+        "AZALEA",
+        "BACKPORCH",
+        "BACKYARDCHICKENS",
+        "BACKYARDFARM",
+        "BACKYARDGARDEN",
+        "BAKING"
+      ]
+    },
+    {
+      "name": "Signature Gardening Word Search 65",
+      "words": [
+        "BAKINGPAN",
+        "BALCONYGARDEN",
+        "BALSAM",
+        "BANNETON",
+        "BARK",
+        "BARLEY",
+        "BARLEYFIELD",
+        "BARNBEAM",
+        "BARNBOARD",
+        "BARNCAT",
+        "BARNCLEANING",
+        "BARNFLOOR"
+      ]
+    },
+    {
+      "name": "Signature Gardening Word Search 66",
+      "words": [
+        "BARNLIGHT",
+        "BARNLOFT",
+        "BARNRAISER",
+        "BARNWOOD",
+        "BARNYARD",
+        "BASIL",
+        "BASKET",
+        "BAYLEAF",
+        "BEADING",
+        "BEAN",
+        "BEANPATCH",
+        "BEANPOLE"
+      ]
+    },
+    {
+      "name": "Signature Gardening Word Search 67",
+      "words": [
+        "BEANSTALK",
+        "BED",
+        "BEDROOM",
+        "BEEHIVEFRAME",
+        "BEEKEEPER",
+        "BEEKEEPERSUIT",
+        "BEEKEEPING",
+        "BEESWAX",
+        "BEESWING",
+        "BEET",
+        "BEETROOT",
+        "BEETS"
+      ]
+    },
+    {
+      "name": "Signature Gardening Word Search 68",
+      "words": [
+        "BEETSOUP",
+        "BEGONIA",
+        "BELLPEPPER",
+        "BERGAMOT",
+        "BERRY",
+        "BERRYBUSH",
+        "BIN",
+        "BIODYNAMIC",
+        "BIRDBATH",
+        "BIRDING",
+        "BIRDNETTING",
+        "BIRTHDAY"
+      ]
+    },
+    {
+      "name": "Signature Gardening Word Search 69",
+      "words": [
+        "BLACKBERRY",
+        "BLACKBERRYPATCH",
+        "BLACKEYEDSUSAN",
+        "BLACKSMITH",
+        "BLANKET",
+        "BLOODMEAL",
+        "BLOOM",
+        "BLOSSOM",
+        "BLOSSOMTIME",
+        "BLUEBERR",
+        "BLUEBERRY",
+        "BOARDFENCE"
+      ]
+    },
+    {
+      "name": "Signature Gardening Word Search 70",
+      "words": [
+        "BOGGARDEN",
+        "BOKCHOY",
+        "BOOKSHELF",
+        "BORAGE",
+        "BORDERPLANT",
+        "BOTANY",
+        "BOTTLING",
+        "BOULDER",
+        "BOXWOOD",
+        "BRAMBLE",
+        "BREADBOX",
+        "BREADMAKING"
+      ]
+    },
+    {
+      "name": "Signature Gardening Word Search 71",
+      "words": [
+        "BREADOVEN",
+        "BREADPROOF",
+        "BREWER",
+        "BROCCOLI",
+        "BROCCOLIPATCH",
+        "BROOD",
+        "BROODER",
+        "BROODHEN",
+        "BROODYHEN",
+        "BRUSSELSPROUT",
+        "BUCKET",
+        "BUCKWHEAT"
+      ]
+    },
+    {
+      "name": "Signature Gardening Word Search 72",
+      "words": [
+        "BULB",
+        "BULBPLANT",
+        "BUSH",
+        "BUSHBEAN",
+        "BUTTERCUP",
+        "BUTTERFLYGARDEN",
+        "BUTTERMAKING",
+        "BUTTERMOLD",
+        "CABBAGE",
+        "CABBAGEPATCH",
+        "CABBAGEROW",
+        "CAGE"
+      ]
+    },
+    {
+      "name": "Signature Gardening Word Search 73",
+      "words": [
+        "CALENDULA",
+        "CALF",
+        "CALFPEN",
+        "CAMPANULA",
+        "CANDLECRAFT",
+        "CANDLEWICK",
+        "CANES",
+        "CANNER",
+        "CANNING",
+        "CANNINGBATH",
+        "CANNINGFUNNEL",
+        "CANNINGJAR"
+      ]
+    },
+    {
+      "name": "Signature Gardening Word Search 74",
+      "words": [
+        "CANNINGLABEL",
+        "CANNINGLID",
+        "CANNINGPOT",
+        "CANNINGRACK",
+        "CANNINGSEAL",
+        "CANNINGTONGS",
+        "CANNINGWAX",
+        "CANNINGWEIGHT",
+        "CANTALOUPE",
+        "CANYON",
+        "CAPE",
+        "CARAWAY"
+      ]
+    },
+    {
+      "name": "Signature Gardening Word Search 75",
+      "words": [
+        "CARDMAKING",
+        "CARDOON",
+        "CARNATION",
+        "CARROT",
+        "CARROTPATCH",
+        "CASTIRON",
+        "CASTIRONPAN",
+        "CATMINT",
+        "CATTAIL",
+        "CATTLEGUARD",
+        "CAULDRON",
+        "CAULIFLOWER"
+      ]
+    },
+    {
+      "name": "Signature Gardening Word Search 76",
+      "words": [
+        "CELANDINE",
+        "CELEBRATION",
+        "CELERIAC",
+        "CELERY",
+        "CELLAR",
+        "CELLARING",
+        "CELOSIA",
+        "CERAMICS",
+        "CHAIR",
+        "CHARD",
+        "CHEESEBOARD",
+        "CHEESECLOTH"
+      ]
+    },
+    {
+      "name": "Signature Gardening Word Search 77",
+      "words": [
+        "CHEESECURD",
+        "CHEESEMAKING",
+        "CHEESEPRESS",
+        "CHEESEWHEEL",
+        "CHESS",
+        "CHICKENBROTH",
+        "CHICKENCOOP",
+        "CHICKENFEED",
+        "CHICKENHOUSE",
+        "CHICKENLITTER",
+        "CHICKENRUN",
+        "CHICKENS"
+      ]
+    },
+    {
+      "name": "Signature Gardening Word Search 78",
+      "words": [
+        "CHICKENTRACTOR",
+        "CHICKENWIRE",
+        "CHICKPEAS",
+        "CHIVE",
+        "CHORES",
+        "CHRISTMAS",
+        "CHRYSANTHEMUM",
+        "CHUTNEY",
+        "CIDERJUG",
+        "CIDERPRESS",
+        "CILANTRO",
+        "CINERARIA"
+      ]
+    },
+    {
+      "name": "Signature Gardening Word Search 79",
+      "words": [
+        "CINNAMON",
+        "CISTERN",
+        "CISTUS",
+        "CLAYOVEN",
+        "CLAYPOT",
+        "CLEANING",
+        "CLEMATIS",
+        "CLIMBINGROSE",
+        "CLOSET",
+        "CLOTHESLINE",
+        "CLOVER",
+        "CLOVERFIELD"
+      ]
+    },
+    {
+      "name": "Signature Gardening Word Search 80",
+      "words": [
+        "COBBLESTONE",
+        "COBOVEN",
+        "COCKSCOMB",
+        "COFFEE",
+        "COFFEEGRINDER",
+        "COLDBOX",
+        "COLDFRAME",
+        "COLDSMOKE",
+        "COLEUS",
+        "COLLECTING",
+        "COLORING",
+        "COLOSTRUM"
+      ]
+    },
+    {
+      "name": "Signature Gardening Word Search 81",
+      "words": [
+        "COLUMBINE",
+        "COMPOST",
+        "COMPOSTBIN",
+        "COMPOSTHEAP",
+        "COMPOSTING",
+        "COMPOSTPILE",
+        "COMPOSTTEA",
+        "CONEFLOWER",
+        "CONTAINERGARDEN",
+        "CONTAINERPLANT",
+        "COOKING",
+        "COOPCRAFT"
+      ]
+    },
+    {
+      "name": "Signature Gardening Word Search 82",
+      "words": [
+        "COREOPSIS",
+        "CORIANDER",
+        "CORN",
+        "CORNBREAD",
+        "CORNCRIB",
+        "CORNFLOWER",
+        "CORNMEAL",
+        "CORNPONE",
+        "CORNSTALK",
+        "COSMOS",
+        "COTONEASTER",
+        "COTTAGEGARDEN"
+      ]
+    },
+    {
+      "name": "Signature Gardening Word Search 83",
+      "words": [
+        "COUNTRYKITCHEN",
+        "COUNTRYSIDE",
+        "COVERCROP",
+        "COWBELL",
+        "COWHIDE",
+        "COWPASTURE",
+        "COWSHED",
+        "COWSMILK",
+        "COZY",
+        "CRANBERRY",
+        "CREAMERY",
+        "CREAMSEPARATOR"
+      ]
+    },
+    {
+      "name": "Signature Gardening Word Search 84",
+      "words": [
+        "CREEK",
+        "CREEPINGTHYME",
+        "CROCHET",
+        "CROCUS",
+        "CROP",
+        "CROPLAND",
+        "CROPPATCH",
+        "CROPROTATION",
+        "CROPS",
+        "CROPTUNNEL",
+        "CROSSSTITCH",
+        "CUCUMBER"
+      ]
+    },
+    {
+      "name": "Signature Gardening Word Search 85",
+      "words": [
+        "CUCUMBERVINE",
+        "CULTIVATOR",
+        "CUPBOARD",
+        "CURE",
+        "CURRANT",
+        "CURRANTBUSH",
+        "CUSHION",
+        "CUTTINGGARDEN",
+        "CYCLAMEN",
+        "DAFFODIL",
+        "DAHLIA",
+        "DAIRY"
+      ]
+    },
+    {
+      "name": "Signature Gardening Word Search 86",
+      "words": [
+        "DAIRYBARN",
+        "DAIRYCOW",
+        "DAIRYGOAT",
+        "DAIRYING",
+        "DAIRYMAID",
+        "DAISY",
+        "DANDELION",
+        "DAYLILY",
+        "DEEPWATERING",
+        "DEHYDRATING",
+        "DELPHINIUM",
+        "DESERTGARDEN"
+      ]
+    },
+    {
+      "name": "Signature Gardening Word Search 87",
+      "words": [
+        "DESK",
+        "DEW",
+        "DIANELLA",
+        "DIANTHUS",
+        "DIGGING",
+        "DILL",
+        "DININGROOM",
+        "DISTILLING",
+        "DOOR",
+        "DOORLATCH",
+        "DOORMAT",
+        "DOUGHBOX"
+      ]
+    },
+    {
+      "name": "Signature Gardening Word Search 88",
+      "words": [
+        "DRIPLINE",
+        "DRIPPER",
+        "DRYBEANS",
+        "DRYGOODS",
+        "DRYING",
+        "DRYINGRACK",
+        "DUCKEGG",
+        "DUCKHOUSE",
+        "DUCKPOND",
+        "DUCKS",
+        "EARTHWORM",
+        "EASTER"
+      ]
+    },
+    {
+      "name": "Signature Gardening Word Search 89",
+      "words": [
+        "ECHINACEA",
+        "EDIBLEGARDEN",
+        "EGG",
+        "EGGBASKET",
+        "EGGCARTON",
+        "EGGGATHERING",
+        "EGGLAYER",
+        "EGGPLANT",
+        "EGGWASH",
+        "ELDERBERRY",
+        "ELDERFLOWER",
+        "ELECTRICFENCE"
+      ]
+    },
+    {
+      "name": "Signature Gardening Word Search 90",
+      "words": [
+        "ELMWOOD",
+        "EMBROIDERY",
+        "EMERGENCYLANTERN",
+        "ENAMELWARE",
+        "ENDIVE",
+        "ENTRYWAY",
+        "EPIMEDIUM",
+        "ESCAROLE",
+        "ESPALIER",
+        "EUPHORBIA",
+        "EVERGREEN",
+        "FALL"
+      ]
+    },
+    {
+      "name": "Signature Gardening Word Search 91",
+      "words": [
+        "FAMILYROOM",
+        "FARMANIMAL",
+        "FARMBENCH",
+        "FARMCART",
+        "FARMCRAFT",
+        "FARMDOG",
+        "FARMFRESH",
+        "FARMGATE",
+        "FARMHAND",
+        "FARMHOUSE",
+        "FARMHOUSEBREAD",
+        "FARMHOUSECHEESE"
+      ]
+    },
+    {
+      "name": "Signature Gardening Word Search 92",
+      "words": [
+        "FARMHOUSEGARDEN",
+        "FARMHOUSEMEAL",
+        "FARMJOURNAL",
+        "FARMKITCHEN",
+        "FARMLEDGER",
+        "FARMPATH",
+        "FARMPOND",
+        "FARMSTAND",
+        "FARMSTEAD",
+        "FARMSTYLE",
+        "FARMTABLE",
+        "FARMWAGON"
+      ]
+    },
+    {
+      "name": "Signature Gardening Word Search 93",
+      "words": [
+        "FARMYARD",
+        "FEEDBUCKET",
+        "FEEDCORN",
+        "FEEDMILL",
+        "FEEDSTORE",
+        "FENCEGATE",
+        "FENCEPOST",
+        "FENCEWIRE",
+        "FENNEL",
+        "FERN",
+        "FERTILIZER",
+        "FESTIVAL"
+      ]
+    },
+    {
+      "name": "Signature Gardening Word Search 94",
+      "words": [
+        "FEVERFEW",
+        "FIELD",
+        "FIELDBEANS",
+        "FIELDCROP",
+        "FIELDGUIDE",
+        "FIELDPEAS",
+        "FIELDSTONE",
+        "FIG",
+        "FIGTREE",
+        "FIREPIT",
+        "FIREPITSTONE",
+        "FIREPLACE"
+      ]
+    },
+    {
+      "name": "Signature Gardening Word Search 95",
+      "words": [
+        "FIRESTARTER",
+        "FIREWOOD",
+        "FISHING",
+        "FISHPOND",
+        "FLATBREAD",
+        "FLAXSEED",
+        "FLOCK",
+        "FLOWER",
+        "FLOWERBED",
+        "FLOWERBORDER",
+        "FLOWERFARM",
+        "FLOWERGARDEN"
+      ]
+    },
+    {
+      "name": "Signature Gardening Word Search 96",
+      "words": [
+        "FLOWERPOT",
+        "FLOWERSEED",
+        "FODDER",
+        "FOLIAGE",
+        "FOODCELLAR",
+        "FOODCO",
+        "FOODDEHYDRATOR",
+        "FOODMILL",
+        "FOODPRESERVER",
+        "FOODSTORAGE",
+        "FORAGE",
+        "FORAGECROP"
+      ]
+    },
+    {
+      "name": "Signature Gardening Word Search 97",
+      "words": [
+        "FORESTGARDEN",
+        "FORKHANDLE",
+        "FOXGLOVE",
+        "FRAGRANCEGARDEN",
+        "FREESIA",
+        "FRESHBREAD",
+        "FRESHCREAM",
+        "FRIDGE",
+        "FROST",
+        "FROSTCLOTH",
+        "FRUITCAKE",
+        "FRUITCELLAR"
+      ]
+    },
+    {
+      "name": "Signature Gardening Word Search 98",
+      "words": [
+        "FRUITGARDEN",
+        "FRUITPIE",
+        "FRUITPRESS",
+        "FRUITSTAND",
+        "FUCHSIA",
+        "GAILLARDIA",
+        "GARDEN",
+        "GARDENAPRON",
+        "GARDENARCH",
+        "GARDENBASKET",
+        "GARDENBED",
+        "GARDENBENCH"
+      ]
+    },
+    {
+      "name": "Signature Gardening Word Search 99",
+      "words": [
+        "GARDENBOOTS",
+        "GARDENBORDER",
+        "GARDENCALENDAR",
+        "GARDENCENTER",
+        "GARDENCLOCHE",
+        "GARDENCOMPANION",
+        "GARDENCOMPOST",
+        "GARDENER",
+        "GARDENFENCE",
+        "GARDENFORK",
+        "GARDENFOUNTAIN",
+        "GARDENHARVEST"
+      ]
+    },
+    {
+      "name": "Signature Gardening Word Search 100",
+      "words": [
+        "GARDENHELPER",
+        "GARDENHOE",
+        "GARDENHOSE",
+        "GARDENIA",
+        "GARDENING",
+        "GARDENINGBOOK",
+        "GARDENINGGLOVES",
+        "GARDENJOURNAL",
+        "GARDENKNIFE",
+        "GARDENLABEL",
+        "GARDENLATTICE",
+        "GARDENLAYOUT"
       ]
     }
   ],
@@ -1065,5 +1746,12 @@
       "Signature Gardening"
     ],
     "checked_at": "2026-08-22T10:08:39"
+  },
+  "quality_review": {
+    "checked_at": "20260824-213944",
+    "source": "verified_word_intelligence_repair",
+    "verdict": "PASS_WITH_NOTES",
+    "production_ready": true,
+    "changes": 99
   }
 }

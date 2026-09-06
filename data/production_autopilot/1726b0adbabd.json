@@ -1,0 +1,36 @@
+{
+  "version": "1",
+  "book_id": "1726b0adbabd",
+  "runs": [
+    {
+      "run_id": "5f3d289a92822060",
+      "started": "2026-09-04T21:45:56",
+      "facts_fingerprint": "7dcbee157a6e89a20d7172ca8edfc6daf871cdad9a202d7ea4e8ed4c66a9d934",
+      "result": "needs_human_review",
+      "failed_stage": "package"
+    }
+  ],
+  "stages": {
+    "validate": {
+      "status": "complete",
+      "fingerprint": "79591d98f183340a62b4bb74a569e069ba0ae159a5e8f16a2c12b260f6a2101f",
+      "completed": "2026-09-04T21:45:56",
+      "detail": "Contributor, content capacity, and automatic-plan checks passed before generation.",
+      "artifact": ""
+    },
+    "generate": {
+      "status": "complete",
+      "fingerprint": "84910dba0daebac842f7a728993d75587e7b3e3eb19d7840333ed2b5810c2427",
+      "completed": "2026-09-04T21:45:58",
+      "detail": "Interior and answer pages were generated from the selected puzzle type and seed.",
+      "artifact": "C:\\Users\\jorda\\Desktop\\Word Search Creator\\kdp-puzzle-engine\\out\\the_everyday_brain_games_collection_20260904_214556\\01_PRINT_UPLOADS\\interior.pdf"
+    },
+    "package": {
+      "status": "needs_human_review",
+      "failed": "2026-09-04T21:45:59",
+      "detail": "'BackgroundAssetIndex' object has no attribute 'asset_record_for_path'"
+    }
+  },
+  "facts_fingerprint": "7dcbee157a6e89a20d7172ca8edfc6daf871cdad9a202d7ea4e8ed4c66a9d934",
+  "last_started": "2026-09-04T21:45:56"
+}

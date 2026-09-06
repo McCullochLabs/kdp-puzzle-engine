@@ -1,5 +1,506 @@
 [
   {
+    "title": "Garden Discovery Word Search",
+    "theme": "garden_discovery_20260828_204320.json",
+    "theme_path": "C:\\Users\\jorda\\Desktop\\Word Search Creator\\kdp-puzzle-engine\\themes\\Trending 50 Puzzle Releases\\garden_discovery_20260828_204320.json",
+    "created": "2026-08-28T20:44:08",
+    "package": "C:\\Users\\jorda\\Desktop\\Word Search Creator\\kdp-puzzle-engine\\out\\Trending 50 Puzzle Releases 20260828_204320\\01_garden_discovery",
+    "approval": "Complete package and local preflight passed",
+    "pages": 84,
+    "source_checksum": "9c5373ff1ac293bd9ecff49024d6ee676c5a6bc02e5d9e0a82fe5935a512286a",
+    "settings": {
+      "title": "Garden Discovery Word Search",
+      "subtitle": "50 large-print puzzles for flower, plant and homegrown fun",
+      "author": "Jordan M. Slade",
+      "palette": "spring-meadow",
+      "style": "photo",
+      "badge": "50 LARGE-PRINT PUZZLES \u2022 NO REPEATED WORDS",
+      "difficulty": "Relaxing",
+      "format_label": "LARGE PRINT",
+      "art": "C:\\Users\\jorda\\Desktop\\Word Search Creator\\kdp-puzzle-engine\\cover_assets\\background_photos\\gardening_vegetables_v3.png",
+      "art_focus": "center",
+      "signature_edition": false
+    },
+    "marketplaces": {
+      "Amazon KDP": "Ready to prepare",
+      "Etsy": "Not prepared",
+      "Direct/other": "Not prepared"
+    }
+  },
+  {
+    "title": "American Moments Word Search",
+    "theme": "american_moments_20260828_203806.json",
+    "theme_path": "C:\\Users\\jorda\\Desktop\\Word Search Creator\\kdp-puzzle-engine\\themes\\Trending 50 Puzzle Releases\\american_moments_20260828_203806.json",
+    "created": "2026-08-28T20:41:59",
+    "package": "C:\\Users\\jorda\\Desktop\\Word Search Creator\\kdp-puzzle-engine\\out\\Trending 50 Puzzle Releases 20260828_203806\\05_american_moments",
+    "approval": "Complete package and local preflight passed",
+    "pages": 84,
+    "source_checksum": "a330a38494887e264a6ef69b4e42c10857021d982607fd5f8ac6e64c0226303e",
+    "settings": {
+      "title": "American Moments Word Search",
+      "subtitle": "50 large-print puzzles about history, people and places",
+      "author": "Jordan M. Slade",
+      "palette": "usa",
+      "style": "photo",
+      "badge": "50 LARGE-PRINT PUZZLES \u2022 NO REPEATED WORDS",
+      "difficulty": "Standard",
+      "format_label": "LARGE PRINT",
+      "art": "C:\\Users\\jorda\\Desktop\\Word Search Creator\\kdp-puzzle-engine\\cover_assets\\background_photos\\american_history_museum_v3.png",
+      "art_focus": "center",
+      "signature_edition": false
+    },
+    "marketplaces": {
+      "Amazon KDP": "Ready to prepare",
+      "Etsy": "Not prepared",
+      "Direct/other": "Not prepared"
+    }
+  },
+  {
+    "title": "Road Trip Classics Word Search",
+    "theme": "road_trip_classics_20260828_203806.json",
+    "theme_path": "C:\\Users\\jorda\\Desktop\\Word Search Creator\\kdp-puzzle-engine\\themes\\Trending 50 Puzzle Releases\\road_trip_classics_20260828_203806.json",
+    "created": "2026-08-28T20:41:09",
+    "package": "C:\\Users\\jorda\\Desktop\\Word Search Creator\\kdp-puzzle-engine\\out\\Trending 50 Puzzle Releases 20260828_203806\\04_road_trip_classics",
+    "approval": "Complete package and local preflight passed",
+    "pages": 84,
+    "source_checksum": "b96d91a4f27a7fb635b6d5f188f761072f2505b108f684963f95459a22ee3aa8",
+    "settings": {
+      "title": "Road Trip Classics Word Search",
+      "subtitle": "50 large-print puzzles about cars, highways and open-road adventures",
+      "author": "Jordan M. Slade",
+      "palette": "retro-diner",
+      "style": "photo",
+      "badge": "50 LARGE-PRINT PUZZLES \u2022 NO REPEATED WORDS",
+      "difficulty": "Standard",
+      "format_label": "LARGE PRINT",
+      "art": "C:\\Users\\jorda\\Desktop\\Word Search Creator\\kdp-puzzle-engine\\cover_assets\\background_photos\\vehicles_camping_v2.png",
+      "art_focus": "center",
+      "signature_edition": false
+    },
+    "marketplaces": {
+      "Amazon KDP": "Ready to prepare",
+      "Etsy": "Not prepared",
+      "Direct/other": "Not prepared"
+    }
+  },
+  {
+    "title": "Faithful Words Word Search",
+    "theme": "faithful_words_20260828_203806.json",
+    "theme_path": "C:\\Users\\jorda\\Desktop\\Word Search Creator\\kdp-puzzle-engine\\themes\\Trending 50 Puzzle Releases\\faithful_words_20260828_203806.json",
+    "created": "2026-08-28T20:40:18",
+    "package": "C:\\Users\\jorda\\Desktop\\Word Search Creator\\kdp-puzzle-engine\\out\\Trending 50 Puzzle Releases 20260828_203806\\03_faithful_words",
+    "approval": "Complete package and local preflight passed",
+    "pages": 84,
+    "source_checksum": "80ae29804c5cdd8f0cc1125c670833a3ed841c4872cb5db98ad5126a5e1b3d25",
+    "settings": {
+      "title": "Faithful Words Word Search",
+      "subtitle": "50 large-print puzzles for Bible themes, hope and encouragement",
+      "author": "Jordan M. Slade",
+      "palette": "bible",
+      "style": "photo",
+      "badge": "50 LARGE-PRINT PUZZLES \u2022 NO REPEATED WORDS",
+      "difficulty": "Relaxing",
+      "format_label": "LARGE PRINT",
+      "art": "C:\\Users\\jorda\\Desktop\\Word Search Creator\\kdp-puzzle-engine\\cover_assets\\background_photos\\bible_chapel_v3.png",
+      "art_focus": "center",
+      "signature_edition": false
+    },
+    "marketplaces": {
+      "Amazon KDP": "Ready to prepare",
+      "Etsy": "Not prepared",
+      "Direct/other": "Not prepared"
+    }
+  },
+  {
+    "title": "Cosmic Discovery Word Search",
+    "theme": "cosmic_discovery_20260828_203806.json",
+    "theme_path": "C:\\Users\\jorda\\Desktop\\Word Search Creator\\kdp-puzzle-engine\\themes\\Trending 50 Puzzle Releases\\cosmic_discovery_20260828_203806.json",
+    "created": "2026-08-28T20:39:04",
+    "package": "C:\\Users\\jorda\\Desktop\\Word Search Creator\\kdp-puzzle-engine\\out\\Trending 50 Puzzle Releases 20260828_203806\\02_cosmic_discovery",
+    "approval": "Complete package and local preflight passed",
+    "pages": 84,
+    "source_checksum": "308005b860207c246395a3d2fce54d7c5f5482f277bc7082bd481e71a22fe3ee",
+    "settings": {
+      "title": "Cosmic Discovery Word Search",
+      "subtitle": "50 large-print puzzles about space, planets and stargazing",
+      "author": "Jordan M. Slade",
+      "palette": "starlight-indigo",
+      "style": "photo",
+      "badge": "50 LARGE-PRINT PUZZLES \u2022 NO REPEATED WORDS",
+      "difficulty": "Standard",
+      "format_label": "LARGE PRINT",
+      "art": "C:\\Users\\jorda\\Desktop\\Word Search Creator\\kdp-puzzle-engine\\cover_assets\\background_photos\\space_planet_v2.png",
+      "art_focus": "center",
+      "signature_edition": false
+    },
+    "marketplaces": {
+      "Amazon KDP": "Ready to prepare",
+      "Etsy": "Not prepared",
+      "Direct/other": "Not prepared",
+      "Payhip": "Prepared"
+    }
+  },
+  {
+    "title": "Classic Cars and Road Trips Word Search",
+    "theme": "classic_cars_road_trips.json",
+    "theme_path": "C:\\Users\\jorda\\Desktop\\Word Search Creator\\kdp-puzzle-engine\\themes\\Launch Collection\\Verified Release Candidates\\classic_cars_road_trips.json",
+    "created": "2026-08-27T16:10:10",
+    "package": "C:\\Users\\jorda\\Desktop\\Word Search Creator\\kdp-puzzle-engine\\out\\commercial_baseline_6101_classic_cars_and_road_trips_word_search",
+    "approval": "Complete package and local preflight passed",
+    "pages": 82,
+    "source_checksum": "dbb64ee34fb77abc020b65d5c6637cc88e022ad0d59f400b491bdaf9dd3e3e0d",
+    "settings": {
+      "title": "Classic Cars and Road Trips Word Search",
+      "subtitle": "48 large-print puzzles for vintage vehicle fans and open-road dreamers",
+      "author": "Jordan M. Slade",
+      "palette": "graphite-copper",
+      "style": "photo",
+      "badge": "INCLUDES 48 PUZZLES",
+      "difficulty": "Relaxing",
+      "format_label": "LARGE PRINT",
+      "art": "C:\\Users\\jorda\\Desktop\\Word Search Creator\\kdp-puzzle-engine\\cover_assets\\background_photos\\vehicles_vintage_v3.png",
+      "art_focus": "center",
+      "signature_edition": false
+    },
+    "marketplaces": {
+      "Amazon KDP": "Prepared",
+      "Etsy": "Not prepared",
+      "Direct/other": "Not prepared",
+      "Barnes & Noble": "Prepared",
+      "Payhip": "Prepared",
+      "Lulu Direct": "Prepared"
+    }
+  },
+  {
+    "title": "Vocabulary Adventures: Grade School",
+    "theme": "vocabulary_adventures_grade_school.json",
+    "theme_path": "C:\\Users\\jorda\\Desktop\\Word Search Creator\\kdp-puzzle-engine\\themes\\Vocabulary Ladder Collection\\vocabulary_adventures_grade_school.json",
+    "created": "2026-08-27T16:02:13",
+    "package": "C:\\Users\\jorda\\Desktop\\Word Search Creator\\kdp-puzzle-engine\\out\\commercial_baseline_6102_vocabulary_adventures_grade_school",
+    "approval": "Complete package and local preflight passed",
+    "pages": 82,
+    "source_checksum": "9943ab6601a52bf8a841b9e179d489fdb0274e18793c03f37e985fa0cb01f1c5",
+    "settings": {
+      "title": "Vocabulary Adventures: Grade School",
+      "subtitle": "48 large-print vocabulary word searches for stronger reading and word confidence",
+      "author": "Jordan M. Slade",
+      "palette": "library-burgundy",
+      "style": "photo",
+      "badge": "INCLUDES 48 PUZZLES",
+      "difficulty": "Relaxing",
+      "format_label": "LARGE PRINT",
+      "art": "C:\\Users\\jorda\\Desktop\\Word Search Creator\\kdp-puzzle-engine\\cover_assets\\background_photos\\books_reading.png",
+      "art_focus": "center",
+      "signature_edition": false
+    },
+    "marketplaces": {
+      "Amazon KDP": "Prepared",
+      "Etsy": "Not prepared",
+      "Direct/other": "Not prepared",
+      "Barnes & Noble": "Prepared",
+      "Payhip": "Prepared",
+      "Lulu Direct": "Prepared"
+    }
+  },
+  {
+    "title": "Classic Cars and Road Trips Word Search",
+    "theme": "classic_cars_road_trips.json",
+    "theme_path": "C:\\Users\\jorda\\Desktop\\Word Search Creator\\kdp-puzzle-engine\\themes\\Launch Collection\\Verified Release Candidates\\classic_cars_road_trips.json",
+    "created": "2026-08-27T16:01:14",
+    "package": "C:\\Users\\jorda\\Desktop\\Word Search Creator\\kdp-puzzle-engine\\out\\commercial_baseline_6101_classic_cars_and_road_trips_word_search",
+    "approval": "Complete package and local preflight passed",
+    "pages": 82,
+    "source_checksum": "dbb64ee34fb77abc020b65d5c6637cc88e022ad0d59f400b491bdaf9dd3e3e0d",
+    "settings": {
+      "title": "Classic Cars and Road Trips Word Search",
+      "subtitle": "48 large-print puzzles for vintage vehicle fans and open-road dreamers",
+      "author": "Jordan M. Slade",
+      "palette": "ocean-life",
+      "style": "photo",
+      "badge": "INCLUDES 48 PUZZLES",
+      "difficulty": "Relaxing",
+      "format_label": "LARGE PRINT",
+      "art": "C:\\Users\\jorda\\Desktop\\Word Search Creator\\kdp-puzzle-engine\\cover_assets\\background_photos\\ocean_whale_v2.png",
+      "art_focus": "center",
+      "signature_edition": false
+    },
+    "marketplaces": {
+      "Amazon KDP": "Prepared",
+      "Etsy": "Not prepared",
+      "Direct/other": "Not prepared",
+      "Barnes & Noble": "Prepared",
+      "Payhip": "Prepared",
+      "Lulu Direct": "Prepared"
+    }
+  },
+  {
+    "title": "Classic Cars and Road Trips Word Search",
+    "theme": "classic_cars_road_trips.json",
+    "theme_path": "C:\\Users\\jorda\\Desktop\\Word Search Creator\\kdp-puzzle-engine\\themes\\Launch Collection\\Verified Release Candidates\\classic_cars_road_trips.json",
+    "created": "2026-08-27T15:59:49",
+    "package": "C:\\Users\\jorda\\Desktop\\Word Search Creator\\kdp-puzzle-engine\\out\\commercial_baseline_6101_classic_cars_and_road_trips_word_search",
+    "approval": "Complete package and local preflight passed",
+    "pages": 82,
+    "source_checksum": "dbb64ee34fb77abc020b65d5c6637cc88e022ad0d59f400b491bdaf9dd3e3e0d",
+    "settings": {
+      "title": "Classic Cars and Road Trips Word Search",
+      "subtitle": "48 large-print puzzles for vintage vehicle fans and open-road dreamers",
+      "author": "Jordan M. Slade",
+      "palette": "ocean-life",
+      "style": "photo",
+      "badge": "INCLUDES 48 PUZZLES",
+      "difficulty": "Relaxing",
+      "format_label": "LARGE PRINT",
+      "art": "C:\\Users\\jorda\\Desktop\\Word Search Creator\\kdp-puzzle-engine\\cover_assets\\background_photos\\ocean_whale_v2.png",
+      "art_focus": "center",
+      "signature_edition": false
+    },
+    "marketplaces": {
+      "Amazon KDP": "Ready to prepare",
+      "Etsy": "Not prepared",
+      "Direct/other": "Not prepared"
+    }
+  },
+  {
+    "title": "Classic Cars and Road Trips Word Search",
+    "theme": "classic_cars_road_trips.json",
+    "theme_path": "C:\\Users\\jorda\\Desktop\\Word Search Creator\\kdp-puzzle-engine\\themes\\Launch Collection\\Verified Release Candidates\\classic_cars_road_trips.json",
+    "created": "2026-08-27T15:56:35",
+    "package": "C:\\Users\\jorda\\Desktop\\Word Search Creator\\kdp-puzzle-engine\\out\\commercial_baseline_6101_classic_cars_and_road_trips_word_search",
+    "approval": "Complete package and local preflight passed",
+    "pages": 82,
+    "source_checksum": "dbb64ee34fb77abc020b65d5c6637cc88e022ad0d59f400b491bdaf9dd3e3e0d",
+    "settings": {
+      "title": "Classic Cars and Road Trips Word Search",
+      "subtitle": "48 large-print puzzles for vintage vehicle fans and open-road dreamers",
+      "author": "Jordan M. Slade",
+      "palette": "ocean-life",
+      "style": "photo",
+      "badge": "INCLUDES 48 PUZZLES",
+      "difficulty": "Relaxing",
+      "format_label": "LARGE PRINT",
+      "art": "C:\\Users\\jorda\\Desktop\\Word Search Creator\\kdp-puzzle-engine\\cover_assets\\background_photos\\ocean_whale_v2.png",
+      "art_focus": "center",
+      "signature_edition": false
+    },
+    "marketplaces": {
+      "Amazon KDP": "Ready to prepare",
+      "Etsy": "Not prepared",
+      "Direct/other": "Not prepared"
+    }
+  },
+  {
+    "title": "Cozy Pets Word Search",
+    "theme": "cozy_pets_preproduction.json",
+    "theme_path": "C:\\Users\\jorda\\Desktop\\Word Search Creator\\kdp-puzzle-engine\\themes\\Launch Collection\\Verified Release Candidates\\cozy_pets_preproduction.json",
+    "created": "2026-08-27T08:54:39",
+    "package": "C:\\Users\\jorda\\Desktop\\Word Search Creator\\kdp-puzzle-engine\\out\\cozy_pets_word_search_preproduction_20260827",
+    "approval": "Complete package and local preflight passed",
+    "pages": 82,
+    "source_checksum": "a57eaa734cf29635f4675a859c65cb901e6efdbc332e16aa8a172fa43bd61bc2",
+    "settings": {
+      "title": "Cozy Pets Word Search",
+      "subtitle": "48 large-print puzzles for cat, dog and pet lovers",
+      "author": "Jordan M. Slade",
+      "palette": "animals",
+      "style": "playful",
+      "badge": "48 LARGE-PRINT PUZZLES",
+      "difficulty": "Challenging",
+      "format_label": "WORD SEARCH",
+      "art": "",
+      "art_focus": "center",
+      "signature_edition": false
+    },
+    "marketplaces": {
+      "Amazon KDP": "Prepared",
+      "Etsy": "Not prepared",
+      "Direct/other": "Not prepared",
+      "Barnes & Noble": "Prepared",
+      "Lulu Direct": "Prepared",
+      "Payhip": "Prepared"
+    }
+  },
+  {
+    "title": "Backyard Birdwatching Word Search",
+    "theme": "backyard_birdwatching_preproduction.json",
+    "theme_path": "C:\\Users\\jorda\\Desktop\\Word Search Creator\\kdp-puzzle-engine\\themes\\Launch Collection\\Verified Release Candidates\\backyard_birdwatching_preproduction.json",
+    "created": "2026-08-27T08:52:19",
+    "package": "C:\\Users\\jorda\\Desktop\\Word Search Creator\\kdp-puzzle-engine\\out\\backyard_birdwatching_word_search_preproduction_20260827",
+    "approval": "Complete package and local preflight passed",
+    "pages": 82,
+    "source_checksum": "cb6657f24f78f15be5e7c46d5ea7b46c1b05735f351ffd1824bd2f02daaaa55f",
+    "settings": {
+      "title": "Backyard Birdwatching Word Search",
+      "subtitle": "48 large-print puzzles for bird lovers and nature watchers",
+      "author": "Jordan M. Slade",
+      "palette": "animals",
+      "style": "playful",
+      "badge": "48 LARGE-PRINT PUZZLES",
+      "difficulty": "Challenging",
+      "format_label": "WORD SEARCH",
+      "art": "C:\\Users\\jorda\\Desktop\\Word Search Creator\\kdp-puzzle-engine\\cover_assets\\background_photos\\birds_hummingbird_v4.png",
+      "art_focus": "center",
+      "signature_edition": false
+    },
+    "marketplaces": {
+      "Amazon KDP": "Prepared",
+      "Etsy": "Not prepared",
+      "Direct/other": "Not prepared",
+      "Barnes & Noble": "Prepared",
+      "Lulu Direct": "Prepared",
+      "Payhip": "Prepared"
+    }
+  },
+  {
+    "title": "Ocean Treasures Word Search",
+    "theme": "ocean-life.json",
+    "theme_path": "C:\\Users\\jorda\\Desktop\\Word Search Creator\\kdp-puzzle-engine\\themes\\ocean-life.json",
+    "created": "2026-08-27T08:43:23",
+    "package": "C:\\Users\\jorda\\Desktop\\Word Search Creator\\kdp-puzzle-engine\\out\\ocean_treasures_word_search_preproduction_20260827",
+    "approval": "Complete package and local preflight passed",
+    "pages": 82,
+    "source_checksum": "78e3f2b405d82eb24083431ffb74b3b5079ea69c87dae5304459aebb68043575",
+    "settings": {
+      "title": "Ocean Treasures Word Search",
+      "subtitle": "48 large-print puzzles for whales, reefs and sea life",
+      "author": "Jordan M. Slade",
+      "palette": "ocean",
+      "style": "photo",
+      "badge": "48 LARGE-PRINT PUZZLES",
+      "difficulty": "Relaxing",
+      "format_label": "LARGE PRINT WORD SEARCH",
+      "art": "C:\\Users\\jorda\\Desktop\\Word Search Creator\\kdp-puzzle-engine\\cover_assets\\background_photos\\ocean_turtle_v3.png",
+      "art_focus": "center",
+      "signature_edition": false
+    },
+    "marketplaces": {
+      "Amazon KDP": "Ready to prepare",
+      "Etsy": "Not prepared",
+      "Direct/other": "Not prepared"
+    }
+  },
+  {
+    "title": "Garden Sanctuary Word Search",
+    "theme": "gardening.json",
+    "theme_path": "C:\\Users\\jorda\\Desktop\\Word Search Creator\\kdp-puzzle-engine\\themes\\gardening.json",
+    "created": "2026-08-27T08:26:25",
+    "package": "C:\\Users\\jorda\\Desktop\\Word Search Creator\\kdp-puzzle-engine\\out\\garden_sanctuary_word_search_preproduction_20260827",
+    "approval": "Complete package and local preflight passed",
+    "pages": 82,
+    "source_checksum": "7316f7773592e292a8a3f7563db100704381f17148107306441f4dba08914f74",
+    "settings": {
+      "title": "Garden Sanctuary Word Search",
+      "subtitle": "48 large-print puzzles for flowers, herbs and homegrown joy",
+      "author": "Jordan M. Slade",
+      "palette": "gardening",
+      "style": "photo",
+      "badge": "48 LARGE-PRINT PUZZLES",
+      "difficulty": "Relaxing",
+      "format_label": "LARGE PRINT WORD SEARCH",
+      "art": "C:\\Users\\jorda\\Desktop\\Word Search Creator\\kdp-puzzle-engine\\cover_assets\\background_photos\\gardening_greenhouse_v2.png",
+      "art_focus": "center",
+      "signature_edition": false
+    },
+    "marketplaces": {
+      "Amazon KDP": "Prepared",
+      "Etsy": "Not prepared",
+      "Direct/other": "Not prepared",
+      "Barnes & Noble": "Prepared",
+      "Payhip": "Prepared",
+      "Lulu Direct": "Prepared"
+    }
+  },
+  {
+    "title": "Great Smoky Mountains Word Search",
+    "theme": "national_parks_01_greatsmokymountains.json",
+    "theme_path": "C:\\Users\\jorda\\Desktop\\Word Search Creator\\kdp-puzzle-engine\\themes\\national_parks_01_greatsmokymountains.json",
+    "created": "2026-08-27T08:20:15",
+    "package": "C:\\Users\\jorda\\Desktop\\Word Search Creator\\kdp-puzzle-engine\\out\\great_smoky_mountains_word_search_preproduction_20260827",
+    "approval": "Complete package and local preflight passed",
+    "pages": 82,
+    "source_checksum": "a0b1451c1fa75a63f7c39df7e11d1c367d230d3aa91af2afe82b13c183a8863b",
+    "settings": {
+      "title": "Great Smoky Mountains Word Search",
+      "subtitle": "48 large-print puzzles for trails, wildlife and forest wonders",
+      "author": "Jordan M. Slade",
+      "palette": "nature",
+      "style": "photo",
+      "badge": "48 LARGE-PRINT PUZZLES",
+      "difficulty": "Relaxing",
+      "format_label": "LARGE PRINT WORD SEARCH",
+      "art": "C:\\Users\\jorda\\Desktop\\Word Search Creator\\kdp-puzzle-engine\\cover_assets\\background_photos\\national_parks_forest_v3.png",
+      "art_focus": "center",
+      "signature_edition": false
+    },
+    "marketplaces": {
+      "Amazon KDP": "Ready to prepare",
+      "Etsy": "Not prepared",
+      "Direct/other": "Not prepared"
+    }
+  },
+  {
+    "title": "Classic Cars and Road Trips Word Search",
+    "theme": "classic_cars_road_trips.json",
+    "theme_path": "C:\\Users\\jorda\\Desktop\\Word Search Creator\\kdp-puzzle-engine\\themes\\Launch Collection\\Verified Release Candidates\\classic_cars_road_trips.json",
+    "created": "2026-08-27T08:17:58",
+    "package": "C:\\Users\\jorda\\Desktop\\Word Search Creator\\kdp-puzzle-engine\\out\\classic_cars_and_road_trips_word_search_preproduction_20260827_retry",
+    "approval": "Complete package and local preflight passed",
+    "pages": 82,
+    "source_checksum": "dbb64ee34fb77abc020b65d5c6637cc88e022ad0d59f400b491bdaf9dd3e3e0d",
+    "settings": {
+      "title": "Classic Cars and Road Trips Word Search",
+      "subtitle": "48 large-print puzzles for automotive enthusiasts",
+      "author": "Jordan M. Slade",
+      "palette": "retro-drive",
+      "style": "retro",
+      "badge": "48 LARGE-PRINT PUZZLES",
+      "difficulty": "Relaxing",
+      "format_label": "LARGE PRINT WORD SEARCH",
+      "art": "C:\\Users\\jorda\\Desktop\\Word Search Creator\\kdp-puzzle-engine\\cover_assets\\background_photos\\road_trip_vehicles.png",
+      "art_focus": "center",
+      "signature_edition": false
+    },
+    "marketplaces": {
+      "Amazon KDP": "Prepared",
+      "Etsy": "Not prepared",
+      "Direct/other": "Not prepared",
+      "Barnes & Noble": "Prepared",
+      "Payhip": "Prepared",
+      "Lulu Direct": "Prepared"
+    }
+  },
+  {
+    "title": "Vocabulary Adventures: Grade School",
+    "theme": "vocabulary_adventures_grade_school.json",
+    "theme_path": "C:\\Users\\jorda\\Desktop\\Word Search Creator\\kdp-puzzle-engine\\themes\\Vocabulary Ladder Collection\\vocabulary_adventures_grade_school.json",
+    "created": "2026-08-26T12:36:21",
+    "package": "C:\\Users\\jorda\\Desktop\\Word Search Creator\\kdp-puzzle-engine\\out\\Vocabulary_Adventures_Grade_School_20260826_123608",
+    "approval": "Complete package and local preflight passed",
+    "pages": 82,
+    "source_checksum": "9943ab6601a52bf8a841b9e179d489fdb0274e18793c03f37e985fa0cb01f1c5",
+    "settings": {
+      "title": "Vocabulary Adventures: Grade School",
+      "subtitle": "A friendly word search journey for grades 3\u20135",
+      "author": "Jordan M. Slade",
+      "palette": "kids",
+      "style": "gallery",
+      "badge": "NO REPEATED WORDS",
+      "difficulty": "Relaxing",
+      "format_label": "LARGE PRINT",
+      "art": "C:\\Users\\jorda\\Desktop\\Word Search Creator\\kdp-puzzle-engine\\cover_assets\\background_photos\\school_elementary_learning_v1.png",
+      "art_focus": "center",
+      "signature_edition": false
+    },
+    "marketplaces": {
+      "Amazon KDP": "Prepared",
+      "Etsy": "Not prepared",
+      "Direct/other": "Not prepared",
+      "Barnes & Noble": "Prepared",
+      "Payhip": "Prepared",
+      "Lulu Direct": "Prepared"
+    }
+  },
+  {
     "title": "Thanksgiving Table and Traditions Word Search",
     "theme": "thanksgiving_table_traditions.json",
     "created": "2026-08-23T14:27:20",

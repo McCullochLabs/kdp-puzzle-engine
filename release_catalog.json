@@ -1,40 +1,58 @@
 {
-  "national_parks_01_greatsmokymountains.json": {
-    "stage": "Ready",
-    "title_at_package": "National Parks #01: Great Smoky Mountains Word Search",
-    "package": "C:\\Users\\jorda\\Desktop\\Word Search Creator\\kdp-puzzle-engine\\out\\3_2 Photo Cover Samples\\01_national_parks_photo_cover",
-    "package_created": "2026-08-22T11:51:36",
-    "interior_pages": 83
-  },
-  "gardening.json": {
-    "stage": "Ready",
-    "title_at_package": "Bloom and Grow Garden Word Search",
-    "package": "C:\\Users\\jorda\\Desktop\\Word Search Creator\\kdp-puzzle-engine\\out\\3_2 Photo Cover Samples\\02_garden_photo_cover",
-    "package_created": "2026-08-22T11:51:53",
-    "interior_pages": 83
-  },
-  "advanced_vocabulary_challenge.json": {
-    "stage": "Ready",
-    "title_at_package": "Advanced Vocabulary Challenge Word Search",
-    "package": "C:\\Users\\jorda\\Desktop\\Word Search Creator\\kdp-puzzle-engine\\out\\ui_production_tests\\01_advanced_vocabulary_challenge_20260823_142548",
-    "package_created": "2026-08-23T14:25:55",
-    "interior_pages": 82,
-    "release_status": "Ready for KDP Print Previewer"
-  },
   "classic_cars_road_trips.json": {
     "stage": "Ready",
-    "title_at_package": "Classic Cars and Road Trips Word Search",
-    "package": "C:\\Users\\jorda\\Desktop\\Word Search Creator\\kdp-puzzle-engine\\out\\ui_production_tests\\02_classic_cars_road_trips_20260823_142556",
-    "package_created": "2026-08-23T14:26:02",
+    "title_at_package": "Phase 8 Classic Cars Word Search",
+    "package": "C:\\Users\\jorda\\Desktop\\Word Search Creator\\kdp-puzzle-engine\\tmp\\phase8_acceptance_wordsearch_20260828\\out\\phase8_word_search_acceptance",
+    "package_created": "2026-08-28T16:39:37",
     "interior_pages": 82,
     "release_status": "Ready for KDP Print Previewer"
   },
-  "thanksgiving_table_traditions.json": {
+  "vocabulary_adventures_grade_school.json": {
     "stage": "Ready",
-    "title_at_package": "Thanksgiving Table and Traditions Word Search",
-    "package": "C:\\Users\\jorda\\Desktop\\Word Search Creator\\kdp-puzzle-engine\\out\\ui_production_tests\\03_thanksgiving_table_traditions_20260823_142713",
-    "package_created": "2026-08-23T14:27:20",
+    "title_at_package": "Vocabulary Adventures: Grade School",
+    "package": "C:\\Users\\jorda\\Desktop\\Word Search Creator\\kdp-puzzle-engine\\out\\commercial_baseline_6102_vocabulary_adventures_grade_school",
+    "package_created": "2026-08-27T16:02:13",
     "interior_pages": 82,
+    "release_status": "Ready for KDP Print Previewer"
+  },
+  "cosmic_discovery_20260828_203806.json": {
+    "stage": "Ready",
+    "title_at_package": "Cosmic Discovery Word Search",
+    "package": "C:\\Users\\jorda\\Desktop\\Word Search Creator\\kdp-puzzle-engine\\out\\production_20260903_053046\\Cosmic_Discovery_Word_Search",
+    "package_created": "2026-09-03T05:31:40",
+    "interior_pages": 84,
+    "release_status": "Ready for KDP Print Previewer"
+  },
+  "faithful_words_20260828_203806.json": {
+    "stage": "Ready",
+    "title_at_package": "Faithful Words Word Search",
+    "package": "C:\\Users\\jorda\\Desktop\\Word Search Creator\\kdp-puzzle-engine\\out\\production_20260903_053046\\Faithful_Words_Word_Search",
+    "package_created": "2026-09-03T05:32:04",
+    "interior_pages": 84,
+    "release_status": "Ready for KDP Print Previewer"
+  },
+  "road_trip_classics_20260828_203806.json": {
+    "stage": "Ready",
+    "title_at_package": "Road Trip Classics Word Search",
+    "package": "C:\\Users\\jorda\\Desktop\\Word Search Creator\\kdp-puzzle-engine\\out\\production_20260903_053046\\Road_Trip_Classics_Word_Search",
+    "package_created": "2026-09-03T05:32:51",
+    "interior_pages": 84,
+    "release_status": "Ready for KDP Print Previewer"
+  },
+  "american_moments_20260828_203806.json": {
+    "stage": "Ready",
+    "title_at_package": "American Moments Word Search",
+    "package": "C:\\Users\\jorda\\Desktop\\Word Search Creator\\kdp-puzzle-engine\\out\\production_20260903_053046\\American_Moments_Word_Search",
+    "package_created": "2026-09-03T05:31:16",
+    "interior_pages": 84,
+    "release_status": "Ready for KDP Print Previewer"
+  },
+  "garden_discovery_20260828_204320.json": {
+    "stage": "Ready",
+    "title_at_package": "Garden Discovery Word Search",
+    "package": "C:\\Users\\jorda\\Desktop\\Word Search Creator\\kdp-puzzle-engine\\out\\production_20260903_053046\\Garden_Discovery_Word_Search",
+    "package_created": "2026-09-03T05:32:28",
+    "interior_pages": 84,
     "release_status": "Ready for KDP Print Previewer"
   }
 }

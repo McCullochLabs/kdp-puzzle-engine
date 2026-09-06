@@ -16,7 +16,7 @@
         "FALLLEAVES",
         "LIST",
         "PUMPKINPIE",
-        "SMILE",
+        "ACANTHUS",
         "BONSAI",
         "ICEBERG",
         "PEAR",
@@ -36,7 +36,7 @@
         "PECANPIE",
         "PATHWAY",
         "ISLAND",
-        "DOUGH",
+        "ACHILLEA",
         "BAG",
         "SPROUT"
       ]
@@ -65,9 +65,9 @@
         "FLAMES",
         "FRUIT",
         "AIRBORNE",
-        "QUEST",
+        "ACORN",
         "BLUEBELL",
-        "AUTHOR",
+        "ACREAGE",
         "BRIGHT",
         "MOAT",
         "BOAT",
@@ -81,9 +81,9 @@
         "IRRIGATION",
         "FISHES",
         "LIGHT",
-        "SPOTLIGHT",
+        "AGAPANTHUS",
         "GLASS",
-        "LITERATURE",
+        "AGRICULTURE",
         "SAUCE",
         "SMELL",
         "COAST",
@@ -116,14 +116,14 @@
         "FIREPLACE",
         "PETUNIA",
         "WHIP",
-        "FERRY",
+        "AGROFORESTRY",
         "DINE",
         "SALTWATER",
         "FOLD",
         "COOKING",
         "SPIRIT",
         "SPICES",
-        "ARTIST"
+        "AGROTEK"
       ]
     },
     {
@@ -134,7 +134,7 @@
         "STARLIGHT",
         "PIER",
         "APPLIANCE",
-        "BEAT",
+        "AIRPLANT",
         "RECREATE",
         "SEASIDE",
         "OCEAN",
@@ -149,7 +149,7 @@
         "ROOMS",
         "STAR",
         "TART",
-        "MUSIC",
+        "ALFALFA",
         "SEED",
         "HOUSE",
         "PATIO",
@@ -269,7 +269,7 @@
         "FENCE",
         "STEAK",
         "PALM",
-        "CHILDHOOD",
+        "ALLIUM",
         "CLIFFS",
         "VINE",
         "HOOK",
@@ -289,7 +289,7 @@
         "CHEESE",
         "FAVORITE",
         "FRIEND",
-        "ESCAPE",
+        "ALLOTMENT",
         "SEASON",
         "ROD",
         "COLORFUL",
@@ -351,7 +351,7 @@
       "name": "Gardening Puzzle 021",
       "words": [
         "NIGHT",
-        "ANTENNA",
+        "ALPACA",
         "ORGANIC",
         "FLAME",
         "GENRE",
@@ -367,14 +367,14 @@
     {
       "name": "Gardening Puzzle 022",
       "words": [
-        "CLUE",
-        "READING",
+        "ALPINE",
+        "ALYSSUM",
         "FOREST",
         "BRAMBLE",
         "REUNITE",
         "CRIMSON",
         "MEMORIES",
-        "WATER",
+        "AMARANTH",
         "GENTLE",
         "MOSS",
         "TACO",
@@ -392,7 +392,7 @@
         "BLEND",
         "PLUMERIA",
         "FORK",
-        "PARK",
+        "AMARYLLIS",
         "VACATION",
         "MALLOW",
         "TEA"
@@ -404,14 +404,14 @@
         "PEARL",
         "CRUNCH",
         "PRINT",
-        "WREATH",
+        "ANEMONE",
         "TOMATO",
         "SPRAY",
         "LINE",
         "ARBOR",
         "HUMID",
         "DECK",
-        "FILTER",
+        "ANGORA",
         "SPICE"
       ]
     },
@@ -436,10 +436,10 @@
       "name": "Gardening Puzzle 026",
       "words": [
         "CULTURE",
-        "EMERGENCY",
+        "ANISE",
         "PORK",
         "CHOP",
-        "PASTRY",
+        "ANNUAL",
         "DAHLIA",
         "SALTY",
         "MEADOW",
@@ -462,7 +462,7 @@
         "NOURISH",
         "SCENT",
         "ART",
-        "GOLF",
+        "APIARY",
         "WILDFLOWER"
       ]
     },
@@ -490,7 +490,7 @@
         "HELIOTROPE",
         "BREAKFAST",
         "CEDAR",
-        "JOY",
+        "APIARYBOX",
         "FEATHERS",
         "RECIPE",
         "BLUE",
@@ -511,7 +511,7 @@
         "POTTINGMIX",
         "RAKE",
         "CURIOUS",
-        "COOKBOOK",
+        "APPLEBLOSSOM",
         "SHOE",
         "BOOM",
         "FRAGRANT"
@@ -530,7 +530,7 @@
         "ELEPHANTEAR",
         "PARASOL",
         "OCEANVIEW",
-        "BALANCE",
+        "APPLEBUTTER",
         "EAT"
       ]
     },
@@ -538,13 +538,13 @@
       "name": "Gardening Puzzle 032",
       "words": [
         "NUTS",
-        "CHEF",
+        "APPLECIDER",
         "BEE",
         "VESSEL",
         "SWIM",
         "CHIVEBLOSSOM",
         "CHICORY",
-        "CHALLENGE",
+        "APPLEORCHARD",
         "TRICKS",
         "LAVENDER",
         "HIKE",
@@ -555,16 +555,16 @@
       "name": "Gardening Puzzle 033",
       "words": [
         "READER",
-        "GLITTER",
+        "APPLEPIE",
         "KAYAK",
         "TIMER",
-        "KELP",
-        "GOLDENROD",
+        "APPLESAUCE",
+        "APRICOT",
         "FREE",
         "ASTER",
         "SORREL",
         "INTEREST",
-        "FICTION",
+        "APRICOTTREE",
         "BERGAMOT"
       ]
     },
@@ -576,7 +576,7 @@
         "STORE",
         "TEXTURE",
         "YARROW",
-        "ROMANCE",
+        "APRON",
         "SMOOTHIE",
         "GUARDIAN",
         "SPAS",
@@ -623,9 +623,9 @@
       "name": "Gardening Puzzle 037",
       "words": [
         "VENT",
-        "COLOR",
+        "AQUAPONICS",
         "LID",
-        "CONCERT",
+        "ARBORVITAE",
         "HARDY",
         "JUNEBERRY",
         "BIODYNAMIC",
@@ -707,7 +707,7 @@
     {
       "name": "Gardening Puzzle 042",
       "words": [
-        "LETTER",
+        "ARBUTUS",
         "PROMENADE",
         "FOOT",
         "SWING",
@@ -775,11 +775,11 @@
     {
       "name": "Gardening Puzzle 046",
       "words": [
-        "SUNGLASSES",
+        "ARONIA",
         "ZUCCHINI",
         "TWINE",
         "SPOON",
-        "CORAL",
+        "ARTICHOKE",
         "PIGEON",
         "CHICKEN",
         "STRAWBERRY",
@@ -811,7 +811,7 @@
       "words": [
         "MASHED",
         "PEA",
-        "ACCESSORY",
+        "ARUGULA",
         "VINCA",
         "FISHING",
         "SNACK",
@@ -860,5 +860,12 @@
       "Gardening"
     ],
     "checked_at": "2026-08-22T10:08:39"
+  },
+  "quality_review": {
+    "checked_at": "20260824-213855",
+    "source": "verified_word_intelligence_repair",
+    "verdict": "PASS_WITH_NOTES",
+    "production_ready": false,
+    "changes": 38
   }
 }

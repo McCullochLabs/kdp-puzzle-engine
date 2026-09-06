@@ -5,11 +5,12 @@ separate from the word-search engine.  They share the same print size, cover
 workflow, package folder, and KDP checks without changing word placement.
 """
 from __future__ import annotations
-import json, math, os, random, re, shutil, subprocess, sys, threading
+import hashlib, json, math, os, random, re, shutil, subprocess, sys, tempfile, threading
 from datetime import datetime
 from pathlib import Path
 import tkinter as tk
 from tkinter import messagebox, ttk
+from PIL import Image, ImageTk
 from reportlab.lib.pagesizes import letter
 from reportlab.pdfgen import canvas
 from reportlab.pdfbase import pdfmetrics
@@ -20,7 +21,7 @@ CONTENT_LIBRARY = APP / "word_banks" / "puzzle_content_library.json"
 MASTER_WORD_BANK = APP / "word_banks" / "Guided_Builder_Master_Word_Bank.json"
 CONTENT_BUFFER = 1.60  # Every ready pack keeps 60% more unique entries than one book needs.
 MIN_VERIFIED_LIBRARY = 130  # A release-ready standard library never has fewer than 130 checked entries.
-TARGET_VERIFIED_LIBRARY = 180  # Supports 100-puzzle Signature Editions with room for replacements.
+TARGET_VERIFIED_LIBRARY = 240  # Supports two buffered 60-puzzle editions with room for replacements.
 FORMAT_PRESETS = {
     "Standard": {"count": 60, "difficulty": "Standard", "label": "A full-size, clear-format puzzle book."},
     "Large Print": {"count": 48, "difficulty": "Easy", "label": "Fewer puzzles with generous space and easy-to-read pages."},
@@ -30,15 +31,20 @@ FORMAT_PRESETS = {
 PAGE_W, PAGE_H = letter
 MARGIN = 54
 from font_utils import pdf_font_candidates, register_pdf_font
+from cover import cover_quality_report
+from publishing.design import INTERIOR_PRESETS, BONUS_PAGE_OPTIONS, automatic_bonus_pages, bonus_page_titles, default_preset, preset as interior_preset
+from publishing.package_layout import initialize_package_layout, package_file, package_layout_readme
+from background_generation.index import BackgroundAssetIndex
+from background_generation.routing import CoverRequest, select_cover_asset, select_cover_gallery, write_routing_diagnostics
 
 # Interior PDFs keep the same Book* aliases as always; font_utils resolves
 # which actual file backs each alias on this machine.
 BOOK_FONT_FAMILIES = {"BookSans": "sans", "BookBold": "sans-bold", "BookMono": "mono-bold"}
 ART = {
-    "Sudoku": (("puzzle_sudoku_numbers_v1.png", "puzzle_sudoku_calm_v2.png", "puzzle_sudoku_geometric_v3.png"), "starlight-indigo", "photo"),
+    "Sudoku": (("sudoku_logic_luxe_v4.png", "sudoku_papercraft_v5.png", "sudoku_quiet_ritual_v6.png"), "starlight-indigo", "photo"),
     "Cryptogram": (("puzzle_cryptogram_cipher_v1.png", "puzzle_cryptogram_vintage_v2.png", "puzzle_cryptogram_artdeco_v3.png"), "library-burgundy", "photo"),
     "Word Scramble + Trivia": (("puzzle_scramble_trivia_v1.png", "puzzle_scramble_gamenight_v2.png", "puzzle_scramble_retroquiz_v3.png"), "tropical-pop", "photo"),
-    "Mixed Brain Games": (("puzzle_scramble_gamenight_v2.png", "puzzle_sudoku_geometric_v3.png", "puzzle_cryptogram_artdeco_v3.png"), "midnight-gold", "photo"),
+    "Mixed Brain Games": (("puzzle_scramble_gamenight_v2.png", "sudoku_logic_luxe_v4.png", "puzzle_cryptogram_artdeco_v3.png"), "midnight-gold", "photo"),
 }
 # Theme-aware artwork keeps a space book from receiving a generic game-night
 # cover and lets the one-screen studio make a sound automatic choice.
@@ -47,6 +53,39 @@ THEME_ART = {
     "Garden & Growing": (("gardening.png", "gardening_greenhouse_v2.png", "gardening_vegetables_v3.png"), "gardening", "photo"),
     "Travel & Adventure": (("travel_history.png", "travel_skyline_v3.png", "travel_suitcase_v2.png"), "retro-travel-and-landmarks", "photo"),
     "General Knowledge & Curiosity": (("puzzle_scramble_trivia_v1.png", "puzzle_scramble_gamenight_v2.png", "puzzle_scramble_retroquiz_v3.png"), "tropical-pop", "photo"),
+    "Pets & Animal Life": (("pets.png", "pets_cat_v3.png", "pets_puppy_v2.png"), "animals", "photo"),
+    "Holidays & Seasons": (("winter_holidays.png", "winter_holidays.png"), "holly-jolly", "photo"),
+    "History & Heritage": (("american_history_heritage_v2.png", "american_history_museum_v3.png", "american_history_museum_v4.png"), "patriotic", "photo"),
+    "Food & Home": (("food_kitchen.png", "food_baking_v2.png", "food_produce_v3.png"), "food", "photo"),
+    "School & Vocabulary": (("school_elementary_learning_v1.png", "school_middle_learning_v1.png", "school_high_learning_v1.png"), "scholarly-blue", "photo"),
+    "Cars & Adventure": (("road_trip_vehicles.png", "vehicles_camping_v2.png", "vehicles_vintage_v3.png"), "retro-travel-and-landmarks", "photo"),
+    "Nature & Outdoors": (("national_parks_outdoors.png", "national_parks_forest_v3.png", "national_parks_alpine_v2.png"), "forest-cabin", "photo"),
+    "Bible & Faith": (("bible_faith_sunrise_v2.png", "bible_chapel_v3.png", "bible_garden_v4.png"), "bible", "photo"),
+}
+# A publisher can choose a particular direction, but a completely automatic
+# cover still rotates through layouts using the book seed.  That keeps a series
+# visually cohesive without making every new book look like the same template.
+COVER_STYLE_OPTIONS = {
+    "Automatic matching": None,
+    "Photo spotlight": "photo",
+    "Playful gallery": "gallery",
+    "Color blocks": "colorblock",
+    "Ticket badge": "ticket",
+    "Soft halo": "halo",
+    "Retro print": "retro",
+    "Sunburst": "sunburst",
+    "Graphic stripes": "stripe",
+    "Mixed edge collage": "mixed-edge",
+    "Mixed editorial": "mixed-editorial",
+    "Mixed premium logic": "mixed-logic",
+}
+AUTO_COVER_STYLES = {
+    "Sudoku": ("photo",),
+    "Cryptogram": ("photo", "retro", "gallery"),
+    "Word Scramble + Trivia": ("photo", "playful", "sunburst", "ticket"),
+    # Color blocks left too much empty space on the premium mixed-games
+    # cover. Keep automatic choices visual and puzzle-focused instead.
+    "Mixed Brain Games": ("mixed-edge", "mixed-editorial", "mixed-logic", "photo"),
 }
 DEFAULTS = {
     "Sudoku": ("Large Print Sudoku", "100 Number, Letter & Shape Logic Puzzles with Full Solutions", 100, "Mixed"),
@@ -55,7 +94,40 @@ DEFAULTS = {
     "Mixed Brain Games": ("The Everyday Brain Games Collection", "60 Sudoku, Cryptograms, and Word Scramble Challenges", 60, "Mixed"),
 }
 
-AVAILABLE_THEMES = ("General Starter", "General Knowledge & Curiosity", "Space & Astronomy", "Garden & Growing", "Travel & Adventure")
+AVAILABLE_THEMES = ("General Starter", "General Knowledge & Curiosity", "Space & Astronomy", "Garden & Growing", "Travel & Adventure", "Pets & Animal Life", "Holidays & Seasons", "History & Heritage", "Food & Home", "School & Vocabulary", "Cars & Adventure", "Nature & Outdoors", "Bible & Faith")
+
+# One shared map keeps Cryptograms, Scramble + Trivia, automatic artwork, and
+# the Capacity page attached to the same real master-library groups.
+THEME_TOPIC_MAP = {
+    "Space & Astronomy": ("Space & Astronomy",),
+    "Garden & Growing": ("Gardening", "Gardening & Garden Life", "Homesteading", "Herbs Fruits and Vegetables"),
+    "Travel & Adventure": ("Travel & World Discovery", "Travel Road Trips and Getaways", "Outdoor Adventure", "National Parks"),
+    "Pets & Animal Life": ("Cats & Pets", "Dogs & Pets", "Pets and Animal Care", "Birdwatching & Wildlife"),
+    "Holidays & Seasons": ("Christmas", "Christmas and Winter", "Halloween", "Halloween Autumn and Harvest", "Holiday and Seasonal Life", "Holidays", "Easter and Spring"),
+    "History & Heritage": ("American History", "American Heritage", "World War II History"),
+    "Food & Home": ("Baking and Food", "Baking & Food", "Garden to Table", "Home and Household"),
+    "School & Vocabulary": ("Grade School Vocabulary", "Middle School Vocabulary", "High School Vocabulary", "Grade 5 Vocabulary", "Grade 6 Vocabulary", "Grade 7 Vocabulary", "Grade 8 Vocabulary", "Grade 9 Vocabulary", "Grade 10 Vocabulary", "Grade 11 Vocabulary", "Grade 12 Vocabulary"),
+    "Cars & Adventure": ("Vehicles & Automotive", "Outdoor Adventure", "Travel Road Trips and Getaways"),
+    "Nature & Outdoors": ("Nature", "Forest Wildlife and Outdoors", "National Parks", "Ocean Life", "Outdoor Adventure"),
+    "Bible & Faith": ("Bible and Faith", "Faith & Encouragement", "Faith Inspiration and Kindness"),
+}
+
+# Prefer the Master Library's own broad, curated packs for production.  They
+# are deliberately made of related subtopics (not a blind "everything"
+# bucket), so selecting a family unlocks every approved applicable word.
+PRODUCTION_FAMILY_PACKS = {
+    "Space & Astronomy": ("Planets & Solar System", "Space Missions, Rockets & Astronauts", "Stargazing, Telescopes & Night Sky"),
+    "Garden & Growing": ("Gardening, Herbs & Homestead Living",),
+    "Travel & Adventure": ("Travel, Road Trips & Weekend Getaways",),
+    "Pets & Animal Life": ("Pets, Backyard Animals & Care",),
+    "Holidays & Seasons": ("Holidays & Seasonal Fun",),
+    "History & Heritage": ("American Heritage", "Presidents, History & Americana"),
+    "Food & Home": ("Food, Baking & Kitchen", "Home, Cozy Living & Self Care"),
+    "School & Vocabulary": ("Vocabulary Ladder: Grades 5–12",),
+    "Cars & Adventure": ("Vehicles, Cars & Trucks", "Family Road Trips & Travel", "RV, Camping & Off-Road"),
+    "Nature & Outdoors": ("National Parks, Trails & Wild Places", "Forests, Wildlife & Outdoor Escape", "Coastal, Lake & River Life"),
+    "Bible & Faith": ("Bible, Faith & Encouragement — Complete",),
+}
 
 CRYPTOS = [
  "A QUIET MIND CAN NOTICE SMALL DETAILS", "PRACTICE MAKES PATTERNS EASIER TO SEE",
@@ -292,24 +364,25 @@ def production_proof_gate(folder: Path, kind: str, title_text: str, subtitle: st
     """Final automatic guard: package, promises, and physical files agree."""
     checks: list[tuple[bool, str]] = []
     required=("interior.pdf","front_cover.png","kdp_full_wrap.pdf","kdp_full_wrap_preview.png","KDP_LISTING_KIT.txt","PUBLISHER_PREFLIGHT.txt")
-    checks += [((folder/name).is_file(), f"Package contains {name}.") for name in required]
+    checks += [(package_file(folder, name).is_file(), f"Package contains {name}.") for name in required]
     try:
         from pypdf import PdfReader
-        actual=len(PdfReader(str(folder/"interior.pdf")).pages)
+        actual=len(PdfReader(str(package_file(folder, "interior.pdf"))).pages)
         checks.append((actual == pages and actual >= 24 and actual % 2 == 0, f"Interior has {actual} pages and meets the even 24-page minimum."))
     except Exception as exc: checks.append((False, f"Could not inspect interior PDF: {exc}"))
-    kit=(folder/"KDP_LISTING_KIT.txt").read_text(encoding="utf-8") if (folder/"KDP_LISTING_KIT.txt").is_file() else ""
+    kit_path=package_file(folder, "KDP_LISTING_KIT.txt")
+    kit=kit_path.read_text(encoding="utf-8") if kit_path.is_file() else ""
     checks.append((title_text in kit and subtitle in kit and str(count) in kit, "Listing matches title, subtitle, and puzzle count."))
     checks.append(("Trim size: 8.5 x 11" in kit, "Listing records the exact trim size."))
     try:
         from PIL import Image
-        with Image.open(folder / "front_cover.png") as image:
+        with Image.open(package_file(folder, "front_cover.png")) as image:
             width, height = image.size
         checks.append((width >= 2550 and height >= 3300, f"Front cover is print-sized ({width} x {height} pixels)."))
     except Exception as exc:
         checks.append((False, f"Could not inspect front-cover size: {exc}"))
     if kind in ("Cryptogram", "Word Scramble + Trivia", "Mixed Brain Games"):
-        library_report = (folder / "CONTENT_LIBRARY_VERIFICATION.txt")
+        library_report = package_file(folder, "CONTENT_LIBRARY_VERIFICATION.txt")
         library_text = library_report.read_text(encoding="utf-8") if library_report.is_file() else ""
         checks.append(("Library result: PASS" in library_text, "Checked content library passed its duplicate and capacity review."))
     if kind == "Sudoku": checks.append(("letter, and shape" in kit.lower(), "Sudoku listing promises the actual number, letter, and shape games."))
@@ -333,18 +406,14 @@ def content_packs() -> dict:
 
 def master_topic_words(theme: str) -> list[str]:
     """Read only the reviewed (proven) vocabulary already approved for books."""
-    topic_map={
-        "Space & Astronomy": ("Space & Astronomy",),
-        "Garden & Growing": ("Gardening",),
-        # Travel books naturally include destinations, road trips, outdoor
-        # activities, and national parks.  These are all approved travel
-        # groups in the Master Word Bank, not unrelated filler vocabulary.
-        "Travel & Adventure": ("Travel & World Discovery", "Travel Road Trips and Getaways", "Outdoor Adventure", "National Parks"),
-    }
     try:
         data=json.loads(MASTER_WORD_BANK.read_text(encoding="utf-8"))
         words=[]
-        for topic in topic_map.get(theme, ()):
+        packs=data.get("topic_packs", {}) if isinstance(data.get("topic_packs"), dict) else {}
+        source_topics=[]
+        for pack in PRODUCTION_FAMILY_PACKS.get(theme, ()): source_topics.extend(packs.get(pack, []))
+        source_topics = source_topics or list(THEME_TOPIC_MAP.get(theme, ()))
+        for topic in source_topics:
             words.extend(data.get("topics", {}).get(topic, []))
         return list(dict.fromkeys(str(word).strip().upper() for word in words if str(word).strip().isalpha() and 4 <= len(str(word).strip()) <= 18))
     except (OSError, json.JSONDecodeError): return []
@@ -352,20 +421,43 @@ def master_topic_words(theme: str) -> list[str]:
 def themed_cryptograms(theme: str) -> list[str]:
     """Create original, on-topic prompts from approved master-library terms."""
     base=list(content_packs().get(theme, {}).get("cryptograms", []))
-    if theme not in ("Space & Astronomy", "Garden & Growing", "Travel & Adventure"):
+    if theme not in THEME_TOPIC_MAP:
         return base
     topic_word=master_topic_words(theme)
     if theme == "Space & Astronomy":
         patterns=("THE STORY OF {word} BELONGS IN THE NIGHT SKY", "CURIOUS MINDS KEEP LOOKING TOWARD {word}", "A SPACE EXPLORER CAN LEARN FROM {word}")
     elif theme == "Garden & Growing":
         patterns=("A HEALTHY GARDEN MAKES ROOM FOR {word}", "PATIENT GROWERS LEARN ABOUT {word}", "EVERY SEASON CAN TEACH US ABOUT {word}")
-    else:
+    elif theme == "Travel & Adventure":
         patterns=("A GOOD JOURNEY CAN LEAD US TOWARD {word}", "CURIOUS TRAVELERS MAKE TIME FOR {word}", "AN ADVENTURE OFTEN STARTS WITH {word}")
+    else:
+        label=re.sub(r"[^A-Z ]+", " ", theme.upper()); label=" ".join(label.split())
+        patterns=(f"A GOOD {label} PUZZLE CAN BEGIN WITH {{word}}", f"CURIOUS MINDS NOTICE {{word}} IN {label}", f"EVERY {label} STORY HAS ROOM FOR {{word}}")
     used={str(item).upper() for item in base}; prompts=base[:]
     for index, word in enumerate(topic_word):
         prompt=patterns[index % len(patterns)].format(word=word)
         if prompt not in used:
             prompts.append(prompt); used.add(prompt)
+        if len(prompts) >= TARGET_VERIFIED_LIBRARY: break
+    return prompts
+
+def themed_trivia(theme: str) -> list[tuple[str, str, str]]:
+    """Extend existing reviewed topic prompts from approved local vocabulary.
+
+    The original prompts remain first.  Extra entries use the exact same clear
+    challenge wording already used by the saved library, and are only built
+    from the topic's linked master-bank terms.
+    """
+    base=list(content_packs().get(theme, {}).get("trivia", []))
+    if theme not in THEME_TOPIC_MAP:
+        return base
+    used={str(item[0]).strip().upper() for item in base if isinstance(item,(list,tuple)) and item}
+    prompts=base[:]
+    for index, raw in enumerate(master_topic_words(theme), len(prompts)+1):
+        word=str(raw).strip().upper()
+        if word in used or not word.isalpha() or len(word) < 4: continue
+        prompts.append((word, f"{theme} challenge {index}: What topic-related word is hidden in this scramble?", word.title()))
+        used.add(word)
         if len(prompts) >= TARGET_VERIFIED_LIBRARY: break
     return prompts
 
@@ -375,8 +467,8 @@ def pack_capacity(kind: str, theme: str) -> int:
     if theme in ("General Starter", "General Knowledge & Curiosity"):
         return len(CRYPTOS) if kind == "Cryptogram" else len(TRIVIA)
     if kind == "Cryptogram": return len(themed_cryptograms(theme))
-    pack=content_packs().get(theme, {}); key="cryptograms" if kind == "Cryptogram" else "trivia"
-    return len(pack.get(key, [])) if isinstance(pack, dict) else 0
+    if kind == "Word Scramble + Trivia": return len(themed_trivia(theme))
+    pack=content_packs().get(theme, {}); return len(pack.get("cryptograms", [])) if isinstance(pack, dict) else 0
 
 def buffered_capacity_needed(count: int) -> int:
     return max(MIN_VERIFIED_LIBRARY, math.ceil(count * CONTENT_BUFFER))
@@ -387,7 +479,7 @@ def content_check(kind: str, theme: str) -> tuple[bool, str, int]:
         crypto_ok, crypto_detail, crypto_capacity=content_check("Cryptogram", "General Starter")
         trivia_ok, trivia_detail, trivia_capacity=content_check("Word Scramble + Trivia", "General Starter")
         return crypto_ok and trivia_ok, f"Mixed library: {crypto_detail}; {trivia_detail}", min(crypto_capacity, trivia_capacity)
-    source = CRYPTOS if theme in ("General Starter", "General Knowledge & Curiosity") and kind == "Cryptogram" else TRIVIA if theme in ("General Starter", "General Knowledge & Curiosity") else themed_cryptograms(theme) if kind == "Cryptogram" else content_packs().get(theme, {}).get("trivia", [])
+    source = CRYPTOS if theme in ("General Starter", "General Knowledge & Curiosity") and kind == "Cryptogram" else TRIVIA if theme in ("General Starter", "General Knowledge & Curiosity") else themed_cryptograms(theme) if kind == "Cryptogram" else themed_trivia(theme)
     if kind == "Cryptogram":
         cleaned=[str(item).strip().upper() for item in source]
         valid=[item for item in cleaned if len(item) >= 18 and re.fullmatch(r"[A-Z ]+", item)]
@@ -404,9 +496,47 @@ def content_check(kind: str, theme: str) -> tuple[bool, str, int]:
     ok=unique == len(source) and questions == len(source)
     return ok, f"{unique} unique answer words and {questions} unique checked questions", min(unique, questions)
 
-def cover_spec(kind: str, theme: str, seed: int):
-    choices, palette, style = THEME_ART.get(theme, ART[kind])
-    return choices[seed % len(choices)], palette, style
+def cover_spec(kind: str, theme: str, seed: int, cover_style: str = "Automatic matching", cover_photo: str = "Automatic matching"):
+    """Choose an approved, topic-matched background and compatible layout.
+
+    The old filename lists remain available for older saved UI choices, but
+    automatic production selection now comes solely from the provenance gate.
+    """
+    choices, palette, _default_style = THEME_ART.get(theme, ART[kind])
+    requested = str(cover_photo or "")
+    decision = select_cover_asset(CoverRequest(
+        route=f"Puzzle Studio — {kind}", title=theme, puzzle_type=kind,
+        topic=theme, style=str(COVER_STYLE_OPTIONS.get(cover_style) or ""),
+        palette=palette, preferred_asset="" if requested in {"", "Automatic matching"} else requested,
+        selection_seed=seed,
+    ))
+    selected = decision.asset
+    # An empty path is a deliberate "background needed" signal.  The package
+    # creation gate turns it into a plain-English next action rather than
+    # falling back to a generic unrelated asset.
+    art = str(selected.get("path")) if selected else ""
+    if selected and selected.get("palette"):
+        palette = str(selected["palette"])
+    selected_style = decision.style or COVER_STYLE_OPTIONS.get(cover_style)
+    # When automatic routing found approved artwork, production must actually
+    # render that artwork.  Template-only layouts are still available as an
+    # explicit advanced choice, but can no longer silently replace the image.
+    style = selected_style or ("photo" if selected else AUTO_COVER_STYLES[kind][seed % len(AUTO_COVER_STYLES[kind])])
+    return art, palette, style
+
+
+def cover_art_path(value: str | Path | None) -> Path | None:
+    """Resolve the registry's project-relative path exactly once.
+
+    Registry rows store paths relative to the application root.  Keeping the
+    conversion here prevents preview and production routes from independently
+    guessing whether a value is a basename, a library-relative path, or an
+    absolute path.
+    """
+    if not value:
+        return None
+    path = Path(str(value))
+    return path if path.is_absolute() else APP / path
 
 def font(name: str) -> str:
     return name if name in pdfmetrics.getRegisteredFontNames() else {"BookSans":"Helvetica", "BookBold":"Helvetica-Bold", "BookMono":"Courier-Bold"}[name]
@@ -427,9 +557,10 @@ def title(c, value, y, size=24):
 def footer(c, n):
     c.setFont(font("BookSans"), 9); c.setFillColorRGB(.35,.35,.35); c.drawCentredString(PAGE_W/2, 32, str(n))
 
-def front_pages(c, kind, title_text, subtitle, author):
+def front_pages(c, kind, title_text, subtitle, author, style_name="Studio Classic"):
+    accent = interior_preset(style_name)["accent"]
     title(c, title_text.upper(), PAGE_H-300, 30)
-    c.setFont(font("BookSans"), 14); c.setFillColorRGB(.2,.2,.2)
+    c.setFont(font("BookSans"), 14); c.setFillColorRGB(*accent)
     for i, line in enumerate(wrap(c, subtitle, PAGE_W-130, font("BookSans"), 14)): c.drawCentredString(PAGE_W/2, PAGE_H-345-i*22, line)
     c.drawCentredString(PAGE_W/2, 112, author); c.showPage()
     title(c, "HOW TO PLAY", PAGE_H-120, 23); c.setFont(font("BookSans"), 13)
@@ -531,7 +662,7 @@ def scramble(word,rng):
 
 def scramble_book(c,count,seed,theme="General Starter",page_start=3):
     rng=random.Random(seed); page=page_start; items=[]
-    source=TRIVIA if theme in ("General Starter", "General Knowledge & Curiosity") else content_packs().get(theme, {}).get("trivia", [])
+    source=TRIVIA if theme in ("General Starter", "General Knowledge & Curiosity") else themed_trivia(theme)
     if count > len(source): raise ValueError(f"The {theme} Scramble + Trivia pack has {len(source)} unique games; choose no more than that many.")
     source=random.Random(seed + 71).sample(source, count)
     for start in range(0,count,2):
@@ -551,9 +682,56 @@ def scramble_book(c,count,seed,theme="General Starter",page_start=3):
         footer(c,page); c.showPage(); page+=1
     return page
 
-def make_interior(kind,title_text,subtitle,author,count,difficulty,seed,target,theme="General Starter"):
+
+def mixed_section_themes(theme: str) -> tuple[str, str]:
+    """Keep both word-based sections aligned with the book's selected theme."""
+    selected = str(theme or "General Starter").strip() or "General Starter"
+    return selected, selected
+
+def bonus_pages(c, selected, theme, start_page, style_name):
+    """Append actual optional reader-value pages before final page padding."""
+    page = start_page; accent = interior_preset(style_name)["accent"]
+    for heading in bonus_page_titles(selected, theme):
+        title(c, heading, PAGE_H-125, 25); c.setStrokeColorRGB(*accent); c.setLineWidth(1.5)
+        if heading == "COMPLETION CERTIFICATE":
+            c.roundRect(90, 210, PAGE_W-180, 330, 12, stroke=1, fill=0)
+            c.setFont(font("BookSans"), 14); c.setFillColorRGB(.2,.2,.2); c.drawCentredString(PAGE_W/2, 405, "This certifies that")
+            c.line(145, 358, PAGE_W-145, 358); c.drawCentredString(PAGE_W/2, 315, "completed this puzzle-book challenge.")
+        elif heading == "MY PUZZLE PROGRESS":
+            c.setFont(font("BookSans"), 11); c.setFillColorRGB(.2,.2,.2)
+            for row in range(18):
+                y=PAGE_H-160-row*28; c.line(80,y,PAGE_W-80,y); c.drawString(84,y+7,f"{row+1:02}")
+        elif heading.startswith("ABOUT "):
+            c.setFont(font("BookSans"), 13); c.setFillColorRGB(.2,.2,.2)
+            c.drawCentredString(PAGE_W/2, PAGE_H-185, "Write down three things you discovered while playing.")
+            for row in range(8): c.line(95, PAGE_H-245-row*42, PAGE_W-95, PAGE_H-245-row*42)
+        elif heading == "BONUS CHALLENGE":
+            c.setFont(font("BookSans"), 13); c.setFillColorRGB(.2,.2,.2); c.drawCentredString(PAGE_W/2, PAGE_H-185, "Choose your favorite puzzle and solve it again without checking the answers.")
+            for row in range(10): c.line(85, PAGE_H-240-row*32, PAGE_W-85, PAGE_H-240-row*32)
+        else:
+            c.setFont(font("BookSans"), 13); c.setFillColorRGB(.2,.2,.2); c.drawCentredString(PAGE_W/2, PAGE_H-185, "More screen-free puzzle adventures are waiting for you.")
+            c.setFont(font("BookBold"), 18); c.drawCentredString(PAGE_W/2, PAGE_H-240, "SLADE PUZZLE CO")
+        footer(c,page); c.showPage(); page += 1
+    return page
+
+
+def puzzle_notes_page(c, page, heading="PUZZLE NOTES"):
+    """Create a useful, non-empty page when print pagination needs padding."""
+    title(c, heading, PAGE_H-105, 25)
+    c.setFont(font("BookSans"), 11)
+    c.setFillColorRGB(.3, .3, .3)
+    c.drawCentredString(PAGE_W/2, PAGE_H-135, "Keep track of clues, guesses, favorite facts, or your best solving times.")
+    c.setStrokeColorRGB(.65, .65, .65)
+    c.setLineWidth(.6)
+    for row in range(13):
+        y = PAGE_H-185-row*38
+        c.line(78, y, PAGE_W-78, y)
+    footer(c, page)
+    c.showPage()
+
+def make_interior(kind,title_text,subtitle,author,count,difficulty,seed,target,theme="General Starter", interior_style="Studio Classic", bonuses=None):
     fonts(); target.parent.mkdir(parents=True,exist_ok=True); c=canvas.Canvas(str(target),pagesize=letter); c.setTitle(title_text); c.setAuthor(author)
-    front_pages(c,kind,title_text,subtitle,author)
+    front_pages(c,kind,title_text,subtitle,author,interior_style)
     if kind=="Sudoku": sudoku_book(c,count,difficulty,seed)
     elif kind=="Cryptogram": crypto_book(c,count,seed,theme)
     elif kind=="Word Scramble + Trivia": scramble_book(c,count,seed,theme)
@@ -565,20 +743,21 @@ def make_interior(kind,title_text,subtitle,author,count,difficulty,seed,target,t
         crypto_count=count//3 + (1 if count % 3 > 1 else 0)
         scramble_count=count-sudoku_count-crypto_count
         page=3
+        cryptogram_theme, scramble_theme = mixed_section_themes(theme)
         section_divider(c,"Sudoku",theme,page); page+=1
         page=sudoku_book(c,sudoku_count,difficulty,seed,page)
         section_divider(c,"Cryptograms",theme,page); page+=1
-        page=crypto_book(c,crypto_count,seed+1009,"General Starter",page)
+        page=crypto_book(c,crypto_count,seed+1009,cryptogram_theme,page)
         section_divider(c,"Word Scramble + Trivia",theme,page); page+=1
-        scramble_book(c,scramble_count,seed+2017,"General Starter",page)
+        scramble_book(c,scramble_count,seed+2017,scramble_theme,page)
     pages=c.getPageNumber()-1
-    # KDP paperback interiors must have at least 24 pages.  A smaller puzzle
-    # count (especially two Scramble + Trivia games per page) is padded with
-    # deliberately blank notes pages rather than producing an upload failure.
+    pages=bonus_pages(c, bonuses, theme, pages + 1, interior_style) - 1
+    # KDP paperback interiors must have at least 24 pages. Smaller books are
+    # completed with useful branded notes pages instead of empty filler pages.
     while pages < 24:
-        c.showPage(); pages += 1
+        puzzle_notes_page(c, pages + 1); pages += 1
     if pages % 2:
-        c.showPage()
+        puzzle_notes_page(c, pages + 1, "FINAL PUZZLE NOTES")
     c.save()
 
 def slug(text): return re.sub(r"[^a-z0-9]+","_",text.lower()).strip("_")[:60] or "puzzle_book"
@@ -610,25 +789,90 @@ def listing(kind,title_text,subtitle,author,count,difficulty,pages,theme="Genera
     theme_line = f"Content theme: {theme}\n" if theme != "General Starter" else ""
     return f"KDP LISTING KIT — REVIEW BEFORE UPLOAD\n\nTitle: {title_text}\nSubtitle: {subtitle}\nAuthor: {author}\nBook type: {kind}\n{theme_line}{special}Trim size: 8.5 x 11 inches (US Letter)\nInterior: black and white, no bleed\nPuzzle count: {count}\nDifficulty: {difficulty}\nInterior pages: {pages}\n\nDESCRIPTION (KDP basic HTML)\n{description}\n\nKEYWORD PHRASES (use one per KDP box)\n" + "\n".join(f"{i+1}. {v}" for i,v in enumerate(keywords)) + "\n\nCATEGORY DIRECTION\nChoose the most accurate Games & Activities category available for this exact puzzle type. Do not select unrelated categories.\n\nAI CONTENT REMINDER\nIf you use AI-generated cover art, answer KDP's AI-content question accurately during upload.\n"
 
-def create_package(kind,title_text,subtitle,author,count,difficulty,seed,theme="General Starter"):
+def _record_package_failure(builder):
+    """Keep a recoverable plain-English checkpoint when a background build stops."""
+    def wrapped(kind, title_text, subtitle, author, count, difficulty, seed, theme="General Starter", cover_style="Automatic matching", cover_photo="Automatic matching", interior_style="", bonuses=None, content_plan_approval=None):
+        try:
+            return builder(kind, title_text, subtitle, author, count, difficulty, seed, theme, cover_style, cover_photo, interior_style, bonuses, content_plan_approval)
+        except Exception as exc:
+            from publishing.production_autopilot import ProductionAutopilot
+            book_id = hashlib.sha1(f"{kind}|{title_text}".encode("utf-8")).hexdigest()[:12]
+            ProductionAutopilot(APP, book_id).fail("package", str(exc), human_review=True)
+            raise
+    return wrapped
+
+
+@_record_package_failure
+def create_package(kind,title_text,subtitle,author,count,difficulty,seed,theme="General Starter",cover_style="Automatic matching",cover_photo="Automatic matching",interior_style="",bonuses=None,content_plan_approval=None):
     author=" ".join(str(author or "").split())
     if not author or author.casefold() == "slade puzzles" or "puzzles" in author.casefold():
         raise ValueError("Use a real contributor or pen name in the Author box (for example, Jordan M. Slade). Keep Slade Puzzles as the brand, not the KDP contributor.")
-    stamp=datetime.now().strftime("%Y%m%d_%H%M%S"); folder=OUT/f"{slug(title_text)}_{stamp}"; folder.mkdir(parents=True)
-    interior=folder/"interior.pdf"; make_interior(kind,title_text,subtitle,author,count,difficulty,seed,interior,theme)
+    # One shared checkpoint record serves Sudoku, Cryptogram, Scramble +
+    # Trivia, and Mixed Brain Games. It records the same facts the package
+    # will use; it does not replace any established generator or proof gate.
+    from publishing.production_autopilot import ProductionAutopilot, canonical_facts
+    source = {"title": title_text, "subtitle": subtitle, "author": author, "puzzle_type": kind, "detected_topic": theme, "puzzle_count": count, "puzzle_seed": seed, "trim_size": "8.5x11", "difficulty": difficulty, "files": {}}
+    book_id = hashlib.sha1(f"{kind}|{title_text}".encode("utf-8")).hexdigest()[:12]
+    facts = canonical_facts({"book_id": book_id, "source_key": f"generated:{kind}:{theme}", "package_path": "", "metadata": source}, source)
+    autopilot = ProductionAutopilot(APP, book_id); autopilot.begin(facts)
+    if kind in ("Cryptogram", "Word Scramble + Trivia", "Mixed Brain Games"):
+        checked, detail, capacity = content_check(kind, theme); required = buffered_capacity_needed(count)
+        if not checked or capacity < required:
+            reason = f"Content Library Verification needs {required} checked entries; {capacity} are currently available. {detail}"
+            autopilot.fail("validate", reason, human_review=True)
+            raise ValueError(reason)
+    autopilot.complete("validate", autopilot.stage_fingerprint(facts, "validate"), "Contributor, content capacity, and automatic-plan checks passed before generation.")
+    autopilot.attach_orchestrator({**facts, "book_plan_id": f"automatic-{kind.casefold().replace(' ', '-')}", "source_revision": facts.get("fingerprint", ""), "cover_style": cover_style, "palette": THEME_ART.get(theme, ART[kind])[1], "content_plan_approval": dict(content_plan_approval or {})})
+    prior = autopilot.record().get("stages", {}).get("package", {})
+    prior_folder = Path(str(prior.get("artifact") or ""))
+    from publishing.package_layout import release_contract
+    if prior.get("status") == "complete" and prior.get("fingerprint") == autopilot.stage_fingerprint(facts, "package") and prior.get("artifact") and prior_folder.is_dir() and release_contract(prior_folder)["ready"]:
+        return prior_folder
+    from publishing.package_layout import package_root_for_artifact
+    generated = autopilot.current_artifact("generate", autopilot.stage_fingerprint(facts, "generate"))
+    folder = package_root_for_artifact(generated) if generated else None
+    if not folder or not folder.is_dir():
+        stamp=datetime.now().strftime("%Y%m%d_%H%M%S"); folder=OUT/f"{slug(title_text)}_{stamp}"; folder.mkdir(parents=True)
+    initialize_package_layout(folder)
+    interior_style = interior_style if interior_style in INTERIOR_PRESETS else default_preset(kind, count == 100)
+    bonuses = [value for value in (bonuses or []) if value in BONUS_PAGE_OPTIONS]
+    interior=package_file(folder, "interior.pdf", for_write=True)
+    if not (generated and interior.is_file()):
+        make_interior(kind,title_text,subtitle,author,count,difficulty,seed,interior,theme,interior_style,bonuses)
+        autopilot.complete("generate", autopilot.stage_fingerprint(facts, "generate"), "Interior and answer pages were generated from the selected puzzle type and seed.", artifact=str(interior))
     try:
         import pypdf
         pages=len(pypdf.PdfReader(str(interior)).pages)
     except Exception: pages=24
-    art_name, palette, style = cover_spec(kind, theme, seed)
+    art_name, palette, style = cover_spec(kind, theme, seed, cover_style, cover_photo)
     # A fresh puzzle seed also gives each book a stable, matching art choice.
-    art=APP/"cover_assets"/"background_photos"/art_name
+    art=cover_art_path(art_name)
+    if not art:
+        raise ValueError("COVER BACKGROUND NEEDED — no approved SladePuzzleCo background matches this topic yet. Generate a topic-specific background before creating the package.")
     if not art.is_file():
         raise ValueError(f"The selected automatic cover image is missing: {art.name}")
-    front=folder/"front_cover.png"; wrap=folder/"kdp_full_wrap.pdf"; preview=folder/"kdp_full_wrap_preview.png"
+    background_index = BackgroundAssetIndex()
+    approved_art = background_index.ledger_details(art)
+    if not approved_art or not background_index.production_selectable(approved_art):
+        raise ValueError("The selected automatic cover image is not currently approved for production. Open the approved background library and choose or review a matching replacement.")
+    routing_decision = select_cover_asset(CoverRequest(
+        route=f"Puzzle Studio — {kind}", title=title_text, subtitle=subtitle,
+        author=author, puzzle_type=kind, topic=theme,
+        edition="Signature Edition" if count == 100 else "Standard",
+        style=style, palette=palette, preferred_asset=str(art), selection_seed=seed,
+    ))
+    front=package_file(folder, "front_cover.png", for_write=True); wrap=package_file(folder, "kdp_full_wrap.pdf", for_write=True); preview=package_file(folder, "kdp_full_wrap_preview.png", for_write=True)
     badge = "NUMBER • LETTER • SHAPE GAMES" if kind == "Sudoku" else "SUDOKU • CODES • WORD GAMES" if kind == "Mixed Brain Games" else f"INCLUDES {count} PUZZLES"
-    call=[sys.executable,str(APP/"cover.py"),"--title",title_text,"--subtitle",subtitle,"--author",author,"--badge",badge,"--difficulty",difficulty,"--format-label",kind.upper(),"--palette",palette,"--style",style,"--art",str(art),"--out",str(front)]
-    subprocess.run(call,check=True,cwd=APP)
+    call=[sys.executable,str(APP/"cover.py"),"--title",title_text,"--subtitle",subtitle,"--author",author,"--badge",badge,"--puzzle-count",str(count),"--difficulty",difficulty,"--format-label",kind.upper(),"--puzzle-type",kind,"--palette",palette,"--style",style,"--art",str(art),"--out",str(front)]
+    cover_artifact = autopilot.current_artifact("cover", autopilot.stage_fingerprint(facts, "cover"))
+    if not (cover_artifact and front.is_file()):
+        subprocess.run(call,check=True,cwd=APP)
+        autopilot.complete("cover", autopilot.stage_fingerprint(facts, "cover"), "Front cover was rendered from verified facts and approved matching art.", artifact=str(front))
+    cover_score, cover_label, cover_notes = cover_quality_report(title_text, subtitle, badge, count, kind.upper(), style, art)
+    package_file(folder, "COVER_QUALITY_REPORT.txt", for_write=True).write_text(
+        "COVER QUALITY REPORT\n" + "=" * 48 + f"\nScore: {cover_score}/100 — {cover_label}\n\n" +
+        "\n".join(f"• {note}" for note in cover_notes) + "\n", encoding="utf-8"
+    )
     back_copy = {
         "Sudoku": ("A QUIET PUZZLE RITUAL", f"Settle in with {count} number, letter, and shape Sudoku puzzles. Every grid has one verified solution, clear large-format pages, and a complete answer section for relaxing, satisfying solving."),
         "Cryptogram": ("A COSMIC CODE BREAK", f"Travel through {count} space and astronomy cryptograms filled with planets, constellations, observatories, and the wonder of the night sky. Complete solutions are included at the back."),
@@ -638,15 +882,17 @@ def create_package(kind,title_text,subtitle,author,count,difficulty,seed,theme="
     subprocess.run([sys.executable,str(APP/"wrap_cover.py"),"--front",str(front),"--pages",str(pages),"--palette",palette,"--title",title_text,"--author",author,"--back",back_copy[1],"--back-heading",back_copy[0],"--out",str(wrap),"--preview-out",str(preview)],check=True,cwd=APP)
     from preflight import preflight, report_text
     passed, findings = preflight(folder)
-    (folder/"PUBLISHER_PREFLIGHT.txt").write_text(report_text(folder), encoding="utf-8")
+    package_file(folder, "PUBLISHER_PREFLIGHT.txt", for_write=True).write_text(report_text(folder), encoding="utf-8")
     if not passed:
         raise ValueError("KDP preflight stopped this package: " + " | ".join(findings))
-    (folder/"KDP_LISTING_KIT.txt").write_text(listing(kind,title_text,subtitle,author,count,difficulty,pages,theme),encoding="utf-8")
+    autopilot.complete("preflight", autopilot.stage_fingerprint(facts, "preflight"), "Wrap and print preflight passed using the final interior page count.", artifact=str(wrap))
+    package_file(folder, "KDP_LISTING_KIT.txt", for_write=True).write_text(listing(kind,title_text,subtitle,author,count,difficulty,pages,theme),encoding="utf-8")
+    autopilot.complete("listing", autopilot.stage_fingerprint(facts, "listing"), "Listing kit was generated from verified book facts.")
     import pypdf
     pdf_author=" ".join(str((pypdf.PdfReader(str(interior)).metadata.author or "")).split())
-    kit=(folder/"KDP_LISTING_KIT.txt").read_text(encoding="utf-8")
+    kit=package_file(folder, "KDP_LISTING_KIT.txt").read_text(encoding="utf-8")
     metadata_ok = pdf_author == author and title_text in kit and author in kit
-    (folder/"AUTHOR_CONSISTENCY_REPORT.txt").write_text(
+    package_file(folder, "AUTHOR_CONSISTENCY_REPORT.txt", for_write=True).write_text(
         "AUTHOR & METADATA CONSISTENCY\n" + "="*48 + f"\nExpected contributor: {author}\nInterior PDF contributor: {pdf_author or 'NOT FOUND'}\nListing kit contains title: {'YES' if title_text in kit else 'NO'}\nListing kit contains contributor: {'YES' if author in kit else 'NO'}\n\nResult: {'PASS' if metadata_ok else 'BLOCK'}\n", encoding="utf-8")
     if not metadata_ok:
         raise ValueError("Author consistency check stopped this package. Open AUTHOR_CONSISTENCY_REPORT.txt for the exact mismatch.")
@@ -659,32 +905,62 @@ def create_package(kind,title_text,subtitle,author,count,difficulty,seed,theme="
                         f"Verified entries: {capacity}\nRequired for this book: {required}\n"
                         f"Checks: {detail}\n\n"
                         "Meaning: every entry was checked for usable format and duplicate answer/prompt collisions before package creation.\n")
-        (folder/"CONTENT_LIBRARY_VERIFICATION.txt").write_text(content_report, encoding="utf-8")
+        package_file(folder, "CONTENT_LIBRARY_VERIFICATION.txt", for_write=True).write_text(content_report, encoding="utf-8")
         if not checked or capacity < required:
-            raise ValueError("Content Library Verification stopped this package.")
-    (folder/"AUTOMATIC_BOOK_PLAN.txt").write_text(
+            raise ValueError(
+                "Content Library Verification stopped this package: "
+                f"{capacity} checked entries are available; this {count}-puzzle book needs {required}. "
+                "Open CONTENT_LIBRARY_VERIFICATION.txt to see the duplicate or format issue, then choose a smaller book or review more topic-specific content."
+            )
+    package_file(folder, "AUTOMATIC_BOOK_PLAN.txt", for_write=True).write_text(
         "AUTOMATIC BOOK PLAN\n\n"
         f"Puzzle type: {kind}\nContent theme: {theme}\nBook format: {'Signature Edition' if count == 100 else 'Standard'}\n"
         f"Puzzle count: {count}\nDifficulty: {difficulty}\nCover artwork: {art_name}\nCover palette: {palette}\nCover style: {style}\n"
+        f"Interior design: {interior_style}\nReader bonus pages: {', '.join(bonuses) or 'None'}\n"
         "\nThese choices were selected by the studio's checked defaults. Change them only if you have a clear reason to change the book direction.\n",
         encoding="utf-8")
     proof_ok, proof_text = production_proof_gate(folder, kind, title_text, subtitle, count, pages)
-    (folder/"PRODUCTION_PROOF_GATE.txt").write_text(proof_text, encoding="utf-8")
+    package_file(folder, "PRODUCTION_PROOF_GATE.txt", for_write=True).write_text(proof_text, encoding="utf-8")
     if not proof_ok:
         raise ValueError("Production Proof Gate stopped this package. Open PRODUCTION_PROOF_GATE.txt for the exact fixes.")
-    (folder/"KDP_COMPLIANCE_REPORT.txt").write_text("KDP PACKAGE REVIEW\n\nPASS — Interior is US Letter (8.5 x 11), has an even page count, includes readable type, and has a complete answer section.\nPASS — Cover uses a full wrap with 0.125 inch bleed generated from the same page count.\nREQUIRED BEFORE UPLOAD — Use KDP Print Previewer, confirm the current category choices, and disclose AI-generated cover art accurately if applicable.\n",encoding="utf-8")
-    (folder/"PACKAGE_SOURCE_RECORD.json").write_text(json.dumps({"created": datetime.now().isoformat(timespec="seconds"), "puzzle_type": kind, "theme": theme, "title": title_text, "subtitle": subtitle, "author": author, "brand": "Slade Puzzles", "puzzle_count": count, "pages": pages, "palette": palette, "cover_style": style, "cover_art": art_name, "release_status": "Ready for KDP Print Previewer"}, indent=2)+"\n", encoding="utf-8")
-    (folder/"COVER_ART_RIGHTS_LEDGER.txt").write_text(f"COVER ART & RIGHTS LEDGER\n{'='*48}\nBrand / imprint: Slade Puzzles\nContributor shown in package: {author}\nAutomatic cover artwork: {art_name}\nSource record: local studio background-photo library. Confirm your rights to any replacement image or font before publishing.\n", encoding="utf-8")
-    (folder/"COVER_THUMBNAIL_REVIEW.txt").write_text("COVER THUMBNAIL REVIEW\n"+"="*48+"\nOpen front_cover.png and kdp_full_wrap_preview.png. Confirm the title and badge are clear at a small buyer-facing size.\n", encoding="utf-8")
-    (folder/"FINAL_KDP_UPLOAD_STEPS.txt").write_text(f"FINAL KDP UPLOAD STEPS\n{'='*48}\n1. Confirm the KDP contributor is exactly: {author}\n2. Upload interior.pdf and kdp_full_wrap.pdf.\n3. Copy the listing from KDP_LISTING_KIT.txt.\n4. Confirm rights, categories, price, territories, and any AI-content disclosure.\n5. Run KDP Print Previewer and correct every warning.\n", encoding="utf-8")
-    (folder/"FIX_THIS_FIRST.txt").write_text("FIX THIS FIRST\n"+"="*48+"\nPASS — Automated package checks passed. Your remaining required step is KDP Print Previewer.\n", encoding="utf-8")
-    (folder/"START_HERE.txt").write_text("UPLOAD THESE TWO PDF FILES TO KDP\n\nBook size: 8.5 x 11 inches (US Letter)\nInterior: black and white, no bleed\n\n1. interior.pdf — paperback manuscript\n2. kdp_full_wrap.pdf — paperback cover wrap\n\nThen copy the listing details from KDP_LISTING_KIT.txt and complete KDP Print Previewer before approving publication.\n",encoding="utf-8")
-    (folder/"PACKAGE_SCORECARD.txt").write_text(f"PACKAGE SCORECARD\n\nType: {kind}\nPuzzles: {count}\nDifficulty: {difficulty}\nPages: {pages}\nStatus: Ready for KDP Print Previewer review\n",encoding="utf-8")
+    from publishing.review import build_proof_contact_sheet
+    build_proof_contact_sheet(folder)
+    package_file(folder, "KDP_COMPLIANCE_REPORT.txt", for_write=True).write_text("KDP PACKAGE REVIEW\n\nPASS — Interior is US Letter (8.5 x 11), has an even page count, includes readable type, and has a complete answer section.\nPASS — Cover uses a full wrap with 0.125 inch bleed generated from the same page count.\nREQUIRED BEFORE UPLOAD — Use KDP Print Previewer, confirm the current category choices, and disclose AI-generated cover art accurately if applicable.\n",encoding="utf-8")
+    package_file(folder, "PACKAGE_SOURCE_RECORD.json", for_write=True).write_text(json.dumps({"created": datetime.now().isoformat(timespec="seconds"), "puzzle_type": kind, "cover_puzzle_type": kind, "cover_visual_topic": theme, "theme": theme, "title": title_text, "subtitle": subtitle, "author": author, "brand": "Slade Puzzles", "puzzle_count": count, "pages": pages, "difficulty": difficulty, "palette": palette, "cover_style": style, "cover_art": str(art), "cover_art_name": art_name, "cover_art_id": approved_art.get("asset_id", ""), "cover_art_sha256": approved_art.get("sha256", ""), "cover_art_approval_revision": approved_art.get("approval_revision") or approved_art.get("updated_at") or "", "cover_art_approval_state": approved_art.get("approval_state") or "approved", "cover_art_provenance": approved_art.get("provenance") or {}, "cover_routing": routing_decision.diagnostics(), "interior_style": interior_style, "reader_bonus_pages": bonuses, "release_status": "Ready for KDP Print Previewer"}, indent=2)+"\n", encoding="utf-8")
+    provenance = approved_art.get("provenance", {})
+    write_routing_diagnostics(package_file(folder, "COVER_ROUTING.json", for_write=True), routing_decision)
+    package_file(folder, "COVER_ART_RIGHTS_LEDGER.txt", for_write=True).write_text(
+        f"COVER ART & RIGHTS LEDGER\n{'='*48}\nBrand / imprint: Slade Puzzles\nContributor shown in package: {author}\n"
+        f"Automatic cover artwork: {art_name}\nAsset ID: {approved_art.get('asset_id', '')}\nProduction approval: {approved_art.get('production_approved', False)}\n"
+        f"Classification: {approved_art.get('classification', '')}\nGeneration provider: {provenance.get('provider', '')}\n"
+        f"Generation model: {provenance.get('model', 'project background library')}\nFile checksum: {approved_art.get('sha256', '')}\n"
+        "Use the correct marketplace AI-content disclosure when uploading AI-generated cover art.\n", encoding="utf-8")
+    from publishing.product_qa import inspect_product, write_product_qa_report
+    qa_metadata = {"title": title_text, "subtitle": subtitle, "puzzle_type": kind, "puzzle_type_id": kind,
+                   "detected_topic": theme, "series": "", "puzzle_count": count, "difficulty": difficulty,
+                   "trim_size": "8.5x11", "cover_art_use_count": len(approved_art.get("usage") or [])}
+    product_qa = inspect_product(APP, folder, qa_metadata)
+    write_product_qa_report(package_file(folder, "PRODUCT_QA.txt", for_write=True), product_qa)
+    if product_qa.blockers:
+        raise ValueError("Product QA stopped this package: " + " | ".join(item.message for item in product_qa.blockers))
+    autopilot.complete("qa", autopilot.stage_fingerprint(facts, "qa"), product_qa.status)
+    from publishing.production_intelligence import finalize_package
+    intelligence = finalize_package(APP, folder, {"title": title_text, "subtitle": subtitle, "puzzle_type": kind, "detected_topic": theme, "series": "", "puzzles": []}, title_text, subtitle, pages)
+    if not intelligence["ready"]:
+        raise ValueError("Final package intelligence stopped this package: " + " | ".join(intelligence["blockers"]))
+    autopilot.complete("package", autopilot.stage_fingerprint(facts, "package"), "Final package inspection passed and master release files were created.", artifact=str(folder))
+    background_index.record_use(art, title=title_text, theme=theme, package=str(folder))
+    package_file(folder, "COVER_THUMBNAIL_REVIEW.txt", for_write=True).write_text("COVER THUMBNAIL REVIEW\n"+"="*48+"\nOpen front_cover.png and kdp_full_wrap_preview.png. Confirm the title and badge are clear at a small buyer-facing size.\n", encoding="utf-8")
+    package_file(folder, "FINAL_KDP_UPLOAD_STEPS.txt", for_write=True).write_text(f"FINAL KDP UPLOAD STEPS\n{'='*48}\n1. Confirm the KDP contributor is exactly: {author}\n2. Upload 01_PRINT_UPLOADS\\interior.pdf and 01_PRINT_UPLOADS\\kdp_full_wrap.pdf.\n3. Copy the listing from 02_LISTING_INFORMATION\\KDP_LISTING_KIT.txt.\n4. Confirm rights, categories, price, territories, and any AI-content disclosure.\n5. Run KDP Print Previewer and correct every warning.\n", encoding="utf-8")
+    package_file(folder, "FIX_THIS_FIRST.txt", for_write=True).write_text("FIX THIS FIRST\n"+"="*48+"\nPASS — Automated package checks passed. Your remaining required step is KDP Print Previewer.\n", encoding="utf-8")
+    (folder/"START_HERE.txt").write_text(package_layout_readme(title_text),encoding="utf-8")
+    package_file(folder, "PACKAGE_SCORECARD.txt", for_write=True).write_text(f"PACKAGE SCORECARD\n\nType: {kind}\nPuzzles: {count}\nDifficulty: {difficulty}\nPages: {pages}\nStatus: Ready for KDP Print Previewer review\n",encoding="utf-8")
     # Register every non-word-search package right away. This also creates the
     # same platform-aware MASTER_RELEASE_PACKAGE used by Word Search books.
     try:
         from publishing import PublishingService
         PublishingService(APP).sync_output_packages()
+        autopilot.complete("register", autopilot.stage_fingerprint(facts, "register"), "Finished package was registered in Publishing Center.")
     except Exception as exc:
         (folder/"PUBLISHING_MANAGER_SYNC_NOTE.txt").write_text(
             "The package is complete, but automatic Publishing Manager registration needs a retry. "
@@ -695,57 +971,107 @@ def create_package(kind,title_text,subtitle,author,count,difficulty,seed,theme="
 
 class PuzzleBookStudio(tk.Toplevel):
     def __init__(self,parent,initial_kind="Sudoku",initial_theme="General Starter",initial_format="Standard"):
-        super().__init__(parent); self.title("Puzzle Book Studio"); self.geometry("980x720"); self.minsize(820,620); self.transient(parent)
+        super().__init__(parent); self.title("SladePuzzleCo Puzzle Studio")
+        usable_w = max(800, self.winfo_screenwidth() - 70); usable_h = max(520, self.winfo_screenheight() - 110)
+        width, height = min(1040, usable_w), min(760, usable_h)
+        self.geometry(f"{width}x{height}"); self.minsize(min(860, width), min(620, height)); self.transient(parent)
+        self._creating = False
+        self.protocol("WM_DELETE_WINDOW", self._on_close)
         selected=initial_kind if initial_kind in DEFAULTS else "Sudoku"
         selected_theme=initial_theme if initial_theme in AVAILABLE_THEMES else "General Starter"
         selected_format=initial_format if initial_format in FORMAT_PRESETS else "Standard"
-        self.kind=tk.StringVar(value=selected); self.theme=tk.StringVar(value=selected_theme); self.format=tk.StringVar(value=selected_format); self.book_title=tk.StringVar(); self.subtitle=tk.StringVar(); self.count=tk.IntVar(); self.difficulty=tk.StringVar(); self.status=tk.StringVar(value="Choose a puzzle type. Everything else can stay automatic."); self._idea_index=0; self.last_package: Path | None = None
+        self.kind=tk.StringVar(value=selected); self.theme=tk.StringVar(value=selected_theme); self.format=tk.StringVar(value=selected_format); self.book_title=tk.StringVar(); self.subtitle=tk.StringVar(); self.count=tk.IntVar(); self.difficulty=tk.StringVar(); self.cover_style=tk.StringVar(value="Automatic matching"); self.cover_photo=tk.StringVar(value="Automatic matching"); self.interior_style=tk.StringVar(value=default_preset(selected)); self.bonus_enabled=tk.BooleanVar(value=True); self.status=tk.StringVar(value="Choose a puzzle type. Everything else can stay automatic."); self._idea_index=0; self.last_package: Path | None = None
         self._reset()
         if selected_format != "Standard": self._format_changed()
         if selected_theme != "General Starter": self._next_name_idea()
         self._build()
+        self.after_idle(self._maximize_window)
+
+    def _maximize_window(self):
+        """Use the available workspace while retaining normal window controls."""
+        try: self.state("zoomed")
+        except tk.TclError: pass
+    def _on_close(self):
+        if self._creating and not messagebox.askyesno("Package still being created", "This package is still being created and checked. Close this window anyway?", parent=self):
+            return
+        self.destroy()
     def _reset(self,*_):
         t,s,n,d=DEFAULTS[self.kind.get()]; self.book_title.set(t); self.subtitle.set(s); self.count.set(n); self.difficulty.set(d)
     def _build(self):
-        root=ttk.Frame(self,padding=20); root.pack(fill="both",expand=True); root.columnconfigure(1,weight=1)
-        ttk.Label(root,text="PUZZLE BOOK STUDIO",font=("Segoe UI",22,"bold")).grid(row=0,column=0,columnspan=2,sticky="w")
-        ttk.Label(root,text="Pick a puzzle type, name the book, then let the studio create and proof the complete package.",wraplength=850).grid(row=1,column=0,columnspan=2,sticky="w",pady=(4,10))
-        chooser=ttk.Frame(root); chooser.grid(row=2,column=0,columnspan=2,sticky="ew",pady=(0,14)); chooser.columnconfigure((0,1,2,3),weight=1)
+        root=ttk.Frame(self,padding=28); root.pack(fill="both",expand=True); root.columnconfigure(0,weight=1); root.rowconfigure(3,weight=1)
+        ttk.Label(root,text="PUZZLE BOOK STUDIO",font=("Segoe UI Semibold",24)).grid(row=0,column=0,sticky="w")
+        ttk.Label(root,text="Choose a puzzle type, give it a direction, then review a complete print-and-listing plan before creating anything.",wraplength=920).grid(row=1,column=0,sticky="w",pady=(4,14))
+        chooser=ttk.Frame(root); chooser.grid(row=2,column=0,sticky="ew",pady=(0,14)); chooser.columnconfigure((0,1,2,3),weight=1)
+        self.kind_buttons={}
         for column,(kind,label) in enumerate((("Sudoku","SUDOKU\nNumbers, letters & shapes"),("Cryptogram","CRYPTOGRAMS\nCrack the hidden message"),("Word Scramble + Trivia","SCRAMBLE + TRIVIA\nWords and quick facts"),("Mixed Brain Games","MIXED BRAIN GAMES\nThree clear puzzle sections"))):
-            ttk.Button(chooser,text=label,command=lambda value=kind:self._choose_kind(value),style="Primary.TButton" if self.kind.get()==kind else "Action.TButton").grid(row=0,column=column,sticky="ew",padx=(0 if column==0 else 5,0))
-        fields=[("Book format",self.format),("Content theme",self.theme),("Title",self.book_title),("Subtitle",self.subtitle),("Number of puzzles",self.count),("Difficulty",self.difficulty)]
-        for row,(label,var) in enumerate(fields,3):
-            ttk.Label(root,text=label).grid(row=row,column=0,sticky="w",pady=6)
+            button=ttk.Button(chooser,text=label,command=lambda value=kind:self._choose_kind(value))
+            button.grid(row=0,column=column,sticky="ew",padx=(0 if column==0 else 5,0)); self.kind_buttons[kind]=button
+        self._refresh_kind_buttons()
+        body=ttk.Frame(root); body.grid(row=3,column=0,sticky="nsew"); body.columnconfigure(0,weight=1); body.columnconfigure(1,weight=1)
+        plan=ttk.Labelframe(body,text="1. BOOK PLAN",padding=16); plan.grid(row=0,column=0,sticky="new",padx=(0,8)); plan.columnconfigure(1,weight=1)
+        design=ttk.Labelframe(body,text="2. DESIGN & READER EXPERIENCE",padding=16); design.grid(row=0,column=1,sticky="new",padx=(8,0)); design.columnconfigure(1,weight=1)
+        primary_fields=[("Book format",self.format),("Content theme",self.theme),("Title",self.book_title),("Subtitle",self.subtitle)]
+        for row,(label,var) in enumerate(primary_fields):
+            ttk.Label(plan,text=label).grid(row=row,column=0,sticky="w",pady=7)
             if label=="Book format":
-                box=ttk.Combobox(root,textvariable=var,values=tuple(FORMAT_PRESETS),state="readonly"); box.grid(row=row,column=1,sticky="ew",pady=6); box.bind("<<ComboboxSelected>>",self._format_changed)
+                box=ttk.Combobox(plan,textvariable=var,values=tuple(FORMAT_PRESETS),state="readonly"); box.grid(row=row,column=1,sticky="ew",pady=7); box.bind("<<ComboboxSelected>>",self._format_changed)
             elif label=="Content theme":
-                box=ttk.Combobox(root,textvariable=var,values=AVAILABLE_THEMES,state="readonly"); box.grid(row=row,column=1,sticky="ew",pady=6); box.bind("<<ComboboxSelected>>",self._theme_changed)
-            elif label=="Difficulty": ttk.Combobox(root,textvariable=var,values=("Easy","Mixed","Standard","Hard"),state="readonly").grid(row=row,column=1,sticky="ew",pady=6)
-            else: ttk.Entry(root,textvariable=var).grid(row=row,column=1,sticky="ew",pady=6)
-        ttk.Button(root,text="Give Me a Fresh Title Idea",command=self._next_name_idea).grid(row=10,column=0,columnspan=2,sticky="ew",pady=(12,4))
-        self.art_note=ttk.Label(root,wraplength=850); self.art_note.grid(row=11,column=0,columnspan=2,sticky="w",pady=(8,6)); self._changed()
-        ttk.Button(root,text="Review My Book Plan",command=self._review).grid(row=12,column=0,sticky="ew",pady=(14,6))
-        ttk.Button(root,text="Create + Run Proof Gate",command=self._create).grid(row=12,column=1,sticky="ew",padx=(10,0),pady=(14,6))
-        ttk.Button(root,text="Open Last Package",command=self._open_last_package).grid(row=13,column=0,sticky="ew",pady=(2,0))
-        ttk.Button(root,text="Open Last Proof Report",command=self._open_proof).grid(row=13,column=1,sticky="ew",padx=(10,0),pady=(2,0))
-        ttk.Label(root,textvariable=self.status,wraplength=850).grid(row=14,column=0,columnspan=2,sticky="w",pady=(12,0))
+                box=ttk.Combobox(plan,textvariable=var,values=AVAILABLE_THEMES,state="readonly"); box.grid(row=row,column=1,sticky="ew",pady=7); box.bind("<<ComboboxSelected>>",self._theme_changed)
+            else: ttk.Entry(plan,textvariable=var).grid(row=row,column=1,sticky="ew",pady=7)
+        ttk.Button(plan,text="Apply automatic plan",command=self._apply_blueprint,style="Primary.TButton").grid(row=4,column=0,columnspan=2,sticky="ew",pady=(14,5))
+        ttk.Button(plan,text="Give me another title idea",command=self._next_name_idea).grid(row=5,column=0,columnspan=2,sticky="ew")
+        design_fields=[("Cover layout",self.cover_style),("Cover picture",self.cover_photo),("Interior design",self.interior_style),("Number of puzzles",self.count),("Difficulty",self.difficulty)]
+        for row,(label,var) in enumerate(design_fields):
+            ttk.Label(design,text=label).grid(row=row,column=0,sticky="w",pady=7)
+            if label=="Cover layout": ttk.Combobox(design,textvariable=var,values=tuple(COVER_STYLE_OPTIONS),state="readonly").grid(row=row,column=1,sticky="ew",pady=7)
+            elif label=="Cover picture":
+                self.cover_photo_box=ttk.Combobox(design,textvariable=var,state="readonly"); self.cover_photo_box.grid(row=row,column=1,sticky="ew",pady=7)
+            elif label=="Interior design": ttk.Combobox(design,textvariable=var,values=tuple(INTERIOR_PRESETS),state="readonly").grid(row=row,column=1,sticky="ew",pady=7)
+            elif label=="Difficulty": ttk.Combobox(design,textvariable=var,values=("Easy","Mixed","Standard","Hard"),state="readonly").grid(row=row,column=1,sticky="ew",pady=7)
+            else: ttk.Entry(design,textvariable=var).grid(row=row,column=1,sticky="ew",pady=7)
+        ttk.Checkbutton(design,text="Add automatic reader bonus pages",variable=self.bonus_enabled).grid(row=5,column=0,columnspan=2,sticky="w",pady=(12,4))
+        ttk.Button(design,text="Browse matching cover choices",command=self._open_cover_gallery).grid(row=6,column=0,columnspan=2,sticky="ew",pady=(8,0))
+        self.art_note=ttk.Label(body,wraplength=920); self.art_note.grid(row=1,column=0,columnspan=2,sticky="ew",pady=(18,5)); self._changed()
+        actions=ttk.Labelframe(body,text="3. REVIEW & CREATE",padding=14); actions.grid(row=2,column=0,columnspan=2,sticky="ew",pady=(8,0)); actions.columnconfigure((0,1,2,3),weight=1)
+        ttk.Button(actions,text="Review my book plan",command=self._review).grid(row=0,column=0,sticky="ew",padx=(0,5))
+        ttk.Button(actions,text="Create + run proof gate",command=self._create,style="Primary.TButton").grid(row=0,column=1,sticky="ew",padx=5)
+        ttk.Button(actions,text="Open last package",command=self._open_last_package).grid(row=0,column=2,sticky="ew",padx=5)
+        ttk.Button(actions,text="Open proof report",command=self._open_proof).grid(row=0,column=3,sticky="ew",padx=(5,0))
+        ttk.Label(body,textvariable=self.status,wraplength=920).grid(row=3,column=0,columnspan=2,sticky="ew",pady=(14,0))
     def _choose_kind(self, kind):
-        self.kind.set(kind); self._changed()
+        self.kind.set(kind); self._refresh_kind_buttons(); self._changed()
+    def _refresh_kind_buttons(self):
+        """Keep the visible selection aligned with the generator route."""
+        for kind,button in getattr(self,"kind_buttons",{}).items():
+            button.configure(style="Primary.TButton" if self.kind.get()==kind else "Action.TButton")
     def _changed(self,*_):
-        self._idea_index=0; self._reset(); self._theme_changed()
+        self._idea_index=0; self._reset(); self._format_changed(); self._next_name_idea(); self._theme_changed()
 
     def _theme_changed(self,*_):
         options, palette, _style = THEME_ART.get(self.theme.get(), ART[self.kind.get()])
+        photo_choices=("Automatic matching", *options)
+        if hasattr(self, "cover_photo_box"):
+            self.cover_photo_box.configure(values=photo_choices)
+        if self.cover_photo.get() not in photo_choices:
+            self.cover_photo.set("Automatic matching")
         checked, detail, capacity=content_check(self.kind.get(), self.theme.get()) if self.kind.get() in ("Cryptogram", "Word Scramble + Trivia", "Mixed Brain Games") else (True, "Sudoku grids are generated and solution-checked when created", 0)
         library_note = f" Library: {capacity} checked entries ({detail})." if self.kind.get() in ("Cryptogram", "Word Scramble + Trivia", "Mixed Brain Games") else ""
-        self.art_note.configure(text=f"Automatic cover: {len(options)} matching picture choices with the {palette} color direction.{library_note}")
+        self.art_note.configure(text=f"Cover options: {len(options)} matching local pictures, {len(COVER_STYLE_OPTIONS) - 1} layouts, and the {palette} color direction. Automatic matching rotates a fitting layout and never uses a word-search grid for this puzzle type.{library_note}")
     def _format_changed(self,*_):
         preset=FORMAT_PRESETS[self.format.get()]; self.count.set(preset["count"]); self.difficulty.set(preset["difficulty"])
         self.status.set(preset["label"])
+    def _apply_blueprint(self):
+        """One-click production defaults; manual controls stay available when wanted."""
+        plan_kind=self.kind.get(); self.cover_style.set("Automatic matching"); self.cover_photo.set("Automatic matching")
+        self.interior_style.set(default_preset(plan_kind, self.format.get() == "Signature Edition")); self.bonus_enabled.set(True)
+        self._format_changed(); self._next_name_idea(); self._theme_changed()
+        self.status.set(f"Applied the automatic {plan_kind} blueprint: matching cover, {self.interior_style.get()} interior, reader bonuses, and checked format defaults.")
     def _next_name_idea(self):
         ideas=name_ideas_for(self.kind.get(), self.theme.get(), int(self.count.get()))
         title_text, subtitle=ideas[self._idea_index % len(ideas)]
         self._idea_index += 1; self.book_title.set(title_text); self.subtitle.set(subtitle)
+    def _open_cover_gallery(self):
+        PuzzleCoverGallery(self)
     def _check(self):
         if not self.book_title.get().strip() or not self.subtitle.get().strip(): raise ValueError("Please enter a title and subtitle.")
         if not 24 <= int(self.count.get()) <= 150: raise ValueError("Use 24 to 150 puzzles so the book has enough interior pages.")
@@ -757,25 +1083,116 @@ class PuzzleBookStudio(tk.Toplevel):
         except ValueError as e: messagebox.showerror("Check your book",str(e),parent=self); return
         special=("\nSudoku extras: number, letter, and shape games." if self.kind.get()=="Sudoku" else
                  "\nMixed-book extras: a themed divider page starts each Sudoku, Cryptogram, and Word Scramble + Trivia section; each section has its own answers." if self.kind.get()=="Mixed Brain Games" else "")
-        messagebox.showinfo("Your book plan",f"Type: {self.kind.get()}\nTitle: {self.book_title.get()}\nSubtitle: {self.subtitle.get()}\nPuzzles: {self.count.get()}\nDifficulty: {self.difficulty.get()}\nAuthor: Jordan M. Slade\nCover: automatic matching picture + matching colors{special}\n\nThe package will include an interior PDF, full KDP wrap, listing kit, preflight, and final Production Proof Gate.",parent=self)
+        cover_choice = self.cover_style.get().lower() + " layout / " + self.cover_photo.get()
+        bonus = "Five reader bonus pages included." if self.bonus_enabled.get() else "No reader bonus pages."
+        messagebox.showinfo("Your book plan",f"Type: {self.kind.get()}\nTitle: {self.book_title.get()}\nSubtitle: {self.subtitle.get()}\nPuzzles: {self.count.get()}\nDifficulty: {self.difficulty.get()}\nInterior: {self.interior_style.get()}\n{bonus}\nAuthor: Jordan M. Slade\nCover: {cover_choice}{special}\n\nThe package will include an interior PDF, full KDP wrap, listing kit, preflight, and final Production Proof Gate.",parent=self)
     def _create(self):
         try: self._check()
         except ValueError as e: messagebox.showerror("Check your book",str(e),parent=self); return
-        self.status.set("Creating and checking your package. This can take a few minutes for Sudoku.")
+        if self._creating:
+            return
+        snapshot={"kind":self.kind.get(),"title":self.book_title.get().strip(),"subtitle":self.subtitle.get().strip(),"count":int(self.count.get()),"difficulty":self.difficulty.get(),"theme":self.theme.get(),"cover_style":self.cover_style.get(),"cover_photo":self.cover_photo.get(),"interior_style":self.interior_style.get(),"bonuses":automatic_bonus_pages(self.kind.get(), self.theme.get(), self.format.get() == "Signature Edition") if self.bonus_enabled.get() else []}
+        approved=messagebox.askyesno("Approve this book plan",f"Puzzle type: {snapshot['kind']}\nTitle: {snapshot['title']}\nTheme: {snapshot['theme']}\nPuzzles: {snapshot['count']}\nDifficulty: {snapshot['difficulty']}\n\nCreate exactly this plan and begin the checked production route?",parent=self)
+        if not approved:
+            self.status.set("Book plan was not approved. Nothing was created."); return
+        evidence={"source":"puzzle_studio.operator_confirmation","evidence_id":hashlib.sha256(f"{snapshot['kind']}|{snapshot['title']}|{snapshot['theme']}|{snapshot['count']}|{datetime.now().isoformat()}".encode("utf-8")).hexdigest()[:20]}
+        self._creating = True
+        self.status.set("Creating the interior, cover, listing files, and final proof check. This can take a few minutes for Sudoku.")
         def work():
+            from publishing.job_queue import ProductionJobQueue
+            job_id=hashlib.sha1(f"{snapshot['kind']}|{snapshot['title']}".encode("utf-8")).hexdigest()[:12]
+            queue=ProductionJobQueue(APP); acquired, note=queue.acquire(job_id, snapshot['title'])
+            if not acquired:
+                self.after(0,lambda: (setattr(self, "_creating", False), self.status.set(note), messagebox.showinfo("One book at a time", note, parent=self)))
+                return
             try:
-                folder=create_package(self.kind.get(),self.book_title.get().strip(),self.subtitle.get().strip(),"Jordan M. Slade",int(self.count.get()),self.difficulty.get(),random.SystemRandom().randint(1,2**31-1),self.theme.get())
+                folder=create_package(snapshot['kind'],snapshot['title'],snapshot['subtitle'],"Jordan M. Slade",snapshot['count'],snapshot['difficulty'],random.SystemRandom().randint(1,2**31-1),snapshot['theme'],snapshot['cover_style'],snapshot['cover_photo'],snapshot['interior_style'],snapshot['bonuses'],evidence)
                 self.after(0,lambda: self._created(folder))
             except Exception as e:
-                self.after(0,lambda: (self.status.set("Something needs attention."),messagebox.showerror("Package could not be created",str(e),parent=self)))
+                queue.release(job_id, "needs_attention")
+                self.after(0,lambda: (setattr(self, "_creating", False), self.status.set("Something needs attention. Open the message below for the next step."),messagebox.showerror("Package could not be created",str(e),parent=self)))
+            else:
+                queue.release(job_id, "complete")
         threading.Thread(target=work,daemon=True).start()
     def _created(self, folder: Path):
-        self.last_package=folder; self.status.set(f"Done — Proof Gate passed. Saved in {folder}")
+        self._creating=False; self.last_package=folder; self.status.set(f"Done — Proof Gate passed. Saved in {folder}")
         messagebox.showinfo("Package complete",f"Your complete KDP package passed the automatic Proof Gate:\n{folder}\n\nOpen the Proof Report, then run KDP Print Previewer before publishing.",parent=self)
     def _open_last_package(self):
         if self.last_package and self.last_package.exists(): os.startfile(self.last_package)
         else: messagebox.showinfo("No package yet","Create a package first.",parent=self)
     def _open_proof(self):
-        target=self.last_package/"PRODUCTION_PROOF_GATE.txt" if self.last_package else None
+        from publishing.package_layout import package_file
+        target=package_file(self.last_package, "PRODUCTION_PROOF_GATE.txt") if self.last_package else None
         if target and target.exists(): os.startfile(target)
         else: messagebox.showinfo("No proof report yet","Create a package first.",parent=self)
+
+
+class PuzzleCoverGallery(tk.Toplevel):
+    """Visual cover chooser for every non-word-search puzzle format."""
+    def __init__(self, studio: PuzzleBookStudio):
+        super().__init__(studio); self.studio = studio; self.title("Puzzle cover gallery")
+        usable_w = max(760, self.winfo_screenwidth() - 70); usable_h = max(500, self.winfo_screenheight() - 110)
+        width, height = min(1020, usable_w), min(720, usable_h)
+        self.geometry(f"{width}x{height}"); self.minsize(min(800, width), min(520, height)); self.transient(studio)
+        self.status = tk.StringVar(value="Rendering matching cover choices…"); self.images: list[ImageTk.PhotoImage] = []; self.options: list[dict] = []; self.refresh_offset = 0
+        # Tkinter variables belong to the UI thread. Capture their values now
+        # so the rendering worker never touches a Tk object.
+        self.settings = {"kind": studio.kind.get(), "theme": studio.theme.get(), "title": studio.book_title.get(), "subtitle": studio.subtitle.get(), "count": int(studio.count.get())}
+        root=ttk.Frame(self,padding=20); root.pack(fill="both",expand=True)
+        ttk.Label(root,text="COVER GALLERY",font=("Segoe UI",18,"bold")).pack(anchor="w")
+        ttk.Label(root,text="Choose approved generated or local artwork. Every thumbnail below uses the exact image named on its card; cover layout is controlled separately.",wraplength=950).pack(anchor="w",pady=(3,10))
+        self.grid=ttk.Frame(root); self.grid.pack(fill="both",expand=True)
+        footer=ttk.Frame(root); footer.pack(fill="x",pady=(8,0)); ttk.Label(footer,textvariable=self.status,wraplength=760).pack(side="left",fill="x",expand=True)
+        ttk.Button(footer,text="Refresh Cover Ideas",command=self._refresh).pack(side="right")
+        threading.Thread(target=self._render,daemon=True).start()
+
+    def _render(self):
+        kind, theme = self.settings["kind"], self.settings["theme"]
+        _pictures, palette, _ = THEME_ART.get(theme, ART[kind])
+        request=CoverRequest(route="Puzzle Studio Gallery",title=self.settings["title"],subtitle=self.settings["subtitle"],puzzle_type=kind,topic=theme,selection_seed=100+self.refresh_offset)
+        gallery=select_cover_gallery(request,slots=6,refresh_offset=self.refresh_offset)
+        folder = Path(tempfile.mkdtemp(prefix="puzzle_cover_gallery_"))
+        made=[]
+        for index, concept in enumerate(gallery.concepts):
+            direction="Photo spotlight"
+            picture=str(concept.asset.get("path") or "")
+            selected_palette, style = concept.palette or palette, "photo"
+            output = folder / f"cover_{index}.png"
+            art_path = cover_art_path(picture)
+            command=[sys.executable,str(APP/"cover.py"),"--title",self.settings["title"].strip() or DEFAULTS[kind][0],"--subtitle",self.settings["subtitle"].strip(),"--author","Jordan M. Slade","--puzzle-count",str(self.settings.get("count") or 0),"--format-label",kind.upper(),"--puzzle-type",kind,"--palette",selected_palette or palette,"--style",style,"--art",str(art_path),"--out",str(output),"--preview"]
+            result=subprocess.run(command,cwd=APP,capture_output=True,text=True)
+            if result.returncode == 0: made.append({"direction": direction, "picture": picture, "palette": selected_palette, "path": output, "asset_id":concept.art_asset_id,"visual_family":concept.asset.get("visual_family_id",""),"source":"Generated artwork" if concept.asset.get("project_generated") is True else "Local approved photo"})
+        self.after(0,lambda:self._show(made,gallery.metrics))
+
+    def _show(self, options: list[dict], metrics: dict | None = None) -> None:
+        for child in self.grid.winfo_children(): child.destroy()
+        self.images.clear()
+        self.options=options
+        for index, option in enumerate(options):
+            card=ttk.Frame(self.grid,padding=6); card.grid(row=index//3,column=index%3,sticky="nsew",padx=6,pady=6)
+            try:
+                with Image.open(option["path"]).convert("RGB") as image:
+                    image.thumbnail((220,285),Image.Resampling.LANCZOS)
+                    photo=ImageTk.PhotoImage(image.copy())
+                self.images.append(photo); ttk.Label(card,image=photo).pack()
+                option["path"].unlink(missing_ok=True)
+            except OSError:
+                ttk.Label(card,text="Preview unavailable").pack(pady=70)
+            ttk.Label(card,text=option["source"],font=("Segoe UI",10,"bold")).pack(pady=(5,0))
+            ttk.Label(card,text=f"{option['palette'].replace('-', ' ').title()}\n{Path(option['picture']).name}",wraplength=220,justify="center").pack(pady=(2,5))
+            ttk.Button(card,text="Use this cover",command=lambda value=option:self._choose(value)).pack(fill="x")
+        if options:
+            try: options[0]["path"].parent.rmdir()
+            except OSError: pass
+        metrics=metrics or {}; unique=metrics.get("distinct_visual_families_shown",0)
+        limit_note=f" Diversity limited: only {metrics.get('eligible_visual_family_count',0)} suitable approved artwork families are available." if metrics.get("diversity_limited") else ""
+        self.status.set(f"{len(options)} concepts using {unique} unique artwork families are ready.{limit_note} No new art was generated.")
+
+    def _refresh(self) -> None:
+        self.refresh_offset += 1; self.status.set("Reranking your approved existing artwork…")
+        threading.Thread(target=self._render,daemon=True).start()
+
+    def _choose(self, option: dict) -> None:
+        self.studio.cover_style.set(option["direction"]); self.studio.cover_photo.set(option["picture"])
+        self.studio.status.set(f"Applied {option['direction'].lower()} with {option['picture']}. Review or create when ready.")
+        self.destroy()

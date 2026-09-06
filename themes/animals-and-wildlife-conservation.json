@@ -26,12 +26,12 @@
       "name": "African Lions",
       "words": [
         "WIND",
-        "HARMONY",
+        "ACORN",
         "PETALS",
         "PAN",
         "WAREHOUSE",
-        "DRAMA",
-        "FIR",
+        "ADVENTURETRAIL",
+        "ALASKAPARKS",
         "PATCHOULI",
         "PARACHUTE",
         "NATURALIZE",
@@ -59,7 +59,7 @@
     {
       "name": "Wildlife Refuge",
       "words": [
-        "ROBOT",
+        "ALPINEFOREST",
         "SEATURTLES",
         "GROUPER",
         "BATTERY",
@@ -78,7 +78,7 @@
       "words": [
         "CULTURE",
         "TACKLE",
-        "OPENMIC",
+        "ALPINEGLOW",
         "LEG",
         "PANTHER",
         "WINGED",
@@ -93,7 +93,7 @@
     {
       "name": "Ocean Conservation",
       "words": [
-        "POPCORN",
+        "ALPINEHUT",
         "NEIGHBORHOOD",
         "TOUGH",
         "BENTHIC",
@@ -103,7 +103,7 @@
         "PRESERVE",
         "BLOOM",
         "PURPLENEEDLEGRASS",
-        "NOVEL",
+        "ALPINELAKE",
         "ABILENE"
       ]
     },
@@ -148,7 +148,7 @@
         "RARE",
         "STARLIGHT",
         "DESERTVIEW",
-        "COLLECTOR",
+        "ALPINEPASS",
         "RELAXED",
         "TUB",
         "FIREFLIES",
@@ -167,7 +167,7 @@
         "SUMMIT",
         "COYOTES",
         "TEXMEX",
-        "COMMUNITY",
+        "ALPINEWILDFLOWER",
         "CHICK",
         "CARNEASADA",
         "FIELD",
@@ -183,7 +183,7 @@
         "DENIM",
         "SALSA",
         "NAVIGATION",
-        "COMICBOOK",
+        "AMERICANALLIGATOR",
         "GUIDE",
         "NAPLES",
         "FIZZY",
@@ -198,9 +198,9 @@
         "CONTROLROOM",
         "FAIRWAY",
         "DOLPHIN",
-        "ACTION",
+        "ANACOSTIA",
         "MOONPROGRAM",
-        "MONSTER",
+        "ANEMONE",
         "JAPAN",
         "LACES",
         "SKYWARD",
@@ -215,7 +215,7 @@
         "SOLE",
         "RINK",
         "PHOTOGRAPHY",
-        "VAMPIRE",
+        "ANGLERFISH",
         "HAMMOCK",
         "ROLLER",
         "APPALACHIAN",
@@ -240,7 +240,7 @@
         "PORTFOLIO",
         "PEARLS",
         "COINS",
-        "FANTASY"
+        "ANTELOPECANYON"
       ]
     },
     {
@@ -264,7 +264,7 @@
       "name": "Desert Wildlife",
       "words": [
         "UTICA",
-        "CELEBRITY",
+        "ANTLER",
         "BREED",
         "APRICOT",
         "LASER",
@@ -307,7 +307,7 @@
         "SCENICROUTE",
         "RANCH",
         "BEACHCOMB",
-        "TREASURE",
+        "APPALACHIANTRAIL",
         "ABYSS"
       ]
     },
@@ -321,7 +321,7 @@
         "RADIATE",
         "JUMPERS",
         "PARTHENON",
-        "CHAMPION",
+        "ARCH",
         "WHISKER",
         "GROUND",
         "THRESHER",
@@ -334,8 +334,8 @@
         "SAILBOAT",
         "LONGHORN",
         "STATEHOOD",
-        "FARM",
-        "THEATER",
+        "ARCHES",
+        "ARCTICFOX",
         "SQUAREDANCE",
         "HALTERTOP",
         "GRAY",
@@ -359,7 +359,7 @@
         "TALON",
         "TREKKER",
         "RIGGING",
-        "ACOUSTIC"
+        "ARROYO"
       ]
     },
     {
@@ -386,13 +386,13 @@
         "ADVERTISE",
         "DANCECLUB",
         "HABITATS",
-        "GLORY",
+        "ASPEN",
         "NIAGARA",
         "EUCALYPTUS",
         "CARDS",
         "FOOTHILLS",
         "QUIZZES",
-        "AUTHOR",
+        "ASPENLEAF",
         "TORCH"
       ]
     },
@@ -400,7 +400,7 @@
       "name": "Animal Shelter",
       "words": [
         "QUARTZ",
-        "BARBECUE",
+        "AUTUMN",
         "OAR",
         "WEST",
         "BADWATER",
@@ -451,7 +451,7 @@
       "name": "Bird Sanctuary",
       "words": [
         "VIEW",
-        "JOYSTICK",
+        "AVALANCHE",
         "CHARTS",
         "ARCHIT",
         "SODA",
@@ -477,7 +477,7 @@
         "LIGHTING",
         "ANCHOR",
         "EFFECTS",
-        "GARDENS",
+        "AWARDSEASON",
         "STEREO"
       ]
     },
@@ -512,7 +512,7 @@
         "FERRY",
         "SONAR",
         "LOOKOUT",
-        "ACTOR"
+        "BACKCOUNTRY"
       ]
     },
     {
@@ -525,8 +525,8 @@
         "FOUNDRY",
         "PASSENGER",
         "RAIDER",
-        "TRUTH",
-        "RESTORATION",
+        "BACKCOUNTRYROAD",
+        "BACKPACK",
         "SERVICEBAY",
         "CRUSADE",
         "ACTORS"
@@ -545,7 +545,7 @@
         "STINGRAY",
         "RAY",
         "PRESS",
-        "ACTRESS",
+        "BACKPACKTRAIL",
         "ADAPTATION"
       ]
     },
@@ -554,7 +554,7 @@
       "words": [
         "FILMING",
         "ADVENTURE",
-        "SPORTS",
+        "BACKSEAT",
         "GRADATION",
         "POP",
         "WOOD",
@@ -576,7 +576,7 @@
         "EXPEDITION",
         "KEEL",
         "TOURING",
-        "SINGER",
+        "BACKWATER",
         "SOVEREIGN",
         "SKILL",
         "STAGECOACH",
@@ -589,7 +589,7 @@
         "ZOOKEEPER",
         "FREIGHT",
         "BACKROAD",
-        "GEARS",
+        "BADLANDS",
         "LABOR",
         "WACO",
         "DESTINATION",
@@ -621,7 +621,7 @@
       "name": "Environmental Protection",
       "words": [
         "TECHNOLOGY",
-        "FOUNTAIN",
+        "BADLANDSBUTTE",
         "BOAS",
         "FLYERS",
         "COUNTER",
@@ -640,9 +640,9 @@
         "TENT",
         "SNOWBOARD",
         "LLANO",
-        "MOVIENIGHT",
+        "BALSAMFIR",
         "PHONE",
-        "PRODUCER",
+        "BARK",
         "NACOGDOCHES",
         "GLACIERPOINT",
         "SWIRL",
@@ -707,7 +707,7 @@
       "words": [
         "CLEAN",
         "HANDLE",
-        "TURTLES",
+        "BARRIERBEACH",
         "HORNED",
         "SPINE",
         "CIDER",
@@ -724,10 +724,10 @@
       "words": [
         "WRASSE",
         "RENEWABLE",
-        "CONSERVATION",
+        "BASALT",
         "MANTLE",
         "GALLOP",
-        "NOMINEE",
+        "BASIN",
         "ITALY",
         "CALENDAR",
         "BIRDING",
@@ -739,7 +739,7 @@
     {
       "name": "Habitat Restoration",
       "words": [
-        "CARGO",
+        "BASINLAKE",
         "BRAIN",
         "NUGGET",
         "ROLE",
@@ -781,8 +781,8 @@
         "AIRBOAT",
         "AIRPORT",
         "ALBANY",
-        "ALBUM",
-        "ALBUMS",
+        "BASINRANGE",
+        "BAY",
         "ALEXANDER",
         "ALGAE"
       ]
@@ -798,7 +798,7 @@
         "ALLIGATOR",
         "ALMOND",
         "ALPINE",
-        "ALTAR",
+        "BEACH",
         "ALTITUDE",
         "AMERICA",
         "AMPHITHEATER"
@@ -813,7 +813,7 @@
         "AMUSEMENT",
         "ANCHOVY",
         "ANCIENT",
-        "ANGEL",
+        "BEACHES",
         "ANGELSLANDING",
         "ANGLER",
         "ANHINGA",
@@ -825,7 +825,7 @@
       "name": "Wild Wonders Word Quest 048",
       "words": [
         "ANIMATE",
-        "ANIMATION",
+        "BEACHTRIP",
         "ANTENNA",
         "ANTIQUE",
         "APARTMENT",
@@ -875,5 +875,12 @@
       "Ocean Life"
     ],
     "checked_at": "2026-08-22T10:08:38"
+  },
+  "quality_review": {
+    "checked_at": "20260824-213643",
+    "source": "verified_word_intelligence_repair",
+    "verdict": "PASS_WITH_NOTES",
+    "production_ready": false,
+    "changes": 44
   }
 }

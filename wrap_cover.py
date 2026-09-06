@@ -11,6 +11,7 @@ from reportlab.pdfgen import canvas
 from font_utils import image_font_candidates, load_image_font
 from reportlab.lib.units import inch
 from cover import PALETTES as FRONT_COVER_PALETTES
+from background_generation.index import verify_rendered_cover_approval
 
 PALETTES = {
     "nature":    {"bg": (244, 239, 226), "accent": (107, 142, 107), "deep": (46, 70, 48),  "mute": (120, 134, 116)},
@@ -89,6 +90,10 @@ def main():
     ap.add_argument("--out", required=True)
     ap.add_argument("--preview-out", help="optional smaller PNG preview of the full KDP wrap")
     a = ap.parse_args()
+
+    approved, approval_reason, _approval_proof = verify_rendered_cover_approval(a.front)
+    if not approved:
+        raise ValueError("COVER ART REQUIRED — full-wrap production stopped: " + approval_reason)
 
     spine_in = a.pages * SPINE_FACTOR
     full_w_in = TRIM_W * 2 + spine_in + BLEED * 2

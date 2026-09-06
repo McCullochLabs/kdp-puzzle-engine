@@ -1,0 +1,72 @@
+{
+  "schema_version": 1,
+  "book_plan_id": "0eb79032966be74a61b7cd6d",
+  "created_at": "2026-08-28T12:03:19+00:00",
+  "puzzle_type": "scramble_trivia",
+  "topic_ids": [
+    "space_astronomy"
+  ],
+  "format": {
+    "puzzle_count": 3,
+    "items_per_puzzle": 1,
+    "difficulty": "standard",
+    "large_print": false,
+    "symbol_set": "numbers",
+    "grid_size": 9
+  },
+  "seed": 41,
+  "review_policy": "legacy_compatible",
+  "freshness_policy": "allow_all",
+  "source_revision": "d5d8ecf7130da85da27e0c5711ab4c66fe481fb6c7c30504e370a4320066f3a9",
+  "capacity_proof": "70688d9c06cb7c632a688732bd3a6d33ff97cdc2d47b6631202bdce2d5109360",
+  "selected_content_ids": [
+    "trivia_01b20fb5c52fb771bf7e",
+    "trivia_7bcac452968fc333ddbd",
+    "trivia_81c744ae1853344054d6"
+  ],
+  "puzzle_allocations": [
+    {
+      "puzzle_number": 1,
+      "content_ids": [
+        "trivia_01b20fb5c52fb771bf7e"
+      ],
+      "mini_theme": "",
+      "section": ""
+    },
+    {
+      "puzzle_number": 2,
+      "content_ids": [
+        "trivia_7bcac452968fc333ddbd"
+      ],
+      "mini_theme": "",
+      "section": ""
+    },
+    {
+      "puzzle_number": 3,
+      "content_ids": [
+        "trivia_81c744ae1853344054d6"
+      ],
+      "mini_theme": "",
+      "section": ""
+    }
+  ],
+  "quality_snapshot": {
+    "topic_fit": 1.0,
+    "diversity_score": 0.0,
+    "max_mini_theme_concentration": 0.0,
+    "freshness_status": "clean",
+    "related_topics_used": false
+  },
+  "warnings": [
+    "legacy_compatible planning is not strict editorial verification.",
+    "mini_theme_map_missing: no trustworthy mini-theme metadata was supplied by the selected records."
+  ],
+  "freshness_snapshot": {
+    "history_source": "word_reservations",
+    "excluded_counts": {
+      "wrong_content_type": 1490
+    },
+    "unknown_history_count": 0
+  },
+  "section_plans": {}
+}

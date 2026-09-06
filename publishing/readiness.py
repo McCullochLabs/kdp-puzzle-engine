@@ -12,10 +12,14 @@ from pathlib import Path
 
 from .database import MARKETPLACES
 from .marketplaces import PUBLISHERS
+from .package_layout import marketplace_handoff_folder
 
 # Where prepare() places each platform's handoff inside a book package.
 # Kept in step with publishing/manager.py and publishing/ui.py.
-PREPARED_FOLDER_NAMES = {"amazon": "kdp", "barnes_noble": "barnes_noble"}
+PREPARED_FOLDER_NAMES = {"amazon": "kdp", "barnes_noble": "barnes_noble", "payhip": "payhip"}
+# Optional direct-sales channels stay visible in the readiness grid but do not
+# crowd the immediate next-action list until the seller chooses to use them.
+OPTIONAL_MARKETPLACES = {"payhip"}
 
 # Buyer-facing noun for a confirmed marketplace identifier (ASIN on Amazon).
 ID_NOUNS = {"amazon": "ASIN", "etsy": "Listing ID"}
@@ -37,6 +41,8 @@ def _readiness(status: str, issues: list[str]) -> tuple[str, str]:
         return "Needs attention", "attention"
     if status == "Ready":
         return "Package ready — upload next", "info"
+    if status == "Prepared — Final Cover Needed":
+        return "Prepared — build final platform cover", "attention"
     if status == "Needs Review":
         return "Missing items — see Validate", "attention"
     if status == "Not Prepared":
@@ -56,9 +62,14 @@ def marketplace_rows(book: dict, records: dict) -> list[dict]:
             issues = list(publisher.validate(book))
         except Exception as exc:  # a broken check must not crash the Hub
             issues = [f"Could not fully check {publisher.label} right now: {exc}"]
-        folder = Path(package) / PREPARED_FOLDER_NAMES.get(key, key) if package else None
+        # A platform-template reminder matters, but it is not missing book
+        # information.  The user can prepare the handoff folder now and build
+        # the final printer-specific cover after choosing that platform's
+        # exact paper, binding and page count.
+        blockers = publisher.blocking_issues(issues)
+        folder = marketplace_handoff_folder(package, PREPARED_FOLDER_NAMES.get(key, key)) if package else None
         status = str(record.get("status") or "Not Prepared")
-        label_text, indicator = _readiness(status, issues)
+        label_text, indicator = _readiness(status, blockers)
         rows.append({
             "key": key,
             "label": publisher.label,
@@ -102,13 +113,14 @@ def online_state_text(integration_state: str) -> str:
 def whats_left(rows: list[dict]) -> dict:
     """Count each marketplace's state so the Hub can say '2 of 7 published'."""
     counts = {"total": len(rows), "published": 0, "uploaded": 0,
-              "ready_to_upload": 0, "ready_to_prepare": 0,
+              "ready_to_upload": 0, "ready_to_prepare": 0, "final_cover_needed": 0,
               "needs_attention": 0, "needs_items": 0}
     for row in rows:
         counts[{
             "Published": "published",
             "Uploaded": "uploaded",
             "Ready": "ready_to_upload",
+            "Prepared — Final Cover Needed": "final_cover_needed",
             "Error": "needs_attention",
             "Needs Review": "needs_items",
             "Not Prepared": "ready_to_prepare",
@@ -129,11 +141,13 @@ def next_actions(rows: list[dict]) -> list[str]:
             continue
         actions.append(row["issues"][0] if row["issues"] else f"Check what {row['label']} still needs before preparing.")
     for row in rows:
-        if row["status"] == "Not Prepared" and not row["issues"]:
+        if row["status"] == "Not Prepared" and not row["issues"] and row["key"] not in OPTIONAL_MARKETPLACES:
             actions.append(f"Prepare the {row['label']} package")
     for row in rows:
         if row["status"] == "Ready":
             actions.append(f"Upload the prepared {row['label']} files, then record your listing details.")
+        if row["status"] == "Prepared — Final Cover Needed":
+            actions.append(f"Build the final {row['label']} cover from its current template, then upload the finished printer files.")
     for row in rows:
         if row["status"] == "Uploaded":
             actions.append(f"When {row['label']} shows live, mark it Published and save its listing link.")
@@ -144,12 +158,16 @@ def classify_prepare_report(report: list[tuple[str, str, str]]) -> dict:
     """Bucket prepare_many() results so the GUI can report truthfully.
 
     The status strings come only from our own service code: "Ready",
-    "Needs Review", "Already {status}", and "Error: {message}".
+    "Prepared — Final Cover Needed", "Needs Review", "Already {status}",
+    and "Error: {message}".
     """
-    buckets = {"prepared": [], "needs_review": [], "already_confirmed": [], "errors": [], "other": []}
+    buckets = {"prepared": [], "final_cover_needed": [], "needs_review": [],
+               "already_confirmed": [], "errors": [], "other": []}
     for book_id, marketplace, result in report:
         if result == "Ready":
             buckets["prepared"].append((book_id, marketplace))
+        elif result == "Prepared — Final Cover Needed":
+            buckets["final_cover_needed"].append((book_id, marketplace))
         elif result == "Needs Review":
             buckets["needs_review"].append((book_id, marketplace))
         elif result.startswith("Already "):
@@ -179,13 +197,16 @@ def format_history(entries: list[dict]) -> str:
         id_noun = ID_NOUNS.get(marketplace, "ID")
         if source == "prepare" and new_status == "Ready":
             phrase = "Prepared the upload package"
+        elif source == "prepare" and new_status == "Prepared — Final Cover Needed":
+            phrase = "Prepared the starting files; a final platform cover is still needed"
         elif source == "prepare" and new_status == "Error":
             message = entry.get("error_message") or ""
             phrase = f"Preparation failed: {message}" if message else "Preparation failed"
         elif source == "prepare" and new_status == "Needs Review":
             phrase = "Checked before preparing; required items were missing"
         elif source == "local_scan":
-            phrase = "Found the prepared folder on disk"
+            phrase = ("Found the prepared folder; a final platform cover is still needed"
+                      if new_status == "Prepared — Final Cover Needed" else "Found the prepared folder on disk")
         elif new_status == "Uploaded":
             phrase = "Recorded as Uploaded" + (f" — {id_noun}: {external_id}" if external_id else "")
         elif new_status == "Published":

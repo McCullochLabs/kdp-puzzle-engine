@@ -1,0 +1,181 @@
+{
+  "schema_version": 1,
+  "production_job_id": "job_cb00d9ffd3c37a7dd109",
+  "book_id": "58aea02503d3",
+  "book_plan_id": "automatic-sudoku",
+  "puzzle_type": "Sudoku",
+  "status": "waiting_for_review",
+  "context": {
+    "book_id": "58aea02503d3",
+    "source_key": "generated:Sudoku:General Starter",
+    "package_path": "",
+    "title": "Large Print Sudoku",
+    "subtitle": "100 Number, Letter & Shape Logic Puzzles with Full Solutions",
+    "author": "Jordan M. Slade",
+    "series": null,
+    "theme": null,
+    "detected_topic": "General Starter",
+    "puzzle_type": "Sudoku",
+    "puzzle_count": 100,
+    "puzzle_seed": 1606442824,
+    "page_count": null,
+    "trim_size": "8.5x11",
+    "difficulty": "Mixed",
+    "difficulty_label": null,
+    "audience": null,
+    "large_print": null,
+    "signature_edition": null,
+    "no_repeat_words": null,
+    "answer_key": null,
+    "files": {},
+    "price": null,
+    "description": null,
+    "brand": "",
+    "metadata_locked": false,
+    "conflicts": [],
+    "fingerprint": "5d68a966f3c01164cf364d7ef0141d53ccd173605aabb04c363258f1f0780dee",
+    "book_plan_id": "automatic-sudoku",
+    "source_revision": "5d68a966f3c01164cf364d7ef0141d53ccd173605aabb04c363258f1f0780dee",
+    "cover_style": "Automatic matching",
+    "palette": "starlight-indigo",
+    "content_plan_approval": {
+      "source": "puzzle_studio.operator_confirmation",
+      "evidence_id": "7f50cc13de2937d2995c"
+    }
+  },
+  "fingerprints": {
+    "idea": "0512932f0181ab27efb6a7c065bfbc0b140128687d19784190cd26a78e635304",
+    "feasibility": "0b72d39fb886d8b1b332bee8a217180dbbdd46e8bb4627de86d7fea8d50ca20c",
+    "content_plan": "0b72d39fb886d8b1b332bee8a217180dbbdd46e8bb4627de86d7fea8d50ca20c",
+    "generation": "0b72d39fb886d8b1b332bee8a217180dbbdd46e8bb4627de86d7fea8d50ca20c",
+    "cover": "ee788e74b32a13c1a2ea1ca2a6e93b8f2ab0793c7407beec96577bb70c2133d7",
+    "product_qa": "f683cce05a9f4505fa128214060438d59780aa7a4ca2eef7fd6b1e5d6f1645a3",
+    "listing": "611d0b9a90a5d87e479a37e385149eebaa3037849cb96f9a6124b41017c4600c",
+    "package": "85cef7ceb48d5fa58fa331a1cd6141b7a9506dd2e6af5d0657840bf053ec8c36",
+    "final_review": "85cef7ceb48d5fa58fa331a1cd6141b7a9506dd2e6af5d0657840bf053ec8c36",
+    "platform_preview": "85cef7ceb48d5fa58fa331a1cd6141b7a9506dd2e6af5d0657840bf053ec8c36",
+    "marketplace_handoff": "85cef7ceb48d5fa58fa331a1cd6141b7a9506dd2e6af5d0657840bf053ec8c36"
+  },
+  "steps": {
+    "idea": {
+      "status": "complete",
+      "fingerprint": "0512932f0181ab27efb6a7c065bfbc0b140128687d19784190cd26a78e635304",
+      "completed_at": "2026-09-05T04:53:42+00:00",
+      "artifact": "",
+      "detail": "Adopted from the existing checked production route."
+    },
+    "feasibility": {
+      "status": "complete",
+      "fingerprint": "0b72d39fb886d8b1b332bee8a217180dbbdd46e8bb4627de86d7fea8d50ca20c",
+      "completed_at": "2026-09-05T04:53:42+00:00",
+      "artifact": "",
+      "detail": "Adopted from the existing checked production route."
+    },
+    "content_plan": {
+      "status": "approved",
+      "fingerprint": "0b72d39fb886d8b1b332bee8a217180dbbdd46e8bb4627de86d7fea8d50ca20c",
+      "completed_at": "2026-09-05T04:53:42+00:00",
+      "artifact": "",
+      "detail": "Adopted from persisted content-plan approval evidence.",
+      "human_evidence": {
+        "source": "puzzle_studio.operator_confirmation",
+        "evidence_id": "7f50cc13de2937d2995c"
+      }
+    },
+    "generation": {
+      "status": "complete",
+      "fingerprint": "0b72d39fb886d8b1b332bee8a217180dbbdd46e8bb4627de86d7fea8d50ca20c",
+      "completed_at": "2026-09-05T04:53:47+00:00",
+      "artifact": "C:\\Users\\jorda\\Desktop\\Word Search Creator\\kdp-puzzle-engine\\out\\large_print_sudoku_20260904_215342\\01_PRINT_UPLOADS\\interior.pdf",
+      "detail": "Interior and answer pages were generated from the selected puzzle type and seed."
+    },
+    "cover": {
+      "status": "complete",
+      "fingerprint": "ee788e74b32a13c1a2ea1ca2a6e93b8f2ab0793c7407beec96577bb70c2133d7",
+      "completed_at": "2026-09-05T04:53:55+00:00",
+      "artifact": "C:\\Users\\jorda\\Desktop\\Word Search Creator\\kdp-puzzle-engine\\out\\large_print_sudoku_20260904_215342\\03_PREVIEWS\\front_cover.png",
+      "detail": "Front cover was rendered from verified facts and approved matching art."
+    },
+    "product_qa": {
+      "status": "complete",
+      "fingerprint": "f683cce05a9f4505fa128214060438d59780aa7a4ca2eef7fd6b1e5d6f1645a3",
+      "completed_at": "2026-09-05T04:54:30+00:00",
+      "artifact": "",
+      "detail": "QA Passed Locally"
+    },
+    "listing": {
+      "status": "complete",
+      "fingerprint": "611d0b9a90a5d87e479a37e385149eebaa3037849cb96f9a6124b41017c4600c",
+      "completed_at": "2026-09-05T04:54:30+00:00",
+      "artifact": "",
+      "detail": "Listing kit was generated from verified book facts."
+    },
+    "package": {
+      "status": "complete",
+      "fingerprint": "85cef7ceb48d5fa58fa331a1cd6141b7a9506dd2e6af5d0657840bf053ec8c36",
+      "completed_at": "2026-09-05T04:55:42+00:00",
+      "artifact": "C:\\Users\\jorda\\Desktop\\Word Search Creator\\kdp-puzzle-engine\\out\\large_print_sudoku_20260904_215342",
+      "detail": "Final package inspection passed and master release files were created."
+    }
+  },
+  "events": [
+    {
+      "at": "2026-09-05T04:53:42+00:00",
+      "event": "started_or_resumed"
+    },
+    {
+      "at": "2026-09-05T04:53:42+00:00",
+      "event": "stage_complete",
+      "stage": "idea",
+      "status": "complete"
+    },
+    {
+      "at": "2026-09-05T04:53:42+00:00",
+      "event": "stage_complete",
+      "stage": "feasibility",
+      "status": "complete"
+    },
+    {
+      "at": "2026-09-05T04:53:42+00:00",
+      "event": "stage_complete",
+      "stage": "content_plan",
+      "status": "approved"
+    },
+    {
+      "at": "2026-09-05T04:53:47+00:00",
+      "event": "stage_complete",
+      "stage": "generation",
+      "status": "complete"
+    },
+    {
+      "at": "2026-09-05T04:53:55+00:00",
+      "event": "stage_complete",
+      "stage": "cover",
+      "status": "complete"
+    },
+    {
+      "at": "2026-09-05T04:54:30+00:00",
+      "event": "stage_complete",
+      "stage": "product_qa",
+      "status": "complete"
+    },
+    {
+      "at": "2026-09-05T04:54:30+00:00",
+      "event": "stage_complete",
+      "stage": "listing",
+      "status": "complete"
+    },
+    {
+      "at": "2026-09-05T04:55:42+00:00",
+      "event": "stage_complete",
+      "stage": "package",
+      "status": "complete"
+    }
+  ],
+  "created_at": "2026-09-05T04:53:42+00:00",
+  "updated_at": "2026-09-05T04:55:42+00:00",
+  "paused": false,
+  "current_stage": "final_review",
+  "next_action": "Complete Final Local Review",
+  "attention": []
+}

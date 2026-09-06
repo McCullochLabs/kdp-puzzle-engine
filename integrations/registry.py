@@ -120,20 +120,29 @@ _INTEGRATION_INFO = (
      "export_key": "amazon_kdp",
      "capabilities": _capabilities(can_export_package=True, can_validate_products=True)},
     {"key": "ingram", "display_name": "IngramSpark", "mode": _MODE_EXPORT_ONLY,
-     "requires_connection": False, "status": _STATUS_PLANNED,
-     "capabilities": _capabilities()},
-    {"key": "website", "display_name": "Direct Website", "mode": _MODE_MANUAL,
-     "requires_connection": False, "status": _STATUS_PLANNED,
-     "capabilities": _capabilities()},
+     "requires_connection": False, "status": _STATUS_ACTIVE, "export_key": "ingram",
+     "capabilities": _capabilities(can_export_package=True, can_validate_products=True)},
     {"key": "lulu", "display_name": "Lulu Direct", "mode": _MODE_EXPORT_ONLY,
-     "requires_connection": False, "status": _STATUS_PLANNED,
-     "capabilities": _capabilities()},
+     "requires_connection": False, "status": _STATUS_ACTIVE, "export_key": "lulu",
+     "capabilities": _capabilities(can_export_package=True, can_validate_products=True)},
     {"key": "bookvault", "display_name": "BookVault", "mode": _MODE_EXPORT_ONLY,
      "requires_connection": False, "status": _STATUS_PLANNED,
      "capabilities": _capabilities()},
-    {"key": "barnes_noble", "display_name": "Barnes & Noble", "mode": _MODE_EXPORT_ONLY,
-     "requires_connection": False, "status": _STATUS_PLANNED,
-     "capabilities": _capabilities()},
+    {"key": "barnes_noble", "display_name": "Barnes & Noble Press", "mode": _MODE_EXPORT_ONLY,
+     "requires_connection": False, "status": _STATUS_ACTIVE, "export_key": "barnes_noble",
+     "capabilities": _capabilities(can_export_package=True, can_validate_products=True)},
+    {"key": "payhip", "display_name": "Payhip", "mode": _MODE_MANUAL,
+     "requires_connection": False, "status": _STATUS_ACTIVE,
+     "capabilities": _capabilities(can_export_package=True, can_validate_products=True)},
+    {"key": "shopify", "display_name": "Shopify", "mode": _MODE_EXPORT_ONLY,
+     "requires_connection": False, "status": _STATUS_ACTIVE, "export_key": "shopify",
+     "capabilities": _capabilities(can_export_package=True, can_validate_products=True)},
+    {"key": "woocommerce", "display_name": "WooCommerce", "mode": _MODE_EXPORT_ONLY,
+     "requires_connection": False, "status": _STATUS_ACTIVE, "export_key": "woocommerce",
+     "capabilities": _capabilities(can_export_package=True, can_validate_products=True)},
+    {"key": "wix", "display_name": "Wix", "mode": _MODE_EXPORT_ONLY,
+     "requires_connection": False, "status": _STATUS_ACTIVE, "export_key": "wix",
+     "capabilities": _capabilities(can_export_package=True, can_validate_products=True)},
 )
 
 
@@ -158,9 +167,12 @@ def _register_builtin_integrations():
     """Wire the built-in adapters. Kept in one place for review clarity."""
     from integrations.etsy.connection import create_etsy_integration
     from integrations.amazon.kdp_export import create_kdp_export_integration
+    from integrations.platform_exports import create_platform_export
 
     register_integration("etsy", create_etsy_integration)
     register_export_integration("amazon_kdp", create_kdp_export_integration)
+    for key in ("ingram", "lulu", "barnes_noble", "shopify", "woocommerce", "wix"):
+        register_export_integration(key, create_platform_export(key))
 
 
 _register_builtin_integrations()

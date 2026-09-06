@@ -230,12 +230,28 @@ class TopicSignalIndex:
                     f"'{self.taxonomy.display_name(other_cid)}'", POINTS_TAXONOMY_RELATION))
                 break
 
-        history = self.theme_word_counts.get(norm, {}).get(topic_id, 0)
+        history_counts = self.theme_word_counts.get(norm, {})
+        history = history_counts.get(topic_id, 0)
         if history:
-            weight = min(POINTS_THEME_HISTORY * history, MAX_POINTS_THEME_HISTORY)
+            # Specificity dampening (WI2 Phase 3): repetition inside themes
+            # is only strong evidence when THIS topic dominates the word's
+            # whole usage distribution.  A word sprinkled evenly across
+            # unrelated themes carries almost no topical signal.
+            total_uses = sum(history_counts.values()) or 1
+            specificity = history / total_uses
+            weight = min(POINTS_THEME_HISTORY * history,
+                         MAX_POINTS_THEME_HISTORY) * specificity
             evidence.append(EvidenceItem(
                 SIGNAL_THEME_HISTORY,
-                f"Used in {history} published theme(s) for this topic", weight))
+                f"Used in {history} published theme(s) for this topic "
+                f"(specificity {specificity:.0%} of {total_uses})", weight))
+            if total_uses >= 5 and specificity < 0.4:
+                evidence.append(EvidenceItem(
+                    SIGNAL_NEGATIVE,
+                    f"Broadly distributed across themes "
+                    f"({len(history_counts)} topics, dominance "
+                    f"{specificity:.0%})",
+                    -0.3 * MAX_POINTS_THEME_HISTORY))
 
         co_occurrence = 0
         for cid, hits in self.theme_word_counts.get(norm, {}).items():

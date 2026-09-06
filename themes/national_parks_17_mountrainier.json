@@ -19,8 +19,8 @@
         "MUSIC",
         "SUN",
         "NESTS",
-        "ALBUMS",
-        "ZOMBIE",
+        "ACADIA",
+        "ACCELERATOR",
         "SKUNKS",
         "GENERALSTORE"
       ]
@@ -31,7 +31,7 @@
         "HURRICANERIDGE",
         "OAK",
         "CATERPILLAR",
-        "PRUNER",
+        "ACCESSORY",
         "ELDERFLOWER",
         "GRAY",
         "PAGODA",
@@ -45,13 +45,13 @@
     {
       "name": "Mount Rainier Volcano and Meadows Puzzle 003",
       "words": [
-        "PAPERBACK",
+        "ACCORD",
         "FORM",
         "BASIN",
         "SWIMMER",
         "BOILINGRIVER",
         "CONTROLROOM",
-        "BOOKSTORE",
+        "ACCORDHYBRID",
         "COCOON",
         "HAYRIDE",
         "GINGER",
@@ -89,7 +89,7 @@
         "BEE",
         "SAFARI",
         "REPTILE",
-        "FILMMAKER",
+        "ACORN",
         "HUDSONVALLEY"
       ]
     },
@@ -105,7 +105,7 @@
         "TOURISM",
         "TOKENS",
         "MINESHAFT",
-        "COOKBOOK",
+        "ACURA",
         "PEPEROMIA",
         "RESEARCH"
       ]
@@ -130,7 +130,7 @@
     {
       "name": "Mount Rainier Volcano and Meadows Puzzle 008",
       "words": [
-        "ROBOT",
+        "ADVENTURE",
         "PASTURE",
         "CHAINRING",
         "ART",
@@ -147,7 +147,7 @@
     {
       "name": "Mount Rainier Volcano and Meadows Puzzle 009",
       "words": [
-        "FILTER",
+        "ADVENTURETRAIL",
         "PICTURE",
         "DART",
         "JAPAN",
@@ -158,7 +158,7 @@
         "MENU",
         "BANDAGE",
         "DRYLAKE",
-        "SCREENPLAY"
+        "AEROSTAR"
       ]
     },
     {
@@ -166,7 +166,7 @@
       "words": [
         "PRESCOTT",
         "MEAT",
-        "CHARACTER",
+        "AGROFORESTRY",
         "HENRY",
         "FOLKSONG",
         "CONCESSION",
@@ -198,7 +198,7 @@
     {
       "name": "Mount Rainier Volcano and Meadows Puzzle 012",
       "words": [
-        "FAMOUS",
+        "AIRCONDITIONER",
         "BROMELIAD",
         "FORDS",
         "BOLDPRINT",
@@ -208,14 +208,14 @@
         "CREATIVITY",
         "MONEY",
         "PURPLENEEDLEGRASS",
-        "ORCHESTRA",
+        "AIRFILTER",
         "PATTERNS"
       ]
     },
     {
       "name": "Mount Rainier Volcano and Meadows Puzzle 013",
       "words": [
-        "PESTICIDE",
+        "AIRFRESHENER",
         "NAVY",
         "FAMILYSHOW",
         "ALIEN",
@@ -234,10 +234,10 @@
       "words": [
         "CORE",
         "CROCODILE",
-        "MOVEMENT",
+        "AIRPORT",
         "PORTRAY",
         "WOODEN",
-        "HERO",
+        "AIRPUMP",
         "CHAPS",
         "LANDMARK",
         "STAKE",
@@ -249,7 +249,7 @@
     {
       "name": "Mount Rainier Volcano and Meadows Puzzle 015",
       "words": [
-        "CREEPER",
+        "ALASKAPARKS",
         "BOUNCE",
         "PINE",
         "THYME",
@@ -267,7 +267,7 @@
       "name": "Mount Rainier Volcano and Meadows Puzzle 016",
       "words": [
         "COLISEUM",
-        "GLITTER",
+        "ALERO",
         "PEDERNALES",
         "PERENNIAL",
         "HIBERNATE",
@@ -321,7 +321,7 @@
         "KOLACHE",
         "HULL",
         "GLACIERPOINT",
-        "SCREEN",
+        "ALIGNMENT",
         "PYRACANTHA",
         "ROLLERDISCO",
         "BIOLOGY",
@@ -357,7 +357,7 @@
         "VALLEY",
         "AZTEC",
         "CLAM",
-        "CALM",
+        "ALLIES",
         "ELKHORN",
         "JUDGE",
         "SIPHON",
@@ -387,13 +387,13 @@
       "words": [
         "WEATHERED",
         "COOKIES",
-        "KEEPER",
+        "ALLROAD",
         "FOCUS",
         "CLIMATE",
         "IMMIGRATION",
         "CANAL",
         "DRAWING",
-        "MANUSCRIPT",
+        "ALLWHEEL",
         "BIRDING",
         "CRITICS",
         "PLAYER"
@@ -406,7 +406,7 @@
         "ASTRONOMY",
         "HUMPBACK",
         "SPACEAGE",
-        "PAINTER",
+        "ALPINE",
         "CYCLE",
         "PUP",
         "SEATING",
@@ -428,7 +428,7 @@
         "DARING",
         "HOOKS",
         "HALFDOME",
-        "FARM",
+        "ALPINEFOREST",
         "FROG",
         "SEABREEZE"
       ]
@@ -446,7 +446,7 @@
         "CURRANT",
         "PEACEFUL",
         "CARVE",
-        "READERS",
+        "ALPINEGLOW",
         "NARWHAL"
       ]
     },
@@ -474,11 +474,11 @@
         "DAYTONA",
         "PHOTINIA",
         "PITTSBURGH",
-        "VIDEOGAME",
+        "ALPINEHUT",
         "PEPPER",
         "RANGER",
         "SHIFT",
-        "CINEMA",
+        "ALPINELAKE",
         "SING",
         "EARTH",
         "SOFA"
@@ -504,8 +504,8 @@
     {
       "name": "Mount Rainier Volcano and Meadows Puzzle 030",
       "words": [
-        "DISCIPLINE",
-        "MONSTER",
+        "ALPINEPASS",
+        "ALPINEWILDFLOWER",
         "ROWHOUSE",
         "URSA",
         "PORT",
@@ -546,9 +546,9 @@
         "DOLL",
         "RALLY",
         "PORCH",
-        "JAZZ",
+        "ALTERNATOR",
         "PIE",
-        "SPOTLIGHT",
+        "ALTERNATORBELT",
         "RESERVE"
       ]
     },
@@ -559,7 +559,7 @@
         "SLOTCAR",
         "COMMUNICATE",
         "BARN",
-        "WORMS",
+        "ALTIMA",
         "SERIAL",
         "FIDDLER",
         "LADYBUG",
@@ -592,7 +592,7 @@
         "EGRET",
         "CHIMPANZEES",
         "WATERFALL",
-        "MOSAIC",
+        "AMBULANCE",
         "LAKEMCDONALD",
         "RIMTRAIL",
         "HYDRATE",
@@ -648,7 +648,7 @@
         "CACTUS",
         "KEYDEER",
         "WALRUS",
-        "SONG",
+        "AMERICA",
         "MUMMY",
         "CONFED",
         "BIRDOFPARADISE"
@@ -657,10 +657,10 @@
     {
       "name": "Mount Rainier Volcano and Meadows Puzzle 039",
       "words": [
-        "DRUMS",
+        "AMERICANALLIGATOR",
         "SPAS",
         "WAVESIDE",
-        "WATCHMAN",
+        "AMIGO",
         "FRESNEL",
         "WALRUSES",
         "ANCHOVY",
@@ -735,7 +735,7 @@
         "SEARCH",
         "SPINES",
         "BRISKET",
-        "ANIMATION",
+        "AMPERA",
         "CRAFTED"
       ]
     },
@@ -759,9 +759,9 @@
     {
       "name": "Mount Rainier Volcano and Meadows Puzzle 045",
       "words": [
-        "WORKER",
+        "AMPHIBIAN",
         "ANTIQUES",
-        "NURSE",
+        "AMPLIFIER",
         "SPARKLE",
         "MONTEREY",
         "PROGRAMS",
@@ -786,7 +786,7 @@
         "HORSEMAN",
         "BELUGA",
         "ROTARYPHONE",
-        "CLAY",
+        "ANACOSTIA",
         "SHINE"
       ]
     },
@@ -801,7 +801,7 @@
         "ESCALLONIA",
         "CABLE",
         "PLATFORMSHOES",
-        "TELEVISION",
+        "ANDROIDAUTO",
         "VIBRANT",
         "CORNMAZE",
         "FARE"
@@ -821,7 +821,7 @@
         "SONAR",
         "CREW",
         "RENDER",
-        "FLOWERS"
+        "ANTELOPECANYON"
       ]
     }
   ],
@@ -862,5 +862,12 @@
       "National Parks"
     ],
     "checked_at": "2026-08-22T10:08:38"
+  },
+  "quality_review": {
+    "checked_at": "20260824-213825",
+    "source": "verified_word_intelligence_repair",
+    "verdict": "PASS_WITH_NOTES",
+    "production_ready": false,
+    "changes": 42
   }
 }

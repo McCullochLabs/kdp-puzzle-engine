@@ -1,0 +1,65 @@
+{
+  "version": "1",
+  "book_id": "9ceb457bbb4a",
+  "runs": [
+    {
+      "run_id": "e4fa8696e0eb3ab4",
+      "started": "2026-08-27T16:03:18",
+      "facts_fingerprint": "22faddc62717d45f12832aed19c4542f6fc8427246bff87642676a88a5e8d83a",
+      "result": "running"
+    }
+  ],
+  "stages": {
+    "validate": {
+      "status": "complete",
+      "fingerprint": "2aafed5863f03c480bdcc01746b4889893a03a0802b313415484e701c10553df",
+      "completed": "2026-08-27T16:03:19",
+      "detail": "Contributor, content capacity, and automatic-plan checks passed before generation.",
+      "artifact": ""
+    },
+    "generate": {
+      "status": "complete",
+      "fingerprint": "bc70c4f092710006a4a9511d96c46f99c224e956ad9605dd07f9c59a3c80d2ad",
+      "completed": "2026-08-27T16:03:19",
+      "detail": "Interior and answer pages were generated from the selected puzzle type and seed.",
+      "artifact": "C:\\Users\\jorda\\Desktop\\Word Search Creator\\kdp-puzzle-engine\\out\\great_american_road_trip_scramble_and_trivia_20260827_160319\\01_PRINT_UPLOADS\\interior.pdf"
+    },
+    "cover": {
+      "status": "complete",
+      "fingerprint": "4b2ee1de76d72c329673a22e97cc3cf110f965ca27cc702dbed4cac67d1415bb",
+      "completed": "2026-08-27T16:03:20",
+      "detail": "Front cover was rendered from verified facts and approved matching art.",
+      "artifact": "C:\\Users\\jorda\\Desktop\\Word Search Creator\\kdp-puzzle-engine\\out\\great_american_road_trip_scramble_and_trivia_20260827_160319\\03_PREVIEWS\\front_cover.png"
+    },
+    "preflight": {
+      "status": "complete",
+      "fingerprint": "0acd6975cf17d797b4a19cb1b1310f72316e2f1f3900016608d43988609f3421",
+      "completed": "2026-08-27T16:03:22",
+      "detail": "Wrap and print preflight passed using the final interior page count.",
+      "artifact": "C:\\Users\\jorda\\Desktop\\Word Search Creator\\kdp-puzzle-engine\\out\\great_american_road_trip_scramble_and_trivia_20260827_160319\\01_PRINT_UPLOADS\\kdp_full_wrap.pdf"
+    },
+    "listing": {
+      "status": "complete",
+      "fingerprint": "8ce3044b8982ab9ebe5c7658b7ab944cb3ef65042059459557957b514c7f4440",
+      "completed": "2026-08-27T16:03:22",
+      "detail": "Listing kit was generated from verified book facts.",
+      "artifact": ""
+    },
+    "package": {
+      "status": "complete",
+      "fingerprint": "2df622edae6f80399a310e2a2ba9243f013bba13993977c3896ca824c4270b99",
+      "completed": "2026-08-27T16:03:25",
+      "detail": "Final package inspection passed and master release files were created.",
+      "artifact": "C:\\Users\\jorda\\Desktop\\Word Search Creator\\kdp-puzzle-engine\\out\\great_american_road_trip_scramble_and_trivia_20260827_160319"
+    },
+    "register": {
+      "status": "complete",
+      "fingerprint": "8af231b2349af80920017f9d3b796b093d2676d6646f4d7e226d02954463ac3a",
+      "completed": "2026-08-27T16:03:25",
+      "detail": "Finished package was registered in Publishing Center.",
+      "artifact": ""
+    }
+  },
+  "facts_fingerprint": "22faddc62717d45f12832aed19c4542f6fc8427246bff87642676a88a5e8d83a",
+  "last_started": "2026-08-27T16:03:18"
+}

@@ -14,9 +14,9 @@
         "PRINCEOFPERSIA",
         "EARTHWORMJIM",
         "LANTERN",
-        "GOAT",
+        "ACOUSTIC",
         "SPIDERMAN",
-        "CAULDRON",
+        "ADELE",
         "CAMPINGGEAR",
         "VIRTUALWORLD"
       ]
@@ -27,13 +27,13 @@
         "KARMANNGHIA",
         "BOARDGAME",
         "PINTO",
-        "RAINBOW",
+        "ADVENTURE",
         "GREYSANATOMY",
         "DIDDYKONG",
         "KUNGFUPANDA",
         "SOCIALSTAR",
         "EVERQUEST",
-        "MARVEL",
+        "AEROSMITH",
         "MMA",
         "MODELY"
       ]
@@ -42,7 +42,7 @@
       "name": "Technology",
       "words": [
         "MOVIEHOUSE",
-        "HEATWAVE",
+        "AFTERPARTY",
         "FOLLOWERCOUNT",
         "COMPACTCAR",
         "CARTRIP",
@@ -51,7 +51,7 @@
         "SPIKEDHAIR",
         "VEHICLE",
         "DASHCAM",
-        "WORDSEARCH",
+        "AFTERSHOW",
         "SAMANDMAX"
       ]
     },
@@ -66,7 +66,7 @@
         "SEASON",
         "FIFTHHARMONY",
         "VOLUME",
-        "WINTER",
+        "ALBUM",
         "HADES",
         "RAVENCLAW",
         "MODELKIT"
@@ -103,7 +103,7 @@
         "WOOFER",
         "TSX",
         "STARFOX",
-        "TURTLE"
+        "AMERICANIDOL"
       ]
     },
     {
@@ -146,7 +146,7 @@
         "PLAYTIME",
         "STARION",
         "THRILLER",
-        "SUNSHINE",
+        "AMERICASGOTTALENT",
         "MURANO",
         "SEGA",
         "TRAILERPARK",
@@ -166,7 +166,7 @@
         "FUTURAMA",
         "SHELL",
         "BEATMANIA",
-        "APPLECIDER",
+        "ANCHORMAN",
         "ARCADEMACHINE",
         "FARMINGSIMULATOR",
         "ROLLERBLADES",
@@ -181,9 +181,9 @@
         "VIRTUALREALITY",
         "HARRYSTYLES",
         "SPEEDRUN",
-        "OBSERVATORY",
+        "ANIMATED",
         "HYUNDAI",
-        "BARN",
+        "APP",
         "BEETLE",
         "RETRO",
         "STATUS",
@@ -196,7 +196,7 @@
       "words": [
         "OTTAWA",
         "METALLICA",
-        "LIGHTNING",
+        "ARCADE",
         "TAPERECORDER",
         "ANGRYBIRDS",
         "FAXMACHINE",
@@ -212,7 +212,7 @@
       "name": "School Days: Essentials",
       "words": [
         "SWIFTIE",
-        "PICNIC",
+        "ARCADECLASSIC",
         "GYM",
         "AMBULANCE",
         "LEGALLYBLONDE",
@@ -235,11 +235,11 @@
         "QUEEREYE",
         "BTW",
         "SCIFI",
-        "AUTHOR",
+        "ARCADEGAME",
         "COMPASS",
         "MAGICSPELL",
-        "FORECAST",
-        "THIMBLE"
+        "ARCADEJOYSTICK",
+        "AUTOGRAPH"
       ]
     },
     {
@@ -253,7 +253,7 @@
         "CREATOR",
         "PLANTSVSZOMBIES",
         "BUSYSIGNAL",
-        "POKEMON",
+        "AVENGERS",
         "SOCIALNETWORK",
         "LIZZO",
         "EXHAUST"
@@ -268,8 +268,8 @@
         "LOADINGSCREEN",
         "ASCENT",
         "DOWNTONABBEY",
-        "PLANET",
-        "MILKING",
+        "AWARDSEASON",
+        "AWARDSHOW",
         "EXTREMESPORTS",
         "BUSSTOP",
         "SCREEN",
@@ -298,7 +298,7 @@
       "words": [
         "METALGEARSOLID",
         "FAMILYPICNIC",
-        "COBWEB",
+        "BACKLOT",
         "MARINER",
         "TRANSFORMERS",
         "HOTWHEELS",
@@ -331,7 +331,7 @@
       "name": "Fashion: Essentials",
       "words": [
         "CAMPMEAL",
-        "BIRDFEEDER",
+        "BACKSTAGE",
         "ROUGH",
         "WEBPAGE",
         "SLAYTHESPIRE",
@@ -357,7 +357,7 @@
         "COUNTRYDRIVE",
         "RODEO",
         "BROADWAY",
-        "BISCUIT",
+        "BACKSTAGEPASS",
         "REPLAY"
       ]
     },
@@ -371,7 +371,7 @@
         "TRAILERHITCH",
         "SIDEBYSIDE",
         "CATALYTICCONVERTER",
-        "TRAINING",
+        "BACKSTREETBOYS",
         "GUARDIANS",
         "PAR",
         "DRAGRACE",
@@ -404,7 +404,7 @@
         "STRANGERTHINGS",
         "COMPUTERROOM",
         "TENTDOOR",
-        "HAYBALE",
+        "BACKTOTHEFUTURE",
         "LEGOSTARWARS",
         "GAMEMUSIC",
         "TRANSIT",
@@ -418,7 +418,7 @@
         "BATTLEFIELD",
         "CYBERPUNK",
         "SIDEBANGS",
-        "RANCHHOUSE",
+        "BALLAD",
         "MATINEE",
         "BRAWLHALLA",
         "CUSTOMIZATION",
@@ -459,7 +459,7 @@
         "CAMPFIRE",
         "JEEP",
         "JACKS",
-        "TELESCOPE",
+        "BAND",
         "CHALKBOARD"
       ]
     },
@@ -467,9 +467,9 @@
       "name": "Home Life: Memory Lane",
       "words": [
         "SNACKSTOP",
-        "YEARBOOK",
+        "BANJO",
         "ACTIONFIGURE",
-        "BOARDWALK",
+        "BARBIECORE",
         "PLATFORMER",
         "KEYLESS",
         "DRAKE",
@@ -485,7 +485,7 @@
       "words": [
         "NEWKIDS",
         "TINYTINA",
-        "DISNEY",
+        "BARTSIMPSON",
         "POWERUP",
         "COMMANDCONQUER",
         "GENERATOR",
@@ -536,9 +536,9 @@
       "words": [
         "ROLEPLAY",
         "BRAKEFLUID",
-        "GECKO",
+        "BASS",
         "WIISPORTS",
-        "FISHING",
+        "BEAT",
         "FLORIST",
         "SAVEFILE",
         "THEBEAR",
@@ -551,10 +551,10 @@
     {
       "name": "Music & Dancing: Memory Lane",
       "words": [
-        "WARBLER",
+        "BESTSELLER",
         "QUAKE",
         "RVPARK",
-        "COLLECTION",
+        "BESTSELLING",
         "GAMELOBBY",
         "WASSUP",
         "SCRAPS",
@@ -610,7 +610,7 @@
         "ESPORTS",
         "VOLVO",
         "GOOFY",
-        "COUNTDOWN",
+        "BILLBOARD",
         "TREAD",
         "ASIF",
         "TOWEL"
@@ -662,7 +662,7 @@
         "BATTERY",
         "PIRATE",
         "ICONIC",
-        "MAPLE",
+        "BILLIEEILISH",
         "HALFPIPE",
         "CARCOVER"
       ]
@@ -690,9 +690,9 @@
         "POWERPOINT",
         "SEQUOIA",
         "PARKSANDRECREATION",
-        "VINEYARD",
+        "BIRTHDAYPARTY",
         "VLOGGER",
-        "FAMILYROOM",
+        "BLACKWIDOW",
         "LEBARON",
         "BIOSHOCK",
         "GRADIUS",
@@ -715,7 +715,7 @@
         "ABBA",
         "PARACHUTEPANTS",
         "SLIDEOUT",
-        "LAKE"
+        "BLADERUNNER"
       ]
     },
     {
@@ -723,7 +723,7 @@
       "words": [
         "HEROINE",
         "HATCHBACK",
-        "WIND",
+        "BLONDIE",
         "CROSSOVER",
         "ALTERNATIVEROCK",
         "YOUTUBE",
@@ -773,7 +773,7 @@
       "name": "Toys & Childhood: Everyday Memories",
       "words": [
         "NEEDLE",
-        "BLUEJAY",
+        "BLUES",
         "ELDERSCROLLS",
         "MODERNFAMILY",
         "METROID",
@@ -796,7 +796,7 @@
         "MILEYCYRUS",
         "NITRO",
         "VACUUM",
-        "BRAIN",
+        "BLUEY",
         "ROADMASTER",
         "COMMENT",
         "SWITCHBOARD",
@@ -833,7 +833,7 @@
         "REPAIR",
         "CHORUS",
         "LANCER",
-        "GALAXY",
+        "BONJOVI",
         "SAMUS"
       ]
     },
@@ -880,9 +880,9 @@
         "WINDOWSHOPPING",
         "SYNC",
         "GAMECREDITS",
-        "OWL",
+        "BOOKCLUB",
         "FILMSET",
-        "COZY",
+        "BOYBAND",
         "SEMITRUCK",
         "BASEBALL",
         "COMET"
@@ -897,7 +897,7 @@
         "WEIGHTS",
         "AVENGER",
         "DJSET",
-        "KITE",
+        "BREAKDANCE",
         "BATTING",
         "FIVEANDDIME",
         "ROUNDABOUT",
@@ -912,7 +912,7 @@
         "FERRARI",
         "DIRECTOR",
         "TUNEUP",
-        "PAPERBACK",
+        "BREAKINGBAD",
         "ELECTRIC",
         "PIKMINBLOOM",
         "WALLPAPER",
@@ -925,24 +925,24 @@
     {
       "name": "Main Street: Weekend Flashback",
       "words": [
-        "STABLE",
+        "BRIDGETON",
         "CELEBRITY",
         "RACECAR",
         "RADIATOR",
         "AVALON",
         "NBAJAM",
         "STARDEWVALLEY",
-        "EAGLE",
-        "DROUGHT",
+        "CABLECHANNEL",
+        "CABLETV",
         "GAMEPASS",
         "CORVETTE",
-        "PLAYSTATION"
+        "CANDYMAN"
       ]
     },
     {
       "name": "Fashion: Weekend Flashback",
       "words": [
-        "MINECRAFT",
+        "CARDGAME",
         "TORQUE",
         "HOPSCOTCH",
         "QUARTERHORSE",
@@ -953,7 +953,7 @@
         "PEAKYBLINDERS",
         "HONEY",
         "TOYSTORE",
-        "PUMPKIN"
+        "CARRIEUNDERWOOD"
       ]
     },
     {
@@ -985,9 +985,9 @@
         "PHONECARD",
         "TOLLBOOTH",
         "SONGLYRICS",
-        "SATELLITE",
+        "CASABLANCA",
         "SODA",
-        "KNITTING"
+        "CASSETTE"
       ]
     },
     {
@@ -1061,15 +1061,15 @@
     {
       "name": "Technology: Classic Moments",
       "words": [
-        "TRICKORTREAT",
+        "CASTINGCALL",
         "GAMEBOARD",
-        "FALLLEAVES",
+        "CDPLAYER",
         "WARIO",
         "VIDEOGAMER",
         "PULPFICTION",
         "NISSAN",
         "IRONING",
-        "WORD",
+        "CELEBRITYNEWS",
         "RAIL",
         "CREEPER",
         "DEADCELLS"
@@ -1088,7 +1088,7 @@
         "RACING",
         "VIPER",
         "ESCALADE",
-        "CHAPTER",
+        "CELEBRITYSTYLE",
         "CRYSTALBALL"
       ]
     },
@@ -1100,7 +1100,7 @@
         "SOULCALIBUR",
         "ELDENRING",
         "DOCTORSTRANGE",
-        "MUG",
+        "CELLO",
         "DRIVINGGAME",
         "FABRIC",
         "GAMER",
@@ -1115,15 +1115,15 @@
         "THECROWN",
         "INSURANCE",
         "WIIFIT",
-        "QUIETTIME",
+        "CHALLENGE",
         "ROME",
         "BIGBANGTHEORY",
         "THEOFFICE",
         "THEATER",
         "ROADHELP",
         "SCREAM",
-        "MIGRATION",
-        "BONFIRE"
+        "CHARTTOPPER",
+        "CHATROOM"
       ]
     },
     {
@@ -1182,7 +1182,7 @@
       "words": [
         "PLAYBUTTON",
         "SNACK",
-        "MIDNIGHT",
+        "CHER",
         "SANDDUNE",
         "JANETJACKSON",
         "FAMILYTRIP",
@@ -1204,7 +1204,7 @@
         "BOWSER",
         "PEGGLE",
         "BANJOTOOIE",
-        "PAUSE",
+        "CHICAGO",
         "LOAFERS",
         "PIE",
         "TOURBUS",
@@ -1220,7 +1220,7 @@
         "AGEOFEMPIRES",
         "FIFTHWHEEL",
         "SHOVELKNIGHT",
-        "RAVEN",
+        "CHOIR",
         "PICKUP",
         "STARTREK",
         "ARMYWOMEN",
@@ -1259,7 +1259,7 @@
         "WARFRAME",
         "CARTOON",
         "REMAKE",
-        "WONDER"
+        "CHOREOGRAPHY"
       ]
     },
     {
@@ -1291,7 +1291,7 @@
         "AUSTEN",
         "MINIVAN",
         "CARAVAN",
-        "HATCHLING",
+        "CINEMATIC",
         "SUNFIRE",
         "TREEHOUSE"
       ]
@@ -1308,7 +1308,7 @@
         "SPARETIRE",
         "POPMUSIC",
         "SCRUNCHIE",
-        "HUMIDITY",
+        "CLARINET",
         "SPACEINVADERS",
         "BODYGLITTER"
       ]
@@ -1324,7 +1324,7 @@
         "TOYOTA",
         "ROOF",
         "ROTARYCUTTER",
-        "DEW",
+        "CLASSIC",
         "CARSHOW",
         "CRUISECONTROL",
         "HALFLIFE"
@@ -1343,7 +1343,7 @@
         "HANDBAG",
         "MOTIONCONTROL",
         "SPELLBOOK",
-        "SEWING",
+        "CLASSICROCK",
         "PISTON"
       ]
     },
@@ -1359,7 +1359,7 @@
         "INTEREST",
         "WHISTLE",
         "GROCERY",
-        "SPACESHUTTLE",
+        "CLUELESS",
         "PATTERN",
         "EMINEM"
       ]
@@ -1371,8 +1371,8 @@
         "MOVIECLUB",
         "DANCEPARTY",
         "BIKE",
-        "LAUNCH",
-        "THREAD",
+        "COCO",
+        "COLDPLAY",
         "CIDER",
         "UNCHARTED",
         "CHICKEN",
@@ -1402,7 +1402,7 @@
       "name": "Entertainment: Retro Recall",
       "words": [
         "SQUIRTLE",
-        "BLACKCAT",
+        "COMEDIAN",
         "SORENTO",
         "GLOVES",
         "VALHEIM",
@@ -1424,7 +1424,7 @@
         "TRACTION",
         "CHARIZARD",
         "CAMCORDER",
-        "BLIZZARD",
+        "COMEDY",
         "RIO",
         "MEGADRIVE",
         "BORA",
@@ -1443,7 +1443,7 @@
         "ALIEN",
         "REARWHEEL",
         "SMOOTHIE",
-        "OSPREY",
+        "COMEDYNIGHT",
         "PAYPHONE",
         "FANMAIL",
         "MINIGOLF"
@@ -1480,7 +1480,7 @@
         "OPENMIC",
         "PEPRALLY",
         "MUSICSTREAM",
-        "EMBROIDERY"
+        "COMICARTIST"
       ]
     },
     {
@@ -1503,7 +1503,7 @@
     {
       "name": "Weekend Fun: Back in the Day",
       "words": [
-        "SHEEP",
+        "COMICCON",
         "SIDEQUEST",
         "MEDIAPLAYER",
         "CHROME",
@@ -1523,7 +1523,7 @@
         "HOTROD",
         "INSTAGRAM",
         "VERSE",
-        "LIZARD",
+        "CONCERTTOUR",
         "LAME",
         "MAROONFIVE",
         "MONITOR",
@@ -1538,9 +1538,9 @@
       "name": "Main Street: Back in the Day",
       "words": [
         "JACK",
-        "LETTER",
+        "COSPLAY",
         "DUSTER",
-        "PORCH",
+        "COSTUME",
         "SEARCHENGINE",
         "HITMAN",
         "WANDAVISION",
@@ -1582,7 +1582,7 @@
         "KARAOKEBAR",
         "ALLWHEEL",
         "STREAMER",
-        "CATFISH"
+        "COSTUMEPLAY"
       ]
     },
     {
@@ -1597,7 +1597,7 @@
         "CHECKPOINT",
         "SILENTHILL",
         "CHARCUTERIE",
-        "LEGO",
+        "CPO",
         "HITPOINTS",
         "SERVICESTATION"
       ]
@@ -1607,7 +1607,7 @@
       "words": [
         "SHENMUE",
         "COOKINGMAMA",
-        "STRETCH",
+        "CULTCLASSIC",
         "PHOENIXWRIGHT",
         "PROJECT",
         "FAMILYROADTRIP",
@@ -1743,5 +1743,12 @@
       "Sports and Hobbies"
     ],
     "checked_at": "2026-08-22T10:08:37"
+  },
+  "quality_review": {
+    "checked_at": "20260824-213612",
+    "source": "verified_word_intelligence_repair",
+    "verdict": "PASS_WITH_NOTES",
+    "production_ready": true,
+    "changes": 85
   }
 }
