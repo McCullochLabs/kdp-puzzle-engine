@@ -1,9 +1,9 @@
-"""Shared integration contract for marketplace adapters (Phase A).
+"""Shared integration contract for marketplace adapters.
 
-Phase A deliberately defines ONLY the read-only surface area: a configuration
-check plus a connection verification report.  Write capabilities (draft
-creation, file/image uploads, listing activation) are intentionally absent
-from this contract; they will be added in explicitly approved later phases.
+The base adapter deliberately defines only configuration and connection
+verification. Approved write workflows (such as Etsy draft creation and
+attachment uploads) live in separate, explicit services and advertise their
+individual capabilities through :class:`CapabilityFlags`.
 
 Not defining write methods here is a safety feature: an adapter cannot grow a
 write path by accident - it would have to extend this contract first, which

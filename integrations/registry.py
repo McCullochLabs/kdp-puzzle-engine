@@ -106,6 +106,12 @@ def _capabilities(**flags) -> dict:
     return CapabilityFlags(**flags).capability_dict
 
 
+def _etsy_capabilities() -> dict:
+    from integrations.etsy.capabilities import ETSY_CAPABILITIES
+
+    return ETSY_CAPABILITIES.capability_dict
+
+
 # Truthful system-wide capability advertisement per channel.  Etsy reflects
 # the committed connection + draft-automation surface (never activation);
 # amazon_kdp reflects the local export builder.  Planned channels advertise
@@ -113,8 +119,7 @@ def _capabilities(**flags) -> dict:
 _INTEGRATION_INFO = (
     {"key": "etsy", "display_name": "Etsy", "mode": _MODE_API,
      "requires_connection": True, "status": _STATUS_ACTIVE,
-     "capabilities": _capabilities(can_test_connection=True, can_create_draft=True,
-                                    can_upload_files=True, can_upload_images=True)},
+     "capabilities": _etsy_capabilities()},
     {"key": "amazon", "display_name": "Amazon KDP", "mode": _MODE_EXPORT_ONLY,
      "requires_connection": False, "status": _STATUS_ACTIVE,
      "export_key": "amazon_kdp",

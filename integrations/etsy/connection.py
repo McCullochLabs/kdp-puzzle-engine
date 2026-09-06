@@ -1,11 +1,12 @@
-"""Etsy read-only connection layer (Phase A).
+"""Etsy read-only connection-check component.
 
-This adapter can do exactly ONE remote thing: verify that stored Etsy
+This lower-level adapter does exactly one remote job: verify that stored Etsy
 credentials work and report which user/shop they belong to.  Every remote call
 is funnelled through :meth:`EtsyIntegration._guarded_get`, which only issues
 HTTP GETs against the two whitelisted read-only endpoints below - there is no
 code path in this module that can create, update, activate or delete anything
-on Etsy.
+on Etsy. Draft creation and attachment uploads are intentionally implemented
+by :mod:`integrations.etsy.draft_service`; listing activation remains manual.
 
 Read-only endpoints used (official Etsy Open API v3):
 - ``GET https://openapi.etsy.com/v3/application/users/me``
@@ -95,12 +96,7 @@ class EnvCredentialProvider:
 
 
 class EtsyIntegration(PublishingIntegration):
-    """Read-only Etsy connection verifier.
-
-    Truthful capability advertisement for Phase A: ONLY connection testing is
-    implemented.  Draft creation/uploads/activation exist in later phases and
-    are intentionally not even stubbed here (see integrations/base.py).
-    """
+    """Read-only connection verifier used by the wider Etsy service."""
 
     key = "etsy"
     label = "Etsy"

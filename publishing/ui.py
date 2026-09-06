@@ -70,8 +70,10 @@ def draft_action_enabled(row: dict | None) -> bool:
     """
     if not row:
         return False
+    info = integration_info_for("etsy")
     return (
         row.get("key") == "etsy"
+        and bool((info or {}).get("capabilities", {}).get("can_create_draft"))
         and bool(row.get("has_local_folder"))
         and row.get("status") not in ("Uploaded", "Published")
     )

@@ -1,4 +1,6 @@
-Pillow
-pypdf
-reportlab
-websocket-client
+Pillow==12.3.0
+pypdf==6.17.0
+pypdfium2==5.13.0
+reportlab==5.0.1
+websocket-client==1.9.2
+wordfreq==3.1.1

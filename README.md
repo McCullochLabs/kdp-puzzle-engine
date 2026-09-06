@@ -1,7 +1,7 @@
 # KDP Puzzle Engine
 
 [![CI](https://github.com/vijaxx/kdp-puzzle-engine/actions/workflows/ci.yml/badge.svg)](https://github.com/vijaxx/kdp-puzzle-engine/actions/workflows/ci.yml)
-![Python](https://img.shields.io/badge/python-3.11-blue)
+![Python](https://img.shields.io/badge/python-3.13.11%2064--bit-blue)
 [![License: MIT](https://img.shields.io/badge/license-MIT-green)](LICENSE)
 
 Creates polished, print-ready puzzle-book packages for Amazon KDP: Word Search, Sudoku, Cryptograms, and Word Scramble + Trivia. The app builds the interior, cover, full wrap, listing kit, and proof reports together.
@@ -38,11 +38,30 @@ Python, ReportLab (PDF generation), Pillow (cover rendering), and local JSON lib
 
 ## Running it
 
+The supported development and desktop runtime is **64-bit CPython 3.13.11**.
+Create a fresh virtual environment from that exact interpreter, install
+`requirements-dev.txt`, then verify it before running the app:
+
 ```
-pip install -r requirements.txt
-python3 wordsearch.py --themes themes/nature.json --out out/nature.pdf
-python3 preflight.py out/beach-vacation/                    # compliance check before upload
+python -m venv .venv
+.venv\Scripts\python.exe -m pip install -r requirements-dev.txt
+.venv\Scripts\python.exe tools\check_runtime.py
+.venv\Scripts\python.exe tools\validate_themes.py
+.venv\Scripts\python.exe wordsearch.py --themes themes/nature.json --out out/nature.pdf
 ```
+
+`tools\validate_themes.py` calls the application's canonical project checker,
+checks the complete organized theme library without modifying it, and exits
+non-zero on any problem. CI runs both the runtime and theme checks.
+
+## Etsy integration
+
+Etsy support is capability-specific. The app can test the stored connection,
+create an authenticated **draft** listing, upload its supported digital file,
+and upload listing images. It cannot activate or delete listings and does not
+retrieve orders or sales. A person must review and publish every draft in Etsy
+Shop Manager. Local Etsy package and bundle preparation remains available
+without making a listing live.
 
 ## Windows Word Search Creator
 

@@ -34,6 +34,7 @@ from typing import Callable, List, Optional
 
 from integrations.errors import AuthError, IntegrationError, NotConfiguredError, PermanentError, TransientError
 from integrations.etsy.drafts import EtsyDraftClient
+from integrations.etsy.capabilities import ETSY_CAPABILITIES
 from integrations.etsy.session import EtsySession, load_credentials
 
 # Etsy's documented per-file limit for digital listings; kept in step with
@@ -147,7 +148,13 @@ def build_draft_fields(metadata: dict, taxonomy_id: int, price: float) -> dict:
 
 
 class EtsyDraftService:
-    """One entry point: :meth:`create_or_resume`, always ending in a DraftResult."""
+    """Current Etsy write service, limited to drafts and attachments.
+
+    Its one entry point is :meth:`create_or_resume`, which always returns a
+    :class:`DraftResult` and never activates a listing.
+    """
+
+    capabilities = ETSY_CAPABILITIES
 
     def __init__(
         self,
