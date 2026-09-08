@@ -1,5 +1,13 @@
 # Word Search Creator — Version History
 
+## 3.80.1 — 2026-09-07
+
+- Made the remaining high-use creation, cover, review, publishing, queue, and connection dialogs respect the usable Windows work area instead of extending behind the taskbar.
+- Preserved page-level scrolling in the Guided Builder, Book Blueprint, Theme Builder, Content Capacity, and operator workflow screens on shorter displays.
+- Fixed Publishing Manager SQLite connections so every completed operation releases its Windows file handle, preventing locked temporary databases and improving clean shutdown/recovery behavior.
+- Strengthened the UI smoke run to cover Publishing Center, readiness, queues, Recovery Center, series map, Puzzle Studio, cover gallery, Create New Book, and Book Control Center.
+- Verified the complete application with 746 passing automated tests and canonical validation of all 254 themes.
+
 ## 3.80.0 — 2026-09-05
 
 - Repaired the cover gallery's artwork/layout mismatch: every gallery card now renders the exact approved image named on the card.

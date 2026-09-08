@@ -118,6 +118,17 @@ def add_hover_help(widget: tk.Widget, message: str) -> None:
     HoverHelp(widget, message)
 
 
+def fit_dialog_to_screen(window: tk.Toplevel, width: int, height: int,
+                         min_width: int = 640, min_height: int = 460) -> None:
+    """Keep secondary windows above the taskbar on common laptop screens."""
+    usable_width = max(760, window.winfo_screenwidth() - 70)
+    usable_height = max(500, window.winfo_screenheight() - 110)
+    actual_width = min(width, usable_width)
+    actual_height = min(height, usable_height)
+    window.geometry(f"{actual_width}x{actual_height}")
+    window.minsize(min(min_width, actual_width), min(min_height, actual_height))
+
+
 def scrollable_dialog_page(dialog: tk.Toplevel, *, padding: int = 18) -> ttk.Frame:
     """Return a dialog page that stays reachable on shorter Windows screens.
 
@@ -2412,7 +2423,7 @@ class BuyerPreviewDialog(tk.Toplevel):
         self.archive_choice = tk.BooleanVar(value=bool(settings.get("archive_after_package")))
         self.signature_choice = tk.BooleanVar(value=signature_requested(settings))
         self.title("Final Book Review")
-        self.geometry("980x680")
+        fit_dialog_to_screen(self, 980, 680)
         self.minsize(760, 560)
         self.transient(parent)
         self.grab_set()
@@ -2634,7 +2645,7 @@ class WordIntelligenceCenterDialog(tk.Toplevel):
     def __init__(self, parent: "WordSearchCreator") -> None:
         super().__init__(parent)
         self.title("Word Intelligence Center")
-        self.geometry("860x640")
+        fit_dialog_to_screen(self, 860, 640)
         self.minsize(700, 500)
         self.transient(parent)
         self.parent = parent
@@ -3388,7 +3399,7 @@ class BookBlueprintDialog(tk.Toplevel):
         super().__init__(parent)
         self.parent = parent
         self.title("Book Blueprint Wizard")
-        self.geometry("800x740")
+        fit_dialog_to_screen(self, 800, 740)
         self.minsize(700, 650)
         self.transient(parent)
         self.grab_set()
@@ -3619,7 +3630,7 @@ class CoverCreatorDialog(tk.Toplevel):
         super().__init__(parent)
         self.parent = parent
         self.title("Cover Creator")
-        self.geometry("760x720")
+        fit_dialog_to_screen(self, 760, 720)
         self.minsize(650, 620)
         self.transient(parent)
         self.grab_set()
@@ -4474,7 +4485,7 @@ class ProductionQueueDialog(tk.Toplevel):
 class CoverVariantGallery(tk.Toplevel):
     OPTIONS = [("Gallery Frame","midnight-gold"),("Color Block","tropical-pop"),("Halo Spotlight","royal-plum"),("Ticket Stub","autumn-harvest"),("Diagonal Stripe","coastal-blue"),("Retro Pop","berry-blush")]
     def __init__(self,parent):
-        super().__init__(parent); self.parent=parent; self.title("Cover Gallery"); self.geometry("900x700"); self.transient(parent); self.status=tk.StringVar(value="Creating six distinct cover ideas…"); self.images=[]; self.refresh_offset=0
+        super().__init__(parent); self.parent=parent; self.title("Cover Gallery"); fit_dialog_to_screen(self, 900, 700); self.transient(parent); self.status=tk.StringVar(value="Creating six distinct cover ideas…"); self.images=[]; self.refresh_offset=0
         self.settings = parent._studio_cover_settings()
         ttk.Label(self,text="COVER VARIATIONS",font=("Segoe UI",18,"bold")).pack(anchor="w",padx=18,pady=(18,2)); ttk.Label(self,text="Compare strong cover directions at Amazon-style thumbnail size. If you selected a picture, Photo Hero is included too. Click one to apply it in Book Studio.").pack(anchor="w",padx=18)
         self.grid_frame=ttk.Frame(self,padding=18); self.grid_frame.pack(fill="both",expand=True); footer=ttk.Frame(self); footer.pack(fill="x",padx=18,pady=(0,14)); ttk.Label(footer,textvariable=self.status).pack(side="left",fill="x",expand=True); ttk.Button(footer,text="Refresh Cover Ideas",command=self.refresh).pack(side="right"); threading.Thread(target=self._make,daemon=True).start()
@@ -4534,7 +4545,7 @@ class OpenClipartPickerDialog(tk.Toplevel):
         self.parent = parent
         self.on_selected = on_selected
         self.title("OpenClipart Cover Art")
-        self.geometry("920x700")
+        fit_dialog_to_screen(self, 920, 700)
         self.minsize(720, 520)
         self.transient(parent)
         self.query = tk.StringVar(value=query)
@@ -4689,7 +4700,7 @@ class ReleaseManagerDialog(tk.Toplevel):
         super().__init__(parent)
         self.parent = parent
         self.title("My Books Dashboard")
-        self.geometry("1120x700")
+        fit_dialog_to_screen(self, 1120, 700)
         self.minsize(880, 520)
         self.transient(parent)
         self.catalog = load_release_catalog()
@@ -4968,7 +4979,7 @@ class VisualProofingDialog(tk.Toplevel):
         super().__init__(parent)
         self.parent = parent
         self.title("Visual Proofing Center")
-        self.geometry("980x700")
+        fit_dialog_to_screen(self, 980, 700)
         self.minsize(820, 600)
         self.transient(parent)
         self.status = tk.StringVar(value="Run the proof check to review this book and its finished package.")
@@ -5078,7 +5089,7 @@ class SeriesExpansionDialog(tk.Toplevel):
     """Create the next distinct book in a series from a fresh word bank."""
     def __init__(self, parent: "WordSearchCreator", initial_source: Path | None = None) -> None:
         super().__init__(parent); self.parent = parent; self.title("Series Expansion")
-        self.geometry("780x680"); self.minsize(680, 580); self.transient(parent); self.grab_set()
+        fit_dialog_to_screen(self, 780, 680, 680, 500); self.transient(parent); self.grab_set()
         self.paths = saved_theme_files(); self.source = tk.StringVar(); self.title_value = tk.StringVar(); self.subtitle = tk.StringVar(); self.series = tk.StringVar(); self.status = tk.StringVar(value="Choose an existing book, then import a fresh word bank for its companion edition.")
         self._build()
         if initial_source and initial_source in self.paths:
@@ -5392,7 +5403,7 @@ def recommended_builder_count(capacity: int, requested_count: int | None = None)
 class GuidedBookBuilderDialog(tk.Toplevel):
     """Single-screen production path from a clean word bank to an approved package."""
     def __init__(self, parent: "WordSearchCreator", initial_topic: str = "", initial_pack: str = "", initial_count: int | None = None) -> None:
-        super().__init__(parent); self.parent=parent; self.title("Guided Book Builder"); self.geometry("940x790"); self.minsize(780,680); self.transient(parent); self.grab_set()
+        super().__init__(parent); self.parent=parent; self.title("Guided Book Builder"); fit_dialog_to_screen(self, 940, 790, 780, 500); self.transient(parent); self.grab_set()
         self.topic=tk.StringVar(value=initial_topic); self.title_value=tk.StringVar(); self.subtitle=tk.StringVar(); self.audience=tk.StringVar(value="Adults & Teens"); self.buyer_angle=tk.StringVar(value="Relaxation"); self.words_each=tk.StringVar(value="12"); self.requested_count=initial_count; self.count=tk.StringVar(value=str(initial_count or 48)); self.mood=tk.StringVar(value="Calm and natural"); self.topic_pack=tk.StringVar(); self.master_library=load_master_word_bank(); self.pack_choice_map=self._grouped_pack_choices(); self.explanation=tk.StringVar(value="Add a topic and word bank to see recommendations."); self.review=tk.StringVar(value="Create the plan to unlock the final review and approval step."); self.status=tk.StringVar(value="Step 1: import a word bank or paste words."); self.created_path: Path|None=None; self._build()
         if initial_pack:
             choice = resolve_topic_pack_choice(initial_pack, self.pack_choice_map)
@@ -5529,7 +5540,7 @@ class SeriesBuilderDialog(tk.Toplevel):
     PALETTES = ("holly-jolly", "spooky-night", "autumn-harvest", "coastal-blue", "royal-plum", "forest-cabin", "midnight-gold", "tropical-pop", "scholarly-blue", "notebook-mint", "library-burgundy", "starlight-indigo", "citrus-study", "graphite-copper", "pixel-neon", "cinema-red")
     STYLES = ("Gallery Frame", "Color Block", "Halo Spotlight", "Ticket Stub", "Diagonal Stripe", "Retro Pop")
     def __init__(self, parent):
-        super().__init__(parent); self.parent=parent; self.title("Series Factory"); self.geometry("760x650"); self.minsize(680, 560); self.transient(parent); self.grab_set()
+        super().__init__(parent); self.parent=parent; self.title("Series Factory"); fit_dialog_to_screen(self, 760, 650, 680, 500); self.transient(parent); self.grab_set()
         self.name=tk.StringVar(value="My Word Search Collection"); self.palette=tk.StringVar(value=self.PALETTES[0]); self.style=tk.StringVar(value=self.STYLES[0]); self.organize=tk.BooleanVar(value=False); self.lock_visuals=tk.BooleanVar(value=True); self.paths=saved_theme_files(); self.row_paths={}; self._build()
     def _build(self):
         frame=ttk.Frame(self,padding=18); frame.pack(fill="both",expand=True); frame.columnconfigure(1,weight=1); frame.rowconfigure(3,weight=1)
@@ -5640,7 +5651,7 @@ class ProductionHistoryDialog(tk.Toplevel):
 class ThemeDashboardDialog(tk.Toplevel):
     """A visual, scannable view of every active production theme."""
     def __init__(self, parent: "WordSearchCreator") -> None:
-        super().__init__(parent); self.parent = parent; self.title("Theme Dashboard"); self.geometry("1050x720"); self.minsize(820, 560); self.transient(parent)
+        super().__init__(parent); self.parent = parent; self.title("Theme Dashboard"); fit_dialog_to_screen(self, 1050, 720, 760, 500); self.transient(parent)
         self.filter = tk.StringVar(); self.ready_only = tk.BooleanVar(value=False); self._build(); self.refresh()
 
     def _build(self) -> None:

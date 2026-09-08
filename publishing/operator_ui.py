@@ -73,7 +73,7 @@ class ContentReviewDialog(tk.Toplevel):
     """Focused individual-candidate review; intentionally has no approve-all."""
     def __init__(self, parent, service: OperatorStatusService, batch_path: Path) -> None:
         super().__init__(parent); self.service, self.batch_path = service, batch_path
-        self.title("Content review"); self.geometry("920x650"); self.minsize(680, 460); self.configure(background="#101418"); self.transient(parent)
+        self.title("Content review"); fit_dialog_to_screen(self, 920, 650, 680, 460); self.configure(background="#101418"); self.transient(parent)
         data = json.loads(batch_path.read_text(encoding="utf-8-sig")); self.topic = str(data.get("topic_id") or "")
         self.rows = {str(row.get("content_id") or ""): row for row in data.get("records") or [] if isinstance(row, dict)}
         root = ttk.Frame(self, padding=18); root.pack(fill="both", expand=True); root.columnconfigure(0, weight=1); root.rowconfigure(2, weight=1)

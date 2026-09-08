@@ -1501,7 +1501,7 @@ class UploadStatusDialog(tk.Toplevel):
     def __init__(self, parent, service, book: dict, on_saved, initial_marketplace: str = "") -> None:
         super().__init__(parent); self.service, self.book, self.on_saved = service, book, on_saved
         self.initial_marketplace = initial_marketplace
-        self.title("Upload status"); self.geometry("850x590"); self.minsize(700, 500); self.configure(background="#1f1f1f"); self.transient(parent)
+        self.title("Upload status"); fit_dialog_to_screen(self, 850, 590, 700, 500); self.configure(background="#1f1f1f"); self.transient(parent)
         self.marketplace = tk.StringVar(value="amazon"); self.status_value = tk.StringVar(); self.external_id = tk.StringVar(); self.url = tk.StringVar(); self.updated = tk.StringVar()
         self._build(); self._apply_initial_marketplace(); self._load_record()
 
@@ -1574,7 +1574,7 @@ class EtsyBundleDialog(tk.Toplevel):
     """Build a compliant Etsy digital bundle from finished customer PDFs."""
     def __init__(self, parent, service, on_created) -> None:
         super().__init__(parent); self.service, self.on_created = service, on_created
-        self.title("Create Etsy Bundle"); self.geometry("920x650"); self.minsize(760, 520); self.configure(background="#1f1f1f"); self.transient(parent)
+        self.title("Create Etsy Bundle"); fit_dialog_to_screen(self, 920, 650, 760, 500); self.configure(background="#1f1f1f"); self.transient(parent)
         self.title_value = tk.StringVar(value=f"{ETSY_STORE_NAME} Printable Puzzle Book Bundle")
         self.price = tk.StringVar(value="12.99"); self.price_note = tk.StringVar(value="Choose two or more books to calculate a bundle recommendation."); self.status = tk.StringVar(value="Choose two or more completed books. Only buyer-ready digital PDFs are shown.")
         self.books = {book["book_id"]: book for book in service.etsy_bundle_candidates()}; self._build()
@@ -1868,7 +1868,7 @@ class ListingReviewDialog(tk.Toplevel):
 class RecoveryCenterDialog(tk.Toplevel):
     """Detect partial packages and expose only deliberate, reversible actions."""
     def __init__(self, parent, service, on_changed) -> None:
-        super().__init__(parent); self.service,self.on_changed=service,on_changed; self.title("Recovery center"); self.geometry("980x600"); self.minsize(700,440); self.configure(background="#101418"); self.transient(parent)
+        super().__init__(parent); self.service,self.on_changed=service,on_changed; self.title("Recovery center"); fit_dialog_to_screen(self, 980, 600, 700, 440); self.configure(background="#101418"); self.transient(parent)
         root=ttk.Frame(self,padding=20,style="Publish.TFrame"); root.pack(fill="both",expand=True); root.columnconfigure(0,weight=1); root.rowconfigure(2,weight=1)
         ttk.Label(root,text="Recovery center",style="Publish.Title.TLabel").grid(row=0,column=0,sticky="w")
         ttk.Label(root,text="Incomplete attempts are detected automatically. Opening, retrying, and marking a catalog record are safe; archiving moves only the selected partial folder into an on-disk recovery archive after confirmation.",style="Publish.Subtitle.TLabel",wraplength=900).grid(row=1,column=0,sticky="w",pady=(4,12))
@@ -1922,7 +1922,7 @@ class RecoveryCenterDialog(tk.Toplevel):
 class SeriesMapDialog(tk.Toplevel):
     """A visual planning map built from the same saved catalog used by production."""
     def __init__(self, parent, service) -> None:
-        super().__init__(parent); self.service=service; self.title("Visual series map"); self.geometry("1080x650"); self.minsize(760,460); self.configure(background="#101418"); self.transient(parent)
+        super().__init__(parent); self.service=service; self.title("Visual series map"); fit_dialog_to_screen(self, 1080, 650, 760, 460); self.configure(background="#101418"); self.transient(parent)
         root=ttk.Frame(self,padding=20,style="Publish.TFrame"); root.pack(fill="both",expand=True); root.columnconfigure(0,weight=1); root.rowconfigure(2,weight=1)
         ttk.Label(root,text="Visual series map",style="Publish.Title.TLabel").grid(row=0,column=0,sticky="w")
         ttk.Label(root,text="Every planned and completed book is grouped by series. Readiness comes from the same package and queue records that the Publishing Center uses.",style="Publish.Subtitle.TLabel",wraplength=1000).grid(row=1,column=0,sticky="w",pady=(4,12))
@@ -2106,7 +2106,7 @@ class ApprovedProductionQueueDialog(tk.Toplevel):
     """One intentional, one-at-a-time route from approval to package creation."""
     def __init__(self, parent: PublishingManagerDialog, service, on_changed) -> None:
         super().__init__(parent); self.parent_manager, self.service, self.on_changed = parent, service, on_changed
-        self.title("Approved production queue"); self.geometry("900x590"); self.minsize(680, 440); self.configure(background="#101418"); self.transient(parent)
+        self.title("Approved production queue"); fit_dialog_to_screen(self, 900, 590, 680, 440); self.configure(background="#101418"); self.transient(parent)
         root = ttk.Frame(self, padding=20, style="Publish.TFrame"); root.pack(fill="both", expand=True); root.columnconfigure(0, weight=1); root.rowconfigure(2, weight=1)
         ttk.Label(root, text="Approved production queue", style="Publish.Title.TLabel").grid(row=0, column=0, sticky="w")
         ttk.Label(root, text="These are the books you deliberately approved. Start one at a time; the normal complete-package flow and all proof checks still run before anything is ready for upload.", style="Publish.Subtitle.TLabel", wraplength=820).grid(row=1, column=0, sticky="w", pady=(4, 12))
@@ -2183,7 +2183,7 @@ class BatchReviewDialog(tk.Toplevel):
     """A compact approval queue for selected completed books."""
     def __init__(self, parent, service, books: list[dict], on_changed) -> None:
         super().__init__(parent); self.service, self.books, self.on_changed = service, books, on_changed
-        self.title("Batch review queue"); self.geometry("900x620"); self.minsize(700, 460); self.configure(background="#1f1f1f"); self.transient(parent)
+        self.title("Batch review queue"); fit_dialog_to_screen(self, 900, 620, 700, 460); self.configure(background="#1f1f1f"); self.transient(parent)
         root = ttk.Frame(self, padding=20, style="Publish.TFrame"); root.pack(fill="both", expand=True); root.columnconfigure(0, weight=1); root.rowconfigure(2, weight=1)
         ttk.Label(root, text="Batch review queue", style="Publish.Title.TLabel").grid(row=0, column=0, sticky="w")
         ttk.Label(root, text="Only books that pass their marketplace checks are prepared. This creates local handoff folders; it never uploads or publishes.", style="Publish.Subtitle.TLabel", wraplength=820).grid(row=1, column=0, sticky="w", pady=(4, 12))
@@ -2595,7 +2595,7 @@ class MarketplaceConnectionsDialog(tk.Toplevel):
 
     def __init__(self, parent) -> None:
         super().__init__(parent)
-        self.title("Marketplace connections"); self.geometry("820x650"); self.minsize(680, 540)
+        self.title("Marketplace connections"); fit_dialog_to_screen(self, 820, 650, 680, 500)
         self.configure(background="#1f1f1f"); self.transient(parent)
         root = ttk.Frame(self, padding=22, style="Publish.TFrame"); root.pack(fill="both", expand=True)
         root.columnconfigure(0, weight=1); root.rowconfigure(3, weight=1)
@@ -2886,7 +2886,7 @@ class EtsyConnectDialog(tk.Toplevel):
         super().__init__(parent)
         self.parent_dialog = parent; self.on_done = on_done
         self.pkce = None; self.oauth_state = ""; self.keystring_value = ""
-        self.title("Connect Etsy"); self.geometry("720x600"); self.minsize(600, 520)
+        self.title("Connect Etsy"); fit_dialog_to_screen(self, 720, 600, 600, 500)
         self.configure(background="#1f1f1f"); self.transient(parent)
         root = ttk.Frame(self, padding=22, style="Publish.TFrame"); root.pack(fill="both", expand=True)
         root.columnconfigure(1, weight=1); root.rowconfigure(7, weight=1)

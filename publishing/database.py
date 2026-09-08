@@ -14,12 +14,22 @@ MARKETPLACES = ("amazon", "etsy", "ingram", "website", "lulu", "bookvault", "bar
 PROTECTED_STATUSES = ("Uploaded", "Published")
 
 
+class _ClosingConnection(sqlite3.Connection):
+    """Commit/rollback like sqlite3's context manager, then release the file."""
+
+    def __exit__(self, exc_type, exc_value, traceback):
+        try:
+            return super().__exit__(exc_type, exc_value, traceback)
+        finally:
+            self.close()
+
+
 class PublishingDatabase:
     def __init__(self, db_path: Path) -> None:
         self.db_path = db_path; self.db_path.parent.mkdir(parents=True, exist_ok=True); self._setup()
 
     def _connect(self) -> sqlite3.Connection:
-        connection = sqlite3.connect(self.db_path); connection.row_factory = sqlite3.Row; return connection
+        connection = sqlite3.connect(self.db_path, factory=_ClosingConnection); connection.row_factory = sqlite3.Row; return connection
 
     def _setup(self) -> None:
         with self._connect() as db:

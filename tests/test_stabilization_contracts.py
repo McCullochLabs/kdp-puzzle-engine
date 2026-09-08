@@ -8,6 +8,7 @@ from publishing.ui import draft_action_enabled
 from tools.check_runtime import runtime_errors
 from project_checks import run_project_check
 from tools.validate_themes import validate
+from publishing.database import PublishingDatabase
 
 
 def test_runtime_is_exact_supported_64_bit_cpython():
@@ -83,3 +84,11 @@ def test_etsy_draft_service_exposes_real_operation_path():
     assert callable(EtsyDraftService.create_or_resume)
     assert draft_action_enabled({"key": "etsy", "has_local_folder": True,
                                  "status": "Ready"})
+
+
+def test_publishing_database_releases_windows_file_handle(tmp_path):
+    path = tmp_path / "books.db"
+    database = PublishingDatabase(path)
+    database.list_books()
+    path.unlink()
+    assert not path.exists()
