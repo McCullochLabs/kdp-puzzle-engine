@@ -1,0 +1,260 @@
+{
+  "name": "Focused vocabulary and original scene candidates",
+  "version": "candidate-2026-10-09",
+  "status": "REVIEW_REQUIRED",
+  "note": "Candidates only; retain existing editorial and factual gates. Six-item pools are not full-book capacity.",
+  "packs": {
+    "Gardening & Growing": {
+      "cryptograms": [
+        "A ROW OF SEED TRAYS FILLS THE SUNNY WINDOW.",
+        "THE GARDENER TUCKS FRESH MULCH AROUND THE ROSES.",
+        "A WHEELBARROW WAITS BESIDE THE COMPOST HEAP.",
+        "RAIN LEAVES SILVER DROPS ON THE CABBAGE LEAVES.",
+        "THE OLD TROWEL HAS A SMOOTH WOODEN HANDLE.",
+        "BEANS CLIMB THE TRELLIS ABOVE A BED OF LETTUCE."
+      ],
+      "trivia": [
+        [
+          "TROWEL",
+          "Which small hand tool has a scoop-shaped blade for planting?",
+          "Trowel"
+        ],
+        [
+          "MULCH",
+          "What covering is spread over soil to reduce evaporation and suppress weeds?",
+          "Mulch"
+        ],
+        [
+          "LOAM",
+          "What soil texture combines sand, silt, and clay in a balanced mixture?",
+          "Loam"
+        ],
+        [
+          "COTYLEDON",
+          "What is the botanical term for a seed leaf?",
+          "Cotyledon"
+        ],
+        [
+          "SECATEURS",
+          "What handheld cutting tool is also called pruning shears?",
+          "Secateurs"
+        ],
+        [
+          "GERMINATION",
+          "What process begins when a seed starts to grow?",
+          "Germination"
+        ]
+      ]
+    },
+    "Space & Astronomy": {
+      "cryptograms": [
+        "THE OBSERVER ADJUSTS THE EYEPIECE IN THE QUIET DARK.",
+        "A STAR CHART RESTS BESIDE THE FOLDED TELESCOPE CASE.",
+        "MOONLIGHT OUTLINES THE ROOF OF THE OBSERVATORY.",
+        "THE TELESCOPE TURNS SLOWLY TOWARD THE EASTERN SKY.",
+        "A NOTEBOOK HOLDS SKETCHES FROM A NIGHT OF STARGAZING.",
+        "THE LAST PORCH LIGHT GOES OUT BEFORE THE WATCH BEGINS."
+      ],
+      "trivia": [
+        [
+          "APHELION",
+          "What is the point in an orbit farthest from the Sun called?",
+          "Aphelion"
+        ],
+        [
+          "PERIHELION",
+          "What is the point in an orbit nearest the Sun called?",
+          "Perihelion"
+        ],
+        [
+          "EYEPIECE",
+          "Which telescope component does the observer look through?",
+          "Eyepiece"
+        ],
+        [
+          "REGOLITH",
+          "What term describes loose material covering solid rock on the Moon?",
+          "Regolith"
+        ],
+        [
+          "BARYCENTER",
+          "What is the common center of mass around which orbiting bodies move?",
+          "Barycenter"
+        ],
+        [
+          "APERTURE",
+          "What term describes the diameter of a telescope opening that gathers light?",
+          "Aperture"
+        ]
+      ]
+    },
+    "Baking & Desserts": {
+      "cryptograms": [
+        "THE BAKER DUSTS THE WOODEN BOARD WITH FLOUR.",
+        "A WARM LOAF RESTS ON THE WIRE COOLING RACK.",
+        "THE ROLLING PIN LEAVES A FINE TRAIL OF FLOUR.",
+        "A PASTRY BRUSH SITS BESIDE THE EMPTY MIXING BOWL.",
+        "THE DOUGH RISES UNDER A CLEAN LINEN TOWEL.",
+        "A CRIMPED PIE CRUST FRAMES THE APPLE FILLING."
+      ],
+      "trivia": [
+        [
+          "WHISK",
+          "Which kitchen tool uses loops of wire to beat ingredients together?",
+          "Whisk"
+        ],
+        [
+          "SIFTING",
+          "What process passes flour through a sieve to break up lumps?",
+          "Sifting"
+        ],
+        [
+          "KNEADING",
+          "What process works dough by repeatedly pressing and folding it?",
+          "Kneading"
+        ],
+        [
+          "PROOFING",
+          "What is the final rise of shaped bread dough before baking called?",
+          "Proofing"
+        ],
+        [
+          "LAMINATION",
+          "What pastry technique creates alternating layers of dough and fat?",
+          "Lamination"
+        ],
+        [
+          "DOCKING",
+          "What is pricking pastry with small holes before baking called?",
+          "Docking"
+        ]
+      ]
+    },
+    "Ocean & Marine Life": {
+      "cryptograms": [
+        "A HERMIT CRAB DISAPPEARS BENEATH A SHELF OF ROCK.",
+        "THE RETREATING TIDE LEAVES RIPPLES IN THE SAND.",
+        "A SMALL BOAT ROCKS BESIDE THE WEATHERED PIER.",
+        "FOAM CURLS AROUND THE BASE OF THE SEA STACK.",
+        "THE SHORELINE BENDS TOWARD A QUIET SALT MARSH.",
+        "A SHELL RESTS IN THE CLEAR WATER OF A TIDE POOL."
+      ],
+      "trivia": [
+        [
+          "ESTUARY",
+          "What coastal area is where river water mixes with seawater?",
+          "Estuary"
+        ],
+        [
+          "SALINITY",
+          "What term measures the concentration of dissolved salts in water?",
+          "Salinity"
+        ],
+        [
+          "UPWELLING",
+          "What process brings deeper ocean water toward the surface?",
+          "Upwelling"
+        ],
+        [
+          "BARNACLE",
+          "Which crustacean commonly attaches itself to rocks inside hard plates?",
+          "Barnacle"
+        ],
+        [
+          "CUTTLEFISH",
+          "Which marine mollusk has an internal structure called a cuttlebone?",
+          "Cuttlefish"
+        ],
+        [
+          "THERMOCLINE",
+          "What water layer has a rapid temperature change with depth?",
+          "Thermocline"
+        ]
+      ]
+    },
+    "Arts & Crafts": {
+      "cryptograms": [
+        "THE POTTER CENTERS A LUMP OF CLAY ON THE WHEEL.",
+        "A PATCHWORK QUILT HANGS OVER THE BACK OF A CHAIR.",
+        "THE PAPER CRANE CASTS A SMALL SHADOW ON THE DESK.",
+        "A BOBBIN OF BLUE THREAD ROLLS ACROSS THE TABLE.",
+        "THE ARTIST TRIMS A STENCIL WITH CAREFUL CUTS.",
+        "A ROW OF GLAZED BOWLS WAITS ON THE STUDIO SHELF."
+      ],
+      "trivia": [
+        [
+          "KILN",
+          "What furnace is used to fire pottery?",
+          "Kiln"
+        ],
+        [
+          "THIMBLE",
+          "What small protective cap helps a finger push a sewing needle?",
+          "Thimble"
+        ],
+        [
+          "ORIGAMI",
+          "What paper art creates shapes primarily through folding?",
+          "Origami"
+        ],
+        [
+          "BOBBIN",
+          "What small spool holds thread in a sewing machine?",
+          "Bobbin"
+        ],
+        [
+          "QUILLING",
+          "What paper craft uses rolled narrow strips to make designs?",
+          "Quilling"
+        ],
+        [
+          "GREENWARE",
+          "What is shaped pottery called before its first firing?",
+          "Greenware"
+        ]
+      ]
+    },
+    "Travel & Adventure": {
+      "cryptograms": [
+        "THE HIKER FOLDS THE MAP ALONG ITS WORN CREASES.",
+        "A FOOTBRIDGE CROSSES THE STREAM BELOW THE TRAIL.",
+        "THE TENT GUYLINES HUM IN THE EVENING BREEZE.",
+        "A HEADLAMP LIGHTS THE PATH BACK TO THE CAMPSITE.",
+        "THE SWITCHBACK LEADS TO A VIEW OF THE VALLEY.",
+        "A COMPASS AND NOTEBOOK FIT INSIDE THE SIDE POCKET."
+      ],
+      "trivia": [
+        [
+          "CONTOUR",
+          "What map line joins points at the same elevation?",
+          "Contour"
+        ],
+        [
+          "LEGEND",
+          "What part of a map explains its symbols?",
+          "Legend"
+        ],
+        [
+          "SWITCHBACK",
+          "What sharp bend allows a trail to zigzag up a slope?",
+          "Switchback"
+        ],
+        [
+          "TRAILHEAD",
+          "What is the access point where a trail begins called?",
+          "Trailhead"
+        ],
+        [
+          "GUYLINE",
+          "What cord helps brace and stabilize a tent?",
+          "Guyline"
+        ],
+        [
+          "CAIRN",
+          "What pile of stones can serve as a trail marker?",
+          "Cairn"
+        ]
+      ]
+    }
+  }
+}

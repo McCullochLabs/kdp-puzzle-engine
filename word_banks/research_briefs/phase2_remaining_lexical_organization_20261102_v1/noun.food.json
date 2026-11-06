@@ -1,0 +1,159 @@
+{
+  "schema_version": 1,
+  "research_status": "REVIEW_REQUIRED_NOT_APPROVED",
+  "lexical_review_group": "noun.food",
+  "records": [
+    {
+      "normalized": "BRIE",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "Brie",
+          "synset": "n:07852614",
+          "lexical_category": "noun.food",
+          "definition": "soft creamy white cheese; milder than Camembert"
+        }
+      ],
+      "candidate_categories": [
+        "noun.food"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    },
+    {
+      "normalized": "CABERNET",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "Cabernet",
+          "synset": "n:07895710",
+          "lexical_category": "noun.food",
+          "definition": "superior Bordeaux type of red wine"
+        }
+      ],
+      "candidate_categories": [
+        "noun.food"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    },
+    {
+      "normalized": "COGNAC",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "Cognac",
+          "synset": "n:07903841",
+          "lexical_category": "noun.food",
+          "definition": "high quality grape brandy distilled in the Cognac district of France"
+        }
+      ],
+      "candidate_categories": [
+        "noun.food"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    },
+    {
+      "normalized": "GRANOLA",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "granola",
+          "synset": "n:07704994",
+          "lexical_category": "noun.food",
+          "definition": "cereal made of especially rolled oats with dried fruits and nuts and honey or brown sugar"
+        }
+      ],
+      "candidate_categories": [
+        "noun.food"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    },
+    {
+      "normalized": "MCINTOSH",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "McIntosh",
+          "synset": "n:07740954",
+          "lexical_category": "noun.food",
+          "definition": "early-ripening apple popular in the northeastern United States; primarily eaten raw but suitable for applesauce"
+        }
+      ],
+      "candidate_categories": [
+        "noun.food"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    },
+    {
+      "normalized": "MSG",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "MSG",
+          "synset": "n:07828378",
+          "lexical_category": "noun.food",
+          "definition": "white crystalline compound used as a food additive to enhance flavor; often used in Chinese cooking; \"food manufacturers sometimes list MSG simply as `artificial flavors' in ingredient lists\""
+        }
+      ],
+      "candidate_categories": [
+        "noun.food"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    },
+    {
+      "normalized": "PARMESAN",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "Parmesan",
+          "synset": "n:07854348",
+          "lexical_category": "noun.food",
+          "definition": "hard dry sharp-flavored Italian cheese; often grated"
+        }
+      ],
+      "candidate_categories": [
+        "noun.food"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    },
+    {
+      "normalized": "PEPSI",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "Pepsi",
+          "synset": "n:07928790",
+          "lexical_category": "noun.food",
+          "definition": "Pepsi Cola is a trademarked cola"
+        }
+      ],
+      "candidate_categories": [
+        "noun.food"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    }
+  ]
+}

@@ -1,0 +1,60 @@
+{
+  "schema_version": 1,
+  "status": "REVIEW_REQUIRED",
+  "groups": {
+    "Colors and Hues": [
+      "PASTEL"
+    ],
+    "Containers and Storage": [
+      "ASHTRAY",
+      "THERMOS"
+    ],
+    "Feelings and Emotional Vocabulary": [
+      "AWE"
+    ],
+    "Geometric Shapes": [
+      "HUMP"
+    ],
+    "Headgear": [
+      "TURBAN"
+    ],
+    "Insects and Entomology": [
+      "EPHEMERAL"
+    ],
+    "Literature and Writing": [
+      "EPIC",
+      "PARAPHRASE",
+      "PUT"
+    ],
+    "Measurements and Units": [
+      "ARE"
+    ],
+    "Mechanical Fasteners": [
+      "GASKET"
+    ],
+    "Music and Musical Forms": [
+      "COUNTERPOINT"
+    ],
+    "Organizations and Community": [
+      "MEN"
+    ],
+    "Plants and Botany": [
+      "SUCCULENT"
+    ],
+    "Punctuation": [
+      "HYPHEN"
+    ],
+    "Textiles and Fabrics": [
+      "TEXTILE"
+    ],
+    "Tools and Workshop Equipment": [
+      "SLEDGEHAMMER"
+    ],
+    "Watercraft and Boats": [
+      "BARGE"
+    ],
+    "Words and Linguistic Forms": [
+      "PLURAL"
+    ]
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "model": "qwen2.5:3b",
+  "inventory_verified": true,
+  "keep_alive": 0,
+  "suggestions_accepted": 0,
+  "decision": "reject entire output",
+  "reason": "Degenerate repetitive invented strings and token-capped malformed JSON; no independently useful novel suggestions",
+  "models_loaded_after_completion": []
+}

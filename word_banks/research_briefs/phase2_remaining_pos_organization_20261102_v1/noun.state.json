@@ -1,0 +1,58 @@
+{
+  "schema_version": 1,
+  "research_status": "REVIEW_REQUIRED_NOT_APPROVED",
+  "group": "noun.state",
+  "records": [
+    {
+      "normalized": "ED",
+      "status": "pending_context_and_editorial_review",
+      "candidate_categories": [
+        "noun.state"
+      ],
+      "source_senses": [
+        {
+          "lemma": "ED",
+          "synset": "noun:14045141",
+          "part_of_speech": "noun",
+          "lexical_category": "noun.state",
+          "definition": "impotence resulting from a man's inability to have or maintain an erection of his penis",
+          "match_type": "exact_normalized_source_lemma"
+        }
+      ]
+    },
+    {
+      "normalized": "LE",
+      "status": "pending_context_and_editorial_review",
+      "candidate_categories": [
+        "noun.state"
+      ],
+      "source_senses": [
+        {
+          "lemma": "LE",
+          "synset": "noun:14221138",
+          "part_of_speech": "noun",
+          "lexical_category": "noun.state",
+          "definition": "a chronic inflammatory collagen disease affecting connective tissue (skin or joints)",
+          "match_type": "exact_normalized_source_lemma"
+        }
+      ]
+    },
+    {
+      "normalized": "VD",
+      "status": "pending_context_and_editorial_review",
+      "candidate_categories": [
+        "noun.state"
+      ],
+      "source_senses": [
+        {
+          "lemma": "VD",
+          "synset": "noun:14133159",
+          "part_of_speech": "noun",
+          "lexical_category": "noun.state",
+          "definition": "a communicable infection transmitted by sexual intercourse or genital contact",
+          "match_type": "exact_normalized_source_lemma"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "schema_version": 1,
+  "research_status": "REVIEW_REQUIRED_NOT_APPROVED",
+  "group": "noun.relation",
+  "records": [
+    {
+      "normalized": "IQ",
+      "status": "pending_context_and_editorial_review",
+      "candidate_categories": [
+        "noun.relation"
+      ],
+      "source_senses": [
+        {
+          "lemma": "IQ",
+          "synset": "noun:13821977",
+          "part_of_speech": "noun",
+          "lexical_category": "noun.relation",
+          "definition": "a measure of a person's intelligence as indicated by an intelligence test; the ratio of a person's mental age to their chronological age (multiplied by 100)",
+          "match_type": "exact_normalized_source_lemma"
+        },
+        {
+          "lemma": "I.Q.",
+          "synset": "noun:13821977",
+          "part_of_speech": "noun",
+          "lexical_category": "noun.relation",
+          "definition": "a measure of a person's intelligence as indicated by an intelligence test; the ratio of a person's mental age to their chronological age (multiplied by 100)",
+          "match_type": "exact_normalized_source_lemma"
+        }
+      ]
+    },
+    {
+      "normalized": "SW",
+      "status": "pending_context_and_editorial_review",
+      "candidate_categories": [
+        "noun.relation"
+      ],
+      "source_senses": [
+        {
+          "lemma": "SW",
+          "synset": "noun:13833886",
+          "part_of_speech": "noun",
+          "lexical_category": "noun.relation",
+          "definition": "the compass point midway between south and west; at 225 degrees",
+          "match_type": "exact_normalized_source_lemma"
+        }
+      ]
+    }
+  ]
+}

@@ -83,3 +83,30 @@ def test_gemini_provider_is_unavailable_without_shared_credentials():
     # constructing the adapter itself cannot make a network request.
     if provider.credentials is None:
         assert not provider.available()
+
+
+def test_explicit_no_credentials_never_reads_the_user_vault(monkeypatch):
+    from publishing.listing_intelligence import GeminiCredentials
+    def forbidden():
+        raise AssertionError('Explicit None must not access credentials.')
+    monkeypatch.setattr(GeminiCredentials,'load',forbidden)
+    assert not GeminiCandidateGenerationProvider(credentials=None).available()
+
+
+def test_denied_automatic_credentials_leave_local_review_available(monkeypatch):
+    from publishing.listing_intelligence import GeminiCredentials
+    from integrations.wincred import WinCredError
+    def denied():
+        raise WinCredError('load',5)
+    monkeypatch.setattr(GeminiCredentials,'load',denied)
+    provider=GeminiCandidateGenerationProvider()
+    assert not provider.available()
+    assert 'denied credential access' in provider.unavailable_reason
+
+
+def test_explicit_credentials_are_preserved_without_loading(monkeypatch):
+    from publishing.listing_intelligence import GeminiCredentials
+    monkeypatch.setattr(GeminiCredentials,'load',lambda: (_ for _ in ()).throw(AssertionError('Unexpected credential access')))
+    supplied=object()
+    provider=GeminiCandidateGenerationProvider(credentials=supplied)
+    assert provider.credentials is supplied and provider.available()

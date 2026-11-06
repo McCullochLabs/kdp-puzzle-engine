@@ -1,0 +1,92 @@
+{
+  "schema_version": 1,
+  "research_status": "REVIEW_REQUIRED_NOT_APPROVED",
+  "group": "noun.time",
+  "records": [
+    {
+      "normalized": "AV",
+      "status": "pending_context_and_editorial_review",
+      "candidate_categories": [
+        "noun.time"
+      ],
+      "source_senses": [
+        {
+          "lemma": "Av",
+          "synset": "noun:15216563",
+          "part_of_speech": "noun",
+          "lexical_category": "noun.time",
+          "definition": "the eleventh month of the civil year; the fifth month of the ecclesiastical year in the Jewish calendar (in July and August)",
+          "match_type": "exact_normalized_source_lemma"
+        }
+      ]
+    },
+    {
+      "normalized": "HR",
+      "status": "pending_context_and_editorial_review",
+      "candidate_categories": [
+        "noun.time"
+      ],
+      "source_senses": [
+        {
+          "lemma": "hr",
+          "synset": "noun:15227846",
+          "part_of_speech": "noun",
+          "lexical_category": "noun.time",
+          "definition": "a period of time equal to 1/24th of a day; \"the job will take more than an hour\"",
+          "match_type": "exact_normalized_source_lemma"
+        }
+      ]
+    },
+    {
+      "normalized": "YR",
+      "status": "pending_context_and_editorial_review",
+      "candidate_categories": [
+        "noun.time"
+      ],
+      "source_senses": [
+        {
+          "lemma": "yr",
+          "synset": "noun:15203791",
+          "part_of_speech": "noun",
+          "lexical_category": "noun.time",
+          "definition": "a period of time containing 365 (or 366) days; \"she is 4 years old\"; \"in the year 1920\"",
+          "match_type": "exact_normalized_source_lemma"
+        }
+      ]
+    },
+    {
+      "normalized": "KC",
+      "status": "pending_context_and_editorial_review",
+      "candidate_categories": [
+        "noun.time"
+      ],
+      "source_senses": [
+        {
+          "lemma": "kc",
+          "synset": "noun:15279596",
+          "part_of_speech": "noun",
+          "lexical_category": "noun.time",
+          "definition": "one thousand periods per second",
+          "match_type": "exact_normalized_source_lemma"
+        }
+      ]
+    },
+    {
+      "normalized": "MC",
+      "status": "pending_context_and_editorial_review",
+      "candidate_categories": [
+        "noun.time"
+      ],
+      "source_senses": [
+        {
+          "lemma": "Mc",
+          "synset": "noun:15279957",
+          "part_of_speech": "noun",
+          "lexical_category": "noun.time",
+          "definition": "one million periods per second",
+          "match_type": "exact_normalized_source_lemma"
+        }
+      ]
+    }
+  ]
+}

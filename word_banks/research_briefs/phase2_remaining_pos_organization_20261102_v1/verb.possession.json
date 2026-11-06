@@ -1,0 +1,41 @@
+{
+  "schema_version": 1,
+  "research_status": "REVIEW_REQUIRED_NOT_APPROVED",
+  "group": "verb.possession",
+  "records": [
+    {
+      "normalized": "OWN",
+      "status": "pending_context_and_editorial_review",
+      "candidate_categories": [
+        "verb.possession"
+      ],
+      "source_senses": [
+        {
+          "lemma": "own",
+          "synset": "verb:02204692",
+          "part_of_speech": "verb",
+          "lexical_category": "verb.possession",
+          "definition": "have ownership or possession of; \"He owns three houses in Florida\"; \"How many cars does she have?\"",
+          "match_type": "exact_normalized_source_lemma"
+        }
+      ]
+    },
+    {
+      "normalized": "PAYOUT",
+      "status": "pending_context_and_editorial_review",
+      "candidate_categories": [
+        "verb.possession"
+      ],
+      "source_senses": [
+        {
+          "lemma": "pay_out",
+          "synset": "verb:02301502",
+          "part_of_speech": "verb",
+          "lexical_category": "verb.possession",
+          "definition": "expend, as from a fund",
+          "match_type": "exact_normalized_source_lemma"
+        }
+      ]
+    }
+  ]
+}

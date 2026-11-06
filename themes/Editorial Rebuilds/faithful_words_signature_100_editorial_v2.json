@@ -1,0 +1,2042 @@
+{
+  "title": "Faithful Words: Large-Print Bible Word Search for Adults",
+  "subtitle": "100 faith-inspired puzzles for peaceful quiet-time solving",
+  "author": "Jordan M. Slade",
+  "series": "Faithful Words Signature Editions",
+  "detected_topic": "Bible and Faith",
+  "difficulty_label": "Easy to Medium",
+  "palette": "bible",
+  "recommended_palette": "bible",
+  "cover_style": "photo",
+  "recommended_cover_style": "photo",
+  "no_repeat_words": true,
+  "cover_imprint": "Slade Puzzle Co.",
+  "cover_badge": "100 LARGE-PRINT PUZZLES • NO REPEATED WORDS",
+  "puzzles": [
+    {
+      "name": "The Torah",
+      "words": [
+        "GENESIS",
+        "EXODUS",
+        "LEVITICUS",
+        "NUMBERS",
+        "DEUTERONOMY",
+        "CREATION",
+        "COVENANT",
+        "LAW",
+        "COMMANDMENTS",
+        "PATRIARCHS",
+        "WILDERNESS",
+        "PROMISE"
+      ],
+      "mini_theme": "The Torah",
+      "page_title_verified": true,
+      "page_title_basis": "editorial_review"
+    },
+    {
+      "name": "Historical Books",
+      "words": [
+        "JOSHUA",
+        "JUDGES",
+        "RUTH",
+        "SAMUEL",
+        "KINGS",
+        "CHRONICLES",
+        "EZRA",
+        "NEHEMIAH",
+        "ESTHER",
+        "KINGDOM",
+        "TEMPLE",
+        "EXILE"
+      ],
+      "mini_theme": "Historical Books",
+      "page_title_verified": true,
+      "page_title_basis": "editorial_review"
+    },
+    {
+      "name": "Wisdom and Poetry",
+      "words": [
+        "JOB",
+        "PSALMS",
+        "PROVERBS",
+        "ECCLESIASTES",
+        "SONG OF SOLOMON",
+        "PRAISE",
+        "WORSHIP",
+        "LAMENT",
+        "INSTRUCTION",
+        "RIGHTEOUSNESS",
+        "MELODY",
+        "REFLECTION"
+      ],
+      "mini_theme": "Wisdom and Poetry",
+      "page_title_verified": true,
+      "page_title_basis": "editorial_review"
+    },
+    {
+      "name": "Major Prophets",
+      "words": [
+        "ISAIAH",
+        "JEREMIAH",
+        "LAMENTATIONS",
+        "EZEKIEL",
+        "DANIEL",
+        "VISION",
+        "PROPHECY",
+        "WARNING",
+        "REDEMPTION",
+        "JUDGMENT",
+        "RESTORATION",
+        "MESSAGE"
+      ],
+      "mini_theme": "Major Prophets",
+      "page_title_verified": true,
+      "page_title_basis": "editorial_review"
+    },
+    {
+      "name": "Minor Prophets",
+      "words": [
+        "HOSEA",
+        "JOEL",
+        "AMOS",
+        "OBADIAH",
+        "JONAH",
+        "MICAH",
+        "NAHUM",
+        "HABAKKUK",
+        "ZEPHANIAH",
+        "HAGGAI",
+        "ZECHARIAH",
+        "MALACHI"
+      ],
+      "mini_theme": "Minor Prophets",
+      "page_title_verified": true,
+      "page_title_basis": "editorial_review"
+    },
+    {
+      "name": "The Gospels",
+      "words": [
+        "MATTHEW",
+        "MARK",
+        "LUKE",
+        "JOHN",
+        "BIOGRAPHY",
+        "MINISTRY",
+        "PARABLES",
+        "MIRACLES",
+        "TEACHINGS",
+        "GOSPEL",
+        "GOOD NEWS",
+        "WITNESS"
+      ],
+      "mini_theme": "The Gospels",
+      "page_title_verified": true,
+      "page_title_basis": "editorial_review"
+    },
+    {
+      "name": "The Pauline Epistles",
+      "words": [
+        "ROMANS",
+        "CORINTHIANS",
+        "GALATIANS",
+        "EPHESIANS",
+        "PHILIPPIANS",
+        "COLOSSIANS",
+        "THESSALONIANS",
+        "TIMOTHY",
+        "TITUS",
+        "PHILEMON",
+        "LETTERS",
+        "DOCTRINE"
+      ],
+      "mini_theme": "The Pauline Epistles",
+      "page_title_verified": true,
+      "page_title_basis": "editorial_review"
+    },
+    {
+      "name": "Judges of Israel",
+      "words": [
+        "DEBORAH",
+        "GIDEON",
+        "SAMSON",
+        "DELILAH",
+        "HORNS",
+        "FLEECE",
+        "STRENGTH",
+        "VICTORY",
+        "DELIVERANCE",
+        "ARMY",
+        "LEADERSHIP",
+        "FAITHFULNESS"
+      ],
+      "mini_theme": "Judges of Israel",
+      "page_title_verified": true,
+      "page_title_basis": "editorial_review"
+    },
+    {
+      "name": "Creation and Eden",
+      "words": [
+        "ADAM",
+        "EVE",
+        "GARDEN",
+        "SERPENT",
+        "TREE OF LIFE",
+        "DUST",
+        "RIB",
+        "BREATH",
+        "FRUIT",
+        "FORBIDDEN",
+        "EAST OF EDEN",
+        "PARADISE"
+      ],
+      "mini_theme": "Creation and Eden",
+      "page_title_verified": true,
+      "page_title_basis": "editorial_review"
+    },
+    {
+      "name": "Abraham and Sarah",
+      "words": [
+        "ABRAHAM",
+        "SARAH",
+        "ISAAC",
+        "CANAAN",
+        "TENT",
+        "STARS",
+        "FATHER OF MANY",
+        "HARAN",
+        "JOURNEY",
+        "ALTARS",
+        "HOSPITALITY",
+        "DESCENDANTS"
+      ],
+      "mini_theme": "Abraham and Sarah",
+      "page_title_verified": true,
+      "page_title_basis": "editorial_review"
+    },
+    {
+      "name": "Joseph and His Brothers",
+      "words": [
+        "JOSEPH",
+        "COAT OF MANY COLORS",
+        "DREAMER",
+        "EGYPT",
+        "PHARAOH",
+        "FAMINE",
+        "GRANARY",
+        "FORGIVENESS",
+        "SILVER CUP",
+        "DUNGEON",
+        "PINNACLE",
+        "GOVERNOR"
+      ],
+      "mini_theme": "Joseph and His Brothers",
+      "page_title_verified": true,
+      "page_title_basis": "editorial_review"
+    },
+    {
+      "name": "Moses and the Exodus",
+      "words": [
+        "MOSES",
+        "BURNING BUSH",
+        "RED SEA",
+        "STAFF",
+        "PLAGUES",
+        "PASSOVER",
+        "SINAI",
+        "TEN COMMANDMENTS",
+        "MANNA",
+        "DESERT",
+        "PILLAR OF FIRE",
+        "FREEDOM"
+      ],
+      "mini_theme": "Moses and the Exodus",
+      "page_title_verified": true,
+      "page_title_basis": "editorial_review"
+    },
+    {
+      "name": "Elijah and Elisha",
+      "words": [
+        "ELIJAH",
+        "ELISHA",
+        "CHARIOT OF FIRE",
+        "WHIRLWIND",
+        "MANTEL",
+        "MOUNT CARMEL",
+        "STILL SMALL VOICE",
+        "MIRACLE",
+        "DOUBLE PORTION",
+        "RIVER JORDAN",
+        "RAVENS",
+        "PROPHET"
+      ],
+      "mini_theme": "Elijah and Elisha",
+      "page_title_verified": true,
+      "page_title_basis": "editorial_review"
+    },
+    {
+      "name": "Kings and Royalty",
+      "words": [
+        "SAUL",
+        "DAVID",
+        "SOLOMON",
+        "REHOBOAM",
+        "ASA",
+        "JEHOSHAPHAT",
+        "JOASH",
+        "UZZIAH",
+        "HEZEKIAH",
+        "JOSIAH",
+        "SHEBA",
+        "CANDACE"
+      ],
+      "mini_theme": "Kings and Royalty",
+      "page_title_verified": true,
+      "page_title_basis": "editorial_review"
+    },
+    {
+      "name": "Courageous Deliverers",
+      "words": [
+        "EHUD",
+        "SHAMGAR",
+        "BARAK",
+        "JEPHTHAH",
+        "BOAZ",
+        "JESSE",
+        "NATHAN",
+        "GAD",
+        "JOAB",
+        "ABNER",
+        "MEPHIBOSHETH",
+        "BARZILLAI"
+      ],
+      "mini_theme": "Courageous Deliverers",
+      "page_title_verified": true,
+      "page_title_basis": "editorial_review"
+    },
+    {
+      "name": "Sea of Galilee",
+      "words": [
+        "GALILEE",
+        "CAPERNAUM",
+        "FISHING BOATS",
+        "GENTLE WAVES",
+        "WALKING ON WATER",
+        "NET OF FISH",
+        "SHORELINE",
+        "QUIET WATERS",
+        "MIRACULOUS CATCH",
+        "STORM STILLED",
+        "PENTE",
+        "MORNING MIST"
+      ],
+      "mini_theme": "Sea of Galilee",
+      "page_title_verified": true,
+      "page_title_basis": "editorial_review"
+    },
+    {
+      "name": "City of Jericho",
+      "words": [
+        "JERICHO",
+        "FALLEN WALLS",
+        "MARCHING PRIESTS",
+        "RAM HORNS",
+        "ANCIENT CITY",
+        "SCARLET CORD",
+        "VICTORY SHOUT",
+        "PALM TREES",
+        "SIEGE",
+        "BANNERS",
+        "FAITHFUL STEP",
+        "OPEN GATES"
+      ],
+      "mini_theme": "City of Jericho",
+      "page_title_verified": true,
+      "page_title_basis": "editorial_review"
+    },
+    {
+      "name": "Island of Patmos",
+      "words": [
+        "PATMOS",
+        "ROCKY SHORE",
+        "VISIONARY",
+        "SEVEN CHURCHES",
+        "SCROLL",
+        "APOSTLE JOHN",
+        "ISLAND EXILE",
+        "GOLDEN LAMPSTANDS",
+        "OCEAN VIEW",
+        "REVELATION",
+        "HEAVENLY VOICE",
+        "SOLITUDE"
+      ],
+      "mini_theme": "Island of Patmos",
+      "page_title_verified": true,
+      "page_title_basis": "editorial_review"
+    },
+    {
+      "name": "Entering Sanctuary",
+      "words": [
+        "SANCTUARY",
+        "HALLOWED",
+        "REVERENCE",
+        "HOLY PLACE",
+        "QUIET HOUR",
+        "MEDITATION",
+        "SOLEMN AWE",
+        "HOLY GROUND",
+        "CONTEMPLATE",
+        "STILLNESS",
+        "BOWING LOW",
+        "SACRED SPACE"
+      ],
+      "mini_theme": "Entering Sanctuary",
+      "page_title_verified": true,
+      "page_title_basis": "editorial_review"
+    },
+    {
+      "name": "Calling on God",
+      "words": [
+        "PETITION",
+        "INTERCEDE",
+        "SUPPLICATION",
+        "CRYING OUT",
+        "DAILY PRAYER",
+        "BOLD ACCESS",
+        "SECRET PLACE",
+        "KNEELING",
+        "LIFTING HANDS",
+        "HEARTFELT",
+        "EARNEST PLEA",
+        "SEEKING HIM"
+      ],
+      "mini_theme": "Calling on God",
+      "page_title_verified": true,
+      "page_title_basis": "editorial_review"
+    },
+    {
+      "name": "Psalms of Praise",
+      "words": [
+        "MAKE A JOY",
+        "SING ALOUD",
+        "GLORY DUE",
+        "SHOUT FOR JOY",
+        "PSALMODY",
+        "EXALT HIS NAME",
+        "EXUBERANCE",
+        "MUSICAL PRAISE",
+        "TRIUMPHANT",
+        "ADORATION",
+        "LOUD HOSANNA",
+        "REJOICING"
+      ],
+      "mini_theme": "Psalms of Praise",
+      "page_title_verified": true,
+      "page_title_basis": "editorial_review"
+    },
+    {
+      "name": "Prayers of Thanks",
+      "words": [
+        "GRATEFUL HEART",
+        "COUNT BLESSINGS",
+        "THANKFULNESS",
+        "BOUNDLESS GRACE",
+        "APPRECIATION",
+        "ACKNOWLEDGING",
+        "EVERY GOOD GIFT",
+        "GENEROUS LOVE",
+        "OVERFLOWING",
+        "PAUSING TO THANK",
+        "BLESSED ASSURANCE",
+        "DEEPEST THANKS"
+      ],
+      "mini_theme": "Prayers of Thanks",
+      "page_title_verified": true,
+      "page_title_basis": "editorial_review"
+    },
+    {
+      "name": "Instruments of Joy",
+      "words": [
+        "STRINGS",
+        "PIPE AND FLUTE",
+        "LOUD CYMBALS",
+        "HARP AND LYRE",
+        "SOUNDING HORN",
+        "TAMBOURINE",
+        "TRUMPET SOUND",
+        "PRAISE HIM",
+        "ORCHESTRA",
+        "SKILLED MUSIC",
+        "RESONANT",
+        "TIMBREL"
+      ],
+      "mini_theme": "Instruments of Joy",
+      "page_title_verified": true,
+      "page_title_basis": "editorial_review"
+    },
+    {
+      "name": "Kneeling in Humility",
+      "words": [
+        "LOWLY HEART",
+        "SUBMITTING",
+        "SURRENDERED",
+        "BENDED KNEE",
+        "QUIET SPIRIT",
+        "YIELDING",
+        "DEPENDENT",
+        "HUMBLE PLEA",
+        "SIMPLE FAITH",
+        "LESS OF ME",
+        "RELYING FULLY",
+        "GENTLE GRACE"
+      ],
+      "mini_theme": "Kneeling in Humility",
+      "page_title_verified": true,
+      "page_title_basis": "editorial_review"
+    },
+    {
+      "name": "Corporate Worship",
+      "words": [
+        "GATHERED TOGETHER",
+        "ONE ACCORD",
+        "FELLOWSHIP",
+        "UNITED VOICE",
+        "ASSEMBLY",
+        "CONGREGATION",
+        "SHARING FAITH",
+        "MUTUAL LOVE",
+        "COMMUNION",
+        "BRETHREN",
+        "HOLY BOND",
+        "WORSHIP HOUR"
+      ],
+      "mini_theme": "Corporate Worship",
+      "page_title_verified": true,
+      "page_title_basis": "editorial_review"
+    },
+    {
+      "name": "Trusting Providence",
+      "words": [
+        "GUIDANCE",
+        "FOOTSTEPS",
+        "DIRECTION",
+        "SOVEREIGN",
+        "PATH",
+        "PROVISION",
+        "SURRENDER",
+        "FOOTPRINT",
+        "DESTINY",
+        "STEPS",
+        "SHEPHERD",
+        "TIMING"
+      ],
+      "mini_theme": "Trusting Providence",
+      "page_title_verified": true,
+      "page_title_basis": "editorial_review"
+    },
+    {
+      "name": "Unshakable Trust",
+      "words": [
+        "FOUNDATION",
+        "BEDROCK",
+        "STRONGHOLD",
+        "FORTRESS",
+        "SECURITY",
+        "SHELTER",
+        "PROTECTION",
+        "REFUGE",
+        "BULWARK",
+        "SAFETY",
+        "IMMOVABLE",
+        "GUARD"
+      ],
+      "mini_theme": "Unshakable Trust",
+      "page_title_verified": true,
+      "page_title_basis": "editorial_review"
+    },
+    {
+      "name": "Radiant Hope",
+      "words": [
+        "BRIGHTNESS",
+        "GLOW",
+        "SPLENDOR",
+        "BEAMING",
+        "LUMINESCENCE",
+        "SUNSHINE",
+        "BEAM",
+        "RADIANCE",
+        "SPARK",
+        "ILLUMINATION",
+        "DAZZLING",
+        "GLORY"
+      ],
+      "mini_theme": "Radiant Hope",
+      "page_title_verified": true,
+      "page_title_basis": "editorial_review"
+    },
+    {
+      "name": "Garden of Gethsemane",
+      "words": [
+        "OLIVE TREES",
+        "PRAYER",
+        "MIDNIGHT",
+        "WATCH",
+        "SORROW",
+        "SWEAT AS DROPS OF BLOOD",
+        "DISCIPLES",
+        "BETRAYAL",
+        "KISS",
+        "LANTERNS",
+        "SWORDS",
+        "MALCHUS"
+      ],
+      "mini_theme": "Garden of Gethsemane",
+      "page_title_verified": true,
+      "page_title_basis": "editorial_review"
+    },
+    {
+      "name": "Upper Room",
+      "words": [
+        "LAST SUPPER",
+        "BREAD",
+        "CUP",
+        "WASHING FEET",
+        "TOWEL",
+        "BASIN",
+        "NEW COMMANDMENT",
+        "PENTECOST",
+        "HOLY SPIRIT",
+        "WIND",
+        "FIRE",
+        "TONGUES"
+      ],
+      "mini_theme": "Upper Room",
+      "page_title_verified": true,
+      "page_title_basis": "editorial_review"
+    },
+    {
+      "name": "River Jordan",
+      "words": [
+        "BAPTISM",
+        "JOHN THE BAPTIST",
+        "WATER",
+        "DOVE",
+        "VOICE FROM HEAVEN",
+        "BELOVED SON",
+        "CROSSING",
+        "ISRAELITES",
+        "MEMORIAL STONES",
+        "HEALING",
+        "NAAMAN",
+        "LEPROSY"
+      ],
+      "mini_theme": "River Jordan",
+      "page_title_verified": true,
+      "page_title_basis": "editorial_review"
+    },
+    {
+      "name": "Rivers of Scripture",
+      "words": [
+        "JORDAN",
+        "EUPHRATES",
+        "TIGRIS",
+        "CHEBAR",
+        "ABANA",
+        "PHARPAR",
+        "KIDRON",
+        "JABBOK",
+        "ARNON",
+        "GIHON",
+        "PISHON",
+        "BROOK CHERITH"
+      ],
+      "mini_theme": "Rivers of Scripture",
+      "page_title_verified": true,
+      "page_title_basis": "editorial_review"
+    },
+    {
+      "name": "Historic Valleys",
+      "words": [
+        "VALLEY OF ELAH",
+        "VALLEY OF ACHOR",
+        "VALLEY OF SIDDIM",
+        "VALLEY OF HINNOM",
+        "VALLEY OF BACA",
+        "VALLEY OF DRY BONES",
+        "VALLEY OF JEZREEL",
+        "VALLEY OF SALT",
+        "VALLEY OF SHAVEH",
+        "VALLEY OF BERACAH",
+        "VALLEY OF ZEPHATHAH",
+        "KINGS VALLEY"
+      ],
+      "mini_theme": "Historic Valleys",
+      "page_title_verified": true,
+      "page_title_basis": "editorial_review"
+    },
+    {
+      "name": "Coastal and Port Cities",
+      "words": [
+        "JOPPA",
+        "CAESAREA",
+        "TYRE",
+        "SIDON",
+        "GAZA",
+        "ASHKELON",
+        "ASHDOD",
+        "EKRON",
+        "GATH",
+        "PTOLEMAIS",
+        "MYRA",
+        "CNIDUS"
+      ],
+      "mini_theme": "Coastal and Port Cities",
+      "page_title_verified": true,
+      "page_title_basis": "editorial_review"
+    },
+    {
+      "name": "Desert Wilderness Regions",
+      "words": [
+        "WILDERNESS OF SIN",
+        "WILDERNESS OF ZIN",
+        "WILDERNESS OF PARAN",
+        "WILDERNESS OF SHUR",
+        "WILDERNESS OF JUDEA",
+        "DESERT OF BEERSHEBA",
+        "DESERT OF ZIPH",
+        "DESERT OF MAON",
+        "LAND OF UZ",
+        "ARABAH",
+        "NEGEB",
+        "JUDREAN DESERT"
+      ],
+      "mini_theme": "Desert Wilderness Regions",
+      "page_title_verified": true,
+      "page_title_basis": "editorial_review"
+    },
+    {
+      "name": "Early Christian Centers",
+      "words": [
+        "ANTIOCH",
+        "EPHESUS",
+        "PHILIPPI",
+        "THESSALONIKI",
+        "CORINTH",
+        "COLOSSAE",
+        "SMYRNA",
+        "PERGAMUM",
+        "THATIRA",
+        "SARDIS",
+        "PHILADELPHIA",
+        "LAODICEA"
+      ],
+      "mini_theme": "Early Christian Centers",
+      "page_title_verified": true,
+      "page_title_basis": "editorial_review"
+    },
+    {
+      "name": "Biblical Wells and Pools",
+      "words": [
+        "POOL OF SILOAM",
+        "POOL OF BETHESDA",
+        "JACOBS WELL",
+        "BEERSHEBA WELL",
+        "ELIM",
+        "MARAH",
+        "EN GEDI",
+        "POOL OF GIBEON",
+        "KING POOL",
+        "SHELAH POOL",
+        "UPPER POOL",
+        "LOWER POOL"
+      ],
+      "mini_theme": "Biblical Wells and Pools",
+      "page_title_verified": true,
+      "page_title_basis": "editorial_review"
+    },
+    {
+      "name": "Acts of Devotion",
+      "words": [
+        "THANKSGIVING",
+        "BLESSING",
+        "CONFESSION",
+        "INTERCESSION",
+        "VOW",
+        "OFFERING",
+        "TITHE",
+        "SACRIFICE",
+        "FASTING",
+        "REMEMBRANCE",
+        "DEDICATION",
+        "COMMITMENT"
+      ],
+      "mini_theme": "Acts of Devotion",
+      "page_title_verified": true,
+      "page_title_basis": "editorial_review"
+    },
+    {
+      "name": "Fruits of Worship",
+      "words": [
+        "JOYFUL HEART",
+        "RENEWED SPIRIT",
+        "DEEP PEACE",
+        "HOLY AWE",
+        "ABUNDANT GRACE",
+        "STEADFAST FAITH",
+        "LIVING HOPE",
+        "RADIANT FACE",
+        "GRATEFUL SOUL",
+        "QUIET TRUST",
+        "UPLIFTED MIND",
+        "GRACE AND TRUTH"
+      ],
+      "mini_theme": "Fruits of Worship",
+      "page_title_verified": true,
+      "page_title_basis": "editorial_review"
+    },
+    {
+      "name": "Pillars of Trust",
+      "words": [
+        "DEPENDENCE",
+        "RELIANCE",
+        "FAITH",
+        "INTEGRITY",
+        "HONESTY",
+        "TRUTHFULNESS",
+        "FIDELITY",
+        "LOYALTY",
+        "STEADFASTNESS",
+        "DEVOTED",
+        "HEART",
+        "BELIEF"
+      ],
+      "mini_theme": "Pillars of Trust",
+      "page_title_verified": true,
+      "page_title_basis": "editorial_review"
+    },
+    {
+      "name": "Parables of Jesus",
+      "words": [
+        "SOWER",
+        "MUSTARD SEED",
+        "HIDDEN TREASURE",
+        "PRODIGAL SON",
+        "GOOD SAMARITAN",
+        "LOST SHEEP",
+        "TEN VIRGINS",
+        "TALENTS",
+        "PEARL OF GREAT PRICE",
+        "GOOD SHEPHERD",
+        "WISE BUILDER",
+        "WEDDING FEAST"
+      ],
+      "mini_theme": "Parables of Jesus",
+      "page_title_verified": true,
+      "page_title_basis": "editorial_review"
+    },
+    {
+      "name": "Sermon on the Mount",
+      "words": [
+        "BEATITUDES",
+        "SALT OF THE EARTH",
+        "LIGHT OF THE WORLD",
+        "MERCIFUL",
+        "PEACEMAKERS",
+        "PERSECUTED",
+        "LORD'S PRAYER",
+        "HIDDEN FASTING",
+        "ANXIOUS HEART",
+        "NARROW GATE",
+        "FALSE PROPHETS",
+        "FRUITS"
+      ],
+      "mini_theme": "Sermon on the Mount",
+      "page_title_verified": true,
+      "page_title_basis": "editorial_review"
+    },
+    {
+      "name": "Spiritual Growth",
+      "words": [
+        "SANCTIFICATION",
+        "TRANSFORMATION",
+        "RENEWAL",
+        "SPIRITUAL FRUIT",
+        "PATIENCE",
+        "KINDNESS",
+        "GENTLENESS",
+        "SELF CONTROL",
+        "ABIDING",
+        "PRUNING",
+        "ROOTED",
+        "BEARING FRUIT"
+      ],
+      "mini_theme": "Spiritual Growth",
+      "page_title_verified": true,
+      "page_title_basis": "editorial_review"
+    },
+    {
+      "name": "Christian Virtues",
+      "words": [
+        "WISDOM",
+        "UNDERSTANDING",
+        "COUNSEL",
+        "FORTITUDE",
+        "KNOWLEDGE",
+        "PIETY",
+        "AWE",
+        "GRACE",
+        "MERCY",
+        "CHARITY",
+        "HOPE",
+        "PRUDENCE"
+      ],
+      "mini_theme": "Christian Virtues",
+      "page_title_verified": true,
+      "page_title_basis": "editorial_review"
+    },
+    {
+      "name": "Early Church Adventures",
+      "words": [
+        "DAY OF PENTECOST",
+        "TONGUES OF FIRE",
+        "HEALING AT THE GATE",
+        "CONVERSION OF PAUL",
+        "ESCAPE FROM PRISON",
+        "COUNCIL OF JERUSALEM",
+        "SHIPWRECK",
+        "PREACHING IN ATHENS",
+        "BREADS AND FELLOWSHIP",
+        "BAPTISM OF THE EUNUCH",
+        "CORNELIUS",
+        "PRAISE AND PRAYER"
+      ],
+      "mini_theme": "Early Church Adventures",
+      "page_title_verified": true,
+      "page_title_basis": "editorial_review"
+    },
+    {
+      "name": "Paths of Righteousness",
+      "words": [
+        "DEVOTED LIFE",
+        "HOLY LIVING",
+        "HONEST PATH",
+        "WALKING UPRIGHT",
+        "JUST DECREE",
+        "TRUTHFUL",
+        "CLEAN HANDS",
+        "PURE HEART",
+        "BLAMELESS",
+        "FAITHFUL SERVANT",
+        "RIGHTEOUS WAY",
+        "SANCTIFIED"
+      ],
+      "mini_theme": "Paths of Righteousness",
+      "page_title_verified": true,
+      "page_title_basis": "editorial_review"
+    },
+    {
+      "name": "Quiet Reflections",
+      "words": [
+        "RESTING PLACE",
+        "STILL WATERS",
+        "PEACEFUL MIND",
+        "SERENE NIGHT",
+        "TRANQUIL HEART",
+        "INNER CALM",
+        "GENTLE WHISPER",
+        "ABIDING PEACE",
+        "BE STILL",
+        "SABBATH REST",
+        "CALM SPIRIT",
+        "DEEP REST"
+      ],
+      "mini_theme": "Quiet Reflections",
+      "page_title_verified": true,
+      "page_title_basis": "editorial_review"
+    },
+    {
+      "name": "Building Up the Body",
+      "words": [
+        "ENCOURAGEMENT",
+        "EDIFICATION",
+        "UNITY",
+        "HARMONY",
+        "RECONCILIATION",
+        "PEACEMAKER",
+        "COMFORT",
+        "SUPPORT",
+        "BROTHERHOOD",
+        "SISTERHOOD",
+        "COMMUNITY",
+        "INCLUSION"
+      ],
+      "mini_theme": "Building Up the Body",
+      "page_title_verified": true,
+      "page_title_basis": "editorial_review"
+    },
+    {
+      "name": "The Talents",
+      "words": [
+        "MASTER",
+        "SERVANTS",
+        "FIVE TALENTS",
+        "TWO TALENTS",
+        "ONE TALENT",
+        "TRADING",
+        "PROFIT",
+        "HIDING",
+        "GROUND",
+        "WELL DONE",
+        "FAITHFUL",
+        "JOY"
+      ],
+      "mini_theme": "The Talents",
+      "page_title_verified": true,
+      "page_title_basis": "editorial_review"
+    },
+    {
+      "name": "Great Commandments",
+      "words": [
+        "LOVE THE LORD",
+        "ALL YOUR HEART",
+        "ALL YOUR SOUL",
+        "ALL YOUR MIND",
+        "LOVE YOUR NEIGHBOR",
+        "AS YOURSELF",
+        "GREATEST COMMANDMENT",
+        "HEAR O ISRAEL",
+        "THE LORD OUR GOD",
+        "THE LORD IS ONE",
+        "LOVE FULFILLS LAW",
+        "WALK IN LOVE"
+      ],
+      "mini_theme": "Great Commandments",
+      "page_title_verified": true,
+      "page_title_basis": "editorial_review"
+    },
+    {
+      "name": "Teachings on Prayer",
+      "words": [
+        "OUR FATHER",
+        "HALLOWED BE THY NAME",
+        "KINGDOM COME",
+        "DAILY BREAD",
+        "FORGIVE OUR DEBTS",
+        "LEAD US NOT",
+        "DELIVER US",
+        "UNCEASING PRAYER",
+        "ASK AND RECEIVE",
+        "KNOCK AND THE DOOR",
+        "SEEK AND FIND",
+        "ROOM OF PRAYER"
+      ],
+      "mini_theme": "Teachings on Prayer",
+      "page_title_verified": true,
+      "page_title_basis": "editorial_review"
+    },
+    {
+      "name": "Walk in the Light",
+      "words": [
+        "CHILDREN OF LIGHT",
+        "WALK WORTHY",
+        "PUT ON THE ARMOR",
+        "SHIELD OF FAITH",
+        "HELMET OF SALVATION",
+        "SWORD OF THE SPIRIT",
+        "TRUTH AS A BELT",
+        "GOSPEL OF PEACE",
+        "STAND FIRM",
+        "RUN THE RACE",
+        "FIGHT THE GOOD FIGHT",
+        "CROWN OF RIGHTEOUSNESS"
+      ],
+      "mini_theme": "Walk in the Light",
+      "page_title_verified": true,
+      "page_title_basis": "editorial_review"
+    },
+    {
+      "name": "Teachings on Love",
+      "words": [
+        "LOVE",
+        "PATIENT",
+        "KIND",
+        "ENVIOUS",
+        "BOASTFUL",
+        "PROUD",
+        "UNBECOMING",
+        "SELFSEEKING",
+        "ANGER",
+        "REJOICES",
+        "PROTECTS",
+        "PERSEVERES"
+      ],
+      "mini_theme": "Teachings on Love",
+      "page_title_verified": true,
+      "page_title_basis": "editorial_review"
+    },
+    {
+      "name": "The Good Samaritan",
+      "words": [
+        "ROAD TO JERICHO",
+        "TRAVELER",
+        "ROBBERS",
+        "PRIEST",
+        "LEVITE",
+        "COMPASSION",
+        "BANDAGES",
+        "OLIVE OIL",
+        "WINE",
+        "INNKEEPER",
+        "TWO DENARII",
+        "NEIGHBOR"
+      ],
+      "mini_theme": "The Good Samaritan",
+      "page_title_verified": true,
+      "page_title_basis": "editorial_review"
+    },
+    {
+      "name": "The Prodigal Son",
+      "words": [
+        "YOUNGER SON",
+        "FAR COUNTRY",
+        "SPENT WEALTH",
+        "FEED PIGS",
+        "COMING TO SENSES",
+        "FATHER RUNS",
+        "BEST ROBE",
+        "SIGNET RING",
+        "FATTED CALF",
+        "MUSIC AND DANCING",
+        "OLDER BROTHER",
+        "HE WAS LOST"
+      ],
+      "mini_theme": "The Prodigal Son",
+      "page_title_verified": true,
+      "page_title_basis": "editorial_review"
+    },
+    {
+      "name": "The Sower and the Seed",
+      "words": [
+        "SOWER WENT OUT",
+        "PATHWAY",
+        "BIRDS OF THE AIR",
+        "ROCKY GROUND",
+        "NO DEEP ROOT",
+        "SCORCHED",
+        "THORNS CHOKED",
+        "GOOD SOIL",
+        "MULTIPLIED",
+        "HUNDREDFOLD",
+        "HEAR AND UNDERSTAND",
+        "FRUITFUL"
+      ],
+      "mini_theme": "The Sower and the Seed",
+      "page_title_verified": true,
+      "page_title_basis": "editorial_review"
+    },
+    {
+      "name": "The Wise and Foolish Builders",
+      "words": [
+        "HEARS MY WORDS",
+        "DOES THEM",
+        "WISE MAN",
+        "BUILT ON ROCK",
+        "DEEP FOUNDATION",
+        "TORRENT",
+        "WINDS BLEW",
+        "COULD NOT SHAKE",
+        "FOOLISH MAN",
+        "SAND",
+        "HOUSE FELL",
+        "GREAT COLLAPSE"
+      ],
+      "mini_theme": "The Wise and Foolish Builders",
+      "page_title_verified": true,
+      "page_title_basis": "editorial_review"
+    },
+    {
+      "name": "Grace and Truth",
+      "words": [
+        "UNMERITED FAVOR",
+        "DIVINE MERCY",
+        "ETERNAL TRUTH",
+        "SAVING GRACE",
+        "LIVING WORD",
+        "SACRED PROMISE",
+        "ABUNDANT LIFE",
+        "HEAVENLY GIFT",
+        "FAITHFUL GUIDE",
+        "PURE LIGHT",
+        "RIGHTEOUS PATH",
+        "TRUE WISDOM"
+      ],
+      "mini_theme": "Grace and Truth",
+      "page_title_verified": true,
+      "page_title_basis": "editorial_review"
+    },
+    {
+      "name": "Feasts and Invitations",
+      "words": [
+        "GREAT BANQUET",
+        "INVITED GUESTS",
+        "EXCUSES",
+        "LAND",
+        "OXEN",
+        "MARRIAGE",
+        "SERVANT",
+        "OUT IN THE STREETS",
+        "ALLEYWAYS",
+        "THE POOR",
+        "THE BLIND",
+        "COMPEL THEM"
+      ],
+      "mini_theme": "Feasts and Invitations",
+      "page_title_verified": true,
+      "page_title_basis": "editorial_review"
+    },
+    {
+      "name": "Lesser Known Parables",
+      "words": [
+        "GROWING SEED",
+        "HIDDEN LAMP",
+        "MASTER AND SERVANT",
+        "UNFORGIVING SERVANT",
+        "DEBTS",
+        "PRISON",
+        "TWO DEBTORS",
+        "FORGIVEN MUCH",
+        "BARREN FIG TREE",
+        "VINEDRESSER",
+        "TOWER BUILDER",
+        "KING GOING TO WAR"
+      ],
+      "mini_theme": "Lesser Known Parables",
+      "page_title_verified": true,
+      "page_title_basis": "editorial_review"
+    },
+    {
+      "name": "Acts of Lovingkindness",
+      "words": [
+        "HELPING OTHERS",
+        "FEEDING THE HUNGRY",
+        "CLOTHING THE POOR",
+        "VISITING THE SICK",
+        "COMFORTING MOURNERS",
+        "SHARING BLESSINGS",
+        "WELCOMING STRANGERS",
+        "SHOWING HOSPITALITY",
+        "EXTENDING MERCY",
+        "GIVING ALMS",
+        "TENDING FLOCKS",
+        "BINDING WOUNDS"
+      ],
+      "mini_theme": "Acts of Lovingkindness",
+      "page_title_verified": true,
+      "page_title_basis": "editorial_review"
+    },
+    {
+      "name": "Acts of Mercy",
+      "words": [
+        "FEED THE HUNGRY",
+        "CLOTHE THE NAKED",
+        "WELCOME STRANGERS",
+        "VISIT THE SICK",
+        "COMFORT MOURNERS",
+        "SHELTER THE HOMELESS",
+        "RESCUE THE CAPTIVE",
+        "PROTECT THE WEAK",
+        "DEFEND THE ORPHAN",
+        "PLEADING FOR WIDOWS",
+        "EXTEND A HAND",
+        "SHOWING COMPASSION"
+      ],
+      "mini_theme": "Acts of Mercy",
+      "page_title_verified": true,
+      "page_title_basis": "editorial_review"
+    },
+    {
+      "name": "Healing Ministry",
+      "words": [
+        "RESTORED SIGHT",
+        "CLEANSING LEPERS",
+        "MAKING THE LAME WALK",
+        "HEALING TOUCH",
+        "SOUL RECOVERY",
+        "MENDING BROKEN HEARTS",
+        "BALM OF GILEAD",
+        "WHOLENESS",
+        "DIVINE REMEDY",
+        "PEACE IN SUFFERING",
+        "LIFTED UP",
+        "STRENGTH RENEWED"
+      ],
+      "mini_theme": "Healing Ministry",
+      "page_title_verified": true,
+      "page_title_basis": "editorial_review"
+    },
+    {
+      "name": "Good Works",
+      "words": [
+        "SHINE YOUR LIGHT",
+        "PRODUCE GOOD FRUIT",
+        "WALK IN TRUTH",
+        "ACT JUSTLY",
+        "LOVE MERCY",
+        "WALK HUMBLY",
+        "DEVOTED TO GOOD",
+        "PRACTICAL HELP",
+        "GENEROUS SPIRIT",
+        "HANDS AND FEET",
+        "LIVING EXAMPLE",
+        "FRUITFUL LIFE"
+      ],
+      "mini_theme": "Good Works",
+      "page_title_verified": true,
+      "page_title_basis": "editorial_review"
+    },
+    {
+      "name": "Caring for the Vulnerable",
+      "words": [
+        "DEFEND THE POOR",
+        "VOICE FOR THE VOICELESS",
+        "BEFRIEND THE LONELY",
+        "GIVE A CUP OF WATER",
+        "OPEN YOUR HOME",
+        "SHARE YOUR BREAD",
+        "LIFT THE FALLEN",
+        "GENTLE ENCOURAGEMENT",
+        "PATIENT LISTENING",
+        "WARM EMBRACE",
+        "REFUGE IN STORMS",
+        "SAFE HAVEN"
+      ],
+      "mini_theme": "Caring for the Vulnerable",
+      "page_title_verified": true,
+      "page_title_basis": "editorial_review"
+    },
+    {
+      "name": "Mission and Outreach",
+      "words": [
+        "SPREAD THE WORD",
+        "GO INTO ALL THE WORLD",
+        "BEAR GOOD NEWS",
+        "PLANTING SEEDS",
+        "WATERING PLANTS",
+        "HARVEST IS PLENTIFUL",
+        "LABORERS TOGETHER",
+        "CALLED TO SERVE",
+        "SENDING OUT",
+        "CROSSING BORDERS",
+        "BRINGING HOPE",
+        "GLOBAL WITNESS"
+      ],
+      "mini_theme": "Mission and Outreach",
+      "page_title_verified": true,
+      "page_title_basis": "editorial_review"
+    },
+    {
+      "name": "Community Support",
+      "words": [
+        "ORPHAN CARE",
+        "WIDOWS HOME",
+        "RELIEF FUND",
+        "HELPING HAND",
+        "SHELTER DOORS",
+        "SHARED BURDEN",
+        "GENTLE TOUCH",
+        "LIFTING UP",
+        "COMFORTING",
+        "PURE RELIGION",
+        "EVERYDAY HELP",
+        "NEIGHBOR LOVE"
+      ],
+      "mini_theme": "Community Support",
+      "page_title_verified": true,
+      "page_title_basis": "editorial_review"
+    },
+    {
+      "name": "Hands of Service",
+      "words": [
+        "VOLUNTEER",
+        "FOOT WASHING",
+        "LOWLY TASK",
+        "SERVANT HEART",
+        "GIVING TIME",
+        "ACTIVE FAITH",
+        "PATIENT TOIL",
+        "READY HANDS",
+        "DAILY HELPER",
+        "QUIET WORKER",
+        "FAITHFUL AID",
+        "GENEROUS SOUL"
+      ],
+      "mini_theme": "Hands of Service",
+      "page_title_verified": true,
+      "page_title_basis": "editorial_review"
+    },
+    {
+      "name": "Comforting the Sorrowful",
+      "words": [
+        "WIPING TEARS",
+        "HEALING GRIEF",
+        "GENTLE WORDS",
+        "STAYING NEAR",
+        "BROKEN HEART",
+        "STEADY ARM",
+        "QUIET SORROW",
+        "PEACE BE STILL",
+        "TENDER GRIEF",
+        "SOOTHING BALM",
+        "HEALING LOVE",
+        "SHARED PAIN"
+      ],
+      "mini_theme": "Comforting the Sorrowful",
+      "page_title_verified": true,
+      "page_title_basis": "editorial_review"
+    },
+    {
+      "name": "Healing Hands",
+      "words": [
+        "RESTORING HEALTH",
+        "LAYING ON HANDS",
+        "MIRACULOUS CURE",
+        "BLIND SIGHT",
+        "LAME WALKING",
+        "LEPER CLEANSING",
+        "FEVER DEPARTING",
+        "WHOLE AND WELL",
+        "MEDICAL MINISTRY",
+        "HOSPICE CARE",
+        "ANOINTING OIL",
+        "PRAYER FOR HEALING"
+      ],
+      "mini_theme": "Healing Hands",
+      "page_title_verified": true,
+      "page_title_basis": "editorial_review"
+    },
+    {
+      "name": "Generous Giving",
+      "words": [
+        "SHARING ABUNDANCE",
+        "WIDOWS MITE",
+        "FIRSTFRUITS",
+        "TITHES AND OFFERINGS",
+        "OPEN HAND",
+        "LENDING FREELY",
+        "PROVIDING NEEDS",
+        "BOUNTY",
+        "PHILANTHROPY",
+        "NO HESITATION",
+        "SACRIFICIAL GIFT",
+        "BLESSING OTHERS"
+      ],
+      "mini_theme": "Generous Giving",
+      "page_title_verified": true,
+      "page_title_basis": "editorial_review"
+    },
+    {
+      "name": "Ten Virgins",
+      "words": [
+        "BRIDEGROOM",
+        "MIDNIGHT CRY",
+        "OIL LAMPS",
+        "FIVE WISE",
+        "FIVE FOOLISH",
+        "EXTRA FLASKS",
+        "SLUMBER",
+        "TRIMMING",
+        "LOCKED DOOR",
+        "TOO LATE",
+        "WATCHFUL",
+        "PREPARED"
+      ],
+      "mini_theme": "Ten Virgins",
+      "page_title_verified": true,
+      "page_title_basis": "editorial_review"
+    },
+    {
+      "name": "Healing Ministries",
+      "words": [
+        "LAY ON HANDS",
+        "RESTORE SIGHT",
+        "MAKE YOU WELL",
+        "FAITHFUL FRIENDS",
+        "LOWER THROUGH ROOF",
+        "PARALYTIC",
+        "LEPER",
+        "BE HEALED",
+        "STAND UP",
+        "TAKE YOUR MAT",
+        "WHOLE",
+        "MIRACULOUS"
+      ],
+      "mini_theme": "Healing Ministries",
+      "page_title_verified": true,
+      "page_title_basis": "editorial_review"
+    },
+    {
+      "name": "Hymn Writers",
+      "words": [
+        "CHARLES WESLEY",
+        "ISAAC WATTS",
+        "FANNY CROSBY",
+        "JOHN NEWTON",
+        "HORATIO SPAFFORD",
+        "MARTIN LUTHER",
+        "PHILIP BLISS",
+        "WILLIAM COWPER",
+        "FRANCES HAVERGAL",
+        "ROBERT ROBINSON",
+        "CHARLOTTE ELLIOTT",
+        "GEORGE WESLEY"
+      ],
+      "mini_theme": "Hymn Writers",
+      "page_title_verified": true,
+      "page_title_basis": "editorial_review"
+    },
+    {
+      "name": "Worship Leaders",
+      "words": [
+        "CHOIR DIRECTOR",
+        "ORGANIST",
+        "CANTOR",
+        "MINISTER OF MUSIC",
+        "WORSHIP PASTOR",
+        "VOCALIST",
+        "SOLOIST",
+        "PRAISE TEAM",
+        "SANCTUARY CHOIR",
+        "HANDBELL RINGERS",
+        "PSALMIST",
+        "WORSHIP LEADER"
+      ],
+      "mini_theme": "Worship Leaders",
+      "page_title_verified": true,
+      "page_title_basis": "editorial_review"
+    },
+    {
+      "name": "Bearing Burdens",
+      "words": [
+        "SHARE THE LOAD",
+        "ENCOURAGE THE WEARY",
+        "STRENGTHEN THE WEAK",
+        "LIFT EACH OTHER",
+        "SUPPORT SYSTEM",
+        "MUTUAL AID",
+        "STANDING TOGETHER",
+        "FAITHFUL FRIEND",
+        "HELP IN TROUBLE",
+        "RELIABLE PARTNER",
+        "COMFORTING WORDS",
+        "STEADY SHOULDER"
+      ],
+      "mini_theme": "Bearing Burdens",
+      "page_title_verified": true,
+      "page_title_basis": "editorial_review"
+    },
+    {
+      "name": "Hospitality and Welcome",
+      "words": [
+        "OPEN DOORS",
+        "WARM GREETING",
+        "SHARE A MEAL",
+        "STRANGER WELCOMED",
+        "GENEROUS HOST",
+        "FELLOWSHIP TABLE",
+        "INVITING HOME",
+        "KIND RECEPTION",
+        "PEACE BE HERE",
+        "FRIENDLY SMILE",
+        "GATHERING PLACE",
+        "HONORING GUESTS"
+      ],
+      "mini_theme": "Hospitality and Welcome",
+      "page_title_verified": true,
+      "page_title_basis": "editorial_review"
+    },
+    {
+      "name": "Small Groups",
+      "words": [
+        "PRAYER PARTNER",
+        "WISE COUNSEL",
+        "MENTORING",
+        "TEACHING",
+        "ACCOUNTABILITY",
+        "HOME GROUP",
+        "BIBLE STUDY",
+        "SHARING",
+        "TESTIMONY",
+        "DISCIPLESHIP",
+        "CIRCLE",
+        "DISCUSSION"
+      ],
+      "mini_theme": "Small Groups",
+      "page_title_verified": true,
+      "page_title_basis": "editorial_review"
+    },
+    {
+      "name": "Acts of Hospitality",
+      "words": [
+        "ARRIVAL",
+        "COFFEE HOUR",
+        "GREETING",
+        "GUEST",
+        "HOSTING",
+        "OPEN DOOR",
+        "SMILE",
+        "STRANGER",
+        "TEARING DOWN WALLS",
+        "WELCOME",
+        "WARMTH",
+        "WELCOME TABLE"
+      ],
+      "mini_theme": "Acts of Hospitality",
+      "page_title_verified": true,
+      "page_title_basis": "editorial_review"
+    },
+    {
+      "name": "Amazing Grace",
+      "words": [
+        "AMAZING GRACE",
+        "WRETCH LIKE ME",
+        "ONCE WAS LOST",
+        "WAS BLIND",
+        "NOW I SEE",
+        "SWEET SOUND",
+        "SAVE A WRETCH",
+        "PRECIOUS GRACE",
+        "FIRST BELIEVED",
+        "SAFE THUS FAR",
+        "LEAD ME HOME",
+        "TEN THOUSAND YEARS"
+      ],
+      "mini_theme": "Amazing Grace",
+      "page_title_verified": true,
+      "page_title_basis": "editorial_review"
+    },
+    {
+      "name": "Holy Holy Holy",
+      "words": [
+        "EARLY IN THE MORNING",
+        "GOD IN THREE PERSONS",
+        "BLESSED TRINITY",
+        "SHADOWS FALL",
+        "MAGNIFY",
+        "CHERUBIM",
+        "SERAPHIM",
+        "FALLING DOWN",
+        "PERFECT IN POWER",
+        "LOVE AND PURITY",
+        "ALL THY WORKS",
+        "PRAISE THY NAME"
+      ],
+      "mini_theme": "Holy Holy Holy",
+      "page_title_verified": true,
+      "page_title_basis": "editorial_review"
+    },
+    {
+      "name": "It Is Well With My Soul",
+      "words": [
+        "WHEN SORROWS ROLL",
+        "LIKE SEA BILLOWS",
+        "WHATEVER MY LOT",
+        "THOU HAST TAUGHT ME",
+        "MY SIN NOT IN PART",
+        "NAILED TO THE CROSS",
+        "LOUD BLAST",
+        "TRUMPET SHALL SOUND",
+        "LORD COME BACK",
+        "EVEN SO",
+        "IT IS WELL",
+        "WITH MY SOUL"
+      ],
+      "mini_theme": "It Is Well With My Soul",
+      "page_title_verified": true,
+      "page_title_basis": "editorial_review"
+    },
+    {
+      "name": "How Great Thou Art",
+      "words": [
+        "O LORD MY GOD",
+        "STARRY SKIES",
+        "ROLLING THUNDER",
+        "POWER THROUGHOUT",
+        "GOLGOTHA",
+        "BORAR MY SIN",
+        "WHEN CHRIST SHALL COME",
+        "SHOUT OF ACCLAMATION",
+        "TAKE ME HOME",
+        "BOW IN ADORATION",
+        "MY SAVIOUR GOD",
+        "SING PRAISE"
+      ],
+      "mini_theme": "How Great Thou Art",
+      "page_title_verified": true,
+      "page_title_basis": "editorial_review"
+    },
+    {
+      "name": "Holy Spirit Rain Down",
+      "words": [
+        "SPIRIT RAIN DOWN",
+        "BRING US TO OUR KNEES",
+        "SET OUR HEARTS ABLAZE",
+        "CONSUMING FIRE",
+        "FRESH ANOINTING",
+        "MOVE AMONG US",
+        "FILL THIS PLACE",
+        "BREATH OF GOD",
+        "LIVING WATER",
+        "HEALING STREAM",
+        "TOUCH OUR LIVES",
+        "OPEN HEAVENS"
+      ],
+      "mini_theme": "Holy Spirit Rain Down",
+      "page_title_verified": true,
+      "page_title_basis": "editorial_review"
+    },
+    {
+      "name": "Come Thou Fount",
+      "words": [
+        "STREAM OF MERCY",
+        "SONGS OF LOUDEST PRAISE",
+        "MOUNT OF BLESSING",
+        "FIXED UPON IT",
+        "HERE I RAISE MY EBENEZER",
+        "HITHER BY THY HELP",
+        "PLEASURE TO RESIDE",
+        "PRONE TO WANDER",
+        "LEAVE THE GOD I LOVE",
+        "SEAL IT FOR THY COURTS",
+        "BOND OF LOVE",
+        "STRETCHED WINGS"
+      ],
+      "mini_theme": "Come Thou Fount",
+      "page_title_verified": true,
+      "page_title_basis": "editorial_review"
+    },
+    {
+      "name": "Sacred Vestments and Vessels",
+      "words": [
+        "PECTORAL",
+        "CASSOCK",
+        "MITRE",
+        "STOLE",
+        "ALB",
+        "MANTLE",
+        "ROBE",
+        "SURPLICE",
+        "CVIAC",
+        "PATEN",
+        "CENSER",
+        "CRUET"
+      ],
+      "mini_theme": "Sacred Vestments and Vessels",
+      "page_title_verified": true,
+      "page_title_basis": "editorial_review"
+    },
+    {
+      "name": "Evening Rest",
+      "words": [
+        "NIGHTFALL",
+        "SWEET SLEEP",
+        "GUARDIAN ANGELS",
+        "SAFE KEEPING",
+        "MOONLIGHT",
+        "STARS ABOVE",
+        "CLOSING DAY",
+        "RESTFUL",
+        "BLESSED NIGHT",
+        "DREAMING",
+        "MORNING LIGHT",
+        "SECURE"
+      ],
+      "mini_theme": "Evening Rest",
+      "page_title_verified": true,
+      "page_title_basis": "editorial_review"
+    },
+    {
+      "name": "Shared Heritage",
+      "words": [
+        "CHRONICLE",
+        "MEMORIES",
+        "TRADITION",
+        "HISTORY",
+        "VANGUARD",
+        "LINEAGE",
+        "ROOTS",
+        "LEGACY",
+        "ANCESTORS",
+        "CULTURE",
+        "TRIBES",
+        "CUSTOMS"
+      ],
+      "mini_theme": "Shared Heritage",
+      "page_title_verified": true,
+      "page_title_basis": "editorial_review"
+    },
+    {
+      "name": "Morning Mercies",
+      "words": [
+        "DAWN OF GRACE",
+        "NEW EVERY MORNING",
+        "SUNRISE WORSHIP",
+        "FIRST LIGHT",
+        "AWAKENING JOY",
+        "MORNING PRAYER",
+        "FRESH START",
+        "BIRTHDAY OF FAITH",
+        "BRIGHT PROMISE",
+        "RADIANT HOPE",
+        "BLESSED DAY",
+        "EARLY SEEKING"
+      ],
+      "mini_theme": "Morning Mercies",
+      "page_title_verified": true,
+      "page_title_basis": "editorial_review"
+    },
+    {
+      "name": "Unfailing Hope",
+      "words": [
+        "STEADFAST HOPE",
+        "ANCHOR OF THE SOUL",
+        "FUTURE GLORY",
+        "PROMISED LAND",
+        "SAVING FAITH",
+        "ETERNAL PROMISE",
+        "UNSHAKABLE TRUST",
+        "LIGHT IN THE DARK",
+        "GOOD COURAGE",
+        "PATIENT WAITING",
+        "CONFIDENT EXPECTATION",
+        "VICTORY AHEAD"
+      ],
+      "mini_theme": "Unfailing Hope",
+      "page_title_verified": true,
+      "page_title_basis": "editorial_review"
+    },
+    {
+      "name": "Quiet Waters",
+      "words": [
+        "STREAMS",
+        "RIVERBANK",
+        "REFLECTIONS",
+        "GENTLE BREEZE",
+        "OASIS",
+        "VERDANT",
+        "COOL SHADE",
+        "FLOWING",
+        "RESTORING",
+        "MEADOWS",
+        "HILLSIDES",
+        "NATURE"
+      ],
+      "mini_theme": "Quiet Waters",
+      "page_title_verified": true,
+      "page_title_basis": "editorial_review"
+    },
+    {
+      "name": "Precious Stones and Metals",
+      "words": [
+        "GOLD",
+        "SILVER",
+        "BRONZE",
+        "BRASS",
+        "IRON",
+        "ONYX",
+        "JASPER",
+        "SAPPHIRE",
+        "EMERALD",
+        "TOPAZ",
+        "AMETHYST",
+        "PEARL"
+      ],
+      "mini_theme": "Precious Stones and Metals",
+      "page_title_verified": true,
+      "page_title_basis": "editorial_review"
+    },
+    {
+      "name": "Psalms and Songs",
+      "words": [
+        "SINGING PRAISES",
+        "MUSICAL OFFERING",
+        "RESPONSORIAL",
+        "ANTHEM",
+        "DOXOLOGY",
+        "CANTICLE",
+        "GOSPEL SONG",
+        "LITURGY",
+        "REFRAIN",
+        "VERSE",
+        "CHORUS",
+        "SACRED MELODY"
+      ],
+      "mini_theme": "Psalms and Songs",
+      "page_title_verified": true,
+      "page_title_basis": "editorial_review"
+    },
+    {
+      "name": "Liturgical Seasons",
+      "words": [
+        "LENT",
+        "ASH WEDNESDAY",
+        "TRIDUUM",
+        "EASTER VIGIL",
+        "ORDINARY TIME",
+        "CHRISTMASTIDE",
+        "EPIPHANYTIDE",
+        "KINGDOMTIDE",
+        "REIGN OF CHRIST",
+        "FAST",
+        "VIGIL",
+        "SEASON OF GRACE"
+      ],
+      "mini_theme": "Liturgical Seasons",
+      "page_title_verified": true,
+      "page_title_basis": "editorial_review"
+    },
+    {
+      "name": "Musical Psalms",
+      "words": [
+        "PSALM OF ASCENT",
+        "SONG OF DAVID",
+        "MAKE A JOYFUL NOISE",
+        "SING PRAISES",
+        "MUSICAL INTERLUDE",
+        "CELEBRATE THE LORD",
+        "ETERNAL MERCIES",
+        "RIGHTEOUS MELODY",
+        "GLAD TIDINGS",
+        "REJOICE ALWAYS",
+        "EVERLASTING LOVE",
+        "FAITHFUL HARP"
+      ],
+      "mini_theme": "Musical Psalms",
+      "page_title_verified": true,
+      "page_title_basis": "editorial_review"
+    },
+    {
+      "name": "Eternal Worship",
+      "words": [
+        "HEAVENLY CHOIR",
+        "ANGELIC ANTHEM",
+        "THRONE ROOM",
+        "GOLDEN CROWNS",
+        "CELESTIAL HARMONY",
+        "ENDLESS PRAISE",
+        "SAVIOR KING",
+        "LAMB OF GOD",
+        "WORTHY IS THE LORD",
+        "FOREVERMORE",
+        "COSMIC WORSHIP",
+        "UNENDING GLORY"
+      ],
+      "mini_theme": "Eternal Worship",
+      "page_title_verified": true,
+      "page_title_basis": "editorial_review"
+    },
+    {
+      "name": "Daily Rhythms and Labor",
+      "words": [
+        "SUNRISE WORK",
+        "EVENING MEAL",
+        "HARVEST TIME",
+        "PRUNING VINES",
+        "CATCHING FISH",
+        "GROUNDING WHEAT",
+        "DRAWING WATER",
+        "HERDING FLOCKS",
+        "BAKING BREAD",
+        "SEWING GARMENTS",
+        "BUILDING WALLS",
+        "RESTING SABBATH"
+      ],
+      "mini_theme": "Daily Rhythms and Labor",
+      "page_title_verified": true,
+      "page_title_basis": "editorial_review"
+    },
+    {
+      "name": "Instruments of Worship",
+      "words": [
+        "CATHEDRAL ORGAN",
+        "ACOUSTIC GUITAR",
+        "PRAISE ORCHESTRA",
+        "CHORAL ANTHEM",
+        "SACRED CELLO",
+        "GRAND PIANO",
+        "BRASS ENSEMBLE",
+        "STRING QUARTET",
+        "HANDBELL CHOIR",
+        "MELODIOUS HARP",
+        "WORSHIP TRUMPET",
+        "FLUTE HARMONY"
+      ],
+      "mini_theme": "Instruments of Worship",
+      "page_title_verified": true,
+      "page_title_basis": "editorial_review"
+    },
+    {
+      "name": "Biblical Garments and Attire",
+      "words": [
+        "ROBES",
+        "TUNIC",
+        "SANDALS",
+        "GIRDLE",
+        "SACKCLOTH",
+        "MANTLES",
+        "VEIL",
+        "TURBAN",
+        "EPHOD",
+        "BREASTPLATE",
+        "SASH",
+        "HEADBAND"
+      ],
+      "mini_theme": "Biblical Garments and Attire",
+      "page_title_verified": true,
+      "page_title_basis": "editorial_review"
+    },
+    {
+      "name": "Biblical Weights and Measures",
+      "words": [
+        "CUBIT",
+        "SHEKEL",
+        "DENARIUS",
+        "TALENT",
+        "EPHAH",
+        "HOMER",
+        "MITE",
+        "DRACHMA",
+        "MINA",
+        "SPAN",
+        "BATH",
+        "OMER"
+      ],
+      "mini_theme": "Biblical Weights and Measures",
+      "page_title_verified": true,
+      "page_title_basis": "editorial_review"
+    }
+  ],
+  "source_word_bank": {
+    "name": "Editorial Word Search Rebuild v2",
+    "topics": [
+      "Bible and Faith"
+    ],
+    "selection_policy": "Page-grouped provider proposals; locally screened for exact capacity, normalized uniqueness, length, protected names, and page coherence",
+    "candidate_sha256": "348d5865c32d6ae541872f81483d6394c927d8d4f5a2791e1d96066f1fc622ae"
+  },
+  "quality_review": {
+    "production_ready": true,
+    "verdict": "PASS",
+    "checked_at": "2026-09-19T18:52:18",
+    "source": "assistant-assisted editorial rebuild",
+    "checks": [
+      "exact capacity",
+      "no repeated normalized entries",
+      "3–21 normalized letters",
+      "protected/rejected-term screen",
+      "coherent reviewed page titles"
+    ]
+  },
+  "signature_edition": {
+    "enabled": true,
+    "puzzle_target": 100
+  }
+}

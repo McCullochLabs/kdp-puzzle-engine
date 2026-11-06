@@ -1,0 +1,102 @@
+{
+  "schema_version": 1,
+  "research_status": "REVIEW_REQUIRED_NOT_APPROVED",
+  "lexical_review_group": "noun.event",
+  "records": [
+    {
+      "normalized": "FORMALITIES",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "formalities",
+          "synset": "n:07455007",
+          "lexical_category": "noun.event",
+          "definition": "a requirement of etiquette or custom; \"a mere formality\""
+        }
+      ],
+      "candidate_categories": [
+        "noun.event"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    },
+    {
+      "normalized": "GODSPEED",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "Godspeed",
+          "synset": "n:07319549",
+          "lexical_category": "noun.event",
+          "definition": "a successful journey; \"they wished him Godspeed\""
+        }
+      ],
+      "candidate_categories": [
+        "noun.event"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    },
+    {
+      "normalized": "MARVEL",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "marvel",
+          "synset": "n:07289588",
+          "lexical_category": "noun.event",
+          "definition": "something that causes feelings of wonder; \"the wonders of modern science\""
+        }
+      ],
+      "candidate_categories": [
+        "noun.event"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": true,
+        "safety_review": false
+      }
+    },
+    {
+      "normalized": "POLLINATION",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "pollination",
+          "synset": "n:07437372",
+          "lexical_category": "noun.event",
+          "definition": "transfer of pollen from the anther to the stigma of a plant"
+        }
+      ],
+      "candidate_categories": [
+        "noun.event"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    },
+    {
+      "normalized": "SHOCKWAVE",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "shock_wave",
+          "synset": "n:07347846",
+          "lexical_category": "noun.event",
+          "definition": "a region of high pressure travelling through a gas at a high velocity; \"the explosion created a shock wave\""
+        }
+      ],
+      "candidate_categories": [
+        "noun.event"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    }
+  ]
+}

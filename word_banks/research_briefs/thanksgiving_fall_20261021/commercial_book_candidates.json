@@ -1,0 +1,834 @@
+{
+  "schema_version": 1,
+  "status": "REVIEW_REQUIRED",
+  "title": "Thanksgiving & Fall Word Search",
+  "puzzles": 48,
+  "pages": [
+    {
+      "name": "Giving Thanks",
+      "words": [
+        "GRATITUDE",
+        "THANKFUL",
+        "APPRECIATION",
+        "BLESSINGS",
+        "ABUNDANCE",
+        "GENEROSITY",
+        "CONTENTMENT",
+        "KINDNESS",
+        "REFLECTION",
+        "HOPE",
+        "JOY",
+        "THANKSGIVING"
+      ]
+    },
+    {
+      "name": "Family Gathering",
+      "words": [
+        "FAMILY",
+        "RELATIVES",
+        "COUSINS",
+        "SIBLINGS",
+        "GRANDPARENTS",
+        "PARENTS",
+        "CHILDREN",
+        "GRANDCHILDREN",
+        "REUNION",
+        "TOGETHERNESS",
+        "KINSHIP",
+        "GENERATIONS"
+      ]
+    },
+    {
+      "name": "Welcome to Our Home",
+      "words": [
+        "WELCOME",
+        "HOST",
+        "HOSTESS",
+        "GUEST",
+        "INVITATION",
+        "GREETING",
+        "HOSPITALITY",
+        "DOORBELL",
+        "ARRIVAL",
+        "VISIT",
+        "COMPANY",
+        "EMBRACE"
+      ]
+    },
+    {
+      "name": "Setting the Table",
+      "words": [
+        "TABLECLOTH",
+        "NAPKIN",
+        "PLACEMAT",
+        "CHARGER",
+        "DINNERWARE",
+        "FLATWARE",
+        "GOBLET",
+        "TUMBLER",
+        "CENTERPIECE",
+        "CANDLESTICK",
+        "PLACE CARD",
+        "NAPKIN RING"
+      ]
+    },
+    {
+      "name": "Kitchen Helpers",
+      "words": [
+        "COLANDER",
+        "WHISK",
+        "SPATULA",
+        "LADLE",
+        "TONGS",
+        "PEELER",
+        "GRATER",
+        "SIEVE",
+        "FUNNEL",
+        "TRIVET",
+        "MIXING BOWL",
+        "CUTTING BOARD"
+      ]
+    },
+    {
+      "name": "Ready for the Oven",
+      "words": [
+        "ROASTING PAN",
+        "BASTING",
+        "THERMOMETER",
+        "OVEN MITT",
+        "RACK",
+        "FOIL",
+        "PREHEAT",
+        "TIMER",
+        "BAKEWARE",
+        "CASSEROLE",
+        "DUTCH OVEN",
+        "DRIPPINGS"
+      ]
+    },
+    {
+      "name": "The Turkey Dinner",
+      "words": [
+        "TURKEY",
+        "BREAST",
+        "DRUMSTICK",
+        "WISHBONE",
+        "CARVING",
+        "PLATTER",
+        "GRAVY",
+        "GIBLETS",
+        "BRINE",
+        "STUFFING",
+        "DRESSING",
+        "FEAST"
+      ]
+    },
+    {
+      "name": "Savory Herbs",
+      "words": [
+        "SAGE",
+        "THYME",
+        "ROSEMARY",
+        "PARSLEY",
+        "MARJORAM",
+        "SAVORY",
+        "TARRAGON",
+        "CHIVES",
+        "BASIL",
+        "OREGANO",
+        "BAY LEAF",
+        "DILL"
+      ]
+    },
+    {
+      "name": "Mashed and Roasted",
+      "words": [
+        "POTATO",
+        "YAM",
+        "SWEET POTATO",
+        "MASHER",
+        "BUTTER",
+        "CREAM",
+        "CHEDDAR",
+        "CHOPPED",
+        "CUBED",
+        "PEELED",
+        "STEAMED",
+        "WHIPPED"
+      ]
+    },
+    {
+      "name": "Root Cellar",
+      "words": [
+        "CARROT",
+        "PARSNIP",
+        "TURNIP",
+        "RUTABAGA",
+        "BEET",
+        "RADISH",
+        "CELERIAC",
+        "ONION",
+        "GARLIC",
+        "SHALLOT",
+        "LEEK",
+        "HORSERADISH"
+      ]
+    },
+    {
+      "name": "Winter Squash",
+      "words": [
+        "BUTTERNUT",
+        "ACORN SQUASH",
+        "DELICATA",
+        "KABOCHA",
+        "HUBBARD",
+        "SPAGHETTI SQUASH",
+        "BUTTERCUP",
+        "PUMPKIN",
+        "RIND",
+        "FLESH",
+        "SCOOP",
+        "CURE"
+      ]
+    },
+    {
+      "name": "Vegetable Sides",
+      "words": [
+        "GREEN BEAN",
+        "BROCCOLI",
+        "CAULIFLOWER",
+        "BRUSSELS SPROUT",
+        "CABBAGE",
+        "KALE",
+        "SPINACH",
+        "COLLARD",
+        "CHARD",
+        "MUSHROOM",
+        "CELERY",
+        "PEAS"
+      ]
+    },
+    {
+      "name": "Cranberry Kitchen",
+      "words": [
+        "CRANBERRY",
+        "RELISH",
+        "CHUTNEY",
+        "COMPOTE",
+        "JELLY",
+        "SAUCE",
+        "TARTNESS",
+        "PECTIN",
+        "SIMMER",
+        "STRAIN",
+        "GLAZE",
+        "ZEST"
+      ]
+    },
+    {
+      "name": "Apple Orchard",
+      "words": [
+        "APPLE",
+        "ORCHARD",
+        "BUSHEL",
+        "LADDER",
+        "PICKING",
+        "CIDER",
+        "PRESS",
+        "POMACE",
+        "PIPPIN",
+        "RUSSET",
+        "APPLESAUCE",
+        "APPLE BUTTER"
+      ]
+    },
+    {
+      "name": "Fall Fruit Basket",
+      "words": [
+        "PEAR",
+        "PERSIMMON",
+        "POMEGRANATE",
+        "QUINCE",
+        "FIG",
+        "DATE",
+        "GRAPE",
+        "RAISIN",
+        "PRUNE",
+        "CURRANT",
+        "APRICOT",
+        "DRIED FRUIT"
+      ]
+    },
+    {
+      "name": "Nuts and Seeds",
+      "words": [
+        "PECAN",
+        "WALNUT",
+        "CHESTNUT",
+        "HAZELNUT",
+        "ALMOND",
+        "PISTACHIO",
+        "CASHEW",
+        "PEANUT",
+        "PEPITA",
+        "SUNFLOWER SEED",
+        "NUTCRACKER",
+        "KERNEL"
+      ]
+    },
+    {
+      "name": "Pumpkin Pie Spices",
+      "words": [
+        "CINNAMON",
+        "NUTMEG",
+        "GINGER",
+        "ALLSPICE",
+        "CLOVE",
+        "CARDAMOM",
+        "MACE",
+        "VANILLA",
+        "MOLASSES",
+        "BROWN SUGAR",
+        "MAPLE SYRUP",
+        "HONEY"
+      ]
+    },
+    {
+      "name": "Rolling Out Pastry",
+      "words": [
+        "FLOUR",
+        "SHORTENING",
+        "LARD",
+        "DOUGH",
+        "CRUST",
+        "ROLLING PIN",
+        "PASTRY BRUSH",
+        "PIE PLATE",
+        "LATTICE",
+        "CRIMP",
+        "FLAKY",
+        "SIFT"
+      ]
+    },
+    {
+      "name": "The Bread Basket",
+      "words": [
+        "BREAD",
+        "ROLL",
+        "BISCUIT",
+        "CORNBREAD",
+        "SOURDOUGH",
+        "YEAST",
+        "KNEAD",
+        "PROOF",
+        "LOAF",
+        "CRUMB",
+        "BAGUETTE",
+        "BRIOCHE"
+      ]
+    },
+    {
+      "name": "Something Sweet",
+      "words": [
+        "COBBLER",
+        "CRUMBLE",
+        "CRISP",
+        "TART",
+        "CUSTARD",
+        "PUDDING",
+        "CHEESECAKE",
+        "BROWNIE",
+        "COOKIE",
+        "FUDGE",
+        "PRALINE",
+        "CARAMEL"
+      ]
+    },
+    {
+      "name": "Pantry Staples",
+      "words": [
+        "SALT",
+        "PEPPER",
+        "OIL",
+        "VINEGAR",
+        "MUSTARD",
+        "STOCK",
+        "BROTH",
+        "CORNSTARCH",
+        "BAKING SODA",
+        "BAKING POWDER",
+        "SUGAR",
+        "OATMEAL"
+      ]
+    },
+    {
+      "name": "Warm Drinks",
+      "words": [
+        "COCOA",
+        "COFFEE",
+        "TEA",
+        "CHAI",
+        "CHICORY",
+        "DECAF",
+        "STEEP",
+        "BREW",
+        "KETTLE",
+        "TEAPOT",
+        "MUG",
+        "MARSHMALLOW"
+      ]
+    },
+    {
+      "name": "Morning after the Feast",
+      "words": [
+        "BREAKFAST",
+        "PANCAKE",
+        "WAFFLE",
+        "OMELET",
+        "SCRAMBLED",
+        "BACON",
+        "SAUSAGE",
+        "HASH",
+        "GRANOLA",
+        "YOGURT",
+        "TOAST",
+        "MARMALADE"
+      ]
+    },
+    {
+      "name": "Lovely Leftovers",
+      "words": [
+        "LEFTOVERS",
+        "SANDWICH",
+        "SOUP",
+        "STEW",
+        "POTPIE",
+        "FRITTER",
+        "CROQUETTE",
+        "REFRIGERATE",
+        "FREEZE",
+        "REHEAT",
+        "CONTAINER",
+        "LUNCH"
+      ]
+    },
+    {
+      "name": "Sharing the Harvest",
+      "words": [
+        "POTLUCK",
+        "COMMUNITY",
+        "NEIGHBOR",
+        "DONATION",
+        "VOLUNTEER",
+        "PANTRY",
+        "BASKET",
+        "CONTRIBUTION",
+        "SERVICE",
+        "CHARITY",
+        "SHARING",
+        "SUPPORT"
+      ]
+    },
+    {
+      "name": "Fields at Harvest Time",
+      "words": [
+        "HARVEST",
+        "FARM",
+        "FIELD",
+        "CROP",
+        "TRACTOR",
+        "COMBINE",
+        "GRANARY",
+        "SILO",
+        "BARN",
+        "HAYBALE",
+        "CORNSTALK",
+        "SCARECROW"
+      ]
+    },
+    {
+      "name": "Farmers Market",
+      "words": [
+        "MARKET",
+        "STALL",
+        "VENDOR",
+        "PRODUCE",
+        "LOCAL",
+        "SEASONAL",
+        "ORGANIC",
+        "WEIGH",
+        "SCALE",
+        "CRATE",
+        "WAGON",
+        "CORN"
+      ]
+    },
+    {
+      "name": "Autumn Trees",
+      "words": [
+        "MAPLE",
+        "OAK",
+        "BEECH",
+        "BIRCH",
+        "ASPEN",
+        "HICKORY",
+        "ELM",
+        "SWEETGUM",
+        "SYCAMORE",
+        "DOGWOOD",
+        "GINKGO",
+        "SASSAFRAS"
+      ]
+    },
+    {
+      "name": "Leaves and Woodland Treasures",
+      "words": [
+        "LEAF",
+        "ACORN",
+        "PINECONE",
+        "TWIG",
+        "BARK",
+        "MOSS",
+        "FERN",
+        "LICHEN",
+        "BOUGH",
+        "CANOPY",
+        "UNDERGROWTH",
+        "LEAF PILE"
+      ]
+    },
+    {
+      "name": "Colors of Fall",
+      "words": [
+        "AMBER",
+        "GOLD",
+        "SIENNA",
+        "SCARLET",
+        "CRIMSON",
+        "COPPER",
+        "BRONZE",
+        "OCHRE",
+        "AUBURN",
+        "MAROON",
+        "BURGUNDY",
+        "UMBER"
+      ]
+    },
+    {
+      "name": "Crisp Autumn Air",
+      "words": [
+        "AUTUMN",
+        "NOVEMBER",
+        "OCTOBER",
+        "SEPTEMBER",
+        "EQUINOX",
+        "DAYLIGHT",
+        "TWILIGHT",
+        "BREEZE",
+        "CHILL",
+        "FROST",
+        "DEW",
+        "MIST"
+      ]
+    },
+    {
+      "name": "Rainy Afternoon",
+      "words": [
+        "RAIN",
+        "DRIZZLE",
+        "SHOWER",
+        "PUDDLE",
+        "UMBRELLA",
+        "RAINCOAT",
+        "GALOSHES",
+        "OVERCAST",
+        "CLOUD",
+        "WIND",
+        "GUST",
+        "DOWNPOUR"
+      ]
+    },
+    {
+      "name": "Cool Evening Comforts",
+      "words": [
+        "FIREPLACE",
+        "HEARTH",
+        "EMBERS",
+        "KINDLING",
+        "FIREWOOD",
+        "CHIMNEY",
+        "FLANNEL",
+        "SWEATER",
+        "CARDIGAN",
+        "BLANKET",
+        "SLIPPERS",
+        "SOCKS"
+      ]
+    },
+    {
+      "name": "An Autumn Walk",
+      "words": [
+        "TRAIL",
+        "FOOTPATH",
+        "WOODLAND",
+        "FOREST",
+        "GROVE",
+        "HILLSIDE",
+        "STREAM",
+        "CREEK",
+        "BRIDGE",
+        "BOOTS",
+        "BACKPACK",
+        "WALKING STICK"
+      ]
+    },
+    {
+      "name": "Birds on the Move",
+      "words": [
+        "MIGRATION",
+        "FLOCK",
+        "GOOSE",
+        "DUCK",
+        "CRANE",
+        "SWAN",
+        "STARLING",
+        "WARBLER",
+        "ROBIN",
+        "SPARROW",
+        "FEATHER",
+        "WING"
+      ]
+    },
+    {
+      "name": "Woodland Neighbors",
+      "words": [
+        "SQUIRREL",
+        "CHIPMUNK",
+        "DEER",
+        "FOX",
+        "RABBIT",
+        "RACCOON",
+        "BADGER",
+        "OPOSSUM",
+        "WOODCHUCK",
+        "BURROW",
+        "FORAGE",
+        "HIBERNATION"
+      ]
+    },
+    {
+      "name": "Cozy Reading Corner",
+      "words": [
+        "ARMCHAIR",
+        "CUSHION",
+        "LAMP",
+        "BOOKCASE",
+        "NOVEL",
+        "BOOKMARK",
+        "CHAPTER",
+        "POETRY",
+        "JOURNAL",
+        "RUG",
+        "OTTOMAN",
+        "READING"
+      ]
+    },
+    {
+      "name": "Porch Decorations",
+      "words": [
+        "PORCH",
+        "WREATH",
+        "GARLAND",
+        "LANTERN",
+        "GOURD",
+        "CORNHUSK",
+        "RIBBON",
+        "FLOWERPOT",
+        "DOORMAT",
+        "ROCKING CHAIR",
+        "DRIED FLOWERS",
+        "RAFFIA"
+      ]
+    },
+    {
+      "name": "Fall Paper Crafts",
+      "words": [
+        "PAPER",
+        "SCISSORS",
+        "GLUE",
+        "STENCIL",
+        "STAMP",
+        "CARDSTOCK",
+        "CREPE PAPER",
+        "TISSUE",
+        "COLLAGE",
+        "DOILY",
+        "ORIGAMI",
+        "CUTOUT"
+      ]
+    },
+    {
+      "name": "Warm Woolly Projects",
+      "words": [
+        "KNITTING",
+        "CROCHET",
+        "YARN",
+        "NEEDLE",
+        "HOOK",
+        "STITCH",
+        "PURL",
+        "CAST ON",
+        "SKEIN",
+        "SCARF",
+        "MITTEN",
+        "SHAWL"
+      ]
+    },
+    {
+      "name": "A Patchwork Afternoon",
+      "words": [
+        "QUILT",
+        "PATCHWORK",
+        "FABRIC",
+        "COTTON",
+        "BATTING",
+        "BACKING",
+        "THIMBLE",
+        "BOBBIN",
+        "SEAM",
+        "HEM",
+        "APPLIQUE",
+        "PINCUSHION"
+      ]
+    },
+    {
+      "name": "Games around the Table",
+      "words": [
+        "CHARADES",
+        "DOMINOES",
+        "CHECKERS",
+        "CHESS",
+        "PUZZLE",
+        "JIGSAW",
+        "DICE",
+        "CARDS",
+        "RIDDLE",
+        "TRIVIA",
+        "BINGO",
+        "SCORECARD"
+      ]
+    },
+    {
+      "name": "Game Day Football",
+      "words": [
+        "FOOTBALL",
+        "TOUCHDOWN",
+        "QUARTERBACK",
+        "HUDDLE",
+        "KICKOFF",
+        "END ZONE",
+        "SIDELINE",
+        "BLEACHERS",
+        "HELMET",
+        "JERSEY",
+        "REFEREE",
+        "HALFTIME"
+      ]
+    },
+    {
+      "name": "Thanksgiving Parade",
+      "words": [
+        "PARADE",
+        "FLOAT",
+        "BALLOON",
+        "MARCHING BAND",
+        "DRUM",
+        "CYMBAL",
+        "BATON",
+        "BANNER",
+        "CONFETTI",
+        "SPECTATOR",
+        "PROCESSION",
+        "CHEERING"
+      ]
+    },
+    {
+      "name": "Music and Merriment",
+      "words": [
+        "SINGING",
+        "HARMONY",
+        "MELODY",
+        "CHORUS",
+        "PIANO",
+        "GUITAR",
+        "FIDDLE",
+        "DANCING",
+        "LAUGHTER",
+        "APPLAUSE",
+        "CELEBRATION",
+        "FESTIVITY"
+      ]
+    },
+    {
+      "name": "The Journey Home",
+      "words": [
+        "JOURNEY",
+        "HOMECOMING",
+        "HIGHWAY",
+        "ROAD TRIP",
+        "TRAIN",
+        "STATION",
+        "AIRPORT",
+        "SUITCASE",
+        "TICKET",
+        "PASSENGER",
+        "DESTINATION",
+        "RESERVATION"
+      ]
+    },
+    {
+      "name": "Making Memories",
+      "words": [
+        "MEMORY",
+        "TRADITION",
+        "PHOTOGRAPH",
+        "ALBUM",
+        "SNAPSHOT",
+        "PORTRAIT",
+        "KEEPSAKE",
+        "HEIRLOOM",
+        "SCRAPBOOK",
+        "STORYTELLING",
+        "ANECDOTE",
+        "REMINISCENCE"
+      ]
+    },
+    {
+      "name": "A Thoughtful Thank You",
+      "words": [
+        "THANKS",
+        "LETTER",
+        "POSTCARD",
+        "ENVELOPE",
+        "STATIONERY",
+        "HANDWRITING",
+        "MESSAGE",
+        "COMPLIMENT",
+        "ACKNOWLEDGE",
+        "THOUGHTFUL",
+        "AFFECTION",
+        "FRIENDSHIP"
+      ]
+    }
+  ],
+  "reviewer": "Codex editorial preparation; not owner approval",
+  "sources": {
+    "DELICATA": "https://www.extension.purdue.edu/foodlink/food.php?food=winter+squash",
+    "KABOCHA": "https://www.extension.purdue.edu/foodlink/food.php?food=winter+squash",
+    "HUBBARD": "https://www.extension.purdue.edu/foodlink/food.php?food=winter+squash",
+    "PEPITA": "https://www.merriam-webster.com/dictionary/pepita",
+    "PLACEMAT": "https://www.merriam-webster.com/dictionary/place%20mat",
+    "DECAF": "https://www.merriam-webster.com/dictionary/decaf",
+    "SWEETGUM": "https://www.merriam-webster.com/dictionary/sweet%20gum"
+  }
+}

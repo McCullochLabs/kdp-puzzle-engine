@@ -61,7 +61,7 @@ def canonical_facts(book: dict, source: dict | None = None) -> dict:
     aliases = {"pages": "page_count", "interior_pages": "page_count", "theme": "theme", "detected_topic": "topic", "puzzle_type": "puzzle_type", "puzzle_count": "puzzle_count", "author": "author", "title": "title", "subtitle": "subtitle", "series": "series"}
     facts = {"book_id": str(book.get("book_id") or ""), "source_key": str(book.get("source_key") or ""), "package_path": str(book.get("package_path") or "")}
     conflicts: list[str] = []
-    for key in ("title", "subtitle", "author", "series", "theme", "detected_topic", "puzzle_type", "puzzle_count", "puzzle_seed", "page_count", "trim_size", "difficulty", "difficulty_label", "audience", "large_print", "signature_edition", "no_repeat_words", "answer_key", "files", "price", "description"):
+    for key in ("title", "subtitle", "author", "series", "theme", "detected_topic", "puzzle_type", "puzzle_count", "puzzle_seed", "page_count", "trim_size", "difficulty", "difficulty_label", "audience", "large_print", "signature_edition", "no_repeat_words", "answer_key", "files", "price", "description", "repetition_policy", "collection_id", "collection_book_id", "interior_profile"):
         value = meta.get(key)
         source_key = next((raw for raw, mapped in aliases.items() if mapped == key and source.get(raw) not in (None, "")), key)
         source_value = source.get(source_key)
@@ -147,7 +147,9 @@ class ProductionAutopilot:
 
     @staticmethod
     def stage_fingerprint(facts: dict, stage: str) -> str:
-        return _hash({"facts": facts["fingerprint"], "stage": stage, "version": AUTOPILOT_VERSION})
+        from .puzzle_integrity import POLICY_REVISION
+        return _hash({"facts": facts["fingerprint"], "stage": stage, "version": AUTOPILOT_VERSION,
+                      "puzzle_quality_policy": POLICY_REVISION})
 
     def stage_is_current(self, stage: str, fingerprint: str) -> bool:
         value = self.record().get("stages", {}).get(stage, {})

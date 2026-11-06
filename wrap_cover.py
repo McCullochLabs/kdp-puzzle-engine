@@ -4,14 +4,15 @@ PDF. Width is trim_w*2 + spine + bleed*2, height is trim_h + bleed*2; spine
 width follows KDP's white-paper B&W formula (pages * 0.002252in), with a
 0.125in bleed on all outer edges. Upload the result via KDP's "upload a cover
 you already have" option."""
-import argparse, os, textwrap
+import argparse, os, re, textwrap
+from pathlib import Path
 from PIL import Image, ImageDraw
 from reportlab.pdfgen import canvas
 
 from font_utils import image_font_candidates, load_image_font
 from reportlab.lib.units import inch
 from cover import PALETTES as FRONT_COVER_PALETTES
-from background_generation.index import verify_rendered_cover_approval
+from background_generation.index import ROOT as PROJECT_ROOT, verify_rendered_cover_approval
 
 PALETTES = {
     "nature":    {"bg": (244, 239, 226), "accent": (107, 142, 107), "deep": (46, 70, 48),  "mute": (120, 134, 116)},
@@ -78,6 +79,94 @@ def f(path, size):
     return load_image_font(image_font_candidates(family), size)
 
 
+def holiday_collection_back(img, d, a, proof, back_x0, back_x1, bleed_px, trim_w_px, trim_h_px, full_h_px):
+    """Carry the approved holiday photograph and truthful chapter map onto the back."""
+    source = PROJECT_ROOT / str(proof.get("asset_path") or "")
+    photo = Image.open(source).convert("RGB")
+    scale = max(trim_w_px / photo.width, trim_h_px / photo.height)
+    photo = photo.resize((round(photo.width * scale), round(photo.height * scale)), Image.Resampling.LANCZOS)
+    x0, y0 = (photo.width - trim_w_px) // 2, (photo.height - trim_h_px) // 2
+    photo = photo.crop((x0, y0, x0 + trim_w_px, y0 + trim_h_px))
+    # The same art stays recognizable at the perimeter; a warm translucent
+    # paper wash leaves quiet contrast for text and the KDP barcode zone.
+    veil = Image.new("RGBA", photo.size, (255, 247, 232, 218))
+    photo.paste(veil, (0, 0), veil)
+    d.rectangle((0, 0, back_x1, full_h_px), fill=(249, 238, 221))
+    img.paste(photo, (back_x0, bleed_px))
+
+    ink, cranberry, gold = (57, 39, 39), (142, 46, 59), (166, 112, 50)
+    center = back_x0 + trim_w_px // 2
+    safe = 160
+    d.line((back_x0 + safe, bleed_px + 155, back_x1 - safe, bleed_px + 155), fill=gold, width=6)
+    for line, y, size in (("TEN HOLIDAYS", 310, 105), ("TWO WAYS TO PLAY", 465, 84)):
+        font = f(GEORGIA, size)
+        d.text((center - d.textlength(line, font=font) / 2, y), line, font=font, fill=ink)
+    d.line((back_x0 + 720, 610, back_x1 - 720, 610), fill=cranberry, width=7)
+    lines = (
+        "Turn every season into a reason to play. Discover 200 puzzles",
+        "across ten dedicated holiday chapters.",
+        "Each chapter brings ten focused 12-word searches, five classic",
+        "number Sudoku puzzles, and five Sudoku puzzles with symbols",
+        "chosen for that celebration. Full solutions are at the back.",
+    )
+    body = f(ARIAL, 48)
+    for index, line in enumerate(lines):
+        d.text((back_x0 + 235, 735 + index * 75), line, font=body, fill=ink)
+    heading = "A YEAR OF CELEBRATIONS"
+    heading_font = f(ARIALB, 55)
+    d.text((center - d.textlength(heading, font=heading_font) / 2, 1250),
+           heading, font=heading_font, fill=cranberry)
+    chapters = (
+        "NEW YEAR'S DAY", "VALENTINE'S DAY", "EASTER", "MOTHER'S DAY", "FATHER'S DAY",
+        "INDEPENDENCE DAY", "HALLOWEEN", "THANKSGIVING", "HANUKKAH", "CHRISTMAS",
+    )
+    chapter_font = f(ARIALB, 43)
+    for index, label in enumerate(chapters):
+        column, row = divmod(index, 5)
+        x = back_x0 + 250 + column * 1020
+        y = 1390 + row * 165
+        d.ellipse((x, y + 12, x + 22, y + 34), fill=gold)
+        d.text((x + 42, y), label, font=chapter_font, fill=ink)
+        d.line((x, y + 82, x + 820, y + 82), fill=(198, 172, 136), width=2)
+    d.rounded_rectangle((back_x0 + 215, 2250, back_x1 - 215, 2505),
+                        radius=30, fill=(251, 240, 222), outline=gold, width=5)
+    count = f(ARIALB, 55)
+    for offset, line in enumerate(("100 WORD SEARCHES - 12 WORDS EACH", "50 NUMBER + 50 HOLIDAY-SYMBOL SUDOKU")):
+        width = d.textlength(line, font=count)
+        d.text((center - width / 2, 2290 + offset * 112), line, font=count, fill=cranberry)
+    d.text((back_x0 + 245, 2660), "COMPLETE SOLUTIONS INCLUDED", font=f(ARIALB, 49), fill=ink)
+    imprint = f(ARIALB, 47)
+    d.text((center - d.textlength(a.author, font=imprint) / 2, 3025),
+           a.author, font=imprint, fill=ink)
+
+
+def after_hours_luxury_back(img, draw, args, back_x0, back_x1, bleed_px, full_h_px):
+    """Adult-specific, claim-limited back; no generic/fake grid or large-print promise."""
+    bg=(16,18,17);gold=(203,167,107);cream=(232,222,203)
+    draw.rectangle((0,0,back_x1,full_h_px),fill=bg)
+    inset=150;left=back_x0+inset;right=back_x1-inset
+    draw.rectangle((left,bleed_px+150,right,full_h_px-bleed_px-150),outline=gold,width=4)
+    text_left=left+100;max_width=right-text_left-100;y=bleed_px+310
+    def paragraph(text,font,color,gap=65):
+        nonlocal y
+        words=text.split();line=''
+        for word in words:
+            candidate=(line+' '+word).strip()
+            if line and draw.textlength(candidate,font=font)>max_width:
+                draw.text((text_left,y),line,font=font,fill=color);y+=gap;line=word
+            else:line=candidate
+        if line:draw.text((text_left,y),line,font=font,fill=color);y+=gap
+    paragraph('A LITTLE MISCHIEF.',f(ARIALB,66),gold,85)
+    paragraph('A LOT TO FIND.',f(ARIALB,66),gold,85);y+=85
+    paragraph('An after-hours collection of 100 word searches for adults: cuss words, cheeky accessories, cocktails, cannabis, smoking culture and late-night diversions.',f(ARIAL,46),cream,68);y+=80
+    for line in ('100 puzzles / 1,200 unique targets','12 words in every puzzle','Complete solutions at the back'):
+        paragraph(line,f(ARIALB,45),gold,75)
+    y+=100
+    paragraph('STRICTLY ADULTS 18+',f(ARIALB,40),gold,65)
+    paragraph('Contains profanity and adult vocabulary. Word-game references are not usage or health advice.',f(ARIAL,39),cream,60)
+    draw.text((text_left,full_h_px-bleed_px-445),'JORDAN M. SLADE',font=f(ARIALB,49),fill=cream)
+
+
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--front", required=True, help="front cover PNG (already at 2550x3300)")
@@ -87,11 +176,17 @@ def main():
     ap.add_argument("--author", default="Evergreen Puzzle Press")
     ap.add_argument("--back", required=True, help="back cover blurb text")
     ap.add_argument("--back-heading", default="A WORD SEARCH JOURNEY", help="short, reader-facing heading for the back cover")
+    ap.add_argument("--puzzle-type", default="Word Search")
+    ap.add_argument("--puzzle-count", type=int, default=0)
+    ap.add_argument("--theme", default="")
+    ap.add_argument("--sample-sudoku", default="", help="the first unsolved 9x9 puzzle from this book")
     ap.add_argument("--out", required=True)
     ap.add_argument("--preview-out", help="optional smaller PNG preview of the full KDP wrap")
     a = ap.parse_args()
+    if a.sample_sudoku and not re.fullmatch(r"[1-9.]{81}", a.sample_sudoku):
+        raise ValueError("The back-cover Sudoku preview must have exactly 81 digits or dots.")
 
-    approved, approval_reason, _approval_proof = verify_rendered_cover_approval(a.front)
+    approved, approval_reason, approval_proof = verify_rendered_cover_approval(a.front)
     if not approved:
         raise ValueError("COVER ART REQUIRED — full-wrap production stopped: " + approval_reason)
 
@@ -184,7 +279,7 @@ def main():
             (bleed_px + trim_w_px // 2 + 200, by0 + 230)], fill=accent, width=4)
 
     # Body text uses headings supplied by the topic-aware blurb.
-    body_font = f(ARIAL, 50)
+    body_font = f(ARIAL, 47)
     body_color = deep
     text_w = trim_w_px - 2 * (safe_pad + 80)
     text_x = bleed_px + safe_pad + 80
@@ -206,22 +301,117 @@ def main():
         return lines
 
     for section in [part.strip() for part in a.back.split("\n\n") if part.strip()]:
-        is_heading = section.isupper() and len(section) < 34
+        is_heading = section.isupper() and len(section) < 40
         if is_heading:
             heading_font = f(ARIALB, 34)
             d.text((text_x, text_y), section, font=heading_font, fill=accent)
             text_y += 60
             continue
         for ln in wrap_text(section, body_font, text_w):
-            d.text((text_x, text_y), ln, font=body_font, fill=body_color)
+            if ln.startswith("- "):
+                d.ellipse([text_x, text_y + 18, text_x + 12, text_y + 30], fill=accent)
+                ln = ln[2:]
+                line_x = text_x + 28
+            else:
+                line_x = text_x
+            d.text((line_x, text_y), ln, font=body_font, fill=body_color)
             text_y += int(body_font.size * 1.31)
         text_y += 35
+
+    # A small, puzzle-type-specific motif fills the dead middle space without
+    # pretending another puzzle format is inside the book.
+    motif_top = min(max(text_y + 25, by0 + 1220), by1 - 760)
+    motif_left, motif_right = text_x, text_x + text_w
+    motif_height = 570 if a.puzzle_type == "Sudoku" else 290 if a.puzzle_type == "Word Search + Sudoku" else 400
+    d.rounded_rectangle([motif_left, motif_top, motif_right, motif_top + motif_height], radius=28,
+                        fill=tuple(int((c + 255) / 2) for c in bg), outline=accent, width=4)
+    mf = f(ARIALB, 32)
+    public_type = "WORD SCRAMBLES + FACT CLUES" if a.puzzle_type == "Word Scramble + Trivia" else a.puzzle_type.upper()
+    label = f"{a.puzzle_count} {public_type} PUZZLES" if a.puzzle_count else public_type
+    d.text((motif_left + 35, motif_top + 28), label, font=mf, fill=deep)
+    grid_x, grid_y, cell = motif_left + 55, motif_top + 105, 58
+    if a.puzzle_type == "Cryptogram":
+        for row, text in enumerate(("XLMW MW E GSHI", "IZIVC PIXXIV")):
+            d.text((grid_x, grid_y + row * 70), text, font=f(ARIALB, 38), fill=mute)
+        d.line([(grid_x, grid_y + 190), (motif_right - 55, grid_y + 190)], fill=accent, width=3)
+    elif a.puzzle_type == "Word Scramble + Trivia":
+        d.text((grid_x, grid_y), "T O U R E  ->  ?", font=f(ARIALB, 40), fill=deep)
+        d.text((grid_x, grid_y + 85), "Use the clue to unscramble.", font=f(ARIAL, 34), fill=mute)
+    elif a.puzzle_type == "Mixed Brain Games":
+        for index, name in enumerate(("SUDOKU", "CODES", "WORD PLAY")):
+            x0 = grid_x + index * 330
+            d.rounded_rectangle([x0, grid_y, x0 + 280, grid_y + 155], radius=18, outline=accent, width=4)
+            d.text((x0 + 28, grid_y + 55), name, font=f(ARIALB, 30), fill=deep)
+    elif a.puzzle_type == "Word Search + Sudoku":
+        each = a.puzzle_count // 2 if a.puzzle_count and a.puzzle_count % 2 == 0 else None
+        for index, name in enumerate((f"{each} WORD SEARCHES" if each else "WORD SEARCHES",
+                                      f"{each} SUDOKU" if each else "SUDOKU")):
+            x0 = grid_x + index * 510
+            d.rounded_rectangle([x0, grid_y, x0 + 465, grid_y + 155], radius=18, outline=accent, width=4)
+            d.text((x0 + 24, grid_y + 55), name, font=f(ARIALB, 29), fill=deep)
+    elif a.puzzle_type == "Sudoku":
+        # The old back cover displayed a tiny completed 4x4 grid. Show a
+        # readable, genuinely unsolved example from the book instead.
+        from cover import DEFAULT_SUDOKU_COVER_SAMPLE
+        sample = a.sample_sudoku or DEFAULT_SUDOKU_COVER_SAMPLE
+        size, cell = 9, 43
+        grid_x = (motif_left + motif_right - size * cell) // 2
+        grid_y = motif_top + 115
+        for row in range(size + 1):
+            width = 5 if row % 3 == 0 else 2
+            d.line([(grid_x, grid_y + row * cell), (grid_x + size * cell, grid_y + row * cell)], fill=accent, width=width)
+            d.line([(grid_x + row * cell, grid_y), (grid_x + row * cell, grid_y + size * cell)], fill=accent, width=width)
+        for row in range(size):
+            for col in range(size):
+                value = sample[row * size + col]
+                if value != ".":
+                    d.text((grid_x + col * cell + 12, grid_y + row * cell + 5), value, font=f(ARIALB, 31), fill=deep)
+    elif a.puzzle_type == "Word Search":
+        # Pair the small sample grid with truthful feature copy so a wide
+        # back-cover panel never looks like an unfinished placeholder.
+        size = 4
+        for row in range(size + 1):
+            d.line((grid_x, grid_y + row * cell, grid_x + size * cell, grid_y + row * cell), fill=accent, width=3)
+        for col in range(size + 1):
+            d.line((grid_x + col * cell, grid_y, grid_x + col * cell, grid_y + size * cell), fill=accent, width=3)
+        sample = "PUZZLEBOOKSEARCHFUN"
+        for row in range(size):
+            for col in range(size):
+                d.text((grid_x + col * cell + 17, grid_y + row * cell + 10), sample[row * size + col], font=f(ARIALB, 28), fill=deep)
+        highlights = (
+            "12 THEMED WORDS IN EVERY PUZZLE",
+            "CLEAR, LARGE-PRINT GRIDS",
+            "COMPLETE SOLUTIONS AT THE BACK",
+        )
+        highlight_x = grid_x + size * cell + 95
+        highlight_font = f(ARIALB, 39)
+        for index, line in enumerate(highlights):
+            y = grid_y + 5 + index * 82
+            d.ellipse((highlight_x, y + 12, highlight_x + 18, y + 30), fill=accent)
+            d.text((highlight_x + 38, y), line, font=highlight_font, fill=deep)
+    else:
+        size = 4
+        for row in range(size + 1):
+            d.line([(grid_x, grid_y + row * cell), (grid_x + size * cell, grid_y + row * cell)], fill=accent, width=3)
+        for col in range(size + 1):
+            d.line([(grid_x + col * cell, grid_y), (grid_x + col * cell, grid_y + size * cell)], fill=accent, width=3)
+        sample = "PUZZLEBOOKSEARCHFUN"
+        for row in range(size):
+            for col in range(size):
+                d.text((grid_x + col * cell + 17, grid_y + row * cell + 10), sample[row * size + col], font=f(ARIALB, 28), fill=deep)
 
     # imprint at bottom of back
     pf = f(ARIALB, 56)
     imp = a.author
     iw = d.textlength(imp, font=pf)
     d.text((bleed_px + (trim_w_px - iw) // 2, by1 - 110), imp, font=pf, fill=deep)
+
+    if a.puzzle_type == "Word Search + Sudoku" and a.theme == "year-round-holidays":
+        holiday_collection_back(img, d, a, approval_proof, back_x0, back_x1,
+                                bleed_px, trim_w_px, int(TRIM_H * DPI), full_h_px)
+
+    if a.theme == 'after-hours-adult':
+        after_hours_luxury_back(img,d,a,back_x0,back_x1,bleed_px,full_h_px)
 
     # KDP BARCODE ZONE — leave a CLEAR white area (~2.0 x 1.2 in) in the lower-right of the
     # back cover so Amazon can place its barcode. Without this, the colored back + the

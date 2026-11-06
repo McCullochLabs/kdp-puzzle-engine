@@ -1,0 +1,26 @@
+{
+  "passed": true,
+  "records_independently_checked": 29620,
+  "groups_independently_checked": 620,
+  "checks": [
+    "Existing schema parsed for every record",
+    "Every definition and sense matches downloaded WordNet",
+    "Each focused-niche word has its documented semantic ancestor",
+    "Every general cluster has its documented direct semantic relation",
+    "Morphology rules reproduce the stored dictionary lemma",
+    "Base-form families, definitions, queues and groups reconcile",
+    "All parent topics resolve",
+    "All proposals remain pending",
+    "Residual and selected sets are disjoint and reconcile",
+    "Original dataset and approval checksums are unchanged"
+  ],
+  "existing_tests": {
+    "passed": 71,
+    "modules": [
+      "test_content_contracts.py",
+      "test_word_intelligence_normalization.py",
+      "test_word_intelligence_quality_ambiguity.py",
+      "test_word_intelligence_taxonomy.py"
+    ]
+  }
+}

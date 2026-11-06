@@ -1,0 +1,152 @@
+{
+  "schema_version": 1,
+  "research_status": "REVIEW_REQUIRED_NOT_APPROVED",
+  "lexical_review_group": "noun.process",
+  "records": [
+    {
+      "normalized": "EDP",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "EDP",
+          "synset": "n:13472341",
+          "lexical_category": "noun.process",
+          "definition": "automatic data processing by electronic means without the use of tabulating cards or punched tapes"
+        }
+      ],
+      "candidate_categories": [
+        "noun.process"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    },
+    {
+      "normalized": "GLOBALIZATION",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "globalization",
+          "synset": "n:13488110",
+          "lexical_category": "noun.process",
+          "definition": "growth to a global or worldwide scale; \"the globalization of the communication industry\""
+        }
+      ],
+      "candidate_categories": [
+        "noun.process"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    },
+    {
+      "normalized": "MATURATION",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "maturation",
+          "synset": "n:13479889",
+          "lexical_category": "noun.process",
+          "definition": "(medicine) the formation of morbific matter in an abscess or a vesicle and the discharge of pus"
+        },
+        {
+          "lemma": "maturation",
+          "synset": "n:13489037",
+          "lexical_category": "noun.process",
+          "definition": "(biology) the process of an individual organism growing organically; a purely biological unfolding of events involved in an organism changing gradually from a simple to a more complex level; \"he proposed an indicator of osseous development in children\""
+        },
+        {
+          "lemma": "maturation",
+          "synset": "n:13512238",
+          "lexical_category": "noun.process",
+          "definition": "coming to full development; becoming mature"
+        }
+      ],
+      "candidate_categories": [
+        "noun.process"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    },
+    {
+      "normalized": "OBSOLESCENCE",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "obsolescence",
+          "synset": "n:13523983",
+          "lexical_category": "noun.process",
+          "definition": "the process of becoming obsolete; falling into disuse or becoming out of date; \"a policy of planned obsolescence\""
+        }
+      ],
+      "candidate_categories": [
+        "noun.process"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    },
+    {
+      "normalized": "OXIDATION",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "oxidation",
+          "synset": "n:13530408",
+          "lexical_category": "noun.process",
+          "definition": "the process of oxidizing; the addition of oxygen to a compound with a loss of electrons; always occurs accompanied by reduction"
+        }
+      ],
+      "candidate_categories": [
+        "noun.process"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    },
+    {
+      "normalized": "PHOTOSYNTHESIS",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "photosynthesis",
+          "synset": "n:13537429",
+          "lexical_category": "noun.process",
+          "definition": "synthesis of compounds with the aid of radiant energy (especially in plants)"
+        }
+      ],
+      "candidate_categories": [
+        "noun.process"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    },
+    {
+      "normalized": "SYNERGY",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "synergy",
+          "synset": "n:13564910",
+          "lexical_category": "noun.process",
+          "definition": "the working together of two things (muscles or drugs for example) to produce an effect greater than the sum of their individual effects"
+        }
+      ],
+      "candidate_categories": [
+        "noun.process"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    }
+  ]
+}

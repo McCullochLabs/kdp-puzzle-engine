@@ -1,0 +1,261 @@
+{
+  "schema_version": 1,
+  "research_status": "REVIEW_REQUIRED_NOT_APPROVED",
+  "group": "noun.communication",
+  "records": [
+    {
+      "normalized": "AN",
+      "status": "pending_context_and_editorial_review",
+      "candidate_categories": [
+        "noun.communication"
+      ],
+      "source_senses": [
+        {
+          "lemma": "AN",
+          "synset": "noun:06698150",
+          "part_of_speech": "noun",
+          "lexical_category": "noun.communication",
+          "definition": "an associate degree in nursing",
+          "match_type": "exact_normalized_source_lemma"
+        }
+      ]
+    },
+    {
+      "normalized": "BD",
+      "status": "pending_context_and_editorial_review",
+      "candidate_categories": [
+        "noun.communication"
+      ],
+      "source_senses": [
+        {
+          "lemma": "BD",
+          "synset": "noun:06699012",
+          "part_of_speech": "noun",
+          "lexical_category": "noun.communication",
+          "definition": "a bachelor's degree in religion",
+          "match_type": "exact_normalized_source_lemma"
+        }
+      ]
+    },
+    {
+      "normalized": "BS",
+      "status": "pending_context_and_editorial_review",
+      "candidate_categories": [
+        "noun.communication"
+      ],
+      "source_senses": [
+        {
+          "lemma": "BS",
+          "synset": "noun:06699579",
+          "part_of_speech": "noun",
+          "lexical_category": "noun.communication",
+          "definition": "a bachelor's degree in science",
+          "match_type": "exact_normalized_source_lemma"
+        }
+      ]
+    },
+    {
+      "normalized": "DD",
+      "status": "pending_context_and_editorial_review",
+      "candidate_categories": [
+        "noun.communication"
+      ],
+      "source_senses": [
+        {
+          "lemma": "DD",
+          "synset": "noun:06703114",
+          "part_of_speech": "noun",
+          "lexical_category": "noun.communication",
+          "definition": "a doctor's degree in religion",
+          "match_type": "exact_normalized_source_lemma"
+        }
+      ]
+    },
+    {
+      "normalized": "FA",
+      "status": "pending_context_and_editorial_review",
+      "candidate_categories": [
+        "noun.communication"
+      ],
+      "source_senses": [
+        {
+          "lemma": "fa",
+          "synset": "noun:06868709",
+          "part_of_speech": "noun",
+          "lexical_category": "noun.communication",
+          "definition": "the syllable naming the fourth (subdominant) note of the diatonic scale in solmization",
+          "match_type": "exact_normalized_source_lemma"
+        }
+      ]
+    },
+    {
+      "normalized": "YI",
+      "status": "pending_context_and_editorial_review",
+      "candidate_categories": [
+        "noun.communication"
+      ],
+      "source_senses": [
+        {
+          "lemma": "Yi",
+          "synset": "noun:06932948",
+          "part_of_speech": "noun",
+          "lexical_category": "noun.communication",
+          "definition": "a Loloish language",
+          "match_type": "exact_normalized_source_lemma"
+        }
+      ]
+    },
+    {
+      "normalized": "MR",
+      "status": "pending_context_and_editorial_review",
+      "candidate_categories": [
+        "noun.communication"
+      ],
+      "source_senses": [
+        {
+          "lemma": "Mr",
+          "synset": "noun:06341340",
+          "part_of_speech": "noun",
+          "lexical_category": "noun.communication",
+          "definition": "a form of address for a man",
+          "match_type": "exact_normalized_source_lemma"
+        },
+        {
+          "lemma": "Mr.",
+          "synset": "noun:06341340",
+          "part_of_speech": "noun",
+          "lexical_category": "noun.communication",
+          "definition": "a form of address for a man",
+          "match_type": "exact_normalized_source_lemma"
+        }
+      ]
+    },
+    {
+      "normalized": "MU",
+      "status": "pending_context_and_editorial_review",
+      "candidate_categories": [
+        "noun.communication"
+      ],
+      "source_senses": [
+        {
+          "lemma": "mu",
+          "synset": "noun:06835315",
+          "part_of_speech": "noun",
+          "lexical_category": "noun.communication",
+          "definition": "the 12th letter of the Greek alphabet",
+          "match_type": "exact_normalized_source_lemma"
+        }
+      ]
+    },
+    {
+      "normalized": "NU",
+      "status": "pending_context_and_editorial_review",
+      "candidate_categories": [
+        "noun.communication"
+      ],
+      "source_senses": [
+        {
+          "lemma": "nu",
+          "synset": "noun:06835420",
+          "part_of_speech": "noun",
+          "lexical_category": "noun.communication",
+          "definition": "the 13th letter of the Greek alphabet",
+          "match_type": "exact_normalized_source_lemma"
+        }
+      ]
+    },
+    {
+      "normalized": "PF",
+      "status": "pending_context_and_editorial_review",
+      "candidate_categories": [
+        "noun.communication"
+      ],
+      "source_senses": [
+        {
+          "lemma": "16_PF",
+          "synset": "noun:06475933",
+          "part_of_speech": "noun",
+          "lexical_category": "noun.communication",
+          "definition": "a self-report personality inventory developed by Raymond B. Cattell to measure the 16 personality dimensions that emerged from his factor analysis of a wide range of traits",
+          "match_type": "exact_normalized_source_lemma"
+        }
+      ]
+    },
+    {
+      "normalized": "PS",
+      "status": "pending_context_and_editorial_review",
+      "candidate_categories": [
+        "noun.communication"
+      ],
+      "source_senses": [
+        {
+          "lemma": "PS",
+          "synset": "noun:06764623",
+          "part_of_speech": "noun",
+          "lexical_category": "noun.communication",
+          "definition": "a note appended to a letter after the signature",
+          "match_type": "exact_normalized_source_lemma"
+        }
+      ]
+    },
+    {
+      "normalized": "Q",
+      "status": "pending_context_and_editorial_review",
+      "candidate_categories": [
+        "noun.communication"
+      ],
+      "source_senses": [
+        {
+          "lemma": "Q",
+          "synset": "noun:06832896",
+          "part_of_speech": "noun",
+          "lexical_category": "noun.communication",
+          "definition": "the 17th letter of the Roman alphabet",
+          "match_type": "exact_normalized_source_lemma"
+        },
+        {
+          "lemma": "q",
+          "synset": "noun:06832896",
+          "part_of_speech": "noun",
+          "lexical_category": "noun.communication",
+          "definition": "the 17th letter of the Roman alphabet",
+          "match_type": "exact_normalized_source_lemma"
+        }
+      ]
+    },
+    {
+      "normalized": "RO",
+      "status": "pending_context_and_editorial_review",
+      "candidate_categories": [
+        "noun.communication"
+      ],
+      "source_senses": [
+        {
+          "lemma": "Ro",
+          "synset": "noun:06897797",
+          "part_of_speech": "noun",
+          "lexical_category": "noun.communication",
+          "definition": "an artificial language for international use that rejects all existing words and is based instead on an abstract analysis of ideas",
+          "match_type": "exact_normalized_source_lemma"
+        }
+      ]
+    },
+    {
+      "normalized": "WU",
+      "status": "pending_context_and_editorial_review",
+      "candidate_categories": [
+        "noun.communication"
+      ],
+      "source_senses": [
+        {
+          "lemma": "Wu",
+          "synset": "noun:06930298",
+          "part_of_speech": "noun",
+          "lexical_category": "noun.communication",
+          "definition": "a dialect of Chinese spoken in the Yangtze delta",
+          "match_type": "exact_normalized_source_lemma"
+        }
+      ]
+    }
+  ]
+}

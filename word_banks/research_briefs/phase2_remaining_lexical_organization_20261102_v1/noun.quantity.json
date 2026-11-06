@@ -1,0 +1,101 @@
+{
+  "schema_version": 1,
+  "research_status": "REVIEW_REQUIRED_NOT_APPROVED",
+  "lexical_review_group": "noun.quantity",
+  "records": [
+    {
+      "normalized": "BTU",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "BTU",
+          "synset": "n:13726947",
+          "lexical_category": "noun.quantity",
+          "definition": "a unit of heat equal to the amount of heat required to raise one pound of water one degree Fahrenheit at one atmosphere pressure; equivalent to 251.997 calories"
+        },
+        {
+          "lemma": "B.T.U.",
+          "synset": "n:13727478",
+          "lexical_category": "noun.quantity",
+          "definition": "a unit of energy equal to the work done by a power of 1000 watts operating for one hour"
+        }
+      ],
+      "candidate_categories": [
+        "noun.quantity"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    },
+    {
+      "normalized": "CALORIE",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "calorie",
+          "synset": "n:13726296",
+          "lexical_category": "noun.quantity",
+          "definition": "unit of heat defined as the quantity of heat required to raise the temperature of 1 gram of water by 1 degree centigrade at atmospheric pressure"
+        },
+        {
+          "lemma": "Calorie",
+          "synset": "n:13726562",
+          "lexical_category": "noun.quantity",
+          "definition": "a unit of heat equal to the amount of heat required to raise the temperature of one kilogram of water by one degree at one atmosphere pressure; used by nutritionists to characterize the energy-producing potential in food"
+        }
+      ],
+      "candidate_categories": [
+        "noun.quantity"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    },
+    {
+      "normalized": "MIB",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "MiB",
+          "synset": "n:13628056",
+          "lexical_category": "noun.quantity",
+          "definition": "a unit of information equal to 1024 kibibytes or 2^20 (1,048,576) bytes"
+        }
+      ],
+      "candidate_categories": [
+        "noun.quantity"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    },
+    {
+      "normalized": "WON",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "won",
+          "synset": "n:13708992",
+          "lexical_category": "noun.quantity",
+          "definition": "the basic unit of money in North Korea"
+        },
+        {
+          "lemma": "won",
+          "synset": "n:13709360",
+          "lexical_category": "noun.quantity",
+          "definition": "the basic unit of money in South Korea"
+        }
+      ],
+      "candidate_categories": [
+        "noun.quantity"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    }
+  ]
+}

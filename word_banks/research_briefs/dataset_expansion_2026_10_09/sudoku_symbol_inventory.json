@@ -1,0 +1,205 @@
+{
+  "status": "REVIEW_REQUIRED",
+  "source": "sudoku_symbols.py:PACKS",
+  "note": "Existing symbol vocabulary inventory only. No grids generated, no drawing changes, and no visual distinctness approval inferred. Numeric Sudoku has no word dataset. Difficulty requires existing solver checks.",
+  "packs": {
+    "classic": [
+      "circle",
+      "square",
+      "triangle",
+      "diamond",
+      "plus",
+      "cross",
+      "dot",
+      "ring",
+      "star"
+    ],
+    "nature": [
+      "sun",
+      "leaf",
+      "flower",
+      "tree",
+      "mountain",
+      "wave",
+      "moon",
+      "butterfly",
+      "seedling"
+    ],
+    "winter_holiday": [
+      "snowflake",
+      "tree",
+      "gift",
+      "ornament",
+      "bell",
+      "candy_cane",
+      "star",
+      "mitten",
+      "candle"
+    ],
+    "new_year": [
+      "star",
+      "bell",
+      "balloon",
+      "clock",
+      "gift",
+      "party_hat",
+      "candle",
+      "confetti",
+      "firework"
+    ],
+    "valentine": [
+      "heart",
+      "flower",
+      "gift",
+      "candy",
+      "cupcake",
+      "butterfly",
+      "envelope",
+      "bow",
+      "candle"
+    ],
+    "easter": [
+      "egg",
+      "bunny",
+      "basket",
+      "flower",
+      "seedling",
+      "sun",
+      "bird",
+      "butterfly",
+      "carrot"
+    ],
+    "mothers_day": [
+      "flower",
+      "heart",
+      "gift",
+      "envelope",
+      "cupcake",
+      "butterfly",
+      "sun",
+      "mug",
+      "candle"
+    ],
+    "fathers_day": [
+      "tie",
+      "trophy",
+      "car",
+      "compass",
+      "heart",
+      "gift",
+      "camera",
+      "hat",
+      "mug"
+    ],
+    "independence": [
+      "flag",
+      "star",
+      "firework",
+      "bell",
+      "sun",
+      "balloon",
+      "medal",
+      "bunting",
+      "lantern"
+    ],
+    "thanksgiving": [
+      "pumpkin",
+      "leaf",
+      "pie",
+      "turkey",
+      "basket",
+      "apple",
+      "candle",
+      "mug",
+      "bread"
+    ],
+    "hanukkah": [
+      "candle",
+      "menorah",
+      "dreidel",
+      "star",
+      "gift",
+      "coin",
+      "oil_jug",
+      "flame",
+      "scroll"
+    ],
+    "halloween": [
+      "pumpkin",
+      "ghost",
+      "bat",
+      "moon",
+      "web",
+      "candy",
+      "hat",
+      "skull",
+      "cat"
+    ],
+    "sports": [
+      "soccer",
+      "basketball",
+      "football",
+      "baseball",
+      "trophy",
+      "racket",
+      "whistle",
+      "flag",
+      "medal"
+    ],
+    "space": [
+      "sun",
+      "moon",
+      "star",
+      "planet",
+      "rocket",
+      "comet",
+      "telescope",
+      "orbit",
+      "constellation"
+    ],
+    "ocean": [
+      "wave",
+      "fish",
+      "shell",
+      "star",
+      "anchor",
+      "boat",
+      "octopus",
+      "lighthouse",
+      "dolphin"
+    ],
+    "pets": [
+      "paw",
+      "cat",
+      "dog",
+      "bone",
+      "fish",
+      "bird",
+      "collar",
+      "ball",
+      "heart"
+    ],
+    "kitchen": [
+      "cupcake",
+      "spoon",
+      "pan",
+      "rolling_pin",
+      "apple",
+      "mug",
+      "bread",
+      "chef_hat",
+      "cookie"
+    ],
+    "travel": [
+      "car",
+      "camper",
+      "compass",
+      "mountain",
+      "sign",
+      "suitcase",
+      "pin",
+      "tent",
+      "camera"
+    ]
+  }
+}

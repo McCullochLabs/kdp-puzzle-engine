@@ -126,6 +126,20 @@ def test_cross_workflow_generated_asset_reuse():
     )
 
 
+def test_faith_and_road_trip_automation_choose_topic_specific_art():
+    from word_search_creator import recommend_background_photo
+
+    faith = recommend_background_photo({"title": "Faithful Words Word Search",
+                                        "detected_topic": "Bible and Faith",
+                                        "series": "Faithful Words"})
+    road = recommend_background_photo({"title": "Road Trip Classics Word Search",
+                                       "detected_topic": "Travel Road Trips and Getaways",
+                                       "series": "Road Trip Classics"})
+    assert faith and any(token in str(faith["file"]).casefold() for token in ("bible", "chapel", "faith"))
+    assert road and any(token in str(road["file"]).casefold() for token in ("road_trip", "vehicle"))
+    assert faith["file"] != road["file"]
+
+
 def test_puzzle_studio_resolves_registry_path_once():
     """The gallery and package routes must not duplicate the asset directory."""
     from puzzle_book_studio import APP, cover_art_path
@@ -133,6 +147,21 @@ def test_puzzle_studio_resolves_registry_path_once():
     relative = Path("cover_assets/background_photos/space_nebula.png")
     assert cover_art_path(relative) == APP / relative
     assert cover_art_path(APP / relative) == APP / relative
+
+
+def test_puzzle_studio_pet_covers_follow_the_book_title():
+    """Specific dog and cat titles must not receive the opposite animal."""
+    from puzzle_book_studio import cover_spec
+
+    dog_art, _palette, _style = cover_spec(
+        "Sudoku", "Dogs & Pets", 10102, title="Dog Lovers Large Print Sudoku"
+    )
+    cat_art, _palette, _style = cover_spec(
+        "Sudoku", "Cats & Pets", 10103, title="Cat Lovers Large Print Sudoku"
+    )
+
+    assert dog_art.endswith("pets_puppy_v2.png")
+    assert cat_art.endswith("pets_cat_v3.png")
 
 
 def test_cross_workflow_registry_persistence_with_approved_asset(tmp_path):

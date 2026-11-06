@@ -2,7 +2,7 @@ from pathlib import Path
 
 from PIL import Image
 
-from cover import cover_quality_report, puzzle_count_label
+from cover import cover_quality_report, difficulty_chip, puzzle_count_label
 from publishing.review import review_result, review_text, series_consistency_report
 from publishing.readiness_center import production_readiness, readiness_text
 from puzzle_book_studio import APP, AUTO_COVER_STYLES, ART, COVER_STYLE_OPTIONS, THEME_ART, cover_spec
@@ -42,6 +42,25 @@ def test_cover_count_promise_is_truthful_and_never_guesses():
     assert puzzle_count_label("100") == "100 PUZZLES"
     assert puzzle_count_label(0) == ""
     assert puzzle_count_label("not a count") == ""
+
+
+def test_mixed_difficulty_badge_cannot_be_confused_with_mixed_puzzle_types():
+    class FakeDraw:
+        def __init__(self):
+            self.labels = []
+
+        def textlength(self, label, font=None):
+            return len(label) * 10
+
+        def rounded_rectangle(self, *args, **kwargs):
+            return None
+
+        def text(self, _point, label, **kwargs):
+            self.labels.append(label)
+
+    draw = FakeDraw()
+    difficulty_chip(draw, "Mixed", {"deep": "black", "hi": "gold", "bg": "white"})
+    assert draw.labels == ["MIXED LEVELS"]
 
 
 def test_cover_quality_score_requires_a_real_count_but_recognizes_large_print():

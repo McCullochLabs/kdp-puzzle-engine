@@ -1,0 +1,513 @@
+{
+  "schema_version": 1,
+  "research_status": "REVIEW_REQUIRED_NOT_APPROVED",
+  "lexical_review_group": "noun.time",
+  "records": [
+    {
+      "normalized": "APR",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "Apr",
+          "synset": "n:15211189",
+          "lexical_category": "noun.time",
+          "definition": "the month following March and preceding May"
+        }
+      ],
+      "candidate_categories": [
+        "noun.time"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    },
+    {
+      "normalized": "AUG",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "Aug",
+          "synset": "n:15212455",
+          "lexical_category": "noun.time",
+          "definition": "the month following July and preceding September"
+        }
+      ],
+      "candidate_categories": [
+        "noun.time"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    },
+    {
+      "normalized": "CST",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "CST",
+          "synset": "n:15132201",
+          "lexical_category": "noun.time",
+          "definition": "standard time in the 6th time zone west of Greenwich, reckoned at the 90th meridian; used in the central United States"
+        }
+      ],
+      "candidate_categories": [
+        "noun.time"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    },
+    {
+      "normalized": "DEVONIAN",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "Devonian",
+          "synset": "n:15127982",
+          "lexical_category": "noun.time",
+          "definition": "from 405 million to 345 million years ago; preponderance of fishes and appearance of amphibians and ammonites"
+        }
+      ],
+      "candidate_categories": [
+        "noun.time"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    },
+    {
+      "normalized": "EOCENE",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "Eocene",
+          "synset": "n:15125845",
+          "lexical_category": "noun.time",
+          "definition": "from 58 million to 40 million years ago; presence of modern mammals"
+        }
+      ],
+      "candidate_categories": [
+        "noun.time"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    },
+    {
+      "normalized": "EST",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "EST",
+          "synset": "n:15131994",
+          "lexical_category": "noun.time",
+          "definition": "standard time in the 5th time zone west of Greenwich, reckoned at the 75th meridian; used in the eastern United States"
+        }
+      ],
+      "candidate_categories": [
+        "noun.time"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    },
+    {
+      "normalized": "HANUKKAH",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "Hanukkah",
+          "synset": "n:15199033",
+          "lexical_category": "noun.time",
+          "definition": "(Judaism) an eight-day Jewish holiday commemorating the rededication of the Temple of Jerusalem in 165 BC"
+        }
+      ],
+      "candidate_categories": [
+        "noun.time"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    },
+    {
+      "normalized": "HOLOCENE",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "Holocene",
+          "synset": "n:15124713",
+          "lexical_category": "noun.time",
+          "definition": "approximately the last 10,000 years"
+        }
+      ],
+      "candidate_categories": [
+        "noun.time"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    },
+    {
+      "normalized": "JAN",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "Jan",
+          "synset": "n:15210045",
+          "lexical_category": "noun.time",
+          "definition": "the first month of the year; begins 10 days after the winter solstice"
+        }
+      ],
+      "candidate_categories": [
+        "noun.time"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    },
+    {
+      "normalized": "MHZ",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "MHz",
+          "synset": "n:15279957",
+          "lexical_category": "noun.time",
+          "definition": "one million periods per second"
+        }
+      ],
+      "candidate_categories": [
+        "noun.time"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    },
+    {
+      "normalized": "MIOCENE",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "Miocene",
+          "synset": "n:15125519",
+          "lexical_category": "noun.time",
+          "definition": "from 25 million to 13 million years ago; appearance of grazing mammals"
+        }
+      ],
+      "candidate_categories": [
+        "noun.time"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    },
+    {
+      "normalized": "NOV",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "Nov",
+          "synset": "n:15213406",
+          "lexical_category": "noun.time",
+          "definition": "the month following October and preceding December"
+        }
+      ],
+      "candidate_categories": [
+        "noun.time"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    },
+    {
+      "normalized": "NOW",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "now",
+          "synset": "n:15119919",
+          "lexical_category": "noun.time",
+          "definition": "the momentary present; \"Now is a good time to do it\"; \"it worked up to right now\""
+        }
+      ],
+      "candidate_categories": [
+        "noun.time"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    },
+    {
+      "normalized": "OCT",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "Oct",
+          "synset": "n:15213115",
+          "lexical_category": "noun.time",
+          "definition": "the month following September and preceding November"
+        }
+      ],
+      "candidate_categories": [
+        "noun.time"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    },
+    {
+      "normalized": "OLD",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "old",
+          "synset": "n:15121302",
+          "lexical_category": "noun.time",
+          "definition": "past times (especially in the phrase `in days of old')"
+        }
+      ],
+      "candidate_categories": [
+        "noun.time"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    },
+    {
+      "normalized": "ORDOVICIAN",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "Ordovician",
+          "synset": "n:15128363",
+          "lexical_category": "noun.time",
+          "definition": "from 500 million to 425 million years ago; conodonts and ostracods and algae and seaweeds"
+        }
+      ],
+      "candidate_categories": [
+        "noun.time"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    },
+    {
+      "normalized": "PERMIAN",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "Permian",
+          "synset": "n:15127165",
+          "lexical_category": "noun.time",
+          "definition": "from 280 million to 230 million years ago; reptiles"
+        }
+      ],
+      "candidate_categories": [
+        "noun.time"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    },
+    {
+      "normalized": "PLEISTOCENE",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "Pleistocene",
+          "synset": "n:15124864",
+          "lexical_category": "noun.time",
+          "definition": "from two million to 11 thousand years ago; extensive glaciation of the northern hemisphere; the time of human evolution"
+        }
+      ],
+      "candidate_categories": [
+        "noun.time"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    },
+    {
+      "normalized": "PST",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "PST",
+          "synset": "n:15132638",
+          "lexical_category": "noun.time",
+          "definition": "standard time in the 8th time zone west of Greenwich, reckoned at the 120th meridian west; used in far western states of the United States"
+        }
+      ],
+      "candidate_categories": [
+        "noun.time"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    },
+    {
+      "normalized": "ROI",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "ROI",
+          "synset": "n:15281329",
+          "lexical_category": "noun.time",
+          "definition": "(corporate finance) the amount, expressed as a percentage, that is earned on a company's total capital calculated by dividing the total capital into earnings before interest, taxes, or dividends are paid"
+        }
+      ],
+      "candidate_categories": [
+        "noun.time"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    },
+    {
+      "normalized": "RUNTIME",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "run-time",
+          "synset": "n:15262360",
+          "lexical_category": "noun.time",
+          "definition": "(computer science) the length of time it takes to execute a software program"
+        },
+        {
+          "lemma": "run-time",
+          "synset": "n:15262510",
+          "lexical_category": "noun.time",
+          "definition": "the time at which a (software or multimedia) program is run"
+        }
+      ],
+      "candidate_categories": [
+        "noun.time"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    },
+    {
+      "normalized": "SAT",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "Sat",
+          "synset": "n:15164570",
+          "lexical_category": "noun.time",
+          "definition": "the seventh and last day of the week; observed as the Sabbath by Jews and some Christians"
+        }
+      ],
+      "candidate_categories": [
+        "noun.time"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    },
+    {
+      "normalized": "SEP",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "Sep",
+          "synset": "n:15212739",
+          "lexical_category": "noun.time",
+          "definition": "the month following August and preceding October"
+        },
+        {
+          "lemma": "Sep_11",
+          "synset": "n:15300051",
+          "lexical_category": "noun.time",
+          "definition": "the day in 2001 when Arab suicide bombers hijacked United States airliners and used them as bombs"
+        }
+      ],
+      "candidate_categories": [
+        "noun.time"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    },
+    {
+      "normalized": "SILURIAN",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "Silurian",
+          "synset": "n:15128200",
+          "lexical_category": "noun.time",
+          "definition": "from 425 million to 405 million years ago; first air-breathing animals"
+        }
+      ],
+      "candidate_categories": [
+        "noun.time"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    },
+    {
+      "normalized": "TIMESCALE",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "time_scale",
+          "synset": "n:15134691",
+          "lexical_category": "noun.time",
+          "definition": "an arrangement of events used as a measure of duration; \"on the geological time scale mankind has existed but for a brief moment\""
+        }
+      ],
+      "candidate_categories": [
+        "noun.time"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    },
+    {
+      "normalized": "XMAS",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "Xmas",
+          "synset": "n:15196186",
+          "lexical_category": "noun.time",
+          "definition": "a Christian holiday celebrating the birth of Christ; a quarter day in England, Wales, and Ireland"
+        }
+      ],
+      "candidate_categories": [
+        "noun.time"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    }
+  ]
+}

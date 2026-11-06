@@ -181,20 +181,10 @@ def scrollable_dialog_page(dialog: tk.Toplevel, *, padding: int = 18) -> ttk.Fra
 
 
 def saved_theme_files() -> list[Path]:
-    """Return active book JSON files, including organized series subfolders."""
-    files: list[Path] = []
-    for path in THEMES_DIR.rglob("*.json"):
-        if any(folder in path.parents for folder in (USED_THEMES_DIR, ARCHIVE_THEMES_DIR, RESEARCH_THEMES_DIR, DRAFT_THEMES_DIR)):
-            continue
-        try:
-            data = json.loads(path.read_text(encoding="utf-8-sig"))
-            if bool(data.get("draft")):
-                continue
-            if isinstance(data.get("puzzles"), list):
-                files.append(path)
-        except (OSError, json.JSONDecodeError):
-            continue
-    return sorted(files, key=lambda item: (str(item.parent).lower(), item.name.lower()))
+    """Return one entry per exact active theme, preserving source aliases."""
+    from publishing.studio_theme_catalog import saved_theme_catalog
+    records=saved_theme_catalog(THEMES_DIR,(USED_THEMES_DIR,ARCHIVE_THEMES_DIR,RESEARCH_THEMES_DIR,DRAFT_THEMES_DIR))
+    return [row['path'] for row in records]
 
 
 def quick_theme_readiness(data: dict) -> tuple[bool, str]:
@@ -212,7 +202,12 @@ def quick_theme_readiness(data: dict) -> tuple[bool, str]:
             return False, "Needs 12 words per puzzle"
     all_words = [re.sub(r"[^A-Z]", "", str(word).upper()) for puzzle in puzzles for word in puzzle.get("words", [])]
     all_words = [word for word in all_words if word]
-    if len(all_words) != len(set(all_words)):
+    from publishing.repetition_policy import requested as repetition_requested, evaluate as evaluate_repetition
+    if repetition_requested(data):
+        report = evaluate_repetition(data)
+        if not report["passed"]:
+            return False, report["errors"][0]
+    elif len(all_words) != len(set(all_words)):
         return False, "Repeated words need replacement"
     flagged = sorted(set(all_words) & REVIEW_REQUIRED_TERMS)
     if flagged:
@@ -587,7 +582,10 @@ def load_error_log() -> list[dict[str, str]]:
 def load_master_word_bank() -> dict:
     try:
         data=json.loads((WORD_BANKS_DIR / "Guided_Builder_Master_Word_Bank.json").read_text(encoding="utf-8-sig"))
-        return data if isinstance(data,dict) else {}
+        if not isinstance(data, dict):
+            return {}
+        from word_intelligence.editorial_overlay import merge_master_bank
+        return merge_master_bank(data, APP_DIR)
     except (OSError,json.JSONDecodeError): return {}
 
 
@@ -1146,7 +1144,10 @@ def production_stop_errors(path: Path, seed: int, settings: dict[str, str]) -> t
         errors.append(f"Production stop: Signature candidate is not ready yet. {reason}")
     words = [re.sub(r"[^A-Z]", "", str(word).upper()) for puzzle in data.get("puzzles", []) if isinstance(puzzle, dict) for word in puzzle.get("words", [])]
     words = [word for word in words if word]
-    if not data.get("no_repeat_words") or len(words) != len(set(words)):
+    from publishing.repetition_policy import requested as repetition_requested, evaluate as evaluate_repetition
+    if repetition_requested(data):
+        errors.extend(evaluate_repetition(data)["errors"])
+    elif not data.get("no_repeat_words") or len(words) != len(set(words)):
         errors.append("Production stop: this book must have the no-repeated-words promise and no repeated puzzle words.")
     direct_fit, direct_rule = direct_topic_fit_report(data)
     if direct_fit is not None and direct_fit < 50:
@@ -1154,7 +1155,7 @@ def production_stop_errors(path: Path, seed: int, settings: dict[str, str]) -> t
     elif direct_fit is not None and direct_fit < 70:
         warnings.append(f"Production review: topic fit is {direct_fit}% for this {direct_rule.title()} book. The package can be made, but review the word bank before publishing.")
     style = settings.get("style", "")
-    if style == "photo" and not Path(settings.get("art", "")).is_file():
+    if style in {"photo", "signature-photo"} and not Path(settings.get("art", "")).is_file():
         errors.append("Production stop: Photo Hero needs a valid local cover picture.")
     package_data = package_data_from_settings(data, settings)
     listing = listing_kit_text(package_data)
@@ -1169,6 +1170,29 @@ def production_stop_errors(path: Path, seed: int, settings: dict[str, str]) -> t
     except OSError:
         pass
     return errors, warnings, notes
+
+
+def prepare_wordsearch_production_gate(path: Path, seed: int, settings: dict):
+    """Same upstream package checks for desktop and confirmed chat builds."""
+    if Path(path).resolve() != Path(settings.get("theme") or "").resolve():
+        return ["Production stop: selected source and package theme path differ."], [], []
+    errors, quality_warnings, _notes = production_stop_errors(path, seed, settings)
+    if not errors:
+        try:
+            from publishing.production_intelligence import reservation_check
+            source=json.loads(Path(path).read_text(encoding='utf-8-sig'))
+            if source.get('puzzles') and not reservation_check(APP_DIR,str(settings.get('title') or source.get('title') or ''),source)['ready']:
+                errors.append('Production stop: this book reuses reserved words from a finalized book. Existing projects and reservations are preserved; choose an unreserved checked plan.')
+        except (OSError,ValueError,TypeError,AttributeError,KeyError) as exc:
+            errors.append('Production stop: word reservations could not be verified; review the saved source before generation.')
+    if signature_requested(settings):
+        try:
+            signature_puzzles = len(json.loads(Path(settings["theme"]).read_text(encoding="utf-8-sig")).get("puzzles", []))
+        except (OSError, json.JSONDecodeError):
+            signature_puzzles = 0
+        if signature_puzzles < SIGNATURE_PUZZLE_TARGET:
+            errors.append(f"Signature Editions require {SIGNATURE_PUZZLE_TARGET} puzzles. This theme has {signature_puzzles}. Use the Book Blueprint Wizard to build a new 100-puzzle Signature Edition from a clean word bank.")
+    return errors, quality_warnings, _notes
 
 
 def is_signature_edition(data: dict) -> bool:
@@ -1291,6 +1315,8 @@ def detail_page_count(data: dict) -> int:
 
 def estimated_page_count(data: dict) -> int:
     """Match the current interior structure without generating a temporary PDF."""
+    if data.get("interior_profile") == "memories_large_print_v1":
+        return 160
     puzzles = data.get("puzzles", []) if isinstance(data, dict) else []
     count = len(puzzles)
     signature_pages_count = 0
@@ -1398,7 +1424,15 @@ def package_blurb(theme_data: dict, package_data: dict) -> str:
         if any(root in blurb.casefold() for root in roots) and not any(root in topic_key for root in roots):
             blurb = ""
             break
-    return blurb or topic_back_cover_copy(len(package_data.get("puzzles", [])), package_data)
+    result = blurb or topic_back_cover_copy(len(package_data.get("puzzles", [])), package_data)
+    from educational_value import educator_back_cover_section
+    education = educator_back_cover_section(
+        package_data.get("title"), package_data.get("subtitle"),
+        package_data.get("detected_topic"), package_data.get("series"),
+    )
+    if education and "FOR FAMILIES AND EDUCATORS" not in result:
+        result = f"{result}\n\n{education}"
+    return result
 
 
 def listing_kit_text(data: dict, record: dict[str, object] | None = None) -> str:
@@ -1853,6 +1887,12 @@ def audit_theme(path: Path, seed: int) -> tuple[list[str], list[str], list[str]]
         warnings.append("The theme has no saved title. The title currently shown in the app will be used.")
 
     random.seed(seed)
+    if data.get("interior_profile") == "memories_large_print_v1":
+        from publishing.accessible_wordsearch import make_plan
+        try:
+            make_plan(data, seed)
+        except (ValueError, KeyError, TypeError) as exc:
+            errors.append(f"Accessible interior source: {exc}")
     names_seen: set[str] = set()
     book_word_locations: dict[str, list[str]] = {}
     nonstandard_word_counts: list[int] = []
@@ -1878,7 +1918,11 @@ def audit_theme(path: Path, seed: int) -> tuple[list[str], list[str], list[str]]
         if len(source_words) > 25:
             errors.append(f"{name}: it has {len(source_words)} words; the maximum is 25.")
 
-        cleaned = puzzle_engine.clean_words(source_words)
+        try:
+            cleaned = puzzle_engine.clean_words(source_words)
+        except ValueError as exc:
+            errors.append(f"{name}: {exc}")
+            continue
         if len(cleaned) != len(source_words):
             errors.append(f"{name}: one or more words are blank or longer than 21 letters.")
         word_keys: set[str] = set()
@@ -1890,23 +1934,36 @@ def audit_theme(path: Path, seed: int) -> tuple[list[str], list[str], list[str]]
         if not cleaned:
             continue
 
-        grid, _placements, placed = puzzle_engine.generate_puzzle(
-            cleaned, N=puzzle_engine.grid_size_for(cleaned)
-        )
+        try:
+            grid, _placements, placed = puzzle_engine.generate_puzzle(
+                cleaned, N=puzzle_engine.grid_size_for(cleaned)
+            )
+        except ValueError as exc:
+            errors.append(f"{name}: {exc}")
+            continue
         if len(placed) != len(cleaned):
             errors.append(f"{name}: only {len(placed)} of {len(cleaned)} words could be placed.")
         elif len(cleaned) not in (12, 20):
             nonstandard_word_counts.append(len(cleaned))
 
     repeats = {word: locations for word, locations in book_word_locations.items() if len(locations) > 1}
-    if repeats:
+    from publishing.repetition_policy import requested as repetition_requested, evaluate as evaluate_repetition
+    if repetition_requested(data):
+        repetition = evaluate_repetition(data)
+        errors.extend(repetition["errors"])
+        notes.append(f"Controlled repetition: {repetition['unique_targets']} unique targets / {repetition['total_targets']} total; editorial relevance still requires review.")
+    elif repeats:
         examples = ", ".join(sorted(repeats)[:6])
         errors.append(f"This book repeats {len(repeats)} word(s) across different puzzles ({examples}). Published books must have no repeated words.")
 
-    ordered_lists = [
-        puzzle_engine.clean_words(puzzle.get("words") or [])
-        for puzzle in puzzles if isinstance(puzzle, dict)
-    ]
+    ordered_lists = []
+    for puzzle in puzzles:
+        if not isinstance(puzzle, dict):
+            continue
+        try:
+            ordered_lists.append(puzzle_engine.clean_words(puzzle.get("words") or []))
+        except ValueError:
+            continue
     alphabetized = sum(1 for words in ordered_lists if len(words) >= 6 and words == sorted(words))
     if ordered_lists and alphabetized / len(ordered_lists) >= 0.5:
         errors.append(
@@ -1947,6 +2004,19 @@ def quality_gate(path: Path, seed: int) -> tuple[list[str], list[str], list[str]
     if len(title) > 60:
         warnings.append("Title is over 60 characters; shorten it for a cleaner Amazon search result and cover.")
     names = [str(p.get("name", "")) for p in data.get("puzzles", [])]
+    unverified_narrow_titles = sum(
+        1 for puzzle in data.get("puzzles", []) if isinstance(puzzle, dict)
+        and (puzzle.get("section") or puzzle.get("mini_theme"))
+        and not puzzle.get("page_title_verified")
+        and str(puzzle.get("page_title_basis") or "").casefold() not in {
+            "reviewed_mini_theme", "strict_mini_theme_allocation", "editorial_review"
+        }
+    )
+    if unverified_narrow_titles:
+        notes.append(
+            f"Truthful page-title safeguard will replace {unverified_narrow_titles} unverified narrow label(s) "
+            "with the book's proven topic label during rendering."
+        )
     generic = sum(1 for name in names if re.fullmatch(r"(?:Puzzle|Word Search)\s*\d+", name, re.I))
     if generic:
         warnings.append(f"{generic} puzzle name(s) are generic. Specific names make a Signature Edition feel more premium.")
@@ -2044,6 +2114,16 @@ def intelligence_production_truth(data: dict):
                    if isinstance(item, dict)]
         names = [str(item.get("name") or "") for item in data.get("puzzles", [])
                  if isinstance(item, dict)]
+        assignments = [item.get('topic_id') for item in data.get('puzzles', []) if isinstance(item, dict)]
+        if len(set(assignments)) > 1 and all(assignments) and all(taxonomy.resolve(value) for value in assignments):
+            from word_intelligence.production_gate import ProductionTruth
+            reports = [evaluate_book(store, taxonomy, key, [words for words, assigned in zip(puzzles, assignments) if assigned == key]) for key in dict.fromkeys(assignments)]
+            errors = [error for report in reports for error in report.errors]
+            if data.get('no_repeat_words') and len([word for words in puzzles for word in words]) != len({word for words in puzzles for word in words}):
+                errors.append('Word reuse was detected across the selected groups.')
+            return ProductionTruth(not errors, 'Blocked' if errors else 'Ready with group review', errors,
+                list(dict.fromkeys(warning for report in reports for warning in report.warnings)),
+                ['Each puzzle group was checked against its selected source topic.'])
         return evaluate_book(store, taxonomy, topic, puzzles,
                              required_puzzles=len(puzzles), puzzle_names=names)
     except Exception:
@@ -2112,7 +2192,7 @@ def _expected_topics(data: dict, library: dict) -> list[str]:
     if isinstance(source, dict) and isinstance(source.get("topics"), list):
         explicit = [str(topic) for topic in source["topics"] if str(topic) in topics]
         if explicit:
-            return explicit[:8]
+            return explicit
     hint = " ".join(str(data.get(key) or "") for key in ("detected_topic", "series", "title")).casefold()
     tokens = {token for token in re.findall(r"[a-z0-9]+", hint) if len(token) > 2}
     ranked: list[tuple[int, str]] = []
@@ -2524,9 +2604,14 @@ def publish_ready_preflight(path: Path, seed: int, title: str, subtitle: str, au
     contributor_errors = contributor_safety_notes(author)
     errors.extend(contributor_errors)
 
+    from publishing.repetition_policy import requested as repetition_requested, evaluate as evaluate_repetition
+    controlled = repetition_requested(package_data)
+    if controlled:
+        errors.extend(evaluate_repetition(package_data)["errors"])
     checks: list[tuple[str, bool, str]] = []
-    checks.append(("Puzzle placement and unique words", not errors,
-                   "Every word was placed and no word repeats across the book." if not errors else "Fix the blocking book-quality issue(s) below."))
+    word_status = "Placements and the collection's controlled-repetition limits passed." if controlled else "Every word was placed and no word repeats across the book."
+    checks.append(("Puzzle placement and word variety", not errors,
+                   word_status if not errors else "Fix the blocking book-quality issue(s) below."))
     contributor_ok = bool(title.strip() and author.strip()) and not contributor_errors
     checks.append(("Book details and contributor", contributor_ok,
                    "Title is present and the contributor is a person/pen name, not the Slade Puzzles brand." if contributor_ok else "Add a title and a real contributor or pen name. Keep Slade Puzzles as the brand, not the author."))
@@ -2536,14 +2621,15 @@ def publish_ready_preflight(path: Path, seed: int, title: str, subtitle: str, au
         warnings.append("Subtitle is over 120 characters. Shorten it so the cover stays easy to read.")
 
     difficulty = puzzle_difficulty_label(data)
-    badge_ok = "NO REPEATED" in badge.upper()
+    badge_ok = (bool(badge.strip()) and not evaluate_repetition(package_data)["errors"]) if controlled else "NO REPEATED" in badge.upper()
     checks.append(("Cover promise and difficulty", badge_ok,
-                   f"Difficulty marker: {difficulty}. No-repeat badge is ready." if badge_ok else f"Difficulty marker: {difficulty}. Set the cover badge to ‘NO REPEATED WORDS’."))
+                   (f"Difficulty marker: {difficulty}. Use an accurate puzzle-count badge, not a no-repeat claim." if controlled else
+                    f"Difficulty marker: {difficulty}. No-repeat badge is ready." if badge_ok else f"Difficulty marker: {difficulty}. Set the cover badge to ‘NO REPEATED WORDS’.")))
 
     style_value = PublishReadyDialog.STYLE_MAP.get(style_label, "")
     cover_ok = palette in CoverCreatorDialog.PALETTES and bool(style_value)
     photo_note = ""
-    if style_value == "photo" and (not art_path.strip() or not Path(art_path).exists()):
+    if style_value in {"photo", "signature-photo"} and (not art_path.strip() or not Path(art_path).exists()):
         # The Studio will automatically choose a matching local background, or
         # safely switch to an illustrated cover when no match exists.
         photo_note = " Photo Hero will choose a matching local image automatically."
@@ -2551,9 +2637,9 @@ def publish_ready_preflight(path: Path, seed: int, title: str, subtitle: str, au
                    ("Palette and layout are ready for cover generation." + photo_note) if cover_ok else "Choose a valid palette and layout."))
 
     listing = listing_kit_text(package_data)
-    listing_ok = "No repeated words across the book." in listing and difficulty in listing
+    listing_ok = difficulty in listing and (("No repeated words across the book." not in listing) if controlled else "No repeated words across the book." in listing)
     checks.append(("KDP listing kit", listing_ok,
-                   "Includes puzzle count, difficulty, price estimate, and the no-repeat promise." if listing_ok else "Regenerate the listing kit after fixing its book details."))
+                   ("Includes puzzle count, difficulty and price estimate without a false no-repeat promise." if controlled else "Includes puzzle count, difficulty, price estimate, and the no-repeat promise.") if listing_ok else "Regenerate the listing kit after fixing its book details."))
 
     pages = estimated_page_count(data)
     checks.append(("KDP wrap preparation", pages >= 24,
@@ -3631,7 +3717,6 @@ class CoverCreatorDialog(tk.Toplevel):
         self.parent = parent
         self.title("Cover Creator")
         fit_dialog_to_screen(self, 760, 720)
-        self.minsize(650, 620)
         self.transient(parent)
         self.grab_set()
         theme_data = self._current_theme_data()
@@ -3663,8 +3748,7 @@ class CoverCreatorDialog(tk.Toplevel):
             return {}
 
     def _build(self, puzzle_count: int) -> None:
-        frame = ttk.Frame(self, padding=18)
-        frame.pack(fill="both", expand=True)
+        frame = scrollable_dialog_page(self, padding=18)
         frame.columnconfigure(1, weight=1)
         frame.rowconfigure(9, weight=1)
         ttk.Label(frame, text="COVER CREATOR", font=("Segoe UI", 18, "bold")).grid(row=0, column=0, columnspan=3, sticky="w")
@@ -3825,7 +3909,7 @@ class CoverCreatorDialog(tk.Toplevel):
 class PublishReadyDialog(tk.Toplevel):
     """One guided action that produces an interior, cover package, and report."""
 
-    STYLE_MAP = {"Playful Illustrated": "playful", "Sunburst Poster": "sunburst", "Classic": "classic", "Bold Spotlight": "bold", "Retro Pop": "retro", "Minimal": "minimal", "Gallery Frame": "gallery", "Color Block": "colorblock", "Ticket Stub": "ticket", "Halo Spotlight": "halo", "Diagonal Stripe": "stripe", "Photo Hero": "photo"}
+    STYLE_MAP = {"Playful Illustrated": "playful", "Sunburst Poster": "sunburst", "Classic": "classic", "Bold Spotlight": "bold", "Retro Pop": "retro", "Minimal": "minimal", "Gallery Frame": "gallery", "Color Block": "colorblock", "Ticket Stub": "ticket", "Halo Spotlight": "halo", "Diagonal Stripe": "stripe", "Photo Hero": "photo", "Signature Photo": "signature-photo"}
     PALETTES = CoverCreatorDialog.PALETTES
 
     def __init__(self, parent: "WordSearchCreator") -> None:
@@ -3904,7 +3988,7 @@ class PublishReadyDialog(tk.Toplevel):
         style = self.STYLE_MAP[self.style.get()]
         art = None
         art_focus = "center"
-        if style == "photo":
+        if style in {"photo", "signature-photo"}:
             choice = recommend_background_photo(theme_data)
             candidate = APP_DIR / str(choice.get("file") or "") if choice else None
             if candidate and candidate.is_file() and BackgroundAssetIndex().ledger_details(candidate):
@@ -5402,10 +5486,12 @@ def recommended_builder_count(capacity: int, requested_count: int | None = None)
 
 class GuidedBookBuilderDialog(tk.Toplevel):
     """Single-screen production path from a clean word bank to an approved package."""
-    def __init__(self, parent: "WordSearchCreator", initial_topic: str = "", initial_pack: str = "", initial_count: int | None = None) -> None:
+    def __init__(self, parent: "WordSearchCreator", initial_topic: str = "", initial_pack: str = "", initial_count: int | None = None, simple_mode: bool = False, initial_sources=(), initial_reader='standard', initial_balance='Balanced') -> None:
         super().__init__(parent); self.parent=parent; self.title("Guided Book Builder"); fit_dialog_to_screen(self, 940, 790, 780, 500); self.transient(parent); self.grab_set()
-        self.topic=tk.StringVar(value=initial_topic); self.title_value=tk.StringVar(); self.subtitle=tk.StringVar(); self.audience=tk.StringVar(value="Adults & Teens"); self.buyer_angle=tk.StringVar(value="Relaxation"); self.words_each=tk.StringVar(value="12"); self.requested_count=initial_count; self.count=tk.StringVar(value=str(initial_count or 48)); self.mood=tk.StringVar(value="Calm and natural"); self.topic_pack=tk.StringVar(); self.master_library=load_master_word_bank(); self.pack_choice_map=self._grouped_pack_choices(); self.explanation=tk.StringVar(value="Add a topic and word bank to see recommendations."); self.review=tk.StringVar(value="Create the plan to unlock the final review and approval step."); self.status=tk.StringVar(value="Step 1: import a word bank or paste words."); self.created_path: Path|None=None; self._build()
-        if initial_pack:
+        self.topic=tk.StringVar(value=initial_topic); self.title_value=tk.StringVar(); self.subtitle=tk.StringVar(); self.audience=tk.StringVar(value="Adults & Teens"); self.buyer_angle=tk.StringVar(value="Relaxation"); self.words_each=tk.StringVar(value="12"); self.requested_count=initial_count; self.count=tk.StringVar(value=str(initial_count or 48)); self.mood=tk.StringVar(value="Calm and natural"); self.topic_pack=tk.StringVar(); self.master_library=load_master_word_bank(); self.pack_choice_map=self._grouped_pack_choices(); self.explanation=tk.StringVar(value="Add a topic and word bank to see recommendations."); self.review=tk.StringVar(value="Create the plan to unlock the final review and approval step."); self.status=tk.StringVar(value="Step 1: import a word bank or paste words."); self.created_path: Path|None=None; self.simple_mode=simple_mode; self._reader_profile=initial_reader; self._theme_balance=initial_balance; self._build()
+        if simple_mode and initial_topic:
+            self._load_family_topic(initial_topic, initial_sources)
+        elif initial_pack:
             choice = resolve_topic_pack_choice(initial_pack, self.pack_choice_map)
             if choice:
                 self.topic_pack.set(choice)
@@ -5427,6 +5513,10 @@ class GuidedBookBuilderDialog(tk.Toplevel):
         return choices
 
     def _build(self) -> None:
+        if self.simple_mode:
+            from publishing.family_studio import build_simple_wordsearch
+            build_simple_wordsearch(self)
+            return
         frame=scrollable_dialog_page(self,padding=18); frame.columnconfigure(1,weight=1); frame.rowconfigure(7,weight=1)
         ttk.Label(frame,text="GUIDED BOOK BUILDER",font=("Segoe UI",19,"bold")).grid(row=0,column=0,columnspan=2,sticky="w")
         ttk.Label(frame,text="Start with a focused topic, then the app fills in clean words and recommends a book plan. You can still change every detail.",foreground="#555555",wraplength=850).grid(row=1,column=0,columnspan=2,sticky="w",pady=(2,12))
@@ -5469,7 +5559,66 @@ class GuidedBookBuilderDialog(tk.Toplevel):
         if not self.master_library: messagebox.showinfo("Master library", "The master word bank has not been built yet.", parent=self); return
         words=BookBlueprintDialog._clean_items(self.master_library.get("words",[])); self.words.delete("1.0","end"); self.words.insert("1.0",", ".join(words)); self.status.set(f"Loaded {len(words)} words from the master library. Narrow the topic/title so the final book stays focused."); self.recommend()
 
+    def _load_family_topic(self, topic: str, source_groups=()) -> None:
+        if getattr(self, '_family_job', None):
+            self.after_cancel(self._family_job)
+            self._family_job = None
+        from queue import Empty, Queue
+        self._family_epoch = getattr(self, '_family_epoch', 0) + 1
+        epoch = self._family_epoch
+        self._family_source_groups = tuple(source_groups)
+        if hasattr(self, 'short_pack_button'): self.short_pack_button.pack_forget()
+        self._family_loading = True
+        self._family_plan = None
+        self.status.set('Choosing checked words and arranging your puzzles…')
+        results = Queue()
+        root = APP_DIR
+        reader, balance = self._reader_profile, self._theme_balance
+        def prepare():
+            try:
+                from word_intelligence.pipeline import prepare_family_wordsearch
+                results.put((prepare_family_wordsearch(root, topic, seed=random.SystemRandom().randint(0, 2**31-1), source_groups=source_groups, reader=reader, balance=balance), ''))
+            except Exception as exc:
+                error = str(exc)
+                try:
+                    short = prepare_family_wordsearch(root, topic, 2, 8, minimum_puzzles=1, max_word_length=18, source_groups=source_groups, reader=reader, balance=balance)
+                    results.put(({'short_pack_available': True}, error))
+                except Exception as short_error:
+                    results.put((None, str(short_error)))
+        def receive():
+            if epoch != self._family_epoch: return
+            try: plan, error = results.get_nowait()
+            except Empty:
+                self._family_job = self.after(100, receive)
+                return
+            self._family_job = None
+            self._family_loading = False
+            if error:
+                self.status.set(error)
+                self.explanation.set(error)
+                if plan and plan.get('short_pack_available') and hasattr(self, 'short_pack_button'): self.short_pack_button.pack(anchor='w', pady=5)
+                return
+            self._family_plan = plan
+            from publishing.studio_reader_profiles import READER_PROFILES
+            if reader != 'standard': self.audience.set(READER_PROFILES[reader]['label'])
+            self.words.delete('1.0', 'end'); self.words.insert('1.0', ', '.join(plan['words']))
+            self.topic.set(plan['topic'])
+            if not self.title_value.get().strip(): self.title_value.set(plan['topic'] + ' Word Search')
+            self.requested_count = len(plan['groups'])
+            self.recommend()
+            self.explanation.set('Word groups used: ' + ', '.join(plan['source_topics']) + ('\nActual mix: ' + ', '.join(f'{name}: {count}' for name,count in plan.get('group_counts', {}).items()) if plan.get('group_counts') else '') + ('\n' + ' '.join(dict.fromkeys('Review the preview for editorial variety.' if ('mini-theme' in warning or 'coherence' in warning) else warning for warning in plan.get('warnings', []))) if plan.get('warnings') else ''))
+            self.status.set(f"Ready: {len(plan['groups'])} puzzles using {len(plan['words'])} checked words. No word-bank editing is needed.")
+        self._family_job = self.after(100, receive)
+        def cancel(event):
+            if event.widget == self and getattr(self, '_family_job', None):
+                self.after_cancel(self._family_job); self._family_job = None
+        self.bind('<Destroy>', cancel, add='+')
+        threading.Thread(target=prepare, daemon=True).start()
+
     def _load_topic_pack(self, automatic: bool = False) -> None:
+        if self.simple_mode:
+            self._load_family_topic(self.pack_choice_map.get(self.topic_pack.get(), self.topic_pack.get()))
+            return
         selected=self.topic_pack.get(); pack=self.pack_choice_map.get(selected, selected); sources=self.master_library.get("topic_packs",{}).get(pack,[]); topics=self.master_library.get("topics",{}); words=BookBlueprintDialog._clean_items([word for source in sources for word in topics.get(source,[])])
         if not words: messagebox.showinfo("Choose a topic pack", "Choose one of the focused topic packs first.", parent=self); return
         self.words.delete("1.0","end"); self.words.insert("1.0",", ".join(words)); self.topic.set(pack)
@@ -5492,6 +5641,10 @@ class GuidedBookBuilderDialog(tk.Toplevel):
         messagebox.showinfo("No-repeat book capacity", f"This word bank has {unique} clean, unique words.\n\nYOUR CURRENT PLAN ({selected_count} puzzles × {per} words)\n{selected['message']}\n\n48-PUZZLE EDITION\n{standard['message']}\n\n100-PUZZLE SIGNATURE EDITION\n{signature['message']}\n\nThis is an honest capacity check for books with no repeated word anywhere.", parent=self)
 
     def recommend(self) -> None:
+        if self.simple_mode and self.created_path:
+            self.created_path = None
+            self.approve.configure(state="disabled")
+            self.review.set("The plan changed. Review it again before creating a package.")
         words=BookBlueprintDialog._clean_source(self.words.get("1.0","end-1c")); per=int(self.words_each.get()); capacity=len(words)//per; suggested=str(recommended_builder_count(capacity, self.requested_count)); self.count.set(suggested)
         guarantee=content_capacity(len(words), int(suggested), per, target_books=2)
         recommendation=recommend_theme_from_words([{"words":words}], self.topic.get().strip()); title=self.title_value.get().strip() or (f"{self.topic.get().strip()} Word Search" if self.topic.get().strip() else "Your Word Search")
@@ -5504,13 +5657,26 @@ class GuidedBookBuilderDialog(tk.Toplevel):
             title,subtitle=options[int(choice.strip())-1]; self.title_value.set(title); self.subtitle.set(subtitle); self.recommend()
 
     def create(self) -> None:
+        if self.simple_mode and (getattr(self, '_family_loading', False) or not getattr(self, '_family_plan', None)):
+            self.status.set('Wait for the checked topic plan, or choose another library topic. No word-bank editing is needed.')
+            return
         topic=self.topic.get().strip(); words=BookBlueprintDialog._clean_source(self.words.get("1.0","end-1c")); per=int(self.words_each.get()); count=int(self.count.get())
         required=count*per
         if not topic or len(words)<required: messagebox.showwarning("More unique words needed",f"Add a topic and at least {required} clean, unique words for {count} puzzles with no repeated words. You currently have {len(words)}.",parent=self); return
         rec=recommend_theme_from_words([{"words":words}], topic); title=self.title_value.get().strip() or f"{topic} Word Search"; groups=[]; shuffled_words=words[:]; random.Random(f"{title}|no-repeat").shuffle(shuffled_words)
         for number in range(1,count+1):
             start=(number-1)*per; groups.append({"name":f"{topic} Puzzle {number:03d}","words":shuffled_words[start:start+per]})
+        if self.simple_mode:
+            plan = self._family_plan
+            if set(words) != set(plan['words']) or count != len(plan['groups']) or per != 12 or topic != plan['topic']:
+                self.status.set('The reviewed words changed. Choose the library topic again to refresh the checked plan, or use Advanced tools for custom vocabulary.')
+                return
+            groups = [dict(group, words=list(group['words'])) for group in plan['groups']]
         data={"title":title,"subtitle":self.subtitle.get().strip() or f"{count} themed word search puzzles for {self.audience.get().lower()}","author":"Jordan M. Slade","audience":self.audience.get(),"buyer_angle":self.buyer_angle.get(),"palette":rec["palette"],"cover_style":rec["style"],"detected_topic":topic,"recommended_palette":rec["palette"],"recommended_cover_style":rec["style"],"difficulty_label":puzzle_difficulty_label({"puzzles":groups}),"clipart_search_terms":f"{topic} illustration clipart transparent background","no_repeat_words":True,"cover_badge":"NO REPEATED WORDS","puzzles":groups}
+        if self.simple_mode:
+            data['reader_profile'] = self._reader_profile
+            data['theme_balance'] = self._theme_balance
+            data['source_word_bank'] = {'topics': self._family_plan['source_topics'], 'selection': 'filtered_topic_pool', 'seed': self._family_plan['seed']}
         path=THEMES_DIR/f"{WordSearchCreator._safe_filename(title).lower()}.json"; suffix=2
         while path.exists(): path=THEMES_DIR/f"{WordSearchCreator._safe_filename(title).lower()}_{suffix}.json"; suffix+=1
         path.write_text(json.dumps(data,indent=2,ensure_ascii=False)+"\n",encoding="utf-8"); self.created_path=path; self.parent._load_theme_list(); self.parent._set_theme(path); self.approve.configure(state="normal")
@@ -5821,7 +5987,7 @@ class WordSearchCreator(tk.Tk):
         self._app_preferences = load_app_preferences()
         self.title("SladePuzzleCo Book Studio")
         self.geometry("1180x720")
-        self.minsize(920, 600)
+        self.minsize(min(760, self.winfo_screenwidth()-40), min(540, self.winfo_screenheight()-80))
         self.resizable(True, True)
         # The studio is designed as a full-screen workspace.  F11 remains
         # available for the borderless full-screen view.
@@ -5873,7 +6039,7 @@ class WordSearchCreator(tk.Tk):
         self.smart_topic = tk.StringVar()
         self.smart_edition = tk.StringVar(value="Standard")
         self.trend_status = tk.StringVar(value="Find one current niche, then review it before building.")
-        self.status = tk.StringVar(value="Choose a theme, then click Generate Book.")
+        self.status = tk.StringVar(value="Ready. Start with an idea or choose a creation.")
 
         self._update_layout_note()
         self._update_title_feedback()
@@ -5881,7 +6047,7 @@ class WordSearchCreator(tk.Tk):
         self._build_window()
         # Loading every saved theme must stay lightweight. Full topic-fit and
         # rights checks belong to Check / Fix, not the startup paint path.
-        self._load_theme_list()
+        # The full theme scan belongs to the on-demand production tools.
         self._bring_to_front()
         self.after(900, self._restore_comfort_settings)
 
@@ -5889,8 +6055,8 @@ class WordSearchCreator(tk.Tk):
         """Ensure Windows shows the main window after a launcher starts it."""
         try:
             self.state("normal")
-            width = min(1280, max(920, self.winfo_screenwidth() - 80))
-            height = min(780, max(600, self.winfo_screenheight() - 120))
+            width = min(1180, self.winfo_screenwidth() - 60)
+            height = min(780, self.winfo_screenheight() - 100)
             self.geometry(f"{width}x{height}+40+30")
             self.deiconify()
             self.update_idletasks()
@@ -5898,7 +6064,6 @@ class WordSearchCreator(tk.Tk):
             self.focus_force()
             self.attributes("-topmost", True)
             self.after(650, lambda: self.attributes("-topmost", False))
-            self.after(120, lambda: self.state("zoomed"))
         except tk.TclError:
             pass
 
@@ -5907,7 +6072,7 @@ class WordSearchCreator(tk.Tk):
         if self.compact_home.get():
             self._apply_compact_home()
         last_theme = Path(str(self._app_preferences.get("last_theme") or ""))
-        if last_theme.is_file():
+        if last_theme.is_file() and getattr(self, "_advanced_built", False):
             self._set_theme(last_theme)
         geometry = str(self._app_preferences.get("window_geometry") or "")
         state = str(self._app_preferences.get("window_state") or "")
@@ -5916,16 +6081,39 @@ class WordSearchCreator(tk.Tk):
             except tk.TclError: pass
 
     def _on_close(self) -> None:
-        if self._package_in_progress and not messagebox.askyesno("Package still being created", "A package is still being created. Closing now stops the app before the final checks finish. Close anyway?", parent=self):
+        # Flush unfinished family forms before destroying their Tk variables.
+        for child in self.winfo_children():
+            flush = getattr(child, "flush_draft", None)
+            if callable(flush) and not flush():
+                messagebox.showerror("Draft not saved", "Your unfinished work could not be saved. Keep the app open and check the draft message before closing.", parent=self)
+                return
+        active_child = any(getattr(child, "_package_in_progress", False) or getattr(child, "_creating", False) for child in self.winfo_children() if isinstance(child, tk.Toplevel))
+        chat_active = bool(getattr(self.family_studio, '_build_stop_owner', None) or getattr(self.family_studio, '_revision_worker_owner', None))
+        if (self._package_in_progress or active_child or chat_active) and not messagebox.askyesno("Package still being created", "A package is still being created. Closing now stops the app before the final checks finish. Close anyway?", parent=self):
             return
         try:
-            save_app_preferences({
+            save_app_preferences(self._app_preferences | {
                 "ui_theme": self.ui_theme.get(), "compact_home": self.compact_home.get(),
-                "last_theme": str(self.selected_theme.resolve()) if self.selected_theme else "",
+                "last_theme": str(self.selected_theme.resolve()) if self.selected_theme else self._app_preferences.get("last_theme", ""),
                 "window_geometry": self.geometry(), "window_state": self.state(),
+                "assistant_provider": self.family_studio.provider, "local_ai_model": self.family_studio.model, "local_ai_enabled": self.family_studio.local_ai_enabled,
             })
         finally:
             self.destroy()
+
+    def destroy(self) -> None:
+        # Cancel this application's timers before destroying their Tcl commands.
+        try:
+            for timer in self.tk.call('after', 'info'):
+                self.tk.call('after', 'cancel', timer)
+        except tk.TclError:
+            pass
+        super().destroy()
+
+    def report_callback_exception(self, exc_type, exc_value, traceback) -> None:
+        """A Windows launcher has no console; show actionable failures in the UI."""
+        log_plain_error("Studio action", "", exc_value, "Open Settings → Help with a problem to inspect the error. Saved work has not been reset.")
+        messagebox.showerror("That action could not finish", f"{exc_value}\n\nOpen Settings → Help with a problem for the saved error report. You can keep using the Studio.", parent=self)
 
     def _setup_styles(self) -> None:
         """Apply a calm light or high-contrast dark workspace."""
@@ -5942,6 +6130,9 @@ class WordSearchCreator(tk.Tk):
         if "clam" in style.theme_names():
             style.theme_use("clam")
         style.configure("App.TFrame", background=bg)
+        style.configure("TFrame", background=bg)
+        style.configure("TCheckbutton", background=bg, foreground=text)
+        style.map("TCheckbutton", background=[("active", bg)], foreground=[("active", text)])
         sidebar_bg = "#171717" if dark else "#f7f7f7"
         raised = "#292929" if dark else "#ffffff"
         style.configure("Chat.Main.TFrame", background=bg)
@@ -5991,6 +6182,19 @@ class WordSearchCreator(tk.Tk):
         style.configure("Status.TLabel", background="#173d3a" if dark else "#e5f1ed", foreground="#c6eee7" if dark else "#245b4f", padding=(10, 8), font=("Segoe UI", 9))
         style.configure("TNotebook", background=bg, borderwidth=0)
         style.configure("TNotebook.Tab", padding=(15, 8), font=("Segoe UI", 10, "bold"))
+        style.configure("Family.Card.TFrame", background=panel)
+        style.configure("Family.Brand.TLabel", background=panel, foreground=text, font=("Segoe UI", 16, "bold"))
+        style.configure("Family.Title.TLabel", background=bg, foreground=text, font=("Segoe UI", 24, "bold"))
+        style.configure("Family.Body.TLabel", background=bg, foreground=text, font=("Segoe UI", 12))
+        style.configure("Family.Muted.TLabel", background=bg, foreground=muted, font=("Segoe UI", 10))
+        style.configure("Family.CardTitle.TLabel", background=panel, foreground=text, font=("Segoe UI", 15, "bold"))
+        style.configure("Family.CardText.TLabel", background=panel, foreground=text, font=("Segoe UI", 11))
+        style.configure("Family.Nav.TButton", font=("Segoe UI", 11), padding=(12, 10), background=panel, foreground=text, borderwidth=0)
+        style.map("Family.Nav.TButton", background=[("active", primary)], foreground=[("active", "#ffffff")])
+        style.configure("Family.Choice.TButton", font=("Segoe UI", 12, "bold"), padding=(16, 16), anchor="w", background=panel, foreground=text, borderwidth=0)
+        style.map("Family.Choice.TButton", background=[("active", primary)], foreground=[("active", "#ffffff")])
+        style.configure("Family.Option.TRadiobutton", font=("Segoe UI", 12), padding=10, background=panel, foreground=text)
+        style.map("Family.Option.TRadiobutton", background=[("active", panel)], foreground=[("active", text)])
         if hasattr(self, "_content_canvas"):
             self._content_canvas.configure(background=bg)
 
@@ -6001,10 +6205,15 @@ class WordSearchCreator(tk.Tk):
     def _apply_ui_theme(self, *_args: object) -> None:
         self._setup_styles()
         self._apply_main_assistant_appearance()
+        if hasattr(self, "family_studio"):
+            self.family_studio.refresh_style()
         self.status.set(f"Appearance changed to {self.ui_theme.get()}.")
 
     def _load_library_summary_async(self) -> None:
         """Keep the first visible paint quick while the large library is read."""
+        from queue import Empty, Queue
+        results = Queue()
+        pending = {'job': None}
         def read() -> None:
             try:
                 library_data = load_master_word_bank()
@@ -6015,7 +6224,21 @@ class WordSearchCreator(tk.Tk):
                         f"{intelligence['ready_48']} ready now | {intelligence['needs_expansion']} safely being expanded")
             except Exception:
                 text = "Library details will appear when you open a word-search tool."
-            self.after(0, lambda: self.library_summary.set(text) if self.winfo_exists() else None)
+            results.put(text)
+        def receive() -> None:
+            try:
+                text = results.get_nowait()
+            except Empty:
+                pending['job'] = self.after(100, receive)
+            else:
+                pending['job'] = None
+                self.library_summary.set(text)
+        def cancel(event) -> None:
+            if event.widget == self and pending['job'] is not None:
+                self.after_cancel(pending['job'])
+                pending['job'] = None
+        self.bind('<Destroy>', cancel, add='+')
+        pending['job'] = self.after(100, receive)
         threading.Thread(target=read, daemon=True).start()
 
     def _toggle_compact_home(self) -> None:
@@ -6033,9 +6256,35 @@ class WordSearchCreator(tk.Tk):
             self.status.set("Full view is on. Your creation and publishing shortcuts are visible again.")
 
     def _build_window(self) -> None:
+        from publishing.family_studio import FamilyStudio
+        self._advanced_built = False
+        self.family_studio = FamilyStudio(self, self)
+        self.family_studio.pack(fill="both", expand=True)
+
+    def _ensure_advanced_workspace(self, show: bool = False) -> None:
+        if not self._advanced_built:
+            self._build_advanced_window()
+            self._advanced_shell.pack_forget()
+            self._advanced_built = True
+            self._load_theme_list()
+            last_theme = Path(str(self._app_preferences.get("last_theme") or ""))
+            if last_theme.is_file():
+                self._set_theme(last_theme)
+        if show:
+            self.family_studio.pack_forget()
+            self._advanced_shell.pack(fill="both", expand=True)
+
+    def _show_family_home(self) -> None:
+        if self._advanced_built:
+            self._advanced_shell.pack_forget()
+        self.family_studio.pack(fill="both", expand=True)
+        self.family_studio.show_home()
+
+    def _build_advanced_window(self) -> None:
         # Laptop screens often have less usable height than the studio needs.
         # Keep every button reachable with one natural mouse-wheel scroll.
         shell = ttk.Frame(self, style="App.TFrame"); shell.pack(fill="both", expand=True)
+        self._advanced_shell = shell
         shell.columnconfigure(0, weight=1); shell.rowconfigure(0, weight=1)
         self._content_canvas = tk.Canvas(shell, highlightthickness=0, background="#171d22")
         self._content_canvas.grid(row=0, column=0, sticky="nsew")
@@ -6051,20 +6300,30 @@ class WordSearchCreator(tk.Tk):
         outer.columnconfigure(0, weight=1); outer.rowconfigure(1, weight=1); outer.rowconfigure(2, weight=0)
         hero = ttk.Frame(outer, padding=(18, 10), style="Chat.Header.TFrame"); hero.grid(row=0, column=0, sticky="ew")
         ttk.Label(hero, text="SLADEPUZZLECO  /  BOOK STUDIO", style="HeroTitle.TLabel").pack(side="left")
+        ttk.Button(hero, text="Back to simple Studio", command=self._show_family_home).pack(side="left", padx=12)
         hero_actions = ttk.Frame(hero, style="Chat.Header.TFrame"); hero_actions.pack(side="right")
         appearance = ttk.Frame(hero_actions, style="Chat.Header.TFrame"); appearance.pack(side="right")
         ttk.Label(appearance, text="Appearance", style="HeroText.TLabel").pack(side="left", padx=(0, 7))
         theme_picker = ttk.Combobox(appearance, textvariable=self.ui_theme, values=("Studio Dark", "Paper Light", "Neon Code Rain", "Midnight Indigo"), state="readonly", width=18)
         theme_picker.pack(side="left"); theme_picker.bind("<<ComboboxSelected>>", self._apply_ui_theme)
         ttk.Checkbutton(appearance, text="Compact view", variable=self.compact_home, command=self._apply_compact_home, style="Hero.TCheckbutton").pack(side="left", padx=(10, 0))
-        ttk.Button(hero_actions, text="New conversation", command=self._reset_main_assistant, style="Chat.Chip.TButton").pack(side="left", padx=(0, 6))
         ttk.Button(hero_actions, text="Production dashboard", command=self._open_production_dashboard, style="Chat.Chip.TButton").pack(side="left", padx=(0, 6))
         ttk.Button(hero_actions, text="Create a book", command=self._open_create_new_book, style="Chat.Chip.TButton").pack(side="left", padx=(0, 6))
-        ttk.Button(hero_actions, text="Check / fix", command=self._open_book_readiness, style="Chat.Chip.TButton").pack(side="left", padx=(0, 6))
-        ttk.Button(hero_actions, text="Review cover", command=self._open_cover_choices, style="Chat.Chip.TButton").pack(side="left", padx=(0, 6))
         ttk.Button(hero_actions, text="Prepare / publish", command=self._open_publishing_manager, style="Chat.Chip.TButton").pack(side="left", padx=(0, 6))
-        self.workspace_button = ttk.Button(hero_actions, text="Word Search details", command=self._toggle_word_search_workspace, style="Chat.Chip.TButton")
-        self.workspace_button.pack(side="left", padx=(8, 0))
+        home_more = ttk.Menubutton(hero_actions, text="More ▾", style="Chat.Chip.TButton")
+        home_more.pack(side="left")
+        home_menu = tk.Menu(home_more, tearoff=False)
+        home_menu.add_command(label="New conversation", command=self._reset_main_assistant)
+        home_menu.add_separator()
+        home_menu.add_command(label="Check / fix a book", command=self._open_book_readiness)
+        home_menu.add_command(label="Review / approve a cover", command=self._open_cover_choices)
+        home_menu.add_command(label="Word Search workspace", command=self._toggle_word_search_workspace)
+        home_more.configure(menu=home_menu)
+        # Kept as the single stateful control for the workspace toggle.  It is
+        # intentionally not packed: the visible command lives in the compact
+        # More menu so laptop-width headers never push production controls out
+        # of view.
+        self.workspace_button = ttk.Button(hero_actions, text="Word Search workspace", command=self._toggle_word_search_workspace, style="Chat.Chip.TButton")
         self._build_home_dashboard(outer)
         self.workspace = ttk.Frame(outer, style="App.TFrame")
         self.workspace.grid(row=2, column=0, sticky="nsew")
@@ -6206,8 +6465,9 @@ class WordSearchCreator(tk.Tk):
         create_menu = tk.Menu(create_more, tearoff=False)
         create_menu.add_command(label="Word Search library", command=self._show_word_search_workspace)
         create_menu.add_command(label="Guided Word Search Builder", command=self._open_guided_book_builder)
+        create_menu.add_command(label="Printable Activity Packs", command=self._open_activity_packs)
         create_menu.add_separator()
-        for label, kind in (("Sudoku books", "Sudoku"), ("Cryptogram books", "Cryptogram"), ("Scramble + Trivia books", "Word Scramble + Trivia"), ("Mixed puzzle books", "Mixed Brain Games")):
+        for label, kind in (("Sudoku books", "Sudoku"), ("Cryptogram books", "Cryptogram"), ("Word Scramble + Fact Clue books", "Word Scramble + Trivia"), ("Mixed puzzle books", "Mixed Brain Games")):
             create_menu.add_command(label=label, command=lambda value=kind: self._open_other_puzzle_studio(value))
         create_more.configure(menu=create_menu); create_more.pack(fill="x", pady=1)
         ttk.Separator(sidebar).pack(fill="x", pady=8)
@@ -6357,6 +6617,9 @@ class WordSearchCreator(tk.Tk):
         """Read the existing catalog in the background and show one next step."""
         if not hasattr(self, "home_next_text"):
             return
+        from queue import Empty, Queue
+        results = Queue()
+        pending = {'job': None}
         def work() -> None:
             try:
                 from publishing import PublishingService
@@ -6364,7 +6627,22 @@ class WordSearchCreator(tk.Tk):
                 result = home_summary(PublishingService(APP_DIR).db.list_books())
             except Exception:
                 result = {"next": {"kind": "create", "book_id": "", "label": "Create a new book", "detail": "Start with a checked topic and the studio will apply the best defaults."}}
-            self.after(0, lambda: self._show_home_next_action(result["next"]))
+            # Workers must not call Tk, including after(), during shutdown.
+            results.put(result["next"])
+        def receive() -> None:
+            try:
+                action = results.get_nowait()
+            except Empty:
+                pending['job'] = self.after(100, receive)
+            else:
+                pending['job'] = None
+                self._show_home_next_action(action)
+        def cancel(event) -> None:
+            if event.widget == self and pending['job'] is not None:
+                self.after_cancel(pending['job'])
+                pending['job'] = None
+        self.bind('<Destroy>', cancel, add='+')
+        pending['job'] = self.after(100, receive)
         threading.Thread(target=work, daemon=True).start()
 
     def _show_home_next_action(self, action: dict) -> None:
@@ -6433,12 +6711,12 @@ class WordSearchCreator(tk.Tk):
             self._main_assistant_say("Opening the Space & Astronomy Cryptogram Signature Edition: 100 checked, no-duplicate code-breaking puzzles with a matching space cover direction.")
             self._open_other_puzzle_studio("Cryptogram", "Space & Astronomy", "Signature Edition"); return
         if any(term in words for term in ("general knowledge trivia", "curiosity trivia", "trivia book", "curiosity cabinet")):
-            self._main_assistant_say("Opening the General Knowledge & Curiosity Signature Edition: 100 checked scramble-and-trivia challenges with a matching playful cover direction.")
+            self._main_assistant_say("Opening the General Knowledge & Curiosity Signature Edition: 100 checked word scrambles with fact clues and a matching playful cover direction.")
             self._open_other_puzzle_studio("Word Scramble + Trivia", "General Knowledge & Curiosity", "Signature Edition"); return
         for terms, kind, reply in (
             (("sudoku", "number puzzle", "letter sudoku", "shape sudoku"), "Sudoku", "Opening the 100-puzzle Sudoku Signature Edition with the number, letter, and shape mix already included."),
             (("cryptogram", "cipher", "code breaking", "codebreak"), "Cryptogram", "Opening Cryptograms. The studio will use the checked content library and stop if there are not enough unique games."),
-            (("scramble", "trivia", "quick facts"), "Word Scramble + Trivia", "Opening Scramble + Trivia with its verified content check."),
+            (("scramble", "trivia", "quick facts"), "Word Scramble + Trivia", "Opening word scrambles with fact clues and its verified content check."),
         ):
             if any(term in words for term in terms):
                 self._main_assistant_say(reply); self._open_other_puzzle_studio(kind, "General Starter", "Signature Edition" if kind == "Sudoku" else "Standard"); return
@@ -6472,7 +6750,7 @@ class WordSearchCreator(tk.Tk):
             {"label": "Word Search workspace", "say": "Opening the Word Search workspace and your saved themes.", "phrases": ("word search workspace", "word search library", "open themes", "theme library"), "action": self._show_word_search_workspace},
             {"label": "Sudoku creator", "say": "Opening Sudoku with the checked starter settings ready.", "phrases": ("open sudoku", "sudoku creator", "sudoku studio"), "action": lambda: self._open_other_puzzle_studio("Sudoku")},
             {"label": "Cryptogram creator", "say": "Opening Cryptograms with the checked starter settings ready.", "phrases": ("open cryptogram", "cryptogram creator", "cryptogram studio"), "action": lambda: self._open_other_puzzle_studio("Cryptogram")},
-            {"label": "Scramble + Trivia creator", "say": "Opening Scramble + Trivia with the checked starter settings ready.", "phrases": ("open scramble", "scramble creator", "trivia creator", "open trivia"), "action": lambda: self._open_other_puzzle_studio("Word Scramble + Trivia")},
+            {"label": "Word Scramble + Fact Clue creator", "say": "Opening word scrambles with fact clues and the checked starter settings ready.", "phrases": ("open scramble", "scramble creator", "trivia creator", "open trivia"), "action": lambda: self._open_other_puzzle_studio("Word Scramble + Trivia")},
             {"label": "Mixed Brain Games creator", "say": "Opening Mixed Brain Games with its themed section dividers.", "phrases": ("open mixed games", "mixed games creator", "mixed puzzle creator"), "action": lambda: self._open_other_puzzle_studio("Mixed Brain Games")},
             {"label": "Theme Builder", "say": "Opening Theme Builder to make or edit a Word Search theme.", "phrases": ("theme builder", "edit a theme", "make a theme"), "action": self._open_theme_builder},
             {"label": "Topic Pack Builder", "say": "Opening Topic Pack Builder to start a book from a checked topic pool.", "phrases": ("topic pack builder", "build from topic", "topic pack"), "action": self._open_topic_pack_builder},
@@ -6616,6 +6894,7 @@ class WordSearchCreator(tk.Tk):
 
     def _show_word_search_workspace(self) -> None:
         """Open the detailed Word Search workspace without accidentally hiding it."""
+        self._ensure_advanced_workspace(show=True)
         if not self.workspace.winfo_ismapped():
             self._toggle_word_search_workspace()
         else:
@@ -6730,8 +7009,8 @@ class WordSearchCreator(tk.Tk):
                 ready_label = "Production-ready"
             marker = "✓" if ready else "!"
             label = f"{marker} {label}  •  {puzzle_count} puzzles  •  {word_label}  •  {ready_label}"
-            if label in self.theme_paths:
-                label = f"{title}  ({path.stem})"
+            from publishing.studio_theme_catalog import unique_theme_label
+            label = unique_theme_label(label,title,path,THEMES_DIR,self.theme_paths)
             self.theme_paths[label] = path
             try:
                 relative_parent = path.parent.relative_to(THEMES_DIR)
@@ -7197,7 +7476,7 @@ class WordSearchCreator(tk.Tk):
             difficulty = puzzle_difficulty_label(theme_data)
         except (OSError, json.JSONDecodeError):
             pass
-        if style == "photo" and (not art or not art.exists()):
+        if style in {"photo", "signature-photo"} and (not art or not art.exists()):
             choice = recommend_background_photo(theme_data)
             if choice:
                 art = APP_DIR / str(choice["file"])
@@ -7289,14 +7568,7 @@ class WordSearchCreator(tk.Tk):
         # The Autopilot records the real source and validated facts before any
         # costly subprocess starts. It does not replace this established gate.
         autopilot, autopilot_facts = self._begin_wordsearch_autopilot(settings, seed)
-        errors, quality_warnings, _notes = production_stop_errors(self.selected_theme, seed, settings)
-        if signature_requested(settings):
-            try:
-                signature_puzzles = len(json.loads(Path(settings["theme"]).read_text(encoding="utf-8-sig")).get("puzzles", []))
-            except (OSError, json.JSONDecodeError):
-                signature_puzzles = 0
-            if signature_puzzles < SIGNATURE_PUZZLE_TARGET:
-                errors.append(f"Signature Editions require {SIGNATURE_PUZZLE_TARGET} puzzles. This theme has {signature_puzzles}. Use the Book Blueprint Wizard to build a new 100-puzzle Signature Edition from a clean word bank.")
+        errors, quality_warnings, _notes = prepare_wordsearch_production_gate(self.selected_theme, seed, settings)
         if errors:
             autopilot.fail("validate", " | ".join(errors), human_review=True)
             QualityReportDialog(self, "Book Quality Check", errors, quality_warnings, _notes)
@@ -7417,7 +7689,7 @@ class WordSearchCreator(tk.Tk):
                 self.after(0, lambda: messagebox.showerror("Proof bundle problem", str(exc), parent=self))
         threading.Thread(target=run, daemon=True).start()
 
-    def _run_studio_package(self, settings: dict[str, str], seed: int, folder: Path, quality_warnings: list[str] | None = None, autopilot=None, autopilot_facts: dict | None = None, job_queue=None, job_id: str = "") -> None:
+    def _run_studio_package(self, settings: dict[str, str], seed: int, folder: Path, quality_warnings: list[str] | None = None, autopilot=None, autopilot_facts: dict | None = None, job_queue=None, job_id: str = "", *, sync_catalog: bool = True) -> None:
         try:
             current_stage = "generate"
             def phase(message: str) -> None:
@@ -7444,10 +7716,11 @@ class WordSearchCreator(tk.Tk):
                 commands[1].extend(["--art", settings["art"], "--art-focus", settings.get("art_focus", "center")])
             generated = autopilot.current_artifact("generate", autopilot.stage_fingerprint(autopilot_facts, "generate")) if autopilot and autopilot_facts else None
             covered = autopilot.current_artifact("cover", autopilot.stage_fingerprint(autopilot_facts, "cover")) if autopilot and autopilot_facts else None
+            current_stage = "listing" if generated and interior.is_file() and covered and front.is_file() else "cover" if generated and interior.is_file() else "generate"
             phase("Reusing the checked interior PDF…" if generated and interior.is_file() else "Building the interior PDF with every puzzle and answer page…")
             for number, command in enumerate(commands):
                 if number == 0 and generated and interior.is_file():
-                    current_stage = "cover"; phase("Interior reused. Creating the front cover with your selected design…")
+                    current_stage = "listing" if covered and front.is_file() else "cover"; phase("Interior reused. Creating the front cover with your selected design…")
                     continue
                 if number == 1 and covered and front.is_file():
                     phase("Checked interior and cover reused. Finishing the wrap, listing, and proof checks…")
@@ -7466,6 +7739,7 @@ class WordSearchCreator(tk.Tk):
             data = json.loads(Path(settings["theme"]).read_text(encoding="utf-8-sig"))
             package_data = package_data_from_settings(data, settings)
             blurb = package_blurb(data, package_data)
+            current_stage = "listing"
             phase("Writing the listing copy, upload checklist, and package guide…")
             package_file(folder, "KDP_UPLOAD_CHECKLIST.txt", for_write=True).write_text(kdp_upload_checklist_text(package_data, pages), encoding="utf-8")
             package_file(folder, "KDP_LISTING_KIT.txt", for_write=True).write_text(listing_kit_text(package_data), encoding="utf-8")
@@ -7483,8 +7757,8 @@ class WordSearchCreator(tk.Tk):
                         encoding="utf-8",
                     )
             preview = package_file(folder, "kdp_full_wrap_preview.png", for_write=True)
-            phase("Building the full print wrap from the final interior page count…")
             current_stage = "preflight"
+            phase("Building the full print wrap from the final interior page count…")
             result = subprocess.run([str(python), str(WRAP_ENGINE), "--front", str(front), "--pages", str(pages), "--palette", settings["palette"], "--title", settings["title"], "--author", settings["author"], "--back", blurb, "--out", str(wrap), "--preview-out", str(preview)], cwd=APP_DIR, capture_output=True, text=True, creationflags=subprocess.CREATE_NO_WINDOW)
             if result.returncode:
                 raise RuntimeError(result.stderr.strip() or result.stdout.strip())
@@ -7516,14 +7790,16 @@ class WordSearchCreator(tk.Tk):
             release_blockers = write_release_safety_files(folder, Path(settings["theme"]), data, settings, pages)
             if release_blockers:
                 raise RuntimeError("The package files were created, but the release safety check stopped the handoff:\n" + "\n".join(release_blockers))
+            current_stage = "qa"
             phase("Inspecting the rendered interior, cover, solutions, and package…")
             from publishing.product_qa import inspect_product, write_product_qa_report
-            product_qa = inspect_product(APP_DIR, folder, package_data)
+            product_qa = inspect_product(APP_DIR, folder, {**package_data,'require_puzzle_manifest':True})
             write_product_qa_report(package_file(folder, "PRODUCT_QA.txt", for_write=True), product_qa)
             if product_qa.blockers:
                 raise RuntimeError("Product QA stopped the handoff:\n" + "\n".join(item.message for item in product_qa.blockers))
             if autopilot and autopilot_facts:
                 autopilot.complete("qa", autopilot.stage_fingerprint(autopilot_facts, "qa"), product_qa.status)
+            current_stage = "package"
             phase("Running the final package inspection and syncing Publishing Center…")
             from publishing.production_intelligence import finalize_package
             intelligence = finalize_package(APP_DIR, folder, package_data, settings["title"], settings["subtitle"], pages)
@@ -7536,39 +7812,40 @@ class WordSearchCreator(tk.Tk):
             self.last_output = interior
             self.last_wrap_preview = preview
             source_bytes = Path(settings["theme"]).read_bytes()
-            save_production_history({
-                "title": settings["title"], "theme": Path(settings["theme"]).name,
-                "theme_path": str(Path(settings["theme"]).resolve()),
-                "created": datetime.now().isoformat(timespec="seconds"), "package": str(folder),
-                "approval": "Complete package and local preflight passed",
-                "pages": pages, "source_checksum": hashlib.sha256(source_bytes).hexdigest(),
-                "settings": {key: settings.get(key, "") for key in ("title", "subtitle", "author", "palette", "style", "badge", "difficulty", "format_label", "art", "art_focus", "signature_edition")},
-                "marketplaces": {"Amazon KDP": "Ready to prepare", "Etsy": "Not prepared", "Direct/other": "Not prepared"},
-            })
-            record_package_created(Path(settings["theme"]), settings["title"], folder, pages)
-            record_launch_batch_package(settings["title"], folder)
-            # Publishing Manager is the production record.  Register the new
-            # package immediately so it is ready for KDP preparation as soon
-            # as the user returns to the dashboard.
             payhip_note = ""
-            try:
-                from publishing import PublishingService
-                publishing_service = PublishingService(APP_DIR)
-                book_id = publishing_service.sync_theme(Path(settings["theme"]), folder)
-                publishing_service.db.set_approval_status(book_id, "Completed", "Complete package and proof checks passed.")
-                # A completed book already has the verified interior and front
-                # cover that Payhip needs.  Build its local customer-download
-                # handoff now, rather than making the publisher remember a
-                # second preparation step in Publishing Center.
-                payhip_folder, payhip_issues = publishing_service.prepare(book_id, "payhip")
-                if payhip_issues:
-                    payhip_note = " KDP package is ready; Payhip preparation needs attention in Publishing Center."
-                else:
-                    payhip_note = " Payhip upload files and publishing sheet are included."
-                if autopilot and autopilot_facts:
-                    autopilot.complete("register", autopilot.stage_fingerprint(autopilot_facts, "register"), "Finished package was registered in Publishing Center and its Payhip handoff was prepared.")
-            except Exception as sync_exc:
-                log_plain_error("Publishing catalog sync", settings["title"], sync_exc, "The book package is safe. Open Publishing Manager and choose Sync catalog.")
+            if sync_catalog:
+                save_production_history({
+                    "title": settings["title"], "theme": Path(settings["theme"]).name,
+                    "theme_path": str(Path(settings["theme"]).resolve()),
+                    "created": datetime.now().isoformat(timespec="seconds"), "package": str(folder),
+                    "approval": "Complete package and local preflight passed",
+                    "pages": pages, "source_checksum": hashlib.sha256(source_bytes).hexdigest(),
+                    "settings": {key: settings.get(key, "") for key in ("title", "subtitle", "author", "palette", "style", "badge", "difficulty", "format_label", "art", "art_focus", "signature_edition")},
+                    "marketplaces": {"Amazon KDP": "Ready to prepare", "Etsy": "Not prepared", "Direct/other": "Not prepared"},
+                })
+                record_package_created(Path(settings["theme"]), settings["title"], folder, pages)
+                record_launch_batch_package(settings["title"], folder)
+                # Publishing Manager is the production record.  Register the new
+                # package immediately so it is ready for KDP preparation as soon
+                # as the user returns to the dashboard.
+                try:
+                    from publishing import PublishingService
+                    publishing_service = PublishingService(APP_DIR)
+                    book_id = publishing_service.sync_theme(Path(settings["theme"]), folder)
+                    publishing_service.db.set_approval_status(book_id, "Completed", "Complete package and proof checks passed.")
+                    # A completed book already has the verified interior and front
+                    # cover that Payhip needs.  Build its local customer-download
+                    # handoff now, rather than making the publisher remember a
+                    # second preparation step in Publishing Center.
+                    payhip_folder, payhip_issues = publishing_service.prepare(book_id, "payhip")
+                    if payhip_issues:
+                        payhip_note = " KDP package is ready; Payhip preparation needs attention in Publishing Center."
+                    else:
+                        payhip_note = " Payhip upload files and publishing sheet are included."
+                    if autopilot and autopilot_facts:
+                        autopilot.complete("register", autopilot.stage_fingerprint(autopilot_facts, "register"), "Finished package was registered in Publishing Center and its Payhip handoff was prepared.")
+                except Exception as sync_exc:
+                    log_plain_error("Publishing catalog sync", settings["title"], sync_exc, "The book package is safe. Open Publishing Manager and choose Sync catalog.")
             if settings.get("art"):
                 record_cover_art_use(Path(settings["art"]), settings["title"], settings["theme"])
             if job_queue:
@@ -7587,11 +7864,12 @@ class WordSearchCreator(tk.Tk):
                 job_queue.release(job_id, "needs_attention")
             if autopilot:
                 autopilot.fail(locals().get("current_stage", "generate"), str(exc), human_review=any(term in str(exc).casefold() for term in ("author", "insufficient", "protected", "trademark", "no-repeat", "rights")))
-            try:
-                from publishing import PublishingService
-                PublishingService(APP_DIR).db.set_approval_status_for_source(str(Path(settings.get("theme") or "").resolve()), "Needs attention", str(exc)[:300])
-            except Exception:
-                pass
+            if sync_catalog:
+                try:
+                    from publishing import PublishingService
+                    PublishingService(APP_DIR).db.set_approval_status_for_source(str(Path(settings.get("theme") or "").resolve()), "Needs attention", str(exc)[:300])
+                except Exception:
+                    pass
             log_plain_error("Complete package", settings.get("title", ""), exc, "Open Error Log for the details, then use Check Book before trying again.")
             self.after(0, self._studio_package_finished, False, None, str(exc))
 
@@ -8002,8 +8280,9 @@ class WordSearchCreator(tk.Tk):
         BookBlueprintDialog(self)
 
     def _open_create_new_book(self) -> None:
-        """Open the one normal creation path; detailed creators stay intact."""
-        CreateNewBookDialog(self)
+        """Open the family creation route; detailed creators remain available."""
+        from publishing.family_studio import FamilyBookDialog
+        FamilyBookDialog(self)
 
     def _open_guided_book_builder(self) -> None:
         GuidedBookBuilderDialog(self)
@@ -8037,6 +8316,10 @@ class WordSearchCreator(tk.Tk):
         from puzzle_book_studio import PuzzleBookStudio
         PuzzleBookStudio(self, initial_kind=initial_kind, initial_theme=initial_theme, initial_format=initial_format)
 
+    def _open_activity_packs(self) -> None:
+        from publishing.activity_pack_ui import ActivityPackDialog
+        ActivityPackDialog(self)
+
     def _open_cover_choices(self) -> None:
         CoverChoicesDialog(self)
 
@@ -8055,26 +8338,39 @@ class BackgroundGeneratorDialog(tk.Toplevel):
 
     def __init__(self, parent, *, topic: str, palette: str) -> None:
         super().__init__(parent); self.parent_app = parent
-        self.title("Approved cover backgrounds"); self.geometry("720x490"); self.minsize(610, 410)
+        self.title("Approved cover backgrounds"); self.geometry("720x650"); self.minsize(610, 570)
         self.configure(background="#1f1f1f"); self.transient(parent)
         self.topic = tk.StringVar(value=topic); self.palette = tk.StringVar(value=palette or "nature")
         self.quantity = tk.StringVar(value="1"); self.note = tk.StringVar()
+        self.image_provider = tk.StringVar(value="Cloudflare Workers AI")
+        self.adult_topic = tk.BooleanVar(value=bool(re.search(r"adult|naughty|swear|after.hours",topic,re.I)))
+        self.paid_image_permission = tk.BooleanVar(value=False)
+        from queue import Queue
+        self._image_results = Queue(); self._image_busy = False; self._image_poll_job = None
+        self.bind('<Destroy>',self._cancel_image_poll,add='+')
         root = ttk.Frame(self, padding=20, style="App.TFrame"); root.pack(fill="both", expand=True); root.columnconfigure(1, weight=1)
         ttk.Label(root, text="Approved cover backgrounds", font=("Segoe UI", 16, "bold")).grid(row=0, column=0, columnspan=2, sticky="w")
         ttk.Label(root, text="Automatic production covers only use art made for this project and recorded in the approved library. Existing approved art is matched first; generate only when you need more variety.", wraplength=650, foreground="#9fcfc4").grid(row=1, column=0, columnspan=2, sticky="w", pady=(4, 14))
         ttk.Label(root, text="Topic").grid(row=2, column=0, sticky="w", pady=6); ttk.Entry(root, textvariable=self.topic).grid(row=2, column=1, sticky="ew", pady=6)
         ttk.Label(root, text="Color direction").grid(row=3, column=0, sticky="w", pady=6); ttk.Entry(root, textvariable=self.palette).grid(row=3, column=1, sticky="ew", pady=6)
         ttk.Label(root, text="How many concepts").grid(row=4, column=0, sticky="w", pady=6); ttk.Combobox(root, textvariable=self.quantity, values=("1", "2", "3"), state="readonly").grid(row=4, column=1, sticky="w", pady=6)
+        ttk.Label(root,text="Image provider").grid(row=5,column=0,sticky='w',pady=6)
+        ttk.Combobox(root,textvariable=self.image_provider,values=("Cloudflare Workers AI","Gemini images"),state='readonly').grid(row=5,column=1,sticky='ew',pady=6)
+        ttk.Checkbutton(root,text="Adults-only theme; tasteful, non-explicit artwork",variable=self.adult_topic).grid(row=6,column=0,columnspan=2,sticky='w')
+        ttk.Checkbutton(root,text="Allow billable Gemini requests from this open window (uses saved Gemini key)",variable=self.paid_image_permission).grid(row=7,column=0,columnspan=2,sticky='w',pady=4)
         self.status_box = ScrolledText(root, height=10, wrap="word", state="disabled", background="#292929", foreground="#d9f5ee", relief="flat", padx=10, pady=8)
-        self.status_box.grid(row=5, column=0, columnspan=2, sticky="nsew", pady=(12, 0)); root.rowconfigure(5, weight=1)
-        buttons = ttk.Frame(root, style="App.TFrame"); buttons.grid(row=6, column=0, columnspan=2, sticky="ew", pady=(12, 0))
-        ttk.Button(buttons, text="Show matching approved art", command=self.refresh, style="Action.TButton").pack(side="left")
-        ttk.Button(buttons, text="Queue new concepts", command=self.queue, style="Action.TButton").pack(side="left", padx=7)
-        ttk.Button(buttons, text="Generate next queued concept", command=self.generate, style="Primary.TButton").pack(side="left")
-        ttk.Button(buttons, text="Open pending", command=self.open_pending, style="Action.TButton").pack(side="left", padx=7)
-        ttk.Button(buttons, text="Approve", command=lambda: self.review_pending("approved"), style="Action.TButton").pack(side="left")
-        ttk.Button(buttons, text="Reject", command=lambda: self.review_pending("rejected"), style="Action.TButton").pack(side="left", padx=7)
-        ttk.Button(buttons, text="Close", command=self.destroy, style="Action.TButton").pack(side="right")
+        self.status_box.grid(row=8, column=0, columnspan=2, sticky="nsew", pady=(12, 0)); root.rowconfigure(8, weight=1)
+        buttons = ttk.Frame(root, style="App.TFrame"); buttons.grid(row=9, column=0, columnspan=2, sticky="ew", pady=(12, 0))
+        buttons.columnconfigure((0, 1, 2), weight=1)
+        routes = (
+            ("Show approved art", self.refresh), ("Queue new concepts", self.queue),
+            ("Generate next concept", self.generate), ("Open pending image", self.open_pending),
+            ("Approve image", lambda: self.review_pending("approved")),
+            ("Reject image", lambda: self.review_pending("rejected")),
+        )
+        for index, (label, command) in enumerate(routes):
+            ttk.Button(buttons, text=label, command=command, style="Action.TButton").grid(row=index//3, column=index%3, sticky="ew", padx=3, pady=4)
+        ttk.Button(root, text="Close", command=self.destroy).grid(row=10, column=1, sticky="e", pady=(8, 0))
         self.refresh()
 
     def _show(self, text: str) -> None:
@@ -8114,22 +8410,45 @@ class BackgroundGeneratorDialog(tk.Toplevel):
 
     def queue(self) -> None:
         from background_generation.service import BackgroundGenerationService
-        jobs = BackgroundGenerationService().enqueue(topic=self.topic.get().strip() or "general puzzle books", palette=self.palette.get().strip(), quantity=int(self.quantity.get()))
-        self._show(f"Queued {len(jobs)} original background concept(s). They will stay paused safely until the optional Cloudflare connection is configured.\n\nUse Generate next queued concept when you are ready.")
+        jobs = self._generation_service().enqueue(adult=bool(self.adult_topic.get()), topic=self.topic.get().strip() or "general puzzle books", palette=self.palette.get().strip(), quantity=int(self.quantity.get()))
+        self._show(f"Queued {len(jobs)} original background concept(s). They use {self.image_provider.get()}; no generation or approval occurs just by queueing.\n\nUse Generate next queued concept when you are ready.")
+
+    def _generation_service(self):
+        from background_generation.service import BackgroundGenerationService
+        from background_generation.providers import GeminiImageProvider
+        if self.image_provider.get() == 'Gemini images':
+            return BackgroundGenerationService(provider=GeminiImageProvider(allow_paid=bool(self.paid_image_permission.get())))
+        return BackgroundGenerationService()
+
+    def _cancel_image_poll(self,event):
+        if event.widget is self and self._image_poll_job:
+            self.after_cancel(self._image_poll_job); self._image_poll_job=None
 
     def generate(self) -> None:
-        from background_generation.service import BackgroundGenerationService
+        if self._image_busy: return
+        from background_generation.service import GenerationResult
+        service=self._generation_service(); results=self._image_results
+        self._image_busy=True
         self._show("Generating and validating the next queued concept…")
         def work():
-            result = BackgroundGenerationService().process_next()
-            def done():
-                self.refresh()
-                if result.status == "AWAITING_REVIEW":
-                    self.parent_app.status.set("A new background is awaiting your approval before production can use it.")
-                elif result.status == "PAUSED":
-                    messagebox.showinfo("Background generation paused", result.message + "\n\nYou can connect it in Marketplace connections when ready.", parent=self)
-            self.after(0, done)
-        threading.Thread(target=work, daemon=True).start()
+            try: result=service.process_next()
+            except Exception as exc: result=GenerationResult('PAUSED','Local cover validation could not finish ('+type(exc).__name__+'). No artwork was approved.')
+            results.put(result)
+        threading.Thread(target=work,daemon=True).start()
+        self._image_poll_job=self.after(50,self._poll_image_generation)
+
+    def _poll_image_generation(self):
+        from queue import Empty
+        self._image_poll_job=None
+        try: result=self._image_results.get_nowait()
+        except Empty:
+            self._image_poll_job=self.after(50,self._poll_image_generation);return
+        self._image_busy=False
+        self.refresh()
+        if result.status=='AWAITING_REVIEW':
+            self.parent_app.status.set('A new background is awaiting your approval before production can use it.')
+        elif result.status=='PAUSED':
+            messagebox.showinfo('Background generation paused',result.message+'\n\nCheck the chosen provider and Connections settings.',parent=self)
 
 
 class CoverChoicesDialog(tk.Toplevel):

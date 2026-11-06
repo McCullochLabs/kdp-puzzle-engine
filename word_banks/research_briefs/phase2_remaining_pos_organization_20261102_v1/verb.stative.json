@@ -1,0 +1,24 @@
+{
+  "schema_version": 1,
+  "research_status": "REVIEW_REQUIRED_NOT_APPROVED",
+  "group": "verb.stative",
+  "records": [
+    {
+      "normalized": "GOTO",
+      "status": "pending_context_and_editorial_review",
+      "candidate_categories": [
+        "verb.stative"
+      ],
+      "source_senses": [
+        {
+          "lemma": "go_to",
+          "synset": "verb:02612762",
+          "part_of_speech": "verb",
+          "lexical_category": "verb.stative",
+          "definition": "be present at (meetings, church services, university), etc.; \"She attends class regularly\"; \"I rarely attend services at my church\"; \"did you go to the meeting?\"",
+          "match_type": "exact_normalized_source_lemma"
+        }
+      ]
+    }
+  ]
+}

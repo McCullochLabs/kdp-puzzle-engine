@@ -1,0 +1,28 @@
+{
+  "new_review_candidates": 20,
+  "niche_groups": 17,
+  "review_flag_counts": {
+    "editorial_and_parent_topic_review_required": 20,
+    "alternate_part_of_speech_requires_context": 14,
+    "multiple_noun_senses_same_niche": 2
+  },
+  "held_reason_counts": {
+    "format_or_length": 440,
+    "named_sensitive_or_dated_sense": 1461,
+    "no_exact_noun_reference": 4603,
+    "noun_senses_do_not_converge": 974,
+    "existing_semantic_hold": 11,
+    "existing_gate": 12
+  },
+  "source_preservation_verified": true,
+  "protected_sha256": {
+    "word_banks\\word_intelligence\\word_store.json": "9e350e4cd65a7968591302f658acb704ca87cd23491a033ffb4623189924b6d8",
+    "word_banks\\Guided_Builder_Master_Word_Bank.json": "111d3fcead5a3479bb2efec505d2d0c5a8fbec4a9e58f60349c677390b394b73",
+    "data\\content_approval_decisions.json": "aa0918a95a578b775406d480e872f271f9f567a765618e511c8156c11cea5a2d"
+  },
+  "approval_changes": 0,
+  "limitations": [
+    "All noun senses converge on an existing niche, but alternate parts of speech, familiarity, modern usage and parent topic still require review.",
+    "Excludes prior campaigns and the 33 v4 proposals; not an approval or a verified book-capacity claim."
+  ]
+}

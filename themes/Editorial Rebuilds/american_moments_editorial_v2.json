@@ -1,0 +1,1038 @@
+{
+  "title": "American Moments Word Search",
+  "subtitle": "50 large-print puzzles about United States history, civics and daily life",
+  "author": "Jordan M. Slade",
+  "series": "American Moments",
+  "detected_topic": "American History",
+  "difficulty_label": "Standard",
+  "palette": "usa",
+  "recommended_palette": "usa",
+  "cover_style": "bold",
+  "recommended_cover_style": "bold",
+  "no_repeat_words": true,
+  "cover_imprint": "Slade Puzzle Co.",
+  "cover_badge": "50 LARGE-PRINT PUZZLES • NO REPEATED WORDS",
+  "puzzles": [
+    {
+      "name": "Ancestral Puebloans",
+      "words": [
+        "CLIFF DWELLINGS",
+        "MESA VERDE",
+        "KIVA",
+        "PUEBLO",
+        "CANYON DE CHELLY",
+        "MAIZE",
+        "POTTERY",
+        "SOUTHWEST",
+        "TURQUOISE",
+        "PETROGLYPH",
+        "ARIZONA",
+        "SIPAPU"
+      ],
+      "mini_theme": "Ancestral Puebloans",
+      "page_title_verified": true,
+      "page_title_basis": "editorial_review"
+    },
+    {
+      "name": "Northeastern Woodlands",
+      "words": [
+        "IROQUOIS",
+        "LONGHOUSE",
+        "WAMPUM",
+        "LACROSSE",
+        "THREE SISTERS",
+        "HURON",
+        "MOHAWK",
+        "SNOWSHOES",
+        "MAPLE SYRUP",
+        "COUNCIL FIRE",
+        "CANOE",
+        "FOREST"
+      ],
+      "mini_theme": "Northeastern Woodlands",
+      "page_title_verified": true,
+      "page_title_basis": "editorial_review"
+    },
+    {
+      "name": "Plains and Horse Culture",
+      "words": [
+        "TEPEE",
+        "BUFFALO",
+        "PLAINS",
+        "HORSE",
+        "TRAVOIS",
+        "FEATHER BONNET",
+        "SIOUX",
+        "COMANCHE",
+        "CHEYENNE",
+        "PEMMICAN",
+        "CAMP CIRCLE",
+        "GRASSLAND"
+      ],
+      "mini_theme": "Plains and Horse Culture",
+      "page_title_verified": true,
+      "page_title_basis": "editorial_review"
+    },
+    {
+      "name": "Pacific Northwest Coast",
+      "words": [
+        "TOTEM POLE",
+        "PLANK HOUSE",
+        "POTLATCH",
+        "SALMON",
+        "HAIDA",
+        "TLINGIT",
+        "CEDAR BARK",
+        "DUGOUT CANOE",
+        "CHINOOK",
+        "MASK",
+        "PACIFIC",
+        "RAVEN"
+      ],
+      "mini_theme": "Pacific Northwest Coast",
+      "page_title_verified": true,
+      "page_title_basis": "editorial_review"
+    },
+    {
+      "name": "Southeastern Mound Builders",
+      "words": [
+        "MISSISSIPPIAN",
+        "CAHOKIA",
+        "EARTHWORK",
+        "TEMPLE MOUND",
+        "CHEROKEE",
+        "CHOCTAW",
+        "CREEK",
+        "COPPER",
+        "CHIEFDANIEL",
+        "PLAZA",
+        "SHELL BEAD",
+        "RIVER VALLEY"
+      ],
+      "mini_theme": "Southeastern Mound Builders",
+      "page_title_verified": true,
+      "page_title_basis": "editorial_review"
+    },
+    {
+      "name": "Arctic and Subarctic Peoples",
+      "words": [
+        "INUIT",
+        "IGLOO",
+        "KAYAK",
+        "PARKA",
+        "HARPOON",
+        "UMIAK",
+        "TUNDRA",
+        "ALEUT",
+        "DOG SLED",
+        "SOAPSTONE",
+        "BLUBBER",
+        "ARCTIC"
+      ],
+      "mini_theme": "Arctic and Subarctic Peoples",
+      "page_title_verified": true,
+      "page_title_basis": "editorial_review"
+    },
+    {
+      "name": "Age of European Exploration",
+      "words": [
+        "CARAVEL",
+        "COMPASS",
+        "ASTROLABE",
+        "GALLEON",
+        "NEW WORLD",
+        "EXPEDITION",
+        "NAVIGATOR",
+        "CARTOGRAPHY",
+        "OCEAN",
+        "SAILOR",
+        "FLAGSHIP",
+        "VOYAGE"
+      ],
+      "mini_theme": "Age of European Exploration",
+      "page_title_verified": true,
+      "page_title_basis": "editorial_review"
+    },
+    {
+      "name": "Early Spanish Conquistadors",
+      "words": [
+        "CONQUISTADOR",
+        "ARMOR",
+        "ST AUGUSTINE",
+        "SANTA FE",
+        "MISSION",
+        "PRESIDIO",
+        "GOLD",
+        "CORONADO",
+        "PONCE DE LEON",
+        "FLORIDA",
+        "NEW SPAIN",
+        "HORSEBACK"
+      ],
+      "mini_theme": "Early Spanish Conquistadors",
+      "page_title_verified": true,
+      "page_title_basis": "editorial_review"
+    },
+    {
+      "name": "Thirteen Colonies",
+      "words": [
+        "MASSACHUSETTS",
+        "VIRGINIA",
+        "PENNSYLVANIA",
+        "GEORGIA",
+        "MARYLAND",
+        "CONNECTICUT",
+        "NEW HAMPSHIRE",
+        "RHODE ISLAND",
+        "DELAWARE",
+        "NEW JERSEY",
+        "NEW YORK",
+        "CAROLINA"
+      ],
+      "mini_theme": "Thirteen Colonies",
+      "page_title_verified": true,
+      "page_title_basis": "editorial_review"
+    },
+    {
+      "name": "Colonial Trades",
+      "words": [
+        "BLACKSMITH",
+        "COOPER",
+        "SILVERSMITH",
+        "CABINETMAKER",
+        "PRINTING",
+        "WEAVING",
+        "TANNERS",
+        "MILLINERY",
+        "GLASSMAKER",
+        "SHIPWRIGHT",
+        "PIONEER",
+        "TRADESMAN"
+      ],
+      "mini_theme": "Colonial Trades",
+      "page_title_verified": true,
+      "page_title_basis": "editorial_review"
+    },
+    {
+      "name": "Road to Revolution",
+      "words": [
+        "STAMP ACT",
+        "BOSTON TEA PARTY",
+        "QUARTERING",
+        "INTOLERABLE",
+        "TAXATION",
+        "REPRESENTATION",
+        "PROTEST",
+        "BOYCOTT",
+        "SONS OF LIBERTY",
+        "PARLIAMENT",
+        "MONARCHY",
+        "SEDITION"
+      ],
+      "mini_theme": "Road to Revolution",
+      "page_title_verified": true,
+      "page_title_basis": "editorial_review"
+    },
+    {
+      "name": "Founding Documents",
+      "words": [
+        "DECLARATION",
+        "INDEPENDENCE",
+        "CONSTITUTION",
+        "ARTICLES",
+        "COMMON SENSE",
+        "FEDERALIST",
+        "RATIFICATION",
+        "AMENDMENT",
+        "GRIEVANCE",
+        "FREEDOM",
+        "SOVEREIGNTY",
+        "REPUBLIC"
+      ],
+      "mini_theme": "Founding Documents",
+      "page_title_verified": true,
+      "page_title_basis": "editorial_review"
+    },
+    {
+      "name": "Continental Congress",
+      "words": [
+        "PHILADELPHIA",
+        "CARPENTERS HALL",
+        "DELEGATE",
+        "RESOLVE",
+        "ASSEMBLY",
+        "SESSION",
+        "PETITION",
+        "COMMITTEE",
+        "STATESMAN",
+        "PRESIDENT",
+        "SECRETARY",
+        "ADJOURN"
+      ],
+      "mini_theme": "Continental Congress",
+      "page_title_verified": true,
+      "page_title_basis": "editorial_review"
+    },
+    {
+      "name": "Revolutionary War",
+      "words": [
+        "MINUTE MEN",
+        "REDCOATS",
+        "PATRIOT",
+        "LOYALIST",
+        "MILITIA",
+        "ENCAMPMENT",
+        "ARTILLERY",
+        "GENERAL",
+        "ALLIANCE",
+        "VICTORY",
+        "SURRENDER",
+        "TREATY"
+      ],
+      "mini_theme": "Revolutionary War",
+      "page_title_verified": true,
+      "page_title_basis": "editorial_review"
+    },
+    {
+      "name": "Historic Battles",
+      "words": [
+        "YORKTOWN",
+        "SARATOGA",
+        "BUNKER HILL",
+        "LEXINGTON",
+        "TRENTON",
+        "PRINCETON",
+        "MONMOUTH",
+        "VALLEY FORGE",
+        "COWPENS",
+        "GUILFORD",
+        "ORISKANY",
+        "CAMDEN"
+      ],
+      "mini_theme": "Historic Battles",
+      "page_title_verified": true,
+      "page_title_basis": "editorial_review"
+    },
+    {
+      "name": "Daily Colonial Life",
+      "words": [
+        "HOMESTEAD",
+        "MEETINGHOUSE",
+        "SPINNING WHEEL",
+        "HEARTH",
+        "TAVERN",
+        "HARVEST",
+        "CHURCH",
+        "SCHOOLHOUSE",
+        "STAGECOACH",
+        "FARMSTEAD",
+        "VILLAGE",
+        "MARKETPLACE"
+      ],
+      "mini_theme": "Daily Colonial Life",
+      "page_title_verified": true,
+      "page_title_basis": "editorial_review"
+    },
+    {
+      "name": "The Judicial System",
+      "words": [
+        "FEDERAL COURTS",
+        "APPELLATE",
+        "DISTRICT JUDGE",
+        "ORAL ARGUMENTS",
+        "CONSTITUTIONALITY",
+        "BRIEFS",
+        "PRECEDENT",
+        "VERDICT",
+        "JURISDICTION",
+        "APPEAL",
+        "JUSTICES",
+        "OPINION"
+      ],
+      "mini_theme": "The Judicial System",
+      "page_title_verified": true,
+      "page_title_basis": "editorial_review"
+    },
+    {
+      "name": "Civic Institutions",
+      "words": [
+        "LIBRARY OF CONGRESS",
+        "SMITHSONIAN",
+        "NATIONAL ARCHIVES",
+        "POST OFFICE",
+        "PUBLIC SCHOOLS",
+        "FEDERAL RESERVE",
+        "CENSUS BUREAU",
+        "NATIONAL PARK SERVICE",
+        "MINT",
+        "TREASURY",
+        "GOVERNMENT PRINTING",
+        "WEATHER SERVICE"
+      ],
+      "mini_theme": "Civic Institutions",
+      "page_title_verified": true,
+      "page_title_basis": "editorial_review"
+    },
+    {
+      "name": "Elections and Voting",
+      "words": [
+        "ELECTORAL COLLEGE",
+        "BALLOT BOX",
+        "PRIMARY ELECTION",
+        "CAMPAIGN TRAIL",
+        "SUFFRAGE",
+        "REGISTRATION",
+        "POLLING PLACE",
+        "DEBATE",
+        "TALLULATION",
+        "TURNOUT",
+        "CITIZENSHIP",
+        "DEMOCRACY"
+      ],
+      "mini_theme": "Elections and Voting",
+      "page_title_verified": true,
+      "page_title_basis": "editorial_review"
+    },
+    {
+      "name": "Federal Agencies",
+      "words": [
+        "FBI",
+        "CIA",
+        "EPA",
+        "NASA",
+        "FDA",
+        "CDC",
+        "SOCIAL SECURITY",
+        "INTERNAL REVENUE",
+        "PATENT OFFICE",
+        "HIGHWAY ADMINISTRATION",
+        "BORDER PATROL",
+        "COAST GUARD"
+      ],
+      "mini_theme": "Federal Agencies",
+      "page_title_verified": true,
+      "page_title_basis": "editorial_review"
+    },
+    {
+      "name": "Historical Amendments",
+      "words": [
+        "ABOLITION",
+        "CITIZENSHIP RIGHTS",
+        "INCOME TAX",
+        "DIRECT ELECTION",
+        "PROHIBITION",
+        "WOMEN SUFFRAGE",
+        "TERM LIMITS",
+        "VOTING AGE",
+        "CIVIL RIGHTS",
+        "RECONSTRUCTION",
+        "TWENTIETH AMENDMENT",
+        "SUCCESSION"
+      ],
+      "mini_theme": "Historical Amendments",
+      "page_title_verified": true,
+      "page_title_basis": "editorial_review"
+    },
+    {
+      "name": "Separation of Powers",
+      "words": [
+        "JUDICIAL",
+        "LEGISLATURE",
+        "WRIT OF MANDAMUS",
+        "SUPREME COURT",
+        "EXECUTIVE",
+        "CABINET",
+        "VETO",
+        "CHECKS AND BALANCES",
+        "BICAMERAL",
+        "NOMINATION",
+        "IMPEACHMENT",
+        "CONGRESS"
+      ],
+      "mini_theme": "Separation of Powers",
+      "page_title_verified": true,
+      "page_title_basis": "editorial_review"
+    },
+    {
+      "name": "Local Government",
+      "words": [
+        "MAYORALTY",
+        "MUNICIPALITY",
+        "COUNTY SEAT",
+        "BOARD OF SUPERVISORS",
+        "SCHOOL BOARD",
+        "ALDERMAN",
+        "TOWN HALL",
+        "CITY COUNCIL",
+        "PUBLIC WORKS",
+        "POLICE CHIEF",
+        "ORDINANCE",
+        "PROPERTY TAX"
+      ],
+      "mini_theme": "Local Government",
+      "page_title_verified": true,
+      "page_title_basis": "editorial_review"
+    },
+    {
+      "name": "Landmarks of Governance",
+      "words": [
+        "CAPITOL BUILDING",
+        "WHITE HOUSE",
+        "SUPREME COURT BUILDING",
+        "MOUNT VERNON",
+        "MONTICELLO",
+        "FEDERAL HALL",
+        "OLD STATE HOUSE",
+        "PENTAGON",
+        "NATIONAL MALL",
+        "LINCOLN MEMORIAL",
+        "WASHINGTON MONUMENT",
+        "LIBRARY"
+      ],
+      "mini_theme": "Landmarks of Governance",
+      "page_title_verified": true,
+      "page_title_basis": "editorial_review"
+    },
+    {
+      "name": "Transcontinental Rail",
+      "words": [
+        "GOLDEN SPIKE",
+        "PROMONTORY SUMMIT",
+        "UNION PACIFIC",
+        "CENTRAL PACIFIC",
+        "TRESTLE BRIDGE",
+        "SLEDGEHAMMER",
+        "IRON HORSE",
+        "LOCOMOTIVE",
+        "SLEEPER CAR",
+        "TELEGRAPH WIRE",
+        "TRACK LAYER",
+        "SPIKE DRIVER"
+      ],
+      "mini_theme": "Transcontinental Rail",
+      "page_title_verified": true,
+      "page_title_basis": "editorial_review"
+    },
+    {
+      "name": "Mining Camps and Booms",
+      "words": [
+        "PLACER MINING",
+        "PANNING",
+        "SLUICE BOX",
+        "GOLD RUSH",
+        "SILVER STRIKE",
+        "CLAIM JUMPER",
+        "GHOST TOWN",
+        "ASSAY OFFICE",
+        "PROSPECTOR",
+        "NUGGET",
+        "BOOMTOWN",
+        "PICKAXE"
+      ],
+      "mini_theme": "Mining Camps and Booms",
+      "page_title_verified": true,
+      "page_title_basis": "editorial_review"
+    },
+    {
+      "name": "Cattle Drives and Trails",
+      "words": [
+        "CHISHOLM TRAIL",
+        "LONGHORN",
+        "CATTLE DRIVE",
+        "TRAIL BOSS",
+        "STAMPEDE",
+        "WRANGLER",
+        "ROUNDUP",
+        "RUSTLER",
+        "BUNKHOUSE",
+        "SADDLE",
+        "SPURS",
+        "COWHAND"
+      ],
+      "mini_theme": "Cattle Drives and Trails",
+      "page_title_verified": true,
+      "page_title_basis": "editorial_review"
+    },
+    {
+      "name": "Canals and Waterways",
+      "words": [
+        "ERIE CANAL",
+        "LOCK SYSTEM",
+        "TOWPATH",
+        "MULE TEAM",
+        "PACKET BOAT",
+        "AQUEDUCT",
+        "BARGE",
+        "STEAMBOAT",
+        "PADDLEWHEEL",
+        "MISSISSIPPI",
+        "FLATBOAT",
+        "PORTAGE"
+      ],
+      "mini_theme": "Canals and Waterways",
+      "page_title_verified": true,
+      "page_title_basis": "editorial_review"
+    },
+    {
+      "name": "Mail and Communication",
+      "words": [
+        "PONY EXPRESS",
+        "STATION MASTER",
+        "RELAY HORSE",
+        "SADDLEBAGS",
+        "TELEGRAPH LINE",
+        "MORSE CODE",
+        "DISPATCH",
+        "COURIER",
+        "LETTER DROP",
+        "MESSAGE",
+        "POSTRIDER",
+        "OPERATOR"
+      ],
+      "mini_theme": "Mail and Communication",
+      "page_title_verified": true,
+      "page_title_basis": "editorial_review"
+    },
+    {
+      "name": "Settlement and Homestead",
+      "words": [
+        "HOMESTEAD ACT",
+        "SOD HOUSE",
+        "LAND PATENT",
+        "PREEMPTION",
+        "FREE LAND",
+        "BOUNDARY STAKE",
+        "WELL DRILLING",
+        "WINDMILL",
+        "FENCING",
+        "BOUNTY LAND",
+        "CLAIM SHANTY",
+        "PLAT MAP"
+      ],
+      "mini_theme": "Settlement and Homestead",
+      "page_title_verified": true,
+      "page_title_basis": "editorial_review"
+    },
+    {
+      "name": "Oregon Trail Journey",
+      "words": [
+        "CONESTOGA WAGON",
+        "INDEPENDENCE MISSOURI",
+        "RIVER CROSSING",
+        "OXEN TEAM",
+        "PRAIRIE SCHOONER",
+        "FORT HALL",
+        "MOUNTAIN MAN",
+        "FUR TRAPPER",
+        "TRAIL GUIDE",
+        "HEAVY RUTS",
+        "CHOLERA OUTBREAK",
+        "CONTINENTAL DIVIDE"
+      ],
+      "mini_theme": "Oregon Trail Journey",
+      "page_title_verified": true,
+      "page_title_basis": "editorial_review"
+    },
+    {
+      "name": "Pony Express and Mail",
+      "words": [
+        "FRESH HORSE",
+        "MAIL POUCH",
+        "STATION KEEPER",
+        "STOUT PONY",
+        "SOLITARY RIDER",
+        "FAST GALLOP",
+        "SACRAMENTO CALIFORNIA",
+        "ST JOSEPH MISSOURI",
+        "TELEGRAPH ERA",
+        "LIGHTNING LINES",
+        "DESERT CROSSING",
+        "BULLET SPEED"
+      ],
+      "mini_theme": "Pony Express and Mail",
+      "page_title_verified": true,
+      "page_title_basis": "editorial_review"
+    },
+    {
+      "name": "Early Stagecoach Lines",
+      "words": [
+        "LEATHER STOCKINGS",
+        "WELLS FARGO",
+        "FOUR HORSE TEAM",
+        "BUMPY RIDE",
+        "DUSTY ROAD",
+        "COACH DRIVER",
+        "MESSENGER BOX",
+        "STRONG BOX",
+        "WAY STATION",
+        "HIGHWAY ROBBER",
+        "EXPRESS MAIL",
+        "HARNESS STRAP"
+      ],
+      "mini_theme": "Early Stagecoach Lines",
+      "page_title_verified": true,
+      "page_title_basis": "editorial_review"
+    },
+    {
+      "name": "Domestic Kitchens",
+      "words": [
+        "CAST IRON",
+        "ICEBOX",
+        "WOOD STOVE",
+        "BUTTER CHURN",
+        "MASON JAR",
+        "WHISKEY JUG",
+        "CERAMIC CROCK",
+        "TIN CUP",
+        "COFFEE GRINDER",
+        "SPICE RACK",
+        "GRAVY BOAT",
+        "SOUP LADLE"
+      ],
+      "mini_theme": "Domestic Kitchens",
+      "page_title_verified": true,
+      "page_title_basis": "editorial_review"
+    },
+    {
+      "name": "Lighting and Power",
+      "words": [
+        "OIL LAMP",
+        "CANDLE HOLDER",
+        "GAS LIGHT",
+        "BULB FILAMENT",
+        "POWER GRID",
+        "HYDROELECTRIC",
+        "STEAM TURBINE",
+        "COPPER WIRE",
+        "CIRCUIT BREAKER",
+        "INSULATOR",
+        "LANTERN",
+        "MATCHSTICK"
+      ],
+      "mini_theme": "Lighting and Power",
+      "page_title_verified": true,
+      "page_title_basis": "editorial_review"
+    },
+    {
+      "name": "Office and Writing",
+      "words": [
+        "INKWELL",
+        "QUILL PEN",
+        "LEAD PENCIL",
+        "BLOTTER",
+        "TYPEWRITER",
+        "CARBON PAPER",
+        "LEDGER BOOK",
+        "FILE CABINET",
+        "PAPERCLIP",
+        "RUBBER STAMP",
+        "DESK LAMP",
+        "SEALING WAX"
+      ],
+      "mini_theme": "Office and Writing",
+      "page_title_verified": true,
+      "page_title_basis": "editorial_review"
+    },
+    {
+      "name": "Measurement and Time",
+      "words": [
+        "SUNDIAL",
+        "GRANDFATHER CLOCK",
+        "HOURGLASS",
+        "POCKET WATCH",
+        "BRASS COMPASS",
+        "BRASS SEXTANT",
+        "TAPE MEASURE",
+        "WOODEN RULER",
+        "BALANCE SCALE",
+        "MERCURY BAROMETER",
+        "THERMOMETER",
+        "WEIGHT STONES"
+      ],
+      "mini_theme": "Measurement and Time",
+      "page_title_verified": true,
+      "page_title_basis": "editorial_review"
+    },
+    {
+      "name": "Recreation and Leisure",
+      "words": [
+        "CROQUET MALLET",
+        "CHECKERBOARD",
+        "PLAYING CARDS",
+        "PARLOR PIANO",
+        "SHEET MUSIC",
+        "STEREOSCOPE",
+        "MAGIC LANTERN",
+        "MARBLES",
+        "SPINNING TOP",
+        "DOLLHOUSE",
+        "KITE FLYING",
+        "SWING SET"
+      ],
+      "mini_theme": "Recreation and Leisure",
+      "page_title_verified": true,
+      "page_title_basis": "editorial_review"
+    },
+    {
+      "name": "Civil War Campaigns and Battles",
+      "words": [
+        "GETTYSBURG",
+        "ANTIETAM",
+        "FORT SUMTER",
+        "BULL RUN",
+        "SHILOH",
+        "VICKSBURG",
+        "APPOMATTOX",
+        "FREDERICKSBURG",
+        "CHANCELLORSVILLE",
+        "CHICKAMAUGA",
+        "COLD HARBOR",
+        "ATLANTA"
+      ],
+      "mini_theme": "Civil War Campaigns and Battles",
+      "page_title_verified": true,
+      "page_title_basis": "editorial_review"
+    },
+    {
+      "name": "Confederacy and Leadership",
+      "words": [
+        "ROBERT E LEE",
+        "STONEWALL JACKSON",
+        "JAMES LONGSTREET",
+        "JEB STUART",
+        "P GT BEAUREGARD",
+        "JEFFERSON DAVIS",
+        "NATHAN BEDFORD FORREST",
+        "JOHN BELL HOOD",
+        "JOSEPH E JOHNSTON",
+        "GEORGE PICKETT",
+        "ALEXANDER STEPHENS",
+        "CAVALRY"
+      ],
+      "mini_theme": "Confederacy and Leadership",
+      "page_title_verified": true,
+      "page_title_basis": "editorial_review"
+    },
+    {
+      "name": "Steel and Rail",
+      "words": [
+        "BESSEMER PROCESS",
+        "STEEL MILL",
+        "RAILROAD TRACK",
+        "IRON ORE",
+        "COAL MINE",
+        "CROSS TIE",
+        "GAUGE",
+        "FURNACE",
+        "TRANSCONTINENTAL",
+        "SPIKE",
+        "SMELTER",
+        "DERRICK"
+      ],
+      "mini_theme": "Steel and Rail",
+      "page_title_verified": true,
+      "page_title_basis": "editorial_review"
+    },
+    {
+      "name": "Garment District",
+      "words": [
+        "SWEATSHOP",
+        "SEWING MACHINE",
+        "TEXTILE",
+        "SPINNING",
+        "PATTERN",
+        "TAILOR",
+        "LOOM",
+        "COTTON GIN",
+        "PIECEWORK",
+        "UNION LABEL",
+        "BUTTON",
+        "FABRIC"
+      ],
+      "mini_theme": "Garment District",
+      "page_title_verified": true,
+      "page_title_basis": "editorial_review"
+    },
+    {
+      "name": "Urban Tenements",
+      "words": [
+        "FIRE ESCAPE",
+        "SETTLEMENT HOUSE",
+        "BOARDINGHOUSE",
+        "WATER PUMP",
+        "OVERCROWDED",
+        "ALLEYWAY",
+        "SANITATION",
+        "COAL STOVE",
+        "NEIGHBORHOOD",
+        "STREETSWEEPER",
+        "REFORMATORY",
+        "TENEMENT"
+      ],
+      "mini_theme": "Urban Tenements",
+      "page_title_verified": true,
+      "page_title_basis": "editorial_review"
+    },
+    {
+      "name": "New Communities",
+      "words": [
+        "LITTLE ITALY",
+        "CHINATOWN",
+        "LOWER EAST SIDE",
+        "ETHNIC ENCLAVE",
+        "SYNAGOGUE",
+        "PAROCHIAL SCHOOL",
+        "MUTUAL AID",
+        "NEWSPAPER",
+        "BOARDING",
+        "NATURALIZATION",
+        "INTEGRATION",
+        "ASSIMILATION"
+      ],
+      "mini_theme": "New Communities",
+      "page_title_verified": true,
+      "page_title_basis": "editorial_review"
+    },
+    {
+      "name": "Early American Lighting",
+      "words": [
+        "CANDLE DIPPER",
+        "WHALE OIL LAMP",
+        "TALLOW CANDLE",
+        "RUSH LIGHT",
+        "TIN LANTERN",
+        "IRON SKULLERY",
+        "FLAX SEED OIL",
+        "WICK TRIMMER",
+        "LANTERN HORN",
+        "FAT LAMP",
+        "CAMPEN OIL",
+        "PRIMITIVE BULB"
+      ],
+      "mini_theme": "Early American Lighting",
+      "page_title_verified": true,
+      "page_title_basis": "editorial_review"
+    },
+    {
+      "name": "Domestic Laundry History",
+      "words": [
+        "WOODEN WASHBOARD",
+        "COPPER BOILER",
+        "WRINGER WASHER",
+        "CLOTHESLINE",
+        "WOODEN PEG",
+        "LYE SOAP",
+        "FLAT IRON",
+        "LAUNDRY TUB",
+        "BEATER PADDLE",
+        "DRYING RACK",
+        "CLOTHES BASKET",
+        "STARCH BOWL"
+      ],
+      "mini_theme": "Domestic Laundry History",
+      "page_title_verified": true,
+      "page_title_basis": "editorial_review"
+    },
+    {
+      "name": "Print and News Technology",
+      "words": [
+        "HAND PRESS",
+        "MOVABLE TYPE",
+        "LINOTYPE MACHINE",
+        "GALLEY TRAY",
+        "PRINTING INK",
+        "ROTARY PRESS",
+        "COMPOSING STICK",
+        "NEWSBOY BAG",
+        "PAPER ROLL",
+        "WOODEN TYPE",
+        "PROOF SHEET",
+        "STEREOTYPE PLATE"
+      ],
+      "mini_theme": "Print and News Technology",
+      "page_title_verified": true,
+      "page_title_basis": "editorial_review"
+    },
+    {
+      "name": "Ellis Island Arrivals",
+      "words": [
+        "STEAMSHIP",
+        "MANIFEST",
+        "INSPECTION",
+        "QUARANTINE",
+        "TRANSIT",
+        "CUSTOMS",
+        "PASSPORT",
+        "STEERAGE",
+        "EXAMINATION",
+        "DETENTION",
+        "ARRIVAL",
+        "FORMALITIES"
+      ],
+      "mini_theme": "Ellis Island Arrivals",
+      "page_title_verified": true,
+      "page_title_basis": "editorial_review"
+    },
+    {
+      "name": "Family Farmstead Harvest",
+      "words": [
+        "BARN RAISING",
+        "HORSE DRAWN PLOW",
+        "SILO STORAGE",
+        "HEIRLOOM SEEDS",
+        "CROP ROTATION",
+        "COUNTRY MEADOW",
+        "GRANARY FLOOR",
+        "ORCHARD PICKING",
+        "LIVESTOCK PEN",
+        "RURAL TRADITION",
+        "AUTUMN REAP",
+        "HOMESTEAD ACRES"
+      ],
+      "mini_theme": "Family Farmstead Harvest",
+      "page_title_verified": true,
+      "page_title_basis": "editorial_review"
+    },
+    {
+      "name": "Suburban Community Growth",
+      "words": [
+        "CUL DE SAC",
+        "WHITE PICKET FENCE",
+        "COMMUNITY PARK",
+        "NEIGHBORHOOD STROLL",
+        "MAIN STREET SHOPS",
+        "LOCAL POST OFFICE",
+        "SCHOOL CROSSING",
+        "WELCOME WAGON",
+        "TOWN SQUARE",
+        "SIDEWALK CHALK",
+        "FRONT PORCH SWING",
+        "LIBRARY CORNER"
+      ],
+      "mini_theme": "Suburban Community Growth",
+      "page_title_verified": true,
+      "page_title_basis": "editorial_review"
+    }
+  ],
+  "source_word_bank": {
+    "name": "Editorial Word Search Rebuild v2",
+    "topics": [
+      "American History"
+    ],
+    "selection_policy": "Page-grouped provider proposals; locally screened for exact capacity, normalized uniqueness, length, protected names, and page coherence",
+    "candidate_sha256": "348d5865c32d6ae541872f81483d6394c927d8d4f5a2791e1d96066f1fc622ae"
+  },
+  "quality_review": {
+    "production_ready": true,
+    "verdict": "PASS",
+    "checked_at": "2026-09-19T18:52:18",
+    "source": "assistant-assisted editorial rebuild",
+    "checks": [
+      "exact capacity",
+      "no repeated normalized entries",
+      "3–21 normalized letters",
+      "protected/rejected-term screen",
+      "coherent reviewed page titles"
+    ]
+  }
+}

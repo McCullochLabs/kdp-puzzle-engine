@@ -1,0 +1,360 @@
+{
+  "schema_version": 1,
+  "research_status": "REVIEW_REQUIRED_NOT_APPROVED",
+  "lexical_review_group": "noun.attribute",
+  "records": [
+    {
+      "normalized": "ALTRUISM",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "altruism",
+          "synset": "n:04833276",
+          "lexical_category": "noun.attribute",
+          "definition": "the quality of unselfish concern for the welfare of others"
+        }
+      ],
+      "candidate_categories": [
+        "noun.attribute"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    },
+    {
+      "normalized": "ARROGANCE",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "arrogance",
+          "synset": "n:04887912",
+          "lexical_category": "noun.attribute",
+          "definition": "overbearing pride evidenced by a superior manner toward inferiors"
+        }
+      ],
+      "candidate_categories": [
+        "noun.attribute"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    },
+    {
+      "normalized": "AUTHENTICITY",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "authenticity",
+          "synset": "n:04783247",
+          "lexical_category": "noun.attribute",
+          "definition": "undisputed credibility"
+        }
+      ],
+      "candidate_categories": [
+        "noun.attribute"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    },
+    {
+      "normalized": "BAD",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "bad",
+          "synset": "n:05144079",
+          "lexical_category": "noun.attribute",
+          "definition": "that which is below standard or expectations as of ethics or decency; \"take the bad with the good\""
+        }
+      ],
+      "candidate_categories": [
+        "noun.attribute"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    },
+    {
+      "normalized": "BODYWEIGHT",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "body_weight",
+          "synset": "n:05027135",
+          "lexical_category": "noun.attribute",
+          "definition": "the weight of a person's body"
+        }
+      ],
+      "candidate_categories": [
+        "noun.attribute"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    },
+    {
+      "normalized": "COWARDICE",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "cowardice",
+          "synset": "n:04860065",
+          "lexical_category": "noun.attribute",
+          "definition": "the trait of lacking courage"
+        }
+      ],
+      "candidate_categories": [
+        "noun.attribute"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    },
+    {
+      "normalized": "CRESCENDO",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "crescendo",
+          "synset": "n:04990525",
+          "lexical_category": "noun.attribute",
+          "definition": "(music) a gradual increase in loudness"
+        }
+      ],
+      "candidate_categories": [
+        "noun.attribute"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    },
+    {
+      "normalized": "DAMN",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "damn",
+          "synset": "n:05140793",
+          "lexical_category": "noun.attribute",
+          "definition": "something of little value; \"his promise is not worth a damn\"; \"not worth one red cent\"; \"not worth shucks\""
+        }
+      ],
+      "candidate_categories": [
+        "noun.attribute"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    },
+    {
+      "normalized": "EYESORE",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "eyesore",
+          "synset": "n:04693717",
+          "lexical_category": "noun.attribute",
+          "definition": "something very ugly and offensive"
+        }
+      ],
+      "candidate_categories": [
+        "noun.attribute"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    },
+    {
+      "normalized": "ENTROPY",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "entropy",
+          "synset": "n:05012585",
+          "lexical_category": "noun.attribute",
+          "definition": "(thermodynamics) a thermodynamic quantity representing the amount of energy in a system that is no longer available for doing mechanical work; \"entropy increases as matter and energy in the universe degrade to an ultimate state of inert uniformity\""
+        },
+        {
+          "lemma": "entropy",
+          "synset": "n:05091527",
+          "lexical_category": "noun.attribute",
+          "definition": "(communication theory) a numerical measure of the uncertainty of an outcome; \"the signal contained thousands of bits of information\""
+        }
+      ],
+      "candidate_categories": [
+        "noun.attribute"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    },
+    {
+      "normalized": "FORTITUDE",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "fortitude",
+          "synset": "n:05032193",
+          "lexical_category": "noun.attribute",
+          "definition": "strength of mind that enables one to endure adversity with courage"
+        }
+      ],
+      "candidate_categories": [
+        "noun.attribute"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    },
+    {
+      "normalized": "HOMOGENEITY",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "homogeneity",
+          "synset": "n:04745679",
+          "lexical_category": "noun.attribute",
+          "definition": "the quality of being similar or comparable in kind or nature; \"there is a remarkable homogeneity between the two companies\""
+        },
+        {
+          "lemma": "homogeneity",
+          "synset": "n:04769234",
+          "lexical_category": "noun.attribute",
+          "definition": "the quality of being of uniform throughout in composition or structure"
+        }
+      ],
+      "candidate_categories": [
+        "noun.attribute"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    },
+    {
+      "normalized": "PIETY",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "piety",
+          "synset": "n:04826771",
+          "lexical_category": "noun.attribute",
+          "definition": "righteousness by virtue of being pious"
+        }
+      ],
+      "candidate_categories": [
+        "noun.attribute"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    },
+    {
+      "normalized": "PROBABILITY",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "probability",
+          "synset": "n:04756172",
+          "lexical_category": "noun.attribute",
+          "definition": "the quality of being probable; a probable event or the most probable event; \"for a while mutiny seemed a probability\"; \"going by past experience there was a high probability that the visitors were lost\""
+        },
+        {
+          "lemma": "probability",
+          "synset": "n:05091770",
+          "lexical_category": "noun.attribute",
+          "definition": "a measure of how likely it is that some event will occur; a number expressing the ratio of favorable cases to the whole number of cases possible; \"the probability that an unbiased coin will fall with the head up is 0.5\""
+        }
+      ],
+      "candidate_categories": [
+        "noun.attribute"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    },
+    {
+      "normalized": "SINGULARITY",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "singularity",
+          "synset": "n:04763650",
+          "lexical_category": "noun.attribute",
+          "definition": "the quality of being one of a kind; \"that singularity distinguished him from all his companions\""
+        },
+        {
+          "lemma": "singularity",
+          "synset": "n:04798365",
+          "lexical_category": "noun.attribute",
+          "definition": "strangeness by virtue of being remarkable or unusual"
+        }
+      ],
+      "candidate_categories": [
+        "noun.attribute"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    },
+    {
+      "normalized": "SPLENDOR",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "splendor",
+          "synset": "n:04814238",
+          "lexical_category": "noun.attribute",
+          "definition": "the quality of being magnificent or splendid or grand; \"for magnificence and personal service there is the Queen's hotel\"; \"his `Hamlet' lacks the brilliance that one expects\"; \"it is the university that gives the scene its stately splendor\"; \"an imaginative mix of old-fashioned grandeur and colorful art\"; \"advertisers capitalize on the grandness and elegance it brings to their products\""
+        },
+        {
+          "lemma": "splendor",
+          "synset": "n:04954920",
+          "lexical_category": "noun.attribute",
+          "definition": "a quality that outshines the usual"
+        }
+      ],
+      "candidate_categories": [
+        "noun.attribute"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    },
+    {
+      "normalized": "TIMBRE",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "timbre",
+          "synset": "n:04987620",
+          "lexical_category": "noun.attribute",
+          "definition": "(music) the distinctive property of a complex sound (a voice or noise or musical sound); \"the timbre of her soprano was rich and lovely\"; \"the muffled tones of the broken bell summoned them to meet\""
+        }
+      ],
+      "candidate_categories": [
+        "noun.attribute"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    }
+  ]
+}

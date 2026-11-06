@@ -1,0 +1,77 @@
+[
+  {
+    "display": "Chartreuse Swizzle",
+    "reason": "protected product/liqueur brand",
+    "source": "https://iba-world.com/iba-cocktail/chartreuse-swizzle/"
+  },
+  {
+    "display": "Corpse Reviver #2",
+    "reason": "official numeric identity incompatible with A-Z-only target",
+    "source": "https://iba-world.com/iba-cocktail/corpse-reviver-2/"
+  },
+  {
+    "display": "Dark ‘N’ Stormy",
+    "reason": "protected cocktail name",
+    "source": "https://iba-world.com/iba-cocktail/dark-n-stormy/"
+  },
+  {
+    "display": "Don's Special Daiquiri",
+    "reason": "eponym association held",
+    "source": "https://iba-world.com/iba-cocktail/dons-special-daiquiri/"
+  },
+  {
+    "display": "French 75",
+    "reason": "official numeric identity incompatible with A-Z-only target",
+    "source": "https://iba-world.com/iba-cocktail/french-75/"
+  },
+  {
+    "display": "Grand Margarita",
+    "reason": "potential brand association needs review",
+    "source": "https://iba-world.com/iba-cocktail/grand-margarita/"
+  },
+  {
+    "display": "Hemingway Special",
+    "reason": "celebrity name",
+    "source": "https://iba-world.com/iba-cocktail/hemingway-special/"
+  },
+  {
+    "display": "IBA Tiki",
+    "reason": "organization acronym/protected identity",
+    "source": "https://iba-world.com/iba-cocktail/iba-tiki/"
+  },
+  {
+    "display": "Mary Pickford",
+    "reason": "celebrity name",
+    "source": "https://iba-world.com/iba-cocktail/mary-pickford/"
+  },
+  {
+    "display": "Missionary's Downfall",
+    "reason": "defer sensitivity review",
+    "source": "https://iba-world.com/iba-cocktail/missionarys-downfall/"
+  },
+  {
+    "display": "Porn Star Martini",
+    "reason": "defer marketplace wording review",
+    "source": "https://iba-world.com/iba-cocktail/porn-star-martini/"
+  },
+  {
+    "display": "Sex on the Beach",
+    "reason": "defer marketplace wording review",
+    "source": "https://iba-world.com/iba-cocktail/sex-on-the-beach/"
+  },
+  {
+    "display": "Tommy's Margarita",
+    "reason": "named establishment association held",
+    "source": "https://iba-world.com/iba-cocktail/tommys-margarita/"
+  },
+  {
+    "display": "Ve.N.To",
+    "reason": "punctuation-dependent identity held",
+    "source": "https://iba-world.com/iba-cocktail/ve-n-to/"
+  },
+  {
+    "display": "International Pale Lager",
+    "reason": "outside 3..21 normalized A-Z letters",
+    "source": "https://www.bjcp.org/beer-styles/beer-style-guidelines/"
+  }
+]

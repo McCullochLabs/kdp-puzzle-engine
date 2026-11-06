@@ -162,6 +162,14 @@ REGISTRY = PuzzleTypeRegistry((
         difficulty_support=("easy", "standard", "challenging"), mixed_book_compatible=False,
         human_review_requirements=("all included component formats must pass",),
         known_limitations=("Capacity is evaluated by the selected component formats, not as one interchangeable word pool.")),
+    PuzzleTypeCapability("word_search_sudoku", "Word Search + Sudoku", "mixed", "production_ready",
+        aliases=("holiday word search and sudoku",), generator_service="holiday_combo.build",
+        validator_service="holiday_combo.load_source", solution_service="holiday_combo.render_interior",
+        content_requirements=("reviewed_holiday_word_sets", "algorithmic_sudoku_grid"),
+        content_record_types=("word", "phrase"), difficulty_support=("easy", "standard", "challenging"),
+        mixed_book_compatible=False, readiness_planning_supported=False,
+        human_review_requirements=("holiday topic fit", "Sudoku uniqueness", "final print review"),
+        known_limitations=("The dedicated holiday recipe is not a general mix-and-match book builder.",)),
     PuzzleTypeCapability("crossword", "Crossword", "word_logic", "planned",
         content_requirements=("answers", "clues", "grid"), content_record_types=("word", "phrase"),
         known_limitations=("No generator, clue validator, or deterministic solver is registered yet.")),
@@ -204,4 +212,3 @@ def require_puzzle_type(value: object) -> PuzzleTypeCapability:
 
 def registered_puzzle_types(*, include_nonproduction: bool = True) -> tuple[PuzzleTypeCapability, ...]:
     return REGISTRY.all(include_nonproduction=include_nonproduction)
-

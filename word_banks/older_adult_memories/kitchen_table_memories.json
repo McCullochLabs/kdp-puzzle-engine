@@ -1,0 +1,172 @@
+{
+  "book_id": "kitchen_table_memories",
+  "title": "Kitchen Table Memories",
+  "subtitle": "80 Large Print Word Searches Celebrating Home Cooking, Gardens, Handwork, and Family Gatherings",
+  "topic": "Home Cooking, Gardens and Handwork",
+  "difficulty": "Easy",
+  "difficulty_label": "Easy",
+  "welcome": "A kitchen table can hold a meal, a basket of mending, or a conversation that wanders pleasantly. These puzzles explore the small details of home life without assuming your home looked like anyone else's.\n\nChoose a familiar corner or discover something new. Each puzzle offers twelve words and an optional question. You may write, reflect, share a thought, or simply enjoy the search.",
+  "closing": "Perhaps a recipe, a growing plant, or a piece of handwork caught your attention. You do not need to remember a particular home to enjoy these everyday details. Thank you for bringing your own experience and imagination to this collection.",
+  "sections": [
+    {
+      "title": "Sunday Dinner",
+      "introduction": "Set a place at an imagined table. These puzzles move from preparing a meal to serving vegetables, carving a roast, and enjoying a little dessert. Your own favorite dinner may look entirely different.",
+      "reflection": "Plan a comfortable dinner for two people. What would you serve, and what could wait until another day?",
+      "closing_reflection": "Describe a meal you would enjoy sharing now. What would make the occasion welcoming?",
+      "puzzles": [
+        ["Setting the Table", "Placemat,Charger,Goblet,Tumbler,Napkin,Tablecloth,Centerpiece,Place card,Coaster,Salad fork,Bread plate,Knife", "Which detail makes a table feel welcoming to you?"],
+        ["A Roast in the Oven", "Roasting pan,Beef,Pork,Lamb,Turkey,Chicken,Basting,Twine,Thermometer,Drippings,Carving,Resting", "What aroma would you welcome from the oven?"],
+        ["Vegetable Sides", "Green beans,Carrots,Peas,Turnips,Parsnips,Cabbage,Squash,Beets,Spinach,Corn,Broccoli,Cauliflower", "Which vegetable would you choose for a colorful plate?"],
+        ["Passing the Potatoes", "Mashed,Baked,Roasted,Scalloped,Skins,Wedges,Hash browns,Butter,Chives,Sour cream,Gravy,Potato salad", "How would you like potatoes prepared today?"],
+        ["The Salad Bowl", "Lettuce,Radishes,Cucumber,Tomato,Celery,Croutons,Dressing,Olives,Endive,Watercress,Onion,Vinaigrette", "What would you add to a crisp green salad?"],
+        ["Warm Bread Basket", "Dinner rolls,Biscuits,Cornbread,Rye bread,Sourdough,Breadsticks,Baguette,Loaf,Crust,Crumb,Bread knife,Basket", "Would you reach for a crusty slice or a soft roll?"],
+        ["The Serving Dishes", "Platter,Tureen,Ladle,Trivet,Casserole,Gravy boat,Serving fork,Tongs,Pitcher,Salad bowl,Butter dish,Tray", "Which serving dish would be useful at your table?"],
+        ["A Sweet Finish", "Cheesecake,Custard,Peach cobbler,Apple crisp,Rice pudding,Shortcake,Fruit salad,Ice cream,Whipped cream,Brownie,Lemon bars,Berry tart", "What small dessert would round off your meal?"]
+      ]
+    },
+    {
+      "title": "Baking Day",
+      "introduction": "Imagine a clear counter and a recipe ready to try. Follow the ingredients, tools, and textures of baking, from a simple cookie to a carefully crimped pie. No baking experience is needed to enjoy the words.",
+      "reflection": "Choose one thing you would like to bake or taste. What ingredients and tools would you set out?",
+      "closing_reflection": "Invent a name for a small neighborhood bakery. What would its first specialty be?",
+      "puzzles": [
+        ["Measuring and Mixing", "Measuring cup,Teaspoon,Tablespoon,Flour,Sugar,Sifter,Mixing bowl,Whisk,Spatula,Scoop,Level,Stir", "Do you prefer following a recipe or experimenting?"],
+        ["Cookie Tin Favorites", "Gingersnap,Butter cookie,Oatmeal,Shortbread,Molasses,Macaroon,Sugar cookie,Peanut butter,Chocolate,Vanilla,Walnut,Raisin", "Which cookie would you put in a gift tin?"],
+        ["Rolling a Pie Crust", "Rolling pin,Pastry board,Dough,Shortening,Chill,Flour dust,Lattice,Crimp,Fork marks,Pastry brush,Bottom crust,Top crust", "Would you choose a lattice top or a simple pie crust?"],
+        ["Inside the Fruit Pie", "Apple,Cherry,Peach,Blueberry,Blackberry,Strawberry,Rhubarb,Apricot,Pear,Plum,Lemon juice,Cinnamon", "Which two fruits might make a pleasant pie filling?"],
+        ["Bread from Scratch", "Yeast,Knead,Rise,Proof,Punch down,Shape,Glaze,Steam,Loaf pan,Bread flour,Warm water,Crust", "What do you enjoy about the smell of fresh bread?"],
+        ["Cake Decorations", "Frosting,Icing,Swirl,Rosette,Sprinkles,Candle,Layer,Piping bag,Cake stand,Coconut,Fondant,Marzipan", "How would you decorate a cake without writing on it?"],
+        ["Oven and Cooling Rack", "Oven mitt,Timer,Baking sheet,Browning,Preheat,Temperature,Bakeware,Parchment,Wire rack,Cool,Golden,Toothpick", "What would you do while a batch cools?"],
+        ["Spices for Baking", "Nutmeg,Allspice,Ginger,Cloves,Cardamom,Anise,Caraway,Poppy seeds,Sesame,Mace,Orange zest,Vanilla bean", "Which baking spice has a scent you particularly enjoy?"]
+      ]
+    },
+    {
+      "title": "The Kitchen Cupboard",
+      "introduction": "Open a cupboard in your imagination. Look among jars, cups, pantry staples, and well-used utensils. These puzzles celebrate useful things rather than a particular style of kitchen.",
+      "reflection": "Design a small cupboard for daily use. Which items should be easiest to reach?",
+      "closing_reflection": "Describe an ordinary kitchen object that you appreciate. What makes it useful or pleasing?",
+      "puzzles": [
+        ["Pantry Staples", "Rice,Barley,Oats,Split peas,Lentils,Dried beans,Pasta,Crackers,Breadcrumbs,Cornmeal,Semolina,Tapioca", "Which pantry staple would you build a meal around?"],
+        ["Jars on a Shelf", "Jam,Jelly,Marmalade,Honey,Pickles,Relish,Mustard,Mayonnaise,Applesauce,Peanut butter,Molasses,Vinegar", "What jar would you reach for at breakfast?"],
+        ["Cups and Saucers", "Teacup,Saucer,Mug,Handle,Rim,Porcelain,Earthenware,Stoneware,Glaze,Pattern,Stack,Shelf", "Would you choose a patterned cup or a plain mug?"],
+        ["Useful Hand Tools", "Peeler,Grater,Can opener,Juicer,Colander,Strainer,Masher,Wooden spoon,Slotted spoon,Corer,Melon baller,Nutcracker", "Which small kitchen tool earns its place in your drawer?"],
+        ["Pots and Pans", "Skillet,Saucepan,Stockpot,Dutch oven,Griddle,Wok,Kettle,Steamer,Double boiler,Lid,Cast iron,Enamel", "What could you cook in one sturdy pot?"],
+        ["The Breakfast Shelf", "Cereal,Porridge,Granola,Wheat flakes,Bran,Maple syrup,Toast,Waffle,Pancake,Muffin,Orange juice,Cocoa", "What would make a leisurely breakfast for you?"],
+        ["Keeping Food Tidy", "Canister,Breadbox,Wax paper,Foil,Cloth cover,Jar lid,Stopper,Label,Scoop,Food wrap,Tin,Container", "How would you label a shelf so things are easy to find?"],
+        ["The Teapot Corner", "Teapot,Tea leaves,Tea bag,Infuser,Sugar bowl,Milk jug,Tea strainer,Tea cozy,Lemon slice,Herbal tea,Spoon rest,Tea tray", "Where would you enjoy sitting with a warm drink?"]
+      ]
+    },
+    {
+      "title": "Vegetable Gardens",
+      "introduction": "Step outside to a patch of soil, a raised bed, or a pot by a window. Explore seeds, simple tools, growing plants, and the harvest. The prompts invite plans and possibilities as well as memories.",
+      "reflection": "Sketch or describe a very small garden. What would you grow for its color, scent, or flavor?",
+      "closing_reflection": "Imagine giving away a basket of vegetables. What would you include, and who might enjoy it?",
+      "puzzles": [
+        ["Getting the Soil Ready", "Compost,Mulch,Loam,Topsoil,Spade,Fork,Rake,Clods,Furrow,Drainage,Manure,Worms", "What would you like about working outdoors for a little while?"],
+        ["Starting from Seed", "Seed packet,Seed tray,Potting mix,Seedling,Sprout,Root,Stem,Leaf,Watering can,Plant marker,Thin,Transplant", "Which plant would you enjoy watching from its first sprout?"],
+        ["Along the Garden Row", "Carrots,Radishes,Turnips,Beets,Onions,Leeks,Garlic,Parsnips,Rutabaga,Shallots,Potatoes,Scallions", "Would you plant straight rows or a more informal patch?"],
+        ["Climbers and Supports", "Pea vine,Pole beans,Trellis,Stake,Twine,Netting,Tendril,Runner,Cucumber,Grape vine,Bean pole,Tomato cage", "What could a climbing plant grow beside in your garden?"],
+        ["Leafy Greens", "Kale,Chard,Collards,Spinach,Arugula,Endive,Romaine,Cress,Beet greens,Bok choy,Leaf lettuce,Cabbage", "Which leafy green would you try in a sandwich or salad?"],
+        ["A Small Herb Patch", "Basil,Parsley,Thyme,Sage,Rosemary,Dill,Mint,Chives,Oregano,Tarragon,Marjoram,Cilantro", "Which herb would you enjoy smelling near a doorway?"],
+        ["Garden Helpers", "Ladybug,Bumblebee,Butterfly,Earthworm,Robin,Wren,Toad,Lacewing,Hoverfly,Ground beetle,Mason bee,Spider", "What small creature might you pause to watch outside?"],
+        ["Bringing in the Harvest", "Basket,Trug,Harvest,Ripe,Pick,Snip,Wash,Sort,Bundle,Crate,Market,Share", "What would you do first with a basket of fresh produce?"]
+      ]
+    },
+    {
+      "title": "Sewing and Mending",
+      "introduction": "A loose button or a scrap of fabric can suggest a useful little project. Explore sewing, knitting, patchwork, and repairs. These are practical and creative interests open to anyone.",
+      "reflection": "Choose a small item you would repair, make, or ask someone to help with. What would you need?",
+      "closing_reflection": "Invent a patchwork design using three colors or shapes. What would you call it?",
+      "puzzles": [
+        ["The Sewing Basket", "Needle,Thread,Thimble,Scissors,Pin,Elastic,Spool,Bobbin,Tape measure,Seam ripper,Chalk,Ribbon", "What would you keep in a small repair kit?"],
+        ["Buttons and Fasteners", "Stud,Buttonhole,Snap,Hook,Eye,Zipper,Toggle,Buckle,Clasp,Tie,Loop,Drawstring", "Which fastening do you find easiest to use?"],
+        ["Taking a Few Stitches", "Backstitch,Hemstitch,Slipstitch,Baste,Knot,Seam,Edge,Dart,Pleat,Gather,Tack,Overcast", "What simple sewing task would you like to know how to do?"],
+        ["Fabrics to Feel", "Cotton,Linen,Wool,Silk,Flannel,Denim,Velvet,Corduroy,Gingham,Muslin,Felt,Calico", "Which fabric texture would you choose for a cushion?"],
+        ["A Patchwork Quilt", "Patchwork,Quilt block,Binding,Batting,Backing,Sashing,Square,Triangle,Hexagon,Template,Quilting,Border", "Would you choose bright patches or quiet colors?"],
+        ["Knitting by Hand", "Yarn,Needles,Garter stitch,Purl,Cast on,Cast off,Wool,Row,Cable,Ribbing,Skein,Knitting bag", "What knitted item would make a thoughtful gift?"],
+        ["Mending Everyday Clothes", "Patch,Darn,Tear,Fray,Worn cuff,Loose button,Sock heel,Elbow,Repair,Reinforce,Iron,Press cloth", "Is there something useful you would rather mend than replace?"],
+        ["From a Paper Pattern", "Pattern,Notch,Grainline,Selvage,Fold,Layout,Cut,Allowance,Fitting,Waistband,Sleeve,Collar", "If you designed an apron, what pocket would you add?"]
+      ]
+    },
+    {
+      "title": "Household Routines",
+      "introduction": "Every home develops its own small routines. These word lists explore laundry, tidying, repairs, and the places where everyday objects belong. There is no single correct way to keep a home.",
+      "reflection": "Choose one household task you would simplify. What would make it easier or more pleasant?",
+      "closing_reflection": "Plan a comfortable corner using things already available. What would you keep close at hand?",
+      "puzzles": [
+        ["Washday Outside", "Clothesline,Clothespin,Wash basket,Sheet,Towel,Pillowcase,Apron,Shirt,Breeze,Sunshine,Drying,Line prop", "What scent or sound might belong to an outdoor washday?"],
+        ["At the Ironing Board", "Iron,Board,Starch,Spray bottle,Crease,Collar,Cuff,Press,Smooth,Steam,Hanger,Cord", "Which item would you most like to have freshly pressed?"],
+        ["A Clean Kitchen", "Dishpan,Suds,Soap,Sponge,Scrubber,Dishcloth,Tea towel,Drainboard,Tap,Sink,Rinse,Dry", "What makes a kitchen pleasant to return to after a meal?"],
+        ["Sweeping and Dusting", "Broom,Dustpan,Squeegee,Bucket,Duster,Polish,Rag,Brush,Doormat,Dust mop,Vacuum,Wastebasket", "Would you put on music while tidying a room?"],
+        ["The Linen Cupboard", "Blanket,Coverlet,Quilt,Washcloth,Table runner,Duvet,Bath mat,Hand towel,Guest towel,Flat sheet,Fitted sheet,Linen closet", "What would you set out for an overnight guest?"],
+        ["Small Home Repairs", "Hammer,Nail,Bolt,Screwdriver,Pliers,Wrench,Hinge,Washer,Level,Sandpaper,Glue,Toolbox", "Which basic tool would you want within reach?"],
+        ["Sorting the Mail", "Envelope,Stamp,Postcard,Parcel,Address,Postmark,Mailbox,Letter opener,Reply,Notepaper,Letterhead,Mail carrier", "What kind of letter would be a pleasure to receive?"],
+        ["The Entryway Shelf", "Wallet,Key ring,Umbrella,Scarf,Hat,Gloves,Shoe brush,Shoehorn,Coat hook,Walking stick,Doorbell,Welcome mat", "What would help you leave the house without a last-minute search?"]
+      ]
+    },
+    {
+      "title": "Porch Conversations",
+      "introduction": "Pull up an imagined chair. A porch, a doorstep, or a quiet window can be a place to pause. These puzzles include comfortable seating, neighborhood sounds, books, weather, and small shared interests.",
+      "reflection": "Imagine a pleasant place to sit with another person. What could you see, hear, or talk about?",
+      "closing_reflection": "Write a friendly question that could begin a conversation with someone new.",
+      "puzzles": [
+        ["A Comfortable Seat", "Rocking chair,Porch swing,Cushion,Footstool,Armrest,Wicker,Bench,Side table,Seat pad,Backrest,Glider,Ottoman", "Would you rather sit in a rocking chair or on a porch swing?"],
+        ["Sounds Near Home", "Footsteps,Birdsong,Door chime,Wind chime,Laughter,Whistle,Rainfall,Rustle,Crickets,Cicadas,Bell,Barking", "Which everyday sound would you like to hear from a porch?"],
+        ["Talking About the Weather", "Cloud,Drizzle,Sunbeam,Shade,Warmth,Humidity,Thunder,Rainbow,Forecast,Gust,Dew,Mist", "What kind of weather makes you want to sit outside?"],
+        ["A Friendly Exchange", "Greeting,Welcome,Listen,Question,Answer,Story,Smile,Kindness,Patience,Thank you,Neighbor,Company", "What helps you feel comfortable in a conversation?"],
+        ["Flowers by the Steps", "Petunia,Geranium,Marigold,Zinnia,Begonia,Pansy,Nasturtium,Snapdragon,Impatiens,Alyssum,Verbena,Salvia", "Which flower color would brighten your doorway?"],
+        ["A Book in the Shade", "Novel,Mystery,Poetry,Bookmark,Chapter,Paperback,Hardcover,Library,Book jacket,Page,Author,Reading lamp", "Would you choose a story, a poem, or a practical book?"],
+        ["Games at a Small Table", "Checkers,Chess,Dominoes,Cards,Cribbage,Peg,Checkerboard,Deck,Shuffle,Deal,Turn,Scorepad", "What table game would you enjoy playing at an easy pace?"],
+        ["An Evening Pause", "Lamplight,Sunset,Twilight,Starlight,Firefly,Moonrise,Lantern,Quiet,Silhouette,Dusk,Nightfall,Rest", "What would make the end of a day feel peaceful?"]
+      ]
+    },
+    {
+      "title": "Family Celebrations",
+      "introduction": "A celebration can be large or very small, and the people around the table need not be related. Explore welcoming details, handmade gifts, photographs, and ways of marking an occasion in your own style.",
+      "reflection": "Create a simple celebration for a friend or neighbor. What could make it personal without making it elaborate?",
+      "closing_reflection": "Describe an occasion worth marking that does not need a holiday or birthday.",
+      "puzzles": [
+        ["A Birthday Table", "Birthday,Party hat,Balloon,Streamer,Confetti,Cake,Candle,Wish,Gift,Bow,Invitation,Celebrate", "What would make a birthday feel personal to you?"],
+        ["Wrapping a Small Gift", "Gift wrap,Ribbon,Tissue,Tag,Box,Tape,Scissors,Parcel,String,Gift bag,Sticker,Surprise", "Would you choose plain wrapping or a colorful pattern?"],
+        ["Making an Invitation", "Date,Time,Place,Guest,Host,Address,Reply,Card,Ink,Pen,Message,Envelope", "What words would you use in a friendly invitation?"],
+        ["Photographs Together", "Snapshot,Album,Portrait,Camera,Lens,Shutter,Film,Negative,Print,Frame,Caption,Photo corner", "What everyday moment would you like to photograph?"],
+        ["Handmade Presents", "Potholder,Scarf,Bookmark,Apron,Needlework,Drawing,Woodcarving,Knitted hat,Recipe book,Painted pot,Beadwork,Paper flower", "What handmade gift would you enjoy receiving?"],
+        ["A Potluck Gathering", "Potluck,Hot dish,Salad,Dessert,Serving spoon,Recipe,Guest list,Name tag,Food label,Helping hand,Seconds,Leftovers", "Which dish would you volunteer to bring to a shared meal?"],
+        ["Music in the Room", "Piano,Guitar,Fiddle,Banjo,Harmonica,Accordion,Melody,Rhythm,Harmony,Chorus,Record,Radio", "Which instrument would you enjoy hearing at a gathering?"],
+        ["Sending Good Wishes", "Best wishes,Warm regards,Friendship,Gratitude,Cheer,Affection,Good luck,Kind regards,Get well,Hope,Joy,Delight", "What short message could brighten someone's day?"]
+      ]
+    },
+    {
+      "title": "Picnic Baskets",
+      "introduction": "Plan a meal away from the usual table. A picnic might be in a park, a garden, or simply beside an open window. Search through portable food, useful supplies, and the little choices that make an outing comfortable.",
+      "reflection": "Pack an imaginary picnic for a short outing. Choose food, a comfortable place, and one thing to do afterward.",
+      "closing_reflection": "Describe a picnic that would work even on a rainy day.",
+      "puzzles": [
+        ["Packing the Basket", "Basket,Hamper,Cloth,Cup,Plate,Fork,Spoon,Napkin,Bottle,Thermos,Cooler,Ice pack", "What would you pack first for a picnic?"],
+        ["Sandwich Choices", "Egg salad,Tuna,Ham,Cheese,Cress,Lettuce,Mustard,Mayonnaise,Sliced bread,Roll,Tomato,Pickle", "What would go into your ideal picnic sandwich?"],
+        ["Fruit for Sharing", "Grapes,Apple,Pear,Peach,Plum,Apricot,Cherries,Melon,Orange,Banana,Strawberries,Blueberries", "Which fruit travels well in your picnic basket?"],
+        ["Something Crunchy", "Pretzel,Cracker,Carrot stick,Celery stick,Radish,Popcorn,Nuts,Potato chips,Crispbread,Breadstick,Peanut,Walnut", "What crunchy snack would you add beside a sandwich?"],
+        ["A Cool Drink", "Lemonade,Iced tea,Water,Fruit punch,Apple juice,Orangeade,Limeade,Seltzer,Lemon slice,Ice cube,Straw,Flask", "Would you choose a citrus drink or a simple glass of water?"],
+        ["Finding a Picnic Spot", "Park,Meadow,Grove,Shade,Hillside,Riverbank,Lakeshore,Orchard,Pavilion,Clearing,Bench,Picnic table", "What would you look for in a comfortable picnic spot?"],
+        ["Ready for the Weather", "Sunhat,Raincoat,Cardigan,Blanket,Umbrella,Sunscreen,Windbreaker,Cap,Sunglasses,Extra socks,Shawl,Groundsheet", "What extra layer would you bring just in case?"],
+        ["Leaving the Place Tidy", "Trash bag,Litter,Wrapper,Bottle cap,Leftovers,Reusable,Pack up,Fold,Wipe,Collect,Carry,Return", "How would you make packing up a picnic easier?"]
+      ]
+    },
+    {
+      "title": "Homemade Favorites",
+      "introduction": "Finish with foods made in many kinds of kitchens: a pot of soup, a jar of preserves, a quick sauce, or a favorite treat. These are word puzzles, not recipes or food-preservation instructions.",
+      "reflection": "Write the name of a food you would like to make, learn about, or ask someone else to prepare.",
+      "closing_reflection": "Create a title for your own collection of favorite meals. What three dishes would belong in it?",
+      "puzzles": [
+        ["A Pot of Soup", "Broth,Stock,Noodle,Barley,Lentil,Split pea,Chowder,Bisque,Simmer,Season,Ladle,Soup bowl", "Would you choose a clear broth or a hearty soup?"],
+        ["Preserves on Toast", "Jam,Jelly,Preserves,Marmalade,Apple butter,Fruit pulp,Pectin,Sugar,Jar,Seal,Label,Spread", "Which fruit spread would you enjoy on a slice of toast?"],
+        ["Savory Sauces", "Gravy,White sauce,Cheese sauce,Tomato sauce,Pesto,Salsa,Pan juices,Roux,Reduction,Whisk,Sauceboat,Seasoning", "What sauce would you serve with a simple supper?"],
+        ["A Batch of Pancakes", "Batter,Griddle,Spatula,Bubbles,Flip,Stack,Syrup,Flour,Blueberry,Buckwheat,Buttermilk,Maple", "Would you put fruit in a pancake or on top?"],
+        ["Chilled Desserts", "Custard,Pudding,Gelatin,Mousse,Parfait,Sherbet,Sorbet,Sundae,Milkshake,Frozen yogurt,Ice cream,Fruit cup", "What chilled dessert would you choose on a warm day?"],
+        ["Homemade Candy", "Fudge,Toffee,Brittle,Caramel,Praline,Truffle,Marshmallow,Divinity,Peppermint,Taffy,Bonbon,Butterscotch", "Which sweet would you put in a small treat bag?"],
+        ["The Recipe Box", "Index card,Handwriting,Ingredients,Method,Portion,Servings,Measure,Mixture,Substitute,Recipe box,Divider,Notes", "What useful note would you add beside a favorite recipe?"],
+        ["A Simple Supper", "Omelet,Scrambled egg,Cheese toast,Baked beans,Macaroni,Meatloaf,Stew,Potpie,Risotto,Quiche,Dumplings,Stir fry", "What easy supper would you enjoy at the end of today?"]
+      ]
+    }
+  ]
+}

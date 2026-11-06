@@ -1,0 +1,1544 @@
+{
+  "status": "REVIEW_REQUIRED",
+  "roots": [
+    {
+      "name": "Birds and Birdwatching",
+      "parent_topic": "Birdwatching",
+      "parent_topic_id": "birdwatching",
+      "anchor_synset": "n:01503061",
+      "anchor_definition": "warm-blooded egg-laying vertebrates characterized by feathers and forelimbs modified as wings",
+      "descendant_count": 872,
+      "kind": "focused_niche"
+    },
+    {
+      "name": "Mammals and Wildlife",
+      "parent_topic": "Forest Wildlife and Outdoors",
+      "parent_topic_id": "forest_wildlife_outdoors",
+      "anchor_synset": "n:01861778",
+      "anchor_definition": "any warm-blooded vertebrate having the skin more or less covered with hair; young are born alive except for the small subclass of monotremes and nourished with milk",
+      "descendant_count": 1170,
+      "kind": "focused_niche"
+    },
+    {
+      "name": "Fish and Aquatic Vertebrates",
+      "parent_topic": "Nature",
+      "parent_topic_id": "nature",
+      "anchor_synset": "n:02512053",
+      "anchor_definition": "any of various mostly cold-blooded aquatic vertebrates usually having scales and breathing through gills",
+      "descendant_count": 618,
+      "kind": "focused_niche"
+    },
+    {
+      "name": "Insects and Entomology",
+      "parent_topic": "Nature",
+      "parent_topic_id": "nature",
+      "anchor_synset": "n:02159955",
+      "anchor_definition": "small air-breathing arthropod",
+      "descendant_count": 455,
+      "kind": "focused_niche"
+    },
+    {
+      "name": "Reptiles",
+      "parent_topic": "Nature",
+      "parent_topic_id": "nature",
+      "anchor_synset": "n:01661091",
+      "anchor_definition": "any cold-blooded vertebrate of the class Reptilia including tortoises, turtles, snakes, lizards, alligators, crocodiles, and extinct forms",
+      "descendant_count": 297,
+      "kind": "focused_niche"
+    },
+    {
+      "name": "Amphibians",
+      "parent_topic": "Nature",
+      "parent_topic_id": "nature",
+      "anchor_synset": "n:01627424",
+      "anchor_definition": "cold-blooded vertebrate typically living on land but breeding in water; aquatic larvae undergo metamorphosis into adult form",
+      "descendant_count": 96,
+      "kind": "focused_niche"
+    },
+    {
+      "name": "Mollusks and Shells",
+      "parent_topic": "Nature",
+      "parent_topic_id": "nature",
+      "anchor_synset": "n:01940736",
+      "anchor_definition": "invertebrate having a soft unsegmented body usually enclosed in a shell",
+      "descendant_count": 86,
+      "kind": "focused_niche"
+    },
+    {
+      "name": "Crustaceans",
+      "parent_topic": "Nature",
+      "parent_topic_id": "nature",
+      "anchor_synset": "n:01974773",
+      "anchor_definition": "any mainly aquatic arthropod usually having a segmented body and chitinous exoskeleton",
+      "descendant_count": 66,
+      "kind": "focused_niche"
+    },
+    {
+      "name": "Arachnids",
+      "parent_topic": "Nature",
+      "parent_topic_id": "nature",
+      "anchor_synset": "n:01769347",
+      "anchor_definition": "air-breathing arthropods characterized by simple eyes and four pairs of legs",
+      "descendant_count": 42,
+      "kind": "focused_niche"
+    },
+    {
+      "name": "Worms and Small Invertebrates",
+      "parent_topic": "Nature",
+      "parent_topic_id": "nature",
+      "anchor_synset": "n:01922303",
+      "anchor_definition": "any of numerous relatively small elongated soft-bodied animals especially of the phyla Annelida and Chaetognatha and Nematoda and Nemertea and Platyhelminthes; also many insect larvae",
+      "descendant_count": 39,
+      "kind": "focused_niche"
+    },
+    {
+      "name": "Horses and Equine Vocabulary",
+      "parent_topic": "Farm Country and Rural Life",
+      "parent_topic_id": "farm_country_rural_life",
+      "anchor_synset": "n:02374451",
+      "anchor_definition": "solid-hoofed herbivorous quadruped domesticated since prehistoric times",
+      "descendant_count": 88,
+      "kind": "focused_niche"
+    },
+    {
+      "name": "Dogs and Canine Vocabulary",
+      "parent_topic": "Dogs & Pets",
+      "parent_topic_id": "dogs_pets",
+      "anchor_synset": "n:02084071",
+      "anchor_definition": "a member of the genus Canis (probably descended from the common wolf) that has been domesticated by man since prehistoric times; occurs in many breeds",
+      "descendant_count": 190,
+      "kind": "focused_niche"
+    },
+    {
+      "name": "Cats and Feline Vocabulary",
+      "parent_topic": "Cats & Pets",
+      "parent_topic_id": "cats_pets",
+      "anchor_synset": "n:02121620",
+      "anchor_definition": "feline mammal usually having thick soft fur and no ability to roar: domestic cats; wildcats",
+      "descendant_count": 39,
+      "kind": "focused_niche"
+    },
+    {
+      "name": "Cattle and Livestock",
+      "parent_topic": "Farm Country and Rural Life",
+      "parent_topic_id": "farm_country_rural_life",
+      "anchor_synset": "n:02402425",
+      "anchor_definition": "domesticated bovine animals as a group regardless of sex or age",
+      "descendant_count": 30,
+      "kind": "focused_niche"
+    },
+    {
+      "name": "Sheep and Wool Farming",
+      "parent_topic": "Farm Country and Rural Life",
+      "parent_topic_id": "farm_country_rural_life",
+      "anchor_synset": "n:02411705",
+      "anchor_definition": "woolly usually horned ruminant mammal related to the goat",
+      "descendant_count": 16,
+      "kind": "focused_niche"
+    },
+    {
+      "name": "Goats",
+      "parent_topic": "Farm Country and Rural Life",
+      "parent_topic_id": "farm_country_rural_life",
+      "anchor_synset": "n:02416519",
+      "anchor_definition": "any of numerous agile ruminants related to sheep but having a beard and straight horns",
+      "descendant_count": 11,
+      "kind": "focused_niche"
+    },
+    {
+      "name": "Poultry",
+      "parent_topic": "Farm Country and Rural Life",
+      "parent_topic_id": "farm_country_rural_life",
+      "anchor_synset": "n:01789740",
+      "anchor_definition": "a domesticated gallinaceous bird thought to be descended from the red jungle fowl",
+      "descendant_count": 27,
+      "kind": "focused_niche"
+    },
+    {
+      "name": "Butterflies",
+      "parent_topic": "Nature",
+      "parent_topic_id": "nature",
+      "anchor_synset": "n:02274259",
+      "anchor_definition": "diurnal insect typically having a slender body with knobbed antennae and broad colorful wings",
+      "descendant_count": 33,
+      "kind": "focused_niche"
+    },
+    {
+      "name": "Moths",
+      "parent_topic": "Nature",
+      "parent_topic_id": "nature",
+      "anchor_synset": "n:02283201",
+      "anchor_definition": "typically crepuscular or nocturnal insect having a stout body and feathery or hairlike antennae",
+      "descendant_count": 70,
+      "kind": "focused_niche"
+    },
+    {
+      "name": "Beetles",
+      "parent_topic": "Nature",
+      "parent_topic_id": "nature",
+      "anchor_synset": "n:02164464",
+      "anchor_definition": "insect having biting mouthparts and front wings modified to form horny covers overlying the membranous rear wings",
+      "descendant_count": 63,
+      "kind": "focused_niche"
+    },
+    {
+      "name": "Bees",
+      "parent_topic": "Nature",
+      "parent_topic_id": "nature",
+      "anchor_synset": "n:02206856",
+      "anchor_definition": "any of numerous hairy-bodied insects including social and solitary species",
+      "descendant_count": 15,
+      "kind": "focused_niche"
+    },
+    {
+      "name": "Ants",
+      "parent_topic": "Nature",
+      "parent_topic_id": "nature",
+      "anchor_synset": "n:02219486",
+      "anchor_definition": "social insect living in organized colonies; characteristically the males and fertile queen have wings during breeding season; wingless sterile females are the workers",
+      "descendant_count": 13,
+      "kind": "focused_niche"
+    },
+    {
+      "name": "Snakes",
+      "parent_topic": "Nature",
+      "parent_topic_id": "nature",
+      "anchor_synset": "n:01726692",
+      "anchor_definition": "limbless scaly elongate reptile; some are venomous",
+      "descendant_count": 115,
+      "kind": "focused_niche"
+    },
+    {
+      "name": "Lizards",
+      "parent_topic": "Nature",
+      "parent_topic_id": "nature",
+      "anchor_synset": "n:01674464",
+      "anchor_definition": "relatively long-bodied reptile with usually two pairs of legs and a tapering tail",
+      "descendant_count": 63,
+      "kind": "focused_niche"
+    },
+    {
+      "name": "Turtles",
+      "parent_topic": "Nature",
+      "parent_topic_id": "nature",
+      "anchor_synset": "n:01662784",
+      "anchor_definition": "any of various aquatic and land reptiles having a bony shell and flipper-like limbs for swimming",
+      "descendant_count": 31,
+      "kind": "focused_niche"
+    },
+    {
+      "name": "Frogs and Toads",
+      "parent_topic": "Nature",
+      "parent_topic_id": "nature",
+      "anchor_synset": "n:01639765",
+      "anchor_definition": "any of various tailless stout-bodied amphibians with long hind limbs for leaping; semiaquatic and terrestrial species",
+      "descendant_count": 54,
+      "kind": "focused_niche"
+    },
+    {
+      "name": "Plants and Botany",
+      "parent_topic": "Nature",
+      "parent_topic_id": "nature",
+      "anchor_synset": "n:00017222",
+      "anchor_definition": "(botany) a living organism lacking the power of locomotion",
+      "descendant_count": 4487,
+      "kind": "focused_niche"
+    },
+    {
+      "name": "Flowers and Flowering Plants",
+      "parent_topic": "Gardening",
+      "parent_topic_id": "gardening",
+      "anchor_synset": "n:11669921",
+      "anchor_definition": "a plant cultivated for its blooms or blossoms",
+      "descendant_count": 468,
+      "kind": "focused_niche"
+    },
+    {
+      "name": "Trees and Dendrology",
+      "parent_topic": "Nature",
+      "parent_topic_id": "nature",
+      "anchor_synset": "n:13104059",
+      "anchor_definition": "a tall perennial woody plant having a main trunk and branches forming a distinct elevated crown; includes both gymnosperms and angiosperms",
+      "descendant_count": 1014,
+      "kind": "focused_niche"
+    },
+    {
+      "name": "Shrubs and Bushes",
+      "parent_topic": "Nature",
+      "parent_topic_id": "nature",
+      "anchor_synset": "n:13112664",
+      "anchor_definition": "a low woody perennial plant usually having several major stems",
+      "descendant_count": 783,
+      "kind": "focused_niche"
+    },
+    {
+      "name": "Herbaceous Plants",
+      "parent_topic": "Nature",
+      "parent_topic_id": "nature",
+      "anchor_synset": "n:12205694",
+      "anchor_definition": "a plant lacking a permanent woody stem; many are flowering garden plants or potherbs; some having medicinal properties; some are pests",
+      "descendant_count": 1042,
+      "kind": "focused_niche"
+    },
+    {
+      "name": "Ferns",
+      "parent_topic": "Nature",
+      "parent_topic_id": "nature",
+      "anchor_synset": "n:11545714",
+      "anchor_definition": "any of numerous flowerless and seedless vascular plants having true roots from a rhizome and fronds that uncurl upward; reproduce by spores",
+      "descendant_count": 177,
+      "kind": "focused_niche"
+    },
+    {
+      "name": "Grasses",
+      "parent_topic": "Nature",
+      "parent_topic_id": "nature",
+      "anchor_synset": "n:12102133",
+      "anchor_definition": "narrow-leaved green herbage: grown as lawns; used as pasture for grazing animals; cut and dried as hay",
+      "descendant_count": 168,
+      "kind": "focused_niche"
+    },
+    {
+      "name": "Mosses",
+      "parent_topic": "Nature",
+      "parent_topic_id": "nature",
+      "anchor_synset": "n:11537506",
+      "anchor_definition": "tiny leafy-stemmed flowerless plants",
+      "descendant_count": 4,
+      "kind": "focused_niche"
+    },
+    {
+      "name": "Algae",
+      "parent_topic": "Nature",
+      "parent_topic_id": "nature",
+      "anchor_synset": "n:01397114",
+      "anchor_definition": "primitive chlorophyll-containing mainly aquatic eukaryotic organisms lacking true stems and roots and leaves",
+      "descendant_count": 36,
+      "kind": "focused_niche"
+    },
+    {
+      "name": "Fungi and Mycology",
+      "parent_topic": "Nature",
+      "parent_topic_id": "nature",
+      "anchor_synset": "n:12992868",
+      "anchor_definition": "an organism of the kingdom Fungi lacking chlorophyll and feeding on organic matter; ranging from unicellular or multicellular organisms to spore-bearing syncytia",
+      "descendant_count": 309,
+      "kind": "focused_niche"
+    },
+    {
+      "name": "Leaves and Plant Anatomy",
+      "parent_topic": "Nature",
+      "parent_topic_id": "nature",
+      "anchor_synset": "n:13152742",
+      "anchor_definition": "the main organ of photosynthesis and transpiration in higher plants",
+      "descendant_count": 70,
+      "kind": "focused_niche"
+    },
+    {
+      "name": "Roots and Root Systems",
+      "parent_topic": "Nature",
+      "parent_topic_id": "nature",
+      "anchor_synset": "n:13125117",
+      "anchor_definition": "(botany) the usually underground organ that lacks buds or leaves or nodes; absorbs water and mineral salts; usually it anchors the plant to the ground",
+      "descendant_count": 23,
+      "kind": "focused_niche"
+    },
+    {
+      "name": "Fruits and Botanical Structures",
+      "parent_topic": "Nature",
+      "parent_topic_id": "nature",
+      "anchor_synset": "n:13134947",
+      "anchor_definition": "the ripened reproductive body of a seed plant",
+      "descendant_count": 321,
+      "kind": "focused_niche"
+    },
+    {
+      "name": "Vegetables",
+      "parent_topic": "Baking and Food",
+      "parent_topic_id": "baking_food",
+      "anchor_synset": "n:07707451",
+      "anchor_definition": "edible seeds or roots or stems or leaves or bulbs or tubers or nonsweet fruits of any of numerous herbaceous plant",
+      "descendant_count": 176,
+      "kind": "focused_niche"
+    },
+    {
+      "name": "Food and Ingredients",
+      "parent_topic": "Baking and Food",
+      "parent_topic_id": "baking_food",
+      "anchor_synset": "n:00021265",
+      "anchor_definition": "any substance that can be metabolized by an animal to give energy and build tissue",
+      "descendant_count": 1527,
+      "kind": "focused_niche"
+    },
+    {
+      "name": "Beverages",
+      "parent_topic": "Baking and Food",
+      "parent_topic_id": "baking_food",
+      "anchor_synset": "n:07881800",
+      "anchor_definition": "any liquid suitable for drinking",
+      "descendant_count": 340,
+      "kind": "focused_niche"
+    },
+    {
+      "name": "Breads and Rolls",
+      "parent_topic": "Baking and Food",
+      "parent_topic_id": "baking_food",
+      "anchor_synset": "n:07679356",
+      "anchor_definition": "food made from dough of flour or meal and usually raised with yeast or baking powder and then baked",
+      "descendant_count": 113,
+      "kind": "focused_niche"
+    },
+    {
+      "name": "Cakes and Baking",
+      "parent_topic": "Baking and Food",
+      "parent_topic_id": "baking_food",
+      "anchor_synset": "n:07628870",
+      "anchor_definition": "baked goods made from or based on a mixture of flour, sugar, eggs, and fat",
+      "descendant_count": 102,
+      "kind": "focused_niche"
+    },
+    {
+      "name": "Pastries",
+      "parent_topic": "Baking and Food",
+      "parent_topic_id": "baking_food",
+      "anchor_synset": "n:07622708",
+      "anchor_definition": "any of various baked foods made of dough or batter",
+      "descendant_count": 48,
+      "kind": "focused_niche"
+    },
+    {
+      "name": "Cheeses",
+      "parent_topic": "Baking and Food",
+      "parent_topic_id": "baking_food",
+      "anchor_synset": "n:07850329",
+      "anchor_definition": "a solid food prepared from the pressed curd of milk",
+      "descendant_count": 38,
+      "kind": "focused_niche"
+    },
+    {
+      "name": "Culinary Herbs",
+      "parent_topic": "Herbs Fruits and Vegetables",
+      "parent_topic_id": "garden_to_table",
+      "anchor_synset": "n:07811416",
+      "anchor_definition": "aromatic potherb used in cookery for its savory qualities",
+      "descendant_count": 41,
+      "kind": "focused_niche"
+    },
+    {
+      "name": "Spices",
+      "parent_topic": "Baking and Food",
+      "parent_topic_id": "baking_food",
+      "anchor_synset": "n:07812184",
+      "anchor_definition": "any of a variety of pungent aromatic vegetable substances used for flavoring food",
+      "descendant_count": 11,
+      "kind": "focused_niche"
+    },
+    {
+      "name": "Condiments and Sauces",
+      "parent_topic": "Baking and Food",
+      "parent_topic_id": "baking_food",
+      "anchor_synset": "n:07810907",
+      "anchor_definition": "a preparation (a sauce or relish or spice) to enhance flavor or enjoyment",
+      "descendant_count": 134,
+      "kind": "focused_niche"
+    },
+    {
+      "name": "Desserts",
+      "parent_topic": "Baking and Food",
+      "parent_topic_id": "baking_food",
+      "anchor_synset": "n:07609840",
+      "anchor_definition": "a dish served as the last course of a meal",
+      "descendant_count": 63,
+      "kind": "focused_niche"
+    },
+    {
+      "name": "Grains and Cereals",
+      "parent_topic": "Baking and Food",
+      "parent_topic_id": "baking_food",
+      "anchor_synset": "n:07802417",
+      "anchor_definition": "foodstuff prepared from the starchy grains of cereal grasses",
+      "descendant_count": 24,
+      "kind": "focused_niche"
+    },
+    {
+      "name": "Nuts and Seeds",
+      "parent_topic": "Nature",
+      "parent_topic_id": "nature",
+      "anchor_synset": "n:13136556",
+      "anchor_definition": "usually large hard-shelled seed",
+      "descendant_count": 31,
+      "kind": "focused_niche"
+    },
+    {
+      "name": "Soups",
+      "parent_topic": "Baking and Food",
+      "parent_topic_id": "baking_food",
+      "anchor_synset": "n:07583197",
+      "anchor_definition": "liquid food especially of meat or fish or vegetable stock often containing pieces of solid food",
+      "descendant_count": 42,
+      "kind": "focused_niche"
+    },
+    {
+      "name": "Sandwiches",
+      "parent_topic": "Baking and Food",
+      "parent_topic_id": "baking_food",
+      "anchor_synset": "n:07695965",
+      "anchor_definition": "two (or more) slices of bread with a filling between them",
+      "descendant_count": 18,
+      "kind": "focused_niche"
+    },
+    {
+      "name": "Meat and Cuts",
+      "parent_topic": "Baking and Food",
+      "parent_topic_id": "baking_food",
+      "anchor_synset": "n:07649854",
+      "anchor_definition": "the flesh of animals (including fishes and birds and snails) used as food",
+      "descendant_count": 198,
+      "kind": "focused_niche"
+    },
+    {
+      "name": "Seafood as Food",
+      "parent_topic": "Baking and Food",
+      "parent_topic_id": "baking_food",
+      "anchor_synset": "n:07776866",
+      "anchor_definition": "edible fish (broadly including freshwater fish) or shellfish or roe etc",
+      "descendant_count": 121,
+      "kind": "focused_niche"
+    },
+    {
+      "name": "Coffee",
+      "parent_topic": "Baking and Food",
+      "parent_topic_id": "baking_food",
+      "anchor_synset": "n:07929519",
+      "anchor_definition": "a beverage consisting of an infusion of ground coffee beans",
+      "descendant_count": 17,
+      "kind": "focused_niche"
+    },
+    {
+      "name": "Tea",
+      "parent_topic": "Baking and Food",
+      "parent_topic_id": "baking_food",
+      "anchor_synset": "n:07933274",
+      "anchor_definition": "a beverage made by steeping tea leaves in water",
+      "descendant_count": 8,
+      "kind": "focused_niche"
+    },
+    {
+      "name": "Wine Vocabulary",
+      "parent_topic": "Cocktail Hour, Nightlife & Social Club",
+      "parent_topic_id": "cocktail_hour_nightlife_social_club",
+      "anchor_synset": "n:07891726",
+      "anchor_definition": "fermented juice (of grapes especially)",
+      "descendant_count": 69,
+      "kind": "focused_niche"
+    },
+    {
+      "name": "Beer Vocabulary",
+      "parent_topic": "Cocktail Hour, Nightlife & Social Club",
+      "parent_topic_id": "cocktail_hour_nightlife_social_club",
+      "anchor_synset": "n:07886849",
+      "anchor_definition": "a general name for alcoholic beverages made by fermenting a cereal (or mixture of cereals) flavored with hops",
+      "descendant_count": 20,
+      "kind": "focused_niche"
+    },
+    {
+      "name": "Liquor Vocabulary",
+      "parent_topic": "Cocktail Hour, Nightlife & Social Club",
+      "parent_topic_id": "cocktail_hour_nightlife_social_club",
+      "anchor_synset": "n:07901587",
+      "anchor_definition": "an alcoholic beverage that is distilled rather than fermented",
+      "descendant_count": 41,
+      "kind": "focused_niche"
+    },
+    {
+      "name": "Cooking Methods",
+      "parent_topic": "Baking and Food",
+      "parent_topic_id": "baking_food",
+      "anchor_synset": "n:00243918",
+      "anchor_definition": "the act of preparing something (as food) by the application of heat",
+      "descendant_count": 19,
+      "kind": "focused_niche"
+    },
+    {
+      "name": "Tools and Workshop Equipment",
+      "parent_topic": "Hobbies Crafts and Pastimes",
+      "parent_topic_id": "sports_hobbies",
+      "anchor_synset": "n:04451818",
+      "anchor_definition": "an implement used in the practice of a vocation",
+      "descendant_count": 348,
+      "kind": "focused_niche"
+    },
+    {
+      "name": "Household Utensils",
+      "parent_topic": "Home and Household",
+      "parent_topic_id": "home_household",
+      "anchor_synset": "n:04516672",
+      "anchor_definition": "an implement for practical use (especially in a household)",
+      "descendant_count": 88,
+      "kind": "focused_niche"
+    },
+    {
+      "name": "Kitchenware",
+      "parent_topic": "Baking and Food",
+      "parent_topic_id": "baking_food",
+      "anchor_synset": "n:03621377",
+      "anchor_definition": "hardware utensils for use in a kitchen",
+      "descendant_count": 1,
+      "kind": "focused_niche"
+    },
+    {
+      "name": "Cutlery",
+      "parent_topic": "Baking and Food",
+      "parent_topic_id": "baking_food",
+      "anchor_synset": "n:03154073",
+      "anchor_definition": "a cutting implement; a tool for cutting",
+      "descendant_count": 99,
+      "kind": "focused_niche"
+    },
+    {
+      "name": "Household Appliances",
+      "parent_topic": "Home and Household",
+      "parent_topic_id": "home_household",
+      "anchor_synset": "n:03528263",
+      "anchor_definition": "an appliance that does a particular job in the home",
+      "descendant_count": 51,
+      "kind": "focused_niche"
+    },
+    {
+      "name": "Furniture",
+      "parent_topic": "Home and Household",
+      "parent_topic_id": "home_household",
+      "anchor_synset": "n:03405725",
+      "anchor_definition": "furnishings that make a room or other area ready for occupancy",
+      "descendant_count": 197,
+      "kind": "focused_niche"
+    },
+    {
+      "name": "Bedding",
+      "parent_topic": "Home and Household",
+      "parent_topic_id": "home_household",
+      "anchor_synset": "n:02820210",
+      "anchor_definition": "coverings that are used on a bed",
+      "descendant_count": 17,
+      "kind": "focused_niche"
+    },
+    {
+      "name": "Clothing and Apparel",
+      "parent_topic": "Home and Household",
+      "parent_topic_id": "home_household",
+      "anchor_synset": "n:03051540",
+      "anchor_definition": "a covering designed to be worn on a person's body",
+      "descendant_count": 561,
+      "kind": "focused_niche"
+    },
+    {
+      "name": "Textiles and Fabrics",
+      "parent_topic": "Hobbies Crafts and Pastimes",
+      "parent_topic_id": "sports_hobbies",
+      "anchor_synset": "n:03309808",
+      "anchor_definition": "artifact made by weaving or felting or knitting or crocheting natural or synthetic fibers",
+      "descendant_count": 284,
+      "kind": "focused_niche"
+    },
+    {
+      "name": "Footwear",
+      "parent_topic": "Home and Household",
+      "parent_topic_id": "home_household",
+      "anchor_synset": "n:03381126",
+      "anchor_definition": "clothing worn on a person's feet",
+      "descendant_count": 16,
+      "kind": "focused_niche"
+    },
+    {
+      "name": "Headgear",
+      "parent_topic": "Home and Household",
+      "parent_topic_id": "home_household",
+      "anchor_synset": "n:03502509",
+      "anchor_definition": "clothing for the head",
+      "descendant_count": 87,
+      "kind": "focused_niche"
+    },
+    {
+      "name": "Jewelry and Adornment",
+      "parent_topic": "Arts Creativity and Making",
+      "parent_topic_id": "arts_creativity_making",
+      "anchor_synset": "n:03597469",
+      "anchor_definition": "an adornment (as a bracelet or ring or necklace) made of precious metals and set with gems (or imitation gems)",
+      "descendant_count": 40,
+      "kind": "focused_niche"
+    },
+    {
+      "name": "Containers and Storage",
+      "parent_topic": "Home and Household",
+      "parent_topic_id": "home_household",
+      "anchor_synset": "n:03094503",
+      "anchor_definition": "any object that can be used to hold things (especially a large metal boxlike object of standardized dimensions that can be loaded from one form of transport to another)",
+      "descendant_count": 745,
+      "kind": "focused_niche"
+    },
+    {
+      "name": "Mechanical Fasteners",
+      "parent_topic": "Hobbies Crafts and Pastimes",
+      "parent_topic_id": "sports_hobbies",
+      "anchor_synset": "n:03323703",
+      "anchor_definition": "restraint that attaches to something or holds something in place",
+      "descendant_count": 146,
+      "kind": "focused_niche"
+    },
+    {
+      "name": "Machines and Mechanisms",
+      "parent_topic": "Science and Discovery",
+      "parent_topic_id": "science_discovery",
+      "anchor_synset": "n:03699975",
+      "anchor_definition": "any mechanical or electrical device that transmits or modifies energy to perform or assist in the performance of human tasks",
+      "descendant_count": 256,
+      "kind": "focused_niche"
+    },
+    {
+      "name": "Musical Instruments",
+      "parent_topic": "Music and Instruments",
+      "parent_topic_id": "music_instruments",
+      "anchor_synset": "n:03800933",
+      "anchor_definition": "any of various devices or contrivances that can be used to produce musical tones or sounds",
+      "descendant_count": 164,
+      "kind": "focused_niche"
+    },
+    {
+      "name": "Music and Musical Forms",
+      "parent_topic": "Music and Instruments",
+      "parent_topic_id": "music_instruments",
+      "anchor_synset": "n:07020895",
+      "anchor_definition": "an artistic form of auditory communication incorporating instrumental or vocal tones in a structured and continuous manner",
+      "descendant_count": 330,
+      "kind": "focused_niche"
+    },
+    {
+      "name": "Songs",
+      "parent_topic": "Music and Instruments",
+      "parent_topic_id": "music_instruments",
+      "anchor_synset": "n:07048000",
+      "anchor_definition": "a short musical composition with words",
+      "descendant_count": 45,
+      "kind": "focused_niche"
+    },
+    {
+      "name": "Dance",
+      "parent_topic": "Arts Creativity and Making",
+      "parent_topic_id": "arts_creativity_making",
+      "anchor_synset": "n:07020538",
+      "anchor_definition": "an artistic form of nonverbal communication",
+      "descendant_count": 3,
+      "kind": "focused_niche"
+    },
+    {
+      "name": "Sports and Athletics",
+      "parent_topic": "Sports and Hobbies",
+      "parent_topic_id": "sports_hobbies",
+      "anchor_synset": "n:00523513",
+      "anchor_definition": "an active diversion requiring physical exertion and competition",
+      "descendant_count": 177,
+      "kind": "focused_niche"
+    },
+    {
+      "name": "Games and Play",
+      "parent_topic": "Sports and Hobbies",
+      "parent_topic_id": "sports_hobbies",
+      "anchor_synset": "n:00455599",
+      "anchor_definition": "a contest with rules to determine a winner",
+      "descendant_count": 194,
+      "kind": "focused_niche"
+    },
+    {
+      "name": "Recreation and Pastimes",
+      "parent_topic": "Hobbies Crafts and Pastimes",
+      "parent_topic_id": "sports_hobbies",
+      "anchor_synset": "n:00426928",
+      "anchor_definition": "an activity that diverts or amuses or stimulates",
+      "descendant_count": 465,
+      "kind": "focused_niche"
+    },
+    {
+      "name": "Physical Exercise",
+      "parent_topic": "Sports and Hobbies",
+      "parent_topic_id": "sports_hobbies",
+      "anchor_synset": "n:00624738",
+      "anchor_definition": "the activity of exerting your muscles in various ways to keep fit",
+      "descendant_count": 56,
+      "kind": "focused_niche"
+    },
+    {
+      "name": "Buildings and Architecture",
+      "parent_topic": "General Interest",
+      "parent_topic_id": "general_interest",
+      "anchor_synset": "n:02913152",
+      "anchor_definition": "a structure that has a roof and walls and stands more or less permanently in one place",
+      "descendant_count": 268,
+      "kind": "focused_niche"
+    },
+    {
+      "name": "Rooms and Interior Spaces",
+      "parent_topic": "Home and Household",
+      "parent_topic_id": "home_household",
+      "anchor_synset": "n:04105893",
+      "anchor_definition": "an area within a building enclosed by walls and floor and ceiling",
+      "descendant_count": 196,
+      "kind": "focused_niche"
+    },
+    {
+      "name": "Vehicles and Transport",
+      "parent_topic": "Vehicles & Automotive",
+      "parent_topic_id": "vehicles_automotive",
+      "anchor_synset": "n:04524313",
+      "anchor_definition": "a conveyance that transports people or objects",
+      "descendant_count": 520,
+      "kind": "focused_niche"
+    },
+    {
+      "name": "Watercraft and Boats",
+      "parent_topic": "Coastal Lake and River Life",
+      "parent_topic_id": "coastal_lake_river_life",
+      "anchor_synset": "n:04530566",
+      "anchor_definition": "a craft designed for water transportation",
+      "descendant_count": 183,
+      "kind": "focused_niche"
+    },
+    {
+      "name": "Aircraft",
+      "parent_topic": "Travel Road Trips and Getaways",
+      "parent_topic_id": "travel_road_trips_getaways",
+      "anchor_synset": "n:02686568",
+      "anchor_definition": "a vehicle that can fly",
+      "descendant_count": 59,
+      "kind": "focused_niche"
+    },
+    {
+      "name": "Spacecraft",
+      "parent_topic": "Space & Astronomy",
+      "parent_topic_id": "space_astronomy",
+      "anchor_synset": "n:04264914",
+      "anchor_definition": "a craft capable of traveling in outer space; technically, a satellite around the sun",
+      "descendant_count": 6,
+      "kind": "focused_niche"
+    },
+    {
+      "name": "Motor Vehicles",
+      "parent_topic": "Vehicles & Automotive",
+      "parent_topic_id": "vehicles_automotive",
+      "anchor_synset": "n:03791235",
+      "anchor_definition": "a self-propelled wheeled vehicle that does not run on rails",
+      "descendant_count": 78,
+      "kind": "focused_niche"
+    },
+    {
+      "name": "Bicycles",
+      "parent_topic": "Sports and Hobbies",
+      "parent_topic_id": "sports_hobbies",
+      "anchor_synset": "n:02834778",
+      "anchor_definition": "a wheeled vehicle that has two wheels and is moved by foot pedals",
+      "descendant_count": 7,
+      "kind": "focused_niche"
+    },
+    {
+      "name": "Motorcycles",
+      "parent_topic": "Vehicles & Automotive",
+      "parent_topic_id": "vehicles_automotive",
+      "anchor_synset": "n:03790512",
+      "anchor_definition": "a motor vehicle with two wheels and a strong frame",
+      "descendant_count": 4,
+      "kind": "focused_niche"
+    },
+    {
+      "name": "Trucks",
+      "parent_topic": "Vehicles & Automotive",
+      "parent_topic_id": "vehicles_automotive",
+      "anchor_synset": "n:04490091",
+      "anchor_definition": "an automotive vehicle suitable for hauling",
+      "descendant_count": 24,
+      "kind": "focused_niche"
+    },
+    {
+      "name": "Cars",
+      "parent_topic": "Vehicles & Automotive",
+      "parent_topic_id": "vehicles_automotive",
+      "anchor_synset": "n:02958343",
+      "anchor_definition": "a motor vehicle with four wheels; usually propelled by an internal combustion engine",
+      "descendant_count": 41,
+      "kind": "focused_niche"
+    },
+    {
+      "name": "Artworks and Visual Art",
+      "parent_topic": "Arts Creativity and Making",
+      "parent_topic_id": "arts_creativity_making",
+      "anchor_synset": "n:02743547",
+      "anchor_definition": "the products of human creativity; works of art collectively",
+      "descendant_count": 112,
+      "kind": "focused_niche"
+    },
+    {
+      "name": "Artistic Creation",
+      "parent_topic": "Arts Creativity and Making",
+      "parent_topic_id": "arts_creativity_making",
+      "anchor_synset": "n:00933420",
+      "anchor_definition": "the creation of beautiful or significant things",
+      "descendant_count": 39,
+      "kind": "focused_niche"
+    },
+    {
+      "name": "Crafts and Skilled Trades",
+      "parent_topic": "Hobbies Crafts and Pastimes",
+      "parent_topic_id": "sports_hobbies",
+      "anchor_synset": "n:00606370",
+      "anchor_definition": "the skilled practice of a practical occupation",
+      "descendant_count": 49,
+      "kind": "focused_niche"
+    },
+    {
+      "name": "Needlework",
+      "parent_topic": "Hobbies Crafts and Pastimes",
+      "parent_topic_id": "sports_hobbies",
+      "anchor_synset": "n:03816849",
+      "anchor_definition": "a creation created or assembled by needle and thread",
+      "descendant_count": 62,
+      "kind": "focused_niche"
+    },
+    {
+      "name": "Painting",
+      "parent_topic": "Arts Creativity and Making",
+      "parent_topic_id": "arts_creativity_making",
+      "anchor_synset": "n:03876519",
+      "anchor_definition": "graphic art consisting of an artistic composition made by applying paints to a surface",
+      "descendant_count": 25,
+      "kind": "focused_niche"
+    },
+    {
+      "name": "Sculpture",
+      "parent_topic": "Arts Creativity and Making",
+      "parent_topic_id": "arts_creativity_making",
+      "anchor_synset": "n:04157320",
+      "anchor_definition": "a three-dimensional work of plastic art",
+      "descendant_count": 28,
+      "kind": "focused_niche"
+    },
+    {
+      "name": "Photography",
+      "parent_topic": "Arts Creativity and Making",
+      "parent_topic_id": "arts_creativity_making",
+      "anchor_synset": "n:00903559",
+      "anchor_definition": "the act of taking and printing photographs",
+      "descendant_count": 24,
+      "kind": "focused_niche"
+    },
+    {
+      "name": "Drawing",
+      "parent_topic": "Arts Creativity and Making",
+      "parent_topic_id": "arts_creativity_making",
+      "anchor_synset": "n:07003119",
+      "anchor_definition": "an illustration that is drawn by hand and published in a book, magazine, or newspaper",
+      "descendant_count": 2,
+      "kind": "focused_niche"
+    },
+    {
+      "name": "Pottery",
+      "parent_topic": "Arts Creativity and Making",
+      "parent_topic_id": "arts_creativity_making",
+      "anchor_synset": "n:03992703",
+      "anchor_definition": "ceramic ware made from clay and baked in a kiln",
+      "descendant_count": 4,
+      "kind": "focused_niche"
+    },
+    {
+      "name": "Occupations and Work",
+      "parent_topic": "Careers Community and Everyday Life",
+      "parent_topic_id": "careers_community_everyday_life",
+      "anchor_synset": "n:00582388",
+      "anchor_definition": "the principal activity in your life that you do to earn money",
+      "descendant_count": 284,
+      "kind": "focused_niche"
+    },
+    {
+      "name": "Workers and Trades",
+      "parent_topic": "Careers Community and Everyday Life",
+      "parent_topic_id": "careers_community_everyday_life",
+      "anchor_synset": "n:09632518",
+      "anchor_definition": "a person who works at a specific occupation",
+      "descendant_count": 920,
+      "kind": "focused_niche"
+    },
+    {
+      "name": "Skilled Workers",
+      "parent_topic": "Careers Community and Everyday Life",
+      "parent_topic_id": "careers_community_everyday_life",
+      "anchor_synset": "n:10605985",
+      "anchor_definition": "a worker who has acquired special skills",
+      "descendant_count": 506,
+      "kind": "focused_niche"
+    },
+    {
+      "name": "Educators",
+      "parent_topic": "Careers Community and Everyday Life",
+      "parent_topic_id": "careers_community_everyday_life",
+      "anchor_synset": "n:10045713",
+      "anchor_definition": "someone who educates young people",
+      "descendant_count": 43,
+      "kind": "focused_niche"
+    },
+    {
+      "name": "Scientists",
+      "parent_topic": "Science and Discovery",
+      "parent_topic_id": "science_discovery",
+      "anchor_synset": "n:10560637",
+      "anchor_definition": "a person with advanced knowledge of one or more sciences",
+      "descendant_count": 124,
+      "kind": "focused_niche"
+    },
+    {
+      "name": "Artists",
+      "parent_topic": "Arts Creativity and Making",
+      "parent_topic_id": "arts_creativity_making",
+      "anchor_synset": "n:09812338",
+      "anchor_definition": "a person whose creative work shows sensitivity and imagination",
+      "descendant_count": 69,
+      "kind": "focused_niche"
+    },
+    {
+      "name": "Musicians",
+      "parent_topic": "Music and Instruments",
+      "parent_topic_id": "music_instruments",
+      "anchor_synset": "n:10340312",
+      "anchor_definition": "someone who plays a musical instrument (as a profession)",
+      "descendant_count": 78,
+      "kind": "focused_niche"
+    },
+    {
+      "name": "Writers",
+      "parent_topic": "Books Reading and Libraries",
+      "parent_topic_id": "books_reading_libraries",
+      "anchor_synset": "n:10794014",
+      "anchor_definition": "writes (books or stories or articles or the like) professionally (for pay)",
+      "descendant_count": 66,
+      "kind": "focused_niche"
+    },
+    {
+      "name": "Athletes",
+      "parent_topic": "Sports and Hobbies",
+      "parent_topic_id": "sports_hobbies",
+      "anchor_synset": "n:09820263",
+      "anchor_definition": "a person trained to compete in sports",
+      "descendant_count": 142,
+      "kind": "focused_niche"
+    },
+    {
+      "name": "Merchants and Retail",
+      "parent_topic": "Careers Community and Everyday Life",
+      "parent_topic_id": "careers_community_everyday_life",
+      "anchor_synset": "n:10309896",
+      "anchor_definition": "a businessperson engaged in retail trade",
+      "descendant_count": 66,
+      "kind": "focused_niche"
+    },
+    {
+      "name": "Organizations and Community",
+      "parent_topic": "Careers Community and Everyday Life",
+      "parent_topic_id": "careers_community_everyday_life",
+      "anchor_synset": "n:08008335",
+      "anchor_definition": "a group of people who work together",
+      "descendant_count": 1243,
+      "kind": "focused_niche"
+    },
+    {
+      "name": "Institutions",
+      "parent_topic": "Careers Community and Everyday Life",
+      "parent_topic_id": "careers_community_everyday_life",
+      "anchor_synset": "n:08053576",
+      "anchor_definition": "an organization founded and united for a specific purpose",
+      "descendant_count": 284,
+      "kind": "focused_niche"
+    },
+    {
+      "name": "Education and Instruction",
+      "parent_topic": "Careers Community and Everyday Life",
+      "parent_topic_id": "careers_community_everyday_life",
+      "anchor_synset": "n:00883297",
+      "anchor_definition": "the activities of educating or instructing; activities that impart knowledge or skill",
+      "descendant_count": 31,
+      "kind": "focused_niche"
+    },
+    {
+      "name": "Fields of Science",
+      "parent_topic": "Science and Discovery",
+      "parent_topic_id": "science_discovery",
+      "anchor_synset": "n:05999797",
+      "anchor_definition": "a particular branch of scientific knowledge",
+      "descendant_count": 435,
+      "kind": "focused_niche"
+    },
+    {
+      "name": "Geology",
+      "parent_topic": "Science and Discovery",
+      "parent_topic_id": "science_discovery",
+      "anchor_synset": "n:06115701",
+      "anchor_definition": "a science that deals with the history of the earth as recorded in rocks",
+      "descendant_count": 19,
+      "kind": "focused_niche"
+    },
+    {
+      "name": "Astronomy",
+      "parent_topic": "Space & Astronomy",
+      "parent_topic_id": "space_astronomy",
+      "anchor_synset": "n:06095022",
+      "anchor_definition": "the branch of physics that studies celestial bodies and the universe as a whole",
+      "descendant_count": 9,
+      "kind": "focused_niche"
+    },
+    {
+      "name": "Minerals and Mineralogy",
+      "parent_topic": "Science and Discovery",
+      "parent_topic_id": "science_discovery",
+      "anchor_synset": "n:14662574",
+      "anchor_definition": "solid homogeneous inorganic substances occurring in nature having a definite chemical composition",
+      "descendant_count": 247,
+      "kind": "focused_niche"
+    },
+    {
+      "name": "Rock Types",
+      "parent_topic": "Science and Discovery",
+      "parent_topic_id": "science_discovery",
+      "anchor_synset": "n:14696793",
+      "anchor_definition": "material consisting of the aggregate of minerals like those making up the Earth's crust",
+      "descendant_count": 78,
+      "kind": "focused_niche"
+    },
+    {
+      "name": "Gemstones and Lapidary",
+      "parent_topic": "Hobbies Crafts and Pastimes",
+      "parent_topic_id": "sports_hobbies",
+      "anchor_synset": "n:14699752",
+      "anchor_definition": "a crystalline rock that can be cut and polished for jewelry",
+      "descendant_count": 55,
+      "kind": "focused_niche"
+    },
+    {
+      "name": "Metals and Elements",
+      "parent_topic": "Science and Discovery",
+      "parent_topic_id": "science_discovery",
+      "anchor_synset": "n:14625458",
+      "anchor_definition": "any of several chemical elements that are usually shiny solids that conduct heat or electricity and can be formed into sheets etc.",
+      "descendant_count": 127,
+      "kind": "focused_niche"
+    },
+    {
+      "name": "Alloys",
+      "parent_topic": "Science and Discovery",
+      "parent_topic_id": "science_discovery",
+      "anchor_synset": "n:14586769",
+      "anchor_definition": "a mixture containing two or more metallic elements or metallic and nonmetallic elements usually fused together or dissolving into each other when molten",
+      "descendant_count": 95,
+      "kind": "focused_niche"
+    },
+    {
+      "name": "Wood and Timber",
+      "parent_topic": "Hobbies Crafts and Pastimes",
+      "parent_topic_id": "sports_hobbies",
+      "anchor_synset": "n:15098161",
+      "anchor_definition": "the hard fibrous lignified substance under the bark of trees",
+      "descendant_count": 134,
+      "kind": "focused_niche"
+    },
+    {
+      "name": "Leather",
+      "parent_topic": "Hobbies Crafts and Pastimes",
+      "parent_topic_id": "sports_hobbies",
+      "anchor_synset": "n:14759722",
+      "anchor_definition": "an animal skin made smooth and flexible by removing the hair and then tanning",
+      "descendant_count": 37,
+      "kind": "focused_niche"
+    },
+    {
+      "name": "Glass Materials",
+      "parent_topic": "Arts Creativity and Making",
+      "parent_topic_id": "arts_creativity_making",
+      "anchor_synset": "n:14881303",
+      "anchor_definition": "a brittle transparent solid with irregular atomic structure",
+      "descendant_count": 20,
+      "kind": "focused_niche"
+    },
+    {
+      "name": "Weather and Atmospheric Conditions",
+      "parent_topic": "Weather and Climate",
+      "parent_topic_id": "weather_climate",
+      "anchor_synset": "n:11524662",
+      "anchor_definition": "the atmospheric conditions that comprise the state of the atmosphere in terms of temperature and wind and clouds and precipitation",
+      "descendant_count": 110,
+      "kind": "focused_niche"
+    },
+    {
+      "name": "Celestial Bodies",
+      "parent_topic": "Space & Astronomy",
+      "parent_topic_id": "space_astronomy",
+      "anchor_synset": "n:09239740",
+      "anchor_definition": "natural objects visible in the sky",
+      "descendant_count": 39,
+      "kind": "focused_niche"
+    },
+    {
+      "name": "Geological Formations",
+      "parent_topic": "Nature",
+      "parent_topic_id": "nature",
+      "anchor_synset": "n:09287968",
+      "anchor_definition": "(geology) the geological features of the earth",
+      "descendant_count": 176,
+      "kind": "focused_niche"
+    },
+    {
+      "name": "Mountains and Highlands",
+      "parent_topic": "Outdoor Adventure",
+      "parent_topic_id": "outdoor_adventure",
+      "anchor_synset": "n:09359803",
+      "anchor_definition": "a land mass that projects well above its surroundings; higher than a hill",
+      "descendant_count": 6,
+      "kind": "focused_niche"
+    },
+    {
+      "name": "Rivers and Waterways",
+      "parent_topic": "Coastal Lake and River Life",
+      "parent_topic_id": "coastal_lake_river_life",
+      "anchor_synset": "n:09411430",
+      "anchor_definition": "a large natural stream of water (larger than a creek)",
+      "descendant_count": 1,
+      "kind": "focused_niche"
+    },
+    {
+      "name": "Lakes",
+      "parent_topic": "Coastal Lake and River Life",
+      "parent_topic_id": "coastal_lake_river_life",
+      "anchor_synset": "n:09328904",
+      "anchor_definition": "a body of (usually fresh) water surrounded by land",
+      "descendant_count": 16,
+      "kind": "focused_niche"
+    },
+    {
+      "name": "Wetlands",
+      "parent_topic": "Nature",
+      "parent_topic_id": "nature",
+      "anchor_synset": "n:09477890",
+      "anchor_definition": "a low area where the land is saturated with water",
+      "descendant_count": 8,
+      "kind": "focused_niche"
+    },
+    {
+      "name": "Forests and Woodlands",
+      "parent_topic": "Forest Wildlife and Outdoors",
+      "parent_topic_id": "forest_wildlife_outdoors",
+      "anchor_synset": "n:08438533",
+      "anchor_definition": "the trees and other plants in a large densely wooded area",
+      "descendant_count": 9,
+      "kind": "focused_niche"
+    },
+    {
+      "name": "Deserts",
+      "parent_topic": "Nature",
+      "parent_topic_id": "nature",
+      "anchor_synset": "n:08505573",
+      "anchor_definition": "arid land with little or no vegetation",
+      "descendant_count": 1,
+      "kind": "focused_niche"
+    },
+    {
+      "name": "Optical Instruments",
+      "parent_topic": "Science and Discovery",
+      "parent_topic_id": "science_discovery",
+      "anchor_synset": "n:03852280",
+      "anchor_definition": "an instrument designed to aid vision",
+      "descendant_count": 34,
+      "kind": "focused_niche"
+    },
+    {
+      "name": "Electrical Devices",
+      "parent_topic": "Science and Discovery",
+      "parent_topic_id": "science_discovery",
+      "anchor_synset": "n:03269401",
+      "anchor_definition": "a device that produces or is powered by electricity",
+      "descendant_count": 173,
+      "kind": "focused_niche"
+    },
+    {
+      "name": "Electronic Devices",
+      "parent_topic": "Science and Discovery",
+      "parent_topic_id": "science_discovery",
+      "anchor_synset": "n:03277771",
+      "anchor_definition": "a device that accomplishes its purpose electronically",
+      "descendant_count": 67,
+      "kind": "focused_niche"
+    },
+    {
+      "name": "Computers",
+      "parent_topic": "Science and Discovery",
+      "parent_topic_id": "science_discovery",
+      "anchor_synset": "n:03082979",
+      "anchor_definition": "a machine for performing calculations automatically",
+      "descendant_count": 33,
+      "kind": "focused_niche"
+    },
+    {
+      "name": "Software Vocabulary",
+      "parent_topic": "Science and Discovery",
+      "parent_topic_id": "science_discovery",
+      "anchor_synset": "n:06566077",
+      "anchor_definition": "(computer science) written programs or procedures or rules and associated documentation pertaining to the operation of a computer system and that are stored in read/write memory",
+      "descendant_count": 103,
+      "kind": "focused_niche"
+    },
+    {
+      "name": "Mathematics",
+      "parent_topic": "Science and Discovery",
+      "parent_topic_id": "science_discovery",
+      "anchor_synset": "n:06000644",
+      "anchor_definition": "a science (or group of related sciences) dealing with the logic of quantity and shape and arrangement",
+      "descendant_count": 50,
+      "kind": "focused_niche"
+    },
+    {
+      "name": "Geometry",
+      "parent_topic": "Science and Discovery",
+      "parent_topic_id": "science_discovery",
+      "anchor_synset": "n:06004685",
+      "anchor_definition": "the pure mathematics of points and lines and curves and surfaces",
+      "descendant_count": 12,
+      "kind": "focused_niche"
+    },
+    {
+      "name": "Measurements and Units",
+      "parent_topic": "Science and Discovery",
+      "parent_topic_id": "science_discovery",
+      "anchor_synset": "n:13583724",
+      "anchor_definition": "any division of quantity accepted as a standard of measurement or exchange",
+      "descendant_count": 826,
+      "kind": "focused_niche"
+    },
+    {
+      "name": "Clocks and Timepieces",
+      "parent_topic": "Hobbies Crafts and Pastimes",
+      "parent_topic_id": "sports_hobbies",
+      "anchor_synset": "n:04437953",
+      "anchor_definition": "a measuring instrument or device for keeping time",
+      "descendant_count": 34,
+      "kind": "focused_niche"
+    },
+    {
+      "name": "Books and Written Works",
+      "parent_topic": "Books Reading and Libraries",
+      "parent_topic_id": "books_reading_libraries",
+      "anchor_synset": "n:06410904",
+      "anchor_definition": "a written work or composition that has been published (printed on pages bound together)",
+      "descendant_count": 85,
+      "kind": "focused_niche"
+    },
+    {
+      "name": "Physical Books and Binding",
+      "parent_topic": "Books Reading and Libraries",
+      "parent_topic_id": "books_reading_libraries",
+      "anchor_synset": "n:02870092",
+      "anchor_definition": "physical objects consisting of a number of pages bound together",
+      "descendant_count": 24,
+      "kind": "focused_niche"
+    },
+    {
+      "name": "Literature and Writing",
+      "parent_topic": "Books Reading and Libraries",
+      "parent_topic_id": "books_reading_libraries",
+      "anchor_synset": "n:06362953",
+      "anchor_definition": "the work of a writer; anything expressed in letters of the alphabet (especially when considered from the point of view of style and effect)",
+      "descendant_count": 747,
+      "kind": "focused_niche"
+    },
+    {
+      "name": "Poetry",
+      "parent_topic": "Books Reading and Libraries",
+      "parent_topic_id": "books_reading_libraries",
+      "anchor_synset": "n:07092592",
+      "anchor_definition": "literature in metrical form",
+      "descendant_count": 3,
+      "kind": "focused_niche"
+    },
+    {
+      "name": "Prose",
+      "parent_topic": "Books Reading and Libraries",
+      "parent_topic_id": "books_reading_libraries",
+      "anchor_synset": "n:06376572",
+      "anchor_definition": "ordinary writing as distinguished from verse",
+      "descendant_count": 19,
+      "kind": "focused_niche"
+    },
+    {
+      "name": "Grammar",
+      "parent_topic": "Word Skills and Brain Games",
+      "parent_topic_id": "word_skills_brain_games",
+      "anchor_synset": "n:06174404",
+      "anchor_definition": "the branch of linguistics that deals with syntax and morphology (and sometimes also deals with semantics)",
+      "descendant_count": 9,
+      "kind": "focused_niche"
+    },
+    {
+      "name": "Punctuation",
+      "parent_topic": "Word Skills and Brain Games",
+      "parent_topic_id": "word_skills_brain_games",
+      "anchor_synset": "n:06841365",
+      "anchor_definition": "the marks used to clarify meaning by indicating separation of words into sentences and clauses and phrases",
+      "descendant_count": 21,
+      "kind": "focused_niche"
+    },
+    {
+      "name": "Words and Linguistic Forms",
+      "parent_topic": "Word Skills and Brain Games",
+      "parent_topic_id": "word_skills_brain_games",
+      "anchor_synset": "n:06286395",
+      "anchor_definition": "a unit of language that native speakers can identify",
+      "descendant_count": 129,
+      "kind": "focused_niche"
+    },
+    {
+      "name": "Figures of Speech",
+      "parent_topic": "Word Skills and Brain Games",
+      "parent_topic_id": "word_skills_brain_games",
+      "anchor_synset": "n:07105475",
+      "anchor_definition": "language used in a figurative or nonliteral sense",
+      "descendant_count": 18,
+      "kind": "focused_niche"
+    },
+    {
+      "name": "Colors and Hues",
+      "parent_topic": "Arts Creativity and Making",
+      "parent_topic_id": "arts_creativity_making",
+      "anchor_synset": "n:04956594",
+      "anchor_definition": "a visual attribute of things that results from the light they emit or transmit or reflect",
+      "descendant_count": 139,
+      "kind": "focused_niche"
+    },
+    {
+      "name": "Geometric Shapes",
+      "parent_topic": "Science and Discovery",
+      "parent_topic_id": "science_discovery",
+      "anchor_synset": "n:00027807",
+      "anchor_definition": "the spatial arrangement of something as distinct from its substance",
+      "descendant_count": 534,
+      "kind": "focused_niche"
+    },
+    {
+      "name": "Feelings and Emotional Vocabulary",
+      "parent_topic": "General Interest",
+      "parent_topic_id": "general_interest",
+      "anchor_synset": "n:00026192",
+      "anchor_definition": "the experiencing of affective and emotional states",
+      "descendant_count": 446,
+      "kind": "focused_niche"
+    },
+    {
+      "name": "Personality Vocabulary",
+      "parent_topic": "General Interest",
+      "parent_topic_id": "general_interest",
+      "anchor_synset": "n:04617562",
+      "anchor_definition": "the complex of all the attributes--behavioral, temperamental, emotional and mental--that characterize a unique individual",
+      "descendant_count": 11,
+      "kind": "focused_niche"
+    },
+    {
+      "name": "Ceremonies and Celebrations",
+      "parent_topic": "Holiday and Seasonal Life",
+      "parent_topic_id": "holiday_seasonal_life",
+      "anchor_synset": "n:07450842",
+      "anchor_definition": "a formal event performed on a special occasion",
+      "descendant_count": 23,
+      "kind": "focused_niche"
+    },
+    {
+      "name": "Celebrations",
+      "parent_topic": "Holiday and Seasonal Life",
+      "parent_topic_id": "holiday_seasonal_life",
+      "anchor_synset": "n:00428000",
+      "anchor_definition": "any joyous diversion",
+      "descendant_count": 30,
+      "kind": "focused_niche"
+    },
+    {
+      "name": "Festivals and Performance Events",
+      "parent_topic": "Holiday and Seasonal Life",
+      "parent_topic_id": "holiday_seasonal_life",
+      "anchor_synset": "n:00517728",
+      "anchor_definition": "an organized series of acts and performances (usually in one place)",
+      "descendant_count": 12,
+      "kind": "focused_niche"
+    },
+    {
+      "name": "Railways and Trains",
+      "parent_topic": "Vehicles & Automotive",
+      "parent_topic_id": "vehicles_automotive",
+      "anchor_synset": "n:04468005",
+      "anchor_definition": "public transport provided by a line of railway cars coupled together and drawn by a locomotive",
+      "descendant_count": 12,
+      "kind": "focused_niche"
+    },
+    {
+      "name": "Ships and Seafaring",
+      "parent_topic": "Coastal Lake and River Life",
+      "parent_topic_id": "coastal_lake_river_life",
+      "anchor_synset": "n:04194289",
+      "anchor_definition": "a vessel that carries passengers or freight",
+      "descendant_count": 79,
+      "kind": "focused_niche"
+    },
+    {
+      "name": "Islands and Coastal Landforms",
+      "parent_topic": "Nature",
+      "parent_topic_id": "nature",
+      "anchor_synset": "n:09316454",
+      "anchor_definition": "a land mass (smaller than a continent) that is surrounded by water",
+      "descendant_count": 5,
+      "kind": "focused_niche"
+    },
+    {
+      "name": "Chemical Elements",
+      "parent_topic": "Science and Discovery",
+      "parent_topic_id": "science_discovery",
+      "anchor_synset": "n:14622893",
+      "anchor_definition": "any of the more than 100 known substances (of which 92 occur naturally) that cannot be separated into simpler substances and that singly or in combination constitute all matter",
+      "descendant_count": 200,
+      "kind": "focused_niche"
+    },
+    {
+      "name": "Numbers and Counting",
+      "parent_topic": "Word Skills and Brain Games",
+      "parent_topic_id": "word_skills_brain_games",
+      "anchor_synset": "n:13582013",
+      "anchor_definition": "a concept of quantity involving zero and units",
+      "descendant_count": 258,
+      "kind": "focused_niche"
+    },
+    {
+      "name": "Calendars and Timekeeping",
+      "parent_topic": "General Interest",
+      "parent_topic_id": "general_interest",
+      "anchor_synset": "n:15173479",
+      "anchor_definition": "a system of timekeeping that defines the beginning and length and divisions of the year",
+      "descendant_count": 12,
+      "kind": "focused_niche"
+    },
+    {
+      "name": "Paper and Papermaking",
+      "parent_topic": "Hobbies Crafts and Pastimes",
+      "parent_topic_id": "sports_hobbies",
+      "anchor_synset": "n:14974264",
+      "anchor_definition": "a material made of cellulose pulp derived mainly from wood or rags or certain grasses",
+      "descendant_count": 146,
+      "kind": "focused_niche"
+    },
+    {
+      "name": "Plastics and Materials",
+      "parent_topic": "Science and Discovery",
+      "parent_topic_id": "science_discovery",
+      "anchor_synset": "n:14592610",
+      "anchor_definition": "generic name for certain synthetic or semisynthetic materials that can be molded or extruded into objects or films or filaments or used for making e.g. coatings and adhesives",
+      "descendant_count": 21,
+      "kind": "focused_niche"
+    }
+  ]
+}

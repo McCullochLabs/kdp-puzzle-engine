@@ -99,6 +99,8 @@ def evaluate_book(store, taxonomy, topic_id: str, puzzles: list[list[str]],
         if poor:
             errors.append(f"{poor} puzzle(s) do not meet the topic-coherence standard.")
     warnings.extend(quality.warnings)
+    if quality.evidence_status == 'insufficient evidence':
+        notes.append('Vocabulary coverage is incomplete; the quality grade is Unverified, not a topic certification.')
     if quality.cluster_modelled:
         notes.append("Topic coherence was checked against reviewed mini-themes.")
         # A saved puzzle label is buyer-facing. A generic 'Puzzle 1' is fine,
@@ -109,7 +111,8 @@ def evaluate_book(store, taxonomy, topic_id: str, puzzles: list[list[str]],
                  for word in cluster for token in split_tokens(clean_surface(word))}
         odd_labels = []
         for index, name in enumerate(puzzle_names or [], 1):
-            tokens = set(split_tokens(clean_surface(name))) - {"PUZZLE", "WORD", "SEARCH"}
+            topic_tokens = set(split_tokens(clean_surface(taxonomy.topics[resolved].display_name)))
+            tokens = set(split_tokens(clean_surface(name))) - {"PUZZLE", "WORD", "SEARCH"} - topic_tokens
             if tokens and not tokens <= {str(index)} and not (tokens & seeds):
                 odd_labels.append(str(name))
         if odd_labels:

@@ -1,0 +1,83 @@
+{
+  "schema_version": 1,
+  "research_status": "REVIEW_REQUIRED_NOT_APPROVED",
+  "lexical_review_group": "noun.possession",
+  "records": [
+    {
+      "normalized": "BUY",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "buy",
+          "synset": "n:13253751",
+          "lexical_category": "noun.possession",
+          "definition": "an advantageous purchase; \"she got a bargain at the auction\"; \"the stock was a real buy at that price\""
+        }
+      ],
+      "candidate_categories": [
+        "noun.possession"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    },
+    {
+      "normalized": "FOUND",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "found",
+          "synset": "n:13280008",
+          "lexical_category": "noun.possession",
+          "definition": "food and lodging provided in addition to money; \"they worked for $30 and found\""
+        }
+      ],
+      "candidate_categories": [
+        "noun.possession"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    },
+    {
+      "normalized": "IMMOVABLE",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "immovable",
+          "synset": "n:13246475",
+          "lexical_category": "noun.possession",
+          "definition": "property consisting of houses and land"
+        }
+      ],
+      "candidate_categories": [
+        "noun.possession"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    },
+    {
+      "normalized": "PAY",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "pay",
+          "synset": "n:13279262",
+          "lexical_category": "noun.possession",
+          "definition": "something that remunerates; \"wages were paid by check\"; \"he wasted his pay on drink\"; \"they saved a quarter of all their earnings\""
+        }
+      ],
+      "candidate_categories": [
+        "noun.possession"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    }
+  ]
+}

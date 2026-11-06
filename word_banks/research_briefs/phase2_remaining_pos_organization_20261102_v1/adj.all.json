@@ -1,0 +1,3429 @@
+{
+  "schema_version": 1,
+  "research_status": "REVIEW_REQUIRED_NOT_APPROVED",
+  "group": "adj.all",
+  "records": [
+    {
+      "normalized": "ABHORRENT",
+      "status": "pending_context_and_editorial_review",
+      "candidate_categories": [
+        "adj.all"
+      ],
+      "source_senses": [
+        {
+          "lemma": "abhorrent",
+          "synset": "adj:01625063",
+          "part_of_speech": "adj",
+          "lexical_category": "adj.all",
+          "definition": "offensive to the mind; \"an abhorrent deed\"; \"the obscene massacre at Wounded Knee\"; \"morally repugnant customs\"; \"repulsive behavior\"; \"the most repulsive character in recent novels\"",
+          "match_type": "exact_normalized_source_lemma"
+        }
+      ]
+    },
+    {
+      "normalized": "ABLAZE",
+      "status": "pending_context_and_editorial_review",
+      "candidate_categories": [
+        "adj.all"
+      ],
+      "source_senses": [
+        {
+          "lemma": "ablaze",
+          "synset": "adj:00402731",
+          "part_of_speech": "adj",
+          "lexical_category": "adj.all",
+          "definition": "resembling flame in brilliance or color; \"maple trees ablaze in autumn\"",
+          "match_type": "exact_normalized_source_lemma"
+        },
+        {
+          "lemma": "ablaze",
+          "synset": "adj:01726021",
+          "part_of_speech": "adj",
+          "lexical_category": "adj.all",
+          "definition": "keenly excited (especially sexually) or indicating excitement; \"his face all ablaze with excitement\"- Bram Stoker; \"he was aflame with desire\"",
+          "match_type": "exact_normalized_source_lemma"
+        }
+      ]
+    },
+    {
+      "normalized": "ABUSIVE",
+      "status": "pending_context_and_editorial_review",
+      "candidate_categories": [
+        "adj.all"
+      ],
+      "source_senses": [
+        {
+          "lemma": "abusive",
+          "synset": "adj:01160584",
+          "part_of_speech": "adj",
+          "lexical_category": "adj.all",
+          "definition": "characterized by physical or psychological maltreatment; \"abusive punishment\"; \"argued...that foster homes are abusive\"",
+          "match_type": "exact_normalized_source_lemma"
+        },
+        {
+          "lemma": "abusive",
+          "synset": "adj:01628531",
+          "part_of_speech": "adj",
+          "lexical_category": "adj.all",
+          "definition": "expressing offensive reproach",
+          "match_type": "exact_normalized_source_lemma"
+        }
+      ]
+    },
+    {
+      "normalized": "ACIDIC",
+      "status": "pending_context_and_editorial_review",
+      "candidate_categories": [
+        "adj.all"
+      ],
+      "source_senses": [
+        {
+          "lemma": "acidic",
+          "synset": "adj:00025238",
+          "part_of_speech": "adj",
+          "lexical_category": "adj.all",
+          "definition": "being or containing an acid; of a solution having an excess of hydrogen atoms (having a pH of less than 7)",
+          "match_type": "exact_normalized_source_lemma"
+        },
+        {
+          "lemma": "acidic",
+          "synset": "adj:02369335",
+          "part_of_speech": "adj",
+          "lexical_category": "adj.all",
+          "definition": "being sour to the taste",
+          "match_type": "exact_normalized_source_lemma"
+        }
+      ]
+    },
+    {
+      "normalized": "AUSPICIOUS",
+      "status": "pending_context_and_editorial_review",
+      "candidate_categories": [
+        "adj.all"
+      ],
+      "source_senses": [
+        {
+          "lemma": "auspicious",
+          "synset": "adj:00176150",
+          "part_of_speech": "adj",
+          "lexical_category": "adj.all",
+          "definition": "auguring favorable circumstances and good luck; \"an auspicious beginning for the campaign\"",
+          "match_type": "exact_normalized_source_lemma"
+        }
+      ]
+    },
+    {
+      "normalized": "BALMY",
+      "status": "pending_context_and_editorial_review",
+      "candidate_categories": [
+        "adj.all"
+      ],
+      "source_senses": [
+        {
+          "lemma": "balmy",
+          "synset": "adj:00438332",
+          "part_of_speech": "adj",
+          "lexical_category": "adj.all",
+          "definition": "mild and pleasant; \"balmy days and nights\"; \"the climate was mild and conducive to life or growth\"; \"a soft breeze\"",
+          "match_type": "exact_normalized_source_lemma"
+        },
+        {
+          "lemma": "balmy",
+          "synset": "adj:02074929",
+          "part_of_speech": "adj",
+          "lexical_category": "adj.all",
+          "definition": "informal or slang terms for mentally irregular; \"it used to drive my husband balmy\"",
+          "match_type": "exact_normalized_source_lemma"
+        }
+      ]
+    },
+    {
+      "normalized": "BATS",
+      "status": "pending_context_and_editorial_review",
+      "candidate_categories": [
+        "adj.all"
+      ],
+      "source_senses": [
+        {
+          "lemma": "bats",
+          "synset": "adj:02074929",
+          "part_of_speech": "adj",
+          "lexical_category": "adj.all",
+          "definition": "informal or slang terms for mentally irregular; \"it used to drive my husband balmy\"",
+          "match_type": "exact_normalized_source_lemma"
+        }
+      ]
+    },
+    {
+      "normalized": "BATTY",
+      "status": "pending_context_and_editorial_review",
+      "candidate_categories": [
+        "adj.all"
+      ],
+      "source_senses": [
+        {
+          "lemma": "batty",
+          "synset": "adj:02074929",
+          "part_of_speech": "adj",
+          "lexical_category": "adj.all",
+          "definition": "informal or slang terms for mentally irregular; \"it used to drive my husband balmy\"",
+          "match_type": "exact_normalized_source_lemma"
+        }
+      ]
+    },
+    {
+      "normalized": "BEAMING",
+      "status": "pending_context_and_editorial_review",
+      "candidate_categories": [
+        "adj.all"
+      ],
+      "source_senses": [
+        {
+          "lemma": "beaming",
+          "synset": "adj:00280463",
+          "part_of_speech": "adj",
+          "lexical_category": "adj.all",
+          "definition": "radiating or as if radiating light; \"the beaming sun\"; \"the effulgent daffodils\"; \"a radiant sunrise\"; \"a refulgent sunset\"",
+          "match_type": "exact_normalized_source_lemma"
+        },
+        {
+          "lemma": "beaming",
+          "synset": "adj:00362892",
+          "part_of_speech": "adj",
+          "lexical_category": "adj.all",
+          "definition": "cheerful and bright; \"a beaming smile\"; \"a glad May morning\"",
+          "match_type": "exact_normalized_source_lemma"
+        },
+        {
+          "lemma": "beaming",
+          "synset": "adj:01890097",
+          "part_of_speech": "adj",
+          "lexical_category": "adj.all",
+          "definition": "pleased and proud; \"beaming parents\"",
+          "match_type": "exact_normalized_source_lemma"
+        }
+      ]
+    },
+    {
+      "normalized": "BLISSFUL",
+      "status": "pending_context_and_editorial_review",
+      "candidate_categories": [
+        "adj.all"
+      ],
+      "source_senses": [
+        {
+          "lemma": "blissful",
+          "synset": "adj:01148897",
+          "part_of_speech": "adj",
+          "lexical_category": "adj.all",
+          "definition": "completely happy and contented; \"blissful young lovers\"; \"in blissful ignorance\"",
+          "match_type": "exact_normalized_source_lemma"
+        }
+      ]
+    },
+    {
+      "normalized": "BONKERS",
+      "status": "pending_context_and_editorial_review",
+      "candidate_categories": [
+        "adj.all"
+      ],
+      "source_senses": [
+        {
+          "lemma": "bonkers",
+          "synset": "adj:02074929",
+          "part_of_speech": "adj",
+          "lexical_category": "adj.all",
+          "definition": "informal or slang terms for mentally irregular; \"it used to drive my husband balmy\"",
+          "match_type": "exact_normalized_source_lemma"
+        }
+      ]
+    },
+    {
+      "normalized": "BUSIER",
+      "status": "pending_context_and_editorial_review",
+      "candidate_categories": [
+        "adj.all"
+      ],
+      "source_senses": [
+        {
+          "lemma": "busy",
+          "synset": "adj:00035978",
+          "part_of_speech": "adj",
+          "lexical_category": "adj.all",
+          "definition": "crowded with or characterized by much activity; \"a very busy week\"; \"a busy life\"; \"a busy street\"; \"a busy seaport\"",
+          "match_type": "attested_WordNet_exception",
+          "inflected_source_word": "BUSIER"
+        },
+        {
+          "lemma": "busy",
+          "synset": "adj:00292937",
+          "part_of_speech": "adj",
+          "lexical_category": "adj.all",
+          "definition": "actively or fully engaged or occupied; \"busy with her work\"; \"a busy man\"; \"too busy to eat lunch\"",
+          "match_type": "attested_WordNet_exception",
+          "inflected_source_word": "BUSIER"
+        },
+        {
+          "lemma": "busy",
+          "synset": "adj:01352561",
+          "part_of_speech": "adj",
+          "lexical_category": "adj.all",
+          "definition": "intrusive in a meddling or offensive manner; \"an interfering old woman\"; \"bustling about self-importantly making an officious nuisance of himself\"; \"busy about other people's business\"",
+          "match_type": "attested_WordNet_exception",
+          "inflected_source_word": "BUSIER"
+        },
+        {
+          "lemma": "busy",
+          "synset": "adj:01623360",
+          "part_of_speech": "adj",
+          "lexical_category": "adj.all",
+          "definition": "(of facilities such as telephones or lavatories) unavailable for use by anyone else or indicating unavailability; (`engaged' is a British term for a busy telephone line); \"her line is busy\"; \"receptionists' telephones are always engaged\"; \"the lavatory is in use\"; \"kept getting a busy signal\"",
+          "match_type": "attested_WordNet_exception",
+          "inflected_source_word": "BUSIER"
+        },
+        {
+          "lemma": "busy",
+          "synset": "adj:01795203",
+          "part_of_speech": "adj",
+          "lexical_category": "adj.all",
+          "definition": "overcrowded or cluttered with detail; \"a busy painting\"; \"a fussy design\"",
+          "match_type": "attested_WordNet_exception",
+          "inflected_source_word": "BUSIER"
+        }
+      ]
+    },
+    {
+      "normalized": "BUSIEST",
+      "status": "pending_context_and_editorial_review",
+      "candidate_categories": [
+        "adj.all"
+      ],
+      "source_senses": [
+        {
+          "lemma": "busy",
+          "synset": "adj:00035978",
+          "part_of_speech": "adj",
+          "lexical_category": "adj.all",
+          "definition": "crowded with or characterized by much activity; \"a very busy week\"; \"a busy life\"; \"a busy street\"; \"a busy seaport\"",
+          "match_type": "attested_WordNet_exception",
+          "inflected_source_word": "BUSIEST"
+        },
+        {
+          "lemma": "busy",
+          "synset": "adj:00292937",
+          "part_of_speech": "adj",
+          "lexical_category": "adj.all",
+          "definition": "actively or fully engaged or occupied; \"busy with her work\"; \"a busy man\"; \"too busy to eat lunch\"",
+          "match_type": "attested_WordNet_exception",
+          "inflected_source_word": "BUSIEST"
+        },
+        {
+          "lemma": "busy",
+          "synset": "adj:01352561",
+          "part_of_speech": "adj",
+          "lexical_category": "adj.all",
+          "definition": "intrusive in a meddling or offensive manner; \"an interfering old woman\"; \"bustling about self-importantly making an officious nuisance of himself\"; \"busy about other people's business\"",
+          "match_type": "attested_WordNet_exception",
+          "inflected_source_word": "BUSIEST"
+        },
+        {
+          "lemma": "busy",
+          "synset": "adj:01623360",
+          "part_of_speech": "adj",
+          "lexical_category": "adj.all",
+          "definition": "(of facilities such as telephones or lavatories) unavailable for use by anyone else or indicating unavailability; (`engaged' is a British term for a busy telephone line); \"her line is busy\"; \"receptionists' telephones are always engaged\"; \"the lavatory is in use\"; \"kept getting a busy signal\"",
+          "match_type": "attested_WordNet_exception",
+          "inflected_source_word": "BUSIEST"
+        },
+        {
+          "lemma": "busy",
+          "synset": "adj:01795203",
+          "part_of_speech": "adj",
+          "lexical_category": "adj.all",
+          "definition": "overcrowded or cluttered with detail; \"a busy painting\"; \"a fussy design\"",
+          "match_type": "attested_WordNet_exception",
+          "inflected_source_word": "BUSIEST"
+        }
+      ]
+    },
+    {
+      "normalized": "CANDID",
+      "status": "pending_context_and_editorial_review",
+      "candidate_categories": [
+        "adj.all"
+      ],
+      "source_senses": [
+        {
+          "lemma": "candid",
+          "synset": "adj:00764484",
+          "part_of_speech": "adj",
+          "lexical_category": "adj.all",
+          "definition": "characterized by directness in manner or speech; without subtlety or evasion; \"blunt talking and straight shooting\"; \"a blunt New England farmer\"; \"I gave them my candid opinion\"; \"forthright criticism\"; \"a forthright approach to the problem\"; \"tell me what you think--and you may just as well be frank\"; \"it is possible to be outspoken without being rude\"; \"plainspoken and to the point\"; \"a point-blank accusation\"",
+          "match_type": "exact_normalized_source_lemma"
+        },
+        {
+          "lemma": "candid",
+          "synset": "adj:01310273",
+          "part_of_speech": "adj",
+          "lexical_category": "adj.all",
+          "definition": "openly straightforward and direct without reserve or secretiveness; \"his candid eyes\"; \"an open and trusting nature\"; \"a heart-to-heart talk\"",
+          "match_type": "exact_normalized_source_lemma"
+        },
+        {
+          "lemma": "candid",
+          "synset": "adj:01799297",
+          "part_of_speech": "adj",
+          "lexical_category": "adj.all",
+          "definition": "informal or natural; especially caught off guard or unprepared; \"a candid photograph\"; \"a candid interview\"",
+          "match_type": "exact_normalized_source_lemma"
+        }
+      ]
+    },
+    {
+      "normalized": "CASTRATED",
+      "status": "pending_context_and_editorial_review",
+      "candidate_categories": [
+        "adj.all"
+      ],
+      "source_senses": [
+        {
+          "lemma": "castrated",
+          "synset": "adj:02136802",
+          "part_of_speech": "adj",
+          "lexical_category": "adj.all",
+          "definition": "deprived of sexual capacity or sexual attributes",
+          "match_type": "exact_normalized_source_lemma"
+        }
+      ]
+    },
+    {
+      "normalized": "CLANDESTINE",
+      "status": "pending_context_and_editorial_review",
+      "candidate_categories": [
+        "adj.all"
+      ],
+      "source_senses": [
+        {
+          "lemma": "clandestine",
+          "synset": "adj:01706465",
+          "part_of_speech": "adj",
+          "lexical_category": "adj.all",
+          "definition": "conducted with or marked by hidden aims or methods; \"clandestine intelligence operations\"; \"cloak-and-dagger activities behind enemy lines\"; \"hole-and-corner intrigue\"; \"secret missions\"; \"a secret agent\"; \"secret sales of arms\"; \"surreptitious mobilization of troops\"; \"an undercover investigation\"; \"underground resistance\"",
+          "match_type": "exact_normalized_source_lemma"
+        }
+      ]
+    },
+    {
+      "normalized": "CLEVER",
+      "status": "pending_context_and_editorial_review",
+      "candidate_categories": [
+        "adj.all"
+      ],
+      "source_senses": [
+        {
+          "lemma": "clever",
+          "synset": "adj:00061885",
+          "part_of_speech": "adj",
+          "lexical_category": "adj.all",
+          "definition": "showing inventiveness and skill; \"a clever gadget\"; \"the cunning maneuvers leading to his success\"; \"an ingenious solution to the problem\"",
+          "match_type": "exact_normalized_source_lemma"
+        },
+        {
+          "lemma": "clever",
+          "synset": "adj:00439252",
+          "part_of_speech": "adj",
+          "lexical_category": "adj.all",
+          "definition": "showing self-interest and shrewdness in dealing with others; \"a cagey lawyer\"; \"too clever to be sound\"",
+          "match_type": "exact_normalized_source_lemma"
+        },
+        {
+          "lemma": "clever",
+          "synset": "adj:01334958",
+          "part_of_speech": "adj",
+          "lexical_category": "adj.all",
+          "definition": "mentally quick and resourceful; \"an apt pupil\"; \"you are a clever man...you reason well and your wit is bold\"-Bram Stoker",
+          "match_type": "exact_normalized_source_lemma"
+        }
+      ]
+    },
+    {
+      "normalized": "COHERENT",
+      "status": "pending_context_and_editorial_review",
+      "candidate_categories": [
+        "adj.all"
+      ],
+      "source_senses": [
+        {
+          "lemma": "coherent",
+          "synset": "adj:00053384",
+          "part_of_speech": "adj",
+          "lexical_category": "adj.all",
+          "definition": "sticking together; \"two coherent sheets\"; \"tenacious burrs\"",
+          "match_type": "exact_normalized_source_lemma"
+        },
+        {
+          "lemma": "coherent",
+          "synset": "adj:00328528",
+          "part_of_speech": "adj",
+          "lexical_category": "adj.all",
+          "definition": "(physics) of waves having a constant phase relation",
+          "match_type": "exact_normalized_source_lemma"
+        },
+        {
+          "lemma": "coherent",
+          "synset": "adj:00464513",
+          "part_of_speech": "adj",
+          "lexical_category": "adj.all",
+          "definition": "marked by an orderly, logical, and aesthetically consistent relation of parts; \"a coherent argument\"",
+          "match_type": "exact_normalized_source_lemma"
+        },
+        {
+          "lemma": "coherent",
+          "synset": "adj:01925708",
+          "part_of_speech": "adj",
+          "lexical_category": "adj.all",
+          "definition": "capable of thinking and expressing yourself in a clear and consistent manner; \"a lucid thinker\"; \"she was more coherent than she had been just after the accident\"",
+          "match_type": "exact_normalized_source_lemma"
+        }
+      ]
+    },
+    {
+      "normalized": "COMFORTING",
+      "status": "pending_context_and_editorial_review",
+      "candidate_categories": [
+        "adj.all"
+      ],
+      "source_senses": [
+        {
+          "lemma": "comforting",
+          "synset": "adj:00197319",
+          "part_of_speech": "adj",
+          "lexical_category": "adj.all",
+          "definition": "affording comfort or solace",
+          "match_type": "exact_normalized_source_lemma"
+        },
+        {
+          "lemma": "comforting",
+          "synset": "adj:02081563",
+          "part_of_speech": "adj",
+          "lexical_category": "adj.all",
+          "definition": "providing freedom from worry",
+          "match_type": "exact_normalized_source_lemma"
+        }
+      ]
+    },
+    {
+      "normalized": "CONCILIATORY",
+      "status": "pending_context_and_editorial_review",
+      "candidate_categories": [
+        "adj.all"
+      ],
+      "source_senses": [
+        {
+          "lemma": "conciliatory",
+          "synset": "adj:00759551",
+          "part_of_speech": "adj",
+          "lexical_category": "adj.all",
+          "definition": "intended to placate; \"spoke in a conciliating tone\"; \"a conciliatory visit\"",
+          "match_type": "exact_normalized_source_lemma"
+        },
+        {
+          "lemma": "conciliatory",
+          "synset": "adj:01026262",
+          "part_of_speech": "adj",
+          "lexical_category": "adj.all",
+          "definition": "making or willing to make concessions; \"loneliness tore through him...whenever he thought of...even the compromising Louis du Tillet\"",
+          "match_type": "exact_normalized_source_lemma"
+        }
+      ]
+    },
+    {
+      "normalized": "CONGRUENT",
+      "status": "pending_context_and_editorial_review",
+      "candidate_categories": [
+        "adj.all"
+      ],
+      "source_senses": [
+        {
+          "lemma": "congruent",
+          "synset": "adj:00561600",
+          "part_of_speech": "adj",
+          "lexical_category": "adj.all",
+          "definition": "coinciding when superimposed",
+          "match_type": "exact_normalized_source_lemma"
+        },
+        {
+          "lemma": "congruent",
+          "synset": "adj:00562116",
+          "part_of_speech": "adj",
+          "lexical_category": "adj.all",
+          "definition": "corresponding in character or kind",
+          "match_type": "exact_normalized_source_lemma"
+        }
+      ]
+    },
+    {
+      "normalized": "CONSCIENTIOUS",
+      "status": "pending_context_and_editorial_review",
+      "candidate_categories": [
+        "adj.all"
+      ],
+      "source_senses": [
+        {
+          "lemma": "conscientious",
+          "synset": "adj:00310138",
+          "part_of_speech": "adj",
+          "lexical_category": "adj.all",
+          "definition": "characterized by extreme care and great effort; \"conscientious application to the work at hand\"; \"painstaking research\"; \"scrupulous attention to details\"",
+          "match_type": "exact_normalized_source_lemma"
+        },
+        {
+          "lemma": "conscientious",
+          "synset": "adj:02086115",
+          "part_of_speech": "adj",
+          "lexical_category": "adj.all",
+          "definition": "guided by or in accordance with conscience or sense of right and wrong; \"a conscientious decision to speak out about injustice\"",
+          "match_type": "exact_normalized_source_lemma"
+        }
+      ]
+    },
+    {
+      "normalized": "CRACKED",
+      "status": "pending_context_and_editorial_review",
+      "candidate_categories": [
+        "adj.all"
+      ],
+      "source_senses": [
+        {
+          "lemma": "cracked",
+          "synset": "adj:02074929",
+          "part_of_speech": "adj",
+          "lexical_category": "adj.all",
+          "definition": "informal or slang terms for mentally irregular; \"it used to drive my husband balmy\"",
+          "match_type": "exact_normalized_source_lemma"
+        },
+        {
+          "lemma": "cracked",
+          "synset": "adj:02239479",
+          "part_of_speech": "adj",
+          "lexical_category": "adj.all",
+          "definition": "of paint or varnish; having the appearance of alligator hide",
+          "match_type": "exact_normalized_source_lemma"
+        },
+        {
+          "lemma": "cracked",
+          "synset": "adj:02240129",
+          "part_of_speech": "adj",
+          "lexical_category": "adj.all",
+          "definition": "used of skin roughened as a result of cold or exposure; \"chapped lips\"",
+          "match_type": "exact_normalized_source_lemma"
+        }
+      ]
+    },
+    {
+      "normalized": "CRACKERS",
+      "status": "pending_context_and_editorial_review",
+      "candidate_categories": [
+        "adj.all"
+      ],
+      "source_senses": [
+        {
+          "lemma": "crackers",
+          "synset": "adj:02074929",
+          "part_of_speech": "adj",
+          "lexical_category": "adj.all",
+          "definition": "informal or slang terms for mentally irregular; \"it used to drive my husband balmy\"",
+          "match_type": "exact_normalized_source_lemma"
+        }
+      ]
+    },
+    {
+      "normalized": "CREATIVE",
+      "status": "pending_context_and_editorial_review",
+      "candidate_categories": [
+        "adj.all"
+      ],
+      "source_senses": [
+        {
+          "lemma": "creative",
+          "synset": "adj:00585202",
+          "part_of_speech": "adj",
+          "lexical_category": "adj.all",
+          "definition": "promoting construction or creation; \"creative work\"",
+          "match_type": "exact_normalized_source_lemma"
+        },
+        {
+          "lemma": "creative",
+          "synset": "adj:00643250",
+          "part_of_speech": "adj",
+          "lexical_category": "adj.all",
+          "definition": "having the ability or power to create; \"a creative imagination\"",
+          "match_type": "exact_normalized_source_lemma"
+        }
+      ]
+    },
+    {
+      "normalized": "DAFT",
+      "status": "pending_context_and_editorial_review",
+      "candidate_categories": [
+        "adj.all"
+      ],
+      "source_senses": [
+        {
+          "lemma": "daft",
+          "synset": "adj:02074929",
+          "part_of_speech": "adj",
+          "lexical_category": "adj.all",
+          "definition": "informal or slang terms for mentally irregular; \"it used to drive my husband balmy\"",
+          "match_type": "exact_normalized_source_lemma"
+        }
+      ]
+    },
+    {
+      "normalized": "DAMNING",
+      "status": "pending_context_and_editorial_review",
+      "candidate_categories": [
+        "adj.all"
+      ],
+      "source_senses": [
+        {
+          "lemma": "damning",
+          "synset": "adj:00925177",
+          "part_of_speech": "adj",
+          "lexical_category": "adj.all",
+          "definition": "threatening with damnation",
+          "match_type": "exact_normalized_source_lemma"
+        }
+      ]
+    },
+    {
+      "normalized": "DECEPTIVE",
+      "status": "pending_context_and_editorial_review",
+      "candidate_categories": [
+        "adj.all"
+      ],
+      "source_senses": [
+        {
+          "lemma": "deceptive",
+          "synset": "adj:01224253",
+          "part_of_speech": "adj",
+          "lexical_category": "adj.all",
+          "definition": "designed to deceive or mislead either deliberately or inadvertently; \"the deceptive calm in the eye of the storm\"; \"deliberately deceptive packaging\"; \"a misleading similarity\"; \"statistics can be presented in ways that are misleading\"; \"shoddy business practices\"",
+          "match_type": "exact_normalized_source_lemma"
+        },
+        {
+          "lemma": "deceptive",
+          "synset": "adj:01938975",
+          "part_of_speech": "adj",
+          "lexical_category": "adj.all",
+          "definition": "causing one to believe what is not true or fail to believe what is true; \"deceptive calm\"; \"a delusory pleasure\"",
+          "match_type": "exact_normalized_source_lemma"
+        }
+      ]
+    },
+    {
+      "normalized": "DEFINITIVE",
+      "status": "pending_context_and_editorial_review",
+      "candidate_categories": [
+        "adj.all"
+      ],
+      "source_senses": [
+        {
+          "lemma": "definitive",
+          "synset": "adj:00550574",
+          "part_of_speech": "adj",
+          "lexical_category": "adj.all",
+          "definition": "supplying or being a final or conclusive settlement; \"a definitive verdict\"; \"a determinate answer to the problem\"",
+          "match_type": "exact_normalized_source_lemma"
+        },
+        {
+          "lemma": "definitive",
+          "synset": "adj:00940969",
+          "part_of_speech": "adj",
+          "lexical_category": "adj.all",
+          "definition": "clearly defined or formulated; \"the plain and unequivocal language of the laws\"- R.B.Taney",
+          "match_type": "exact_normalized_source_lemma"
+        },
+        {
+          "lemma": "definitive",
+          "synset": "adj:02295098",
+          "part_of_speech": "adj",
+          "lexical_category": "adj.all",
+          "definition": "of recognized authority or excellence; \"the definitive work on Greece\"; \"classical methods of navigation\"",
+          "match_type": "exact_normalized_source_lemma"
+        }
+      ]
+    },
+    {
+      "normalized": "DESPONDENT",
+      "status": "pending_context_and_editorial_review",
+      "candidate_categories": [
+        "adj.all"
+      ],
+      "source_senses": [
+        {
+          "lemma": "despondent",
+          "synset": "adj:01230153",
+          "part_of_speech": "adj",
+          "lexical_category": "adj.all",
+          "definition": "without or almost without hope; \"despondent about his failure\"; \"too heartsick to fight back\"",
+          "match_type": "exact_normalized_source_lemma"
+        }
+      ]
+    },
+    {
+      "normalized": "DISTASTEFUL",
+      "status": "pending_context_and_editorial_review",
+      "candidate_categories": [
+        "adj.all"
+      ],
+      "source_senses": [
+        {
+          "lemma": "distasteful",
+          "synset": "adj:01625893",
+          "part_of_speech": "adj",
+          "lexical_category": "adj.all",
+          "definition": "highly offensive; arousing aversion or disgust; \"a disgusting smell\"; \"distasteful language\"; \"a loathsome disease\"; \"the idea of eating meat is repellent to me\"; \"revolting food\"; \"a wicked stench\"",
+          "match_type": "exact_normalized_source_lemma"
+        },
+        {
+          "lemma": "distasteful",
+          "synset": "adj:01716971",
+          "part_of_speech": "adj",
+          "lexical_category": "adj.all",
+          "definition": "not pleasing in odor or taste",
+          "match_type": "exact_normalized_source_lemma"
+        }
+      ]
+    },
+    {
+      "normalized": "DOA",
+      "status": "pending_context_and_editorial_review",
+      "candidate_categories": [
+        "adj.all"
+      ],
+      "source_senses": [
+        {
+          "lemma": "d.o.a.",
+          "synset": "adj:00096913",
+          "part_of_speech": "adj",
+          "lexical_category": "adj.all",
+          "definition": "abbreviation for `dead on arrival' at the emergency room",
+          "match_type": "exact_normalized_source_lemma"
+        }
+      ]
+    },
+    {
+      "normalized": "EMPHATIC",
+      "status": "pending_context_and_editorial_review",
+      "candidate_categories": [
+        "adj.all"
+      ],
+      "source_senses": [
+        {
+          "lemma": "emphatic",
+          "synset": "adj:00156575",
+          "part_of_speech": "adj",
+          "lexical_category": "adj.all",
+          "definition": "forceful and definite in expression or action; \"the document contained a particularly emphatic guarantee of religious liberty\"",
+          "match_type": "exact_normalized_source_lemma"
+        },
+        {
+          "lemma": "emphatic",
+          "synset": "adj:00842041",
+          "part_of_speech": "adj",
+          "lexical_category": "adj.all",
+          "definition": "sudden and strong; \"an emphatic no\"",
+          "match_type": "exact_normalized_source_lemma"
+        },
+        {
+          "lemma": "emphatic",
+          "synset": "adj:02319765",
+          "part_of_speech": "adj",
+          "lexical_category": "adj.all",
+          "definition": "spoken with emphasis; \"an emphatic word\"",
+          "match_type": "exact_normalized_source_lemma"
+        }
+      ]
+    },
+    {
+      "normalized": "EVOCATIVE",
+      "status": "pending_context_and_editorial_review",
+      "candidate_categories": [
+        "adj.all"
+      ],
+      "source_senses": [
+        {
+          "lemma": "evocative",
+          "synset": "adj:01977669",
+          "part_of_speech": "adj",
+          "lexical_category": "adj.all",
+          "definition": "serving to bring to mind; \"cannot forbear to close on this redolent literary note\"- Wilder Hobson; \"a campaign redolent of machine politics\"",
+          "match_type": "exact_normalized_source_lemma"
+        }
+      ]
+    },
+    {
+      "normalized": "EXPRESSIVE",
+      "status": "pending_context_and_editorial_review",
+      "candidate_categories": [
+        "adj.all"
+      ],
+      "source_senses": [
+        {
+          "lemma": "expressive",
+          "synset": "adj:00497148",
+          "part_of_speech": "adj",
+          "lexical_category": "adj.all",
+          "definition": "characterized by expression; \"a very expressive face\"",
+          "match_type": "exact_normalized_source_lemma"
+        }
+      ]
+    },
+    {
+      "normalized": "EXUBERANT",
+      "status": "pending_context_and_editorial_review",
+      "candidate_categories": [
+        "adj.all"
+      ],
+      "source_senses": [
+        {
+          "lemma": "exuberant",
+          "synset": "adj:00015247",
+          "part_of_speech": "adj",
+          "lexical_category": "adj.all",
+          "definition": "produced or growing in extreme abundance; \"their riotous blooming\"",
+          "match_type": "exact_normalized_source_lemma"
+        },
+        {
+          "lemma": "exuberant",
+          "synset": "adj:02000968",
+          "part_of_speech": "adj",
+          "lexical_category": "adj.all",
+          "definition": "unrestrained, especially with regard to feelings; \"extravagant praise\"; \"exuberant compliments\"; \"overweening ambition\"; \"overweening greed\"",
+          "match_type": "exact_normalized_source_lemma"
+        },
+        {
+          "lemma": "exuberant",
+          "synset": "adj:02279723",
+          "part_of_speech": "adj",
+          "lexical_category": "adj.all",
+          "definition": "joyously unrestrained",
+          "match_type": "exact_normalized_source_lemma"
+        }
+      ]
+    },
+    {
+      "normalized": "FLUENT",
+      "status": "pending_context_and_editorial_review",
+      "candidate_categories": [
+        "adj.all"
+      ],
+      "source_senses": [
+        {
+          "lemma": "fluent",
+          "synset": "adj:00150505",
+          "part_of_speech": "adj",
+          "lexical_category": "adj.all",
+          "definition": "expressing yourself readily, clearly, effectively; \"able to dazzle with his facile tongue\"; \"silver speech\"",
+          "match_type": "exact_normalized_source_lemma"
+        },
+        {
+          "lemma": "fluent",
+          "synset": "adj:01139832",
+          "part_of_speech": "adj",
+          "lexical_category": "adj.all",
+          "definition": "smooth and unconstrained in movement; \"a long, smooth stride\"; \"the fluid motion of a cat\"; \"the liquid grace of a ballerina\"",
+          "match_type": "exact_normalized_source_lemma"
+        }
+      ]
+    },
+    {
+      "normalized": "FRAGRANT",
+      "status": "pending_context_and_editorial_review",
+      "candidate_categories": [
+        "adj.all"
+      ],
+      "source_senses": [
+        {
+          "lemma": "fragrant",
+          "synset": "adj:01052248",
+          "part_of_speech": "adj",
+          "lexical_category": "adj.all",
+          "definition": "pleasant-smelling",
+          "match_type": "exact_normalized_source_lemma"
+        }
+      ]
+    },
+    {
+      "normalized": "FRIGID",
+      "status": "pending_context_and_editorial_review",
+      "candidate_categories": [
+        "adj.all"
+      ],
+      "source_senses": [
+        {
+          "lemma": "frigid",
+          "synset": "adj:01252151",
+          "part_of_speech": "adj",
+          "lexical_category": "adj.all",
+          "definition": "extremely cold; \"an arctic climate\"; \"a frigid day\"; \"gelid waters of the North Atlantic\"; \"glacial winds\"; \"icy hands\"; \"polar weather\"",
+          "match_type": "exact_normalized_source_lemma"
+        },
+        {
+          "lemma": "frigid",
+          "synset": "adj:01258264",
+          "part_of_speech": "adj",
+          "lexical_category": "adj.all",
+          "definition": "devoid of warmth and cordiality; expressive of unfriendliness or disdain; \"a frigid greeting\"; \"got a frosty reception\"; \"a frozen look on their faces\"; \"a glacial handshake\"; \"icy stare\"; \"wintry smile\"",
+          "match_type": "exact_normalized_source_lemma"
+        },
+        {
+          "lemma": "frigid",
+          "synset": "adj:01466775",
+          "part_of_speech": "adj",
+          "lexical_category": "adj.all",
+          "definition": "sexually unresponsive; \"was cold to his advances\"; \"a frigid woman\"",
+          "match_type": "exact_normalized_source_lemma"
+        }
+      ]
+    },
+    {
+      "normalized": "FROSTED",
+      "status": "pending_context_and_editorial_review",
+      "candidate_categories": [
+        "adj.all"
+      ],
+      "source_senses": [
+        {
+          "lemma": "frosted",
+          "synset": "adj:00433972",
+          "part_of_speech": "adj",
+          "lexical_category": "adj.all",
+          "definition": "(of glass) having a roughened coating resembling frost; \"frosted glass\"",
+          "match_type": "exact_normalized_source_lemma"
+        }
+      ]
+    },
+    {
+      "normalized": "FRUITY",
+      "status": "pending_context_and_editorial_review",
+      "candidate_categories": [
+        "adj.all"
+      ],
+      "source_senses": [
+        {
+          "lemma": "fruity",
+          "synset": "adj:02074929",
+          "part_of_speech": "adj",
+          "lexical_category": "adj.all",
+          "definition": "informal or slang terms for mentally irregular; \"it used to drive my husband balmy\"",
+          "match_type": "exact_normalized_source_lemma"
+        },
+        {
+          "lemma": "fruity",
+          "synset": "adj:02397119",
+          "part_of_speech": "adj",
+          "lexical_category": "adj.all",
+          "definition": "tasting or smelling richly of or as of fruit",
+          "match_type": "exact_normalized_source_lemma"
+        }
+      ]
+    },
+    {
+      "normalized": "GLIB",
+      "status": "pending_context_and_editorial_review",
+      "candidate_categories": [
+        "adj.all"
+      ],
+      "source_senses": [
+        {
+          "lemma": "glib",
+          "synset": "adj:01770726",
+          "part_of_speech": "adj",
+          "lexical_category": "adj.all",
+          "definition": "artfully persuasive in speech; \"a glib tongue\"; \"a smooth-tongued hypocrite\"",
+          "match_type": "exact_normalized_source_lemma"
+        },
+        {
+          "lemma": "glib",
+          "synset": "adj:01799781",
+          "part_of_speech": "adj",
+          "lexical_category": "adj.all",
+          "definition": "having only superficial plausibility; \"glib promises\"; \"a slick commercial\"",
+          "match_type": "exact_normalized_source_lemma"
+        },
+        {
+          "lemma": "glib",
+          "synset": "adj:01874716",
+          "part_of_speech": "adj",
+          "lexical_category": "adj.all",
+          "definition": "marked by lack of intellectual depth; \"glib generalizations\"; \"a glib response to a complex question\"",
+          "match_type": "exact_normalized_source_lemma"
+        }
+      ]
+    },
+    {
+      "normalized": "HIDEOUS",
+      "status": "pending_context_and_editorial_review",
+      "candidate_categories": [
+        "adj.all"
+      ],
+      "source_senses": [
+        {
+          "lemma": "hideous",
+          "synset": "adj:00221934",
+          "part_of_speech": "adj",
+          "lexical_category": "adj.all",
+          "definition": "so extremely ugly as to be terrifying; \"a hideous scar\"; \"a repulsive mask\"",
+          "match_type": "exact_normalized_source_lemma"
+        },
+        {
+          "lemma": "hideous",
+          "synset": "adj:01626562",
+          "part_of_speech": "adj",
+          "lexical_category": "adj.all",
+          "definition": "grossly offensive to decency or morality; causing horror; \"subjected to outrageous cruelty\"; \"a hideous pattern of injustice\"; \"horrific conditions in the mining industry\"",
+          "match_type": "exact_normalized_source_lemma"
+        }
+      ]
+    },
+    {
+      "normalized": "HORRID",
+      "status": "pending_context_and_editorial_review",
+      "candidate_categories": [
+        "adj.all"
+      ],
+      "source_senses": [
+        {
+          "lemma": "horrid",
+          "synset": "adj:01127661",
+          "part_of_speech": "adj",
+          "lexical_category": "adj.all",
+          "definition": "exceedingly bad; \"when she was bad she was horrid\"",
+          "match_type": "exact_normalized_source_lemma"
+        },
+        {
+          "lemma": "horrid",
+          "synset": "adj:01626562",
+          "part_of_speech": "adj",
+          "lexical_category": "adj.all",
+          "definition": "grossly offensive to decency or morality; causing horror; \"subjected to outrageous cruelty\"; \"a hideous pattern of injustice\"; \"horrific conditions in the mining industry\"",
+          "match_type": "exact_normalized_source_lemma"
+        }
+      ]
+    },
+    {
+      "normalized": "HORRIFIC",
+      "status": "pending_context_and_editorial_review",
+      "candidate_categories": [
+        "adj.all"
+      ],
+      "source_senses": [
+        {
+          "lemma": "horrific",
+          "synset": "adj:00193799",
+          "part_of_speech": "adj",
+          "lexical_category": "adj.all",
+          "definition": "causing fear or dread or terror; \"the awful war\"; \"an awful risk\"; \"dire news\"; \"a career or vengeance so direful that London was shocked\"; \"the dread presence of the headmaster\"; \"polio is no longer the dreaded disease it once was\"; \"a dreadful storm\"; \"a fearful howling\"; \"horrendous explosions shook the city\"; \"a terrible curse\"",
+          "match_type": "exact_normalized_source_lemma"
+        },
+        {
+          "lemma": "horrific",
+          "synset": "adj:01626562",
+          "part_of_speech": "adj",
+          "lexical_category": "adj.all",
+          "definition": "grossly offensive to decency or morality; causing horror; \"subjected to outrageous cruelty\"; \"a hideous pattern of injustice\"; \"horrific conditions in the mining industry\"",
+          "match_type": "exact_normalized_source_lemma"
+        }
+      ]
+    },
+    {
+      "normalized": "HOT",
+      "status": "pending_context_and_editorial_review",
+      "candidate_categories": [
+        "adj.all"
+      ],
+      "source_senses": [
+        {
+          "lemma": "hot",
+          "synset": "adj:00033077",
+          "part_of_speech": "adj",
+          "lexical_category": "adj.all",
+          "definition": "marked by excited activity; \"a hot week on the stock market\"",
+          "match_type": "exact_normalized_source_lemma"
+        },
+        {
+          "lemma": "hot",
+          "synset": "adj:00358392",
+          "part_of_speech": "adj",
+          "lexical_category": "adj.all",
+          "definition": "charged or energized with electricity; \"a hot wire\"; \"a live wire\"",
+          "match_type": "exact_normalized_source_lemma"
+        },
+        {
+          "lemma": "hot",
+          "synset": "adj:00427105",
+          "part_of_speech": "adj",
+          "lexical_category": "adj.all",
+          "definition": "having or dealing with dangerously high levels of radioactivity; \"hot fuel rods\"; \"a hot laboratory\"",
+          "match_type": "exact_normalized_source_lemma"
+        },
+        {
+          "lemma": "hot",
+          "synset": "adj:00445440",
+          "part_of_speech": "adj",
+          "lexical_category": "adj.all",
+          "definition": "of a seeker; very near to the object sought; \"you are hot\"",
+          "match_type": "exact_normalized_source_lemma"
+        },
+        {
+          "lemma": "hot",
+          "synset": "adj:00811421",
+          "part_of_speech": "adj",
+          "lexical_category": "adj.all",
+          "definition": "having or showing great eagerness or enthusiasm; \"hot for travel\"",
+          "match_type": "exact_normalized_source_lemma"
+        },
+        {
+          "lemma": "hot",
+          "synset": "adj:00977372",
+          "part_of_speech": "adj",
+          "lexical_category": "adj.all",
+          "definition": "very fast; capable of quick response and great speed; \"a hot sports car\"; \"a blistering pace\"; \"got off to a hot start\"; \"in hot pursuit\"; \"a red-hot line drive\"",
+          "match_type": "exact_normalized_source_lemma"
+        },
+        {
+          "lemma": "hot",
+          "synset": "adj:01068438",
+          "part_of_speech": "adj",
+          "lexical_category": "adj.all",
+          "definition": "newly made; \"a hot scent\"",
+          "match_type": "exact_normalized_source_lemma"
+        },
+        {
+          "lemma": "hot",
+          "synset": "adj:01124441",
+          "part_of_speech": "adj",
+          "lexical_category": "adj.all",
+          "definition": "very good; often used in the negative; \"he's hot at math but not so hot at history\"",
+          "match_type": "exact_normalized_source_lemma"
+        },
+        {
+          "lemma": "hot",
+          "synset": "adj:01247240",
+          "part_of_speech": "adj",
+          "lexical_category": "adj.all",
+          "definition": "used of physical heat; having a high or higher than desirable temperature or giving off heat or feeling or causing a sensation of heat or burning; \"hot stove\"; \"hot water\"; \"a hot August day\"; \"a hot stuffy room\"; \"she's hot and tired\"; \"a hot forehead\"",
+          "match_type": "exact_normalized_source_lemma"
+        },
+        {
+          "lemma": "hot",
+          "synset": "adj:01256332",
+          "part_of_speech": "adj",
+          "lexical_category": "adj.all",
+          "definition": "extended meanings; especially of psychological heat; marked by intensity or vehemence especially of passion or enthusiasm; \"a hot temper\"; \"a hot topic\"; \"a hot new book\"; \"a hot love affair\"; \"a hot argument\"",
+          "match_type": "exact_normalized_source_lemma"
+        },
+        {
+          "lemma": "hot",
+          "synset": "adj:01403632",
+          "part_of_speech": "adj",
+          "lexical_category": "adj.all",
+          "definition": "recently stolen or smuggled; \"hot merchandise\"; \"a hot car\"",
+          "match_type": "exact_normalized_source_lemma"
+        },
+        {
+          "lemma": "hot",
+          "synset": "adj:01468420",
+          "part_of_speech": "adj",
+          "lexical_category": "adj.all",
+          "definition": "having or bringing unusually good luck; \"hot at craps\"; \"the dice are hot tonight\"",
+          "match_type": "exact_normalized_source_lemma"
+        },
+        {
+          "lemma": "hot",
+          "synset": "adj:01641791",
+          "part_of_speech": "adj",
+          "lexical_category": "adj.all",
+          "definition": "newest or most recent; \"news hot off the press\"; \"red-hot information\"",
+          "match_type": "exact_normalized_source_lemma"
+        },
+        {
+          "lemma": "hot",
+          "synset": "adj:01804034",
+          "part_of_speech": "adj",
+          "lexical_category": "adj.all",
+          "definition": "very unpleasant or even dangerous; \"make it hot for him\"; \"in the hot seat\"; \"in hot water\"",
+          "match_type": "exact_normalized_source_lemma"
+        },
+        {
+          "lemma": "hot",
+          "synset": "adj:01816525",
+          "part_of_speech": "adj",
+          "lexical_category": "adj.all",
+          "definition": "very popular or successful; \"one of the hot young talents\"; \"cabbage patch dolls were hot last season\"",
+          "match_type": "exact_normalized_source_lemma"
+        },
+        {
+          "lemma": "hot",
+          "synset": "adj:02132607",
+          "part_of_speech": "adj",
+          "lexical_category": "adj.all",
+          "definition": "sexually excited or exciting; \"was hot for her\"; \"hot pants\"",
+          "match_type": "exact_normalized_source_lemma"
+        },
+        {
+          "lemma": "hot",
+          "synset": "adj:02227485",
+          "part_of_speech": "adj",
+          "lexical_category": "adj.all",
+          "definition": "performed or performing with unusually great skill and daring and energy; \"a hot drummer\"; \"he's hot tonight\"",
+          "match_type": "exact_normalized_source_lemma"
+        },
+        {
+          "lemma": "hot",
+          "synset": "adj:02397732",
+          "part_of_speech": "adj",
+          "lexical_category": "adj.all",
+          "definition": "producing a burning sensation on the taste nerves; \"hot salsa\"; \"jalapeno peppers are very hot\"",
+          "match_type": "exact_normalized_source_lemma"
+        },
+        {
+          "lemma": "hot",
+          "synset": "adj:02511800",
+          "part_of_speech": "adj",
+          "lexical_category": "adj.all",
+          "definition": "characterized by violent and forceful activity or movement; very intense; \"the fighting became hot and heavy\"; \"a hot engagement\"; \"a raging battle\"; \"the river became a raging torrent\"",
+          "match_type": "exact_normalized_source_lemma"
+        },
+        {
+          "lemma": "hot",
+          "synset": "adj:02527402",
+          "part_of_speech": "adj",
+          "lexical_category": "adj.all",
+          "definition": "wanted by the police; \"a hot suspect\"",
+          "match_type": "exact_normalized_source_lemma"
+        },
+        {
+          "lemma": "hot",
+          "synset": "adj:02532114",
+          "part_of_speech": "adj",
+          "lexical_category": "adj.all",
+          "definition": "(color) bold and intense; \"hot pink\"",
+          "match_type": "exact_normalized_source_lemma"
+        }
+      ]
+    },
+    {
+      "normalized": "IMPROPER",
+      "status": "pending_context_and_editorial_review",
+      "candidate_categories": [
+        "adj.all"
+      ],
+      "source_senses": [
+        {
+          "lemma": "improper",
+          "synset": "adj:00136185",
+          "part_of_speech": "adj",
+          "lexical_category": "adj.all",
+          "definition": "not appropriate for a purpose or occasion; \"said all the wrong things\"",
+          "match_type": "exact_normalized_source_lemma"
+        },
+        {
+          "lemma": "improper",
+          "synset": "adj:01880531",
+          "part_of_speech": "adj",
+          "lexical_category": "adj.all",
+          "definition": "not suitable or right or appropriate; \"slightly improper to dine alone with a married man\"; \"improper medication\"; \"improper attire for the golf course\"",
+          "match_type": "exact_normalized_source_lemma"
+        },
+        {
+          "lemma": "improper",
+          "synset": "adj:01961410",
+          "part_of_speech": "adj",
+          "lexical_category": "adj.all",
+          "definition": "not conforming to legality, moral law, or social convention; \"an unconventional marriage\"; \"improper banking practices\"",
+          "match_type": "exact_normalized_source_lemma"
+        }
+      ]
+    },
+    {
+      "normalized": "IMPURE",
+      "status": "pending_context_and_editorial_review",
+      "candidate_categories": [
+        "adj.all"
+      ],
+      "source_senses": [
+        {
+          "lemma": "impure",
+          "synset": "adj:00427786",
+          "part_of_speech": "adj",
+          "lexical_category": "adj.all",
+          "definition": "having a physical or moral blemish so as to make impure according to dietary or ceremonial laws; \"unclean meat\"; \"and the swine...is unclean to you\"-Leviticus 11:3",
+          "match_type": "exact_normalized_source_lemma"
+        },
+        {
+          "lemma": "impure",
+          "synset": "adj:01905377",
+          "part_of_speech": "adj",
+          "lexical_category": "adj.all",
+          "definition": "(used of persons or behaviors) immoral or obscene; \"impure thoughts\"",
+          "match_type": "exact_normalized_source_lemma"
+        },
+        {
+          "lemma": "impure",
+          "synset": "adj:01908039",
+          "part_of_speech": "adj",
+          "lexical_category": "adj.all",
+          "definition": "combined with extraneous elements",
+          "match_type": "exact_normalized_source_lemma"
+        }
+      ]
+    },
+    {
+      "normalized": "INSIGHTFUL",
+      "status": "pending_context_and_editorial_review",
+      "candidate_categories": [
+        "adj.all"
+      ],
+      "source_senses": [
+        {
+          "lemma": "insightful",
+          "synset": "adj:01745296",
+          "part_of_speech": "adj",
+          "lexical_category": "adj.all",
+          "definition": "exhibiting insight or clear and deep perception; \"an insightful parent\"; \"the chapter is insightful and suggestive of new perspectives\"-R.C.Angell",
+          "match_type": "exact_normalized_source_lemma"
+        }
+      ]
+    },
+    {
+      "normalized": "INTOLERABLE",
+      "status": "pending_context_and_editorial_review",
+      "candidate_categories": [
+        "adj.all"
+      ],
+      "source_senses": [
+        {
+          "lemma": "intolerable",
+          "synset": "adj:02435671",
+          "part_of_speech": "adj",
+          "lexical_category": "adj.all",
+          "definition": "incapable of being put up with; \"an intolerable degree of sentimentality\"",
+          "match_type": "exact_normalized_source_lemma"
+        }
+      ]
+    },
+    {
+      "normalized": "IRIDESCENT",
+      "status": "pending_context_and_editorial_review",
+      "candidate_categories": [
+        "adj.all"
+      ],
+      "source_senses": [
+        {
+          "lemma": "iridescent",
+          "synset": "adj:00282020",
+          "part_of_speech": "adj",
+          "lexical_category": "adj.all",
+          "definition": "having a play of lustrous rainbow colors; \"an iridescent oil slick\"; \"nacreous (or pearlescent) clouds looking like mother-of-pearl\"; \"a milky opalescent (or opaline) luster\"",
+          "match_type": "exact_normalized_source_lemma"
+        },
+        {
+          "lemma": "iridescent",
+          "synset": "adj:00403072",
+          "part_of_speech": "adj",
+          "lexical_category": "adj.all",
+          "definition": "varying in color when seen in different lights or from different angles; \"changeable taffeta\"; \"chatoyant (or shot) silk\"; \"a dragonfly hovered, vibrating and iridescent\"",
+          "match_type": "exact_normalized_source_lemma"
+        }
+      ]
+    },
+    {
+      "normalized": "JOVIAL",
+      "status": "pending_context_and_editorial_review",
+      "candidate_categories": [
+        "adj.all"
+      ],
+      "source_senses": [
+        {
+          "lemma": "jovial",
+          "synset": "adj:01367651",
+          "part_of_speech": "adj",
+          "lexical_category": "adj.all",
+          "definition": "full of or showing high-spirited merriment; \"when hearts were young and gay\"; \"a poet could not but be gay, in such a jocund company\"- Wordsworth; \"the jolly crowd at the reunion\"; \"jolly old Saint Nick\"; \"a jovial old gentleman\"; \"have a merry Christmas\"; \"peals of merry laughter\"; \"a mirthful laugh\"",
+          "match_type": "exact_normalized_source_lemma"
+        }
+      ]
+    },
+    {
+      "normalized": "KINKY",
+      "status": "pending_context_and_editorial_review",
+      "candidate_categories": [
+        "adj.all"
+      ],
+      "source_senses": [
+        {
+          "lemma": "kinky",
+          "synset": "adj:00609564",
+          "part_of_speech": "adj",
+          "lexical_category": "adj.all",
+          "definition": "informal terms; strikingly unconventional",
+          "match_type": "exact_normalized_source_lemma"
+        },
+        {
+          "lemma": "kinky",
+          "synset": "adj:01030372",
+          "part_of_speech": "adj",
+          "lexical_category": "adj.all",
+          "definition": "(of hair) in small tight curls",
+          "match_type": "exact_normalized_source_lemma"
+        },
+        {
+          "lemma": "kinky",
+          "synset": "adj:01597509",
+          "part_of_speech": "adj",
+          "lexical_category": "adj.all",
+          "definition": "(used of sexual behavior) showing or appealing to bizarre or deviant tastes; \"kinky sex\"; \"perverted practices\"",
+          "match_type": "exact_normalized_source_lemma"
+        }
+      ]
+    },
+    {
+      "normalized": "LOCO",
+      "status": "pending_context_and_editorial_review",
+      "candidate_categories": [
+        "adj.all"
+      ],
+      "source_senses": [
+        {
+          "lemma": "loco",
+          "synset": "adj:02074929",
+          "part_of_speech": "adj",
+          "lexical_category": "adj.all",
+          "definition": "informal or slang terms for mentally irregular; \"it used to drive my husband balmy\"",
+          "match_type": "exact_normalized_source_lemma"
+        }
+      ]
+    },
+    {
+      "normalized": "LUMINOUS",
+      "status": "pending_context_and_editorial_review",
+      "candidate_categories": [
+        "adj.all"
+      ],
+      "source_senses": [
+        {
+          "lemma": "luminous",
+          "synset": "adj:00279332",
+          "part_of_speech": "adj",
+          "lexical_category": "adj.all",
+          "definition": "softly bright or radiant; \"a house aglow with lights\"; \"glowing embers\"; \"lambent tongues of flame\"; \"the lucent moon\"; \"a sky luminous with stars\"",
+          "match_type": "exact_normalized_source_lemma"
+        }
+      ]
+    },
+    {
+      "normalized": "LV",
+      "status": "pending_context_and_editorial_review",
+      "candidate_categories": [
+        "adj.all"
+      ],
+      "source_senses": [
+        {
+          "lemma": "lv",
+          "synset": "adj:02191710",
+          "part_of_speech": "adj",
+          "lexical_category": "adj.all",
+          "definition": "being five more than fifty",
+          "match_type": "exact_normalized_source_lemma"
+        }
+      ]
+    },
+    {
+      "normalized": "MAJESTIC",
+      "status": "pending_context_and_editorial_review",
+      "candidate_categories": [
+        "adj.all"
+      ],
+      "source_senses": [
+        {
+          "lemma": "majestic",
+          "synset": "adj:01285136",
+          "part_of_speech": "adj",
+          "lexical_category": "adj.all",
+          "definition": "having or displaying great dignity or nobility; \"a gallant pageant\"; \"lofty ships\"; \"majestic cities\"; \"proud alpine peaks\"",
+          "match_type": "exact_normalized_source_lemma"
+        },
+        {
+          "lemma": "majestic",
+          "synset": "adj:01591394",
+          "part_of_speech": "adj",
+          "lexical_category": "adj.all",
+          "definition": "belonging to or befitting a supreme ruler; \"golden age of imperial splendor\"; \"purple tyrant\"; \"regal attire\"; \"treated with royal acclaim\"; \"the royal carriage of a stag's head\"",
+          "match_type": "exact_normalized_source_lemma"
+        },
+        {
+          "lemma": "majestic",
+          "synset": "adj:02339791",
+          "part_of_speech": "adj",
+          "lexical_category": "adj.all",
+          "definition": "majestic in manner or bearing; superior to mundane matters; \"his majestic presence\"; \"olympian detachment\"; \"olympian beauty and serene composure\"",
+          "match_type": "exact_normalized_source_lemma"
+        }
+      ]
+    },
+    {
+      "normalized": "MANY",
+      "status": "pending_context_and_editorial_review",
+      "candidate_categories": [
+        "adj.all"
+      ],
+      "source_senses": [
+        {
+          "lemma": "many",
+          "synset": "adj:01551633",
+          "part_of_speech": "adj",
+          "lexical_category": "adj.all",
+          "definition": "a quantifier that can be used with count nouns and is often preceded by `as' or `too' or `so' or `that'; amounting to a large but indefinite number; \"many temptations\"; \"the temptations are many\"; \"a good many\"; \"a great many\"; \"many directions\"; \"take as many apples as you like\"; \"too many clouds to see\"; \"never saw so many people\"",
+          "match_type": "exact_normalized_source_lemma"
+        }
+      ]
+    },
+    {
+      "normalized": "MANMADE",
+      "status": "pending_context_and_editorial_review",
+      "candidate_categories": [
+        "adj.all"
+      ],
+      "source_senses": [
+        {
+          "lemma": "man-made",
+          "synset": "adj:01573568",
+          "part_of_speech": "adj",
+          "lexical_category": "adj.all",
+          "definition": "not of natural origin; prepared or made artificially; \"man-made fibers\"; \"synthetic leather\"",
+          "match_type": "exact_normalized_source_lemma"
+        }
+      ]
+    },
+    {
+      "normalized": "MATED",
+      "status": "pending_context_and_editorial_review",
+      "candidate_categories": [
+        "adj.all"
+      ],
+      "source_senses": [
+        {
+          "lemma": "mated",
+          "synset": "adj:01481932",
+          "part_of_speech": "adj",
+          "lexical_category": "adj.all",
+          "definition": "of or relating to a marriage partner",
+          "match_type": "exact_normalized_source_lemma"
+        },
+        {
+          "lemma": "mated",
+          "synset": "adj:01482956",
+          "part_of_speech": "adj",
+          "lexical_category": "adj.all",
+          "definition": "mated sexually",
+          "match_type": "exact_normalized_source_lemma"
+        },
+        {
+          "lemma": "mated",
+          "synset": "adj:01486960",
+          "part_of_speech": "adj",
+          "lexical_category": "adj.all",
+          "definition": "used of gloves, socks, etc.",
+          "match_type": "exact_normalized_source_lemma"
+        }
+      ]
+    },
+    {
+      "normalized": "MODEST",
+      "status": "pending_context_and_editorial_review",
+      "candidate_categories": [
+        "adj.all"
+      ],
+      "source_senses": [
+        {
+          "lemma": "modest",
+          "synset": "adj:01415219",
+          "part_of_speech": "adj",
+          "lexical_category": "adj.all",
+          "definition": "limited in size or scope; \"a small business\"; \"a newspaper with a modest circulation\"; \"small-scale plans\"; \"a pocket-size country\"",
+          "match_type": "exact_normalized_source_lemma"
+        },
+        {
+          "lemma": "modest",
+          "synset": "adj:01532912",
+          "part_of_speech": "adj",
+          "lexical_category": "adj.all",
+          "definition": "not large but sufficient in size or amount; \"a modest salary\"; \"modest inflation\"; \"helped in my own small way\"",
+          "match_type": "exact_normalized_source_lemma"
+        },
+        {
+          "lemma": "modest",
+          "synset": "adj:01537885",
+          "part_of_speech": "adj",
+          "lexical_category": "adj.all",
+          "definition": "not offensive to sexual mores in conduct or appearance",
+          "match_type": "exact_normalized_source_lemma"
+        },
+        {
+          "lemma": "modest",
+          "synset": "adj:01539225",
+          "part_of_speech": "adj",
+          "lexical_category": "adj.all",
+          "definition": "marked by simplicity; having a humble opinion of yourself; \"a modest apartment\"; \"too modest to wear his medals\"",
+          "match_type": "exact_normalized_source_lemma"
+        },
+        {
+          "lemma": "modest",
+          "synset": "adj:01851916",
+          "part_of_speech": "adj",
+          "lexical_category": "adj.all",
+          "definition": "free from pomp or affectation; \"comfortable but modest cottages\"; \"a simple rectangular brick building\"; \"a simple man with simple tastes\"",
+          "match_type": "exact_normalized_source_lemma"
+        },
+        {
+          "lemma": "modest",
+          "synset": "adj:01893510",
+          "part_of_speech": "adj",
+          "lexical_category": "adj.all",
+          "definition": "humble in spirit or manner; suggesting retiring mildness or even cowed submissiveness; \"meek and self-effacing\"",
+          "match_type": "exact_normalized_source_lemma"
+        },
+        {
+          "lemma": "modest",
+          "synset": "adj:02340458",
+          "part_of_speech": "adj",
+          "lexical_category": "adj.all",
+          "definition": "low or inferior in station or quality; \"a humble cottage\"; \"a lowly parish priest\"; \"a modest man of the people\"; \"small beginnings\"",
+          "match_type": "exact_normalized_source_lemma"
+        },
+        {
+          "lemma": "modest",
+          "synset": "adj:01415219",
+          "part_of_speech": "adj",
+          "lexical_category": "adj.all",
+          "definition": "limited in size or scope; \"a small business\"; \"a newspaper with a modest circulation\"; \"small-scale plans\"; \"a pocket-size country\"",
+          "match_type": "attested_WordNet_exception",
+          "inflected_source_word": "MODEST"
+        },
+        {
+          "lemma": "modest",
+          "synset": "adj:01532912",
+          "part_of_speech": "adj",
+          "lexical_category": "adj.all",
+          "definition": "not large but sufficient in size or amount; \"a modest salary\"; \"modest inflation\"; \"helped in my own small way\"",
+          "match_type": "attested_WordNet_exception",
+          "inflected_source_word": "MODEST"
+        },
+        {
+          "lemma": "modest",
+          "synset": "adj:01537885",
+          "part_of_speech": "adj",
+          "lexical_category": "adj.all",
+          "definition": "not offensive to sexual mores in conduct or appearance",
+          "match_type": "attested_WordNet_exception",
+          "inflected_source_word": "MODEST"
+        },
+        {
+          "lemma": "modest",
+          "synset": "adj:01539225",
+          "part_of_speech": "adj",
+          "lexical_category": "adj.all",
+          "definition": "marked by simplicity; having a humble opinion of yourself; \"a modest apartment\"; \"too modest to wear his medals\"",
+          "match_type": "attested_WordNet_exception",
+          "inflected_source_word": "MODEST"
+        },
+        {
+          "lemma": "modest",
+          "synset": "adj:01851916",
+          "part_of_speech": "adj",
+          "lexical_category": "adj.all",
+          "definition": "free from pomp or affectation; \"comfortable but modest cottages\"; \"a simple rectangular brick building\"; \"a simple man with simple tastes\"",
+          "match_type": "attested_WordNet_exception",
+          "inflected_source_word": "MODEST"
+        },
+        {
+          "lemma": "modest",
+          "synset": "adj:01893510",
+          "part_of_speech": "adj",
+          "lexical_category": "adj.all",
+          "definition": "humble in spirit or manner; suggesting retiring mildness or even cowed submissiveness; \"meek and self-effacing\"",
+          "match_type": "attested_WordNet_exception",
+          "inflected_source_word": "MODEST"
+        },
+        {
+          "lemma": "modest",
+          "synset": "adj:02340458",
+          "part_of_speech": "adj",
+          "lexical_category": "adj.all",
+          "definition": "low or inferior in station or quality; \"a humble cottage\"; \"a lowly parish priest\"; \"a modest man of the people\"; \"small beginnings\"",
+          "match_type": "attested_WordNet_exception",
+          "inflected_source_word": "MODEST"
+        }
+      ]
+    },
+    {
+      "normalized": "MUTED",
+      "status": "pending_context_and_editorial_review",
+      "candidate_categories": [
+        "adj.all"
+      ],
+      "source_senses": [
+        {
+          "lemma": "muted",
+          "synset": "adj:01454985",
+          "part_of_speech": "adj",
+          "lexical_category": "adj.all",
+          "definition": "being or made softer or less loud or clear; \"the dull boom of distant breaking waves\"; \"muffled drums\"; \"the muffled noises of the street\"; \"muted trumpets\"",
+          "match_type": "exact_normalized_source_lemma"
+        },
+        {
+          "lemma": "muted",
+          "synset": "adj:01455540",
+          "part_of_speech": "adj",
+          "lexical_category": "adj.all",
+          "definition": "in a softened tone; \"hushed voices\"; \"muted trumpets\"; \"a subdued whisper\"; \"a quiet reprimand\"",
+          "match_type": "exact_normalized_source_lemma"
+        }
+      ]
+    },
+    {
+      "normalized": "NOA",
+      "status": "pending_context_and_editorial_review",
+      "candidate_categories": [
+        "adj.all"
+      ],
+      "source_senses": [
+        {
+          "lemma": "no(a)",
+          "synset": "adj:02268485",
+          "part_of_speech": "adj",
+          "lexical_category": "adj.all",
+          "definition": "quantifier; used with either mass nouns or plural count nouns for indicating a complete or almost complete lack or zero quantity of; \"we have no bananas\"; \"no eggs left and no money to buy any\"; \"have you no decency?\"; \"did it with no help\"; \"I'll get you there in no time\"",
+          "match_type": "exact_normalized_source_lemma"
+        }
+      ]
+    },
+    {
+      "normalized": "NUTRITIOUS",
+      "status": "pending_context_and_editorial_review",
+      "candidate_categories": [
+        "adj.all"
+      ],
+      "source_senses": [
+        {
+          "lemma": "nutritious",
+          "synset": "adj:02557719",
+          "part_of_speech": "adj",
+          "lexical_category": "adj.all",
+          "definition": "of or providing nourishment; \"good nourishing stew\"",
+          "match_type": "exact_normalized_source_lemma"
+        }
+      ]
+    },
+    {
+      "normalized": "NUTTY",
+      "status": "pending_context_and_editorial_review",
+      "candidate_categories": [
+        "adj.all"
+      ],
+      "source_senses": [
+        {
+          "lemma": "nutty",
+          "synset": "adj:02074929",
+          "part_of_speech": "adj",
+          "lexical_category": "adj.all",
+          "definition": "informal or slang terms for mentally irregular; \"it used to drive my husband balmy\"",
+          "match_type": "exact_normalized_source_lemma"
+        },
+        {
+          "lemma": "nutty",
+          "synset": "adj:02398255",
+          "part_of_speech": "adj",
+          "lexical_category": "adj.all",
+          "definition": "having the flavor of nuts; \"a nutty sherry\"",
+          "match_type": "exact_normalized_source_lemma"
+        }
+      ]
+    },
+    {
+      "normalized": "OBSCENE",
+      "status": "pending_context_and_editorial_review",
+      "candidate_categories": [
+        "adj.all"
+      ],
+      "source_senses": [
+        {
+          "lemma": "obscene",
+          "synset": "adj:00425740",
+          "part_of_speech": "adj",
+          "lexical_category": "adj.all",
+          "definition": "suggestive of or tending to moral looseness; \"lewd whisperings of a dirty old man\"; \"an indecent gesture\"; \"obscene telephone calls\"; \"salacious limericks\"",
+          "match_type": "exact_normalized_source_lemma"
+        },
+        {
+          "lemma": "obscene",
+          "synset": "adj:00684163",
+          "part_of_speech": "adj",
+          "lexical_category": "adj.all",
+          "definition": "designed to incite to indecency or lust; \"the dance often becomes flagrantly obscene\"-Margaret Mead",
+          "match_type": "exact_normalized_source_lemma"
+        },
+        {
+          "lemma": "obscene",
+          "synset": "adj:01625063",
+          "part_of_speech": "adj",
+          "lexical_category": "adj.all",
+          "definition": "offensive to the mind; \"an abhorrent deed\"; \"the obscene massacre at Wounded Knee\"; \"morally repugnant customs\"; \"repulsive behavior\"; \"the most repulsive character in recent novels\"",
+          "match_type": "exact_normalized_source_lemma"
+        }
+      ]
+    },
+    {
+      "normalized": "OFFLINE",
+      "status": "pending_context_and_editorial_review",
+      "candidate_categories": [
+        "adj.all"
+      ],
+      "source_senses": [
+        {
+          "lemma": "off-line",
+          "synset": "adj:01650752",
+          "part_of_speech": "adj",
+          "lexical_category": "adj.all",
+          "definition": "not connected to a computer network; \"off-line resources\"",
+          "match_type": "exact_normalized_source_lemma"
+        },
+        {
+          "lemma": "off-line",
+          "synset": "adj:01651044",
+          "part_of_speech": "adj",
+          "lexical_category": "adj.all",
+          "definition": "not on a regular route of a transportation system; \"an off-line ticket office\"",
+          "match_type": "exact_normalized_source_lemma"
+        }
+      ]
+    },
+    {
+      "normalized": "OMNIPOTENT",
+      "status": "pending_context_and_editorial_review",
+      "candidate_categories": [
+        "adj.all"
+      ],
+      "source_senses": [
+        {
+          "lemma": "omnipotent",
+          "synset": "adj:01826186",
+          "part_of_speech": "adj",
+          "lexical_category": "adj.all",
+          "definition": "having unlimited power",
+          "match_type": "exact_normalized_source_lemma"
+        }
+      ]
+    },
+    {
+      "normalized": "OMNISCIENT",
+      "status": "pending_context_and_editorial_review",
+      "candidate_categories": [
+        "adj.all"
+      ],
+      "source_senses": [
+        {
+          "lemma": "omniscient",
+          "synset": "adj:02569454",
+          "part_of_speech": "adj",
+          "lexical_category": "adj.all",
+          "definition": "infinitely wise",
+          "match_type": "exact_normalized_source_lemma"
+        }
+      ]
+    },
+    {
+      "normalized": "ONLINE",
+      "status": "pending_context_and_editorial_review",
+      "candidate_categories": [
+        "adj.all"
+      ],
+      "source_senses": [
+        {
+          "lemma": "online",
+          "synset": "adj:00667936",
+          "part_of_speech": "adj",
+          "lexical_category": "adj.all",
+          "definition": "being in progress now; \"on-line editorial projects\"",
+          "match_type": "exact_normalized_source_lemma"
+        },
+        {
+          "lemma": "on-line",
+          "synset": "adj:01650401",
+          "part_of_speech": "adj",
+          "lexical_category": "adj.all",
+          "definition": "connected to a computer network or accessible by computer; \"an on-line database\"",
+          "match_type": "exact_normalized_source_lemma"
+        },
+        {
+          "lemma": "online",
+          "synset": "adj:01650401",
+          "part_of_speech": "adj",
+          "lexical_category": "adj.all",
+          "definition": "connected to a computer network or accessible by computer; \"an on-line database\"",
+          "match_type": "exact_normalized_source_lemma"
+        },
+        {
+          "lemma": "on-line",
+          "synset": "adj:01650883",
+          "part_of_speech": "adj",
+          "lexical_category": "adj.all",
+          "definition": "on a regular route of a railroad or bus or airline system; \"on-line industries\"",
+          "match_type": "exact_normalized_source_lemma"
+        },
+        {
+          "lemma": "online",
+          "synset": "adj:01650883",
+          "part_of_speech": "adj",
+          "lexical_category": "adj.all",
+          "definition": "on a regular route of a railroad or bus or airline system; \"on-line industries\"",
+          "match_type": "exact_normalized_source_lemma"
+        }
+      ]
+    },
+    {
+      "normalized": "OPTIMISTIC",
+      "status": "pending_context_and_editorial_review",
+      "candidate_categories": [
+        "adj.all"
+      ],
+      "source_senses": [
+        {
+          "lemma": "optimistic",
+          "synset": "adj:01663571",
+          "part_of_speech": "adj",
+          "lexical_category": "adj.all",
+          "definition": "expecting the best in this best of all possible worlds; \"in an optimistic mood\"; \"optimistic plans\"; \"took an optimistic view\"",
+          "match_type": "exact_normalized_source_lemma"
+        },
+        {
+          "lemma": "optimistic",
+          "synset": "adj:01817908",
+          "part_of_speech": "adj",
+          "lexical_category": "adj.all",
+          "definition": "expecting the best; \"an affirmative outlook\"",
+          "match_type": "exact_normalized_source_lemma"
+        }
+      ]
+    },
+    {
+      "normalized": "OSTENTATIOUS",
+      "status": "pending_context_and_editorial_review",
+      "candidate_categories": [
+        "adj.all"
+      ],
+      "source_senses": [
+        {
+          "lemma": "ostentatious",
+          "synset": "adj:01848355",
+          "part_of_speech": "adj",
+          "lexical_category": "adj.all",
+          "definition": "intended to attract notice and impress others; \"an ostentatious sable coat\"",
+          "match_type": "exact_normalized_source_lemma"
+        },
+        {
+          "lemma": "ostentatious",
+          "synset": "adj:02394975",
+          "part_of_speech": "adj",
+          "lexical_category": "adj.all",
+          "definition": "(of a display) tawdry or vulgar",
+          "match_type": "exact_normalized_source_lemma"
+        }
+      ]
+    },
+    {
+      "normalized": "PAIRED",
+      "status": "pending_context_and_editorial_review",
+      "candidate_categories": [
+        "adj.all"
+      ],
+      "source_senses": [
+        {
+          "lemma": "paired",
+          "synset": "adj:01483076",
+          "part_of_speech": "adj",
+          "lexical_category": "adj.all",
+          "definition": "mated sexually",
+          "match_type": "exact_normalized_source_lemma"
+        },
+        {
+          "lemma": "paired",
+          "synset": "adj:01486960",
+          "part_of_speech": "adj",
+          "lexical_category": "adj.all",
+          "definition": "used of gloves, socks, etc.",
+          "match_type": "exact_normalized_source_lemma"
+        },
+        {
+          "lemma": "paired",
+          "synset": "adj:01663201",
+          "part_of_speech": "adj",
+          "lexical_category": "adj.all",
+          "definition": "of leaves etc; growing in pairs on either side of a stem; \"opposite leaves\"",
+          "match_type": "exact_normalized_source_lemma"
+        }
+      ]
+    },
+    {
+      "normalized": "PATRONIZING",
+      "status": "pending_context_and_editorial_review",
+      "candidate_categories": [
+        "adj.all"
+      ],
+      "source_senses": [
+        {
+          "lemma": "patronizing",
+          "synset": "adj:02338917",
+          "part_of_speech": "adj",
+          "lexical_category": "adj.all",
+          "definition": "(used of behavior or attitude) characteristic of those who treat others with condescension",
+          "match_type": "exact_normalized_source_lemma"
+        }
+      ]
+    },
+    {
+      "normalized": "PESSIMISTIC",
+      "status": "pending_context_and_editorial_review",
+      "candidate_categories": [
+        "adj.all"
+      ],
+      "source_senses": [
+        {
+          "lemma": "pessimistic",
+          "synset": "adj:01664581",
+          "part_of_speech": "adj",
+          "lexical_category": "adj.all",
+          "definition": "expecting the worst possible outcome",
+          "match_type": "exact_normalized_source_lemma"
+        }
+      ]
+    },
+    {
+      "normalized": "PLACID",
+      "status": "pending_context_and_editorial_review",
+      "candidate_categories": [
+        "adj.all"
+      ],
+      "source_senses": [
+        {
+          "lemma": "placid",
+          "synset": "adj:00302951",
+          "part_of_speech": "adj",
+          "lexical_category": "adj.all",
+          "definition": "(of a body of water) free from disturbance by heavy waves; \"a ribbon of sand between the angry sea and the placid bay\"; \"the quiet waters of a lagoon\"; \"a lake of tranquil blue water reflecting a tranquil blue sky\"; \"a smooth channel crossing\"; \"scarcely a ripple on the still water\"; \"unruffled water\"",
+          "match_type": "exact_normalized_source_lemma"
+        },
+        {
+          "lemma": "placid",
+          "synset": "adj:01134486",
+          "part_of_speech": "adj",
+          "lexical_category": "adj.all",
+          "definition": "not easily irritated; \"an equable temper\"; \"not everyone shared his placid temperament\"; \"remained placid despite the repeated delays\"",
+          "match_type": "exact_normalized_source_lemma"
+        }
+      ]
+    },
+    {
+      "normalized": "POLICYMAKING",
+      "status": "pending_context_and_editorial_review",
+      "candidate_categories": [
+        "adj.all"
+      ],
+      "source_senses": [
+        {
+          "lemma": "policy-making",
+          "synset": "adj:01814929",
+          "part_of_speech": "adj",
+          "lexical_category": "adj.all",
+          "definition": "concerned with policy, not administration",
+          "match_type": "exact_normalized_source_lemma"
+        }
+      ]
+    },
+    {
+      "normalized": "POLITIC",
+      "status": "pending_context_and_editorial_review",
+      "candidate_categories": [
+        "adj.all"
+      ],
+      "source_senses": [
+        {
+          "lemma": "politic",
+          "synset": "adj:00758800",
+          "part_of_speech": "adj",
+          "lexical_category": "adj.all",
+          "definition": "smoothly agreeable and courteous with a degree of sophistication; \"he was too politic to quarrel with so important a personage\"; \"the manager pacified the customer with a smooth apology for the error\"",
+          "match_type": "exact_normalized_source_lemma"
+        },
+        {
+          "lemma": "politic",
+          "synset": "adj:01813400",
+          "part_of_speech": "adj",
+          "lexical_category": "adj.all",
+          "definition": "marked by artful prudence, expedience, and shrewdness; \"it is neither polite nor politic to get into other people's quarrels\"; \"a politic decision\"; \"a politic manager\"; \"a politic old scoundrel\"; \"a shrewd and politic reply\"",
+          "match_type": "exact_normalized_source_lemma"
+        }
+      ]
+    },
+    {
+      "normalized": "PRETENTIOUS",
+      "status": "pending_context_and_editorial_review",
+      "candidate_categories": [
+        "adj.all"
+      ],
+      "source_senses": [
+        {
+          "lemma": "pretentious",
+          "synset": "adj:01848355",
+          "part_of_speech": "adj",
+          "lexical_category": "adj.all",
+          "definition": "intended to attract notice and impress others; \"an ostentatious sable coat\"",
+          "match_type": "exact_normalized_source_lemma"
+        },
+        {
+          "lemma": "pretentious",
+          "synset": "adj:01849288",
+          "part_of_speech": "adj",
+          "lexical_category": "adj.all",
+          "definition": "making claim to or creating an appearance of (often undeserved) importance or distinction; \"a pretentious country house\"; \"a pretentious fraud\"; \"a pretentious scholarly edition\"",
+          "match_type": "exact_normalized_source_lemma"
+        },
+        {
+          "lemma": "pretentious",
+          "synset": "adj:02394975",
+          "part_of_speech": "adj",
+          "lexical_category": "adj.all",
+          "definition": "(of a display) tawdry or vulgar",
+          "match_type": "exact_normalized_source_lemma"
+        }
+      ]
+    },
+    {
+      "normalized": "PRINCIPLED",
+      "status": "pending_context_and_editorial_review",
+      "candidate_categories": [
+        "adj.all"
+      ],
+      "source_senses": [
+        {
+          "lemma": "principled",
+          "synset": "adj:01551130",
+          "part_of_speech": "adj",
+          "lexical_category": "adj.all",
+          "definition": "based on or manifesting objectively defined standards of rightness or morality; \"principled pragmatism and unprincipled expediency\"; \"a principled person\"",
+          "match_type": "exact_normalized_source_lemma"
+        }
+      ]
+    },
+    {
+      "normalized": "PROMISCUOUS",
+      "status": "pending_context_and_editorial_review",
+      "candidate_categories": [
+        "adj.all"
+      ],
+      "source_senses": [
+        {
+          "lemma": "promiscuous",
+          "synset": "adj:00361837",
+          "part_of_speech": "adj",
+          "lexical_category": "adj.all",
+          "definition": "casual and unrestrained in sexual behavior; \"her easy virtue\"; \"he was told to avoid loose (or light) women\"; \"wanton behavior\"",
+          "match_type": "exact_normalized_source_lemma"
+        },
+        {
+          "lemma": "promiscuous",
+          "synset": "adj:00774006",
+          "part_of_speech": "adj",
+          "lexical_category": "adj.all",
+          "definition": "not selective of a single class or person; \"Clinton was criticized for his promiscuous solicitation of campaign money\"",
+          "match_type": "exact_normalized_source_lemma"
+        }
+      ]
+    },
+    {
+      "normalized": "PROVOCATIVE",
+      "status": "pending_context_and_editorial_review",
+      "candidate_categories": [
+        "adj.all"
+      ],
+      "source_senses": [
+        {
+          "lemma": "provocative",
+          "synset": "adj:01896478",
+          "part_of_speech": "adj",
+          "lexical_category": "adj.all",
+          "definition": "serving or tending to provoke, excite, or stimulate; stimulating discussion or exciting controversy; \"a provocative remark\"; \"a provocative smile\"; \"provocative Irish tunes which...compel the hearers to dance\"- Anthony Trollope",
+          "match_type": "exact_normalized_source_lemma"
+        },
+        {
+          "lemma": "provocative",
+          "synset": "adj:02134557",
+          "part_of_speech": "adj",
+          "lexical_category": "adj.all",
+          "definition": "exciting sexual desire; \"her gestures and postures became more wanton and provocative\"",
+          "match_type": "exact_normalized_source_lemma"
+        }
+      ]
+    },
+    {
+      "normalized": "PUNGENT",
+      "status": "pending_context_and_editorial_review",
+      "candidate_categories": [
+        "adj.all"
+      ],
+      "source_senses": [
+        {
+          "lemma": "pungent",
+          "synset": "adj:02079313",
+          "part_of_speech": "adj",
+          "lexical_category": "adj.all",
+          "definition": "capable of wounding; \"a barbed compliment\"; \"a biting aphorism\"; \"pungent satire\"",
+          "match_type": "exact_normalized_source_lemma"
+        },
+        {
+          "lemma": "pungent",
+          "synset": "adj:02398608",
+          "part_of_speech": "adj",
+          "lexical_category": "adj.all",
+          "definition": "strong and sharp;\"the pungent taste of radishes\"; \"the acrid smell of burning rubber\"",
+          "match_type": "exact_normalized_source_lemma"
+        }
+      ]
+    },
+    {
+      "normalized": "RACY",
+      "status": "pending_context_and_editorial_review",
+      "candidate_categories": [
+        "adj.all"
+      ],
+      "source_senses": [
+        {
+          "lemma": "racy",
+          "synset": "adj:01524102",
+          "part_of_speech": "adj",
+          "lexical_category": "adj.all",
+          "definition": "designed or suitable for competing in a race",
+          "match_type": "exact_normalized_source_lemma"
+        },
+        {
+          "lemma": "racy",
+          "synset": "adj:02132224",
+          "part_of_speech": "adj",
+          "lexical_category": "adj.all",
+          "definition": "suggestive of sexual impropriety; \"a blue movie\"; \"blue jokes\"; \"he skips asterisks and gives you the gamy details\"; \"a juicy scandal\"; \"a naughty wink\"; \"naughty words\"; \"racy anecdotes\"; \"a risque story\"; \"spicy gossip\"",
+          "match_type": "exact_normalized_source_lemma"
+        },
+        {
+          "lemma": "racy",
+          "synset": "adj:02280333",
+          "part_of_speech": "adj",
+          "lexical_category": "adj.all",
+          "definition": "full of zest or vigor; \"a racy literary style\"",
+          "match_type": "exact_normalized_source_lemma"
+        },
+        {
+          "lemma": "racy",
+          "synset": "adj:02397234",
+          "part_of_speech": "adj",
+          "lexical_category": "adj.all",
+          "definition": "marked by richness and fullness of flavor; \"a rich ruby port\"; \"full-bodied wines\"; \"a robust claret\"; \"the robust flavor of fresh-brewed coffee\"",
+          "match_type": "exact_normalized_source_lemma"
+        }
+      ]
+    },
+    {
+      "normalized": "RANDY",
+      "status": "pending_context_and_editorial_review",
+      "candidate_categories": [
+        "adj.all"
+      ],
+      "source_senses": [
+        {
+          "lemma": "randy",
+          "synset": "adj:02131668",
+          "part_of_speech": "adj",
+          "lexical_category": "adj.all",
+          "definition": "feeling great sexual desire; \"feeling horny\"",
+          "match_type": "exact_normalized_source_lemma"
+        }
+      ]
+    },
+    {
+      "normalized": "RAUNCHY",
+      "status": "pending_context_and_editorial_review",
+      "candidate_categories": [
+        "adj.all"
+      ],
+      "source_senses": [
+        {
+          "lemma": "raunchy",
+          "synset": "adj:00420650",
+          "part_of_speech": "adj",
+          "lexical_category": "adj.all",
+          "definition": "thickly covered with ingrained dirt or soot; \"a miner's begrimed face\"; \"dingy linen\"; \"grimy hands\"; \"grubby little fingers\"; \"a grungy kitchen\"",
+          "match_type": "exact_normalized_source_lemma"
+        },
+        {
+          "lemma": "raunchy",
+          "synset": "adj:00425740",
+          "part_of_speech": "adj",
+          "lexical_category": "adj.all",
+          "definition": "suggestive of or tending to moral looseness; \"lewd whisperings of a dirty old man\"; \"an indecent gesture\"; \"obscene telephone calls\"; \"salacious limericks\"",
+          "match_type": "exact_normalized_source_lemma"
+        },
+        {
+          "lemma": "raunchy",
+          "synset": "adj:02134701",
+          "part_of_speech": "adj",
+          "lexical_category": "adj.all",
+          "definition": "earthy and sexually explicit; \"a raunchy novel\"",
+          "match_type": "exact_normalized_source_lemma"
+        }
+      ]
+    },
+    {
+      "normalized": "RD",
+      "status": "pending_context_and_editorial_review",
+      "candidate_categories": [
+        "adj.all"
+      ],
+      "source_senses": [
+        {
+          "lemma": "3rd",
+          "synset": "adj:02202307",
+          "part_of_speech": "adj",
+          "lexical_category": "adj.all",
+          "definition": "coming next after the second and just before the fourth in position",
+          "match_type": "exact_normalized_source_lemma"
+        },
+        {
+          "lemma": "23rd",
+          "synset": "adj:02205045",
+          "part_of_speech": "adj",
+          "lexical_category": "adj.all",
+          "definition": "coming next after the twenty-second in position",
+          "match_type": "exact_normalized_source_lemma"
+        },
+        {
+          "lemma": "33rd",
+          "synset": "adj:02206173",
+          "part_of_speech": "adj",
+          "lexical_category": "adj.all",
+          "definition": "the ordinal number of thirty-three in counting order",
+          "match_type": "exact_normalized_source_lemma"
+        },
+        {
+          "lemma": "43rd",
+          "synset": "adj:02207334",
+          "part_of_speech": "adj",
+          "lexical_category": "adj.all",
+          "definition": "the ordinal number of forty-three in counting order",
+          "match_type": "exact_normalized_source_lemma"
+        }
+      ]
+    },
+    {
+      "normalized": "REFORMED",
+      "status": "pending_context_and_editorial_review",
+      "candidate_categories": [
+        "adj.all"
+      ],
+      "source_senses": [
+        {
+          "lemma": "re-formed",
+          "synset": "adj:01670856",
+          "part_of_speech": "adj",
+          "lexical_category": "adj.all",
+          "definition": "formed again or anew; \"the re-formed scout troop has been very active\"",
+          "match_type": "exact_normalized_source_lemma"
+        },
+        {
+          "lemma": "Reformed",
+          "synset": "adj:01691975",
+          "part_of_speech": "adj",
+          "lexical_category": "adj.all",
+          "definition": "of or relating to the body of Protestant Christianity arising during the Reformation; used of some Protestant churches especially Calvinist as distinct from Lutheran; \"Dutch Reformed theology\"",
+          "match_type": "exact_normalized_source_lemma"
+        },
+        {
+          "lemma": "reformed",
+          "synset": "adj:01957312",
+          "part_of_speech": "adj",
+          "lexical_category": "adj.all",
+          "definition": "caused to abandon an evil manner of living and follow a good one; \"a reformed drunkard\"",
+          "match_type": "exact_normalized_source_lemma"
+        }
+      ]
+    },
+    {
+      "normalized": "RESONANT",
+      "status": "pending_context_and_editorial_review",
+      "candidate_categories": [
+        "adj.all"
+      ],
+      "source_senses": [
+        {
+          "lemma": "resonant",
+          "synset": "adj:01977669",
+          "part_of_speech": "adj",
+          "lexical_category": "adj.all",
+          "definition": "serving to bring to mind; \"cannot forbear to close on this redolent literary note\"- Wilder Hobson; \"a campaign redolent of machine politics\"",
+          "match_type": "exact_normalized_source_lemma"
+        },
+        {
+          "lemma": "resonant",
+          "synset": "adj:02010536",
+          "part_of_speech": "adj",
+          "lexical_category": "adj.all",
+          "definition": "characterized by resonance; \"a resonant voice\"; \"hear the rolling thunder\"",
+          "match_type": "exact_normalized_source_lemma"
+        }
+      ]
+    },
+    {
+      "normalized": "RESOURCEFUL",
+      "status": "pending_context_and_editorial_review",
+      "candidate_categories": [
+        "adj.all"
+      ],
+      "source_senses": [
+        {
+          "lemma": "resourceful",
+          "synset": "adj:00307182",
+          "part_of_speech": "adj",
+          "lexical_category": "adj.all",
+          "definition": "having inner resources; adroit or imaginative; \"someone who is resourceful is capable of dealing with difficult situations\"; \"an able and resourceful politician\"; \"the most resourceful cook in town\"",
+          "match_type": "exact_normalized_source_lemma"
+        }
+      ]
+    },
+    {
+      "normalized": "RIT",
+      "status": "pending_context_and_editorial_review",
+      "candidate_categories": [
+        "adj.all"
+      ],
+      "source_senses": [
+        {
+          "lemma": "rit.",
+          "synset": "adj:02538508",
+          "part_of_speech": "adj",
+          "lexical_category": "adj.all",
+          "definition": "gradually decreasing in tempo",
+          "match_type": "exact_normalized_source_lemma"
+        }
+      ]
+    },
+    {
+      "normalized": "SADISTIC",
+      "status": "pending_context_and_editorial_review",
+      "candidate_categories": [
+        "adj.all"
+      ],
+      "source_senses": [
+        {
+          "lemma": "sadistic",
+          "synset": "adj:02057535",
+          "part_of_speech": "adj",
+          "lexical_category": "adj.all",
+          "definition": "deriving pleasure or sexual gratification from inflicting pain on another",
+          "match_type": "exact_normalized_source_lemma"
+        }
+      ]
+    },
+    {
+      "normalized": "SCATHING",
+      "status": "pending_context_and_editorial_review",
+      "candidate_categories": [
+        "adj.all"
+      ],
+      "source_senses": [
+        {
+          "lemma": "scathing",
+          "synset": "adj:00648614",
+          "part_of_speech": "adj",
+          "lexical_category": "adj.all",
+          "definition": "marked by harshly abusive criticism; \"his scathing remarks about silly lady novelists\"; \"her vituperative railing\"",
+          "match_type": "exact_normalized_source_lemma"
+        }
+      ]
+    },
+    {
+      "normalized": "SCHEMING",
+      "status": "pending_context_and_editorial_review",
+      "candidate_categories": [
+        "adj.all"
+      ],
+      "source_senses": [
+        {
+          "lemma": "scheming",
+          "synset": "adj:00148852",
+          "part_of_speech": "adj",
+          "lexical_category": "adj.all",
+          "definition": "concealing crafty designs for advancing your own interest; \"a selfish and designing nation obsessed with the dark schemes of European intrigue\"- W.Churchill; \"a scheming wife\"; \"a scheming gold digger\"",
+          "match_type": "exact_normalized_source_lemma"
+        },
+        {
+          "lemma": "scheming",
+          "synset": "adj:01155603",
+          "part_of_speech": "adj",
+          "lexical_category": "adj.all",
+          "definition": "used of persons; \"the most calculating and selfish men in the community\"",
+          "match_type": "exact_normalized_source_lemma"
+        }
+      ]
+    },
+    {
+      "normalized": "SEISMIC",
+      "status": "pending_context_and_editorial_review",
+      "candidate_categories": [
+        "adj.all"
+      ],
+      "source_senses": [
+        {
+          "lemma": "seismic",
+          "synset": "adj:02293230",
+          "part_of_speech": "adj",
+          "lexical_category": "adj.all",
+          "definition": "subject to or caused by an earthquake or earth vibration",
+          "match_type": "exact_normalized_source_lemma"
+        }
+      ]
+    },
+    {
+      "normalized": "SEXY",
+      "status": "pending_context_and_editorial_review",
+      "candidate_categories": [
+        "adj.all"
+      ],
+      "source_senses": [
+        {
+          "lemma": "sexy",
+          "synset": "adj:02131072",
+          "part_of_speech": "adj",
+          "lexical_category": "adj.all",
+          "definition": "marked by or tending to arouse sexual desire or interest; \"feeling sexy\"; \"sexy clothes\"; \"sexy poses\"; \"a sexy book\"; \"sexy jokes\"",
+          "match_type": "exact_normalized_source_lemma"
+        },
+        {
+          "lemma": "sexy",
+          "synset": "adj:02137538",
+          "part_of_speech": "adj",
+          "lexical_category": "adj.all",
+          "definition": "exciting sexual desire",
+          "match_type": "exact_normalized_source_lemma"
+        }
+      ]
+    },
+    {
+      "normalized": "SEXIER",
+      "status": "pending_context_and_editorial_review",
+      "candidate_categories": [
+        "adj.all"
+      ],
+      "source_senses": [
+        {
+          "lemma": "sexy",
+          "synset": "adj:02131072",
+          "part_of_speech": "adj",
+          "lexical_category": "adj.all",
+          "definition": "marked by or tending to arouse sexual desire or interest; \"feeling sexy\"; \"sexy clothes\"; \"sexy poses\"; \"a sexy book\"; \"sexy jokes\"",
+          "match_type": "attested_WordNet_exception",
+          "inflected_source_word": "SEXIER"
+        },
+        {
+          "lemma": "sexy",
+          "synset": "adj:02137538",
+          "part_of_speech": "adj",
+          "lexical_category": "adj.all",
+          "definition": "exciting sexual desire",
+          "match_type": "attested_WordNet_exception",
+          "inflected_source_word": "SEXIER"
+        }
+      ]
+    },
+    {
+      "normalized": "SEXIEST",
+      "status": "pending_context_and_editorial_review",
+      "candidate_categories": [
+        "adj.all"
+      ],
+      "source_senses": [
+        {
+          "lemma": "sexy",
+          "synset": "adj:02131072",
+          "part_of_speech": "adj",
+          "lexical_category": "adj.all",
+          "definition": "marked by or tending to arouse sexual desire or interest; \"feeling sexy\"; \"sexy clothes\"; \"sexy poses\"; \"a sexy book\"; \"sexy jokes\"",
+          "match_type": "attested_WordNet_exception",
+          "inflected_source_word": "SEXIEST"
+        },
+        {
+          "lemma": "sexy",
+          "synset": "adj:02137538",
+          "part_of_speech": "adj",
+          "lexical_category": "adj.all",
+          "definition": "exciting sexual desire",
+          "match_type": "attested_WordNet_exception",
+          "inflected_source_word": "SEXIEST"
+        }
+      ]
+    },
+    {
+      "normalized": "SHREWD",
+      "status": "pending_context_and_editorial_review",
+      "candidate_categories": [
+        "adj.all"
+      ],
+      "source_senses": [
+        {
+          "lemma": "shrewd",
+          "synset": "adj:00438909",
+          "part_of_speech": "adj",
+          "lexical_category": "adj.all",
+          "definition": "marked by practical hardheaded intelligence; \"a smart businessman\"; \"an astute tenant always reads the small print in a lease\"; \"he was too shrewd to go along with them on a road that could lead only to their overthrow\"",
+          "match_type": "exact_normalized_source_lemma"
+        },
+        {
+          "lemma": "shrewd",
+          "synset": "adj:01155603",
+          "part_of_speech": "adj",
+          "lexical_category": "adj.all",
+          "definition": "used of persons; \"the most calculating and selfish men in the community\"",
+          "match_type": "exact_normalized_source_lemma"
+        }
+      ]
+    },
+    {
+      "normalized": "SILKY",
+      "status": "pending_context_and_editorial_review",
+      "candidate_categories": [
+        "adj.all"
+      ],
+      "source_senses": [
+        {
+          "lemma": "silky",
+          "synset": "adj:00282675",
+          "part_of_speech": "adj",
+          "lexical_category": "adj.all",
+          "definition": "having a smooth, gleaming surface reflecting light; \"glossy auburn hair\"; \"satiny gardenia petals\"; \"sleek black fur\"; \"silken eyelashes\"; \"silky skin\"; \"a silklike fabric\"; \"slick seals and otters\"",
+          "match_type": "exact_normalized_source_lemma"
+        }
+      ]
+    },
+    {
+      "normalized": "SLY",
+      "status": "pending_context_and_editorial_review",
+      "candidate_categories": [
+        "adj.all"
+      ],
+      "source_senses": [
+        {
+          "lemma": "sly",
+          "synset": "adj:00148078",
+          "part_of_speech": "adj",
+          "lexical_category": "adj.all",
+          "definition": "marked by skill in deception; \"cunning men often pass for wise\"; \"deep political machinations\"; \"a foxy scheme\"; \"a slick evasive answer\"; \"sly as a fox\"; \"tricky Dick\"; \"a wily old attorney\"",
+          "match_type": "exact_normalized_source_lemma"
+        }
+      ]
+    },
+    {
+      "normalized": "SONIC",
+      "status": "pending_context_and_editorial_review",
+      "candidate_categories": [
+        "adj.all"
+      ],
+      "source_senses": [
+        {
+          "lemma": "sonic",
+          "synset": "adj:00174150",
+          "part_of_speech": "adj",
+          "lexical_category": "adj.all",
+          "definition": "relating to audible sound; \"a sonic wave\"",
+          "match_type": "exact_normalized_source_lemma"
+        },
+        {
+          "lemma": "sonic",
+          "synset": "adj:00175528",
+          "part_of_speech": "adj",
+          "lexical_category": "adj.all",
+          "definition": "(of speed) having or caused by speed approximately equal to that of sound in air at sea level; \"a sonic boom\"",
+          "match_type": "exact_normalized_source_lemma"
+        }
+      ]
+    },
+    {
+      "normalized": "SPICY",
+      "status": "pending_context_and_editorial_review",
+      "candidate_categories": [
+        "adj.all"
+      ],
+      "source_senses": [
+        {
+          "lemma": "spicy",
+          "synset": "adj:02132224",
+          "part_of_speech": "adj",
+          "lexical_category": "adj.all",
+          "definition": "suggestive of sexual impropriety; \"a blue movie\"; \"blue jokes\"; \"he skips asterisks and gives you the gamy details\"; \"a juicy scandal\"; \"a naughty wink\"; \"naughty words\"; \"racy anecdotes\"; \"a risque story\"; \"spicy gossip\"",
+          "match_type": "exact_normalized_source_lemma"
+        },
+        {
+          "lemma": "spicy",
+          "synset": "adj:02397732",
+          "part_of_speech": "adj",
+          "lexical_category": "adj.all",
+          "definition": "producing a burning sensation on the taste nerves; \"hot salsa\"; \"jalapeno peppers are very hot\"",
+          "match_type": "exact_normalized_source_lemma"
+        },
+        {
+          "lemma": "spicy",
+          "synset": "adj:02398378",
+          "part_of_speech": "adj",
+          "lexical_category": "adj.all",
+          "definition": "having an agreeably pungent taste",
+          "match_type": "exact_normalized_source_lemma"
+        }
+      ]
+    },
+    {
+      "normalized": "SPORADIC",
+      "status": "pending_context_and_editorial_review",
+      "candidate_categories": [
+        "adj.all"
+      ],
+      "source_senses": [
+        {
+          "lemma": "sporadic",
+          "synset": "adj:00593374",
+          "part_of_speech": "adj",
+          "lexical_category": "adj.all",
+          "definition": "recurring in scattered and irregular or unpredictable instances; \"a city subjected to sporadic bombing raids\"",
+          "match_type": "exact_normalized_source_lemma"
+        }
+      ]
+    },
+    {
+      "normalized": "ST",
+      "status": "pending_context_and_editorial_review",
+      "candidate_categories": [
+        "adj.all"
+      ],
+      "source_senses": [
+        {
+          "lemma": "1st",
+          "synset": "adj:02202047",
+          "part_of_speech": "adj",
+          "lexical_category": "adj.all",
+          "definition": "indicating the beginning unit in a series",
+          "match_type": "exact_normalized_source_lemma"
+        },
+        {
+          "lemma": "21st",
+          "synset": "adj:02204823",
+          "part_of_speech": "adj",
+          "lexical_category": "adj.all",
+          "definition": "coming next after the twentieth in position",
+          "match_type": "exact_normalized_source_lemma"
+        },
+        {
+          "lemma": "31st",
+          "synset": "adj:02205947",
+          "part_of_speech": "adj",
+          "lexical_category": "adj.all",
+          "definition": "coming next after the thirtieth in position",
+          "match_type": "exact_normalized_source_lemma"
+        },
+        {
+          "lemma": "41st",
+          "synset": "adj:02207105",
+          "part_of_speech": "adj",
+          "lexical_category": "adj.all",
+          "definition": "the ordinal number of forty-one in counting order",
+          "match_type": "exact_normalized_source_lemma"
+        },
+        {
+          "lemma": "101st",
+          "synset": "adj:02209551",
+          "part_of_speech": "adj",
+          "lexical_category": "adj.all",
+          "definition": "the ordinal number of one hundred one in counting order",
+          "match_type": "exact_normalized_source_lemma"
+        }
+      ]
+    },
+    {
+      "normalized": "STEALTHY",
+      "status": "pending_context_and_editorial_review",
+      "candidate_categories": [
+        "adj.all"
+      ],
+      "source_senses": [
+        {
+          "lemma": "stealthy",
+          "synset": "adj:02088974",
+          "part_of_speech": "adj",
+          "lexical_category": "adj.all",
+          "definition": "marked by quiet and caution and secrecy; taking pains to avoid being observed; \"a furtive manner\"; \"a sneak attack\"; \"stealthy footsteps\"; \"a surreptitious glance at his watch\"",
+          "match_type": "exact_normalized_source_lemma"
+        }
+      ]
+    },
+    {
+      "normalized": "STEAMY",
+      "status": "pending_context_and_editorial_review",
+      "candidate_categories": [
+        "adj.all"
+      ],
+      "source_senses": [
+        {
+          "lemma": "steamy",
+          "synset": "adj:02131668",
+          "part_of_speech": "adj",
+          "lexical_category": "adj.all",
+          "definition": "feeling great sexual desire; \"feeling horny\"",
+          "match_type": "exact_normalized_source_lemma"
+        },
+        {
+          "lemma": "steamy",
+          "synset": "adj:02549691",
+          "part_of_speech": "adj",
+          "lexical_category": "adj.all",
+          "definition": "hot or warm and humid; \"muggy weather\"; \"the steamy tropics\"; \"sticky weather\"",
+          "match_type": "exact_normalized_source_lemma"
+        },
+        {
+          "lemma": "steamy",
+          "synset": "adj:02550517",
+          "part_of_speech": "adj",
+          "lexical_category": "adj.all",
+          "definition": "filled with steam or emitting moisture in the form of vapor or mist; \"a steaming kettle\"; \"steamy towels\"",
+          "match_type": "exact_normalized_source_lemma"
+        }
+      ]
+    },
+    {
+      "normalized": "SULTRY",
+      "status": "pending_context_and_editorial_review",
+      "candidate_categories": [
+        "adj.all"
+      ],
+      "source_senses": [
+        {
+          "lemma": "sultry",
+          "synset": "adj:01250121",
+          "part_of_speech": "adj",
+          "lexical_category": "adj.all",
+          "definition": "characterized by oppressive heat and humidity; \"the summer was sultry and oppressive\"; \"the stifling atmosphere\"; \"the sulfurous atmosphere preceding a thunderstorm\"",
+          "match_type": "exact_normalized_source_lemma"
+        },
+        {
+          "lemma": "sultry",
+          "synset": "adj:01257145",
+          "part_of_speech": "adj",
+          "lexical_category": "adj.all",
+          "definition": "sexually exciting or gratifying; \"sensual excesses\"; \"a sultry look\"; \"a sultry dance\"",
+          "match_type": "exact_normalized_source_lemma"
+        }
+      ]
+    },
+    {
+      "normalized": "SUREFIRE",
+      "status": "pending_context_and_editorial_review",
+      "candidate_categories": [
+        "adj.all"
+      ],
+      "source_senses": [
+        {
+          "lemma": "sure-fire",
+          "synset": "adj:02332845",
+          "part_of_speech": "adj",
+          "lexical_category": "adj.all",
+          "definition": "certain to be successful; \"a sure-fire way to get rich\"",
+          "match_type": "exact_normalized_source_lemma"
+        }
+      ]
+    },
+    {
+      "normalized": "THUNDEROUS",
+      "status": "pending_context_and_editorial_review",
+      "candidate_categories": [
+        "adj.all"
+      ],
+      "source_senses": [
+        {
+          "lemma": "thunderous",
+          "synset": "adj:00178464",
+          "part_of_speech": "adj",
+          "lexical_category": "adj.all",
+          "definition": "extremely ominous; \"world events of thunderous import\"",
+          "match_type": "exact_normalized_source_lemma"
+        },
+        {
+          "lemma": "thunderous",
+          "synset": "adj:01453467",
+          "part_of_speech": "adj",
+          "lexical_category": "adj.all",
+          "definition": "loud enough to cause (temporary) hearing loss",
+          "match_type": "exact_normalized_source_lemma"
+        }
+      ]
+    },
+    {
+      "normalized": "TRANSCONTINENTAL",
+      "status": "pending_context_and_editorial_review",
+      "candidate_categories": [
+        "adj.all"
+      ],
+      "source_senses": [
+        {
+          "lemma": "transcontinental",
+          "synset": "adj:01567294",
+          "part_of_speech": "adj",
+          "lexical_category": "adj.all",
+          "definition": "spanning or crossing or on the farther side of a continent; \"transcontinental railway\"; \"transcontinental travelers\"; \"a transcontinental city\"",
+          "match_type": "exact_normalized_source_lemma"
+        }
+      ]
+    },
+    {
+      "normalized": "TRANSITORY",
+      "status": "pending_context_and_editorial_review",
+      "candidate_categories": [
+        "adj.all"
+      ],
+      "source_senses": [
+        {
+          "lemma": "transitory",
+          "synset": "adj:01756292",
+          "part_of_speech": "adj",
+          "lexical_category": "adj.all",
+          "definition": "lasting a very short time; \"the ephemeral joys of childhood\"; \"a passing fancy\"; \"youth's transient beauty\"; \"love is transitory but it is eternal\"; \"fugacious blossoms\"",
+          "match_type": "exact_normalized_source_lemma"
+        }
+      ]
+    },
+    {
+      "normalized": "TRANSLUCENT",
+      "status": "pending_context_and_editorial_review",
+      "candidate_categories": [
+        "adj.all"
+      ],
+      "source_senses": [
+        {
+          "lemma": "translucent",
+          "synset": "adj:00432626",
+          "part_of_speech": "adj",
+          "lexical_category": "adj.all",
+          "definition": "allowing light to pass through diffusely; \"translucent amber\"; \"semitransparent curtains at the windows\"",
+          "match_type": "exact_normalized_source_lemma"
+        }
+      ]
+    },
+    {
+      "normalized": "TRUTHFUL",
+      "status": "pending_context_and_editorial_review",
+      "candidate_categories": [
+        "adj.all"
+      ],
+      "source_senses": [
+        {
+          "lemma": "truthful",
+          "synset": "adj:01225398",
+          "part_of_speech": "adj",
+          "lexical_category": "adj.all",
+          "definition": "expressing or given to expressing the truth; \"a true statement\"; \"gave truthful testimony\"; \"a truthful person\"",
+          "match_type": "exact_normalized_source_lemma"
+        },
+        {
+          "lemma": "truthful",
+          "synset": "adj:02461438",
+          "part_of_speech": "adj",
+          "lexical_category": "adj.all",
+          "definition": "conforming to truth; \"I wouldn't have told you this if it weren't so\"; \"a truthful statement\"",
+          "match_type": "exact_normalized_source_lemma"
+        }
+      ]
+    },
+    {
+      "normalized": "TURBULENT",
+      "status": "pending_context_and_editorial_review",
+      "candidate_categories": [
+        "adj.all"
+      ],
+      "source_senses": [
+        {
+          "lemma": "turbulent",
+          "synset": "adj:00087597",
+          "part_of_speech": "adj",
+          "lexical_category": "adj.all",
+          "definition": "(of a liquid) agitated vigorously; in a state of turbulence; \"the river's roiling current\"; \"turbulent rapids\"",
+          "match_type": "exact_normalized_source_lemma"
+        },
+        {
+          "lemma": "turbulent",
+          "synset": "adj:01923720",
+          "part_of_speech": "adj",
+          "lexical_category": "adj.all",
+          "definition": "characterized by unrest or disorder or insubordination; \"effects of the struggle will be violent and disruptive\"; \"riotous times\"; \"these troubled areas\"; \"the tumultuous years of his administration\"; \"a turbulent and unruly childhood\"",
+          "match_type": "exact_normalized_source_lemma"
+        }
+      ]
+    },
+    {
+      "normalized": "UNATTACHED",
+      "status": "pending_context_and_editorial_review",
+      "candidate_categories": [
+        "adj.all"
+      ],
+      "source_senses": [
+        {
+          "lemma": "unattached",
+          "synset": "adj:00158407",
+          "part_of_speech": "adj",
+          "lexical_category": "adj.all",
+          "definition": "not associated in an exclusive sexual relationship",
+          "match_type": "exact_normalized_source_lemma"
+        },
+        {
+          "lemma": "unattached",
+          "synset": "adj:00160288",
+          "part_of_speech": "adj",
+          "lexical_category": "adj.all",
+          "definition": "(of animals) able to swim about; not attached",
+          "match_type": "exact_normalized_source_lemma"
+        },
+        {
+          "lemma": "unattached",
+          "synset": "adj:00568881",
+          "part_of_speech": "adj",
+          "lexical_category": "adj.all",
+          "definition": "not fastened together",
+          "match_type": "exact_normalized_source_lemma"
+        }
+      ]
+    },
+    {
+      "normalized": "UNBECOMING",
+      "status": "pending_context_and_editorial_review",
+      "candidate_categories": [
+        "adj.all"
+      ],
+      "source_senses": [
+        {
+          "lemma": "unbecoming",
+          "synset": "adj:01880918",
+          "part_of_speech": "adj",
+          "lexical_category": "adj.all",
+          "definition": "not in keeping with accepted standards of what is right or proper in polite society; \"was buried with indecent haste\"; \"indecorous behavior\"; \"language unbecoming to a lady\"; \"unseemly to use profanity\"; \"moved to curb their untoward ribaldry\"",
+          "match_type": "exact_normalized_source_lemma"
+        }
+      ]
+    },
+    {
+      "normalized": "UNCHANGING",
+      "status": "pending_context_and_editorial_review",
+      "candidate_categories": [
+        "adj.all"
+      ],
+      "source_senses": [
+        {
+          "lemma": "unchanging",
+          "synset": "adj:00348018",
+          "part_of_speech": "adj",
+          "lexical_category": "adj.all",
+          "definition": "showing little if any change; \"a static population\"",
+          "match_type": "exact_normalized_source_lemma"
+        },
+        {
+          "lemma": "unchanging",
+          "synset": "adj:00577782",
+          "part_of_speech": "adj",
+          "lexical_category": "adj.all",
+          "definition": "conforming to the same principles or course of action over time",
+          "match_type": "exact_normalized_source_lemma"
+        }
+      ]
+    },
+    {
+      "normalized": "UNCOMPROMISING",
+      "status": "pending_context_and_editorial_review",
+      "candidate_categories": [
+        "adj.all"
+      ],
+      "source_senses": [
+        {
+          "lemma": "uncompromising",
+          "synset": "adj:01025913",
+          "part_of_speech": "adj",
+          "lexical_category": "adj.all",
+          "definition": "not making concessions; \"took an uncompromising stance in the peace talks\"; \"uncompromising honesty\"",
+          "match_type": "exact_normalized_source_lemma"
+        }
+      ]
+    },
+    {
+      "normalized": "UNEQUIVOCAL",
+      "status": "pending_context_and_editorial_review",
+      "candidate_categories": [
+        "adj.all"
+      ],
+      "source_senses": [
+        {
+          "lemma": "unequivocal",
+          "synset": "adj:00896555",
+          "part_of_speech": "adj",
+          "lexical_category": "adj.all",
+          "definition": "admitting of no doubt or misunderstanding; having only one meaning or interpretation and leading to only one conclusion; \"unequivocal evidence\"; \"took an unequivocal position\"; \"an unequivocal success\"; \"an unequivocal promise\"; \"an unequivocal (or univocal) statement\"",
+          "match_type": "exact_normalized_source_lemma"
+        },
+        {
+          "lemma": "unequivocal",
+          "synset": "adj:00940969",
+          "part_of_speech": "adj",
+          "lexical_category": "adj.all",
+          "definition": "clearly defined or formulated; \"the plain and unequivocal language of the laws\"- R.B.Taney",
+          "match_type": "exact_normalized_source_lemma"
+        }
+      ]
+    },
+    {
+      "normalized": "UNYIELDING",
+      "status": "pending_context_and_editorial_review",
+      "candidate_categories": [
+        "adj.all"
+      ],
+      "source_senses": [
+        {
+          "lemma": "unyielding",
+          "synset": "adj:01152620",
+          "part_of_speech": "adj",
+          "lexical_category": "adj.all",
+          "definition": "resistant to physical force or pressure; \"an unyielding head support\"",
+          "match_type": "exact_normalized_source_lemma"
+        },
+        {
+          "lemma": "unyielding",
+          "synset": "adj:02327569",
+          "part_of_speech": "adj",
+          "lexical_category": "adj.all",
+          "definition": "stubbornly unyielding; \"dogged persistence\"; \"dour determination\"; \"the most vocal and pertinacious of all the critics\"; \"a mind not gifted to discover truth but tenacious to hold it\"- T.S.Eliot; \"men tenacious of opinion\"",
+          "match_type": "exact_normalized_source_lemma"
+        }
+      ]
+    },
+    {
+      "normalized": "UNSAVORY",
+      "status": "pending_context_and_editorial_review",
+      "candidate_categories": [
+        "adj.all"
+      ],
+      "source_senses": [
+        {
+          "lemma": "unsavory",
+          "synset": "adj:01627965",
+          "part_of_speech": "adj",
+          "lexical_category": "adj.all",
+          "definition": "morally offensive; \"an unsavory reputation\"; \"an unsavory scandal\"",
+          "match_type": "exact_normalized_source_lemma"
+        },
+        {
+          "lemma": "unsavory",
+          "synset": "adj:01716971",
+          "part_of_speech": "adj",
+          "lexical_category": "adj.all",
+          "definition": "not pleasing in odor or taste",
+          "match_type": "exact_normalized_source_lemma"
+        }
+      ]
+    },
+    {
+      "normalized": "UNSELFISH",
+      "status": "pending_context_and_editorial_review",
+      "candidate_categories": [
+        "adj.all"
+      ],
+      "source_senses": [
+        {
+          "lemma": "unselfish",
+          "synset": "adj:01112471",
+          "part_of_speech": "adj",
+          "lexical_category": "adj.all",
+          "definition": "not greedy",
+          "match_type": "exact_normalized_source_lemma"
+        },
+        {
+          "lemma": "unselfish",
+          "synset": "adj:02099019",
+          "part_of_speech": "adj",
+          "lexical_category": "adj.all",
+          "definition": "disregarding your own advantages and welfare over those of others",
+          "match_type": "exact_normalized_source_lemma"
+        }
+      ]
+    },
+    {
+      "normalized": "UNWAVERING",
+      "status": "pending_context_and_editorial_review",
+      "candidate_categories": [
+        "adj.all"
+      ],
+      "source_senses": [
+        {
+          "lemma": "unwavering",
+          "synset": "adj:01990653",
+          "part_of_speech": "adj",
+          "lexical_category": "adj.all",
+          "definition": "marked by firm determination or resolution; not shakable; \"firm convictions\"; \"a firm mouth\"; \"steadfast resolve\"; \"a man of unbendable perseverence\"; \"unwavering loyalty\"",
+          "match_type": "exact_normalized_source_lemma"
+        },
+        {
+          "lemma": "unwavering",
+          "synset": "adj:02302537",
+          "part_of_speech": "adj",
+          "lexical_category": "adj.all",
+          "definition": "not showing abrupt variations; \"spoke in a level voice\"; \"she gave him a level look\"- Louis Auchincloss",
+          "match_type": "exact_normalized_source_lemma"
+        }
+      ]
+    },
+    {
+      "normalized": "VELVETY",
+      "status": "pending_context_and_editorial_review",
+      "candidate_categories": [
+        "adj.all"
+      ],
+      "source_senses": [
+        {
+          "lemma": "velvety",
+          "synset": "adj:01155206",
+          "part_of_speech": "adj",
+          "lexical_category": "adj.all",
+          "definition": "resembling velvet in having a smooth soft surface",
+          "match_type": "exact_normalized_source_lemma"
+        },
+        {
+          "lemma": "velvety",
+          "synset": "adj:02238310",
+          "part_of_speech": "adj",
+          "lexical_category": "adj.all",
+          "definition": "smooth and soft to sight or hearing or touch or taste",
+          "match_type": "exact_normalized_source_lemma"
+        }
+      ]
+    },
+    {
+      "normalized": "VERDANT",
+      "status": "pending_context_and_editorial_review",
+      "candidate_categories": [
+        "adj.all"
+      ],
+      "source_senses": [
+        {
+          "lemma": "verdant",
+          "synset": "adj:00016647",
+          "part_of_speech": "adj",
+          "lexical_category": "adj.all",
+          "definition": "characterized by abundance of verdure",
+          "match_type": "exact_normalized_source_lemma"
+        }
+      ]
+    },
+    {
+      "normalized": "VOLUPTUOUS",
+      "status": "pending_context_and_editorial_review",
+      "candidate_categories": [
+        "adj.all"
+      ],
+      "source_senses": [
+        {
+          "lemma": "voluptuous",
+          "synset": "adj:01298239",
+          "part_of_speech": "adj",
+          "lexical_category": "adj.all",
+          "definition": "displaying luxury and furnishing gratification to the senses; \"an epicurean banquet\"; \"enjoyed a luxurious suite with a crystal chandelier and thick oriental rugs\"; \"Lucullus spent the remainder of his days in voluptuous magnificence\"; \"a chinchilla robe of sybaritic lavishness\"",
+          "match_type": "exact_normalized_source_lemma"
+        },
+        {
+          "lemma": "voluptuous",
+          "synset": "adj:02132967",
+          "part_of_speech": "adj",
+          "lexical_category": "adj.all",
+          "definition": "having strong sexual appeal; \"juicy barmaids\"; \"a red-hot mama\"; \"a voluptuous woman\"; \"a toothsome blonde in a tight dress\"",
+          "match_type": "exact_normalized_source_lemma"
+        },
+        {
+          "lemma": "voluptuous",
+          "synset": "adj:02138989",
+          "part_of_speech": "adj",
+          "lexical_category": "adj.all",
+          "definition": "(of a woman's body) having a large bosom and pleasing curves; \"Hollywood seems full of curvaceous blondes\"; \"a curvy young woman in a tight dress\"",
+          "match_type": "exact_normalized_source_lemma"
+        }
+      ]
+    },
+    {
+      "normalized": "WACKY",
+      "status": "pending_context_and_editorial_review",
+      "candidate_categories": [
+        "adj.all"
+      ],
+      "source_senses": [
+        {
+          "lemma": "wacky",
+          "synset": "adj:02074929",
+          "part_of_speech": "adj",
+          "lexical_category": "adj.all",
+          "definition": "informal or slang terms for mentally irregular; \"it used to drive my husband balmy\"",
+          "match_type": "exact_normalized_source_lemma"
+        },
+        {
+          "lemma": "wacky",
+          "synset": "adj:02571536",
+          "part_of_speech": "adj",
+          "lexical_category": "adj.all",
+          "definition": "ludicrous, foolish; \"gave me a cockamamie reason for not going\"; \"wore a goofy hat\"; \"a silly idea\"; \"some wacky plan for selling more books\"",
+          "match_type": "exact_normalized_source_lemma"
+        }
+      ]
+    },
+    {
+      "normalized": "WRY",
+      "status": "pending_context_and_editorial_review",
+      "candidate_categories": [
+        "adj.all"
+      ],
+      "source_senses": [
+        {
+          "lemma": "wry",
+          "synset": "adj:01266092",
+          "part_of_speech": "adj",
+          "lexical_category": "adj.all",
+          "definition": "humorously sarcastic or mocking; \"dry humor\"; \"an ironic remark often conveys an intended meaning obliquely\"; \"an ironic novel\"; \"an ironical smile\"; \"with a wry Scottish wit\"",
+          "match_type": "exact_normalized_source_lemma"
+        },
+        {
+          "lemma": "wry",
+          "synset": "adj:02314371",
+          "part_of_speech": "adj",
+          "lexical_category": "adj.all",
+          "definition": "bent to one side; \"a wry neck\"",
+          "match_type": "exact_normalized_source_lemma"
+        }
+      ]
+    }
+  ]
+}

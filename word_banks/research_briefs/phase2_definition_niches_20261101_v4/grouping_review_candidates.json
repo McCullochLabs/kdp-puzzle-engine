@@ -1,0 +1,599 @@
+{
+  "schema_version": 1,
+  "candidates": [
+    {
+      "candidate_id": "2794ff7c4cf2f0beca09e60d",
+      "campaign_id": "phase2_20261101",
+      "source_content_id": "ACOUSTICS",
+      "display": "acoustics",
+      "normalized": "ACOUSTICS",
+      "topic_id": "science_discovery",
+      "puzzle_type": "word_search",
+      "tier": "Review Carefully",
+      "reasons": [
+        "Definition-backed exact noun lemma",
+        "Fields of Science",
+        "n:06094774",
+        "Inherited parent-topic fit and alternate parts of speech require editorial review"
+      ],
+      "provenance": "dictionary:Princeton_WordNet_3.0",
+      "status": "generated_unreviewed"
+    },
+    {
+      "candidate_id": "1110d71688c1ae118ff64127",
+      "campaign_id": "phase2_20261101",
+      "source_content_id": "AMBIVALENCE",
+      "display": "ambivalence",
+      "normalized": "AMBIVALENCE",
+      "topic_id": "general_interest",
+      "puzzle_type": "word_search",
+      "tier": "Review Carefully",
+      "reasons": [
+        "Definition-backed exact noun lemma",
+        "Feelings and Emotional Vocabulary",
+        "n:07483305",
+        "Inherited parent-topic fit and alternate parts of speech require editorial review"
+      ],
+      "provenance": "dictionary:Princeton_WordNet_3.0",
+      "status": "generated_unreviewed"
+    },
+    {
+      "candidate_id": "fc27bdbbf1284a15668db797",
+      "campaign_id": "phase2_20261101",
+      "source_content_id": "AQUIFER",
+      "display": "aquifer",
+      "normalized": "AQUIFER",
+      "topic_id": "nature",
+      "puzzle_type": "word_search",
+      "tier": "Review Carefully",
+      "reasons": [
+        "Definition-backed exact noun lemma",
+        "Geological Formations",
+        "n:09201998",
+        "Inherited parent-topic fit and alternate parts of speech require editorial review"
+      ],
+      "provenance": "dictionary:Princeton_WordNet_3.0",
+      "status": "generated_unreviewed"
+    },
+    {
+      "candidate_id": "5957414741e33bad8d616ba7",
+      "campaign_id": "phase2_20261101",
+      "source_content_id": "CACTUS",
+      "display": "cactus",
+      "normalized": "CACTUS",
+      "topic_id": "nature",
+      "puzzle_type": "word_search",
+      "tier": "Review Carefully",
+      "reasons": [
+        "Definition-backed exact noun lemma",
+        "Plants and Botany",
+        "n:11842204",
+        "Inherited parent-topic fit and alternate parts of speech require editorial review"
+      ],
+      "provenance": "dictionary:Princeton_WordNet_3.0",
+      "status": "generated_unreviewed"
+    },
+    {
+      "candidate_id": "7661f4e684f176c96771aedc",
+      "campaign_id": "phase2_20261101",
+      "source_content_id": "CYNICISM",
+      "display": "cynicism",
+      "normalized": "CYNICISM",
+      "topic_id": "general_interest",
+      "puzzle_type": "word_search",
+      "tier": "Review Carefully",
+      "reasons": [
+        "Definition-backed exact noun lemma",
+        "Feelings and Emotional Vocabulary",
+        "n:07543204",
+        "Inherited parent-topic fit and alternate parts of speech require editorial review"
+      ],
+      "provenance": "dictionary:Princeton_WordNet_3.0",
+      "status": "generated_unreviewed"
+    },
+    {
+      "candidate_id": "6ca9df303da3efe6a425ab9e",
+      "campaign_id": "phase2_20261101",
+      "source_content_id": "CONTENTMENT",
+      "display": "contentment",
+      "normalized": "CONTENTMENT",
+      "topic_id": "general_interest",
+      "puzzle_type": "word_search",
+      "tier": "Review Carefully",
+      "reasons": [
+        "Definition-backed exact noun lemma",
+        "Feelings and Emotional Vocabulary",
+        "n:07531105",
+        "Inherited parent-topic fit and alternate parts of speech require editorial review"
+      ],
+      "provenance": "dictionary:Princeton_WordNet_3.0",
+      "status": "generated_unreviewed"
+    },
+    {
+      "candidate_id": "b3cecba342b754e2190b07ee",
+      "campaign_id": "phase2_20261101",
+      "source_content_id": "EUPHORIA",
+      "display": "euphoria",
+      "normalized": "EUPHORIA",
+      "topic_id": "general_interest",
+      "puzzle_type": "word_search",
+      "tier": "Review Carefully",
+      "reasons": [
+        "Definition-backed exact noun lemma",
+        "Feelings and Emotional Vocabulary",
+        "n:07529096",
+        "Inherited parent-topic fit and alternate parts of speech require editorial review"
+      ],
+      "provenance": "dictionary:Princeton_WordNet_3.0",
+      "status": "generated_unreviewed"
+    },
+    {
+      "candidate_id": "a1bf01525608ea7ab832ca3f",
+      "campaign_id": "phase2_20261101",
+      "source_content_id": "FUNGUS",
+      "display": "fungus",
+      "normalized": "FUNGUS",
+      "topic_id": "nature",
+      "puzzle_type": "word_search",
+      "tier": "Review Carefully",
+      "reasons": [
+        "Definition-backed exact noun lemma",
+        "Fungi and Mycology",
+        "n:12992868",
+        "Inherited parent-topic fit and alternate parts of speech require editorial review"
+      ],
+      "provenance": "dictionary:Princeton_WordNet_3.0",
+      "status": "generated_unreviewed"
+    },
+    {
+      "candidate_id": "d0f4827299cd7005ccb4e195",
+      "campaign_id": "phase2_20261101",
+      "source_content_id": "GUIDEBOOK",
+      "display": "guidebook",
+      "normalized": "GUIDEBOOK",
+      "topic_id": "books_reading_libraries",
+      "puzzle_type": "word_search",
+      "tier": "Review Carefully",
+      "reasons": [
+        "Definition-backed exact noun lemma",
+        "Books and Written Works",
+        "n:06422740",
+        "Inherited parent-topic fit and alternate parts of speech require editorial review"
+      ],
+      "provenance": "dictionary:Princeton_WordNet_3.0",
+      "status": "generated_unreviewed"
+    },
+    {
+      "candidate_id": "0260133895f7679fb0b9b965",
+      "campaign_id": "phase2_20261101",
+      "source_content_id": "HYPERBOLE",
+      "display": "hyperbole",
+      "normalized": "HYPERBOLE",
+      "topic_id": "word_skills_brain_games",
+      "puzzle_type": "word_search",
+      "tier": "Review Carefully",
+      "reasons": [
+        "Definition-backed exact noun lemma",
+        "Figures of Speech",
+        "n:07106502",
+        "Inherited parent-topic fit and alternate parts of speech require editorial review"
+      ],
+      "provenance": "dictionary:Princeton_WordNet_3.0",
+      "status": "generated_unreviewed"
+    },
+    {
+      "candidate_id": "c9847f2a87587c4fa7e10722",
+      "campaign_id": "phase2_20261101",
+      "source_content_id": "INN",
+      "display": "inn",
+      "normalized": "INN",
+      "topic_id": "general_interest",
+      "puzzle_type": "word_search",
+      "tier": "Review Carefully",
+      "reasons": [
+        "Definition-backed exact noun lemma",
+        "Buildings and Architecture",
+        "n:03541696",
+        "Inherited parent-topic fit and alternate parts of speech require editorial review"
+      ],
+      "provenance": "dictionary:Princeton_WordNet_3.0",
+      "status": "generated_unreviewed"
+    },
+    {
+      "candidate_id": "f9431a2770b9617873f4a5fe",
+      "campaign_id": "phase2_20261101",
+      "source_content_id": "NONFICTION",
+      "display": "nonfiction",
+      "normalized": "NONFICTION",
+      "topic_id": "books_reading_libraries",
+      "puzzle_type": "word_search",
+      "tier": "Review Carefully",
+      "reasons": [
+        "Definition-backed exact noun lemma",
+        "Prose",
+        "n:06367571",
+        "Inherited parent-topic fit and alternate parts of speech require editorial review"
+      ],
+      "provenance": "dictionary:Princeton_WordNet_3.0",
+      "status": "generated_unreviewed"
+    },
+    {
+      "candidate_id": "fe36d4e39b15038c3b7639c6",
+      "campaign_id": "phase2_20261101",
+      "source_content_id": "OXYMORON",
+      "display": "oxymoron",
+      "normalized": "OXYMORON",
+      "topic_id": "word_skills_brain_games",
+      "puzzle_type": "word_search",
+      "tier": "Review Carefully",
+      "reasons": [
+        "Definition-backed exact noun lemma",
+        "Figures of Speech",
+        "n:07108010",
+        "Inherited parent-topic fit and alternate parts of speech require editorial review"
+      ],
+      "provenance": "dictionary:Princeton_WordNet_3.0",
+      "status": "generated_unreviewed"
+    },
+    {
+      "candidate_id": "8b743cefd3011fbd5919013d",
+      "campaign_id": "phase2_20261101",
+      "source_content_id": "PARKA",
+      "display": "parka",
+      "normalized": "PARKA",
+      "topic_id": "home_household",
+      "puzzle_type": "word_search",
+      "tier": "Review Carefully",
+      "reasons": [
+        "Definition-backed exact noun lemma",
+        "Clothing and Apparel",
+        "n:03891051",
+        "Inherited parent-topic fit and alternate parts of speech require editorial review"
+      ],
+      "provenance": "dictionary:Princeton_WordNet_3.0",
+      "status": "generated_unreviewed"
+    },
+    {
+      "candidate_id": "721e9e88a38bce2bd5478b08",
+      "campaign_id": "phase2_20261101",
+      "source_content_id": "PHONOGRAPH",
+      "display": "phonograph",
+      "normalized": "PHONOGRAPH",
+      "topic_id": "science_discovery",
+      "puzzle_type": "word_search",
+      "tier": "Review Carefully",
+      "reasons": [
+        "Definition-backed exact noun lemma",
+        "Machines and Mechanisms",
+        "n:04064401",
+        "Inherited parent-topic fit and alternate parts of speech require editorial review"
+      ],
+      "provenance": "dictionary:Princeton_WordNet_3.0",
+      "status": "generated_unreviewed"
+    },
+    {
+      "candidate_id": "c66b0ab82846de4f6d6c561c",
+      "campaign_id": "phase2_20261101",
+      "source_content_id": "PLATEAU",
+      "display": "plateau",
+      "normalized": "PLATEAU",
+      "topic_id": "nature",
+      "puzzle_type": "word_search",
+      "tier": "Review Carefully",
+      "reasons": [
+        "Definition-backed exact noun lemma",
+        "Geological Formations",
+        "n:09453008",
+        "Inherited parent-topic fit and alternate parts of speech require editorial review"
+      ],
+      "provenance": "dictionary:Princeton_WordNet_3.0",
+      "status": "generated_unreviewed"
+    },
+    {
+      "candidate_id": "601aa666a6c7e9d1534b54a3",
+      "campaign_id": "phase2_20261101",
+      "source_content_id": "POLYGON",
+      "display": "polygon",
+      "normalized": "POLYGON",
+      "topic_id": "science_discovery",
+      "puzzle_type": "word_search",
+      "tier": "Review Carefully",
+      "reasons": [
+        "Definition-backed exact noun lemma",
+        "Geometric Shapes",
+        "n:13866144",
+        "Inherited parent-topic fit and alternate parts of speech require editorial review"
+      ],
+      "provenance": "dictionary:Princeton_WordNet_3.0",
+      "status": "generated_unreviewed"
+    },
+    {
+      "candidate_id": "e8e36a3fd63c140114dce557",
+      "campaign_id": "phase2_20261101",
+      "source_content_id": "PONCHO",
+      "display": "poncho",
+      "normalized": "PONCHO",
+      "topic_id": "home_household",
+      "puzzle_type": "word_search",
+      "tier": "Review Carefully",
+      "reasons": [
+        "Definition-backed exact noun lemma",
+        "Clothing and Apparel",
+        "n:03980874",
+        "Inherited parent-topic fit and alternate parts of speech require editorial review"
+      ],
+      "provenance": "dictionary:Princeton_WordNet_3.0",
+      "status": "generated_unreviewed"
+    },
+    {
+      "candidate_id": "02b0fce8a8db27443f171e53",
+      "campaign_id": "phase2_20261101",
+      "source_content_id": "PRONOUN",
+      "display": "pronoun",
+      "normalized": "PRONOUN",
+      "topic_id": "word_skills_brain_games",
+      "puzzle_type": "word_search",
+      "tier": "Review Carefully",
+      "reasons": [
+        "Definition-backed exact noun lemma",
+        "Words and Linguistic Forms",
+        "n:06325370",
+        "Inherited parent-topic fit and alternate parts of speech require editorial review"
+      ],
+      "provenance": "dictionary:Princeton_WordNet_3.0",
+      "status": "generated_unreviewed"
+    },
+    {
+      "candidate_id": "e24a9034ce11f5d242715619",
+      "campaign_id": "phase2_20261101",
+      "source_content_id": "PROSPECTOR",
+      "display": "prospector",
+      "normalized": "PROSPECTOR",
+      "topic_id": "careers_community_everyday_life",
+      "puzzle_type": "word_search",
+      "tier": "Review Carefully",
+      "reasons": [
+        "Definition-backed exact noun lemma",
+        "Workers and Trades",
+        "n:10485298",
+        "Inherited parent-topic fit and alternate parts of speech require editorial review"
+      ],
+      "provenance": "dictionary:Princeton_WordNet_3.0",
+      "status": "generated_unreviewed"
+    },
+    {
+      "candidate_id": "ac04567ce0bf33614b0d4336",
+      "campaign_id": "phase2_20261101",
+      "source_content_id": "REPTILE",
+      "display": "reptile",
+      "normalized": "REPTILE",
+      "topic_id": "nature",
+      "puzzle_type": "word_search",
+      "tier": "Review Carefully",
+      "reasons": [
+        "Definition-backed exact noun lemma",
+        "Reptiles",
+        "n:01661091",
+        "Inherited parent-topic fit and alternate parts of speech require editorial review"
+      ],
+      "provenance": "dictionary:Princeton_WordNet_3.0",
+      "status": "generated_unreviewed"
+    },
+    {
+      "candidate_id": "c4de97ce62e052956f9bb4b7",
+      "campaign_id": "phase2_20261101",
+      "source_content_id": "SCHOOLHOUSE",
+      "display": "schoolhouse",
+      "normalized": "SCHOOLHOUSE",
+      "topic_id": "general_interest",
+      "puzzle_type": "word_search",
+      "tier": "Review Carefully",
+      "reasons": [
+        "Definition-backed exact noun lemma",
+        "Buildings and Architecture",
+        "n:04146050",
+        "Inherited parent-topic fit and alternate parts of speech require editorial review"
+      ],
+      "provenance": "dictionary:Princeton_WordNet_3.0",
+      "status": "generated_unreviewed"
+    },
+    {
+      "candidate_id": "da35776eafa3045f8980ef29",
+      "campaign_id": "phase2_20261101",
+      "source_content_id": "SEAGULL",
+      "display": "seagull",
+      "normalized": "SEAGULL",
+      "topic_id": "birdwatching",
+      "puzzle_type": "word_search",
+      "tier": "Review Carefully",
+      "reasons": [
+        "Definition-backed exact noun lemma",
+        "Birds and Birdwatching",
+        "n:02041246",
+        "Inherited parent-topic fit and alternate parts of speech require editorial review"
+      ],
+      "provenance": "dictionary:Princeton_WordNet_3.0",
+      "status": "generated_unreviewed"
+    },
+    {
+      "candidate_id": "296cb6fe6ef0cf4ff046b9ad",
+      "campaign_id": "phase2_20261101",
+      "source_content_id": "SOLOIST",
+      "display": "soloist",
+      "normalized": "SOLOIST",
+      "topic_id": "music_instruments",
+      "puzzle_type": "word_search",
+      "tier": "Review Carefully",
+      "reasons": [
+        "Definition-backed exact noun lemma",
+        "Musicians",
+        "n:10623650",
+        "Inherited parent-topic fit and alternate parts of speech require editorial review"
+      ],
+      "provenance": "dictionary:Princeton_WordNet_3.0",
+      "status": "generated_unreviewed"
+    },
+    {
+      "candidate_id": "5afb080131800cc0d690544f",
+      "campaign_id": "phase2_20261101",
+      "source_content_id": "STANZA",
+      "display": "stanza",
+      "normalized": "STANZA",
+      "topic_id": "books_reading_libraries",
+      "puzzle_type": "word_search",
+      "tier": "Review Carefully",
+      "reasons": [
+        "Definition-backed exact noun lemma",
+        "Literature and Writing",
+        "n:07052291",
+        "Inherited parent-topic fit and alternate parts of speech require editorial review"
+      ],
+      "provenance": "dictionary:Princeton_WordNet_3.0",
+      "status": "generated_unreviewed"
+    },
+    {
+      "candidate_id": "f7b290e5c2dece0b787089e2",
+      "campaign_id": "phase2_20261101",
+      "source_content_id": "STITCHING",
+      "display": "stitching",
+      "normalized": "STITCHING",
+      "topic_id": "sports_hobbies",
+      "puzzle_type": "word_search",
+      "tier": "Review Carefully",
+      "reasons": [
+        "Definition-backed exact noun lemma",
+        "Crafts and Skilled Trades",
+        "n:00715674",
+        "Inherited parent-topic fit and alternate parts of speech require editorial review"
+      ],
+      "provenance": "dictionary:Princeton_WordNet_3.0",
+      "status": "generated_unreviewed"
+    },
+    {
+      "candidate_id": "afd0cbcde4d307c60e035106",
+      "campaign_id": "phase2_20261101",
+      "source_content_id": "TAMBOURINE",
+      "display": "tambourine",
+      "normalized": "TAMBOURINE",
+      "topic_id": "music_instruments",
+      "puzzle_type": "word_search",
+      "tier": "Review Carefully",
+      "reasons": [
+        "Definition-backed exact noun lemma",
+        "Musical Instruments",
+        "n:04387400",
+        "Inherited parent-topic fit and alternate parts of speech require editorial review"
+      ],
+      "provenance": "dictionary:Princeton_WordNet_3.0",
+      "status": "generated_unreviewed"
+    },
+    {
+      "candidate_id": "aaf61e3558f8be9506fe6264",
+      "campaign_id": "phase2_20261101",
+      "source_content_id": "THERMODYNAMICS",
+      "display": "thermodynamics",
+      "normalized": "THERMODYNAMICS",
+      "topic_id": "science_discovery",
+      "puzzle_type": "word_search",
+      "tier": "Review Carefully",
+      "reasons": [
+        "Definition-backed exact noun lemma",
+        "Fields of Science",
+        "n:06114578",
+        "Inherited parent-topic fit and alternate parts of speech require editorial review"
+      ],
+      "provenance": "dictionary:Princeton_WordNet_3.0",
+      "status": "generated_unreviewed"
+    },
+    {
+      "candidate_id": "60c3e427e04f1f032a2e4c47",
+      "campaign_id": "phase2_20261101",
+      "source_content_id": "TYPEWRITER",
+      "display": "typewriter",
+      "normalized": "TYPEWRITER",
+      "topic_id": "science_discovery",
+      "puzzle_type": "word_search",
+      "tier": "Review Carefully",
+      "reasons": [
+        "Definition-backed exact noun lemma",
+        "Machines and Mechanisms",
+        "n:04505036",
+        "Inherited parent-topic fit and alternate parts of speech require editorial review"
+      ],
+      "provenance": "dictionary:Princeton_WordNet_3.0",
+      "status": "generated_unreviewed"
+    },
+    {
+      "candidate_id": "21f388c25dd306c99669e7aa",
+      "campaign_id": "phase2_20261101",
+      "source_content_id": "TOGETHERNESS",
+      "display": "togetherness",
+      "normalized": "TOGETHERNESS",
+      "topic_id": "general_interest",
+      "puzzle_type": "word_search",
+      "tier": "Review Carefully",
+      "reasons": [
+        "Definition-backed exact noun lemma",
+        "Feelings and Emotional Vocabulary",
+        "n:07530322",
+        "Inherited parent-topic fit and alternate parts of speech require editorial review"
+      ],
+      "provenance": "dictionary:Princeton_WordNet_3.0",
+      "status": "generated_unreviewed"
+    },
+    {
+      "candidate_id": "d895c41d8c42d3af629d6d77",
+      "campaign_id": "phase2_20261101",
+      "source_content_id": "TRADESMAN",
+      "display": "tradesman",
+      "normalized": "TRADESMAN",
+      "topic_id": "careers_community_everyday_life",
+      "puzzle_type": "word_search",
+      "tier": "Review Carefully",
+      "reasons": [
+        "Definition-backed exact noun lemma",
+        "Merchants and Retail",
+        "n:10592152",
+        "Inherited parent-topic fit and alternate parts of speech require editorial review"
+      ],
+      "provenance": "dictionary:Princeton_WordNet_3.0",
+      "status": "generated_unreviewed"
+    },
+    {
+      "candidate_id": "64a1fa249f940061711eae63",
+      "campaign_id": "phase2_20261101",
+      "source_content_id": "TREPIDATION",
+      "display": "trepidation",
+      "normalized": "TREPIDATION",
+      "topic_id": "general_interest",
+      "puzzle_type": "word_search",
+      "tier": "Review Carefully",
+      "reasons": [
+        "Definition-backed exact noun lemma",
+        "Feelings and Emotional Vocabulary",
+        "n:07522043",
+        "Inherited parent-topic fit and alternate parts of speech require editorial review"
+      ],
+      "provenance": "dictionary:Princeton_WordNet_3.0",
+      "status": "generated_unreviewed"
+    },
+    {
+      "candidate_id": "2f3f7309490abfd9fa0f9367",
+      "campaign_id": "phase2_20261101",
+      "source_content_id": "VOCALIST",
+      "display": "vocalist",
+      "normalized": "VOCALIST",
+      "topic_id": "music_instruments",
+      "puzzle_type": "word_search",
+      "tier": "Review Carefully",
+      "reasons": [
+        "Definition-backed exact noun lemma",
+        "Musicians",
+        "n:10599806",
+        "Inherited parent-topic fit and alternate parts of speech require editorial review"
+      ],
+      "provenance": "dictionary:Princeton_WordNet_3.0",
+      "status": "generated_unreviewed"
+    }
+  ]
+}

@@ -1,0 +1,126 @@
+{
+  "schema_version": 1,
+  "research_status": "REVIEW_REQUIRED_NOT_APPROVED",
+  "group": "noun.attribute",
+  "records": [
+    {
+      "normalized": "BO",
+      "status": "pending_context_and_editorial_review",
+      "candidate_categories": [
+        "noun.attribute"
+      ],
+      "source_senses": [
+        {
+          "lemma": "B.O.",
+          "synset": "noun:04980920",
+          "part_of_speech": "noun",
+          "lexical_category": "noun.attribute",
+          "definition": "malodorousness resulting from a failure to bathe",
+          "match_type": "exact_normalized_source_lemma"
+        }
+      ]
+    },
+    {
+      "normalized": "EQ",
+      "status": "pending_context_and_editorial_review",
+      "candidate_categories": [
+        "noun.attribute"
+      ],
+      "source_senses": [
+        {
+          "lemma": "eq",
+          "synset": "noun:05026508",
+          "part_of_speech": "noun",
+          "lexical_category": "noun.attribute",
+          "definition": "the atomic weight of an element that has the same combining capacity as a given weight of another element; the standard is 8 for oxygen",
+          "match_type": "exact_normalized_source_lemma"
+        }
+      ]
+    },
+    {
+      "normalized": "LF",
+      "status": "pending_context_and_editorial_review",
+      "candidate_categories": [
+        "noun.attribute"
+      ],
+      "source_senses": [
+        {
+          "lemma": "LF",
+          "synset": "noun:05057382",
+          "part_of_speech": "noun",
+          "lexical_category": "noun.attribute",
+          "definition": "30 to 300 kilohertz",
+          "match_type": "exact_normalized_source_lemma"
+        }
+      ]
+    },
+    {
+      "normalized": "MF",
+      "status": "pending_context_and_editorial_review",
+      "candidate_categories": [
+        "noun.attribute"
+      ],
+      "source_senses": [
+        {
+          "lemma": "MF",
+          "synset": "noun:05057485",
+          "part_of_speech": "noun",
+          "lexical_category": "noun.attribute",
+          "definition": "300 to 3000 kilohertz",
+          "match_type": "exact_normalized_source_lemma"
+        }
+      ]
+    },
+    {
+      "normalized": "PH",
+      "status": "pending_context_and_editorial_review",
+      "candidate_categories": [
+        "noun.attribute"
+      ],
+      "source_senses": [
+        {
+          "lemma": "pH",
+          "synset": "noun:05039106",
+          "part_of_speech": "noun",
+          "lexical_category": "noun.attribute",
+          "definition": "(from potential of Hydrogen) the logarithm of the reciprocal of hydrogen-ion concentration in gram atoms per liter; provides a measure on a scale from 0 to 14 of the acidity or alkalinity of a solution (where 7 is neutral and greater than 7 is more basic and less than 7 is more acidic);",
+          "match_type": "exact_normalized_source_lemma"
+        }
+      ]
+    },
+    {
+      "normalized": "TO",
+      "status": "pending_context_and_editorial_review",
+      "candidate_categories": [
+        "noun.attribute"
+      ],
+      "source_senses": [
+        {
+          "lemma": "4to",
+          "synset": "noun:05096820",
+          "part_of_speech": "noun",
+          "lexical_category": "noun.attribute",
+          "definition": "the size of a book whose pages are made by folding a sheet of paper twice to form four leaves",
+          "match_type": "exact_normalized_source_lemma"
+        }
+      ]
+    },
+    {
+      "normalized": "VO",
+      "status": "pending_context_and_editorial_review",
+      "candidate_categories": [
+        "noun.attribute"
+      ],
+      "source_senses": [
+        {
+          "lemma": "8vo",
+          "synset": "noun:05096408",
+          "part_of_speech": "noun",
+          "lexical_category": "noun.attribute",
+          "definition": "the size of a book whose pages are made by folding a sheet of paper three times to form eight leaves",
+          "match_type": "exact_normalized_source_lemma"
+        }
+      ]
+    }
+  ]
+}

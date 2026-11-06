@@ -1,0 +1,101 @@
+{
+  "schema_version": 1,
+  "research_status": "REVIEW_REQUIRED_NOT_APPROVED",
+  "group": "verb.contact",
+  "records": [
+    {
+      "normalized": "EFF",
+      "status": "pending_context_and_editorial_review",
+      "candidate_categories": [
+        "verb.contact"
+      ],
+      "source_senses": [
+        {
+          "lemma": "eff",
+          "synset": "verb:01426397",
+          "part_of_speech": "verb",
+          "lexical_category": "verb.contact",
+          "definition": "have sexual intercourse with; \"This student sleeps with everyone in her dorm\"; \"Adam knew Eve\"; \"Were you ever intimate with this man?\"",
+          "match_type": "exact_normalized_source_lemma"
+        }
+      ]
+    },
+    {
+      "normalized": "MASTURBATE",
+      "status": "pending_context_and_editorial_review",
+      "candidate_categories": [
+        "verb.contact"
+      ],
+      "source_senses": [
+        {
+          "lemma": "masturbate",
+          "synset": "verb:01430633",
+          "part_of_speech": "verb",
+          "lexical_category": "verb.contact",
+          "definition": "get sexual gratification through self-stimulation",
+          "match_type": "exact_normalized_source_lemma"
+        },
+        {
+          "lemma": "masturbate",
+          "synset": "verb:01430952",
+          "part_of_speech": "verb",
+          "lexical_category": "verb.contact",
+          "definition": "stimulate sexually; \"The old man wanted to be masturbated by the prostitute\"",
+          "match_type": "exact_normalized_source_lemma"
+        }
+      ]
+    },
+    {
+      "normalized": "ROLLOUT",
+      "status": "pending_context_and_editorial_review",
+      "candidate_categories": [
+        "verb.contact"
+      ],
+      "source_senses": [
+        {
+          "lemma": "roll_out",
+          "synset": "verb:01391280",
+          "part_of_speech": "verb",
+          "lexical_category": "verb.contact",
+          "definition": "flatten or spread with a roller; \"roll out the paper\"",
+          "match_type": "exact_normalized_source_lemma"
+        },
+        {
+          "lemma": "roll_out",
+          "synset": "verb:01487185",
+          "part_of_speech": "verb",
+          "lexical_category": "verb.contact",
+          "definition": "straighten by unrolling; \"roll out the big map\"",
+          "match_type": "exact_normalized_source_lemma"
+        }
+      ]
+    },
+    {
+      "normalized": "STREWN",
+      "status": "pending_context_and_editorial_review",
+      "candidate_categories": [
+        "verb.contact"
+      ],
+      "source_senses": [
+        {
+          "lemma": "strew",
+          "synset": "verb:01208896",
+          "part_of_speech": "verb",
+          "lexical_category": "verb.contact",
+          "definition": "cover; be dispersed over; \"Dead bodies strewed the ground\"",
+          "match_type": "attested_WordNet_exception",
+          "inflected_source_word": "STREWN"
+        },
+        {
+          "lemma": "strew",
+          "synset": "verb:01378123",
+          "part_of_speech": "verb",
+          "lexical_category": "verb.contact",
+          "definition": "spread by scattering (\"straw\" is archaic); \"strew toys all over the carpet\"",
+          "match_type": "attested_WordNet_exception",
+          "inflected_source_word": "STREWN"
+        }
+      ]
+    }
+  ]
+}

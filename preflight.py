@@ -16,17 +16,18 @@ TRIM_W, TRIM_H = 8.5, 11.0
 BLEED = 0.125
 SPINE_FACTOR = 0.002252
 PT = 72.0
-TOL_PT = 4.0
+TOL_PT = 0.05  # PDF numeric rounding, below one page of white-paper spine width
 MIN_PAGES = 24
 MAX_BLACK_WHITE_PAGES = 590  # 8.5 x 11 black ink on white paper
 
 
 def _page_size(reader: PdfReader) -> tuple[float, float]:
     box = reader.pages[0].mediabox
-    return float(box.width), float(box.height)
+    width, height = float(box.width), float(box.height)
+    return (height, width) if int(reader.pages[0].get("/Rotate", 0)) % 180 else (width, height)
 
 
-def preflight(book_dir: str | Path) -> tuple[bool, list[str]]:
+def _preflight(book_dir: str | Path) -> tuple[bool, list[str]]:
     """Check the actual files made by this app and return plain-English lines."""
     folder = Path(book_dir)
     interior = package_file(folder, "interior.pdf")
@@ -42,22 +43,36 @@ def preflight(book_dir: str | Path) -> tuple[bool, list[str]]:
         interior_reader = PdfReader(str(interior)); wrap_reader = PdfReader(str(wrap))
     except Exception as exc:
         return False, [f"FAIL - Could not open a PDF: {exc}"]
+    if interior_reader.is_encrypted or wrap_reader.is_encrypted:
+        return False, ["FAIL - Print PDFs must not be encrypted or password protected."]
     pages = len(interior_reader.pages)
+    if pages == 0:
+        return False, ["FAIL - Interior PDF has no pages."]
+    if len(wrap_reader.pages) != 1:
+        return False, ["FAIL - Full-wrap PDF must contain exactly one continuous cover page."]
     if pages < MIN_PAGES:
         results.append(f"FAIL - Interior has {pages} pages; KDP paperbacks need at least {MIN_PAGES}.")
     elif pages > MAX_BLACK_WHITE_PAGES:
-        results.append(f"WARN - Interior has {pages} pages, above the known 8.5 x 11 black-and-white limit of {MAX_BLACK_WHITE_PAGES}; confirm the ink and paper options in KDP.")
+        results.append(f"FAIL - Interior has {pages} pages, above the supported 8.5 x 11 black-ink white-paper limit of {MAX_BLACK_WHITE_PAGES}.")
     else:
         results.append(f"PASS - Interior has {pages} page(s), within the expected 8.5 x 11 black-and-white range.")
     if pages % 2:
         results.append("WARN - Interior has an odd page count. KDP may round this up; rebuild the package so the final cover-spine calculation is based on the exact count.")
     else:
         results.append("PASS - Interior page count is even, so the generated wrap uses the same physical-sheet count.")
-    iw, ih = _page_size(interior_reader)
-    if abs(iw - TRIM_W * PT) <= TOL_PT and abs(ih - TRIM_H * PT) <= TOL_PT:
-        results.append("PASS - Interior trim is 8.5 x 11 inches.")
+    invalid_trim = []
+    for number, page in enumerate(interior_reader.pages, 1):
+        for box in (page.mediabox, page.cropbox):
+            iw, ih = float(box.width), float(box.height)
+            if int(page.get("/Rotate", 0)) % 180:
+                iw, ih = ih, iw
+            if abs(iw - TRIM_W * PT) > TOL_PT or abs(ih - TRIM_H * PT) > TOL_PT:
+                invalid_trim.append(f"{number} ({iw/PT:.3f} x {ih/PT:.3f} inches)")
+                break
+    if invalid_trim:
+        results.append("FAIL - Interior page(s) have incorrect trim: " + "; ".join(invalid_trim[:20]) + "; expected 8.5 x 11 inches.")
     else:
-        results.append(f"FAIL - Interior trim is {iw/PT:.3f} x {ih/PT:.3f} inches; expected 8.5 x 11.")
+        results.append(f"PASS - All {pages} interior pages have 8.5 x 11-inch trim.")
     ww, wh = _page_size(wrap_reader)
     expected_w = (TRIM_W * 2 + pages * SPINE_FACTOR + BLEED * 2) * PT
     expected_h = (TRIM_H + BLEED * 2) * PT
@@ -73,6 +88,14 @@ def preflight(book_dir: str | Path) -> tuple[bool, list[str]]:
     results.append("PASS - Interior author metadata is present." if author else "WARN - Interior author metadata is empty; confirm the author/pen name before upload.")
     ok = not any(line.startswith("FAIL") for line in results)
     return ok, results
+
+
+def preflight(book_dir: str | Path) -> tuple[bool, list[str]]:
+    """Malformed print files fail closed instead of crashing the production UI."""
+    try:
+        return _preflight(book_dir)
+    except Exception as exc:
+        return False, [f"FAIL - Print PDF structure or geometry could not be read ({type(exc).__name__})."]
 
 
 def report_text(book_dir: str | Path) -> str:

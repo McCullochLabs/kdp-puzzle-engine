@@ -1,0 +1,1853 @@
+{
+  "schema_version": 1,
+  "records": [
+    {
+      "schema_version": 1,
+      "id": "word_606862746bc5bc5c4ddb",
+      "type": "word",
+      "display": "acoustics",
+      "normalized": "ACOUSTICS",
+      "topics": [
+        {
+          "topic_id": "science_discovery",
+          "relationship": "primary",
+          "confidence": 55,
+          "status": "proposed"
+        }
+      ],
+      "audiences": [],
+      "difficulty": "standard",
+      "format_rules": {
+        "word_search_max_letters": 15,
+        "safe_for_cover": false
+      },
+      "quality": {
+        "editorial_status": "pending_review",
+        "factual_status": "not_applicable",
+        "trademark_review": false,
+        "safety_review": false
+      },
+      "provenance": {
+        "source_type": "dictionary",
+        "source_id": "Princeton_WordNet_3.0:n:06094774",
+        "reviewed_at": ""
+      },
+      "payload": {
+        "word_group": "Fields of Science",
+        "definition": "the study of the physical properties of sound",
+        "definition_synset": "n:06094774",
+        "frequency": 3.1,
+        "ambiguity_review_required": true,
+        "parent_topic_review_required": true,
+        "alternate_parts_of_speech_not_resolved": true,
+        "definition_is_not_trivia": true
+      }
+    },
+    {
+      "schema_version": 1,
+      "id": "word_5a9e0e5bc336a57b10b5",
+      "type": "word",
+      "display": "alb",
+      "normalized": "ALB",
+      "topics": [
+        {
+          "topic_id": "home_household",
+          "relationship": "primary",
+          "confidence": 55,
+          "status": "proposed"
+        }
+      ],
+      "audiences": [],
+      "difficulty": "standard",
+      "format_rules": {
+        "word_search_max_letters": 15,
+        "safe_for_cover": false
+      },
+      "quality": {
+        "editorial_status": "pending_review",
+        "factual_status": "not_applicable",
+        "trademark_review": false,
+        "safety_review": false
+      },
+      "provenance": {
+        "source_type": "dictionary",
+        "source_id": "Princeton_WordNet_3.0:n:02694966",
+        "reviewed_at": ""
+      },
+      "payload": {
+        "word_group": "Clothing and Apparel",
+        "definition": "a white linen liturgical vestment with sleeves; worn by priests",
+        "definition_synset": "n:02694966",
+        "frequency": 2.62,
+        "ambiguity_review_required": true,
+        "parent_topic_review_required": true,
+        "alternate_parts_of_speech_not_resolved": true,
+        "definition_is_not_trivia": true
+      }
+    },
+    {
+      "schema_version": 1,
+      "id": "word_6f80b8c07d5f5bc84d6c",
+      "type": "word",
+      "display": "ambivalence",
+      "normalized": "AMBIVALENCE",
+      "topics": [
+        {
+          "topic_id": "general_interest",
+          "relationship": "primary",
+          "confidence": 55,
+          "status": "proposed"
+        }
+      ],
+      "audiences": [],
+      "difficulty": "standard",
+      "format_rules": {
+        "word_search_max_letters": 15,
+        "safe_for_cover": false
+      },
+      "quality": {
+        "editorial_status": "pending_review",
+        "factual_status": "not_applicable",
+        "trademark_review": false,
+        "safety_review": false
+      },
+      "provenance": {
+        "source_type": "dictionary",
+        "source_id": "Princeton_WordNet_3.0:n:07483305",
+        "reviewed_at": ""
+      },
+      "payload": {
+        "word_group": "Feelings and Emotional Vocabulary",
+        "definition": "mixed feelings or emotions",
+        "definition_synset": "n:07483305",
+        "frequency": 2.8,
+        "ambiguity_review_required": true,
+        "parent_topic_review_required": true,
+        "alternate_parts_of_speech_not_resolved": true,
+        "definition_is_not_trivia": true
+      }
+    },
+    {
+      "schema_version": 1,
+      "id": "word_ded38f49f1e60b5b9941",
+      "type": "word",
+      "display": "aquifer",
+      "normalized": "AQUIFER",
+      "topics": [
+        {
+          "topic_id": "nature",
+          "relationship": "primary",
+          "confidence": 55,
+          "status": "proposed"
+        }
+      ],
+      "audiences": [],
+      "difficulty": "standard",
+      "format_rules": {
+        "word_search_max_letters": 15,
+        "safe_for_cover": false
+      },
+      "quality": {
+        "editorial_status": "pending_review",
+        "factual_status": "not_applicable",
+        "trademark_review": false,
+        "safety_review": false
+      },
+      "provenance": {
+        "source_type": "dictionary",
+        "source_id": "Princeton_WordNet_3.0:n:09201998",
+        "reviewed_at": ""
+      },
+      "payload": {
+        "word_group": "Geological Formations",
+        "definition": "underground bed or layer yielding ground water for wells and springs etc",
+        "definition_synset": "n:09201998",
+        "frequency": 2.9,
+        "ambiguity_review_required": true,
+        "parent_topic_review_required": true,
+        "alternate_parts_of_speech_not_resolved": true,
+        "definition_is_not_trivia": true
+      }
+    },
+    {
+      "schema_version": 1,
+      "id": "word_18d8ef6a6f10102b9fcb",
+      "type": "word",
+      "display": "boardroom",
+      "normalized": "BOARDROOM",
+      "topics": [
+        {
+          "topic_id": "home_household",
+          "relationship": "primary",
+          "confidence": 55,
+          "status": "proposed"
+        }
+      ],
+      "audiences": [],
+      "difficulty": "standard",
+      "format_rules": {
+        "word_search_max_letters": 15,
+        "safe_for_cover": false
+      },
+      "quality": {
+        "editorial_status": "pending_review",
+        "factual_status": "not_applicable",
+        "trademark_review": false,
+        "safety_review": false
+      },
+      "provenance": {
+        "source_type": "dictionary",
+        "source_id": "Princeton_WordNet_3.0:n:02857644",
+        "reviewed_at": ""
+      },
+      "payload": {
+        "word_group": "Rooms and Interior Spaces",
+        "definition": "a room where a committee meets (such as the board of directors of a company)",
+        "definition_synset": "n:02857644",
+        "frequency": 2.96,
+        "ambiguity_review_required": true,
+        "parent_topic_review_required": true,
+        "alternate_parts_of_speech_not_resolved": true,
+        "definition_is_not_trivia": true
+      }
+    },
+    {
+      "schema_version": 1,
+      "id": "word_4e0ba3ab32b1a1b00378",
+      "type": "word",
+      "display": "cactus",
+      "normalized": "CACTUS",
+      "topics": [
+        {
+          "topic_id": "nature",
+          "relationship": "primary",
+          "confidence": 55,
+          "status": "proposed"
+        }
+      ],
+      "audiences": [],
+      "difficulty": "standard",
+      "format_rules": {
+        "word_search_max_letters": 15,
+        "safe_for_cover": false
+      },
+      "quality": {
+        "editorial_status": "pending_review",
+        "factual_status": "not_applicable",
+        "trademark_review": false,
+        "safety_review": false
+      },
+      "provenance": {
+        "source_type": "dictionary",
+        "source_id": "Princeton_WordNet_3.0:n:11842204",
+        "reviewed_at": ""
+      },
+      "payload": {
+        "word_group": "Plants and Botany",
+        "definition": "any succulent plant of the family Cactaceae native chiefly to arid regions of the New World and usually having spines",
+        "definition_synset": "n:11842204",
+        "frequency": 3.4,
+        "ambiguity_review_required": true,
+        "parent_topic_review_required": true,
+        "alternate_parts_of_speech_not_resolved": true,
+        "definition_is_not_trivia": true
+      }
+    },
+    {
+      "schema_version": 1,
+      "id": "word_75360d3caa4364df240c",
+      "type": "word",
+      "display": "chalice",
+      "normalized": "CHALICE",
+      "topics": [
+        {
+          "topic_id": "home_household",
+          "relationship": "primary",
+          "confidence": 55,
+          "status": "proposed"
+        }
+      ],
+      "audiences": [],
+      "difficulty": "standard",
+      "format_rules": {
+        "word_search_max_letters": 15,
+        "safe_for_cover": false
+      },
+      "quality": {
+        "editorial_status": "pending_review",
+        "factual_status": "not_applicable",
+        "trademark_review": false,
+        "safety_review": false
+      },
+      "provenance": {
+        "source_type": "dictionary",
+        "source_id": "Princeton_WordNet_3.0:n:03002948",
+        "reviewed_at": ""
+      },
+      "payload": {
+        "word_group": "Containers and Storage",
+        "definition": "a bowl-shaped drinking vessel; especially the Eucharistic cup",
+        "definition_synset": "n:03002948",
+        "frequency": 3.0,
+        "ambiguity_review_required": true,
+        "parent_topic_review_required": true,
+        "alternate_parts_of_speech_not_resolved": true,
+        "definition_is_not_trivia": true
+      }
+    },
+    {
+      "schema_version": 1,
+      "id": "word_46aeca3e804dfa1013c6",
+      "type": "word",
+      "display": "chrysalis",
+      "normalized": "CHRYSALIS",
+      "topics": [
+        {
+          "topic_id": "nature",
+          "relationship": "primary",
+          "confidence": 55,
+          "status": "proposed"
+        }
+      ],
+      "audiences": [],
+      "difficulty": "standard",
+      "format_rules": {
+        "word_search_max_letters": 15,
+        "safe_for_cover": false
+      },
+      "quality": {
+        "editorial_status": "pending_review",
+        "factual_status": "not_applicable",
+        "trademark_review": false,
+        "safety_review": false
+      },
+      "provenance": {
+        "source_type": "dictionary",
+        "source_id": "Princeton_WordNet_3.0:n:02312640",
+        "reviewed_at": ""
+      },
+      "payload": {
+        "word_group": "Insects and Entomology",
+        "definition": "pupa of a moth or butterfly enclosed in a cocoon",
+        "definition_synset": "n:02312640",
+        "frequency": 2.6,
+        "ambiguity_review_required": true,
+        "parent_topic_review_required": true,
+        "alternate_parts_of_speech_not_resolved": true,
+        "definition_is_not_trivia": true
+      }
+    },
+    {
+      "schema_version": 1,
+      "id": "word_3b8900c9f41dd37a0448",
+      "type": "word",
+      "display": "cynicism",
+      "normalized": "CYNICISM",
+      "topics": [
+        {
+          "topic_id": "general_interest",
+          "relationship": "primary",
+          "confidence": 55,
+          "status": "proposed"
+        }
+      ],
+      "audiences": [],
+      "difficulty": "standard",
+      "format_rules": {
+        "word_search_max_letters": 15,
+        "safe_for_cover": false
+      },
+      "quality": {
+        "editorial_status": "pending_review",
+        "factual_status": "not_applicable",
+        "trademark_review": false,
+        "safety_review": false
+      },
+      "provenance": {
+        "source_type": "dictionary",
+        "source_id": "Princeton_WordNet_3.0:n:07543204",
+        "reviewed_at": ""
+      },
+      "payload": {
+        "word_group": "Feelings and Emotional Vocabulary",
+        "definition": "a cynical feeling of distrust",
+        "definition_synset": "n:07543204",
+        "frequency": 3.13,
+        "ambiguity_review_required": true,
+        "parent_topic_review_required": true,
+        "alternate_parts_of_speech_not_resolved": true,
+        "definition_is_not_trivia": true
+      }
+    },
+    {
+      "schema_version": 1,
+      "id": "word_e6ba23440ad49546188d",
+      "type": "word",
+      "display": "coastguard",
+      "normalized": "COASTGUARD",
+      "topics": [
+        {
+          "topic_id": "careers_community_everyday_life",
+          "relationship": "primary",
+          "confidence": 55,
+          "status": "proposed"
+        }
+      ],
+      "audiences": [],
+      "difficulty": "standard",
+      "format_rules": {
+        "word_search_max_letters": 15,
+        "safe_for_cover": false
+      },
+      "quality": {
+        "editorial_status": "pending_review",
+        "factual_status": "not_applicable",
+        "trademark_review": false,
+        "safety_review": false
+      },
+      "provenance": {
+        "source_type": "dictionary",
+        "source_id": "Princeton_WordNet_3.0:n:08192361",
+        "reviewed_at": ""
+      },
+      "payload": {
+        "word_group": "Organizations and Community",
+        "definition": "a military service responsible for the safety of maritime traffic in coastal waters",
+        "definition_synset": "n:08192361",
+        "frequency": 2.72,
+        "ambiguity_review_required": true,
+        "parent_topic_review_required": true,
+        "alternate_parts_of_speech_not_resolved": true,
+        "definition_is_not_trivia": true
+      }
+    },
+    {
+      "schema_version": 1,
+      "id": "word_a6b25638a5cf5c523396",
+      "type": "word",
+      "display": "contentment",
+      "normalized": "CONTENTMENT",
+      "topics": [
+        {
+          "topic_id": "general_interest",
+          "relationship": "primary",
+          "confidence": 55,
+          "status": "proposed"
+        }
+      ],
+      "audiences": [],
+      "difficulty": "standard",
+      "format_rules": {
+        "word_search_max_letters": 15,
+        "safe_for_cover": false
+      },
+      "quality": {
+        "editorial_status": "pending_review",
+        "factual_status": "not_applicable",
+        "trademark_review": false,
+        "safety_review": false
+      },
+      "provenance": {
+        "source_type": "dictionary",
+        "source_id": "Princeton_WordNet_3.0:n:07531105",
+        "reviewed_at": ""
+      },
+      "payload": {
+        "word_group": "Feelings and Emotional Vocabulary",
+        "definition": "happiness with one's situation in life",
+        "definition_synset": "n:07531105",
+        "frequency": 3.05,
+        "ambiguity_review_required": true,
+        "parent_topic_review_required": true,
+        "alternate_parts_of_speech_not_resolved": true,
+        "definition_is_not_trivia": true
+      }
+    },
+    {
+      "schema_version": 1,
+      "id": "word_ab15c4867f3923de750f",
+      "type": "word",
+      "display": "euphoria",
+      "normalized": "EUPHORIA",
+      "topics": [
+        {
+          "topic_id": "general_interest",
+          "relationship": "primary",
+          "confidence": 55,
+          "status": "proposed"
+        }
+      ],
+      "audiences": [],
+      "difficulty": "standard",
+      "format_rules": {
+        "word_search_max_letters": 15,
+        "safe_for_cover": false
+      },
+      "quality": {
+        "editorial_status": "pending_review",
+        "factual_status": "not_applicable",
+        "trademark_review": false,
+        "safety_review": false
+      },
+      "provenance": {
+        "source_type": "dictionary",
+        "source_id": "Princeton_WordNet_3.0:n:07529096",
+        "reviewed_at": ""
+      },
+      "payload": {
+        "word_group": "Feelings and Emotional Vocabulary",
+        "definition": "a feeling of great (usually exaggerated) elation",
+        "definition_synset": "n:07529096",
+        "frequency": 3.24,
+        "ambiguity_review_required": true,
+        "parent_topic_review_required": true,
+        "alternate_parts_of_speech_not_resolved": true,
+        "definition_is_not_trivia": true
+      }
+    },
+    {
+      "schema_version": 1,
+      "id": "word_41c32543a48ee794f144",
+      "type": "word",
+      "display": "formalities",
+      "normalized": "FORMALITIES",
+      "topics": [
+        {
+          "topic_id": "holiday_seasonal_life",
+          "relationship": "primary",
+          "confidence": 55,
+          "status": "proposed"
+        }
+      ],
+      "audiences": [],
+      "difficulty": "standard",
+      "format_rules": {
+        "word_search_max_letters": 15,
+        "safe_for_cover": false
+      },
+      "quality": {
+        "editorial_status": "pending_review",
+        "factual_status": "not_applicable",
+        "trademark_review": false,
+        "safety_review": false
+      },
+      "provenance": {
+        "source_type": "dictionary",
+        "source_id": "Princeton_WordNet_3.0:n:07455007",
+        "reviewed_at": ""
+      },
+      "payload": {
+        "word_group": "Ceremonies and Celebrations",
+        "definition": "a requirement of etiquette or custom; \"a mere formality\"",
+        "definition_synset": "n:07455007",
+        "frequency": 2.93,
+        "ambiguity_review_required": true,
+        "parent_topic_review_required": true,
+        "alternate_parts_of_speech_not_resolved": true,
+        "definition_is_not_trivia": true
+      }
+    },
+    {
+      "schema_version": 1,
+      "id": "word_8d6ed6a5fc33e242e37c",
+      "type": "word",
+      "display": "fungus",
+      "normalized": "FUNGUS",
+      "topics": [
+        {
+          "topic_id": "nature",
+          "relationship": "primary",
+          "confidence": 55,
+          "status": "proposed"
+        }
+      ],
+      "audiences": [],
+      "difficulty": "standard",
+      "format_rules": {
+        "word_search_max_letters": 15,
+        "safe_for_cover": false
+      },
+      "quality": {
+        "editorial_status": "pending_review",
+        "factual_status": "not_applicable",
+        "trademark_review": false,
+        "safety_review": false
+      },
+      "provenance": {
+        "source_type": "dictionary",
+        "source_id": "Princeton_WordNet_3.0:n:12992868",
+        "reviewed_at": ""
+      },
+      "payload": {
+        "word_group": "Fungi and Mycology",
+        "definition": "an organism of the kingdom Fungi lacking chlorophyll and feeding on organic matter; ranging from unicellular or multicellular organisms to spore-bearing syncytia",
+        "definition_synset": "n:12992868",
+        "frequency": 3.53,
+        "ambiguity_review_required": true,
+        "parent_topic_review_required": true,
+        "alternate_parts_of_speech_not_resolved": true,
+        "definition_is_not_trivia": true
+      }
+    },
+    {
+      "schema_version": 1,
+      "id": "word_5c953dd063e7996d9761",
+      "type": "word",
+      "display": "guidebook",
+      "normalized": "GUIDEBOOK",
+      "topics": [
+        {
+          "topic_id": "books_reading_libraries",
+          "relationship": "primary",
+          "confidence": 55,
+          "status": "proposed"
+        }
+      ],
+      "audiences": [],
+      "difficulty": "standard",
+      "format_rules": {
+        "word_search_max_letters": 15,
+        "safe_for_cover": false
+      },
+      "quality": {
+        "editorial_status": "pending_review",
+        "factual_status": "not_applicable",
+        "trademark_review": false,
+        "safety_review": false
+      },
+      "provenance": {
+        "source_type": "dictionary",
+        "source_id": "Princeton_WordNet_3.0:n:06422740",
+        "reviewed_at": ""
+      },
+      "payload": {
+        "word_group": "Books and Written Works",
+        "definition": "something that offers basic information or instruction",
+        "definition_synset": "n:06422740",
+        "frequency": 2.95,
+        "ambiguity_review_required": true,
+        "parent_topic_review_required": true,
+        "alternate_parts_of_speech_not_resolved": true,
+        "definition_is_not_trivia": true
+      }
+    },
+    {
+      "schema_version": 1,
+      "id": "word_6f06246c7f8e03995549",
+      "type": "word",
+      "display": "hyperbole",
+      "normalized": "HYPERBOLE",
+      "topics": [
+        {
+          "topic_id": "word_skills_brain_games",
+          "relationship": "primary",
+          "confidence": 55,
+          "status": "proposed"
+        }
+      ],
+      "audiences": [],
+      "difficulty": "standard",
+      "format_rules": {
+        "word_search_max_letters": 15,
+        "safe_for_cover": false
+      },
+      "quality": {
+        "editorial_status": "pending_review",
+        "factual_status": "not_applicable",
+        "trademark_review": false,
+        "safety_review": false
+      },
+      "provenance": {
+        "source_type": "dictionary",
+        "source_id": "Princeton_WordNet_3.0:n:07106502",
+        "reviewed_at": ""
+      },
+      "payload": {
+        "word_group": "Figures of Speech",
+        "definition": "extravagant exaggeration",
+        "definition_synset": "n:07106502",
+        "frequency": 2.93,
+        "ambiguity_review_required": true,
+        "parent_topic_review_required": true,
+        "alternate_parts_of_speech_not_resolved": true,
+        "definition_is_not_trivia": true
+      }
+    },
+    {
+      "schema_version": 1,
+      "id": "word_ad565fa68a5b7a1f2abe",
+      "type": "word",
+      "display": "hourglass",
+      "normalized": "HOURGLASS",
+      "topics": [
+        {
+          "topic_id": "sports_hobbies",
+          "relationship": "primary",
+          "confidence": 55,
+          "status": "proposed"
+        }
+      ],
+      "audiences": [],
+      "difficulty": "standard",
+      "format_rules": {
+        "word_search_max_letters": 15,
+        "safe_for_cover": false
+      },
+      "quality": {
+        "editorial_status": "pending_review",
+        "factual_status": "not_applicable",
+        "trademark_review": false,
+        "safety_review": false
+      },
+      "provenance": {
+        "source_type": "dictionary",
+        "source_id": "Princeton_WordNet_3.0:n:03544143",
+        "reviewed_at": ""
+      },
+      "payload": {
+        "word_group": "Clocks and Timepieces",
+        "definition": "a sandglass that runs for sixty minutes",
+        "definition_synset": "n:03544143",
+        "frequency": 2.92,
+        "ambiguity_review_required": true,
+        "parent_topic_review_required": true,
+        "alternate_parts_of_speech_not_resolved": true,
+        "definition_is_not_trivia": true
+      }
+    },
+    {
+      "schema_version": 1,
+      "id": "word_1e1dae9cbc9e3ae03d5c",
+      "type": "word",
+      "display": "inn",
+      "normalized": "INN",
+      "topics": [
+        {
+          "topic_id": "general_interest",
+          "relationship": "primary",
+          "confidence": 55,
+          "status": "proposed"
+        }
+      ],
+      "audiences": [],
+      "difficulty": "standard",
+      "format_rules": {
+        "word_search_max_letters": 15,
+        "safe_for_cover": false
+      },
+      "quality": {
+        "editorial_status": "pending_review",
+        "factual_status": "not_applicable",
+        "trademark_review": false,
+        "safety_review": false
+      },
+      "provenance": {
+        "source_type": "dictionary",
+        "source_id": "Princeton_WordNet_3.0:n:03541696",
+        "reviewed_at": ""
+      },
+      "payload": {
+        "word_group": "Buildings and Architecture",
+        "definition": "a hotel providing overnight lodging for travelers",
+        "definition_synset": "n:03541696",
+        "frequency": 4.07,
+        "ambiguity_review_required": true,
+        "parent_topic_review_required": true,
+        "alternate_parts_of_speech_not_resolved": true,
+        "definition_is_not_trivia": true
+      }
+    },
+    {
+      "schema_version": 1,
+      "id": "word_710e10844f06016ae570",
+      "type": "word",
+      "display": "lava",
+      "normalized": "LAVA",
+      "topics": [
+        {
+          "topic_id": "science_discovery",
+          "relationship": "primary",
+          "confidence": 55,
+          "status": "proposed"
+        }
+      ],
+      "audiences": [],
+      "difficulty": "standard",
+      "format_rules": {
+        "word_search_max_letters": 15,
+        "safe_for_cover": false
+      },
+      "quality": {
+        "editorial_status": "pending_review",
+        "factual_status": "not_applicable",
+        "trademark_review": false,
+        "safety_review": false
+      },
+      "provenance": {
+        "source_type": "dictionary",
+        "source_id": "Princeton_WordNet_3.0:n:14930989",
+        "reviewed_at": ""
+      },
+      "payload": {
+        "word_group": "Rock Types",
+        "definition": "rock that in its molten form (as magma) issues from volcanos; lava is what magma is called when it reaches the surface",
+        "definition_synset": "n:14930989",
+        "frequency": 3.73,
+        "ambiguity_review_required": true,
+        "parent_topic_review_required": true,
+        "alternate_parts_of_speech_not_resolved": true,
+        "definition_is_not_trivia": true
+      }
+    },
+    {
+      "schema_version": 1,
+      "id": "word_9e8becbb9018c3adeac4",
+      "type": "word",
+      "display": "magma",
+      "normalized": "MAGMA",
+      "topics": [
+        {
+          "topic_id": "science_discovery",
+          "relationship": "primary",
+          "confidence": 55,
+          "status": "proposed"
+        }
+      ],
+      "audiences": [],
+      "difficulty": "standard",
+      "format_rules": {
+        "word_search_max_letters": 15,
+        "safe_for_cover": false
+      },
+      "quality": {
+        "editorial_status": "pending_review",
+        "factual_status": "not_applicable",
+        "trademark_review": false,
+        "safety_review": false
+      },
+      "provenance": {
+        "source_type": "dictionary",
+        "source_id": "Princeton_WordNet_3.0:n:14931795",
+        "reviewed_at": ""
+      },
+      "payload": {
+        "word_group": "Rock Types",
+        "definition": "molten rock in the earth's crust",
+        "definition_synset": "n:14931795",
+        "frequency": 3.19,
+        "ambiguity_review_required": true,
+        "parent_topic_review_required": true,
+        "alternate_parts_of_speech_not_resolved": true,
+        "definition_is_not_trivia": true
+      }
+    },
+    {
+      "schema_version": 1,
+      "id": "word_3cc529f3f5b61d8251c0",
+      "type": "word",
+      "display": "mina",
+      "normalized": "MINA",
+      "topics": [
+        {
+          "topic_id": "birdwatching",
+          "relationship": "primary",
+          "confidence": 55,
+          "status": "proposed"
+        }
+      ],
+      "audiences": [],
+      "difficulty": "standard",
+      "format_rules": {
+        "word_search_max_letters": 15,
+        "safe_for_cover": false
+      },
+      "quality": {
+        "editorial_status": "pending_review",
+        "factual_status": "not_applicable",
+        "trademark_review": false,
+        "safety_review": false
+      },
+      "provenance": {
+        "source_type": "dictionary",
+        "source_id": "Princeton_WordNet_3.0:n:01577659",
+        "reviewed_at": ""
+      },
+      "payload": {
+        "word_group": "Birds and Birdwatching",
+        "definition": "tropical Asian starlings",
+        "definition_synset": "n:01577659",
+        "frequency": 3.35,
+        "ambiguity_review_required": true,
+        "parent_topic_review_required": true,
+        "alternate_parts_of_speech_not_resolved": true,
+        "definition_is_not_trivia": true
+      }
+    },
+    {
+      "schema_version": 1,
+      "id": "word_a57ee8a0fd556201431c",
+      "type": "word",
+      "display": "nonfiction",
+      "normalized": "NONFICTION",
+      "topics": [
+        {
+          "topic_id": "books_reading_libraries",
+          "relationship": "primary",
+          "confidence": 55,
+          "status": "proposed"
+        }
+      ],
+      "audiences": [],
+      "difficulty": "standard",
+      "format_rules": {
+        "word_search_max_letters": 15,
+        "safe_for_cover": false
+      },
+      "quality": {
+        "editorial_status": "pending_review",
+        "factual_status": "not_applicable",
+        "trademark_review": false,
+        "safety_review": false
+      },
+      "provenance": {
+        "source_type": "dictionary",
+        "source_id": "Princeton_WordNet_3.0:n:06367571",
+        "reviewed_at": ""
+      },
+      "payload": {
+        "word_group": "Prose",
+        "definition": "prose writing that is not fictional",
+        "definition_synset": "n:06367571",
+        "frequency": 3.26,
+        "ambiguity_review_required": true,
+        "parent_topic_review_required": true,
+        "alternate_parts_of_speech_not_resolved": true,
+        "definition_is_not_trivia": true
+      }
+    },
+    {
+      "schema_version": 1,
+      "id": "word_c96813783765cc95c247",
+      "type": "word",
+      "display": "oxymoron",
+      "normalized": "OXYMORON",
+      "topics": [
+        {
+          "topic_id": "word_skills_brain_games",
+          "relationship": "primary",
+          "confidence": 55,
+          "status": "proposed"
+        }
+      ],
+      "audiences": [],
+      "difficulty": "standard",
+      "format_rules": {
+        "word_search_max_letters": 15,
+        "safe_for_cover": false
+      },
+      "quality": {
+        "editorial_status": "pending_review",
+        "factual_status": "not_applicable",
+        "trademark_review": false,
+        "safety_review": false
+      },
+      "provenance": {
+        "source_type": "dictionary",
+        "source_id": "Princeton_WordNet_3.0:n:07108010",
+        "reviewed_at": ""
+      },
+      "payload": {
+        "word_group": "Figures of Speech",
+        "definition": "conjoining contradictory terms (as in `deafening silence')",
+        "definition_synset": "n:07108010",
+        "frequency": 2.72,
+        "ambiguity_review_required": true,
+        "parent_topic_review_required": true,
+        "alternate_parts_of_speech_not_resolved": true,
+        "definition_is_not_trivia": true
+      }
+    },
+    {
+      "schema_version": 1,
+      "id": "word_48cd3f8f9062e168a620",
+      "type": "word",
+      "display": "parka",
+      "normalized": "PARKA",
+      "topics": [
+        {
+          "topic_id": "home_household",
+          "relationship": "primary",
+          "confidence": 55,
+          "status": "proposed"
+        }
+      ],
+      "audiences": [],
+      "difficulty": "standard",
+      "format_rules": {
+        "word_search_max_letters": 15,
+        "safe_for_cover": false
+      },
+      "quality": {
+        "editorial_status": "pending_review",
+        "factual_status": "not_applicable",
+        "trademark_review": false,
+        "safety_review": false
+      },
+      "provenance": {
+        "source_type": "dictionary",
+        "source_id": "Princeton_WordNet_3.0:n:03891051",
+        "reviewed_at": ""
+      },
+      "payload": {
+        "word_group": "Clothing and Apparel",
+        "definition": "a kind of heavy jacket (`windcheater' is a British term)",
+        "definition_synset": "n:03891051",
+        "frequency": 2.76,
+        "ambiguity_review_required": true,
+        "parent_topic_review_required": true,
+        "alternate_parts_of_speech_not_resolved": true,
+        "definition_is_not_trivia": true
+      }
+    },
+    {
+      "schema_version": 1,
+      "id": "word_7af8d39e4c88af122e31",
+      "type": "word",
+      "display": "pew",
+      "normalized": "PEW",
+      "topics": [
+        {
+          "topic_id": "home_household",
+          "relationship": "primary",
+          "confidence": 55,
+          "status": "proposed"
+        }
+      ],
+      "audiences": [],
+      "difficulty": "standard",
+      "format_rules": {
+        "word_search_max_letters": 15,
+        "safe_for_cover": false
+      },
+      "quality": {
+        "editorial_status": "pending_review",
+        "factual_status": "not_applicable",
+        "trademark_review": false,
+        "safety_review": false
+      },
+      "provenance": {
+        "source_type": "dictionary",
+        "source_id": "Princeton_WordNet_3.0:n:03920867",
+        "reviewed_at": ""
+      },
+      "payload": {
+        "word_group": "Furniture",
+        "definition": "long bench with backs; used in church by the congregation",
+        "definition_synset": "n:03920867",
+        "frequency": 3.41,
+        "ambiguity_review_required": true,
+        "parent_topic_review_required": true,
+        "alternate_parts_of_speech_not_resolved": true,
+        "definition_is_not_trivia": true
+      }
+    },
+    {
+      "schema_version": 1,
+      "id": "word_f3686edacfbdb7729150",
+      "type": "word",
+      "display": "phonograph",
+      "normalized": "PHONOGRAPH",
+      "topics": [
+        {
+          "topic_id": "science_discovery",
+          "relationship": "primary",
+          "confidence": 55,
+          "status": "proposed"
+        }
+      ],
+      "audiences": [],
+      "difficulty": "standard",
+      "format_rules": {
+        "word_search_max_letters": 15,
+        "safe_for_cover": false
+      },
+      "quality": {
+        "editorial_status": "pending_review",
+        "factual_status": "not_applicable",
+        "trademark_review": false,
+        "safety_review": false
+      },
+      "provenance": {
+        "source_type": "dictionary",
+        "source_id": "Princeton_WordNet_3.0:n:04064401",
+        "reviewed_at": ""
+      },
+      "payload": {
+        "word_group": "Machines and Mechanisms",
+        "definition": "machine in which rotating records cause a stylus to vibrate and the vibrations are amplified acoustically or electronically",
+        "definition_synset": "n:04064401",
+        "frequency": 2.74,
+        "ambiguity_review_required": true,
+        "parent_topic_review_required": true,
+        "alternate_parts_of_speech_not_resolved": true,
+        "definition_is_not_trivia": true
+      }
+    },
+    {
+      "schema_version": 1,
+      "id": "word_1d6ceff50961c0024fb5",
+      "type": "word",
+      "display": "plateau",
+      "normalized": "PLATEAU",
+      "topics": [
+        {
+          "topic_id": "nature",
+          "relationship": "primary",
+          "confidence": 55,
+          "status": "proposed"
+        }
+      ],
+      "audiences": [],
+      "difficulty": "standard",
+      "format_rules": {
+        "word_search_max_letters": 15,
+        "safe_for_cover": false
+      },
+      "quality": {
+        "editorial_status": "pending_review",
+        "factual_status": "not_applicable",
+        "trademark_review": false,
+        "safety_review": false
+      },
+      "provenance": {
+        "source_type": "dictionary",
+        "source_id": "Princeton_WordNet_3.0:n:09453008",
+        "reviewed_at": ""
+      },
+      "payload": {
+        "word_group": "Geological Formations",
+        "definition": "a relatively flat highland",
+        "definition_synset": "n:09453008",
+        "frequency": 3.61,
+        "ambiguity_review_required": true,
+        "parent_topic_review_required": true,
+        "alternate_parts_of_speech_not_resolved": true,
+        "definition_is_not_trivia": true
+      }
+    },
+    {
+      "schema_version": 1,
+      "id": "word_3daeb744cf656698f144",
+      "type": "word",
+      "display": "polygon",
+      "normalized": "POLYGON",
+      "topics": [
+        {
+          "topic_id": "science_discovery",
+          "relationship": "primary",
+          "confidence": 55,
+          "status": "proposed"
+        }
+      ],
+      "audiences": [],
+      "difficulty": "standard",
+      "format_rules": {
+        "word_search_max_letters": 15,
+        "safe_for_cover": false
+      },
+      "quality": {
+        "editorial_status": "pending_review",
+        "factual_status": "not_applicable",
+        "trademark_review": false,
+        "safety_review": false
+      },
+      "provenance": {
+        "source_type": "dictionary",
+        "source_id": "Princeton_WordNet_3.0:n:13866144",
+        "reviewed_at": ""
+      },
+      "payload": {
+        "word_group": "Geometric Shapes",
+        "definition": "a closed plane figure bounded by straight sides",
+        "definition_synset": "n:13866144",
+        "frequency": 3.04,
+        "ambiguity_review_required": true,
+        "parent_topic_review_required": true,
+        "alternate_parts_of_speech_not_resolved": true,
+        "definition_is_not_trivia": true
+      }
+    },
+    {
+      "schema_version": 1,
+      "id": "word_352d8158ee3d2c1608a2",
+      "type": "word",
+      "display": "poncho",
+      "normalized": "PONCHO",
+      "topics": [
+        {
+          "topic_id": "home_household",
+          "relationship": "primary",
+          "confidence": 55,
+          "status": "proposed"
+        }
+      ],
+      "audiences": [],
+      "difficulty": "standard",
+      "format_rules": {
+        "word_search_max_letters": 15,
+        "safe_for_cover": false
+      },
+      "quality": {
+        "editorial_status": "pending_review",
+        "factual_status": "not_applicable",
+        "trademark_review": false,
+        "safety_review": false
+      },
+      "provenance": {
+        "source_type": "dictionary",
+        "source_id": "Princeton_WordNet_3.0:n:03980874",
+        "reviewed_at": ""
+      },
+      "payload": {
+        "word_group": "Clothing and Apparel",
+        "definition": "a blanket-like cloak with a hole in the center for the head",
+        "definition_synset": "n:03980874",
+        "frequency": 2.79,
+        "ambiguity_review_required": true,
+        "parent_topic_review_required": true,
+        "alternate_parts_of_speech_not_resolved": true,
+        "definition_is_not_trivia": true
+      }
+    },
+    {
+      "schema_version": 1,
+      "id": "word_3756505c1bbae3b52c04",
+      "type": "word",
+      "display": "pronoun",
+      "normalized": "PRONOUN",
+      "topics": [
+        {
+          "topic_id": "word_skills_brain_games",
+          "relationship": "primary",
+          "confidence": 55,
+          "status": "proposed"
+        }
+      ],
+      "audiences": [],
+      "difficulty": "standard",
+      "format_rules": {
+        "word_search_max_letters": 15,
+        "safe_for_cover": false
+      },
+      "quality": {
+        "editorial_status": "pending_review",
+        "factual_status": "not_applicable",
+        "trademark_review": false,
+        "safety_review": false
+      },
+      "provenance": {
+        "source_type": "dictionary",
+        "source_id": "Princeton_WordNet_3.0:n:06325370",
+        "reviewed_at": ""
+      },
+      "payload": {
+        "word_group": "Words and Linguistic Forms",
+        "definition": "a function word that is used in place of a noun or noun phrase",
+        "definition_synset": "n:06325370",
+        "frequency": 3.17,
+        "ambiguity_review_required": true,
+        "parent_topic_review_required": true,
+        "alternate_parts_of_speech_not_resolved": true,
+        "definition_is_not_trivia": true
+      }
+    },
+    {
+      "schema_version": 1,
+      "id": "word_aad31b0aaf2d4ecb4846",
+      "type": "word",
+      "display": "prospector",
+      "normalized": "PROSPECTOR",
+      "topics": [
+        {
+          "topic_id": "careers_community_everyday_life",
+          "relationship": "primary",
+          "confidence": 55,
+          "status": "proposed"
+        }
+      ],
+      "audiences": [],
+      "difficulty": "standard",
+      "format_rules": {
+        "word_search_max_letters": 15,
+        "safe_for_cover": false
+      },
+      "quality": {
+        "editorial_status": "pending_review",
+        "factual_status": "not_applicable",
+        "trademark_review": false,
+        "safety_review": false
+      },
+      "provenance": {
+        "source_type": "dictionary",
+        "source_id": "Princeton_WordNet_3.0:n:10485298",
+        "reviewed_at": ""
+      },
+      "payload": {
+        "word_group": "Workers and Trades",
+        "definition": "someone who explores an area for mineral deposits",
+        "definition_synset": "n:10485298",
+        "frequency": 2.63,
+        "ambiguity_review_required": true,
+        "parent_topic_review_required": true,
+        "alternate_parts_of_speech_not_resolved": true,
+        "definition_is_not_trivia": true
+      }
+    },
+    {
+      "schema_version": 1,
+      "id": "word_186b137c7c18c51e5a7b",
+      "type": "word",
+      "display": "reptile",
+      "normalized": "REPTILE",
+      "topics": [
+        {
+          "topic_id": "nature",
+          "relationship": "primary",
+          "confidence": 55,
+          "status": "proposed"
+        }
+      ],
+      "audiences": [],
+      "difficulty": "standard",
+      "format_rules": {
+        "word_search_max_letters": 15,
+        "safe_for_cover": false
+      },
+      "quality": {
+        "editorial_status": "pending_review",
+        "factual_status": "not_applicable",
+        "trademark_review": false,
+        "safety_review": false
+      },
+      "provenance": {
+        "source_type": "dictionary",
+        "source_id": "Princeton_WordNet_3.0:n:01661091",
+        "reviewed_at": ""
+      },
+      "payload": {
+        "word_group": "Reptiles",
+        "definition": "any cold-blooded vertebrate of the class Reptilia including tortoises, turtles, snakes, lizards, alligators, crocodiles, and extinct forms",
+        "definition_synset": "n:01661091",
+        "frequency": 3.25,
+        "ambiguity_review_required": true,
+        "parent_topic_review_required": true,
+        "alternate_parts_of_speech_not_resolved": true,
+        "definition_is_not_trivia": true
+      }
+    },
+    {
+      "schema_version": 1,
+      "id": "word_17ae8c0ad5dc8a7b70a8",
+      "type": "word",
+      "display": "schoolhouse",
+      "normalized": "SCHOOLHOUSE",
+      "topics": [
+        {
+          "topic_id": "general_interest",
+          "relationship": "primary",
+          "confidence": 55,
+          "status": "proposed"
+        }
+      ],
+      "audiences": [],
+      "difficulty": "standard",
+      "format_rules": {
+        "word_search_max_letters": 15,
+        "safe_for_cover": false
+      },
+      "quality": {
+        "editorial_status": "pending_review",
+        "factual_status": "not_applicable",
+        "trademark_review": false,
+        "safety_review": false
+      },
+      "provenance": {
+        "source_type": "dictionary",
+        "source_id": "Princeton_WordNet_3.0:n:04146050",
+        "reviewed_at": ""
+      },
+      "payload": {
+        "word_group": "Buildings and Architecture",
+        "definition": "a building where young people receive education; \"the school was built in 1932\"; \"he walked to school every morning\"",
+        "definition_synset": "n:04146050",
+        "frequency": 2.92,
+        "ambiguity_review_required": true,
+        "parent_topic_review_required": true,
+        "alternate_parts_of_speech_not_resolved": true,
+        "definition_is_not_trivia": true
+      }
+    },
+    {
+      "schema_version": 1,
+      "id": "word_67b15828b24ef6f9d2b3",
+      "type": "word",
+      "display": "seagull",
+      "normalized": "SEAGULL",
+      "topics": [
+        {
+          "topic_id": "birdwatching",
+          "relationship": "primary",
+          "confidence": 55,
+          "status": "proposed"
+        }
+      ],
+      "audiences": [],
+      "difficulty": "standard",
+      "format_rules": {
+        "word_search_max_letters": 15,
+        "safe_for_cover": false
+      },
+      "quality": {
+        "editorial_status": "pending_review",
+        "factual_status": "not_applicable",
+        "trademark_review": false,
+        "safety_review": false
+      },
+      "provenance": {
+        "source_type": "dictionary",
+        "source_id": "Princeton_WordNet_3.0:n:02041246",
+        "reviewed_at": ""
+      },
+      "payload": {
+        "word_group": "Birds and Birdwatching",
+        "definition": "mostly white aquatic bird having long pointed wings and short legs",
+        "definition_synset": "n:02041246",
+        "frequency": 3.02,
+        "ambiguity_review_required": true,
+        "parent_topic_review_required": true,
+        "alternate_parts_of_speech_not_resolved": true,
+        "definition_is_not_trivia": true
+      }
+    },
+    {
+      "schema_version": 1,
+      "id": "word_7c93a719faa02fcdcf99",
+      "type": "word",
+      "display": "soloist",
+      "normalized": "SOLOIST",
+      "topics": [
+        {
+          "topic_id": "music_instruments",
+          "relationship": "primary",
+          "confidence": 55,
+          "status": "proposed"
+        }
+      ],
+      "audiences": [],
+      "difficulty": "standard",
+      "format_rules": {
+        "word_search_max_letters": 15,
+        "safe_for_cover": false
+      },
+      "quality": {
+        "editorial_status": "pending_review",
+        "factual_status": "not_applicable",
+        "trademark_review": false,
+        "safety_review": false
+      },
+      "provenance": {
+        "source_type": "dictionary",
+        "source_id": "Princeton_WordNet_3.0:n:10623650",
+        "reviewed_at": ""
+      },
+      "payload": {
+        "word_group": "Musicians",
+        "definition": "a musician who performs a solo",
+        "definition_synset": "n:10623650",
+        "frequency": 3.0,
+        "ambiguity_review_required": true,
+        "parent_topic_review_required": true,
+        "alternate_parts_of_speech_not_resolved": true,
+        "definition_is_not_trivia": true
+      }
+    },
+    {
+      "schema_version": 1,
+      "id": "word_8093c0075c8db1e7ccd6",
+      "type": "word",
+      "display": "stanza",
+      "normalized": "STANZA",
+      "topics": [
+        {
+          "topic_id": "books_reading_libraries",
+          "relationship": "primary",
+          "confidence": 55,
+          "status": "proposed"
+        }
+      ],
+      "audiences": [],
+      "difficulty": "standard",
+      "format_rules": {
+        "word_search_max_letters": 15,
+        "safe_for_cover": false
+      },
+      "quality": {
+        "editorial_status": "pending_review",
+        "factual_status": "not_applicable",
+        "trademark_review": false,
+        "safety_review": false
+      },
+      "provenance": {
+        "source_type": "dictionary",
+        "source_id": "Princeton_WordNet_3.0:n:07052291",
+        "reviewed_at": ""
+      },
+      "payload": {
+        "word_group": "Literature and Writing",
+        "definition": "a fixed number of lines of verse forming a unit of a poem",
+        "definition_synset": "n:07052291",
+        "frequency": 3.01,
+        "ambiguity_review_required": true,
+        "parent_topic_review_required": true,
+        "alternate_parts_of_speech_not_resolved": true,
+        "definition_is_not_trivia": true
+      }
+    },
+    {
+      "schema_version": 1,
+      "id": "word_4deb48a2e0f28554df67",
+      "type": "word",
+      "display": "stitching",
+      "normalized": "STITCHING",
+      "topics": [
+        {
+          "topic_id": "sports_hobbies",
+          "relationship": "primary",
+          "confidence": 55,
+          "status": "proposed"
+        }
+      ],
+      "audiences": [],
+      "difficulty": "standard",
+      "format_rules": {
+        "word_search_max_letters": 15,
+        "safe_for_cover": false
+      },
+      "quality": {
+        "editorial_status": "pending_review",
+        "factual_status": "not_applicable",
+        "trademark_review": false,
+        "safety_review": false
+      },
+      "provenance": {
+        "source_type": "dictionary",
+        "source_id": "Princeton_WordNet_3.0:n:00715674",
+        "reviewed_at": ""
+      },
+      "payload": {
+        "word_group": "Crafts and Skilled Trades",
+        "definition": "joining or attaching by stitches",
+        "definition_synset": "n:00715674",
+        "frequency": 3.12,
+        "ambiguity_review_required": true,
+        "parent_topic_review_required": true,
+        "alternate_parts_of_speech_not_resolved": true,
+        "definition_is_not_trivia": true
+      }
+    },
+    {
+      "schema_version": 1,
+      "id": "word_79744d2eb94e32bd4372",
+      "type": "word",
+      "display": "tambourine",
+      "normalized": "TAMBOURINE",
+      "topics": [
+        {
+          "topic_id": "music_instruments",
+          "relationship": "primary",
+          "confidence": 55,
+          "status": "proposed"
+        }
+      ],
+      "audiences": [],
+      "difficulty": "standard",
+      "format_rules": {
+        "word_search_max_letters": 15,
+        "safe_for_cover": false
+      },
+      "quality": {
+        "editorial_status": "pending_review",
+        "factual_status": "not_applicable",
+        "trademark_review": false,
+        "safety_review": false
+      },
+      "provenance": {
+        "source_type": "dictionary",
+        "source_id": "Princeton_WordNet_3.0:n:04387400",
+        "reviewed_at": ""
+      },
+      "payload": {
+        "word_group": "Musical Instruments",
+        "definition": "a shallow drum with a single drumhead and with metallic disks in the sides",
+        "definition_synset": "n:04387400",
+        "frequency": 2.64,
+        "ambiguity_review_required": true,
+        "parent_topic_review_required": true,
+        "alternate_parts_of_speech_not_resolved": true,
+        "definition_is_not_trivia": true
+      }
+    },
+    {
+      "schema_version": 1,
+      "id": "word_875dafee618386462c0d",
+      "type": "word",
+      "display": "thermodynamics",
+      "normalized": "THERMODYNAMICS",
+      "topics": [
+        {
+          "topic_id": "science_discovery",
+          "relationship": "primary",
+          "confidence": 55,
+          "status": "proposed"
+        }
+      ],
+      "audiences": [],
+      "difficulty": "standard",
+      "format_rules": {
+        "word_search_max_letters": 15,
+        "safe_for_cover": false
+      },
+      "quality": {
+        "editorial_status": "pending_review",
+        "factual_status": "not_applicable",
+        "trademark_review": false,
+        "safety_review": false
+      },
+      "provenance": {
+        "source_type": "dictionary",
+        "source_id": "Princeton_WordNet_3.0:n:06114578",
+        "reviewed_at": ""
+      },
+      "payload": {
+        "word_group": "Fields of Science",
+        "definition": "the branch of physics concerned with the conversion of different forms of energy",
+        "definition_synset": "n:06114578",
+        "frequency": 3.1,
+        "ambiguity_review_required": true,
+        "parent_topic_review_required": true,
+        "alternate_parts_of_speech_not_resolved": true,
+        "definition_is_not_trivia": true
+      }
+    },
+    {
+      "schema_version": 1,
+      "id": "word_c1a09317f880d0644c2e",
+      "type": "word",
+      "display": "typewriter",
+      "normalized": "TYPEWRITER",
+      "topics": [
+        {
+          "topic_id": "science_discovery",
+          "relationship": "primary",
+          "confidence": 55,
+          "status": "proposed"
+        }
+      ],
+      "audiences": [],
+      "difficulty": "standard",
+      "format_rules": {
+        "word_search_max_letters": 15,
+        "safe_for_cover": false
+      },
+      "quality": {
+        "editorial_status": "pending_review",
+        "factual_status": "not_applicable",
+        "trademark_review": false,
+        "safety_review": false
+      },
+      "provenance": {
+        "source_type": "dictionary",
+        "source_id": "Princeton_WordNet_3.0:n:04505036",
+        "reviewed_at": ""
+      },
+      "payload": {
+        "word_group": "Machines and Mechanisms",
+        "definition": "hand-operated character printer for printing written messages one character at a time",
+        "definition_synset": "n:04505036",
+        "frequency": 3.26,
+        "ambiguity_review_required": true,
+        "parent_topic_review_required": true,
+        "alternate_parts_of_speech_not_resolved": true,
+        "definition_is_not_trivia": true
+      }
+    },
+    {
+      "schema_version": 1,
+      "id": "word_d559867c335129f8769f",
+      "type": "word",
+      "display": "togetherness",
+      "normalized": "TOGETHERNESS",
+      "topics": [
+        {
+          "topic_id": "general_interest",
+          "relationship": "primary",
+          "confidence": 55,
+          "status": "proposed"
+        }
+      ],
+      "audiences": [],
+      "difficulty": "standard",
+      "format_rules": {
+        "word_search_max_letters": 15,
+        "safe_for_cover": false
+      },
+      "quality": {
+        "editorial_status": "pending_review",
+        "factual_status": "not_applicable",
+        "trademark_review": false,
+        "safety_review": false
+      },
+      "provenance": {
+        "source_type": "dictionary",
+        "source_id": "Princeton_WordNet_3.0:n:07530322",
+        "reviewed_at": ""
+      },
+      "payload": {
+        "word_group": "Feelings and Emotional Vocabulary",
+        "definition": "affectionate closeness; \"togetherness is the new wonder ingredient in marriage\"",
+        "definition_synset": "n:07530322",
+        "frequency": 2.8,
+        "ambiguity_review_required": true,
+        "parent_topic_review_required": true,
+        "alternate_parts_of_speech_not_resolved": true,
+        "definition_is_not_trivia": true
+      }
+    },
+    {
+      "schema_version": 1,
+      "id": "word_52f8a02b8de8ba53ee0d",
+      "type": "word",
+      "display": "tradesman",
+      "normalized": "TRADESMAN",
+      "topics": [
+        {
+          "topic_id": "careers_community_everyday_life",
+          "relationship": "primary",
+          "confidence": 55,
+          "status": "proposed"
+        }
+      ],
+      "audiences": [],
+      "difficulty": "standard",
+      "format_rules": {
+        "word_search_max_letters": 15,
+        "safe_for_cover": false
+      },
+      "quality": {
+        "editorial_status": "pending_review",
+        "factual_status": "not_applicable",
+        "trademark_review": false,
+        "safety_review": false
+      },
+      "provenance": {
+        "source_type": "dictionary",
+        "source_id": "Princeton_WordNet_3.0:n:10592152",
+        "reviewed_at": ""
+      },
+      "payload": {
+        "word_group": "Merchants and Retail",
+        "definition": "a merchant who owns or manages a shop",
+        "definition_synset": "n:10592152",
+        "frequency": 2.62,
+        "ambiguity_review_required": true,
+        "parent_topic_review_required": true,
+        "alternate_parts_of_speech_not_resolved": true,
+        "definition_is_not_trivia": true
+      }
+    },
+    {
+      "schema_version": 1,
+      "id": "word_0fb476ac046c0ac6e140",
+      "type": "word",
+      "display": "trepidation",
+      "normalized": "TREPIDATION",
+      "topics": [
+        {
+          "topic_id": "general_interest",
+          "relationship": "primary",
+          "confidence": 55,
+          "status": "proposed"
+        }
+      ],
+      "audiences": [],
+      "difficulty": "standard",
+      "format_rules": {
+        "word_search_max_letters": 15,
+        "safe_for_cover": false
+      },
+      "quality": {
+        "editorial_status": "pending_review",
+        "factual_status": "not_applicable",
+        "trademark_review": false,
+        "safety_review": false
+      },
+      "provenance": {
+        "source_type": "dictionary",
+        "source_id": "Princeton_WordNet_3.0:n:07522043",
+        "reviewed_at": ""
+      },
+      "payload": {
+        "word_group": "Feelings and Emotional Vocabulary",
+        "definition": "a feeling of alarm or dread",
+        "definition_synset": "n:07522043",
+        "frequency": 2.72,
+        "ambiguity_review_required": true,
+        "parent_topic_review_required": true,
+        "alternate_parts_of_speech_not_resolved": true,
+        "definition_is_not_trivia": true
+      }
+    },
+    {
+      "schema_version": 1,
+      "id": "word_9b064895fee81f6769f0",
+      "type": "word",
+      "display": "vocalist",
+      "normalized": "VOCALIST",
+      "topics": [
+        {
+          "topic_id": "music_instruments",
+          "relationship": "primary",
+          "confidence": 55,
+          "status": "proposed"
+        }
+      ],
+      "audiences": [],
+      "difficulty": "standard",
+      "format_rules": {
+        "word_search_max_letters": 15,
+        "safe_for_cover": false
+      },
+      "quality": {
+        "editorial_status": "pending_review",
+        "factual_status": "not_applicable",
+        "trademark_review": false,
+        "safety_review": false
+      },
+      "provenance": {
+        "source_type": "dictionary",
+        "source_id": "Princeton_WordNet_3.0:n:10599806",
+        "reviewed_at": ""
+      },
+      "payload": {
+        "word_group": "Musicians",
+        "definition": "a person who sings",
+        "definition_synset": "n:10599806",
+        "frequency": 3.4,
+        "ambiguity_review_required": true,
+        "parent_topic_review_required": true,
+        "alternate_parts_of_speech_not_resolved": true,
+        "definition_is_not_trivia": true
+      }
+    }
+  ]
+}

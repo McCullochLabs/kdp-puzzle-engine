@@ -69,7 +69,7 @@ def test_theme_flows_all_the_way_to_publication_views(tmp_path):
     assert product.title == "Garden Word Search"
     assert product.series == "Garden Collection"
     assert product.page_count > 0
-    assert product.price == 6.99  # DEFAULT_PRICE_CHANNEL == "etsy"
+    assert product.price == 4.99  # current standard printable launch price on Etsy
 
     records = service.db.marketplace_records(book_id)
     rows = marketplace_rows(book, records)

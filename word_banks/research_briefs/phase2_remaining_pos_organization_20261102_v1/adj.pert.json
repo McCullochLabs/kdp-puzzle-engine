@@ -1,0 +1,456 @@
+{
+  "schema_version": 1,
+  "research_status": "REVIEW_REQUIRED_NOT_APPROVED",
+  "group": "adj.pert",
+  "records": [
+    {
+      "normalized": "ANDEAN",
+      "status": "pending_context_and_editorial_review",
+      "candidate_categories": [
+        "adj.pert"
+      ],
+      "source_senses": [
+        {
+          "lemma": "Andean",
+          "synset": "adj:03025853",
+          "part_of_speech": "adj",
+          "lexical_category": "adj.pert",
+          "definition": "relating to the Andes and their inhabitants",
+          "match_type": "exact_normalized_source_lemma"
+        }
+      ]
+    },
+    {
+      "normalized": "APPELLATE",
+      "status": "pending_context_and_editorial_review",
+      "candidate_categories": [
+        "adj.pert"
+      ],
+      "source_senses": [
+        {
+          "lemma": "appellate",
+          "synset": "adj:03044083",
+          "part_of_speech": "adj",
+          "lexical_category": "adj.pert",
+          "definition": "of or relating to or taking account of appeals (usually legal appeals); \"appellate court\"",
+          "match_type": "exact_normalized_source_lemma"
+        }
+      ]
+    },
+    {
+      "normalized": "BAYESIAN",
+      "status": "pending_context_and_editorial_review",
+      "candidate_categories": [
+        "adj.pert"
+      ],
+      "source_senses": [
+        {
+          "lemma": "Bayesian",
+          "synset": "adj:02625430",
+          "part_of_speech": "adj",
+          "lexical_category": "adj.pert",
+          "definition": "of or relating to statistical methods based on Bayes' theorem",
+          "match_type": "exact_normalized_source_lemma"
+        }
+      ]
+    },
+    {
+      "normalized": "BOOLEAN",
+      "status": "pending_context_and_editorial_review",
+      "candidate_categories": [
+        "adj.pert"
+      ],
+      "source_senses": [
+        {
+          "lemma": "Boolean",
+          "synset": "adj:02667741",
+          "part_of_speech": "adj",
+          "lexical_category": "adj.pert",
+          "definition": "of or relating to a combinatorial system devised by George Boole that combines propositions with the logical operators AND and OR and IF THEN and EXCEPT and NOT",
+          "match_type": "exact_normalized_source_lemma"
+        }
+      ]
+    },
+    {
+      "normalized": "BOSNIAN",
+      "status": "pending_context_and_editorial_review",
+      "candidate_categories": [
+        "adj.pert"
+      ],
+      "source_senses": [
+        {
+          "lemma": "Bosnian",
+          "synset": "adj:02964629",
+          "part_of_speech": "adj",
+          "lexical_category": "adj.pert",
+          "definition": "of or relating to or characteristic of Bosnia-Herzegovina or the people of Bosnia",
+          "match_type": "exact_normalized_source_lemma"
+        }
+      ]
+    },
+    {
+      "normalized": "CHRONOLOGICAL",
+      "status": "pending_context_and_editorial_review",
+      "candidate_categories": [
+        "adj.pert"
+      ],
+      "source_senses": [
+        {
+          "lemma": "chronological",
+          "synset": "adj:02956880",
+          "part_of_speech": "adj",
+          "lexical_category": "adj.pert",
+          "definition": "relating to or arranged according to temporal order; \"chronological age\"",
+          "match_type": "exact_normalized_source_lemma"
+        }
+      ]
+    },
+    {
+      "normalized": "DRACONIAN",
+      "status": "pending_context_and_editorial_review",
+      "candidate_categories": [
+        "adj.pert"
+      ],
+      "source_senses": [
+        {
+          "lemma": "Draconian",
+          "synset": "adj:03031102",
+          "part_of_speech": "adj",
+          "lexical_category": "adj.pert",
+          "definition": "of or relating to Draco or his harsh code of laws; \"Draconian measures\"",
+          "match_type": "exact_normalized_source_lemma"
+        }
+      ]
+    },
+    {
+      "normalized": "GALLIC",
+      "status": "pending_context_and_editorial_review",
+      "candidate_categories": [
+        "adj.pert"
+      ],
+      "source_senses": [
+        {
+          "lemma": "Gallic",
+          "synset": "adj:02958392",
+          "part_of_speech": "adj",
+          "lexical_category": "adj.pert",
+          "definition": "of or pertaining to France or the people of France; \"French cooking\"; \"a Gallic shrug\"",
+          "match_type": "exact_normalized_source_lemma"
+        },
+        {
+          "lemma": "Gallic",
+          "synset": "adj:03066978",
+          "part_of_speech": "adj",
+          "lexical_category": "adj.pert",
+          "definition": "of or pertaining to Gaul or the Gauls; \"Ancient Gallic dialects\"; \"Gallic migrations\"; \"the Gallic Wars\"",
+          "match_type": "exact_normalized_source_lemma"
+        }
+      ]
+    },
+    {
+      "normalized": "GEOTHERMAL",
+      "status": "pending_context_and_editorial_review",
+      "candidate_categories": [
+        "adj.pert"
+      ],
+      "source_senses": [
+        {
+          "lemma": "geothermal",
+          "synset": "adj:02735669",
+          "part_of_speech": "adj",
+          "lexical_category": "adj.pert",
+          "definition": "of or relating to the heat in the interior of the earth",
+          "match_type": "exact_normalized_source_lemma"
+        }
+      ]
+    },
+    {
+      "normalized": "HELLENISTIC",
+      "status": "pending_context_and_editorial_review",
+      "candidate_categories": [
+        "adj.pert"
+      ],
+      "source_senses": [
+        {
+          "lemma": "Hellenistic",
+          "synset": "adj:03015805",
+          "part_of_speech": "adj",
+          "lexical_category": "adj.pert",
+          "definition": "relating to or characteristic of the classical Greek civilization",
+          "match_type": "exact_normalized_source_lemma"
+        }
+      ]
+    },
+    {
+      "normalized": "HIMALAYAN",
+      "status": "pending_context_and_editorial_review",
+      "candidate_categories": [
+        "adj.pert"
+      ],
+      "source_senses": [
+        {
+          "lemma": "Himalayan",
+          "synset": "adj:02965861",
+          "part_of_speech": "adj",
+          "lexical_category": "adj.pert",
+          "definition": "of or relating to the Himalayas; \"Himalayan peaks\"",
+          "match_type": "exact_normalized_source_lemma"
+        }
+      ]
+    },
+    {
+      "normalized": "JAIN",
+      "status": "pending_context_and_editorial_review",
+      "candidate_categories": [
+        "adj.pert"
+      ],
+      "source_senses": [
+        {
+          "lemma": "Jain",
+          "synset": "adj:02925342",
+          "part_of_speech": "adj",
+          "lexical_category": "adj.pert",
+          "definition": "relating to or characteristic of Jainism; \"Jain gods\"",
+          "match_type": "exact_normalized_source_lemma"
+        }
+      ]
+    },
+    {
+      "normalized": "MANCHURIAN",
+      "status": "pending_context_and_editorial_review",
+      "candidate_categories": [
+        "adj.pert"
+      ],
+      "source_senses": [
+        {
+          "lemma": "Manchurian",
+          "synset": "adj:02969060",
+          "part_of_speech": "adj",
+          "lexical_category": "adj.pert",
+          "definition": "of or relating to or characteristic of Manchuria or its people or their culture; \"the Manchurian invasion\"",
+          "match_type": "exact_normalized_source_lemma"
+        }
+      ]
+    },
+    {
+      "normalized": "NAPOLEONIC",
+      "status": "pending_context_and_editorial_review",
+      "candidate_categories": [
+        "adj.pert"
+      ],
+      "source_senses": [
+        {
+          "lemma": "Napoleonic",
+          "synset": "adj:03035876",
+          "part_of_speech": "adj",
+          "lexical_category": "adj.pert",
+          "definition": "of or relating to or like Napoleon Bonaparte; \"Napoleonic Wars\"",
+          "match_type": "exact_normalized_source_lemma"
+        }
+      ]
+    },
+    {
+      "normalized": "ORBITAL",
+      "status": "pending_context_and_editorial_review",
+      "candidate_categories": [
+        "adj.pert"
+      ],
+      "source_senses": [
+        {
+          "lemma": "orbital",
+          "synset": "adj:02870178",
+          "part_of_speech": "adj",
+          "lexical_category": "adj.pert",
+          "definition": "of or relating to the eye socket; \"orbital scale\"; \"orbital arch\"",
+          "match_type": "exact_normalized_source_lemma"
+        },
+        {
+          "lemma": "orbital",
+          "synset": "adj:02979285",
+          "part_of_speech": "adj",
+          "lexical_category": "adj.pert",
+          "definition": "of or relating to an orbit; \"orbital revolution\"; \"orbital velocity\"",
+          "match_type": "exact_normalized_source_lemma"
+        }
+      ]
+    },
+    {
+      "normalized": "ORWELLIAN",
+      "status": "pending_context_and_editorial_review",
+      "candidate_categories": [
+        "adj.pert"
+      ],
+      "source_senses": [
+        {
+          "lemma": "Orwellian",
+          "synset": "adj:02772012",
+          "part_of_speech": "adj",
+          "lexical_category": "adj.pert",
+          "definition": "of or relating to the works of George Orwell (especially his picture of a future totalitarian state)",
+          "match_type": "exact_normalized_source_lemma"
+        }
+      ]
+    },
+    {
+      "normalized": "PAULINE",
+      "status": "pending_context_and_editorial_review",
+      "candidate_categories": [
+        "adj.pert"
+      ],
+      "source_senses": [
+        {
+          "lemma": "Pauline",
+          "synset": "adj:02775318",
+          "part_of_speech": "adj",
+          "lexical_category": "adj.pert",
+          "definition": "relating to Paul the Apostle or his doctrines",
+          "match_type": "exact_normalized_source_lemma"
+        }
+      ]
+    },
+    {
+      "normalized": "PENILE",
+      "status": "pending_context_and_editorial_review",
+      "candidate_categories": [
+        "adj.pert"
+      ],
+      "source_senses": [
+        {
+          "lemma": "penile",
+          "synset": "adj:03097952",
+          "part_of_speech": "adj",
+          "lexical_category": "adj.pert",
+          "definition": "of or relating to the penis; \"penile erection\"",
+          "match_type": "exact_normalized_source_lemma"
+        }
+      ]
+    },
+    {
+      "normalized": "RC",
+      "status": "pending_context_and_editorial_review",
+      "candidate_categories": [
+        "adj.pert"
+      ],
+      "source_senses": [
+        {
+          "lemma": "R.C.",
+          "synset": "adj:02921753",
+          "part_of_speech": "adj",
+          "lexical_category": "adj.pert",
+          "definition": "of or relating to or supporting Romanism; \"the Roman Catholic Church\"",
+          "match_type": "exact_normalized_source_lemma"
+        }
+      ]
+    },
+    {
+      "normalized": "TANTRIC",
+      "status": "pending_context_and_editorial_review",
+      "candidate_categories": [
+        "adj.pert"
+      ],
+      "source_senses": [
+        {
+          "lemma": "Tantric",
+          "synset": "adj:02926025",
+          "part_of_speech": "adj",
+          "lexical_category": "adj.pert",
+          "definition": "of or relating to Tantrism; \"Tantric rituals\"",
+          "match_type": "exact_normalized_source_lemma"
+        }
+      ]
+    },
+    {
+      "normalized": "TASMANIAN",
+      "status": "pending_context_and_editorial_review",
+      "candidate_categories": [
+        "adj.pert"
+      ],
+      "source_senses": [
+        {
+          "lemma": "Tasmanian",
+          "synset": "adj:02809010",
+          "part_of_speech": "adj",
+          "lexical_category": "adj.pert",
+          "definition": "of or relating to Tasmania",
+          "match_type": "exact_normalized_source_lemma"
+        }
+      ]
+    },
+    {
+      "normalized": "TECTONIC",
+      "status": "pending_context_and_editorial_review",
+      "candidate_categories": [
+        "adj.pert"
+      ],
+      "source_senses": [
+        {
+          "lemma": "tectonic",
+          "synset": "adj:02898121",
+          "part_of_speech": "adj",
+          "lexical_category": "adj.pert",
+          "definition": "of or pertaining to construction or architecture",
+          "match_type": "exact_normalized_source_lemma"
+        },
+        {
+          "lemma": "tectonic",
+          "synset": "adj:02939099",
+          "part_of_speech": "adj",
+          "lexical_category": "adj.pert",
+          "definition": "pertaining to the structure or movement of the earth's crust; \"tectonic plates\"; \"tectonic valleys\"",
+          "match_type": "exact_normalized_source_lemma"
+        }
+      ]
+    },
+    {
+      "normalized": "VAGINAL",
+      "status": "pending_context_and_editorial_review",
+      "candidate_categories": [
+        "adj.pert"
+      ],
+      "source_senses": [
+        {
+          "lemma": "vaginal",
+          "synset": "adj:03128070",
+          "part_of_speech": "adj",
+          "lexical_category": "adj.pert",
+          "definition": "of or relating to the vagina; \"vaginal suppository\"",
+          "match_type": "exact_normalized_source_lemma"
+        }
+      ]
+    },
+    {
+      "normalized": "VEDIC",
+      "status": "pending_context_and_editorial_review",
+      "candidate_categories": [
+        "adj.pert"
+      ],
+      "source_senses": [
+        {
+          "lemma": "Vedic",
+          "synset": "adj:02823266",
+          "part_of_speech": "adj",
+          "lexical_category": "adj.pert",
+          "definition": "of or relating to the Vedas or to the ancient Sanskrit in which they were written; \"the Vedic literature\"",
+          "match_type": "exact_normalized_source_lemma"
+        }
+      ]
+    },
+    {
+      "normalized": "VIENNESE",
+      "status": "pending_context_and_editorial_review",
+      "candidate_categories": [
+        "adj.pert"
+      ],
+      "source_senses": [
+        {
+          "lemma": "Viennese",
+          "synset": "adj:02971192",
+          "part_of_speech": "adj",
+          "lexical_category": "adj.pert",
+          "definition": "of or relating to or characteristic of Vienna or its inhabitants",
+          "match_type": "exact_normalized_source_lemma"
+        }
+      ]
+    }
+  ]
+}

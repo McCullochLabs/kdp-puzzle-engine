@@ -80,11 +80,22 @@ def audit_theme(path: Path, seed: int) -> tuple[list[str], list[str], list[str]]
         if not isinstance(source, list) or not source:
             errors.append(f"{name}: it has no words."); continue
         if len(source) > 25: errors.append(f"{name}: it has {len(source)} words; the maximum is 25.")
-        cleaned = puzzle_engine.clean_words(source)
+        if any(not isinstance(word, str) for word in source):
+            errors.append(f"{name}: every target must be text; revise the word list.")
+            continue
+        try:
+            cleaned = puzzle_engine.clean_words(source)
+        except ValueError as exc:
+            errors.append(f"{name}: {exc}")
+            continue
         if len(cleaned) != len(source): errors.append(f"{name}: one or more words are blank or longer than 21 letters.")
         if len(cleaned) != len(set(cleaned)): errors.append(f"{name}: a word appears more than once.")
         if cleaned:
-            _grid, _placements, placed = puzzle_engine.generate_puzzle(cleaned, N=puzzle_engine.grid_size_for(cleaned))
+            try:
+                _grid, _placements, placed = puzzle_engine.generate_puzzle(cleaned, N=puzzle_engine.grid_size_for(cleaned))
+            except ValueError as exc:
+                errors.append(f"{name}: {exc}")
+                continue
             if len(placed) != len(cleaned): errors.append(f"{name}: only {len(placed)} of {len(cleaned)} words could be placed.")
     notes.append(f"Checked {len(puzzles)} puzzle(s) using random seed {seed}.")
     return errors, warnings, notes
@@ -160,7 +171,10 @@ def run_project_check(themes_dir: Path) -> tuple[list[str], list[str]]:
                 clean = "".join(char for char in str(word).upper() if char.isalpha())
                 if clean in book_words: repeats.add(clean)
                 book_words.add(clean)
-        if repeats:
+        from publishing.repetition_policy import requested as repetition_requested, evaluate as evaluate_repetition
+        if repetition_requested(data):
+            problems.extend(f"{path.name}: {issue}" for issue in evaluate_repetition(data)["errors"])
+        elif repeats:
             examples = ", ".join(sorted(repeats)[:5])
             problems.append(f"{path.name}: repeats {len(repeats)} word(s) across puzzles ({examples}).")
     active = sum(1 for path in files if "Used Themes" not in path.parts)

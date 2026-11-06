@@ -1,0 +1,1004 @@
+{
+  "title": "Vocabulary Ladder: Grade 5 Word Quest",
+  "subtitle": "48 themed vocabulary word searches for Grade 5 reading, spelling and word confidence",
+  "author": "Jordan M. Slade",
+  "series": "Vocabulary Ladder: Grade-by-Grade Word Quest",
+  "detected_topic": "Grade 5 Vocabulary",
+  "difficulty_label": "Standard",
+  "palette": "notebook-mint",
+  "recommended_palette": "notebook-mint",
+  "cover_style": "playful",
+  "recommended_cover_style": "playful",
+  "no_repeat_words": true,
+  "cover_imprint": "Slade Puzzle Co.",
+  "cover_badge": "48 LARGE-PRINT PUZZLES • NO REPEATED WORDS",
+  "puzzles": [
+    {
+      "name": "Narrative Arc",
+      "words": [
+        "EXPOSITION",
+        "RISING ACTION",
+        "CLIMAX",
+        "FALLING ACTION",
+        "RESOLUTION",
+        "CONFLICT",
+        "SETTING",
+        "PLOT",
+        "THEME",
+        "SEQUENCE",
+        "TURNING POINT",
+        "OUTCOME"
+      ],
+      "mini_theme": "Narrative Arc",
+      "page_title_verified": true,
+      "page_title_basis": "editorial_review"
+    },
+    {
+      "name": "Character Traits",
+      "words": [
+        "COURAGEOUS",
+        "DETERMINED",
+        "COMPASSIONATE",
+        "RESOURCEFUL",
+        "AMBITIOUS",
+        "HONEST",
+        "CURIOUS",
+        "STUBBORN",
+        "GENEROUS",
+        "RESPONSIBLE",
+        "INDEPENDENT",
+        "THOUGHTFUL"
+      ],
+      "mini_theme": "Character Traits",
+      "page_title_verified": true,
+      "page_title_basis": "editorial_review"
+    },
+    {
+      "name": "Figurative Language",
+      "words": [
+        "METAPHOR",
+        "SIMILE",
+        "PERSONIFICATION",
+        "ALLITERATION",
+        "HYPERBOLE",
+        "IDIOM",
+        "ONOMATOPOEIA",
+        "IMAGERY",
+        "SYMBOLISM",
+        "OXYMORON",
+        "PUN",
+        "STANZA"
+      ],
+      "mini_theme": "Figurative Language",
+      "page_title_verified": true,
+      "page_title_basis": "editorial_review"
+    },
+    {
+      "name": "Point of View",
+      "words": [
+        "FIRST PERSON",
+        "THIRD PERSON",
+        "OMNISCIENT",
+        "NARRATOR",
+        "PERSPECTIVE",
+        "SPEAKER",
+        "OBSERVER",
+        "PROTAGONIST",
+        "ANTAGONIST",
+        "DIALOGUE",
+        "MONOLOGUE",
+        "BIAS"
+      ],
+      "mini_theme": "Point of View",
+      "page_title_verified": true,
+      "page_title_basis": "editorial_review"
+    },
+    {
+      "name": "Reading Comprehension",
+      "words": [
+        "INFERENCE",
+        "PREDICTION",
+        "SUMMARY",
+        "CONCLUSION",
+        "MAIN IDEA",
+        "SUPPORTING DETAIL",
+        "CONTEXT CLUE",
+        "EVIDENCE",
+        "PARAPHRASE",
+        "SKIMMING",
+        "SCANNING",
+        "EVALUATION"
+      ],
+      "mini_theme": "Reading Comprehension",
+      "page_title_verified": true,
+      "page_title_basis": "editorial_review"
+    },
+    {
+      "name": "Poetry Elements",
+      "words": [
+        "RHYME SCHEME",
+        "RHYTHM",
+        "METER",
+        "VERSE",
+        "COUPLET",
+        "FREE VERSE",
+        "ASSONANCE",
+        "CONSONANCE",
+        "TONE",
+        "MOOD",
+        "SYMBOL",
+        "LINE BREAK"
+      ],
+      "mini_theme": "Poetry Elements",
+      "page_title_verified": true,
+      "page_title_basis": "editorial_review"
+    },
+    {
+      "name": "Genres and Styles",
+      "words": [
+        "HISTORICAL FICTION",
+        "SCIENCE FICTION",
+        "FANTASY",
+        "MYSTERY",
+        "BIOGRAPHY",
+        "AUTOBIOGRAPHY",
+        "FOLKTALE",
+        "FABLE",
+        "LEGEND",
+        "MYTHOLOGY",
+        "POETRY",
+        "NONFICTION"
+      ],
+      "mini_theme": "Genres and Styles",
+      "page_title_verified": true,
+      "page_title_basis": "editorial_review"
+    },
+    {
+      "name": "Reading Comprehension Strategies",
+      "words": [
+        "PREDICT",
+        "INFER",
+        "VISUALIZE",
+        "SUMMARIZE",
+        "CLARIFY",
+        "QUESTION",
+        "CONNECT",
+        "EVALUATE",
+        "MONITOR",
+        "SYNTHESIZE",
+        "ANALYZE",
+        "COMPREHEND"
+      ],
+      "mini_theme": "Reading Comprehension Strategies",
+      "page_title_verified": true,
+      "page_title_basis": "editorial_review"
+    },
+    {
+      "name": "Informational Text Structures",
+      "words": [
+        "CHRONOLOGY",
+        "COMPARISON",
+        "CAUSE AND EFFECT",
+        "PROBLEM AND SOLUTION",
+        "DESCRIPTION",
+        "SUBHEADING",
+        "CAPTION",
+        "GLOSSARY",
+        "INDEX",
+        "SIDEBAR",
+        "DIAGRAM",
+        "FOOTNOTE"
+      ],
+      "mini_theme": "Informational Text Structures",
+      "page_title_verified": true,
+      "page_title_basis": "editorial_review"
+    },
+    {
+      "name": "Parts of Speech Mastery",
+      "words": [
+        "NOUN",
+        "PRONOUN",
+        "VERB",
+        "ADJECTIVE",
+        "ADVERB",
+        "PREPOSITION",
+        "CONJUNCTION",
+        "INTERJECTION",
+        "ARTICLE",
+        "SUBJECT",
+        "PREDICATE",
+        "MODIFIER"
+      ],
+      "mini_theme": "Parts of Speech Mastery",
+      "page_title_verified": true,
+      "page_title_basis": "editorial_review"
+    },
+    {
+      "name": "Spelling Rules & Patterns",
+      "words": [
+        "HOMOPHONE",
+        "HOMOGRAPH",
+        "SYNONYM",
+        "ANTONYM",
+        "PREFIX",
+        "SUFFIX",
+        "ROOT WORD",
+        "COMPOUND WORD",
+        "SYLLABLE",
+        "CONTRACTION",
+        "PLURAL",
+        "POSSESSIVE"
+      ],
+      "mini_theme": "Spelling Rules & Patterns",
+      "page_title_verified": true,
+      "page_title_basis": "editorial_review"
+    },
+    {
+      "name": "Punctuation Mechanics",
+      "words": [
+        "COMMA",
+        "PERIOD",
+        "QUESTION MARK",
+        "EXCLAMATION",
+        "APOSTROPHE",
+        "QUOTATION MARK",
+        "SEMICOLON",
+        "COLON",
+        "HYPHEN",
+        "PARENTHESES",
+        "BRACKET",
+        "ELLIPSIS"
+      ],
+      "mini_theme": "Punctuation Mechanics",
+      "page_title_verified": true,
+      "page_title_basis": "editorial_review"
+    },
+    {
+      "name": "Narrative Action",
+      "words": [
+        "DASH",
+        "SCURRY",
+        "PLUNGE",
+        "TIPTOE",
+        "STRIDE",
+        "BOUND",
+        "LEAP",
+        "CRAWL",
+        "STUMBLE",
+        "SPRINT",
+        "MARCH",
+        "TROT"
+      ],
+      "mini_theme": "Narrative Action",
+      "page_title_verified": true,
+      "page_title_basis": "editorial_review"
+    },
+    {
+      "name": "Sensory Description",
+      "words": [
+        "FRAGRANT",
+        "GLIMMER",
+        "THUNDEROUS",
+        "VELVETY",
+        "BITTER",
+        "SILKY",
+        "PIERCING",
+        "RESONANT",
+        "VIBRANT",
+        "DAZZLING",
+        "SAVORY",
+        "FROSTED"
+      ],
+      "mini_theme": "Sensory Description",
+      "page_title_verified": true,
+      "page_title_basis": "editorial_review"
+    },
+    {
+      "name": "Spelling Pitfalls",
+      "words": [
+        "BELIEVE",
+        "RECEIVE",
+        "SEPARATE",
+        "DEFINITELY",
+        "NECESSARY",
+        "CALENDAR",
+        "EXPERIENCE",
+        "BEGINNING",
+        "IMMEDIATE",
+        "KNOWLEDGE",
+        "GRAMMAR",
+        "ABSENCE"
+      ],
+      "mini_theme": "Spelling Pitfalls",
+      "page_title_verified": true,
+      "page_title_basis": "editorial_review"
+    },
+    {
+      "name": "Editing Marks",
+      "words": [
+        "CAPITALIZE",
+        "LOWERCASE",
+        "INDENT",
+        "DELETE",
+        "INSERT",
+        "TRANSPOSED",
+        "STRIKETHROUGH",
+        "PARAGRAPH",
+        "REVISION",
+        "DRAFT",
+        "SPELLING",
+        "FORMAT"
+      ],
+      "mini_theme": "Editing Marks",
+      "page_title_verified": true,
+      "page_title_basis": "editorial_review"
+    },
+    {
+      "name": "Dialogue Tags",
+      "words": [
+        "WHISPER",
+        "EXCLAIM",
+        "MUTTER",
+        "PROCLAIM",
+        "STAMMER",
+        "GIGGLE",
+        "GRUMBLE",
+        "INQUIRE",
+        "REPLY",
+        "SHOUT",
+        "PLEAD",
+        "REMARK"
+      ],
+      "mini_theme": "Dialogue Tags",
+      "page_title_verified": true,
+      "page_title_basis": "editorial_review"
+    },
+    {
+      "name": "Word Roots",
+      "words": [
+        "AUTOGRAPH",
+        "BIOLOGY",
+        "CHRONICLE",
+        "GEOGRAPHY",
+        "MICROPHONE",
+        "PHONOGRAPH",
+        "TELESCOPE",
+        "THERMOMETER",
+        "TRANSPORT",
+        "MANUSCRIPT",
+        "AQUARIUM",
+        "FACTORY"
+      ],
+      "mini_theme": "Word Roots",
+      "page_title_verified": true,
+      "page_title_basis": "editorial_review"
+    },
+    {
+      "name": "Fraction Fundamentals",
+      "words": [
+        "NUMERATOR",
+        "DENOMINATOR",
+        "PROPER FRACTION",
+        "IMPROPER",
+        "MIXED NUMBER",
+        "EQUIVALENT",
+        "SIMPLEST FORM",
+        "UNIT FRACTION",
+        "COMMON FACTOR",
+        "MULTIPLE",
+        "COMPARE",
+        "QUANTITY"
+      ],
+      "mini_theme": "Fraction Fundamentals",
+      "page_title_verified": true,
+      "page_title_basis": "editorial_review"
+    },
+    {
+      "name": "Decimal Mastery",
+      "words": [
+        "THOUSANDTHS",
+        "HUNDREDTHS",
+        "TENTHS",
+        "PLACE VALUE",
+        "DECIMAL POINT",
+        "STANDARD FORM",
+        "WORD FORM",
+        "EXPANDED FORM",
+        "ROUNDING",
+        "ESTIMATE",
+        "OPERATION",
+        "PRECISION"
+      ],
+      "mini_theme": "Decimal Mastery",
+      "page_title_verified": true,
+      "page_title_basis": "editorial_review"
+    },
+    {
+      "name": "Geometry Basics",
+      "words": [
+        "POLYGON",
+        "VERTEX",
+        "PARALLEL LINES",
+        "PERPENDICULAR",
+        "LINE SEGMENT",
+        "RAY",
+        "INTERSECT",
+        "RIGHT ANGLE",
+        "ACUTE ANGLE",
+        "OBTUSE ANGLE",
+        "STRAIGHT ANGLE",
+        "DIMENSION"
+      ],
+      "mini_theme": "Geometry Basics",
+      "page_title_verified": true,
+      "page_title_basis": "editorial_review"
+    },
+    {
+      "name": "Triangle Types",
+      "words": [
+        "EQUILATERAL",
+        "ISOSCELES",
+        "SCALENE",
+        "RIGHT TRIANGLE",
+        "ACUTE TRIANGLE",
+        "OBTUSE TRIANGLE",
+        "INTERIOR SUM",
+        "BASE",
+        "HEIGHT",
+        "CONGRUENT",
+        "SYMMETRY",
+        "PROPERTY"
+      ],
+      "mini_theme": "Triangle Types",
+      "page_title_verified": true,
+      "page_title_basis": "editorial_review"
+    },
+    {
+      "name": "Quadrilaterals",
+      "words": [
+        "QUADRILATERAL",
+        "PARALLELOGRAM",
+        "RECTANGLE",
+        "RHOMBUS",
+        "TRAPEZOID",
+        "SQUARE",
+        "DIAGONAL",
+        "OPPOSITE SIDES",
+        "ADJACENT",
+        "FOUR SIDED",
+        "HIERARCHY",
+        "ATTRIBUTE"
+      ],
+      "mini_theme": "Quadrilaterals",
+      "page_title_verified": true,
+      "page_title_basis": "editorial_review"
+    },
+    {
+      "name": "Volume and Space",
+      "words": [
+        "CUBIC UNITS",
+        "THREE DIMENSIONAL",
+        "RECTANGULAR PRISM",
+        "CAPACITY",
+        "SOLID FIGURE",
+        "BASE AREA",
+        "LAYER COUNT",
+        "FILLING SPACE",
+        "DISPLACEMENT",
+        "GEOMETRIC SOLID",
+        "NET DIAGRAM",
+        "SURFACE"
+      ],
+      "mini_theme": "Volume and Space",
+      "page_title_verified": true,
+      "page_title_basis": "editorial_review"
+    },
+    {
+      "name": "Coordinate Grid",
+      "words": [
+        "ORIGIN POINT",
+        "X AXIS",
+        "Y AXIS",
+        "ORDERED PAIR",
+        "COORDINATE",
+        "HORIZONTAL",
+        "VERTICAL",
+        "PLOTTING",
+        "QUADRANT",
+        "LOCATION",
+        "INTERSECTION",
+        "MAPPING"
+      ],
+      "mini_theme": "Coordinate Grid",
+      "page_title_verified": true,
+      "page_title_basis": "editorial_review"
+    },
+    {
+      "name": "Plant Adaptations",
+      "words": [
+        "CHLOROPHYLL",
+        "PHOTOSYNTHESIS",
+        "SEED DISPERSAL",
+        "ROOT SYSTEM",
+        "POLLINATION",
+        "BROAD LEAF",
+        "SUNLIGHT",
+        "NUTRIENT",
+        "GROWTH",
+        "SPROUT",
+        "FOLIAGE",
+        "STEM"
+      ],
+      "mini_theme": "Plant Adaptations",
+      "page_title_verified": true,
+      "page_title_basis": "editorial_review"
+    },
+    {
+      "name": "Animal Behaviors",
+      "words": [
+        "MIGRATION",
+        "HIBERNATION",
+        "CAMOUFLAGE",
+        "ADAPTATION",
+        "NOCTURNAL",
+        "INSTINCT",
+        "PREDATOR",
+        "PREY",
+        "HABITAT",
+        "SURVIVAL",
+        "DEFENSE",
+        "SPECIES"
+      ],
+      "mini_theme": "Animal Behaviors",
+      "page_title_verified": true,
+      "page_title_basis": "editorial_review"
+    },
+    {
+      "name": "Food Web Dynamics",
+      "words": [
+        "PRODUCER",
+        "CONSUMER",
+        "DECOMPOSER",
+        "CARNIVORE",
+        "HERBIVORE",
+        "OMNIVORE",
+        "ENERGY FLOW",
+        "FOOD CHAIN",
+        "SCAVENGER",
+        "TROPHIC LEVEL",
+        "ORGANISM",
+        "BALANCE"
+      ],
+      "mini_theme": "Food Web Dynamics",
+      "page_title_verified": true,
+      "page_title_basis": "editorial_review"
+    },
+    {
+      "name": "Aquatic Biomes",
+      "words": [
+        "FRESHWATER",
+        "SALTWATER",
+        "CORAL REEF",
+        "WETLAND",
+        "ESTUARY",
+        "CURRENT",
+        "PLANKTON",
+        "DEEP OCEAN",
+        "RIVERBANK",
+        "MANGROVE",
+        "TIDE POOL",
+        "MARINE"
+      ],
+      "mini_theme": "Aquatic Biomes",
+      "page_title_verified": true,
+      "page_title_basis": "editorial_review"
+    },
+    {
+      "name": "Forest Ecosystems",
+      "words": [
+        "DECIDUOUS",
+        "EVERGREEN",
+        "UNDERSTORY",
+        "CANOPY LAYER",
+        "WOODLAND",
+        "LEAF LITTER",
+        "FUNGUS",
+        "MOSSY LOG",
+        "PINE NEEDLE",
+        "BARK",
+        "FOREST FLOOR",
+        "TIMBER"
+      ],
+      "mini_theme": "Forest Ecosystems",
+      "page_title_verified": true,
+      "page_title_basis": "editorial_review"
+    },
+    {
+      "name": "Desert Biome",
+      "words": [
+        "CACTUS SPINE",
+        "ARID CLIMATE",
+        "SUCCULENT",
+        "DROUGHT",
+        "BURROWING",
+        "SCARCITY",
+        "SAND DUNE",
+        "REPTILE",
+        "NOCTURNAL LIFE",
+        "HEAT WAVE",
+        "SPARSE SHADE",
+        "OASIS"
+      ],
+      "mini_theme": "Desert Biome",
+      "page_title_verified": true,
+      "page_title_basis": "editorial_review"
+    },
+    {
+      "name": "Arctic Tundra",
+      "words": [
+        "PERMAFROST",
+        "FRIGID WIND",
+        "SNOW COVER",
+        "GLACIER",
+        "LICHEN",
+        "POLAR ICE",
+        "BLIZZARD",
+        "ICE SHEET",
+        "TUNDRA FROST",
+        "SUBZERO",
+        "WINTER COAT",
+        "ARCTIC"
+      ],
+      "mini_theme": "Arctic Tundra",
+      "page_title_verified": true,
+      "page_title_basis": "editorial_review"
+    },
+    {
+      "name": "Life Cycles",
+      "words": [
+        "METAMORPHOSIS",
+        "CATERPILLAR",
+        "CHRYSALIS",
+        "TADPOLE STAGE",
+        "EGG CLUTCH",
+        "HATCHLING",
+        "MATURATION",
+        "LARVA",
+        "PUPA",
+        "ADULT PHASE",
+        "REPRODUCTION",
+        "OFFSPRING"
+      ],
+      "mini_theme": "Life Cycles",
+      "page_title_verified": true,
+      "page_title_basis": "editorial_review"
+    },
+    {
+      "name": "Earth Layers",
+      "words": [
+        "CRUST",
+        "MANTLE",
+        "CORE",
+        "LITHOSPHERE",
+        "ASTHENOSPHERE",
+        "MAGMA",
+        "LAVA",
+        "TECTONIC",
+        "FAULT",
+        "SEISMIC",
+        "VOLCANO",
+        "MINERAL"
+      ],
+      "mini_theme": "Earth Layers",
+      "page_title_verified": true,
+      "page_title_basis": "editorial_review"
+    },
+    {
+      "name": "Rock Cycle",
+      "words": [
+        "IGNEOUS",
+        "SEDIMENTARY",
+        "METAMORPHIC",
+        "WEATHERING",
+        "EROSION",
+        "DEPOSITION",
+        "COMPACTION",
+        "CEMENTATION",
+        "CRYSTAL",
+        "FOSSILS",
+        "GRANITE",
+        "BASALT"
+      ],
+      "mini_theme": "Rock Cycle",
+      "page_title_verified": true,
+      "page_title_basis": "editorial_review"
+    },
+    {
+      "name": "Water Cycle",
+      "words": [
+        "EVAPORATION",
+        "CONDENSATION",
+        "PRECIPITATION",
+        "TRANSPIRATION",
+        "COLLECTION",
+        "RUNOFF",
+        "GROUNDWATER",
+        "AQUIFER",
+        "VAPOR",
+        "RESERVOIR",
+        "SATURATION",
+        "HUMIDITY"
+      ],
+      "mini_theme": "Water Cycle",
+      "page_title_verified": true,
+      "page_title_basis": "editorial_review"
+    },
+    {
+      "name": "Planet Types",
+      "words": [
+        "TERRESTRIAL",
+        "GASGIANT",
+        "MERCURY",
+        "VENUS",
+        "MARS",
+        "JUPITER",
+        "SATURN",
+        "URANUS",
+        "NEPTUNE",
+        "PLUTO",
+        "HEMISPHERE",
+        "ROTATION"
+      ],
+      "mini_theme": "Planet Types",
+      "page_title_verified": true,
+      "page_title_basis": "editorial_review"
+    },
+    {
+      "name": "Federal Government",
+      "words": [
+        "CONGRESS",
+        "PRESIDENT",
+        "SENATE",
+        "JUDICIARY",
+        "CABINET",
+        "AMENDMENT",
+        "CONSTITUTION",
+        "VETO",
+        "BALLOT",
+        "DELEGATE",
+        "CANDIDATE",
+        "MAJORITY"
+      ],
+      "mini_theme": "Federal Government",
+      "page_title_verified": true,
+      "page_title_basis": "editorial_review"
+    },
+    {
+      "name": "Regional Landscapes",
+      "words": [
+        "PENINSULA",
+        "ARCHIPELAGO",
+        "TRIBUTARY",
+        "PLATEAU",
+        "BASIN",
+        "CANYON",
+        "ISTHMUS",
+        "DELTA",
+        "SAVANNA",
+        "TUNDRA",
+        "FJORD",
+        "MESA"
+      ],
+      "mini_theme": "Regional Landscapes",
+      "page_title_verified": true,
+      "page_title_basis": "editorial_review"
+    },
+    {
+      "name": "Civic Duties",
+      "words": [
+        "VOLUNTEER",
+        "ASSEMBLY",
+        "PETITION",
+        "PROTEST",
+        "COMMUNITY",
+        "WITNESS",
+        "TESTIFY",
+        "HERITAGE",
+        "CITIZEN",
+        "PATRIOT",
+        "FAIRNESS",
+        "EQUALITY"
+      ],
+      "mini_theme": "Civic Duties",
+      "page_title_verified": true,
+      "page_title_basis": "editorial_review"
+    },
+    {
+      "name": "State Governance",
+      "words": [
+        "LEGISLATURE",
+        "GOVERNOR",
+        "ORDINANCE",
+        "MUNICIPALITY",
+        "TOWNSHIP",
+        "COUNCIL",
+        "MAYOR",
+        "REVENUE",
+        "STATUTE",
+        "ELECTION",
+        "TERM",
+        "DISTRICT"
+      ],
+      "mini_theme": "State Governance",
+      "page_title_verified": true,
+      "page_title_basis": "editorial_review"
+    },
+    {
+      "name": "United States Regions",
+      "words": [
+        "NORTHEAST",
+        "MIDWEST",
+        "SOUTHWEST",
+        "SOUTHEAST",
+        "WEST COAST",
+        "GREAT PLAINS",
+        "NEW ENGLAND",
+        "GULF COAST",
+        "PACIFIC",
+        "APPALACHIA",
+        "ROCKIES",
+        "TIDEWATER"
+      ],
+      "mini_theme": "United States Regions",
+      "page_title_verified": true,
+      "page_title_basis": "editorial_review"
+    },
+    {
+      "name": "American Landmarks",
+      "words": [
+        "STATUE OF LIBERTY",
+        "GRAND CANYON",
+        "YELLOWSTONE",
+        "GOLDEN GATE",
+        "NIAGARA FALLS",
+        "MOUNT RUSHMORE",
+        "WHITE HOUSE",
+        "CAPITOL BUILDING",
+        "HOOVER DAM",
+        "GATEWAY ARCH",
+        "EVERGLADES",
+        "ALCATRAZ"
+      ],
+      "mini_theme": "American Landmarks",
+      "page_title_verified": true,
+      "page_title_basis": "editorial_review"
+    },
+    {
+      "name": "US Capital Cities",
+      "words": [
+        "WASHINGTON",
+        "ALBANY",
+        "AUSTIN",
+        "DENVER",
+        "BOSTON",
+        "PHOENIX",
+        "SACRAMENTO",
+        "NASHVILLE",
+        "RICHMOND",
+        "TALLAHASSEE",
+        "COLUMBUS",
+        "HELENA"
+      ],
+      "mini_theme": "US Capital Cities",
+      "page_title_verified": true,
+      "page_title_basis": "editorial_review"
+    },
+    {
+      "name": "Creative Crafts",
+      "words": [
+        "ORIGAMI",
+        "POTTERY",
+        "MOSAIC",
+        "CERAMIC",
+        "WEAVING",
+        "DESIGN",
+        "PATTERN",
+        "CRAFTER",
+        "STITCHING",
+        "GALLERY",
+        "CREATIVE",
+        "BEADWORK"
+      ],
+      "mini_theme": "Creative Crafts",
+      "page_title_verified": true,
+      "page_title_basis": "editorial_review"
+    },
+    {
+      "name": "Making Healthy Choices",
+      "words": [
+        "NUTRITIOUS",
+        "VITAMINS",
+        "WELLNESS",
+        "HYGIENE",
+        "SANITATION",
+        "PROTEIN",
+        "BALANCED DIET",
+        "ENERGY",
+        "LIFESTYLE",
+        "RECOVERY",
+        "FRESH AIR",
+        "REST"
+      ],
+      "mini_theme": "Making Healthy Choices",
+      "page_title_verified": true,
+      "page_title_basis": "editorial_review"
+    },
+    {
+      "name": "Safety and First Aid",
+      "words": [
+        "PREVENTION",
+        "EMERGENCY",
+        "CAUTION",
+        "PROTECTION",
+        "AWARENESS",
+        "SECURE",
+        "GUIDELINES",
+        "HELMET",
+        "PREPAREDNESS",
+        "RESPONSE",
+        "SUPERVISION",
+        "DEFENSIVE"
+      ],
+      "mini_theme": "Safety and First Aid",
+      "page_title_verified": true,
+      "page_title_basis": "editorial_review"
+    },
+    {
+      "name": "Library Research Skills",
+      "words": [
+        "CALL NUMBER",
+        "CATALOG",
+        "LIBRARIAN",
+        "CHECKOUT",
+        "RETURN DATE",
+        "REFERENCE",
+        "TABLE OF CONTENTS",
+        "SHELF MARKER",
+        "FICTION",
+        "ENCYCLOPEDIA",
+        "SUBJECT HEADING",
+        "KEYWORD SEARCH"
+      ],
+      "mini_theme": "Library Research Skills",
+      "page_title_verified": true,
+      "page_title_basis": "editorial_review"
+    }
+  ],
+  "source_word_bank": {
+    "name": "Editorial Word Search Rebuild v2",
+    "topics": [
+      "Grade 5 Vocabulary"
+    ],
+    "selection_policy": "Page-grouped provider proposals; locally screened for exact capacity, normalized uniqueness, length, protected names, and page coherence",
+    "candidate_sha256": "348d5865c32d6ae541872f81483d6394c927d8d4f5a2791e1d96066f1fc622ae"
+  },
+  "quality_review": {
+    "production_ready": true,
+    "verdict": "PASS",
+    "checked_at": "2026-09-19T18:52:18",
+    "source": "assistant-assisted editorial rebuild",
+    "checks": [
+      "exact capacity",
+      "no repeated normalized entries",
+      "3–21 normalized letters",
+      "protected/rejected-term screen",
+      "coherent reviewed page titles"
+    ]
+  },
+  "educational_editorial_review": {
+    "grade_appropriate": true,
+    "range": "Grade 5",
+    "review_basis": "age, proper-name, brand, sensitive-term, length, and page-coherence screening",
+    "reviewed_at": "2026-09-19T18:52:18"
+  }
+}

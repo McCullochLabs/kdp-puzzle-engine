@@ -14,7 +14,7 @@ from enum import Enum
 VOWELS = frozenset("AEIOU")  # Y excluded: RHYTHMS-style words still flag
 
 MIN_WORD_LEN = 3
-MAX_WORD_LEN = 18          # matches existing master-bank gate
+MAX_WORD_LEN = 21          # matches the production word-search placement gate
 BEST_MAX_LEN = 12          # comfortable for large-print grids
 
 ZIPF_COMMON = 4.0

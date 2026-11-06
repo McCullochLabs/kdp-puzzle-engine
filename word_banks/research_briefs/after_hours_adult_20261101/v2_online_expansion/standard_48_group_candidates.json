@@ -1,0 +1,4082 @@
+[
+  {
+    "id": "after_hours_01",
+    "title": "Profanity And Minced Oaths 1",
+    "niche": "profanity and minced oaths",
+    "status": "pending_review",
+    "display_words": [
+      "WANKER",
+      "BULLSHIT",
+      "ASSHOLE",
+      "BOLLOCKS",
+      "MOTHERFUCKER",
+      "BALDERDASH",
+      "OBSCENITY",
+      "HORSESHIT",
+      "BAWDY",
+      "DICKHEAD",
+      "PROFANITY",
+      "ARSEHOLE"
+    ],
+    "words": [
+      "WANKER",
+      "BULLSHIT",
+      "ASSHOLE",
+      "BOLLOCKS",
+      "MOTHERFUCKER",
+      "BALDERDASH",
+      "OBSCENITY",
+      "HORSESHIT",
+      "BAWDY",
+      "DICKHEAD",
+      "PROFANITY",
+      "ARSEHOLE"
+    ],
+    "grid_size": 15,
+    "source_records": [
+      {
+        "normalized": "WANKER",
+        "reference": "Princeton WordNet 3.0 offsets in candidate_pool.json"
+      },
+      {
+        "normalized": "BULLSHIT",
+        "reference": "Princeton WordNet 3.0 offsets in candidate_pool.json"
+      },
+      {
+        "normalized": "ASSHOLE",
+        "reference": "Princeton WordNet 3.0 offsets in candidate_pool.json"
+      },
+      {
+        "normalized": "BOLLOCKS",
+        "reference": "Princeton WordNet 3.0 offsets in candidate_pool.json"
+      },
+      {
+        "normalized": "MOTHERFUCKER",
+        "reference": "Princeton WordNet 3.0 offsets in candidate_pool.json"
+      },
+      {
+        "normalized": "BALDERDASH",
+        "reference": "Princeton WordNet 3.0 offsets in candidate_pool.json"
+      },
+      {
+        "normalized": "OBSCENITY",
+        "reference": "Princeton WordNet 3.0 offsets in candidate_pool.json"
+      },
+      {
+        "normalized": "HORSESHIT",
+        "reference": "Princeton WordNet 3.0 offsets in candidate_pool.json"
+      },
+      {
+        "normalized": "BAWDY",
+        "reference": "Princeton WordNet 3.0 offsets in candidate_pool.json"
+      },
+      {
+        "normalized": "DICKHEAD",
+        "reference": "Princeton WordNet 3.0 offsets in candidate_pool.json"
+      },
+      {
+        "normalized": "PROFANITY",
+        "reference": "Princeton WordNet 3.0 offsets in candidate_pool.json"
+      },
+      {
+        "normalized": "ARSEHOLE",
+        "reference": "Princeton WordNet 3.0 offsets in candidate_pool.json"
+      }
+    ]
+  },
+  {
+    "id": "after_hours_02",
+    "title": "Profanity And Minced Oaths 2",
+    "niche": "profanity and minced oaths",
+    "status": "pending_review",
+    "display_words": [
+      "CRAP",
+      "BUGGER",
+      "TWAT",
+      "GOLLY",
+      "BLIMEY",
+      "CODSWALLOP",
+      "MALARKEY",
+      "CRIPES",
+      "SWEAR",
+      "EXPLETIVE",
+      "JEEPERS",
+      "DARN"
+    ],
+    "words": [
+      "CRAP",
+      "BUGGER",
+      "TWAT",
+      "GOLLY",
+      "BLIMEY",
+      "CODSWALLOP",
+      "MALARKEY",
+      "CRIPES",
+      "SWEAR",
+      "EXPLETIVE",
+      "JEEPERS",
+      "DARN"
+    ],
+    "grid_size": 15,
+    "source_records": [
+      {
+        "normalized": "CRAP",
+        "reference": "Princeton WordNet 3.0 offsets in candidate_pool.json"
+      },
+      {
+        "normalized": "BUGGER",
+        "reference": "Princeton WordNet 3.0 offsets in candidate_pool.json"
+      },
+      {
+        "normalized": "TWAT",
+        "reference": "Princeton WordNet 3.0 offsets in candidate_pool.json"
+      },
+      {
+        "normalized": "GOLLY",
+        "reference": "https://www.wordwebonline.com/en/HECK"
+      },
+      {
+        "normalized": "BLIMEY",
+        "reference": "https://www.wordwebonline.com/en/HECK"
+      },
+      {
+        "normalized": "CODSWALLOP",
+        "reference": "Princeton WordNet 3.0 offsets in candidate_pool.json"
+      },
+      {
+        "normalized": "MALARKEY",
+        "reference": "Princeton WordNet 3.0 offsets in candidate_pool.json"
+      },
+      {
+        "normalized": "CRIPES",
+        "reference": "https://www.wordwebonline.com/en/HECK"
+      },
+      {
+        "normalized": "SWEAR",
+        "reference": "Princeton WordNet 3.0 offsets in candidate_pool.json"
+      },
+      {
+        "normalized": "EXPLETIVE",
+        "reference": "Princeton WordNet 3.0 offsets in candidate_pool.json"
+      },
+      {
+        "normalized": "JEEPERS",
+        "reference": "https://www.wordwebonline.com/en/HECK"
+      },
+      {
+        "normalized": "DARN",
+        "reference": "Princeton WordNet 3.0 offsets in candidate_pool.json"
+      }
+    ]
+  },
+  {
+    "id": "after_hours_03",
+    "title": "Profanity And Minced Oaths 3",
+    "niche": "profanity and minced oaths",
+    "status": "pending_review",
+    "display_words": [
+      "PISS",
+      "SHIT",
+      "HELL",
+      "HOGWASH",
+      "DUMBASS",
+      "SHITHEAD",
+      "GODDAMN",
+      "STREWTH",
+      "GEEZ",
+      "BEJESUS",
+      "DOUCHEBAG",
+      "CUSS"
+    ],
+    "words": [
+      "PISS",
+      "SHIT",
+      "HELL",
+      "HOGWASH",
+      "DUMBASS",
+      "SHITHEAD",
+      "GODDAMN",
+      "STREWTH",
+      "GEEZ",
+      "BEJESUS",
+      "DOUCHEBAG",
+      "CUSS"
+    ],
+    "grid_size": 15,
+    "source_records": [
+      {
+        "normalized": "PISS",
+        "reference": "Princeton WordNet 3.0 offsets in candidate_pool.json"
+      },
+      {
+        "normalized": "SHIT",
+        "reference": "https://dictionary.cambridge.org/us/grammar/british-grammar/swearing-and-taboo-expressions"
+      },
+      {
+        "normalized": "HELL",
+        "reference": "Princeton WordNet 3.0 offsets in candidate_pool.json"
+      },
+      {
+        "normalized": "HOGWASH",
+        "reference": "Princeton WordNet 3.0 offsets in candidate_pool.json"
+      },
+      {
+        "normalized": "DUMBASS",
+        "reference": "Princeton WordNet 3.0 offsets in candidate_pool.json"
+      },
+      {
+        "normalized": "SHITHEAD",
+        "reference": "Princeton WordNet 3.0 offsets in candidate_pool.json"
+      },
+      {
+        "normalized": "GODDAMN",
+        "reference": "Princeton WordNet 3.0 offsets in candidate_pool.json"
+      },
+      {
+        "normalized": "STREWTH",
+        "reference": "https://www.wordwebonline.com/en/HECK"
+      },
+      {
+        "normalized": "GEEZ",
+        "reference": "https://www.wordwebonline.com/en/HECK"
+      },
+      {
+        "normalized": "BEJESUS",
+        "reference": "https://www.wordwebonline.com/en/HECK"
+      },
+      {
+        "normalized": "DOUCHEBAG",
+        "reference": "Princeton WordNet 3.0 offsets in candidate_pool.json"
+      },
+      {
+        "normalized": "CUSS",
+        "reference": "Princeton WordNet 3.0 offsets in candidate_pool.json"
+      }
+    ]
+  },
+  {
+    "id": "after_hours_04",
+    "title": "Profanity And Minced Oaths 4",
+    "niche": "profanity and minced oaths",
+    "status": "pending_review",
+    "display_words": [
+      "BLOODY",
+      "FUCK",
+      "DAMN",
+      "BASTARD",
+      "CURSE",
+      "CRIKEY",
+      "ARSE",
+      "DAMNATION",
+      "HUMBUG",
+      "ASS",
+      "RIBALDRY",
+      "POPPYCOCK"
+    ],
+    "words": [
+      "BLOODY",
+      "FUCK",
+      "DAMN",
+      "BASTARD",
+      "CURSE",
+      "CRIKEY",
+      "ARSE",
+      "DAMNATION",
+      "HUMBUG",
+      "ASS",
+      "RIBALDRY",
+      "POPPYCOCK"
+    ],
+    "grid_size": 15,
+    "source_records": [
+      {
+        "normalized": "BLOODY",
+        "reference": "Princeton WordNet 3.0 offsets in candidate_pool.json"
+      },
+      {
+        "normalized": "FUCK",
+        "reference": "https://dictionary.cambridge.org/us/grammar/british-grammar/swearing-and-taboo-expressions"
+      },
+      {
+        "normalized": "DAMN",
+        "reference": "https://dictionary.cambridge.org/us/grammar/british-grammar/swearing-and-taboo-expressions"
+      },
+      {
+        "normalized": "BASTARD",
+        "reference": "Princeton WordNet 3.0 offsets in candidate_pool.json"
+      },
+      {
+        "normalized": "CURSE",
+        "reference": "Princeton WordNet 3.0 offsets in candidate_pool.json"
+      },
+      {
+        "normalized": "CRIKEY",
+        "reference": "https://www.wordwebonline.com/en/HECK"
+      },
+      {
+        "normalized": "ARSE",
+        "reference": "Princeton WordNet 3.0 offsets in candidate_pool.json"
+      },
+      {
+        "normalized": "DAMNATION",
+        "reference": "Princeton WordNet 3.0 offsets in candidate_pool.json"
+      },
+      {
+        "normalized": "HUMBUG",
+        "reference": "Princeton WordNet 3.0 offsets in candidate_pool.json"
+      },
+      {
+        "normalized": "ASS",
+        "reference": "Princeton WordNet 3.0 offsets in candidate_pool.json"
+      },
+      {
+        "normalized": "RIBALDRY",
+        "reference": "Princeton WordNet 3.0 offsets in candidate_pool.json"
+      },
+      {
+        "normalized": "POPPYCOCK",
+        "reference": "Princeton WordNet 3.0 offsets in candidate_pool.json"
+      }
+    ]
+  },
+  {
+    "id": "after_hours_05",
+    "title": "Cheeky Flirtation 1",
+    "niche": "cheeky flirtation",
+    "status": "pending_review",
+    "display_words": [
+      "SENSUOUS",
+      "CABARET",
+      "INTIMATE",
+      "ROMANTIC",
+      "SUBMISSIVE",
+      "TEASE",
+      "SENSUAL",
+      "TEMPTING",
+      "AFTERCARE",
+      "ROUE",
+      "SEDUCTIVE",
+      "PARAMOUR"
+    ],
+    "words": [
+      "SENSUOUS",
+      "CABARET",
+      "INTIMATE",
+      "ROMANTIC",
+      "SUBMISSIVE",
+      "TEASE",
+      "SENSUAL",
+      "TEMPTING",
+      "AFTERCARE",
+      "ROUE",
+      "SEDUCTIVE",
+      "PARAMOUR"
+    ],
+    "grid_size": 15,
+    "source_records": [
+      {
+        "normalized": "SENSUOUS",
+        "reference": "Princeton WordNet 3.0 offsets in candidate_pool.json"
+      },
+      {
+        "normalized": "CABARET",
+        "reference": "Princeton WordNet 3.0 offsets in candidate_pool.json"
+      },
+      {
+        "normalized": "INTIMATE",
+        "reference": "Princeton WordNet 3.0 offsets in candidate_pool.json"
+      },
+      {
+        "normalized": "ROMANTIC",
+        "reference": "Princeton WordNet 3.0 offsets in candidate_pool.json"
+      },
+      {
+        "normalized": "SUBMISSIVE",
+        "reference": "Princeton WordNet 3.0 offsets in candidate_pool.json"
+      },
+      {
+        "normalized": "TEASE",
+        "reference": "Princeton WordNet 3.0 offsets in candidate_pool.json"
+      },
+      {
+        "normalized": "SENSUAL",
+        "reference": "Princeton WordNet 3.0 offsets in candidate_pool.json"
+      },
+      {
+        "normalized": "TEMPTING",
+        "reference": "Princeton WordNet 3.0 offsets in candidate_pool.json"
+      },
+      {
+        "normalized": "AFTERCARE",
+        "reference": "Princeton WordNet 3.0 offsets in candidate_pool.json"
+      },
+      {
+        "normalized": "ROUE",
+        "reference": "Princeton WordNet 3.0 offsets in candidate_pool.json"
+      },
+      {
+        "normalized": "SEDUCTIVE",
+        "reference": "Princeton WordNet 3.0 offsets in candidate_pool.json"
+      },
+      {
+        "normalized": "PARAMOUR",
+        "reference": "Princeton WordNet 3.0 offsets in candidate_pool.json"
+      }
+    ]
+  },
+  {
+    "id": "after_hours_06",
+    "title": "Cheeky Flirtation 2",
+    "niche": "cheeky flirtation",
+    "status": "pending_review",
+    "display_words": [
+      "DOMINANCE",
+      "COY",
+      "LASCIVIOUS",
+      "FANTASY",
+      "AROUSAL",
+      "CONSENT",
+      "SWEETHEART",
+      "IRREVERENT",
+      "STRIPTEASE",
+      "ALLURING",
+      "KINK",
+      "FLIRTATIOUS"
+    ],
+    "words": [
+      "DOMINANCE",
+      "COY",
+      "LASCIVIOUS",
+      "FANTASY",
+      "AROUSAL",
+      "CONSENT",
+      "SWEETHEART",
+      "IRREVERENT",
+      "STRIPTEASE",
+      "ALLURING",
+      "KINK",
+      "FLIRTATIOUS"
+    ],
+    "grid_size": 15,
+    "source_records": [
+      {
+        "normalized": "DOMINANCE",
+        "reference": "Princeton WordNet 3.0 offsets in candidate_pool.json"
+      },
+      {
+        "normalized": "COY",
+        "reference": "Princeton WordNet 3.0 offsets in candidate_pool.json"
+      },
+      {
+        "normalized": "LASCIVIOUS",
+        "reference": "Princeton WordNet 3.0 offsets in candidate_pool.json"
+      },
+      {
+        "normalized": "FANTASY",
+        "reference": "Princeton WordNet 3.0 offsets in candidate_pool.json"
+      },
+      {
+        "normalized": "AROUSAL",
+        "reference": "Princeton WordNet 3.0 offsets in candidate_pool.json"
+      },
+      {
+        "normalized": "CONSENT",
+        "reference": "Princeton WordNet 3.0 offsets in candidate_pool.json"
+      },
+      {
+        "normalized": "SWEETHEART",
+        "reference": "Princeton WordNet 3.0 offsets in candidate_pool.json"
+      },
+      {
+        "normalized": "IRREVERENT",
+        "reference": "Princeton WordNet 3.0 offsets in candidate_pool.json"
+      },
+      {
+        "normalized": "STRIPTEASE",
+        "reference": "Princeton WordNet 3.0 offsets in candidate_pool.json"
+      },
+      {
+        "normalized": "ALLURING",
+        "reference": "Princeton WordNet 3.0 offsets in candidate_pool.json"
+      },
+      {
+        "normalized": "KINK",
+        "reference": "Princeton WordNet 3.0 offsets in candidate_pool.json"
+      },
+      {
+        "normalized": "FLIRTATIOUS",
+        "reference": "Princeton WordNet 3.0 offsets in candidate_pool.json"
+      }
+    ]
+  },
+  {
+    "id": "after_hours_07",
+    "title": "Cheeky Flirtation 3",
+    "niche": "cheeky flirtation",
+    "status": "pending_review",
+    "display_words": [
+      "WICKED",
+      "KINKY",
+      "LIBIDO",
+      "RAUNCHY",
+      "VOYEUR",
+      "PASSIONATE",
+      "LOVER",
+      "BOUDOIR",
+      "FETISH",
+      "SAUCY",
+      "DOUBLE ENTENDRE",
+      "SALACIOUS"
+    ],
+    "words": [
+      "WICKED",
+      "KINKY",
+      "LIBIDO",
+      "RAUNCHY",
+      "VOYEUR",
+      "PASSIONATE",
+      "LOVER",
+      "BOUDOIR",
+      "FETISH",
+      "SAUCY",
+      "DOUBLEENTENDRE",
+      "SALACIOUS"
+    ],
+    "grid_size": 15,
+    "source_records": [
+      {
+        "normalized": "WICKED",
+        "reference": "Princeton WordNet 3.0 offsets in candidate_pool.json"
+      },
+      {
+        "normalized": "KINKY",
+        "reference": "Princeton WordNet 3.0 offsets in candidate_pool.json"
+      },
+      {
+        "normalized": "LIBIDO",
+        "reference": "Princeton WordNet 3.0 offsets in candidate_pool.json"
+      },
+      {
+        "normalized": "RAUNCHY",
+        "reference": "Princeton WordNet 3.0 offsets in candidate_pool.json"
+      },
+      {
+        "normalized": "VOYEUR",
+        "reference": "Princeton WordNet 3.0 offsets in candidate_pool.json"
+      },
+      {
+        "normalized": "PASSIONATE",
+        "reference": "Princeton WordNet 3.0 offsets in candidate_pool.json"
+      },
+      {
+        "normalized": "LOVER",
+        "reference": "Princeton WordNet 3.0 offsets in candidate_pool.json"
+      },
+      {
+        "normalized": "BOUDOIR",
+        "reference": "Princeton WordNet 3.0 offsets in candidate_pool.json"
+      },
+      {
+        "normalized": "FETISH",
+        "reference": "Princeton WordNet 3.0 offsets in candidate_pool.json"
+      },
+      {
+        "normalized": "SAUCY",
+        "reference": "Princeton WordNet 3.0 offsets in candidate_pool.json"
+      },
+      {
+        "normalized": "DOUBLEENTENDRE",
+        "reference": "Princeton WordNet 3.0 offsets in candidate_pool.json"
+      },
+      {
+        "normalized": "SALACIOUS",
+        "reference": "Princeton WordNet 3.0 offsets in candidate_pool.json"
+      }
+    ]
+  },
+  {
+    "id": "after_hours_08",
+    "title": "Cheeky Flirtation 4",
+    "niche": "cheeky flirtation",
+    "status": "pending_review",
+    "display_words": [
+      "ROMANCE",
+      "ROGUISH",
+      "SUBMISSION",
+      "LUSTY",
+      "BURLESQUE",
+      "MISCHIEVOUS",
+      "PROVOCATIVE",
+      "INFATUATION",
+      "COQUETTE",
+      "TEMPTRESS",
+      "LUST",
+      "COQUETTISH"
+    ],
+    "words": [
+      "ROMANCE",
+      "ROGUISH",
+      "SUBMISSION",
+      "LUSTY",
+      "BURLESQUE",
+      "MISCHIEVOUS",
+      "PROVOCATIVE",
+      "INFATUATION",
+      "COQUETTE",
+      "TEMPTRESS",
+      "LUST",
+      "COQUETTISH"
+    ],
+    "grid_size": 15,
+    "source_records": [
+      {
+        "normalized": "ROMANCE",
+        "reference": "Princeton WordNet 3.0 offsets in candidate_pool.json"
+      },
+      {
+        "normalized": "ROGUISH",
+        "reference": "Princeton WordNet 3.0 offsets in candidate_pool.json"
+      },
+      {
+        "normalized": "SUBMISSION",
+        "reference": "Princeton WordNet 3.0 offsets in candidate_pool.json"
+      },
+      {
+        "normalized": "LUSTY",
+        "reference": "Princeton WordNet 3.0 offsets in candidate_pool.json"
+      },
+      {
+        "normalized": "BURLESQUE",
+        "reference": "Princeton WordNet 3.0 offsets in candidate_pool.json"
+      },
+      {
+        "normalized": "MISCHIEVOUS",
+        "reference": "Princeton WordNet 3.0 offsets in candidate_pool.json"
+      },
+      {
+        "normalized": "PROVOCATIVE",
+        "reference": "Princeton WordNet 3.0 offsets in candidate_pool.json"
+      },
+      {
+        "normalized": "INFATUATION",
+        "reference": "Princeton WordNet 3.0 offsets in candidate_pool.json"
+      },
+      {
+        "normalized": "COQUETTE",
+        "reference": "Princeton WordNet 3.0 offsets in candidate_pool.json"
+      },
+      {
+        "normalized": "TEMPTRESS",
+        "reference": "Princeton WordNet 3.0 offsets in candidate_pool.json"
+      },
+      {
+        "normalized": "LUST",
+        "reference": "Princeton WordNet 3.0 offsets in candidate_pool.json"
+      },
+      {
+        "normalized": "COQUETTISH",
+        "reference": "Princeton WordNet 3.0 offsets in candidate_pool.json"
+      }
+    ]
+  },
+  {
+    "id": "after_hours_09",
+    "title": "Cheeky Flirtation 5",
+    "niche": "cheeky flirtation",
+    "status": "pending_review",
+    "display_words": [
+      "LOTHARIO",
+      "DOMINANT",
+      "SMOLDERING",
+      "SHAMELESS",
+      "IMPERTINENT",
+      "STEAMY",
+      "ATTRACTION",
+      "RENDEZVOUS",
+      "LIAISON",
+      "RIBALD",
+      "FLIRT",
+      "FRISKY"
+    ],
+    "words": [
+      "LOTHARIO",
+      "DOMINANT",
+      "SMOLDERING",
+      "SHAMELESS",
+      "IMPERTINENT",
+      "STEAMY",
+      "ATTRACTION",
+      "RENDEZVOUS",
+      "LIAISON",
+      "RIBALD",
+      "FLIRT",
+      "FRISKY"
+    ],
+    "grid_size": 15,
+    "source_records": [
+      {
+        "normalized": "LOTHARIO",
+        "reference": "Princeton WordNet 3.0 offsets in candidate_pool.json"
+      },
+      {
+        "normalized": "DOMINANT",
+        "reference": "Princeton WordNet 3.0 offsets in candidate_pool.json"
+      },
+      {
+        "normalized": "SMOLDERING",
+        "reference": "Princeton WordNet 3.0 offsets in candidate_pool.json"
+      },
+      {
+        "normalized": "SHAMELESS",
+        "reference": "Princeton WordNet 3.0 offsets in candidate_pool.json"
+      },
+      {
+        "normalized": "IMPERTINENT",
+        "reference": "Princeton WordNet 3.0 offsets in candidate_pool.json"
+      },
+      {
+        "normalized": "STEAMY",
+        "reference": "Princeton WordNet 3.0 offsets in candidate_pool.json"
+      },
+      {
+        "normalized": "ATTRACTION",
+        "reference": "Princeton WordNet 3.0 offsets in candidate_pool.json"
+      },
+      {
+        "normalized": "RENDEZVOUS",
+        "reference": "Princeton WordNet 3.0 offsets in candidate_pool.json"
+      },
+      {
+        "normalized": "LIAISON",
+        "reference": "Princeton WordNet 3.0 offsets in candidate_pool.json"
+      },
+      {
+        "normalized": "RIBALD",
+        "reference": "Princeton WordNet 3.0 offsets in candidate_pool.json"
+      },
+      {
+        "normalized": "FLIRT",
+        "reference": "Princeton WordNet 3.0 offsets in candidate_pool.json"
+      },
+      {
+        "normalized": "FRISKY",
+        "reference": "Princeton WordNet 3.0 offsets in candidate_pool.json"
+      }
+    ]
+  },
+  {
+    "id": "after_hours_10",
+    "title": "Cheeky Flirtation 6",
+    "niche": "cheeky flirtation",
+    "status": "pending_review",
+    "display_words": [
+      "TRYST",
+      "LIBIDINOUS",
+      "DESIRE",
+      "SASSY",
+      "SEDUCTRESS",
+      "EXHIBITIONIST",
+      "NAUGHTY",
+      "TITILLATING",
+      "FLIRTATION",
+      "CHEEKY",
+      "TANTALIZING",
+      "UNINHIBITED"
+    ],
+    "words": [
+      "TRYST",
+      "LIBIDINOUS",
+      "DESIRE",
+      "SASSY",
+      "SEDUCTRESS",
+      "EXHIBITIONIST",
+      "NAUGHTY",
+      "TITILLATING",
+      "FLIRTATION",
+      "CHEEKY",
+      "TANTALIZING",
+      "UNINHIBITED"
+    ],
+    "grid_size": 15,
+    "source_records": [
+      {
+        "normalized": "TRYST",
+        "reference": "Princeton WordNet 3.0 offsets in candidate_pool.json"
+      },
+      {
+        "normalized": "LIBIDINOUS",
+        "reference": "Princeton WordNet 3.0 offsets in candidate_pool.json"
+      },
+      {
+        "normalized": "DESIRE",
+        "reference": "Princeton WordNet 3.0 offsets in candidate_pool.json"
+      },
+      {
+        "normalized": "SASSY",
+        "reference": "Princeton WordNet 3.0 offsets in candidate_pool.json"
+      },
+      {
+        "normalized": "SEDUCTRESS",
+        "reference": "Princeton WordNet 3.0 offsets in candidate_pool.json"
+      },
+      {
+        "normalized": "EXHIBITIONIST",
+        "reference": "Princeton WordNet 3.0 offsets in candidate_pool.json"
+      },
+      {
+        "normalized": "NAUGHTY",
+        "reference": "Princeton WordNet 3.0 offsets in candidate_pool.json"
+      },
+      {
+        "normalized": "TITILLATING",
+        "reference": "Princeton WordNet 3.0 offsets in candidate_pool.json"
+      },
+      {
+        "normalized": "FLIRTATION",
+        "reference": "Princeton WordNet 3.0 offsets in candidate_pool.json"
+      },
+      {
+        "normalized": "CHEEKY",
+        "reference": "Princeton WordNet 3.0 offsets in candidate_pool.json"
+      },
+      {
+        "normalized": "TANTALIZING",
+        "reference": "Princeton WordNet 3.0 offsets in candidate_pool.json"
+      },
+      {
+        "normalized": "UNINHIBITED",
+        "reference": "Princeton WordNet 3.0 offsets in candidate_pool.json"
+      }
+    ]
+  },
+  {
+    "id": "after_hours_11",
+    "title": "Cheeky Flirtation 7",
+    "niche": "cheeky flirtation",
+    "status": "pending_review",
+    "display_words": [
+      "DARLING",
+      "BRASSY",
+      "RAKE",
+      "INNUENDO",
+      "VOLUPTUOUS",
+      "BOUNDARY",
+      "RACY",
+      "SULTRY",
+      "AMOROUS",
+      "BONDAGE",
+      "ASSIGNATION",
+      "EROTIC"
+    ],
+    "words": [
+      "DARLING",
+      "BRASSY",
+      "RAKE",
+      "INNUENDO",
+      "VOLUPTUOUS",
+      "BOUNDARY",
+      "RACY",
+      "SULTRY",
+      "AMOROUS",
+      "BONDAGE",
+      "ASSIGNATION",
+      "EROTIC"
+    ],
+    "grid_size": 15,
+    "source_records": [
+      {
+        "normalized": "DARLING",
+        "reference": "Princeton WordNet 3.0 offsets in candidate_pool.json"
+      },
+      {
+        "normalized": "BRASSY",
+        "reference": "Princeton WordNet 3.0 offsets in candidate_pool.json"
+      },
+      {
+        "normalized": "RAKE",
+        "reference": "Princeton WordNet 3.0 offsets in candidate_pool.json"
+      },
+      {
+        "normalized": "INNUENDO",
+        "reference": "Princeton WordNet 3.0 offsets in candidate_pool.json"
+      },
+      {
+        "normalized": "VOLUPTUOUS",
+        "reference": "Princeton WordNet 3.0 offsets in candidate_pool.json"
+      },
+      {
+        "normalized": "BOUNDARY",
+        "reference": "Princeton WordNet 3.0 offsets in candidate_pool.json"
+      },
+      {
+        "normalized": "RACY",
+        "reference": "Princeton WordNet 3.0 offsets in candidate_pool.json"
+      },
+      {
+        "normalized": "SULTRY",
+        "reference": "Princeton WordNet 3.0 offsets in candidate_pool.json"
+      },
+      {
+        "normalized": "AMOROUS",
+        "reference": "Princeton WordNet 3.0 offsets in candidate_pool.json"
+      },
+      {
+        "normalized": "BONDAGE",
+        "reference": "Princeton WordNet 3.0 offsets in candidate_pool.json"
+      },
+      {
+        "normalized": "ASSIGNATION",
+        "reference": "Princeton WordNet 3.0 offsets in candidate_pool.json"
+      },
+      {
+        "normalized": "EROTIC",
+        "reference": "Princeton WordNet 3.0 offsets in candidate_pool.json"
+      }
+    ]
+  },
+  {
+    "id": "after_hours_12",
+    "title": "Lingerie And Adult Accessories 1",
+    "niche": "lingerie and adult accessories",
+    "status": "pending_review",
+    "display_words": [
+      "VIBRATOR",
+      "ANAL BEADS",
+      "CHEMISE",
+      "ANKLE CUFFS",
+      "BONDAGE HOOD",
+      "CORSET",
+      "FAUX LEATHER",
+      "FINGER MASSAGER",
+      "BRASSIERE",
+      "NIGHTGOWN",
+      "RESTRAINTS",
+      "LINGERIE"
+    ],
+    "words": [
+      "VIBRATOR",
+      "ANALBEADS",
+      "CHEMISE",
+      "ANKLECUFFS",
+      "BONDAGEHOOD",
+      "CORSET",
+      "FAUXLEATHER",
+      "FINGERMASSAGER",
+      "BRASSIERE",
+      "NIGHTGOWN",
+      "RESTRAINTS",
+      "LINGERIE"
+    ],
+    "grid_size": 15,
+    "source_records": [
+      {
+        "normalized": "VIBRATOR",
+        "reference": "https://dictionary.apa.org/vibrator"
+      },
+      {
+        "normalized": "ANALBEADS",
+        "reference": "https://www.trojan.ca/en-ca/sexual-information/types-of-vibrators"
+      },
+      {
+        "normalized": "CHEMISE",
+        "reference": "Princeton WordNet 3.0 offsets in candidate_pool.json"
+      },
+      {
+        "normalized": "ANKLECUFFS",
+        "reference": "https://www.lovehoney.com/bondage/handcuffs-restraints/"
+      },
+      {
+        "normalized": "BONDAGEHOOD",
+        "reference": "https://www.lovehoney.com/bondage/blindfolds-masks-gags/"
+      },
+      {
+        "normalized": "CORSET",
+        "reference": "Princeton WordNet 3.0 offsets in candidate_pool.json"
+      },
+      {
+        "normalized": "FAUXLEATHER",
+        "reference": "https://www.lovehoney.com/bondage/blindfolds-masks-gags/"
+      },
+      {
+        "normalized": "FINGERMASSAGER",
+        "reference": "https://www.trojan.ca/en-ca/sexual-information/types-of-vibrators"
+      },
+      {
+        "normalized": "BRASSIERE",
+        "reference": "Princeton WordNet 3.0 offsets in candidate_pool.json"
+      },
+      {
+        "normalized": "NIGHTGOWN",
+        "reference": "Princeton WordNet 3.0 offsets in candidate_pool.json"
+      },
+      {
+        "normalized": "RESTRAINTS",
+        "reference": "https://www.lovehoney.com/bondage/handcuffs-restraints/"
+      },
+      {
+        "normalized": "LINGERIE",
+        "reference": "Princeton WordNet 3.0 offsets in candidate_pool.json"
+      }
+    ]
+  },
+  {
+    "id": "after_hours_13",
+    "title": "Lingerie And Adult Accessories 2",
+    "niche": "lingerie and adult accessories",
+    "status": "pending_review",
+    "display_words": [
+      "BULLET VIBRATOR",
+      "BIT GAG",
+      "BLINDFOLD",
+      "WRIST CUFFS",
+      "BED RESTRAINTS",
+      "THONG",
+      "G SPOT STIMULATOR",
+      "BONDAGE ROPE",
+      "VIBRATING EGG",
+      "ANAL VIBRATOR",
+      "PERSONAL MASSAGER",
+      "HOSIERY"
+    ],
+    "words": [
+      "BULLETVIBRATOR",
+      "BITGAG",
+      "BLINDFOLD",
+      "WRISTCUFFS",
+      "BEDRESTRAINTS",
+      "THONG",
+      "GSPOTSTIMULATOR",
+      "BONDAGEROPE",
+      "VIBRATINGEGG",
+      "ANALVIBRATOR",
+      "PERSONALMASSAGER",
+      "HOSIERY"
+    ],
+    "grid_size": 16,
+    "source_records": [
+      {
+        "normalized": "BULLETVIBRATOR",
+        "reference": "https://www.trojan.ca/en-ca/sexual-information/types-of-vibrators"
+      },
+      {
+        "normalized": "BITGAG",
+        "reference": "https://www.lovehoney.com/bondage/blindfolds-masks-gags/"
+      },
+      {
+        "normalized": "BLINDFOLD",
+        "reference": "Princeton WordNet 3.0 offsets in candidate_pool.json"
+      },
+      {
+        "normalized": "WRISTCUFFS",
+        "reference": "https://www.lovehoney.com/bondage/handcuffs-restraints/"
+      },
+      {
+        "normalized": "BEDRESTRAINTS",
+        "reference": "https://www.lovehoney.com/bondage/handcuffs-restraints/"
+      },
+      {
+        "normalized": "THONG",
+        "reference": "Princeton WordNet 3.0 offsets in candidate_pool.json"
+      },
+      {
+        "normalized": "GSPOTSTIMULATOR",
+        "reference": "https://www.trojan.ca/en-ca/sexual-information/types-of-vibrators"
+      },
+      {
+        "normalized": "BONDAGEROPE",
+        "reference": "https://www.lovehoney.com/bondage/handcuffs-restraints/"
+      },
+      {
+        "normalized": "VIBRATINGEGG",
+        "reference": "https://www.trojan.ca/en-ca/sexual-information/types-of-vibrators"
+      },
+      {
+        "normalized": "ANALVIBRATOR",
+        "reference": "https://www.trojan.ca/en-ca/sexual-information/types-of-vibrators"
+      },
+      {
+        "normalized": "PERSONALMASSAGER",
+        "reference": "https://www.trojan.ca/en-ca/sexual-information/types-of-vibrators"
+      },
+      {
+        "normalized": "HOSIERY",
+        "reference": "Princeton WordNet 3.0 offsets in candidate_pool.json"
+      }
+    ]
+  },
+  {
+    "id": "after_hours_14",
+    "title": "Lingerie And Adult Accessories 3",
+    "niche": "lingerie and adult accessories",
+    "status": "pending_review",
+    "display_words": [
+      "DILDO",
+      "BALL GAG",
+      "NEOPRENE",
+      "SATIN",
+      "MASSAGER",
+      "NIGHTDRESS",
+      "TICKLER",
+      "VIBRATING RING",
+      "PEIGNOIR",
+      "SILICONE",
+      "CONDOM",
+      "G STRING"
+    ],
+    "words": [
+      "DILDO",
+      "BALLGAG",
+      "NEOPRENE",
+      "SATIN",
+      "MASSAGER",
+      "NIGHTDRESS",
+      "TICKLER",
+      "VIBRATINGRING",
+      "PEIGNOIR",
+      "SILICONE",
+      "CONDOM",
+      "GSTRING"
+    ],
+    "grid_size": 15,
+    "source_records": [
+      {
+        "normalized": "DILDO",
+        "reference": "https://dictionary.apa.org/dildo"
+      },
+      {
+        "normalized": "BALLGAG",
+        "reference": "https://www.lovehoney.com/bondage/blindfolds-masks-gags/"
+      },
+      {
+        "normalized": "NEOPRENE",
+        "reference": "https://www.lovehoney.com/bondage/blindfolds-masks-gags/"
+      },
+      {
+        "normalized": "SATIN",
+        "reference": "Princeton WordNet 3.0 offsets in candidate_pool.json"
+      },
+      {
+        "normalized": "MASSAGER",
+        "reference": "Princeton WordNet 3.0 offsets in candidate_pool.json"
+      },
+      {
+        "normalized": "NIGHTDRESS",
+        "reference": "Princeton WordNet 3.0 offsets in candidate_pool.json"
+      },
+      {
+        "normalized": "TICKLER",
+        "reference": "Princeton WordNet 3.0 offsets in candidate_pool.json"
+      },
+      {
+        "normalized": "VIBRATINGRING",
+        "reference": "https://www.trojan.ca/en-ca/sexual-information/types-of-vibrators"
+      },
+      {
+        "normalized": "PEIGNOIR",
+        "reference": "Princeton WordNet 3.0 offsets in candidate_pool.json"
+      },
+      {
+        "normalized": "SILICONE",
+        "reference": "https://www.trojan.ca/en-ca/sexual-information/types-of-vibrators"
+      },
+      {
+        "normalized": "CONDOM",
+        "reference": "Princeton WordNet 3.0 offsets in candidate_pool.json"
+      },
+      {
+        "normalized": "GSTRING",
+        "reference": "Princeton WordNet 3.0 offsets in candidate_pool.json"
+      }
+    ]
+  },
+  {
+    "id": "after_hours_15",
+    "title": "Lingerie And Adult Accessories 4",
+    "niche": "lingerie and adult accessories",
+    "status": "pending_review",
+    "display_words": [
+      "COCK RING",
+      "RABBIT VIBRATOR",
+      "GAG",
+      "NIGHTIE",
+      "MESH",
+      "WHIP",
+      "HARNESS",
+      "LEATHER",
+      "LACE",
+      "VINYL",
+      "CHAIN LEAD",
+      "OVER DOOR RESTRAINT"
+    ],
+    "words": [
+      "COCKRING",
+      "RABBITVIBRATOR",
+      "GAG",
+      "NIGHTIE",
+      "MESH",
+      "WHIP",
+      "HARNESS",
+      "LEATHER",
+      "LACE",
+      "VINYL",
+      "CHAINLEAD",
+      "OVERDOORRESTRAINT"
+    ],
+    "grid_size": 17,
+    "source_records": [
+      {
+        "normalized": "COCKRING",
+        "reference": "https://www.trojan.ca/en-ca/sexual-information/types-of-vibrators"
+      },
+      {
+        "normalized": "RABBITVIBRATOR",
+        "reference": "https://www.trojan.ca/en-ca/sexual-information/types-of-vibrators"
+      },
+      {
+        "normalized": "GAG",
+        "reference": "https://www.lovehoney.com/bondage/blindfolds-masks-gags/"
+      },
+      {
+        "normalized": "NIGHTIE",
+        "reference": "Princeton WordNet 3.0 offsets in candidate_pool.json"
+      },
+      {
+        "normalized": "MESH",
+        "reference": "Princeton WordNet 3.0 offsets in candidate_pool.json"
+      },
+      {
+        "normalized": "WHIP",
+        "reference": "Princeton WordNet 3.0 offsets in candidate_pool.json"
+      },
+      {
+        "normalized": "HARNESS",
+        "reference": "Princeton WordNet 3.0 offsets in candidate_pool.json"
+      },
+      {
+        "normalized": "LEATHER",
+        "reference": "Princeton WordNet 3.0 offsets in candidate_pool.json"
+      },
+      {
+        "normalized": "LACE",
+        "reference": "Princeton WordNet 3.0 offsets in candidate_pool.json"
+      },
+      {
+        "normalized": "VINYL",
+        "reference": "https://www.lovehoney.com/bondage/blindfolds-masks-gags/"
+      },
+      {
+        "normalized": "CHAINLEAD",
+        "reference": "https://www.lovehoney.com/bondage/handcuffs-restraints/"
+      },
+      {
+        "normalized": "OVERDOORRESTRAINT",
+        "reference": "https://www.lovehoney.com/bondage/handcuffs-restraints/"
+      }
+    ]
+  },
+  {
+    "id": "after_hours_16",
+    "title": "Lingerie And Adult Accessories 5",
+    "niche": "lingerie and adult accessories",
+    "status": "pending_review",
+    "display_words": [
+      "WAND VIBRATOR",
+      "LEASH",
+      "BODYSUIT",
+      "PINWHEEL",
+      "NIPPLE CLAMPS",
+      "RING GAG",
+      "HANDCUFFS",
+      "COLLAR",
+      "KNICKERS",
+      "INTERNAL VIBRATOR",
+      "NIPPLE SUCKER",
+      "CAMISOLE"
+    ],
+    "words": [
+      "WANDVIBRATOR",
+      "LEASH",
+      "BODYSUIT",
+      "PINWHEEL",
+      "NIPPLECLAMPS",
+      "RINGGAG",
+      "HANDCUFFS",
+      "COLLAR",
+      "KNICKERS",
+      "INTERNALVIBRATOR",
+      "NIPPLESUCKER",
+      "CAMISOLE"
+    ],
+    "grid_size": 16,
+    "source_records": [
+      {
+        "normalized": "WANDVIBRATOR",
+        "reference": "https://www.trojan.ca/en-ca/sexual-information/types-of-vibrators"
+      },
+      {
+        "normalized": "LEASH",
+        "reference": "Princeton WordNet 3.0 offsets in candidate_pool.json"
+      },
+      {
+        "normalized": "BODYSUIT",
+        "reference": "Princeton WordNet 3.0 offsets in candidate_pool.json"
+      },
+      {
+        "normalized": "PINWHEEL",
+        "reference": "https://www.lovehoney.com/bondage/blindfolds-masks-gags/"
+      },
+      {
+        "normalized": "NIPPLECLAMPS",
+        "reference": "https://www.lovehoney.com/bondage/handcuffs-restraints/"
+      },
+      {
+        "normalized": "RINGGAG",
+        "reference": "https://www.lovehoney.com/bondage/blindfolds-masks-gags/"
+      },
+      {
+        "normalized": "HANDCUFFS",
+        "reference": "https://www.lovehoney.com/bondage/handcuffs-restraints/"
+      },
+      {
+        "normalized": "COLLAR",
+        "reference": "Princeton WordNet 3.0 offsets in candidate_pool.json"
+      },
+      {
+        "normalized": "KNICKERS",
+        "reference": "Princeton WordNet 3.0 offsets in candidate_pool.json"
+      },
+      {
+        "normalized": "INTERNALVIBRATOR",
+        "reference": "https://www.trojan.ca/en-ca/sexual-information/types-of-vibrators"
+      },
+      {
+        "normalized": "NIPPLESUCKER",
+        "reference": "https://www.lovehoney.com/bondage/blindfolds-masks-gags/"
+      },
+      {
+        "normalized": "CAMISOLE",
+        "reference": "Princeton WordNet 3.0 offsets in candidate_pool.json"
+      }
+    ]
+  },
+  {
+    "id": "after_hours_17",
+    "title": "Lingerie And Adult Accessories 6",
+    "niche": "lingerie and adult accessories",
+    "status": "pending_review",
+    "display_words": [
+      "BUTT PLUG",
+      "BRA",
+      "EXTERNAL VIBRATOR",
+      "SILK",
+      "LATEX",
+      "STAINLESS STEEL",
+      "FLOGGER",
+      "BONDAGE TAPE",
+      "NEGLIGEE",
+      "GARTER BELT",
+      "SPREADER BAR",
+      "ABS PLASTIC"
+    ],
+    "words": [
+      "BUTTPLUG",
+      "BRA",
+      "EXTERNALVIBRATOR",
+      "SILK",
+      "LATEX",
+      "STAINLESSSTEEL",
+      "FLOGGER",
+      "BONDAGETAPE",
+      "NEGLIGEE",
+      "GARTERBELT",
+      "SPREADERBAR",
+      "ABSPLASTIC"
+    ],
+    "grid_size": 16,
+    "source_records": [
+      {
+        "normalized": "BUTTPLUG",
+        "reference": "https://www.trojan.ca/en-ca/sexual-information/types-of-vibrators"
+      },
+      {
+        "normalized": "BRA",
+        "reference": "Princeton WordNet 3.0 offsets in candidate_pool.json"
+      },
+      {
+        "normalized": "EXTERNALVIBRATOR",
+        "reference": "https://www.trojan.ca/en-ca/sexual-information/types-of-vibrators"
+      },
+      {
+        "normalized": "SILK",
+        "reference": "Princeton WordNet 3.0 offsets in candidate_pool.json"
+      },
+      {
+        "normalized": "LATEX",
+        "reference": "Princeton WordNet 3.0 offsets in candidate_pool.json"
+      },
+      {
+        "normalized": "STAINLESSSTEEL",
+        "reference": "https://www.lelo.com/blog/faq-choosing-the-right-toy-tc/"
+      },
+      {
+        "normalized": "FLOGGER",
+        "reference": "Princeton WordNet 3.0 offsets in candidate_pool.json"
+      },
+      {
+        "normalized": "BONDAGETAPE",
+        "reference": "https://www.lovehoney.com/bondage/handcuffs-restraints/"
+      },
+      {
+        "normalized": "NEGLIGEE",
+        "reference": "Princeton WordNet 3.0 offsets in candidate_pool.json"
+      },
+      {
+        "normalized": "GARTERBELT",
+        "reference": "Princeton WordNet 3.0 offsets in candidate_pool.json"
+      },
+      {
+        "normalized": "SPREADERBAR",
+        "reference": "https://www.lovehoney.com/bondage/handcuffs-restraints/"
+      },
+      {
+        "normalized": "ABSPLASTIC",
+        "reference": "https://www.lelo.com/blog/faq-choosing-the-right-toy-tc/"
+      }
+    ]
+  },
+  {
+    "id": "after_hours_18",
+    "title": "Bar Equipment And Service 1",
+    "niche": "bar equipment and service",
+    "status": "pending_review",
+    "display_words": [
+      "TAPROOM",
+      "TWIST",
+      "CHALICE",
+      "TAB",
+      "HIGHBALL GLASS",
+      "STIRRER",
+      "ROUND",
+      "DRAFT",
+      "MIXOLOGIST",
+      "BARMAN",
+      "SNIFTER",
+      "MIXOLOGY"
+    ],
+    "words": [
+      "TAPROOM",
+      "TWIST",
+      "CHALICE",
+      "TAB",
+      "HIGHBALLGLASS",
+      "STIRRER",
+      "ROUND",
+      "DRAFT",
+      "MIXOLOGIST",
+      "BARMAN",
+      "SNIFTER",
+      "MIXOLOGY"
+    ],
+    "grid_size": 15,
+    "source_records": [
+      {
+        "normalized": "TAPROOM",
+        "reference": "Princeton WordNet 3.0 offsets in candidate_pool.json"
+      },
+      {
+        "normalized": "TWIST",
+        "reference": "Princeton WordNet 3.0 offsets in candidate_pool.json"
+      },
+      {
+        "normalized": "CHALICE",
+        "reference": "Princeton WordNet 3.0 offsets in candidate_pool.json"
+      },
+      {
+        "normalized": "TAB",
+        "reference": "Princeton WordNet 3.0 offsets in candidate_pool.json"
+      },
+      {
+        "normalized": "HIGHBALLGLASS",
+        "reference": "Princeton WordNet 3.0 offsets in candidate_pool.json"
+      },
+      {
+        "normalized": "STIRRER",
+        "reference": "Princeton WordNet 3.0 offsets in candidate_pool.json"
+      },
+      {
+        "normalized": "ROUND",
+        "reference": "Princeton WordNet 3.0 offsets in candidate_pool.json"
+      },
+      {
+        "normalized": "DRAFT",
+        "reference": "Princeton WordNet 3.0 offsets in candidate_pool.json"
+      },
+      {
+        "normalized": "MIXOLOGIST",
+        "reference": "Princeton WordNet 3.0 offsets in candidate_pool.json"
+      },
+      {
+        "normalized": "BARMAN",
+        "reference": "Princeton WordNet 3.0 offsets in candidate_pool.json"
+      },
+      {
+        "normalized": "SNIFTER",
+        "reference": "Princeton WordNet 3.0 offsets in candidate_pool.json"
+      },
+      {
+        "normalized": "MIXOLOGY",
+        "reference": "Princeton WordNet 3.0 offsets in candidate_pool.json"
+      }
+    ]
+  },
+  {
+    "id": "after_hours_19",
+    "title": "Bar Equipment And Service 2",
+    "niche": "bar equipment and service",
+    "status": "pending_review",
+    "display_words": [
+      "STRAINER",
+      "NEAT",
+      "TANKARD",
+      "CORKSCREW",
+      "GARNISH",
+      "PUBLICAN",
+      "JIGGER",
+      "MARASCHINO",
+      "DECANTER",
+      "SHOT GLASS",
+      "BOTTLE OPENER",
+      "SYRUP"
+    ],
+    "words": [
+      "STRAINER",
+      "NEAT",
+      "TANKARD",
+      "CORKSCREW",
+      "GARNISH",
+      "PUBLICAN",
+      "JIGGER",
+      "MARASCHINO",
+      "DECANTER",
+      "SHOTGLASS",
+      "BOTTLEOPENER",
+      "SYRUP"
+    ],
+    "grid_size": 15,
+    "source_records": [
+      {
+        "normalized": "STRAINER",
+        "reference": "Princeton WordNet 3.0 offsets in candidate_pool.json"
+      },
+      {
+        "normalized": "NEAT",
+        "reference": "Princeton WordNet 3.0 offsets in candidate_pool.json"
+      },
+      {
+        "normalized": "TANKARD",
+        "reference": "Princeton WordNet 3.0 offsets in candidate_pool.json"
+      },
+      {
+        "normalized": "CORKSCREW",
+        "reference": "Princeton WordNet 3.0 offsets in candidate_pool.json"
+      },
+      {
+        "normalized": "GARNISH",
+        "reference": "Princeton WordNet 3.0 offsets in candidate_pool.json"
+      },
+      {
+        "normalized": "PUBLICAN",
+        "reference": "Princeton WordNet 3.0 offsets in candidate_pool.json"
+      },
+      {
+        "normalized": "JIGGER",
+        "reference": "Princeton WordNet 3.0 offsets in candidate_pool.json"
+      },
+      {
+        "normalized": "MARASCHINO",
+        "reference": "Princeton WordNet 3.0 offsets in candidate_pool.json"
+      },
+      {
+        "normalized": "DECANTER",
+        "reference": "Princeton WordNet 3.0 offsets in candidate_pool.json"
+      },
+      {
+        "normalized": "SHOTGLASS",
+        "reference": "Princeton WordNet 3.0 offsets in candidate_pool.json"
+      },
+      {
+        "normalized": "BOTTLEOPENER",
+        "reference": "Princeton WordNet 3.0 offsets in candidate_pool.json"
+      },
+      {
+        "normalized": "SYRUP",
+        "reference": "Princeton WordNet 3.0 offsets in candidate_pool.json"
+      }
+    ]
+  },
+  {
+    "id": "after_hours_20",
+    "title": "Bar Equipment And Service 3",
+    "niche": "bar equipment and service",
+    "status": "pending_review",
+    "display_words": [
+      "APERITIF",
+      "WINEGLASS",
+      "BITTERS",
+      "WINERY",
+      "BRINE",
+      "GROWLER",
+      "BREWERY",
+      "MIXER",
+      "BARTENDER",
+      "SWIZZLE STICK",
+      "COCKTAIL SHAKER",
+      "CASK"
+    ],
+    "words": [
+      "APERITIF",
+      "WINEGLASS",
+      "BITTERS",
+      "WINERY",
+      "BRINE",
+      "GROWLER",
+      "BREWERY",
+      "MIXER",
+      "BARTENDER",
+      "SWIZZLESTICK",
+      "COCKTAILSHAKER",
+      "CASK"
+    ],
+    "grid_size": 15,
+    "source_records": [
+      {
+        "normalized": "APERITIF",
+        "reference": "Princeton WordNet 3.0 offsets in candidate_pool.json"
+      },
+      {
+        "normalized": "WINEGLASS",
+        "reference": "Princeton WordNet 3.0 offsets in candidate_pool.json"
+      },
+      {
+        "normalized": "BITTERS",
+        "reference": "Princeton WordNet 3.0 offsets in candidate_pool.json"
+      },
+      {
+        "normalized": "WINERY",
+        "reference": "Princeton WordNet 3.0 offsets in candidate_pool.json"
+      },
+      {
+        "normalized": "BRINE",
+        "reference": "Princeton WordNet 3.0 offsets in candidate_pool.json"
+      },
+      {
+        "normalized": "GROWLER",
+        "reference": "Princeton WordNet 3.0 offsets in candidate_pool.json"
+      },
+      {
+        "normalized": "BREWERY",
+        "reference": "Princeton WordNet 3.0 offsets in candidate_pool.json"
+      },
+      {
+        "normalized": "MIXER",
+        "reference": "Princeton WordNet 3.0 offsets in candidate_pool.json"
+      },
+      {
+        "normalized": "BARTENDER",
+        "reference": "Princeton WordNet 3.0 offsets in candidate_pool.json"
+      },
+      {
+        "normalized": "SWIZZLESTICK",
+        "reference": "Princeton WordNet 3.0 offsets in candidate_pool.json"
+      },
+      {
+        "normalized": "COCKTAILSHAKER",
+        "reference": "Princeton WordNet 3.0 offsets in candidate_pool.json"
+      },
+      {
+        "normalized": "CASK",
+        "reference": "Princeton WordNet 3.0 offsets in candidate_pool.json"
+      }
+    ]
+  },
+  {
+    "id": "after_hours_21",
+    "title": "Bar Equipment And Service 4",
+    "niche": "bar equipment and service",
+    "status": "pending_review",
+    "display_words": [
+      "CARAFE",
+      "COASTER",
+      "STEIN",
+      "GOBLET",
+      "TIPPLE",
+      "TUMBLER",
+      "SALOON",
+      "SOMMELIER",
+      "NIGHTCAP",
+      "LIBATION",
+      "TAVERN",
+      "OLIVE"
+    ],
+    "words": [
+      "CARAFE",
+      "COASTER",
+      "STEIN",
+      "GOBLET",
+      "TIPPLE",
+      "TUMBLER",
+      "SALOON",
+      "SOMMELIER",
+      "NIGHTCAP",
+      "LIBATION",
+      "TAVERN",
+      "OLIVE"
+    ],
+    "grid_size": 15,
+    "source_records": [
+      {
+        "normalized": "CARAFE",
+        "reference": "Princeton WordNet 3.0 offsets in candidate_pool.json"
+      },
+      {
+        "normalized": "COASTER",
+        "reference": "Princeton WordNet 3.0 offsets in candidate_pool.json"
+      },
+      {
+        "normalized": "STEIN",
+        "reference": "Princeton WordNet 3.0 offsets in candidate_pool.json"
+      },
+      {
+        "normalized": "GOBLET",
+        "reference": "Princeton WordNet 3.0 offsets in candidate_pool.json"
+      },
+      {
+        "normalized": "TIPPLE",
+        "reference": "Princeton WordNet 3.0 offsets in candidate_pool.json"
+      },
+      {
+        "normalized": "TUMBLER",
+        "reference": "Princeton WordNet 3.0 offsets in candidate_pool.json"
+      },
+      {
+        "normalized": "SALOON",
+        "reference": "Princeton WordNet 3.0 offsets in candidate_pool.json"
+      },
+      {
+        "normalized": "SOMMELIER",
+        "reference": "Princeton WordNet 3.0 offsets in candidate_pool.json"
+      },
+      {
+        "normalized": "NIGHTCAP",
+        "reference": "Princeton WordNet 3.0 offsets in candidate_pool.json"
+      },
+      {
+        "normalized": "LIBATION",
+        "reference": "Princeton WordNet 3.0 offsets in candidate_pool.json"
+      },
+      {
+        "normalized": "TAVERN",
+        "reference": "Princeton WordNet 3.0 offsets in candidate_pool.json"
+      },
+      {
+        "normalized": "OLIVE",
+        "reference": "Princeton WordNet 3.0 offsets in candidate_pool.json"
+      }
+    ]
+  },
+  {
+    "id": "after_hours_22",
+    "title": "Bar Equipment And Service 5",
+    "niche": "bar equipment and service",
+    "status": "pending_review",
+    "display_words": [
+      "BARMAID",
+      "TOAST",
+      "KEG",
+      "BARREL",
+      "BREWPUB",
+      "HAPPY HOUR",
+      "DEMIJOHN",
+      "ZEST",
+      "FLASK",
+      "PINT",
+      "PUB",
+      "TAP"
+    ],
+    "words": [
+      "BARMAID",
+      "TOAST",
+      "KEG",
+      "BARREL",
+      "BREWPUB",
+      "HAPPYHOUR",
+      "DEMIJOHN",
+      "ZEST",
+      "FLASK",
+      "PINT",
+      "PUB",
+      "TAP"
+    ],
+    "grid_size": 15,
+    "source_records": [
+      {
+        "normalized": "BARMAID",
+        "reference": "Princeton WordNet 3.0 offsets in candidate_pool.json"
+      },
+      {
+        "normalized": "TOAST",
+        "reference": "Princeton WordNet 3.0 offsets in candidate_pool.json"
+      },
+      {
+        "normalized": "KEG",
+        "reference": "Princeton WordNet 3.0 offsets in candidate_pool.json"
+      },
+      {
+        "normalized": "BARREL",
+        "reference": "Princeton WordNet 3.0 offsets in candidate_pool.json"
+      },
+      {
+        "normalized": "BREWPUB",
+        "reference": "Princeton WordNet 3.0 offsets in candidate_pool.json"
+      },
+      {
+        "normalized": "HAPPYHOUR",
+        "reference": "Princeton WordNet 3.0 offsets in candidate_pool.json"
+      },
+      {
+        "normalized": "DEMIJOHN",
+        "reference": "Princeton WordNet 3.0 offsets in candidate_pool.json"
+      },
+      {
+        "normalized": "ZEST",
+        "reference": "Princeton WordNet 3.0 offsets in candidate_pool.json"
+      },
+      {
+        "normalized": "FLASK",
+        "reference": "Princeton WordNet 3.0 offsets in candidate_pool.json"
+      },
+      {
+        "normalized": "PINT",
+        "reference": "Princeton WordNet 3.0 offsets in candidate_pool.json"
+      },
+      {
+        "normalized": "PUB",
+        "reference": "Princeton WordNet 3.0 offsets in candidate_pool.json"
+      },
+      {
+        "normalized": "TAP",
+        "reference": "Princeton WordNet 3.0 offsets in candidate_pool.json"
+      }
+    ]
+  },
+  {
+    "id": "after_hours_23",
+    "title": "Alcoholic Drinks 1",
+    "niche": "alcoholic drinks",
+    "status": "pending_review",
+    "display_words": [
+      "ALE",
+      "WHITE BEER",
+      "SLOE GIN",
+      "DRY VERMOUTH",
+      "TRIPLE SEC",
+      "VODKA MARTINI",
+      "SACK",
+      "KIRSCH",
+      "VARIETAL",
+      "TABLE WINE",
+      "EGGNOG",
+      "VIN ORDINAIRE"
+    ],
+    "words": [
+      "ALE",
+      "WHITEBEER",
+      "SLOEGIN",
+      "DRYVERMOUTH",
+      "TRIPLESEC",
+      "VODKAMARTINI",
+      "SACK",
+      "KIRSCH",
+      "VARIETAL",
+      "TABLEWINE",
+      "EGGNOG",
+      "VINORDINAIRE"
+    ],
+    "grid_size": 15,
+    "source_records": [
+      {
+        "normalized": "ALE",
+        "reference": "Princeton WordNet 3.0 offsets in candidate_pool.json"
+      },
+      {
+        "normalized": "WHITEBEER",
+        "reference": "Princeton WordNet 3.0 offsets in candidate_pool.json"
+      },
+      {
+        "normalized": "SLOEGIN",
+        "reference": "Princeton WordNet 3.0 offsets in candidate_pool.json"
+      },
+      {
+        "normalized": "DRYVERMOUTH",
+        "reference": "Princeton WordNet 3.0 offsets in candidate_pool.json"
+      },
+      {
+        "normalized": "TRIPLESEC",
+        "reference": "Princeton WordNet 3.0 offsets in candidate_pool.json"
+      },
+      {
+        "normalized": "VODKAMARTINI",
+        "reference": "Princeton WordNet 3.0 offsets in candidate_pool.json"
+      },
+      {
+        "normalized": "SACK",
+        "reference": "Princeton WordNet 3.0 offsets in candidate_pool.json"
+      },
+      {
+        "normalized": "KIRSCH",
+        "reference": "Princeton WordNet 3.0 offsets in candidate_pool.json"
+      },
+      {
+        "normalized": "VARIETAL",
+        "reference": "Princeton WordNet 3.0 offsets in candidate_pool.json"
+      },
+      {
+        "normalized": "TABLEWINE",
+        "reference": "Princeton WordNet 3.0 offsets in candidate_pool.json"
+      },
+      {
+        "normalized": "EGGNOG",
+        "reference": "Princeton WordNet 3.0 offsets in candidate_pool.json"
+      },
+      {
+        "normalized": "VINORDINAIRE",
+        "reference": "Princeton WordNet 3.0 offsets in candidate_pool.json"
+      }
+    ]
+  },
+  {
+    "id": "after_hours_24",
+    "title": "Alcoholic Drinks 2",
+    "niche": "alcoholic drinks",
+    "status": "pending_review",
+    "display_words": [
+      "VODKA",
+      "ORANGE LIQUEUR",
+      "MINT JULEP",
+      "PINA COLADA",
+      "ARAK",
+      "SPARKLING WINE",
+      "SPIRITS",
+      "PROOF SPIRIT",
+      "SOUR MASH",
+      "AQUAVIT",
+      "PLONK",
+      "DAIQUIRI"
+    ],
+    "words": [
+      "VODKA",
+      "ORANGELIQUEUR",
+      "MINTJULEP",
+      "PINACOLADA",
+      "ARAK",
+      "SPARKLINGWINE",
+      "SPIRITS",
+      "PROOFSPIRIT",
+      "SOURMASH",
+      "AQUAVIT",
+      "PLONK",
+      "DAIQUIRI"
+    ],
+    "grid_size": 15,
+    "source_records": [
+      {
+        "normalized": "VODKA",
+        "reference": "Princeton WordNet 3.0 offsets in candidate_pool.json"
+      },
+      {
+        "normalized": "ORANGELIQUEUR",
+        "reference": "Princeton WordNet 3.0 offsets in candidate_pool.json"
+      },
+      {
+        "normalized": "MINTJULEP",
+        "reference": "Princeton WordNet 3.0 offsets in candidate_pool.json"
+      },
+      {
+        "normalized": "PINACOLADA",
+        "reference": "Princeton WordNet 3.0 offsets in candidate_pool.json"
+      },
+      {
+        "normalized": "ARAK",
+        "reference": "Princeton WordNet 3.0 offsets in candidate_pool.json"
+      },
+      {
+        "normalized": "SPARKLINGWINE",
+        "reference": "Princeton WordNet 3.0 offsets in candidate_pool.json"
+      },
+      {
+        "normalized": "SPIRITS",
+        "reference": "Princeton WordNet 3.0 offsets in candidate_pool.json"
+      },
+      {
+        "normalized": "PROOFSPIRIT",
+        "reference": "Princeton WordNet 3.0 offsets in candidate_pool.json"
+      },
+      {
+        "normalized": "SOURMASH",
+        "reference": "Princeton WordNet 3.0 offsets in candidate_pool.json"
+      },
+      {
+        "normalized": "AQUAVIT",
+        "reference": "Princeton WordNet 3.0 offsets in candidate_pool.json"
+      },
+      {
+        "normalized": "PLONK",
+        "reference": "Princeton WordNet 3.0 offsets in candidate_pool.json"
+      },
+      {
+        "normalized": "DAIQUIRI",
+        "reference": "Princeton WordNet 3.0 offsets in candidate_pool.json"
+      }
+    ]
+  },
+  {
+    "id": "after_hours_25",
+    "title": "Alcoholic Drinks 3",
+    "niche": "alcoholic drinks",
+    "status": "pending_review",
+    "display_words": [
+      "BEER",
+      "PRUNO",
+      "MALT WHISKEY",
+      "LIEBFRAUMILCH",
+      "RETSINA",
+      "SAMBUCA",
+      "KOUMISS",
+      "MARTINI",
+      "RUM SLING",
+      "HOT TODDY",
+      "GROG",
+      "AKVAVIT"
+    ],
+    "words": [
+      "BEER",
+      "PRUNO",
+      "MALTWHISKEY",
+      "LIEBFRAUMILCH",
+      "RETSINA",
+      "SAMBUCA",
+      "KOUMISS",
+      "MARTINI",
+      "RUMSLING",
+      "HOTTODDY",
+      "GROG",
+      "AKVAVIT"
+    ],
+    "grid_size": 15,
+    "source_records": [
+      {
+        "normalized": "BEER",
+        "reference": "Princeton WordNet 3.0 offsets in candidate_pool.json"
+      },
+      {
+        "normalized": "PRUNO",
+        "reference": "Princeton WordNet 3.0 offsets in candidate_pool.json"
+      },
+      {
+        "normalized": "MALTWHISKEY",
+        "reference": "Princeton WordNet 3.0 offsets in candidate_pool.json"
+      },
+      {
+        "normalized": "LIEBFRAUMILCH",
+        "reference": "Princeton WordNet 3.0 offsets in candidate_pool.json"
+      },
+      {
+        "normalized": "RETSINA",
+        "reference": "Princeton WordNet 3.0 offsets in candidate_pool.json"
+      },
+      {
+        "normalized": "SAMBUCA",
+        "reference": "Princeton WordNet 3.0 offsets in candidate_pool.json"
+      },
+      {
+        "normalized": "KOUMISS",
+        "reference": "Princeton WordNet 3.0 offsets in candidate_pool.json"
+      },
+      {
+        "normalized": "MARTINI",
+        "reference": "Princeton WordNet 3.0 offsets in candidate_pool.json"
+      },
+      {
+        "normalized": "RUMSLING",
+        "reference": "Princeton WordNet 3.0 offsets in candidate_pool.json"
+      },
+      {
+        "normalized": "HOTTODDY",
+        "reference": "Princeton WordNet 3.0 offsets in candidate_pool.json"
+      },
+      {
+        "normalized": "GROG",
+        "reference": "Princeton WordNet 3.0 offsets in candidate_pool.json"
+      },
+      {
+        "normalized": "AKVAVIT",
+        "reference": "Princeton WordNet 3.0 offsets in candidate_pool.json"
+      }
+    ]
+  },
+  {
+    "id": "after_hours_26",
+    "title": "Alcoholic Drinks 4",
+    "niche": "alcoholic drinks",
+    "status": "pending_review",
+    "display_words": [
+      "TEQUILA",
+      "PULQUE",
+      "GLOGG",
+      "ANISETTE",
+      "HARD LIQUOR",
+      "WHITE WINE",
+      "HARD CIDER",
+      "TODDY",
+      "GIN SLING",
+      "RICKEY",
+      "FISH HOUSE PUNCH",
+      "GIN RICKEY"
+    ],
+    "words": [
+      "TEQUILA",
+      "PULQUE",
+      "GLOGG",
+      "ANISETTE",
+      "HARDLIQUOR",
+      "WHITEWINE",
+      "HARDCIDER",
+      "TODDY",
+      "GINSLING",
+      "RICKEY",
+      "FISHHOUSEPUNCH",
+      "GINRICKEY"
+    ],
+    "grid_size": 15,
+    "source_records": [
+      {
+        "normalized": "TEQUILA",
+        "reference": "Princeton WordNet 3.0 offsets in candidate_pool.json"
+      },
+      {
+        "normalized": "PULQUE",
+        "reference": "Princeton WordNet 3.0 offsets in candidate_pool.json"
+      },
+      {
+        "normalized": "GLOGG",
+        "reference": "Princeton WordNet 3.0 offsets in candidate_pool.json"
+      },
+      {
+        "normalized": "ANISETTE",
+        "reference": "Princeton WordNet 3.0 offsets in candidate_pool.json"
+      },
+      {
+        "normalized": "HARDLIQUOR",
+        "reference": "Princeton WordNet 3.0 offsets in candidate_pool.json"
+      },
+      {
+        "normalized": "WHITEWINE",
+        "reference": "Princeton WordNet 3.0 offsets in candidate_pool.json"
+      },
+      {
+        "normalized": "HARDCIDER",
+        "reference": "Princeton WordNet 3.0 offsets in candidate_pool.json"
+      },
+      {
+        "normalized": "TODDY",
+        "reference": "Princeton WordNet 3.0 offsets in candidate_pool.json"
+      },
+      {
+        "normalized": "GINSLING",
+        "reference": "Princeton WordNet 3.0 offsets in candidate_pool.json"
+      },
+      {
+        "normalized": "RICKEY",
+        "reference": "Princeton WordNet 3.0 offsets in candidate_pool.json"
+      },
+      {
+        "normalized": "FISHHOUSEPUNCH",
+        "reference": "Princeton WordNet 3.0 offsets in candidate_pool.json"
+      },
+      {
+        "normalized": "GINRICKEY",
+        "reference": "Princeton WordNet 3.0 offsets in candidate_pool.json"
+      }
+    ]
+  },
+  {
+    "id": "after_hours_27",
+    "title": "Alcoholic Drinks 5",
+    "niche": "alcoholic drinks",
+    "status": "pending_review",
+    "display_words": [
+      "WINE",
+      "CLARET CUP",
+      "PINK LADY",
+      "FIREWATER",
+      "METHEGLIN",
+      "SACRAMENTAL WINE",
+      "RICE BEER",
+      "BOCK",
+      "FLIP",
+      "EAU DE VIE",
+      "BUBBLY",
+      "SLIVOVITZ"
+    ],
+    "words": [
+      "WINE",
+      "CLARETCUP",
+      "PINKLADY",
+      "FIREWATER",
+      "METHEGLIN",
+      "SACRAMENTALWINE",
+      "RICEBEER",
+      "BOCK",
+      "FLIP",
+      "EAUDEVIE",
+      "BUBBLY",
+      "SLIVOVITZ"
+    ],
+    "grid_size": 15,
+    "source_records": [
+      {
+        "normalized": "WINE",
+        "reference": "Princeton WordNet 3.0 offsets in candidate_pool.json"
+      },
+      {
+        "normalized": "CLARETCUP",
+        "reference": "Princeton WordNet 3.0 offsets in candidate_pool.json"
+      },
+      {
+        "normalized": "PINKLADY",
+        "reference": "Princeton WordNet 3.0 offsets in candidate_pool.json"
+      },
+      {
+        "normalized": "FIREWATER",
+        "reference": "Princeton WordNet 3.0 offsets in candidate_pool.json"
+      },
+      {
+        "normalized": "METHEGLIN",
+        "reference": "Princeton WordNet 3.0 offsets in candidate_pool.json"
+      },
+      {
+        "normalized": "SACRAMENTALWINE",
+        "reference": "Princeton WordNet 3.0 offsets in candidate_pool.json"
+      },
+      {
+        "normalized": "RICEBEER",
+        "reference": "Princeton WordNet 3.0 offsets in candidate_pool.json"
+      },
+      {
+        "normalized": "BOCK",
+        "reference": "Princeton WordNet 3.0 offsets in candidate_pool.json"
+      },
+      {
+        "normalized": "FLIP",
+        "reference": "Princeton WordNet 3.0 offsets in candidate_pool.json"
+      },
+      {
+        "normalized": "EAUDEVIE",
+        "reference": "Princeton WordNet 3.0 offsets in candidate_pool.json"
+      },
+      {
+        "normalized": "BUBBLY",
+        "reference": "Princeton WordNet 3.0 offsets in candidate_pool.json"
+      },
+      {
+        "normalized": "SLIVOVITZ",
+        "reference": "Princeton WordNet 3.0 offsets in candidate_pool.json"
+      }
+    ]
+  },
+  {
+    "id": "after_hours_28",
+    "title": "Alcoholic Drinks 6",
+    "niche": "alcoholic drinks",
+    "status": "pending_review",
+    "display_words": [
+      "BOURBON",
+      "BRANDY",
+      "PINK WINE",
+      "PERRY",
+      "WHISKEY SOUR",
+      "MARGARITA",
+      "GRAPPA",
+      "PASTIS",
+      "BLENDED WHISKEY",
+      "LIGHT BEER",
+      "GIN AND TONIC",
+      "OUZO"
+    ],
+    "words": [
+      "BOURBON",
+      "BRANDY",
+      "PINKWINE",
+      "PERRY",
+      "WHISKEYSOUR",
+      "MARGARITA",
+      "GRAPPA",
+      "PASTIS",
+      "BLENDEDWHISKEY",
+      "LIGHTBEER",
+      "GINANDTONIC",
+      "OUZO"
+    ],
+    "grid_size": 15,
+    "source_records": [
+      {
+        "normalized": "BOURBON",
+        "reference": "Princeton WordNet 3.0 offsets in candidate_pool.json"
+      },
+      {
+        "normalized": "BRANDY",
+        "reference": "Princeton WordNet 3.0 offsets in candidate_pool.json"
+      },
+      {
+        "normalized": "PINKWINE",
+        "reference": "Princeton WordNet 3.0 offsets in candidate_pool.json"
+      },
+      {
+        "normalized": "PERRY",
+        "reference": "Princeton WordNet 3.0 offsets in candidate_pool.json"
+      },
+      {
+        "normalized": "WHISKEYSOUR",
+        "reference": "Princeton WordNet 3.0 offsets in candidate_pool.json"
+      },
+      {
+        "normalized": "MARGARITA",
+        "reference": "Princeton WordNet 3.0 offsets in candidate_pool.json"
+      },
+      {
+        "normalized": "GRAPPA",
+        "reference": "Princeton WordNet 3.0 offsets in candidate_pool.json"
+      },
+      {
+        "normalized": "PASTIS",
+        "reference": "Princeton WordNet 3.0 offsets in candidate_pool.json"
+      },
+      {
+        "normalized": "BLENDEDWHISKEY",
+        "reference": "Princeton WordNet 3.0 offsets in candidate_pool.json"
+      },
+      {
+        "normalized": "LIGHTBEER",
+        "reference": "Princeton WordNet 3.0 offsets in candidate_pool.json"
+      },
+      {
+        "normalized": "GINANDTONIC",
+        "reference": "Princeton WordNet 3.0 offsets in candidate_pool.json"
+      },
+      {
+        "normalized": "OUZO",
+        "reference": "Princeton WordNet 3.0 offsets in candidate_pool.json"
+      }
+    ]
+  },
+  {
+    "id": "after_hours_29",
+    "title": "Alcoholic Drinks 7",
+    "niche": "alcoholic drinks",
+    "status": "pending_review",
+    "display_words": [
+      "NEUTRAL SPIRITS",
+      "ROSE WINE",
+      "ARRACK",
+      "DESSERT WINE",
+      "ALCOHOL",
+      "SWEET VERMOUTH",
+      "CASSIRI",
+      "BREW",
+      "POUSSE CAFE",
+      "SAKE",
+      "COFFEE LIQUEUR",
+      "PORT"
+    ],
+    "words": [
+      "NEUTRALSPIRITS",
+      "ROSEWINE",
+      "ARRACK",
+      "DESSERTWINE",
+      "ALCOHOL",
+      "SWEETVERMOUTH",
+      "CASSIRI",
+      "BREW",
+      "POUSSECAFE",
+      "SAKE",
+      "COFFEELIQUEUR",
+      "PORT"
+    ],
+    "grid_size": 15,
+    "source_records": [
+      {
+        "normalized": "NEUTRALSPIRITS",
+        "reference": "Princeton WordNet 3.0 offsets in candidate_pool.json"
+      },
+      {
+        "normalized": "ROSEWINE",
+        "reference": "Princeton WordNet 3.0 offsets in candidate_pool.json"
+      },
+      {
+        "normalized": "ARRACK",
+        "reference": "Princeton WordNet 3.0 offsets in candidate_pool.json"
+      },
+      {
+        "normalized": "DESSERTWINE",
+        "reference": "Princeton WordNet 3.0 offsets in candidate_pool.json"
+      },
+      {
+        "normalized": "ALCOHOL",
+        "reference": "Princeton WordNet 3.0 offsets in candidate_pool.json"
+      },
+      {
+        "normalized": "SWEETVERMOUTH",
+        "reference": "Princeton WordNet 3.0 offsets in candidate_pool.json"
+      },
+      {
+        "normalized": "CASSIRI",
+        "reference": "Princeton WordNet 3.0 offsets in candidate_pool.json"
+      },
+      {
+        "normalized": "BREW",
+        "reference": "Princeton WordNet 3.0 offsets in candidate_pool.json"
+      },
+      {
+        "normalized": "POUSSECAFE",
+        "reference": "Princeton WordNet 3.0 offsets in candidate_pool.json"
+      },
+      {
+        "normalized": "SAKE",
+        "reference": "Princeton WordNet 3.0 offsets in candidate_pool.json"
+      },
+      {
+        "normalized": "COFFEELIQUEUR",
+        "reference": "Princeton WordNet 3.0 offsets in candidate_pool.json"
+      },
+      {
+        "normalized": "PORT",
+        "reference": "Princeton WordNet 3.0 offsets in candidate_pool.json"
+      }
+    ]
+  },
+  {
+    "id": "after_hours_30",
+    "title": "Alcoholic Drinks 8",
+    "niche": "alcoholic drinks",
+    "status": "pending_review",
+    "display_words": [
+      "WHISKEY",
+      "GRASSHOPPER",
+      "SHERRY",
+      "RED WINE",
+      "SPRITZER",
+      "MANHATTAN",
+      "VINTAGE",
+      "NEGUS",
+      "PALE ALE",
+      "HOOCH",
+      "FORTIFIED WINE",
+      "APPLEJACK"
+    ],
+    "words": [
+      "WHISKEY",
+      "GRASSHOPPER",
+      "SHERRY",
+      "REDWINE",
+      "SPRITZER",
+      "MANHATTAN",
+      "VINTAGE",
+      "NEGUS",
+      "PALEALE",
+      "HOOCH",
+      "FORTIFIEDWINE",
+      "APPLEJACK"
+    ],
+    "grid_size": 15,
+    "source_records": [
+      {
+        "normalized": "WHISKEY",
+        "reference": "Princeton WordNet 3.0 offsets in candidate_pool.json"
+      },
+      {
+        "normalized": "GRASSHOPPER",
+        "reference": "Princeton WordNet 3.0 offsets in candidate_pool.json"
+      },
+      {
+        "normalized": "SHERRY",
+        "reference": "Princeton WordNet 3.0 offsets in candidate_pool.json"
+      },
+      {
+        "normalized": "REDWINE",
+        "reference": "Princeton WordNet 3.0 offsets in candidate_pool.json"
+      },
+      {
+        "normalized": "SPRITZER",
+        "reference": "Princeton WordNet 3.0 offsets in candidate_pool.json"
+      },
+      {
+        "normalized": "MANHATTAN",
+        "reference": "Princeton WordNet 3.0 offsets in candidate_pool.json"
+      },
+      {
+        "normalized": "VINTAGE",
+        "reference": "Princeton WordNet 3.0 offsets in candidate_pool.json"
+      },
+      {
+        "normalized": "NEGUS",
+        "reference": "Princeton WordNet 3.0 offsets in candidate_pool.json"
+      },
+      {
+        "normalized": "PALEALE",
+        "reference": "Princeton WordNet 3.0 offsets in candidate_pool.json"
+      },
+      {
+        "normalized": "HOOCH",
+        "reference": "Princeton WordNet 3.0 offsets in candidate_pool.json"
+      },
+      {
+        "normalized": "FORTIFIEDWINE",
+        "reference": "Princeton WordNet 3.0 offsets in candidate_pool.json"
+      },
+      {
+        "normalized": "APPLEJACK",
+        "reference": "Princeton WordNet 3.0 offsets in candidate_pool.json"
+      }
+    ]
+  },
+  {
+    "id": "after_hours_31",
+    "title": "Alcoholic Drinks 9",
+    "niche": "alcoholic drinks",
+    "status": "pending_review",
+    "display_words": [
+      "RUM",
+      "SIDECAR",
+      "RYE",
+      "STOUT",
+      "MALMSEY",
+      "OLD FASHIONED",
+      "JUG WINE",
+      "STRAW WINE",
+      "WHEAT BEER",
+      "CREME DE CACAO",
+      "PLANTERS PUNCH",
+      "ABSINTHE"
+    ],
+    "words": [
+      "RUM",
+      "SIDECAR",
+      "RYE",
+      "STOUT",
+      "MALMSEY",
+      "OLDFASHIONED",
+      "JUGWINE",
+      "STRAWWINE",
+      "WHEATBEER",
+      "CREMEDECACAO",
+      "PLANTERSPUNCH",
+      "ABSINTHE"
+    ],
+    "grid_size": 15,
+    "source_records": [
+      {
+        "normalized": "RUM",
+        "reference": "Princeton WordNet 3.0 offsets in candidate_pool.json"
+      },
+      {
+        "normalized": "SIDECAR",
+        "reference": "Princeton WordNet 3.0 offsets in candidate_pool.json"
+      },
+      {
+        "normalized": "RYE",
+        "reference": "Princeton WordNet 3.0 offsets in candidate_pool.json"
+      },
+      {
+        "normalized": "STOUT",
+        "reference": "Princeton WordNet 3.0 offsets in candidate_pool.json"
+      },
+      {
+        "normalized": "MALMSEY",
+        "reference": "Princeton WordNet 3.0 offsets in candidate_pool.json"
+      },
+      {
+        "normalized": "OLDFASHIONED",
+        "reference": "Princeton WordNet 3.0 offsets in candidate_pool.json"
+      },
+      {
+        "normalized": "JUGWINE",
+        "reference": "Princeton WordNet 3.0 offsets in candidate_pool.json"
+      },
+      {
+        "normalized": "STRAWWINE",
+        "reference": "Princeton WordNet 3.0 offsets in candidate_pool.json"
+      },
+      {
+        "normalized": "WHEATBEER",
+        "reference": "Princeton WordNet 3.0 offsets in candidate_pool.json"
+      },
+      {
+        "normalized": "CREMEDECACAO",
+        "reference": "Princeton WordNet 3.0 offsets in candidate_pool.json"
+      },
+      {
+        "normalized": "PLANTERSPUNCH",
+        "reference": "Princeton WordNet 3.0 offsets in candidate_pool.json"
+      },
+      {
+        "normalized": "ABSINTHE",
+        "reference": "Princeton WordNet 3.0 offsets in candidate_pool.json"
+      }
+    ]
+  },
+  {
+    "id": "after_hours_32",
+    "title": "Alcoholic Drinks 10",
+    "niche": "alcoholic drinks",
+    "status": "pending_review",
+    "display_words": [
+      "STINGER",
+      "SCHNAPPS",
+      "MOONSHINE",
+      "RATAFIA",
+      "HIGHBALL",
+      "MIMOSA",
+      "AMARETTO",
+      "LIQUOR",
+      "KUMMEL",
+      "MULLED WINE",
+      "KVASS",
+      "SLING"
+    ],
+    "words": [
+      "STINGER",
+      "SCHNAPPS",
+      "MOONSHINE",
+      "RATAFIA",
+      "HIGHBALL",
+      "MIMOSA",
+      "AMARETTO",
+      "LIQUOR",
+      "KUMMEL",
+      "MULLEDWINE",
+      "KVASS",
+      "SLING"
+    ],
+    "grid_size": 15,
+    "source_records": [
+      {
+        "normalized": "STINGER",
+        "reference": "Princeton WordNet 3.0 offsets in candidate_pool.json"
+      },
+      {
+        "normalized": "SCHNAPPS",
+        "reference": "Princeton WordNet 3.0 offsets in candidate_pool.json"
+      },
+      {
+        "normalized": "MOONSHINE",
+        "reference": "Princeton WordNet 3.0 offsets in candidate_pool.json"
+      },
+      {
+        "normalized": "RATAFIA",
+        "reference": "Princeton WordNet 3.0 offsets in candidate_pool.json"
+      },
+      {
+        "normalized": "HIGHBALL",
+        "reference": "Princeton WordNet 3.0 offsets in candidate_pool.json"
+      },
+      {
+        "normalized": "MIMOSA",
+        "reference": "Princeton WordNet 3.0 offsets in candidate_pool.json"
+      },
+      {
+        "normalized": "AMARETTO",
+        "reference": "Princeton WordNet 3.0 offsets in candidate_pool.json"
+      },
+      {
+        "normalized": "LIQUOR",
+        "reference": "Princeton WordNet 3.0 offsets in candidate_pool.json"
+      },
+      {
+        "normalized": "KUMMEL",
+        "reference": "Princeton WordNet 3.0 offsets in candidate_pool.json"
+      },
+      {
+        "normalized": "MULLEDWINE",
+        "reference": "Princeton WordNet 3.0 offsets in candidate_pool.json"
+      },
+      {
+        "normalized": "KVASS",
+        "reference": "Princeton WordNet 3.0 offsets in candidate_pool.json"
+      },
+      {
+        "normalized": "SLING",
+        "reference": "Princeton WordNet 3.0 offsets in candidate_pool.json"
+      }
+    ]
+  },
+  {
+    "id": "after_hours_33",
+    "title": "Alcoholic Drinks 11",
+    "niche": "alcoholic drinks",
+    "status": "pending_review",
+    "display_words": [
+      "ZINFANDEL",
+      "ROTGUT",
+      "GIMLET",
+      "CURACAO",
+      "BATHTUB GIN",
+      "POTEEN",
+      "LIQUEUR",
+      "MIXED DRINK",
+      "MUSCATEL",
+      "SCREWDRIVER",
+      "CORN WHISKEY",
+      "ZOMBIE"
+    ],
+    "words": [
+      "ZINFANDEL",
+      "ROTGUT",
+      "GIMLET",
+      "CURACAO",
+      "BATHTUBGIN",
+      "POTEEN",
+      "LIQUEUR",
+      "MIXEDDRINK",
+      "MUSCATEL",
+      "SCREWDRIVER",
+      "CORNWHISKEY",
+      "ZOMBIE"
+    ],
+    "grid_size": 15,
+    "source_records": [
+      {
+        "normalized": "ZINFANDEL",
+        "reference": "Princeton WordNet 3.0 offsets in candidate_pool.json"
+      },
+      {
+        "normalized": "ROTGUT",
+        "reference": "Princeton WordNet 3.0 offsets in candidate_pool.json"
+      },
+      {
+        "normalized": "GIMLET",
+        "reference": "Princeton WordNet 3.0 offsets in candidate_pool.json"
+      },
+      {
+        "normalized": "CURACAO",
+        "reference": "Princeton WordNet 3.0 offsets in candidate_pool.json"
+      },
+      {
+        "normalized": "BATHTUBGIN",
+        "reference": "Princeton WordNet 3.0 offsets in candidate_pool.json"
+      },
+      {
+        "normalized": "POTEEN",
+        "reference": "Princeton WordNet 3.0 offsets in candidate_pool.json"
+      },
+      {
+        "normalized": "LIQUEUR",
+        "reference": "Princeton WordNet 3.0 offsets in candidate_pool.json"
+      },
+      {
+        "normalized": "MIXEDDRINK",
+        "reference": "Princeton WordNet 3.0 offsets in candidate_pool.json"
+      },
+      {
+        "normalized": "MUSCATEL",
+        "reference": "Princeton WordNet 3.0 offsets in candidate_pool.json"
+      },
+      {
+        "normalized": "SCREWDRIVER",
+        "reference": "Princeton WordNet 3.0 offsets in candidate_pool.json"
+      },
+      {
+        "normalized": "CORNWHISKEY",
+        "reference": "Princeton WordNet 3.0 offsets in candidate_pool.json"
+      },
+      {
+        "normalized": "ZOMBIE",
+        "reference": "Princeton WordNet 3.0 offsets in candidate_pool.json"
+      }
+    ]
+  },
+  {
+    "id": "after_hours_34",
+    "title": "Alcoholic Drinks 12",
+    "niche": "alcoholic drinks",
+    "status": "pending_review",
+    "display_words": [
+      "GIN",
+      "LAGER",
+      "STRAWBERRY DAIQUIRI",
+      "COLD DUCK",
+      "CLARET",
+      "MILK PUNCH",
+      "BULLSHOT",
+      "MEAD",
+      "BRANDY SLING",
+      "MESCAL",
+      "WASSAIL",
+      "COCKTAIL"
+    ],
+    "words": [
+      "GIN",
+      "LAGER",
+      "STRAWBERRYDAIQUIRI",
+      "COLDDUCK",
+      "CLARET",
+      "MILKPUNCH",
+      "BULLSHOT",
+      "MEAD",
+      "BRANDYSLING",
+      "MESCAL",
+      "WASSAIL",
+      "COCKTAIL"
+    ],
+    "grid_size": 18,
+    "source_records": [
+      {
+        "normalized": "GIN",
+        "reference": "Princeton WordNet 3.0 offsets in candidate_pool.json"
+      },
+      {
+        "normalized": "LAGER",
+        "reference": "Princeton WordNet 3.0 offsets in candidate_pool.json"
+      },
+      {
+        "normalized": "STRAWBERRYDAIQUIRI",
+        "reference": "Princeton WordNet 3.0 offsets in candidate_pool.json"
+      },
+      {
+        "normalized": "COLDDUCK",
+        "reference": "Princeton WordNet 3.0 offsets in candidate_pool.json"
+      },
+      {
+        "normalized": "CLARET",
+        "reference": "Princeton WordNet 3.0 offsets in candidate_pool.json"
+      },
+      {
+        "normalized": "MILKPUNCH",
+        "reference": "Princeton WordNet 3.0 offsets in candidate_pool.json"
+      },
+      {
+        "normalized": "BULLSHOT",
+        "reference": "Princeton WordNet 3.0 offsets in candidate_pool.json"
+      },
+      {
+        "normalized": "MEAD",
+        "reference": "Princeton WordNet 3.0 offsets in candidate_pool.json"
+      },
+      {
+        "normalized": "BRANDYSLING",
+        "reference": "Princeton WordNet 3.0 offsets in candidate_pool.json"
+      },
+      {
+        "normalized": "MESCAL",
+        "reference": "Princeton WordNet 3.0 offsets in candidate_pool.json"
+      },
+      {
+        "normalized": "WASSAIL",
+        "reference": "Princeton WordNet 3.0 offsets in candidate_pool.json"
+      },
+      {
+        "normalized": "COCKTAIL",
+        "reference": "Princeton WordNet 3.0 offsets in candidate_pool.json"
+      }
+    ]
+  },
+  {
+    "id": "after_hours_35",
+    "title": "Named Cocktails 1",
+    "niche": "named cocktails",
+    "status": "pending_review",
+    "display_words": [
+      "CAIPIRINHA",
+      "ILLEGAL",
+      "FRENCH CONNECTION",
+      "PISCO SOUR",
+      "VIEUX CARRE",
+      "TUXEDO",
+      "DRY MARTINI",
+      "NAKED AND FAMOUS",
+      "FRENCH MARTINI",
+      "MARTINEZ",
+      "RUSSIAN SPRING PUNCH",
+      "BLACK RUSSIAN"
+    ],
+    "words": [
+      "CAIPIRINHA",
+      "ILLEGAL",
+      "FRENCHCONNECTION",
+      "PISCOSOUR",
+      "VIEUXCARRE",
+      "TUXEDO",
+      "DRYMARTINI",
+      "NAKEDANDFAMOUS",
+      "FRENCHMARTINI",
+      "MARTINEZ",
+      "RUSSIANSPRINGPUNCH",
+      "BLACKRUSSIAN"
+    ],
+    "grid_size": 18,
+    "source_records": [
+      {
+        "normalized": "CAIPIRINHA",
+        "reference": "https://iba-world.com/iba-cocktail/caipirinha/"
+      },
+      {
+        "normalized": "ILLEGAL",
+        "reference": "https://iba-world.com/iba-cocktail/illegal/"
+      },
+      {
+        "normalized": "FRENCHCONNECTION",
+        "reference": "https://iba-world.com/iba-cocktail/french-connection/"
+      },
+      {
+        "normalized": "PISCOSOUR",
+        "reference": "https://iba-world.com/iba-cocktail/pisco-sour/"
+      },
+      {
+        "normalized": "VIEUXCARRE",
+        "reference": "https://iba-world.com/iba-cocktail/vieux-carre/"
+      },
+      {
+        "normalized": "TUXEDO",
+        "reference": "https://iba-world.com/iba-cocktail/tuxedo/"
+      },
+      {
+        "normalized": "DRYMARTINI",
+        "reference": "https://iba-world.com/iba-cocktail/dry-martini/"
+      },
+      {
+        "normalized": "NAKEDANDFAMOUS",
+        "reference": "https://iba-world.com/iba-cocktail/naked-and-famous/"
+      },
+      {
+        "normalized": "FRENCHMARTINI",
+        "reference": "https://iba-world.com/iba-cocktail/french-martini/"
+      },
+      {
+        "normalized": "MARTINEZ",
+        "reference": "https://iba-world.com/iba-cocktail/martinez/"
+      },
+      {
+        "normalized": "RUSSIANSPRINGPUNCH",
+        "reference": "https://iba-world.com/iba-cocktail/russian-spring-punch/"
+      },
+      {
+        "normalized": "BLACKRUSSIAN",
+        "reference": "https://iba-world.com/iba-cocktail/black-russian/"
+      }
+    ]
+  },
+  {
+    "id": "after_hours_36",
+    "title": "Named Cocktails 2",
+    "niche": "named cocktails",
+    "status": "pending_review",
+    "display_words": [
+      "JUNGLE BIRD",
+      "RAMOS FIZZ",
+      "PALOMA",
+      "SINGAPORE SLING",
+      "GIN FIZZ",
+      "MAI-TAI",
+      "CUBA LIBRE",
+      "WHITE LADY",
+      "SOUTH SIDE",
+      "IRISH COFFEE",
+      "CHAMPAGNE COCKTAIL",
+      "LAST WORD"
+    ],
+    "words": [
+      "JUNGLEBIRD",
+      "RAMOSFIZZ",
+      "PALOMA",
+      "SINGAPORESLING",
+      "GINFIZZ",
+      "MAITAI",
+      "CUBALIBRE",
+      "WHITELADY",
+      "SOUTHSIDE",
+      "IRISHCOFFEE",
+      "CHAMPAGNECOCKTAIL",
+      "LASTWORD"
+    ],
+    "grid_size": 17,
+    "source_records": [
+      {
+        "normalized": "JUNGLEBIRD",
+        "reference": "https://iba-world.com/iba-cocktail/jungle-bird/"
+      },
+      {
+        "normalized": "RAMOSFIZZ",
+        "reference": "https://iba-world.com/iba-cocktail/ramos-fizz/"
+      },
+      {
+        "normalized": "PALOMA",
+        "reference": "https://iba-world.com/iba-cocktail/paloma/"
+      },
+      {
+        "normalized": "SINGAPORESLING",
+        "reference": "https://iba-world.com/iba-cocktail/singapore-sling/"
+      },
+      {
+        "normalized": "GINFIZZ",
+        "reference": "https://iba-world.com/iba-cocktail/gin-fizz/"
+      },
+      {
+        "normalized": "MAITAI",
+        "reference": "https://iba-world.com/iba-cocktail/mai-tai/"
+      },
+      {
+        "normalized": "CUBALIBRE",
+        "reference": "https://iba-world.com/iba-cocktail/cuba-libre/"
+      },
+      {
+        "normalized": "WHITELADY",
+        "reference": "https://iba-world.com/iba-cocktail/white-lady/"
+      },
+      {
+        "normalized": "SOUTHSIDE",
+        "reference": "https://iba-world.com/iba-cocktail/south-side/"
+      },
+      {
+        "normalized": "IRISHCOFFEE",
+        "reference": "https://iba-world.com/iba-cocktail/irish-coffee/"
+      },
+      {
+        "normalized": "CHAMPAGNECOCKTAIL",
+        "reference": "https://iba-world.com/iba-cocktail/champagne-cocktail/"
+      },
+      {
+        "normalized": "LASTWORD",
+        "reference": "https://iba-world.com/iba-cocktail/last-word/"
+      }
+    ]
+  },
+  {
+    "id": "after_hours_37",
+    "title": "Named Cocktails 3",
+    "niche": "named cocktails",
+    "status": "pending_review",
+    "display_words": [
+      "RABO DE GALO",
+      "PARADISE",
+      "ANGEL FACE",
+      "HORSE'S NECK",
+      "CANCHANCHARA",
+      "BRAMBLE",
+      "NEW YORK SOUR",
+      "VESPER",
+      "FERNANDITO",
+      "BLOODY MARY",
+      "COSMOPOLITAN",
+      "BETWEEN THE SHEETS"
+    ],
+    "words": [
+      "RABODEGALO",
+      "PARADISE",
+      "ANGELFACE",
+      "HORSESNECK",
+      "CANCHANCHARA",
+      "BRAMBLE",
+      "NEWYORKSOUR",
+      "VESPER",
+      "FERNANDITO",
+      "BLOODYMARY",
+      "COSMOPOLITAN",
+      "BETWEENTHESHEETS"
+    ],
+    "grid_size": 16,
+    "source_records": [
+      {
+        "normalized": "RABODEGALO",
+        "reference": "https://iba-world.com/iba-cocktail/rabo-de-galo/"
+      },
+      {
+        "normalized": "PARADISE",
+        "reference": "https://iba-world.com/iba-cocktail/paradise/"
+      },
+      {
+        "normalized": "ANGELFACE",
+        "reference": "https://iba-world.com/iba-cocktail/angel-face/"
+      },
+      {
+        "normalized": "HORSESNECK",
+        "reference": "https://iba-world.com/iba-cocktail/horses-neck/"
+      },
+      {
+        "normalized": "CANCHANCHARA",
+        "reference": "https://iba-world.com/iba-cocktail/canchanchara/"
+      },
+      {
+        "normalized": "BRAMBLE",
+        "reference": "https://iba-world.com/iba-cocktail/bramble/"
+      },
+      {
+        "normalized": "NEWYORKSOUR",
+        "reference": "https://iba-world.com/iba-cocktail/new-york-sour/"
+      },
+      {
+        "normalized": "VESPER",
+        "reference": "https://iba-world.com/iba-cocktail/vesper/"
+      },
+      {
+        "normalized": "FERNANDITO",
+        "reference": "https://iba-world.com/iba-cocktail/fernandito/"
+      },
+      {
+        "normalized": "BLOODYMARY",
+        "reference": "https://iba-world.com/iba-cocktail/bloody-mary/"
+      },
+      {
+        "normalized": "COSMOPOLITAN",
+        "reference": "https://iba-world.com/iba-cocktail/cosmopolitan/"
+      },
+      {
+        "normalized": "BETWEENTHESHEETS",
+        "reference": "https://iba-world.com/iba-cocktail/between-the-sheets/"
+      }
+    ]
+  },
+  {
+    "id": "after_hours_38",
+    "title": "Named Cocktails 4",
+    "niche": "named cocktails",
+    "status": "pending_review",
+    "display_words": [
+      "AVIATION",
+      "BOULEVARDIER",
+      "SPICY FIFTY",
+      "GARIBALDI",
+      "LEMON DROP MARTINI",
+      "GIN BASIL SMASH",
+      "PISCO PUNCH",
+      "PAPER PLANE",
+      "TIPPERARY",
+      "SEA BREEZE",
+      "PORTO FLIP",
+      "BELLINI"
+    ],
+    "words": [
+      "AVIATION",
+      "BOULEVARDIER",
+      "SPICYFIFTY",
+      "GARIBALDI",
+      "LEMONDROPMARTINI",
+      "GINBASILSMASH",
+      "PISCOPUNCH",
+      "PAPERPLANE",
+      "TIPPERARY",
+      "SEABREEZE",
+      "PORTOFLIP",
+      "BELLINI"
+    ],
+    "grid_size": 16,
+    "source_records": [
+      {
+        "normalized": "AVIATION",
+        "reference": "https://iba-world.com/iba-cocktail/aviation/"
+      },
+      {
+        "normalized": "BOULEVARDIER",
+        "reference": "https://iba-world.com/iba-cocktail/boulevardier/"
+      },
+      {
+        "normalized": "SPICYFIFTY",
+        "reference": "https://iba-world.com/iba-cocktail/spicy-fifty/"
+      },
+      {
+        "normalized": "GARIBALDI",
+        "reference": "https://iba-world.com/iba-cocktail/garibaldi/"
+      },
+      {
+        "normalized": "LEMONDROPMARTINI",
+        "reference": "https://iba-world.com/iba-cocktail/lemon-drop-martini/"
+      },
+      {
+        "normalized": "GINBASILSMASH",
+        "reference": "https://iba-world.com/iba-cocktail/gin-basil-smash/"
+      },
+      {
+        "normalized": "PISCOPUNCH",
+        "reference": "https://iba-world.com/iba-cocktail/pisco-punch/"
+      },
+      {
+        "normalized": "PAPERPLANE",
+        "reference": "https://iba-world.com/iba-cocktail/paper-plane/"
+      },
+      {
+        "normalized": "TIPPERARY",
+        "reference": "https://iba-world.com/iba-cocktail/tipperary/"
+      },
+      {
+        "normalized": "SEABREEZE",
+        "reference": "https://iba-world.com/iba-cocktail/sea-breeze/"
+      },
+      {
+        "normalized": "PORTOFLIP",
+        "reference": "https://iba-world.com/iba-cocktail/porto-flip/"
+      },
+      {
+        "normalized": "BELLINI",
+        "reference": "https://iba-world.com/iba-cocktail/bellini/"
+      }
+    ]
+  },
+  {
+    "id": "after_hours_39",
+    "title": "Named Cocktails 5",
+    "niche": "named cocktails",
+    "status": "pending_review",
+    "display_words": [
+      "BEE'S KNEES",
+      "CLOVER CLUB",
+      "LONG ISLAND ICED TEA",
+      "REMEMBER THE MAINE",
+      "JOHN COLLINS",
+      "SUFFERING BASTARD",
+      "ESPRESSO MARTINI",
+      "RUSTY NAIL",
+      "AMERICANO",
+      "TRINIDAD SOUR",
+      "TEQUILA SUNRISE",
+      "MOSCOW MULE"
+    ],
+    "words": [
+      "BEESKNEES",
+      "CLOVERCLUB",
+      "LONGISLANDICEDTEA",
+      "REMEMBERTHEMAINE",
+      "JOHNCOLLINS",
+      "SUFFERINGBASTARD",
+      "ESPRESSOMARTINI",
+      "RUSTYNAIL",
+      "AMERICANO",
+      "TRINIDADSOUR",
+      "TEQUILASUNRISE",
+      "MOSCOWMULE"
+    ],
+    "grid_size": 17,
+    "source_records": [
+      {
+        "normalized": "BEESKNEES",
+        "reference": "https://iba-world.com/iba-cocktail/bees-knees/"
+      },
+      {
+        "normalized": "CLOVERCLUB",
+        "reference": "https://iba-world.com/iba-cocktail/clover-club/"
+      },
+      {
+        "normalized": "LONGISLANDICEDTEA",
+        "reference": "https://iba-world.com/iba-cocktail/long-island-iced-tea/"
+      },
+      {
+        "normalized": "REMEMBERTHEMAINE",
+        "reference": "https://iba-world.com/iba-cocktail/remember-the-maine/"
+      },
+      {
+        "normalized": "JOHNCOLLINS",
+        "reference": "https://iba-world.com/iba-cocktail/john-collins/"
+      },
+      {
+        "normalized": "SUFFERINGBASTARD",
+        "reference": "https://iba-world.com/iba-cocktail/suffering-bastard/"
+      },
+      {
+        "normalized": "ESPRESSOMARTINI",
+        "reference": "https://iba-world.com/iba-cocktail/espresso-martini/"
+      },
+      {
+        "normalized": "RUSTYNAIL",
+        "reference": "https://iba-world.com/iba-cocktail/rusty-nail/"
+      },
+      {
+        "normalized": "AMERICANO",
+        "reference": "https://iba-world.com/iba-cocktail/americano/"
+      },
+      {
+        "normalized": "TRINIDADSOUR",
+        "reference": "https://iba-world.com/iba-cocktail/trinidad-sour/"
+      },
+      {
+        "normalized": "TEQUILASUNRISE",
+        "reference": "https://iba-world.com/iba-cocktail/tequila-sunrise/"
+      },
+      {
+        "normalized": "MOSCOWMULE",
+        "reference": "https://iba-world.com/iba-cocktail/moscow-mule/"
+      }
+    ]
+  },
+  {
+    "id": "after_hours_40",
+    "title": "Named Cocktails 6",
+    "niche": "named cocktails",
+    "status": "pending_review",
+    "display_words": [
+      "THREE DOTS AND A DASH",
+      "OLD CUBAN",
+      "NEGRONI",
+      "KIR",
+      "SPRITZ",
+      "MONKEY GLAND",
+      "CASINO",
+      "MOJITO",
+      "ALEXANDER",
+      "SAZERAC",
+      "SHERRY COBBLER",
+      "HANKY PANKY"
+    ],
+    "words": [
+      "THREEDOTSANDADASH",
+      "OLDCUBAN",
+      "NEGRONI",
+      "KIR",
+      "SPRITZ",
+      "MONKEYGLAND",
+      "CASINO",
+      "MOJITO",
+      "ALEXANDER",
+      "SAZERAC",
+      "SHERRYCOBBLER",
+      "HANKYPANKY"
+    ],
+    "grid_size": 17,
+    "source_records": [
+      {
+        "normalized": "THREEDOTSANDADASH",
+        "reference": "https://iba-world.com/iba-cocktail/three-dots-and-a-dash/"
+      },
+      {
+        "normalized": "OLDCUBAN",
+        "reference": "https://iba-world.com/iba-cocktail/old-cuban/"
+      },
+      {
+        "normalized": "NEGRONI",
+        "reference": "https://iba-world.com/iba-cocktail/negroni/"
+      },
+      {
+        "normalized": "KIR",
+        "reference": "https://iba-world.com/iba-cocktail/kir/"
+      },
+      {
+        "normalized": "SPRITZ",
+        "reference": "https://iba-world.com/iba-cocktail/spritz/"
+      },
+      {
+        "normalized": "MONKEYGLAND",
+        "reference": "https://iba-world.com/iba-cocktail/monkey-gland/"
+      },
+      {
+        "normalized": "CASINO",
+        "reference": "https://iba-world.com/iba-cocktail/casino/"
+      },
+      {
+        "normalized": "MOJITO",
+        "reference": "https://iba-world.com/iba-cocktail/mojito/"
+      },
+      {
+        "normalized": "ALEXANDER",
+        "reference": "https://iba-world.com/iba-cocktail/alexander/"
+      },
+      {
+        "normalized": "SAZERAC",
+        "reference": "https://iba-world.com/iba-cocktail/sazerac/"
+      },
+      {
+        "normalized": "SHERRYCOBBLER",
+        "reference": "https://iba-world.com/iba-cocktail/sherry-cobbler/"
+      },
+      {
+        "normalized": "HANKYPANKY",
+        "reference": "https://iba-world.com/iba-cocktail/hanky-panky/"
+      }
+    ]
+  },
+  {
+    "id": "after_hours_41",
+    "title": "Beer Styles 1",
+    "niche": "beer styles",
+    "status": "pending_review",
+    "display_words": [
+      "AMERICAN BROWN ALE",
+      "BRITISH GOLDEN ALE",
+      "FESTBIER",
+      "WHITE IPA",
+      "EISBOCK",
+      "WEISSBIER",
+      "OLD ALE",
+      "GERMAN PILS",
+      "GOSE",
+      "IRISH STOUT",
+      "BELGIAN BLOND ALE",
+      "BLACK IPA"
+    ],
+    "words": [
+      "AMERICANBROWNALE",
+      "BRITISHGOLDENALE",
+      "FESTBIER",
+      "WHITEIPA",
+      "EISBOCK",
+      "WEISSBIER",
+      "OLDALE",
+      "GERMANPILS",
+      "GOSE",
+      "IRISHSTOUT",
+      "BELGIANBLONDALE",
+      "BLACKIPA"
+    ],
+    "grid_size": 16,
+    "source_records": [
+      {
+        "normalized": "AMERICANBROWNALE",
+        "reference": "https://www.bjcp.org/beer-styles/beer-style-guidelines/"
+      },
+      {
+        "normalized": "BRITISHGOLDENALE",
+        "reference": "https://www.bjcp.org/beer-styles/beer-style-guidelines/"
+      },
+      {
+        "normalized": "FESTBIER",
+        "reference": "https://www.bjcp.org/beer-styles/beer-style-guidelines/"
+      },
+      {
+        "normalized": "WHITEIPA",
+        "reference": "https://www.bjcp.org/beer-styles/beer-style-guidelines/"
+      },
+      {
+        "normalized": "EISBOCK",
+        "reference": "https://www.bjcp.org/beer-styles/beer-style-guidelines/"
+      },
+      {
+        "normalized": "WEISSBIER",
+        "reference": "https://www.bjcp.org/beer-styles/beer-style-guidelines/"
+      },
+      {
+        "normalized": "OLDALE",
+        "reference": "https://www.bjcp.org/beer-styles/beer-style-guidelines/"
+      },
+      {
+        "normalized": "GERMANPILS",
+        "reference": "https://www.bjcp.org/beer-styles/beer-style-guidelines/"
+      },
+      {
+        "normalized": "GOSE",
+        "reference": "https://www.bjcp.org/beer-styles/beer-style-guidelines/"
+      },
+      {
+        "normalized": "IRISHSTOUT",
+        "reference": "https://www.bjcp.org/beer-styles/beer-style-guidelines/"
+      },
+      {
+        "normalized": "BELGIANBLONDALE",
+        "reference": "https://www.bjcp.org/beer-styles/beer-style-guidelines/"
+      },
+      {
+        "normalized": "BLACKIPA",
+        "reference": "https://www.bjcp.org/beer-styles/beer-style-guidelines/"
+      }
+    ]
+  },
+  {
+    "id": "after_hours_42",
+    "title": "Beer Styles 2",
+    "niche": "beer styles",
+    "status": "pending_review",
+    "display_words": [
+      "HELLES BOCK",
+      "SCOTTISH EXPORT",
+      "DARK MILD",
+      "DOUBLE IPA",
+      "SWEET STOUT",
+      "BELGIAN PALE ALE",
+      "DUNKLES WEISSBIER",
+      "CZECH PALE LAGER",
+      "ENGLISH IPA",
+      "CALIFORNIA COMMON",
+      "IRISH RED ALE",
+      "BRUT IPA"
+    ],
+    "words": [
+      "HELLESBOCK",
+      "SCOTTISHEXPORT",
+      "DARKMILD",
+      "DOUBLEIPA",
+      "SWEETSTOUT",
+      "BELGIANPALEALE",
+      "DUNKLESWEISSBIER",
+      "CZECHPALELAGER",
+      "ENGLISHIPA",
+      "CALIFORNIACOMMON",
+      "IRISHREDALE",
+      "BRUTIPA"
+    ],
+    "grid_size": 16,
+    "source_records": [
+      {
+        "normalized": "HELLESBOCK",
+        "reference": "https://www.bjcp.org/beer-styles/beer-style-guidelines/"
+      },
+      {
+        "normalized": "SCOTTISHEXPORT",
+        "reference": "https://www.bjcp.org/beer-styles/beer-style-guidelines/"
+      },
+      {
+        "normalized": "DARKMILD",
+        "reference": "https://www.bjcp.org/beer-styles/beer-style-guidelines/"
+      },
+      {
+        "normalized": "DOUBLEIPA",
+        "reference": "https://www.bjcp.org/beer-styles/beer-style-guidelines/"
+      },
+      {
+        "normalized": "SWEETSTOUT",
+        "reference": "https://www.bjcp.org/beer-styles/beer-style-guidelines/"
+      },
+      {
+        "normalized": "BELGIANPALEALE",
+        "reference": "https://www.bjcp.org/beer-styles/beer-style-guidelines/"
+      },
+      {
+        "normalized": "DUNKLESWEISSBIER",
+        "reference": "https://www.bjcp.org/beer-styles/beer-style-guidelines/"
+      },
+      {
+        "normalized": "CZECHPALELAGER",
+        "reference": "https://www.bjcp.org/beer-styles/beer-style-guidelines/"
+      },
+      {
+        "normalized": "ENGLISHIPA",
+        "reference": "https://www.bjcp.org/beer-styles/beer-style-guidelines/"
+      },
+      {
+        "normalized": "CALIFORNIACOMMON",
+        "reference": "https://www.bjcp.org/beer-styles/beer-style-guidelines/"
+      },
+      {
+        "normalized": "IRISHREDALE",
+        "reference": "https://www.bjcp.org/beer-styles/beer-style-guidelines/"
+      },
+      {
+        "normalized": "BRUTIPA",
+        "reference": "https://www.bjcp.org/beer-styles/beer-style-guidelines/"
+      }
+    ]
+  },
+  {
+    "id": "after_hours_43",
+    "title": "Beer Styles 3",
+    "niche": "beer styles",
+    "status": "pending_review",
+    "display_words": [
+      "BIERE DE GARDE",
+      "ENGLISH PORTER",
+      "CREAM ALE",
+      "AMERICAN AMBER ALE",
+      "FOREIGN EXTRA STOUT",
+      "HAZY IPA",
+      "LAMBIC",
+      "ORDINARY BITTER",
+      "SAISON",
+      "BELGIAN DUBBEL",
+      "BRITISH BROWN ALE",
+      "PIWO GRODZISKIE"
+    ],
+    "words": [
+      "BIEREDEGARDE",
+      "ENGLISHPORTER",
+      "CREAMALE",
+      "AMERICANAMBERALE",
+      "FOREIGNEXTRASTOUT",
+      "HAZYIPA",
+      "LAMBIC",
+      "ORDINARYBITTER",
+      "SAISON",
+      "BELGIANDUBBEL",
+      "BRITISHBROWNALE",
+      "PIWOGRODZISKIE"
+    ],
+    "grid_size": 17,
+    "source_records": [
+      {
+        "normalized": "BIEREDEGARDE",
+        "reference": "https://www.bjcp.org/beer-styles/beer-style-guidelines/"
+      },
+      {
+        "normalized": "ENGLISHPORTER",
+        "reference": "https://www.bjcp.org/beer-styles/beer-style-guidelines/"
+      },
+      {
+        "normalized": "CREAMALE",
+        "reference": "https://www.bjcp.org/beer-styles/beer-style-guidelines/"
+      },
+      {
+        "normalized": "AMERICANAMBERALE",
+        "reference": "https://www.bjcp.org/beer-styles/beer-style-guidelines/"
+      },
+      {
+        "normalized": "FOREIGNEXTRASTOUT",
+        "reference": "https://www.bjcp.org/beer-styles/beer-style-guidelines/"
+      },
+      {
+        "normalized": "HAZYIPA",
+        "reference": "https://www.bjcp.org/beer-styles/beer-style-guidelines/"
+      },
+      {
+        "normalized": "LAMBIC",
+        "reference": "https://www.bjcp.org/beer-styles/beer-style-guidelines/"
+      },
+      {
+        "normalized": "ORDINARYBITTER",
+        "reference": "https://www.bjcp.org/beer-styles/beer-style-guidelines/"
+      },
+      {
+        "normalized": "SAISON",
+        "reference": "https://www.bjcp.org/beer-styles/beer-style-guidelines/"
+      },
+      {
+        "normalized": "BELGIANDUBBEL",
+        "reference": "https://www.bjcp.org/beer-styles/beer-style-guidelines/"
+      },
+      {
+        "normalized": "BRITISHBROWNALE",
+        "reference": "https://www.bjcp.org/beer-styles/beer-style-guidelines/"
+      },
+      {
+        "normalized": "PIWOGRODZISKIE",
+        "reference": "https://www.bjcp.org/beer-styles/beer-style-guidelines/"
+      }
+    ]
+  },
+  {
+    "id": "after_hours_44",
+    "title": "Beer Styles 4",
+    "niche": "beer styles",
+    "status": "pending_review",
+    "display_words": [
+      "TROPICAL STOUT",
+      "LICHTENHAINER",
+      "ROGGENBIER",
+      "LONDON BROWN ALE",
+      "WHEATWINE",
+      "AMERICAN STOUT",
+      "SCOTTISH HEAVY",
+      "KENTUCKY COMMON",
+      "WITBIER",
+      "WEE HEAVY",
+      "BERLINER WEISSE",
+      "STRONG BITTER"
+    ],
+    "words": [
+      "TROPICALSTOUT",
+      "LICHTENHAINER",
+      "ROGGENBIER",
+      "LONDONBROWNALE",
+      "WHEATWINE",
+      "AMERICANSTOUT",
+      "SCOTTISHHEAVY",
+      "KENTUCKYCOMMON",
+      "WITBIER",
+      "WEEHEAVY",
+      "BERLINERWEISSE",
+      "STRONGBITTER"
+    ],
+    "grid_size": 15,
+    "source_records": [
+      {
+        "normalized": "TROPICALSTOUT",
+        "reference": "https://www.bjcp.org/beer-styles/beer-style-guidelines/"
+      },
+      {
+        "normalized": "LICHTENHAINER",
+        "reference": "https://www.bjcp.org/beer-styles/beer-style-guidelines/"
+      },
+      {
+        "normalized": "ROGGENBIER",
+        "reference": "https://www.bjcp.org/beer-styles/beer-style-guidelines/"
+      },
+      {
+        "normalized": "LONDONBROWNALE",
+        "reference": "https://www.bjcp.org/beer-styles/beer-style-guidelines/"
+      },
+      {
+        "normalized": "WHEATWINE",
+        "reference": "https://www.bjcp.org/beer-styles/beer-style-guidelines/"
+      },
+      {
+        "normalized": "AMERICANSTOUT",
+        "reference": "https://www.bjcp.org/beer-styles/beer-style-guidelines/"
+      },
+      {
+        "normalized": "SCOTTISHHEAVY",
+        "reference": "https://www.bjcp.org/beer-styles/beer-style-guidelines/"
+      },
+      {
+        "normalized": "KENTUCKYCOMMON",
+        "reference": "https://www.bjcp.org/beer-styles/beer-style-guidelines/"
+      },
+      {
+        "normalized": "WITBIER",
+        "reference": "https://www.bjcp.org/beer-styles/beer-style-guidelines/"
+      },
+      {
+        "normalized": "WEEHEAVY",
+        "reference": "https://www.bjcp.org/beer-styles/beer-style-guidelines/"
+      },
+      {
+        "normalized": "BERLINERWEISSE",
+        "reference": "https://www.bjcp.org/beer-styles/beer-style-guidelines/"
+      },
+      {
+        "normalized": "STRONGBITTER",
+        "reference": "https://www.bjcp.org/beer-styles/beer-style-guidelines/"
+      }
+    ]
+  },
+  {
+    "id": "after_hours_45",
+    "title": "Wine Grape Varieties 1",
+    "niche": "wine grape varieties",
+    "status": "pending_review",
+    "display_words": [
+      "COUNOISE",
+      "PINOT BLANC",
+      "COLOMBARD",
+      "FURMINT",
+      "RUBY CABERNET",
+      "SCHIOPPETTINO",
+      "MARSANNE",
+      "PETIT MANSENG",
+      "SEMILLON",
+      "PROSECCO",
+      "DURIF",
+      "GRENACHE"
+    ],
+    "words": [
+      "COUNOISE",
+      "PINOTBLANC",
+      "COLOMBARD",
+      "FURMINT",
+      "RUBYCABERNET",
+      "SCHIOPPETTINO",
+      "MARSANNE",
+      "PETITMANSENG",
+      "SEMILLON",
+      "PROSECCO",
+      "DURIF",
+      "GRENACHE"
+    ],
+    "grid_size": 15,
+    "source_records": [
+      {
+        "normalized": "COUNOISE",
+        "reference": "https://www.awri.com.au/industry_support/viticulture/grapevine-varieties/"
+      },
+      {
+        "normalized": "PINOTBLANC",
+        "reference": "https://www.awri.com.au/industry_support/viticulture/grapevine-varieties/"
+      },
+      {
+        "normalized": "COLOMBARD",
+        "reference": "https://www.awri.com.au/industry_support/viticulture/grapevine-varieties/"
+      },
+      {
+        "normalized": "FURMINT",
+        "reference": "https://www.awri.com.au/industry_support/viticulture/grapevine-varieties/"
+      },
+      {
+        "normalized": "RUBYCABERNET",
+        "reference": "https://www.awri.com.au/industry_support/viticulture/grapevine-varieties/"
+      },
+      {
+        "normalized": "SCHIOPPETTINO",
+        "reference": "https://www.awri.com.au/industry_support/viticulture/grapevine-varieties/"
+      },
+      {
+        "normalized": "MARSANNE",
+        "reference": "https://www.awri.com.au/industry_support/viticulture/grapevine-varieties/"
+      },
+      {
+        "normalized": "PETITMANSENG",
+        "reference": "https://www.awri.com.au/industry_support/viticulture/grapevine-varieties/"
+      },
+      {
+        "normalized": "SEMILLON",
+        "reference": "https://www.awri.com.au/industry_support/viticulture/grapevine-varieties/"
+      },
+      {
+        "normalized": "PROSECCO",
+        "reference": "https://www.awri.com.au/industry_support/viticulture/grapevine-varieties/"
+      },
+      {
+        "normalized": "DURIF",
+        "reference": "https://www.awri.com.au/industry_support/viticulture/grapevine-varieties/"
+      },
+      {
+        "normalized": "GRENACHE",
+        "reference": "https://www.awri.com.au/industry_support/viticulture/grapevine-varieties/"
+      }
+    ]
+  },
+  {
+    "id": "after_hours_46",
+    "title": "Wine Grape Varieties 2",
+    "niche": "wine grape varieties",
+    "status": "pending_review",
+    "display_words": [
+      "SAGRANTINO",
+      "CARIGNAN",
+      "TEMPRANILLO",
+      "VERDEJO",
+      "VERMENTINO",
+      "FRIULANO",
+      "VIOGNIER",
+      "GAMAY",
+      "VERDELHO",
+      "LAGREIN",
+      "CORVINA",
+      "CORTESE"
+    ],
+    "words": [
+      "SAGRANTINO",
+      "CARIGNAN",
+      "TEMPRANILLO",
+      "VERDEJO",
+      "VERMENTINO",
+      "FRIULANO",
+      "VIOGNIER",
+      "GAMAY",
+      "VERDELHO",
+      "LAGREIN",
+      "CORVINA",
+      "CORTESE"
+    ],
+    "grid_size": 15,
+    "source_records": [
+      {
+        "normalized": "SAGRANTINO",
+        "reference": "https://www.awri.com.au/industry_support/viticulture/grapevine-varieties/"
+      },
+      {
+        "normalized": "CARIGNAN",
+        "reference": "https://www.awri.com.au/industry_support/viticulture/grapevine-varieties/"
+      },
+      {
+        "normalized": "TEMPRANILLO",
+        "reference": "https://www.awri.com.au/industry_support/viticulture/grapevine-varieties/"
+      },
+      {
+        "normalized": "VERDEJO",
+        "reference": "https://www.awri.com.au/industry_support/viticulture/grapevine-varieties/"
+      },
+      {
+        "normalized": "VERMENTINO",
+        "reference": "https://www.awri.com.au/industry_support/viticulture/grapevine-varieties/"
+      },
+      {
+        "normalized": "FRIULANO",
+        "reference": "https://www.awri.com.au/industry_support/viticulture/grapevine-varieties/"
+      },
+      {
+        "normalized": "VIOGNIER",
+        "reference": "https://www.awri.com.au/industry_support/viticulture/grapevine-varieties/"
+      },
+      {
+        "normalized": "GAMAY",
+        "reference": "https://www.awri.com.au/industry_support/viticulture/grapevine-varieties/"
+      },
+      {
+        "normalized": "VERDELHO",
+        "reference": "https://www.awri.com.au/industry_support/viticulture/grapevine-varieties/"
+      },
+      {
+        "normalized": "LAGREIN",
+        "reference": "https://www.awri.com.au/industry_support/viticulture/grapevine-varieties/"
+      },
+      {
+        "normalized": "CORVINA",
+        "reference": "https://www.awri.com.au/industry_support/viticulture/grapevine-varieties/"
+      },
+      {
+        "normalized": "CORTESE",
+        "reference": "https://www.awri.com.au/industry_support/viticulture/grapevine-varieties/"
+      }
+    ]
+  },
+  {
+    "id": "after_hours_47",
+    "title": "Wine Grape Varieties 3",
+    "niche": "wine grape varieties",
+    "status": "pending_review",
+    "display_words": [
+      "GRACIANO",
+      "MENCIA",
+      "SANGIOVESE",
+      "MARZEMINO",
+      "SAPERAVI",
+      "BIANCO D ALESSANO",
+      "TINTO CAO",
+      "CINSAUT",
+      "NEGRO AMARO",
+      "ASSYRTIKO",
+      "PICOLIT",
+      "KERNER"
+    ],
+    "words": [
+      "GRACIANO",
+      "MENCIA",
+      "SANGIOVESE",
+      "MARZEMINO",
+      "SAPERAVI",
+      "BIANCODALESSANO",
+      "TINTOCAO",
+      "CINSAUT",
+      "NEGROAMARO",
+      "ASSYRTIKO",
+      "PICOLIT",
+      "KERNER"
+    ],
+    "grid_size": 15,
+    "source_records": [
+      {
+        "normalized": "GRACIANO",
+        "reference": "https://www.awri.com.au/industry_support/viticulture/grapevine-varieties/"
+      },
+      {
+        "normalized": "MENCIA",
+        "reference": "https://www.awri.com.au/industry_support/viticulture/grapevine-varieties/"
+      },
+      {
+        "normalized": "SANGIOVESE",
+        "reference": "https://www.awri.com.au/industry_support/viticulture/grapevine-varieties/"
+      },
+      {
+        "normalized": "MARZEMINO",
+        "reference": "https://www.awri.com.au/industry_support/viticulture/grapevine-varieties/"
+      },
+      {
+        "normalized": "SAPERAVI",
+        "reference": "https://www.awri.com.au/industry_support/viticulture/grapevine-varieties/"
+      },
+      {
+        "normalized": "BIANCODALESSANO",
+        "reference": "https://www.awri.com.au/industry_support/viticulture/grapevine-varieties/"
+      },
+      {
+        "normalized": "TINTOCAO",
+        "reference": "https://www.awri.com.au/industry_support/viticulture/grapevine-varieties/"
+      },
+      {
+        "normalized": "CINSAUT",
+        "reference": "https://www.awri.com.au/industry_support/viticulture/grapevine-varieties/"
+      },
+      {
+        "normalized": "NEGROAMARO",
+        "reference": "https://www.awri.com.au/industry_support/viticulture/grapevine-varieties/"
+      },
+      {
+        "normalized": "ASSYRTIKO",
+        "reference": "https://www.awri.com.au/industry_support/viticulture/grapevine-varieties/"
+      },
+      {
+        "normalized": "PICOLIT",
+        "reference": "https://www.awri.com.au/industry_support/viticulture/grapevine-varieties/"
+      },
+      {
+        "normalized": "KERNER",
+        "reference": "https://www.awri.com.au/industry_support/viticulture/grapevine-varieties/"
+      }
+    ]
+  },
+  {
+    "id": "after_hours_48",
+    "title": "Wine Grape Varieties 4",
+    "niche": "wine grape varieties",
+    "status": "pending_review",
+    "display_words": [
+      "RIESLING",
+      "SAUVIGNON BLANC",
+      "ALBARINO",
+      "CLAIRETTE",
+      "MOSCATO GIALLO",
+      "PETIT VERDOT",
+      "TANNAT",
+      "BARBERA",
+      "SHIRAZ",
+      "SAVAGNIN",
+      "CABERNET FRANC",
+      "PINOTAGE"
+    ],
+    "words": [
+      "RIESLING",
+      "SAUVIGNONBLANC",
+      "ALBARINO",
+      "CLAIRETTE",
+      "MOSCATOGIALLO",
+      "PETITVERDOT",
+      "TANNAT",
+      "BARBERA",
+      "SHIRAZ",
+      "SAVAGNIN",
+      "CABERNETFRANC",
+      "PINOTAGE"
+    ],
+    "grid_size": 15,
+    "source_records": [
+      {
+        "normalized": "RIESLING",
+        "reference": "https://www.awri.com.au/industry_support/viticulture/grapevine-varieties/"
+      },
+      {
+        "normalized": "SAUVIGNONBLANC",
+        "reference": "https://www.awri.com.au/industry_support/viticulture/grapevine-varieties/"
+      },
+      {
+        "normalized": "ALBARINO",
+        "reference": "https://www.awri.com.au/industry_support/viticulture/grapevine-varieties/"
+      },
+      {
+        "normalized": "CLAIRETTE",
+        "reference": "https://www.awri.com.au/industry_support/viticulture/grapevine-varieties/"
+      },
+      {
+        "normalized": "MOSCATOGIALLO",
+        "reference": "https://www.awri.com.au/industry_support/viticulture/grapevine-varieties/"
+      },
+      {
+        "normalized": "PETITVERDOT",
+        "reference": "https://www.awri.com.au/industry_support/viticulture/grapevine-varieties/"
+      },
+      {
+        "normalized": "TANNAT",
+        "reference": "https://www.awri.com.au/industry_support/viticulture/grapevine-varieties/"
+      },
+      {
+        "normalized": "BARBERA",
+        "reference": "https://www.awri.com.au/industry_support/viticulture/grapevine-varieties/"
+      },
+      {
+        "normalized": "SHIRAZ",
+        "reference": "https://www.awri.com.au/industry_support/viticulture/grapevine-varieties/"
+      },
+      {
+        "normalized": "SAVAGNIN",
+        "reference": "https://www.awri.com.au/industry_support/viticulture/grapevine-varieties/"
+      },
+      {
+        "normalized": "CABERNETFRANC",
+        "reference": "https://www.awri.com.au/industry_support/viticulture/grapevine-varieties/"
+      },
+      {
+        "normalized": "PINOTAGE",
+        "reference": "https://www.awri.com.au/industry_support/viticulture/grapevine-varieties/"
+      }
+    ]
+  }
+]

@@ -137,3 +137,17 @@ def test_visual_gate_hard_blocks_wrong_puzzle_style_record(tmp_path):
     report = visual_quality_assessment(tmp_path, package, {"puzzle_type":"word_search", "detected_topic":"Gardening"},
                                        plan=SimpleNamespace(puzzle_type="word_search", format={"puzzle_count":48, "difficulty":"standard"}))
     assert any("Recorded cover puzzle type" in item for item in report["hard_failures"])
+
+
+def test_pdf_detail_failure_never_exposes_partial_text(tmp_path,monkeypatch):
+    from types import SimpleNamespace
+    import publishing.production_intelligence as module
+    path=tmp_path/'broken.pdf';path.write_bytes(b'fixture')
+    good=SimpleNamespace(mediabox=SimpleNamespace(width=612,height=792),extract_text=lambda:'PUZZLE')
+    def fail():raise ValueError('extract failed')
+    bad=SimpleNamespace(mediabox=good.mediabox,extract_text=fail)
+    monkeypatch.setattr(module,'PdfReader',lambda path:SimpleNamespace(pages=[good,bad]))
+    report,reader,texts=module._pdf_assessment_details(path)
+    assert not report['ok'] and report['pages']==0
+    assert 'extract failed' in report['notes'][0]
+    assert reader is None and texts is None

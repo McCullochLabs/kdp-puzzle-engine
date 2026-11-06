@@ -54,6 +54,10 @@ class PublishingService:
 
     def sync_theme(self, theme_path: Path, package_path: Path | None = None) -> str:
         source = json.loads(theme_path.read_text(encoding="utf-8-sig")); key = str(theme_path.resolve()); book_id = self._id(key)
+        current = self.db.get_book(book_id)
+        if package_path is None and current and self.db.has_print_revision(book_id):
+            selected = Path(str(current.get('package_path') or ''))
+            if selected.is_dir(): package_path = selected
         # A saved theme is a reusable source, while the package manifest is
         # the authoritative record for a particular custom-title build.  Read
         # it only as an overlay so source words and topic checks stay intact.
@@ -74,6 +78,11 @@ class PublishingService:
         meta.update({"book_id": book_id, "puzzle_count": len(source.get("puzzles") or []), "trim_size": "8.5x11", "language": "English", "publication_date": "", "isbn": str(source.get("isbn") or ""), "edition": "1", "categories": meta["ingram_subjects"], "production_status": str((health or {}).get("status") or "Needs content check"), "last_synced": datetime.now().isoformat(timespec="seconds")})
         meta["price"] = recommended_prices(meta)
         self.db.upsert_book(book_id, key, meta, str(package_path or "")); return book_id
+
+    def adopt_print_revision(self, book_id: str, package: Path) -> dict:
+        """Select a verified print-only revision without creating another product."""
+        from .package_revisions import adopt_print_revision
+        return adopt_print_revision(self, book_id, package)
 
     def production_gate(self, book_id: str) -> dict:
         """Compatibility view of the canonical read-only production truth."""
@@ -236,6 +245,9 @@ class PublishingService:
         imported = 0
         self.db.prune_recovery_archive_packages()
         seen: set[Path] = set()
+        managed_revisions = self.db.managed_print_revision_paths()
+        from .studio_revision_adoption import managed_chat_package_paths
+        managed_revisions |= managed_chat_package_paths(self.project)
         for manifest_path in self.output.rglob("PACKAGE_SOURCE_RECORD.json"):
             if "_recovery_archive" in {part.casefold() for part in manifest_path.parts}:
                 continue
@@ -243,13 +255,25 @@ class PublishingService:
                 manifest = json.loads(manifest_path.read_text(encoding="utf-8")); folder = manifest_path.parent.parent if manifest_path.parent.name == "04_REVIEW_AND_RECORDS" else manifest_path.parent
             except (OSError, json.JSONDecodeError):
                 continue
+            if folder.resolve() in managed_revisions:
+                seen.add(folder.resolve()); continue
             seen.add(folder.resolve()); source_theme = str(manifest.get("source_theme") or "")
             if source_theme and Path(source_theme).is_file():
                 self.sync_theme(Path(source_theme), folder); continue
             key = "package:" + str(folder.resolve()); book_id = self._id(key)
             source = {"title": manifest.get("title"), "subtitle": manifest.get("subtitle"), "author": manifest.get("author"), "series": manifest.get("series", ""), "puzzle_type": manifest.get("puzzle_type", ""), "detected_topic": manifest.get("theme") or manifest.get("puzzle_type") or "Puzzle Book", "puzzle_count": manifest.get("puzzle_count", 0), "difficulty_label": manifest.get("difficulty", "Standard")}
+            # A format-specific package may carry reviewed copy. Preserve it
+            # on every catalog refresh instead of regenerating a generic blurb.
+            for field in ("description", "platform_descriptions", "amazon_keywords", "etsy_tags", "ingram_subjects", "audience"):
+                if manifest.get(field):
+                    source[field] = manifest[field]
             meta = build_metadata(source)
-            meta.update({"book_id": book_id, "trim_size": manifest.get("trim_size", "8.5x11"), "language": "English", "publication_date": "", "isbn": "", "edition": "1", "categories": meta["ingram_subjects"], "production_status": "Complete package", "page_count": int(manifest.get("pages") or manifest.get("interior_pages") or self._interior_pages(folder)), "files": self._package_files(folder), "last_synced": datetime.now().isoformat(timespec="seconds")})
+            # New manifests may deliberately represent a review-stage or
+            # incomplete package. Preserve that state instead of implying a
+            # complete release; older manifests retain their historical
+            # default for backwards compatibility.
+            production_status = str(manifest.get("production_status") or "Complete package")
+            meta.update({"book_id": book_id, "trim_size": manifest.get("trim_size", "8.5x11"), "language": "English", "publication_date": "", "isbn": "", "edition": "1", "categories": meta["ingram_subjects"], "production_status": production_status, "page_count": int(manifest.get("pages") or manifest.get("interior_pages") or self._interior_pages(folder)), "files": self._package_files(folder), "last_synced": datetime.now().isoformat(timespec="seconds")})
             meta["price"] = recommended_prices(meta)
             self.db.upsert_book(book_id, key, meta, str(folder)); imported += 1
         # Version 3.28 and earlier already made high-quality non-word-search
@@ -258,7 +282,7 @@ class PublishingService:
             if "_recovery_archive" in {part.casefold() for part in interior.parts}:
                 continue
             folder = interior.parent.parent if interior.parent.name == "01_PRINT_UPLOADS" else interior.parent
-            if folder.resolve() in seen or not package_file(folder, "AUTOMATIC_BOOK_PLAN.txt").is_file(): continue
+            if folder.resolve() in managed_revisions or folder.resolve() in seen or not package_file(folder, "AUTOMATIC_BOOK_PLAN.txt").is_file(): continue
             try:
                 listing = package_file(folder, "KDP_LISTING_KIT.txt").read_text(encoding="utf-8-sig")
             except OSError:
@@ -291,8 +315,9 @@ class PublishingService:
             "car": 22, "vehicle": 22, "school": 21, "vocabulary": 21,
             "history": 20, "ocean": 20, "food": 19, "sport": 19,
         }
+        from .catalog_view import collapse_catalog_books
         choices: list[dict] = []
-        for book in self.db.list_books():
+        for book in collapse_catalog_books(self.db.list_books()):
             meta = book["metadata"]
             if meta.get("production_status") not in {"Passed", "Complete package"}:
                 continue
@@ -328,8 +353,9 @@ class PublishingService:
         source/package gate with the latest saved health result, so an old
         theme remains visible for repair but never appears in Ready Now.
         """
+        from .catalog_view import collapse_catalog_books
         rows: list[dict] = []
-        for book in self.db.list_books():
+        for book in collapse_catalog_books(self.db.list_books()):
             meta = book.get("metadata") or {}
             gate = self.production_gate(book["book_id"])
             status = str(meta.get("production_status") or "")
@@ -380,8 +406,12 @@ class PublishingService:
         """Support older packages and moved folders without changing the original output."""
         wanted = "".join(char for char in title.casefold() if char.isalnum())
         matches: list[Path] = []
+        managed_revisions = self.db.managed_print_revision_paths()
+        from .studio_revision_adoption import managed_chat_package_paths
+        managed_revisions |= managed_chat_package_paths(self.project)
         for interior in self.output.rglob("interior.pdf"):
             folder = interior.parent.parent if interior.parent.name == "01_PRINT_UPLOADS" else interior.parent
+            if folder.resolve() in managed_revisions: continue
             try:
                 listing = package_file(folder, "KDP_LISTING_KIT.txt").read_text(encoding="utf-8-sig")
             except OSError:
@@ -407,6 +437,8 @@ class PublishingService:
     @staticmethod
     def _estimate_wordsearch_pages(source: dict) -> int:
         """Mirrors the current word-search interior layout without importing the GUI."""
+        if source.get("interior_profile") == "memories_large_print_v1":
+            return 160
         puzzles = source.get("puzzles") if isinstance(source.get("puzzles"), list) else []
         count = len(puzzles)
         signature = source.get("signature_edition") if isinstance(source.get("signature_edition"), dict) else {}

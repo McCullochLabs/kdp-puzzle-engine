@@ -1,0 +1,1038 @@
+{
+  "title": "Road Trip Classics Word Search",
+  "subtitle": "50 large-print puzzles about highways, scenic stops and open-road adventures",
+  "author": "Jordan M. Slade",
+  "series": "Road Trip Classics",
+  "detected_topic": "Travel Road Trips and Getaways",
+  "difficulty_label": "Standard",
+  "palette": "retro-drive",
+  "recommended_palette": "retro-drive",
+  "cover_style": "photo",
+  "recommended_cover_style": "photo",
+  "no_repeat_words": true,
+  "cover_imprint": "Slade Puzzle Co.",
+  "cover_badge": "50 LARGE-PRINT PUZZLES • NO REPEATED WORDS",
+  "puzzles": [
+    {
+      "name": "Route Planning",
+      "words": [
+        "ATLAS",
+        "COMPASS",
+        "DETOUR",
+        "DESTINATION",
+        "HIGHWAY",
+        "LANDMARK",
+        "MILEAGE",
+        "NAVIGATION",
+        "PLANNER",
+        "ROUTE",
+        "SCHEDULE",
+        "STOPOVER"
+      ],
+      "mini_theme": "Route Planning",
+      "page_title_verified": true,
+      "page_title_basis": "editorial_review"
+    },
+    {
+      "name": "Trunk Packing",
+      "words": [
+        "PILLOW",
+        "TENT",
+        "BACKPACK",
+        "DUFFEL",
+        "UMBRELLA",
+        "BLANKET",
+        "LUGGAGE",
+        "ORGANIZER",
+        "TRUNK",
+        "GEAR",
+        "SUPPLIES",
+        "COOLER"
+      ],
+      "mini_theme": "Trunk Packing",
+      "page_title_verified": true,
+      "page_title_basis": "editorial_review"
+    },
+    {
+      "name": "Car Snacks",
+      "words": [
+        "GRANOLA",
+        "WATER",
+        "CANDY",
+        "APPLES",
+        "NUTS",
+        "CRACKERS",
+        "COOKIES",
+        "PRETZELS",
+        "ALMONDS",
+        "CHIPS",
+        "SANDWICH",
+        "JERKY"
+      ],
+      "mini_theme": "Car Snacks",
+      "page_title_verified": true,
+      "page_title_basis": "editorial_review"
+    },
+    {
+      "name": "Morning Departure",
+      "words": [
+        "DOORS",
+        "KEYS",
+        "COFFEE",
+        "IGNITION",
+        "THERMOS",
+        "WINDOWS",
+        "SEATING",
+        "SUNRISE",
+        "DAWN",
+        "DEPARTURE",
+        "ENGINE",
+        "MORNING"
+      ],
+      "mini_theme": "Morning Departure",
+      "page_title_verified": true,
+      "page_title_basis": "editorial_review"
+    },
+    {
+      "name": "Roadside Essentials",
+      "words": [
+        "CASH",
+        "DOCUMENTS",
+        "MEDICATION",
+        "TISSUE",
+        "FIRSTAID",
+        "BATTERIES",
+        "LICENSE",
+        "PAPERWORK",
+        "FLASHLIGHT",
+        "INSURANCE",
+        "COINS",
+        "REGISTRATION"
+      ],
+      "mini_theme": "Roadside Essentials",
+      "page_title_verified": true,
+      "page_title_basis": "editorial_review"
+    },
+    {
+      "name": "Weather Prep",
+      "words": [
+        "SCARF",
+        "SWEATER",
+        "GLOVES",
+        "VISOR",
+        "FLEECE",
+        "WINDBREAKER",
+        "JACKET",
+        "RAINCOAT",
+        "PONCHO",
+        "HAT",
+        "SHADES",
+        "BOOTS"
+      ],
+      "mini_theme": "Weather Prep",
+      "page_title_verified": true,
+      "page_title_basis": "editorial_review"
+    },
+    {
+      "name": "Music and Media",
+      "words": [
+        "CASSETTE",
+        "AUDIOBOOK",
+        "MELODY",
+        "CDPLAYER",
+        "PLAYLIST",
+        "CONCERT",
+        "SPEAKER",
+        "ALBUM",
+        "CHANNEL",
+        "RADIO",
+        "HEADSET",
+        "STATION"
+      ],
+      "mini_theme": "Music and Media",
+      "page_title_verified": true,
+      "page_title_basis": "editorial_review"
+    },
+    {
+      "name": "Passenger Comfort",
+      "words": [
+        "ENTERTAINMENT",
+        "TRAVELER",
+        "BOOK",
+        "MAGAZINE",
+        "NOTEBOOK",
+        "TABLET",
+        "PUZZLES",
+        "SHADE",
+        "CUSHION",
+        "GAME",
+        "NECKREST",
+        "VIEW"
+      ],
+      "mini_theme": "Passenger Comfort",
+      "page_title_verified": true,
+      "page_title_basis": "editorial_review"
+    },
+    {
+      "name": "Topographic Relief",
+      "words": [
+        "CONTOUR LINE",
+        "ELEVATION",
+        "SCALE BAR",
+        "LEGEND",
+        "NORTH ARROW",
+        "CARTOGRAPHY",
+        "MERIDIAN",
+        "PARALLEL",
+        "COORDINATE",
+        "SYMBOLOGY",
+        "BENCHMARK",
+        "GRID SYSTEM"
+      ],
+      "mini_theme": "Topographic Relief",
+      "page_title_verified": true,
+      "page_title_basis": "editorial_review"
+    },
+    {
+      "name": "Scenic Byways",
+      "words": [
+        "COASTAL DRIVE",
+        "MOUNTAIN PASS",
+        "OVERLOOK",
+        "VISTA POINT",
+        "CANYON RIM",
+        "DESERT HIGHWAY",
+        "VALLEY FLOOR",
+        "RIDGE LINE",
+        "FOREST CANOPY",
+        "RIVER VALLEY",
+        "PLATEAU",
+        "MEANDERING ROAD"
+      ],
+      "mini_theme": "Scenic Byways",
+      "page_title_verified": true,
+      "page_title_basis": "editorial_review"
+    },
+    {
+      "name": "Highway Infrastructure",
+      "words": [
+        "OVERPASS",
+        "UNDERPASS",
+        "MEDIAN STRIP",
+        "GUARDRAIL",
+        "SHOULDER",
+        "EXIT RAMP",
+        "MERGE LANE",
+        "TUNNEL",
+        "BRIDGE",
+        "VIADUCT",
+        "ROUNDABOUT",
+        "TRAFFIC SIGN"
+      ],
+      "mini_theme": "Highway Infrastructure",
+      "page_title_verified": true,
+      "page_title_basis": "editorial_review"
+    },
+    {
+      "name": "Paper Navigation",
+      "words": [
+        "ROAD ATLAS",
+        "FOLDING MAP",
+        "GLOVE COMPARTMENT",
+        "PAGE NUMBER",
+        "INDEX",
+        "HIGHWAY GRID",
+        "RED LINE",
+        "CREASE",
+        "COMPASS ROSE",
+        "DIRECTION",
+        "DESTINATION TOWN",
+        "ROUTE FINDER"
+      ],
+      "mini_theme": "Paper Navigation",
+      "page_title_verified": true,
+      "page_title_basis": "editorial_review"
+    },
+    {
+      "name": "Digital Guidance",
+      "words": [
+        "SATELLITE",
+        "GPS SIGNAL",
+        "VOICE PROMPT",
+        "RECALCULATING",
+        "ETA",
+        "TURN BY TURN",
+        "PIN DROP",
+        "LIVE TRAFFIC",
+        "SCREEN MOUNT",
+        "CHARGING CABLE",
+        "AUTO ZOOM",
+        "VOICE COMMAND"
+      ],
+      "mini_theme": "Digital Guidance",
+      "page_title_verified": true,
+      "page_title_basis": "editorial_review"
+    },
+    {
+      "name": "Cross Country Tracks",
+      "words": [
+        "STATE LINE",
+        "COUNTY BORDER",
+        "TIME ZONE",
+        "LONG HAUL",
+        "BACKROADS",
+        "DIRT TRACK",
+        "GRAVEL ROAD",
+        "PAVED HIGHWAY",
+        "INTERSTATE",
+        "MAIN STREET",
+        "TOWN SQUARE",
+        "OUTSKIRTS"
+      ],
+      "mini_theme": "Cross Country Tracks",
+      "page_title_verified": true,
+      "page_title_basis": "editorial_review"
+    },
+    {
+      "name": "Roadside Stops",
+      "words": [
+        "REST AREA",
+        "PICNIC TABLE",
+        "INFORMATION CENTER",
+        "SCENIC TURNOUT",
+        "GAS STATION",
+        "CONVENIENCE STORE",
+        "MOTEL",
+        "DINER",
+        "GIFT SHOP",
+        "HISTORICAL MARKER",
+        "VIEWPOINT",
+        "WATER FOUNTAIN"
+      ],
+      "mini_theme": "Roadside Stops",
+      "page_title_verified": true,
+      "page_title_basis": "editorial_review"
+    },
+    {
+      "name": "Road Safety First",
+      "words": [
+        "DEFENSIVE DRIVE",
+        "HAZARD LIGHTS",
+        "HEADLIGHTS ON",
+        "SAFE DISTANCE",
+        "BRAKE LIGHTS",
+        "SEATBELT CHECK",
+        "SPEED CONTROL",
+        "RUBBERNECKING",
+        "WEATHER ALERT",
+        "ROAD CONDITIONS",
+        "WATCHFUL EYES",
+        "CAREFUL MERGE"
+      ],
+      "mini_theme": "Road Safety First",
+      "page_title_verified": true,
+      "page_title_basis": "editorial_review"
+    },
+    {
+      "name": "Highway Signs",
+      "words": [
+        "YIELD SIGN",
+        "STOP SIGN",
+        "SPEED LIMIT SIGN",
+        "MERGE WARNING",
+        "CURVE AHEAD",
+        "CONSTRUCTION ZONE",
+        "DETOUR ARROW",
+        "SLIPPERY ROAD",
+        "ANIMAL CROSSING",
+        "NO PASSING ZONE",
+        "RAILROAD WARNING",
+        "DEAD END"
+      ],
+      "mini_theme": "Highway Signs",
+      "page_title_verified": true,
+      "page_title_basis": "editorial_review"
+    },
+    {
+      "name": "Shared Journey Moments",
+      "words": [
+        "SINGING ALONG",
+        "ROAD TRIP PLAYLIST",
+        "WINDOW GAZING",
+        "GUESSING GAMES",
+        "SUNSET WATCHING",
+        "COUNTING LICENSE PLATES",
+        "SHARED SNACKS",
+        "LAUGHING TOGETHER",
+        "SPOTTING LANDMARKS",
+        "EVENING ARRIVAL",
+        "DESTINATION REACHED",
+        "MEMORABLE ADVENTURE"
+      ],
+      "mini_theme": "Shared Journey Moments",
+      "page_title_verified": true,
+      "page_title_basis": "editorial_review"
+    },
+    {
+      "name": "Warning Markers",
+      "words": [
+        "SHARP CURVE",
+        "STEEP GRADE",
+        "FALLING ROCKS",
+        "DEER CROSSING",
+        "BRIDGE ICING",
+        "ROAD NARROWS",
+        "BUMP AHEAD",
+        "DIP IN ROAD",
+        "LOOSE GRAVEL",
+        "SOFT SHOULDER",
+        "TRAFFIC SIGNAL",
+        "BLIND INTERSECTION"
+      ],
+      "mini_theme": "Warning Markers",
+      "page_title_verified": true,
+      "page_title_basis": "editorial_review"
+    },
+    {
+      "name": "Guide and Informational",
+      "words": [
+        "MILE MARKER",
+        "ROUTE NUMBER",
+        "HOSPITAL NEARBY",
+        "GAS AVAILABLE",
+        "FOOD AHEAD",
+        "LODGING SIGN",
+        "CAMPING SITE",
+        "SCENIC OVERLOOK",
+        "AIRPORT ROUTING",
+        "RECREATION AREA",
+        "TOURIST ATTRACTION",
+        "STATE BOUNDARY"
+      ],
+      "mini_theme": "Guide and Informational",
+      "page_title_verified": true,
+      "page_title_basis": "editorial_review"
+    },
+    {
+      "name": "Interchange Design",
+      "words": [
+        "DIAMOND INTERCHANGE",
+        "TRUMPET JUNCTION",
+        "WEAVING SECTION",
+        "ACCELERATION LANE",
+        "DECELERATION LANE",
+        "COLLECTOR DISTRIBUTOR",
+        "FLYOVER BRIDGE",
+        "TUNNEL ENTRANCE",
+        "FRONTAGE ROAD",
+        "LOCAL ACCESS",
+        "THROUGH TRAFFIC",
+        "SPLIT HIGHWAY"
+      ],
+      "mini_theme": "Interchange Design",
+      "page_title_verified": true,
+      "page_title_basis": "editorial_review"
+    },
+    {
+      "name": "Adverse Travel Weather",
+      "words": [
+        "HEAVY DOWNPOUR",
+        "DENSE FOG",
+        "BLACK ICE",
+        "STRONG GUSTS",
+        "SUN GLARE",
+        "HYDROPLANING RISK",
+        "REDUCED VISIBILITY",
+        "WET PAVEMENT",
+        "SLUSH BUILDUP",
+        "STORM WARNING",
+        "WIPER BLADES",
+        "DEFROSTER SETTING"
+      ],
+      "mini_theme": "Adverse Travel Weather",
+      "page_title_verified": true,
+      "page_title_basis": "editorial_review"
+    },
+    {
+      "name": "Road Safety",
+      "words": [
+        "SEATBELT",
+        "HEADLIGHTS",
+        "WIPERS",
+        "DEFROSTER",
+        "DEFENSIVE",
+        "MIRROR",
+        "SIGNAL",
+        "BRAKES",
+        "HAZARD",
+        "WATCHFUL",
+        "ALERT",
+        "CAREFUL"
+      ],
+      "mini_theme": "Road Safety",
+      "page_title_verified": true,
+      "page_title_basis": "editorial_review"
+    },
+    {
+      "name": "Pavement Markings",
+      "words": [
+        "WHITE STRIPE",
+        "YELLOW LINE",
+        "DASHED DIVIDER",
+        "SOLID BORDER",
+        "RUMBLE STRIP",
+        "REFLECTIVE STUD",
+        "PAINTED ARROW",
+        "MERGE CHEVRON",
+        "BIKE LANE",
+        "BUS TERMINAL",
+        "PARKING SLOT",
+        "CROSSHATCH ZONE"
+      ],
+      "mini_theme": "Pavement Markings",
+      "page_title_verified": true,
+      "page_title_basis": "editorial_review"
+    },
+    {
+      "name": "Highway Patrol",
+      "words": [
+        "STATE TROOPER",
+        "RADAR GUN",
+        "SPEED TRAP",
+        "PATROL CAR",
+        "AMBER ALERT",
+        "ROADBLOCK CHECK",
+        "TICKET ISSUANCE",
+        "TRAFFIC CAMERA",
+        "POLICE ESCORT",
+        "SAFETY CHECK",
+        "HIGHWAY WATCH",
+        "OFFICER WAVE"
+      ],
+      "mini_theme": "Highway Patrol",
+      "page_title_verified": true,
+      "page_title_basis": "editorial_review"
+    },
+    {
+      "name": "Desert Highway",
+      "words": [
+        "CACTUS",
+        "DUNE",
+        "HEAT WAVE",
+        "MIRAGE",
+        "MESA",
+        "SANDSTORM",
+        "SUNBAKED",
+        "DRY WIND",
+        "ARID",
+        "SPARSE SHADE",
+        "VAST HORIZON",
+        "DUSTY ROAD"
+      ],
+      "mini_theme": "Desert Highway",
+      "page_title_verified": true,
+      "page_title_basis": "editorial_review"
+    },
+    {
+      "name": "Coastal Drive",
+      "words": [
+        "OCEAN BREEZE",
+        "SALTY AIR",
+        "SEAGULL",
+        "SEASIDE CLIFF",
+        "SHORELINE",
+        "TIDE POOL",
+        "WAVES CRASH",
+        "DRIFTWOOD",
+        "PELICAN",
+        "BEACHY COVE",
+        "HARBOR VIEW",
+        "LIGHTHOUSE"
+      ],
+      "mini_theme": "Coastal Drive",
+      "page_title_verified": true,
+      "page_title_basis": "editorial_review"
+    },
+    {
+      "name": "Forest Canopy",
+      "words": [
+        "TALL PINE",
+        "GREEN SHADE",
+        "MOSSY ROCK",
+        "FERN GULLY",
+        "DAPPLED LIGHT",
+        "TIMBER",
+        "WILD FERN",
+        "WOODLAND",
+        "QUIET GROVE",
+        "HOLLOW LOG",
+        "NEEDLE DROP",
+        "LEAFY TRAIL"
+      ],
+      "mini_theme": "Forest Canopy",
+      "page_title_verified": true,
+      "page_title_basis": "editorial_review"
+    },
+    {
+      "name": "River Valley",
+      "words": [
+        "RUSHING WATER",
+        "GREEN MEADOW",
+        "RIVER BEND",
+        "SWIFT CURRENT",
+        "WATERFALL",
+        "FERTILE SOIL",
+        "GRASSY BANK",
+        "GENTLE STREAM",
+        "WILLOW TREE",
+        "PEBBLE SHORE",
+        "RUSTIC BRIDGE",
+        "CALM POOL"
+      ],
+      "mini_theme": "River Valley",
+      "page_title_verified": true,
+      "page_title_basis": "editorial_review"
+    },
+    {
+      "name": "Overlook Ridge",
+      "words": [
+        "SCENIC VIEW",
+        "BIRDSEYE",
+        "DISTANT TOWN",
+        "PARKING AREA",
+        "TELESCOPE",
+        "TOURIST STOP",
+        "VALLEY BELOW",
+        "WINDY LEDGE",
+        "CAMERA CLICK",
+        "HORIZON LINE",
+        "PANORAMA",
+        "STEEP DROP"
+      ],
+      "mini_theme": "Overlook Ridge",
+      "page_title_verified": true,
+      "page_title_basis": "editorial_review"
+    },
+    {
+      "name": "Golden Prairie",
+      "words": [
+        "AMBER WAVES",
+        "OPEN PLAIN",
+        "TALL GRASS",
+        "BIG SKY",
+        "ROLLING HILL",
+        "STORM CLOUD",
+        "FARMLAND",
+        "COUNTRY FENCE",
+        "WINDBLOWN",
+        "SUNNY EXPANSE",
+        "GRAZING HERD",
+        "QUIET ROAD"
+      ],
+      "mini_theme": "Golden Prairie",
+      "page_title_verified": true,
+      "page_title_basis": "editorial_review"
+    },
+    {
+      "name": "Forest Canopies",
+      "words": [
+        "TALL TIMBER",
+        "FILTERED LIGHT",
+        "DAPPLED SHADE",
+        "MOSSY GROUND",
+        "PINE NEEDLES",
+        "WOODLAND TRAIL",
+        "LEAFY CANOPY",
+        "GREEN FOLIAGE",
+        "TRANQUIL WOODS",
+        "SILENTLY GROVE",
+        "FALLEN LOGS",
+        "ANCIENT TREES"
+      ],
+      "mini_theme": "Forest Canopies",
+      "page_title_verified": true,
+      "page_title_basis": "editorial_review"
+    },
+    {
+      "name": "Sunset Overlooks",
+      "words": [
+        "GOLDEN HOUR",
+        "CRIMSON SKY",
+        "PURPLE DUSK",
+        "FADING LIGHT",
+        "SUNBURST RAYS",
+        "SILHOUETTE RIDGE",
+        "AMBER GLOW",
+        "TWILIGHT SHADE",
+        "EVENING BREEZE",
+        "HORIZON FIRE",
+        "SHADOWY VALLEY",
+        "NIGHTFALL APPROACH"
+      ],
+      "mini_theme": "Sunset Overlooks",
+      "page_title_verified": true,
+      "page_title_basis": "editorial_review"
+    },
+    {
+      "name": "Canyon Vistas",
+      "words": [
+        "DEEP GORGE",
+        "LAYERED ROCK",
+        "RED SANDSTONE",
+        "NARROW CANYON",
+        "SHEER DROP",
+        "SUNLIT PLATEAU",
+        "CARVED CLIFFS",
+        "WIND EROSION",
+        "VAST EXPANSE",
+        "ROCKY LEDGE",
+        "GRAND VIEW",
+        "SHADOWED FLOOR"
+      ],
+      "mini_theme": "Canyon Vistas",
+      "page_title_verified": true,
+      "page_title_basis": "editorial_review"
+    },
+    {
+      "name": "Plateau Panoramas",
+      "words": [
+        "FLAT SUMMIT",
+        "WIDE PERSPECTIVE",
+        "OPEN SKY",
+        "DISTANT PEAKS",
+        "ROLLING PLAINS",
+        "VAST PLATEAU",
+        "CLEAR VISTA",
+        "LOFTY HEIGHT",
+        "BOUNDLESS VIEW",
+        "HIGH PLAIN",
+        "ENDLESS SKIES",
+        "SCENIC VANTAGE"
+      ],
+      "mini_theme": "Plateau Panoramas",
+      "page_title_verified": true,
+      "page_title_basis": "editorial_review"
+    },
+    {
+      "name": "Classic Diners",
+      "words": [
+        "JUKEBOX",
+        "COUNTER STOOL",
+        "VINYL BOOTH",
+        "NEON SIGN",
+        "COFFEE POT",
+        "BLUE PLATE",
+        "MALTED MILK",
+        "CHROME TRIM",
+        "SHORT ORDER",
+        "BREAKFAST BAR",
+        "PIE DISPLAY",
+        "WAITRESS PAD"
+      ],
+      "mini_theme": "Classic Diners",
+      "page_title_verified": true,
+      "page_title_basis": "editorial_review"
+    },
+    {
+      "name": "Roadside Oddities",
+      "words": [
+        "GIANT BALL",
+        "TWISTED TREE",
+        "WORLD RECORD",
+        "CONCRETE COW",
+        "PAINTED ROCK",
+        "FIBERGLASS",
+        "QUIRKY STATUE",
+        "MYSTERY SPOT",
+        "CURIOUS SIGN",
+        "FOLK ART",
+        "PLYWOOD CUTOUT",
+        "RETRO LANDMARK"
+      ],
+      "mini_theme": "Roadside Oddities",
+      "page_title_verified": true,
+      "page_title_basis": "editorial_review"
+    },
+    {
+      "name": "Filling Stations",
+      "words": [
+        "PUMP ISLAND",
+        "AIR HOSE",
+        "WINDSHIELD WASH",
+        "GLASS BOTTLE",
+        "SODA MACHINE",
+        "RESTROOM KEY",
+        "PAPER MAP",
+        "MOTOR OIL",
+        "SERVICE BELL",
+        "ICE CHEST",
+        "CANDY COUNTER",
+        "ATTENDANT"
+      ],
+      "mini_theme": "Filling Stations",
+      "page_title_verified": true,
+      "page_title_basis": "editorial_review"
+    },
+    {
+      "name": "Motel Stops",
+      "words": [
+        "SWIMMING POOL",
+        "PLASTIC KEY",
+        "ICE MACHINE",
+        "VENDING AREA",
+        "OFFICE BELL",
+        "CORNER ROOM",
+        "NEON ARROW",
+        "POTTED PALM",
+        "DOUBLE BED",
+        "TRAVEL LODGE",
+        "PARKING SPACE",
+        "NO VACANCY"
+      ],
+      "mini_theme": "Motel Stops",
+      "page_title_verified": true,
+      "page_title_basis": "editorial_review"
+    },
+    {
+      "name": "State Line Signs",
+      "words": [
+        "WELCOME BORDER",
+        "COUNTY MARKER",
+        "SPEED LIMIT",
+        "TRAVEL INFO",
+        "PIONEER TREE",
+        "OFFICIAL SEAL",
+        "RIVER BRIDGE",
+        "SCENIC ROUTE",
+        "ELEVATION SIGN",
+        "POPULATION COUNT",
+        "HISTORIC DISTRICT",
+        "JUNCTION AHEAD"
+      ],
+      "mini_theme": "State Line Signs",
+      "page_title_verified": true,
+      "page_title_basis": "editorial_review"
+    },
+    {
+      "name": "General Stores",
+      "words": [
+        "WOODEN FLOOR",
+        "PORCH ROCKER",
+        "SARSAPARILLA",
+        "LOCAL HONEY",
+        "HANDMADE CRAFT",
+        "BARREL PICKLE",
+        "STAMPED POSTCARD",
+        "CAST IRON",
+        "FRESH FUDGE",
+        "ANTIQUE SCALE",
+        "SCREEN DOOR",
+        "FRIENDLY CLERK"
+      ],
+      "mini_theme": "General Stores",
+      "page_title_verified": true,
+      "page_title_basis": "editorial_review"
+    },
+    {
+      "name": "DriveIn Theaters",
+      "words": [
+        "SPEAKER POLE",
+        "TICKET BOOTH",
+        "POOCH PASSENGER",
+        "TRUNK BLANKET",
+        "LAWN CHAIR",
+        "SCREEN TOWER",
+        "INTERMISSION",
+        "BUTTER POPCORN",
+        "FEATURE FILM",
+        "NIGHT SKY",
+        "CARAMEL APPLE",
+        "DOUBLE FEATURE"
+      ],
+      "mini_theme": "DriveIn Theaters",
+      "page_title_verified": true,
+      "page_title_basis": "editorial_review"
+    },
+    {
+      "name": "Campfire Cooking",
+      "words": [
+        "CAST IRON SKILLET",
+        "MARSHMALLOW",
+        "GRAHAM CRACKER",
+        "CHOCOLATE BAR",
+        "GRATE",
+        "TONGS",
+        "FOIL PACKET",
+        "CAMPFIRE COFFEE",
+        "SKEWERS",
+        "HOT DOGS",
+        "WIRE BRUSH",
+        "OVEN MITT"
+      ],
+      "mini_theme": "Campfire Cooking",
+      "page_title_verified": true,
+      "page_title_basis": "editorial_review"
+    },
+    {
+      "name": "Morning at the Campsite",
+      "words": [
+        "EARLY SUNRISE",
+        "MISTY FOG",
+        "DEW DROPS",
+        "BIRD SONG",
+        "STRETCHING",
+        "MORNING CHILL",
+        "ZIPPER PULL",
+        "FRESH AIR",
+        "BREWING POT",
+        "SLIPPERS",
+        "DAY PACK",
+        "ROUTE PLANNING"
+      ],
+      "mini_theme": "Morning at the Campsite",
+      "page_title_verified": true,
+      "page_title_basis": "editorial_review"
+    },
+    {
+      "name": "Classic Car Games",
+      "words": [
+        "TWENTY QUESTIONS",
+        "I SPY",
+        "LICENSE PLATE",
+        "THE ALPHABET GAME",
+        "BULLS EYE",
+        "WOULD YOU RATHER",
+        "HANGMAN",
+        "GHOST",
+        "YELLOW CAR",
+        "ROAD SIGN BINGO",
+        "COUNTING COWS",
+        "TWENTY ONE"
+      ],
+      "mini_theme": "Classic Car Games",
+      "page_title_verified": true,
+      "page_title_basis": "editorial_review"
+    },
+    {
+      "name": "Highway Sing Along",
+      "words": [
+        "UPBEAT TEMPO",
+        "RADIO STATION",
+        "HARMONY",
+        "CLASSIC ROCK",
+        "SINGING LOUD",
+        "DRUMMING DASHBOARD",
+        "TOP DOWN BEATS",
+        "CATCHY CHORUS",
+        "MIXTAPE",
+        "ROAD MELODIES",
+        "TOUR ANTHEM",
+        "WINDOWS DOWN"
+      ],
+      "mini_theme": "Highway Sing Along",
+      "page_title_verified": true,
+      "page_title_basis": "editorial_review"
+    },
+    {
+      "name": "Shared Travel Memories",
+      "words": [
+        "INSIDE JOKES",
+        "LATE NIGHT TALKS",
+        "PHOTO ALBUM",
+        "LAUGHING LOUD",
+        "LOST TOGETHER",
+        "SCENIC DETOUR",
+        "MEMORY BANK",
+        "STORYTELLING",
+        "BONDING TIME",
+        "SHARED SUNSET",
+        "TRIP HIGHLIGHTS",
+        "FOREVER MOMENTS"
+      ],
+      "mini_theme": "Shared Travel Memories",
+      "page_title_verified": true,
+      "page_title_basis": "editorial_review"
+    },
+    {
+      "name": "Radio Tuner Exploration",
+      "words": [
+        "STATIC SIGNAL",
+        "SCANNING BANDS",
+        "TRAFFIC REPORT",
+        "LOCAL DJ",
+        "AM FREQUENCY",
+        "FM STEREO",
+        "NEWS BROADCAST",
+        "WEATHER FORECAST",
+        "COUNTRY STATION",
+        "TALK RADIO",
+        "SIGNAL LOST",
+        "SEARCHING WAVES"
+      ],
+      "mini_theme": "Radio Tuner Exploration",
+      "page_title_verified": true,
+      "page_title_basis": "editorial_review"
+    },
+    {
+      "name": "Family Travel Traditions",
+      "words": [
+        "PACKING ROUTINE",
+        "MORNING DEPARTURE",
+        "FIRST STOP",
+        "ROAD SNACKS",
+        "FAVORITE ROUTE",
+        "PAJAMA RIDE",
+        "DESTINATION SIGN",
+        "ANNUAL JOURNEY",
+        "SOUVENIR SHOP",
+        "GROUP STRETCH",
+        "DRIVER SWITCH",
+        "HOMECOMING"
+      ],
+      "mini_theme": "Family Travel Traditions",
+      "page_title_verified": true,
+      "page_title_basis": "editorial_review"
+    },
+    {
+      "name": "Cozy Cabins and Overnight Stops",
+      "words": [
+        "RUSTIC CABIN",
+        "WOODLAND RETREAT",
+        "FOREST HIDEAWAY",
+        "MOUNTAIN LODGE",
+        "PINE TIMBER",
+        "STONE FIREPLACE",
+        "SLEEPING LOFT",
+        "PORCH SWING",
+        "STARLIT NIGHT",
+        "CAMPFIRE EMBERS",
+        "COZY BLANKET",
+        "MORNING COFFEE"
+      ],
+      "mini_theme": "Cozy Cabins and Overnight Stops",
+      "page_title_verified": true,
+      "page_title_basis": "editorial_review"
+    }
+  ],
+  "source_word_bank": {
+    "name": "Editorial Word Search Rebuild v2",
+    "topics": [
+      "Travel Road Trips and Getaways"
+    ],
+    "selection_policy": "Page-grouped provider proposals; locally screened for exact capacity, normalized uniqueness, length, protected names, and page coherence",
+    "candidate_sha256": "348d5865c32d6ae541872f81483d6394c927d8d4f5a2791e1d96066f1fc622ae"
+  },
+  "quality_review": {
+    "production_ready": true,
+    "verdict": "PASS",
+    "checked_at": "2026-09-19T18:52:18",
+    "source": "assistant-assisted editorial rebuild",
+    "checks": [
+      "exact capacity",
+      "no repeated normalized entries",
+      "3–21 normalized letters",
+      "protected/rejected-term screen",
+      "coherent reviewed page titles"
+    ]
+  }
+}

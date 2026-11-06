@@ -1,0 +1,142 @@
+[
+  {
+    "url": "https://positivepaths.venturacounty.gov/cannabis/glossary",
+    "niche": "cannabis vocabulary",
+    "kind": "county public-health glossary: names only, no source health assertions",
+    "retrieved": "2026-11-01",
+    "use": "standalone vocabulary labels only; no claims, instructions, recommendations, or source prose"
+  },
+  {
+    "url": "https://www.leafly.ca/news/cannabis-101/glossary-of-cannabis-terms",
+    "niche": "cannabis vocabulary",
+    "kind": "industry glossary and dictionary verification pending for any non-heading slang",
+    "retrieved": "2026-11-01",
+    "use": "standalone vocabulary labels only; no claims, instructions, recommendations, or source prose"
+  },
+  {
+    "url": "https://inspection.canada.ca/en/plant-varieties/plants-novel-traits/applicants/directive-94-08/biology-documents/cannabis-sativa",
+    "niche": "cannabis anatomy",
+    "kind": "government botany description: anatomy/taxonomy labels only, no cultivation guidance",
+    "retrieved": "2026-11-01",
+    "use": "standalone vocabulary labels only; no claims, instructions, recommendations, or source prose"
+  },
+  {
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7962319/",
+    "niche": "cannabis chemistry",
+    "kind": "scholarly cannabinoid name reference: no pharmacological or synthesis claims",
+    "retrieved": "2026-11-01",
+    "use": "standalone vocabulary labels only; no claims, instructions, recommendations, or source prose"
+  },
+  {
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7039888/",
+    "niche": "cannabis chemistry",
+    "kind": "Jin et al., Scientific Reports 2020, doi:10.1038/s41598-020-60172-6, CC BY 4.0; compound/class labels only",
+    "retrieved": "2026-11-01",
+    "use": "standalone vocabulary labels only; no claims, instructions, recommendations, or source prose"
+  },
+  {
+    "url": "https://www.milehighglasspipes.com/pages/smoke-headshop-dictionary-terminology",
+    "niche": "glass smoking accessories",
+    "kind": "primary trade glossary: object, part and design names only; no operational instructions",
+    "retrieved": "2026-11-01",
+    "use": "standalone vocabulary labels only; no claims, instructions, recommendations, or source prose"
+  },
+  {
+    "url": "https://www.smokingpipes.eu/smokingpipesblog/glossary.cfm",
+    "niche": "tobacco pipe shapes and parts",
+    "kind": "primary pipe glossary: established pipe shapes, materials and parts; no making or smoking instructions",
+    "retrieved": "2026-11-01",
+    "use": "standalone vocabulary labels only; no claims, instructions, recommendations, or source prose"
+  },
+  {
+    "url": "https://www.cigaraficionado.com/glossary",
+    "niche": "cigar lounge vocabulary",
+    "kind": "cigar-industry glossary: component, size, shape and lounge vocabulary only; no production guidance",
+    "retrieved": "2026-11-01",
+    "use": "standalone vocabulary labels only; no claims, instructions, recommendations, or source prose"
+  },
+  {
+    "url": "https://us.bic.com/en_us/lighters-safety-and-quality",
+    "niche": "lighters and ignition",
+    "kind": "manufacturer diagram: generic component labels only; brand excluded from targets",
+    "retrieved": "2026-11-01",
+    "use": "standalone vocabulary labels only; no claims, instructions, recommendations, or source prose"
+  },
+  {
+    "url": "https://zippo.tw/en/pages/ztw-lighter-guide",
+    "niche": "lighters and ignition",
+    "kind": "manufacturer component overview: generic labels only; no care/refilling instructions",
+    "retrieved": "2026-11-01",
+    "use": "standalone vocabulary labels only; no claims, instructions, recommendations, or source prose"
+  },
+  {
+    "url": "https://www.cigaraficionado.com/glossary",
+    "niche": "lighters and ignition",
+    "kind": "cigar glossary accessory labels",
+    "retrieved": "2026-11-01",
+    "use": "standalone vocabulary labels only; no claims, instructions, recommendations, or source prose"
+  },
+  {
+    "url": "https://www.innokin.com/vape-terms",
+    "niche": "vaporizer vocabulary",
+    "kind": "manufacturer glossary: neutral terminology only; no construction, dosing, use or health claims",
+    "retrieved": "2026-11-01",
+    "use": "standalone vocabulary labels only; no claims, instructions, recommendations, or source prose"
+  },
+  {
+    "url": "https://www.innokin.com/hubfs/User%20Manual/Sensis-EZ_Manual.pdf",
+    "niche": "vaporizer vocabulary",
+    "kind": "manufacturer diagram component labels only; manual instructions not imported",
+    "retrieved": "2026-11-01",
+    "use": "standalone vocabulary labels only; no claims, instructions, recommendations, or source prose"
+  },
+  {
+    "url": "https://winefolly.com/wine-glossary/",
+    "niche": "wine cellar vocabulary",
+    "kind": "publisher original wine glossary: label/bottle/tasting terms, not source prose or preparation guidance",
+    "retrieved": "2026-11-01",
+    "use": "standalone vocabulary labels only; no claims, instructions, recommendations, or source prose"
+  },
+  {
+    "url": "https://us.bic.com/en_us/lighters-safety-and-quality",
+    "niche": "lighters and ignition",
+    "kind": "manufacturer mechanism description: neutral generic labels only",
+    "retrieved": "2026-11-01",
+    "use": "standalone vocabulary labels only; no claims, instructions, recommendations, or source prose"
+  },
+  {
+    "url": "https://assets.srhd.org/assets/media/documents/Anatomy-of-a-Vaping-Device1.pdf",
+    "niche": "vaporizer vocabulary",
+    "kind": "Spokane Regional Health District public-health device anatomy: labels only",
+    "retrieved": "2026-11-01",
+    "use": "standalone vocabulary labels only; no claims, instructions, recommendations, or source prose"
+  },
+  {
+    "url": "https://winefolly.com/wine-glossary/",
+    "niche": "wine cellar vocabulary",
+    "kind": "original wine glossary wine-specific tasting and barrel vocabulary",
+    "retrieved": "2026-11-01",
+    "use": "standalone vocabulary labels only; no claims, instructions, recommendations, or source prose"
+  },
+  {
+    "url": "word_banks/source_data/definition_reference_wordnet_3_0/data.noun",
+    "niche": "named wines and spirits",
+    "kind": "local licensed WordNet exact lemma evidence required below",
+    "retrieved": "2026-11-01",
+    "use": "standalone vocabulary labels only; no claims, instructions, recommendations, or source prose"
+  },
+  {
+    "url": "https://www.mgmresorts.com/en/gamesense/guide-to-blackjack.html",
+    "niche": "casino lounge vocabulary",
+    "kind": "casino primary guide: standalone vocabulary only; no play instructions, odds or strategies",
+    "retrieved": "2026-11-01",
+    "use": "standalone vocabulary labels only; no claims, instructions, recommendations, or source prose"
+  },
+  {
+    "url": "word_banks/source_data/definition_reference_wordnet_3_0/data.noun",
+    "niche": "casino lounge vocabulary",
+    "kind": "local licensed WordNet exact lemma evidence required below",
+    "retrieved": "2026-11-01",
+    "use": "standalone vocabulary labels only; no claims, instructions, recommendations, or source prose"
+  }
+]

@@ -5,7 +5,7 @@ from publishing.manager import PublishingService
 
 
 def test_each_supported_puzzle_type_gets_its_own_listing_language_and_keywords():
-    cases = {"Sudoku": "logic puzzles", "Cryptogram": "code-breaking", "Word Scramble + Trivia": "word-and-trivia", "Mixed Brain Games": "variety brain games"}
+    cases = {"Sudoku": "logic puzzles", "Cryptogram": "code-breaking", "Word Scramble + Trivia": "word scrambles with fact clues", "Mixed Brain Games": "variety brain games"}
     for puzzle_type, expected_phrase in cases.items():
         metadata = build_metadata({"title": f"{puzzle_type} Collection", "puzzle_type": puzzle_type, "theme": "Space & Astronomy", "puzzle_count": 60})
         assert metadata["puzzle_type"] == puzzle_type

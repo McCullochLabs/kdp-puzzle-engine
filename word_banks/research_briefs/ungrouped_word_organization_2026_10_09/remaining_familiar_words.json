@@ -1,0 +1,5006 @@
+{
+  "status": "UNASSIGNED",
+  "note": "Frequency-sorted next-review queue; no topic assignments inferred. Frequency is familiarity, not suitability. This is a sample of the remaining pool.",
+  "words": [
+    {
+      "word": "THE",
+      "frequency": 7.73,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "AND",
+      "frequency": 7.41,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "FOR",
+      "frequency": 7.01,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "THAT",
+      "frequency": 7.01,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "YOU",
+      "frequency": 6.98,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "WAS",
+      "frequency": 6.82,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "ARE",
+      "frequency": 6.74,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "NOT",
+      "frequency": 6.69,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "BUT",
+      "frequency": 6.63,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "YOUR",
+      "frequency": 6.53,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "ALL",
+      "frequency": 6.52,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "HIS",
+      "frequency": 6.51,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "THEY",
+      "frequency": 6.5,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "ONE",
+      "frequency": 6.47,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "CAN",
+      "frequency": 6.46,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "WILL",
+      "frequency": 6.45,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "JUST",
+      "frequency": 6.43,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "ABOUT",
+      "frequency": 6.4,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "OUT",
+      "frequency": 6.38,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "WHAT",
+      "frequency": 6.38,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "HAS",
+      "frequency": 6.37,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "WHEN",
+      "frequency": 6.37,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "MORE",
+      "frequency": 6.36,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "WHO",
+      "frequency": 6.34,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "HAD",
+      "frequency": 6.33,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "THEIR",
+      "frequency": 6.33,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "HER",
+      "frequency": 6.3,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "GET",
+      "frequency": 6.28,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "WOULD",
+      "frequency": 6.27,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "SHE",
+      "frequency": 6.26,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "NEW",
+      "frequency": 6.25,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "HOW",
+      "frequency": 6.24,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "NOW",
+      "frequency": 6.18,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "ITS",
+      "frequency": 6.14,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "OUR",
+      "frequency": 6.14,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "THAN",
+      "frequency": 6.13,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "ONLY",
+      "frequency": 6.12,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "HIM",
+      "frequency": 6.11,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "INTO",
+      "frequency": 6.11,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "KNOW",
+      "frequency": 6.1,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "SEE",
+      "frequency": 6.1,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "TWO",
+      "frequency": 6.1,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "ANY",
+      "frequency": 6.07,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "WAY",
+      "frequency": 6.01,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "MOST",
+      "frequency": 6.0,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "VERY",
+      "frequency": 6.0,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "SHOULD",
+      "frequency": 5.99,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "MAY",
+      "frequency": 5.98,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "DID",
+      "frequency": 5.96,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "TOO",
+      "frequency": 5.95,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "BEFORE",
+      "frequency": 5.93,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "OFF",
+      "frequency": 5.93,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "WHY",
+      "frequency": 5.93,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "GOT",
+      "frequency": 5.91,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "MANY",
+      "frequency": 5.91,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "THOSE",
+      "frequency": 5.9,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "SAY",
+      "frequency": 5.89,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "THROUGH",
+      "frequency": 5.87,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "SUCH",
+      "frequency": 5.84,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "MAN",
+      "frequency": 5.82,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "USE",
+      "frequency": 5.81,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "OLD",
+      "frequency": 5.75,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "OWN",
+      "frequency": 5.74,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "END",
+      "frequency": 5.68,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "MUST",
+      "frequency": 5.68,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "BIG",
+      "frequency": 5.67,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "TEAM",
+      "frequency": 5.67,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "PUT",
+      "frequency": 5.66,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "FEW",
+      "frequency": 5.6,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "LET",
+      "frequency": 5.6,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "SET",
+      "frequency": 5.59,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "GOD",
+      "frequency": 5.57,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "TOP",
+      "frequency": 5.57,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "YET",
+      "frequency": 5.54,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "BAD",
+      "frequency": 5.53,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "MEN",
+      "frequency": 5.51,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "FAR",
+      "frequency": 5.5,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "TRY",
+      "frequency": 5.5,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "YES",
+      "frequency": 5.5,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "RUN",
+      "frequency": 5.49,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "SHIT",
+      "frequency": 5.48,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "WAR",
+      "frequency": 5.46,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "PER",
+      "frequency": 5.45,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "AGO",
+      "frequency": 5.42,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "GUYS",
+      "frequency": 5.41,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "GUY",
+      "frequency": 5.4,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "PAY",
+      "frequency": 5.4,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "FUCK",
+      "frequency": 5.39,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "WIN",
+      "frequency": 5.39,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "BIT",
+      "frequency": 5.37,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "HIT",
+      "frequency": 5.37,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "NICE",
+      "frequency": 5.37,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "YEAH",
+      "frequency": 5.37,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "DUE",
+      "frequency": 5.35,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "ASK",
+      "frequency": 5.34,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "SAW",
+      "frequency": 5.34,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "FUCKING",
+      "frequency": 5.33,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "LOW",
+      "frequency": 5.33,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "AGE",
+      "frequency": 5.32,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "BUY",
+      "frequency": 5.32,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "ACT",
+      "frequency": 5.3,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "FUN",
+      "frequency": 5.3,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "PHONE",
+      "frequency": 5.3,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "ART",
+      "frequency": 5.29,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "NON",
+      "frequency": 5.29,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "SIX",
+      "frequency": 5.29,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "SON",
+      "frequency": 5.28,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "CUT",
+      "frequency": 5.24,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "PROJECT",
+      "frequency": 5.22,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "SEX",
+      "frequency": 5.22,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "CLUB",
+      "frequency": 5.2,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "WON",
+      "frequency": 5.2,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "ONLINE",
+      "frequency": 5.19,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "BOY",
+      "frequency": 5.17,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "HOT",
+      "frequency": 5.16,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "ROLE",
+      "frequency": 5.16,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "RELATIONSHIP",
+      "frequency": 5.15,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "TAX",
+      "frequency": 5.14,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "EAT",
+      "frequency": 5.13,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "MATCH",
+      "frequency": 5.13,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "HEY",
+      "frequency": 5.12,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "MOM",
+      "frequency": 5.12,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "LED",
+      "frequency": 5.11,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "OIL",
+      "frequency": 5.1,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "ADD",
+      "frequency": 5.09,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "DAMN",
+      "frequency": 5.09,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "MET",
+      "frequency": 5.09,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "CODE",
+      "frequency": 5.08,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "CURRENTLY",
+      "frequency": 5.08,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "PICK",
+      "frequency": 5.08,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "KNOWS",
+      "frequency": 5.07,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "AUSTRALIA",
+      "frequency": 5.06,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "SEA",
+      "frequency": 5.06,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "SIR",
+      "frequency": 5.06,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "TOWARDS",
+      "frequency": 5.06,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "TEN",
+      "frequency": 5.05,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "BOX",
+      "frequency": 5.04,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "CARD",
+      "frequency": 5.04,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "ETC",
+      "frequency": 5.03,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "FANS",
+      "frequency": 5.03,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "EYE",
+      "frequency": 5.02,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "TOMORROW",
+      "frequency": 5.02,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "VIA",
+      "frequency": 5.02,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "AHEAD",
+      "frequency": 5.01,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "GAS",
+      "frequency": 5.01,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "POTENTIAL",
+      "frequency": 5.01,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "ASS",
+      "frequency": 5.0,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "ICE",
+      "frequency": 5.0,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "KID",
+      "frequency": 4.99,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "SAN",
+      "frequency": 4.97,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "COSTS",
+      "frequency": 4.96,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "GUN",
+      "frequency": 4.96,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "WOW",
+      "frequency": 4.96,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "DAD",
+      "frequency": 4.95,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "GLOBAL",
+      "frequency": 4.95,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "GOALS",
+      "frequency": 4.95,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "PRE",
+      "frequency": 4.95,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "ANYMORE",
+      "frequency": 4.94,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "BAR",
+      "frequency": 4.94,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "PRO",
+      "frequency": 4.94,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "CANCER",
+      "frequency": 4.93,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "SENIOR",
+      "frequency": 4.92,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "ACTIVITIES",
+      "frequency": 4.91,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "LUCK",
+      "frequency": 4.91,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "THUS",
+      "frequency": 4.91,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "FEELS",
+      "frequency": 4.9,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "GAY",
+      "frequency": 4.9,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "SIT",
+      "frequency": 4.9,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "BASIC",
+      "frequency": 4.89,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "MRS",
+      "frequency": 4.89,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "EVENTUALLY",
+      "frequency": 4.88,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "CELL",
+      "frequency": 4.87,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "DRUG",
+      "frequency": 4.87,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "ENVIRONMENT",
+      "frequency": 4.87,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "POP",
+      "frequency": 4.87,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "FAT",
+      "frequency": 4.85,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "WHOM",
+      "frequency": 4.85,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "LIE",
+      "frequency": 4.84,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "PLAYS",
+      "frequency": 4.84,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "SAD",
+      "frequency": 4.84,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "BRAND",
+      "frequency": 4.83,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "BUS",
+      "frequency": 4.83,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "DIGITAL",
+      "frequency": 4.83,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "TOM",
+      "frequency": 4.83,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "CLICK",
+      "frequency": 4.82,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "MID",
+      "frequency": 4.82,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "SEXUAL",
+      "frequency": 4.82,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "DUDE",
+      "frequency": 4.81,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "WEIRD",
+      "frequency": 4.81,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "ADULT",
+      "frequency": 4.8,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "MIKE",
+      "frequency": 4.8,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "USERS",
+      "frequency": 4.8,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "BAG",
+      "frequency": 4.79,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "BET",
+      "frequency": 4.79,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "USA",
+      "frequency": 4.79,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "JOE",
+      "frequency": 4.78,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "NOR",
+      "frequency": 4.78,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "TELLS",
+      "frequency": 4.78,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "CONCEPT",
+      "frequency": 4.77,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "HOUSING",
+      "frequency": 4.77,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "INC",
+      "frequency": 4.77,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "LUCKY",
+      "frequency": 4.77,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "ONTO",
+      "frequency": 4.77,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "TOUGH",
+      "frequency": 4.77,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "BITCH",
+      "frequency": 4.76,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "CARDS",
+      "frequency": 4.76,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "NET",
+      "frequency": 4.76,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "AID",
+      "frequency": 4.75,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "FIX",
+      "frequency": 4.75,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "FLY",
+      "frequency": 4.75,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "APPRECIATE",
+      "frequency": 4.74,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "DONT",
+      "frequency": 4.74,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "DRY",
+      "frequency": 4.74,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "MAD",
+      "frequency": 4.74,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "WEB",
+      "frequency": 4.74,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "ARM",
+      "frequency": 4.73,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "LEE",
+      "frequency": 4.73,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "HELLO",
+      "frequency": 4.72,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "ILL",
+      "frequency": 4.72,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "AWARDS",
+      "frequency": 4.71,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "ENVIRONMENTAL",
+      "frequency": 4.7,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "WINS",
+      "frequency": 4.7,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "BEN",
+      "frequency": 4.69,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "EXPENSIVE",
+      "frequency": 4.69,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "TECH",
+      "frequency": 4.69,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "JOKE",
+      "frequency": 4.68,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "SHARED",
+      "frequency": 4.68,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "ALLOWS",
+      "frequency": 4.67,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "ERA",
+      "frequency": 4.67,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "FACTOR",
+      "frequency": 4.67,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "MUSLIM",
+      "frequency": 4.67,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "TESTING",
+      "frequency": 4.67,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "EMOTIONAL",
+      "frequency": 4.66,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "FOX",
+      "frequency": 4.66,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "LEG",
+      "frequency": 4.66,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "LUNCH",
+      "frequency": 4.66,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "MAX",
+      "frequency": 4.66,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "PACK",
+      "frequency": 4.66,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "SECTOR",
+      "frequency": 4.66,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "SUB",
+      "frequency": 4.66,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "HITS",
+      "frequency": 4.65,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "SPECIFICALLY",
+      "frequency": 4.65,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "AIRCRAFT",
+      "frequency": 4.64,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "LAY",
+      "frequency": 4.64,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "REQUIREMENTS",
+      "frequency": 4.64,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "SAM",
+      "frequency": 4.64,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "SAT",
+      "frequency": 4.64,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "BOB",
+      "frequency": 4.63,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "CHICKEN",
+      "frequency": 4.63,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "III",
+      "frequency": 4.63,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "SURGERY",
+      "frequency": 4.63,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "ZERO",
+      "frequency": 4.63,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "JIM",
+      "frequency": 4.62,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "OURSELVES",
+      "frequency": 4.62,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "TINY",
+      "frequency": 4.62,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "TYPICALLY",
+      "frequency": 4.62,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "BREAKFAST",
+      "frequency": 4.61,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "BRINGS",
+      "frequency": 4.61,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "FINDS",
+      "frequency": 4.61,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "HUMANS",
+      "frequency": 4.61,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "SOLO",
+      "frequency": 4.61,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "CYCLE",
+      "frequency": 4.6,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "DON",
+      "frequency": 4.6,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "FACILITY",
+      "frequency": 4.6,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "INFO",
+      "frequency": 4.6,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "ROW",
+      "frequency": 4.6,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "ADULTS",
+      "frequency": 4.59,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "CRY",
+      "frequency": 4.59,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "FOLKS",
+      "frequency": 4.59,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "KIM",
+      "frequency": 4.59,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "SEES",
+      "frequency": 4.59,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "LOAD",
+      "frequency": 4.58,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "RANDOM",
+      "frequency": 4.58,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "REPLACE",
+      "frequency": 4.58,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "REVIEWS",
+      "frequency": 4.58,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "ACHIEVE",
+      "frequency": 4.57,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "CHAT",
+      "frequency": 4.57,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "FAVOURITE",
+      "frequency": 4.57,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "ITEM",
+      "frequency": 4.57,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "PARENT",
+      "frequency": 4.57,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "SHIFT",
+      "frequency": 4.57,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "TEND",
+      "frequency": 4.57,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "TIGHT",
+      "frequency": 4.57,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "ULTIMATELY",
+      "frequency": 4.57,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "COMBAT",
+      "frequency": 4.56,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "HOPEFULLY",
+      "frequency": 4.56,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "IDENTIFY",
+      "frequency": 4.56,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "PREMIER",
+      "frequency": 4.56,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "BAN",
+      "frequency": 4.55,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "CRASH",
+      "frequency": 4.55,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "DIRTY",
+      "frequency": 4.55,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "EXPERIENCES",
+      "frequency": 4.55,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "MATT",
+      "frequency": 4.55,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "RETAIL",
+      "frequency": 4.55,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "TIP",
+      "frequency": 4.55,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "ADVERTISING",
+      "frequency": 4.54,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "BASEBALL",
+      "frequency": 4.54,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "BATHROOM",
+      "frequency": 4.54,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "CHAMPIONSHIP",
+      "frequency": 4.54,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "SIGNIFICANTLY",
+      "frequency": 4.54,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "WET",
+      "frequency": 4.54,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "WORLDWIDE",
+      "frequency": 4.54,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "LETTING",
+      "frequency": 4.53,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "RAW",
+      "frequency": 4.53,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "AUTOMATICALLY",
+      "frequency": 4.52,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "DEBUT",
+      "frequency": 4.52,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "GRAB",
+      "frequency": 4.52,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "PINK",
+      "frequency": 4.52,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "SURVIVE",
+      "frequency": 4.52,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "THATS",
+      "frequency": 4.52,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "AIM",
+      "frequency": 4.51,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "CAP",
+      "frequency": 4.51,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "FED",
+      "frequency": 4.51,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "FEE",
+      "frequency": 4.51,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "JAN",
+      "frequency": 4.51,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "SUSPECT",
+      "frequency": 4.51,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "TIE",
+      "frequency": 4.51,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "TIM",
+      "frequency": 4.51,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "ENGINEER",
+      "frequency": 4.5,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "FORD",
+      "frequency": 4.5,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "PORN",
+      "frequency": 4.5,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "RID",
+      "frequency": 4.5,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "KOREAN",
+      "frequency": 4.49,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "SUGGESTS",
+      "frequency": 4.49,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "GREY",
+      "frequency": 4.48,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "PARTNERSHIP",
+      "frequency": 4.48,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "RAPE",
+      "frequency": 4.48,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "TRICK",
+      "frequency": 4.48,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "AUDIO",
+      "frequency": 4.47,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "BRIAN",
+      "frequency": 4.47,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "COMPLICATED",
+      "frequency": 4.47,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "GAP",
+      "frequency": 4.47,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "HEALTHCARE",
+      "frequency": 4.47,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "TECHNIQUE",
+      "frequency": 4.47,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "ARGUE",
+      "frequency": 4.46,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "ASSESSMENT",
+      "frequency": 4.46,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "CATS",
+      "frequency": 4.46,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "HIP",
+      "frequency": 4.46,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "HITTING",
+      "frequency": 4.46,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "INCREASES",
+      "frequency": 4.46,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "INFRASTRUCTURE",
+      "frequency": 4.46,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "PACKAGE",
+      "frequency": 4.46,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "BONUS",
+      "frequency": 4.45,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "FINALS",
+      "frequency": 4.45,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "FORMULA",
+      "frequency": 4.45,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "MAC",
+      "frequency": 4.45,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "MATH",
+      "frequency": 4.45,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "RATING",
+      "frequency": 4.45,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "COMPONENTS",
+      "frequency": 4.44,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "CONCRETE",
+      "frequency": 4.44,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "DAVE",
+      "frequency": 4.44,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "KELLY",
+      "frequency": 4.44,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "MUSCLE",
+      "frequency": 4.44,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "MUSLIMS",
+      "frequency": 4.44,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "REPLACEMENT",
+      "frequency": 4.44,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "SINGLES",
+      "frequency": 4.44,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "TAPE",
+      "frequency": 4.44,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "VICTORIA",
+      "frequency": 4.44,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "ANDY",
+      "frequency": 4.43,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "CHECKING",
+      "frequency": 4.43,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "DRINKS",
+      "frequency": 4.43,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "EAR",
+      "frequency": 4.43,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "GYM",
+      "frequency": 4.43,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "IRAQ",
+      "frequency": 4.43,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "OPENS",
+      "frequency": 4.43,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "PIZZA",
+      "frequency": 4.43,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "SPEAKS",
+      "frequency": 4.43,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "STRATEGIC",
+      "frequency": 4.43,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "SWIMMING",
+      "frequency": 4.43,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "ALRIGHT",
+      "frequency": 4.42,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "COPS",
+      "frequency": 4.42,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "DALLAS",
+      "frequency": 4.42,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "DESIGNER",
+      "frequency": 4.42,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "JANE",
+      "frequency": 4.42,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "KIT",
+      "frequency": 4.42,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "MIN",
+      "frequency": 4.42,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "ODD",
+      "frequency": 4.42,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "PARTICIPATE",
+      "frequency": 4.42,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "RACIST",
+      "frequency": 4.42,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "REFERENCES",
+      "frequency": 4.42,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "SEXY",
+      "frequency": 4.42,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "STOMACH",
+      "frequency": 4.42,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "TRASH",
+      "frequency": 4.42,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "VEGAS",
+      "frequency": 4.42,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "WHOEVER",
+      "frequency": 4.42,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "BANNED",
+      "frequency": 4.41,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "BOOST",
+      "frequency": 4.41,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "CONTROLS",
+      "frequency": 4.41,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "FOODS",
+      "frequency": 4.41,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "MUM",
+      "frequency": 4.41,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "THO",
+      "frequency": 4.41,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "UPS",
+      "frequency": 4.41,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "VOL",
+      "frequency": 4.41,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "ACTORS",
+      "frequency": 4.4,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "BID",
+      "frequency": 4.4,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "BRO",
+      "frequency": 4.4,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "BUDDY",
+      "frequency": 4.4,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "CONGRATULATIONS",
+      "frequency": 4.4,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "DEAN",
+      "frequency": 4.4,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "DESCRIBES",
+      "frequency": 4.4,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "HOP",
+      "frequency": 4.4,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "ORGANIC",
+      "frequency": 4.4,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "PARTICIPANTS",
+      "frequency": 4.4,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "POT",
+      "frequency": 4.4,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "ARAB",
+      "frequency": 4.39,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "BYE",
+      "frequency": 4.39,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "CONSUMERS",
+      "frequency": 4.39,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "DISNEY",
+      "frequency": 4.39,
+      "safety_or_trademark_flag": true
+    },
+    {
+      "word": "IDIOT",
+      "frequency": 4.39,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "RESEARCHERS",
+      "frequency": 4.39,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "ROSS",
+      "frequency": 4.39,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "SCIENCES",
+      "frequency": 4.39,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "SERVES",
+      "frequency": 4.39,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "TRANSLATION",
+      "frequency": 4.39,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "YEP",
+      "frequency": 4.39,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "ADDS",
+      "frequency": 4.38,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "FINDINGS",
+      "frequency": 4.38,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "FORUM",
+      "frequency": 4.38,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "INCREASINGLY",
+      "frequency": 4.38,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "INCREDIBLY",
+      "frequency": 4.38,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "JAY",
+      "frequency": 4.38,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "JOURNALIST",
+      "frequency": 4.38,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "PEN",
+      "frequency": 4.38,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "COP",
+      "frequency": 4.37,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "GORDON",
+      "frequency": 4.37,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "LOG",
+      "frequency": 4.37,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "NOV",
+      "frequency": 4.37,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "PHIL",
+      "frequency": 4.37,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "REMIND",
+      "frequency": 4.37,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "SIN",
+      "frequency": 4.37,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "DADDY",
+      "frequency": 4.36,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "DOC",
+      "frequency": 4.36,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "GENE",
+      "frequency": 4.36,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "INTERVIEWS",
+      "frequency": 4.36,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "JUICE",
+      "frequency": 4.36,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "PROCEDURES",
+      "frequency": 4.36,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "ANN",
+      "frequency": 4.35,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "CANT",
+      "frequency": 4.35,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "DISCOUNT",
+      "frequency": 4.35,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "EXIT",
+      "frequency": 4.35,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "EXPAND",
+      "frequency": 4.35,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "INPUT",
+      "frequency": 4.35,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "JOHNNY",
+      "frequency": 4.35,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "JOSH",
+      "frequency": 4.35,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "OCT",
+      "frequency": 4.35,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "REFERRING",
+      "frequency": 4.35,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "REP",
+      "frequency": 4.35,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "ROB",
+      "frequency": 4.35,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "SEPT",
+      "frequency": 4.35,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "VERSIONS",
+      "frequency": 4.35,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "ASSHOLE",
+      "frequency": 4.34,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "ATE",
+      "frequency": 4.34,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "ATHLETES",
+      "frequency": 4.34,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "BRUCE",
+      "frequency": 4.34,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "CONTRIBUTION",
+      "frequency": 4.34,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "GLASSES",
+      "frequency": 4.34,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "OCCURS",
+      "frequency": 4.34,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "PHOTOGRAPHS",
+      "frequency": 4.34,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "RESTAURANTS",
+      "frequency": 4.34,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "SUM",
+      "frequency": 4.34,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "UPCOMING",
+      "frequency": 4.34,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "AUG",
+      "frequency": 4.33,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "BILLY",
+      "frequency": 4.33,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "COMPUTERS",
+      "frequency": 4.33,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "ELEMENTARY",
+      "frequency": 4.33,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "GEN",
+      "frequency": 4.33,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "HOSPITALS",
+      "frequency": 4.33,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "JOKES",
+      "frequency": 4.33,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "NIGERIA",
+      "frequency": 4.33,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "PARKS",
+      "frequency": 4.33,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "PREGNANCY",
+      "frequency": 4.33,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "PRETEND",
+      "frequency": 4.33,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "RESIDENTIAL",
+      "frequency": 4.33,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "STATS",
+      "frequency": 4.33,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "TEEN",
+      "frequency": 4.33,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "ADS",
+      "frequency": 4.32,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "BRANDS",
+      "frequency": 4.32,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "DEL",
+      "frequency": 4.32,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "IAN",
+      "frequency": 4.32,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "JUSTIN",
+      "frequency": 4.32,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "PUNCH",
+      "frequency": 4.32,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "RELEASES",
+      "frequency": 4.32,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "TECHNOLOGIES",
+      "frequency": 4.32,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "TRENDS",
+      "frequency": 4.32,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "WALKS",
+      "frequency": 4.32,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "BIOLOGICAL",
+      "frequency": 4.31,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "CATEGORIES",
+      "frequency": 4.31,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "CHIP",
+      "frequency": 4.31,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "DISCRIMINATION",
+      "frequency": 4.31,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "EDITED",
+      "frequency": 4.31,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "FOOTAGE",
+      "frequency": 4.31,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "IMPLEMENTATION",
+      "frequency": 4.31,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "JON",
+      "frequency": 4.31,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "SAUDI",
+      "frequency": 4.31,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "SEC",
+      "frequency": 4.31,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "TERMINAL",
+      "frequency": 4.31,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "TOILET",
+      "frequency": 4.31,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "AGENDA",
+      "frequency": 4.3,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "CONVERSATIONS",
+      "frequency": 4.3,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "COOPERATION",
+      "frequency": 4.3,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "EDIT",
+      "frequency": 4.3,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "FINISHING",
+      "frequency": 4.3,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "GOODBYE",
+      "frequency": 4.3,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "GRAHAM",
+      "frequency": 4.3,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "HURTS",
+      "frequency": 4.3,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "INVOLVEMENT",
+      "frequency": 4.3,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "SAUCE",
+      "frequency": 4.3,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "TOY",
+      "frequency": 4.3,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "DEC",
+      "frequency": 4.29,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "JET",
+      "frequency": 4.29,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "JOURNALISTS",
+      "frequency": 4.29,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "LISA",
+      "frequency": 4.29,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "MALL",
+      "frequency": 4.29,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "PERFORMANCES",
+      "frequency": 4.29,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "RECOMMENDATIONS",
+      "frequency": 4.29,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "RELIABLE",
+      "frequency": 4.29,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "RELY",
+      "frequency": 4.29,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "RESPONSES",
+      "frequency": 4.29,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "STRATEGIES",
+      "frequency": 4.29,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "TON",
+      "frequency": 4.29,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "COLLABORATION",
+      "frequency": 4.28,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "CON",
+      "frequency": 4.28,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "COUNTS",
+      "frequency": 4.28,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "CREATES",
+      "frequency": 4.28,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "DRIVES",
+      "frequency": 4.28,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "EXPANDED",
+      "frequency": 4.28,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "LAS",
+      "frequency": 4.28,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "MATURE",
+      "frequency": 4.28,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "NAZI",
+      "frequency": 4.28,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "SIGNALS",
+      "frequency": 4.28,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "EARNINGS",
+      "frequency": 4.27,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "EDITING",
+      "frequency": 4.27,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "FITS",
+      "frequency": 4.27,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "HILARIOUS",
+      "frequency": 4.27,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "HUH",
+      "frequency": 4.27,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "ISIS",
+      "frequency": 4.27,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "OPERA",
+      "frequency": 4.27,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "TOKYO",
+      "frequency": 4.27,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "TRAVELING",
+      "frequency": 4.27,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "ALICE",
+      "frequency": 4.26,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "CLASSICAL",
+      "frequency": 4.26,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "CLIP",
+      "frequency": 4.26,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "COACHES",
+      "frequency": 4.26,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "EXAM",
+      "frequency": 4.26,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "MAINSTREAM",
+      "frequency": 4.26,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "NOPE",
+      "frequency": 4.26,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "OFFENSE",
+      "frequency": 4.26,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "PAYS",
+      "frequency": 4.26,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "RIP",
+      "frequency": 4.26,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "TED",
+      "frequency": 4.26,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "YEA",
+      "frequency": 4.26,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "APPROACHES",
+      "frequency": 4.25,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "BELIEFS",
+      "frequency": 4.25,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "CONVENTIONAL",
+      "frequency": 4.25,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "DES",
+      "frequency": 4.25,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "FOCUSING",
+      "frequency": 4.25,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "INDONESIA",
+      "frequency": 4.25,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "KHAN",
+      "frequency": 4.25,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "LONELY",
+      "frequency": 4.25,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "OXYGEN",
+      "frequency": 4.25,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "PISSED",
+      "frequency": 4.25,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "POWERED",
+      "frequency": 4.25,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "QUOTES",
+      "frequency": 4.25,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "RACISM",
+      "frequency": 4.25,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "RATINGS",
+      "frequency": 4.25,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "ROY",
+      "frequency": 4.25,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "SCREW",
+      "frequency": 4.25,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "SUGGESTING",
+      "frequency": 4.25,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "VARY",
+      "frequency": 4.25,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "ABC",
+      "frequency": 4.24,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "ABORTION",
+      "frequency": 4.24,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "CONSISTENTLY",
+      "frequency": 4.24,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "FASTEST",
+      "frequency": 4.24,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "FUNCTIONAL",
+      "frequency": 4.24,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "INDICATES",
+      "frequency": 4.24,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "LAZY",
+      "frequency": 4.24,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "MAMA",
+      "frequency": 4.24,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "PAT",
+      "frequency": 4.24,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "PROFESSIONALS",
+      "frequency": 4.24,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "SPEAKERS",
+      "frequency": 4.24,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "SPY",
+      "frequency": 4.24,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "STEVEN",
+      "frequency": 4.24,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "SUSAN",
+      "frequency": 4.24,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "BACKING",
+      "frequency": 4.23,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "CONTROVERSIAL",
+      "frequency": 4.23,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "DIFFERENTLY",
+      "frequency": 4.23,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "GRAPHIC",
+      "frequency": 4.23,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "IMPLEMENTED",
+      "frequency": 4.23,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "MARIO",
+      "frequency": 4.23,
+      "safety_or_trademark_flag": true
+    },
+    {
+      "word": "OUTDOOR",
+      "frequency": 4.23,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "PUB",
+      "frequency": 4.23,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "REVIEWED",
+      "frequency": 4.23,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "SERIAL",
+      "frequency": 4.23,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "ACCIDENTALLY",
+      "frequency": 4.22,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "AFFORDABLE",
+      "frequency": 4.22,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "BEATS",
+      "frequency": 4.22,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "BOBBY",
+      "frequency": 4.22,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "CANCELLED",
+      "frequency": 4.22,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "COM",
+      "frequency": 4.22,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "DEVELOPMENTS",
+      "frequency": 4.22,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "DIG",
+      "frequency": 4.22,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "LONGEST",
+      "frequency": 4.22,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "REMINDS",
+      "frequency": 4.22,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "RON",
+      "frequency": 4.22,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "SUE",
+      "frequency": 4.22,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "TENSION",
+      "frequency": 4.22,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "TWIST",
+      "frequency": 4.22,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "UGH",
+      "frequency": 4.22,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "UNEMPLOYMENT",
+      "frequency": 4.22,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "ARC",
+      "frequency": 4.21,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "CLINIC",
+      "frequency": 4.21,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "CLOSEST",
+      "frequency": 4.21,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "COLLECTIONS",
+      "frequency": 4.21,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "CORRECTLY",
+      "frequency": 4.21,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "FRED",
+      "frequency": 4.21,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "HIGHLIGHT",
+      "frequency": 4.21,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "KEN",
+      "frequency": 4.21,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "NONSENSE",
+      "frequency": 4.21,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "OPERATIONAL",
+      "frequency": 4.21,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "SKIP",
+      "frequency": 4.21,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "SNAP",
+      "frequency": 4.21,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "SWISS",
+      "frequency": 4.21,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "ADDITIONALLY",
+      "frequency": 4.2,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "AMY",
+      "frequency": 4.2,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "BARBARA",
+      "frequency": 4.2,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "BETA",
+      "frequency": 4.2,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "BORED",
+      "frequency": 4.2,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "BUG",
+      "frequency": 4.2,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "CHEATING",
+      "frequency": 4.2,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "DEVELOPER",
+      "frequency": 4.2,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "DIAGNOSIS",
+      "frequency": 4.2,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "LASER",
+      "frequency": 4.2,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "MARIJUANA",
+      "frequency": 4.2,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "PIC",
+      "frequency": 4.2,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "RELATIVES",
+      "frequency": 4.2,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "TERRORISTS",
+      "frequency": 4.2,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "TOURIST",
+      "frequency": 4.2,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "AIRLINES",
+      "frequency": 4.19,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "BOOT",
+      "frequency": 4.19,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "DEALER",
+      "frequency": 4.19,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "ELECTRONICS",
+      "frequency": 4.19,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "EMPHASIS",
+      "frequency": 4.19,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "ETHICS",
+      "frequency": 4.19,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "GLASGOW",
+      "frequency": 4.19,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "GRAPHICS",
+      "frequency": 4.19,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "LIT",
+      "frequency": 4.19,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "MAR",
+      "frequency": 4.19,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "PARTICIPATING",
+      "frequency": 4.19,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "PIE",
+      "frequency": 4.19,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "SANDY",
+      "frequency": 4.19,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "SCENARIO",
+      "frequency": 4.19,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "TAXI",
+      "frequency": 4.19,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "ACCESSIBLE",
+      "frequency": 4.18,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "BALANCED",
+      "frequency": 4.18,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "CHILL",
+      "frequency": 4.18,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "COLE",
+      "frequency": 4.18,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "CONSECUTIVE",
+      "frequency": 4.18,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "DIDNT",
+      "frequency": 4.18,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "IDENTIFICATION",
+      "frequency": 4.18,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "LAP",
+      "frequency": 4.18,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "METROPOLITAN",
+      "frequency": 4.18,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "RUNNER",
+      "frequency": 4.18,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "SITS",
+      "frequency": 4.18,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "SIZES",
+      "frequency": 4.18,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "SPRAY",
+      "frequency": 4.18,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "UNNECESSARY",
+      "frequency": 4.18,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "AVIATION",
+      "frequency": 4.17,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "DAM",
+      "frequency": 4.17,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "DIABETES",
+      "frequency": 4.17,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "GENRE",
+      "frequency": 4.17,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "JAMIE",
+      "frequency": 4.17,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "LENS",
+      "frequency": 4.17,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "METRES",
+      "frequency": 4.17,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "MONSTERS",
+      "frequency": 4.17,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "THAI",
+      "frequency": 4.17,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "TWEET",
+      "frequency": 4.17,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "VON",
+      "frequency": 4.17,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "APOLOGIZE",
+      "frequency": 4.16,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "ASH",
+      "frequency": 4.16,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "CONNECTING",
+      "frequency": 4.16,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "DER",
+      "frequency": 4.16,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "ICON",
+      "frequency": 4.16,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "INSTALLATION",
+      "frequency": 4.16,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "INTERACTIONS",
+      "frequency": 4.16,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "IRANIAN",
+      "frequency": 4.16,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "KICKING",
+      "frequency": 4.16,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "MARATHON",
+      "frequency": 4.16,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "MARVEL",
+      "frequency": 4.16,
+      "safety_or_trademark_flag": true
+    },
+    {
+      "word": "NEIL",
+      "frequency": 4.16,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "PLANES",
+      "frequency": 4.16,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "REALISTIC",
+      "frequency": 4.16,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "SHY",
+      "frequency": 4.16,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "TIER",
+      "frequency": 4.16,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "VOCAL",
+      "frequency": 4.16,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "WARRIOR",
+      "frequency": 4.16,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "ADVENTURES",
+      "frequency": 4.15,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "AKA",
+      "frequency": 4.15,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "CAPS",
+      "frequency": 4.15,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "COLLINS",
+      "frequency": 4.15,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "COSTA",
+      "frequency": 4.15,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "EMBARRASSING",
+      "frequency": 4.15,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "INFORM",
+      "frequency": 4.15,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "ION",
+      "frequency": 4.15,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "MATHEMATICS",
+      "frequency": 4.15,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "PAR",
+      "frequency": 4.15,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "RESPONSIBILITIES",
+      "frequency": 4.15,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "SCREENING",
+      "frequency": 4.15,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "TACKLE",
+      "frequency": 4.15,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "TIGERS",
+      "frequency": 4.15,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "TRICKS",
+      "frequency": 4.15,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "ADDICTION",
+      "frequency": 4.14,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "BLANK",
+      "frequency": 4.14,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "COW",
+      "frequency": 4.14,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "DEPRESSED",
+      "frequency": 4.14,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "DINING",
+      "frequency": 4.14,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "DISORDERS",
+      "frequency": 4.14,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "DURATION",
+      "frequency": 4.14,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "ENCOURAGING",
+      "frequency": 4.14,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "GENES",
+      "frequency": 4.14,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "IMMUNE",
+      "frequency": 4.14,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "INFLATION",
+      "frequency": 4.14,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "INSTALL",
+      "frequency": 4.14,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "INTENSITY",
+      "frequency": 4.14,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "MISSILE",
+      "frequency": 4.14,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "MOTIVATED",
+      "frequency": 4.14,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "NURSES",
+      "frequency": 4.14,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "PATROL",
+      "frequency": 4.14,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "PIG",
+      "frequency": 4.14,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "RELEASING",
+      "frequency": 4.14,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "ROD",
+      "frequency": 4.14,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "SWITCHED",
+      "frequency": 4.14,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "TEENAGE",
+      "frequency": 4.14,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "TRAUMA",
+      "frequency": 4.14,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "ZOO",
+      "frequency": 4.14,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "ACTIVISTS",
+      "frequency": 4.13,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "AVAILABILITY",
+      "frequency": 4.13,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "COMBINE",
+      "frequency": 4.13,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "DISC",
+      "frequency": 4.13,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "FASCINATING",
+      "frequency": 4.13,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "FLEXIBLE",
+      "frequency": 4.13,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "HOMEWORK",
+      "frequency": 4.13,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "KENYA",
+      "frequency": 4.13,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "LIP",
+      "frequency": 4.13,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "MANDATORY",
+      "frequency": 4.13,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "MUD",
+      "frequency": 4.13,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "MURPHY",
+      "frequency": 4.13,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "OWE",
+      "frequency": 4.13,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "PHENOMENON",
+      "frequency": 4.13,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "PROVIDERS",
+      "frequency": 4.13,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "SEEKS",
+      "frequency": 4.13,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "SKI",
+      "frequency": 4.13,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "UNDERSTANDS",
+      "frequency": 4.13,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "VISA",
+      "frequency": 4.13,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "BRAD",
+      "frequency": 4.12,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "COMPLAINING",
+      "frequency": 4.12,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "DEER",
+      "frequency": 4.12,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "DIVE",
+      "frequency": 4.12,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "ENTITY",
+      "frequency": 4.12,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "HAM",
+      "frequency": 4.12,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "INTERFACE",
+      "frequency": 4.12,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "IOS",
+      "frequency": 4.12,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "LINEAR",
+      "frequency": 4.12,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "PETE",
+      "frequency": 4.12,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "PROF",
+      "frequency": 4.12,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "RAP",
+      "frequency": 4.12,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "REV",
+      "frequency": 4.12,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "SRI",
+      "frequency": 4.12,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "VICTORIAN",
+      "frequency": 4.12,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "ZONES",
+      "frequency": 4.12,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "ACE",
+      "frequency": 4.11,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "ATHLETE",
+      "frequency": 4.11,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "ATTRACTION",
+      "frequency": 4.11,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "CANON",
+      "frequency": 4.11,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "CAPABILITIES",
+      "frequency": 4.11,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "EDITORIAL",
+      "frequency": 4.11,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "ENTERTAINING",
+      "frequency": 4.11,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "EST",
+      "frequency": 4.11,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "GENERIC",
+      "frequency": 4.11,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "INVESTING",
+      "frequency": 4.11,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "LOSES",
+      "frequency": 4.11,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "MIXING",
+      "frequency": 4.11,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "REFLECTS",
+      "frequency": 4.11,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "THY",
+      "frequency": 4.11,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "WARNER",
+      "frequency": 4.11,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "ARCHIVES",
+      "frequency": 4.1,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "CAM",
+      "frequency": 4.1,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "CYCLING",
+      "frequency": 4.1,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "DENNIS",
+      "frequency": 4.1,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "DERBY",
+      "frequency": 4.1,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "DRAWS",
+      "frequency": 4.1,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "IMPLICATIONS",
+      "frequency": 4.1,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "INNOVATIVE",
+      "frequency": 4.1,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "LES",
+      "frequency": 4.1,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "NUTRITION",
+      "frequency": 4.1,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "ORE",
+      "frequency": 4.1,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "POSE",
+      "frequency": 4.1,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "PROTEINS",
+      "frequency": 4.1,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "SEEMINGLY",
+      "frequency": 4.1,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "SHARK",
+      "frequency": 4.1,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "SHOCKING",
+      "frequency": 4.1,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "TECHNICALLY",
+      "frequency": 4.1,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "TITLED",
+      "frequency": 4.1,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "BEE",
+      "frequency": 4.09,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "COLIN",
+      "frequency": 4.09,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "CULT",
+      "frequency": 4.09,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "DIARY",
+      "frequency": 4.09,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "DISAGREE",
+      "frequency": 4.09,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "EURO",
+      "frequency": 4.09,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "GOVERNANCE",
+      "frequency": 4.09,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "HUG",
+      "frequency": 4.09,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "IMPORTANTLY",
+      "frequency": 4.09,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "INDICATING",
+      "frequency": 4.09,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "KAREN",
+      "frequency": 4.09,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "LAWSUIT",
+      "frequency": 4.09,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "LEAK",
+      "frequency": 4.09,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "MUSICIANS",
+      "frequency": 4.09,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "SAFER",
+      "frequency": 4.09,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "SETUP",
+      "frequency": 4.09,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "SLOT",
+      "frequency": 4.09,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "SMASH",
+      "frequency": 4.09,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "SURPRISINGLY",
+      "frequency": 4.09,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "TEENAGER",
+      "frequency": 4.09,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "TREATMENTS",
+      "frequency": 4.09,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "VARIATIONS",
+      "frequency": 4.09,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "AGREES",
+      "frequency": 4.08,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "ALLEGATIONS",
+      "frequency": 4.08,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "BLEEDING",
+      "frequency": 4.08,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "BUD",
+      "frequency": 4.08,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "CELEBRITIES",
+      "frequency": 4.08,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "COKE",
+      "frequency": 4.08,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "COMPARABLE",
+      "frequency": 4.08,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "CONTRACTOR",
+      "frequency": 4.08,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "DUMP",
+      "frequency": 4.08,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "DUO",
+      "frequency": 4.08,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "ENHANCED",
+      "frequency": 4.08,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "FAIRY",
+      "frequency": 4.08,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "FREAK",
+      "frequency": 4.08,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "FRUSTRATED",
+      "frequency": 4.08,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "INVESTIGATING",
+      "frequency": 4.08,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "LAYOUT",
+      "frequency": 4.08,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "MYTH",
+      "frequency": 4.08,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "ORGANISED",
+      "frequency": 4.08,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "RAPED",
+      "frequency": 4.08,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "REPAIRS",
+      "frequency": 4.08,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "SHAW",
+      "frequency": 4.08,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "UNBELIEVABLE",
+      "frequency": 4.08,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "ADMINISTRATOR",
+      "frequency": 4.07,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "ASSESS",
+      "frequency": 4.07,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "BIO",
+      "frequency": 4.07,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "BURGER",
+      "frequency": 4.07,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "COMPUTING",
+      "frequency": 4.07,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "GRADUATION",
+      "frequency": 4.07,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "INK",
+      "frequency": 4.07,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "INTEL",
+      "frequency": 4.07,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "OPTICAL",
+      "frequency": 4.07,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "PUBLISHERS",
+      "frequency": 4.07,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "SAVES",
+      "frequency": 4.07,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "SCARE",
+      "frequency": 4.07,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "SHORTS",
+      "frequency": 4.07,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "SPECIALIZED",
+      "frequency": 4.07,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "SUPPORTER",
+      "frequency": 4.07,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "TOE",
+      "frequency": 4.07,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "ACCOMMODATION",
+      "frequency": 4.06,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "ADORABLE",
+      "frequency": 4.06,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "CHEAT",
+      "frequency": 4.06,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "HAPPIER",
+      "frequency": 4.06,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "INDEPENDENTLY",
+      "frequency": 4.06,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "INDICATION",
+      "frequency": 4.06,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "INTERACTIVE",
+      "frequency": 4.06,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "LBS",
+      "frequency": 4.06,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "LINDA",
+      "frequency": 4.06,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "NIGERIAN",
+      "frequency": 4.06,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "PRESUMABLY",
+      "frequency": 4.06,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "PRETENDING",
+      "frequency": 4.06,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "QUALITIES",
+      "frequency": 4.06,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "RIDES",
+      "frequency": 4.06,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "STREAK",
+      "frequency": 4.06,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "TECHNOLOGICAL",
+      "frequency": 4.06,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "TRADITIONALLY",
+      "frequency": 4.06,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "YUP",
+      "frequency": 4.06,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "BEG",
+      "frequency": 4.05,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "BOUT",
+      "frequency": 4.05,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "CLARKE",
+      "frequency": 4.05,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "COMEBACK",
+      "frequency": 4.05,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "COS",
+      "frequency": 4.05,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "DIAGNOSED",
+      "frequency": 4.05,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "DIP",
+      "frequency": 4.05,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "DISTURBING",
+      "frequency": 4.05,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "DOT",
+      "frequency": 4.05,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "ELIMINATED",
+      "frequency": 4.05,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "ELLEN",
+      "frequency": 4.05,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "EMBARRASSED",
+      "frequency": 4.05,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "EXCEPTIONAL",
+      "frequency": 4.05,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "GRAPH",
+      "frequency": 4.05,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "HACK",
+      "frequency": 4.05,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "INTERACT",
+      "frequency": 4.05,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "LIMITATIONS",
+      "frequency": 4.05,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "MEASUREMENT",
+      "frequency": 4.05,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "MEASUREMENTS",
+      "frequency": 4.05,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "MEDIAN",
+      "frequency": 4.05,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "ORIENTATION",
+      "frequency": 4.05,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "OWEN",
+      "frequency": 4.05,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "PILLS",
+      "frequency": 4.05,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "PLANETS",
+      "frequency": 4.05,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "RAISES",
+      "frequency": 4.05,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "SIBLINGS",
+      "frequency": 4.05,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "SPAM",
+      "frequency": 4.05,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "SPEEDS",
+      "frequency": 4.05,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "STACK",
+      "frequency": 4.05,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "STATIC",
+      "frequency": 4.05,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "SUPPORTIVE",
+      "frequency": 4.05,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "SURGICAL",
+      "frequency": 4.05,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "AGING",
+      "frequency": 4.04,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "AIRLINE",
+      "frequency": 4.04,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "ARGUES",
+      "frequency": 4.04,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "AVE",
+      "frequency": 4.04,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "CLIPS",
+      "frequency": 4.04,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "COPE",
+      "frequency": 4.04,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "CREEPY",
+      "frequency": 4.04,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "CUM",
+      "frequency": 4.04,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "ECHO",
+      "frequency": 4.04,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "EMOTIONALLY",
+      "frequency": 4.04,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "EXPERIENCING",
+      "frequency": 4.04,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "FLAVOR",
+      "frequency": 4.04,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "INTERMEDIATE",
+      "frequency": 4.04,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "JOINS",
+      "frequency": 4.04,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "NONETHELESS",
+      "frequency": 4.04,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "NUT",
+      "frequency": 4.04,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "ORIGINS",
+      "frequency": 4.04,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "PIPELINE",
+      "frequency": 4.04,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "PLACEMENT",
+      "frequency": 4.04,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "PRICING",
+      "frequency": 4.04,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "RECREATION",
+      "frequency": 4.04,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "WORKPLACE",
+      "frequency": 4.04,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "ACHIEVING",
+      "frequency": 4.03,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "CANNABIS",
+      "frequency": 4.03,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "CHAMPIONSHIPS",
+      "frequency": 4.03,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "CONFERENCES",
+      "frequency": 4.03,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "CONSIDERS",
+      "frequency": 4.03,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "DIMENSIONAL",
+      "frequency": 4.03,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "EXECUTIVES",
+      "frequency": 4.03,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "HAROLD",
+      "frequency": 4.03,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "IDENTIFYING",
+      "frequency": 4.03,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "JUNK",
+      "frequency": 4.03,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "MOB",
+      "frequency": 4.03,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "MODEST",
+      "frequency": 4.03,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "MPH",
+      "frequency": 4.03,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "PILL",
+      "frequency": 4.03,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "SCREENS",
+      "frequency": 4.03,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "SEMESTER",
+      "frequency": 4.03,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "SOCKS",
+      "frequency": 4.03,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "SUITED",
+      "frequency": 4.03,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "SUPPLEMENT",
+      "frequency": 4.03,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "TIL",
+      "frequency": 4.03,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "TIN",
+      "frequency": 4.03,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "APR",
+      "frequency": 4.02,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "BERNARD",
+      "frequency": 4.02,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "BROADCASTING",
+      "frequency": 4.02,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "CAROL",
+      "frequency": 4.02,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "CARRIERS",
+      "frequency": 4.02,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "CONFUSING",
+      "frequency": 4.02,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "CONSULTATION",
+      "frequency": 4.02,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "DISAPPOINTING",
+      "frequency": 4.02,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "DIVING",
+      "frequency": 4.02,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "DOUG",
+      "frequency": 4.02,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "EGO",
+      "frequency": 4.02,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "ENVIRONMENTS",
+      "frequency": 4.02,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "FAVORITES",
+      "frequency": 4.02,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "FUNCTIONING",
+      "frequency": 4.02,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "GUT",
+      "frequency": 4.02,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "IDIOTS",
+      "frequency": 4.02,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "IVE",
+      "frequency": 4.02,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "OBSERVATIONS",
+      "frequency": 4.02,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "PEERS",
+      "frequency": 4.02,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "PREMISES",
+      "frequency": 4.02,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "RITUAL",
+      "frequency": 4.02,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "SURFACES",
+      "frequency": 4.02,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "WIDTH",
+      "frequency": 4.02,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "WORKOUT",
+      "frequency": 4.02,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "ABU",
+      "frequency": 4.01,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "APARTMENTS",
+      "frequency": 4.01,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "BRADLEY",
+      "frequency": 4.01,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "BUCK",
+      "frequency": 4.01,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "CAL",
+      "frequency": 4.01,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "DEN",
+      "frequency": 4.01,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "DEREK",
+      "frequency": 4.01,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "DISAPPOINTMENT",
+      "frequency": 4.01,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "GOV",
+      "frequency": 4.01,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "HARASSMENT",
+      "frequency": 4.01,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "HUGH",
+      "frequency": 4.01,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "JOAN",
+      "frequency": 4.01,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "MASSAGE",
+      "frequency": 4.01,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "NATO",
+      "frequency": 4.01,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "PAD",
+      "frequency": 4.01,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "PARTICIPATED",
+      "frequency": 4.01,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "REPORTERS",
+      "frequency": 4.01,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "ROSES",
+      "frequency": 4.01,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "SEN",
+      "frequency": 4.01,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "SHIFTS",
+      "frequency": 4.01,
+      "safety_or_trademark_flag": false
+    },
+    {
+      "word": "TAN",
+      "frequency": 4.01,
+      "safety_or_trademark_flag": false
+    }
+  ]
+}

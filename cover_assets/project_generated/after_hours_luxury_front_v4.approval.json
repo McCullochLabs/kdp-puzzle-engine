@@ -1,0 +1,18 @@
+{
+  "approval_revision": "2026-11-02T14:03:15.769649+00:00",
+  "approval_state": "approved",
+  "asset_id": "after_hours_luxury_finished_front_v4",
+  "asset_path": "cover_assets/project_generated/after_hours_luxury_front_v4.png",
+  "asset_sha256": "0cd24f4ce9f35283748cb348b095b7cc8a4394298c7963c7b92891c545c18b50",
+  "front_cover_sha256": "0cd24f4ce9f35283748cb348b095b7cc8a4394298c7963c7b92891c545c18b50",
+  "provenance": {
+    "approval_scope": "Exact After Hours cover asset only; content, rights, KDP readiness and publication remain separate pending gates",
+    "method": "Original local vector typography and ornament; metallic-color simulation",
+    "owner_design_approval": "Approve this dark-luxury design",
+    "owner_production_asset_authorization": "Authorize this cover asset for production use",
+    "provider": "SladePuzzleCo project generation",
+    "source_vector_sha256": "a1c7f887955e7f488473e458188068305bdc8c027e7f9e6234a8d8dee53c4217"
+  },
+  "rendered_at": "2026-11-02T14:03:15+00:00",
+  "schema_version": 1
+}

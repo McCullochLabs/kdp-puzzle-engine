@@ -5,7 +5,20 @@ from dataclasses import dataclass
 from pathlib import Path
 from .index import COVER_ASSETS, QUEUE_FILE, BackgroundAssetIndex, file_sha256, image_health, perceptual_hash, utc_now
 from .providers import CloudflareWorkersAIProvider, ProviderError
+ROOT = Path(__file__).resolve().parents[1]
 GENERATED_DIR = COVER_ASSETS / "generated_backgrounds"
+def _approved_classification(row: dict) -> str:
+    """Keep human approval tied to the asset's actual recorded provider."""
+    provider = str((row.get("provenance") or {}).get("provider") or "").casefold()
+    classifications = {
+        "chatgpt project generation": "APPROVED_CHATGPT_GENERATED",
+        "cloudflare workers ai": "APPROVED_CLOUDFLARE_GENERATED",
+        "gemini api": "APPROVED_GEMINI_GENERATED",
+        "sladepuzzleco project generation": "APPROVED_PROJECT_GENERATED",
+    }
+    if provider not in classifications or row.get("project_generated") is not True:
+        raise ValueError("Cannot approve artwork without a verified project-generation provider.")
+    return classifications[provider]
 def _tokens(text: str) -> set[str]: return {word for word in re.findall(r"[a-z0-9]+", text.casefold()) if len(word) > 2}
 def build_prompt(topic: str, *, palette: str = "", composition: str = "center", adult: bool = False, variation: int = 0) -> str:
     styles = ["cinematic editorial illustration", "polished dimensional paper-cut scene", "rich contemporary editorial art", "textured graphic-novel illustration", "warm premium gouache artwork", "bold refined vector-style illustration"]
@@ -24,12 +37,15 @@ class BackgroundGenerationService:
     def enqueue(self, *, topic: str, palette: str = "", adult: bool = False, quantity: int = 1) -> list[dict]:
         queue = self._load_queue(); jobs = []
         for number in range(max(1, min(int(quantity), 12))):
-            seed = random.SystemRandom().randint(1, 2**31 - 1); job = {"job_id": hashlib.sha1(f"{topic}|{seed}".encode()).hexdigest()[:16], "topic": topic, "palette": palette, "adult": bool(adult), "seed": seed, "variation": number, "status": "QUEUED", "attempts": 0, "created_at": utc_now(), "updated_at": utc_now()}
+            seed = random.SystemRandom().randint(1, 2**31 - 1); job = {"job_id": hashlib.sha1(f"{topic}|{seed}".encode()).hexdigest()[:16], "topic": topic, "palette": palette, "adult": bool(adult), "seed": seed, "variation": number, "provider": getattr(self.provider,"name","cloudflare_workers_ai"), "status": "QUEUED", "attempts": 0, "created_at": utc_now(), "updated_at": utc_now()}
             queue["jobs"].append(job); jobs.append(job)
         self._save_queue(queue); return jobs
     def process_next(self) -> GenerationResult:
-        queue = self._load_queue(); job = next((row for row in queue["jobs"] if row.get("status") in {"QUEUED", "RETRY"}), None)
-        if not job: return GenerationResult("IDLE", "There are no background requests waiting.")
+        queue = self._load_queue(); job = next((row for row in queue["jobs"] if row.get("status") in {"QUEUED", "RETRY", "PAUSED"} and row.get("provider","cloudflare_workers_ai") == getattr(self.provider,"name","cloudflare_workers_ai")), None)
+        if not job:
+            if any(row.get("status") in {"QUEUED","RETRY","PAUSED"} for row in queue["jobs"]):
+                return GenerationResult("PAUSED", "Queued artwork uses another image provider. Select the provider used when the concept was queued.")
+            return GenerationResult("IDLE", "There are no background requests waiting.")
         job.update(status="GENERATING", attempts=int(job.get("attempts", 0)) + 1, updated_at=utc_now()); self._save_queue(queue)
         prompt = build_prompt(str(job["topic"]), palette=str(job.get("palette") or ""), adult=bool(job.get("adult")), variation=int(job.get("variation", 0)))
         try: raw = self.provider.generate(prompt)
@@ -43,8 +59,8 @@ class BackgroundGenerationService:
         duplicate = next((row for row in self.index.assets() if row.get("sha256") == sha or _hamming_hex(str(row.get("perceptual_hash", "")), phash) <= 6), None)
         if duplicate:
             job.update(status="REJECTED", last_error="Too similar to an existing approved or reviewed asset.", updated_at=utc_now()); self._save_queue(queue); return GenerationResult("REJECTED", "The generated background was too close to an existing image, so it was not added.")
-        relative = str(candidate.relative_to(Path(__file__).resolve().parents[1])).replace("/", "\\")
-        asset = {"asset_id": "bg_" + job["job_id"], "path": relative, "file": relative, "name": f"Generated {job['topic']} background", "topics": list(_tokens(str(job["topic"]))), "palette": str(job.get("palette") or ""), "focus": "center", "audience": "adult" if job.get("adult") else "general", "classification": "GENERATED_AWAITING_REVIEW", "approval_state": "awaiting_review", "production_approved": False, "project_generated": True, "source_type": "generated_art", "lifecycle_state": "active", "orientation": "portrait" if int(health.get("height") or 0) > int(health.get("width") or 0) else "landscape", "health": health, "sha256": sha, "perceptual_hash": phash, "visual_family_id": "vf_" + phash, "provenance": {"provider": "Cloudflare Workers AI", "model": getattr(self.provider.credentials, "model", "configured model"), "prompt": prompt, "generated_at": utc_now()}, "usage": [], "created_at": utc_now(), "updated_at": utc_now()}
+        relative = str(candidate.relative_to(ROOT)).replace("/", "\\")
+        asset = {"asset_id": "bg_" + job["job_id"], "path": relative, "file": relative, "name": f"Generated {job['topic']} background", "topics": list(_tokens(str(job["topic"]))), "palette": str(job.get("palette") or ""), "focus": "center", "audience": "adult" if job.get("adult") else "general", "classification": "GENERATED_AWAITING_REVIEW", "approval_state": "awaiting_review", "production_approved": False, "project_generated": True, "source_type": "generated_art", "lifecycle_state": "active", "orientation": "portrait" if int(health.get("height") or 0) > int(health.get("width") or 0) else "landscape", "health": health, "sha256": sha, "perceptual_hash": phash, "visual_family_id": "vf_" + phash, "provenance": {"provider": getattr(self.provider,"provenance_name","Cloudflare Workers AI"), "model": getattr(getattr(self.provider,"credentials",None), "model", "configured model"), "prompt": prompt, "generated_at": utc_now()}, "usage": [], "created_at": utc_now(), "updated_at": utc_now()}
         payload = self.index.payload(); payload.setdefault("assets", []).append(asset); self.index.save(payload)
         job.update(status="AWAITING_REVIEW", asset_id=asset["asset_id"], updated_at=utc_now()); self._save_queue(queue); return GenerationResult("AWAITING_REVIEW", "A new background is ready for human review. It cannot enter production until approved.", asset)
 
@@ -57,19 +73,20 @@ class BackgroundGenerationService:
         row = next((item for item in payload.get("assets", []) if str(item.get("asset_id")) == str(asset_id)), None)
         if not row:
             return GenerationResult("MISSING", "The background record could not be found.")
-        source = Path(__file__).resolve().parents[1] / str(row.get("path") or "")
+        source = ROOT / str(row.get("path") or "")
         if not source.is_file():
             return GenerationResult("MISSING", "The background image file could not be found.", row)
         if decision == "rejected":
             row.update(approval_state="rejected", production_approved=False, classification="REJECTED", approval_revision=utc_now(), updated_at=utc_now())
             self.index.save(payload)
             return GenerationResult("REJECTED", "The background was rejected and remains unavailable to production.", row)
+        classification = _approved_classification(row)
         approved = GENERATED_DIR / "approved" / source.name
         approved.parent.mkdir(parents=True, exist_ok=True)
         if source.resolve() != approved.resolve(): source.replace(approved)
-        relative = str(approved.relative_to(Path(__file__).resolve().parents[1])).replace("/", "\\")
+        relative = str(approved.relative_to(ROOT)).replace("/", "\\")
         row.update(path=relative, file=relative, approval_state="approved", production_approved=True,
-                   classification="APPROVED_CLOUDFLARE_GENERATED", approval_revision=utc_now(),
+                   classification=classification, approval_revision=utc_now(),
                    sha256=file_sha256(approved), updated_at=utc_now())
         self.index.save(payload)
         return GenerationResult("APPROVED", "The reviewed background is approved for production.", row)

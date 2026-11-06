@@ -1,0 +1,412 @@
+{
+  "schema_version": 1,
+  "research_status": "REVIEW_REQUIRED_NOT_APPROVED",
+  "lexical_review_group": "noun.body",
+  "records": [
+    {
+      "normalized": "ADRENALINE",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "adrenaline",
+          "synset": "n:05408388",
+          "lexical_category": "noun.body",
+          "definition": "a catecholamine secreted by the adrenal medulla in response to stress (trade name Adrenalin); stimulates autonomic nerve action"
+        }
+      ],
+      "candidate_categories": [
+        "noun.body"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    },
+    {
+      "normalized": "AFRO",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "Afro",
+          "synset": "n:05258889",
+          "lexical_category": "noun.body",
+          "definition": "a rounded thickly curled hairdo"
+        }
+      ],
+      "candidate_categories": [
+        "noun.body"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    },
+    {
+      "normalized": "AMYGDALA",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "amygdala",
+          "synset": "n:05495571",
+          "lexical_category": "noun.body",
+          "definition": "an almond-shaped neural structure in the anterior part of the temporal lobe of the cerebrum; intimately connected with the hypothalamus and the hippocampus and the cingulate gyrus; as part of the limbic system it plays an important role in motivation and emotional behavior"
+        }
+      ],
+      "candidate_categories": [
+        "noun.body"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    },
+    {
+      "normalized": "ANS",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "ANS",
+          "synset": "n:05504532",
+          "lexical_category": "noun.body",
+          "definition": "the part of the nervous system of vertebrates that controls involuntary actions of the smooth muscles and heart and glands"
+        }
+      ],
+      "candidate_categories": [
+        "noun.body"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    },
+    {
+      "normalized": "ARSE",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "arse",
+          "synset": "n:05538215",
+          "lexical_category": "noun.body",
+          "definition": "vulgar slang for anus"
+        },
+        {
+          "lemma": "arse",
+          "synset": "n:05559256",
+          "lexical_category": "noun.body",
+          "definition": "the fleshy part of the human body that you sit on; \"he deserves a good kick in the butt\"; \"are you going to sit on your fanny and do nothing?\""
+        }
+      ],
+      "candidate_categories": [
+        "noun.body"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    },
+    {
+      "normalized": "ARSEHOLE",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "arsehole",
+          "synset": "n:05538215",
+          "lexical_category": "noun.body",
+          "definition": "vulgar slang for anus"
+        }
+      ],
+      "candidate_categories": [
+        "noun.body"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    },
+    {
+      "normalized": "CLIT",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "clit",
+          "synset": "n:05523420",
+          "lexical_category": "noun.body",
+          "definition": "a female sexual organ homologous to the penis"
+        }
+      ],
+      "candidate_categories": [
+        "noun.body"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    },
+    {
+      "normalized": "CLITORIS",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "clitoris",
+          "synset": "n:05523420",
+          "lexical_category": "noun.body",
+          "definition": "a female sexual organ homologous to the penis"
+        }
+      ],
+      "candidate_categories": [
+        "noun.body"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    },
+    {
+      "normalized": "CUM",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "cum",
+          "synset": "n:05404336",
+          "lexical_category": "noun.body",
+          "definition": "the thick white fluid containing spermatozoa that is ejaculated by the male genital tract"
+        }
+      ],
+      "candidate_categories": [
+        "noun.body"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    },
+    {
+      "normalized": "EPINEPHRINE",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "epinephrine",
+          "synset": "n:05408388",
+          "lexical_category": "noun.body",
+          "definition": "a catecholamine secreted by the adrenal medulla in response to stress (trade name Adrenalin); stimulates autonomic nerve action"
+        }
+      ],
+      "candidate_categories": [
+        "noun.body"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    },
+    {
+      "normalized": "KNUCKLE",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "knuckle",
+          "synset": "n:05585205",
+          "lexical_category": "noun.body",
+          "definition": "a joint of a finger when the fist is closed"
+        }
+      ],
+      "candidate_categories": [
+        "noun.body"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    },
+    {
+      "normalized": "MAIDENHEAD",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "maidenhead",
+          "synset": "n:05521934",
+          "lexical_category": "noun.body",
+          "definition": "a fold of tissue that partly covers the entrance to the vagina of a virgin"
+        }
+      ],
+      "candidate_categories": [
+        "noun.body"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    },
+    {
+      "normalized": "NEURON",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "neuron",
+          "synset": "n:05465567",
+          "lexical_category": "noun.body",
+          "definition": "a cell that is specialized to conduct nerve impulses"
+        }
+      ],
+      "candidate_categories": [
+        "noun.body"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    },
+    {
+      "normalized": "OXYTOCIN",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "oxytocin",
+          "synset": "n:05411571",
+          "lexical_category": "noun.body",
+          "definition": "hormone secreted by the posterior pituitary gland (trade name Pitocin); stimulates contractions of the uterus and ejection of milk"
+        }
+      ],
+      "candidate_categories": [
+        "noun.body"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    },
+    {
+      "normalized": "PUBES",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "pubes",
+          "synset": "n:05558555",
+          "lexical_category": "noun.body",
+          "definition": "the lower part of the abdomen just above the external genital organs"
+        }
+      ],
+      "candidate_categories": [
+        "noun.body"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    },
+    {
+      "normalized": "RAS",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "RAS",
+          "synset": "n:05502375",
+          "lexical_category": "noun.body",
+          "definition": "the network in the reticular formation that serves an alerting or arousal function"
+        }
+      ],
+      "candidate_categories": [
+        "noun.body"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    },
+    {
+      "normalized": "RES",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "RES",
+          "synset": "n:05461349",
+          "lexical_category": "noun.body",
+          "definition": "a widely distributed system consisting of all the cells able to ingest bacteria or colloidal particles etc, except for certain white blood cells"
+        }
+      ],
+      "candidate_categories": [
+        "noun.body"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    },
+    {
+      "normalized": "SEMEN",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "semen",
+          "synset": "n:05404336",
+          "lexical_category": "noun.body",
+          "definition": "the thick white fluid containing spermatozoa that is ejaculated by the male genital tract"
+        }
+      ],
+      "candidate_categories": [
+        "noun.body"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    },
+    {
+      "normalized": "TIPTOE",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "tiptoe",
+          "synset": "n:05577304",
+          "lexical_category": "noun.body",
+          "definition": "the tip of a toe"
+        }
+      ],
+      "candidate_categories": [
+        "noun.body"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    },
+    {
+      "normalized": "URETHRA",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "urethra",
+          "synset": "n:05513020",
+          "lexical_category": "noun.body",
+          "definition": "duct through which urine is discharged in most mammals and which serves as the male genital duct"
+        }
+      ],
+      "candidate_categories": [
+        "noun.body"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    },
+    {
+      "normalized": "VULVA",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "vulva",
+          "synset": "n:05521636",
+          "lexical_category": "noun.body",
+          "definition": "external parts of the female genitalia"
+        }
+      ],
+      "candidate_categories": [
+        "noun.body"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    }
+  ]
+}

@@ -1,0 +1,1133 @@
+{
+  "schema_version": 1,
+  "research_status": "REVIEW_REQUIRED_NOT_APPROVED",
+  "lexical_review_group": "noun.group",
+  "records": [
+    {
+      "normalized": "ABB",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "ABB",
+          "synset": "n:08011266",
+          "lexical_category": "noun.group",
+          "definition": "an urban hit squad and guerrilla group of the Communist Party in the Philippines; formed in the 1980s"
+        }
+      ],
+      "candidate_categories": [
+        "noun.group"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    },
+    {
+      "normalized": "ACC",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "ACC",
+          "synset": "n:08196622",
+          "lexical_category": "noun.group",
+          "definition": "a command that is the primary provider of air combat weapon systems to the United States Air Force; operates fighter, bomber, reconnaissance, battle-management, and rescue aircraft"
+        }
+      ],
+      "candidate_categories": [
+        "noun.group"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    },
+    {
+      "normalized": "AUM",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "Aum",
+          "synset": "n:08017614",
+          "lexical_category": "noun.group",
+          "definition": "a terrorist organization whose goal is to take over Japan and then the world; based on a religion founded in 1987 that combines elements of Buddhism with Christianity; \"in 1995 Aum members released deadly sarin gas on a Tokyo subway train\""
+        }
+      ],
+      "candidate_categories": [
+        "noun.group"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    },
+    {
+      "normalized": "BACKFIELD",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "backfield",
+          "synset": "n:08429744",
+          "lexical_category": "noun.group",
+          "definition": "the offensive football players who line up behind the linemen"
+        }
+      ],
+      "candidate_categories": [
+        "noun.group"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    },
+    {
+      "normalized": "CHING",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "Ch'ing",
+          "synset": "n:08157405",
+          "lexical_category": "noun.group",
+          "definition": "the last imperial dynasty of China (from 1644 to 1912) which was overthrown by revolutionaries; during the Qing dynasty China was ruled by the Manchu"
+        }
+      ],
+      "candidate_categories": [
+        "noun.group"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    },
+    {
+      "normalized": "CHRISTENDOM",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "Christendom",
+          "synset": "n:08082236",
+          "lexical_category": "noun.group",
+          "definition": "the collective body of Christians throughout the world and history (found predominantly in Europe and the Americas and Australia); \"for a thousand years the Roman Catholic Church was the principal church of Christendom\""
+        }
+      ],
+      "candidate_categories": [
+        "noun.group"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    },
+    {
+      "normalized": "CIA",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "CIA",
+          "synset": "n:08124971",
+          "lexical_category": "noun.group",
+          "definition": "an independent agency of the United States government responsible for collecting and coordinating intelligence and counterintelligence activities abroad in the national interest; headed by the Director of Central Intelligence under the supervision of the President and National Security Council"
+        }
+      ],
+      "candidate_categories": [
+        "noun.group"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    },
+    {
+      "normalized": "CID",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "CID",
+          "synset": "n:08141092",
+          "lexical_category": "noun.group",
+          "definition": "the United States Army's principal law enforcement agency responsible for the conduct of criminal investigations for all levels of the Army anywhere in the world"
+        }
+      ],
+      "candidate_categories": [
+        "noun.group"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    },
+    {
+      "normalized": "CIS",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "CIS",
+          "synset": "n:08295138",
+          "lexical_category": "noun.group",
+          "definition": "an alliance made up of states that had been Soviet Socialist Republics in the Soviet Union prior to its dissolution in Dec 1991"
+        }
+      ],
+      "candidate_categories": [
+        "noun.group"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    },
+    {
+      "normalized": "COASTGUARD",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "coastguard",
+          "synset": "n:08192361",
+          "lexical_category": "noun.group",
+          "definition": "a military service responsible for the safety of maritime traffic in coastal waters"
+        }
+      ],
+      "candidate_categories": [
+        "noun.group"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    },
+    {
+      "normalized": "DEA",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "DEA",
+          "synset": "n:08141374",
+          "lexical_category": "noun.group",
+          "definition": "federal agency responsible for enforcing laws and regulations governing narcotics and controlled substances; goal is to immobilize drug trafficking organizations"
+        }
+      ],
+      "candidate_categories": [
+        "noun.group"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    },
+    {
+      "normalized": "DIA",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "DIA",
+          "synset": "n:08340989",
+          "lexical_category": "noun.group",
+          "definition": "an intelligence agency of the United States in the Department of Defense; is responsible for providing intelligence in support of military planning and operations and weapons acquisition"
+        }
+      ],
+      "candidate_categories": [
+        "noun.group"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    },
+    {
+      "normalized": "DICHOTOMY",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "dichotomy",
+          "synset": "n:07939880",
+          "lexical_category": "noun.group",
+          "definition": "being twofold; a classification into two opposed parts or subclasses; \"the dichotomy between eastern and western culture\""
+        }
+      ],
+      "candidate_categories": [
+        "noun.group"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    },
+    {
+      "normalized": "DOD",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "DoD",
+          "synset": "n:08131530",
+          "lexical_category": "noun.group",
+          "definition": "the federal department responsible for safeguarding national security of the United States; created in 1947"
+        }
+      ],
+      "candidate_categories": [
+        "noun.group"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    },
+    {
+      "normalized": "DUMA",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "Duma",
+          "synset": "n:08320052",
+          "lexical_category": "noun.group",
+          "definition": "a legislative body in the ruling assembly of Russia and of some other republics in the former USSR"
+        }
+      ],
+      "candidate_categories": [
+        "noun.group"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    },
+    {
+      "normalized": "ELA",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "ELA",
+          "synset": "n:08043169",
+          "lexical_category": "noun.group",
+          "definition": "an extreme leftist terrorist group formed in Greece in 1971 to oppose the military junta that ruled Greece from 1967 to 1974; a revolutionary group opposed to capitalism and imperialism and the United States"
+        }
+      ],
+      "candidate_categories": [
+        "noun.group"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    },
+    {
+      "normalized": "EPA",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "EPA",
+          "synset": "n:08122960",
+          "lexical_category": "noun.group",
+          "definition": "an independent federal agency established to coordinate programs aimed at reducing pollution and protecting the environment"
+        }
+      ],
+      "candidate_categories": [
+        "noun.group"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    },
+    {
+      "normalized": "EXEC",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "EXEC",
+          "synset": "n:08128837",
+          "lexical_category": "noun.group",
+          "definition": "the chief executive department of the United States government"
+        }
+      ],
+      "candidate_categories": [
+        "noun.group"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    },
+    {
+      "normalized": "FAR",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "FAR",
+          "synset": "n:08016900",
+          "lexical_category": "noun.group",
+          "definition": "a terrorist organization that seeks to overthrow the government dominated by Tutsi and to institute Hutu control again; \"in 1999 ALIR guerrillas kidnapped and killed eight foreign tourists\""
+        }
+      ],
+      "candidate_categories": [
+        "noun.group"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    },
+    {
+      "normalized": "FBI",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "FBI",
+          "synset": "n:08136260",
+          "lexical_category": "noun.group",
+          "definition": "a federal law enforcement agency that is the principal investigative arm of the Department of Justice"
+        }
+      ],
+      "candidate_categories": [
+        "noun.group"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    },
+    {
+      "normalized": "FCS",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "FCS",
+          "synset": "n:08421975",
+          "lexical_category": "noun.group",
+          "definition": "a cooperative nationwide system of banks and associations providing credit to farmers and related businesses; originally capitalized by the federal government but now owned by its members and borrowers"
+        }
+      ],
+      "candidate_categories": [
+        "noun.group"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    },
+    {
+      "normalized": "FEW",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "few",
+          "synset": "n:08388074",
+          "lexical_category": "noun.group",
+          "definition": "a small elite group; \"it was designed for the discriminating few\""
+        }
+      ],
+      "candidate_categories": [
+        "noun.group"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    },
+    {
+      "normalized": "FPS",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "FPS",
+          "synset": "n:08351777",
+          "lexical_category": "noun.group",
+          "definition": "an agency in the General Services Administration that is a security organization to provide a safe environment where Federal agencies can conduct their business"
+        }
+      ],
+      "candidate_categories": [
+        "noun.group"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    },
+    {
+      "normalized": "FRS",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "FRS",
+          "synset": "n:08350470",
+          "lexical_category": "noun.group",
+          "definition": "the central bank of the United States; incorporates 12 Federal Reserve branch banks and all national banks and state-chartered commercial banks and some trust companies; \"the Fed seeks to control the United States economy by raising and lowering short-term interest rates and the money supply\""
+        }
+      ],
+      "candidate_categories": [
+        "noun.group"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    },
+    {
+      "normalized": "HABSBURG",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "Habsburg",
+          "synset": "n:08155302",
+          "lexical_category": "noun.group",
+          "definition": "a royal German family that provided rulers for several European states and wore the crown of the Holy Roman Empire from 1440 to 1806"
+        }
+      ],
+      "candidate_categories": [
+        "noun.group"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    },
+    {
+      "normalized": "HAN",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "Han",
+          "synset": "n:08154703",
+          "lexical_category": "noun.group",
+          "definition": "imperial dynasty that ruled China (most of the time from 206 BC to AD 220) and expanded its boundaries and developed its bureaucracy; remembered as one of the great eras of Chinese civilization"
+        }
+      ],
+      "candidate_categories": [
+        "noun.group"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    },
+    {
+      "normalized": "HIERARCHY",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "hierarchy",
+          "synset": "n:08376051",
+          "lexical_category": "noun.group",
+          "definition": "the organization of people at different ranks in an administrative body"
+        },
+        {
+          "lemma": "hierarchy",
+          "synset": "n:08377806",
+          "lexical_category": "noun.group",
+          "definition": "a series of ordered groupings of people or things within a system; \"put honesty first in her hierarchy of values\""
+        }
+      ],
+      "candidate_categories": [
+        "noun.group"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    },
+    {
+      "normalized": "HUD",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "HUD",
+          "synset": "n:08135062",
+          "lexical_category": "noun.group",
+          "definition": "the United States federal department that administers federal programs dealing with better housing and urban renewal; created in 1965"
+        }
+      ],
+      "candidate_categories": [
+        "noun.group"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    },
+    {
+      "normalized": "INC",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "INC",
+          "synset": "n:08403907",
+          "lexical_category": "noun.group",
+          "definition": "a heterogeneous collection of groups united in their opposition to Saddam Hussein's government of Iraq; formed in 1992 it is comprised of Sunni and Shiite Arabs and Kurds who hope to build a new government"
+        }
+      ],
+      "candidate_categories": [
+        "noun.group"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    },
+    {
+      "normalized": "INS",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "INS",
+          "synset": "n:08136502",
+          "lexical_category": "noun.group",
+          "definition": "an agency in the Department of Justice that enforces laws and regulations for the admission of foreign-born persons to the United States"
+        }
+      ],
+      "candidate_categories": [
+        "noun.group"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    },
+    {
+      "normalized": "INTERPOL",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "Interpol",
+          "synset": "n:08344756",
+          "lexical_category": "noun.group",
+          "definition": "an international intelligence agency permitting collaboration among intelligence agencies around the world"
+        }
+      ],
+      "candidate_categories": [
+        "noun.group"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    },
+    {
+      "normalized": "IRS",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "IRS",
+          "synset": "n:08143321",
+          "lexical_category": "noun.group",
+          "definition": "the bureau of the Treasury Department responsible for tax collections"
+        }
+      ],
+      "candidate_categories": [
+        "noun.group"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    },
+    {
+      "normalized": "ISN",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "ISN",
+          "synset": "n:08344301",
+          "lexical_category": "noun.group",
+          "definition": "Switzerland's information network for security and defense studies and for peace and conflict research and for international relations"
+        }
+      ],
+      "candidate_categories": [
+        "noun.group"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    },
+    {
+      "normalized": "JEM",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "JEM",
+          "synset": "n:08026197",
+          "lexical_category": "noun.group",
+          "definition": "a terrorist organization founded in 2000; a militant Islamic group active in Kashmir and closely aligned with al-Rashid Trust; seeks to secure release of imprisoned fellow militants by kidnappings"
+        }
+      ],
+      "candidate_categories": [
+        "noun.group"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    },
+    {
+      "normalized": "KNESSET",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "Knesset",
+          "synset": "n:08319679",
+          "lexical_category": "noun.group",
+          "definition": "the Israeli unicameral parliament"
+        }
+      ],
+      "candidate_categories": [
+        "noun.group"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    },
+    {
+      "normalized": "MAFIA",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "mafia",
+          "synset": "n:08245425",
+          "lexical_category": "noun.group",
+          "definition": "any tightly knit group of trusted associates"
+        },
+        {
+          "lemma": "Mafia",
+          "synset": "n:08245549",
+          "lexical_category": "noun.group",
+          "definition": "a secret terrorist group in Sicily; originally opposed tyranny but evolved into a criminal organization in the middle of the 19th century"
+        },
+        {
+          "lemma": "Mafia",
+          "synset": "n:08245802",
+          "lexical_category": "noun.group",
+          "definition": "a crime syndicate in the United States; organized in families; believed to have important relations to the Sicilian Mafia"
+        }
+      ],
+      "candidate_categories": [
+        "noun.group"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    },
+    {
+      "normalized": "MAGI",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "Magi",
+          "synset": "n:08486538",
+          "lexical_category": "noun.group",
+          "definition": "(New Testament) the sages who visited Jesus and Mary and Joseph shortly after Jesus was born; the Gospel According to Matthew says they were guided by a star and brought gifts of gold and frankincense and myrrh; because there were three gifts it is usually assumed that there were three of them"
+        }
+      ],
+      "candidate_categories": [
+        "noun.group"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    },
+    {
+      "normalized": "MEDICI",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "Medici",
+          "synset": "n:08485281",
+          "lexical_category": "noun.group",
+          "definition": "aristocratic Italian family of powerful merchants and bankers who ruled Florence in the 15th century"
+        }
+      ],
+      "candidate_categories": [
+        "noun.group"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    },
+    {
+      "normalized": "MING",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "Ming",
+          "synset": "n:08156392",
+          "lexical_category": "noun.group",
+          "definition": "the imperial dynasty of China from 1368 to 1644"
+        }
+      ],
+      "candidate_categories": [
+        "noun.group"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    },
+    {
+      "normalized": "NATO",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "NATO",
+          "synset": "n:08174398",
+          "lexical_category": "noun.group",
+          "definition": "an international organization created in 1949 by the North Atlantic Treaty for purposes of collective security"
+        }
+      ],
+      "candidate_categories": [
+        "noun.group"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    },
+    {
+      "normalized": "NAZISM",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "Nazism",
+          "synset": "n:08366440",
+          "lexical_category": "noun.group",
+          "definition": "a form of socialism featuring racism and expansionism and obedience to a strong leader"
+        }
+      ],
+      "candidate_categories": [
+        "noun.group"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    },
+    {
+      "normalized": "NIST",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "NIST",
+          "synset": "n:08131005",
+          "lexical_category": "noun.group",
+          "definition": "an agency in the Technology Administration that makes measurements and sets standards as needed by industry or government programs"
+        }
+      ],
+      "candidate_categories": [
+        "noun.group"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    },
+    {
+      "normalized": "ONI",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "ONI",
+          "synset": "n:08194266",
+          "lexical_category": "noun.group",
+          "definition": "the military intelligence agency that provides for the intelligence and counterintelligence and investigative and security requirements of the United States Navy"
+        }
+      ],
+      "candidate_categories": [
+        "noun.group"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    },
+    {
+      "normalized": "OPEC",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "OPEC",
+          "synset": "n:08177030",
+          "lexical_category": "noun.group",
+          "definition": "an organization of countries formed in 1961 to agree on a common policy for the production and sale of petroleum"
+        }
+      ],
+      "candidate_categories": [
+        "noun.group"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    },
+    {
+      "normalized": "PAC",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "PAC",
+          "synset": "n:08327212",
+          "lexical_category": "noun.group",
+          "definition": "committee formed by a special-interest group to raise money for their favorite political candidates"
+        }
+      ],
+      "candidate_categories": [
+        "noun.group"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    },
+    {
+      "normalized": "PORTE",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "Porte",
+          "synset": "n:08052227",
+          "lexical_category": "noun.group",
+          "definition": "the Ottoman court in Constantinople"
+        }
+      ],
+      "candidate_categories": [
+        "noun.group"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    },
+    {
+      "normalized": "RABBLE",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "rabble",
+          "synset": "n:08184600",
+          "lexical_category": "noun.group",
+          "definition": "a disorderly crowd of people"
+        },
+        {
+          "lemma": "rabble",
+          "synset": "n:08401819",
+          "lexical_category": "noun.group",
+          "definition": "disparaging terms for the common people"
+        }
+      ],
+      "candidate_categories": [
+        "noun.group"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    },
+    {
+      "normalized": "REIT",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "REIT",
+          "synset": "n:08072287",
+          "lexical_category": "noun.group",
+          "definition": "an investment trust that owns and manages a pool of commercial properties and mortgages and other real estate assets; shares can be bought and sold in the stock market"
+        }
+      ],
+      "candidate_categories": [
+        "noun.group"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    },
+    {
+      "normalized": "RETROSPECTIVE",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "retrospective",
+          "synset": "n:08407969",
+          "lexical_category": "noun.group",
+          "definition": "an exhibition of a representative selection of an artist's life work"
+        }
+      ],
+      "candidate_categories": [
+        "noun.group"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    },
+    {
+      "normalized": "SCIENTOLOGY",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "Scientology",
+          "synset": "n:08100033",
+          "lexical_category": "noun.group",
+          "definition": "a new religion founded by L. Ron Hubbard in 1955 and characterized by a belief in the power of a person's spirit to clear itself of past painful experiences through self-knowledge and spiritual fulfillment"
+        }
+      ],
+      "candidate_categories": [
+        "noun.group"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    },
+    {
+      "normalized": "SHAKERS",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "Shakers",
+          "synset": "n:08150576",
+          "lexical_category": "noun.group",
+          "definition": "a celibate and communistic Christian sect in the United States"
+        }
+      ],
+      "candidate_categories": [
+        "noun.group"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    },
+    {
+      "normalized": "SHANG",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "Shang",
+          "synset": "n:08158314",
+          "lexical_category": "noun.group",
+          "definition": "the imperial dynasty ruling China from about the 18th to the 12th centuries BC"
+        }
+      ],
+      "candidate_categories": [
+        "noun.group"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    },
+    {
+      "normalized": "SHIA",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "Shia",
+          "synset": "n:08096301",
+          "lexical_category": "noun.group",
+          "definition": "one of the two main branches of orthodox Islam; mainly in Iran"
+        }
+      ],
+      "candidate_categories": [
+        "noun.group"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    },
+    {
+      "normalized": "TIGERS",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "Tigers",
+          "synset": "n:08032023",
+          "lexical_category": "noun.group",
+          "definition": "a terrorist organization in Sri Lanka that began in 1970 as a student protest over the limited university access for Tamil students; currently seeks to establish an independent Tamil state called Eelam; relies on guerilla strategy including terrorist tactics that target key government and military personnel; \"the Tamil Tigers perfected suicide bombing as a weapon of war\""
+        }
+      ],
+      "candidate_categories": [
+        "noun.group"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    },
+    {
+      "normalized": "UNESCO",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "UNESCO",
+          "synset": "n:08302052",
+          "lexical_category": "noun.group",
+          "definition": "an agency of the United Nations that promotes education and communication and the arts"
+        }
+      ],
+      "candidate_categories": [
+        "noun.group"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    },
+    {
+      "normalized": "UNICEF",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "UNICEF",
+          "synset": "n:08299911",
+          "lexical_category": "noun.group",
+          "definition": "an agency of the United Nations responsible for programs to aid education and the health of children and mothers in developing countries"
+        }
+      ],
+      "candidate_categories": [
+        "noun.group"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    },
+    {
+      "normalized": "WEI",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "Wei",
+          "synset": "n:08159591",
+          "lexical_category": "noun.group",
+          "definition": "any of several imperial dynasties of China ruling from 220 to 265 and from 386 to 556"
+        }
+      ],
+      "candidate_categories": [
+        "noun.group"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    },
+    {
+      "normalized": "WHO",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "WHO",
+          "synset": "n:08302724",
+          "lexical_category": "noun.group",
+          "definition": "a United Nations agency to coordinate international health activities and to help governments improve health services"
+        }
+      ],
+      "candidate_categories": [
+        "noun.group"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    }
+  ]
+}

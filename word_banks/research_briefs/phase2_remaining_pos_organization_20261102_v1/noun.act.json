@@ -1,0 +1,58 @@
+{
+  "schema_version": 1,
+  "research_status": "REVIEW_REQUIRED_NOT_APPROVED",
+  "group": "noun.act",
+  "records": [
+    {
+      "normalized": "EW",
+      "status": "pending_context_and_editorial_review",
+      "candidate_categories": [
+        "noun.act"
+      ],
+      "source_senses": [
+        {
+          "lemma": "EW",
+          "synset": "noun:00954751",
+          "part_of_speech": "noun",
+          "lexical_category": "noun.act",
+          "definition": "military action involving the use of electromagnetic energy to determine or exploit or reduce or prevent hostile use of the electromagnetic spectrum",
+          "match_type": "exact_normalized_source_lemma"
+        }
+      ]
+    },
+    {
+      "normalized": "IW",
+      "status": "pending_context_and_editorial_review",
+      "candidate_categories": [
+        "noun.act"
+      ],
+      "source_senses": [
+        {
+          "lemma": "IW",
+          "synset": "noun:00996180",
+          "part_of_speech": "noun",
+          "lexical_category": "noun.act",
+          "definition": "the use of information or information technology during a time of crisis or conflict to achieve or promote specific objectives over a specific adversary or adversaries; \"not everyone agrees that information warfare is limited to the realm of traditional warfare\"",
+          "match_type": "exact_normalized_source_lemma"
+        }
+      ]
+    },
+    {
+      "normalized": "KO",
+      "status": "pending_context_and_editorial_review",
+      "candidate_categories": [
+        "noun.act"
+      ],
+      "source_senses": [
+        {
+          "lemma": "KO",
+          "synset": "noun:00134099",
+          "part_of_speech": "noun",
+          "lexical_category": "noun.act",
+          "definition": "a blow that renders the opponent unconscious",
+          "match_type": "exact_normalized_source_lemma"
+        }
+      ]
+    }
+  ]
+}

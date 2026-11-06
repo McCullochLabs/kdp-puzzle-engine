@@ -1,0 +1,45 @@
+{
+  "schema_version": 1,
+  "research_status": "REVIEW_REQUIRED_NOT_APPROVED",
+  "lexical_review_group": "noun.phenomenon",
+  "records": [
+    {
+      "normalized": "GASLIGHT",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "gaslight",
+          "synset": "n:11463265",
+          "lexical_category": "noun.phenomenon",
+          "definition": "light yielded by the combustion of illuminating gas"
+        }
+      ],
+      "candidate_categories": [
+        "noun.phenomenon"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    },
+    {
+      "normalized": "SANDSTORM",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "sandstorm",
+          "synset": "n:11448153",
+          "lexical_category": "noun.phenomenon",
+          "definition": "a windstorm that lifts up clouds of dust or sand; \"it was the kind of duster not experienced in years\""
+        }
+      ],
+      "candidate_categories": [
+        "noun.phenomenon"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    }
+  ]
+}

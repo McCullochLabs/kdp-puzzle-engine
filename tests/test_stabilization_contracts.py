@@ -92,3 +92,10 @@ def test_publishing_database_releases_windows_file_handle(tmp_path):
     database.list_books()
     path.unlink()
     assert not path.exists()
+
+
+def test_runtime_alignment_still_rejects_a_different_patch_version(monkeypatch):
+    from types import SimpleNamespace
+    from tools import check_runtime
+    monkeypatch.setattr(check_runtime, 'sys', SimpleNamespace(version_info=(3, 13, 11)))
+    assert 'Python 3.13.15 is required.' in check_runtime.runtime_errors()

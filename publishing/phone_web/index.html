@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#163e35">
+  <title>Slade Family Studio · Activity packs</title>
+  <link rel="stylesheet" href="/style.css">
+  <script src="/app.js" defer></script>
+</head>
+<body>
+  <header><a href="#home" class="brand">Slade <span>Family Studio</span></a><span class="pill">Private HP workspace</span></header>
+  <main id="main">
+    <p class="notice">Create and save real activity packs on this HP. Secure phone access is still being built.</p>
+    <p id="status" role="status" aria-live="polite">Loading Studio choices…</p>
+    <section id="home" hidden aria-labelledby="home-title">
+      <p class="eyebrow">A little idea. A new adventure.</p>
+      <h1 id="home-title" tabindex="-1">What shall we make?</h1>
+      <p>Pick the activities. We’ll help with the details.</p>
+      <button id="create" class="primary">Create an activity pack <span aria-hidden="true">→</span></button>
+      <button id="projects-button" class="secondary">My projects</button>
+      <p class="quiet">Full puzzle books and cover reviews are planned for a later phase.</p>
+      <details><summary>Describe an idea with AI help</summary>
+      <label for="idea">What would you like to make?</label><textarea id="idea" maxlength="1000" rows="4" placeholder="Make a six-page homesteading activity pack for a nine-year-old."></textarea>
+      <button id="ask-ai" class="secondary">Ask ChatGPT/Codex</button>
+      <p class="hint">Uses your existing ChatGPT/Codex allowance only when you tap this button. AI proposes choices; you review them. The activity buttons and word sorting work without AI.</p></details>
+    </section>
+    <section id="editor" hidden aria-labelledby="editor-title">
+      <button data-home class="text-button">← Home</button>
+      <p class="eyebrow">Step 1 of 2 · Your idea</p>
+      <h1 id="editor-title" tabindex="-1">Make it your own</h1>
+      <form id="plan-form">
+        <label for="title">Pack name</label><input id="title" maxlength="100" required value="Our activity pack" autocomplete="off">
+        <label for="theme">Theme</label><select id="theme" required></select><p id="sources" class="hint"></p>
+        <p class="hint">Browse the full topic and group library. Word availability is checked when you review the plan.</p>
+        <label for="reader">Who is it for?</label><select id="reader" required></select>
+        <fieldset><legend>Activities</legend><div id="formats" class="choices"></div></fieldset>
+        <label for="count">How many activity pages?</label><select id="count"></select>
+        <details><summary>Adjust the theme mix</summary><label for="balance">Topic balance</label><select id="balance"></select></details>
+        <p class="hint">Reader settings control vocabulary and puzzle directions. An adult should review suitability.</p>
+        <button id="review-button" class="primary" type="submit">Check and review my plan →</button>
+      </form>
+    </section>
+    <section id="review" hidden aria-labelledby="review-title">
+      <button id="edit" class="text-button">← Change choices</button>
+      <p class="eyebrow">Step 2 of 2 · Check your choices</p>
+      <h1 id="review-title" tabindex="-1">Your pack plan</h1>
+      <dl id="plan-summary"></dl>
+      <aside><strong>Words chosen for you</strong><p>The Studio checked vocabulary for this plan. Create the pack to build and check the printable files.</p></aside>
+      <div id="plan-notes" class="hint"></div>
+      <button id="save" class="primary">Save project on the HP</button>
+      <button id="generate" class="primary">Create my pack →</button><p class="hint">Projects and pack jobs are saved on the HP. Closing this browser will not cancel generation.</p>
+      <p class="quiet">Activities and answers are separate PDFs. Review the pages before printing or sharing.</p>
+    </section>
+    <section id="projects" hidden aria-labelledby="projects-title">
+      <button data-home class="text-button">← Home</button>
+      <h1 id="projects-title" tabindex="-1">My projects</h1>
+      <p>Saved on this HP, including earlier pack revisions.</p>
+      <div id="drafts"></div><details><summary>Earlier browser drafts</summary><div id="legacy-drafts"></div></details>
+    </section>
+    <section id="result" hidden aria-labelledby="result-title">
+      <button data-home class="text-button">← Home</button><h1 id="result-title" tabindex="-1">Your activity pack</h1>
+      <p id="job-stage" role="status" aria-live="polite"></p><p id="job-error" class="hint"></p>
+      <div id="downloads" hidden><a id="download-activities" class="download">Download activities PDF</a><a id="download-answers" class="download">Download answers PDF</a><a id="download-zip" class="download">Download complete ZIP</a></div>
+      <div id="preview-area" hidden><label for="preview-kind">Preview</label><select id="preview-kind"><option value="activities">Activities</option><option value="answers">Answers</option></select>
+      <label for="preview-page">Page</label><select id="preview-page"></select><p id="preview-note" role="status"></p><img id="preview-image" alt="Actual generated PDF page"></div>
+      <p class="hint">Print on US Letter at Actual Size / 100%. Keep answers separate. These are printable activities, not an approved publishing package.</p>
+      <button id="result-projects" class="secondary">My projects</button>
+    </section>
+  </main>
+  <footer>Made for curious minds · Slade Puzzle Co.</footer>
+</body>
+</html>
+

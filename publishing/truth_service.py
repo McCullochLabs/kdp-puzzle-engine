@@ -24,11 +24,13 @@ class PublishingTruthService:
         book = self.service.db.get_book(book_id)
         if not book:
             raise ValueError("Book was not found in the Publishing Center.")
-        package = Path(str(book.get("package_path") or ""))
+        package_text = str(book.get("package_path") or "").strip()
+        package = Path(package_text) if package_text else Path("__no_catalog_package__")
+        package_exists = bool(package_text) and package.is_dir()
         gate = book_gate(book)
         records = self.service.db.marketplace_records(book_id)
         marketplace = marketplace_rows(book, records)
-        contract = release_contract(package) if package.is_dir() else {
+        contract = release_contract(package) if package_exists else {
             "ready": False, "required": (), "missing": ("complete package",),
         }
         cover = self._cover_truth(book, package)
@@ -36,7 +38,7 @@ class PublishingTruthService:
             self.service.project, str((book.get("metadata") or {}).get("title") or "")
         )
         attention = list(gate.get("blockers") or [])
-        if package.is_dir() and not contract["ready"]:
+        if package_exists and not contract["ready"]:
             attention.append("Package contract is incomplete: " + ", ".join(contract["missing"]))
         attention.extend(row["error_message"] for row in marketplace if row.get("error_message"))
         attention.extend(
@@ -89,7 +91,12 @@ class PublishingTruthService:
                  if isinstance(item, dict) and str(item.get("sha256") or "") == render_sha256),
                 None,
             )
-        final_review = self.service.db.final_local_review(book["book_id"], package_path=str(package)) if package.is_dir() else None
+        current_proof = ((release_lock or {}).get("snapshot") or {}).get("phase4_production_proof") or {}
+        proof_id = str(current_proof.get("proof_id") or "")
+        final_review = (
+            self.service.db.final_local_review(book["book_id"], proof_id=proof_id, package_path=str(package))
+            if package.is_dir() and proof_id else None
+        )
         if selected and front.is_file():
             state = "selected_direction_with_render"
             message = "A selected cover direction and final front-cover render are recorded."

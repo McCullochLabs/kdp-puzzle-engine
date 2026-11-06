@@ -1,0 +1,24 @@
+{
+  "schema_version": 1,
+  "research_status": "REVIEW_REQUIRED_NOT_APPROVED",
+  "group": "noun.shape",
+  "records": [
+    {
+      "normalized": "HA",
+      "status": "pending_context_and_editorial_review",
+      "candidate_categories": [
+        "noun.shape"
+      ],
+      "source_senses": [
+        {
+          "lemma": "HA",
+          "synset": "noun:13888783",
+          "part_of_speech": "noun",
+          "lexical_category": "noun.shape",
+          "definition": "(astronomy) the angular distance of a celestial point measured westward along the celestial equator from the zenith crossing; the right ascension for an observer at a particular location and time of day",
+          "match_type": "exact_normalized_source_lemma"
+        }
+      ]
+    }
+  ]
+}

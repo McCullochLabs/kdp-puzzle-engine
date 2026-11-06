@@ -280,24 +280,30 @@ def cover_concept_score(title: str, palette: str, layout: str) -> dict:
     return {"score": min(100, score), "notes": notes or ["Clear, complete direction ready for a visual cover test."]}
 
 
-def pdf_assessment(pdf: Path, expected_pages: int | None = None) -> dict:
+def _pdf_assessment_details(pdf: Path, expected_pages: int | None = None):
     """Structural PDF review: readable file, consistent trim, and blank-page signal."""
     if not pdf.is_file():
-        return {"ok": False, "notes": [f"Missing {pdf.name}."], "pages": 0}
+        return {"ok": False, "notes": [f"Missing {pdf.name}."], "pages": 0}, None, None
     try:
         reader = PdfReader(str(pdf))
         pages = len(reader.pages)
         sizes = {(round(float(page.mediabox.width), 1), round(float(page.mediabox.height), 1)) for page in reader.pages}
-        blank = sum(1 for page in reader.pages if not (page.extract_text() or "").strip())
+        texts = [page.extract_text() or "" for page in reader.pages]
+        blank = sum(1 for text in texts if not text.strip())
     except Exception as exc:
-        return {"ok": False, "notes": [f"Could not read {pdf.name}: {exc}"], "pages": 0}
+        return {"ok": False, "notes": [f"Could not read {pdf.name}: {exc}"], "pages": 0}, None, None
     notes = [f"{pdf.name} opens with {pages} page(s).", f"{len(sizes)} page size(s) detected."]
     if expected_pages is not None and pages != int(expected_pages):
         notes.append(f"Expected {expected_pages} pages but found {pages}.")
     if blank:
         notes.append(f"{blank} page(s) have no extractable text; visually confirm intentional art-only pages.")
     ok = len(sizes) == 1 and (expected_pages is None or pages == int(expected_pages))
-    return {"ok": ok, "notes": notes, "pages": pages, "sizes": sorted(sizes), "blank_pages": blank}
+    return {"ok": ok, "notes": notes, "pages": pages, "sizes": sorted(sizes), "blank_pages": blank}, reader, texts
+
+
+def pdf_assessment(pdf: Path, expected_pages: int | None = None) -> dict:
+    """Structural PDF review with the existing public report format."""
+    return _pdf_assessment_details(pdf, expected_pages)[0]
 
 
 def marketplace_assets(front: Path) -> list[str]:

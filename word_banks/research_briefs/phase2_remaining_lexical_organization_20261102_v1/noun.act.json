@@ -1,0 +1,1042 @@
+{
+  "schema_version": 1,
+  "research_status": "REVIEW_REQUIRED_NOT_APPROVED",
+  "lexical_review_group": "noun.act",
+  "records": [
+    {
+      "normalized": "AFFRONT",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "affront",
+          "synset": "n:01225027",
+          "lexical_category": "noun.act",
+          "definition": "a deliberately offensive act or something producing the effect of deliberate disrespect; \"turning his back on me was a deliberate insult\""
+        }
+      ],
+      "candidate_categories": [
+        "noun.act"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    },
+    {
+      "normalized": "ALAMO",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "Alamo",
+          "synset": "n:01269360",
+          "lexical_category": "noun.act",
+          "definition": "a siege and massacre at a mission in San Antonio in 1836; Mexican forces under Santa Anna besieged and massacred American rebels who were fighting to make Texas independent of Mexico"
+        }
+      ],
+      "candidate_categories": [
+        "noun.act"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    },
+    {
+      "normalized": "ARGONNE",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "Argonne",
+          "synset": "n:01287431",
+          "lexical_category": "noun.act",
+          "definition": "an American operation in World War I (1918); American troops under Pershing drove back the German armies which were saved only by the armistice on November 11"
+        }
+      ],
+      "candidate_categories": [
+        "noun.act"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    },
+    {
+      "normalized": "AUDIBLE",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "audible",
+          "synset": "n:00188183",
+          "lexical_category": "noun.act",
+          "definition": "a football play is changed orally after both teams have assumed their positions at the line of scrimmage"
+        }
+      ],
+      "candidate_categories": [
+        "noun.act"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    },
+    {
+      "normalized": "BLENHEIM",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "Blenheim",
+          "synset": "n:01271915",
+          "lexical_category": "noun.act",
+          "definition": "the First Duke of Marlborough and Prince Eugene of Savoy defeated the French in 1704 during the War of the Spanish Succession"
+        }
+      ],
+      "candidate_categories": [
+        "noun.act"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    },
+    {
+      "normalized": "BLITZ",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "blitz",
+          "synset": "n:00975781",
+          "lexical_category": "noun.act",
+          "definition": "a swift and violent military offensive with intensive aerial bombardment"
+        },
+        {
+          "lemma": "blitz",
+          "synset": "n:00976085",
+          "lexical_category": "noun.act",
+          "definition": "(American football) defensive players try to break through the offensive line"
+        }
+      ],
+      "candidate_categories": [
+        "noun.act"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    },
+    {
+      "normalized": "CARTOGRAPHY",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "cartography",
+          "synset": "n:00924579",
+          "lexical_category": "noun.act",
+          "definition": "the making of maps and charts"
+        }
+      ],
+      "candidate_categories": [
+        "noun.act"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    },
+    {
+      "normalized": "CAUSATION",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "causation",
+          "synset": "n:00042311",
+          "lexical_category": "noun.act",
+          "definition": "the act of causing something to happen"
+        }
+      ],
+      "candidate_categories": [
+        "noun.act"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    },
+    {
+      "normalized": "COHABITATION",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "cohabitation",
+          "synset": "n:01054876",
+          "lexical_category": "noun.act",
+          "definition": "the act of living together and having a sexual relationship (especially without being married)"
+        }
+      ],
+      "candidate_categories": [
+        "noun.act"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    },
+    {
+      "normalized": "COUNTERINTELLIGENCE",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "counterintelligence",
+          "synset": "n:00986275",
+          "lexical_category": "noun.act",
+          "definition": "intelligence activities concerned with identifying and counteracting the threat to security posed by hostile intelligence organizations or by individuals engaged in espionage or sabotage or subversion or terrorism"
+        }
+      ],
+      "candidate_categories": [
+        "noun.act"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    },
+    {
+      "normalized": "CRAWL",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "crawl",
+          "synset": "n:00294868",
+          "lexical_category": "noun.act",
+          "definition": "a slow mode of locomotion on hands and knees or dragging the body; \"a crawl was all that the injured man could manage\"; \"the traffic moved at a creep\""
+        },
+        {
+          "lemma": "crawl",
+          "synset": "n:00330035",
+          "lexical_category": "noun.act",
+          "definition": "a very slow movement; \"the traffic advanced at a crawl\""
+        },
+        {
+          "lemma": "crawl",
+          "synset": "n:00570366",
+          "lexical_category": "noun.act",
+          "definition": "a swimming stroke; arms are moved alternately overhead accompanied by a flutter kick"
+        }
+      ],
+      "candidate_categories": [
+        "noun.act"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    },
+    {
+      "normalized": "CURVEBALL",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "curve_ball",
+          "synset": "n:00107875",
+          "lexical_category": "noun.act",
+          "definition": "a pitch of a baseball that is thrown with spin so that its path curves as it approaches the batter"
+        }
+      ],
+      "candidate_categories": [
+        "noun.act"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    },
+    {
+      "normalized": "FART",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "fart",
+          "synset": "n:00839597",
+          "lexical_category": "noun.act",
+          "definition": "a reflex that expels intestinal gas through the anus"
+        }
+      ],
+      "candidate_categories": [
+        "noun.act"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    },
+    {
+      "normalized": "FILMMAKING",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "film_making",
+          "synset": "n:00924714",
+          "lexical_category": "noun.act",
+          "definition": "the production of movies"
+        }
+      ],
+      "candidate_categories": [
+        "noun.act"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    },
+    {
+      "normalized": "FLIRTATION",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "flirtation",
+          "synset": "n:00512522",
+          "lexical_category": "noun.act",
+          "definition": "playful behavior intended to arouse sexual interest"
+        }
+      ],
+      "candidate_categories": [
+        "noun.act"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    },
+    {
+      "normalized": "FLIRTING",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "flirting",
+          "synset": "n:00512522",
+          "lexical_category": "noun.act",
+          "definition": "playful behavior intended to arouse sexual interest"
+        }
+      ],
+      "candidate_categories": [
+        "noun.act"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    },
+    {
+      "normalized": "FOREPLAY",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "foreplay",
+          "synset": "n:00853835",
+          "lexical_category": "noun.act",
+          "definition": "mutual sexual fondling prior to sexual intercourse"
+        }
+      ],
+      "candidate_categories": [
+        "noun.act"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    },
+    {
+      "normalized": "FUCK",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "fuck",
+          "synset": "n:00846021",
+          "lexical_category": "noun.act",
+          "definition": "slang for sexual intercourse"
+        }
+      ],
+      "candidate_categories": [
+        "noun.act"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    },
+    {
+      "normalized": "FUCKING",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "fucking",
+          "synset": "n:00846021",
+          "lexical_category": "noun.act",
+          "definition": "slang for sexual intercourse"
+        }
+      ],
+      "candidate_categories": [
+        "noun.act"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    },
+    {
+      "normalized": "GENTRIFICATION",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "gentrification",
+          "synset": "n:00268824",
+          "lexical_category": "noun.act",
+          "definition": "the restoration of run-down urban areas by the middle class (resulting in the displacement of low-income residents)"
+        }
+      ],
+      "candidate_categories": [
+        "noun.act"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    },
+    {
+      "normalized": "GET",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "get",
+          "synset": "n:00567896",
+          "lexical_category": "noun.act",
+          "definition": "a return on a shot that seemed impossible to reach and would normally have resulted in a point for the opponent"
+        }
+      ],
+      "candidate_categories": [
+        "noun.act"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    },
+    {
+      "normalized": "HOMOSEXUALITY",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "homosexuality",
+          "synset": "n:00856847",
+          "lexical_category": "noun.act",
+          "definition": "a sexual attraction to (or sexual relations with) persons of the same sex"
+        }
+      ],
+      "candidate_categories": [
+        "noun.act"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    },
+    {
+      "normalized": "HUGGING",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "hugging",
+          "synset": "n:00854000",
+          "lexical_category": "noun.act",
+          "definition": "affectionate play (or foreplay without contact with the genital organs)"
+        }
+      ],
+      "candidate_categories": [
+        "noun.act"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    },
+    {
+      "normalized": "INCEST",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "incest",
+          "synset": "n:00848891",
+          "lexical_category": "noun.act",
+          "definition": "sexual intercourse between persons too closely related to marry (as between a parent and a child)"
+        }
+      ],
+      "candidate_categories": [
+        "noun.act"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    },
+    {
+      "normalized": "INFIGHTING",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "in-fighting",
+          "synset": "n:00446411",
+          "lexical_category": "noun.act",
+          "definition": "boxing at close quarters"
+        },
+        {
+          "lemma": "in-fighting",
+          "synset": "n:01172031",
+          "lexical_category": "noun.act",
+          "definition": "conflict between members of the same organization (usually concealed from outsiders)"
+        }
+      ],
+      "candidate_categories": [
+        "noun.act"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    },
+    {
+      "normalized": "INSEMINATION",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "insemination",
+          "synset": "n:00845178",
+          "lexical_category": "noun.act",
+          "definition": "the introduction of semen into the genital tract of a female"
+        },
+        {
+          "lemma": "insemination",
+          "synset": "n:00919692",
+          "lexical_category": "noun.act",
+          "definition": "the act of sowing (of seeds in the ground or, figuratively, of germs in the body or ideas in the mind, etc.)"
+        }
+      ],
+      "candidate_categories": [
+        "noun.act"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    },
+    {
+      "normalized": "INTEGRATION",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "integration",
+          "synset": "n:00871418",
+          "lexical_category": "noun.act",
+          "definition": "an operation used in the calculus whereby the integral of a function is determined"
+        },
+        {
+          "lemma": "integration",
+          "synset": "n:01202415",
+          "lexical_category": "noun.act",
+          "definition": "the action of incorporating a racial or religious group into a community"
+        },
+        {
+          "lemma": "integration",
+          "synset": "n:01237415",
+          "lexical_category": "noun.act",
+          "definition": "the act of combining into an integral whole; \"a consolidation of two corporations\"; \"after their consolidation the two bills were passed unanimously\"; \"the defendants asked for a consolidation of the actions against them\""
+        }
+      ],
+      "candidate_categories": [
+        "noun.act"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    },
+    {
+      "normalized": "KISSING",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "kissing",
+          "synset": "n:00854000",
+          "lexical_category": "noun.act",
+          "definition": "affectionate play (or foreplay without contact with the genital organs)"
+        }
+      ],
+      "candidate_categories": [
+        "noun.act"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    },
+    {
+      "normalized": "MANIPULATION",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "manipulation",
+          "synset": "n:00140652",
+          "lexical_category": "noun.act",
+          "definition": "the action of touching with the hands (or the skillful use of the hands) or by the use of mechanical means"
+        },
+        {
+          "lemma": "manipulation",
+          "synset": "n:00158185",
+          "lexical_category": "noun.act",
+          "definition": "exerting shrewd or devious influence especially for one's own advantage; \"his manipulation of his friends was scandalous\""
+        }
+      ],
+      "candidate_categories": [
+        "noun.act"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    },
+    {
+      "normalized": "MEDICARE",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "Medicare",
+          "synset": "n:01089009",
+          "lexical_category": "noun.act",
+          "definition": "health care for the aged; a federally administered system of health insurance available to persons aged 65 and over"
+        }
+      ],
+      "candidate_categories": [
+        "noun.act"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    },
+    {
+      "normalized": "MOLESTATION",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "molestation",
+          "synset": "n:00419644",
+          "lexical_category": "noun.act",
+          "definition": "the act of tormenting by continued persistent attacks and criticism"
+        },
+        {
+          "lemma": "molestation",
+          "synset": "n:00773047",
+          "lexical_category": "noun.act",
+          "definition": "the act of subjecting someone to unwanted or improper sexual advances or activity (especially women or children)"
+        }
+      ],
+      "candidate_categories": [
+        "noun.act"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    },
+    {
+      "normalized": "ORGY",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "orgy",
+          "synset": "n:00511212",
+          "lexical_category": "noun.act",
+          "definition": "a wild gathering involving excessive drinking and promiscuity"
+        },
+        {
+          "lemma": "orgy",
+          "synset": "n:01030280",
+          "lexical_category": "noun.act",
+          "definition": "secret rite in the cults of ancient Greek or Roman deities involving singing and dancing and drinking and sexual activity"
+        },
+        {
+          "lemma": "orgy",
+          "synset": "n:01073824",
+          "lexical_category": "noun.act",
+          "definition": "any act of immoderate indulgence; \"an orgy of shopping\"; \"an emotional binge\"; \"a splurge of spending\""
+        }
+      ],
+      "candidate_categories": [
+        "noun.act"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    },
+    {
+      "normalized": "OUT",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "out",
+          "synset": "n:00129527",
+          "lexical_category": "noun.act",
+          "definition": "(baseball) a failure by a batter or runner to reach a base safely in baseball; \"you only get 3 outs per inning\""
+        }
+      ],
+      "candidate_categories": [
+        "noun.act"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    },
+    {
+      "normalized": "PEDOPHILIA",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "pedophilia",
+          "synset": "n:00738270",
+          "lexical_category": "noun.act",
+          "definition": "a sexual attraction to children"
+        }
+      ],
+      "candidate_categories": [
+        "noun.act"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    },
+    {
+      "normalized": "PHILANTHROPY",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "philanthropy",
+          "synset": "n:01089483",
+          "lexical_category": "noun.act",
+          "definition": "voluntary promotion of human welfare"
+        }
+      ],
+      "candidate_categories": [
+        "noun.act"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    },
+    {
+      "normalized": "PORN",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "porn",
+          "synset": "n:00747215",
+          "lexical_category": "noun.act",
+          "definition": "creative activity (writing or pictures or films etc.) of no literary or artistic value other than to stimulate sexual desire"
+        }
+      ],
+      "candidate_categories": [
+        "noun.act"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    },
+    {
+      "normalized": "PORNO",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "porno",
+          "synset": "n:00747215",
+          "lexical_category": "noun.act",
+          "definition": "creative activity (writing or pictures or films etc.) of no literary or artistic value other than to stimulate sexual desire"
+        }
+      ],
+      "candidate_categories": [
+        "noun.act"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    },
+    {
+      "normalized": "PORNOGRAPHY",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "pornography",
+          "synset": "n:00747215",
+          "lexical_category": "noun.act",
+          "definition": "creative activity (writing or pictures or films etc.) of no literary or artistic value other than to stimulate sexual desire"
+        }
+      ],
+      "candidate_categories": [
+        "noun.act"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    },
+    {
+      "normalized": "PREVENTION",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "prevention",
+          "synset": "n:01077350",
+          "lexical_category": "noun.act",
+          "definition": "the act of preventing; \"there was no bar against leaving\"; \"money was allocated to study the cause and prevention of influenza\""
+        }
+      ],
+      "candidate_categories": [
+        "noun.act"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    },
+    {
+      "normalized": "PROCREATION",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "procreation",
+          "synset": "n:00849523",
+          "lexical_category": "noun.act",
+          "definition": "the sexual activity of conceiving and bearing offspring"
+        }
+      ],
+      "candidate_categories": [
+        "noun.act"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    },
+    {
+      "normalized": "PROMISCUITY",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "promiscuity",
+          "synset": "n:00856342",
+          "lexical_category": "noun.act",
+          "definition": "indulging in promiscuous (casual and indiscriminate) sexual relations"
+        }
+      ],
+      "candidate_categories": [
+        "noun.act"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    },
+    {
+      "normalized": "RORSCHACH",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "Rorschach",
+          "synset": "n:01007907",
+          "lexical_category": "noun.act",
+          "definition": "a projective tests using bilaterally symmetrical inkblots; subjects state what they see in the inkblot"
+        }
+      ],
+      "candidate_categories": [
+        "noun.act"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    },
+    {
+      "normalized": "ROUNDING",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "rounding",
+          "synset": "n:00073177",
+          "lexical_category": "noun.act",
+          "definition": "(mathematics) a miscalculation that results from rounding off numbers to a convenient number of decimals; \"the error in the calculation was attributable to rounding\"; \"taxes are rounded off to the nearest dollar but the rounding error is surprisingly small\""
+        }
+      ],
+      "candidate_categories": [
+        "noun.act"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    },
+    {
+      "normalized": "SAFEKEEPING",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "safekeeping",
+          "synset": "n:00818466",
+          "lexical_category": "noun.act",
+          "definition": "the responsibility of a guardian or keeper; \"he left his car in my keeping\""
+        }
+      ],
+      "candidate_categories": [
+        "noun.act"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    },
+    {
+      "normalized": "SCREWING",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "screwing",
+          "synset": "n:00846021",
+          "lexical_category": "noun.act",
+          "definition": "slang for sexual intercourse"
+        }
+      ],
+      "candidate_categories": [
+        "noun.act"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    },
+    {
+      "normalized": "STARE",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "stare",
+          "synset": "n:00878456",
+          "lexical_category": "noun.act",
+          "definition": "a fixed look with eyes open wide"
+        }
+      ],
+      "candidate_categories": [
+        "noun.act"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    },
+    {
+      "normalized": "TOYING",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "toying",
+          "synset": "n:00512522",
+          "lexical_category": "noun.act",
+          "definition": "playful behavior intended to arouse sexual interest"
+        }
+      ],
+      "candidate_categories": [
+        "noun.act"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    },
+    {
+      "normalized": "TRY",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "try",
+          "synset": "n:00786195",
+          "lexical_category": "noun.act",
+          "definition": "earnest and conscientious activity intended to do or accomplish something; \"made an effort to cover all the reading material\"; \"wished him luck in his endeavor\"; \"she gave it a good try\""
+        }
+      ],
+      "candidate_categories": [
+        "noun.act"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    },
+    {
+      "normalized": "VERDUN",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "Verdun",
+          "synset": "n:01298573",
+          "lexical_category": "noun.act",
+          "definition": "a battle in World War I (1916); in some of the bloodiest fighting in World War I the German offensive was stopped"
+        }
+      ],
+      "candidate_categories": [
+        "noun.act"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    },
+    {
+      "normalized": "WANK",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "wank",
+          "synset": "n:00856193",
+          "lexical_category": "noun.act",
+          "definition": "slang for masturbation"
+        }
+      ],
+      "candidate_categories": [
+        "noun.act"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    },
+    {
+      "normalized": "WARMUP",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "warm-up",
+          "synset": "n:01144716",
+          "lexical_category": "noun.act",
+          "definition": "exercising in preparation for strenuous activity"
+        }
+      ],
+      "candidate_categories": [
+        "noun.act"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    }
+  ]
+}

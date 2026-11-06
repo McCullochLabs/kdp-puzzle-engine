@@ -1,0 +1,7618 @@
+{
+  "schema_version": 1,
+  "status": "REVIEW_REQUIRED",
+  "provider": "Gemini",
+  "created_at": "2026-09-18T19:11:44",
+  "books": {
+    "classic_cars": {
+      "title": "Classic Cars and Road Trips Word Search",
+      "puzzles": 48,
+      "topic": "classic cars, automotive history, restoration, garages, vehicle parts, car shows, and scenic driving",
+      "audience": "adult classic-car and road-trip enthusiasts",
+      "avoid": "air travel, international travel, modern brand names, model names, celebrities",
+      "pages": [
+        {
+          "name": "Page 1: Vintage Roadsters",
+          "words": [
+            "CONVERTIBLE",
+            "RUMBLE SEAT",
+            "CANVAS TOP",
+            "SPOKE WHEELS",
+            "WINDSHIELD",
+            "LEATHER STRAPS",
+            "CHROME GRILLE",
+            "RUNNING BOARD",
+            "HEADLAMPS",
+            "WHITE WALLS",
+            "DUAL EXHAUSTS",
+            "STEERING WHEEL"
+          ]
+        },
+        {
+          "name": "Page 2: Garage Workshop",
+          "words": [
+            "HYDRAULIC LIFT",
+            "SOCKET SET",
+            "TORQUE WRENCH",
+            "CARBURETOR",
+            "TIMING LIGHT",
+            "SPARK PLUG",
+            "OIL FILTER",
+            "GASKET SEALER",
+            "SANDPAPER",
+            "PRIMER COAT",
+            "METAL POLISH",
+            "BATTERY CHARGER"
+          ]
+        },
+        {
+          "name": "Page 3: Scenic Highways",
+          "words": [
+            "COASTAL ROUTE",
+            "MOUNTAIN PASS",
+            "DESERT FLOOR",
+            "WINDING PAVEMENT",
+            "ASPHALT RIBBON",
+            "PINE FOREST",
+            "OVERLOOK POINT",
+            "SUNSET HORIZON",
+            "BRIDGE CROSSING",
+            "CANYON DRIVE",
+            "VALLEY BOTTOM",
+            "REST STOP"
+          ]
+        },
+        {
+          "name": "Page 4: Engine Components",
+          "words": [
+            "CYLINDER HEAD",
+            "PISTON RING",
+            "VALVE SPRING",
+            "CRANKSHAFT",
+            "CAMSHAFT GEAR",
+            "INTAKE MANIFOLD",
+            "EXHAUST PIPE",
+            "WATER PUMP",
+            "FUEL PUMP",
+            "DISTRIBUTOR",
+            "ALTERNATOR",
+            "TIMING CHAIN"
+          ]
+        },
+        {
+          "name": "Page 5: Car Show Events",
+          "words": [
+            "JUDGING AREA",
+            "POLISHED CHROME",
+            "TROPHY TABLE",
+            "PARKING FIELD",
+            "COLLECTOR CAR",
+            "CLUB PAVILION",
+            "RESTORED BEAUTY",
+            "PROUD OWNER",
+            "BADGE PLAQUE",
+            "SPECTATOR CROWD",
+            "REGISTRATION",
+            "VENDOR TENT"
+          ]
+        },
+        {
+          "name": "Page 6: Restoration Shop",
+          "words": [
+            "RUST REMOVAL",
+            "SHEET METAL",
+            "BODY HAMMER",
+            "WELDING TORCH",
+            "PRIMER SPRAY",
+            "CLEAR COAT",
+            "COLOR SANDING",
+            "UPHOLSTERY",
+            "DASH VENEER",
+            "WIRING LOOM",
+            "GLASS WINDOW",
+            "RUBBER SEAL"
+          ]
+        },
+        {
+          "name": "Page 7: Historic Touring",
+          "words": [
+            "PAPER MAP",
+            "COMPASS NEEDLE",
+            "DINER STOP",
+            "MOTEL SIGN",
+            "ROADSIDE VIEW",
+            "TRUNK LUGGAGE",
+            "SPARE TIRE",
+            "GAS STATION",
+            "COUNTRY LANE",
+            "GRAVEL TRACK",
+            "TOLL BOOTH",
+            "HORIZON LINE"
+          ]
+        },
+        {
+          "name": "Page 8: Transmission and Drivetrain",
+          "words": [
+            "MANUAL SHIFT",
+            "CLUTCH PEDAL",
+            "GEAR BOX",
+            "DRIVE SHAFT",
+            "DIFFERENTIAL",
+            "AXLE HOUSING",
+            "UNIVERSAL JOINT",
+            "BRAKE DRUM",
+            "WHEEL BEARING",
+            "LEAF SPRING",
+            "SHOCK ABSORBER",
+            "STEERING BOX"
+          ]
+        },
+        {
+          "name": "Carburetor Rebuild",
+          "words": [
+            "ACCELERATOR PUMP",
+            "CHOKE VALVE",
+            "IDLE MIXTURE",
+            "NEEDLE VALVE",
+            "FLOAT BOWL",
+            "THROTTLE SHAFT",
+            "MAIN JET",
+            "GASKET KIT",
+            "AIR HORN",
+            "VENTURI TUBE",
+            "ACCELERATOR CABLE",
+            "VACUUM PORT"
+          ]
+        },
+        {
+          "name": "Barn Find Recovery",
+          "words": [
+            "DUST LAYER",
+            "RUSTED PANELS",
+            "FLAT TIRES",
+            "SEIZED ENGINE",
+            "WOODEN BLOCKS",
+            "TOW STRAP",
+            "FLATBED TRAILER",
+            "ORIGINAL PAINT",
+            "CHASSIS NUMBER",
+            "TITLE SEARCH",
+            "DRY ROT",
+            "SPIDER WEBS"
+          ]
+        },
+        {
+          "name": "Customizing and Hot Rodding",
+          "words": [
+            "CHOPPED TOP",
+            "LOUVERED HOOD",
+            "FENDER SKIRTS",
+            "PIE CRUST SLICKS",
+            "MOON HUBCAPS",
+            "TWIN CARBURETORS",
+            "FLAME PAINTJOB",
+            "DUAL EXHAUST",
+            "DROP AXLE",
+            "HEADER PIPES",
+            "SPLIT WINDSHIELD",
+            "FRENCHED HEADLIGHTS"
+          ]
+        },
+        {
+          "name": "Vehicle Electrical System",
+          "words": [
+            "GENERATOR",
+            "VOLTAGE REGULATOR",
+            "IGNITION COIL",
+            "POINTS AND CONDENSER",
+            "SPARK PLUG WIRE",
+            "STARTING MOTOR",
+            "FUSE BLOCK",
+            "HEADLIGHT SWITCH",
+            "DASHBOARD GAUGES",
+            "HORN RELAY",
+            "BATTERY CABLE",
+            "DISTRIBUTOR CAP"
+          ]
+        },
+        {
+          "name": "Vintage Touring Gear",
+          "words": [
+            "LEATHER LUGGAGE",
+            "ROAD ATLAS",
+            "MAP LIGHT",
+            "THERMOS BOTTLE",
+            "TICKET STUB",
+            "CAMERA BAG",
+            "SUNGLASSES",
+            "PICNIC BASKET",
+            "WOOL BLANKET",
+            "GLOVE COMPARTMENT",
+            "DASHBOARD COMPASS",
+            "EXTRA GAS CAN"
+          ]
+        },
+        {
+          "name": "Automotive Bodywork",
+          "words": [
+            "METAL HAMMER",
+            "DOLLY BLOCK",
+            "LEAD SOLDER",
+            "BODY FILLER",
+            "SANDING BLOCK",
+            "PRIMER SEALER",
+            "MASKING TAPE",
+            "RUBBING COMPOUND",
+            "BUFFING WHEEL",
+            "CHROME TRIM",
+            "WEATHERSTRIP",
+            "DOOR LATCH"
+          ]
+        },
+        {
+          "name": "Vintage Dashboard Gauges",
+          "words": [
+            "SPEEDOMETER",
+            "TACHOMETER",
+            "FUEL GAUGE",
+            "OIL PRESSURE",
+            "TEMPERATURE",
+            "CLOCK",
+            "ODOMETER",
+            "AMMETER",
+            "CHOKE CABLE",
+            "DASHBOARD",
+            "IGNITION KEY",
+            "TOGGLE SWITCH"
+          ]
+        },
+        {
+          "name": "Scenic Mountain Pass",
+          "words": [
+            "SWITCHBACK",
+            "STEEP GRADE",
+            "PINE TREES",
+            "OVERLOOK",
+            "SUMMIT VIEW",
+            "GRANITE ROCKS",
+            "GUARDRAIL",
+            "ALPINE AIR",
+            "RADIATOR STEAM",
+            "DOWNSHIFT",
+            "BRAKE FADE",
+            "WILDFLOWERS"
+          ]
+        },
+        {
+          "name": "Coastal Highway Cruise",
+          "words": [
+            "SANDY BEACH",
+            "OCEAN BREEZE",
+            "LIGHTHOUSE",
+            "ROLLING DUNES",
+            "SEAGULL",
+            "SALT AIR",
+            "CONVERTIBLE TOP",
+            "SUNSET VIEW",
+            "ROCKY CLIFF",
+            "PACIFIC COAST",
+            "BRIDGE SPAN",
+            "TIDAL POOL"
+          ]
+        },
+        {
+          "name": "Car Show Exhibits",
+          "words": [
+            "CONCOURS D'ELEGANCE",
+            "PEOPLES CHOICE",
+            "DASH PLAQUE",
+            "TROPHY PRESENTATION",
+            "RESTORED ORIGINAL",
+            "CUSTOM PAINT",
+            "PADDOCK",
+            "JUDGING SHEET",
+            "VINTAGE BADGE",
+            "POLISHING CLOTH",
+            "SHOW FIELD",
+            "RIBBON"
+          ]
+        },
+        {
+          "name": "Drive-In Culture",
+          "words": [
+            "DOUBLE FEATURE",
+            "SPEAKER BOX",
+            "BUTTERED POPCORN",
+            "NEON SIGN",
+            "MALT SHOP",
+            "PARKING STALL",
+            "INTERMISSION",
+            "CARHOP",
+            "SILVER SCREEN",
+            "MILKSHAKE",
+            "STARLIT NIGHT",
+            "CONCESSION STAND"
+          ]
+        },
+        {
+          "name": "Vintage Racing Era",
+          "words": [
+            "CHECKERED FLAG",
+            "PIT CREW",
+            "STARTING GRID",
+            "LE MANS START",
+            "OPEN FACE HELMET",
+            "LEATHER GLOVES",
+            "SPEEDWAY",
+            "TIME TRIAL",
+            "RACEWAY",
+            "SAFETY HARNESS",
+            "WINNERS CIRCLE",
+            "OVAL TRACK"
+          ]
+        },
+        {
+          "name": "Vintage Car Camping",
+          "words": [
+            "ROOF RACK",
+            "CANVAS TENT",
+            "COOLER",
+            "CAMPFIRE",
+            "SLEEPING BAG",
+            "LANTERN",
+            "FOLDING CHAIR",
+            "THERMOS",
+            "WOODLANDS",
+            "STARGAZING",
+            "PICNIC TABLE",
+            "TRAIL MAP"
+          ]
+        },
+        {
+          "name": "Highway Tour",
+          "words": [
+            "ROADSIDE",
+            "MOTEL",
+            "DINER",
+            "BILLBOARD",
+            "SCENIC VIEW",
+            "ASPHALT",
+            "MILEPOST",
+            "GUIDEBOOK",
+            "CROSSCOUNTRY",
+            "ROUTE PLAN",
+            "JOURNEY",
+            "SMALL TOWN"
+          ]
+        },
+        {
+          "name": "Automatic Transmissions",
+          "words": [
+            "TORQUE CONVERTER",
+            "VALVE BODY",
+            "PLANETARY GEAR",
+            "GOVERNOR",
+            "TRANSMISSION PAN",
+            "FLUID PUMP",
+            "BAND ADJUSTMENT",
+            "MODULATOR VALVE",
+            "SERVO PISTON",
+            "SHIFT KIT",
+            "PARK PAWL",
+            "COOLER LINES"
+          ]
+        },
+        {
+          "name": "Front Suspension",
+          "words": [
+            "DOUBLE WISHBONE",
+            "A ARM",
+            "BALL JOINT",
+            "COIL SPRING",
+            "TORSION BAR",
+            "SWAY BAR",
+            "CONTROL ARM",
+            "SPINDLE",
+            "KNUCKLE",
+            "BUSHING",
+            "CAMBER",
+            "CASTER"
+          ]
+        },
+        {
+          "name": "Shock Absorbers and Dampers",
+          "words": [
+            "HYDRAULIC SHOCK",
+            "LEVER ACTION",
+            "PISTON ROD",
+            "VALVE STACK",
+            "REBOUND VALVE",
+            "COMPRESSION VALVE",
+            "OIL SEAL",
+            "DUST BOOT",
+            "MOUNTING EYE",
+            "RIDE QUALITY",
+            "GAS CHARGED",
+            "BUMP STOP"
+          ]
+        },
+        {
+          "name": "Chassis and Alignment",
+          "words": [
+            "FRAME RAIL",
+            "X MEMBER",
+            "BOXED FRAME",
+            "WHEEL ALIGNMENT",
+            "TOE IN",
+            "RIDE HEIGHT",
+            "CURB WEIGHT",
+            "WEIGHT TRANSFER",
+            "CHASSIS FLEX",
+            "SUBFRAME",
+            "BODY MOUNT",
+            "TRACK WIDTH"
+          ]
+        },
+        {
+          "name": "Page 29: Seating and Upholstery",
+          "words": [
+            "BENCH SEAT",
+            "BUCKET SEAT",
+            "LEATHER HIDE",
+            "VINYL TRIM",
+            "HEADREST",
+            "ARMREST",
+            "SEAT ADJUSTER",
+            "SPRING CUSHION",
+            "PIPING SEAM",
+            "DOOR PANEL",
+            "KICK PANEL",
+            "FLOOR MAT"
+          ]
+        },
+        {
+          "name": "Page 30: Cabin Comfort and Climate",
+          "words": [
+            "HEATER CORE",
+            "DEFROSTER",
+            "FRESH AIR VENT",
+            "BLOWER MOTOR",
+            "PUSHBUTTON RADIO",
+            "VACUUM TUBE",
+            "SPEAKER GRILLE",
+            "ASHTRAY",
+            "GLOVE BOX",
+            "SUN VISOR",
+            "REARVIEW MIRROR",
+            "DOME LIGHT"
+          ]
+        },
+        {
+          "name": "Page 32: Cockpit Safety and Protection",
+          "words": [
+            "LAP BELT",
+            "SHOULDER HARNESS",
+            "PADDED DASH",
+            "SAFETY GLASS",
+            "FIRE EXTINGUISHER",
+            "FIRST AID KIT",
+            "EMERGENCY BRAKE",
+            "SIDE MARKER",
+            "LOCKING STEERING",
+            "BREAKAWAY MIRROR",
+            "HAZARD SWITCH",
+            "TRIP ODOMETER"
+          ]
+        },
+        {
+          "name": "Vintage Steering Wheels",
+          "words": [
+            "WOODEN RIM",
+            "HORN RING",
+            "CENTER CAP",
+            "THREE SPOKES",
+            "DEEP DISH",
+            "BAKELITE",
+            "POWER STEERING",
+            "COLUMN SHIFT",
+            "TILT WHEEL",
+            "GRIP",
+            "BOSS",
+            "HORN BUTTON"
+          ]
+        },
+        {
+          "name": "Pedal and Shifter Area",
+          "words": [
+            "FLOOR PEDAL",
+            "RUBBER PAD",
+            "CLUTCH LEVER",
+            "BRAKE ARM",
+            "GAS PEDAL",
+            "FLOOR SHIFT",
+            "SHIFT KNOB",
+            "GATE PLATE",
+            "METAL LINKAGE",
+            "BOOT COVER",
+            "DIMMER SWITCH",
+            "HIGH BEAM"
+          ]
+        },
+        {
+          "name": "Page 38: Restoring the Interior",
+          "words": [
+            "FOAM PADDING",
+            "HOG RINGS",
+            "UPHOLSTERY TACK",
+            "HEADLINER",
+            "PACKAGE TRAY",
+            "RECOVER SEAT",
+            "REWIRE DASH",
+            "POLISH CHROME",
+            "REPLACE GLASS",
+            "GLUE SEAL",
+            "SCUFF PLATE",
+            "RESTORE"
+          ]
+        },
+        {
+          "name": "Routine Maintenance",
+          "words": [
+            "OIL CHANGE",
+            "SPARK PLUGS",
+            "COOLANT FLUSH",
+            "BRAKE BLEED",
+            "FILTER REPLACEMENT",
+            "TIRE ROTATION",
+            "BELT TENSION",
+            "FLUID CHECK",
+            "GREASE FITTINGS",
+            "VALVE LASH",
+            "POINT GAP",
+            "CARBURETOR TUNE"
+          ]
+        },
+        {
+          "name": "Hand Tools and Hardware",
+          "words": [
+            "SOCKET WRENCH",
+            "TORQUE GAUGE",
+            "IMPACT DRIVER",
+            "HEX KEY SET",
+            "BENCH GRINDER",
+            "BRASS MALLET",
+            "DIAL INDICATOR",
+            "FEELER GAUGE",
+            "LOCKING PLIERS",
+            "UTILITY KNIFE",
+            "INSPECTION LIGHT",
+            "BREAKER BAR"
+          ]
+        },
+        {
+          "name": "Exhaust and Drivetrain",
+          "words": [
+            "PIPE BENDER",
+            "EXHAUST WRAP",
+            "U JOINT",
+            "CLUTCH DISC",
+            "FLYWHEEL",
+            "GEAR PULLER",
+            "FLUID FLUSH",
+            "BRAKE BLEEDER",
+            "AXLE SHAFT",
+            "GASKET SHEET",
+            "SEAL DRIVER",
+            "BEARING RACE"
+          ]
+        },
+        {
+          "name": "Garage Organization",
+          "words": [
+            "TOOL CHEST",
+            "PARTS WASHER",
+            "CREEPER CART",
+            "SHOP VACUUM",
+            "STORAGE BIN",
+            "PEGBOARD WALL",
+            "FIRE BLANKET",
+            "JACK STANDS",
+            "FLOOR JACK",
+            "FLUID DRAIN",
+            "SAFETY SPECS",
+            "WORK BENCH"
+          ]
+        },
+        {
+          "name": "Detailing and Show Prep",
+          "words": [
+            "CLAY BAR",
+            "CHROME POLISH",
+            "MICROFIBER TOWEL",
+            "TIRE DRESSING",
+            "WHEEL CLEANER",
+            "PAINT SEALANT",
+            "CARNAUBA WAX",
+            "HORSEHAIR BRUSH",
+            "TRIM RESTORER",
+            "GLASS CLEANER",
+            "DETAILING SPRAY",
+            "BUFFING PAD"
+          ]
+        },
+        {
+          "name": "Collector Market",
+          "words": [
+            "AUCTION BLOCK",
+            "BIDDER PADDLE",
+            "RESERVE PRICE",
+            "PROVENANCE",
+            "BILL OF SALE",
+            "APPRAISAL",
+            "INVESTMENT",
+            "GARAGE FIND",
+            "TITLE TRANSFER",
+            "PRIVATE SALE",
+            "BROKER",
+            "MARKET VALUE"
+          ]
+        },
+        {
+          "name": "Judges Inspection",
+          "words": [
+            "WHITE GLOVES",
+            "ENGINE BAY",
+            "UNDERCARRIAGE",
+            "STAMPINGS",
+            "SCORE SHEET",
+            "DEDUCTIONS",
+            "AUTHENTICITY",
+            "CORRECT FASTENERS",
+            "FACTORY SPECS",
+            "SERIAL NUMBERS",
+            "POINT SCALE",
+            "CONSULTANT"
+          ]
+        },
+        {
+          "name": "Cars and Coffee",
+          "words": [
+            "EARLY MORNING",
+            "PARKING LOT",
+            "ENTHUSIAST",
+            "HOT COFFEE",
+            "VEHICLE",
+            "POLISHING",
+            "HOOD UP",
+            "CHATTING",
+            "WEEKEND",
+            "SUNRISE",
+            "SPOTLIGHT",
+            "LOCAL MEET"
+          ]
+        },
+        {
+          "name": "Car Club Gathering",
+          "words": [
+            "MONTHLY MEETING",
+            "MEMBERSHIP",
+            "NEWSLETTER",
+            "CONVOY",
+            "CHAPTER",
+            "PRESIDENT",
+            "TREASURER",
+            "BULLETIN",
+            "ANNUAL DUES",
+            "OFFICER",
+            "ROSTER",
+            "BADGE"
+          ]
+        },
+        {
+          "name": "Swap Meet Hunt",
+          "words": [
+            "SPARE PARTS",
+            "RUSTY CHROME",
+            "OLD EMBLEM",
+            "VENDOR STALL",
+            "BARGAIN",
+            "TOOLBOX",
+            "HARDWARE",
+            "MANUALS",
+            "HEADLIGHT BEZEL",
+            "HUBCAP",
+            "GASKET",
+            "TREASURE"
+          ]
+        },
+        {
+          "name": "Award Ceremony",
+          "words": [
+            "STANDING OVATION",
+            "GOLD CUP",
+            "WINNER CIRCLE",
+            "SPEECH",
+            "APPLAUSE",
+            "HANDSHAKE",
+            "PHOTOGRAPH",
+            "CERTIFICATE",
+            "MEDAL",
+            "GLORY",
+            "HONORS",
+            "CELEBRATION"
+          ]
+        },
+        {
+          "name": "PAGE 45: Neon Roadside Motels",
+          "words": [
+            "VINTAGE SIGN",
+            "VACANCY GLOW",
+            "PARKING SPOT",
+            "NIGHT CHECKIN",
+            "ROADSIDE LODGE",
+            "POTTED PALM",
+            "SCREEN DOOR",
+            "ICE MACHINE",
+            "KEY RING",
+            "LINOLEUM FLOOR",
+            "CORNER ROOM",
+            "NEON HUM"
+          ]
+        },
+        {
+          "name": "PAGE 48: Desert Highway Vistas",
+          "words": [
+            "SHIMMERING HEAT",
+            "DISTANT HORIZON",
+            "SAGUARO CACTUS",
+            "ENDLESS ASPHALT",
+            "ARID VALLEY",
+            "SUNBAKED EARTH",
+            "GOLDEN SAND",
+            "CLEAR SKIES",
+            "ROCKY OUTCROP",
+            "DUSTY DASH",
+            "LONELY STRETCH",
+            "HEAT WAVE"
+          ]
+        },
+        {
+          "name": "Concours Elegance",
+          "words": [
+            "BEST OF SHOW",
+            "COACHWORK",
+            "TROPHY",
+            "COLLECTOR",
+            "HERITAGE",
+            "RESTORATION",
+            "ORIGINAL",
+            "SCORING",
+            "EXHIBITION",
+            "PAVILION",
+            "PATINA",
+            "RARITY"
+          ]
+        },
+        {
+          "name": "Tire Shop Essentials",
+          "words": [
+            "BIAS PLY",
+            "RADIAL TIRE",
+            "VALVE STEM",
+            "TREAD DEPTH",
+            "TIRE IRON",
+            "WHEEL WEIGHT",
+            "BALANCING",
+            "RIM WIDTH",
+            "LUG NUT",
+            "WHEEL STUD",
+            "WHITEWALL CLEANER",
+            "INNER TUBE"
+          ]
+        },
+        {
+          "name": "Fuel and Ignition",
+          "words": [
+            "FUEL TANK",
+            "FUEL LINE",
+            "MECHANICAL PUMP",
+            "VAPOR LOCK",
+            "SEDIMENT BOWL",
+            "AIR CLEANER",
+            "IGNITION POINTS",
+            "CONDENSER",
+            "ROTOR ARM",
+            "ADVANCE WEIGHT",
+            "DWELL METER",
+            "SPARK TESTER"
+          ]
+        }
+      ],
+      "issues": [],
+      "unique_words": 576,
+      "completed_at": "2026-09-19T10:05:38"
+    },
+    "grade_school": {
+      "title": "Vocabulary Adventures: Grade School",
+      "puzzles": 48,
+      "topic": "useful grade-school vocabulary across reading, writing, math, science, social studies, arts, study habits, and everyday life",
+      "audience": "children in grades 3 through 5",
+      "avoid": "people names, country names, brands, politics, violence, adult themes, archaic or highly technical words",
+      "pages": [
+        {
+          "name": "Story Structure Basics",
+          "words": [
+            "SETTING",
+            "CHARACTER",
+            "PLOT",
+            "CONFLICT",
+            "RESOLUTION",
+            "THEME",
+            "CLIMAX",
+            "NARRATOR",
+            "DIALOGUE",
+            "SEQUENCE",
+            "ACTION",
+            "ENDING"
+          ]
+        },
+        {
+          "name": "Figurative Language",
+          "words": [
+            "METAPHOR",
+            "SIMILE",
+            "ALLITERATION",
+            "ONOMATOPOEIA",
+            "PERSONIFICATION",
+            "HYPERBOLE",
+            "IDIOM",
+            "IMAGERY",
+            "SYMBOL",
+            "RHYME",
+            "STANZA",
+            "PHRASE"
+          ]
+        },
+        {
+          "name": "Reading Comprehension",
+          "words": [
+            "INFERENCE",
+            "PREDICTION",
+            "SUMMARY",
+            "MAIN IDEA",
+            "DETAIL",
+            "EVIDENCE",
+            "CONCLUSION",
+            "CONTEXT CLUE",
+            "FACT",
+            "OPINION",
+            "COMPARE",
+            "CONTRAST"
+          ]
+        },
+        {
+          "name": "Genres of Literature",
+          "words": [
+            "FICTION",
+            "NONFICTION",
+            "BIOGRAPHY",
+            "FOLKTALE",
+            "MYSTERY",
+            "FANTASY",
+            "HISTORICAL",
+            "POETRY",
+            "DRAMA",
+            "SCIENCE FICTION",
+            "FABLE",
+            "LEGEND"
+          ]
+        },
+        {
+          "name": "Parts of Speech",
+          "words": [
+            "NOUN",
+            "VERB",
+            "ADJECTIVE",
+            "ADVERB",
+            "PRONOUN",
+            "PREPOSITION",
+            "CONJUNCTION",
+            "INTERJECTION",
+            "SUBJECT",
+            "PREDICATE",
+            "ARTICLE",
+            "MODIFIER"
+          ]
+        },
+        {
+          "name": "Library and Research",
+          "words": [
+            "AUTHOR",
+            "ILLUSTRATOR",
+            "PUBLISHER",
+            "GLOSSARY",
+            "INDEX",
+            "TABLE OF CONTENTS",
+            "BIBLIOGRAPHY",
+            "REFERENCE",
+            "SOURCE",
+            "CATALOG",
+            "LIBRARIAN",
+            "VOLUME"
+          ]
+        },
+        {
+          "name": "Advanced Word Study",
+          "words": [
+            "SYNONYM",
+            "ANTONYM",
+            "HOMOPHONE",
+            "PREFIX",
+            "SUFFIX",
+            "ROOT WORD",
+            "VOCABULARY",
+            "DEFINITION",
+            "MEANING",
+            "SYLLABLE",
+            "ACCENT",
+            "DICTIONARY"
+          ]
+        },
+        {
+          "name": "Page 9: Punctuation Marks",
+          "words": [
+            "PERIOD",
+            "COMMA",
+            "QUESTION",
+            "EXCLAMATION",
+            "APOSTROPHE",
+            "QUOTATION",
+            "COLON",
+            "SEMICOLON",
+            "HYPHEN",
+            "PARENTHESES",
+            "BRACKET",
+            "ELLIPSIS"
+          ]
+        },
+        {
+          "name": "Page 9: Whole Numbers",
+          "words": [
+            "DIGIT",
+            "PLACE VALUE",
+            "STANDARD FORM",
+            "EXPANDED FORM",
+            "ROUND",
+            "ESTIMATE",
+            "SUM",
+            "DIFFERENCE",
+            "FACTOR",
+            "MULTIPLE",
+            "EVEN",
+            "ODD"
+          ]
+        },
+        {
+          "name": "Page 11: Fraction Operations",
+          "words": [
+            "SIMPLIFY",
+            "EQUIVALENT",
+            "COMMON DENOMINATOR",
+            "ADD",
+            "SUBTRACT",
+            "WHOLE",
+            "PART",
+            "GREATER THAN",
+            "LESS THAN",
+            "REDUCE",
+            "TENTHS",
+            "HUNDREDTHS"
+          ]
+        },
+        {
+          "name": "Page 12: 2D Geometry",
+          "words": [
+            "POINT",
+            "LINE",
+            "LINE SEGMENT",
+            "RAY",
+            "ANGLE",
+            "VERTEX",
+            "POLYGON",
+            "TRIANGLE",
+            "QUADRILATERAL",
+            "PENTAGON",
+            "HEXAGON",
+            "PARALLEL"
+          ]
+        },
+        {
+          "name": "Page 13: Angles and Measurement",
+          "words": [
+            "RIGHT ANGLE",
+            "ACUTE ANGLE",
+            "OBTUSE ANGLE",
+            "STRAIGHT ANGLE",
+            "DEGREES",
+            "PROTRACTOR",
+            "PERPENDICULAR",
+            "INTERSECT",
+            "SYMMETRY",
+            "LINE OF SYMMETRY",
+            "TURN",
+            "ROTATION"
+          ]
+        },
+        {
+          "name": "Page 14: Polygons and Quadrilaterals",
+          "words": [
+            "SQUARE",
+            "RECTANGLE",
+            "RHOMBUS",
+            "PARALLELOGRAM",
+            "TRAPEZOID",
+            "SIDES",
+            "CORNERS",
+            "CLOSED SHAPE",
+            "REGULAR POLYGON",
+            "IRREGULAR",
+            "OCTAGONS",
+            "DECAGON"
+          ]
+        },
+        {
+          "name": "Page 16: Area and Perimeter",
+          "words": [
+            "PERIMETER",
+            "AREA",
+            "DISTANCE",
+            "BOUNDARY",
+            "SQUARE UNITS",
+            "LENGTH",
+            "WIDTH",
+            "HEIGHT",
+            "FORMULA",
+            "MEASURE",
+            "GRID",
+            "DIMENSION"
+          ]
+        },
+        {
+          "name": "Page 15: Writing Tools",
+          "words": [
+            "PENCIL",
+            "ERASER",
+            "NOTEBOOK",
+            "MARKER",
+            "CRAYON",
+            "PEN",
+            "PAPER",
+            "JOURNAL",
+            "HIGHLIGHTER",
+            "BINDER",
+            "RULER",
+            "CHALK"
+          ]
+        },
+        {
+          "name": "Page 17: Ocean Habitats",
+          "words": [
+            "CORAL",
+            "REEF",
+            "KELP",
+            "CURRENT",
+            "TIDE",
+            "SALINITY",
+            "TRENCH",
+            "ABYSSAL",
+            "PLANKTON",
+            "SHELL",
+            "URCHIN",
+            "BARNACLE"
+          ]
+        },
+        {
+          "name": "Page 18: Plant Anatomy",
+          "words": [
+            "CHLOROPHYLL",
+            "PHOTOSYNTHESIS",
+            "ROOT",
+            "STEM",
+            "PETAL",
+            "STOMA",
+            "XLOEM",
+            "PHLOEM",
+            "POLLEN",
+            "SEEDLING",
+            "LEAF",
+            "PISTIL"
+          ]
+        },
+        {
+          "name": "Page 19: Animal Adaptations",
+          "words": [
+            "CAMOUFLAGE",
+            "MIGRATION",
+            "HIBERNATION",
+            "MIMICRY",
+            "NOCTURNAL",
+            "BEAK",
+            "FEATHER",
+            "FUR",
+            "SCALE",
+            "VENOM",
+            "INSTINCT",
+            "CLAW"
+          ]
+        },
+        {
+          "name": "Page 20: Insect Life Cycles",
+          "words": [
+            "LARVA",
+            "PUPA",
+            "CHRYSALIS",
+            "EGG",
+            "THORAX",
+            "ABDOMEN",
+            "ANTENNA",
+            "METAMORPHOSIS",
+            "CATERPILLAR",
+            "COCOON",
+            "MOLTING",
+            "PROBOSCIS"
+          ]
+        },
+        {
+          "name": "Page 21: Wetland Biomes",
+          "words": [
+            "MARSH",
+            "SWAMP",
+            "BOG",
+            "REED",
+            "CATTAIL",
+            "ALGAE",
+            "MUD",
+            "SILT",
+            "AMPHIBIAN",
+            "DRAGONFLY",
+            "HERON",
+            "ALLIGATOR"
+          ]
+        },
+        {
+          "name": "Page 22: Desert Survival",
+          "words": [
+            "CACTUS",
+            "SUCCULENT",
+            "DUNE",
+            "OASIS",
+            "ARID",
+            "DROUGHT",
+            "SCORPION",
+            "LIZARD",
+            "BURROW",
+            "SPINE",
+            "SHADE",
+            "SAND"
+          ]
+        },
+        {
+          "name": "Page 23: Food Webs",
+          "words": [
+            "PRODUCER",
+            "CONSUMER",
+            "ENERGY",
+            "OMNIVORE",
+            "CARNIVORE",
+            "SCAVENGER",
+            "WEB",
+            "CHAIN",
+            "SUNLIGHT",
+            "TRANSFER",
+            "APEX",
+            "BALANCE"
+          ]
+        },
+        {
+          "name": "Page 30: Math Word Problems",
+          "words": [
+            "WORD PROBLEM",
+            "CLUE WORD",
+            "STRATEGY",
+            "SOLVE",
+            "CHECK",
+            "ANSWER",
+            "EXPLAIN",
+            "REASONING",
+            "DIAGRAM",
+            "HIDDEN FACT",
+            "CALCULATE",
+            "SOLUTION"
+          ]
+        },
+        {
+          "name": "Page 30: Microscopic World",
+          "words": [
+            "CELL",
+            "NUCLEUS",
+            "MICROSCOPE",
+            "ORGANISM",
+            "BACTERIUM",
+            "VIRUS",
+            "AMOEBA",
+            "SPORE",
+            "MICRON",
+            "COLONY",
+            "SAMPLE",
+            "LENS"
+          ]
+        },
+        {
+          "name": "Conservation and Nature",
+          "words": [
+            "CONSERVATION",
+            "ENDANGERED",
+            "EXTINCTION",
+            "RESTORATION",
+            "SUSTAINABLE",
+            "RENEWABLE",
+            "POLLUTION",
+            "CONSERVE",
+            "RESERVE",
+            "PROTECT",
+            "WILDLIFE",
+            "STEWARDSHIP"
+          ]
+        },
+        {
+          "name": "Page 27: Animal Habitats",
+          "words": [
+            "FOREST",
+            "DESERT",
+            "OCEAN",
+            "TUNDRA",
+            "GRASSLAND",
+            "WETLAND",
+            "JUNGLE",
+            "CAVE",
+            "RIVER",
+            "MOUNTAIN",
+            "ARCTIC",
+            "SAVANNA"
+          ]
+        },
+        {
+          "name": "Page 28: Forest Animals",
+          "words": [
+            "SQUIRREL",
+            "DEER",
+            "OWL",
+            "BEAR",
+            "FOX",
+            "WOLF",
+            "RACCOON",
+            "WOODPECKER",
+            "MOOSE",
+            "CHIPMUNK",
+            "HAWK",
+            "RABBIT"
+          ]
+        },
+        {
+          "name": "Atmosphere and Air",
+          "words": [
+            "ALTITUDE",
+            "BAROMETER",
+            "BREEZE",
+            "CIRRUS",
+            "CUMULUS",
+            "HUMIDITY",
+            "METEOROLOGY",
+            "OXYGEN",
+            "PRESSURE",
+            "STRATUS",
+            "TORNADO",
+            "WINDY"
+          ]
+        },
+        {
+          "name": "Earth Layers",
+          "words": [
+            "ASTHENOSPHERE",
+            "CORE",
+            "CRUST",
+            "FAULT",
+            "GEOLOGY",
+            "GRANITE",
+            "LAVA",
+            "MAGMA",
+            "MANTLE",
+            "MINERAL",
+            "TECTONIC",
+            "VOLCANO"
+          ]
+        },
+        {
+          "name": "Solar System",
+          "words": [
+            "ASTEROID",
+            "COMET",
+            "ECLIPSE",
+            "GRAVITY",
+            "JUPITER",
+            "MARS",
+            "MERCURY",
+            "METEOROID",
+            "NEPTUNE",
+            "ORBIT",
+            "SATURN",
+            "URANUS"
+          ]
+        },
+        {
+          "name": "Stars and Universe",
+          "words": [
+            "ASTRONOMY",
+            "BLACKHOLE",
+            "CLUSTER",
+            "CONSTELLATION",
+            "GALAXY",
+            "LIGHTYEAR",
+            "NEBULA",
+            "PULSAR",
+            "QUASAR",
+            "SUPERNOVA",
+            "TELESCOPE",
+            "UNIVERSE"
+          ]
+        },
+        {
+          "name": "Seasons and Climate",
+          "words": [
+            "AUTUMN",
+            "BLIZZARD",
+            "EQUATOR",
+            "HEMISPHERE",
+            "HURRICANE",
+            "MONSOON",
+            "SOLSTICE",
+            "SPRINGTIME",
+            "SUMMER",
+            "TEMPERATE",
+            "TROPICAL",
+            "WINTER"
+          ]
+        },
+        {
+          "name": "Rocks and Minerals",
+          "words": [
+            "IGNEOUS",
+            "SEDIMENTARY",
+            "METAMORPHIC",
+            "CRYSTAL",
+            "GEMSTONE",
+            "QUARTZ",
+            "DIAMOND",
+            "HARDNESS",
+            "LUSTER",
+            "FOSSILS",
+            "STRATA",
+            "WEATHERING"
+          ]
+        },
+        {
+          "name": "Space Exploration",
+          "words": [
+            "SPACECRAFT",
+            "LAUNCHPAD",
+            "ROCKET",
+            "COUNTDOWN",
+            "PROPULSION",
+            "SPACEWALK",
+            "SPACE STATION",
+            "PROBE",
+            "ROVER",
+            "MOON LANDING",
+            "GRAVITY ASSIST",
+            "SOLAR PANEL"
+          ]
+        },
+        {
+          "name": "Natural Disasters",
+          "words": [
+            "TSUNAMI",
+            "AVALANCHE",
+            "WILDFIRE",
+            "FLOOD",
+            "LANDSLIDE",
+            "SINKHOLE",
+            "TREMOR",
+            "EPICENTER",
+            "SEISMOGRAPH",
+            "EVACUATION",
+            "WARNING",
+            "AFTERSHOCK"
+          ]
+        },
+        {
+          "name": "Neighborhoods and Neighbors",
+          "words": [
+            "APARTMENT",
+            "BUILDING",
+            "COMMUNITY",
+            "CROSSWALK",
+            "DRIVEWAY",
+            "MAILBOX",
+            "NEIGHBORHOOD",
+            "RESIDENT",
+            "SIDEWALK",
+            "STREET",
+            "SUBURB",
+            "TOWNHOUSE"
+          ]
+        },
+        {
+          "name": "Local Government",
+          "words": [
+            "BALLOT",
+            "CAMPAIGN",
+            "CITIZEN",
+            "COUNCIL",
+            "ELECTION",
+            "GOVERNOR",
+            "LAWMAKER",
+            "MAYOR",
+            "MEETING",
+            "POLICY",
+            "PUBLIC",
+            "VOTE"
+          ]
+        },
+        {
+          "name": "Public Services",
+          "words": [
+            "AMBULANCE",
+            "EMERGENCY",
+            "FIREFIGHTER",
+            "HOSPITAL",
+            "LIBRARY",
+            "MUSEUM",
+            "OFFICER",
+            "PARAMEDIC",
+            "POLICE",
+            "PROTECTION",
+            "RESCUE",
+            "STATION"
+          ]
+        },
+        {
+          "name": "Communities at Work",
+          "words": [
+            "BAKERY",
+            "BUSINESS",
+            "CUSTOMER",
+            "EMPLOYEE",
+            "FACTORY",
+            "MARKET",
+            "MERCHANT",
+            "OCCUPATION",
+            "PRODUCE",
+            "SERVICE",
+            "STOREFRONT",
+            "VENDOR"
+          ]
+        },
+        {
+          "name": "Rights and Responsibilities",
+          "words": [
+            "AGREEMENT",
+            "BEHAVIOR",
+            "CONTRIBUTION",
+            "COOPERATION",
+            "DUTY",
+            "FAIRNESS",
+            "HONESTY",
+            "JUSTICE",
+            "OBLIGATION",
+            "RESPECT",
+            "RESPONSIBILITY",
+            "RIGHT"
+          ]
+        },
+        {
+          "name": "Travel and Transportation",
+          "words": [
+            "BICYCLE",
+            "HIGHWAY",
+            "JOURNEY",
+            "JUNCTION",
+            "PASSENGER",
+            "PATHWAY",
+            "PEDESTRIAN",
+            "RAILWAY",
+            "SUBWAY",
+            "TERMINAL",
+            "TRAFFIC",
+            "VEHICLE"
+          ]
+        },
+        {
+          "name": "Page 44: Community Helpers and Jobs",
+          "words": [
+            "TEACHER",
+            "DOCTOR",
+            "NURSE",
+            "PLUMBER",
+            "BUILDER",
+            "DRIVER",
+            "FARMER",
+            "GROCER",
+            "BAKER",
+            "MECHANIC",
+            "DENTIST",
+            "JANITOR"
+          ]
+        },
+        {
+          "name": "Page 43: Theater and Drama",
+          "words": [
+            "ACTOR",
+            "COSTUME",
+            "STAGE",
+            "SCRIPT",
+            "AUDIENCE",
+            "DIRECTOR",
+            "PROPS",
+            "CURTAIN",
+            "SCENE",
+            "LIGHTING",
+            "MAKEUP",
+            "REHEARSAL"
+          ]
+        },
+        {
+          "name": "Page 47: Public Spaces",
+          "words": [
+            "COMMUNITY CENTER",
+            "PUBLIC LIBRARY",
+            "RECREATION AREA",
+            "PLAYGROUND",
+            "BOTANICAL GARDEN",
+            "CIVIC PLAZA",
+            "TOWN SQUARE",
+            "SKATE PARK",
+            "NATURE RESERVE",
+            "SWIMMING POOL",
+            "HISTORY MUSEUM",
+            "SPORTS STADIUM"
+          ]
+        },
+        {
+          "name": "Page 45: Orchestra Instruments",
+          "words": [
+            "VIOLIN",
+            "TRUMPET",
+            "FLUTE",
+            "CELLO",
+            "CLARINET",
+            "TROMBONE",
+            "HARP",
+            "OBOE",
+            "TUBA",
+            "VIOLA",
+            "PICCOLO",
+            "XYLOPHONE"
+          ]
+        },
+        {
+          "name": "Page 46: Painting and Drawing",
+          "words": [
+            "CANVAS",
+            "PALETTE",
+            "SKETCH",
+            "WATERCOLOR",
+            "PASTEL",
+            "EASEL",
+            "BRISTLES",
+            "CHARCOAL",
+            "SHADING",
+            "OUTLINE",
+            "PORTRAIT",
+            "TEXTURE"
+          ]
+        },
+        {
+          "name": "Page 48: Crafts and Creation",
+          "words": [
+            "ORIGAMI",
+            "POTTERY",
+            "MOSAIC",
+            "SCULPTURE",
+            "YARN",
+            "BEADS",
+            "CLAY",
+            "SCISSORS",
+            "RIBBON",
+            "COLLAGE",
+            "PATTERN",
+            "WEAVING"
+          ]
+        },
+        {
+          "name": "Study Habits & Communication",
+          "words": [
+            "ACTIVE LISTENING",
+            "PEER REVIEW",
+            "STUDY GUIDE",
+            "FLASH CARDS",
+            "CLEAR SPEECH",
+            "GROUP PROJECT",
+            "NOTE TAKING",
+            "TIME TRACKER",
+            "KIND WORDS",
+            "HOMEWORK HELP",
+            "QUIET SPACE",
+            "GOAL SETTING"
+          ]
+        }
+      ],
+      "issues": [],
+      "unique_words": 576,
+      "completed_at": "2026-09-19T10:05:38"
+    },
+    "advanced_vocabulary": {
+      "title": "Advanced Vocabulary Challenge Word Search",
+      "puzzles": 48,
+      "topic": "recognizable advanced English vocabulary grouped by meaning and real-life use",
+      "audience": "teens and adults who enjoy learning stronger vocabulary",
+      "avoid": "people names, place names, brands, slurs, graphic terms, obscure scientific taxonomy, malformed words",
+      "pages": [
+        {
+          "name": "Rhetorical Strategies",
+          "words": [
+            "ANALOGY",
+            "ANECDOTE",
+            "APPEAL",
+            "ASSERTION",
+            "CITATION",
+            "COMPARISON",
+            "EVIDENCE",
+            "METAPHOR",
+            "PREMISE",
+            "RHETORIC",
+            "STATISTICS",
+            "TESTIMONY"
+          ]
+        },
+        {
+          "name": "Persuasive Techniques",
+          "words": [
+            "ADVOCACY",
+            "CAMPAIGN",
+            "COERCION",
+            "EMPATHY",
+            "ENDORSEMENT",
+            "INFLUENCE",
+            "MANIPULATION",
+            "MOTIVATION",
+            "PROPAGANDA",
+            "SEDUCTION",
+            "SUGGESTION",
+            "URGENCY"
+          ]
+        },
+        {
+          "name": "Debate and Dialogue",
+          "words": [
+            "ACQUIESCENCE",
+            "ARGUMENT",
+            "CLASH",
+            "CONCESSION",
+            "CONSENSUS",
+            "CONTENTION",
+            "DIALOGUE",
+            "DISAGREEMENT",
+            "DISCOURSE",
+            "NEGOTIATION",
+            "REBUTTAL",
+            "STALEMATE"
+          ]
+        },
+        {
+          "name": "Verbal Nuance",
+          "words": [
+            "AMBIGUITY",
+            "CONNOTATION",
+            "DENOTATION",
+            "DOUBLE ENTENDRE",
+            "EUPHEMISM",
+            "HYPERBOLE",
+            "IDIOM",
+            "INNUENDO",
+            "IRONY",
+            "NUANCE",
+            "SARCASM",
+            "SUBTEXT"
+          ]
+        },
+        {
+          "name": "Public Speaking",
+          "words": [
+            "ARTICULATION",
+            "AUDIENCE",
+            "CADENCE",
+            "CHARISMA",
+            "DELIVERY",
+            "DICTION",
+            "GESTURE",
+            "MODULATION",
+            "ORATORY",
+            "PROJECTION",
+            "STAGE PRESENCE",
+            "TONE"
+          ]
+        },
+        {
+          "name": "Critical Evaluation",
+          "words": [
+            "BIAS",
+            "CREDIBILITY",
+            "CRITIQUE",
+            "FALLACY",
+            "JUDGMENT",
+            "OBJECTIVITY",
+            "PERSPECTIVE",
+            "PREJUDICE",
+            "SCRUTINY",
+            "SKEPTICISM",
+            "VALIDITY",
+            "VERIFICATION"
+          ]
+        },
+        {
+          "name": "Nonverbal Cues",
+          "words": [
+            "EYE CONTACT",
+            "FACIAL EXPRESSION",
+            "HAPTICS",
+            "KINESICS",
+            "OCULESICS",
+            "PARALANGUAGE",
+            "POSTURE",
+            "PROXEMICS",
+            "SMIRK",
+            "STARE",
+            "TOUCH",
+            "VOCALIC"
+          ]
+        },
+        {
+          "name": "Media and Messaging",
+          "words": [
+            "BROADCAST",
+            "BROADCAST JOURNALISM",
+            "CHANNEL",
+            "DIFFUSION",
+            "FEEDBACK",
+            "MEDIUM",
+            "MESSAGE",
+            "NOISE",
+            "RECEIVER",
+            "SENDER",
+            "TRANSMISSION",
+            "VIRAL"
+          ]
+        },
+        {
+          "name": "Page 13: Debate and Dissent",
+          "words": [
+            "ANTAGONISM",
+            "ARGUMENTATION",
+            "BICKERING",
+            "CLAMOR",
+            "CONTROVERSY",
+            "DISPUTATION",
+            "DISSENT",
+            "INVECTIVE",
+            "LITIGATION",
+            "POLEMIC",
+            "SQUABBLE",
+            "VITUPERATION"
+          ]
+        },
+        {
+          "name": "Page 11: Assertive Postures",
+          "words": [
+            "DEFINITIVE",
+            "CATEGORICAL",
+            "UNEQUIVOCAL",
+            "EMPHATIC",
+            "UNYIELDING",
+            "DOGMATIC",
+            "ABSOLUTE",
+            "RESOLUTE",
+            "UNCOMPROMISING",
+            "FIERCE",
+            "UNWAVERING",
+            "ADAMANT"
+          ]
+        },
+        {
+          "name": "Page 12: Eloquent Expression",
+          "words": [
+            "ARTICULATE",
+            "ELOQUENT",
+            "FLUENT",
+            "EXPRESSIVE",
+            "COHERENT",
+            "LUCID",
+            "PUNGENT",
+            "POETIC",
+            "EVOCATIVE",
+            "PERSPICUOUS",
+            "GLIB",
+            "SILVER-TONGUED"
+          ]
+        },
+        {
+          "name": "Page 13: Diplomatic Discourse",
+          "words": [
+            "CONCILIATORY",
+            "TACTFUL",
+            "MEDIATED",
+            "PRUDENT",
+            "PLACATING",
+            "DISCREET",
+            "AUSPICIOUS",
+            "POLITIC",
+            "RECONCILING",
+            "ARBITRATED",
+            "EQUITABLE",
+            "TEMPERATE"
+          ]
+        },
+        {
+          "name": "Page 14: Sarcastic Delivery",
+          "words": [
+            "SARDONIC",
+            "CAUSTIC",
+            "IRONIC",
+            "MOCKING",
+            "TRENCHANT",
+            "MORDANT",
+            "ACIDIC",
+            "SCATHING",
+            "SATIRICAL",
+            "WRY",
+            "DERISIVE",
+            "ACERBIC"
+          ]
+        },
+        {
+          "name": "Page 17: Interpersonal Rapport",
+          "words": [
+            "RAPPORT",
+            "AFFINITY",
+            "EMPATHETIC",
+            "HARMONIOUS",
+            "RESONANT",
+            "CONGENIAL",
+            "SYNERGY",
+            "ACCORD",
+            "SYNERGISTIC",
+            "SYMBIOSIS",
+            "ATTUNED",
+            "KINSHIP"
+          ]
+        },
+        {
+          "name": "Page 20: Criticism & Rebuttal",
+          "words": [
+            "CASTIGATE",
+            "REPRIMAND",
+            "REBUKE",
+            "REPROOF",
+            "CENSURE",
+            "DENUNCIATION",
+            "IMPEACH",
+            "ADMONISH",
+            "EXCORIATE",
+            "LAMBASTE",
+            "CHASTISE",
+            "OBJURGATION"
+          ]
+        },
+        {
+          "name": "PAGE 16: Complex Emotional States",
+          "words": [
+            "AMBIVALENCE",
+            "MELANCHOLY",
+            "EUPHORIA",
+            "APATHY",
+            "NOSTALGIA",
+            "APPREHENSION",
+            "DISQUIET",
+            "SERENITY",
+            "VEXATION",
+            "TREPIDATION",
+            "ZEAL",
+            "LANGUOR"
+          ]
+        },
+        {
+          "name": "PAGE 23: Moral Integrity and Honor",
+          "words": [
+            "HONORABLE",
+            "RIGHTEOUS",
+            "UPRIGHT",
+            "SCIENTIFIC",
+            "PRINCIPLED",
+            "ETHICAL",
+            "BLAMELESS",
+            "IMPECCABLE",
+            "PROBITY",
+            "RECTITUDE",
+            "VERACIOUS",
+            "CONSCIENTIOUS"
+          ]
+        },
+        {
+          "name": "Page 21: Intellectual Traits",
+          "words": [
+            "ASTUTE",
+            "SAGACIOUS",
+            "PERSPICACIOUS",
+            "SHREWD",
+            "DISCERNING",
+            "PENETRATING",
+            "PERCEPTIVE",
+            "BRILLIANT",
+            "KEEN",
+            "INSIGHTFUL",
+            "CLEVER",
+            "WISE"
+          ]
+        },
+        {
+          "name": "Page 25: Hidden Motives",
+          "words": [
+            "SURREPTITIOUS",
+            "CLANDESTINE",
+            "FURTIVE",
+            "STEALTHY",
+            "ULTERIOR",
+            "DECEPTIVE",
+            "SLY",
+            "CRAFTY",
+            "CUNNING",
+            "GUILE",
+            "SCHEMING",
+            "MACHINATING"
+          ]
+        },
+        {
+          "name": "Page 21: Character Virtues",
+          "words": [
+            "INTEGRITY",
+            "FORTITUDE",
+            "COMPASSION",
+            "HUMILITY",
+            "DILIGENCE",
+            "ALTRUISM",
+            "CANDOR",
+            "RESILIENCE",
+            "PRUDENCE",
+            "FIDELITY",
+            "BENEVOLENCE",
+            "TENACITY"
+          ]
+        },
+        {
+          "name": "Page 22: Negative Traits",
+          "words": [
+            "ARROGANCE",
+            "COWARDICE",
+            "MALEVOLENCE",
+            "DECEPTIVENESS",
+            "HAUGHTINESS",
+            "PETULANCE",
+            "MALICE",
+            "PERFIDY",
+            "SPITE",
+            "COVETOUSNESS",
+            "OSTENTATION",
+            "OBSTINACY"
+          ]
+        },
+        {
+          "name": "Page 24: Social Interaction",
+          "words": [
+            "AMIABILITY",
+            "AFFABILITY",
+            "CORDIALITY",
+            "CIVILITY",
+            "GENIALITY",
+            "WARMTH",
+            "HOSPITALITY",
+            "CONGENIALITY",
+            "GRACIOUSNESS",
+            "SOCIABILITY",
+            "POLITENESS",
+            "AMITY"
+          ]
+        },
+        {
+          "name": "Page 27: Psychological Response",
+          "words": [
+            "VULNERABILITY",
+            "SUSCEPTIBILITY",
+            "SENSITIVITY",
+            "REACTION",
+            "DEFENSIVENESS",
+            "SCEPTICISM",
+            "CYNICISM",
+            "IMPRESSIONABILITY",
+            "RECEPTIVENESS",
+            "GUARDEDNESS",
+            "OPENNESS",
+            "TENDERNESS"
+          ]
+        },
+        {
+          "name": "Page 30: Social Attitudes",
+          "words": [
+            "EGALITARIAN",
+            "CONDESCENSION",
+            "PATERNALISTIC",
+            "SUPERCILIOUS",
+            "PATRONIZING",
+            "EGALITARIANISM",
+            "PHLEGMATIC",
+            "STOIC",
+            "FACETIOUS",
+            "SARCASTIC",
+            "CANDID",
+            "ALOOF"
+          ]
+        },
+        {
+          "name": "Page 31: Moods and Tempers",
+          "words": [
+            "EXUBERANT",
+            "DESPONDENT",
+            "LACHRYMOSE",
+            "SANGUINE",
+            "MOROSE",
+            "PESSIMISTIC",
+            "OPTIMISTIC",
+            "JOVIAL",
+            "SULKING",
+            "IRASCIBLE",
+            "PLACID",
+            "TURBULENT"
+          ]
+        },
+        {
+          "name": "Governance & Diplomacy",
+          "words": [
+            "AMBASSADOR",
+            "ALLIANCE",
+            "TREATY",
+            "SOVEREIGNTY",
+            "PROTOCOL",
+            "COALITION",
+            "HEGEMONY",
+            "RATIFICATION",
+            "SANCTION",
+            "CONCILIATION",
+            "EMBASSY",
+            "BIPARTISAN"
+          ]
+        },
+        {
+          "name": "Socioeconomic Dynamics",
+          "words": [
+            "STRATIFICATION",
+            "INEQUALITY",
+            "MOBILITY",
+            "GENTRIFICATION",
+            "DEMOGRAPHICS",
+            "MERITOCRACY",
+            "PLUTOCRACY",
+            "MARGINALIZATION",
+            "INEQUITY",
+            "AFFLUENCE",
+            "POVERTY",
+            "DISTRIBUTION"
+          ]
+        },
+        {
+          "name": "Cultural Integration",
+          "words": [
+            "ACCULTURATION",
+            "ASSIMILATION",
+            "MULTICULTURAL",
+            "DIVERSITY",
+            "PLURALISM",
+            "INCLUSION",
+            "HERITAGE",
+            "COEXISTENCE",
+            "GLOBALIZATION",
+            "HOMOGENEITY",
+            "TRADITION",
+            "INTERACTION"
+          ]
+        },
+        {
+          "name": "Public Infrastructure",
+          "words": [
+            "TRANSPORTATION",
+            "GRID",
+            "SANITATION",
+            "URBANIZATION",
+            "UTILITY",
+            "TELECOM",
+            "HIGHWAY",
+            "AQUEDUCT",
+            "BRIDGE",
+            "TRANSIT",
+            "WATERWAY",
+            "POWERPLANT"
+          ]
+        },
+        {
+          "name": "Corporate Governance",
+          "words": [
+            "SHAREHOLDER",
+            "BOARDROOM",
+            "FIDUCIARY",
+            "EXECUTIVE",
+            "DIVIDEND",
+            "MERGER",
+            "ACQUISITION",
+            "STAKEHOLDER",
+            "LIABILITY",
+            "COMPLIANCE",
+            "PORTFOLIO",
+            "AUDITOR"
+          ]
+        },
+        {
+          "name": "Philanthropy & Aid",
+          "words": [
+            "HUMANITARIAN",
+            "DONATION",
+            "ENDOWMENT",
+            "CHARITY",
+            "VOLUNTEER",
+            "GRANT",
+            "RELIEF",
+            "FOUNDATION",
+            "BENEFACTOR",
+            "NONPROFIT",
+            "OUTREACH",
+            "SUSTENANCE"
+          ]
+        },
+        {
+          "name": "Page 32: Empirical Investigation",
+          "words": [
+            "HYPOTHESIS",
+            "EXPERIMENT",
+            "VARIABLE",
+            "OBSERVATION",
+            "CORRELATION",
+            "CAUSATION",
+            "METHODOLOGY",
+            "QUANTITATIVE",
+            "QUALITATIVE",
+            "PARADIGM",
+            "ANOMALY",
+            "REPLICATION"
+          ]
+        },
+        {
+          "name": "Page 33: Astrophysics & Space",
+          "words": [
+            "SINGULARITY",
+            "SUPERNOVA",
+            "COSMOLOGY",
+            "ACCELERATION",
+            "GRAVITATION",
+            "SPECTROSCOPY",
+            "RADIATION",
+            "EXPANSION",
+            "ORBITAL",
+            "BLACK HOLE",
+            "NEBULA",
+            "REDSHIFT"
+          ]
+        },
+        {
+          "name": "Page 35: Quantum Mechanics",
+          "words": [
+            "ENTANGLEMENT",
+            "SUPERPOSITION",
+            "UNCERTAINTY",
+            "WAVEFUNCTION",
+            "PROBABILITY",
+            "COHERENCE",
+            "DECOHERENCE",
+            "INTERFERENCE",
+            "SUBATOMIC",
+            "TUNNELING",
+            "PHOTON",
+            "QUARK"
+          ]
+        },
+        {
+          "name": "Page 36: Earth & Climate Science",
+          "words": [
+            "BIODIVERSITY",
+            "ECOSYSTEM",
+            "STRATOSPHERE",
+            "HYDROLOGICAL",
+            "DEFORESTATION",
+            "GEOTHERMAL",
+            "ATMOSPHERE",
+            "SUSTAINABILITY",
+            "POLLUTION",
+            "CRYOSPHERE",
+            "TOPOGRAPHY",
+            "LITHOSPHERE"
+          ]
+        },
+        {
+          "name": "Page 37: Cognitive Neuroscience",
+          "words": [
+            "NEUROPLASTICITY",
+            "SYNAPSE",
+            "CONSCIOUSNESS",
+            "COGNITION",
+            "PERCEPTION",
+            "MEMORY",
+            "STIMULUS",
+            "NEURON",
+            "CEREBRUM",
+            "HEMISPHERE",
+            "RETICULAR",
+            "AMYGDALA"
+          ]
+        },
+        {
+          "name": "Page 38: Chemical Reactions",
+          "words": [
+            "CATALYST",
+            "OXIDATION",
+            "REDUCTION",
+            "THERMODYNAMICS",
+            "ENTHALPY",
+            "ENTROPY",
+            "EQUILIBRIUM",
+            "PRECIPITATE",
+            "SOLUTION",
+            "MOLECULAR",
+            "POLYMER",
+            "STOICHIOMETRY"
+          ]
+        },
+        {
+          "name": "Page 39: Scientific Innovation",
+          "words": [
+            "INVENTION",
+            "TECHNOLOGY",
+            "AUTOMATION",
+            "CYBERNETICS",
+            "NANOTECHNOLOGY",
+            "BIOTECHNOLOGY",
+            "ROBOTICS",
+            "ALGORITHM",
+            "SIMULATION",
+            "SYNTHESIS",
+            "INNOVATION",
+            "PROTOTYPE"
+          ]
+        },
+        {
+          "name": "Page 40: Sharp Contrasts",
+          "words": [
+            "DICHOTOMY",
+            "ANTITHESIS",
+            "DISCREPANCY",
+            "JUXTAPOSITION",
+            "POLARIZATION",
+            "PARADOX",
+            "DIVERGENCE",
+            "INCONGRUITY",
+            "VARIANCE",
+            "CONTRADICTION",
+            "DISTINCTION",
+            "POLARITY"
+          ]
+        },
+        {
+          "name": "Page 43: Sudden Alterations",
+          "words": [
+            "UPHEAVAL",
+            "REVOLUTION",
+            "DISRUPTION",
+            "CONVULSION",
+            "MUTATION",
+            "REVERSAL",
+            "VOLATILITY",
+            "BREAKTHROUGH",
+            "INTERRUPTION",
+            "CONVERSION",
+            "TURBULENCE",
+            "SWING"
+          ]
+        },
+        {
+          "name": "Literary Forms and Structures",
+          "words": [
+            "ALLEGORY",
+            "ANTHOLOGY",
+            "BIOGRAPHY",
+            "CHRONICLE",
+            "EPIC",
+            "FABLE",
+            "MONOLOGUE",
+            "NARRATIVE",
+            "PARODY",
+            "PROLOGUE",
+            "SATIRE",
+            "TRAGEDY"
+          ]
+        },
+        {
+          "name": "Publishing and Book Production",
+          "words": [
+            "BINDING",
+            "CHAPTER",
+            "EDITION",
+            "FOOTNOTE",
+            "FRONTISPIECE",
+            "GALLEYS",
+            "ILLUSTRATION",
+            "MANUSCRIPT",
+            "PAGINATION",
+            "PSEUDONYM",
+            "SYNOPSIS",
+            "TYPOGRAPHY"
+          ]
+        },
+        {
+          "name": "Architectural Design and Ornament",
+          "words": [
+            "ARCHITRAVE",
+            "BALUSTRADE",
+            "BUTTRESS",
+            "CAPITAL",
+            "COLONNADE",
+            "CORNICE",
+            "FACADE",
+            "GARGOYLE",
+            "MINARET",
+            "PEDIMENT",
+            "PORTICO",
+            "ROTUNDA"
+          ]
+        },
+        {
+          "name": "Musical Composition and Sound",
+          "words": [
+            "ALLEGRO",
+            "ARRANGEMENT",
+            "CAPRICCIO",
+            "CONCERTO",
+            "COUNTERPOINT",
+            "HARMONY",
+            "MELODY",
+            "NOCTURNE",
+            "OVERTURE",
+            "POLYPHONY",
+            "SYMPHONY",
+            "VIRTUOSO"
+          ]
+        },
+        {
+          "name": "Execution and Output",
+          "words": [
+            "BENCHMARK",
+            "CAPABILITY",
+            "DELIVERABLE",
+            "EFFICIENCY",
+            "EXECUTION",
+            "FUNCTION",
+            "IMPLEMENT",
+            "OPTIMIZE",
+            "OUTCOME",
+            "PERFORMANCE",
+            "PRODUCTIVITY",
+            "RESOLUTION"
+          ]
+        },
+        {
+          "name": "Temporal Transitions",
+          "words": [
+            "CHRONOLOGICAL",
+            "SIMULTANEOUS",
+            "INTERIM",
+            "PRELIMINARY",
+            "SUBSEQUENT",
+            "EPHEMERAL",
+            "PERPETUAL",
+            "TRANSITORY",
+            "SPORADIC",
+            "CONCURRENT",
+            "PROVISIONAL",
+            "RETROSPECTIVE"
+          ]
+        },
+        {
+          "name": "Sound and Expression",
+          "words": [
+            "RESONANCE",
+            "SYNCOPATION",
+            "TIMBRE",
+            "SONOROUS",
+            "CACOPHONY",
+            "REVERBERATE",
+            "AUDIBLE",
+            "MUTED",
+            "CRESCENDO",
+            "DISSONANCE",
+            "ACOUSTICS",
+            "INTONATION"
+          ]
+        },
+        {
+          "name": "Light and Color",
+          "words": [
+            "LUMINOUS",
+            "RADIANCE",
+            "OPALESCENT",
+            "TRANSLUCENT",
+            "VIBRANT",
+            "PASTEL",
+            "CHROMATIC",
+            "CONTRAST",
+            "SILHOUETTE",
+            "ILLUMINATION",
+            "SPECTRUM",
+            "IRIDESCENT"
+          ]
+        }
+      ],
+      "issues": [],
+      "unique_words": 576,
+      "completed_at": "2026-09-19T10:05:38"
+    },
+    "faithful_words": {
+      "title": "Faithful Words Word Search",
+      "puzzles": 50,
+      "topic": "reader-friendly Bible and Christian faith vocabulary: familiar people, places, virtues, worship, prayer, parables, service, hope, and community",
+      "audience": "adult and senior Christian puzzle solvers",
+      "avoid": "obscure genealogy names, archaic verb forms, unexplained concordance fragments, denominational controversy, unrelated generic words",
+      "pages": [
+        {
+          "name": "Walking in Faith",
+          "words": [
+            "BELIEF",
+            "TRUST",
+            "CONFIDENCE",
+            "STEADFAST",
+            "FAITHFUL",
+            "CONVICTION",
+            "DEVOTION",
+            "RELIANCE",
+            "ASSURANCE",
+            "FIDELITY",
+            "COMMITMENT",
+            "WALK"
+          ]
+        },
+        {
+          "name": "Daily Encouragement",
+          "words": [
+            "UPLIFT",
+            "COMFORT",
+            "STRENGTH",
+            "COURAGE",
+            "HEARTEN",
+            "INSPIRE",
+            "SOLACE",
+            "CHEER",
+            "REASSURE",
+            "BOLDNESS",
+            "SUSTAIN",
+            "GRACE"
+          ]
+        },
+        {
+          "name": "Fruits of the Spirit",
+          "words": [
+            "LOVE",
+            "JOY",
+            "PEACE",
+            "PATIENCE",
+            "KINDNESS",
+            "GOODNESS",
+            "GENTLENESS",
+            "FAITHFULNESS",
+            "SELFCONTROL",
+            "HARVEST",
+            "BLOSSOM",
+            "SPIRIT"
+          ]
+        },
+        {
+          "name": "Page 8: Psalms of Praise",
+          "words": [
+            "PSALM",
+            "PRAISE",
+            "WORSHIP",
+            "SONG",
+            "HYMN",
+            "MELODY",
+            "HARP",
+            "SING",
+            "REJOICE",
+            "GLORY",
+            "HONOR",
+            "EXALT"
+          ]
+        },
+        {
+          "name": "Page 10: Quiet Moments",
+          "words": [
+            "QUIET",
+            "SILENCE",
+            "MEDITATE",
+            "REFLECT",
+            "STILLNESS",
+            "SOLITUDE",
+            "LISTEN",
+            "WHISPER",
+            "CALM",
+            "PEACEFUL",
+            "SABBATH",
+            "RENEW"
+          ]
+        },
+        {
+          "name": "Page 11: Victorious Spirit",
+          "words": [
+            "VICTORY",
+            "TRIUMPH",
+            "OVERCOME",
+            "CONQUER",
+            "WINNER",
+            "CROWN",
+            "PRIZE",
+            "SUCCESS",
+            "FREEDOM",
+            "LIBERTY",
+            "RESCUE",
+            "DELIVER"
+          ]
+        },
+        {
+          "name": "Page 10: Gathering in Fellowship",
+          "words": [
+            "ASSEMBLY",
+            "COMMUNITY",
+            "CONGREGATION",
+            "FELLOWSHIP",
+            "BRETHREN",
+            "COMMUNION",
+            "HARMONY",
+            "UNITY",
+            "GATHERING",
+            "WELCOME",
+            "SHARING",
+            "BELOVED"
+          ]
+        },
+        {
+          "name": "Page 11: Attributes of the Divine",
+          "words": [
+            "HOLINESS",
+            "RIGHTEOUSNESS",
+            "SOVEREIGN",
+            "OMNIPOTENT",
+            "CREATOR",
+            "REDEEMER",
+            "SAVIOR",
+            "ALMIGHTY",
+            "ETERNAL",
+            "UNCHANGING",
+            "SUPREME",
+            "MAJESTIC"
+          ]
+        },
+        {
+          "name": "Places of Prayer",
+          "words": [
+            "INNER ROOM",
+            "MOUNTAINTOP",
+            "GARDEN",
+            "WILDERNESS",
+            "TEMPLE",
+            "SYNAGOGUE",
+            "UPPER ROOM",
+            "SHORELINE",
+            "SANCTUARY",
+            "ALTARS",
+            "CLOSER",
+            "SECRET PLACE"
+          ]
+        },
+        {
+          "name": "Page 16: Thanksgiving and Gratitude",
+          "words": [
+            "THANKFUL",
+            "COUNT BLESSINGS",
+            "APPRECIATION",
+            "HEART OF THANKS",
+            "ABUNDANCE",
+            "GRACE RECEIVED",
+            "MERCY ENDURES",
+            "JOYFUL SPIRIT",
+            "RECOGNITION",
+            "BLISSFUL",
+            "PRAISE GOD",
+            "CONTENTMENT"
+          ]
+        },
+        {
+          "name": "Page 17: Postures of Prayer",
+          "words": [
+            "BOWING DOWN",
+            "KNEELING",
+            "LIFTED HANDS",
+            "CLOSED EYES",
+            "HEAD BOWED",
+            "REACHING OUT",
+            "SURRENDER",
+            "HUMILITY",
+            "LOWLY HEART",
+            "PROSTRATE",
+            "SEEKING GOD",
+            "OPEN ARMS"
+          ]
+        },
+        {
+          "name": "Page 19: Spiritual Renewal",
+          "words": [
+            "REVIVAL",
+            "AWAKENING",
+            "FRESH WIND",
+            "LIVING WATER",
+            "CLEANSING",
+            "REFINING FIRE",
+            "RESTORED SOUL",
+            "NEW BEGINNING",
+            "TRANSFORMED",
+            "DEDICATED",
+            "CONSECRATION",
+            "HOLY SPIRIT"
+          ]
+        },
+        {
+          "name": "Page 13: Journey to Bethlehem",
+          "words": [
+            "BETHLEHEM",
+            "JOSEPH",
+            "MARY",
+            "MANGER",
+            "SHEPHERDS",
+            "STAR",
+            "ANGELS",
+            "INN",
+            "CENSUS",
+            "SWADDLING",
+            "MAGI",
+            "STABLE"
+          ]
+        },
+        {
+          "name": "Page 14: Miracles of Healing",
+          "words": [
+            "BLINDBARTIMAEUS",
+            "LAZARUS",
+            "LEPER",
+            "PARALYTIC",
+            "POOLOFBETHESDA",
+            "JAIRUSDAUGHTER",
+            "SEVEREDEAR",
+            "FEVERHEALED",
+            "CURED",
+            "RESTORE",
+            "FAITH",
+            "HEALINGTOUCH"
+          ]
+        },
+        {
+          "name": "Page 15: Patriarchs of Faith",
+          "words": [
+            "ABRAHAM",
+            "ISAAC",
+            "JACOB",
+            "NOAH",
+            "JOB",
+            "MELCHIZEDEK",
+            "ENOCH",
+            "TERAH",
+            "LOT",
+            "COVENANT",
+            "PROMISE",
+            "ANCESTORS"
+          ]
+        },
+        {
+          "name": "Page 16: Rivers of Scripture",
+          "words": [
+            "JORDAN",
+            "EUPHRATES",
+            "TIGRIS",
+            "NILE",
+            "CHEBAR",
+            "KIDRON",
+            "ABANA",
+            "PHARPAR",
+            "STREAM",
+            "WATERS",
+            "CURRENT",
+            "FLOW"
+          ]
+        },
+        {
+          "name": "Page 17: Women of Valor",
+          "words": [
+            "DEBORAH",
+            "RUTH",
+            "ESTHER",
+            "HANNAH",
+            "ABIGAIL",
+            "MIRIAM",
+            "PRISCILLA",
+            "LYDIA",
+            "PHOEBE",
+            "NAOMI",
+            "SARAH",
+            "ELIZABETH"
+          ]
+        },
+        {
+          "name": "Page 18: Coastal Towns and Ports",
+          "words": [
+            "JOPPA",
+            "CAESAREA",
+            "TYRE",
+            "SIDON",
+            "TARSUS",
+            "MILETUS",
+            "PAPHOS",
+            "SMYRNA",
+            "EPHESUS",
+            "HARBOR",
+            "VESSEL",
+            "ANCHOR"
+          ]
+        },
+        {
+          "name": "Page 19: Apostles and Companions",
+          "words": [
+            "PETER",
+            "ANDREW",
+            "JAMES",
+            "JOHN",
+            "PHILIP",
+            "BARTHOLOMEW",
+            "MATTHEW",
+            "THOMAS",
+            "THADDAEUS",
+            "SIMON",
+            "MATTHIAS",
+            "BARNABAS"
+          ]
+        },
+        {
+          "name": "Page 20: Valleys and Mountains",
+          "words": [
+            "MOUNTSINAI",
+            "MOUNTCARMEL",
+            "MOUNTTABOR",
+            "MOUNTNEBOT",
+            "MOUNTOFOLIVES",
+            "VALLEYOFELAH",
+            "VALLEYOFACHOR",
+            "PLAINOFSHARON",
+            "SUMMIT",
+            "RIDGE",
+            "SLOPES",
+            "HEIGHTS"
+          ]
+        },
+        {
+          "name": "Page 23: Kings of Israel",
+          "words": [
+            "DAVID",
+            "SOLOMON",
+            "SAUL",
+            "HEZEKIAH",
+            "JOSIAH",
+            "JEHOSHAPHAT",
+            "UZZIAH",
+            "JOTHAM",
+            "AHAZ",
+            "MANASSEH",
+            "AMON",
+            "REHOBOAM"
+          ]
+        },
+        {
+          "name": "Page 24: Prophets of God",
+          "words": [
+            "ISAIAH",
+            "JEREMIAH",
+            "EZEKIEL",
+            "DANIEL",
+            "ELIJAH",
+            "ELISHA",
+            "NATHAN",
+            "JONAH",
+            "AMOS",
+            "MICAH",
+            "JOEL",
+            "MALACHI"
+          ]
+        },
+        {
+          "name": "Page 30: Regions and Nations",
+          "words": [
+            "GALILEE",
+            "JUDEA",
+            "EGYPT",
+            "BABYLON",
+            "PERSIA",
+            "ASSYRIA",
+            "ARABIA",
+            "CANAAN",
+            "EDOM",
+            "MOAB",
+            "MIDIAN",
+            "PHILISTIA"
+          ]
+        },
+        {
+          "name": "Page 25: Parables of the Lost",
+          "words": [
+            "LOST SHEEP",
+            "SHEPHERD",
+            "NINETY NINE",
+            "LOST COIN",
+            "WOMAN",
+            "LAMP",
+            "SWEEP",
+            "PRODIGAL SON",
+            "RECONCILIATION",
+            "FATHER",
+            "CELEBRATION",
+            "FOUND"
+          ]
+        },
+        {
+          "name": "Page 26: Sermon on the Mount",
+          "words": [
+            "BEATITUDES",
+            "MOURN",
+            "MEEK",
+            "MERCIFUL",
+            "PEACEMAKERS",
+            "SALT OF THE EARTH",
+            "LIGHT OF THE WORLD",
+            "TURN THE OTHER CHEEK",
+            "LOVE YOUR ENEMIES",
+            "SECRET PRAYER",
+            "NARROW GATE",
+            "WISE BUILDER"
+          ]
+        },
+        {
+          "name": "Page 28: Parables of the Kingdom",
+          "words": [
+            "MUSTARD SEED",
+            "YEAST",
+            "HIDDEN TREASURE",
+            "PEARL OF GREAT PRICE",
+            "FISHING NET",
+            "WEEDS AND WHEAT",
+            "LANDOWNER",
+            "VINEYARD",
+            "WEDDING BANQUET",
+            "TEN VIRGINS",
+            "TALENTS",
+            "FAITHFUL SERVANT"
+          ]
+        },
+        {
+          "name": "Page 30: Teachings on Prayer",
+          "words": [
+            "THE LORD'S PRAYER",
+            "OUR FATHER",
+            "DAILY BREAD",
+            "TRESPASSES",
+            "TEMPTATION",
+            "DELIVER US",
+            "ASK AND IT WILL BE GIVEN",
+            "KNOCK",
+            "PERSISTENT WIDOW",
+            "CLOSET PRAYER",
+            "FATHER WHO SEES IN SECRET",
+            "AMEN"
+          ]
+        },
+        {
+          "name": "Page 33: Character and Conduct",
+          "words": [
+            "BEHAVIOR",
+            "EXAMPLE",
+            "WITNESS",
+            "TESTIMONY",
+            "REPUTATION",
+            "DIGNITY",
+            "RESPECT",
+            "KIND HEART",
+            "GENEROSITY",
+            "HOSPITALITY",
+            "SERVICE",
+            "GOOD WORKS"
+          ]
+        },
+        {
+          "name": "Page 35: Abiding Values",
+          "words": [
+            "TRUTH",
+            "LIGHT",
+            "PERFECTION",
+            "EXCELLENCE",
+            "NOBILITY",
+            "WORTH",
+            "TREASURE",
+            "ETERNAL LIFE",
+            "HEAVENLY MIND",
+            "PURE DEVOTION",
+            "HOLY LIVING",
+            "SOUND DOCTRINE"
+          ]
+        },
+        {
+          "name": "Community Care",
+          "words": [
+            "FOOD PANTRY",
+            "SHELTER",
+            "NEIGHBOR",
+            "RESCUE MISSION",
+            "CLOTHING DRIVE",
+            "OUTREACH",
+            "ADVOCACY",
+            "REFUGE",
+            "STREET MINISTRY",
+            "HOMELESS",
+            "HEALING",
+            "EMPATHY"
+          ]
+        },
+        {
+          "name": "Hospitality",
+          "words": [
+            "OPEN DOORS",
+            "GUEST",
+            "HOST",
+            "WELCOME TABLE",
+            "WARMTH",
+            "RECEPTION",
+            "ACCOMMODATE",
+            "SIT DOWN",
+            "BREAK BREAD",
+            "FELLOWSHIP HALL",
+            "INVITATION",
+            "SMILE"
+          ]
+        },
+        {
+          "name": "Christian Unity",
+          "words": [
+            "ONE BODY",
+            "PEACEABLE",
+            "ACCORD",
+            "KINDRED",
+            "SHARED VISION",
+            "BROTHERLY LOVE",
+            "CONCORD",
+            "BOUNDLESS",
+            "ONE SPIRIT",
+            "CONNECTED",
+            "TOGETHERNESS",
+            "AMITY"
+          ]
+        },
+        {
+          "name": "Spiritual Growth",
+          "words": [
+            "MATURITY",
+            "WISDOM",
+            "DISCIPLESHIP",
+            "ROOTED",
+            "BUILDING FAITH",
+            "TRANSFORMATION",
+            "RENEWAL",
+            "UNDERSTANDING",
+            "INSTRUCTION",
+            "SEEKING",
+            "LEARNING",
+            "PROGRESS"
+          ]
+        },
+        {
+          "name": "Servant Heart",
+          "words": [
+            "SERVITUDE",
+            "HELPING HAND",
+            "MINISTRY",
+            "SELFLESSNESS",
+            "GIVING",
+            "HOSTING",
+            "CARE",
+            "MINISTERING",
+            "TENDING",
+            "SUPPORT",
+            "PROVISION",
+            "LABOR OF LOVE"
+          ]
+        },
+        {
+          "name": "Page 40: Attributes of Love",
+          "words": [
+            "PATIENT",
+            "KIND",
+            "NOT JEALOUS",
+            "NOT BOASTFUL",
+            "NOT PROUD",
+            "NOT RUDE",
+            "UNSELFISH",
+            "SLOW TO ANGER",
+            "KEEPS NO RECORD",
+            "REJOICES IN TRUTH",
+            "BEARS ALL THINGS",
+            "NEVER FAILS"
+          ]
+        },
+        {
+          "name": "Page 36 - Heartfelt Thanksgiving",
+          "words": [
+            "GRATEFUL HEART",
+            "PRAYER OF THANKS",
+            "COUNT YOUR BLESSINGS",
+            "DAILY DEVOTION",
+            "JOYFUL PRAISE",
+            "ABUNDANT MERCY",
+            "GIFT OF GRACE",
+            "FAITHFUL PROMISE",
+            "SACRED ALTAR",
+            "HUMBLE SPIRIT",
+            "ENDURING LOVE",
+            "DIVINE FAVOR"
+          ]
+        },
+        {
+          "name": "Page 40 - Paths of Righteousness",
+          "words": [
+            "NARROW ROAD",
+            "GUIDING LIGHT",
+            "STEADFAST FAITH",
+            "TRUE COMPASS",
+            "WISE COUNSEL",
+            "HONEST PATH",
+            "NOBLE PURPOSE",
+            "WALK UPRIGHT",
+            "PURE MOTIVE",
+            "JUSTICE AND MERCY",
+            "DIVINE TRUTH",
+            "HEAVENLY WAY"
+          ]
+        },
+        {
+          "name": "Local Church Life",
+          "words": [
+            "ALTO",
+            "BAPTISTRY",
+            "CHANCEL",
+            "COUNCIL",
+            "DEACON",
+            "ELDER",
+            "GREETERS",
+            "MEMBERSHIP",
+            "ORGAN",
+            "PASTOR",
+            "PULPIT",
+            "USHER"
+          ]
+        },
+        {
+          "name": "Page 39: Works of Mercy",
+          "words": [
+            "FEED THE HUNGRY",
+            "CLOTHE THE NAKED",
+            "VISIT THE SICK",
+            "WELCOME STRANGERS",
+            "COMFORT MOURNERS",
+            "SHELTER THE HOMELESS",
+            "SHARE YOUR BREAD",
+            "GIVE CLEAN WATER",
+            "LIBERATE CAPTIVES",
+            "PRACTICE KINDNESS",
+            "EXTEND MERCY",
+            "SHOW COMPASSION"
+          ]
+        },
+        {
+          "name": "Page 43: Church Body Ministry",
+          "words": [
+            "PASTORAL CARE",
+            "DEACON SERVICE",
+            "YOUTH LEADERSHIP",
+            "CHOIR ANTHEMS",
+            "USHER DUTIES",
+            "SUNDAY SCHOOL",
+            "PRAYER CHAIN",
+            "NURSERY HELP",
+            "GREETING TEAM",
+            "MISSIONS SUPPORT",
+            "HOSPITALITY WING",
+            "AUDIO VISUAL"
+          ]
+        },
+        {
+          "name": "Page 45: Caring for Neighbors",
+          "words": [
+            "LOVE YOUR NEIGHBOR",
+            "CHECKING IN",
+            "MOWING LAWNS",
+            "COOKING MEALS",
+            "LISTENING EAR",
+            "OFFERING RIDES",
+            "SMILING FACES",
+            "KIND WORDS",
+            "PRAYING FOR THEM",
+            "SHARING FRUIT",
+            "OFFERING HELP",
+            "GENTLE COMFORT"
+          ]
+        },
+        {
+          "name": "Page 46: Global Missions",
+          "words": [
+            "CROSSING BORDERS",
+            "TRANSLATING BIBLE",
+            "PLANTING CHURCHES",
+            "MEDICAL CLINIC",
+            "DIGGING WELLS",
+            "TEACHING CHILDREN",
+            "SPREADING GOSPEL",
+            "SENDING TEAMS",
+            "FINANCIAL SUPPORT",
+            "PRAYER PARTNERS",
+            "HOPE ABROAD",
+            "DISCIPLE NATIONS"
+          ]
+        },
+        {
+          "name": "Christian Celebrations",
+          "words": [
+            "ADVENT",
+            "CHRISTMAS",
+            "EPIPHANY",
+            "LENT",
+            "PALM SUNDAY",
+            "GOOD FRIDAY",
+            "EASTER",
+            "ASCENSION",
+            "PENTECOST",
+            "TRINITY SUNDAY",
+            "ALL SAINTS",
+            "CHRIST THE KING"
+          ]
+        },
+        {
+          "name": "Sacraments and Holy Rites",
+          "words": [
+            "BAPTISM",
+            "HOLY COMMUNION",
+            "CONFIRMATION",
+            "MATRIMONY",
+            "ORDINATION",
+            "PENANCE",
+            "ANOINTING",
+            "EUCHARIST",
+            "THE LORD SUPPER",
+            "FOOT WASHING",
+            "BLESSING",
+            "DEDICATION"
+          ]
+        },
+        {
+          "name": "Liturgical Vestments and Objects",
+          "words": [
+            "CENSER",
+            "CHALICE",
+            "PATEN",
+            "CROZIER",
+            "MITRE",
+            "CASSOCK",
+            "SURPLICE",
+            "STOLE",
+            "ALTAR CLOTH",
+            "PASCHAL CANDLE",
+            "OFFERING PLATE",
+            "COLLECTION BOX"
+          ]
+        },
+        {
+          "name": "Timeless Hymns",
+          "words": [
+            "AMAZINGGRACE",
+            "HOLYHOLYHOLY",
+            "GREATISAFIDELITY",
+            "ROCKOFAJES",
+            "ABIDEMEWITHME",
+            "BETHUREMYVISION",
+            "JOYFULJOYFUL",
+            "HOWGREATTHOUART",
+            "NEARERMYGOD",
+            "WHILEPSALMSING",
+            "SWEETHOUROFPRAYER",
+            "FAITHOFOURFATHERS"
+          ]
+        },
+        {
+          "name": "Page 48: Symbols of Faith",
+          "words": [
+            "EMPTY CROSS",
+            "OLIVE BRANCH",
+            "WHITE DOVE",
+            "BURNING BUSH",
+            "ANCHOR HOPE",
+            "ALPHA OMEGA",
+            "BURNING LAMP",
+            "SHEPHERD CROOK",
+            "PASSOVER LAMB",
+            "LOAVES FISH",
+            "OPEN BIBLE",
+            "FIERY TONGUES"
+          ]
+        },
+        {
+          "name": "Page 48: Counting Our Blessings",
+          "words": [
+            "GRATITUDE",
+            "THANKSGIVING",
+            "ABUNDANT BLESSINGS",
+            "GENEROUS GIVER",
+            "DAILY MERCIES",
+            "HEARTFELT PRAISE",
+            "JOYFUL SONG",
+            "FAITHFUL PROVISION",
+            "COUNTLESS GIFTS",
+            "SMILE OF GOD",
+            "SWEET FELLOWSHIP",
+            "REJOICING ALWAYS"
+          ]
+        },
+        {
+          "name": "Page 49: Still Waters and Calm",
+          "words": [
+            "QUIET REFLECTION",
+            "INNER PEACE",
+            "STILL WATERS",
+            "GENTLE WHISPER",
+            "RESTING PLACE",
+            "SOUL REFRESHED",
+            "HOLY SILENCE",
+            "TRUSTING HEART",
+            "COMFORTING LIGHT",
+            "PATIENT WAITING",
+            "PEACEFUL REPOSE",
+            "SERENE MOMENT"
+          ]
+        },
+        {
+          "name": "Church Welcome and Worship",
+          "words": [
+            "GREETER",
+            "CHOIR",
+            "ORGANIST",
+            "PIANIST",
+            "READER",
+            "VOLUNTEER",
+            "LECTERN",
+            "HYMNAL",
+            "PEW",
+            "VESTIBULE",
+            "BULLETIN",
+            "NURSERY"
+          ]
+        }
+      ],
+      "issues": [],
+      "unique_words": 600,
+      "completed_at": "2026-09-19T10:05:38"
+    },
+    "road_trip": {
+      "title": "Road Trip Classics Word Search",
+      "puzzles": 50,
+      "topic": "road trips, highways, maps, roadside stops, scenic routes, camping travel, packing, navigation, and shared travel moments",
+      "audience": "adult and teen travel puzzle fans",
+      "avoid": "engine parts, restoration jargon, vehicle brands or models, air travel, cruises, international-document terminology",
+      "pages": [
+        {
+          "name": "Route Planning",
+          "words": [
+            "ATLAS",
+            "COMPASS",
+            "DETOUR",
+            "DESTINATION",
+            "HIGHWAY",
+            "LANDMARK",
+            "MILEAGE",
+            "NAVIGATION",
+            "PLANNER",
+            "ROUTE",
+            "SCHEDULE",
+            "STOPOVER"
+          ]
+        },
+        {
+          "name": "Trunk Packing",
+          "words": [
+            "BACKPACK",
+            "BLANKET",
+            "COOLER",
+            "DUFFEL",
+            "GEAR",
+            "LUGGAGE",
+            "ORGANIZER",
+            "PILLOW",
+            "SUPPLIES",
+            "TENT",
+            "TRUNK",
+            "UMBRELLA"
+          ]
+        },
+        {
+          "name": "Car Snacks",
+          "words": [
+            "ALMONDS",
+            "APPLES",
+            "CANDY",
+            "CHIPS",
+            "COOKIES",
+            "CRACKERS",
+            "GRANOLA",
+            "JERKY",
+            "NUTS",
+            "PRETZELS",
+            "SANDWICH",
+            "WATER"
+          ]
+        },
+        {
+          "name": "Morning Departure",
+          "words": [
+            "COFFEE",
+            "DAWN",
+            "DEPARTURE",
+            "DOORS",
+            "ENGINE",
+            "IGNITION",
+            "KEYS",
+            "MORNING",
+            "SEATING",
+            "SUNRISE",
+            "THERMOS",
+            "WINDOWS"
+          ]
+        },
+        {
+          "name": "Roadside Essentials",
+          "words": [
+            "BATTERIES",
+            "CASH",
+            "COINS",
+            "DOCUMENTS",
+            "FIRSTAID",
+            "FLASHLIGHT",
+            "INSURANCE",
+            "LICENSE",
+            "MEDICATION",
+            "PAPERWORK",
+            "REGISTRATION",
+            "TISSUE"
+          ]
+        },
+        {
+          "name": "Weather Prep",
+          "words": [
+            "BOOTS",
+            "FLEECE",
+            "GLOVES",
+            "HAT",
+            "JACKET",
+            "PONCHO",
+            "RAINCOAT",
+            "SCARF",
+            "SHADES",
+            "SWEATER",
+            "VISOR",
+            "WINDBREAKER"
+          ]
+        },
+        {
+          "name": "Music and Media",
+          "words": [
+            "ALBUM",
+            "AUDIOBOOK",
+            "CASSETTE",
+            "CDPLAYER",
+            "CHANNEL",
+            "CONCERT",
+            "HEADSET",
+            "MELODY",
+            "PLAYLIST",
+            "RADIO",
+            "SPEAKER",
+            "STATION"
+          ]
+        },
+        {
+          "name": "Passenger Comfort",
+          "words": [
+            "BOOK",
+            "CUSHION",
+            "ENTERTAINMENT",
+            "GAME",
+            "MAGAZINE",
+            "NECKREST",
+            "NOTEBOOK",
+            "PUZZLES",
+            "SHADE",
+            "TABLET",
+            "TRAVELER",
+            "VIEW"
+          ]
+        },
+        {
+          "name": "Page 9: Topographic Relief",
+          "words": [
+            "CONTOUR LINE",
+            "ELEVATION",
+            "SCALE BAR",
+            "LEGEND",
+            "NORTH ARROW",
+            "CARTOGRAPHY",
+            "MERIDIAN",
+            "PARALLEL",
+            "COORDINATE",
+            "SYMBOLOGY",
+            "BENCHMARK",
+            "GRID SYSTEM"
+          ]
+        },
+        {
+          "name": "Page 10: Scenic Byways",
+          "words": [
+            "COASTAL DRIVE",
+            "MOUNTAIN PASS",
+            "OVERLOOK",
+            "VISTA POINT",
+            "CANYON RIM",
+            "DESERT HIGHWAY",
+            "VALLEY FLOOR",
+            "RIDGE LINE",
+            "FOREST CANOPY",
+            "RIVER VALLEY",
+            "PLATEAU",
+            "MEANDERING ROAD"
+          ]
+        },
+        {
+          "name": "Page 12: Highway Infrastructure",
+          "words": [
+            "OVERPASS",
+            "UNDERPASS",
+            "MEDIAN STRIP",
+            "GUARDRAIL",
+            "SHOULDER",
+            "EXIT RAMP",
+            "MERGE LANE",
+            "TUNNEL",
+            "BRIDGE",
+            "VIADUCT",
+            "ROUNDABOUT",
+            "TRAFFIC SIGN"
+          ]
+        },
+        {
+          "name": "Page 13: Paper Navigation",
+          "words": [
+            "ROAD ATLAS",
+            "FOLDING MAP",
+            "GLOVE COMPARTMENT",
+            "PAGE NUMBER",
+            "INDEX",
+            "HIGHWAY GRID",
+            "RED LINE",
+            "CREASE",
+            "COMPASS ROSE",
+            "DIRECTION",
+            "DESTINATION TOWN",
+            "ROUTE FINDER"
+          ]
+        },
+        {
+          "name": "Page 14: Digital Guidance",
+          "words": [
+            "SATELLITE",
+            "GPS SIGNAL",
+            "VOICE PROMPT",
+            "RECALCULATING",
+            "ETA",
+            "TURN BY TURN",
+            "PIN DROP",
+            "LIVE TRAFFIC",
+            "SCREEN MOUNT",
+            "CHARGING CABLE",
+            "AUTO ZOOM",
+            "VOICE COMMAND"
+          ]
+        },
+        {
+          "name": "Page 15: Cross Country Tracks",
+          "words": [
+            "STATE LINE",
+            "COUNTY BORDER",
+            "TIME ZONE",
+            "LONG HAUL",
+            "BACKROADS",
+            "DIRT TRACK",
+            "GRAVEL ROAD",
+            "PAVED HIGHWAY",
+            "INTERSTATE",
+            "MAIN STREET",
+            "TOWN SQUARE",
+            "OUTSKIRTS"
+          ]
+        },
+        {
+          "name": "Page 18 - Roadside Stops",
+          "words": [
+            "REST AREA",
+            "PICNIC TABLE",
+            "INFORMATION CENTER",
+            "SCENIC TURNOUT",
+            "GAS STATION",
+            "CONVENIENCE STORE",
+            "MOTEL",
+            "DINER",
+            "GIFT SHOP",
+            "HISTORICAL MARKER",
+            "VIEWPOINT",
+            "WATER FOUNTAIN"
+          ]
+        },
+        {
+          "name": "Page 18: Road Safety First",
+          "words": [
+            "DEFENSIVE DRIVE",
+            "HAZARD LIGHTS",
+            "HEADLIGHTS ON",
+            "SAFE DISTANCE",
+            "BRAKE LIGHTS",
+            "SEATBELT CHECK",
+            "SPEED CONTROL",
+            "RUBBERNECKING",
+            "WEATHER ALERT",
+            "ROAD CONDITIONS",
+            "WATCHFUL EYES",
+            "CAREFUL MERGE"
+          ]
+        },
+        {
+          "name": "Page 19: Highway Signs",
+          "words": [
+            "YIELD SIGN",
+            "STOP SIGN",
+            "SPEED LIMIT SIGN",
+            "MERGE WARNING",
+            "CURVE AHEAD",
+            "CONSTRUCTION ZONE",
+            "DETOUR ARROW",
+            "SLIPPERY ROAD",
+            "ANIMAL CROSSING",
+            "NO PASSING ZONE",
+            "RAILROAD WARNING",
+            "DEAD END"
+          ]
+        },
+        {
+          "name": "Page 23: Shared Journey Moments",
+          "words": [
+            "SINGING ALONG",
+            "ROAD TRIP PLAYLIST",
+            "WINDOW GAZING",
+            "GUESSING GAMES",
+            "SUNSET WATCHING",
+            "COUNTING LICENSE PLATES",
+            "SHARED SNACKS",
+            "LAUGHING TOGETHER",
+            "SPOTTING LANDMARKS",
+            "EVENING ARRIVAL",
+            "DESTINATION REACHED",
+            "MEMORABLE ADVENTURE"
+          ]
+        },
+        {
+          "name": "Warning Markers",
+          "words": [
+            "SHARP CURVE",
+            "STEEP GRADE",
+            "FALLING ROCKS",
+            "DEER CROSSING",
+            "BRIDGE ICING",
+            "ROAD NARROWS",
+            "BUMP AHEAD",
+            "DIP IN ROAD",
+            "LOOSE GRAVEL",
+            "SOFT SHOULDER",
+            "TRAFFIC SIGNAL",
+            "BLIND INTERSECTION"
+          ]
+        },
+        {
+          "name": "Guide and Informational",
+          "words": [
+            "MILE MARKER",
+            "ROUTE NUMBER",
+            "HOSPITAL NEARBY",
+            "GAS AVAILABLE",
+            "FOOD AHEAD",
+            "LODGING SIGN",
+            "CAMPING SITE",
+            "SCENIC OVERLOOK",
+            "AIRPORT ROUTING",
+            "RECREATION AREA",
+            "TOURIST ATTRACTION",
+            "STATE BOUNDARY"
+          ]
+        },
+        {
+          "name": "Interchange Design",
+          "words": [
+            "DIAMOND INTERCHANGE",
+            "TRUMPET JUNCTION",
+            "WEAVING SECTION",
+            "ACCELERATION LANE",
+            "DECELERATION LANE",
+            "COLLECTOR DISTRIBUTOR",
+            "FLYOVER BRIDGE",
+            "TUNNEL ENTRANCE",
+            "FRONTAGE ROAD",
+            "LOCAL ACCESS",
+            "THROUGH TRAFFIC",
+            "SPLIT HIGHWAY"
+          ]
+        },
+        {
+          "name": "Adverse Travel Weather",
+          "words": [
+            "HEAVY DOWNPOUR",
+            "DENSE FOG",
+            "BLACK ICE",
+            "STRONG GUSTS",
+            "SUN GLARE",
+            "HYDROPLANING RISK",
+            "REDUCED VISIBILITY",
+            "WET PAVEMENT",
+            "SLUSH BUILDUP",
+            "STORM WARNING",
+            "WIPER BLADES",
+            "DEFROSTER SETTING"
+          ]
+        },
+        {
+          "name": "Page 25: Road Safety",
+          "words": [
+            "SEATBELT",
+            "HEADLIGHTS",
+            "WIPERS",
+            "DEFROSTER",
+            "DEFENSIVE",
+            "MIRROR",
+            "SIGNAL",
+            "BRAKES",
+            "HAZARD",
+            "WATCHFUL",
+            "ALERT",
+            "CAREFUL"
+          ]
+        },
+        {
+          "name": "Pavement Markings",
+          "words": [
+            "WHITE STRIPE",
+            "YELLOW LINE",
+            "DASHED DIVIDER",
+            "SOLID BORDER",
+            "RUMBLE STRIP",
+            "REFLECTIVE STUD",
+            "PAINTED ARROW",
+            "MERGE CHEVRON",
+            "BIKE LANE",
+            "BUS TERMINAL",
+            "PARKING SLOT",
+            "CROSSHATCH ZONE"
+          ]
+        },
+        {
+          "name": "Highway Patrol",
+          "words": [
+            "STATE TROOPER",
+            "RADAR GUN",
+            "SPEED TRAP",
+            "PATROL CAR",
+            "AMBER ALERT",
+            "ROADBLOCK CHECK",
+            "TICKET ISSUANCE",
+            "TRAFFIC CAMERA",
+            "POLICE ESCORT",
+            "SAFETY CHECK",
+            "HIGHWAY WATCH",
+            "OFFICER WAVE"
+          ]
+        },
+        {
+          "name": "Desert Highway",
+          "words": [
+            "CACTUS",
+            "DUNE",
+            "HEAT WAVE",
+            "MIRAGE",
+            "MESA",
+            "SANDSTORM",
+            "SUNBAKED",
+            "DRY WIND",
+            "ARID",
+            "SPARSE SHADE",
+            "VAST HORIZON",
+            "DUSTY ROAD"
+          ]
+        },
+        {
+          "name": "Coastal Drive",
+          "words": [
+            "OCEAN BREEZE",
+            "SALTY AIR",
+            "SEAGULL",
+            "SEASIDE CLIFF",
+            "SHORELINE",
+            "TIDE POOL",
+            "WAVES CRASH",
+            "DRIFTWOOD",
+            "PELICAN",
+            "BEACHY COVE",
+            "HARBOR VIEW",
+            "LIGHTHOUSE"
+          ]
+        },
+        {
+          "name": "Forest Canopy",
+          "words": [
+            "TALL PINE",
+            "GREEN SHADE",
+            "MOSSY ROCK",
+            "FERN GULLY",
+            "DAPPLED LIGHT",
+            "TIMBER",
+            "WILD FERN",
+            "WOODLAND",
+            "QUIET GROVE",
+            "HOLLOW LOG",
+            "NEEDLE DROP",
+            "LEAFY TRAIL"
+          ]
+        },
+        {
+          "name": "River Valley",
+          "words": [
+            "RUSHING WATER",
+            "GREEN MEADOW",
+            "RIVER BEND",
+            "SWIFT CURRENT",
+            "WATERFALL",
+            "FERTILE SOIL",
+            "GRASSY BANK",
+            "GENTLE STREAM",
+            "WILLOW TREE",
+            "PEBBLE SHORE",
+            "RUSTIC BRIDGE",
+            "CALM POOL"
+          ]
+        },
+        {
+          "name": "Overlook Ridge",
+          "words": [
+            "SCENIC VIEW",
+            "BIRDSEYE",
+            "DISTANT TOWN",
+            "PARKING AREA",
+            "TELESCOPE",
+            "TOURIST STOP",
+            "VALLEY BELOW",
+            "WINDY LEDGE",
+            "CAMERA CLICK",
+            "HORIZON LINE",
+            "PANORAMA",
+            "STEEP DROP"
+          ]
+        },
+        {
+          "name": "Golden Prairie",
+          "words": [
+            "AMBER WAVES",
+            "OPEN PLAIN",
+            "TALL GRASS",
+            "BIG SKY",
+            "ROLLING HILL",
+            "STORM CLOUD",
+            "FARMLAND",
+            "COUNTRY FENCE",
+            "WINDBLOWN",
+            "SUNNY EXPANSE",
+            "GRAZING HERD",
+            "QUIET ROAD"
+          ]
+        },
+        {
+          "name": "Page 35: Forest Canopies",
+          "words": [
+            "TALL TIMBER",
+            "FILTERED LIGHT",
+            "DAPPLED SHADE",
+            "MOSSY GROUND",
+            "PINE NEEDLES",
+            "WOODLAND TRAIL",
+            "LEAFY CANOPY",
+            "GREEN FOLIAGE",
+            "TRANQUIL WOODS",
+            "SILENTLY GROVE",
+            "FALLEN LOGS",
+            "ANCIENT TREES"
+          ]
+        },
+        {
+          "name": "Page 37: Sunset Overlooks",
+          "words": [
+            "GOLDEN HOUR",
+            "CRIMSON SKY",
+            "PURPLE DUSK",
+            "FADING LIGHT",
+            "SUNBURST RAYS",
+            "SILHOUETTE RIDGE",
+            "AMBER GLOW",
+            "TWILIGHT SHADE",
+            "EVENING BREEZE",
+            "HORIZON FIRE",
+            "SHADOWY VALLEY",
+            "NIGHTFALL APPROACH"
+          ]
+        },
+        {
+          "name": "Page 38: Canyon Vistas",
+          "words": [
+            "DEEP GORGE",
+            "LAYERED ROCK",
+            "RED SANDSTONE",
+            "NARROW CANYON",
+            "SHEER DROP",
+            "SUNLIT PLATEAU",
+            "CARVED CLIFFS",
+            "WIND EROSION",
+            "VAST EXPANSE",
+            "ROCKY LEDGE",
+            "GRAND VIEW",
+            "SHADOWED FLOOR"
+          ]
+        },
+        {
+          "name": "Page 39: Plateau Panoramas",
+          "words": [
+            "FLAT SUMMIT",
+            "WIDE PERSPECTIVE",
+            "OPEN SKY",
+            "DISTANT PEAKS",
+            "ROLLING PLAINS",
+            "VAST PLATEAU",
+            "CLEAR VISTA",
+            "LOFTY HEIGHT",
+            "BOUNDLESS VIEW",
+            "HIGH PLAIN",
+            "ENDLESS SKIES",
+            "SCENIC VANTAGE"
+          ]
+        },
+        {
+          "name": "Classic Diners",
+          "words": [
+            "JUKEBOX",
+            "COUNTER STOOL",
+            "VINYL BOOTH",
+            "NEON SIGN",
+            "COFFEE POT",
+            "BLUE PLATE",
+            "MALTED MILK",
+            "CHROME TRIM",
+            "SHORT ORDER",
+            "BREAKFAST BAR",
+            "PIE DISPLAY",
+            "WAITRESS PAD"
+          ]
+        },
+        {
+          "name": "Roadside Oddities",
+          "words": [
+            "GIANT BALL",
+            "TWISTED TREE",
+            "WORLD RECORD",
+            "CONCRETE COW",
+            "PAINTED ROCK",
+            "FIBERGLASS",
+            "QUIRKY STATUE",
+            "MYSTERY SPOT",
+            "CURIOUS SIGN",
+            "FOLK ART",
+            "PLYWOOD CUTOUT",
+            "RETRO LANDMARK"
+          ]
+        },
+        {
+          "name": "Filling Stations",
+          "words": [
+            "PUMP ISLAND",
+            "AIR HOSE",
+            "WINDSHIELD WASH",
+            "GLASS BOTTLE",
+            "SODA MACHINE",
+            "RESTROOM KEY",
+            "PAPER MAP",
+            "MOTOR OIL",
+            "SERVICE BELL",
+            "ICE CHEST",
+            "CANDY COUNTER",
+            "ATTENDANT"
+          ]
+        },
+        {
+          "name": "Motel Stops",
+          "words": [
+            "SWIMMING POOL",
+            "PLASTIC KEY",
+            "ICE MACHINE",
+            "VENDING AREA",
+            "OFFICE BELL",
+            "CORNER ROOM",
+            "NEON ARROW",
+            "POTTED PALM",
+            "DOUBLE BED",
+            "TRAVEL LODGE",
+            "PARKING SPACE",
+            "NO VACANCY"
+          ]
+        },
+        {
+          "name": "State Line Signs",
+          "words": [
+            "WELCOME BORDER",
+            "COUNTY MARKER",
+            "SPEED LIMIT",
+            "TRAVEL INFO",
+            "PIONEER TREE",
+            "OFFICIAL SEAL",
+            "RIVER BRIDGE",
+            "SCENIC ROUTE",
+            "ELEVATION SIGN",
+            "POPULATION COUNT",
+            "HISTORIC DISTRICT",
+            "JUNCTION AHEAD"
+          ]
+        },
+        {
+          "name": "General Stores",
+          "words": [
+            "WOODEN FLOOR",
+            "PORCH ROCKER",
+            "SARSAPARILLA",
+            "LOCAL HONEY",
+            "HANDMADE CRAFT",
+            "BARREL PICKLE",
+            "STAMPED POSTCARD",
+            "CAST IRON",
+            "FRESH FUDGE",
+            "ANTIQUE SCALE",
+            "SCREEN DOOR",
+            "FRIENDLY CLERK"
+          ]
+        },
+        {
+          "name": "DriveIn Theaters",
+          "words": [
+            "SPEAKER POLE",
+            "TICKET BOOTH",
+            "POOCH PASSENGER",
+            "TRUNK BLANKET",
+            "LAWN CHAIR",
+            "SCREEN TOWER",
+            "INTERMISSION",
+            "BUTTER POPCORN",
+            "FEATURE FILM",
+            "NIGHT SKY",
+            "CARAMEL APPLE",
+            "DOUBLE FEATURE"
+          ]
+        },
+        {
+          "name": "Campfire Cooking",
+          "words": [
+            "CAST IRON SKILLET",
+            "MARSHMALLOW",
+            "GRAHAM CRACKER",
+            "CHOCOLATE BAR",
+            "GRATE",
+            "TONGS",
+            "FOIL PACKET",
+            "CAMPFIRE COFFEE",
+            "SKEWERS",
+            "HOT DOGS",
+            "WIRE BRUSH",
+            "OVEN MITT"
+          ]
+        },
+        {
+          "name": "Morning at the Campsite",
+          "words": [
+            "EARLY SUNRISE",
+            "MISTY FOG",
+            "DEW DROPS",
+            "BIRD SONG",
+            "STRETCHING",
+            "MORNING CHILL",
+            "ZIPPER PULL",
+            "FRESH AIR",
+            "BREWING POT",
+            "SLIPPERS",
+            "DAY PACK",
+            "ROUTE PLANNING"
+          ]
+        },
+        {
+          "name": "Classic Car Games",
+          "words": [
+            "TWENTY QUESTIONS",
+            "I SPY",
+            "LICENSE PLATE",
+            "THE ALPHABET GAME",
+            "BULLS EYE",
+            "WOULD YOU RATHER",
+            "HANGMAN",
+            "GHOST",
+            "YELLOW CAR",
+            "ROAD SIGN BINGO",
+            "COUNTING COWS",
+            "TWENTY ONE"
+          ]
+        },
+        {
+          "name": "Highway Sing Along",
+          "words": [
+            "UPBEAT TEMPO",
+            "RADIO STATION",
+            "HARMONY",
+            "CLASSIC ROCK",
+            "SINGING LOUD",
+            "DRUMMING DASHBOARD",
+            "TOP DOWN BEATS",
+            "CATCHY CHORUS",
+            "MIXTAPE",
+            "ROAD MELODIES",
+            "TOUR ANTHEM",
+            "WINDOWS DOWN"
+          ]
+        },
+        {
+          "name": "Shared Travel Memories",
+          "words": [
+            "INSIDE JOKES",
+            "LATE NIGHT TALKS",
+            "PHOTO ALBUM",
+            "LAUGHING LOUD",
+            "LOST TOGETHER",
+            "SCENIC DETOUR",
+            "MEMORY BANK",
+            "STORYTELLING",
+            "BONDING TIME",
+            "SHARED SUNSET",
+            "TRIP HIGHLIGHTS",
+            "FOREVER MOMENTS"
+          ]
+        },
+        {
+          "name": "Radio Tuner Exploration",
+          "words": [
+            "STATIC SIGNAL",
+            "SCANNING BANDS",
+            "TRAFFIC REPORT",
+            "LOCAL DJ",
+            "AM FREQUENCY",
+            "FM STEREO",
+            "NEWS BROADCAST",
+            "WEATHER FORECAST",
+            "COUNTRY STATION",
+            "TALK RADIO",
+            "SIGNAL LOST",
+            "SEARCHING WAVES"
+          ]
+        },
+        {
+          "name": "Family Travel Traditions",
+          "words": [
+            "PACKING ROUTINE",
+            "MORNING DEPARTURE",
+            "FIRST STOP",
+            "ROAD SNACKS",
+            "FAVORITE ROUTE",
+            "PAJAMA RIDE",
+            "DESTINATION SIGN",
+            "ANNUAL JOURNEY",
+            "SOUVENIR SHOP",
+            "GROUP STRETCH",
+            "DRIVER SWITCH",
+            "HOMECOMING"
+          ]
+        },
+        {
+          "name": "Cozy Cabins and Overnight Stops",
+          "words": [
+            "RUSTIC CABIN",
+            "WOODLAND RETREAT",
+            "FOREST HIDEAWAY",
+            "MOUNTAIN LODGE",
+            "PINE TIMBER",
+            "STONE FIREPLACE",
+            "SLEEPING LOFT",
+            "PORCH SWING",
+            "STARLIT NIGHT",
+            "CAMPFIRE EMBERS",
+            "COZY BLANKET",
+            "MORNING COFFEE"
+          ]
+        }
+      ],
+      "issues": [],
+      "unique_words": 600,
+      "completed_at": "2026-09-19T10:05:38"
+    },
+    "american_history": {
+      "title": "American Moments Word Search",
+      "puzzles": 50,
+      "topic": "United States history grouped by eras, civics, movements, inventions, landmarks, daily life, exploration, and public institutions",
+      "audience": "general adult and teen history readers",
+      "avoid": "unsupported trivia claims, isolated generic verbs, partisan slogans, living politicians, brands, graphic violence",
+      "pages": [
+        {
+          "name": "Ancestral Puebloans",
+          "words": [
+            "CLIFF DWELLINGS",
+            "MESA VERDE",
+            "KIVA",
+            "PUEBLO",
+            "CANYON DE CHELLY",
+            "MAIZE",
+            "POTTERY",
+            "SOUTHWEST",
+            "TURQUOISE",
+            "PETROGLYPH",
+            "ARIZONA",
+            "SIPAPU"
+          ]
+        },
+        {
+          "name": "Northeastern Woodlands",
+          "words": [
+            "IROQUOIS",
+            "LONGHOUSE",
+            "WAMPUM",
+            "LACROSSE",
+            "THREE SISTERS",
+            "HURON",
+            "MOHAWK",
+            "SNOWSHOES",
+            "MAPLE SYRUP",
+            "COUNCIL FIRE",
+            "CANOE",
+            "FOREST"
+          ]
+        },
+        {
+          "name": "Plains and Horse Culture",
+          "words": [
+            "TEPEE",
+            "BUFFALO",
+            "PLAINS",
+            "HORSE",
+            "TRAVOIS",
+            "FEATHER BONNET",
+            "SIOUX",
+            "COMANCHE",
+            "CHEYENNE",
+            "PEMMICAN",
+            "CAMP CIRCLE",
+            "GRASSLAND"
+          ]
+        },
+        {
+          "name": "Pacific Northwest Coast",
+          "words": [
+            "TOTEM POLE",
+            "PLANK HOUSE",
+            "POTLATCH",
+            "SALMON",
+            "HAIDA",
+            "TLINGIT",
+            "CEDAR BARK",
+            "DUGOUT CANOE",
+            "CHINOOK",
+            "MASK",
+            "PACIFIC",
+            "RAVEN"
+          ]
+        },
+        {
+          "name": "Southeastern Mound Builders",
+          "words": [
+            "MISSISSIPPIAN",
+            "CAHOKIA",
+            "EARTHWORK",
+            "TEMPLE MOUND",
+            "CHEROKEE",
+            "CHOCTAW",
+            "CREEK",
+            "COPPER",
+            "CHIEFDANIEL",
+            "PLAZA",
+            "SHELL BEAD",
+            "RIVER VALLEY"
+          ]
+        },
+        {
+          "name": "Arctic and Subarctic Peoples",
+          "words": [
+            "INUIT",
+            "IGLOO",
+            "KAYAK",
+            "PARKA",
+            "HARPOON",
+            "UMIAK",
+            "TUNDRA",
+            "ALEUT",
+            "DOG SLED",
+            "SOAPSTONE",
+            "BLUBBER",
+            "ARCTIC"
+          ]
+        },
+        {
+          "name": "Age of European Exploration",
+          "words": [
+            "CARAVEL",
+            "COMPASS",
+            "ASTROLABE",
+            "GALLEON",
+            "NEW WORLD",
+            "EXPEDITION",
+            "NAVIGATOR",
+            "CARTOGRAPHY",
+            "OCEAN",
+            "SAILOR",
+            "FLAGSHIP",
+            "VOYAGE"
+          ]
+        },
+        {
+          "name": "Early Spanish Conquistadors",
+          "words": [
+            "CONQUISTADOR",
+            "ARMOR",
+            "ST AUGUSTINE",
+            "SANTA FE",
+            "MISSION",
+            "PRESIDIO",
+            "GOLD",
+            "CORONADO",
+            "PONCE DE LEON",
+            "FLORIDA",
+            "NEW SPAIN",
+            "HORSEBACK"
+          ]
+        },
+        {
+          "name": "Thirteen Colonies",
+          "words": [
+            "MASSACHUSETTS",
+            "VIRGINIA",
+            "PENNSYLVANIA",
+            "GEORGIA",
+            "MARYLAND",
+            "CONNECTICUT",
+            "NEW HAMPSHIRE",
+            "RHODE ISLAND",
+            "DELAWARE",
+            "NEW JERSEY",
+            "NEW YORK",
+            "CAROLINA"
+          ]
+        },
+        {
+          "name": "Colonial Trades",
+          "words": [
+            "BLACKSMITH",
+            "COOPER",
+            "SILVERSMITH",
+            "CABINETMAKER",
+            "PRINTING",
+            "WEAVING",
+            "TANNERS",
+            "MILLINERY",
+            "GLASSMAKER",
+            "SHIPWRIGHT",
+            "PIONEER",
+            "TRADESMAN"
+          ]
+        },
+        {
+          "name": "Road to Revolution",
+          "words": [
+            "STAMP ACT",
+            "BOSTON TEA PARTY",
+            "QUARTERING",
+            "INTOLERABLE",
+            "TAXATION",
+            "REPRESENTATION",
+            "PROTEST",
+            "BOYCOTT",
+            "SONS OF LIBERTY",
+            "PARLIAMENT",
+            "MONARCHY",
+            "SEDITION"
+          ]
+        },
+        {
+          "name": "Founding Documents",
+          "words": [
+            "DECLARATION",
+            "INDEPENDENCE",
+            "CONSTITUTION",
+            "ARTICLES",
+            "COMMON SENSE",
+            "FEDERALIST",
+            "RATIFICATION",
+            "AMENDMENT",
+            "GRIEVANCE",
+            "FREEDOM",
+            "SOVEREIGNTY",
+            "REPUBLIC"
+          ]
+        },
+        {
+          "name": "Continental Congress",
+          "words": [
+            "PHILADELPHIA",
+            "CARPENTERS HALL",
+            "DELEGATE",
+            "RESOLVE",
+            "ASSEMBLY",
+            "SESSION",
+            "PETITION",
+            "COMMITTEE",
+            "STATESMAN",
+            "PRESIDENT",
+            "SECRETARY",
+            "ADJOURN"
+          ]
+        },
+        {
+          "name": "Revolutionary War",
+          "words": [
+            "MINUTE MEN",
+            "REDCOATS",
+            "PATRIOT",
+            "LOYALIST",
+            "MILITIA",
+            "ENCAMPMENT",
+            "ARTILLERY",
+            "GENERAL",
+            "ALLIANCE",
+            "VICTORY",
+            "SURRENDER",
+            "TREATY"
+          ]
+        },
+        {
+          "name": "Historic Battles",
+          "words": [
+            "YORKTOWN",
+            "SARATOGA",
+            "BUNKER HILL",
+            "LEXINGTON",
+            "TRENTON",
+            "PRINCETON",
+            "MONMOUTH",
+            "VALLEY FORGE",
+            "COWPENS",
+            "GUILFORD",
+            "ORISKANY",
+            "CAMDEN"
+          ]
+        },
+        {
+          "name": "Daily Colonial Life",
+          "words": [
+            "HOMESTEAD",
+            "MEETINGHOUSE",
+            "SPINNING WHEEL",
+            "HEARTH",
+            "TAVERN",
+            "HARVEST",
+            "CHURCH",
+            "SCHOOLHOUSE",
+            "STAGECOACH",
+            "FARMSTEAD",
+            "VILLAGE",
+            "MARKETPLACE"
+          ]
+        },
+        {
+          "name": "The Judicial System",
+          "words": [
+            "FEDERAL COURTS",
+            "APPELLATE",
+            "DISTRICT JUDGE",
+            "ORAL ARGUMENTS",
+            "CONSTITUTIONALITY",
+            "BRIEFS",
+            "PRECEDENT",
+            "VERDICT",
+            "JURISDICTION",
+            "APPEAL",
+            "JUSTICES",
+            "OPINION"
+          ]
+        },
+        {
+          "name": "Civic Institutions",
+          "words": [
+            "LIBRARY OF CONGRESS",
+            "SMITHSONIAN",
+            "NATIONAL ARCHIVES",
+            "POST OFFICE",
+            "PUBLIC SCHOOLS",
+            "FEDERAL RESERVE",
+            "CENSUS BUREAU",
+            "NATIONAL PARK SERVICE",
+            "MINT",
+            "TREASURY",
+            "GOVERNMENT PRINTING",
+            "WEATHER SERVICE"
+          ]
+        },
+        {
+          "name": "Elections and Voting",
+          "words": [
+            "ELECTORAL COLLEGE",
+            "BALLOT BOX",
+            "PRIMARY ELECTION",
+            "CAMPAIGN TRAIL",
+            "SUFFRAGE",
+            "REGISTRATION",
+            "POLLING PLACE",
+            "DEBATE",
+            "TALLULATION",
+            "TURNOUT",
+            "CITIZENSHIP",
+            "DEMOCRACY"
+          ]
+        },
+        {
+          "name": "Federal Agencies",
+          "words": [
+            "FBI",
+            "CIA",
+            "EPA",
+            "NASA",
+            "FDA",
+            "CDC",
+            "SOCIAL SECURITY",
+            "INTERNAL REVENUE",
+            "PATENT OFFICE",
+            "HIGHWAY ADMINISTRATION",
+            "BORDER PATROL",
+            "COAST GUARD"
+          ]
+        },
+        {
+          "name": "Historical Amendments",
+          "words": [
+            "ABOLITION",
+            "CITIZENSHIP RIGHTS",
+            "INCOME TAX",
+            "DIRECT ELECTION",
+            "PROHIBITION",
+            "WOMEN SUFFRAGE",
+            "TERM LIMITS",
+            "VOTING AGE",
+            "CIVIL RIGHTS",
+            "RECONSTRUCTION",
+            "TWENTIETH AMENDMENT",
+            "SUCCESSION"
+          ]
+        },
+        {
+          "name": "Separation of Powers",
+          "words": [
+            "BICAMERAL",
+            "CABINET",
+            "CHECKS AND BALANCES",
+            "CONGRESS",
+            "EXECUTIVE",
+            "IMPEACHMENT",
+            "JUDICIAL",
+            "LEGISLATURE",
+            "NOMINATION",
+            "SUPREME COURT",
+            "VETO",
+            "WRIT OF MANDAMUS"
+          ]
+        },
+        {
+          "name": "Local Government",
+          "words": [
+            "ALDERMAN",
+            "BOARD OF SUPERVISORS",
+            "CITY COUNCIL",
+            "COUNTY SEAT",
+            "MAYORALTY",
+            "MUNICIPALITY",
+            "ORDINANCE",
+            "POLICE CHIEF",
+            "PROPERTY TAX",
+            "PUBLIC WORKS",
+            "SCHOOL BOARD",
+            "TOWN HALL"
+          ]
+        },
+        {
+          "name": "Landmarks of Governance",
+          "words": [
+            "CAPITOL BUILDING",
+            "WHITE HOUSE",
+            "SUPREME COURT BUILDING",
+            "MOUNT VERNON",
+            "MONTICELLO",
+            "FEDERAL HALL",
+            "OLD STATE HOUSE",
+            "PENTAGON",
+            "NATIONAL MALL",
+            "LINCOLN MEMORIAL",
+            "WASHINGTON MONUMENT",
+            "LIBRARY"
+          ]
+        },
+        {
+          "name": "Transcontinental Rail",
+          "words": [
+            "GOLDEN SPIKE",
+            "PROMONTORY SUMMIT",
+            "UNION PACIFIC",
+            "CENTRAL PACIFIC",
+            "TRESTLE BRIDGE",
+            "SLEDGEHAMMER",
+            "IRON HORSE",
+            "LOCOMOTIVE",
+            "SLEEPER CAR",
+            "TELEGRAPH WIRE",
+            "TRACK LAYER",
+            "SPIKE DRIVER"
+          ]
+        },
+        {
+          "name": "Mining Camps and Booms",
+          "words": [
+            "PLACER MINING",
+            "PANNING",
+            "SLUICE BOX",
+            "GOLD RUSH",
+            "SILVER STRIKE",
+            "CLAIM JUMPER",
+            "GHOST TOWN",
+            "ASSAY OFFICE",
+            "PROSPECTOR",
+            "NUGGET",
+            "BOOMTOWN",
+            "PICKAXE"
+          ]
+        },
+        {
+          "name": "Cattle Drives and Trails",
+          "words": [
+            "CHISHOLM TRAIL",
+            "LONGHORN",
+            "CATTLE DRIVE",
+            "TRAIL BOSS",
+            "STAMPEDE",
+            "WRANGLER",
+            "ROUNDUP",
+            "RUSTLER",
+            "BUNKHOUSE",
+            "SADDLE",
+            "SPURS",
+            "COWHAND"
+          ]
+        },
+        {
+          "name": "Canals and Waterways",
+          "words": [
+            "ERIE CANAL",
+            "LOCK SYSTEM",
+            "TOWPATH",
+            "MULE TEAM",
+            "PACKET BOAT",
+            "AQUEDUCT",
+            "BARGE",
+            "STEAMBOAT",
+            "PADDLEWHEEL",
+            "MISSISSIPPI",
+            "FLATBOAT",
+            "PORTAGE"
+          ]
+        },
+        {
+          "name": "Mail and Communication",
+          "words": [
+            "PONY EXPRESS",
+            "STATION MASTER",
+            "RELAY HORSE",
+            "SADDLEBAGS",
+            "TELEGRAPH LINE",
+            "MORSE CODE",
+            "DISPATCH",
+            "COURIER",
+            "LETTER DROP",
+            "MESSAGE",
+            "POSTRIDER",
+            "OPERATOR"
+          ]
+        },
+        {
+          "name": "Settlement and Homestead",
+          "words": [
+            "HOMESTEAD ACT",
+            "SOD HOUSE",
+            "LAND PATENT",
+            "PREEMPTION",
+            "FREE LAND",
+            "BOUNDARY STAKE",
+            "WELL DRILLING",
+            "WINDMILL",
+            "FENCING",
+            "BOUNTY LAND",
+            "CLAIM SHANTY",
+            "PLAT MAP"
+          ]
+        },
+        {
+          "name": "Page 31: Oregon Trail Journey",
+          "words": [
+            "CONESTOGA WAGON",
+            "INDEPENDENCE MISSOURI",
+            "RIVER CROSSING",
+            "OXEN TEAM",
+            "PRAIRIE SCHOONER",
+            "FORT HALL",
+            "MOUNTAIN MAN",
+            "FUR TRAPPER",
+            "TRAIL GUIDE",
+            "HEAVY RUTS",
+            "CHOLERA OUTBREAK",
+            "CONTINENTAL DIVIDE"
+          ]
+        },
+        {
+          "name": "Page 33: Pony Express and Mail",
+          "words": [
+            "FRESH HORSE",
+            "MAIL POUCH",
+            "STATION KEEPER",
+            "STOUT PONY",
+            "SOLITARY RIDER",
+            "FAST GALLOP",
+            "SACRAMENTO CALIFORNIA",
+            "ST JOSEPH MISSOURI",
+            "TELEGRAPH ERA",
+            "LIGHTNING LINES",
+            "DESERT CROSSING",
+            "BULLET SPEED"
+          ]
+        },
+        {
+          "name": "Page 38: Early Stagecoach Lines",
+          "words": [
+            "LEATHER STOCKINGS",
+            "WELLS FARGO",
+            "FOUR HORSE TEAM",
+            "BUMPY RIDE",
+            "DUSTY ROAD",
+            "COACH DRIVER",
+            "MESSENGER BOX",
+            "STRONG BOX",
+            "WAY STATION",
+            "HIGHWAY ROBBER",
+            "EXPRESS MAIL",
+            "HARNESS STRAP"
+          ]
+        },
+        {
+          "name": "PAGE 35: Domestic Kitchens",
+          "words": [
+            "CAST IRON",
+            "ICEBOX",
+            "WOOD STOVE",
+            "BUTTER CHURN",
+            "MASON JAR",
+            "WHISKEY JUG",
+            "CERAMIC CROCK",
+            "TIN CUP",
+            "COFFEE GRINDER",
+            "SPICE RACK",
+            "GRAVY BOAT",
+            "SOUP LADLE"
+          ]
+        },
+        {
+          "name": "PAGE 36: Lighting and Power",
+          "words": [
+            "OIL LAMP",
+            "CANDLE HOLDER",
+            "GAS LIGHT",
+            "BULB FILAMENT",
+            "POWER GRID",
+            "HYDROELECTRIC",
+            "STEAM TURBINE",
+            "COPPER WIRE",
+            "CIRCUIT BREAKER",
+            "INSULATOR",
+            "LANTERN",
+            "MATCHSTICK"
+          ]
+        },
+        {
+          "name": "PAGE 38: Office and Writing",
+          "words": [
+            "INKWELL",
+            "QUILL PEN",
+            "LEAD PENCIL",
+            "BLOTTER",
+            "TYPEWRITER",
+            "CARBON PAPER",
+            "LEDGER BOOK",
+            "FILE CABINET",
+            "PAPERCLIP",
+            "RUBBER STAMP",
+            "DESK LAMP",
+            "SEALING WAX"
+          ]
+        },
+        {
+          "name": "PAGE 39: Measurement and Time",
+          "words": [
+            "SUNDIAL",
+            "GRANDFATHER CLOCK",
+            "HOURGLASS",
+            "POCKET WATCH",
+            "BRASS COMPASS",
+            "BRASS SEXTANT",
+            "TAPE MEASURE",
+            "WOODEN RULER",
+            "BALANCE SCALE",
+            "MERCURY BAROMETER",
+            "THERMOMETER",
+            "WEIGHT STONES"
+          ]
+        },
+        {
+          "name": "PAGE 41: Recreation and Leisure",
+          "words": [
+            "CROQUET MALLET",
+            "CHECKERBOARD",
+            "PLAYING CARDS",
+            "PARLOR PIANO",
+            "SHEET MUSIC",
+            "STEREOSCOPE",
+            "MAGIC LANTERN",
+            "MARBLES",
+            "SPINNING TOP",
+            "DOLLHOUSE",
+            "KITE FLYING",
+            "SWING SET"
+          ]
+        },
+        {
+          "name": "Page 40: Civil War Campaigns and Battles",
+          "words": [
+            "GETTYSBURG",
+            "ANTIETAM",
+            "FORT SUMTER",
+            "BULL RUN",
+            "SHILOH",
+            "VICKSBURG",
+            "APPOMATTOX",
+            "FREDERICKSBURG",
+            "CHANCELLORSVILLE",
+            "CHICKAMAUGA",
+            "COLD HARBOR",
+            "ATLANTA"
+          ]
+        },
+        {
+          "name": "Page 42: Confederacy and Leadership",
+          "words": [
+            "ROBERT E LEE",
+            "STONEWALL JACKSON",
+            "JAMES LONGSTREET",
+            "JEB STUART",
+            "P GT BEAUREGARD",
+            "JEFFERSON DAVIS",
+            "NATHAN BEDFORD FORREST",
+            "JOHN BELL HOOD",
+            "JOSEPH E JOHNSTON",
+            "GEORGE PICKETT",
+            "ALEXANDER STEPHENS",
+            "CAVALRY"
+          ]
+        },
+        {
+          "name": "Steel and Rail",
+          "words": [
+            "BESSEMER PROCESS",
+            "STEEL MILL",
+            "RAILROAD TRACK",
+            "IRON ORE",
+            "COAL MINE",
+            "CROSS TIE",
+            "GAUGE",
+            "FURNACE",
+            "TRANSCONTINENTAL",
+            "SPIKE",
+            "SMELTER",
+            "DERRICK"
+          ]
+        },
+        {
+          "name": "Garment District",
+          "words": [
+            "SWEATSHOP",
+            "SEWING MACHINE",
+            "TEXTILE",
+            "SPINNING",
+            "PATTERN",
+            "TAILOR",
+            "LOOM",
+            "COTTON GIN",
+            "PIECEWORK",
+            "UNION LABEL",
+            "BUTTON",
+            "FABRIC"
+          ]
+        },
+        {
+          "name": "Urban Tenements",
+          "words": [
+            "FIRE ESCAPE",
+            "SETTLEMENT HOUSE",
+            "BOARDINGHOUSE",
+            "WATER PUMP",
+            "OVERCROWDED",
+            "ALLEYWAY",
+            "SANITATION",
+            "COAL STOVE",
+            "NEIGHBORHOOD",
+            "STREETSWEEPER",
+            "REFORMATORY",
+            "TENEMENT"
+          ]
+        },
+        {
+          "name": "New Communities",
+          "words": [
+            "LITTLE ITALY",
+            "CHINATOWN",
+            "LOWER EAST SIDE",
+            "ETHNIC ENCLAVE",
+            "SYNAGOGUE",
+            "PAROCHIAL SCHOOL",
+            "MUTUAL AID",
+            "NEWSPAPER",
+            "BOARDING",
+            "NATURALIZATION",
+            "INTEGRATION",
+            "ASSIMILATION"
+          ]
+        },
+        {
+          "name": "PAGE 45: Early American Lighting",
+          "words": [
+            "CANDLE DIPPER",
+            "WHALE OIL LAMP",
+            "TALLOW CANDLE",
+            "RUSH LIGHT",
+            "TIN LANTERN",
+            "IRON SKULLERY",
+            "FLAX SEED OIL",
+            "WICK TRIMMER",
+            "LANTERN HORN",
+            "FAT LAMP",
+            "CAMPEN OIL",
+            "PRIMITIVE BULB"
+          ]
+        },
+        {
+          "name": "PAGE 49: Domestic Laundry History",
+          "words": [
+            "WOODEN WASHBOARD",
+            "COPPER BOILER",
+            "WRINGER WASHER",
+            "CLOTHESLINE",
+            "WOODEN PEG",
+            "LYE SOAP",
+            "FLAT IRON",
+            "LAUNDRY TUB",
+            "BEATER PADDLE",
+            "DRYING RACK",
+            "CLOTHES BASKET",
+            "STARCH BOWL"
+          ]
+        },
+        {
+          "name": "PAGE 50: Print and News Technology",
+          "words": [
+            "HAND PRESS",
+            "MOVABLE TYPE",
+            "LINOTYPE MACHINE",
+            "GALLEY TRAY",
+            "PRINTING INK",
+            "ROTARY PRESS",
+            "COMPOSING STICK",
+            "NEWSBOY BAG",
+            "PAPER ROLL",
+            "WOODEN TYPE",
+            "PROOF SHEET",
+            "STEREOTYPE PLATE"
+          ]
+        },
+        {
+          "name": "Ellis Island Arrivals",
+          "words": [
+            "STEAMSHIP",
+            "MANIFEST",
+            "INSPECTION",
+            "QUARANTINE",
+            "TRANSIT",
+            "CUSTOMS",
+            "PASSPORT",
+            "STEERAGE",
+            "EXAMINATION",
+            "DETENTION",
+            "ARRIVAL",
+            "FORMALITIES"
+          ]
+        },
+        {
+          "name": "Family Farmstead Harvest",
+          "words": [
+            "BARN RAISING",
+            "HORSE DRAWN PLOW",
+            "SILO STORAGE",
+            "HEIRLOOM SEEDS",
+            "CROP ROTATION",
+            "COUNTRY MEADOW",
+            "GRANARY FLOOR",
+            "ORCHARD PICKING",
+            "LIVESTOCK PEN",
+            "RURAL TRADITION",
+            "AUTUMN REAP",
+            "HOMESTEAD ACRES"
+          ]
+        },
+        {
+          "name": "Suburban Community Growth",
+          "words": [
+            "CUL DE SAC",
+            "WHITE PICKET FENCE",
+            "COMMUNITY PARK",
+            "NEIGHBORHOOD STROLL",
+            "MAIN STREET SHOPS",
+            "LOCAL POST OFFICE",
+            "SCHOOL CROSSING",
+            "WELCOME WAGON",
+            "TOWN SQUARE",
+            "SIDEWALK CHALK",
+            "FRONT PORCH SWING",
+            "LIBRARY CORNER"
+          ]
+        }
+      ],
+      "issues": [],
+      "unique_words": 600,
+      "completed_at": "2026-09-19T10:05:38"
+    },
+    "faith_signature": {
+      "title": "Faithful Words: Large-Print Bible Word Search for Adults",
+      "puzzles": 100,
+      "topic": "broad but reader-friendly Bible and Christian faith vocabulary: books, familiar people and places, teachings, virtues, worship, prayer, service, fellowship, hope, gratitude, and reflection",
+      "audience": "adult and senior Christian puzzle solvers",
+      "avoid": "obscure genealogy names, archaic verb forms, unexplained concordance fragments, denominational controversy, unrelated generic words",
+      "pages": [
+        {
+          "name": "The Torah",
+          "words": [
+            "GENESIS",
+            "EXODUS",
+            "LEVITICUS",
+            "NUMBERS",
+            "DEUTERONOMY",
+            "CREATION",
+            "COVENANT",
+            "LAW",
+            "COMMANDMENTS",
+            "PATRIARCHS",
+            "WILDERNESS",
+            "PROMISE"
+          ]
+        },
+        {
+          "name": "Historical Books",
+          "words": [
+            "JOSHUA",
+            "JUDGES",
+            "RUTH",
+            "SAMUEL",
+            "KINGS",
+            "CHRONICLES",
+            "EZRA",
+            "NEHEMIAH",
+            "ESTHER",
+            "KINGDOM",
+            "TEMPLE",
+            "EXILE"
+          ]
+        },
+        {
+          "name": "Wisdom and Poetry",
+          "words": [
+            "JOB",
+            "PSALMS",
+            "PROVERBS",
+            "ECCLESIASTES",
+            "SONG OF SOLOMON",
+            "PRAISE",
+            "WORSHIP",
+            "LAMENT",
+            "INSTRUCTION",
+            "RIGHTEOUSNESS",
+            "MELODY",
+            "REFLECTION"
+          ]
+        },
+        {
+          "name": "Major Prophets",
+          "words": [
+            "ISAIAH",
+            "JEREMIAH",
+            "LAMENTATIONS",
+            "EZEKIEL",
+            "DANIEL",
+            "VISION",
+            "PROPHECY",
+            "WARNING",
+            "REDEMPTION",
+            "JUDGMENT",
+            "RESTORATION",
+            "MESSAGE"
+          ]
+        },
+        {
+          "name": "Minor Prophets",
+          "words": [
+            "HOSEA",
+            "JOEL",
+            "AMOS",
+            "OBADIAH",
+            "JONAH",
+            "MICAH",
+            "NAHUM",
+            "HABAKKUK",
+            "ZEPHANIAH",
+            "HAGGAI",
+            "ZECHARIAH",
+            "MALACHI"
+          ]
+        },
+        {
+          "name": "The Gospels",
+          "words": [
+            "MATTHEW",
+            "MARK",
+            "LUKE",
+            "JOHN",
+            "BIOGRAPHY",
+            "MINISTRY",
+            "PARABLES",
+            "MIRACLES",
+            "TEACHINGS",
+            "GOSPEL",
+            "GOOD NEWS",
+            "WITNESS"
+          ]
+        },
+        {
+          "name": "The Pauline Epistles",
+          "words": [
+            "ROMANS",
+            "CORINTHIANS",
+            "GALATIANS",
+            "EPHESIANS",
+            "PHILIPPIANS",
+            "COLOSSIANS",
+            "THESSALONIANS",
+            "TIMOTHY",
+            "TITUS",
+            "PHILEMON",
+            "LETTERS",
+            "DOCTRINE"
+          ]
+        },
+        {
+          "name": "Page 13: Judges of Israel",
+          "words": [
+            "DEBORAH",
+            "GIDEON",
+            "SAMSON",
+            "DELILAH",
+            "HORNS",
+            "FLEECE",
+            "STRENGTH",
+            "VICTORY",
+            "DELIVERANCE",
+            "ARMY",
+            "LEADERSHIP",
+            "FAITHFULNESS"
+          ]
+        },
+        {
+          "name": "Page 9: Creation and Eden",
+          "words": [
+            "ADAM",
+            "EVE",
+            "GARDEN",
+            "SERPENT",
+            "TREE OF LIFE",
+            "DUST",
+            "RIB",
+            "BREATH",
+            "FRUIT",
+            "FORBIDDEN",
+            "EAST OF EDEN",
+            "PARADISE"
+          ]
+        },
+        {
+          "name": "Page 11: Abraham and Sarah",
+          "words": [
+            "ABRAHAM",
+            "SARAH",
+            "ISAAC",
+            "CANAAN",
+            "TENT",
+            "STARS",
+            "FATHER OF MANY",
+            "HARAN",
+            "JOURNEY",
+            "ALTARS",
+            "HOSPITALITY",
+            "DESCENDANTS"
+          ]
+        },
+        {
+          "name": "Page 12: Joseph and His Brothers",
+          "words": [
+            "JOSEPH",
+            "COAT OF MANY COLORS",
+            "DREAMER",
+            "EGYPT",
+            "PHARAOH",
+            "FAMINE",
+            "GRANARY",
+            "FORGIVENESS",
+            "SILVER CUP",
+            "DUNGEON",
+            "PINNACLE",
+            "GOVERNOR"
+          ]
+        },
+        {
+          "name": "Page 13: Moses and the Exodus",
+          "words": [
+            "MOSES",
+            "BURNING BUSH",
+            "RED SEA",
+            "STAFF",
+            "PLAGUES",
+            "PASSOVER",
+            "SINAI",
+            "TEN COMMANDMENTS",
+            "MANNA",
+            "DESERT",
+            "PILLAR OF FIRE",
+            "FREEDOM"
+          ]
+        },
+        {
+          "name": "Page 16: Elijah and Elisha",
+          "words": [
+            "ELIJAH",
+            "ELISHA",
+            "CHARIOT OF FIRE",
+            "WHIRLWIND",
+            "MANTEL",
+            "MOUNT CARMEL",
+            "STILL SMALL VOICE",
+            "MIRACLE",
+            "DOUBLE PORTION",
+            "RIVER JORDAN",
+            "RAVENS",
+            "PROPHET"
+          ]
+        },
+        {
+          "name": "Page 16: Kings and Royalty",
+          "words": [
+            "SAUL",
+            "DAVID",
+            "SOLOMON",
+            "REHOBOAM",
+            "ASA",
+            "JEHOSHAPHAT",
+            "JOASH",
+            "UZZIAH",
+            "HEZEKIAH",
+            "JOSIAH",
+            "SHEBA",
+            "CANDACE"
+          ]
+        },
+        {
+          "name": "Page 19: Courageous Deliverers",
+          "words": [
+            "EHUD",
+            "SHAMGAR",
+            "BARAK",
+            "JEPHTHAH",
+            "BOAZ",
+            "JESSE",
+            "NATHAN",
+            "GAD",
+            "JOAB",
+            "ABNER",
+            "MEPHIBOSHETH",
+            "BARZILLAI"
+          ]
+        },
+        {
+          "name": "Page 18: Sea of Galilee",
+          "words": [
+            "GALILEE",
+            "CAPERNAUM",
+            "FISHING BOATS",
+            "GENTLE WAVES",
+            "WALKING ON WATER",
+            "NET OF FISH",
+            "SHORELINE",
+            "QUIET WATERS",
+            "MIRACULOUS CATCH",
+            "STORM STILLED",
+            "PENTE",
+            "MORNING MIST"
+          ]
+        },
+        {
+          "name": "Page 19: City of Jericho",
+          "words": [
+            "JERICHO",
+            "FALLEN WALLS",
+            "MARCHING PRIESTS",
+            "RAM HORNS",
+            "ANCIENT CITY",
+            "SCARLET CORD",
+            "VICTORY SHOUT",
+            "PALM TREES",
+            "SIEGE",
+            "BANNERS",
+            "FAITHFUL STEP",
+            "OPEN GATES"
+          ]
+        },
+        {
+          "name": "Page 23: Island of Patmos",
+          "words": [
+            "PATMOS",
+            "ROCKY SHORE",
+            "VISIONARY",
+            "SEVEN CHURCHES",
+            "SCROLL",
+            "APOSTLE JOHN",
+            "ISLAND EXILE",
+            "GOLDEN LAMPSTANDS",
+            "OCEAN VIEW",
+            "REVELATION",
+            "HEAVENLY VOICE",
+            "SOLITUDE"
+          ]
+        },
+        {
+          "name": "Page 19: Entering Sanctuary",
+          "words": [
+            "SANCTUARY",
+            "HALLOWED",
+            "REVERENCE",
+            "HOLY PLACE",
+            "QUIET HOUR",
+            "MEDITATION",
+            "SOLEMN AWE",
+            "HOLY GROUND",
+            "CONTEMPLATE",
+            "STILLNESS",
+            "BOWING LOW",
+            "SACRED SPACE"
+          ]
+        },
+        {
+          "name": "Page 20: Calling on God",
+          "words": [
+            "PETITION",
+            "INTERCEDE",
+            "SUPPLICATION",
+            "CRYING OUT",
+            "DAILY PRAYER",
+            "BOLD ACCESS",
+            "SECRET PLACE",
+            "KNEELING",
+            "LIFTING HANDS",
+            "HEARTFELT",
+            "EARNEST PLEA",
+            "SEEKING HIM"
+          ]
+        },
+        {
+          "name": "Page 21: Psalms of Praise",
+          "words": [
+            "MAKE A JOY",
+            "SING ALOUD",
+            "GLORY DUE",
+            "SHOUT FOR JOY",
+            "PSALMODY",
+            "EXALT HIS NAME",
+            "EXUBERANCE",
+            "MUSICAL PRAISE",
+            "TRIUMPHANT",
+            "ADORATION",
+            "LOUD HOSANNA",
+            "REJOICING"
+          ]
+        },
+        {
+          "name": "Page 23: Prayers of Thanks",
+          "words": [
+            "GRATEFUL HEART",
+            "COUNT BLESSINGS",
+            "THANKFULNESS",
+            "BOUNDLESS GRACE",
+            "APPRECIATION",
+            "ACKNOWLEDGING",
+            "EVERY GOOD GIFT",
+            "GENEROUS LOVE",
+            "OVERFLOWING",
+            "PAUSING TO THANK",
+            "BLESSED ASSURANCE",
+            "DEEPEST THANKS"
+          ]
+        },
+        {
+          "name": "Page 24: Instruments of Joy",
+          "words": [
+            "STRINGS",
+            "PIPE AND FLUTE",
+            "LOUD CYMBALS",
+            "HARP AND LYRE",
+            "SOUNDING HORN",
+            "TAMBOURINE",
+            "TRUMPET SOUND",
+            "PRAISE HIM",
+            "ORCHESTRA",
+            "SKILLED MUSIC",
+            "RESONANT",
+            "TIMBREL"
+          ]
+        },
+        {
+          "name": "Page 25: Kneeling in Humility",
+          "words": [
+            "LOWLY HEART",
+            "SUBMITTING",
+            "SURRENDERED",
+            "BENDED KNEE",
+            "QUIET SPIRIT",
+            "YIELDING",
+            "DEPENDENT",
+            "HUMBLE PLEA",
+            "SIMPLE FAITH",
+            "LESS OF ME",
+            "RELYING FULLY",
+            "GENTLE GRACE"
+          ]
+        },
+        {
+          "name": "Page 26: Corporate Worship",
+          "words": [
+            "GATHERED TOGETHER",
+            "ONE ACCORD",
+            "FELLOWSHIP",
+            "UNITED VOICE",
+            "ASSEMBLY",
+            "CONGREGATION",
+            "SHARING FAITH",
+            "MUTUAL LOVE",
+            "COMMUNION",
+            "BRETHREN",
+            "HOLY BOND",
+            "WORSHIP HOUR"
+          ]
+        },
+        {
+          "name": "Page 28: Trusting Providence",
+          "words": [
+            "GUIDANCE",
+            "FOOTSTEPS",
+            "DIRECTION",
+            "SOVEREIGN",
+            "PATH",
+            "PROVISION",
+            "SURRENDER",
+            "FOOTPRINT",
+            "DESTINY",
+            "STEPS",
+            "SHEPHERD",
+            "TIMING"
+          ]
+        },
+        {
+          "name": "Page 30: Unshakable Trust",
+          "words": [
+            "FOUNDATION",
+            "BEDROCK",
+            "STRONGHOLD",
+            "FORTRESS",
+            "SECURITY",
+            "SHELTER",
+            "PROTECTION",
+            "REFUGE",
+            "BULWARK",
+            "SAFETY",
+            "IMMOVABLE",
+            "GUARD"
+          ]
+        },
+        {
+          "name": "Page 31: Radiant Hope",
+          "words": [
+            "BRIGHTNESS",
+            "GLOW",
+            "SPLENDOR",
+            "BEAMING",
+            "LUMINESCENCE",
+            "SUNSHINE",
+            "BEAM",
+            "RADIANCE",
+            "SPARK",
+            "ILLUMINATION",
+            "DAZZLING",
+            "GLORY"
+          ]
+        },
+        {
+          "name": "Garden of Gethsemane",
+          "words": [
+            "OLIVE TREES",
+            "PRAYER",
+            "MIDNIGHT",
+            "WATCH",
+            "SORROW",
+            "SWEAT AS DROPS OF BLOOD",
+            "DISCIPLES",
+            "BETRAYAL",
+            "KISS",
+            "LANTERNS",
+            "SWORDS",
+            "MALCHUS"
+          ]
+        },
+        {
+          "name": "Upper Room",
+          "words": [
+            "LAST SUPPER",
+            "BREAD",
+            "CUP",
+            "WASHING FEET",
+            "TOWEL",
+            "BASIN",
+            "NEW COMMANDMENT",
+            "PENTECOST",
+            "HOLY SPIRIT",
+            "WIND",
+            "FIRE",
+            "TONGUES"
+          ]
+        },
+        {
+          "name": "River Jordan",
+          "words": [
+            "BAPTISM",
+            "JOHN THE BAPTIST",
+            "WATER",
+            "DOVE",
+            "VOICE FROM HEAVEN",
+            "BELOVED SON",
+            "CROSSING",
+            "ISRAELITES",
+            "MEMORIAL STONES",
+            "HEALING",
+            "NAAMAN",
+            "LEPROSY"
+          ]
+        },
+        {
+          "name": "Page 32 - Rivers of Scripture",
+          "words": [
+            "JORDAN",
+            "EUPHRATES",
+            "TIGRIS",
+            "CHEBAR",
+            "ABANA",
+            "PHARPAR",
+            "KIDRON",
+            "JABBOK",
+            "ARNON",
+            "GIHON",
+            "PISHON",
+            "BROOK CHERITH"
+          ]
+        },
+        {
+          "name": "Page 34 - Historic Valleys",
+          "words": [
+            "VALLEY OF ELAH",
+            "VALLEY OF ACHOR",
+            "VALLEY OF SIDDIM",
+            "VALLEY OF HINNOM",
+            "VALLEY OF BACA",
+            "VALLEY OF DRY BONES",
+            "VALLEY OF JEZREEL",
+            "VALLEY OF SALT",
+            "VALLEY OF SHAVEH",
+            "VALLEY OF BERACAH",
+            "VALLEY OF ZEPHATHAH",
+            "KINGS VALLEY"
+          ]
+        },
+        {
+          "name": "Page 35 - Coastal and Port Cities",
+          "words": [
+            "JOPPA",
+            "CAESAREA",
+            "TYRE",
+            "SIDON",
+            "GAZA",
+            "ASHKELON",
+            "ASHDOD",
+            "EKRON",
+            "GATH",
+            "PTOLEMAIS",
+            "MYRA",
+            "CNIDUS"
+          ]
+        },
+        {
+          "name": "Page 36 - Desert Wilderness Regions",
+          "words": [
+            "WILDERNESS OF SIN",
+            "WILDERNESS OF ZIN",
+            "WILDERNESS OF PARAN",
+            "WILDERNESS OF SHUR",
+            "WILDERNESS OF JUDEA",
+            "DESERT OF BEERSHEBA",
+            "DESERT OF ZIPH",
+            "DESERT OF MAON",
+            "LAND OF UZ",
+            "ARABAH",
+            "NEGEB",
+            "JUDREAN DESERT"
+          ]
+        },
+        {
+          "name": "Page 37 - Early Christian Centers",
+          "words": [
+            "ANTIOCH",
+            "EPHESUS",
+            "PHILIPPI",
+            "THESSALONIKI",
+            "CORINTH",
+            "COLOSSAE",
+            "SMYRNA",
+            "PERGAMUM",
+            "THATIRA",
+            "SARDIS",
+            "PHILADELPHIA",
+            "LAODICEA"
+          ]
+        },
+        {
+          "name": "Page 39 - Biblical Wells and Pools",
+          "words": [
+            "POOL OF SILOAM",
+            "POOL OF BETHESDA",
+            "JACOBS WELL",
+            "BEERSHEBA WELL",
+            "ELIM",
+            "MARAH",
+            "EN GEDI",
+            "POOL OF GIBEON",
+            "KING POOL",
+            "SHELAH POOL",
+            "UPPER POOL",
+            "LOWER POOL"
+          ]
+        },
+        {
+          "name": "Page 42: Acts of Devotion",
+          "words": [
+            "THANKSGIVING",
+            "BLESSING",
+            "CONFESSION",
+            "INTERCESSION",
+            "VOW",
+            "OFFERING",
+            "TITHE",
+            "SACRIFICE",
+            "FASTING",
+            "REMEMBRANCE",
+            "DEDICATION",
+            "COMMITMENT"
+          ]
+        },
+        {
+          "name": "Page 45: Fruits of Worship",
+          "words": [
+            "JOYFUL HEART",
+            "RENEWED SPIRIT",
+            "DEEP PEACE",
+            "HOLY AWE",
+            "ABUNDANT GRACE",
+            "STEADFAST FAITH",
+            "LIVING HOPE",
+            "RADIANT FACE",
+            "GRATEFUL SOUL",
+            "QUIET TRUST",
+            "UPLIFTED MIND",
+            "GRACE AND TRUTH"
+          ]
+        },
+        {
+          "name": "Page 45: Pillars of Trust",
+          "words": [
+            "DEPENDENCE",
+            "RELIANCE",
+            "FAITH",
+            "INTEGRITY",
+            "HONESTY",
+            "TRUTHFULNESS",
+            "FIDELITY",
+            "LOYALTY",
+            "STEADFASTNESS",
+            "DEVOTED",
+            "HEART",
+            "BELIEF"
+          ]
+        },
+        {
+          "name": "Parables of Jesus",
+          "words": [
+            "SOWER",
+            "MUSTARD SEED",
+            "HIDDEN TREASURE",
+            "PRODIGAL SON",
+            "GOOD SAMARITAN",
+            "LOST SHEEP",
+            "TEN VIRGINS",
+            "TALENTS",
+            "PEARL OF GREAT PRICE",
+            "GOOD SHEPHERD",
+            "WISE BUILDER",
+            "WEDDING FEAST"
+          ]
+        },
+        {
+          "name": "Sermon on the Mount",
+          "words": [
+            "BEATITUDES",
+            "SALT OF THE EARTH",
+            "LIGHT OF THE WORLD",
+            "MERCIFUL",
+            "PEACEMAKERS",
+            "PERSECUTED",
+            "LORD'S PRAYER",
+            "HIDDEN FASTING",
+            "ANXIOUS HEART",
+            "NARROW GATE",
+            "FALSE PROPHETS",
+            "FRUITS"
+          ]
+        },
+        {
+          "name": "Spiritual Growth",
+          "words": [
+            "SANCTIFICATION",
+            "TRANSFORMATION",
+            "RENEWAL",
+            "SPIRITUAL FRUIT",
+            "PATIENCE",
+            "KINDNESS",
+            "GENTLENESS",
+            "SELF CONTROL",
+            "ABIDING",
+            "PRUNING",
+            "ROOTED",
+            "BEARING FRUIT"
+          ]
+        },
+        {
+          "name": "Page 47 - Christian Virtues",
+          "words": [
+            "WISDOM",
+            "UNDERSTANDING",
+            "COUNSEL",
+            "FORTITUDE",
+            "KNOWLEDGE",
+            "PIETY",
+            "AWE",
+            "GRACE",
+            "MERCY",
+            "CHARITY",
+            "HOPE",
+            "PRUDENCE"
+          ]
+        },
+        {
+          "name": "Page 50: Early Church Adventures",
+          "words": [
+            "DAY OF PENTECOST",
+            "TONGUES OF FIRE",
+            "HEALING AT THE GATE",
+            "CONVERSION OF PAUL",
+            "ESCAPE FROM PRISON",
+            "COUNCIL OF JERUSALEM",
+            "SHIPWRECK",
+            "PREACHING IN ATHENS",
+            "BREADS AND FELLOWSHIP",
+            "BAPTISM OF THE EUNUCH",
+            "CORNELIUS",
+            "PRAISE AND PRAYER"
+          ]
+        },
+        {
+          "name": "Page 51: Paths of Righteousness",
+          "words": [
+            "BLAMELESS",
+            "CLEAN HANDS",
+            "DEVOTED LIFE",
+            "FAITHFUL SERVANT",
+            "HOLY LIVING",
+            "HONEST PATH",
+            "JUST DECREE",
+            "PURE HEART",
+            "RIGHTEOUS WAY",
+            "SANCTIFIED",
+            "TRUTHFUL",
+            "WALKING UPRIGHT"
+          ]
+        },
+        {
+          "name": "Page 53: Quiet Reflections",
+          "words": [
+            "ABIDING PEACE",
+            "BE STILL",
+            "CALM SPIRIT",
+            "DEEP REST",
+            "GENTLE WHISPER",
+            "INNER CALM",
+            "PEACEFUL MIND",
+            "RESTING PLACE",
+            "SABBATH REST",
+            "SERENE NIGHT",
+            "STILL WATERS",
+            "TRANQUIL HEART"
+          ]
+        },
+        {
+          "name": "Page 54: Building Up the Body",
+          "words": [
+            "ENCOURAGEMENT",
+            "EDIFICATION",
+            "UNITY",
+            "HARMONY",
+            "RECONCILIATION",
+            "PEACEMAKER",
+            "COMFORT",
+            "SUPPORT",
+            "BROTHERHOOD",
+            "SISTERHOOD",
+            "COMMUNITY",
+            "INCLUSION"
+          ]
+        },
+        {
+          "name": "The Talents",
+          "words": [
+            "MASTER",
+            "SERVANTS",
+            "FIVE TALENTS",
+            "TWO TALENTS",
+            "ONE TALENT",
+            "TRADING",
+            "PROFIT",
+            "HIDING",
+            "GROUND",
+            "WELL DONE",
+            "FAITHFUL",
+            "JOY"
+          ]
+        },
+        {
+          "name": "Page 55: Great Commandments",
+          "words": [
+            "LOVE THE LORD",
+            "ALL YOUR HEART",
+            "ALL YOUR SOUL",
+            "ALL YOUR MIND",
+            "LOVE YOUR NEIGHBOR",
+            "AS YOURSELF",
+            "GREATEST COMMANDMENT",
+            "HEAR O ISRAEL",
+            "THE LORD OUR GOD",
+            "THE LORD IS ONE",
+            "LOVE FULFILLS LAW",
+            "WALK IN LOVE"
+          ]
+        },
+        {
+          "name": "Page 57: Teachings on Prayer",
+          "words": [
+            "OUR FATHER",
+            "HALLOWED BE THY NAME",
+            "KINGDOM COME",
+            "DAILY BREAD",
+            "FORGIVE OUR DEBTS",
+            "LEAD US NOT",
+            "DELIVER US",
+            "UNCEASING PRAYER",
+            "ASK AND RECEIVE",
+            "KNOCK AND THE DOOR",
+            "SEEK AND FIND",
+            "ROOM OF PRAYER"
+          ]
+        },
+        {
+          "name": "Page 59: Walk in the Light",
+          "words": [
+            "CHILDREN OF LIGHT",
+            "WALK WORTHY",
+            "PUT ON THE ARMOR",
+            "SHIELD OF FAITH",
+            "HELMET OF SALVATION",
+            "SWORD OF THE SPIRIT",
+            "TRUTH AS A BELT",
+            "GOSPEL OF PEACE",
+            "STAND FIRM",
+            "RUN THE RACE",
+            "FIGHT THE GOOD FIGHT",
+            "CROWN OF RIGHTEOUSNESS"
+          ]
+        },
+        {
+          "name": "Teachings on Love",
+          "words": [
+            "LOVE",
+            "PATIENT",
+            "KIND",
+            "ENVIOUS",
+            "BOASTFUL",
+            "PROUD",
+            "UNBECOMING",
+            "SELFSEEKING",
+            "ANGER",
+            "REJOICES",
+            "PROTECTS",
+            "PERSEVERES"
+          ]
+        },
+        {
+          "name": "The Good Samaritan",
+          "words": [
+            "ROAD TO JERICHO",
+            "TRAVELER",
+            "ROBBERS",
+            "PRIEST",
+            "LEVITE",
+            "COMPASSION",
+            "BANDAGES",
+            "OLIVE OIL",
+            "WINE",
+            "INNKEEPER",
+            "TWO DENARII",
+            "NEIGHBOR"
+          ]
+        },
+        {
+          "name": "Page 55: The Prodigal Son",
+          "words": [
+            "YOUNGER SON",
+            "FAR COUNTRY",
+            "SPENT WEALTH",
+            "FEED PIGS",
+            "COMING TO SENSES",
+            "FATHER RUNS",
+            "BEST ROBE",
+            "SIGNET RING",
+            "FATTED CALF",
+            "MUSIC AND DANCING",
+            "OLDER BROTHER",
+            "HE WAS LOST"
+          ]
+        },
+        {
+          "name": "Page 58: The Sower and the Seed",
+          "words": [
+            "SOWER WENT OUT",
+            "PATHWAY",
+            "BIRDS OF THE AIR",
+            "ROCKY GROUND",
+            "NO DEEP ROOT",
+            "SCORCHED",
+            "THORNS CHOKED",
+            "GOOD SOIL",
+            "MULTIPLIED",
+            "HUNDREDFOLD",
+            "HEAR AND UNDERSTAND",
+            "FRUITFUL"
+          ]
+        },
+        {
+          "name": "Page 59: The Wise and Foolish Builders",
+          "words": [
+            "HEARS MY WORDS",
+            "DOES THEM",
+            "WISE MAN",
+            "BUILT ON ROCK",
+            "DEEP FOUNDATION",
+            "TORRENT",
+            "WINDS BLEW",
+            "COULD NOT SHAKE",
+            "FOOLISH MAN",
+            "SAND",
+            "HOUSE FELL",
+            "GREAT COLLAPSE"
+          ]
+        },
+        {
+          "name": "Grace and Truth",
+          "words": [
+            "UNMERITED FAVOR",
+            "DIVINE MERCY",
+            "ETERNAL TRUTH",
+            "SAVING GRACE",
+            "LIVING WORD",
+            "SACRED PROMISE",
+            "ABUNDANT LIFE",
+            "HEAVENLY GIFT",
+            "FAITHFUL GUIDE",
+            "PURE LIGHT",
+            "RIGHTEOUS PATH",
+            "TRUE WISDOM"
+          ]
+        },
+        {
+          "name": "Feasts and Invitations",
+          "words": [
+            "GREAT BANQUET",
+            "INVITED GUESTS",
+            "EXCUSES",
+            "LAND",
+            "OXEN",
+            "MARRIAGE",
+            "SERVANT",
+            "OUT IN THE STREETS",
+            "ALLEYWAYS",
+            "THE POOR",
+            "THE BLIND",
+            "COMPEL THEM"
+          ]
+        },
+        {
+          "name": "Lesser Known Parables",
+          "words": [
+            "GROWING SEED",
+            "HIDDEN LAMP",
+            "MASTER AND SERVANT",
+            "UNFORGIVING SERVANT",
+            "DEBTS",
+            "PRISON",
+            "TWO DEBTORS",
+            "FORGIVEN MUCH",
+            "BARREN FIG TREE",
+            "VINEDRESSER",
+            "TOWER BUILDER",
+            "KING GOING TO WAR"
+          ]
+        },
+        {
+          "name": "Page 66: Acts of Lovingkindness",
+          "words": [
+            "HELPING OTHERS",
+            "FEEDING THE HUNGRY",
+            "CLOTHING THE POOR",
+            "VISITING THE SICK",
+            "COMFORTING MOURNERS",
+            "SHARING BLESSINGS",
+            "WELCOMING STRANGERS",
+            "SHOWING HOSPITALITY",
+            "EXTENDING MERCY",
+            "GIVING ALMS",
+            "TENDING FLOCKS",
+            "BINDING WOUNDS"
+          ]
+        },
+        {
+          "name": "Page 62 - Acts of Mercy",
+          "words": [
+            "FEED THE HUNGRY",
+            "CLOTHE THE NAKED",
+            "WELCOME STRANGERS",
+            "VISIT THE SICK",
+            "COMFORT MOURNERS",
+            "SHELTER THE HOMELESS",
+            "RESCUE THE CAPTIVE",
+            "PROTECT THE WEAK",
+            "DEFEND THE ORPHAN",
+            "PLEADING FOR WIDOWS",
+            "EXTEND A HAND",
+            "SHOWING COMPASSION"
+          ]
+        },
+        {
+          "name": "Page 64 - Healing Ministry",
+          "words": [
+            "RESTORED SIGHT",
+            "CLEANSING LEPERS",
+            "MAKING THE LAME WALK",
+            "HEALING TOUCH",
+            "SOUL RECOVERY",
+            "MENDING BROKEN HEARTS",
+            "BALM OF GILEAD",
+            "WHOLENESS",
+            "DIVINE REMEDY",
+            "PEACE IN SUFFERING",
+            "LIFTED UP",
+            "STRENGTH RENEWED"
+          ]
+        },
+        {
+          "name": "Page 65 - Good Works",
+          "words": [
+            "SHINE YOUR LIGHT",
+            "PRODUCE GOOD FRUIT",
+            "WALK IN TRUTH",
+            "ACT JUSTLY",
+            "LOVE MERCY",
+            "WALK HUMBLY",
+            "DEVOTED TO GOOD",
+            "PRACTICAL HELP",
+            "GENEROUS SPIRIT",
+            "HANDS AND FEET",
+            "LIVING EXAMPLE",
+            "FRUITFUL LIFE"
+          ]
+        },
+        {
+          "name": "Page 66 - Caring for the Vulnerable",
+          "words": [
+            "DEFEND THE POOR",
+            "VOICE FOR THE VOICELESS",
+            "BEFRIEND THE LONELY",
+            "GIVE A CUP OF WATER",
+            "OPEN YOUR HOME",
+            "SHARE YOUR BREAD",
+            "LIFT THE FALLEN",
+            "GENTLE ENCOURAGEMENT",
+            "PATIENT LISTENING",
+            "WARM EMBRACE",
+            "REFUGE IN STORMS",
+            "SAFE HAVEN"
+          ]
+        },
+        {
+          "name": "Page 67 - Mission and Outreach",
+          "words": [
+            "SPREAD THE WORD",
+            "GO INTO ALL THE WORLD",
+            "BEAR GOOD NEWS",
+            "PLANTING SEEDS",
+            "WATERING PLANTS",
+            "HARVEST IS PLENTIFUL",
+            "LABORERS TOGETHER",
+            "CALLED TO SERVE",
+            "SENDING OUT",
+            "CROSSING BORDERS",
+            "BRINGING HOPE",
+            "GLOBAL WITNESS"
+          ]
+        },
+        {
+          "name": "Page 68: Community Support",
+          "words": [
+            "ORPHAN CARE",
+            "WIDOWS HOME",
+            "RELIEF FUND",
+            "HELPING HAND",
+            "SHELTER DOORS",
+            "SHARED BURDEN",
+            "GENTLE TOUCH",
+            "LIFTING UP",
+            "COMFORTING",
+            "PURE RELIGION",
+            "EVERYDAY HELP",
+            "NEIGHBOR LOVE"
+          ]
+        },
+        {
+          "name": "Page 69: Hands of Service",
+          "words": [
+            "VOLUNTEER",
+            "FOOT WASHING",
+            "LOWLY TASK",
+            "SERVANT HEART",
+            "GIVING TIME",
+            "ACTIVE FAITH",
+            "PATIENT TOIL",
+            "READY HANDS",
+            "DAILY HELPER",
+            "QUIET WORKER",
+            "FAITHFUL AID",
+            "GENEROUS SOUL"
+          ]
+        },
+        {
+          "name": "Page 70: Comforting the Sorrowful",
+          "words": [
+            "WIPING TEARS",
+            "HEALING GRIEF",
+            "GENTLE WORDS",
+            "STAYING NEAR",
+            "BROKEN HEART",
+            "STEADY ARM",
+            "QUIET SORROW",
+            "PEACE BE STILL",
+            "TENDER GRIEF",
+            "SOOTHING BALM",
+            "HEALING LOVE",
+            "SHARED PAIN"
+          ]
+        },
+        {
+          "name": "Page 74: Healing Hands",
+          "words": [
+            "RESTORING HEALTH",
+            "LAYING ON HANDS",
+            "MIRACULOUS CURE",
+            "BLIND SIGHT",
+            "LAME WALKING",
+            "LEPER CLEANSING",
+            "FEVER DEPARTING",
+            "WHOLE AND WELL",
+            "MEDICAL MINISTRY",
+            "HOSPICE CARE",
+            "ANOINTING OIL",
+            "PRAYER FOR HEALING"
+          ]
+        },
+        {
+          "name": "Page 76: Generous Giving",
+          "words": [
+            "SHARING ABUNDANCE",
+            "WIDOWS MITE",
+            "FIRSTFRUITS",
+            "TITHES AND OFFERINGS",
+            "OPEN HAND",
+            "LENDING FREELY",
+            "PROVIDING NEEDS",
+            "BOUNTY",
+            "PHILANTHROPY",
+            "NO HESITATION",
+            "SACRIFICIAL GIFT",
+            "BLESSING OTHERS"
+          ]
+        },
+        {
+          "name": "Page 78 - Ten Virgins",
+          "words": [
+            "BRIDEGROOM",
+            "MIDNIGHT CRY",
+            "OIL LAMPS",
+            "FIVE WISE",
+            "FIVE FOOLISH",
+            "EXTRA FLASKS",
+            "SLUMBER",
+            "TRIMMING",
+            "LOCKED DOOR",
+            "TOO LATE",
+            "WATCHFUL",
+            "PREPARED"
+          ]
+        },
+        {
+          "name": "Healing Ministries",
+          "words": [
+            "LAY ON HANDS",
+            "RESTORE SIGHT",
+            "MAKE YOU WELL",
+            "FAITHFUL FRIENDS",
+            "LOWER THROUGH ROOF",
+            "PARALYTIC",
+            "LEPER",
+            "BE HEALED",
+            "STAND UP",
+            "TAKE YOUR MAT",
+            "WHOLE",
+            "MIRACULOUS"
+          ]
+        },
+        {
+          "name": "Hymn Writers",
+          "words": [
+            "CHARLES WESLEY",
+            "ISAAC WATTS",
+            "FANNY CROSBY",
+            "JOHN NEWTON",
+            "HORATIO SPAFFORD",
+            "MARTIN LUTHER",
+            "PHILIP BLISS",
+            "WILLIAM COWPER",
+            "FRANCES HAVERGAL",
+            "ROBERT ROBINSON",
+            "CHARLOTTE ELLIOTT",
+            "GEORGE WESLEY"
+          ]
+        },
+        {
+          "name": "Worship Leaders",
+          "words": [
+            "CHOIR DIRECTOR",
+            "ORGANIST",
+            "CANTOR",
+            "MINISTER OF MUSIC",
+            "WORSHIP PASTOR",
+            "VOCALIST",
+            "SOLOIST",
+            "PRAISE TEAM",
+            "SANCTUARY CHOIR",
+            "HANDBELL RINGERS",
+            "PSALMIST",
+            "WORSHIP LEADER"
+          ]
+        },
+        {
+          "name": "Bearing Burdens",
+          "words": [
+            "SHARE THE LOAD",
+            "ENCOURAGE THE WEARY",
+            "STRENGTHEN THE WEAK",
+            "LIFT EACH OTHER",
+            "SUPPORT SYSTEM",
+            "MUTUAL AID",
+            "STANDING TOGETHER",
+            "FAITHFUL FRIEND",
+            "HELP IN TROUBLE",
+            "RELIABLE PARTNER",
+            "COMFORTING WORDS",
+            "STEADY SHOULDER"
+          ]
+        },
+        {
+          "name": "Hospitality and Welcome",
+          "words": [
+            "OPEN DOORS",
+            "WARM GREETING",
+            "SHARE A MEAL",
+            "STRANGER WELCOMED",
+            "GENEROUS HOST",
+            "FELLOWSHIP TABLE",
+            "INVITING HOME",
+            "KIND RECEPTION",
+            "PEACE BE HERE",
+            "FRIENDLY SMILE",
+            "GATHERING PLACE",
+            "HONORING GUESTS"
+          ]
+        },
+        {
+          "name": "Page 81: Small Groups",
+          "words": [
+            "ACCOUNTABILITY",
+            "BIBLE STUDY",
+            "CIRCLE",
+            "DISCIPLESHIP",
+            "DISCUSSION",
+            "HOME GROUP",
+            "MENTORING",
+            "PRAYER PARTNER",
+            "SHARING",
+            "TEACHING",
+            "TESTIMONY",
+            "WISE COUNSEL"
+          ]
+        },
+        {
+          "name": "Page 82: Acts of Hospitality",
+          "words": [
+            "ARRIVAL",
+            "COFFEE HOUR",
+            "GREETING",
+            "GUEST",
+            "HOSTING",
+            "OPEN DOOR",
+            "SMILE",
+            "STRANGER",
+            "TEARING DOWN WALLS",
+            "WELCOME",
+            "WARMTH",
+            "WELCOME TABLE"
+          ]
+        },
+        {
+          "name": "Page 80: Amazing Grace",
+          "words": [
+            "AMAZING GRACE",
+            "WRETCH LIKE ME",
+            "ONCE WAS LOST",
+            "WAS BLIND",
+            "NOW I SEE",
+            "SWEET SOUND",
+            "SAVE A WRETCH",
+            "PRECIOUS GRACE",
+            "FIRST BELIEVED",
+            "SAFE THUS FAR",
+            "LEAD ME HOME",
+            "TEN THOUSAND YEARS"
+          ]
+        },
+        {
+          "name": "Page 81: Holy Holy Holy",
+          "words": [
+            "EARLY IN THE MORNING",
+            "GOD IN THREE PERSONS",
+            "BLESSED TRINITY",
+            "SHADOWS FALL",
+            "MAGNIFY",
+            "CHERUBIM",
+            "SERAPHIM",
+            "FALLING DOWN",
+            "PERFECT IN POWER",
+            "LOVE AND PURITY",
+            "ALL THY WORKS",
+            "PRAISE THY NAME"
+          ]
+        },
+        {
+          "name": "Page 84: It Is Well With My Soul",
+          "words": [
+            "WHEN SORROWS ROLL",
+            "LIKE SEA BILLOWS",
+            "WHATEVER MY LOT",
+            "THOU HAST TAUGHT ME",
+            "MY SIN NOT IN PART",
+            "NAILED TO THE CROSS",
+            "LOUD BLAST",
+            "TRUMPET SHALL SOUND",
+            "LORD COME BACK",
+            "EVEN SO",
+            "IT IS WELL",
+            "WITH MY SOUL"
+          ]
+        },
+        {
+          "name": "Page 85: How Great Thou Art",
+          "words": [
+            "O LORD MY GOD",
+            "STARRY SKIES",
+            "ROLLING THUNDER",
+            "POWER THROUGHOUT",
+            "GOLGOTHA",
+            "BORAR MY SIN",
+            "WHEN CHRIST SHALL COME",
+            "SHOUT OF ACCLAMATION",
+            "TAKE ME HOME",
+            "BOW IN ADORATION",
+            "MY SAVIOUR GOD",
+            "SING PRAISE"
+          ]
+        },
+        {
+          "name": "Page 86: Holy Spirit Rain Down",
+          "words": [
+            "SPIRIT RAIN DOWN",
+            "BRING US TO OUR KNEES",
+            "SET OUR HEARTS ABLAZE",
+            "CONSUMING FIRE",
+            "FRESH ANOINTING",
+            "MOVE AMONG US",
+            "FILL THIS PLACE",
+            "BREATH OF GOD",
+            "LIVING WATER",
+            "HEALING STREAM",
+            "TOUCH OUR LIVES",
+            "OPEN HEAVENS"
+          ]
+        },
+        {
+          "name": "Page 87: Come Thou Fount",
+          "words": [
+            "STREAM OF MERCY",
+            "SONGS OF LOUDEST PRAISE",
+            "MOUNT OF BLESSING",
+            "FIXED UPON IT",
+            "HERE I RAISE MY EBENEZER",
+            "HITHER BY THY HELP",
+            "PLEASURE TO RESIDE",
+            "PRONE TO WANDER",
+            "LEAVE THE GOD I LOVE",
+            "SEAL IT FOR THY COURTS",
+            "BOND OF LOVE",
+            "STRETCHED WINGS"
+          ]
+        },
+        {
+          "name": "Page 91: Sacred Vestments and Vessels",
+          "words": [
+            "ALB",
+            "CASSOCK",
+            "CENSER",
+            "CRUET",
+            "CVIAC",
+            "MANTLE",
+            "MITRE",
+            "PATEN",
+            "PECTORAL",
+            "ROBE",
+            "STOLE",
+            "SURPLICE"
+          ]
+        },
+        {
+          "name": "Page 94: Evening Rest",
+          "words": [
+            "NIGHTFALL",
+            "SWEET SLEEP",
+            "GUARDIAN ANGELS",
+            "SAFE KEEPING",
+            "MOONLIGHT",
+            "STARS ABOVE",
+            "CLOSING DAY",
+            "RESTFUL",
+            "BLESSED NIGHT",
+            "DREAMING",
+            "MORNING LIGHT",
+            "SECURE"
+          ]
+        },
+        {
+          "name": "Page 95: Shared Heritage",
+          "words": [
+            "ANCESTORS",
+            "CHRONICLE",
+            "CULTURE",
+            "CUSTOMS",
+            "HISTORY",
+            "LEGACY",
+            "LINEAGE",
+            "MEMORIES",
+            "ROOTS",
+            "TRADITION",
+            "TRIBES",
+            "VANGUARD"
+          ]
+        },
+        {
+          "name": "Page 93 - Morning Mercies",
+          "words": [
+            "DAWN OF GRACE",
+            "NEW EVERY MORNING",
+            "SUNRISE WORSHIP",
+            "FIRST LIGHT",
+            "AWAKENING JOY",
+            "MORNING PRAYER",
+            "FRESH START",
+            "BIRTHDAY OF FAITH",
+            "BRIGHT PROMISE",
+            "RADIANT HOPE",
+            "BLESSED DAY",
+            "EARLY SEEKING"
+          ]
+        },
+        {
+          "name": "Page 96 - Unfailing Hope",
+          "words": [
+            "STEADFAST HOPE",
+            "ANCHOR OF THE SOUL",
+            "FUTURE GLORY",
+            "PROMISED LAND",
+            "SAVING FAITH",
+            "ETERNAL PROMISE",
+            "UNSHAKABLE TRUST",
+            "LIGHT IN THE DARK",
+            "GOOD COURAGE",
+            "PATIENT WAITING",
+            "CONFIDENT EXPECTATION",
+            "VICTORY AHEAD"
+          ]
+        },
+        {
+          "name": "Page 95: Quiet Waters",
+          "words": [
+            "STREAMS",
+            "RIVERBANK",
+            "REFLECTIONS",
+            "GENTLE BREEZE",
+            "OASIS",
+            "VERDANT",
+            "COOL SHADE",
+            "FLOWING",
+            "RESTORING",
+            "MEADOWS",
+            "HILLSIDES",
+            "NATURE"
+          ]
+        },
+        {
+          "name": "Precious Stones and Metals",
+          "words": [
+            "GOLD",
+            "SILVER",
+            "BRONZE",
+            "BRASS",
+            "IRON",
+            "ONYX",
+            "JASPER",
+            "SAPPHIRE",
+            "EMERALD",
+            "TOPAZ",
+            "AMETHYST",
+            "PEARL"
+          ]
+        },
+        {
+          "name": "Page 96: Psalms and Songs",
+          "words": [
+            "SINGING PRAISES",
+            "MUSICAL OFFERING",
+            "RESPONSORIAL",
+            "ANTHEM",
+            "DOXOLOGY",
+            "CANTICLE",
+            "GOSPEL SONG",
+            "LITURGY",
+            "REFRAIN",
+            "VERSE",
+            "CHORUS",
+            "SACRED MELODY"
+          ]
+        },
+        {
+          "name": "Page 99: Liturgical Seasons",
+          "words": [
+            "LENT",
+            "ASH WEDNESDAY",
+            "TRIDUUM",
+            "EASTER VIGIL",
+            "ORDINARY TIME",
+            "CHRISTMASTIDE",
+            "EPIPHANYTIDE",
+            "KINGDOMTIDE",
+            "REIGN OF CHRIST",
+            "FAST",
+            "VIGIL",
+            "SEASON OF GRACE"
+          ]
+        },
+        {
+          "name": "Page 99: Musical Psalms",
+          "words": [
+            "PSALM OF ASCENT",
+            "SONG OF DAVID",
+            "MAKE A JOYFUL NOISE",
+            "SING PRAISES",
+            "MUSICAL INTERLUDE",
+            "CELEBRATE THE LORD",
+            "ETERNAL MERCIES",
+            "RIGHTEOUS MELODY",
+            "GLAD TIDINGS",
+            "REJOICE ALWAYS",
+            "EVERLASTING LOVE",
+            "FAITHFUL HARP"
+          ]
+        },
+        {
+          "name": "Page 100: Eternal Worship",
+          "words": [
+            "HEAVENLY CHOIR",
+            "ANGELIC ANTHEM",
+            "THRONE ROOM",
+            "GOLDEN CROWNS",
+            "CELESTIAL HARMONY",
+            "ENDLESS PRAISE",
+            "SAVIOR KING",
+            "LAMB OF GOD",
+            "WORTHY IS THE LORD",
+            "FOREVERMORE",
+            "COSMIC WORSHIP",
+            "UNENDING GLORY"
+          ]
+        },
+        {
+          "name": "Page 100: Daily Rhythms and Labor",
+          "words": [
+            "SUNRISE WORK",
+            "EVENING MEAL",
+            "HARVEST TIME",
+            "PRUNING VINES",
+            "CATCHING FISH",
+            "GROUNDING WHEAT",
+            "DRAWING WATER",
+            "HERDING FLOCKS",
+            "BAKING BREAD",
+            "SEWING GARMENTS",
+            "BUILDING WALLS",
+            "RESTING SABBATH"
+          ]
+        },
+        {
+          "name": "Page 99: Instruments of Worship",
+          "words": [
+            "CATHEDRAL ORGAN",
+            "ACOUSTIC GUITAR",
+            "PRAISE ORCHESTRA",
+            "CHORAL ANTHEM",
+            "SACRED CELLO",
+            "GRAND PIANO",
+            "BRASS ENSEMBLE",
+            "STRING QUARTET",
+            "HANDBELL CHOIR",
+            "MELODIOUS HARP",
+            "WORSHIP TRUMPET",
+            "FLUTE HARMONY"
+          ]
+        },
+        {
+          "name": "Biblical Garments and Attire",
+          "words": [
+            "ROBES",
+            "TUNIC",
+            "SANDALS",
+            "GIRDLE",
+            "SACKCLOTH",
+            "MANTLES",
+            "VEIL",
+            "TURBAN",
+            "EPHOD",
+            "BREASTPLATE",
+            "SASH",
+            "HEADBAND"
+          ]
+        },
+        {
+          "name": "Biblical Weights and Measures",
+          "words": [
+            "CUBIT",
+            "SHEKEL",
+            "DENARIUS",
+            "TALENT",
+            "EPHAH",
+            "HOMER",
+            "MITE",
+            "DRACHMA",
+            "MINA",
+            "SPAN",
+            "BATH",
+            "OMER"
+          ]
+        }
+      ],
+      "issues": [],
+      "unique_words": 1200,
+      "completed_at": "2026-09-19T10:05:38"
+    },
+    "grade_5": {
+      "title": "Vocabulary Ladder: Grade 5 Word Quest",
+      "puzzles": 48,
+      "topic": "grade 5 vocabulary grouped by reading, writing, math, life science, earth science, social studies, arts, learning skills, and everyday communication",
+      "audience": "fifth-grade students and families",
+      "avoid": "people names, country names, brands, politics, violence, adult themes, archaic words, high-school-only terminology",
+      "pages": [
+        {
+          "name": "Narrative Arc",
+          "words": [
+            "EXPOSITION",
+            "RISING ACTION",
+            "CLIMAX",
+            "FALLING ACTION",
+            "RESOLUTION",
+            "CONFLICT",
+            "SETTING",
+            "PLOT",
+            "THEME",
+            "SEQUENCE",
+            "TURNING POINT",
+            "OUTCOME"
+          ]
+        },
+        {
+          "name": "Character Traits",
+          "words": [
+            "COURAGEOUS",
+            "DETERMINED",
+            "COMPASSIONATE",
+            "RESOURCEFUL",
+            "AMBITIOUS",
+            "HONEST",
+            "CURIOUS",
+            "STUBBORN",
+            "GENEROUS",
+            "RESPONSIBLE",
+            "INDEPENDENT",
+            "THOUGHTFUL"
+          ]
+        },
+        {
+          "name": "Figurative Language",
+          "words": [
+            "METAPHOR",
+            "SIMILE",
+            "PERSONIFICATION",
+            "ALLITERATION",
+            "HYPERBOLE",
+            "IDIOM",
+            "ONOMATOPOEIA",
+            "IMAGERY",
+            "SYMBOLISM",
+            "OXYMORON",
+            "PUN",
+            "STANZA"
+          ]
+        },
+        {
+          "name": "Point of View",
+          "words": [
+            "FIRST PERSON",
+            "THIRD PERSON",
+            "OMNISCIENT",
+            "NARRATOR",
+            "PERSPECTIVE",
+            "SPEAKER",
+            "OBSERVER",
+            "PROTAGONIST",
+            "ANTAGONIST",
+            "DIALOGUE",
+            "MONOLOGUE",
+            "BIAS"
+          ]
+        },
+        {
+          "name": "Reading Comprehension",
+          "words": [
+            "INFERENCE",
+            "PREDICTION",
+            "SUMMARY",
+            "CONCLUSION",
+            "MAIN IDEA",
+            "SUPPORTING DETAIL",
+            "CONTEXT CLUE",
+            "EVIDENCE",
+            "PARAPHRASE",
+            "SKIMMING",
+            "SCANNING",
+            "EVALUATION"
+          ]
+        },
+        {
+          "name": "Poetry Elements",
+          "words": [
+            "RHYME SCHEME",
+            "RHYTHM",
+            "METER",
+            "VERSE",
+            "COUPLET",
+            "FREE VERSE",
+            "ASSONANCE",
+            "CONSONANCE",
+            "TONE",
+            "MOOD",
+            "SYMBOL",
+            "LINE BREAK"
+          ]
+        },
+        {
+          "name": "Genres and Styles",
+          "words": [
+            "HISTORICAL FICTION",
+            "SCIENCE FICTION",
+            "FANTASY",
+            "MYSTERY",
+            "BIOGRAPHY",
+            "AUTOBIOGRAPHY",
+            "FOLKTALE",
+            "FABLE",
+            "LEGEND",
+            "MYTHOLOGY",
+            "POETRY",
+            "NONFICTION"
+          ]
+        },
+        {
+          "name": "Page 13: Reading Comprehension Strategies",
+          "words": [
+            "PREDICT",
+            "INFER",
+            "VISUALIZE",
+            "SUMMARIZE",
+            "CLARIFY",
+            "QUESTION",
+            "CONNECT",
+            "EVALUATE",
+            "MONITOR",
+            "SYNTHESIZE",
+            "ANALYZE",
+            "COMPREHEND"
+          ]
+        },
+        {
+          "name": "Page 14: Informational Text Structures",
+          "words": [
+            "CHRONOLOGY",
+            "COMPARISON",
+            "CAUSE AND EFFECT",
+            "PROBLEM AND SOLUTION",
+            "DESCRIPTION",
+            "SUBHEADING",
+            "CAPTION",
+            "GLOSSARY",
+            "INDEX",
+            "SIDEBAR",
+            "DIAGRAM",
+            "FOOTNOTE"
+          ]
+        },
+        {
+          "name": "Page 12: Parts of Speech Mastery",
+          "words": [
+            "NOUN",
+            "PRONOUN",
+            "VERB",
+            "ADJECTIVE",
+            "ADVERB",
+            "PREPOSITION",
+            "CONJUNCTION",
+            "INTERJECTION",
+            "ARTICLE",
+            "SUBJECT",
+            "PREDICATE",
+            "MODIFIER"
+          ]
+        },
+        {
+          "name": "Page 14: Spelling Rules & Patterns",
+          "words": [
+            "HOMOPHONE",
+            "HOMOGRAPH",
+            "SYNONYM",
+            "ANTONYM",
+            "PREFIX",
+            "SUFFIX",
+            "ROOT WORD",
+            "COMPOUND WORD",
+            "SYLLABLE",
+            "CONTRACTION",
+            "PLURAL",
+            "POSSESSIVE"
+          ]
+        },
+        {
+          "name": "Page 15: Punctuation Mechanics",
+          "words": [
+            "COMMA",
+            "PERIOD",
+            "QUESTION MARK",
+            "EXCLAMATION",
+            "APOSTROPHE",
+            "QUOTATION MARK",
+            "SEMICOLON",
+            "COLON",
+            "HYPHEN",
+            "PARENTHESES",
+            "BRACKET",
+            "ELLIPSIS"
+          ]
+        },
+        {
+          "name": "Page 13: Narrative Action",
+          "words": [
+            "DASH",
+            "SCURRY",
+            "PLUNGE",
+            "TIPTOE",
+            "STRIDE",
+            "BOUND",
+            "LEAP",
+            "CRAWL",
+            "STUMBLE",
+            "SPRINT",
+            "MARCH",
+            "TROT"
+          ]
+        },
+        {
+          "name": "Page 14: Sensory Description",
+          "words": [
+            "FRAGRANT",
+            "GLIMMER",
+            "THUNDEROUS",
+            "VELVETY",
+            "BITTER",
+            "SILKY",
+            "PIERCING",
+            "RESONANT",
+            "VIBRANT",
+            "DAZZLING",
+            "SAVORY",
+            "FROSTED"
+          ]
+        },
+        {
+          "name": "Page 16: Spelling Pitfalls",
+          "words": [
+            "BELIEVE",
+            "RECEIVE",
+            "SEPARATE",
+            "DEFINITELY",
+            "NECESSARY",
+            "CALENDAR",
+            "EXPERIENCE",
+            "BEGINNING",
+            "IMMEDIATE",
+            "KNOWLEDGE",
+            "GRAMMAR",
+            "ABSENCE"
+          ]
+        },
+        {
+          "name": "Page 18: Editing Marks",
+          "words": [
+            "CAPITALIZE",
+            "LOWERCASE",
+            "INDENT",
+            "DELETE",
+            "INSERT",
+            "TRANSPOSED",
+            "STRIKETHROUGH",
+            "PARAGRAPH",
+            "REVISION",
+            "DRAFT",
+            "SPELLING",
+            "FORMAT"
+          ]
+        },
+        {
+          "name": "Page 19: Dialogue Tags",
+          "words": [
+            "WHISPER",
+            "EXCLAIM",
+            "MUTTER",
+            "PROCLAIM",
+            "STAMMER",
+            "GIGGLE",
+            "GRUMBLE",
+            "INQUIRE",
+            "REPLY",
+            "SHOUT",
+            "PLEAD",
+            "REMARK"
+          ]
+        },
+        {
+          "name": "Page 20: Word Roots",
+          "words": [
+            "AUTOGRAPH",
+            "BIOLOGY",
+            "CHRONICLE",
+            "GEOGRAPHY",
+            "MICROPHONE",
+            "PHONOGRAPH",
+            "TELESCOPE",
+            "THERMOMETER",
+            "TRANSPORT",
+            "MANUSCRIPT",
+            "AQUARIUM",
+            "FACTORY"
+          ]
+        },
+        {
+          "name": "Page 19: Fraction Fundamentals",
+          "words": [
+            "NUMERATOR",
+            "DENOMINATOR",
+            "PROPER FRACTION",
+            "IMPROPER",
+            "MIXED NUMBER",
+            "EQUIVALENT",
+            "SIMPLEST FORM",
+            "UNIT FRACTION",
+            "COMMON FACTOR",
+            "MULTIPLE",
+            "COMPARE",
+            "QUANTITY"
+          ]
+        },
+        {
+          "name": "Page 20: Decimal Mastery",
+          "words": [
+            "THOUSANDTHS",
+            "HUNDREDTHS",
+            "TENTHS",
+            "PLACE VALUE",
+            "DECIMAL POINT",
+            "STANDARD FORM",
+            "WORD FORM",
+            "EXPANDED FORM",
+            "ROUNDING",
+            "ESTIMATE",
+            "OPERATION",
+            "PRECISION"
+          ]
+        },
+        {
+          "name": "Page 21: Geometry Basics",
+          "words": [
+            "POLYGON",
+            "VERTEX",
+            "PARALLEL LINES",
+            "PERPENDICULAR",
+            "LINE SEGMENT",
+            "RAY",
+            "INTERSECT",
+            "RIGHT ANGLE",
+            "ACUTE ANGLE",
+            "OBTUSE ANGLE",
+            "STRAIGHT ANGLE",
+            "DIMENSION"
+          ]
+        },
+        {
+          "name": "Page 22: Triangle Types",
+          "words": [
+            "EQUILATERAL",
+            "ISOSCELES",
+            "SCALENE",
+            "RIGHT TRIANGLE",
+            "ACUTE TRIANGLE",
+            "OBTUSE TRIANGLE",
+            "INTERIOR SUM",
+            "BASE",
+            "HEIGHT",
+            "CONGRUENT",
+            "SYMMETRY",
+            "PROPERTY"
+          ]
+        },
+        {
+          "name": "Page 23: Quadrilaterals",
+          "words": [
+            "QUADRILATERAL",
+            "PARALLELOGRAM",
+            "RECTANGLE",
+            "RHOMBUS",
+            "TRAPEZOID",
+            "SQUARE",
+            "DIAGONAL",
+            "OPPOSITE SIDES",
+            "ADJACENT",
+            "FOUR SIDED",
+            "HIERARCHY",
+            "ATTRIBUTE"
+          ]
+        },
+        {
+          "name": "Volume and Space",
+          "words": [
+            "CUBIC UNITS",
+            "THREE DIMENSIONAL",
+            "RECTANGULAR PRISM",
+            "CAPACITY",
+            "SOLID FIGURE",
+            "BASE AREA",
+            "LAYER COUNT",
+            "FILLING SPACE",
+            "DISPLACEMENT",
+            "GEOMETRIC SOLID",
+            "NET DIAGRAM",
+            "SURFACE"
+          ]
+        },
+        {
+          "name": "Coordinate Grid",
+          "words": [
+            "ORIGIN POINT",
+            "X AXIS",
+            "Y AXIS",
+            "ORDERED PAIR",
+            "COORDINATE",
+            "HORIZONTAL",
+            "VERTICAL",
+            "PLOTTING",
+            "QUADRANT",
+            "LOCATION",
+            "INTERSECTION",
+            "MAPPING"
+          ]
+        },
+        {
+          "name": "Page 26: Plant Adaptations",
+          "words": [
+            "CHLOROPHYLL",
+            "PHOTOSYNTHESIS",
+            "SEED DISPERSAL",
+            "ROOT SYSTEM",
+            "POLLINATION",
+            "BROAD LEAF",
+            "SUNLIGHT",
+            "NUTRIENT",
+            "GROWTH",
+            "SPROUT",
+            "FOLIAGE",
+            "STEM"
+          ]
+        },
+        {
+          "name": "Page 27: Animal Behaviors",
+          "words": [
+            "MIGRATION",
+            "HIBERNATION",
+            "CAMOUFLAGE",
+            "ADAPTATION",
+            "NOCTURNAL",
+            "INSTINCT",
+            "PREDATOR",
+            "PREY",
+            "HABITAT",
+            "SURVIVAL",
+            "DEFENSE",
+            "SPECIES"
+          ]
+        },
+        {
+          "name": "Page 28: Food Web Dynamics",
+          "words": [
+            "PRODUCER",
+            "CONSUMER",
+            "DECOMPOSER",
+            "CARNIVORE",
+            "HERBIVORE",
+            "OMNIVORE",
+            "ENERGY FLOW",
+            "FOOD CHAIN",
+            "SCAVENGER",
+            "TROPHIC LEVEL",
+            "ORGANISM",
+            "BALANCE"
+          ]
+        },
+        {
+          "name": "Page 29: Aquatic Biomes",
+          "words": [
+            "FRESHWATER",
+            "SALTWATER",
+            "CORAL REEF",
+            "WETLAND",
+            "ESTUARY",
+            "CURRENT",
+            "PLANKTON",
+            "DEEP OCEAN",
+            "RIVERBANK",
+            "MANGROVE",
+            "TIDE POOL",
+            "MARINE"
+          ]
+        },
+        {
+          "name": "Page 30: Forest Ecosystems",
+          "words": [
+            "DECIDUOUS",
+            "EVERGREEN",
+            "UNDERSTORY",
+            "CANOPY LAYER",
+            "WOODLAND",
+            "LEAF LITTER",
+            "FUNGUS",
+            "MOSSY LOG",
+            "PINE NEEDLE",
+            "BARK",
+            "FOREST FLOOR",
+            "TIMBER"
+          ]
+        },
+        {
+          "name": "Page 31: Desert Biome",
+          "words": [
+            "CACTUS SPINE",
+            "ARID CLIMATE",
+            "SUCCULENT",
+            "DROUGHT",
+            "BURROWING",
+            "SCARCITY",
+            "SAND DUNE",
+            "REPTILE",
+            "NOCTURNAL LIFE",
+            "HEAT WAVE",
+            "SPARSE SHADE",
+            "OASIS"
+          ]
+        },
+        {
+          "name": "Page 32: Arctic Tundra",
+          "words": [
+            "PERMAFROST",
+            "FRIGID WIND",
+            "SNOW COVER",
+            "GLACIER",
+            "LICHEN",
+            "POLAR ICE",
+            "BLIZZARD",
+            "ICE SHEET",
+            "TUNDRA FROST",
+            "SUBZERO",
+            "WINTER COAT",
+            "ARCTIC"
+          ]
+        },
+        {
+          "name": "Page 33: Life Cycles",
+          "words": [
+            "METAMORPHOSIS",
+            "CATERPILLAR",
+            "CHRYSALIS",
+            "TADPOLE STAGE",
+            "EGG CLUTCH",
+            "HATCHLING",
+            "MATURATION",
+            "LARVA",
+            "PUPA",
+            "ADULT PHASE",
+            "REPRODUCTION",
+            "OFFSPRING"
+          ]
+        },
+        {
+          "name": "Earth Layers",
+          "words": [
+            "CRUST",
+            "MANTLE",
+            "CORE",
+            "LITHOSPHERE",
+            "ASTHENOSPHERE",
+            "MAGMA",
+            "LAVA",
+            "TECTONIC",
+            "FAULT",
+            "SEISMIC",
+            "VOLCANO",
+            "MINERAL"
+          ]
+        },
+        {
+          "name": "Rock Cycle",
+          "words": [
+            "IGNEOUS",
+            "SEDIMENTARY",
+            "METAMORPHIC",
+            "WEATHERING",
+            "EROSION",
+            "DEPOSITION",
+            "COMPACTION",
+            "CEMENTATION",
+            "CRYSTAL",
+            "FOSSILS",
+            "GRANITE",
+            "BASALT"
+          ]
+        },
+        {
+          "name": "Water Cycle",
+          "words": [
+            "EVAPORATION",
+            "CONDENSATION",
+            "PRECIPITATION",
+            "TRANSPIRATION",
+            "COLLECTION",
+            "RUNOFF",
+            "GROUNDWATER",
+            "AQUIFER",
+            "VAPOR",
+            "RESERVOIR",
+            "SATURATION",
+            "HUMIDITY"
+          ]
+        },
+        {
+          "name": "Planet Types",
+          "words": [
+            "TERRESTRIAL",
+            "GASGIANT",
+            "MERCURY",
+            "VENUS",
+            "MARS",
+            "JUPITER",
+            "SATURN",
+            "URANUS",
+            "NEPTUNE",
+            "PLUTO",
+            "HEMISPHERE",
+            "ROTATION"
+          ]
+        },
+        {
+          "name": "Page 38: Federal Government",
+          "words": [
+            "CONGRESS",
+            "PRESIDENT",
+            "SENATE",
+            "JUDICIARY",
+            "CABINET",
+            "AMENDMENT",
+            "CONSTITUTION",
+            "VETO",
+            "BALLOT",
+            "DELEGATE",
+            "CANDIDATE",
+            "MAJORITY"
+          ]
+        },
+        {
+          "name": "Page 39: Regional Landscapes",
+          "words": [
+            "PENINSULA",
+            "ARCHIPELAGO",
+            "TRIBUTARY",
+            "PLATEAU",
+            "BASIN",
+            "CANYON",
+            "ISTHMUS",
+            "DELTA",
+            "SAVANNA",
+            "TUNDRA",
+            "FJORD",
+            "MESA"
+          ]
+        },
+        {
+          "name": "Page 40: Civic Duties",
+          "words": [
+            "VOLUNTEER",
+            "ASSEMBLY",
+            "PETITION",
+            "PROTEST",
+            "COMMUNITY",
+            "WITNESS",
+            "TESTIFY",
+            "HERITAGE",
+            "CITIZEN",
+            "PATRIOT",
+            "FAIRNESS",
+            "EQUALITY"
+          ]
+        },
+        {
+          "name": "Page 42: State Governance",
+          "words": [
+            "LEGISLATURE",
+            "GOVERNOR",
+            "ORDINANCE",
+            "MUNICIPALITY",
+            "TOWNSHIP",
+            "COUNCIL",
+            "MAYOR",
+            "REVENUE",
+            "STATUTE",
+            "ELECTION",
+            "TERM",
+            "DISTRICT"
+          ]
+        },
+        {
+          "name": "Page 42: United States Regions",
+          "words": [
+            "NORTHEAST",
+            "MIDWEST",
+            "SOUTHWEST",
+            "SOUTHEAST",
+            "WEST COAST",
+            "GREAT PLAINS",
+            "NEW ENGLAND",
+            "GULF COAST",
+            "PACIFIC",
+            "APPALACHIA",
+            "ROCKIES",
+            "TIDEWATER"
+          ]
+        },
+        {
+          "name": "Page 43: American Landmarks",
+          "words": [
+            "STATUE OF LIBERTY",
+            "GRAND CANYON",
+            "YELLOWSTONE",
+            "GOLDEN GATE",
+            "NIAGARA FALLS",
+            "MOUNT RUSHMORE",
+            "WHITE HOUSE",
+            "CAPITOL BUILDING",
+            "HOOVER DAM",
+            "GATEWAY ARCH",
+            "EVERGLADES",
+            "ALCATRAZ"
+          ]
+        },
+        {
+          "name": "Page 45: US Capital Cities",
+          "words": [
+            "WASHINGTON",
+            "ALBANY",
+            "AUSTIN",
+            "DENVER",
+            "BOSTON",
+            "PHOENIX",
+            "SACRAMENTO",
+            "NASHVILLE",
+            "RICHMOND",
+            "TALLAHASSEE",
+            "COLUMBUS",
+            "HELENA"
+          ]
+        },
+        {
+          "name": "Page 48: Creative Crafts",
+          "words": [
+            "ORIGAMI",
+            "POTTERY",
+            "MOSAIC",
+            "CERAMIC",
+            "WEAVING",
+            "DESIGN",
+            "PATTERN",
+            "CRAFTER",
+            "STITCHING",
+            "GALLERY",
+            "CREATIVE",
+            "BEADWORK"
+          ]
+        },
+        {
+          "name": "Page 47: Making Healthy Choices",
+          "words": [
+            "NUTRITIOUS",
+            "VITAMINS",
+            "WELLNESS",
+            "HYGIENE",
+            "SANITATION",
+            "PROTEIN",
+            "BALANCED DIET",
+            "ENERGY",
+            "LIFESTYLE",
+            "RECOVERY",
+            "FRESH AIR",
+            "REST"
+          ]
+        },
+        {
+          "name": "Page 48: Safety and First Aid",
+          "words": [
+            "PREVENTION",
+            "EMERGENCY",
+            "CAUTION",
+            "PROTECTION",
+            "AWARENESS",
+            "SECURE",
+            "GUIDELINES",
+            "HELMET",
+            "PREPAREDNESS",
+            "RESPONSE",
+            "SUPERVISION",
+            "DEFENSIVE"
+          ]
+        },
+        {
+          "name": "Library Research Skills",
+          "words": [
+            "CALL NUMBER",
+            "CATALOG",
+            "LIBRARIAN",
+            "CHECKOUT",
+            "RETURN DATE",
+            "REFERENCE",
+            "TABLE OF CONTENTS",
+            "SHELF MARKER",
+            "FICTION",
+            "ENCYCLOPEDIA",
+            "SUBJECT HEADING",
+            "KEYWORD SEARCH"
+          ]
+        }
+      ],
+      "issues": [],
+      "unique_words": 576,
+      "completed_at": "2026-09-19T10:05:38"
+    }
+  }
+}

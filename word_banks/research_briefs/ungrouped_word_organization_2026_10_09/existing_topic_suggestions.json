@@ -1,0 +1,4416 @@
+{
+  "schema_version": 1,
+  "status": "REVIEW_REQUIRED",
+  "suggestions": [
+    {
+      "word": "AIRPORTS",
+      "topic": "Travel Road Trips and Getaways",
+      "topic_id": "travel_road_trips_getaways",
+      "status": "UNASSIGNED",
+      "reason": "Root-only suggestion retained for triage, not grouped: substring collisions can produce unrelated topic assignments."
+    },
+    {
+      "word": "AMERICANA",
+      "topic": "American History",
+      "topic_id": "american_history",
+      "status": "UNASSIGNED",
+      "reason": "Root-only suggestion retained for triage, not grouped: substring collisions can produce unrelated topic assignments."
+    },
+    {
+      "word": "AMERICANA",
+      "topic": "US Geography and Landmarks",
+      "topic_id": "us_geography_landmarks",
+      "status": "UNASSIGNED",
+      "reason": "Root-only suggestion retained for triage, not grouped: substring collisions can produce unrelated topic assignments."
+    },
+    {
+      "word": "AQUARIUMS",
+      "topic": "Pets and Animal Care",
+      "topic_id": "pets_animal_care",
+      "status": "UNASSIGNED",
+      "reason": "Root-only suggestion retained for triage, not grouped: substring collisions can produce unrelated topic assignments."
+    },
+    {
+      "word": "ARCADES",
+      "topic": "Nostalgia Through the Decades",
+      "topic_id": "nostalgia_through_decades",
+      "status": "UNASSIGNED",
+      "reason": "Root-only suggestion retained for triage, not grouped: substring collisions can produce unrelated topic assignments."
+    },
+    {
+      "word": "ARCADES",
+      "topic": "Video Games & Gaming",
+      "topic_id": "video_games_gaming",
+      "status": "UNASSIGNED",
+      "reason": "Root-only suggestion retained for triage, not grouped: substring collisions can produce unrelated topic assignments."
+    },
+    {
+      "word": "ART",
+      "topic": "Arts Creativity and Making",
+      "topic_id": "arts_creativity_making",
+      "status": "UNASSIGNED",
+      "reason": "Root-only suggestion retained for triage, not grouped: substring collisions can produce unrelated topic assignments."
+    },
+    {
+      "word": "ARTE",
+      "topic": "Arts Creativity and Making",
+      "topic_id": "arts_creativity_making",
+      "status": "UNASSIGNED",
+      "reason": "Root-only suggestion retained for triage, not grouped: substring collisions can produce unrelated topic assignments."
+    },
+    {
+      "word": "ARTEFACT",
+      "topic": "Arts Creativity and Making",
+      "topic_id": "arts_creativity_making",
+      "status": "UNASSIGNED",
+      "reason": "Root-only suggestion retained for triage, not grouped: substring collisions can produce unrelated topic assignments."
+    },
+    {
+      "word": "ARTEFACTS",
+      "topic": "Arts Creativity and Making",
+      "topic_id": "arts_creativity_making",
+      "status": "UNASSIGNED",
+      "reason": "Root-only suggestion retained for triage, not grouped: substring collisions can produce unrelated topic assignments."
+    },
+    {
+      "word": "ARTERIAL",
+      "topic": "Arts Creativity and Making",
+      "topic_id": "arts_creativity_making",
+      "status": "UNASSIGNED",
+      "reason": "Root-only suggestion retained for triage, not grouped: substring collisions can produce unrelated topic assignments."
+    },
+    {
+      "word": "ARTERIES",
+      "topic": "Arts Creativity and Making",
+      "topic_id": "arts_creativity_making",
+      "status": "UNASSIGNED",
+      "reason": "Root-only suggestion retained for triage, not grouped: substring collisions can produce unrelated topic assignments."
+    },
+    {
+      "word": "ARTERY",
+      "topic": "Arts Creativity and Making",
+      "topic_id": "arts_creativity_making",
+      "status": "UNASSIGNED",
+      "reason": "Root-only suggestion retained for triage, not grouped: substring collisions can produce unrelated topic assignments."
+    },
+    {
+      "word": "ARTFUL",
+      "topic": "Arts Creativity and Making",
+      "topic_id": "arts_creativity_making",
+      "status": "UNASSIGNED",
+      "reason": "Root-only suggestion retained for triage, not grouped: substring collisions can produce unrelated topic assignments."
+    },
+    {
+      "word": "ARTFULLY",
+      "topic": "Arts Creativity and Making",
+      "topic_id": "arts_creativity_making",
+      "status": "UNASSIGNED",
+      "reason": "Root-only suggestion retained for triage, not grouped: substring collisions can produce unrelated topic assignments."
+    },
+    {
+      "word": "ARTICULATED",
+      "topic": "Arts Creativity and Making",
+      "topic_id": "arts_creativity_making",
+      "status": "UNASSIGNED",
+      "reason": "Root-only suggestion retained for triage, not grouped: substring collisions can produce unrelated topic assignments."
+    },
+    {
+      "word": "ARTICULATING",
+      "topic": "Arts Creativity and Making",
+      "topic_id": "arts_creativity_making",
+      "status": "UNASSIGNED",
+      "reason": "Root-only suggestion retained for triage, not grouped: substring collisions can produce unrelated topic assignments."
+    },
+    {
+      "word": "ARTIE",
+      "topic": "Arts Creativity and Making",
+      "topic_id": "arts_creativity_making",
+      "status": "UNASSIGNED",
+      "reason": "Root-only suggestion retained for triage, not grouped: substring collisions can produce unrelated topic assignments."
+    },
+    {
+      "word": "ARTIFACT",
+      "topic": "Arts Creativity and Making",
+      "topic_id": "arts_creativity_making",
+      "status": "UNASSIGNED",
+      "reason": "Root-only suggestion retained for triage, not grouped: substring collisions can produce unrelated topic assignments."
+    },
+    {
+      "word": "ARTIFICIALLY",
+      "topic": "Arts Creativity and Making",
+      "topic_id": "arts_creativity_making",
+      "status": "UNASSIGNED",
+      "reason": "Root-only suggestion retained for triage, not grouped: substring collisions can produce unrelated topic assignments."
+    },
+    {
+      "word": "ARTISANAL",
+      "topic": "Arts Creativity and Making",
+      "topic_id": "arts_creativity_making",
+      "status": "UNASSIGNED",
+      "reason": "Root-only suggestion retained for triage, not grouped: substring collisions can produce unrelated topic assignments."
+    },
+    {
+      "word": "ARTISTE",
+      "topic": "Arts Creativity and Making",
+      "topic_id": "arts_creativity_making",
+      "status": "UNASSIGNED",
+      "reason": "Root-only suggestion retained for triage, not grouped: substring collisions can produce unrelated topic assignments."
+    },
+    {
+      "word": "ARTISTES",
+      "topic": "Arts Creativity and Making",
+      "topic_id": "arts_creativity_making",
+      "status": "UNASSIGNED",
+      "reason": "Root-only suggestion retained for triage, not grouped: substring collisions can produce unrelated topic assignments."
+    },
+    {
+      "word": "ARTISTICALLY",
+      "topic": "Arts Creativity and Making",
+      "topic_id": "arts_creativity_making",
+      "status": "UNASSIGNED",
+      "reason": "Root-only suggestion retained for triage, not grouped: substring collisions can produce unrelated topic assignments."
+    },
+    {
+      "word": "ARTISTRY",
+      "topic": "Arts Creativity and Making",
+      "topic_id": "arts_creativity_making",
+      "status": "UNASSIGNED",
+      "reason": "Root-only suggestion retained for triage, not grouped: substring collisions can produce unrelated topic assignments."
+    },
+    {
+      "word": "ARTSY",
+      "topic": "Arts Creativity and Making",
+      "topic_id": "arts_creativity_making",
+      "status": "UNASSIGNED",
+      "reason": "Root-only suggestion retained for triage, not grouped: substring collisions can produce unrelated topic assignments."
+    },
+    {
+      "word": "ARTWORKS",
+      "topic": "Arts Creativity and Making",
+      "topic_id": "arts_creativity_making",
+      "status": "UNASSIGNED",
+      "reason": "Root-only suggestion retained for triage, not grouped: substring collisions can produce unrelated topic assignments."
+    },
+    {
+      "word": "ARTY",
+      "topic": "Arts Creativity and Making",
+      "topic_id": "arts_creativity_making",
+      "status": "UNASSIGNED",
+      "reason": "Root-only suggestion retained for triage, not grouped: substring collisions can produce unrelated topic assignments."
+    },
+    {
+      "word": "ASTROLOGER",
+      "topic": "Space & Astronomy",
+      "topic_id": "space_astronomy",
+      "status": "UNASSIGNED",
+      "reason": "Root-only suggestion retained for triage, not grouped: substring collisions can produce unrelated topic assignments."
+    },
+    {
+      "word": "ASTROLOGICAL",
+      "topic": "Space & Astronomy",
+      "topic_id": "space_astronomy",
+      "status": "UNASSIGNED",
+      "reason": "Root-only suggestion retained for triage, not grouped: substring collisions can produce unrelated topic assignments."
+    },
+    {
+      "word": "ASTRONAUTS",
+      "topic": "Space & Astronomy",
+      "topic_id": "space_astronomy",
+      "status": "UNASSIGNED",
+      "reason": "Root-only suggestion retained for triage, not grouped: substring collisions can produce unrelated topic assignments."
+    },
+    {
+      "word": "ASTRONOMERS",
+      "topic": "Space & Astronomy",
+      "topic_id": "space_astronomy",
+      "status": "UNASSIGNED",
+      "reason": "Root-only suggestion retained for triage, not grouped: substring collisions can produce unrelated topic assignments."
+    },
+    {
+      "word": "ASTRONOMICAL",
+      "topic": "Space & Astronomy",
+      "topic_id": "space_astronomy",
+      "status": "UNASSIGNED",
+      "reason": "Root-only suggestion retained for triage, not grouped: substring collisions can produce unrelated topic assignments."
+    },
+    {
+      "word": "ASTROPHYSICAL",
+      "topic": "Space & Astronomy",
+      "topic_id": "space_astronomy",
+      "status": "UNASSIGNED",
+      "reason": "Root-only suggestion retained for triage, not grouped: substring collisions can produce unrelated topic assignments."
+    },
+    {
+      "word": "ASTROPHYSICIST",
+      "topic": "Space & Astronomy",
+      "topic_id": "space_astronomy",
+      "status": "UNASSIGNED",
+      "reason": "Root-only suggestion retained for triage, not grouped: substring collisions can produce unrelated topic assignments."
+    },
+    {
+      "word": "AUTHORED",
+      "topic": "Books Reading and Libraries",
+      "topic_id": "books_reading_libraries",
+      "status": "UNASSIGNED",
+      "reason": "Root-only suggestion retained for triage, not grouped: substring collisions can produce unrelated topic assignments."
+    },
+    {
+      "word": "AUTHORING",
+      "topic": "Books Reading and Libraries",
+      "topic_id": "books_reading_libraries",
+      "status": "UNASSIGNED",
+      "reason": "Root-only suggestion retained for triage, not grouped: substring collisions can produce unrelated topic assignments."
+    },
+    {
+      "word": "AUTHORISATION",
+      "topic": "Books Reading and Libraries",
+      "topic_id": "books_reading_libraries",
+      "status": "UNASSIGNED",
+      "reason": "Root-only suggestion retained for triage, not grouped: substring collisions can produce unrelated topic assignments."
+    },
+    {
+      "word": "AUTHORISE",
+      "topic": "Books Reading and Libraries",
+      "topic_id": "books_reading_libraries",
+      "status": "UNASSIGNED",
+      "reason": "Root-only suggestion retained for triage, not grouped: substring collisions can produce unrelated topic assignments."
+    },
+    {
+      "word": "AUTHORISED",
+      "topic": "Books Reading and Libraries",
+      "topic_id": "books_reading_libraries",
+      "status": "UNASSIGNED",
+      "reason": "Root-only suggestion retained for triage, not grouped: substring collisions can produce unrelated topic assignments."
+    },
+    {
+      "word": "AUTHORITARIANISM",
+      "topic": "Books Reading and Libraries",
+      "topic_id": "books_reading_libraries",
+      "status": "UNASSIGNED",
+      "reason": "Root-only suggestion retained for triage, not grouped: substring collisions can produce unrelated topic assignments."
+    },
+    {
+      "word": "AUTHORIZATION",
+      "topic": "Books Reading and Libraries",
+      "topic_id": "books_reading_libraries",
+      "status": "UNASSIGNED",
+      "reason": "Root-only suggestion retained for triage, not grouped: substring collisions can produce unrelated topic assignments."
+    },
+    {
+      "word": "AUTHORIZES",
+      "topic": "Books Reading and Libraries",
+      "topic_id": "books_reading_libraries",
+      "status": "UNASSIGNED",
+      "reason": "Root-only suggestion retained for triage, not grouped: substring collisions can produce unrelated topic assignments."
+    },
+    {
+      "word": "AUTHORSHIP",
+      "topic": "Books Reading and Libraries",
+      "topic_id": "books_reading_libraries",
+      "status": "UNASSIGNED",
+      "reason": "Root-only suggestion retained for triage, not grouped: substring collisions can produce unrelated topic assignments."
+    },
+    {
+      "word": "AUTOMATA",
+      "topic": "Vehicles & Automotive",
+      "topic_id": "vehicles_automotive",
+      "status": "UNASSIGNED",
+      "reason": "Root-only suggestion retained for triage, not grouped: substring collisions can produce unrelated topic assignments."
+    },
+    {
+      "word": "AUTOMATE",
+      "topic": "Vehicles & Automotive",
+      "topic_id": "vehicles_automotive",
+      "status": "UNASSIGNED",
+      "reason": "Root-only suggestion retained for triage, not grouped: substring collisions can produce unrelated topic assignments."
+    },
+    {
+      "word": "AUTOMATED",
+      "topic": "Vehicles & Automotive",
+      "topic_id": "vehicles_automotive",
+      "status": "UNASSIGNED",
+      "reason": "Root-only suggestion retained for triage, not grouped: substring collisions can produce unrelated topic assignments."
+    },
+    {
+      "word": "AUTOMATICALLY",
+      "topic": "Vehicles & Automotive",
+      "topic_id": "vehicles_automotive",
+      "status": "UNASSIGNED",
+      "reason": "Root-only suggestion retained for triage, not grouped: substring collisions can produce unrelated topic assignments."
+    },
+    {
+      "word": "AUTOMATON",
+      "topic": "Vehicles & Automotive",
+      "topic_id": "vehicles_automotive",
+      "status": "UNASSIGNED",
+      "reason": "Root-only suggestion retained for triage, not grouped: substring collisions can produce unrelated topic assignments."
+    },
+    {
+      "word": "AUTOMOBILES",
+      "topic": "Vehicles & Automotive",
+      "topic_id": "vehicles_automotive",
+      "status": "UNASSIGNED",
+      "reason": "Root-only suggestion retained for triage, not grouped: substring collisions can produce unrelated topic assignments."
+    },
+    {
+      "word": "AUTUMNAL",
+      "topic": "Seasonal Celebrations",
+      "topic_id": "seasonal_celebrations",
+      "status": "UNASSIGNED",
+      "reason": "Root-only suggestion retained for triage, not grouped: substring collisions can produce unrelated topic assignments."
+    },
+    {
+      "word": "AUTUMNAL",
+      "topic": "Halloween Autumn and Harvest",
+      "topic_id": "halloween",
+      "status": "UNASSIGNED",
+      "reason": "Root-only suggestion retained for triage, not grouped: substring collisions can produce unrelated topic assignments."
+    },
+    {
+      "word": "BACKPACKER",
+      "topic": "Outdoor Adventure",
+      "topic_id": "outdoor_adventure",
+      "status": "UNASSIGNED",
+      "reason": "Root-only suggestion retained for triage, not grouped: substring collisions can produce unrelated topic assignments."
+    },
+    {
+      "word": "BACKPACKERS",
+      "topic": "Outdoor Adventure",
+      "topic_id": "outdoor_adventure",
+      "status": "UNASSIGNED",
+      "reason": "Root-only suggestion retained for triage, not grouped: substring collisions can produce unrelated topic assignments."
+    },
+    {
+      "word": "BACKPACKING",
+      "topic": "Outdoor Adventure",
+      "topic_id": "outdoor_adventure",
+      "status": "UNASSIGNED",
+      "reason": "Root-only suggestion retained for triage, not grouped: substring collisions can produce unrelated topic assignments."
+    },
+    {
+      "word": "BACKPACKS",
+      "topic": "Outdoor Adventure",
+      "topic_id": "outdoor_adventure",
+      "status": "UNASSIGNED",
+      "reason": "Root-only suggestion retained for triage, not grouped: substring collisions can produce unrelated topic assignments."
+    },
+    {
+      "word": "BAKERIES",
+      "topic": "Careers Community and Everyday Life",
+      "topic_id": "careers_community_everyday_life",
+      "status": "UNASSIGNED",
+      "reason": "Root-only suggestion retained for triage, not grouped: substring collisions can produce unrelated topic assignments."
+    },
+    {
+      "word": "BAKERSFIELD",
+      "topic": "Careers Community and Everyday Life",
+      "topic_id": "careers_community_everyday_life",
+      "status": "UNASSIGNED",
+      "reason": "Root-only suggestion retained for triage, not grouped: substring collisions can produce unrelated topic assignments."
+    },
+    {
+      "word": "BALANCED",
+      "topic": "Mindfulness",
+      "topic_id": "mindfulness",
+      "status": "UNASSIGNED",
+      "reason": "Root-only suggestion retained for triage, not grouped: substring collisions can produce unrelated topic assignments."
+    },
+    {
+      "word": "BARNABY",
+      "topic": "Farm Country and Rural Life",
+      "topic_id": "farm_country_rural_life",
+      "status": "UNASSIGNED",
+      "reason": "Root-only suggestion retained for triage, not grouped: substring collisions can produce unrelated topic assignments."
+    },
+    {
+      "word": "BARNARD",
+      "topic": "Farm Country and Rural Life",
+      "topic_id": "farm_country_rural_life",
+      "status": "UNASSIGNED",
+      "reason": "Root-only suggestion retained for triage, not grouped: substring collisions can produce unrelated topic assignments."
+    },
+    {
+      "word": "BARNEY",
+      "topic": "Farm Country and Rural Life",
+      "topic_id": "farm_country_rural_life",
+      "status": "UNASSIGNED",
+      "reason": "Root-only suggestion retained for triage, not grouped: substring collisions can produce unrelated topic assignments."
+    },
+    {
+      "word": "BASEBALL",
+      "topic": "Sports and Hobbies",
+      "topic_id": "sports_hobbies",
+      "status": "UNASSIGNED",
+      "reason": "Root-only suggestion retained for triage, not grouped: substring collisions can produce unrelated topic assignments."
+    },
+    {
+      "word": "BASILICA",
+      "topic": "Herbs Fruits and Vegetables",
+      "topic_id": "garden_to_table",
+      "status": "UNASSIGNED",
+      "reason": "Root-only suggestion retained for triage, not grouped: substring collisions can produce unrelated topic assignments."
+    },
+    {
+      "word": "BATTLED",
+      "topic": "World War II History",
+      "topic_id": "world_war_ii_history",
+      "status": "UNASSIGNED",
+      "reason": "Root-only suggestion retained for triage, not grouped: substring collisions can produce unrelated topic assignments."
+    },
+    {
+      "word": "BATTLEFIELDS",
+      "topic": "World War II History",
+      "topic_id": "world_war_ii_history",
+      "status": "UNASSIGNED",
+      "reason": "Root-only suggestion retained for triage, not grouped: substring collisions can produce unrelated topic assignments."
+    },
+    {
+      "word": "BATTLEFRONT",
+      "topic": "World War II History",
+      "topic_id": "world_war_ii_history",
+      "status": "UNASSIGNED",
+      "reason": "Root-only suggestion retained for triage, not grouped: substring collisions can produce unrelated topic assignments."
+    },
+    {
+      "word": "BATTLEGROUND",
+      "topic": "World War II History",
+      "topic_id": "world_war_ii_history",
+      "status": "UNASSIGNED",
+      "reason": "Root-only suggestion retained for triage, not grouped: substring collisions can produce unrelated topic assignments."
+    },
+    {
+      "word": "BATTLEGROUNDS",
+      "topic": "World War II History",
+      "topic_id": "world_war_ii_history",
+      "status": "UNASSIGNED",
+      "reason": "Root-only suggestion retained for triage, not grouped: substring collisions can produce unrelated topic assignments."
+    },
+    {
+      "word": "BEACHED",
+      "topic": "Coastal Lake and River Life",
+      "topic_id": "coastal_lake_river_life",
+      "status": "UNASSIGNED",
+      "reason": "Root-only suggestion retained for triage, not grouped: substring collisions can produce unrelated topic assignments."
+    },
+    {
+      "word": "BEACHFRONT",
+      "topic": "Coastal Lake and River Life",
+      "topic_id": "coastal_lake_river_life",
+      "status": "UNASSIGNED",
+      "reason": "Root-only suggestion retained for triage, not grouped: substring collisions can produce unrelated topic assignments."
+    },
+    {
+      "word": "BEAD",
+      "topic": "Hobbies Crafts and Pastimes",
+      "topic_id": "sports_hobbies",
+      "status": "UNASSIGNED",
+      "reason": "Root-only suggestion retained for triage, not grouped: substring collisions can produce unrelated topic assignments."
+    },
+    {
+      "word": "BEADED",
+      "topic": "Hobbies Crafts and Pastimes",
+      "topic_id": "sports_hobbies",
+      "status": "UNASSIGNED",
+      "reason": "Root-only suggestion retained for triage, not grouped: substring collisions can produce unrelated topic assignments."
+    },
+    {
+      "word": "BEADS",
+      "topic": "Hobbies Crafts and Pastimes",
+      "topic_id": "sports_hobbies",
+      "status": "UNASSIGNED",
+      "reason": "Root-only suggestion retained for triage, not grouped: substring collisions can produce unrelated topic assignments."
+    },
+    {
+      "word": "BIBLES",
+      "topic": "Bible and Faith",
+      "topic_id": "bible_faith",
+      "status": "UNASSIGNED",
+      "reason": "Root-only suggestion retained for triage, not grouped: substring collisions can produce unrelated topic assignments."
+    },
+    {
+      "word": "BIRDIE",
+      "topic": "Birdwatching",
+      "topic_id": "birdwatching",
+      "status": "UNASSIGNED",
+      "reason": "Root-only suggestion retained for triage, not grouped: substring collisions can produce unrelated topic assignments."
+    },
+    {
+      "word": "BIRDIES",
+      "topic": "Birdwatching",
+      "topic_id": "birdwatching",
+      "status": "UNASSIGNED",
+      "reason": "Root-only suggestion retained for triage, not grouped: substring collisions can produce unrelated topic assignments."
+    },
+    {
+      "word": "BIRDMAN",
+      "topic": "Birdwatching",
+      "topic_id": "birdwatching",
+      "status": "UNASSIGNED",
+      "reason": "Root-only suggestion retained for triage, not grouped: substring collisions can produce unrelated topic assignments."
+    },
+    {
+      "word": "BIRDY",
+      "topic": "Birdwatching",
+      "topic_id": "birdwatching",
+      "status": "UNASSIGNED",
+      "reason": "Root-only suggestion retained for triage, not grouped: substring collisions can produce unrelated topic assignments."
+    },
+    {
+      "word": "BLOOMER",
+      "topic": "Gardening and Garden Life",
+      "topic_id": "gardening",
+      "status": "UNASSIGNED",
+      "reason": "Root-only suggestion retained for triage, not grouped: substring collisions can produce unrelated topic assignments."
+    },
+    {
+      "word": "BLOOMING",
+      "topic": "Gardening and Garden Life",
+      "topic_id": "gardening",
+      "status": "UNASSIGNED",
+      "reason": "Root-only suggestion retained for triage, not grouped: substring collisions can produce unrelated topic assignments."
+    },
+    {
+      "word": "BLOOMS",
+      "topic": "Gardening and Garden Life",
+      "topic_id": "gardening",
+      "status": "UNASSIGNED",
+      "reason": "Root-only suggestion retained for triage, not grouped: substring collisions can produce unrelated topic assignments."
+    },
+    {
+      "word": "BLOOMSBURY",
+      "topic": "Gardening and Garden Life",
+      "topic_id": "gardening",
+      "status": "UNASSIGNED",
+      "reason": "Root-only suggestion retained for triage, not grouped: substring collisions can produce unrelated topic assignments."
+    },
+    {
+      "word": "BLOSSOMED",
+      "topic": "Easter and Spring",
+      "topic_id": "easter_spring",
+      "status": "UNASSIGNED",
+      "reason": "Root-only suggestion retained for triage, not grouped: substring collisions can produce unrelated topic assignments."
+    },
+    {
+      "word": "BLOSSOMING",
+      "topic": "Easter and Spring",
+      "topic_id": "easter_spring",
+      "status": "UNASSIGNED",
+      "reason": "Root-only suggestion retained for triage, not grouped: substring collisions can produce unrelated topic assignments."
+    },
+    {
+      "word": "BOMBER",
+      "topic": "World War II History",
+      "topic_id": "world_war_ii_history",
+      "status": "UNASSIGNED",
+      "reason": "Root-only suggestion retained for triage, not grouped: substring collisions can produce unrelated topic assignments."
+    },
+    {
+      "word": "BOOKIE",
+      "topic": "Books Reading and Libraries",
+      "topic_id": "books_reading_libraries",
+      "status": "UNASSIGNED",
+      "reason": "Root-only suggestion retained for triage, not grouped: substring collisions can produce unrelated topic assignments."
+    },
+    {
+      "word": "BOOKIES",
+      "topic": "Books Reading and Libraries",
+      "topic_id": "books_reading_libraries",
+      "status": "UNASSIGNED",
+      "reason": "Root-only suggestion retained for triage, not grouped: substring collisions can produce unrelated topic assignments."
+    },
+    {
+      "word": "BOOKINGS",
+      "topic": "Books Reading and Libraries",
+      "topic_id": "books_reading_libraries",
+      "status": "UNASSIGNED",
+      "reason": "Root-only suggestion retained for triage, not grouped: substring collisions can produce unrelated topic assignments."
+    },
+    {
+      "word": "BOOKKEEPER",
+      "topic": "Books Reading and Libraries",
+      "topic_id": "books_reading_libraries",
+      "status": "UNASSIGNED",
+      "reason": "Root-only suggestion retained for triage, not grouped: substring collisions can produce unrelated topic assignments."
+    },
+    {
+      "word": "BOOKMAKER",
+      "topic": "Books Reading and Libraries",
+      "topic_id": "books_reading_libraries",
+      "status": "UNASSIGNED",
+      "reason": "Root-only suggestion retained for triage, not grouped: substring collisions can produce unrelated topic assignments."
+    },
+    {
+      "word": "BOOKMAKERS",
+      "topic": "Books Reading and Libraries",
+      "topic_id": "books_reading_libraries",
+      "status": "UNASSIGNED",
+      "reason": "Root-only suggestion retained for triage, not grouped: substring collisions can produce unrelated topic assignments."
+    },
+    {
+      "word": "BOOKSELLERS",
+      "topic": "Books Reading and Libraries",
+      "topic_id": "books_reading_libraries",
+      "status": "UNASSIGNED",
+      "reason": "Root-only suggestion retained for triage, not grouped: substring collisions can produce unrelated topic assignments."
+    },
+    {
+      "word": "BOOKSHELVES",
+      "topic": "Books Reading and Libraries",
+      "topic_id": "books_reading_libraries",
+      "status": "UNASSIGNED",
+      "reason": "Root-only suggestion retained for triage, not grouped: substring collisions can produce unrelated topic assignments."
+    },
+    {
+      "word": "BREADS",
+      "topic": "Baking and Food",
+      "topic_id": "baking_food",
+      "status": "UNASSIGNED",
+      "reason": "Root-only suggestion retained for triage, not grouped: substring collisions can produce unrelated topic assignments."
+    },
+    {
+      "word": "BREADWINNER",
+      "topic": "Baking and Food",
+      "topic_id": "baking_food",
+      "status": "UNASSIGNED",
+      "reason": "Root-only suggestion retained for triage, not grouped: substring collisions can produce unrelated topic assignments."
+    },
+    {
+      "word": "BREATHABLE",
+      "topic": "Wellness and Self Care",
+      "topic_id": "wellness_self_care",
+      "status": "UNASSIGNED",
+      "reason": "Root-only suggestion retained for triage, not grouped: substring collisions can produce unrelated topic assignments."
+    },
+    {
+      "word": "BREATHABLE",
+      "topic": "Mindfulness",
+      "topic_id": "mindfulness",
+      "status": "UNASSIGNED",
+      "reason": "Root-only suggestion retained for triage, not grouped: substring collisions can produce unrelated topic assignments."
+    },
+    {
+      "word": "BREATHER",
+      "topic": "Wellness and Self Care",
+      "topic_id": "wellness_self_care",
+      "status": "UNASSIGNED",
+      "reason": "Root-only suggestion retained for triage, not grouped: substring collisions can produce unrelated topic assignments."
+    },
+    {
+      "word": "BREATHER",
+      "topic": "Mindfulness",
+      "topic_id": "mindfulness",
+      "status": "UNASSIGNED",
+      "reason": "Root-only suggestion retained for triage, not grouped: substring collisions can produce unrelated topic assignments."
+    },
+    {
+      "word": "BREATHES",
+      "topic": "Wellness and Self Care",
+      "topic_id": "wellness_self_care",
+      "status": "UNASSIGNED",
+      "reason": "Root-only suggestion retained for triage, not grouped: substring collisions can produce unrelated topic assignments."
+    },
+    {
+      "word": "BREATHES",
+      "topic": "Mindfulness",
+      "topic_id": "mindfulness",
+      "status": "UNASSIGNED",
+      "reason": "Root-only suggestion retained for triage, not grouped: substring collisions can produce unrelated topic assignments."
+    },
+    {
+      "word": "BREATHLESS",
+      "topic": "Wellness and Self Care",
+      "topic_id": "wellness_self_care",
+      "status": "UNASSIGNED",
+      "reason": "Root-only suggestion retained for triage, not grouped: substring collisions can produce unrelated topic assignments."
+    },
+    {
+      "word": "BREATHLESS",
+      "topic": "Mindfulness",
+      "topic_id": "mindfulness",
+      "status": "UNASSIGNED",
+      "reason": "Root-only suggestion retained for triage, not grouped: substring collisions can produce unrelated topic assignments."
+    },
+    {
+      "word": "BREATHTAKING",
+      "topic": "Wellness and Self Care",
+      "topic_id": "wellness_self_care",
+      "status": "UNASSIGNED",
+      "reason": "Root-only suggestion retained for triage, not grouped: substring collisions can produce unrelated topic assignments."
+    },
+    {
+      "word": "BREATHTAKING",
+      "topic": "Mindfulness",
+      "topic_id": "mindfulness",
+      "status": "UNASSIGNED",
+      "reason": "Root-only suggestion retained for triage, not grouped: substring collisions can produce unrelated topic assignments."
+    },
+    {
+      "word": "BULLDOGS",
+      "topic": "Dog Breeds",
+      "topic_id": "dog_breeds",
+      "status": "UNASSIGNED",
+      "reason": "Root-only suggestion retained for triage, not grouped: substring collisions can produce unrelated topic assignments."
+    },
+    {
+      "word": "CAKED",
+      "topic": "Baking and Food",
+      "topic_id": "baking_food",
+      "status": "UNASSIGNED",
+      "reason": "Root-only suggestion retained for triage, not grouped: substring collisions can produce unrelated topic assignments."
+    },
+    {
+      "word": "CALMED",
+      "topic": "Wellness and Self Care",
+      "topic_id": "wellness_self_care",
+      "status": "UNASSIGNED",
+      "reason": "Root-only suggestion retained for triage, not grouped: substring collisions can produce unrelated topic assignments."
+    },
+    {
+      "word": "CALMED",
+      "topic": "Mindfulness",
+      "topic_id": "mindfulness",
+      "status": "UNASSIGNED",
+      "reason": "Root-only suggestion retained for triage, not grouped: substring collisions can produce unrelated topic assignments."
+    },
+    {
+      "word": "CALMER",
+      "topic": "Wellness and Self Care",
+      "topic_id": "wellness_self_care",
+      "status": "UNASSIGNED",
+      "reason": "Root-only suggestion retained for triage, not grouped: substring collisions can produce unrelated topic assignments."
+    },
+    {
+      "word": "CALMER",
+      "topic": "Mindfulness",
+      "topic_id": "mindfulness",
+      "status": "UNASSIGNED",
+      "reason": "Root-only suggestion retained for triage, not grouped: substring collisions can produce unrelated topic assignments."
+    },
+    {
+      "word": "CALMING",
+      "topic": "Wellness and Self Care",
+      "topic_id": "wellness_self_care",
+      "status": "UNASSIGNED",
+      "reason": "Root-only suggestion retained for triage, not grouped: substring collisions can produce unrelated topic assignments."
+    },
+    {
+      "word": "CALMING",
+      "topic": "Mindfulness",
+      "topic_id": "mindfulness",
+      "status": "UNASSIGNED",
+      "reason": "Root-only suggestion retained for triage, not grouped: substring collisions can produce unrelated topic assignments."
+    },
+    {
+      "word": "CALMNESS",
+      "topic": "Wellness and Self Care",
+      "topic_id": "wellness_self_care",
+      "status": "UNASSIGNED",
+      "reason": "Root-only suggestion retained for triage, not grouped: substring collisions can produce unrelated topic assignments."
+    },
+    {
+      "word": "CALMNESS",
+      "topic": "Mindfulness",
+      "topic_id": "mindfulness",
+      "status": "UNASSIGNED",
+      "reason": "Root-only suggestion retained for triage, not grouped: substring collisions can produce unrelated topic assignments."
+    },
+    {
+      "word": "CALMS",
+      "topic": "Wellness and Self Care",
+      "topic_id": "wellness_self_care",
+      "status": "UNASSIGNED",
+      "reason": "Root-only suggestion retained for triage, not grouped: substring collisions can produce unrelated topic assignments."
+    },
+    {
+      "word": "CALMS",
+      "topic": "Mindfulness",
+      "topic_id": "mindfulness",
+      "status": "UNASSIGNED",
+      "reason": "Root-only suggestion retained for triage, not grouped: substring collisions can produce unrelated topic assignments."
+    },
+    {
+      "word": "CAMPAIGNED",
+      "topic": "Outdoor Adventure",
+      "topic_id": "outdoor_adventure",
+      "status": "UNASSIGNED",
+      "reason": "Root-only suggestion retained for triage, not grouped: substring collisions can produce unrelated topic assignments."
+    },
+    {
+      "word": "CAMPAIGNER",
+      "topic": "Outdoor Adventure",
+      "topic_id": "outdoor_adventure",
+      "status": "UNASSIGNED",
+      "reason": "Root-only suggestion retained for triage, not grouped: substring collisions can produce unrelated topic assignments."
+    },
+    {
+      "word": "CAMPAIGNERS",
+      "topic": "Outdoor Adventure",
+      "topic_id": "outdoor_adventure",
+      "status": "UNASSIGNED",
+      "reason": "Root-only suggestion retained for triage, not grouped: substring collisions can produce unrelated topic assignments."
+    },
+    {
+      "word": "CAMPAIGNING",
+      "topic": "Outdoor Adventure",
+      "topic_id": "outdoor_adventure",
+      "status": "UNASSIGNED",
+      "reason": "Root-only suggestion retained for triage, not grouped: substring collisions can produce unrelated topic assignments."
+    },
+    {
+      "word": "CAMPED",
+      "topic": "Outdoor Adventure",
+      "topic_id": "outdoor_adventure",
+      "status": "UNASSIGNED",
+      "reason": "Root-only suggestion retained for triage, not grouped: substring collisions can produce unrelated topic assignments."
+    },
+    {
+      "word": "CAMPGROUNDS",
+      "topic": "National Parks",
+      "topic_id": "national_parks",
+      "status": "UNASSIGNED",
+      "reason": "Root-only suggestion retained for triage, not grouped: substring collisions can produce unrelated topic assignments."
+    },
+    {
+      "word": "CAMPGROUNDS",
+      "topic": "Outdoor Adventure",
+      "topic_id": "outdoor_adventure",
+      "status": "UNASSIGNED",
+      "reason": "Root-only suggestion retained for triage, not grouped: substring collisions can produce unrelated topic assignments."
+    },
+    {
+      "word": "CAMPION",
+      "topic": "Outdoor Adventure",
+      "topic_id": "outdoor_adventure",
+      "status": "UNASSIGNED",
+      "reason": "Root-only suggestion retained for triage, not grouped: substring collisions can produce unrelated topic assignments."
+    },
+    {
+      "word": "CAMPO",
+      "topic": "Outdoor Adventure",
+      "topic_id": "outdoor_adventure",
+      "status": "UNASSIGNED",
+      "reason": "Root-only suggestion retained for triage, not grouped: substring collisions can produce unrelated topic assignments."
+    },
+    {
+      "word": "CAMPOS",
+      "topic": "Outdoor Adventure",
+      "topic_id": "outdoor_adventure",
+      "status": "UNASSIGNED",
+      "reason": "Root-only suggestion retained for triage, not grouped: substring collisions can produce unrelated topic assignments."
+    },
+    {
+      "word": "CAMPSITES",
+      "topic": "National Parks",
+      "topic_id": "national_parks",
+      "status": "UNASSIGNED",
+      "reason": "Root-only suggestion retained for triage, not grouped: substring collisions can produce unrelated topic assignments."
+    },
+    {
+      "word": "CAMPSITES",
+      "topic": "Outdoor Adventure",
+      "topic_id": "outdoor_adventure",
+      "status": "UNASSIGNED",
+      "reason": "Root-only suggestion retained for triage, not grouped: substring collisions can produce unrelated topic assignments."
+    },
+    {
+      "word": "CANINES",
+      "topic": "Pets and Animal Care",
+      "topic_id": "pets_animal_care",
+      "status": "UNASSIGNED",
+      "reason": "Root-only suggestion retained for triage, not grouped: substring collisions can produce unrelated topic assignments."
+    },
+    {
+      "word": "CANINES",
+      "topic": "Dog Breeds",
+      "topic_id": "dog_breeds",
+      "status": "UNASSIGNED",
+      "reason": "Root-only suggestion retained for triage, not grouped: substring collisions can produce unrelated topic assignments."
+    },
+    {
+      "word": "CANVASES",
+      "topic": "Arts Creativity and Making",
+      "topic_id": "arts_creativity_making",
+      "status": "UNASSIGNED",
+      "reason": "Root-only suggestion retained for triage, not grouped: substring collisions can produce unrelated topic assignments."
+    },
+    {
+      "word": "CANVASS",
+      "topic": "Arts Creativity and Making",
+      "topic_id": "arts_creativity_making",
+      "status": "UNASSIGNED",
+      "reason": "Root-only suggestion retained for triage, not grouped: substring collisions can produce unrelated topic assignments."
+    },
+    {
+      "word": "CANVASSING",
+      "topic": "Arts Creativity and Making",
+      "topic_id": "arts_creativity_making",
+      "status": "UNASSIGNED",
+      "reason": "Root-only suggestion retained for triage, not grouped: substring collisions can produce unrelated topic assignments."
+    },
+    {
+      "word": "CANYONS",
+      "topic": "National Parks",
+      "topic_id": "national_parks",
+      "status": "UNASSIGNED",
+      "reason": "Root-only suggestion retained for triage, not grouped: substring collisions can produce unrelated topic assignments."
+    },
+    {
+      "word": "CAPITALISE",
+      "topic": "US Geography and Landmarks",
+      "topic_id": "us_geography_landmarks",
+      "status": "UNASSIGNED",
+      "reason": "Root-only suggestion retained for triage, not grouped: substring collisions can produce unrelated topic assignments."
+    },
+    {
+      "word": "CAPITALIST",
+      "topic": "US Geography and Landmarks",
+      "topic_id": "us_geography_landmarks",
+      "status": "UNASSIGNED",
+      "reason": "Root-only suggestion retained for triage, not grouped: substring collisions can produce unrelated topic assignments."
+    },
+    {
+      "word": "CAPITALISTIC",
+      "topic": "US Geography and Landmarks",
+      "topic_id": "us_geography_landmarks",
+      "status": "UNASSIGNED",
+      "reason": "Root-only suggestion retained for triage, not grouped: substring collisions can produce unrelated topic assignments."
+    },
+    {
+      "word": "CAPITALIZATION",
+      "topic": "US Geography and Landmarks",
+      "topic_id": "us_geography_landmarks",
+      "status": "UNASSIGNED",
+      "reason": "Root-only suggestion retained for triage, not grouped: substring collisions can produce unrelated topic assignments."
+    },
+    {
+      "word": "CAPITALIZED",
+      "topic": "US Geography and Landmarks",
+      "topic_id": "us_geography_landmarks",
+      "status": "UNASSIGNED",
+      "reason": "Root-only suggestion retained for triage, not grouped: substring collisions can produce unrelated topic assignments."
+    },
+    {
+      "word": "CAPITALIZING",
+      "topic": "US Geography and Landmarks",
+      "topic_id": "us_geography_landmarks",
+      "status": "UNASSIGNED",
+      "reason": "Root-only suggestion retained for triage, not grouped: substring collisions can produce unrelated topic assignments."
+    },
+    {
+      "word": "CAPITALS",
+      "topic": "US Geography and Landmarks",
+      "topic_id": "us_geography_landmarks",
+      "status": "UNASSIGNED",
+      "reason": "Root-only suggestion retained for triage, not grouped: substring collisions can produce unrelated topic assignments."
+    },
+    {
+      "word": "CAROL",
+      "topic": "Christmas and Winter",
+      "topic_id": "christmas",
+      "status": "UNASSIGNED",
+      "reason": "Root-only suggestion retained for triage, not grouped: substring collisions can produce unrelated topic assignments."
+    },
+    {
+      "word": "CAROLE",
+      "topic": "Christmas and Winter",
+      "topic_id": "christmas",
+      "status": "UNASSIGNED",
+      "reason": "Root-only suggestion retained for triage, not grouped: substring collisions can produce unrelated topic assignments."
+    },
+    {
+      "word": "CAROLS",
+      "topic": "Christmas and Winter",
+      "topic_id": "christmas",
+      "status": "UNASSIGNED",
+      "reason": "Root-only suggestion retained for triage, not grouped: substring collisions can produce unrelated topic assignments."
+    },
+    {
+      "word": "CARROTS",
+      "topic": "Herbs Fruits and Vegetables",
+      "topic_id": "garden_to_table",
+      "status": "UNASSIGNED",
+      "reason": "Root-only suggestion retained for triage, not grouped: substring collisions can produce unrelated topic assignments."
+    },
+    {
+      "word": "CASHIERS",
+      "topic": "Careers Community and Everyday Life",
+      "topic_id": "careers_community_everyday_life",
+      "status": "UNASSIGNED",
+      "reason": "Root-only suggestion retained for triage, not grouped: substring collisions can produce unrelated topic assignments."
+    },
+    {
+      "word": "CASSETTES",
+      "topic": "Nostalgia Through the Decades",
+      "topic_id": "nostalgia_through_decades",
+      "status": "UNASSIGNED",
+      "reason": "Root-only suggestion retained for triage, not grouped: substring collisions can produce unrelated topic assignments."
+    },
+    {
+      "word": "CATACLYSM",
+      "topic": "Cat Lover",
+      "topic_id": "cat_lover",
+      "status": "UNASSIGNED",
+      "reason": "Root-only suggestion retained for triage, not grouped: substring collisions can produce unrelated topic assignments."
+    },
+    {
+      "word": "CATACLYSMIC",
+      "topic": "Cat Lover",
+      "topic_id": "cat_lover",
+      "status": "UNASSIGNED",
+      "reason": "Root-only suggestion retained for triage, not grouped: substring collisions can produce unrelated topic assignments."
+    },
+    {
+      "word": "CATACOMBS",
+      "topic": "Cat Lover",
+      "topic_id": "cat_lover",
+      "status": "UNASSIGNED",
+      "reason": "Root-only suggestion retained for triage, not grouped: substring collisions can produce unrelated topic assignments."
+    },
+    {
+      "word": "CATALAN",
+      "topic": "Cat Lover",
+      "topic_id": "cat_lover",
+      "status": "UNASSIGNED",
+      "reason": "Root-only suggestion retained for triage, not grouped: substring collisions can produce unrelated topic assignments."
+    },
+    {
+      "word": "CATALINA",
+      "topic": "Cat Lover",
+      "topic_id": "cat_lover",
+      "status": "UNASSIGNED",
+      "reason": "Root-only suggestion retained for triage, not grouped: substring collisions can produce unrelated topic assignments."
+    },
+    {
+      "word": "CATALOGING",
+      "topic": "Cat Lover",
+      "topic_id": "cat_lover",
+      "status": "UNASSIGNED",
+      "reason": "Root-only suggestion retained for triage, not grouped: substring collisions can produce unrelated topic assignments."
+    },
+    {
+      "word": "CATALOGUE",
+      "topic": "Cat Lover",
+      "topic_id": "cat_lover",
+      "status": "UNASSIGNED",
+      "reason": "Root-only suggestion retained for triage, not grouped: substring collisions can produce unrelated topic assignments."
+    },
+    {
+      "word": "CATALOGUED",
+      "topic": "Cat Lover",
+      "topic_id": "cat_lover",
+      "status": "UNASSIGNED",
+      "reason": "Root-only suggestion retained for triage, not grouped: substring collisions can produce unrelated topic assignments."
+    },
+    {
+      "word": "CATALOGUES",
+      "topic": "Cat Lover",
+      "topic_id": "cat_lover",
+      "status": "UNASSIGNED",
+      "reason": "Root-only suggestion retained for triage, not grouped: substring collisions can produce unrelated topic assignments."
+    },
+    {
+      "word": "CATALYSIS",
+      "topic": "Cat Lover",
+      "topic_id": "cat_lover",
+      "status": "UNASSIGNED",
+      "reason": "Root-only suggestion retained for triage, not grouped: substring collisions can produce unrelated topic assignments."
+    },
+    {
+      "word": "CATALYTIC",
+      "topic": "Cat Lover",
+      "topic_id": "cat_lover",
+      "status": "UNASSIGNED",
+      "reason": "Root-only suggestion retained for triage, not grouped: substring collisions can produce unrelated topic assignments."
+    },
+    {
+      "word": "CATALYZED",
+      "topic": "Cat Lover",
+      "topic_id": "cat_lover",
+      "status": "UNASSIGNED",
+      "reason": "Root-only suggestion retained for triage, not grouped: substring collisions can produce unrelated topic assignments."
+    },
+    {
+      "word": "CATAPULT",
+      "topic": "Cat Lover",
+      "topic_id": "cat_lover",
+      "status": "UNASSIGNED",
+      "reason": "Root-only suggestion retained for triage, not grouped: substring collisions can produce unrelated topic assignments."
+    },
+    {
+      "word": "CATAPULTED",
+      "topic": "Cat Lover",
+      "topic_id": "cat_lover",
+      "status": "UNASSIGNED",
+      "reason": "Root-only suggestion retained for triage, not grouped: substring collisions can produce unrelated topic assignments."
+    },
+    {
+      "word": "CATARACTS",
+      "topic": "Cat Lover",
+      "topic_id": "cat_lover",
+      "status": "UNASSIGNED",
+      "reason": "Root-only suggestion retained for triage, not grouped: substring collisions can produce unrelated topic assignments."
+    },
+    {
+      "word": "CATASTROPHES",
+      "topic": "Cat Lover",
+      "topic_id": "cat_lover",
+      "status": "UNASSIGNED",
+      "reason": "Root-only suggestion retained for triage, not grouped: substring collisions can produce unrelated topic assignments."
+    },
+    {
+      "word": "CATCHER",
+      "topic": "Cat Lover",
+      "topic_id": "cat_lover",
+      "status": "UNASSIGNED",
+      "reason": "Root-only suggestion retained for triage, not grouped: substring collisions can produce unrelated topic assignments."
+    },
+    {
+      "word": "CATCHES",
+      "topic": "Cat Lover",
+      "topic_id": "cat_lover",
+      "status": "UNASSIGNED",
+      "reason": "Root-only suggestion retained for triage, not grouped: substring collisions can produce unrelated topic assignments."
+    },
+    {
+      "word": "CATCHY",
+      "topic": "Cat Lover",
+      "topic_id": "cat_lover",
+      "status": "UNASSIGNED",
+      "reason": "Root-only suggestion retained for triage, not grouped: substring collisions can produce unrelated topic assignments."
+    },
+    {
+      "word": "CATE",
+      "topic": "Cat Lover",
+      "topic_id": "cat_lover",
+      "status": "UNASSIGNED",
+      "reason": "Root-only suggestion retained for triage, not grouped: substring collisions can produce unrelated topic assignments."
+    },
+    {
+      "word": "CATECHISM",
+      "topic": "Cat Lover",
+      "topic_id": "cat_lover",
+      "status": "UNASSIGNED",
+      "reason": "Root-only suggestion retained for triage, not grouped: substring collisions can produce unrelated topic assignments."
+    },
+    {
+      "word": "CATEGORICALLY",
+      "topic": "Cat Lover",
+      "topic_id": "cat_lover",
+      "status": "UNASSIGNED",
+      "reason": "Root-only suggestion retained for triage, not grouped: substring collisions can produce unrelated topic assignments."
+    },
+    {
+      "word": "CATEGORIES",
+      "topic": "Cat Lover",
+      "topic_id": "cat_lover",
+      "status": "UNASSIGNED",
+      "reason": "Root-only suggestion retained for triage, not grouped: substring collisions can produce unrelated topic assignments."
+    },
+    {
+      "word": "CATEGORISED",
+      "topic": "Cat Lover",
+      "topic_id": "cat_lover",
+      "status": "UNASSIGNED",
+      "reason": "Root-only suggestion retained for triage, not grouped: substring collisions can produce unrelated topic assignments."
+    },
+    {
+      "word": "CATEGORIZE",
+      "topic": "Cat Lover",
+      "topic_id": "cat_lover",
+      "status": "UNASSIGNED",
+      "reason": "Root-only suggestion retained for triage, not grouped: substring collisions can produce unrelated topic assignments."
+    },
+    {
+      "word": "CATERED",
+      "topic": "Cat Lover",
+      "topic_id": "cat_lover",
+      "status": "UNASSIGNED",
+      "reason": "Root-only suggestion retained for triage, not grouped: substring collisions can produce unrelated topic assignments."
+    },
+    {
+      "word": "CATERER",
+      "topic": "Cat Lover",
+      "topic_id": "cat_lover",
+      "status": "UNASSIGNED",
+      "reason": "Root-only suggestion retained for triage, not grouped: substring collisions can produce unrelated topic assignments."
+    },
+    {
+      "word": "CATERERS",
+      "topic": "Cat Lover",
+      "topic_id": "cat_lover",
+      "status": "UNASSIGNED",
+      "reason": "Root-only suggestion retained for triage, not grouped: substring collisions can produce unrelated topic assignments."
+    },
+    {
+      "word": "CATERING",
+      "topic": "Cat Lover",
+      "topic_id": "cat_lover",
+      "status": "UNASSIGNED",
+      "reason": "Root-only suggestion retained for triage, not grouped: substring collisions can produce unrelated topic assignments."
+    },
+    {
+      "word": "CATERPILLARS",
+      "topic": "Cat Lover",
+      "topic_id": "cat_lover",
+      "status": "UNASSIGNED",
+      "reason": "Root-only suggestion retained for triage, not grouped: substring collisions can produce unrelated topic assignments."
+    },
+    {
+      "word": "CATERS",
+      "topic": "Cat Lover",
+      "topic_id": "cat_lover",
+      "status": "UNASSIGNED",
+      "reason": "Root-only suggestion retained for triage, not grouped: substring collisions can produce unrelated topic assignments."
+    },
+    {
+      "word": "CATH",
+      "topic": "Cat Lover",
+      "topic_id": "cat_lover",
+      "status": "UNASSIGNED",
+      "reason": "Root-only suggestion retained for triage, not grouped: substring collisions can produce unrelated topic assignments."
+    },
+    {
+      "word": "CATHARINE",
+      "topic": "Cat Lover",
+      "topic_id": "cat_lover",
+      "status": "UNASSIGNED",
+      "reason": "Root-only suggestion retained for triage, not grouped: substring collisions can produce unrelated topic assignments."
+    },
+    {
+      "word": "CATHARSIS",
+      "topic": "Cat Lover",
+      "topic_id": "cat_lover",
+      "status": "UNASSIGNED",
+      "reason": "Root-only suggestion retained for triage, not grouped: substring collisions can produce unrelated topic assignments."
+    },
+    {
+      "word": "CATHARTIC",
+      "topic": "Cat Lover",
+      "topic_id": "cat_lover",
+      "status": "UNASSIGNED",
+      "reason": "Root-only suggestion retained for triage, not grouped: substring collisions can produce unrelated topic assignments."
+    },
+    {
+      "word": "CATHAY",
+      "topic": "Cat Lover",
+      "topic_id": "cat_lover",
+      "status": "UNASSIGNED",
+      "reason": "Root-only suggestion retained for triage, not grouped: substring collisions can produce unrelated topic assignments."
+    },
+    {
+      "word": "CATHEDRALS",
+      "topic": "Cat Lover",
+      "topic_id": "cat_lover",
+      "status": "UNASSIGNED",
+      "reason": "Root-only suggestion retained for triage, not grouped: substring collisions can produce unrelated topic assignments."
+    },
+    {
+      "word": "CATHETER",
+      "topic": "Cat Lover",
+      "topic_id": "cat_lover",
+      "status": "UNASSIGNED",
+      "reason": "Root-only suggestion retained for triage, not grouped: substring collisions can produce unrelated topic assignments."
+    },
+    {
+      "word": "CATHY",
+      "topic": "Cat Lover",
+      "topic_id": "cat_lover",
+      "status": "UNASSIGNED",
+      "reason": "Root-only suggestion retained for triage, not grouped: substring collisions can produce unrelated topic assignments."
+    },
+    {
+      "word": "CATION",
+      "topic": "Cat Lover",
+      "topic_id": "cat_lover",
+      "status": "UNASSIGNED",
+      "reason": "Root-only suggestion retained for triage, not grouped: substring collisions can produce unrelated topic assignments."
+    },
+    {
+      "word": "CATIONS",
+      "topic": "Cat Lover",
+      "topic_id": "cat_lover",
+      "status": "UNASSIGNED",
+      "reason": "Root-only suggestion retained for triage, not grouped: substring collisions can produce unrelated topic assignments."
+    },
+    {
+      "word": "CATS",
+      "topic": "Cat Lover",
+      "topic_id": "cat_lover",
+      "status": "UNASSIGNED",
+      "reason": "Root-only suggestion retained for triage, not grouped: substring collisions can produce unrelated topic assignments."
+    },
+    {
+      "word": "CATWALK",
+      "topic": "Cat Lover",
+      "topic_id": "cat_lover",
+      "status": "UNASSIGNED",
+      "reason": "Root-only suggestion retained for triage, not grouped: substring collisions can produce unrelated topic assignments."
+    },
+    {
+      "word": "CELEBRATORY",
+      "topic": "Seasonal Celebrations",
+      "topic_id": "seasonal_celebrations",
+      "status": "UNASSIGNED",
+      "reason": "Root-only suggestion retained for triage, not grouped: substring collisions can produce unrelated topic assignments."
+    },
+    {
+      "word": "CELEBRATORY",
+      "topic": "Holidays",
+      "topic_id": "holidays",
+      "status": "UNASSIGNED",
+      "reason": "Root-only suggestion retained for triage, not grouped: substring collisions can produce unrelated topic assignments."
+    },
+    {
+      "word": "CHEM",
+      "topic": "Science and Discovery",
+      "topic_id": "science_discovery",
+      "status": "UNASSIGNED",
+      "reason": "Root-only suggestion retained for triage, not grouped: substring collisions can produce unrelated topic assignments."
+    },
+    {
+      "word": "CHEMICALLY",
+      "topic": "Science and Discovery",
+      "topic_id": "science_discovery",
+      "status": "UNASSIGNED",
+      "reason": "Root-only suggestion retained for triage, not grouped: substring collisions can produce unrelated topic assignments."
+    },
+    {
+      "word": "CHICKEN",
+      "topic": "Homesteading",
+      "topic_id": "homesteading",
+      "status": "UNASSIGNED",
+      "reason": "Root-only suggestion retained for triage, not grouped: substring collisions can produce unrelated topic assignments."
+    },
+    {
+      "word": "CHORUSES",
+      "topic": "Music and Instruments",
+      "topic_id": "music_instruments",
+      "status": "UNASSIGNED",
+      "reason": "Root-only suggestion retained for triage, not grouped: substring collisions can produce unrelated topic assignments."
+    },
+    {
+      "word": "CINEMAS",
+      "topic": "Pop Culture & Entertainment",
+      "topic_id": "pop_culture_entertainment",
+      "status": "UNASSIGNED",
+      "reason": "Root-only suggestion retained for triage, not grouped: substring collisions can produce unrelated topic assignments."
+    },
+    {
+      "word": "CINEMATOGRAPHER",
+      "topic": "Pop Culture & Entertainment",
+      "topic_id": "pop_culture_entertainment",
+      "status": "UNASSIGNED",
+      "reason": "Root-only suggestion retained for triage, not grouped: substring collisions can produce unrelated topic assignments."
+    },
+    {
+      "word": "CINEMATOGRAPHY",
+      "topic": "Pop Culture & Entertainment",
+      "topic_id": "pop_culture_entertainment",
+      "status": "UNASSIGNED",
+      "reason": "Root-only suggestion retained for triage, not grouped: substring collisions can produce unrelated topic assignments."
+    },
+    {
+      "word": "CLEANERS",
+      "topic": "Home and Household",
+      "topic_id": "home_household",
+      "status": "UNASSIGNED",
+      "reason": "Root-only suggestion retained for triage, not grouped: substring collisions can produce unrelated topic assignments."
+    },
+    {
+      "word": "CLEANLINESS",
+      "topic": "Home and Household",
+      "topic_id": "home_household",
+      "status": "UNASSIGNED",
+      "reason": "Root-only suggestion retained for triage, not grouped: substring collisions can produce unrelated topic assignments."
+    },
+    {
+      "word": "CLEANLY",
+      "topic": "Home and Household",
+      "topic_id": "home_household",
+      "status": "UNASSIGNED",
+      "reason": "Root-only suggestion retained for triage, not grouped: substring collisions can produce unrelated topic assignments."
+    },
+    {
+      "word": "CLEANS",
+      "topic": "Home and Household",
+      "topic_id": "home_household",
+      "status": "UNASSIGNED",
+      "reason": "Root-only suggestion retained for triage, not grouped: substring collisions can produce unrelated topic assignments."
+    },
+    {
+      "word": "CLIMBER",
+      "topic": "Outdoor Adventure",
+      "topic_id": "outdoor_adventure",
+      "status": "UNASSIGNED",
+      "reason": "Root-only suggestion retained for triage, not grouped: substring collisions can produce unrelated topic assignments."
+    },
+    {
+      "word": "CLIMBERS",
+      "topic": "Outdoor Adventure",
+      "topic_id": "outdoor_adventure",
+      "status": "UNASSIGNED",
+      "reason": "Root-only suggestion retained for triage, not grouped: substring collisions can produce unrelated topic assignments."
+    },
+    {
+      "word": "CLIMBS",
+      "topic": "Outdoor Adventure",
+      "topic_id": "outdoor_adventure",
+      "status": "UNASSIGNED",
+      "reason": "Root-only suggestion retained for triage, not grouped: substring collisions can produce unrelated topic assignments."
+    },
+    {
+      "word": "CLOUDED",
+      "topic": "Weather and Climate",
+      "topic_id": "weather_climate",
+      "status": "UNASSIGNED",
+      "reason": "Root-only suggestion retained for triage, not grouped: substring collisions can produce unrelated topic assignments."
+    },
+    {
+      "word": "COASTERS",
+      "topic": "US Geography and Landmarks",
+      "topic_id": "us_geography_landmarks",
+      "status": "UNASSIGNED",
+      "reason": "Root-only suggestion retained for triage, not grouped: substring collisions can produce unrelated topic assignments."
+    },
+    {
+      "word": "COASTERS",
+      "topic": "Coastal Lake and River Life",
+      "topic_id": "coastal_lake_river_life",
+      "status": "UNASSIGNED",
+      "reason": "Root-only suggestion retained for triage, not grouped: substring collisions can produce unrelated topic assignments."
+    },
+    {
+      "word": "COASTING",
+      "topic": "US Geography and Landmarks",
+      "topic_id": "us_geography_landmarks",
+      "status": "UNASSIGNED",
+      "reason": "Root-only suggestion retained for triage, not grouped: substring collisions can produce unrelated topic assignments."
+    },
+    {
+      "word": "COASTING",
+      "topic": "Coastal Lake and River Life",
+      "topic_id": "coastal_lake_river_life",
+      "status": "UNASSIGNED",
+      "reason": "Root-only suggestion retained for triage, not grouped: substring collisions can produce unrelated topic assignments."
+    },
+    {
+      "word": "COASTLINES",
+      "topic": "US Geography and Landmarks",
+      "topic_id": "us_geography_landmarks",
+      "status": "UNASSIGNED",
+      "reason": "Root-only suggestion retained for triage, not grouped: substring collisions can produce unrelated topic assignments."
+    },
+    {
+      "word": "COASTLINES",
+      "topic": "Coastal Lake and River Life",
+      "topic_id": "coastal_lake_river_life",
+      "status": "UNASSIGNED",
+      "reason": "Root-only suggestion retained for triage, not grouped: substring collisions can produce unrelated topic assignments."
+    },
+    {
+      "word": "COLLAGEN",
+      "topic": "Arts Creativity and Making",
+      "topic_id": "arts_creativity_making",
+      "status": "UNASSIGNED",
+      "reason": "Root-only suggestion retained for triage, not grouped: substring collisions can produce unrelated topic assignments."
+    },
+    {
+      "word": "COLLAGES",
+      "topic": "Arts Creativity and Making",
+      "topic_id": "arts_creativity_making",
+      "status": "UNASSIGNED",
+      "reason": "Root-only suggestion retained for triage, not grouped: substring collisions can produce unrelated topic assignments."
+    },
+    {
+      "word": "COLONELS",
+      "topic": "American History",
+      "topic_id": "american_history",
+      "status": "UNASSIGNED",
+      "reason": "Root-only suggestion retained for triage, not grouped: substring collisions can produce unrelated topic assignments."
+    },
+    {
+      "word": "COLONISATION",
+      "topic": "American History",
+      "topic_id": "american_history",
+      "status": "UNASSIGNED",
+      "reason": "Root-only suggestion retained for triage, not grouped: substring collisions can produce unrelated topic assignments."
+    },
+    {
+      "word": "COLONIZING",
+      "topic": "American History",
+      "topic_id": "american_history",
+      "status": "UNASSIGNED",
+      "reason": "Root-only suggestion retained for triage, not grouped: substring collisions can produce unrelated topic assignments."
+    },
+    {
+      "word": "COLONOSCOPY",
+      "topic": "American History",
+      "topic_id": "american_history",
+      "status": "UNASSIGNED",
+      "reason": "Root-only suggestion retained for triage, not grouped: substring collisions can produce unrelated topic assignments."
+    },
+    {
+      "word": "COMETS",
+      "topic": "Space & Astronomy",
+      "topic_id": "space_astronomy",
+      "status": "UNASSIGNED",
+      "reason": "Root-only suggestion retained for triage, not grouped: substring collisions can produce unrelated topic assignments."
+    },
+    {
+      "word": "CONIFERS",
+      "topic": "Forest Wildlife and Outdoors",
+      "topic_id": "forest_wildlife_outdoors",
+      "status": "UNASSIGNED",
+      "reason": "Root-only suggestion retained for triage, not grouped: substring collisions can produce unrelated topic assignments."
+    },
+    {
+      "word": "CONSOLES",
+      "topic": "Video Games & Gaming",
+      "topic_id": "video_games_gaming",
+      "status": "UNASSIGNED",
+      "reason": "Root-only suggestion retained for triage, not grouped: substring collisions can produce unrelated topic assignments."
+    },
+    {
+      "word": "CONVOYS",
+      "topic": "World War II History",
+      "topic_id": "world_war_ii_history",
+      "status": "UNASSIGNED",
+      "reason": "Root-only suggestion retained for triage, not grouped: substring collisions can produce unrelated topic assignments."
+    },
+    {
+      "word": "COOKBOOKS",
+      "topic": "Home and Household",
+      "topic_id": "home_household",
+      "status": "UNASSIGNED",
+      "reason": "Root-only suggestion retained for triage, not grouped: substring collisions can produce unrelated topic assignments."
+    },
+    {
+      "word": "COOKER",
+      "topic": "Home and Household",
+      "topic_id": "home_household",
+      "status": "UNASSIGNED",
+      "reason": "Root-only suggestion retained for triage, not grouped: substring collisions can produce unrelated topic assignments."
+    },
+    {
+      "word": "COOKERY",
+      "topic": "Home and Household",
+      "topic_id": "home_household",
+      "status": "UNASSIGNED",
+      "reason": "Root-only suggestion retained for triage, not grouped: substring collisions can produce unrelated topic assignments."
+    },
+    {
+      "word": "COSMO",
+      "topic": "Space & Astronomy",
+      "topic_id": "space_astronomy",
+      "status": "UNASSIGNED",
+      "reason": "Root-only suggestion retained for triage, not grouped: substring collisions can produce unrelated topic assignments."
+    },
+    {
+      "word": "COSMOLOGICAL",
+      "topic": "Space & Astronomy",
+      "topic_id": "space_astronomy",
+      "status": "UNASSIGNED",
+      "reason": "Root-only suggestion retained for triage, not grouped: substring collisions can produce unrelated topic assignments."
+    },
+    {
+      "word": "COSMOPOLITAN",
+      "topic": "Space & Astronomy",
+      "topic_id": "space_astronomy",
+      "status": "UNASSIGNED",
+      "reason": "Root-only suggestion retained for triage, not grouped: substring collisions can produce unrelated topic assignments."
+    },
+    {
+      "word": "COSTUMED",
+      "topic": "Halloween Autumn and Harvest",
+      "topic_id": "halloween",
+      "status": "UNASSIGNED",
+      "reason": "Root-only suggestion retained for triage, not grouped: substring collisions can produce unrelated topic assignments."
+    },
+    {
+      "word": "COUNTRYWIDE",
+      "topic": "Farm Country and Rural Life",
+      "topic_id": "farm_country_rural_life",
+      "status": "UNASSIGNED",
+      "reason": "Root-only suggestion retained for triage, not grouped: substring collisions can produce unrelated topic assignments."
+    },
+    {
+      "word": "CRAFTED",
+      "topic": "Arts Creativity and Making",
+      "topic_id": "arts_creativity_making",
+      "status": "UNASSIGNED",
+      "reason": "Root-only suggestion retained for triage, not grouped: substring collisions can produce unrelated topic assignments."
+    },
+    {
+      "word": "CRAFTS",
+      "topic": "Arts Creativity and Making",
+      "topic_id": "arts_creativity_making",
+      "status": "UNASSIGNED",
+      "reason": "Root-only suggestion retained for triage, not grouped: substring collisions can produce unrelated topic assignments."
+    },
+    {
+      "word": "CRAFTSMANSHIP",
+      "topic": "Arts Creativity and Making",
+      "topic_id": "arts_creativity_making",
+      "status": "UNASSIGNED",
+      "reason": "Root-only suggestion retained for triage, not grouped: substring collisions can produce unrelated topic assignments."
+    },
+    {
+      "word": "CRUSTACEANS",
+      "topic": "Ocean Life",
+      "topic_id": "ocean_life",
+      "status": "UNASSIGNED",
+      "reason": "Root-only suggestion retained for triage, not grouped: substring collisions can produce unrelated topic assignments."
+    },
+    {
+      "word": "CUPBOARDS",
+      "topic": "Home and Household",
+      "topic_id": "home_household",
+      "status": "UNASSIGNED",
+      "reason": "Root-only suggestion retained for triage, not grouped: substring collisions can produce unrelated topic assignments."
+    },
+    {
+      "word": "CYCLING",
+      "topic": "Sports and Hobbies",
+      "topic_id": "sports_hobbies",
+      "status": "UNASSIGNED",
+      "reason": "Root-only suggestion retained for triage, not grouped: substring collisions can produce unrelated topic assignments."
+    },
+    {
+      "word": "DENTISTRY",
+      "topic": "Careers Community and Everyday Life",
+      "topic_id": "careers_community_everyday_life",
+      "status": "UNASSIGNED",
+      "reason": "Root-only suggestion retained for triage, not grouped: substring collisions can produce unrelated topic assignments."
+    },
+    {
+      "word": "DENTISTS",
+      "topic": "Careers Community and Everyday Life",
+      "topic_id": "careers_community_everyday_life",
+      "status": "UNASSIGNED",
+      "reason": "Root-only suggestion retained for triage, not grouped: substring collisions can produce unrelated topic assignments."
+    },
+    {
+      "word": "DESSERT",
+      "topic": "Baking and Food",
+      "topic_id": "baking_food",
+      "status": "UNASSIGNED",
+      "reason": "Root-only suggestion retained for triage, not grouped: substring collisions can produce unrelated topic assignments."
+    },
+    {
+      "word": "DESSERTS",
+      "topic": "Baking and Food",
+      "topic_id": "baking_food",
+      "status": "UNASSIGNED",
+      "reason": "Root-only suggestion retained for triage, not grouped: substring collisions can produce unrelated topic assignments."
+    },
+    {
+      "word": "DOCTORAL",
+      "topic": "Careers Community and Everyday Life",
+      "topic_id": "careers_community_everyday_life",
+      "status": "UNASSIGNED",
+      "reason": "Root-only suggestion retained for triage, not grouped: substring collisions can produce unrelated topic assignments."
+    },
+    {
+      "word": "DOCTORATE",
+      "topic": "Careers Community and Everyday Life",
+      "topic_id": "careers_community_everyday_life",
+      "status": "UNASSIGNED",
+      "reason": "Root-only suggestion retained for triage, not grouped: substring collisions can produce unrelated topic assignments."
+    },
+    {
+      "word": "DOCTORED",
+      "topic": "Careers Community and Everyday Life",
+      "topic_id": "careers_community_everyday_life",
+      "status": "UNASSIGNED",
+      "reason": "Root-only suggestion retained for triage, not grouped: substring collisions can produce unrelated topic assignments."
+    },
+    {
+      "word": "DOGE",
+      "topic": "Dog Breeds",
+      "topic_id": "dog_breeds",
+      "status": "UNASSIGNED",
+      "reason": "Root-only suggestion retained for triage, not grouped: substring collisions can produce unrelated topic assignments."
+    },
+    {
+      "word": "DOGGED",
+      "topic": "Dog Breeds",
+      "topic_id": "dog_breeds",
+      "status": "UNASSIGNED",
+      "reason": "Root-only suggestion retained for triage, not grouped: substring collisions can produce unrelated topic assignments."
+    },
+    {
+      "word": "DOGGIE",
+      "topic": "Dog Breeds",
+      "topic_id": "dog_breeds",
+      "status": "UNASSIGNED",
+      "reason": "Root-only suggestion retained for triage, not grouped: substring collisions can produce unrelated topic assignments."
+    },
+    {
+      "word": "DOGGING",
+      "topic": "Dog Breeds",
+      "topic_id": "dog_breeds",
+      "status": "UNASSIGNED",
+      "reason": "Root-only suggestion retained for triage, not grouped: substring collisions can produce unrelated topic assignments."
+    },
+    {
+      "word": "DOGGO",
+      "topic": "Dog Breeds",
+      "topic_id": "dog_breeds",
+      "status": "UNASSIGNED",
+      "reason": "Root-only suggestion retained for triage, not grouped: substring collisions can produce unrelated topic assignments."
+    },
+    {
+      "word": "DOGGY",
+      "topic": "Dog Breeds",
+      "topic_id": "dog_breeds",
+      "status": "UNASSIGNED",
+      "reason": "Root-only suggestion retained for triage, not grouped: substring collisions can produce unrelated topic assignments."
+    },
+    {
+      "word": "DOGMA",
+      "topic": "Dog Breeds",
+      "topic_id": "dog_breeds",
+      "status": "UNASSIGNED",
+      "reason": "Root-only suggestion retained for triage, not grouped: substring collisions can produce unrelated topic assignments."
+    },
+    {
+      "word": "DRAWBACKS",
+      "topic": "Arts Creativity and Making",
+      "topic_id": "arts_creativity_making",
+      "status": "UNASSIGNED",
+      "reason": "Root-only suggestion retained for triage, not grouped: substring collisions can produce unrelated topic assignments."
+    },
+    {
+      "word": "DRAWBRIDGE",
+      "topic": "Arts Creativity and Making",
+      "topic_id": "arts_creativity_making",
+      "status": "UNASSIGNED",
+      "reason": "Root-only suggestion retained for triage, not grouped: substring collisions can produce unrelated topic assignments."
+    },
+    {
+      "word": "DRAWDOWN",
+      "topic": "Arts Creativity and Making",
+      "topic_id": "arts_creativity_making",
+      "status": "UNASSIGNED",
+      "reason": "Root-only suggestion retained for triage, not grouped: substring collisions can produce unrelated topic assignments."
+    },
+    {
+      "word": "DRAWER",
+      "topic": "Arts Creativity and Making",
+      "topic_id": "arts_creativity_making",
+      "status": "UNASSIGNED",
+      "reason": "Root-only suggestion retained for triage, not grouped: substring collisions can produce unrelated topic assignments."
+    },
+    {
+      "word": "DRAWS",
+      "topic": "Arts Creativity and Making",
+      "topic_id": "arts_creativity_making",
+      "status": "UNASSIGNED",
+      "reason": "Root-only suggestion retained for triage, not grouped: substring collisions can produce unrelated topic assignments."
+    },
+    {
+      "word": "DRAWSTRING",
+      "topic": "Arts Creativity and Making",
+      "topic_id": "arts_creativity_making",
+      "status": "UNASSIGNED",
+      "reason": "Root-only suggestion retained for triage, not grouped: substring collisions can produce unrelated topic assignments."
+    },
+    {
+      "word": "DRIVEL",
+      "topic": "Vehicles & Automotive",
+      "topic_id": "vehicles_automotive",
+      "status": "UNASSIGNED",
+      "reason": "Root-only suggestion retained for triage, not grouped: substring collisions can produce unrelated topic assignments."
+    },
+    {
+      "word": "DRIVERLESS",
+      "topic": "Vehicles & Automotive",
+      "topic_id": "vehicles_automotive",
+      "status": "UNASSIGNED",
+      "reason": "Root-only suggestion retained for triage, not grouped: substring collisions can produce unrelated topic assignments."
+    },
+    {
+      "word": "DRIVES",
+      "topic": "Vehicles & Automotive",
+      "topic_id": "vehicles_automotive",
+      "status": "UNASSIGNED",
+      "reason": "Root-only suggestion retained for triage, not grouped: substring collisions can produce unrelated topic assignments."
+    },
+    {
+      "word": "DRIVEWAYS",
+      "topic": "Vehicles & Automotive",
+      "topic_id": "vehicles_automotive",
+      "status": "UNASSIGNED",
+      "reason": "Root-only suggestion retained for triage, not grouped: substring collisions can produce unrelated topic assignments."
+    },
+    {
+      "word": "EASTERLY",
+      "topic": "Seasonal Celebrations",
+      "topic_id": "seasonal_celebrations",
+      "status": "UNASSIGNED",
+      "reason": "Root-only suggestion retained for triage, not grouped: substring collisions can produce unrelated topic assignments."
+    },
+    {
+      "word": "EASTERLY",
+      "topic": "Easter and Spring",
+      "topic_id": "easter_spring",
+      "status": "UNASSIGNED",
+      "reason": "Root-only suggestion retained for triage, not grouped: substring collisions can produce unrelated topic assignments."
+    },
+    {
+      "word": "ECOLOGICAL",
+      "topic": "Nature",
+      "topic_id": "nature",
+      "status": "UNASSIGNED",
+      "reason": "Root-only suggestion retained for triage, not grouped: substring collisions can produce unrelated topic assignments."
+    },
+    {
+      "word": "ECOLOGICALLY",
+      "topic": "Nature",
+      "topic_id": "nature",
+      "status": "UNASSIGNED",
+      "reason": "Root-only suggestion retained for triage, not grouped: substring collisions can produce unrelated topic assignments."
+    },
+    {
+      "word": "EMBROIDERED",
+      "topic": "Hobbies Crafts and Pastimes",
+      "topic_id": "sports_hobbies",
+      "status": "UNASSIGNED",
+      "reason": "Root-only suggestion retained for triage, not grouped: substring collisions can produce unrelated topic assignments."
+    },
+    {
+      "word": "ENCOURAGING",
+      "topic": "Faith Inspiration and Kindness",
+      "topic_id": "faith_inspiration_kindness",
+      "status": "UNASSIGNED",
+      "reason": "Root-only suggestion retained for triage, not grouped: substring collisions can produce unrelated topic assignments."
+    },
+    {
+      "word": "ENGINED",
+      "topic": "Vehicles & Automotive",
+      "topic_id": "vehicles_automotive",
+      "status": "UNASSIGNED",
+      "reason": "Root-only suggestion retained for triage, not grouped: substring collisions can produce unrelated topic assignments."
+    },
+    {
+      "word": "ENGINEER",
+      "topic": "Vehicles & Automotive",
+      "topic_id": "vehicles_automotive",
+      "status": "UNASSIGNED",
+      "reason": "Root-only suggestion retained for triage, not grouped: substring collisions can produce unrelated topic assignments."
+    },
+    {
+      "word": "ENGINEERED",
+      "topic": "Vehicles & Automotive",
+      "topic_id": "vehicles_automotive",
+      "status": "UNASSIGNED",
+      "reason": "Root-only suggestion retained for triage, not grouped: substring collisions can produce unrelated topic assignments."
+    },
+    {
+      "word": "ENTERTAINERS",
+      "topic": "Pop Culture & Entertainment",
+      "topic_id": "pop_culture_entertainment",
+      "status": "UNASSIGNED",
+      "reason": "Root-only suggestion retained for triage, not grouped: substring collisions can produce unrelated topic assignments."
+    },
+    {
+      "word": "ENTERTAINING",
+      "topic": "Pop Culture & Entertainment",
+      "topic_id": "pop_culture_entertainment",
+      "status": "UNASSIGNED",
+      "reason": "Root-only suggestion retained for triage, not grouped: substring collisions can produce unrelated topic assignments."
+    },
+    {
+      "word": "ENTERTAINMENTS",
+      "topic": "Pop Culture & Entertainment",
+      "topic_id": "pop_culture_entertainment",
+      "status": "UNASSIGNED",
+      "reason": "Root-only suggestion retained for triage, not grouped: substring collisions can produce unrelated topic assignments."
+    },
+    {
+      "word": "ENTERTAINS",
+      "topic": "Pop Culture & Entertainment",
+      "topic_id": "pop_culture_entertainment",
+      "status": "UNASSIGNED",
+      "reason": "Root-only suggestion retained for triage, not grouped: substring collisions can produce unrelated topic assignments."
+    },
+    {
+      "word": "EVACUATE",
+      "topic": "World War II History",
+      "topic_id": "world_war_ii_history",
+      "status": "UNASSIGNED",
+      "reason": "Root-only suggestion retained for triage, not grouped: substring collisions can produce unrelated topic assignments."
+    },
+    {
+      "word": "EVACUEES",
+      "topic": "World War II History",
+      "topic_id": "world_war_ii_history",
+      "status": "UNASSIGNED",
+      "reason": "Root-only suggestion retained for triage, not grouped: substring collisions can produce unrelated topic assignments."
+    },
+    {
+      "word": "EXPERIMENTALLY",
+      "topic": "Science and Discovery",
+      "topic_id": "science_discovery",
+      "status": "UNASSIGNED",
+      "reason": "Root-only suggestion retained for triage, not grouped: substring collisions can produce unrelated topic assignments."
+    },
+    {
+      "word": "FAITHS",
+      "topic": "Bible and Faith",
+      "topic_id": "bible_faith",
+      "status": "UNASSIGNED",
+      "reason": "Root-only suggestion retained for triage, not grouped: substring collisions can produce unrelated topic assignments."
+    },
+    {
+      "word": "FARMED",
+      "topic": "Farm Country and Rural Life",
+      "topic_id": "farm_country_rural_life",
+      "status": "UNASSIGNED",
+      "reason": "Root-only suggestion retained for triage, not grouped: substring collisions can produce unrelated topic assignments."
+    },
+    {
+      "word": "FEATHERWEIGHT",
+      "topic": "Birdwatching",
+      "topic_id": "birdwatching",
+      "status": "UNASSIGNED",
+      "reason": "Root-only suggestion retained for triage, not grouped: substring collisions can produce unrelated topic assignments."
+    },
+    {
+      "word": "FICTIONAL",
+      "topic": "Books Reading and Libraries",
+      "topic_id": "books_reading_libraries",
+      "status": "UNASSIGNED",
+      "reason": "Root-only suggestion retained for triage, not grouped: substring collisions can produce unrelated topic assignments."
+    },
+    {
+      "word": "FICTIONS",
+      "topic": "Books Reading and Libraries",
+      "topic_id": "books_reading_libraries",
+      "status": "UNASSIGNED",
+      "reason": "Root-only suggestion retained for triage, not grouped: substring collisions can produce unrelated topic assignments."
+    },
+    {
+      "word": "FILMMAKING",
+      "topic": "Pop Culture & Entertainment",
+      "topic_id": "pop_culture_entertainment",
+      "status": "UNASSIGNED",
+      "reason": "Root-only suggestion retained for triage, not grouped: substring collisions can produce unrelated topic assignments."
+    },
+    {
+      "word": "FIREFIGHTERS",
+      "topic": "Careers Community and Everyday Life",
+      "topic_id": "careers_community_everyday_life",
+      "status": "UNASSIGNED",
+      "reason": "Root-only suggestion retained for triage, not grouped: substring collisions can produce unrelated topic assignments."
+    },
+    {
+      "word": "FIREFIGHTING",
+      "topic": "Careers Community and Everyday Life",
+      "topic_id": "careers_community_everyday_life",
+      "status": "UNASSIGNED",
+      "reason": "Root-only suggestion retained for triage, not grouped: substring collisions can produce unrelated topic assignments."
+    },
+    {
+      "word": "FLAVOR",
+      "topic": "Baking and Food",
+      "topic_id": "baking_food",
+      "status": "UNASSIGNED",
+      "reason": "Root-only suggestion retained for triage, not grouped: substring collisions can produce unrelated topic assignments."
+    },
+    {
+      "word": "FLAVORED",
+      "topic": "Baking and Food",
+      "topic_id": "baking_food",
+      "status": "UNASSIGNED",
+      "reason": "Root-only suggestion retained for triage, not grouped: substring collisions can produce unrelated topic assignments."
+    },
+    {
+      "word": "FLAVORFUL",
+      "topic": "Baking and Food",
+      "topic_id": "baking_food",
+      "status": "UNASSIGNED",
+      "reason": "Root-only suggestion retained for triage, not grouped: substring collisions can produce unrelated topic assignments."
+    },
+    {
+      "word": "FLAVORING",
+      "topic": "Baking and Food",
+      "topic_id": "baking_food",
+      "status": "UNASSIGNED",
+      "reason": "Root-only suggestion retained for triage, not grouped: substring collisions can produce unrelated topic assignments."
+    },
+    {
+      "word": "FLAVORS",
+      "topic": "Baking and Food",
+      "topic_id": "baking_food",
+      "status": "UNASSIGNED",
+      "reason": "Root-only suggestion retained for triage, not grouped: substring collisions can produce unrelated topic assignments."
+    },
+    {
+      "word": "FLOWERED",
+      "topic": "Gardening and Garden Life",
+      "topic_id": "gardening",
+      "status": "UNASSIGNED",
+      "reason": "Root-only suggestion retained for triage, not grouped: substring collisions can produce unrelated topic assignments."
+    },
+    {
+      "word": "FLOWERING",
+      "topic": "Gardening and Garden Life",
+      "topic_id": "gardening",
+      "status": "UNASSIGNED",
+      "reason": "Root-only suggestion retained for triage, not grouped: substring collisions can produce unrelated topic assignments."
+    },
+    {
+      "word": "FLOWERY",
+      "topic": "Gardening and Garden Life",
+      "topic_id": "gardening",
+      "status": "UNASSIGNED",
+      "reason": "Root-only suggestion retained for triage, not grouped: substring collisions can produce unrelated topic assignments."
+    },
+    {
+      "word": "FORESTALL",
+      "topic": "National Parks",
+      "topic_id": "national_parks",
+      "status": "UNASSIGNED",
+      "reason": "Root-only suggestion retained for triage, not grouped: substring collisions can produce unrelated topic assignments."
+    },
+    {
+      "word": "FORESTALL",
+      "topic": "Forest Wildlife and Outdoors",
+      "topic_id": "forest_wildlife_outdoors",
+      "status": "UNASSIGNED",
+      "reason": "Root-only suggestion retained for triage, not grouped: substring collisions can produce unrelated topic assignments."
+    },
+    {
+      "word": "FORESTED",
+      "topic": "National Parks",
+      "topic_id": "national_parks",
+      "status": "UNASSIGNED",
+      "reason": "Root-only suggestion retained for triage, not grouped: substring collisions can produce unrelated topic assignments."
+    },
+    {
+      "word": "FORESTED",
+      "topic": "Forest Wildlife and Outdoors",
+      "topic_id": "forest_wildlife_outdoors",
+      "status": "UNASSIGNED",
+      "reason": "Root-only suggestion retained for triage, not grouped: substring collisions can produce unrelated topic assignments."
+    },
+    {
+      "word": "FORESTERS",
+      "topic": "National Parks",
+      "topic_id": "national_parks",
+      "status": "UNASSIGNED",
+      "reason": "Root-only suggestion retained for triage, not grouped: substring collisions can produce unrelated topic assignments."
+    },
+    {
+      "word": "FORESTERS",
+      "topic": "Forest Wildlife and Outdoors",
+      "topic_id": "forest_wildlife_outdoors",
+      "status": "UNASSIGNED",
+      "reason": "Root-only suggestion retained for triage, not grouped: substring collisions can produce unrelated topic assignments."
+    },
+    {
+      "word": "FORGIVES",
+      "topic": "Faith Inspiration and Kindness",
+      "topic_id": "faith_inspiration_kindness",
+      "status": "UNASSIGNED",
+      "reason": "Root-only suggestion retained for triage, not grouped: substring collisions can produce unrelated topic assignments."
+    },
+    {
+      "word": "FOSSILIZED",
+      "topic": "Science and Discovery",
+      "topic_id": "science_discovery",
+      "status": "UNASSIGNED",
+      "reason": "Root-only suggestion retained for triage, not grouped: substring collisions can produce unrelated topic assignments."
+    },
+    {
+      "word": "FRUITING",
+      "topic": "Herbs Fruits and Vegetables",
+      "topic_id": "garden_to_table",
+      "status": "UNASSIGNED",
+      "reason": "Root-only suggestion retained for triage, not grouped: substring collisions can produce unrelated topic assignments."
+    },
+    {
+      "word": "FRUITION",
+      "topic": "Herbs Fruits and Vegetables",
+      "topic_id": "garden_to_table",
+      "status": "UNASSIGNED",
+      "reason": "Root-only suggestion retained for triage, not grouped: substring collisions can produce unrelated topic assignments."
+    },
+    {
+      "word": "FRUITY",
+      "topic": "Herbs Fruits and Vegetables",
+      "topic_id": "garden_to_table",
+      "status": "UNASSIGNED",
+      "reason": "Root-only suggestion retained for triage, not grouped: substring collisions can produce unrelated topic assignments."
+    },
+    {
+      "word": "GAMECOCKS",
+      "topic": "Video Games & Gaming",
+      "topic_id": "video_games_gaming",
+      "status": "UNASSIGNED",
+      "reason": "Root-only suggestion retained for triage, not grouped: substring collisions can produce unrelated topic assignments."
+    },
+    {
+      "word": "GEOGRAPHERS",
+      "topic": "US Geography and Landmarks",
+      "topic_id": "us_geography_landmarks",
+      "status": "UNASSIGNED",
+      "reason": "Root-only suggestion retained for triage, not grouped: substring collisions can produce unrelated topic assignments."
+    },
+    {
+      "word": "GEOLOGY",
+      "topic": "Science and Discovery",
+      "topic_id": "science_discovery",
+      "status": "UNASSIGNED",
+      "reason": "Root-only suggestion retained for triage, not grouped: substring collisions can produce unrelated topic assignments."
+    },
+    {
+      "word": "GHOSTED",
+      "topic": "Halloween Autumn and Harvest",
+      "topic_id": "halloween",
+      "status": "UNASSIGNED",
+      "reason": "Root-only suggestion retained for triage, not grouped: substring collisions can produce unrelated topic assignments."
+    },
+    {
+      "word": "GHOSTLY",
+      "topic": "Halloween Autumn and Harvest",
+      "topic_id": "halloween",
+      "status": "UNASSIGNED",
+      "reason": "Root-only suggestion retained for triage, not grouped: substring collisions can produce unrelated topic assignments."
+    },
+    {
+      "word": "GHOSTS",
+      "topic": "Halloween Autumn and Harvest",
+      "topic_id": "halloween",
+      "status": "UNASSIGNED",
+      "reason": "Root-only suggestion retained for triage, not grouped: substring collisions can produce unrelated topic assignments."
+    },
+    {
+      "word": "GOLFERS",
+      "topic": "Sports and Hobbies",
+      "topic_id": "sports_hobbies",
+      "status": "UNASSIGNED",
+      "reason": "Root-only suggestion retained for triage, not grouped: substring collisions can produce unrelated topic assignments."
+    },
+    {
+      "word": "GOLFING",
+      "topic": "Sports and Hobbies",
+      "topic_id": "sports_hobbies",
+      "status": "UNASSIGNED",
+      "reason": "Root-only suggestion retained for triage, not grouped: substring collisions can produce unrelated topic assignments."
+    },
+    {
+      "word": "GRAMMARS",
+      "topic": "Word Skills and Brain Games",
+      "topic_id": "word_skills_brain_games",
+      "status": "UNASSIGNED",
+      "reason": "Root-only suggestion retained for triage, not grouped: substring collisions can produce unrelated topic assignments."
+    },
+    {
+      "word": "GUITARISTS",
+      "topic": "Music and Instruments",
+      "topic_id": "music_instruments",
+      "status": "UNASSIGNED",
+      "reason": "Root-only suggestion retained for triage, not grouped: substring collisions can produce unrelated topic assignments."
+    },
+    {
+      "word": "HABITATS",
+      "topic": "Nature",
+      "topic_id": "nature",
+      "status": "UNASSIGNED",
+      "reason": "Root-only suggestion retained for triage, not grouped: substring collisions can produce unrelated topic assignments."
+    },
+    {
+      "word": "HAMSTERS",
+      "topic": "Pets and Animal Care",
+      "topic_id": "pets_animal_care",
+      "status": "UNASSIGNED",
+      "reason": "Root-only suggestion retained for triage, not grouped: substring collisions can produce unrelated topic assignments."
+    },
+    {
+      "word": "HARBORED",
+      "topic": "Coastal Lake and River Life",
+      "topic_id": "coastal_lake_river_life",
+      "status": "UNASSIGNED",
+      "reason": "Root-only suggestion retained for triage, not grouped: substring collisions can produce unrelated topic assignments."
+    },
+    {
+      "word": "HARBORING",
+      "topic": "Coastal Lake and River Life",
+      "topic_id": "coastal_lake_river_life",
+      "status": "UNASSIGNED",
+      "reason": "Root-only suggestion retained for triage, not grouped: substring collisions can produce unrelated topic assignments."
+    },
+    {
+      "word": "HARVESTED",
+      "topic": "Farm Country and Rural Life",
+      "topic_id": "farm_country_rural_life",
+      "status": "UNASSIGNED",
+      "reason": "Root-only suggestion retained for triage, not grouped: substring collisions can produce unrelated topic assignments."
+    },
+    {
+      "word": "HARVESTED",
+      "topic": "Halloween Autumn and Harvest",
+      "topic_id": "halloween",
+      "status": "UNASSIGNED",
+      "reason": "Root-only suggestion retained for triage, not grouped: substring collisions can produce unrelated topic assignments."
+    },
+    {
+      "word": "HARVESTED",
+      "topic": "Thanksgiving",
+      "topic_id": "thanksgiving",
+      "status": "UNASSIGNED",
+      "reason": "Root-only suggestion retained for triage, not grouped: substring collisions can produce unrelated topic assignments."
+    },
+    {
+      "word": "HARVESTER",
+      "topic": "Farm Country and Rural Life",
+      "topic_id": "farm_country_rural_life",
+      "status": "UNASSIGNED",
+      "reason": "Root-only suggestion retained for triage, not grouped: substring collisions can produce unrelated topic assignments."
+    },
+    {
+      "word": "HARVESTER",
+      "topic": "Halloween Autumn and Harvest",
+      "topic_id": "halloween",
+      "status": "UNASSIGNED",
+      "reason": "Root-only suggestion retained for triage, not grouped: substring collisions can produce unrelated topic assignments."
+    },
+    {
+      "word": "HARVESTER",
+      "topic": "Thanksgiving",
+      "topic_id": "thanksgiving",
+      "status": "UNASSIGNED",
+      "reason": "Root-only suggestion retained for triage, not grouped: substring collisions can produce unrelated topic assignments."
+    },
+    {
+      "word": "HARVESTS",
+      "topic": "Farm Country and Rural Life",
+      "topic_id": "farm_country_rural_life",
+      "status": "UNASSIGNED",
+      "reason": "Root-only suggestion retained for triage, not grouped: substring collisions can produce unrelated topic assignments."
+    },
+    {
+      "word": "HARVESTS",
+      "topic": "Halloween Autumn and Harvest",
+      "topic_id": "halloween",
+      "status": "UNASSIGNED",
+      "reason": "Root-only suggestion retained for triage, not grouped: substring collisions can produce unrelated topic assignments."
+    },
+    {
+      "word": "HARVESTS",
+      "topic": "Thanksgiving",
+      "topic_id": "thanksgiving",
+      "status": "UNASSIGNED",
+      "reason": "Root-only suggestion retained for triage, not grouped: substring collisions can produce unrelated topic assignments."
+    },
+    {
+      "word": "HERBACEOUS",
+      "topic": "Gardening and Garden Life",
+      "topic_id": "gardening",
+      "status": "UNASSIGNED",
+      "reason": "Root-only suggestion retained for triage, not grouped: substring collisions can produce unrelated topic assignments."
+    },
+    {
+      "word": "HERBACEOUS",
+      "topic": "Herbs Fruits and Vegetables",
+      "topic_id": "garden_to_table",
+      "status": "UNASSIGNED",
+      "reason": "Root-only suggestion retained for triage, not grouped: substring collisions can produce unrelated topic assignments."
+    },
+    {
+      "word": "HERBARIUM",
+      "topic": "Gardening and Garden Life",
+      "topic_id": "gardening",
+      "status": "UNASSIGNED",
+      "reason": "Root-only suggestion retained for triage, not grouped: substring collisions can produce unrelated topic assignments."
+    },
+    {
+      "word": "HERBARIUM",
+      "topic": "Herbs Fruits and Vegetables",
+      "topic_id": "garden_to_table",
+      "status": "UNASSIGNED",
+      "reason": "Root-only suggestion retained for triage, not grouped: substring collisions can produce unrelated topic assignments."
+    },
+    {
+      "word": "HERBICIDE",
+      "topic": "Gardening and Garden Life",
+      "topic_id": "gardening",
+      "status": "UNASSIGNED",
+      "reason": "Root-only suggestion retained for triage, not grouped: substring collisions can produce unrelated topic assignments."
+    },
+    {
+      "word": "HERBICIDE",
+      "topic": "Herbs Fruits and Vegetables",
+      "topic_id": "garden_to_table",
+      "status": "UNASSIGNED",
+      "reason": "Root-only suggestion retained for triage, not grouped: substring collisions can produce unrelated topic assignments."
+    },
+    {
+      "word": "HERBICIDES",
+      "topic": "Gardening and Garden Life",
+      "topic_id": "gardening",
+      "status": "UNASSIGNED",
+      "reason": "Root-only suggestion retained for triage, not grouped: substring collisions can produce unrelated topic assignments."
+    },
+    {
+      "word": "HERBICIDES",
+      "topic": "Herbs Fruits and Vegetables",
+      "topic_id": "garden_to_table",
+      "status": "UNASSIGNED",
+      "reason": "Root-only suggestion retained for triage, not grouped: substring collisions can produce unrelated topic assignments."
+    },
+    {
+      "word": "HERBIVORES",
+      "topic": "Gardening and Garden Life",
+      "topic_id": "gardening",
+      "status": "UNASSIGNED",
+      "reason": "Root-only suggestion retained for triage, not grouped: substring collisions can produce unrelated topic assignments."
+    },
+    {
+      "word": "HERBIVORES",
+      "topic": "Herbs Fruits and Vegetables",
+      "topic_id": "garden_to_table",
+      "status": "UNASSIGNED",
+      "reason": "Root-only suggestion retained for triage, not grouped: substring collisions can produce unrelated topic assignments."
+    },
+    {
+      "word": "HIKE",
+      "topic": "National Parks",
+      "topic_id": "national_parks",
+      "status": "UNASSIGNED",
+      "reason": "Root-only suggestion retained for triage, not grouped: substring collisions can produce unrelated topic assignments."
+    },
+    {
+      "word": "HIKED",
+      "topic": "National Parks",
+      "topic_id": "national_parks",
+      "status": "UNASSIGNED",
+      "reason": "Root-only suggestion retained for triage, not grouped: substring collisions can produce unrelated topic assignments."
+    },
+    {
+      "word": "HIKERS",
+      "topic": "National Parks",
+      "topic_id": "national_parks",
+      "status": "UNASSIGNED",
+      "reason": "Root-only suggestion retained for triage, not grouped: substring collisions can produce unrelated topic assignments."
+    },
+    {
+      "word": "HIKES",
+      "topic": "National Parks",
+      "topic_id": "national_parks",
+      "status": "UNASSIGNED",
+      "reason": "Root-only suggestion retained for triage, not grouped: substring collisions can produce unrelated topic assignments."
+    },
+    {
+      "word": "HOUSEHOLDERS",
+      "topic": "Home and Household",
+      "topic_id": "home_household",
+      "status": "UNASSIGNED",
+      "reason": "Root-only suggestion retained for triage, not grouped: substring collisions can produce unrelated topic assignments."
+    },
+    {
+      "word": "HURRICANES",
+      "topic": "Weather and Climate",
+      "topic_id": "weather_climate",
+      "status": "UNASSIGNED",
+      "reason": "Root-only suggestion retained for triage, not grouped: substring collisions can produce unrelated topic assignments."
+    },
+    {
+      "word": "INDEPENDENTLY",
+      "topic": "American History",
+      "topic_id": "american_history",
+      "status": "UNASSIGNED",
+      "reason": "Root-only suggestion retained for triage, not grouped: substring collisions can produce unrelated topic assignments."
+    },
+    {
+      "word": "JELLYFISH",
+      "topic": "Ocean Life",
+      "topic_id": "ocean_life",
+      "status": "UNASSIGNED",
+      "reason": "Root-only suggestion retained for triage, not grouped: substring collisions can produce unrelated topic assignments."
+    },
+    {
+      "word": "JOURNEYMAN",
+      "topic": "Travel Road Trips and Getaways",
+      "topic_id": "travel_road_trips_getaways",
+      "status": "UNASSIGNED",
+      "reason": "Root-only suggestion retained for triage, not grouped: substring collisions can produce unrelated topic assignments."
+    },
+    {
+      "word": "JUKE",
+      "topic": "Nostalgia Through the Decades",
+      "topic_id": "nostalgia_through_decades",
+      "status": "UNASSIGNED",
+      "reason": "Root-only suggestion retained for triage, not grouped: substring collisions can produce unrelated topic assignments."
+    },
+    {
+      "word": "KAYAKS",
+      "topic": "Coastal Lake and River Life",
+      "topic_id": "coastal_lake_river_life",
+      "status": "UNASSIGNED",
+      "reason": "Root-only suggestion retained for triage, not grouped: substring collisions can produce unrelated topic assignments."
+    },
+    {
+      "word": "KAYAKS",
+      "topic": "Outdoor Adventure",
+      "topic_id": "outdoor_adventure",
+      "status": "UNASSIGNED",
+      "reason": "Root-only suggestion retained for triage, not grouped: substring collisions can produce unrelated topic assignments."
+    },
+    {
+      "word": "KITCHENER",
+      "topic": "Home and Household",
+      "topic_id": "home_household",
+      "status": "UNASSIGNED",
+      "reason": "Root-only suggestion retained for triage, not grouped: substring collisions can produce unrelated topic assignments."
+    },
+    {
+      "word": "KITCHENER",
+      "topic": "Baking and Food",
+      "topic_id": "baking_food",
+      "status": "UNASSIGNED",
+      "reason": "Root-only suggestion retained for triage, not grouped: substring collisions can produce unrelated topic assignments."
+    },
+    {
+      "word": "KITCHENS",
+      "topic": "Home and Household",
+      "topic_id": "home_household",
+      "status": "UNASSIGNED",
+      "reason": "Root-only suggestion retained for triage, not grouped: substring collisions can produce unrelated topic assignments."
+    },
+    {
+      "word": "KITCHENS",
+      "topic": "Baking and Food",
+      "topic_id": "baking_food",
+      "status": "UNASSIGNED",
+      "reason": "Root-only suggestion retained for triage, not grouped: substring collisions can produce unrelated topic assignments."
+    },
+    {
+      "word": "KNITS",
+      "topic": "Hobbies Crafts and Pastimes",
+      "topic_id": "sports_hobbies",
+      "status": "UNASSIGNED",
+      "reason": "Root-only suggestion retained for triage, not grouped: substring collisions can produce unrelated topic assignments."
+    },
+    {
+      "word": "KNITTED",
+      "topic": "Hobbies Crafts and Pastimes",
+      "topic_id": "sports_hobbies",
+      "status": "UNASSIGNED",
+      "reason": "Root-only suggestion retained for triage, not grouped: substring collisions can produce unrelated topic assignments."
+    },
+    {
+      "word": "LABORATORIES",
+      "topic": "Science and Discovery",
+      "topic_id": "science_discovery",
+      "status": "UNASSIGNED",
+      "reason": "Root-only suggestion retained for triage, not grouped: substring collisions can produce unrelated topic assignments."
+    },
+    {
+      "word": "LANDMARKS",
+      "topic": "US Geography and Landmarks",
+      "topic_id": "us_geography_landmarks",
+      "status": "UNASSIGNED",
+      "reason": "Root-only suggestion retained for triage, not grouped: substring collisions can produce unrelated topic assignments."
+    },
+    {
+      "word": "LANDSCAPED",
+      "topic": "Nature",
+      "topic_id": "nature",
+      "status": "UNASSIGNED",
+      "reason": "Root-only suggestion retained for triage, not grouped: substring collisions can produce unrelated topic assignments."
+    },
+    {
+      "word": "LANDSCAPES",
+      "topic": "Nature",
+      "topic_id": "nature",
+      "status": "UNASSIGNED",
+      "reason": "Root-only suggestion retained for triage, not grouped: substring collisions can produce unrelated topic assignments."
+    },
+    {
+      "word": "LETTERED",
+      "topic": "Word Skills and Brain Games",
+      "topic_id": "word_skills_brain_games",
+      "status": "UNASSIGNED",
+      "reason": "Root-only suggestion retained for triage, not grouped: substring collisions can produce unrelated topic assignments."
+    },
+    {
+      "word": "LETTERHEAD",
+      "topic": "Word Skills and Brain Games",
+      "topic_id": "word_skills_brain_games",
+      "status": "UNASSIGNED",
+      "reason": "Root-only suggestion retained for triage, not grouped: substring collisions can produce unrelated topic assignments."
+    },
+    {
+      "word": "LETTERING",
+      "topic": "Word Skills and Brain Games",
+      "topic_id": "word_skills_brain_games",
+      "status": "UNASSIGNED",
+      "reason": "Root-only suggestion retained for triage, not grouped: substring collisions can produce unrelated topic assignments."
+    },
+    {
+      "word": "LETTERMAN",
+      "topic": "Word Skills and Brain Games",
+      "topic_id": "word_skills_brain_games",
+      "status": "UNASSIGNED",
+      "reason": "Root-only suggestion retained for triage, not grouped: substring collisions can produce unrelated topic assignments."
+    },
+    {
+      "word": "LIBERATE",
+      "topic": "World War II History",
+      "topic_id": "world_war_ii_history",
+      "status": "UNASSIGNED",
+      "reason": "Root-only suggestion retained for triage, not grouped: substring collisions can produce unrelated topic assignments."
+    },
+    {
+      "word": "LIBERATING",
+      "topic": "World War II History",
+      "topic_id": "world_war_ii_history",
+      "status": "UNASSIGNED",
+      "reason": "Root-only suggestion retained for triage, not grouped: substring collisions can produce unrelated topic assignments."
+    },
+    {
+      "word": "LITERATURES",
+      "topic": "Books Reading and Libraries",
+      "topic_id": "books_reading_libraries",
+      "status": "UNASSIGNED",
+      "reason": "Root-only suggestion retained for triage, not grouped: substring collisions can produce unrelated topic assignments."
+    },
+    {
+      "word": "MAMMAL",
+      "topic": "Forest Wildlife and Outdoors",
+      "topic_id": "forest_wildlife_outdoors",
+      "status": "UNASSIGNED",
+      "reason": "Root-only suggestion retained for triage, not grouped: substring collisions can produce unrelated topic assignments."
+    },
+    {
+      "word": "MAMMALIAN",
+      "topic": "Forest Wildlife and Outdoors",
+      "topic_id": "forest_wildlife_outdoors",
+      "status": "UNASSIGNED",
+      "reason": "Root-only suggestion retained for triage, not grouped: substring collisions can produce unrelated topic assignments."
+    },
+    {
+      "word": "MAMMALS",
+      "topic": "Forest Wildlife and Outdoors",
+      "topic_id": "forest_wildlife_outdoors",
+      "status": "UNASSIGNED",
+      "reason": "Root-only suggestion retained for triage, not grouped: substring collisions can produce unrelated topic assignments."
+    },
+    {
+      "word": "MARINADE",
+      "topic": "Coastal Lake and River Life",
+      "topic_id": "coastal_lake_river_life",
+      "status": "UNASSIGNED",
+      "reason": "Root-only suggestion retained for triage, not grouped: substring collisions can produce unrelated topic assignments."
+    },
+    {
+      "word": "MARINATED",
+      "topic": "Coastal Lake and River Life",
+      "topic_id": "coastal_lake_river_life",
+      "status": "UNASSIGNED",
+      "reason": "Root-only suggestion retained for triage, not grouped: substring collisions can produce unrelated topic assignments."
+    },
+    {
+      "word": "MEDIAEVAL",
+      "topic": "Pop Culture & Entertainment",
+      "topic_id": "pop_culture_entertainment",
+      "status": "UNASSIGNED",
+      "reason": "Root-only suggestion retained for triage, not grouped: substring collisions can produce unrelated topic assignments."
+    },
+    {
+      "word": "MEDIAL",
+      "topic": "Pop Culture & Entertainment",
+      "topic_id": "pop_culture_entertainment",
+      "status": "UNASSIGNED",
+      "reason": "Root-only suggestion retained for triage, not grouped: substring collisions can produce unrelated topic assignments."
+    },
+    {
+      "word": "MEDIAN",
+      "topic": "Pop Culture & Entertainment",
+      "topic_id": "pop_culture_entertainment",
+      "status": "UNASSIGNED",
+      "reason": "Root-only suggestion retained for triage, not grouped: substring collisions can produce unrelated topic assignments."
+    },
+    {
+      "word": "MEDIAS",
+      "topic": "Pop Culture & Entertainment",
+      "topic_id": "pop_culture_entertainment",
+      "status": "UNASSIGNED",
+      "reason": "Root-only suggestion retained for triage, not grouped: substring collisions can produce unrelated topic assignments."
+    },
+    {
+      "word": "MEDIATE",
+      "topic": "Pop Culture & Entertainment",
+      "topic_id": "pop_culture_entertainment",
+      "status": "UNASSIGNED",
+      "reason": "Root-only suggestion retained for triage, not grouped: substring collisions can produce unrelated topic assignments."
+    },
+    {
+      "word": "MEDIATING",
+      "topic": "Pop Culture & Entertainment",
+      "topic_id": "pop_culture_entertainment",
+      "status": "UNASSIGNED",
+      "reason": "Root-only suggestion retained for triage, not grouped: substring collisions can produce unrelated topic assignments."
+    },
+    {
+      "word": "MEDIATION",
+      "topic": "Pop Culture & Entertainment",
+      "topic_id": "pop_culture_entertainment",
+      "status": "UNASSIGNED",
+      "reason": "Root-only suggestion retained for triage, not grouped: substring collisions can produce unrelated topic assignments."
+    },
+    {
+      "word": "MEDITATING",
+      "topic": "Wellness and Self Care",
+      "topic_id": "wellness_self_care",
+      "status": "UNASSIGNED",
+      "reason": "Root-only suggestion retained for triage, not grouped: substring collisions can produce unrelated topic assignments."
+    },
+    {
+      "word": "MEDITATING",
+      "topic": "Mindfulness",
+      "topic_id": "mindfulness",
+      "status": "UNASSIGNED",
+      "reason": "Root-only suggestion retained for triage, not grouped: substring collisions can produce unrelated topic assignments."
+    },
+    {
+      "word": "MEDITATIONS",
+      "topic": "Wellness and Self Care",
+      "topic_id": "wellness_self_care",
+      "status": "UNASSIGNED",
+      "reason": "Root-only suggestion retained for triage, not grouped: substring collisions can produce unrelated topic assignments."
+    },
+    {
+      "word": "MEDITATIONS",
+      "topic": "Mindfulness",
+      "topic_id": "mindfulness",
+      "status": "UNASSIGNED",
+      "reason": "Root-only suggestion retained for triage, not grouped: substring collisions can produce unrelated topic assignments."
+    },
+    {
+      "word": "MEDITATIVE",
+      "topic": "Wellness and Self Care",
+      "topic_id": "wellness_self_care",
+      "status": "UNASSIGNED",
+      "reason": "Root-only suggestion retained for triage, not grouped: substring collisions can produce unrelated topic assignments."
+    },
+    {
+      "word": "MEDITATIVE",
+      "topic": "Mindfulness",
+      "topic_id": "mindfulness",
+      "status": "UNASSIGNED",
+      "reason": "Root-only suggestion retained for triage, not grouped: substring collisions can produce unrelated topic assignments."
+    },
+    {
+      "word": "METEORIC",
+      "topic": "Space & Astronomy",
+      "topic_id": "space_astronomy",
+      "status": "UNASSIGNED",
+      "reason": "Root-only suggestion retained for triage, not grouped: substring collisions can produce unrelated topic assignments."
+    },
+    {
+      "word": "METEORITES",
+      "topic": "Space & Astronomy",
+      "topic_id": "space_astronomy",
+      "status": "UNASSIGNED",
+      "reason": "Root-only suggestion retained for triage, not grouped: substring collisions can produce unrelated topic assignments."
+    },
+    {
+      "word": "METEOROLOGICAL",
+      "topic": "Space & Astronomy",
+      "topic_id": "space_astronomy",
+      "status": "UNASSIGNED",
+      "reason": "Root-only suggestion retained for triage, not grouped: substring collisions can produce unrelated topic assignments."
+    },
+    {
+      "word": "METEOROLOGIST",
+      "topic": "Space & Astronomy",
+      "topic_id": "space_astronomy",
+      "status": "UNASSIGNED",
+      "reason": "Root-only suggestion retained for triage, not grouped: substring collisions can produce unrelated topic assignments."
+    },
+    {
+      "word": "METEOROLOGISTS",
+      "topic": "Space & Astronomy",
+      "topic_id": "space_astronomy",
+      "status": "UNASSIGNED",
+      "reason": "Root-only suggestion retained for triage, not grouped: substring collisions can produce unrelated topic assignments."
+    },
+    {
+      "word": "METEOROLOGY",
+      "topic": "Space & Astronomy",
+      "topic_id": "space_astronomy",
+      "status": "UNASSIGNED",
+      "reason": "Root-only suggestion retained for triage, not grouped: substring collisions can produce unrelated topic assignments."
+    },
+    {
+      "word": "METEORS",
+      "topic": "Space & Astronomy",
+      "topic_id": "space_astronomy",
+      "status": "UNASSIGNED",
+      "reason": "Root-only suggestion retained for triage, not grouped: substring collisions can produce unrelated topic assignments."
+    },
+    {
+      "word": "MICROSCOPES",
+      "topic": "Science and Discovery",
+      "topic_id": "science_discovery",
+      "status": "UNASSIGNED",
+      "reason": "Root-only suggestion retained for triage, not grouped: substring collisions can produce unrelated topic assignments."
+    },
+    {
+      "word": "MIGRATIONS",
+      "topic": "Birdwatching",
+      "topic_id": "birdwatching",
+      "status": "UNASSIGNED",
+      "reason": "Root-only suggestion retained for triage, not grouped: substring collisions can produce unrelated topic assignments."
+    },
+    {
+      "word": "MILITARIES",
+      "topic": "World War II History",
+      "topic_id": "world_war_ii_history",
+      "status": "UNASSIGNED",
+      "reason": "Root-only suggestion retained for triage, not grouped: substring collisions can produce unrelated topic assignments."
+    },
+    {
+      "word": "MILITARISM",
+      "topic": "World War II History",
+      "topic_id": "world_war_ii_history",
+      "status": "UNASSIGNED",
+      "reason": "Root-only suggestion retained for triage, not grouped: substring collisions can produce unrelated topic assignments."
+    },
+    {
+      "word": "MILITARISTIC",
+      "topic": "World War II History",
+      "topic_id": "world_war_ii_history",
+      "status": "UNASSIGNED",
+      "reason": "Root-only suggestion retained for triage, not grouped: substring collisions can produce unrelated topic assignments."
+    },
+    {
+      "word": "MILITARIZED",
+      "topic": "World War II History",
+      "topic_id": "world_war_ii_history",
+      "status": "UNASSIGNED",
+      "reason": "Root-only suggestion retained for triage, not grouped: substring collisions can produce unrelated topic assignments."
+    },
+    {
+      "word": "MOSAICS",
+      "topic": "Arts Creativity and Making",
+      "topic_id": "arts_creativity_making",
+      "status": "UNASSIGNED",
+      "reason": "Root-only suggestion retained for triage, not grouped: substring collisions can produce unrelated topic assignments."
+    },
+    {
+      "word": "MOTORBIKE",
+      "topic": "Vehicles & Automotive",
+      "topic_id": "vehicles_automotive",
+      "status": "UNASSIGNED",
+      "reason": "Root-only suggestion retained for triage, not grouped: substring collisions can produce unrelated topic assignments."
+    },
+    {
+      "word": "MOTORBIKES",
+      "topic": "Vehicles & Automotive",
+      "topic_id": "vehicles_automotive",
+      "status": "UNASSIGNED",
+      "reason": "Root-only suggestion retained for triage, not grouped: substring collisions can produce unrelated topic assignments."
+    },
+    {
+      "word": "MOTORCADE",
+      "topic": "Vehicles & Automotive",
+      "topic_id": "vehicles_automotive",
+      "status": "UNASSIGNED",
+      "reason": "Root-only suggestion retained for triage, not grouped: substring collisions can produce unrelated topic assignments."
+    },
+    {
+      "word": "MOTORCYCLIST",
+      "topic": "Vehicles & Automotive",
+      "topic_id": "vehicles_automotive",
+      "status": "UNASSIGNED",
+      "reason": "Root-only suggestion retained for triage, not grouped: substring collisions can produce unrelated topic assignments."
+    },
+    {
+      "word": "MOTORCYCLISTS",
+      "topic": "Vehicles & Automotive",
+      "topic_id": "vehicles_automotive",
+      "status": "UNASSIGNED",
+      "reason": "Root-only suggestion retained for triage, not grouped: substring collisions can produce unrelated topic assignments."
+    },
+    {
+      "word": "MOTORING",
+      "topic": "Vehicles & Automotive",
+      "topic_id": "vehicles_automotive",
+      "status": "UNASSIGNED",
+      "reason": "Root-only suggestion retained for triage, not grouped: substring collisions can produce unrelated topic assignments."
+    },
+    {
+      "word": "MOTORIST",
+      "topic": "Vehicles & Automotive",
+      "topic_id": "vehicles_automotive",
+      "status": "UNASSIGNED",
+      "reason": "Root-only suggestion retained for triage, not grouped: substring collisions can produce unrelated topic assignments."
+    },
+    {
+      "word": "MOTORISTS",
+      "topic": "Vehicles & Automotive",
+      "topic_id": "vehicles_automotive",
+      "status": "UNASSIGNED",
+      "reason": "Root-only suggestion retained for triage, not grouped: substring collisions can produce unrelated topic assignments."
+    },
+    {
+      "word": "MOTORIZED",
+      "topic": "Vehicles & Automotive",
+      "topic_id": "vehicles_automotive",
+      "status": "UNASSIGNED",
+      "reason": "Root-only suggestion retained for triage, not grouped: substring collisions can produce unrelated topic assignments."
+    },
+    {
+      "word": "MOTORWAYS",
+      "topic": "Vehicles & Automotive",
+      "topic_id": "vehicles_automotive",
+      "status": "UNASSIGNED",
+      "reason": "Root-only suggestion retained for triage, not grouped: substring collisions can produce unrelated topic assignments."
+    },
+    {
+      "word": "MOUNTAINEER",
+      "topic": "National Parks",
+      "topic_id": "national_parks",
+      "status": "UNASSIGNED",
+      "reason": "Root-only suggestion retained for triage, not grouped: substring collisions can produce unrelated topic assignments."
+    },
+    {
+      "word": "MOUNTAINEERING",
+      "topic": "National Parks",
+      "topic_id": "national_parks",
+      "status": "UNASSIGNED",
+      "reason": "Root-only suggestion retained for triage, not grouped: substring collisions can produce unrelated topic assignments."
+    },
+    {
+      "word": "MOUNTAINEERS",
+      "topic": "National Parks",
+      "topic_id": "national_parks",
+      "status": "UNASSIGNED",
+      "reason": "Root-only suggestion retained for triage, not grouped: substring collisions can produce unrelated topic assignments."
+    },
+    {
+      "word": "MOUNTAINOUS",
+      "topic": "National Parks",
+      "topic_id": "national_parks",
+      "status": "UNASSIGNED",
+      "reason": "Root-only suggestion retained for triage, not grouped: substring collisions can produce unrelated topic assignments."
+    },
+    {
+      "word": "MOUNTAINSIDE",
+      "topic": "National Parks",
+      "topic_id": "national_parks",
+      "status": "UNASSIGNED",
+      "reason": "Root-only suggestion retained for triage, not grouped: substring collisions can produce unrelated topic assignments."
+    },
+    {
+      "word": "MUSICA",
+      "topic": "Music and Instruments",
+      "topic_id": "music_instruments",
+      "status": "UNASSIGNED",
+      "reason": "Root-only suggestion retained for triage, not grouped: substring collisions can produce unrelated topic assignments."
+    },
+    {
+      "word": "MUSICALS",
+      "topic": "Music and Instruments",
+      "topic_id": "music_instruments",
+      "status": "UNASSIGNED",
+      "reason": "Root-only suggestion retained for triage, not grouped: substring collisions can produce unrelated topic assignments."
+    },
+    {
+      "word": "MUSICIANS",
+      "topic": "Music and Instruments",
+      "topic_id": "music_instruments",
+      "status": "UNASSIGNED",
+      "reason": "Root-only suggestion retained for triage, not grouped: substring collisions can produce unrelated topic assignments."
+    },
+    {
+      "word": "NATIVELY",
+      "topic": "Nature",
+      "topic_id": "nature",
+      "status": "UNASSIGNED",
+      "reason": "Root-only suggestion retained for triage, not grouped: substring collisions can produce unrelated topic assignments."
+    },
+    {
+      "word": "NATURALISM",
+      "topic": "Nature",
+      "topic_id": "nature",
+      "status": "UNASSIGNED",
+      "reason": "Root-only suggestion retained for triage, not grouped: substring collisions can produce unrelated topic assignments."
+    },
+    {
+      "word": "NATURALIST",
+      "topic": "Nature",
+      "topic_id": "nature",
+      "status": "UNASSIGNED",
+      "reason": "Root-only suggestion retained for triage, not grouped: substring collisions can produce unrelated topic assignments."
+    },
+    {
+      "word": "NATURALISTIC",
+      "topic": "Nature",
+      "topic_id": "nature",
+      "status": "UNASSIGNED",
+      "reason": "Root-only suggestion retained for triage, not grouped: substring collisions can produce unrelated topic assignments."
+    },
+    {
+      "word": "NATURALISTS",
+      "topic": "Nature",
+      "topic_id": "nature",
+      "status": "UNASSIGNED",
+      "reason": "Root-only suggestion retained for triage, not grouped: substring collisions can produce unrelated topic assignments."
+    },
+    {
+      "word": "NATURALS",
+      "topic": "Nature",
+      "topic_id": "nature",
+      "status": "UNASSIGNED",
+      "reason": "Root-only suggestion retained for triage, not grouped: substring collisions can produce unrelated topic assignments."
+    },
+    {
+      "word": "NESTED",
+      "topic": "Birdwatching",
+      "topic_id": "birdwatching",
+      "status": "UNASSIGNED",
+      "reason": "Root-only suggestion retained for triage, not grouped: substring collisions can produce unrelated topic assignments."
+    },
+    {
+      "word": "NESTLE",
+      "topic": "Birdwatching",
+      "topic_id": "birdwatching",
+      "status": "UNASSIGNED",
+      "reason": "Root-only suggestion retained for triage, not grouped: substring collisions can produce unrelated topic assignments."
+    },
+    {
+      "word": "NESTLED",
+      "topic": "Birdwatching",
+      "topic_id": "birdwatching",
+      "status": "UNASSIGNED",
+      "reason": "Root-only suggestion retained for triage, not grouped: substring collisions can produce unrelated topic assignments."
+    },
+    {
+      "word": "NOVELTIES",
+      "topic": "Books Reading and Libraries",
+      "topic_id": "books_reading_libraries",
+      "status": "UNASSIGNED",
+      "reason": "Root-only suggestion retained for triage, not grouped: substring collisions can produce unrelated topic assignments."
+    },
+    {
+      "word": "NURSERIES",
+      "topic": "Careers Community and Everyday Life",
+      "topic_id": "careers_community_everyday_life",
+      "status": "UNASSIGNED",
+      "reason": "Root-only suggestion retained for triage, not grouped: substring collisions can produce unrelated topic assignments."
+    },
+    {
+      "word": "NURSES",
+      "topic": "Careers Community and Everyday Life",
+      "topic_id": "careers_community_everyday_life",
+      "status": "UNASSIGNED",
+      "reason": "Root-only suggestion retained for triage, not grouped: substring collisions can produce unrelated topic assignments."
+    },
+    {
+      "word": "OCEANIA",
+      "topic": "Ocean Life",
+      "topic_id": "ocean_life",
+      "status": "UNASSIGNED",
+      "reason": "Root-only suggestion retained for triage, not grouped: substring collisions can produce unrelated topic assignments."
+    },
+    {
+      "word": "OCEANOGRAPHIC",
+      "topic": "Ocean Life",
+      "topic_id": "ocean_life",
+      "status": "UNASSIGNED",
+      "reason": "Root-only suggestion retained for triage, not grouped: substring collisions can produce unrelated topic assignments."
+    },
+    {
+      "word": "OCEANOGRAPHY",
+      "topic": "Ocean Life",
+      "topic_id": "ocean_life",
+      "status": "UNASSIGNED",
+      "reason": "Root-only suggestion retained for triage, not grouped: substring collisions can produce unrelated topic assignments."
+    },
+    {
+      "word": "OCEANSIDE",
+      "topic": "Ocean Life",
+      "topic_id": "ocean_life",
+      "status": "UNASSIGNED",
+      "reason": "Root-only suggestion retained for triage, not grouped: substring collisions can produce unrelated topic assignments."
+    },
+    {
+      "word": "ORBITALS",
+      "topic": "Space & Astronomy",
+      "topic_id": "space_astronomy",
+      "status": "UNASSIGNED",
+      "reason": "Root-only suggestion retained for triage, not grouped: substring collisions can produce unrelated topic assignments."
+    },
+    {
+      "word": "ORCHESTRAS",
+      "topic": "Music and Instruments",
+      "topic_id": "music_instruments",
+      "status": "UNASSIGNED",
+      "reason": "Root-only suggestion retained for triage, not grouped: substring collisions can produce unrelated topic assignments."
+    },
+    {
+      "word": "ORCHESTRATE",
+      "topic": "Music and Instruments",
+      "topic_id": "music_instruments",
+      "status": "UNASSIGNED",
+      "reason": "Root-only suggestion retained for triage, not grouped: substring collisions can produce unrelated topic assignments."
+    },
+    {
+      "word": "ORCHESTRATING",
+      "topic": "Music and Instruments",
+      "topic_id": "music_instruments",
+      "status": "UNASSIGNED",
+      "reason": "Root-only suggestion retained for triage, not grouped: substring collisions can produce unrelated topic assignments."
+    },
+    {
+      "word": "ORCHESTRATION",
+      "topic": "Music and Instruments",
+      "topic_id": "music_instruments",
+      "status": "UNASSIGNED",
+      "reason": "Root-only suggestion retained for triage, not grouped: substring collisions can produce unrelated topic assignments."
+    },
+    {
+      "word": "ORCHIDS",
+      "topic": "Gardening and Garden Life",
+      "topic_id": "gardening",
+      "status": "UNASSIGNED",
+      "reason": "Root-only suggestion retained for triage, not grouped: substring collisions can produce unrelated topic assignments."
+    },
+    {
+      "word": "ORNAMENTAL",
+      "topic": "Christmas and Winter",
+      "topic_id": "christmas",
+      "status": "UNASSIGNED",
+      "reason": "Root-only suggestion retained for triage, not grouped: substring collisions can produce unrelated topic assignments."
+    },
+    {
+      "word": "ORNAMENTED",
+      "topic": "Christmas and Winter",
+      "topic_id": "christmas",
+      "status": "UNASSIGNED",
+      "reason": "Root-only suggestion retained for triage, not grouped: substring collisions can produce unrelated topic assignments."
+    },
+    {
+      "word": "OUTDOOR",
+      "topic": "Outdoor Adventure",
+      "topic_id": "outdoor_adventure",
+      "status": "UNASSIGNED",
+      "reason": "Root-only suggestion retained for triage, not grouped: substring collisions can produce unrelated topic assignments."
+    },
+    {
+      "word": "PAINTBRUSH",
+      "topic": "Hobbies Crafts and Pastimes",
+      "topic_id": "sports_hobbies",
+      "status": "UNASSIGNED",
+      "reason": "Root-only suggestion retained for triage, not grouped: substring collisions can produce unrelated topic assignments."
+    },
+    {
+      "word": "PAINTS",
+      "topic": "Hobbies Crafts and Pastimes",
+      "topic_id": "sports_hobbies",
+      "status": "UNASSIGNED",
+      "reason": "Root-only suggestion retained for triage, not grouped: substring collisions can produce unrelated topic assignments."
+    },
+    {
+      "word": "PARADED",
+      "topic": "Holidays",
+      "topic_id": "holidays",
+      "status": "UNASSIGNED",
+      "reason": "Root-only suggestion retained for triage, not grouped: substring collisions can produce unrelated topic assignments."
+    },
+    {
+      "word": "PARATROOPERS",
+      "topic": "World War II History",
+      "topic_id": "world_war_ii_history",
+      "status": "UNASSIGNED",
+      "reason": "Root-only suggestion retained for triage, not grouped: substring collisions can produce unrelated topic assignments."
+    },
+    {
+      "word": "PARENT",
+      "topic": "Positive Parenting",
+      "topic_id": "positive_parenting",
+      "status": "UNASSIGNED",
+      "reason": "Root-only suggestion retained for triage, not grouped: substring collisions can produce unrelated topic assignments."
+    },
+    {
+      "word": "PARENTHESIS",
+      "topic": "Positive Parenting",
+      "topic_id": "positive_parenting",
+      "status": "UNASSIGNED",
+      "reason": "Root-only suggestion retained for triage, not grouped: substring collisions can produce unrelated topic assignments."
+    },
+    {
+      "word": "PARENTHOOD",
+      "topic": "Positive Parenting",
+      "topic_id": "positive_parenting",
+      "status": "UNASSIGNED",
+      "reason": "Root-only suggestion retained for triage, not grouped: substring collisions can produce unrelated topic assignments."
+    },
+    {
+      "word": "PARROT",
+      "topic": "Pets and Animal Care",
+      "topic_id": "pets_animal_care",
+      "status": "UNASSIGNED",
+      "reason": "Root-only suggestion retained for triage, not grouped: substring collisions can produce unrelated topic assignments."
+    },
+    {
+      "word": "PARROTS",
+      "topic": "Pets and Animal Care",
+      "topic_id": "pets_animal_care",
+      "status": "UNASSIGNED",
+      "reason": "Root-only suggestion retained for triage, not grouped: substring collisions can produce unrelated topic assignments."
+    },
+    {
+      "word": "PEACEKEEPERS",
+      "topic": "Faith Inspiration and Kindness",
+      "topic_id": "faith_inspiration_kindness",
+      "status": "UNASSIGNED",
+      "reason": "Root-only suggestion retained for triage, not grouped: substring collisions can produce unrelated topic assignments."
+    },
+    {
+      "word": "PEACEKEEPERS",
+      "topic": "Mindfulness",
+      "topic_id": "mindfulness",
+      "status": "UNASSIGNED",
+      "reason": "Root-only suggestion retained for triage, not grouped: substring collisions can produce unrelated topic assignments."
+    },
+    {
+      "word": "PEACETIME",
+      "topic": "Faith Inspiration and Kindness",
+      "topic_id": "faith_inspiration_kindness",
+      "status": "UNASSIGNED",
+      "reason": "Root-only suggestion retained for triage, not grouped: substring collisions can produce unrelated topic assignments."
+    },
+    {
+      "word": "PEACETIME",
+      "topic": "Mindfulness",
+      "topic_id": "mindfulness",
+      "status": "UNASSIGNED",
+      "reason": "Root-only suggestion retained for triage, not grouped: substring collisions can produce unrelated topic assignments."
+    },
+    {
+      "word": "PEPPERED",
+      "topic": "Herbs Fruits and Vegetables",
+      "topic_id": "garden_to_table",
+      "status": "UNASSIGNED",
+      "reason": "Root-only suggestion retained for triage, not grouped: substring collisions can produce unrelated topic assignments."
+    },
+    {
+      "word": "PEPPERONI",
+      "topic": "Herbs Fruits and Vegetables",
+      "topic_id": "garden_to_table",
+      "status": "UNASSIGNED",
+      "reason": "Root-only suggestion retained for triage, not grouped: substring collisions can produce unrelated topic assignments."
+    },
+    {
+      "word": "PHOTOGRAPHED",
+      "topic": "Hobbies Crafts and Pastimes",
+      "topic_id": "sports_hobbies",
+      "status": "UNASSIGNED",
+      "reason": "Root-only suggestion retained for triage, not grouped: substring collisions can produce unrelated topic assignments."
+    },
+    {
+      "word": "PHOTOGRAPHERS",
+      "topic": "Hobbies Crafts and Pastimes",
+      "topic_id": "sports_hobbies",
+      "status": "UNASSIGNED",
+      "reason": "Root-only suggestion retained for triage, not grouped: substring collisions can produce unrelated topic assignments."
+    },
+    {
+      "word": "PHOTOGRAPHING",
+      "topic": "Hobbies Crafts and Pastimes",
+      "topic_id": "sports_hobbies",
+      "status": "UNASSIGNED",
+      "reason": "Root-only suggestion retained for triage, not grouped: substring collisions can produce unrelated topic assignments."
+    },
+    {
+      "word": "PHOTOGRAPHS",
+      "topic": "Hobbies Crafts and Pastimes",
+      "topic_id": "sports_hobbies",
+      "status": "UNASSIGNED",
+      "reason": "Root-only suggestion retained for triage, not grouped: substring collisions can produce unrelated topic assignments."
+    },
+    {
+      "word": "PIANOS",
+      "topic": "Music and Instruments",
+      "topic_id": "music_instruments",
+      "status": "UNASSIGNED",
+      "reason": "Root-only suggestion retained for triage, not grouped: substring collisions can produce unrelated topic assignments."
+    },
+    {
+      "word": "PLANETARY",
+      "topic": "Space & Astronomy",
+      "topic_id": "space_astronomy",
+      "status": "UNASSIGNED",
+      "reason": "Root-only suggestion retained for triage, not grouped: substring collisions can produce unrelated topic assignments."
+    },
+    {
+      "word": "PLANETS",
+      "topic": "Space & Astronomy",
+      "topic_id": "space_astronomy",
+      "status": "UNASSIGNED",
+      "reason": "Root-only suggestion retained for triage, not grouped: substring collisions can produce unrelated topic assignments."
+    },
+    {
+      "word": "PLANTAIN",
+      "topic": "Gardening and Garden Life",
+      "topic_id": "gardening",
+      "status": "UNASSIGNED",
+      "reason": "Root-only suggestion retained for triage, not grouped: substring collisions can produce unrelated topic assignments."
+    },
+    {
+      "word": "PLANTAR",
+      "topic": "Gardening and Garden Life",
+      "topic_id": "gardening",
+      "status": "UNASSIGNED",
+      "reason": "Root-only suggestion retained for triage, not grouped: substring collisions can produce unrelated topic assignments."
+    },
+    {
+      "word": "PLANTINGS",
+      "topic": "Gardening and Garden Life",
+      "topic_id": "gardening",
+      "status": "UNASSIGNED",
+      "reason": "Root-only suggestion retained for triage, not grouped: substring collisions can produce unrelated topic assignments."
+    },
+    {
+      "word": "PLUMB",
+      "topic": "Careers Community and Everyday Life",
+      "topic_id": "careers_community_everyday_life",
+      "status": "UNASSIGNED",
+      "reason": "Root-only suggestion retained for triage, not grouped: substring collisions can produce unrelated topic assignments."
+    },
+    {
+      "word": "PLUMBERS",
+      "topic": "Careers Community and Everyday Life",
+      "topic_id": "careers_community_everyday_life",
+      "status": "UNASSIGNED",
+      "reason": "Root-only suggestion retained for triage, not grouped: substring collisions can produce unrelated topic assignments."
+    },
+    {
+      "word": "POETICS",
+      "topic": "Books Reading and Libraries",
+      "topic_id": "books_reading_libraries",
+      "status": "UNASSIGNED",
+      "reason": "Root-only suggestion retained for triage, not grouped: substring collisions can produce unrelated topic assignments."
+    },
+    {
+      "word": "POETS",
+      "topic": "Books Reading and Libraries",
+      "topic_id": "books_reading_libraries",
+      "status": "UNASSIGNED",
+      "reason": "Root-only suggestion retained for triage, not grouped: substring collisions can produce unrelated topic assignments."
+    },
+    {
+      "word": "PRAIRIES",
+      "topic": "Forest Wildlife and Outdoors",
+      "topic_id": "forest_wildlife_outdoors",
+      "status": "UNASSIGNED",
+      "reason": "Root-only suggestion retained for triage, not grouped: substring collisions can produce unrelated topic assignments."
+    },
+    {
+      "word": "PRESERVATIVE",
+      "topic": "Homesteading",
+      "topic_id": "homesteading",
+      "status": "UNASSIGNED",
+      "reason": "Root-only suggestion retained for triage, not grouped: substring collisions can produce unrelated topic assignments."
+    },
+    {
+      "word": "PRESERVATIVES",
+      "topic": "Homesteading",
+      "topic_id": "homesteading",
+      "status": "UNASSIGNED",
+      "reason": "Root-only suggestion retained for triage, not grouped: substring collisions can produce unrelated topic assignments."
+    },
+    {
+      "word": "QUILT",
+      "topic": "Hobbies Crafts and Pastimes",
+      "topic_id": "sports_hobbies",
+      "status": "UNASSIGNED",
+      "reason": "Root-only suggestion retained for triage, not grouped: substring collisions can produce unrelated topic assignments."
+    },
+    {
+      "word": "QUILTED",
+      "topic": "Hobbies Crafts and Pastimes",
+      "topic_id": "sports_hobbies",
+      "status": "UNASSIGNED",
+      "reason": "Root-only suggestion retained for triage, not grouped: substring collisions can produce unrelated topic assignments."
+    },
+    {
+      "word": "QUILTS",
+      "topic": "Hobbies Crafts and Pastimes",
+      "topic_id": "sports_hobbies",
+      "status": "UNASSIGNED",
+      "reason": "Root-only suggestion retained for triage, not grouped: substring collisions can produce unrelated topic assignments."
+    },
+    {
+      "word": "RAINBOWS",
+      "topic": "Weather and Climate",
+      "topic_id": "weather_climate",
+      "status": "UNASSIGNED",
+      "reason": "Root-only suggestion retained for triage, not grouped: substring collisions can produce unrelated topic assignments."
+    },
+    {
+      "word": "RAINDROPS",
+      "topic": "Weather and Climate",
+      "topic_id": "weather_climate",
+      "status": "UNASSIGNED",
+      "reason": "Root-only suggestion retained for triage, not grouped: substring collisions can produce unrelated topic assignments."
+    },
+    {
+      "word": "RAINER",
+      "topic": "Weather and Climate",
+      "topic_id": "weather_climate",
+      "status": "UNASSIGNED",
+      "reason": "Root-only suggestion retained for triage, not grouped: substring collisions can produce unrelated topic assignments."
+    },
+    {
+      "word": "RAINES",
+      "topic": "Weather and Climate",
+      "topic_id": "weather_climate",
+      "status": "UNASSIGNED",
+      "reason": "Root-only suggestion retained for triage, not grouped: substring collisions can produce unrelated topic assignments."
+    },
+    {
+      "word": "RAINFOREST",
+      "topic": "Weather and Climate",
+      "topic_id": "weather_climate",
+      "status": "UNASSIGNED",
+      "reason": "Root-only suggestion retained for triage, not grouped: substring collisions can produce unrelated topic assignments."
+    },
+    {
+      "word": "RAINIER",
+      "topic": "Weather and Climate",
+      "topic_id": "weather_climate",
+      "status": "UNASSIGNED",
+      "reason": "Root-only suggestion retained for triage, not grouped: substring collisions can produce unrelated topic assignments."
+    },
+    {
+      "word": "RAINING",
+      "topic": "Weather and Climate",
+      "topic_id": "weather_climate",
+      "status": "UNASSIGNED",
+      "reason": "Root-only suggestion retained for triage, not grouped: substring collisions can produce unrelated topic assignments."
+    },
+    {
+      "word": "RAINSTORM",
+      "topic": "Weather and Climate",
+      "topic_id": "weather_climate",
+      "status": "UNASSIGNED",
+      "reason": "Root-only suggestion retained for triage, not grouped: substring collisions can produce unrelated topic assignments."
+    },
+    {
+      "word": "RAINY",
+      "topic": "Weather and Climate",
+      "topic_id": "weather_climate",
+      "status": "UNASSIGNED",
+      "reason": "Root-only suggestion retained for triage, not grouped: substring collisions can produce unrelated topic assignments."
+    },
+    {
+      "word": "RANCHERS",
+      "topic": "Farm Country and Rural Life",
+      "topic_id": "farm_country_rural_life",
+      "status": "UNASSIGNED",
+      "reason": "Root-only suggestion retained for triage, not grouped: substring collisions can produce unrelated topic assignments."
+    },
+    {
+      "word": "RANCHES",
+      "topic": "Farm Country and Rural Life",
+      "topic_id": "farm_country_rural_life",
+      "status": "UNASSIGNED",
+      "reason": "Root-only suggestion retained for triage, not grouped: substring collisions can produce unrelated topic assignments."
+    },
+    {
+      "word": "RANCHING",
+      "topic": "Farm Country and Rural Life",
+      "topic_id": "farm_country_rural_life",
+      "status": "UNASSIGNED",
+      "reason": "Root-only suggestion retained for triage, not grouped: substring collisions can produce unrelated topic assignments."
+    },
+    {
+      "word": "RANCHO",
+      "topic": "Farm Country and Rural Life",
+      "topic_id": "farm_country_rural_life",
+      "status": "UNASSIGNED",
+      "reason": "Root-only suggestion retained for triage, not grouped: substring collisions can produce unrelated topic assignments."
+    },
+    {
+      "word": "RATION",
+      "topic": "World War II History",
+      "topic_id": "world_war_ii_history",
+      "status": "UNASSIGNED",
+      "reason": "Root-only suggestion retained for triage, not grouped: substring collisions can produce unrelated topic assignments."
+    },
+    {
+      "word": "RATIONALE",
+      "topic": "World War II History",
+      "topic_id": "world_war_ii_history",
+      "status": "UNASSIGNED",
+      "reason": "Root-only suggestion retained for triage, not grouped: substring collisions can produce unrelated topic assignments."
+    },
+    {
+      "word": "RATIONALISM",
+      "topic": "World War II History",
+      "topic_id": "world_war_ii_history",
+      "status": "UNASSIGNED",
+      "reason": "Root-only suggestion retained for triage, not grouped: substring collisions can produce unrelated topic assignments."
+    },
+    {
+      "word": "RATIONALITY",
+      "topic": "World War II History",
+      "topic_id": "world_war_ii_history",
+      "status": "UNASSIGNED",
+      "reason": "Root-only suggestion retained for triage, not grouped: substring collisions can produce unrelated topic assignments."
+    },
+    {
+      "word": "RATIONALIZATION",
+      "topic": "World War II History",
+      "topic_id": "world_war_ii_history",
+      "status": "UNASSIGNED",
+      "reason": "Root-only suggestion retained for triage, not grouped: substring collisions can produce unrelated topic assignments."
+    },
+    {
+      "word": "RATIONALLY",
+      "topic": "World War II History",
+      "topic_id": "world_war_ii_history",
+      "status": "UNASSIGNED",
+      "reason": "Root-only suggestion retained for triage, not grouped: substring collisions can produce unrelated topic assignments."
+    },
+    {
+      "word": "READABILITY",
+      "topic": "Word Skills and Brain Games",
+      "topic_id": "word_skills_brain_games",
+      "status": "UNASSIGNED",
+      "reason": "Root-only suggestion retained for triage, not grouped: substring collisions can produce unrelated topic assignments."
+    },
+    {
+      "word": "READERSHIP",
+      "topic": "Word Skills and Brain Games",
+      "topic_id": "word_skills_brain_games",
+      "status": "UNASSIGNED",
+      "reason": "Root-only suggestion retained for triage, not grouped: substring collisions can produce unrelated topic assignments."
+    },
+    {
+      "word": "READOUT",
+      "topic": "Word Skills and Brain Games",
+      "topic_id": "word_skills_brain_games",
+      "status": "UNASSIGNED",
+      "reason": "Root-only suggestion retained for triage, not grouped: substring collisions can produce unrelated topic assignments."
+    },
+    {
+      "word": "REEFER",
+      "topic": "Ocean Life",
+      "topic_id": "ocean_life",
+      "status": "UNASSIGNED",
+      "reason": "Root-only suggestion retained for triage, not grouped: substring collisions can produce unrelated topic assignments."
+    },
+    {
+      "word": "REEFS",
+      "topic": "Ocean Life",
+      "topic_id": "ocean_life",
+      "status": "UNASSIGNED",
+      "reason": "Root-only suggestion retained for triage, not grouped: substring collisions can produce unrelated topic assignments."
+    },
+    {
+      "word": "REFLECTING",
+      "topic": "Mindfulness",
+      "topic_id": "mindfulness",
+      "status": "UNASSIGNED",
+      "reason": "Root-only suggestion retained for triage, not grouped: substring collisions can produce unrelated topic assignments."
+    },
+    {
+      "word": "REFLECTIVE",
+      "topic": "Mindfulness",
+      "topic_id": "mindfulness",
+      "status": "UNASSIGNED",
+      "reason": "Root-only suggestion retained for triage, not grouped: substring collisions can produce unrelated topic assignments."
+    },
+    {
+      "word": "REFLECTOR",
+      "topic": "Mindfulness",
+      "topic_id": "mindfulness",
+      "status": "UNASSIGNED",
+      "reason": "Root-only suggestion retained for triage, not grouped: substring collisions can produce unrelated topic assignments."
+    },
+    {
+      "word": "REFLECTORS",
+      "topic": "Mindfulness",
+      "topic_id": "mindfulness",
+      "status": "UNASSIGNED",
+      "reason": "Root-only suggestion retained for triage, not grouped: substring collisions can produce unrelated topic assignments."
+    },
+    {
+      "word": "REFLECTS",
+      "topic": "Mindfulness",
+      "topic_id": "mindfulness",
+      "status": "UNASSIGNED",
+      "reason": "Root-only suggestion retained for triage, not grouped: substring collisions can produce unrelated topic assignments."
+    },
+    {
+      "word": "RELAXES",
+      "topic": "Wellness and Self Care",
+      "topic_id": "wellness_self_care",
+      "status": "UNASSIGNED",
+      "reason": "Root-only suggestion retained for triage, not grouped: substring collisions can produce unrelated topic assignments."
+    },
+    {
+      "word": "RELAXES",
+      "topic": "Mindfulness",
+      "topic_id": "mindfulness",
+      "status": "UNASSIGNED",
+      "reason": "Root-only suggestion retained for triage, not grouped: substring collisions can produce unrelated topic assignments."
+    },
+    {
+      "word": "RESISTANCES",
+      "topic": "World War II History",
+      "topic_id": "world_war_ii_history",
+      "status": "UNASSIGNED",
+      "reason": "Root-only suggestion retained for triage, not grouped: substring collisions can produce unrelated topic assignments."
+    },
+    {
+      "word": "RESISTANT",
+      "topic": "World War II History",
+      "topic_id": "world_war_ii_history",
+      "status": "UNASSIGNED",
+      "reason": "Root-only suggestion retained for triage, not grouped: substring collisions can produce unrelated topic assignments."
+    },
+    {
+      "word": "RETROACTIVE",
+      "topic": "Nostalgia Through the Decades",
+      "topic_id": "nostalgia_through_decades",
+      "status": "UNASSIGNED",
+      "reason": "Root-only suggestion retained for triage, not grouped: substring collisions can produce unrelated topic assignments."
+    },
+    {
+      "word": "RETROFIT",
+      "topic": "Nostalgia Through the Decades",
+      "topic_id": "nostalgia_through_decades",
+      "status": "UNASSIGNED",
+      "reason": "Root-only suggestion retained for triage, not grouped: substring collisions can produce unrelated topic assignments."
+    },
+    {
+      "word": "RETROSPECT",
+      "topic": "Nostalgia Through the Decades",
+      "topic_id": "nostalgia_through_decades",
+      "status": "UNASSIGNED",
+      "reason": "Root-only suggestion retained for triage, not grouped: substring collisions can produce unrelated topic assignments."
+    },
+    {
+      "word": "RETROSPECTIVELY",
+      "topic": "Nostalgia Through the Decades",
+      "topic_id": "nostalgia_through_decades",
+      "status": "UNASSIGNED",
+      "reason": "Root-only suggestion retained for triage, not grouped: substring collisions can produce unrelated topic assignments."
+    },
+    {
+      "word": "REVOLUTIONARIES",
+      "topic": "American History",
+      "topic_id": "american_history",
+      "status": "UNASSIGNED",
+      "reason": "Root-only suggestion retained for triage, not grouped: substring collisions can produce unrelated topic assignments."
+    },
+    {
+      "word": "REVOLUTIONIZE",
+      "topic": "American History",
+      "topic_id": "american_history",
+      "status": "UNASSIGNED",
+      "reason": "Root-only suggestion retained for triage, not grouped: substring collisions can produce unrelated topic assignments."
+    },
+    {
+      "word": "RHYTHMIC",
+      "topic": "Music and Instruments",
+      "topic_id": "music_instruments",
+      "status": "UNASSIGNED",
+      "reason": "Root-only suggestion retained for triage, not grouped: substring collisions can produce unrelated topic assignments."
+    },
+    {
+      "word": "RHYTHMICALLY",
+      "topic": "Music and Instruments",
+      "topic_id": "music_instruments",
+      "status": "UNASSIGNED",
+      "reason": "Root-only suggestion retained for triage, not grouped: substring collisions can produce unrelated topic assignments."
+    },
+    {
+      "word": "RHYTHMS",
+      "topic": "Music and Instruments",
+      "topic_id": "music_instruments",
+      "status": "UNASSIGNED",
+      "reason": "Root-only suggestion retained for triage, not grouped: substring collisions can produce unrelated topic assignments."
+    },
+    {
+      "word": "ROADBLOCK",
+      "topic": "Vehicles & Automotive",
+      "topic_id": "vehicles_automotive",
+      "status": "UNASSIGNED",
+      "reason": "Root-only suggestion retained for triage, not grouped: substring collisions can produce unrelated topic assignments."
+    },
+    {
+      "word": "ROADBLOCKS",
+      "topic": "Vehicles & Automotive",
+      "topic_id": "vehicles_automotive",
+      "status": "UNASSIGNED",
+      "reason": "Root-only suggestion retained for triage, not grouped: substring collisions can produce unrelated topic assignments."
+    },
+    {
+      "word": "ROADHOUSE",
+      "topic": "Vehicles & Automotive",
+      "topic_id": "vehicles_automotive",
+      "status": "UNASSIGNED",
+      "reason": "Root-only suggestion retained for triage, not grouped: substring collisions can produce unrelated topic assignments."
+    },
+    {
+      "word": "ROADWAYS",
+      "topic": "Vehicles & Automotive",
+      "topic_id": "vehicles_automotive",
+      "status": "UNASSIGNED",
+      "reason": "Root-only suggestion retained for triage, not grouped: substring collisions can produce unrelated topic assignments."
+    },
+    {
+      "word": "ROUTINES",
+      "topic": "Positive Parenting",
+      "topic_id": "positive_parenting",
+      "status": "UNASSIGNED",
+      "reason": "Root-only suggestion retained for triage, not grouped: substring collisions can produce unrelated topic assignments."
+    },
+    {
+      "word": "SATELLITES",
+      "topic": "Space & Astronomy",
+      "topic_id": "space_astronomy",
+      "status": "UNASSIGNED",
+      "reason": "Root-only suggestion retained for triage, not grouped: substring collisions can produce unrelated topic assignments."
+    },
+    {
+      "word": "SCIENTIFICALLY",
+      "topic": "Science and Discovery",
+      "topic_id": "science_discovery",
+      "status": "UNASSIGNED",
+      "reason": "Root-only suggestion retained for triage, not grouped: substring collisions can produce unrelated topic assignments."
+    },
+    {
+      "word": "SCIENTOLOGY",
+      "topic": "Science and Discovery",
+      "topic_id": "science_discovery",
+      "status": "UNASSIGNED",
+      "reason": "Root-only suggestion retained for triage, not grouped: substring collisions can produce unrelated topic assignments."
+    },
+    {
+      "word": "SEEDED",
+      "topic": "Gardening and Garden Life",
+      "topic_id": "gardening",
+      "status": "UNASSIGNED",
+      "reason": "Root-only suggestion retained for triage, not grouped: substring collisions can produce unrelated topic assignments."
+    },
+    {
+      "word": "SEEDY",
+      "topic": "Gardening and Garden Life",
+      "topic_id": "gardening",
+      "status": "UNASSIGNED",
+      "reason": "Root-only suggestion retained for triage, not grouped: substring collisions can produce unrelated topic assignments."
+    },
+    {
+      "word": "SERENA",
+      "topic": "Faith Inspiration and Kindness",
+      "topic_id": "faith_inspiration_kindness",
+      "status": "UNASSIGNED",
+      "reason": "Root-only suggestion retained for triage, not grouped: substring collisions can produce unrelated topic assignments."
+    },
+    {
+      "word": "SERENADE",
+      "topic": "Faith Inspiration and Kindness",
+      "topic_id": "faith_inspiration_kindness",
+      "status": "UNASSIGNED",
+      "reason": "Root-only suggestion retained for triage, not grouped: substring collisions can produce unrelated topic assignments."
+    },
+    {
+      "word": "SERENDIPITY",
+      "topic": "Faith Inspiration and Kindness",
+      "topic_id": "faith_inspiration_kindness",
+      "status": "UNASSIGNED",
+      "reason": "Root-only suggestion retained for triage, not grouped: substring collisions can produce unrelated topic assignments."
+    },
+    {
+      "word": "SERENE",
+      "topic": "Faith Inspiration and Kindness",
+      "topic_id": "faith_inspiration_kindness",
+      "status": "UNASSIGNED",
+      "reason": "Root-only suggestion retained for triage, not grouped: substring collisions can produce unrelated topic assignments."
+    },
+    {
+      "word": "SHARK",
+      "topic": "Ocean Life",
+      "topic_id": "ocean_life",
+      "status": "UNASSIGNED",
+      "reason": "Root-only suggestion retained for triage, not grouped: substring collisions can produce unrelated topic assignments."
+    },
+    {
+      "word": "SHARKS",
+      "topic": "Ocean Life",
+      "topic_id": "ocean_life",
+      "status": "UNASSIGNED",
+      "reason": "Root-only suggestion retained for triage, not grouped: substring collisions can produce unrelated topic assignments."
+    },
+    {
+      "word": "SKETCHBOOK",
+      "topic": "Arts Creativity and Making",
+      "topic_id": "arts_creativity_making",
+      "status": "UNASSIGNED",
+      "reason": "Root-only suggestion retained for triage, not grouped: substring collisions can produce unrelated topic assignments."
+    },
+    {
+      "word": "SKETCHY",
+      "topic": "Arts Creativity and Making",
+      "topic_id": "arts_creativity_making",
+      "status": "UNASSIGNED",
+      "reason": "Root-only suggestion retained for triage, not grouped: substring collisions can produce unrelated topic assignments."
+    },
+    {
+      "word": "SLEEPERS",
+      "topic": "Wellness and Self Care",
+      "topic_id": "wellness_self_care",
+      "status": "UNASSIGNED",
+      "reason": "Root-only suggestion retained for triage, not grouped: substring collisions can produce unrelated topic assignments."
+    },
+    {
+      "word": "SLEEPLESS",
+      "topic": "Wellness and Self Care",
+      "topic_id": "wellness_self_care",
+      "status": "UNASSIGNED",
+      "reason": "Root-only suggestion retained for triage, not grouped: substring collisions can produce unrelated topic assignments."
+    },
+    {
+      "word": "SLEEPWALKING",
+      "topic": "Wellness and Self Care",
+      "topic_id": "wellness_self_care",
+      "status": "UNASSIGNED",
+      "reason": "Root-only suggestion retained for triage, not grouped: substring collisions can produce unrelated topic assignments."
+    },
+    {
+      "word": "SNOWED",
+      "topic": "Weather and Climate",
+      "topic_id": "weather_climate",
+      "status": "UNASSIGNED",
+      "reason": "Root-only suggestion retained for triage, not grouped: substring collisions can produce unrelated topic assignments."
+    },
+    {
+      "word": "SNOWED",
+      "topic": "Christmas and Winter",
+      "topic_id": "christmas",
+      "status": "UNASSIGNED",
+      "reason": "Root-only suggestion retained for triage, not grouped: substring collisions can produce unrelated topic assignments."
+    },
+    {
+      "word": "SNOWFLAKES",
+      "topic": "Weather and Climate",
+      "topic_id": "weather_climate",
+      "status": "UNASSIGNED",
+      "reason": "Root-only suggestion retained for triage, not grouped: substring collisions can produce unrelated topic assignments."
+    },
+    {
+      "word": "SNOWFLAKES",
+      "topic": "Christmas and Winter",
+      "topic_id": "christmas",
+      "status": "UNASSIGNED",
+      "reason": "Root-only suggestion retained for triage, not grouped: substring collisions can produce unrelated topic assignments."
+    },
+    {
+      "word": "SNOWS",
+      "topic": "Weather and Climate",
+      "topic_id": "weather_climate",
+      "status": "UNASSIGNED",
+      "reason": "Root-only suggestion retained for triage, not grouped: substring collisions can produce unrelated topic assignments."
+    },
+    {
+      "word": "SNOWS",
+      "topic": "Christmas and Winter",
+      "topic_id": "christmas",
+      "status": "UNASSIGNED",
+      "reason": "Root-only suggestion retained for triage, not grouped: substring collisions can produce unrelated topic assignments."
+    },
+    {
+      "word": "SNOWY",
+      "topic": "Weather and Climate",
+      "topic_id": "weather_climate",
+      "status": "UNASSIGNED",
+      "reason": "Root-only suggestion retained for triage, not grouped: substring collisions can produce unrelated topic assignments."
+    },
+    {
+      "word": "SNOWY",
+      "topic": "Christmas and Winter",
+      "topic_id": "christmas",
+      "status": "UNASSIGNED",
+      "reason": "Root-only suggestion retained for triage, not grouped: substring collisions can produce unrelated topic assignments."
+    },
+    {
+      "word": "SOILED",
+      "topic": "Gardening and Garden Life",
+      "topic_id": "gardening",
+      "status": "UNASSIGNED",
+      "reason": "Root-only suggestion retained for triage, not grouped: substring collisions can produce unrelated topic assignments."
+    },
+    {
+      "word": "SPECIMENS",
+      "topic": "Science and Discovery",
+      "topic_id": "science_discovery",
+      "status": "UNASSIGNED",
+      "reason": "Root-only suggestion retained for triage, not grouped: substring collisions can produce unrelated topic assignments."
+    },
+    {
+      "word": "SPELLBOUND",
+      "topic": "Word Skills and Brain Games",
+      "topic_id": "word_skills_brain_games",
+      "status": "UNASSIGNED",
+      "reason": "Root-only suggestion retained for triage, not grouped: substring collisions can produce unrelated topic assignments."
+    },
+    {
+      "word": "SPELLED",
+      "topic": "Word Skills and Brain Games",
+      "topic_id": "word_skills_brain_games",
+      "status": "UNASSIGNED",
+      "reason": "Root-only suggestion retained for triage, not grouped: substring collisions can produce unrelated topic assignments."
+    },
+    {
+      "word": "SPELLINGS",
+      "topic": "Word Skills and Brain Games",
+      "topic_id": "word_skills_brain_games",
+      "status": "UNASSIGNED",
+      "reason": "Root-only suggestion retained for triage, not grouped: substring collisions can produce unrelated topic assignments."
+    },
+    {
+      "word": "SPICED",
+      "topic": "Baking and Food",
+      "topic_id": "baking_food",
+      "status": "UNASSIGNED",
+      "reason": "Root-only suggestion retained for triage, not grouped: substring collisions can produce unrelated topic assignments."
+    },
+    {
+      "word": "SPICER",
+      "topic": "Baking and Food",
+      "topic_id": "baking_food",
+      "status": "UNASSIGNED",
+      "reason": "Root-only suggestion retained for triage, not grouped: substring collisions can produce unrelated topic assignments."
+    },
+    {
+      "word": "SPOOKY",
+      "topic": "Halloween Autumn and Harvest",
+      "topic_id": "halloween",
+      "status": "UNASSIGNED",
+      "reason": "Root-only suggestion retained for triage, not grouped: substring collisions can produce unrelated topic assignments."
+    },
+    {
+      "word": "SPORTED",
+      "topic": "Sports and Hobbies",
+      "topic_id": "sports_hobbies",
+      "status": "UNASSIGNED",
+      "reason": "Root-only suggestion retained for triage, not grouped: substring collisions can produce unrelated topic assignments."
+    },
+    {
+      "word": "SPORTSMAN",
+      "topic": "Sports and Hobbies",
+      "topic_id": "sports_hobbies",
+      "status": "UNASSIGNED",
+      "reason": "Root-only suggestion retained for triage, not grouped: substring collisions can produce unrelated topic assignments."
+    },
+    {
+      "word": "SPORTSMEN",
+      "topic": "Sports and Hobbies",
+      "topic_id": "sports_hobbies",
+      "status": "UNASSIGNED",
+      "reason": "Root-only suggestion retained for triage, not grouped: substring collisions can produce unrelated topic assignments."
+    },
+    {
+      "word": "SPORTSWEAR",
+      "topic": "Sports and Hobbies",
+      "topic_id": "sports_hobbies",
+      "status": "UNASSIGNED",
+      "reason": "Root-only suggestion retained for triage, not grouped: substring collisions can produce unrelated topic assignments."
+    },
+    {
+      "word": "SPORTY",
+      "topic": "Sports and Hobbies",
+      "topic_id": "sports_hobbies",
+      "status": "UNASSIGNED",
+      "reason": "Root-only suggestion retained for triage, not grouped: substring collisions can produce unrelated topic assignments."
+    },
+    {
+      "word": "SPRINGBOARD",
+      "topic": "Seasonal Celebrations",
+      "topic_id": "seasonal_celebrations",
+      "status": "UNASSIGNED",
+      "reason": "Root-only suggestion retained for triage, not grouped: substring collisions can produce unrelated topic assignments."
+    },
+    {
+      "word": "SPRINGBOARD",
+      "topic": "Easter and Spring",
+      "topic_id": "easter_spring",
+      "status": "UNASSIGNED",
+      "reason": "Root-only suggestion retained for triage, not grouped: substring collisions can produce unrelated topic assignments."
+    },
+    {
+      "word": "STATELESS",
+      "topic": "US Geography and Landmarks",
+      "topic_id": "us_geography_landmarks",
+      "status": "UNASSIGNED",
+      "reason": "Root-only suggestion retained for triage, not grouped: substring collisions can produce unrelated topic assignments."
+    },
+    {
+      "word": "STATELY",
+      "topic": "US Geography and Landmarks",
+      "topic_id": "us_geography_landmarks",
+      "status": "UNASSIGNED",
+      "reason": "Root-only suggestion retained for triage, not grouped: substring collisions can produce unrelated topic assignments."
+    },
+    {
+      "word": "STATESIDE",
+      "topic": "US Geography and Landmarks",
+      "topic_id": "us_geography_landmarks",
+      "status": "UNASSIGNED",
+      "reason": "Root-only suggestion retained for triage, not grouped: substring collisions can produce unrelated topic assignments."
+    },
+    {
+      "word": "STATEWIDE",
+      "topic": "US Geography and Landmarks",
+      "topic_id": "us_geography_landmarks",
+      "status": "UNASSIGNED",
+      "reason": "Root-only suggestion retained for triage, not grouped: substring collisions can produce unrelated topic assignments."
+    },
+    {
+      "word": "STORMED",
+      "topic": "Weather and Climate",
+      "topic_id": "weather_climate",
+      "status": "UNASSIGNED",
+      "reason": "Root-only suggestion retained for triage, not grouped: substring collisions can produce unrelated topic assignments."
+    },
+    {
+      "word": "STORMING",
+      "topic": "Weather and Climate",
+      "topic_id": "weather_climate",
+      "status": "UNASSIGNED",
+      "reason": "Root-only suggestion retained for triage, not grouped: substring collisions can produce unrelated topic assignments."
+    },
+    {
+      "word": "STRETCHER",
+      "topic": "Wellness and Self Care",
+      "topic_id": "wellness_self_care",
+      "status": "UNASSIGNED",
+      "reason": "Root-only suggestion retained for triage, not grouped: substring collisions can produce unrelated topic assignments."
+    },
+    {
+      "word": "STRETCHES",
+      "topic": "Wellness and Self Care",
+      "topic_id": "wellness_self_care",
+      "status": "UNASSIGNED",
+      "reason": "Root-only suggestion retained for triage, not grouped: substring collisions can produce unrelated topic assignments."
+    },
+    {
+      "word": "TELEVISIONS",
+      "topic": "Pop Culture & Entertainment",
+      "topic_id": "pop_culture_entertainment",
+      "status": "UNASSIGNED",
+      "reason": "Root-only suggestion retained for triage, not grouped: substring collisions can produce unrelated topic assignments."
+    },
+    {
+      "word": "TENTACLE",
+      "topic": "Outdoor Adventure",
+      "topic_id": "outdoor_adventure",
+      "status": "UNASSIGNED",
+      "reason": "Root-only suggestion retained for triage, not grouped: substring collisions can produce unrelated topic assignments."
+    },
+    {
+      "word": "TENTACLES",
+      "topic": "Outdoor Adventure",
+      "topic_id": "outdoor_adventure",
+      "status": "UNASSIGNED",
+      "reason": "Root-only suggestion retained for triage, not grouped: substring collisions can produce unrelated topic assignments."
+    },
+    {
+      "word": "TENTATIVE",
+      "topic": "Outdoor Adventure",
+      "topic_id": "outdoor_adventure",
+      "status": "UNASSIGNED",
+      "reason": "Root-only suggestion retained for triage, not grouped: substring collisions can produce unrelated topic assignments."
+    },
+    {
+      "word": "TENTATIVELY",
+      "topic": "Outdoor Adventure",
+      "topic_id": "outdoor_adventure",
+      "status": "UNASSIGNED",
+      "reason": "Root-only suggestion retained for triage, not grouped: substring collisions can produce unrelated topic assignments."
+    },
+    {
+      "word": "TERRIER",
+      "topic": "Dog Breeds",
+      "topic_id": "dog_breeds",
+      "status": "UNASSIGNED",
+      "reason": "Root-only suggestion retained for triage, not grouped: substring collisions can produce unrelated topic assignments."
+    },
+    {
+      "word": "TERRIERS",
+      "topic": "Dog Breeds",
+      "topic_id": "dog_breeds",
+      "status": "UNASSIGNED",
+      "reason": "Root-only suggestion retained for triage, not grouped: substring collisions can produce unrelated topic assignments."
+    },
+    {
+      "word": "THANKFULLY",
+      "topic": "Faith Inspiration and Kindness",
+      "topic_id": "faith_inspiration_kindness",
+      "status": "UNASSIGNED",
+      "reason": "Root-only suggestion retained for triage, not grouped: substring collisions can produce unrelated topic assignments."
+    },
+    {
+      "word": "THANKLESS",
+      "topic": "Faith Inspiration and Kindness",
+      "topic_id": "faith_inspiration_kindness",
+      "status": "UNASSIGNED",
+      "reason": "Root-only suggestion retained for triage, not grouped: substring collisions can produce unrelated topic assignments."
+    },
+    {
+      "word": "THUNDERBOLT",
+      "topic": "Weather and Climate",
+      "topic_id": "weather_climate",
+      "status": "UNASSIGNED",
+      "reason": "Root-only suggestion retained for triage, not grouped: substring collisions can produce unrelated topic assignments."
+    },
+    {
+      "word": "THUNDERING",
+      "topic": "Weather and Climate",
+      "topic_id": "weather_climate",
+      "status": "UNASSIGNED",
+      "reason": "Root-only suggestion retained for triage, not grouped: substring collisions can produce unrelated topic assignments."
+    },
+    {
+      "word": "THUNDERSTORMS",
+      "topic": "Weather and Climate",
+      "topic_id": "weather_climate",
+      "status": "UNASSIGNED",
+      "reason": "Root-only suggestion retained for triage, not grouped: substring collisions can produce unrelated topic assignments."
+    },
+    {
+      "word": "TIREDNESS",
+      "topic": "Vehicles & Automotive",
+      "topic_id": "vehicles_automotive",
+      "status": "UNASSIGNED",
+      "reason": "Root-only suggestion retained for triage, not grouped: substring collisions can produce unrelated topic assignments."
+    },
+    {
+      "word": "TIRELESSLY",
+      "topic": "Vehicles & Automotive",
+      "topic_id": "vehicles_automotive",
+      "status": "UNASSIGNED",
+      "reason": "Root-only suggestion retained for triage, not grouped: substring collisions can produce unrelated topic assignments."
+    },
+    {
+      "word": "TIRESOME",
+      "topic": "Vehicles & Automotive",
+      "topic_id": "vehicles_automotive",
+      "status": "UNASSIGNED",
+      "reason": "Root-only suggestion retained for triage, not grouped: substring collisions can produce unrelated topic assignments."
+    },
+    {
+      "word": "TORNADOES",
+      "topic": "Weather and Climate",
+      "topic_id": "weather_climate",
+      "status": "UNASSIGNED",
+      "reason": "Root-only suggestion retained for triage, not grouped: substring collisions can produce unrelated topic assignments."
+    },
+    {
+      "word": "TRACTORS",
+      "topic": "Farm Country and Rural Life",
+      "topic_id": "farm_country_rural_life",
+      "status": "UNASSIGNED",
+      "reason": "Root-only suggestion retained for triage, not grouped: substring collisions can produce unrelated topic assignments."
+    },
+    {
+      "word": "TRADITIONALISTS",
+      "topic": "Holidays",
+      "topic_id": "holidays",
+      "status": "UNASSIGNED",
+      "reason": "Root-only suggestion retained for triage, not grouped: substring collisions can produce unrelated topic assignments."
+    },
+    {
+      "word": "TRADITIONALLY",
+      "topic": "Holidays",
+      "topic_id": "holidays",
+      "status": "UNASSIGNED",
+      "reason": "Root-only suggestion retained for triage, not grouped: substring collisions can produce unrelated topic assignments."
+    },
+    {
+      "word": "TRAILING",
+      "topic": "National Parks",
+      "topic_id": "national_parks",
+      "status": "UNASSIGNED",
+      "reason": "Root-only suggestion retained for triage, not grouped: substring collisions can produce unrelated topic assignments."
+    },
+    {
+      "word": "TRAILING",
+      "topic": "Outdoor Adventure",
+      "topic_id": "outdoor_adventure",
+      "status": "UNASSIGNED",
+      "reason": "Root-only suggestion retained for triage, not grouped: substring collisions can produce unrelated topic assignments."
+    },
+    {
+      "word": "TRUCKER",
+      "topic": "Vehicles & Automotive",
+      "topic_id": "vehicles_automotive",
+      "status": "UNASSIGNED",
+      "reason": "Root-only suggestion retained for triage, not grouped: substring collisions can produce unrelated topic assignments."
+    },
+    {
+      "word": "TRUCKERS",
+      "topic": "Vehicles & Automotive",
+      "topic_id": "vehicles_automotive",
+      "status": "UNASSIGNED",
+      "reason": "Root-only suggestion retained for triage, not grouped: substring collisions can produce unrelated topic assignments."
+    },
+    {
+      "word": "TRUCKLOAD",
+      "topic": "Vehicles & Automotive",
+      "topic_id": "vehicles_automotive",
+      "status": "UNASSIGNED",
+      "reason": "Root-only suggestion retained for triage, not grouped: substring collisions can produce unrelated topic assignments."
+    },
+    {
+      "word": "TULIPS",
+      "topic": "Gardening and Garden Life",
+      "topic_id": "gardening",
+      "status": "UNASSIGNED",
+      "reason": "Root-only suggestion retained for triage, not grouped: substring collisions can produce unrelated topic assignments."
+    },
+    {
+      "word": "TULIPS",
+      "topic": "Easter and Spring",
+      "topic_id": "easter_spring",
+      "status": "UNASSIGNED",
+      "reason": "Root-only suggestion retained for triage, not grouped: substring collisions can produce unrelated topic assignments."
+    },
+    {
+      "word": "TURKEYS",
+      "topic": "Thanksgiving",
+      "topic_id": "thanksgiving",
+      "status": "UNASSIGNED",
+      "reason": "Root-only suggestion retained for triage, not grouped: substring collisions can produce unrelated topic assignments."
+    },
+    {
+      "word": "VACATIONING",
+      "topic": "Travel Road Trips and Getaways",
+      "topic_id": "travel_road_trips_getaways",
+      "status": "UNASSIGNED",
+      "reason": "Root-only suggestion retained for triage, not grouped: substring collisions can produce unrelated topic assignments."
+    },
+    {
+      "word": "VALENTINES",
+      "topic": "Seasonal Celebrations",
+      "topic_id": "seasonal_celebrations",
+      "status": "UNASSIGNED",
+      "reason": "Root-only suggestion retained for triage, not grouped: substring collisions can produce unrelated topic assignments."
+    },
+    {
+      "word": "VETERINARIANS",
+      "topic": "Pets and Animal Care",
+      "topic_id": "pets_animal_care",
+      "status": "UNASSIGNED",
+      "reason": "Root-only suggestion retained for triage, not grouped: substring collisions can produce unrelated topic assignments."
+    },
+    {
+      "word": "VETERINARIANS",
+      "topic": "Careers Community and Everyday Life",
+      "topic_id": "careers_community_everyday_life",
+      "status": "UNASSIGNED",
+      "reason": "Root-only suggestion retained for triage, not grouped: substring collisions can produce unrelated topic assignments."
+    },
+    {
+      "word": "VETERINARY",
+      "topic": "Pets and Animal Care",
+      "topic_id": "pets_animal_care",
+      "status": "UNASSIGNED",
+      "reason": "Root-only suggestion retained for triage, not grouped: substring collisions can produce unrelated topic assignments."
+    },
+    {
+      "word": "VETERINARY",
+      "topic": "Careers Community and Everyday Life",
+      "topic_id": "careers_community_everyday_life",
+      "status": "UNASSIGNED",
+      "reason": "Root-only suggestion retained for triage, not grouped: substring collisions can produce unrelated topic assignments."
+    },
+    {
+      "word": "VIOLINIST",
+      "topic": "Music and Instruments",
+      "topic_id": "music_instruments",
+      "status": "UNASSIGNED",
+      "reason": "Root-only suggestion retained for triage, not grouped: substring collisions can produce unrelated topic assignments."
+    },
+    {
+      "word": "WATERCOLORS",
+      "topic": "Arts Creativity and Making",
+      "topic_id": "arts_creativity_making",
+      "status": "UNASSIGNED",
+      "reason": "Root-only suggestion retained for triage, not grouped: substring collisions can produce unrelated topic assignments."
+    },
+    {
+      "word": "WEATHERED",
+      "topic": "Weather and Climate",
+      "topic_id": "weather_climate",
+      "status": "UNASSIGNED",
+      "reason": "Root-only suggestion retained for triage, not grouped: substring collisions can produce unrelated topic assignments."
+    },
+    {
+      "word": "WEATHERMAN",
+      "topic": "Weather and Climate",
+      "topic_id": "weather_climate",
+      "status": "UNASSIGNED",
+      "reason": "Root-only suggestion retained for triage, not grouped: substring collisions can produce unrelated topic assignments."
+    },
+    {
+      "word": "WEATHERS",
+      "topic": "Weather and Climate",
+      "topic_id": "weather_climate",
+      "status": "UNASSIGNED",
+      "reason": "Root-only suggestion retained for triage, not grouped: substring collisions can produce unrelated topic assignments."
+    },
+    {
+      "word": "WHALERS",
+      "topic": "Ocean Life",
+      "topic_id": "ocean_life",
+      "status": "UNASSIGNED",
+      "reason": "Root-only suggestion retained for triage, not grouped: substring collisions can produce unrelated topic assignments."
+    },
+    {
+      "word": "WHEELED",
+      "topic": "Vehicles & Automotive",
+      "topic_id": "vehicles_automotive",
+      "status": "UNASSIGNED",
+      "reason": "Root-only suggestion retained for triage, not grouped: substring collisions can produce unrelated topic assignments."
+    },
+    {
+      "word": "WHEELERS",
+      "topic": "Vehicles & Automotive",
+      "topic_id": "vehicles_automotive",
+      "status": "UNASSIGNED",
+      "reason": "Root-only suggestion retained for triage, not grouped: substring collisions can produce unrelated topic assignments."
+    },
+    {
+      "word": "WHEELHOUSE",
+      "topic": "Vehicles & Automotive",
+      "topic_id": "vehicles_automotive",
+      "status": "UNASSIGNED",
+      "reason": "Root-only suggestion retained for triage, not grouped: substring collisions can produce unrelated topic assignments."
+    },
+    {
+      "word": "WHEELIE",
+      "topic": "Vehicles & Automotive",
+      "topic_id": "vehicles_automotive",
+      "status": "UNASSIGNED",
+      "reason": "Root-only suggestion retained for triage, not grouped: substring collisions can produce unrelated topic assignments."
+    },
+    {
+      "word": "WINDED",
+      "topic": "Weather and Climate",
+      "topic_id": "weather_climate",
+      "status": "UNASSIGNED",
+      "reason": "Root-only suggestion retained for triage, not grouped: substring collisions can produce unrelated topic assignments."
+    },
+    {
+      "word": "WINDFALL",
+      "topic": "Weather and Climate",
+      "topic_id": "weather_climate",
+      "status": "UNASSIGNED",
+      "reason": "Root-only suggestion retained for triage, not grouped: substring collisions can produce unrelated topic assignments."
+    },
+    {
+      "word": "WINDMILLS",
+      "topic": "Weather and Climate",
+      "topic_id": "weather_climate",
+      "status": "UNASSIGNED",
+      "reason": "Root-only suggestion retained for triage, not grouped: substring collisions can produce unrelated topic assignments."
+    },
+    {
+      "word": "WINDSCREEN",
+      "topic": "Weather and Climate",
+      "topic_id": "weather_climate",
+      "status": "UNASSIGNED",
+      "reason": "Root-only suggestion retained for triage, not grouped: substring collisions can produce unrelated topic assignments."
+    },
+    {
+      "word": "WINDWARD",
+      "topic": "Weather and Climate",
+      "topic_id": "weather_climate",
+      "status": "UNASSIGNED",
+      "reason": "Root-only suggestion retained for triage, not grouped: substring collisions can produce unrelated topic assignments."
+    },
+    {
+      "word": "WINTERING",
+      "topic": "Seasonal Celebrations",
+      "topic_id": "seasonal_celebrations",
+      "status": "UNASSIGNED",
+      "reason": "Root-only suggestion retained for triage, not grouped: substring collisions can produce unrelated topic assignments."
+    },
+    {
+      "word": "WINTERING",
+      "topic": "Christmas and Winter",
+      "topic_id": "christmas",
+      "status": "UNASSIGNED",
+      "reason": "Root-only suggestion retained for triage, not grouped: substring collisions can produce unrelated topic assignments."
+    },
+    {
+      "word": "WINTERS",
+      "topic": "Seasonal Celebrations",
+      "topic_id": "seasonal_celebrations",
+      "status": "UNASSIGNED",
+      "reason": "Root-only suggestion retained for triage, not grouped: substring collisions can produce unrelated topic assignments."
+    },
+    {
+      "word": "WINTERS",
+      "topic": "Christmas and Winter",
+      "topic_id": "christmas",
+      "status": "UNASSIGNED",
+      "reason": "Root-only suggestion retained for triage, not grouped: substring collisions can produce unrelated topic assignments."
+    },
+    {
+      "word": "WITCHER",
+      "topic": "Halloween Autumn and Harvest",
+      "topic_id": "halloween",
+      "status": "UNASSIGNED",
+      "reason": "Root-only suggestion retained for triage, not grouped: substring collisions can produce unrelated topic assignments."
+    },
+    {
+      "word": "WORDED",
+      "topic": "Word Skills and Brain Games",
+      "topic_id": "word_skills_brain_games",
+      "status": "UNASSIGNED",
+      "reason": "Root-only suggestion retained for triage, not grouped: substring collisions can produce unrelated topic assignments."
+    },
+    {
+      "word": "WORSHIPED",
+      "topic": "Bible and Faith",
+      "topic_id": "bible_faith",
+      "status": "UNASSIGNED",
+      "reason": "Root-only suggestion retained for triage, not grouped: substring collisions can produce unrelated topic assignments."
+    },
+    {
+      "word": "WORSHIPERS",
+      "topic": "Bible and Faith",
+      "topic_id": "bible_faith",
+      "status": "UNASSIGNED",
+      "reason": "Root-only suggestion retained for triage, not grouped: substring collisions can produce unrelated topic assignments."
+    },
+    {
+      "word": "WORSHIPING",
+      "topic": "Bible and Faith",
+      "topic_id": "bible_faith",
+      "status": "UNASSIGNED",
+      "reason": "Root-only suggestion retained for triage, not grouped: substring collisions can produce unrelated topic assignments."
+    },
+    {
+      "word": "WORSHIPS",
+      "topic": "Bible and Faith",
+      "topic_id": "bible_faith",
+      "status": "UNASSIGNED",
+      "reason": "Root-only suggestion retained for triage, not grouped: substring collisions can produce unrelated topic assignments."
+    }
+  ]
+}

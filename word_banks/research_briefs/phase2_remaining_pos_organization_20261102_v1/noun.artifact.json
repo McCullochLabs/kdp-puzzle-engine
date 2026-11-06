@@ -1,0 +1,125 @@
+{
+  "schema_version": 1,
+  "research_status": "REVIEW_REQUIRED_NOT_APPROVED",
+  "group": "noun.artifact",
+  "records": [
+    {
+      "normalized": "BB",
+      "status": "pending_context_and_editorial_review",
+      "candidate_categories": [
+        "noun.artifact"
+      ],
+      "source_senses": [
+        {
+          "lemma": "BB",
+          "synset": "noun:02813874",
+          "part_of_speech": "noun",
+          "lexical_category": "noun.artifact",
+          "definition": "a small pellet fired from an air rifle or BB gun",
+          "match_type": "exact_normalized_source_lemma"
+        }
+      ]
+    },
+    {
+      "normalized": "HQ",
+      "status": "pending_context_and_editorial_review",
+      "candidate_categories": [
+        "noun.artifact"
+      ],
+      "source_senses": [
+        {
+          "lemma": "HQ",
+          "synset": "noun:03504420",
+          "part_of_speech": "noun",
+          "lexical_category": "noun.artifact",
+          "definition": "the military installation from which a commander performs the functions of command; \"the general's headquarters were a couple of large tents\"",
+          "match_type": "exact_normalized_source_lemma"
+        }
+      ]
+    },
+    {
+      "normalized": "LP",
+      "status": "pending_context_and_editorial_review",
+      "candidate_categories": [
+        "noun.artifact"
+      ],
+      "source_senses": [
+        {
+          "lemma": "LP",
+          "synset": "noun:03694639",
+          "part_of_speech": "noun",
+          "lexical_category": "noun.artifact",
+          "definition": "a long-playing phonograph record; designed to be played at 33.3 rpm",
+          "match_type": "exact_normalized_source_lemma"
+        },
+        {
+          "lemma": "L-P",
+          "synset": "noun:03694639",
+          "part_of_speech": "noun",
+          "lexical_category": "noun.artifact",
+          "definition": "a long-playing phonograph record; designed to be played at 33.3 rpm",
+          "match_type": "exact_normalized_source_lemma"
+        }
+      ]
+    },
+    {
+      "normalized": "PC",
+      "status": "pending_context_and_editorial_review",
+      "candidate_categories": [
+        "noun.artifact"
+      ],
+      "source_senses": [
+        {
+          "lemma": "PC",
+          "synset": "noun:03918480",
+          "part_of_speech": "noun",
+          "lexical_category": "noun.artifact",
+          "definition": "a small digital computer based on a microprocessor and designed to be used by one person at a time",
+          "match_type": "exact_normalized_source_lemma"
+        }
+      ]
+    },
+    {
+      "normalized": "WC",
+      "status": "pending_context_and_editorial_review",
+      "candidate_categories": [
+        "noun.artifact"
+      ],
+      "source_senses": [
+        {
+          "lemma": "W.C.",
+          "synset": "noun:04558478",
+          "part_of_speech": "noun",
+          "lexical_category": "noun.artifact",
+          "definition": "a toilet in Britain",
+          "match_type": "exact_normalized_source_lemma"
+        }
+      ]
+    },
+    {
+      "normalized": "WD",
+      "status": "pending_context_and_editorial_review",
+      "candidate_categories": [
+        "noun.artifact"
+      ],
+      "source_senses": [
+        {
+          "lemma": "4WD",
+          "synset": "noun:03389611",
+          "part_of_speech": "noun",
+          "lexical_category": "noun.artifact",
+          "definition": "a transmission that provides power directly to all four wheels of a motor vehicle",
+          "match_type": "exact_normalized_source_lemma"
+        },
+        {
+          "lemma": "4WD",
+          "synset": "noun:03389761",
+          "part_of_speech": "noun",
+          "lexical_category": "noun.artifact",
+          "definition": "a motor vehicle with a four-wheel drive transmission system",
+          "match_type": "exact_normalized_source_lemma"
+        }
+      ]
+    }
+  ]
+}

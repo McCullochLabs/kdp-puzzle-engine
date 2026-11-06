@@ -1,0 +1,151 @@
+{
+  "schema_version": 1,
+  "research_status": "REVIEW_REQUIRED_NOT_APPROVED",
+  "group": "noun.group",
+  "records": [
+    {
+      "normalized": "EC",
+      "status": "pending_context_and_editorial_review",
+      "candidate_categories": [
+        "noun.group"
+      ],
+      "source_senses": [
+        {
+          "lemma": "EC",
+          "synset": "noun:08173515",
+          "part_of_speech": "noun",
+          "lexical_category": "noun.group",
+          "definition": "an international organization of European countries formed after World War II to reduce trade barriers and increase cooperation among its members; \"he tried to take Britain into the Europen Union\"",
+          "match_type": "exact_normalized_source_lemma"
+        }
+      ]
+    },
+    {
+      "normalized": "JI",
+      "status": "pending_context_and_editorial_review",
+      "candidate_categories": [
+        "noun.group"
+      ],
+      "source_senses": [
+        {
+          "lemma": "JI",
+          "synset": "noun:08027518",
+          "part_of_speech": "noun",
+          "lexical_category": "noun.group",
+          "definition": "a clandestine group of southeast Asian terrorists organized in 1993 and trained by al-Qaeda; supports militant Muslims in Indonesia and the Philippines and has cells in Singapore and Malaysia and Indonesia",
+          "match_type": "exact_normalized_source_lemma"
+        }
+      ]
+    },
+    {
+      "normalized": "LD",
+      "status": "pending_context_and_editorial_review",
+      "candidate_categories": [
+        "noun.group"
+      ],
+      "source_senses": [
+        {
+          "lemma": "Ld.",
+          "synset": "noun:08185211",
+          "part_of_speech": "noun",
+          "lexical_category": "noun.group",
+          "definition": "a company that is organized to give its owners limited liability",
+          "match_type": "exact_normalized_source_lemma"
+        }
+      ]
+    },
+    {
+      "normalized": "NT",
+      "status": "pending_context_and_editorial_review",
+      "candidate_categories": [
+        "noun.group"
+      ],
+      "source_senses": [
+        {
+          "lemma": "NT",
+          "synset": "noun:08049125",
+          "part_of_speech": "noun",
+          "lexical_category": "noun.group",
+          "definition": "an organization concerned to preserve historic monuments and buildings and places of historical interest or natural beauty; founded in 1895 and supported by endowment and private subscription",
+          "match_type": "exact_normalized_source_lemma"
+        }
+      ]
+    },
+    {
+      "normalized": "SA",
+      "status": "pending_context_and_editorial_review",
+      "candidate_categories": [
+        "noun.group"
+      ],
+      "source_senses": [
+        {
+          "lemma": "SA",
+          "synset": "noun:08212146",
+          "part_of_speech": "noun",
+          "lexical_category": "noun.group",
+          "definition": "Nazi militia created by Hitler in 1921 that helped him to power but was eclipsed by the SS after 1943",
+          "match_type": "exact_normalized_source_lemma"
+        }
+      ]
+    },
+    {
+      "normalized": "SL",
+      "status": "pending_context_and_editorial_review",
+      "candidate_categories": [
+        "noun.group"
+      ],
+      "source_senses": [
+        {
+          "lemma": "SL",
+          "synset": "noun:08044676",
+          "part_of_speech": "noun",
+          "lexical_category": "noun.group",
+          "definition": "a terrorist group formed in Peru in the late 1960s as a splinter group from the communist party of Peru; is among the most ruthless guerilla organizations in the world; seeks to destroy Peruvian institutions and replace them with a Maoist peasant regime; is involved in the cocaine trade; \"Shining Path has been responsible for 30,000 deaths\"",
+          "match_type": "exact_normalized_source_lemma"
+        }
+      ]
+    },
+    {
+      "normalized": "SS",
+      "status": "pending_context_and_editorial_review",
+      "candidate_categories": [
+        "noun.group"
+      ],
+      "source_senses": [
+        {
+          "lemma": "SS",
+          "synset": "noun:08211924",
+          "part_of_speech": "noun",
+          "lexical_category": "noun.group",
+          "definition": "special police force in Nazi Germany founded as a personal bodyguard for Adolf Hitler in 1925; the SS administered the concentration camps",
+          "match_type": "exact_normalized_source_lemma"
+        },
+        {
+          "lemma": "SS",
+          "synset": "noun:08348400",
+          "part_of_speech": "noun",
+          "lexical_category": "noun.group",
+          "definition": "the United States intelligence agency that protects current and former presidents and vice presidents and their immediate families and protects distinguished foreign visitors; detects and apprehends counterfeiters; suppresses forgery of government securities and documents",
+          "match_type": "exact_normalized_source_lemma"
+        }
+      ]
+    },
+    {
+      "normalized": "UN",
+      "status": "pending_context_and_editorial_review",
+      "candidate_categories": [
+        "noun.group"
+      ],
+      "source_senses": [
+        {
+          "lemma": "UN",
+          "synset": "noun:08295580",
+          "part_of_speech": "noun",
+          "lexical_category": "noun.group",
+          "definition": "an organization of independent states formed in 1945 to promote international peace and security",
+          "match_type": "exact_normalized_source_lemma"
+        }
+      ]
+    }
+  ]
+}

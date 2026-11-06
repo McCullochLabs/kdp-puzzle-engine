@@ -204,7 +204,11 @@ def build_word_pool(store, taxonomy, request: PoolRequest,
     specialties = roles["specialty"]
     usage: dict[str, int] = {n: 0 for n in all_eligible}
 
-    def take(pool: list[str], count: int, prefer: set[str]) -> list[str]:
+    ranked = list(all_eligible)
+    rng.shuffle(ranked)
+    selection_rank = {word: index for index, word in enumerate(ranked)}
+
+    def take(pool: list[str], count: int, prefer: set[str], strict: bool = False) -> list[str]:
         """Pop up to ``count`` words honouring the reuse cap.
 
         Words inside ``prefer`` (this puzzle's primary cluster) are drawn
@@ -220,11 +224,11 @@ def build_word_pool(store, taxonomy, request: PoolRequest,
             usable = [w for w in pool
                       if usage[w] <= max_reuse and w not in taken_set]
             preferred = [w for w in usable if w in prefer]
-            if preferred:
+            if preferred or strict:
                 usable = preferred
             if not usable:
                 break
-            pick = min(usable, key=lambda w: (usage[w], w))
+            pick = min(usable, key=lambda w: (usage[w], selection_rank[w]))
             if max_reuse == 0:
                 # Unique-only mode keeps the historic behaviour: a chosen
                 # word leaves the candidate pool entirely.
@@ -244,6 +248,17 @@ def build_word_pool(store, taxonomy, request: PoolRequest,
 
     for index in range(request.puzzle_count):
         primary = rotation[index]
+        # Do not scatter the last few words of tiny mini-themes through a
+        # full puzzle when another on-topic cluster can fill it completely.
+        remaining_clusters = {}
+        for word, cluster in word_clusters.items():
+            if usage[word] <= max_reuse:
+                remaining_clusters[cluster] = remaining_clusters.get(cluster, 0) + 1
+        complete = {cluster for cluster, size in remaining_clusters.items()
+                    if size >= request.words_per_puzzle}
+        strict_primary = bool(request.cluster_aware and complete)
+        if strict_primary and primary not in complete:
+            primary = GENERAL_CLUSTER if GENERAL_CLUSTER in complete else sorted(complete, key=lambda cluster: (-remaining_clusters[cluster], cluster))[0]
         puzzle: list[str] = []
 
         def draw(pool: list[str], count: int) -> None:
@@ -251,7 +266,7 @@ def build_word_pool(store, taxonomy, request: PoolRequest,
                 return
             prefer = {w for w in pool
                       if word_clusters.get(w, GENERAL_CLUSTER) == primary}
-            puzzle.extend(take(pool, count, prefer))
+            puzzle.extend(take(pool, count, prefer, strict=strict_primary))
 
         draw(anchors, anchor_target_by_puzzle)
         draw(specialties, min(specialty_cap, len(specialties)))
@@ -273,7 +288,13 @@ def build_word_pool(store, taxonomy, request: PoolRequest,
         # reproducible without returning A-to-Z lists.
         rng.shuffle(puzzle)
         result.puzzles.append(list(puzzle))
-        result.puzzle_clusters.append(primary)
+        # A narrow title is allowed only when every word actually belongs to
+        # that mini-theme.  Soft-preference top-ups make a good mixed puzzle,
+        # but must receive the honest general-topic label instead.
+        strict_cluster = primary if primary != GENERAL_CLUSTER and all(
+            word_clusters.get(word, GENERAL_CLUSTER) == primary for word in puzzle
+        ) else GENERAL_CLUSTER
+        result.puzzle_clusters.append(strict_cluster)
 
     placed = sum(len(p) for p in result.puzzles)
     reused_slots = sum(count - 1 for count in usage.values() if count > 1)

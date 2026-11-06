@@ -11,6 +11,7 @@ from __future__ import annotations
 import argparse, json, math, os, random, string
 from reportlab.pdfgen import canvas
 from reportlab.pdfgen.canvas import Canvas
+from educational_value import is_educational_context
 from reportlab.lib.pagesizes import letter
 
 PAGE_W, PAGE_H = letter            # 612 x 792 pt  (8.5 x 11 in)
@@ -23,6 +24,7 @@ Cell = tuple[int, int]
 Grid = list[list[str]]
 
 from font_utils import pdf_font_candidates, register_pdf_font
+from publishing.title_pages import render_title_page, spec_from_mapping
 
 PDF_FONT_FAMILIES = {
     "Sans":  "sans",
@@ -56,9 +58,10 @@ def register_fonts() -> None:
 
 
 # ---------------- puzzle generation ----------------
-def _try_place(grid: Grid, word: str, N: int) -> list[Cell] | None:
-    dr, dc = random.choice(DIRS)
-    r, c = random.randint(0, N - 1), random.randint(0, N - 1)
+def _try_place(grid: Grid, word: str, N: int, *, directions=None, rng=None) -> list[Cell] | None:
+    rng = rng if rng is not None else random
+    dr, dc = rng.choice(DIRS if directions is None else directions)
+    r, c = rng.randint(0, N - 1), rng.randint(0, N - 1)
     cells: list[Cell] = []
     for k, ch in enumerate(word):
         rr, cc = r + dr * k, c + dc * k
@@ -73,7 +76,18 @@ def _try_place(grid: Grid, word: str, N: int) -> list[Cell] | None:
     return cells
 
 
-def generate_puzzle(words: list[str], N: int = GRID_N) -> tuple[Grid, list[list[Cell]], list[str]]:
+def validate_word_set(words: list[str], N: int = GRID_N) -> None:
+    """Shared pre-placement contract for planners and the grid generator."""
+    if not words or len(words) != len(set(words)) or any(not w or not w.isascii() or not w.isalpha() or w != w.upper() or len(w) > N for w in words):
+        raise ValueError('Every target must be unique uppercase A-Z text that fits the grid; revise the word list.')
+    # Embedded targets can make a unique physical answer impossible.
+    for short in words:
+        hosts = [long for long in words if long != short and (short in long or short in long[::-1])]
+        if len(hosts) > 1 or any(long.count(short) > 1 for long in hosts):
+            raise ValueError(f'Target {short} is embedded in multiple answers; replace it.')
+
+
+def generate_puzzle(words: list[str], N: int = GRID_N, *, directions=None, rng=None, content_policy="general") -> tuple[Grid, list[list[Cell]], list[str]]:
     """Place every word when possible, retrying a whole grid before accepting less.
 
     A greedy placement can occasionally paint itself into a corner even for a
@@ -81,31 +95,45 @@ def generate_puzzle(words: list[str], N: int = GRID_N) -> tuple[Grid, list[list[
     stable and prevents a different seed from passing a check then losing a
     word in the finished PDF.
     """
+    rng = rng if rng is not None else random
+    if directions is not None and (not directions or any(tuple(d) not in DIRS for d in directions)):
+        raise ValueError("Directions must be a nonempty subset of the eight unit directions.")
+    from publishing.puzzle_integrity import verify_wordsearch, occurrences
+    if content_policy not in ("general", "adult_intended_profanity"):
+        raise ValueError("Unsupported word-search content policy.")
+    validate_word_set(words, N)
     ordered = sorted(words, key=len, reverse=True)
     best: tuple[Grid, list[list[Cell]], list[str]] | None = None
-    for _attempt in range(30):
+    last_errors = []
+    for _attempt in range(200):
         grid: Grid = [["" for _ in range(N)] for _ in range(N)]
         placements: list[list[Cell]] = []
         placed: list[str] = []
         for word in ordered:
-            cells = None
-            for _ in range(500):
-                cells = _try_place(grid, word, N)
+            existing = occurrences(grid, word)
+            cells = next((path for path in existing if len(path)<2 or
+                          (path[1][0]-path[0][0],path[1][1]-path[0][1]) in (directions or DIRS)),None)
+            for _ in range(0 if cells else 500):
+                cells = _try_place(grid, word, N, directions=directions, rng=rng)
                 if cells:
                     break
             if cells:
                 placements.append(cells); placed.append(word)
         if best is None or len(placed) > len(best[2]):
             best = (grid, placements, placed)
-        if len(placed) == len(ordered):
-            break
+        if len(placed) != len(ordered):
+            continue
+        for row in grid:
+            for col in range(N):
+                if not row[col]:
+                    row[col] = rng.choice(string.ascii_uppercase)
+        last_errors = verify_wordsearch(grid, placements, placed, words, directions, content_policy=content_policy)
+        if not last_errors:
+            return grid, placements, placed
     assert best is not None
-    grid, placements, placed = best
-    for r in range(N):
-        for c in range(N):
-            if not grid[r][c]:
-                grid[r][c] = random.choice(string.ascii_uppercase)
-    return grid, placements, placed
+    missing = sorted(set(words) - set(best[2]))
+    detail = '; '.join(last_errors[:5]) if last_errors else f'Missing targets: {missing}'
+    raise ValueError(f'No complete, unambiguous grid after 200 attempts. {detail}. Revise the word list or grid size.')
 
 
 def grid_size_for(words: list[str]) -> int:
@@ -126,11 +154,15 @@ def grid_size_for(words: list[str]) -> int:
 
 # ---------------- drawing helpers ----------------
 def draw_grid(c: Canvas, grid: Grid, gx: float, gy_top: float, cell: float,
-              font_size: float, highlights: list[list[Cell]] | None = None) -> None:
+              font_size: float, highlights: list[list[Cell]] | None = None, *, grayscale: bool = False) -> None:
     N = len(grid)
+    regions = getattr(c, '_puzzle_text_regions', [])
+    regions.append(dict(page=c.getPageNumber(), role='solution' if highlights else 'puzzle',
+                        bounds=[gx,gy_top-N*cell,gx+N*cell,gy_top], font_pt=font_size))
+    c._puzzle_text_regions = regions
     h = N * cell
     # faint internal gridlines
-    c.setLineWidth(0.5)
+    c.setLineWidth(0.75)
     c.setStrokeColorRGB(0.86, 0.86, 0.86)
     for i in range(N + 1):
         c.line(gx + i * cell, gy_top, gx + i * cell, gy_top - h)
@@ -138,7 +170,10 @@ def draw_grid(c: Canvas, grid: Grid, gx: float, gy_top: float, cell: float,
     # solution highlighters (drawn UNDER the letters)
     if highlights:
         c.setLineCap(1)
-        c.setStrokeColorRGB(1.0, 0.78, 0.20)
+        if grayscale:
+            c.setStrokeGray(0.65)
+        else:
+            c.setStrokeColorRGB(1.0, 0.78, 0.20)
         c.setStrokeAlpha(0.5)
         c.setLineWidth(cell * 0.72)
         for cells in highlights:
@@ -171,7 +206,14 @@ def draw_word_list(c: Canvas, words: list[str], gx: float, top_y: float,
     # Preserve the seeded, editorially mixed order supplied by the book plan.
     # Alphabetizing here made every finished puzzle read like a dictionary.
     words = list(words)
+    # Fit the actual printed words before drawing, preserving font size/order.
+    widest = max((c.stringWidth(w, 'Sans', word_font) for w in words), default=0)
+    while cols > 1 and widest > grid_w / cols - 16:
+        cols -= 1
     rows = math.ceil(len(words) / cols)
+    regions = getattr(c, '_puzzle_text_regions', [])
+    regions.append(dict(page=c.getPageNumber(),role='word_list',bounds=[gx,top_y-heading_font-10-rows*row_step,gx+grid_w,top_y],font_pt=word_font))
+    c._puzzle_text_regions = regions
     col_w = grid_w / cols
     c.setFont("Sans", word_font)
     start_y = top_y - heading_font - 10
@@ -179,6 +221,8 @@ def draw_word_list(c: Canvas, words: list[str], gx: float, top_y: float,
         col, row = i // rows, i % rows
         x = gx + col * col_w + 8
         y = start_y - row * row_step
+        if c.stringWidth(w,'Sans',word_font)>col_w-16 or y<54:
+            raise ValueError(f'Word-list layout would clip {w}; use fewer or shorter targets.')
         c.drawString(x, y, w)
 
 
@@ -189,37 +233,11 @@ def footer(c: Canvas, page_no: int) -> None:
 
 
 # ---------------- pages ----------------
-def front_matter(c: Canvas, title: str, subtitle: str, author: str) -> None:
-    # title page
-    c.setFillColorRGB(0.10, 0.10, 0.10)
-    title_lines = _wrap(title.upper(), 16)
-    title_top = PAGE_H - 220
-    title_step = 38
-    for i, line in enumerate(title_lines):
-        # Character wrapping alone is not enough for wide capital letters.
-        # Keep every title line within the same print-safe area as the puzzles.
-        title_font = 30
-        while title_font > 14:
-            c.setFont("SansB", title_font)
-            if c.stringWidth(line, "SansB", title_font) <= PAGE_W - (MARGIN * 2):
-                break
-            title_font -= 1
-        c.setFont("SansB", title_font)
-        c.drawCentredString(PAGE_W / 2, title_top - i * title_step, line)
-    title_bottom = title_top - max(0, len(title_lines) - 1) * title_step
-    subtitle_top = title_bottom - 46
-    c.setFont("Sans", 15)
-    subtitle_lines = _wrap(subtitle, 40)
-    for i, line in enumerate(subtitle_lines):
-        c.drawCentredString(PAGE_W / 2, subtitle_top - i * 22, line)
-    subtitle_bottom = subtitle_top - max(0, len(subtitle_lines) - 1) * 22
-    c.setStrokeColorRGB(0.7, 0.7, 0.7)
-    c.setLineWidth(1)
-    rule_y = subtitle_bottom - 32
-    c.line(PAGE_W / 2 - 80, rule_y, PAGE_W / 2 + 80, rule_y)
-    c.setFont("Sans", 13)
-    c.drawCentredString(PAGE_W / 2, 120, author)
-    c.showPage()
+def front_matter(c: Canvas, title: str, subtitle: str, author: str, data: dict | None = None) -> None:
+    data = data or {}
+    metadata = dict(data)
+    metadata.update({"title": title, "subtitle": subtitle, "author": author, "puzzle_type": "Word Search"})
+    render_title_page(c, spec_from_mapping(metadata, puzzle_type="Word Search"), page_size=(PAGE_W, PAGE_H), margin=MARGIN, regular_font="Sans", bold_font="SansB")
 
     # copyright page
     c.setFillColorRGB(0.2, 0.2, 0.2)
@@ -244,11 +262,12 @@ def front_matter(c: Canvas, title: str, subtitle: str, author: str) -> None:
     c.setFont("SansB", 22)
     c.drawCentredString(PAGE_W / 2, PAGE_H - 140, "HOW TO PLAY")
     c.setFont("Sans", 13)
+    from publishing.studio_reader_profiles import reader_profile
+    instruction = reader_profile(data.get('reader_profile', 'standard'))['instructions']
     how = [
         "Each puzzle hides a list of words in a grid of letters.",
         "",
-        "Words run in straight lines - across, down, diagonally,",
-        "and sometimes backwards.",
+        *(["Words run left to right or top to bottom.", "No diagonal or backwards words."] if data.get("reader_profile") == "ages_6_8" else ["Words run forwards across, down or diagonally down.", "No backwards words."] if data.get("reader_profile") == "ages_9_12" else ["Words run in straight lines - across, down, diagonally,", "and sometimes backwards."]),
         "",
         "Find every word in the list and circle it in the grid.",
         "",
@@ -366,7 +385,8 @@ def section_divider_page(c: Canvas, section: dict, page_no: int, running_title: 
 
 
 def puzzle_page(c: Canvas, idx: int, name: str, grid: Grid, words: list[str],
-                 page_no: int, running_title: str, section: dict | None = None) -> None:
+                 page_no: int, running_title: str, section: dict | None = None,
+                 educational: bool = False, vocabulary_note: str = "", reader_key: str = 'standard') -> None:
     c.setFillColorRGB(0.5, 0.5, 0.5)
     c.setFont("Sans", 10)
     c.drawCentredString(PAGE_W / 2, PAGE_H - 40, running_title)
@@ -377,7 +397,12 @@ def puzzle_page(c: Canvas, idx: int, name: str, grid: Grid, words: list[str],
     c.drawString(MARGIN, PAGE_H - 64, f"PUZZLE {idx}")
     c.setFillColorRGB(*accent)
     c.setFont("SansB", 9)
-    chapter_label = f"CHAPTER {section.get('chapter', 1)}"
+    from publishing.puzzle_integrity import wordsearch_difficulty
+    # Layout receives the finished grid; recover physical paths for a measured label.
+    from publishing.puzzle_integrity import occurrences
+    paths = [occurrences(grid,w)[0] for w in words]
+    measured = wordsearch_difficulty(grid,paths,words)
+    chapter_label = f"CHAPTER {section.get('chapter', 1)} | {measured['label'].upper()}"
     c.drawRightString(PAGE_W - MARGIN, PAGE_H - 64, chapter_label)
     # Long themed puzzle names must never enter the trim or gutter area.  A
     # centered heading can otherwise look fine on screen while extending past
@@ -411,12 +436,38 @@ def puzzle_page(c: Canvas, idx: int, name: str, grid: Grid, words: list[str],
         cell, letter_font = 22, 13
         list_settings = {"heading_font": 10, "word_font": 10, "row_step": 14}
     grid_w = N * cell
+    from publishing.studio_reader_profiles import reader_profile
+    profile = reader_profile(reader_key)
+    letter_font = max(letter_font,profile.get('minimum_grid_font_pt',14))
+    list_settings['word_font'] = max(list_settings['word_font'],profile.get('minimum_word_font_pt',12))
+    gy_top = PAGE_H - 122
+    list_width = PAGE_W - 2 * MARGIN
+    widest = max((c.stringWidth(w, 'Sans', list_settings['word_font']) for w in words), default=0)
+    list_cols = 3
+    while list_cols > 1 and widest > list_width / list_cols - 16:
+        list_cols -= 1
+    list_rows = math.ceil(len(words) / list_cols)
+    list_height = list_settings['heading_font'] + 10 + list_rows * list_settings['row_step']
+    available_grid_height = gy_top - 26 - 54 - list_height
+    cell = min(cell, available_grid_height / N)
+    if cell < max(18, letter_font + 4):
+        raise ValueError('The grid and all targets do not fit at readable type sizes; review this puzzle layout.')
+    grid_w = N * cell
     gx = (PAGE_W - grid_w) / 2
-    gy_top = PAGE_H - 122          # grid bottom = 670 - 450 = 220
     draw_grid(c, grid, gx, gy_top, cell, letter_font)
 
-    draw_word_list(c, words, gx, gy_top - N * cell - 26, grid_w, cols=3,
+    draw_word_list(c, words, MARGIN, gy_top - N * cell - 26, list_width, cols=list_cols,
                    **list_settings)
+    if educational and words:
+        spotlight = words[(idx - 1) % len(words)].title()
+        prompt = vocabulary_note.strip() or f"Use {spotlight} in a sentence after you solve this puzzle."
+        c.setFillColorRGB(*accent); c.setFont("SansB", 8.5)
+        c.drawString(MARGIN, 54, f"WORD SPOTLIGHT: {spotlight.upper()}")
+        c.setFillColorRGB(.34, .34, .34); c.setFont("Sans", 8.5)
+        available = PAGE_W - MARGIN - 176
+        while c.stringWidth(prompt, "Sans", 8.5) > available and len(prompt) > 24:
+            prompt = prompt[:-4].rstrip() + "..."
+        c.drawRightString(PAGE_W - MARGIN, 54, prompt)
     footer(c, page_no)
     c.showPage()
 
@@ -451,6 +502,12 @@ def themed_welcome_page(c: Canvas, data: dict, title: str) -> None:
     c.showPage()
 
 
+def tracker_puzzle_name(puzzles: list[dict], index: int, max_chars: int = 28) -> str:
+    """Return the real mini-theme used by the puzzle tracker."""
+    name = str(puzzles[index - 1].get("name", f"Puzzle {index}"))
+    return name if len(name) <= max_chars else name[:max_chars - 3].rstrip() + "..."
+
+
 def detail_pages(c: Canvas, data: dict, puzzles: list[dict], running_title: str) -> int:
     """Add two useful, truth-safe collection pages to every new book.
 
@@ -464,6 +521,7 @@ def detail_pages(c: Canvas, data: dict, puzzles: list[dict], running_title: str)
     audience = str(data.get("audience") or "Adults & Teens").strip()
     difficulty = str(data.get("difficulty_label") or "Relaxing").strip()
     count = len(puzzles)
+    educational = is_educational_context(topic, data.get("series"), data.get("title"), data.get("subtitle"))
 
     # Collection guide
     c.setFillColorRGB(0.10, 0.10, 0.10)
@@ -493,29 +551,48 @@ def detail_pages(c: Canvas, data: dict, puzzles: list[dict], running_title: str)
     # Reader notes / favorite tracker — useful for every topic and audience.
     c.setFillColorRGB(0.10, 0.10, 0.10)
     c.setFont("SansB", 25)
-    c.drawCentredString(PAGE_W / 2, PAGE_H - 130, "MY PUZZLE NOTES")
+    c.drawCentredString(PAGE_W / 2, PAGE_H - 130, "MY VOCABULARY PROGRESS" if educational else "MY PUZZLE NOTES")
     c.setFont("Sans", 13)
     c.drawCentredString(PAGE_W / 2, PAGE_H - 160, "Keep track of the puzzles and words you enjoyed most.")
     c.setStrokeColorRGB(0.45, 0.45, 0.45); c.setLineWidth(1)
-    c.roundRect(MARGIN, PAGE_H - 360, PAGE_W - MARGIN * 2, 140, 8, stroke=1, fill=0)
+    # Educational trackers include a fourth writing prompt. Give that prompt its
+    # own space inside the panel instead of letting it collide with the border.
+    tracker_panel_y = PAGE_H - (390 if educational else 360)
+    tracker_panel_height = 170 if educational else 140
+    c.roundRect(
+        MARGIN,
+        tracker_panel_y,
+        PAGE_W - MARGIN * 2,
+        tracker_panel_height,
+        8,
+        stroke=1,
+        fill=0,
+    )
     c.setFont("SansB", 13)
     c.drawString(MARGIN + 20, PAGE_H - 252, "My favorite puzzle:")
     c.line(MARGIN + 160, PAGE_H - 255, PAGE_W - MARGIN - 24, PAGE_H - 255)
-    c.drawString(MARGIN + 20, PAGE_H - 292, "A word I want to remember:")
+    c.drawString(MARGIN + 20, PAGE_H - 292, "A new word I learned:" if educational else "A word I want to remember:")
     c.line(MARGIN + 200, PAGE_H - 295, PAGE_W - MARGIN - 24, PAGE_H - 295)
     c.drawString(MARGIN + 20, PAGE_H - 332, "My next puzzle:")
     c.line(MARGIN + 145, PAGE_H - 335, PAGE_W - MARGIN - 24, PAGE_H - 335)
+    if educational:
+        c.setFont("SansB", 13); c.drawString(MARGIN + 20, PAGE_H - 372, "Use that word in a sentence:")
+        c.line(MARGIN + 205, PAGE_H - 375, PAGE_W - MARGIN - 24, PAGE_H - 375)
     c.setFont("SansB", 15)
-    c.drawString(MARGIN, PAGE_H - 420, "PUZZLES I LOVED")
+    loved_heading_y = PAGE_H - (435 if educational else 420)
+    c.drawString(MARGIN, loved_heading_y, "PUZZLES I LOVED")
     c.setFont("Sans", 12)
-    y = PAGE_H - 452
+    y = PAGE_H - (467 if educational else 452)
     for index in range(1, min(count, 12) + 1):
         col = 0 if index <= 6 else 1
         row = (index - 1) % 6
         x = MARGIN + col * 265
         yy = y - row * 34
         c.rect(x, yy - 8, 11, 11, stroke=1, fill=0)
-        name = str(puzzles[index - 1].get("name", f"Puzzle {index}"))[:28]
+        # Educational books are themed too.  Repeating a generic
+        # "Vocabulary Practice" label hid the actual mini-theme and made the
+        # tracker look unfinished even when every puzzle was correctly named.
+        name = tracker_puzzle_name(puzzles, index)
         c.drawString(x + 20, yy - 7, f"{index:02d}. {name}")
     c.setFillColorRGB(0.45, 0.45, 0.45)
     c.setFont("Sans", 9)
@@ -538,6 +615,10 @@ def signature_pages(c: Canvas, puzzles: list[dict], running_title: str, config: 
         heading = str(config.get("passport_title", "PUZZLE PASSPORT")).upper()
         if len(puzzles) > passport_per_page:
             heading += f" - PAGE {start // passport_per_page + 1}"
+        heading_size = 26
+        while c.stringWidth(heading, "SansB", heading_size) > PAGE_W - 2 * MARGIN and heading_size > 8:
+            heading_size -= 0.5
+        c.setFont("SansB", heading_size)
         c.drawCentredString(PAGE_W / 2, PAGE_H - 110, heading)
         c.setFont("Sans", 12)
         c.drawCentredString(PAGE_W / 2, PAGE_H - 138, "Check off each puzzle as you complete it.")
@@ -546,12 +627,18 @@ def signature_pages(c: Canvas, puzzles: list[dict], running_title: str, config: 
         for offset, puzzle in enumerate(page_puzzles):
             index = start + offset + 1
             col, row = divmod(offset, entries_per_column)
-            x = MARGIN + col * 280
+            column_width = (PAGE_W - 2 * MARGIN) / 2
+            x = MARGIN + col * column_width
             y = PAGE_H - 185 - row * row_step
             c.rect(x, y - 9, 11, 11, stroke=1, fill=0)
             c.setFont("Sans", 9)
-            label = str(puzzle.get("name", f"Puzzle {index}"))[:34]
-            c.drawString(x + 18, y - 7, f"{index:02d}. {label}")
+            label = f"{index:02d}. {puzzle.get('name', f'Puzzle {index}')}"
+            max_label_width = column_width - 30
+            if c.stringWidth(label, "Sans", 9) > max_label_width:
+                while label and c.stringWidth(label + "...", "Sans", 9) > max_label_width:
+                    label = label[:-1]
+                label = label.rstrip() + "..."
+            c.drawString(x + 18, y - 7, label)
         c.showPage()
     c.setFillColorRGB(0.1, 0.1, 0.1)
     c.setFont("SansB", 28)
@@ -587,7 +674,7 @@ def signature_pages(c: Canvas, puzzles: list[dict], running_title: str, config: 
 
 
 def solutions_pages(c: Canvas, solutions: list[tuple[int, str, Grid, list[list[Cell]]]],
-                     page_no_start: int, running_title: str) -> int:
+                     page_no_start: int, running_title: str, *, grayscale: bool = False) -> int:
     page_no = page_no_start
     # section divider
     c.setFillColorRGB(0.1, 0.1, 0.1)
@@ -611,8 +698,8 @@ def solutions_pages(c: Canvas, solutions: list[tuple[int, str, Grid, list[list[C
             cell = min(17, 260 / N)
             grid_w = N * cell
             gx = (PAGE_W - grid_w) / 2
-            draw_grid(c, grid, gx, slot - 16, cell, max(7, int(cell * 0.58)),
-                      highlights=placements)
+            draw_grid(c, grid, gx, slot - 16, cell, max(9, int(cell * 0.58)),
+                      highlights=placements, grayscale=grayscale)
         footer(c, page_no)
         c.showPage()
         page_no += 1
@@ -648,7 +735,7 @@ def back_matter(c: Canvas, author: str, also_from: list[dict]) -> None:
     # five star icons drawn as polygons (no font glyph dependency)
     c.setFillColorRGB(0.95, 0.78, 0.12)
     c.setStrokeColorRGB(0.7, 0.55, 0.08)
-    c.setLineWidth(0.6)
+    c.setLineWidth(0.75)
     import math as _m
     star_y = PAGE_H - 510
     spacing = 32
@@ -704,7 +791,7 @@ def back_matter(c: Canvas, author: str, also_from: list[dict]) -> None:
         "large print, made to be easy on the eyes and a pleasure to solve.",
         "",
         "We believe a puzzle book should slow time down, not race it.",
-        "We make every book by hand and care a great deal about quality.",
+        "We plan each collection with care and review its puzzles for quality.",
         "",
         "Thank you for spending your time with one of our books.",
     ]
@@ -729,12 +816,16 @@ def _wrap(text: str, width: int) -> list[str]:
     return lines or [text]
 
 
-def clean_words(words: list[str]) -> list[str]:
+def clean_words(words: list[str], *, strict: bool = True) -> list[str]:
     out: list[str] = []
     for w in words:
         w = "".join(ch for ch in w.upper() if ch.isalpha())
+        if strict and (not w or not w.isascii() or len(w) > MAX_GRID_N):
+            raise ValueError(f'Target {w!r} must contain 1–{MAX_GRID_N} A-Z letters; replace it before building.')
         if w and len(w) <= MAX_GRID_N:
             out.append(w)
+    if strict and len(out) != len(set(out)):
+        raise ValueError('Two targets normalize to the same word; replace the duplicate.')
     return out
 
 
@@ -764,13 +855,22 @@ def main() -> None:
     running = title
     puzzles = data["puzzles"][:max(1, a.preview_puzzles)] if a.preview_puzzles else data["puzzles"]
 
+    if data.get("interior_profile") == "memories_large_print_v1":
+        from publishing.accessible_wordsearch import render
+        if a.preview_puzzles or a.signature_edition:
+            raise SystemExit("The accessible 80-puzzle profile requires its complete standard-edition source.")
+        report = render({**data, "title": title, "subtitle": subtitle, "author": author}, a.out, a.seed)
+        print(f"DONE -> {a.out}: {report['puzzle_count']} puzzles, {report['page_count']} pages; human review pending")
+        return
+
     os.makedirs(os.path.dirname(a.out) or ".", exist_ok=True)
     register_fonts()
-    c = canvas.Canvas(a.out, pagesize=letter)
+    c = canvas.Canvas(a.out, pagesize=letter, initialFontName="Sans")
     c.setTitle(title)
     c.setAuthor(author)
 
-    front_matter(c, title, subtitle, author)
+    data["puzzle_count"] = len(puzzles)
+    front_matter(c, title, subtitle, author, data)
     themed_welcome_page(c, data, title)
     detail_pages(c, data, puzzles, running)
     # Signature pages are an edition choice made at package time.  Saved theme
@@ -783,20 +883,39 @@ def main() -> None:
     solutions = []
     page_no = 1
     section_plan = interior_section_plan(data, puzzles)
+    topic_text = (str(data.get("detected_topic") or "") + " " + str(data.get("series") or "")).casefold()
+    educational = any(token in topic_text for token in ("vocabulary", "grade school", "middle school", "high school"))
+    from word_intelligence.page_titles import puzzle_page_title
+    records = []
+    from publishing.puzzle_integrity import write_manifest, wordsearch_difficulty
     for i, p in enumerate(puzzles, start=1):
         section = section_plan[i - 1]
         if section["starts_section"] and section["divider_pages"]:
             section_divider_page(c, section, page_no, running)
             page_no += 1
         words = clean_words(p["words"])
-        grid, placements, placed = generate_puzzle(words, N=grid_size_for(words))
-        puzzle_page(c, i, p["name"], grid, placed, page_no, running, section)
-        solutions.append((i, p["name"], grid, placements))
-        if len(placed) < len(words):
-            print(f"  note: puzzle {i} '{p['name']}' placed {len(placed)}/{len(words)} words")
+        from publishing.studio_reader_profiles import reader_profile, word_suits_reader, check_reader_topic
+        reader_key = data.get('reader_profile', 'standard')
+        profile = reader_profile(reader_key)
+        check_reader_topic(data.get('detected_topic', ''), reader_key)
+        if any(not word_suits_reader(word, reader_key) for word in words):
+            raise ValueError('The word list no longer fits its reader profile. Refresh the checked word plan.')
+        n = grid_size_for(words) if reader_key == 'standard' else max(profile['grid'], max(map(len, words)))
+        grid, placements, placed = generate_puzzle(words, N=n, directions=profile['directions'])
+        records.append(dict(number=i, type='word_search', grid=grid, placements=placements, words=placed,
+                            intended_words=words, directions=profile['directions'], puzzle_page=c.getPageNumber(),
+                            solution_grid=grid, solution_placements=placements,
+                            difficulty=wordsearch_difficulty(grid,placements,placed)))
+        page_title = puzzle_page_title(data, p, i)
+        vocabulary_note = str(p.get("vocabulary_note") or p.get("usage_prompt") or "")
+        puzzle_page(c, i, page_title, grid, words, page_no, running, section, educational, vocabulary_note, reader_key)
+        solutions.append((i, page_title, grid, placements))
         page_no += 1
 
+    solution_start = c.getPageNumber() + 1
     solutions_pages(c, solutions, page_no, running)
+    for index, record in enumerate(records):
+        record['solution_page'] = solution_start + index // 2
 
     # Back-matter: review request + cross-sell + about
     also_from = data.get("also_from", [])
@@ -810,6 +929,7 @@ def main() -> None:
         c.showPage()
 
     c.save()
+    write_manifest(a.out, records, getattr(c,'_puzzle_text_regions',[]))
 
     n_puzzles = len(puzzles)
     size_kb = os.path.getsize(a.out) / 1024

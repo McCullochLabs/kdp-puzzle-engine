@@ -1,0 +1,24 @@
+{
+  "date": "2026-10-09",
+  "grouped_exclusion_policy": "Exclude master word groups, merged editorial-overlay topic membership, and trusted/approved saved-store links. Catalog unassigned labels may be stale.",
+  "dictionary_and_store_unique_words": 381130,
+  "already_grouped_unique_words": 32558,
+  "ungrouped_before": 350550,
+  "organized_unique_words": 520,
+  "proposed_group_links": 537,
+  "focused_niches": 36,
+  "niches_with_candidates": 36,
+  "exact_niche_unique_words": 520,
+  "root_suggestion_links_retained_for_triage_only": 630,
+  "still_unassigned": 350030,
+  "held_candidate_links": 0,
+  "remaining_under_3_letters": 453,
+  "remaining_over_18_letters": 1420,
+  "source_sha256": {
+    "word_banks\\Guided_Builder_Master_Word_Bank.json": "111d3fcead5a3479bb2efec505d2d0c5a8fbec4a9e58f60349c677390b394b73",
+    "word_banks\\source_data\\dwyl_topic_candidate_catalog.json": "68a3cf2f7665bb3d647184eba105228a3ce316c4f64c9f78f5335d843c535cbf",
+    "word_banks\\word_intelligence\\word_store.json": "9e350e4cd65a7968591302f658acb704ca87cd23491a033ffb4623189924b6d8",
+    "word_banks\\editorial_wordsearch_topic_overlay.json": "93ce59b25443e0dd9be76cfd7596a1094417740893445511be3a0134a60f21c4",
+    "word_search_creator.py": "7e8974d1d32f889d755e247463a5fdd4acc631ef44712c412a22fe0a5ec02735"
+  }
+}

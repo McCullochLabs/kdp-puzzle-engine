@@ -1,0 +1,41 @@
+{
+  "schema_version": 1,
+  "research_status": "REVIEW_REQUIRED_NOT_APPROVED",
+  "group": "noun.cognition",
+  "records": [
+    {
+      "normalized": "EE",
+      "status": "pending_context_and_editorial_review",
+      "candidate_categories": [
+        "noun.cognition"
+      ],
+      "source_senses": [
+        {
+          "lemma": "EE",
+          "synset": "noun:06128024",
+          "part_of_speech": "noun",
+          "lexical_category": "noun.cognition",
+          "definition": "the branch of engineering science that studies the uses of electricity and the equipment for power generation and distribution and the control of machines and communication",
+          "match_type": "exact_normalized_source_lemma"
+        }
+      ]
+    },
+    {
+      "normalized": "IT",
+      "status": "pending_context_and_editorial_review",
+      "candidate_categories": [
+        "noun.cognition"
+      ],
+      "source_senses": [
+        {
+          "lemma": "IT",
+          "synset": "noun:06134510",
+          "part_of_speech": "noun",
+          "lexical_category": "noun.cognition",
+          "definition": "the branch of engineering that deals with the use of computers and telecommunications to retrieve and store and transmit information",
+          "match_type": "exact_normalized_source_lemma"
+        }
+      ]
+    }
+  ]
+}

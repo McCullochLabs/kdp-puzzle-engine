@@ -15,6 +15,7 @@ TOPIC_GROUPS = {
     "Space & Astronomy": ("Space & Astronomy",),
     "Garden & Growing": ("Gardening", "Gardening & Garden Life", "Homesteading", "Herbs Fruits and Vegetables"),
     "Travel & Adventure": ("Travel & World Discovery", "Travel Road Trips and Getaways", "Outdoor Adventure", "National Parks"),
+    "Road Trips & Highways": ("Travel Road Trips and Getaways", "Vehicles & Automotive", "Outdoor Adventure"),
     "Pets & Animal Life": ("Cats & Pets", "Dogs & Pets", "Pets and Animal Care", "Birdwatching & Wildlife"),
     "Holidays & Seasons": ("Christmas", "Christmas and Winter", "Halloween", "Halloween Autumn and Harvest", "Holiday and Seasonal Life", "Holidays", "Easter and Spring"),
     "History & Heritage": ("American History", "American Heritage", "World War II History"),
@@ -29,6 +30,7 @@ FAMILY_PACKS = {
     "Space & Astronomy": ("Planets & Solar System", "Space Missions, Rockets & Astronauts", "Stargazing, Telescopes & Night Sky"),
     "Garden & Growing": ("Gardening, Herbs & Homestead Living",),
     "Travel & Adventure": ("Travel, Road Trips & Weekend Getaways",),
+    "Road Trips & Highways": ("Family Road Trips & Travel", "RV, Camping & Off-Road"),
     "Pets & Animal Life": ("Pets, Backyard Animals & Care",),
     "Holidays & Seasons": ("Holidays & Seasonal Fun",),
     "History & Heritage": ("American Heritage", "Presidents, History & Americana"),
@@ -47,6 +49,8 @@ def topic_capacity(project: Path) -> list[dict]:
     """Return plain-English readiness rows without guessing unpublished content."""
     project = Path(project)
     bank = _read(project / "word_banks" / "Guided_Builder_Master_Word_Bank.json")
+    from word_intelligence.editorial_overlay import merge_master_bank
+    bank = merge_master_bank(bank, project)
     topic_words = bank.get("topics", {}) if isinstance(bank.get("topics"), dict) else {}
     topic_packs = bank.get("topic_packs", {}) if isinstance(bank.get("topic_packs"), dict) else {}
     packs = _read(project / "word_banks" / "puzzle_content_library.json").get("packs", {})

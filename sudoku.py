@@ -15,6 +15,7 @@ MARGIN = 54
 SudokuGrid = list[list[int]]
 
 from font_utils import pdf_font_candidates, register_pdf_font
+from publishing.title_pages import render_title_page, spec_from_mapping
 
 PDF_FONT_FAMILIES = {
     "Sans":  "sans",
@@ -183,29 +184,38 @@ def make_puzzle(solved: SudokuGrid, difficulty: str, rng: random.Random) -> Sudo
 
 
 # ---------------- PDF rendering ----------------
-def _draw_shape(c: Canvas, value: int, cx: float, cy: float, size: float) -> None:
-    """Nine font-free symbols for special Sudoku games; safe in every PDF."""
-    r = size * 0.25
-    if value == 1: c.circle(cx, cy, r, stroke=1, fill=0)
-    elif value == 2: c.rect(cx-r, cy-r, 2*r, 2*r, stroke=1, fill=0)
-    elif value == 3:
-        p=c.beginPath(); p.moveTo(cx,cy+r); p.lineTo(cx-r,cy-r); p.lineTo(cx+r,cy-r); p.close(); c.drawPath(p,stroke=1,fill=0)
-    elif value == 4:
-        p=c.beginPath(); p.moveTo(cx,cy+r); p.lineTo(cx-r,cy); p.lineTo(cx,cy-r); p.lineTo(cx+r,cy); p.close(); c.drawPath(p,stroke=1,fill=0)
-    elif value == 5: c.line(cx-r,cy,cx+r,cy); c.line(cx,cy-r,cx,cy+r)
-    elif value == 6: c.line(cx-r,cy-r,cx+r,cy+r); c.line(cx-r,cy+r,cx+r,cy-r)
-    elif value == 7: c.circle(cx, cy, r, stroke=1, fill=1)
-    elif value == 8: c.roundRect(cx-r,cy-r,2*r,2*r,r*.35,stroke=1,fill=0)
-    else:
-        p=c.beginPath(); p.moveTo(cx,cy+r); p.lineTo(cx-r*.95,cy-r*.7); p.lineTo(cx+r*.95,cy-r*.7); p.close(); c.drawPath(p,stroke=1,fill=1)
+def make_rated_puzzle(solved: SudokuGrid, difficulty: str, rng: random.Random, max_attempts: int = 150):
+    """Generate to the requested human-technique band without relabelling a miss."""
+    from publishing.sudoku_difficulty import rate_sudoku
+    if difficulty not in {'easy','medium','hard'}:
+        raise ValueError('Choose easy, medium, or hard Sudoku.')
+    for _ in range(max_attempts):
+        # Medium requires enough open cells for pairs/locked candidates to matter.
+        puzzle = make_puzzle(solved,'easy' if difficulty=='easy' else 'hard',rng)
+        rating = rate_sudoku(puzzle)
+        if rating['label']==difficulty:
+            return puzzle,rating
+    raise ValueError(f'Could not generate a technique-rated {difficulty} Sudoku after {max_attempts} attempts.')
+
+
+def _draw_shape(c: Canvas, value: int, cx: float, cy: float, size: float, symbol_pack: str = "classic") -> None:
+    from sudoku_symbols import draw_symbol
+    draw_symbol(c, symbol_pack, value, cx, cy, size)
 
 
 def draw_sudoku(c: Canvas, grid: SudokuGrid, gx: float, gy_top: float, cell: float,
                  number_font: str, number_size: float,
-                 solution_overlay: SudokuGrid | None = None, display_style: str = "numbers") -> None:
+                 solution_overlay: SudokuGrid | None = None, display_style: str = "numbers",
+                 symbol_pack: str = "classic", region_role: str | None = None) -> None:
     """Render a 9x9 Sudoku grid. gy_top is the top y-coordinate.
     solution_overlay (optional): grayed-in numbers showing the answers for cells the puzzle had blank."""
+    if region_role not in (None, 'puzzle', 'solution'):
+        raise ValueError('Sudoku text region role must be puzzle or solution.')
     size = 9 * cell
+    regions = getattr(c,'_puzzle_text_regions',[])
+    regions.append(dict(page=c.getPageNumber(),role=region_role if region_role is not None else ('solution' if number_size<20 else 'puzzle'),
+                        bounds=[gx,gy_top-size,gx+size,gy_top],font_pt=number_size))
+    c._puzzle_text_regions = regions
 
     # white background
     c.setFillColorRGB(1, 1, 1)
@@ -236,7 +246,7 @@ def draw_sudoku(c: Canvas, grid: SudokuGrid, gx: float, gy_top: float, cell: flo
                 cx = gx + col * cell + cell / 2
                 cy = gy_top - r * cell - cell / 2 - number_size * 0.34
                 if display_style == "letters": c.drawCentredString(cx, cy, chr(64 + v))
-                elif display_style == "shapes": _draw_shape(c, v, cx, cy + number_size * .18, cell)
+                elif display_style == "shapes": _draw_shape(c, v, cx, cy + number_size * .18, cell, symbol_pack)
                 else: c.drawCentredString(cx, cy, str(v))
 
     # solution overlay (the values that were originally blank, drawn lighter)
@@ -248,10 +258,10 @@ def draw_sudoku(c: Canvas, grid: SudokuGrid, gx: float, gy_top: float, cell: flo
                 if grid[r][col] == 0 and solution_overlay[r][col] != 0:
                     cx = gx + col * cell + cell / 2
                     cy = gy_top - r * cell - cell / 2 - number_size * 0.34
-                v = solution_overlay[r][col]
-                if display_style == "letters": c.drawCentredString(cx, cy, chr(64 + v))
-                elif display_style == "shapes": _draw_shape(c, v, cx, cy + number_size * .18, cell)
-                else: c.drawCentredString(cx, cy, str(v))
+                    v = solution_overlay[r][col]
+                    if display_style == "letters": c.drawCentredString(cx, cy, chr(64 + v))
+                    elif display_style == "shapes": _draw_shape(c, v, cx, cy + number_size * .18, cell, symbol_pack)
+                    else: c.drawCentredString(cx, cy, str(v))
 
 
 def footer(c: Canvas, page_no: int) -> None:
@@ -261,17 +271,8 @@ def footer(c: Canvas, page_no: int) -> None:
 
 
 def front_matter(c: Canvas, title: str, subtitle: str, author: str) -> None:
-    c.setFillColorRGB(0.10, 0.10, 0.10)
-    c.setFont("SansB", 32)
-    c.drawCentredString(PAGE_W / 2, PAGE_H - 280, title.upper())
-    c.setFont("Sans", 14)
-    for i, line in enumerate(_wrap(subtitle, 40)):
-        c.drawCentredString(PAGE_W / 2, PAGE_H - 340 - i * 22, line)
-    c.setStrokeColorRGB(0.7, 0.7, 0.7); c.setLineWidth(1)
-    c.line(PAGE_W / 2 - 80, PAGE_H - 410, PAGE_W / 2 + 80, PAGE_H - 410)
-    c.setFont("Sans", 13)
-    c.drawCentredString(PAGE_W / 2, 120, author)
-    c.showPage()
+    metadata = {"title": title, "subtitle": subtitle, "author": author, "puzzle_type": "Sudoku"}
+    render_title_page(c, spec_from_mapping(metadata, puzzle_type="Sudoku"), page_size=(PAGE_W, PAGE_H))
 
     c.setFillColorRGB(0.2, 0.2, 0.2); c.setFont("Sans", 10)
     cr_lines = [
@@ -309,6 +310,8 @@ def front_matter(c: Canvas, title: str, subtitle: str, author: str) -> None:
 
 def puzzle_page(c: Canvas, idx: int, difficulty: str, puzzle: SudokuGrid,
                  page_no: int, running: str, display_style: str = "numbers") -> None:
+    from publishing.sudoku_difficulty import rate_sudoku
+    difficulty = rate_sudoku(puzzle)['label']
     c.setFillColorRGB(0.5, 0.5, 0.5); c.setFont("Sans", 10)
     c.drawCentredString(PAGE_W / 2, PAGE_H - 40, running)
     c.setFillColorRGB(0.1, 0.1, 0.1); c.setFont("SansB", 12)
@@ -322,7 +325,7 @@ def puzzle_page(c: Canvas, idx: int, difficulty: str, puzzle: SudokuGrid,
     grid_w = 9 * cell
     gx = (PAGE_W - grid_w) / 2
     gy_top = PAGE_H - 130
-    draw_sudoku(c, puzzle, gx, gy_top, cell, "MonoB", 28, display_style=display_style)
+    draw_sudoku(c, puzzle, gx, gy_top, cell, "MonoB", 28, display_style=display_style, region_role="puzzle")
 
     footer(c, page_no)
     c.showPage()
@@ -355,7 +358,7 @@ def solutions_section(c: Canvas, items: list[tuple[int, SudokuGrid, SudokuGrid, 
             top_y = PAGE_H - 90 - row * (grid_w + row_gap + 30)
             c.setFillColorRGB(0.1, 0.1, 0.1); c.setFont("SansB", 11)
             c.drawCentredString(gx + grid_w / 2, top_y + 10, f"PUZZLE {idx}")
-            draw_sudoku(c, solved, gx, top_y, cell, "MonoB", 13, display_style=display_style)
+            draw_sudoku(c, solved, gx, top_y, cell, "MonoB", 13, display_style=display_style, region_role="solution")
         footer(c, page_no); c.showPage(); page_no += 1
     return page_no
 
@@ -380,7 +383,7 @@ def back_matter(c: Canvas, author: str, also_from: list[dict]) -> None:
     c.setStrokeColorRGB(0.5, 0.55, 0.5); c.setLineWidth(1)
     c.line(PAGE_W / 2 - 80, PAGE_H - 470, PAGE_W / 2 + 80, PAGE_H - 470)
     # 5 yellow stars as polygons (font-free)
-    c.setFillColorRGB(0.95, 0.78, 0.12); c.setStrokeColorRGB(0.7, 0.55, 0.08); c.setLineWidth(0.6)
+    c.setFillColorRGB(0.95, 0.78, 0.12); c.setStrokeColorRGB(0.7, 0.55, 0.08); c.setLineWidth(0.75)
     star_y = PAGE_H - 510
     spacing = 32
     R = 11
@@ -459,8 +462,9 @@ def main() -> None:
     special_styles = ("numbers", "letters", "shapes")
     for idx, d in enumerate(difficulties):
         solved = make_solved(rng)
-        puzzle = make_puzzle(solved, d, rng)
-        puzzles.append((d, puzzle, solved, special_styles[idx % len(special_styles)]))
+        puzzle, rating = make_rated_puzzle(solved, d, rng)
+        from publishing.sudoku_difficulty import rate_sudoku
+        puzzles.append((rate_sudoku(puzzle)['label'], puzzle, solved, special_styles[idx % len(special_styles)]))
 
     also_from = []
     if a.also_from and os.path.exists(a.also_from):
@@ -474,20 +478,30 @@ def main() -> None:
 
     page_no = 1
     items_for_sol = []
+    records = []
     for i, (d, p, s, display_style) in enumerate(puzzles, start=1):
+        records.append(dict(number=i, type='sudoku', grid=p, solution_grid=s,
+                            puzzle_page=c.getPageNumber(), display_style=display_style,
+                            difficulty=rate_sudoku(p)))
         puzzle_page(c, i, d, p, page_no, a.title, display_style)
         items_for_sol.append((i, p, s, display_style))
         page_no += 1
 
+    solution_start = c.getPageNumber() + 1
     page_no = solutions_section(c, items_for_sol, page_no, a.title)
+    for index, record in enumerate(records):
+        record['solution_page'] = solution_start + index // 6
 
     back_matter(c, a.author, also_from)
 
     c.save()
+    from publishing.puzzle_integrity import write_manifest
+    write_manifest(a.out, records, getattr(c,'_puzzle_text_regions',[]))
 
     size_kb = os.path.getsize(a.out) / 1024
     print(f"DONE -> {a.out}")
-    print(f"  {a.count} Sudoku puzzles ({difficulties.count('easy')} easy / {difficulties.count('medium')} medium / {difficulties.count('hard')} hard) + solutions, {size_kb:.0f} KB")
+    measured = [row[0] for row in puzzles]
+    print(f"  {a.count} Sudoku puzzles ({measured.count('easy')} easy / {measured.count('medium')} medium / {measured.count('hard')} hard; technique-rated) + solutions, {size_kb:.0f} KB")
 
 
 if __name__ == "__main__":

@@ -1,0 +1,20 @@
+{
+  "files": {
+    "canonical_candidates.json": "c6907b3b4d44d60536ab22d512d983fc6e03ae624e17d9ec779a18658273926e",
+    "curation_checkpoint.json": "129f2ac46e4261bc10f4eeffc19b5938fd418ab9ade4cc6959f1501fc62aed3a",
+    "definition_lookup.json": "e1a53590a72bb055416100465a5d6624a2e1f3fb427905c9faa7fff632ab5a15",
+    "group_anchor_definitions.json": "b41d9b00912102d830eb4a872a43f905de3b69858073298fc33d296772c5bcea",
+    "grouping_review_candidates.json": "a62172e812ebf9af9c6aa28d33a36bbb662d1f0f7986564bba69b06d2804b3aa",
+    "independent_verification.json": "d3bf2158a9ddbf4ed78072afb084fbaddf490513950d7a124de7ea4cdefc5d62",
+    "lexeme_families.json": "11b2dc4cfd26a1ac4b102aee5006810d18503787c0f9046aba5cda24c70d5acd",
+    "organization_audit.json": "431cb5d09db347ded70418f30cc1e2a178e94a1e73fc46eeeddc31c7b7ce6cfc",
+    "README.md": "3051b731ea5098096db88ab8b56b56d496c8ff52302498a394253227d78d226a",
+    "remaining_unassigned.json": "9653cd0afceb81a88208b2de32bb19adafa858c8415595acc67716442aaa25d1",
+    "review_holds.json": "719ce2eb1741636061ae4f4ad1f7eabd10bb79082701e9930bca9ad4b5c9c4f9",
+    "semantic_roots.txt": "c87d7490420a8307b65b48b9f245f7d69cc2049278c45451dbef17379f955ff7",
+    "semantic_word_groups.json": "6bce7779cafb465b3003a674a8df3abb056f5fc39378400f868a18fcefbdc88f",
+    "validation.json": "4fb699e723a36ea5157ab15aeac203ae497d4fe5127166003f0a19e9e2f46f71",
+    "WORDNET_LICENSE.txt": "7731175a77952e259390b496fab905e57118b8d19ad3a8383c67eee724ff443f"
+  },
+  "verification": "independent_verification.json"
+}

@@ -1,5 +1,71 @@
 # Word Search Creator — Version History
 
+## Unreleased — Family Studio and printable packs
+
+- Added actual page previews, selected-book assistant context, local draft recovery/undo, automatic discovery of a sole installed Ollama model, and read-only HP readiness checks.
+
+- Added personalized printable activity packs with separate answers and a customer ZIP.
+- Simplified the default interface around creation, saved books, covers, and settings, with optional local request interpretation.
+- Deferred detailed workspace/theme loading until needed; retained advanced tools and the established cover/production gates.
+- Added guided creation screens and repaired cover-tool overflow.
+
+## 3.84.4 — 2026-09-25
+
+- Combined the holiday cover's puzzle count into one thumbnail-readable “200 PUZZLES!” line and rebalanced the surrounding hierarchy.
+
+## 3.84.3 — 2026-09-25
+
+- Replaced the potentially confusing holiday-cover phrase “Puzzles for Every Celebration” with the direct, unambiguous retail promise “200 Puzzles!” and rebuilt the approved front and full wrap.
+
+## 3.84.2 — 2026-09-25
+
+- Reworked Celebrate All Year's KDP listing around its strongest truthful selling points: ten celebrations, 200 mixed puzzles, custom holiday-symbol Sudoku, and 1,200 word-search entries.
+- Replaced redundant keyword phrases with seven complementary reader-search phrases, clarified current category and audience selection, and added an explicit KDP AI-content disclosure reminder.
+- Added a safe listing-only refresh route so buyer copy and Publishing Manager metadata can be updated without rebuilding or changing the approved print PDFs.
+
+## 3.84.1 — 2026-09-25
+
+- Added a professional copyright, rights, publisher, and first-edition notice to Celebrate All Year's welcome page without changing its page count or spine width.
+
+## 3.84.0 — 2026-09-25
+
+- Elevated Celebrate All Year to 12 words in every word search, expanding each holiday to 120 distinct, reviewed entries while retaining the rule that words never repeat inside a holiday chapter.
+- Replaced the generic opening with a dedicated premium title page that previews all ten celebrations, their symbol families, and the book's actual 100-word-search / 100-Sudoku structure.
+- Added a safe full-package rebuild path that generates and validates a staged replacement before updating the active package, while keeping a recoverable copy of the previous print files and records.
+- Updated the listing record to state the truthful 1,200 word-search entries and 12-word puzzle format.
+
+## 3.83.1 — 2026-09-21
+
+- Approved the user-selected year-round holiday photo through the production art registry and rebuilt the 200-puzzle book's front and full wrap without altering its interior.
+- Added a dedicated holiday editorial cover and matching chapter-focused back cover, with truthful 100 word-search / 100 Sudoku messaging and visible number-and-symbol distinction.
+- Preserved the previous cover as a recoverable revision and corrected generated-art provenance so approved ChatGPT images are not mislabeled as Cloudflare assets.
+
+## 3.83.0 — 2026-09-21
+
+- Added a dedicated 200-puzzle Holiday Word Search + Sudoku book route with ten reviewed holiday chapters, five focused word-search mini-themes per chapter, and exact 100/50/50 word-search/number-Sudoku/symbol-Sudoku counts.
+- Added distinct nine-symbol Sudoku packs for the holidays not previously supported; each Sudoku grid is checked for one unique solution and every word search must place all ten listed words.
+- Connected the new puzzle format to cover, title-page, wrap, metadata, package, print preflight, and Publishing Manager routing. The source permits words to repeat across different holidays but blocks repeats within each chapter.
+- Generated and visually reviewed the 316-page Celebrate All Year package; the cover uses previously approved year-round art. A more explicitly holiday-themed generated background was saved as awaiting human review, not self-approved for production.
+- Verified the full application with 814 passing tests.
+
+## 3.82.0 — 2026-09-21
+
+- Separated completed book packages from reusable book ideas in Publishing Center, with clear filters, a single status, and a plain-English next action for each visible item.
+- Collapsed catalog aliases that point to the same package without deleting historical records or source themes; recommendations and home counts now use the same distinct-book view.
+- Identified incomplete and missing packages honestly instead of presenting them as finished books, and tied completed-book status to the current package/cover proof and final local review.
+- Kept catalog loading and filtering responsive with an immediate saved preview and background readiness checks.
+- Verified the live catalog and selection flow, plus 810 passing automated tests.
+
+## 3.81.0 — 2026-09-20
+
+- Refreshed the active catalog's publication copy with topic- and puzzle-type-specific descriptions, seven focused KDP keyword phrases, current category directions, audience guidance, and clearer direct-download disclosures.
+- Added current US KDP large-trim printing-cost and royalty estimates to the copy-ready Amazon handoff, with more realistic print, Signature Edition, and digital price recommendations.
+- Rebuilt the active marketplace handoffs and KDP listing kits from one canonical metadata source without changing the approved interiors or covers.
+- Simplified the Book Studio and Publishing Center headers so daily production actions remain visible on laptop screens while secondary tools stay available in plain-English menus.
+- Consolidated the selected-book marketplace action bar into four daily actions plus Files & previews and More actions menus; no publishing capability was removed.
+- Made the Publishing Center display its saved catalog immediately while full source and readiness checks continue in the background, eliminating the misleading blank-catalog wait.
+- Added sale-ready red Windows folder icons driven by the current audited readiness record and kept future icon updates tied to Final Local Review.
+
 ## 3.80.1 — 2026-09-07
 
 - Made the remaining high-use creation, cover, review, publishing, queue, and connection dialogs respect the usable Windows work area instead of extending behind the taskbar.
@@ -954,3 +1020,11 @@
 - Simplified main-screen production actions and added a ready-only filter to the Production Dashboard.
 - Corrected every cover layout to use the actual book format instead of assuming “Large Print.”
 - Added a stale-blurb guard so back-cover facts cannot carry over from an unrelated old theme.
+
+
+### HP family integration follow-through (2026-10-21)
+- Added an explicit Codex/ChatGPT-sign-in, Ollama, and Guide selector with shared proposal validation, cancellation, stale-result guards, and no automatic fallback or API billing.
+- Added saved-cover audits: measured package checks separated from optional Codex visual design suggestions; canonical artwork approvals remain unchanged.
+- Added bounded composite word-group proposals and a checked Homesteading recipe spanning gardening, household, farm, and food groups.
+- Kept all library groups searchable, offered short-pack routes when full-book capacity is insufficient, and explained fourteen unresolved groups with explicit alternatives.
+- Synchronized automatic Sudoku subtitles with the chosen count and verified fresh packages through the canonical proof route.

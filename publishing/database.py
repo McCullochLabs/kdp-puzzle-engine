@@ -39,6 +39,7 @@ class PublishingDatabase:
                 CREATE TABLE IF NOT EXISTS isbns (isbn TEXT PRIMARY KEY, book_id TEXT, title TEXT, format TEXT, source TEXT, assigned_at TEXT);
                 CREATE TABLE IF NOT EXISTS bundles (bundle_id TEXT PRIMARY KEY, title TEXT NOT NULL, book_ids_json TEXT NOT NULL, metadata_json TEXT NOT NULL, output_path TEXT NOT NULL, created_at TEXT NOT NULL);
                 CREATE TABLE IF NOT EXISTS approved_production_queue (queue_id INTEGER PRIMARY KEY AUTOINCREMENT, book_id TEXT NOT NULL UNIQUE, status TEXT NOT NULL DEFAULT 'Approved', added_at TEXT NOT NULL, updated_at TEXT NOT NULL, note TEXT DEFAULT '');
+                CREATE TABLE IF NOT EXISTS book_package_revisions (revision_id INTEGER PRIMARY KEY AUTOINCREMENT, book_id TEXT NOT NULL, prior_package_path TEXT NOT NULL, package_path TEXT NOT NULL UNIQUE, evidence_json TEXT NOT NULL, adopted_at TEXT NOT NULL);
                 CREATE TABLE IF NOT EXISTS release_locks (lock_id INTEGER PRIMARY KEY AUTOINCREMENT, book_id TEXT NOT NULL, revision INTEGER NOT NULL, package_path TEXT NOT NULL, snapshot_json TEXT NOT NULL, snapshot_sha256 TEXT NOT NULL, locked_at TEXT NOT NULL, UNIQUE(book_id, revision));
                 CREATE TABLE IF NOT EXISTS cover_concepts (concept_id INTEGER PRIMARY KEY AUTOINCREMENT, book_id TEXT NOT NULL, label TEXT NOT NULL, direction_json TEXT NOT NULL, selected INTEGER NOT NULL DEFAULT 0, created_at TEXT NOT NULL, UNIQUE(book_id, label));
                 CREATE TABLE IF NOT EXISTS final_local_reviews (review_id INTEGER PRIMARY KEY AUTOINCREMENT, book_id TEXT NOT NULL, proof_id TEXT NOT NULL DEFAULT '', package_path TEXT NOT NULL DEFAULT '', reviewed_at TEXT NOT NULL, reviewer_source TEXT NOT NULL DEFAULT 'human', note TEXT NOT NULL DEFAULT '', UNIQUE(book_id, proof_id, package_path));
@@ -108,13 +109,32 @@ class PublishingDatabase:
 
     def list_books(self) -> list[dict]:
         with self._connect() as db:
-            rows = db.execute("SELECT * FROM books ORDER BY updated_at DESC").fetchall(); output = []
+            rows = db.execute("SELECT * FROM books ORDER BY updated_at DESC").fetchall()
+            statuses = {}
+            for row in db.execute("SELECT book_id,marketplace,status FROM marketplace_status ORDER BY book_id,marketplace"):
+                statuses.setdefault(row["book_id"], {})[row["marketplace"]] = row["status"]
+            output = []
             for row in rows:
-                item = dict(row); item["metadata"] = json.loads(item.pop("metadata_json")); item["statuses"] = self.statuses(item["book_id"]); output.append(item)
+                item = dict(row)
+                item["metadata"] = json.loads(item.pop("metadata_json"))
+                item["statuses"] = statuses.get(item["book_id"], {})
+                output.append(item)
             return output
 
     def get_book(self, book_id: str) -> dict | None:
-        return next((book for book in self.list_books() if book["book_id"] == book_id), None)
+        if not isinstance(book_id, str):
+            return None
+        with self._connect() as db:
+            row = db.execute("SELECT * FROM books WHERE book_id=?", (book_id,)).fetchone()
+            if row is None:
+                return None
+            item = dict(row)
+            item["metadata"] = json.loads(item.pop("metadata_json"))
+            item["statuses"] = {
+                status["marketplace"]: status["status"]
+                for status in db.execute("SELECT marketplace,status FROM marketplace_status WHERE book_id=?", (book_id,))
+            }
+            return item
 
     def save_metadata(self, book_id: str, metadata: dict, locked: bool | None = None) -> None:
         with self._connect() as db:
@@ -463,27 +483,136 @@ class PublishingDatabase:
         return dict(row) if row else None
 
     def prune_sources(self, active_source_keys: set[str]) -> int:
-        """Remove only stale/duplicate catalog rows; never touches a theme or package file."""
+        """Prune only untracked, vanished or exact-alias theme ideas.
+
+        The caller supplies theme paths, not every package identity. Absence
+        from that list must never erase generated books or owner/workflow state.
+        """
+        def theme_hash(path):
+            try:
+                payload = json.loads(path.read_text(encoding="utf-8-sig"))
+                if not isinstance(payload, dict) or not isinstance(payload.get("puzzles"), list):
+                    return None
+                raw = json.dumps(payload, sort_keys=True, ensure_ascii=False, allow_nan=False)
+                return hashlib.sha256(raw.encode("utf-8")).hexdigest()
+            except (OSError, UnicodeError, ValueError):
+                return None
+
+        active_paths = {Path(key).resolve() for key in active_source_keys if Path(key).is_absolute()}
         with self._connect() as db:
-            rows = db.execute("SELECT book_id,source_key FROM books").fetchall()
-            remove = [row["book_id"] for row in rows if row["source_key"] not in active_source_keys]
+            # Keep reference/state checks and deletion in one write transaction.
+            db.execute("BEGIN IMMEDIATE")
+            linked = set()
+            for table in ("isbns", "release_locks", "book_package_revisions", "final_local_reviews",
+                          "marketplace_audit", "integration_log", "approved_production_queue", "cover_concepts"):
+                linked.update(row[0] for row in db.execute(f"SELECT DISTINCT book_id FROM {table}") if row[0])
+            for row in db.execute("SELECT book_ids_json FROM bundles"):
+                try:
+                    ids = json.loads(row[0])
+                    if not isinstance(ids, list) or any(not isinstance(value, str) for value in ids):
+                        return 0  # Unknown references: do not guess that a row is disposable.
+                    linked.update(ids)
+                except (ValueError, TypeError):
+                    return 0
+            # Unfinished/versioned chat forms may retain a source project too.
+            tables = {row[0] for row in db.execute("SELECT name FROM sqlite_master WHERE type='table'")}
+            if "studio_draft_versions" in tables:
+                for row in db.execute("SELECT payload FROM studio_draft_versions"):
+                    try: pending = [json.loads(row[0])]
+                    except (ValueError, TypeError): return 0
+                    while pending:
+                        item = pending.pop()
+                        if isinstance(item, dict):
+                            for name, value in item.items():
+                                if name in ("book_id", "source_book_id") and isinstance(value, str): linked.add(value)
+                                elif isinstance(value, (dict, list)): pending.append(value)
+                        elif isinstance(item, list): pending.extend(item)
+            active_hashes = None
+            remove = []
+            rows = db.execute("SELECT * FROM books").fetchall()
+            artifact_keys = ("files", "isbn", "isbn13", "isbn_13", "asin", "external_id", "url",
+                             "content_plan_approval", "final_review", "human_review", "quality_review",
+                             "local_print_revision", "studio_chat_creation", "release_lock", "production_proof")
+            for row in rows:
+                identity, key = row["book_id"], row["source_key"]
+                if key in active_source_keys or identity in linked or row["metadata_locked"] or row["package_path"]:
+                    continue
+                path = Path(key)
+                if path.is_absolute() and path.resolve() in active_paths:
+                    continue  # Equivalent native path spelling is still the active source.
+                if not path.is_absolute() or path.suffix.casefold() != ".json" or "://" in key:
+                    continue  # Includes package:, generated: and unknown identity schemes.
+                try: metadata = json.loads(row["metadata_json"])
+                except (ValueError, TypeError): continue
+                if not isinstance(metadata, dict) or any(metadata.get(name) for name in artifact_keys):
+                    continue
+                statuses = db.execute("SELECT * FROM marketplace_status WHERE book_id=?", (identity,)).fetchall()
+                if any(str(state["status"] or "").strip() not in ("", "Not Prepared") or
+                       any(state[name] for name in ("external_id", "url", "error_message", "integration_state",
+                                                   "external_sku", "idempotency_key", "last_synced_at")) for state in statuses):
+                    continue
+                if path.exists():
+                    digest = theme_hash(path)
+                    if not digest:
+                        continue
+                    if active_hashes is None:
+                        active_hashes = {value for source in active_source_keys
+                                         if (value := theme_hash(Path(source))) is not None}
+                    if digest not in active_hashes:
+                        continue  # Same title is not proof of duplicate content/edition.
+                remove.append(identity)
             for book_id in remove:
                 db.execute("DELETE FROM marketplace_status WHERE book_id=?", (book_id,))
                 db.execute("DELETE FROM books WHERE book_id=?", (book_id,))
             return len(remove)
 
+    def managed_print_revision_paths(self) -> set[Path]:
+        """Paths already assigned to stable identities; scans must not reimport them."""
+        with self._connect() as db:
+            rows = db.execute("SELECT prior_package_path,package_path FROM book_package_revisions").fetchall()
+        return {Path(value).resolve() for row in rows for value in row if value}
+
+    def has_print_revision(self, book_id: str) -> bool:
+        with self._connect() as db:
+            return db.execute("SELECT 1 FROM book_package_revisions WHERE book_id=? LIMIT 1", (book_id,)).fetchone() is not None
+
+    def _commit_print_revision(self, book_id, expected_package, expected_metadata, package, files, evidence, expected_source_key, expected_locked):
+        """Atomic operational-path adoption, preserving owner fields and external state.
+
+        Called only after service-level artifact validation. This records a
+        local revision, never a release lock or human final-review decision.
+        """
+        now = datetime.now().isoformat(timespec="seconds")
+        with self._connect() as db:
+            db.execute("BEGIN IMMEDIATE")
+            row = db.execute("SELECT package_path,metadata_json,source_key,metadata_locked FROM books WHERE book_id=?", (book_id,)).fetchone()
+            if row is None or row['package_path'] != expected_package or json.loads(row['metadata_json']) != expected_metadata or row['source_key'] != expected_source_key or row['metadata_locked'] != expected_locked:
+                raise ValueError("The saved book changed during validation; reopen it and retry.")
+            claimed = db.execute("SELECT book_id,package_path FROM books WHERE book_id!=?", (book_id,)).fetchall()
+            if any(other['package_path'] and Path(other['package_path']).resolve()==Path(package).resolve() for other in claimed):
+                raise ValueError("The revision was assigned to another catalog identity during validation.")
+            metadata = json.loads(row['metadata_json'])
+            metadata['files'] = files
+            metadata['local_print_revision'] = {'previous_package': expected_package, 'package': package,
+                'adopted_at': now, 'owner_review': 'pending', 'marketplace_submission': 'not_performed'}
+            db.execute("INSERT INTO book_package_revisions(book_id,prior_package_path,package_path,evidence_json,adopted_at) VALUES(?,?,?,?,?)",
+                (book_id,expected_package,package,json.dumps(evidence,ensure_ascii=False),now))
+            db.execute("UPDATE books SET package_path=?,metadata_json=?,updated_at=? WHERE book_id=?",
+                (package,json.dumps(metadata,ensure_ascii=False),now,book_id))
+        return {'book_id':book_id,'package_path':package,'previous_package_path':expected_package,
+                'owner_review':'pending','marketplace_state_changed':False}
+
     def prune_duplicate_unpublished_package_titles(self) -> int:
         """Keep the newest untracked package for a title without touching files.
 
-        A package may be rebuilt after a cover or content correction.  Those
-        dated folders are valuable history on disk, but they should not appear
-        as duplicate books in Publishing Manager.  Anything that has moved
-        beyond ``Not Prepared`` is retained so confirmed marketplace work is
-        never hidden or discarded automatically.
+        A package may be rebuilt after a cover or content correction.  Keep
+        the newest local draft, while preserving actual uploads/publications,
+        locked metadata, and ISBN assignments. A locally prepared ``Ready``
+        handoff is not evidence that the old PDF was uploaded.
         """
         with self._connect() as db:
             rows = db.execute(
-                "SELECT book_id, source_key, metadata_json, updated_at FROM books "
+                "SELECT book_id, source_key, package_path, metadata_json, metadata_locked, updated_at FROM books "
                 "WHERE source_key LIKE 'package:%'"
             ).fetchall()
             groups: dict[str, list[sqlite3.Row]] = {}
@@ -503,9 +632,17 @@ class PublishingDatabase:
                     statuses = db.execute(
                         "SELECT status FROM marketplace_status WHERE book_id=?", (row["book_id"],)
                     ).fetchall()
-                    if any(status["status"] != "Not Prepared" for status in statuses):
+                    has_isbn = db.execute("SELECT 1 FROM isbns WHERE book_id=? LIMIT 1", (row["book_id"],)).fetchone() is not None
+                    has_revision = db.execute("SELECT 1 FROM book_package_revisions WHERE book_id=? LIMIT 1", (row["book_id"],)).fetchone() is not None
+                    if any(status["status"] in PROTECTED_STATUSES for status in statuses) or row["metadata_locked"] or has_isbn or has_revision:
                         protected.append(row)
-                keep = max(protected or candidates, key=lambda row: str(row["updated_at"]))
+                def package_time(row: sqlite3.Row) -> float:
+                    path = Path(str(row["package_path"] or ""))
+                    try:
+                        return path.stat().st_mtime if path.is_dir() else 0.0
+                    except OSError:
+                        return 0.0
+                keep = max(protected or candidates, key=lambda row: (package_time(row), str(row["updated_at"])))
                 for row in candidates:
                     if row["book_id"] != keep["book_id"] and row not in protected:
                         remove.append(row["book_id"])

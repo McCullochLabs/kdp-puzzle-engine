@@ -14,7 +14,7 @@ from pathlib import Path
 
 # Bump this when the shared production gate becomes stricter. A green result
 # from an older rule set must never keep a theme marked publish-ready.
-CURRENT_GATE_VERSION = 2
+CURRENT_GATE_VERSION = 3
 
 
 def _fingerprint(path: Path) -> str:

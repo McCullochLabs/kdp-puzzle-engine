@@ -1,0 +1,433 @@
+{
+  "schema_version": 1,
+  "records": [
+    {
+      "schema_version": 1,
+      "id": "word_9fec69ee1ae685f3fd45",
+      "type": "word",
+      "display": "awe",
+      "normalized": "AWE",
+      "topics": [
+        {
+          "topic_id": "general_interest",
+          "relationship": "primary",
+          "confidence": 40,
+          "status": "proposed"
+        }
+      ],
+      "audiences": [],
+      "difficulty": "standard",
+      "format_rules": {
+        "word_search_max_letters": 21,
+        "safe_for_cover": false
+      },
+      "quality": {
+        "editorial_status": "pending_review",
+        "factual_status": "not_applicable",
+        "trademark_review": false,
+        "safety_review": false
+      },
+      "provenance": {
+        "source_type": "dictionary",
+        "source_id": "Princeton_WordNet_3.0",
+        "reviewed_at": ""
+      },
+      "payload": {
+        "word_group": "Feelings and Emotional Vocabulary",
+        "sense_definitions": [
+          {
+            "synset": "n:07510184",
+            "definition": "an overwhelming feeling of wonder or admiration; \"he stared over the edge with a feeling of awe\""
+          },
+          {
+            "synset": "n:07521039",
+            "definition": "a feeling of profound respect for someone or something; \"the fear of God\"; \"the Chinese reverence for the dead\"; \"the French treat food with gentle reverence\"; \"his respect for the law bordered on veneration\""
+          }
+        ],
+        "review_flags": [
+          "editorial_and_parent_topic_review_required",
+          "alternate_part_of_speech_requires_context",
+          "multiple_noun_senses_same_niche"
+        ],
+        "frequency": 3.8,
+        "definition_is_not_trivia": true
+      }
+    },
+    {
+      "schema_version": 1,
+      "id": "word_12dc7b07e822e6cf677b",
+      "type": "word",
+      "display": "barge",
+      "normalized": "BARGE",
+      "topics": [
+        {
+          "topic_id": "coastal_lake_river_life",
+          "relationship": "primary",
+          "confidence": 40,
+          "status": "proposed"
+        }
+      ],
+      "audiences": [],
+      "difficulty": "standard",
+      "format_rules": {
+        "word_search_max_letters": 21,
+        "safe_for_cover": false
+      },
+      "quality": {
+        "editorial_status": "pending_review",
+        "factual_status": "not_applicable",
+        "trademark_review": false,
+        "safety_review": false
+      },
+      "provenance": {
+        "source_type": "dictionary",
+        "source_id": "Princeton_WordNet_3.0",
+        "reviewed_at": ""
+      },
+      "payload": {
+        "word_group": "Watercraft and Boats",
+        "sense_definitions": [
+          {
+            "synset": "n:02792552",
+            "definition": "a flatbottom boat for carrying heavy loads (especially on canals)"
+          }
+        ],
+        "review_flags": [
+          "editorial_and_parent_topic_review_required",
+          "alternate_part_of_speech_requires_context"
+        ],
+        "frequency": 3.5,
+        "definition_is_not_trivia": true
+      }
+    },
+    {
+      "schema_version": 1,
+      "id": "word_753685fc88e8e23e49b8",
+      "type": "word",
+      "display": "counterpoint",
+      "normalized": "COUNTERPOINT",
+      "topics": [
+        {
+          "topic_id": "music_instruments",
+          "relationship": "primary",
+          "confidence": 40,
+          "status": "proposed"
+        }
+      ],
+      "audiences": [],
+      "difficulty": "standard",
+      "format_rules": {
+        "word_search_max_letters": 21,
+        "safe_for_cover": false
+      },
+      "quality": {
+        "editorial_status": "pending_review",
+        "factual_status": "not_applicable",
+        "trademark_review": false,
+        "safety_review": false
+      },
+      "provenance": {
+        "source_type": "dictionary",
+        "source_id": "Princeton_WordNet_3.0",
+        "reviewed_at": ""
+      },
+      "payload": {
+        "word_group": "Music and Musical Forms",
+        "sense_definitions": [
+          {
+            "synset": "n:07025419",
+            "definition": "a musical form involving the simultaneous sound of two or more melodies"
+          }
+        ],
+        "review_flags": [
+          "editorial_and_parent_topic_review_required",
+          "alternate_part_of_speech_requires_context"
+        ],
+        "frequency": 3.11,
+        "definition_is_not_trivia": true
+      }
+    },
+    {
+      "schema_version": 1,
+      "id": "word_c725eb38c9b62aebe740",
+      "type": "word",
+      "display": "epic",
+      "normalized": "EPIC",
+      "topics": [
+        {
+          "topic_id": "books_reading_libraries",
+          "relationship": "primary",
+          "confidence": 40,
+          "status": "proposed"
+        }
+      ],
+      "audiences": [],
+      "difficulty": "standard",
+      "format_rules": {
+        "word_search_max_letters": 21,
+        "safe_for_cover": false
+      },
+      "quality": {
+        "editorial_status": "pending_review",
+        "factual_status": "not_applicable",
+        "trademark_review": false,
+        "safety_review": false
+      },
+      "provenance": {
+        "source_type": "dictionary",
+        "source_id": "Princeton_WordNet_3.0",
+        "reviewed_at": ""
+      },
+      "payload": {
+        "word_group": "Literature and Writing",
+        "sense_definitions": [
+          {
+            "synset": "n:06379721",
+            "definition": "a long narrative poem telling of a hero's deeds"
+          }
+        ],
+        "review_flags": [
+          "editorial_and_parent_topic_review_required",
+          "alternate_part_of_speech_requires_context"
+        ],
+        "frequency": 4.35,
+        "definition_is_not_trivia": true
+      }
+    },
+    {
+      "schema_version": 1,
+      "id": "word_2312cfcd975d94c8ca6d",
+      "type": "word",
+      "display": "hyphen",
+      "normalized": "HYPHEN",
+      "topics": [
+        {
+          "topic_id": "word_skills_brain_games",
+          "relationship": "primary",
+          "confidence": 40,
+          "status": "proposed"
+        }
+      ],
+      "audiences": [],
+      "difficulty": "standard",
+      "format_rules": {
+        "word_search_max_letters": 21,
+        "safe_for_cover": false
+      },
+      "quality": {
+        "editorial_status": "pending_review",
+        "factual_status": "not_applicable",
+        "trademark_review": false,
+        "safety_review": false
+      },
+      "provenance": {
+        "source_type": "dictionary",
+        "source_id": "Princeton_WordNet_3.0",
+        "reviewed_at": ""
+      },
+      "payload": {
+        "word_group": "Punctuation",
+        "sense_definitions": [
+          {
+            "synset": "n:06843148",
+            "definition": "a punctuation mark (-) used between parts of a compound word or between the syllables of a word when the word is divided at the end of a line of text"
+          }
+        ],
+        "review_flags": [
+          "editorial_and_parent_topic_review_required",
+          "alternate_part_of_speech_requires_context"
+        ],
+        "frequency": 2.64,
+        "definition_is_not_trivia": true
+      }
+    },
+    {
+      "schema_version": 1,
+      "id": "word_82aea2d84722b02e4282",
+      "type": "word",
+      "display": "paraphrase",
+      "normalized": "PARAPHRASE",
+      "topics": [
+        {
+          "topic_id": "books_reading_libraries",
+          "relationship": "primary",
+          "confidence": 40,
+          "status": "proposed"
+        }
+      ],
+      "audiences": [],
+      "difficulty": "standard",
+      "format_rules": {
+        "word_search_max_letters": 21,
+        "safe_for_cover": false
+      },
+      "quality": {
+        "editorial_status": "pending_review",
+        "factual_status": "not_applicable",
+        "trademark_review": false,
+        "safety_review": false
+      },
+      "provenance": {
+        "source_type": "dictionary",
+        "source_id": "Princeton_WordNet_3.0",
+        "reviewed_at": ""
+      },
+      "payload": {
+        "word_group": "Literature and Writing",
+        "sense_definitions": [
+          {
+            "synset": "n:06429316",
+            "definition": "rewording for the purpose of clarification"
+          }
+        ],
+        "review_flags": [
+          "editorial_and_parent_topic_review_required",
+          "alternate_part_of_speech_requires_context"
+        ],
+        "frequency": 3.07,
+        "definition_is_not_trivia": true
+      }
+    },
+    {
+      "schema_version": 1,
+      "id": "word_bd9e113ee9c11df7257b",
+      "type": "word",
+      "display": "pastel",
+      "normalized": "PASTEL",
+      "topics": [
+        {
+          "topic_id": "arts_creativity_making",
+          "relationship": "primary",
+          "confidence": 40,
+          "status": "proposed"
+        }
+      ],
+      "audiences": [],
+      "difficulty": "standard",
+      "format_rules": {
+        "word_search_max_letters": 21,
+        "safe_for_cover": false
+      },
+      "quality": {
+        "editorial_status": "pending_review",
+        "factual_status": "not_applicable",
+        "trademark_review": false,
+        "safety_review": false
+      },
+      "provenance": {
+        "source_type": "dictionary",
+        "source_id": "Princeton_WordNet_3.0",
+        "reviewed_at": ""
+      },
+      "payload": {
+        "word_group": "Colors and Hues",
+        "sense_definitions": [
+          {
+            "synset": "n:04974575",
+            "definition": "any of various pale or light colors"
+          }
+        ],
+        "review_flags": [
+          "editorial_and_parent_topic_review_required",
+          "alternate_part_of_speech_requires_context"
+        ],
+        "frequency": 3.25,
+        "definition_is_not_trivia": true
+      }
+    },
+    {
+      "schema_version": 1,
+      "id": "word_327865cd2702160d6236",
+      "type": "word",
+      "display": "plural",
+      "normalized": "PLURAL",
+      "topics": [
+        {
+          "topic_id": "word_skills_brain_games",
+          "relationship": "primary",
+          "confidence": 40,
+          "status": "proposed"
+        }
+      ],
+      "audiences": [],
+      "difficulty": "standard",
+      "format_rules": {
+        "word_search_max_letters": 21,
+        "safe_for_cover": false
+      },
+      "quality": {
+        "editorial_status": "pending_review",
+        "factual_status": "not_applicable",
+        "trademark_review": false,
+        "safety_review": false
+      },
+      "provenance": {
+        "source_type": "dictionary",
+        "source_id": "Princeton_WordNet_3.0",
+        "reviewed_at": ""
+      },
+      "payload": {
+        "word_group": "Words and Linguistic Forms",
+        "sense_definitions": [
+          {
+            "synset": "n:06295235",
+            "definition": "the form of a word that is used to denote more than one"
+          }
+        ],
+        "review_flags": [
+          "editorial_and_parent_topic_review_required",
+          "alternate_part_of_speech_requires_context"
+        ],
+        "frequency": 3.55,
+        "definition_is_not_trivia": true
+      }
+    },
+    {
+      "schema_version": 1,
+      "id": "word_00e598181a814abf3925",
+      "type": "word",
+      "display": "succulent",
+      "normalized": "SUCCULENT",
+      "topics": [
+        {
+          "topic_id": "nature",
+          "relationship": "primary",
+          "confidence": 40,
+          "status": "proposed"
+        }
+      ],
+      "audiences": [],
+      "difficulty": "standard",
+      "format_rules": {
+        "word_search_max_letters": 21,
+        "safe_for_cover": false
+      },
+      "quality": {
+        "editorial_status": "pending_review",
+        "factual_status": "not_applicable",
+        "trademark_review": false,
+        "safety_review": false
+      },
+      "provenance": {
+        "source_type": "dictionary",
+        "source_id": "Princeton_WordNet_3.0",
+        "reviewed_at": ""
+      },
+      "payload": {
+        "word_group": "Plants and Botany",
+        "sense_definitions": [
+          {
+            "synset": "n:13084184",
+            "definition": "a plant adapted to arid conditions and characterized by fleshy water-storing tissues that act as water reservoirs"
+          }
+        ],
+        "review_flags": [
+          "editorial_and_parent_topic_review_required",
+          "alternate_part_of_speech_requires_context"
+        ],
+        "frequency": 3.0,
+        "definition_is_not_trivia": true
+      }
+    }
+  ]
+}

@@ -1,0 +1,643 @@
+{
+  "schema_version": 1,
+  "research_status": "REVIEW_REQUIRED_NOT_APPROVED",
+  "group": "adv.all",
+  "records": [
+    {
+      "normalized": "ABOUT",
+      "status": "pending_context_and_editorial_review",
+      "candidate_categories": [
+        "adv.all"
+      ],
+      "source_senses": [
+        {
+          "lemma": "about",
+          "synset": "adv:00007015",
+          "part_of_speech": "adv",
+          "lexical_category": "adv.all",
+          "definition": "(of quantities) imprecise but fairly close to correct; \"lasted approximately an hour\"; \"in just about a minute\"; \"he's about 30 years old\"; \"I've had about all I can stand\"; \"we meet about once a month\"; \"some forty people came\"; \"weighs around a hundred pounds\"; \"roughly $3,000\"; \"holds 3 gallons, more or less\"; \"20 or so people were at the party\"",
+          "match_type": "exact_normalized_source_lemma"
+        },
+        {
+          "lemma": "about",
+          "synset": "adv:00071165",
+          "part_of_speech": "adv",
+          "lexical_category": "adv.all",
+          "definition": "in the area or vicinity; \"a few spectators standing about\"; \"hanging around\"; \"waited around for the next flight\"",
+          "match_type": "exact_normalized_source_lemma"
+        },
+        {
+          "lemma": "about",
+          "synset": "adv:00071840",
+          "part_of_speech": "adv",
+          "lexical_category": "adv.all",
+          "definition": "all around or on all sides; \"dirty clothes lying around (or about)\"; \"let's look about for help\"; \"There were trees growing all around\"; \"she looked around her\"",
+          "match_type": "exact_normalized_source_lemma"
+        },
+        {
+          "lemma": "about",
+          "synset": "adv:00072201",
+          "part_of_speech": "adv",
+          "lexical_category": "adv.all",
+          "definition": "in or to a reversed position or direction; \"about face\"; \"suddenly she turned around\"",
+          "match_type": "exact_normalized_source_lemma"
+        },
+        {
+          "lemma": "about",
+          "synset": "adv:00072329",
+          "part_of_speech": "adv",
+          "lexical_category": "adv.all",
+          "definition": "used of movement to or among many different places or in no particular direction; \"wandering about with no place to go\"; \"people were rushing about\"; \"news gets around (or about)\"; \"traveled around in Asia\"; \"he needs advice from someone who's been around\"; \"she sleeps around\"",
+          "match_type": "exact_normalized_source_lemma"
+        },
+        {
+          "lemma": "about",
+          "synset": "adv:00073033",
+          "part_of_speech": "adv",
+          "lexical_category": "adv.all",
+          "definition": "(of actions or states) slightly short of or not quite accomplished; all but; \"the job is (just) about done\"; \"the baby was almost asleep when the alarm sounded\"; \"we're almost finished\"; \"the car all but ran her down\"; \"he nearly fainted\"; \"talked for nigh onto 2 hours\"; \"the recording is well-nigh perfect\"; \"virtually all the parties signed the contract\"; \"I was near exhausted by the run\"; \"most everyone agrees\"",
+          "match_type": "exact_normalized_source_lemma"
+        },
+        {
+          "lemma": "about",
+          "synset": "adv:00358114",
+          "part_of_speech": "adv",
+          "lexical_category": "adv.all",
+          "definition": "in rotation or succession; \"turn about is fair play\"",
+          "match_type": "exact_normalized_source_lemma"
+        }
+      ]
+    },
+    {
+      "normalized": "AKA",
+      "status": "pending_context_and_editorial_review",
+      "candidate_categories": [
+        "adv.all"
+      ],
+      "source_senses": [
+        {
+          "lemma": "a.k.a.",
+          "synset": "adv:00270446",
+          "part_of_speech": "adv",
+          "lexical_category": "adv.all",
+          "definition": "as known or named at another time or place; \"Mr. Smith, alias Mr. Lafayette\"",
+          "match_type": "exact_normalized_source_lemma"
+        }
+      ]
+    },
+    {
+      "normalized": "ANY",
+      "status": "pending_context_and_editorial_review",
+      "candidate_categories": [
+        "adv.all"
+      ],
+      "source_senses": [
+        {
+          "lemma": "any",
+          "synset": "adv:00024509",
+          "part_of_speech": "adv",
+          "lexical_category": "adv.all",
+          "definition": "to any degree or extent; \"it isn't any better\"",
+          "match_type": "exact_normalized_source_lemma"
+        }
+      ]
+    },
+    {
+      "normalized": "ASAP",
+      "status": "pending_context_and_editorial_review",
+      "candidate_categories": [
+        "adv.all"
+      ],
+      "source_senses": [
+        {
+          "lemma": "ASAP",
+          "synset": "adv:00034137",
+          "part_of_speech": "adv",
+          "lexical_category": "adv.all",
+          "definition": "as soon as possible",
+          "match_type": "exact_normalized_source_lemma"
+        }
+      ]
+    },
+    {
+      "normalized": "ASWELL",
+      "status": "pending_context_and_editorial_review",
+      "candidate_categories": [
+        "adv.all"
+      ],
+      "source_senses": [
+        {
+          "lemma": "as_well",
+          "synset": "adv:00047534",
+          "part_of_speech": "adv",
+          "lexical_category": "adv.all",
+          "definition": "in addition; \"he has a Mercedes, too\"",
+          "match_type": "exact_normalized_source_lemma"
+        }
+      ]
+    },
+    {
+      "normalized": "BEFORE",
+      "status": "pending_context_and_editorial_review",
+      "candidate_categories": [
+        "adv.all"
+      ],
+      "source_senses": [
+        {
+          "lemma": "before",
+          "synset": "adv:00060939",
+          "part_of_speech": "adv",
+          "lexical_category": "adv.all",
+          "definition": "earlier in time; previously; \"I had known her before\"; \"as I said before\"; \"he called me the day before but your call had come even earlier\"; \"her parents had died four years earlier\"; \"I mentioned that problem earlier\"",
+          "match_type": "exact_normalized_source_lemma"
+        },
+        {
+          "lemma": "before",
+          "synset": "adv:00066781",
+          "part_of_speech": "adv",
+          "lexical_category": "adv.all",
+          "definition": "at or in the front; \"I see the lights of a town ahead\"; \"the road ahead is foggy\"; \"staring straight ahead\"; \"we couldn't see over the heads of the people in front\"; \"with the cross of Jesus marching on before\"",
+          "match_type": "exact_normalized_source_lemma"
+        }
+      ]
+    },
+    {
+      "normalized": "BY",
+      "status": "pending_context_and_editorial_review",
+      "candidate_categories": [
+        "adv.all"
+      ],
+      "source_senses": [
+        {
+          "lemma": "by",
+          "synset": "adv:00233687",
+          "part_of_speech": "adv",
+          "lexical_category": "adv.all",
+          "definition": "in reserve; not for immediate use; \"started setting aside money to buy a car\"; \"put something by for her old age\"; \"has a nest egg tucked away for a rainy day\"",
+          "match_type": "exact_normalized_source_lemma"
+        },
+        {
+          "lemma": "by",
+          "synset": "adv:00417787",
+          "part_of_speech": "adv",
+          "lexical_category": "adv.all",
+          "definition": "so as to pass a given point; \"every hour a train goes past\"",
+          "match_type": "exact_normalized_source_lemma"
+        }
+      ]
+    },
+    {
+      "normalized": "BUT",
+      "status": "pending_context_and_editorial_review",
+      "candidate_categories": [
+        "adv.all"
+      ],
+      "source_senses": [
+        {
+          "lemma": "but",
+          "synset": "adv:00004722",
+          "part_of_speech": "adv",
+          "lexical_category": "adv.all",
+          "definition": "and nothing more; \"I was merely asking\"; \"it is simply a matter of time\"; \"just a scratch\"; \"he was only a child\"; \"hopes that last but a moment\"",
+          "match_type": "exact_normalized_source_lemma"
+        }
+      ]
+    },
+    {
+      "normalized": "CURRENTLY",
+      "status": "pending_context_and_editorial_review",
+      "candidate_categories": [
+        "adv.all"
+      ],
+      "source_senses": [
+        {
+          "lemma": "currently",
+          "synset": "adv:00048268",
+          "part_of_speech": "adv",
+          "lexical_category": "adv.all",
+          "definition": "at this time or period; now; \"he is presently our ambassador to the United Nations\"; \"currently they live in Connecticut\"",
+          "match_type": "exact_normalized_source_lemma"
+        }
+      ]
+    },
+    {
+      "normalized": "EEN",
+      "status": "pending_context_and_editorial_review",
+      "candidate_categories": [
+        "adv.all"
+      ],
+      "source_senses": [
+        {
+          "lemma": "e'en",
+          "synset": "adv:00018265",
+          "part_of_speech": "adv",
+          "lexical_category": "adv.all",
+          "definition": "even",
+          "match_type": "exact_normalized_source_lemma"
+        }
+      ]
+    },
+    {
+      "normalized": "EG",
+      "status": "pending_context_and_editorial_review",
+      "candidate_categories": [
+        "adv.all"
+      ],
+      "source_senses": [
+        {
+          "lemma": "e.g.",
+          "synset": "adv:00159040",
+          "part_of_speech": "adv",
+          "lexical_category": "adv.all",
+          "definition": "as an example; \"take ribbon snakes, for example\"",
+          "match_type": "exact_normalized_source_lemma"
+        }
+      ]
+    },
+    {
+      "normalized": "ETC",
+      "status": "pending_context_and_editorial_review",
+      "candidate_categories": [
+        "adv.all"
+      ],
+      "source_senses": [
+        {
+          "lemma": "etc.",
+          "synset": "adv:00103664",
+          "part_of_speech": "adv",
+          "lexical_category": "adv.all",
+          "definition": "continuing in the same way",
+          "match_type": "exact_normalized_source_lemma"
+        }
+      ]
+    },
+    {
+      "normalized": "IB",
+      "status": "pending_context_and_editorial_review",
+      "candidate_categories": [
+        "adv.all"
+      ],
+      "source_senses": [
+        {
+          "lemma": "ib.",
+          "synset": "adv:00255976",
+          "part_of_speech": "adv",
+          "lexical_category": "adv.all",
+          "definition": "in the same place (used when citing a reference)",
+          "match_type": "exact_normalized_source_lemma"
+        }
+      ]
+    },
+    {
+      "normalized": "IBID",
+      "status": "pending_context_and_editorial_review",
+      "candidate_categories": [
+        "adv.all"
+      ],
+      "source_senses": [
+        {
+          "lemma": "ibid.",
+          "synset": "adv:00255976",
+          "part_of_speech": "adv",
+          "lexical_category": "adv.all",
+          "definition": "in the same place (used when citing a reference)",
+          "match_type": "exact_normalized_source_lemma"
+        }
+      ]
+    },
+    {
+      "normalized": "YEAH",
+      "status": "pending_context_and_editorial_review",
+      "candidate_categories": [
+        "adv.all"
+      ],
+      "source_senses": [
+        {
+          "lemma": "yeah",
+          "synset": "adv:00497560",
+          "part_of_speech": "adv",
+          "lexical_category": "adv.all",
+          "definition": "not only so, but; \"I therein do rejoice, yea, and will rejoice\"",
+          "match_type": "exact_normalized_source_lemma"
+        }
+      ]
+    },
+    {
+      "normalized": "YET",
+      "status": "pending_context_and_editorial_review",
+      "candidate_categories": [
+        "adv.all"
+      ],
+      "source_senses": [
+        {
+          "lemma": "yet",
+          "synset": "adv:00017639",
+          "part_of_speech": "adv",
+          "lexical_category": "adv.all",
+          "definition": "to a greater degree or extent; used with comparisons; \"looked sick and felt even worse\"; \"an even (or still) more interesting problem\"; \"still another problem must be solved\"; \"a yet sadder tale\"",
+          "match_type": "exact_normalized_source_lemma"
+        },
+        {
+          "lemma": "yet",
+          "synset": "adv:00027384",
+          "part_of_speech": "adv",
+          "lexical_category": "adv.all",
+          "definition": "despite anything to the contrary (usually following a concession); \"although I'm a little afraid, however I'd like to try it\"; \"while we disliked each other, nevertheless we agreed\"; \"he was a stern yet fair master\"; \"granted that it is dangerous, all the same I still want to go\"",
+          "match_type": "exact_normalized_source_lemma"
+        },
+        {
+          "lemma": "yet",
+          "synset": "adv:00027795",
+          "part_of_speech": "adv",
+          "lexical_category": "adv.all",
+          "definition": "up to the present time; \"I have yet to see the results\"; \"details are yet to be worked out\"",
+          "match_type": "exact_normalized_source_lemma"
+        },
+        {
+          "lemma": "yet",
+          "synset": "adv:00027918",
+          "part_of_speech": "adv",
+          "lexical_category": "adv.all",
+          "definition": "used in negative statement to describe a situation that has existed up to this point or up to the present time; \"So far he hasn't called\"; \"the sun isn't up yet\"",
+          "match_type": "exact_normalized_source_lemma"
+        },
+        {
+          "lemma": "yet",
+          "synset": "adv:00028198",
+          "part_of_speech": "adv",
+          "lexical_category": "adv.all",
+          "definition": "used after a superlative; \"this is the best so far\"; \"the largest drug bust yet\"",
+          "match_type": "exact_normalized_source_lemma"
+        },
+        {
+          "lemma": "yet",
+          "synset": "adv:00047641",
+          "part_of_speech": "adv",
+          "lexical_category": "adv.all",
+          "definition": "within an indefinite time or at an unspecified future time; \"he longed for the flowers that were yet to show themselves\"; \"sooner or later you will have to face the facts\"; \"in time they came to accept the harsh reality\"",
+          "match_type": "exact_normalized_source_lemma"
+        }
+      ]
+    },
+    {
+      "normalized": "MOST",
+      "status": "pending_context_and_editorial_review",
+      "candidate_categories": [
+        "adv.all"
+      ],
+      "source_senses": [
+        {
+          "lemma": "most",
+          "synset": "adv:00073033",
+          "part_of_speech": "adv",
+          "lexical_category": "adv.all",
+          "definition": "(of actions or states) slightly short of or not quite accomplished; all but; \"the job is (just) about done\"; \"the baby was almost asleep when the alarm sounded\"; \"we're almost finished\"; \"the car all but ran her down\"; \"he nearly fainted\"; \"talked for nigh onto 2 hours\"; \"the recording is well-nigh perfect\"; \"virtually all the parties signed the contract\"; \"I was near exhausted by the run\"; \"most everyone agrees\"",
+          "match_type": "exact_normalized_source_lemma"
+        },
+        {
+          "lemma": "most",
+          "synset": "adv:00111609",
+          "part_of_speech": "adv",
+          "lexical_category": "adv.all",
+          "definition": "used to form the superlative; \"the king cobra is the most dangerous snake\"",
+          "match_type": "exact_normalized_source_lemma"
+        },
+        {
+          "lemma": "most",
+          "synset": "adv:00112009",
+          "part_of_speech": "adv",
+          "lexical_category": "adv.all",
+          "definition": "very; \"a most welcome relief\"",
+          "match_type": "exact_normalized_source_lemma"
+        }
+      ]
+    },
+    {
+      "normalized": "NON",
+      "status": "pending_context_and_editorial_review",
+      "candidate_categories": [
+        "adv.all"
+      ],
+      "source_senses": [
+        {
+          "lemma": "non",
+          "synset": "adv:00024073",
+          "part_of_speech": "adv",
+          "lexical_category": "adv.all",
+          "definition": "negation of a word or group of words; \"he does not speak French\"; \"she is not going\"; \"they are not friends\"; \"not many\"; \"not much\"; \"not at all\"",
+          "match_type": "exact_normalized_source_lemma"
+        }
+      ]
+    },
+    {
+      "normalized": "NOT",
+      "status": "pending_context_and_editorial_review",
+      "candidate_categories": [
+        "adv.all"
+      ],
+      "source_senses": [
+        {
+          "lemma": "not",
+          "synset": "adv:00024073",
+          "part_of_speech": "adv",
+          "lexical_category": "adv.all",
+          "definition": "negation of a word or group of words; \"he does not speak French\"; \"she is not going\"; \"they are not friends\"; \"not many\"; \"not much\"; \"not at all\"",
+          "match_type": "exact_normalized_source_lemma"
+        }
+      ]
+    },
+    {
+      "normalized": "OFFENSIVELY",
+      "status": "pending_context_and_editorial_review",
+      "candidate_categories": [
+        "adv.all"
+      ],
+      "source_senses": [
+        {
+          "lemma": "offensively",
+          "synset": "adv:00306682",
+          "part_of_speech": "adv",
+          "lexical_category": "adv.all",
+          "definition": "in an aggressive manner; \"`In this crisis, we must act offensively,' the President said\"; \"the admiral intends to act offensively in the Mediterranean\"",
+          "match_type": "exact_normalized_source_lemma"
+        },
+        {
+          "lemma": "offensively",
+          "synset": "adv:00306909",
+          "part_of_speech": "adv",
+          "lexical_category": "adv.all",
+          "definition": "in an obnoxious manner; \"he said so in one of his more offensively intellectually arrogant sentences\"",
+          "match_type": "exact_normalized_source_lemma"
+        },
+        {
+          "lemma": "offensively",
+          "synset": "adv:00307333",
+          "part_of_speech": "adv",
+          "lexical_category": "adv.all",
+          "definition": "in an unpleasantly offensive manner; \"he smelled offensively unwashed\"",
+          "match_type": "exact_normalized_source_lemma"
+        }
+      ]
+    },
+    {
+      "normalized": "ONBOARD",
+      "status": "pending_context_and_editorial_review",
+      "candidate_categories": [
+        "adv.all"
+      ],
+      "source_senses": [
+        {
+          "lemma": "on_board",
+          "synset": "adv:00249878",
+          "part_of_speech": "adv",
+          "lexical_category": "adv.all",
+          "definition": "on a ship, train, plane or other vehicle",
+          "match_type": "exact_normalized_source_lemma"
+        }
+      ]
+    },
+    {
+      "normalized": "OUTRAGEOUSLY",
+      "status": "pending_context_and_editorial_review",
+      "candidate_categories": [
+        "adv.all"
+      ],
+      "source_senses": [
+        {
+          "lemma": "outrageously",
+          "synset": "adv:00117372",
+          "part_of_speech": "adv",
+          "lexical_category": "adv.all",
+          "definition": "to an extravagant or immoderate degree; \"atrociously expensive\"",
+          "match_type": "exact_normalized_source_lemma"
+        },
+        {
+          "lemma": "outrageously",
+          "synset": "adv:00117508",
+          "part_of_speech": "adv",
+          "lexical_category": "adv.all",
+          "definition": "in a very offensive manner; \"he behaved outrageously\"",
+          "match_type": "exact_normalized_source_lemma"
+        }
+      ]
+    },
+    {
+      "normalized": "SINGLEHANDEDLY",
+      "status": "pending_context_and_editorial_review",
+      "candidate_categories": [
+        "adv.all"
+      ],
+      "source_senses": [
+        {
+          "lemma": "single-handedly",
+          "synset": "adv:00455030",
+          "part_of_speech": "adv",
+          "lexical_category": "adv.all",
+          "definition": "without assistance; \"I built this house single-handedly\"",
+          "match_type": "exact_normalized_source_lemma"
+        }
+      ]
+    },
+    {
+      "normalized": "SUCH",
+      "status": "pending_context_and_editorial_review",
+      "candidate_categories": [
+        "adv.all"
+      ],
+      "source_senses": [
+        {
+          "lemma": "such",
+          "synset": "adv:00147386",
+          "part_of_speech": "adv",
+          "lexical_category": "adv.all",
+          "definition": "to so extreme a degree; \"he is such a baby\"; \"Such rich people!\"",
+          "match_type": "exact_normalized_source_lemma"
+        }
+      ]
+    },
+    {
+      "normalized": "TOO",
+      "status": "pending_context_and_editorial_review",
+      "candidate_categories": [
+        "adv.all"
+      ],
+      "source_senses": [
+        {
+          "lemma": "too",
+          "synset": "adv:00047392",
+          "part_of_speech": "adv",
+          "lexical_category": "adv.all",
+          "definition": "to a degree exceeding normal or proper limits; \"too big\"",
+          "match_type": "exact_normalized_source_lemma"
+        },
+        {
+          "lemma": "too",
+          "synset": "adv:00047534",
+          "part_of_speech": "adv",
+          "lexical_category": "adv.all",
+          "definition": "in addition; \"he has a Mercedes, too\"",
+          "match_type": "exact_normalized_source_lemma"
+        }
+      ]
+    },
+    {
+      "normalized": "TWEEN",
+      "status": "pending_context_and_editorial_review",
+      "candidate_categories": [
+        "adv.all"
+      ],
+      "source_senses": [
+        {
+          "lemma": "'tween",
+          "synset": "adv:00250898",
+          "part_of_speech": "adv",
+          "lexical_category": "adv.all",
+          "definition": "in between; \"two houses with a tree between\"",
+          "match_type": "exact_normalized_source_lemma"
+        }
+      ]
+    },
+    {
+      "normalized": "VERY",
+      "status": "pending_context_and_editorial_review",
+      "candidate_categories": [
+        "adv.all"
+      ],
+      "source_senses": [
+        {
+          "lemma": "very",
+          "synset": "adv:00031899",
+          "part_of_speech": "adv",
+          "lexical_category": "adv.all",
+          "definition": "used as intensifiers; `real' is sometimes used informally for `really'; `rattling' is informal; \"she was very gifted\"; \"he played very well\"; \"a really enjoyable evening\"; \"I'm real sorry about it\"; \"a rattling good yarn\"",
+          "match_type": "exact_normalized_source_lemma"
+        },
+        {
+          "lemma": "very",
+          "synset": "adv:00510749",
+          "part_of_speech": "adv",
+          "lexical_category": "adv.all",
+          "definition": "precisely so; \"on the very next page\"; \"he expected the very opposite\"",
+          "match_type": "exact_normalized_source_lemma"
+        }
+      ]
+    },
+    {
+      "normalized": "VIZ",
+      "status": "pending_context_and_editorial_review",
+      "candidate_categories": [
+        "adv.all"
+      ],
+      "source_senses": [
+        {
+          "lemma": "viz.",
+          "synset": "adv:00188510",
+          "part_of_speech": "adv",
+          "lexical_category": "adv.all",
+          "definition": "as follows",
+          "match_type": "exact_normalized_source_lemma"
+        }
+      ]
+    }
+  ]
+}

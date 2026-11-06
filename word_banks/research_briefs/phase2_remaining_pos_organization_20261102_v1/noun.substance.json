@@ -1,0 +1,482 @@
+{
+  "schema_version": 1,
+  "research_status": "REVIEW_REQUIRED_NOT_APPROVED",
+  "group": "noun.substance",
+  "records": [
+    {
+      "normalized": "AG",
+      "status": "pending_context_and_editorial_review",
+      "candidate_categories": [
+        "noun.substance"
+      ],
+      "source_senses": [
+        {
+          "lemma": "Ag",
+          "synset": "noun:14654954",
+          "part_of_speech": "noun",
+          "lexical_category": "noun.substance",
+          "definition": "a soft white precious univalent metallic element having the highest electrical and thermal conductivity of any metal; occurs in argentite and in free form; used in coins and jewelry and tableware and photography",
+          "match_type": "exact_normalized_source_lemma"
+        }
+      ]
+    },
+    {
+      "normalized": "BI",
+      "status": "pending_context_and_editorial_review",
+      "candidate_categories": [
+        "noun.substance"
+      ],
+      "source_senses": [
+        {
+          "lemma": "Bi",
+          "synset": "noun:14631502",
+          "part_of_speech": "noun",
+          "lexical_category": "noun.substance",
+          "definition": "a heavy brittle diamagnetic trivalent metallic element (resembles arsenic and antimony chemically); usually recovered as a by-product from ores of other metals",
+          "match_type": "exact_normalized_source_lemma"
+        }
+      ]
+    },
+    {
+      "normalized": "BK",
+      "status": "pending_context_and_editorial_review",
+      "candidate_categories": [
+        "noun.substance"
+      ],
+      "source_senses": [
+        {
+          "lemma": "Bk",
+          "synset": "noun:14631134",
+          "part_of_speech": "noun",
+          "lexical_category": "noun.substance",
+          "definition": "a radioactive transuranic element; discovered by bombarding americium with helium",
+          "match_type": "exact_normalized_source_lemma"
+        }
+      ]
+    },
+    {
+      "normalized": "CH",
+      "status": "pending_context_and_editorial_review",
+      "candidate_categories": [
+        "noun.substance"
+      ],
+      "source_senses": [
+        {
+          "lemma": "C2H6",
+          "synset": "noun:14850826",
+          "part_of_speech": "noun",
+          "lexical_category": "noun.substance",
+          "definition": "a colorless odorless alkane gas used as fuel",
+          "match_type": "exact_normalized_source_lemma"
+        }
+      ]
+    },
+    {
+      "normalized": "CR",
+      "status": "pending_context_and_editorial_review",
+      "candidate_categories": [
+        "noun.substance"
+      ],
+      "source_senses": [
+        {
+          "lemma": "Cr",
+          "synset": "noun:14635092",
+          "part_of_speech": "noun",
+          "lexical_category": "noun.substance",
+          "definition": "a hard brittle multivalent metallic element; resistant to corrosion and tarnishing",
+          "match_type": "exact_normalized_source_lemma"
+        }
+      ]
+    },
+    {
+      "normalized": "CS",
+      "status": "pending_context_and_editorial_review",
+      "candidate_categories": [
+        "noun.substance"
+      ],
+      "source_senses": [
+        {
+          "lemma": "Cs",
+          "synset": "noun:14634232",
+          "part_of_speech": "noun",
+          "lexical_category": "noun.substance",
+          "definition": "a soft silver-white ductile metallic element (liquid at normal temperatures); the most electropositive and alkaline metal",
+          "match_type": "exact_normalized_source_lemma"
+        }
+      ]
+    },
+    {
+      "normalized": "CU",
+      "status": "pending_context_and_editorial_review",
+      "candidate_categories": [
+        "noun.substance"
+      ],
+      "source_senses": [
+        {
+          "lemma": "Cu",
+          "synset": "noun:14635722",
+          "part_of_speech": "noun",
+          "lexical_category": "noun.substance",
+          "definition": "a ductile malleable reddish-brown corrosion-resistant diamagnetic metallic element; occurs in various minerals but is the only metal that occurs abundantly in large masses; used as an electrical and thermal conductor",
+          "match_type": "exact_normalized_source_lemma"
+        }
+      ]
+    },
+    {
+      "normalized": "DY",
+      "status": "pending_context_and_editorial_review",
+      "candidate_categories": [
+        "noun.substance"
+      ],
+      "source_senses": [
+        {
+          "lemma": "Dy",
+          "synset": "noun:14636647",
+          "part_of_speech": "noun",
+          "lexical_category": "noun.substance",
+          "definition": "a trivalent metallic element of the rare earth group; forms compounds that are highly magnetic",
+          "match_type": "exact_normalized_source_lemma"
+        }
+      ]
+    },
+    {
+      "normalized": "ES",
+      "status": "pending_context_and_editorial_review",
+      "candidate_categories": [
+        "noun.substance"
+      ],
+      "source_senses": [
+        {
+          "lemma": "Es",
+          "synset": "noun:14636822",
+          "part_of_speech": "noun",
+          "lexical_category": "noun.substance",
+          "definition": "a radioactive transuranic element produced by bombarding plutonium with neutrons",
+          "match_type": "exact_normalized_source_lemma"
+        }
+      ]
+    },
+    {
+      "normalized": "FE",
+      "status": "pending_context_and_editorial_review",
+      "candidate_categories": [
+        "noun.substance"
+      ],
+      "source_senses": [
+        {
+          "lemma": "Fe",
+          "synset": "noun:14642417",
+          "part_of_speech": "noun",
+          "lexical_category": "noun.substance",
+          "definition": "a heavy ductile magnetic metallic element; is silver-white in pure form but readily rusts; used in construction and tools and armament; plays a role in the transport of oxygen by the blood",
+          "match_type": "exact_normalized_source_lemma"
+        }
+      ]
+    },
+    {
+      "normalized": "FR",
+      "status": "pending_context_and_editorial_review",
+      "candidate_categories": [
+        "noun.substance"
+      ],
+      "source_senses": [
+        {
+          "lemma": "Fr",
+          "synset": "noun:14637864",
+          "part_of_speech": "noun",
+          "lexical_category": "noun.substance",
+          "definition": "a radioactive element of the alkali-metal group discovered as a disintegration product of actinium",
+          "match_type": "exact_normalized_source_lemma"
+        }
+      ]
+    },
+    {
+      "normalized": "GD",
+      "status": "pending_context_and_editorial_review",
+      "candidate_categories": [
+        "noun.substance"
+      ],
+      "source_senses": [
+        {
+          "lemma": "Gd",
+          "synset": "noun:14638041",
+          "part_of_speech": "noun",
+          "lexical_category": "noun.substance",
+          "definition": "a ductile silvery-white ductile ferromagnetic trivalent metallic element of the rare earth group",
+          "match_type": "exact_normalized_source_lemma"
+        },
+        {
+          "lemma": "GD",
+          "synset": "noun:15056372",
+          "part_of_speech": "noun",
+          "lexical_category": "noun.substance",
+          "definition": "a nerve agent easily absorbed into the body; a lethal cholinesterase inhibitor that is highly toxic when inhaled",
+          "match_type": "exact_normalized_source_lemma"
+        }
+      ]
+    },
+    {
+      "normalized": "HB",
+      "status": "pending_context_and_editorial_review",
+      "candidate_categories": [
+        "noun.substance"
+      ],
+      "source_senses": [
+        {
+          "lemma": "Hb",
+          "synset": "noun:15024240",
+          "part_of_speech": "noun",
+          "lexical_category": "noun.substance",
+          "definition": "a hemoprotein composed of globin and heme that gives red blood cells their characteristic color; function primarily to transport oxygen from the lungs to the body tissues; \"fish have simpler hemoglobin than mammals\"",
+          "match_type": "exact_normalized_source_lemma"
+        }
+      ]
+    },
+    {
+      "normalized": "HO",
+      "status": "pending_context_and_editorial_review",
+      "candidate_categories": [
+        "noun.substance"
+      ],
+      "source_senses": [
+        {
+          "lemma": "Ho",
+          "synset": "noun:14640222",
+          "part_of_speech": "noun",
+          "lexical_category": "noun.substance",
+          "definition": "a trivalent metallic element of the rare earth group; occurs together with yttrium; forms highly magnetic compounds",
+          "match_type": "exact_normalized_source_lemma"
+        },
+        {
+          "lemma": "H2O",
+          "synset": "noun:14845743",
+          "part_of_speech": "noun",
+          "lexical_category": "noun.substance",
+          "definition": "binary compound that occurs at room temperature as a clear colorless odorless tasteless liquid; freezes into ice below 0 degrees centigrade and boils above 100 degrees centigrade; widely used as a solvent",
+          "match_type": "exact_normalized_source_lemma"
+        }
+      ]
+    },
+    {
+      "normalized": "LH",
+      "status": "pending_context_and_editorial_review",
+      "candidate_categories": [
+        "noun.substance"
+      ],
+      "source_senses": [
+        {
+          "lemma": "LH",
+          "synset": "noun:14749272",
+          "part_of_speech": "noun",
+          "lexical_category": "noun.substance",
+          "definition": "a gonadotropic hormone that is secreted by the anterior pituitary; stimulates ovulation in female mammals and stimulates androgen release in male mammals",
+          "match_type": "exact_normalized_source_lemma"
+        }
+      ]
+    },
+    {
+      "normalized": "LR",
+      "status": "pending_context_and_editorial_review",
+      "candidate_categories": [
+        "noun.substance"
+      ],
+      "source_senses": [
+        {
+          "lemma": "Lr",
+          "synset": "noun:14643323",
+          "part_of_speech": "noun",
+          "lexical_category": "noun.substance",
+          "definition": "a radioactive transuranic element synthesized from californium",
+          "match_type": "exact_normalized_source_lemma"
+        }
+      ]
+    },
+    {
+      "normalized": "LU",
+      "status": "pending_context_and_editorial_review",
+      "candidate_categories": [
+        "noun.substance"
+      ],
+      "source_senses": [
+        {
+          "lemma": "Lu",
+          "synset": "noun:14644063",
+          "part_of_speech": "noun",
+          "lexical_category": "noun.substance",
+          "definition": "a trivalent metallic element of the rare earth group; usually occurs in association with yttrium",
+          "match_type": "exact_normalized_source_lemma"
+        }
+      ]
+    },
+    {
+      "normalized": "NA",
+      "status": "pending_context_and_editorial_review",
+      "candidate_categories": [
+        "noun.substance"
+      ],
+      "source_senses": [
+        {
+          "lemma": "Na",
+          "synset": "noun:14655371",
+          "part_of_speech": "noun",
+          "lexical_category": "noun.substance",
+          "definition": "a silvery soft waxy metallic element of the alkali metal group; occurs abundantly in natural compounds (especially in salt water); burns with a yellow flame and reacts violently in water; occurs in sea water and in the mineral halite (rock salt)",
+          "match_type": "exact_normalized_source_lemma"
+        }
+      ]
+    },
+    {
+      "normalized": "NI",
+      "status": "pending_context_and_editorial_review",
+      "candidate_categories": [
+        "noun.substance"
+      ],
+      "source_senses": [
+        {
+          "lemma": "Ni",
+          "synset": "noun:14646610",
+          "part_of_speech": "noun",
+          "lexical_category": "noun.substance",
+          "definition": "a hard malleable ductile silvery metallic element that is resistant to corrosion; used in alloys; occurs in pentlandite and smaltite and garnierite and millerite",
+          "match_type": "exact_normalized_source_lemma"
+        }
+      ]
+    },
+    {
+      "normalized": "PD",
+      "status": "pending_context_and_editorial_review",
+      "candidate_categories": [
+        "noun.substance"
+      ],
+      "source_senses": [
+        {
+          "lemma": "Pd",
+          "synset": "noun:14648754",
+          "part_of_speech": "noun",
+          "lexical_category": "noun.substance",
+          "definition": "a silver-white metallic element of the platinum group that resembles platinum; occurs in some copper and nickel ores; does not tarnish at ordinary temperatures and is used (alloyed with gold) in jewelry",
+          "match_type": "exact_normalized_source_lemma"
+        }
+      ]
+    },
+    {
+      "normalized": "PT",
+      "status": "pending_context_and_editorial_review",
+      "candidate_categories": [
+        "noun.substance"
+      ],
+      "source_senses": [
+        {
+          "lemma": "Pt",
+          "synset": "noun:14649543",
+          "part_of_speech": "noun",
+          "lexical_category": "noun.substance",
+          "definition": "a heavy precious metallic element; grey-white and resistant to corroding; occurs in some nickel and copper ores and is also found native in some deposits",
+          "match_type": "exact_normalized_source_lemma"
+        }
+      ]
+    },
+    {
+      "normalized": "PU",
+      "status": "pending_context_and_editorial_review",
+      "candidate_categories": [
+        "noun.substance"
+      ],
+      "source_senses": [
+        {
+          "lemma": "Pu",
+          "synset": "noun:14649775",
+          "part_of_speech": "noun",
+          "lexical_category": "noun.substance",
+          "definition": "a solid silvery grey radioactive transuranic element whose atoms can be split when bombarded with neutrons; found in minute quantities in uranium ores but is usually synthesized in nuclear reactors; 13 isotopes are known with the most important being plutonium 239",
+          "match_type": "exact_normalized_source_lemma"
+        }
+      ]
+    },
+    {
+      "normalized": "RG",
+      "status": "pending_context_and_editorial_review",
+      "candidate_categories": [
+        "noun.substance"
+      ],
+      "source_senses": [
+        {
+          "lemma": "Rg",
+          "synset": "noun:14652824",
+          "part_of_speech": "noun",
+          "lexical_category": "noun.substance",
+          "definition": "a radioactive transuranic element",
+          "match_type": "exact_normalized_source_lemma"
+        }
+      ]
+    },
+    {
+      "normalized": "SG",
+      "status": "pending_context_and_editorial_review",
+      "candidate_categories": [
+        "noun.substance"
+      ],
+      "source_senses": [
+        {
+          "lemma": "Sg",
+          "synset": "noun:14654058",
+          "part_of_speech": "noun",
+          "lexical_category": "noun.substance",
+          "definition": "a transuranic element",
+          "match_type": "exact_normalized_source_lemma"
+        }
+      ]
+    },
+    {
+      "normalized": "TA",
+      "status": "pending_context_and_editorial_review",
+      "candidate_categories": [
+        "noun.substance"
+      ],
+      "source_senses": [
+        {
+          "lemma": "Ta",
+          "synset": "noun:14656666",
+          "part_of_speech": "noun",
+          "lexical_category": "noun.substance",
+          "definition": "a hard grey lustrous metallic element that is highly resistant to corrosion; occurs in niobite and fergusonite and tantalite",
+          "match_type": "exact_normalized_source_lemma"
+        }
+      ]
+    },
+    {
+      "normalized": "TM",
+      "status": "pending_context_and_editorial_review",
+      "candidate_categories": [
+        "noun.substance"
+      ],
+      "source_senses": [
+        {
+          "lemma": "Tm",
+          "synset": "noun:14658546",
+          "part_of_speech": "noun",
+          "lexical_category": "noun.substance",
+          "definition": "a soft silvery metallic element of the rare earth group; isotope 170 emits X-rays and is used in small portable X-ray machines; it occurs in monazite and apatite and xenotime",
+          "match_type": "exact_normalized_source_lemma"
+        }
+      ]
+    },
+    {
+      "normalized": "ZN",
+      "status": "pending_context_and_editorial_review",
+      "candidate_categories": [
+        "noun.substance"
+      ],
+      "source_senses": [
+        {
+          "lemma": "Zn",
+          "synset": "noun:14661977",
+          "part_of_speech": "noun",
+          "lexical_category": "noun.substance",
+          "definition": "a bluish-white lustrous metallic element; brittle at ordinary temperatures but malleable when heated; used in a wide variety of alloys and in galvanizing iron; it occurs naturally as zinc sulphide in zinc blende",
+          "match_type": "exact_normalized_source_lemma"
+        }
+      ]
+    }
+  ]
+}

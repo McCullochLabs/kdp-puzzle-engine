@@ -1,0 +1,332 @@
+{
+  "schema_version": 1,
+  "status": "REVIEW_REQUIRED",
+  "provider": "Codex",
+  "created_at": "2026-10-09",
+  "books": {
+    "gardening_growing": {
+      "title": "Gardening & Growing Vocabulary Groups",
+      "puzzles": 3,
+      "topic": "Gardening & Growing",
+      "audience": "general adult",
+      "avoid": "brands, celebrities, filler, unrelated vocabulary",
+      "pages": [
+        {
+          "name": "Seed Starting",
+          "words": [
+            "SEED TRAY",
+            "POTTING MIX",
+            "GERMINATION",
+            "SEEDLING",
+            "COTYLEDON",
+            "TRANSPLANT",
+            "ROOT BALL",
+            "DIBBER",
+            "COLD FRAME",
+            "HARDENING OFF"
+          ]
+        },
+        {
+          "name": "Soil and Compost",
+          "words": [
+            "COMPOST",
+            "HUMUS",
+            "LOAM",
+            "MULCH",
+            "LEAF MOLD",
+            "WORM CASTINGS",
+            "TOPSOIL",
+            "AERATION",
+            "DRAINAGE",
+            "SOIL TEXTURE"
+          ]
+        },
+        {
+          "name": "Garden Tools",
+          "words": [
+            "TROWEL",
+            "SECATEURS",
+            "HOE",
+            "RAKE",
+            "SPADE",
+            "WATERING CAN",
+            "GARDEN FORK",
+            "PRUNING SAW",
+            "HAND CULTIVATOR",
+            "WHEELBARROW"
+          ]
+        }
+      ]
+    },
+    "space_astronomy": {
+      "title": "Space & Astronomy Vocabulary Groups",
+      "puzzles": 3,
+      "topic": "Space & Astronomy",
+      "audience": "general adult",
+      "avoid": "brands, celebrities, filler, unrelated vocabulary",
+      "pages": [
+        {
+          "name": "Observing the Sky",
+          "words": [
+            "TELESCOPE",
+            "EYEPIECE",
+            "FINDERSCOPE",
+            "TRIPOD",
+            "STAR CHART",
+            "BINOCULARS",
+            "OBSERVATORY",
+            "APERTURE",
+            "MAGNIFICATION",
+            "LIGHT POLLUTION"
+          ]
+        },
+        {
+          "name": "Lunar Landscape",
+          "words": [
+            "CRATER",
+            "REGOLITH",
+            "LUNAR HIGHLANDS",
+            "LAVA PLAIN",
+            "RILLE",
+            "EJECTA",
+            "TERMINATOR",
+            "LUNAR MARE",
+            "IMPACT BASIN",
+            "LUNAR PHASE"
+          ]
+        },
+        {
+          "name": "Orbital Motion",
+          "words": [
+            "ORBIT",
+            "APHELION",
+            "PERIHELION",
+            "INCLINATION",
+            "ECCENTRICITY",
+            "PERIOD",
+            "GRAVITY",
+            "TRAJECTORY",
+            "ELLIPSE",
+            "BARYCENTER"
+          ]
+        }
+      ]
+    },
+    "baking_desserts": {
+      "title": "Baking & Desserts Vocabulary Groups",
+      "puzzles": 3,
+      "topic": "Baking & Desserts",
+      "audience": "general adult",
+      "avoid": "brands, celebrities, filler, unrelated vocabulary",
+      "pages": [
+        {
+          "name": "Baking Tools",
+          "words": [
+            "WHISK",
+            "SPATULA",
+            "ROLLING PIN",
+            "SIEVE",
+            "BENCH SCRAPER",
+            "PASTRY BRUSH",
+            "MIXING BOWL",
+            "LOAF PAN",
+            "COOLING RACK",
+            "MEASURING SPOON"
+          ]
+        },
+        {
+          "name": "Bread Making",
+          "words": [
+            "YEAST",
+            "DOUGH",
+            "KNEADING",
+            "PROOFING",
+            "STARTER",
+            "GLUTEN",
+            "CRUMB",
+            "CRUST",
+            "SOURDOUGH",
+            "SCORING"
+          ]
+        },
+        {
+          "name": "Pastry Techniques",
+          "words": [
+            "LAMINATION",
+            "FOLDING",
+            "BLIND BAKING",
+            "DOCKING",
+            "CRIMPING",
+            "CHILLING",
+            "CREAMING",
+            "PIPING",
+            "GLAZING",
+            "SIFTING"
+          ]
+        }
+      ]
+    },
+    "ocean_marine_life": {
+      "title": "Ocean & Marine Life Vocabulary Groups",
+      "puzzles": 3,
+      "topic": "Ocean & Marine Life",
+      "audience": "general adult",
+      "avoid": "brands, celebrities, filler, unrelated vocabulary",
+      "pages": [
+        {
+          "name": "Coastal Features",
+          "words": [
+            "ESTUARY",
+            "LAGOON",
+            "TIDE POOL",
+            "SALT MARSH",
+            "SANDBAR",
+            "HEADLAND",
+            "SEA STACK",
+            "SHORELINE",
+            "TIDAL FLAT",
+            "BREAKWATER"
+          ]
+        },
+        {
+          "name": "Marine Invertebrates",
+          "words": [
+            "OCTOPUS",
+            "SQUID",
+            "CUTTLEFISH",
+            "NAUTILUS",
+            "JELLYFISH",
+            "SEA ANEMONE",
+            "SEA URCHIN",
+            "STARFISH",
+            "BARNACLE",
+            "HERMIT CRAB"
+          ]
+        },
+        {
+          "name": "Ocean Processes",
+          "words": [
+            "CURRENT",
+            "UPWELLING",
+            "TIDE",
+            "WAVE",
+            "SALINITY",
+            "BUOYANCY",
+            "THERMOCLINE",
+            "EROSION",
+            "DEPOSITION",
+            "CIRCULATION"
+          ]
+        }
+      ]
+    },
+    "arts_crafts": {
+      "title": "Arts & Crafts Vocabulary Groups",
+      "puzzles": 3,
+      "topic": "Arts & Crafts",
+      "audience": "general adult",
+      "avoid": "brands, celebrities, filler, unrelated vocabulary",
+      "pages": [
+        {
+          "name": "Pottery Studio",
+          "words": [
+            "CLAY",
+            "KILN",
+            "GLAZE",
+            "SLIP",
+            "GREENWARE",
+            "BISQUE",
+            "COIL",
+            "PINCH POT",
+            "POTTERY WHEEL",
+            "WEDGING"
+          ]
+        },
+        {
+          "name": "Needlework",
+          "words": [
+            "THIMBLE",
+            "BOBBIN",
+            "SEAM",
+            "HEM",
+            "EMBROIDERY",
+            "CROSS STITCH",
+            "BACKSTITCH",
+            "APPLIQUE",
+            "HOOP",
+            "NEEDLE"
+          ]
+        },
+        {
+          "name": "Paper Crafts",
+          "words": [
+            "ORIGAMI",
+            "CREASE",
+            "FOLD",
+            "CARDSTOCK",
+            "QUILLING",
+            "COLLAGE",
+            "STENCIL",
+            "PAPER CUTTING",
+            "DECOUPAGE",
+            "SCORING BOARD"
+          ]
+        }
+      ]
+    },
+    "travel_adventure": {
+      "title": "Travel & Adventure Vocabulary Groups",
+      "puzzles": 3,
+      "topic": "Travel & Adventure",
+      "audience": "general adult",
+      "avoid": "brands, celebrities, filler, unrelated vocabulary",
+      "pages": [
+        {
+          "name": "Map Reading",
+          "words": [
+            "CONTOUR",
+            "LEGEND",
+            "SCALE",
+            "BEARING",
+            "COMPASS",
+            "WAYPOINT",
+            "COORDINATE",
+            "ELEVATION",
+            "GRID REFERENCE",
+            "TOPOGRAPHY"
+          ]
+        },
+        {
+          "name": "Campsite Equipment",
+          "words": [
+            "TENT",
+            "GROUND SHEET",
+            "SLEEPING BAG",
+            "SLEEPING PAD",
+            "GUYLINE",
+            "TENT PEG",
+            "HEADLAMP",
+            "CAMP STOVE",
+            "MESS KIT",
+            "RUCKSACK"
+          ]
+        },
+        {
+          "name": "Trail Features",
+          "words": [
+            "TRAILHEAD",
+            "SWITCHBACK",
+            "RIDGELINE",
+            "FOOTBRIDGE",
+            "BOARDWALK",
+            "CAIRN",
+            "OVERLOOK",
+            "PASS",
+            "RAVINE",
+            "SUMMIT"
+          ]
+        }
+      ]
+    }
+  }
+}

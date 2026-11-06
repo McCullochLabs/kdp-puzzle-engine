@@ -1,0 +1,32 @@
+{
+  "schema_version": 1,
+  "research_status": "REVIEW_REQUIRED_NOT_APPROVED",
+  "group": "noun.animal",
+  "records": [
+    {
+      "normalized": "OX",
+      "status": "pending_context_and_editorial_review",
+      "candidate_categories": [
+        "noun.animal"
+      ],
+      "source_senses": [
+        {
+          "lemma": "ox",
+          "synset": "noun:02402175",
+          "part_of_speech": "noun",
+          "lexical_category": "noun.animal",
+          "definition": "any of various wild bovines especially of the genera Bos or closely related Bibos",
+          "match_type": "exact_normalized_source_lemma"
+        },
+        {
+          "lemma": "ox",
+          "synset": "noun:02403003",
+          "part_of_speech": "noun",
+          "lexical_category": "noun.animal",
+          "definition": "an adult castrated bull of the genus Bos; especially Bos taurus",
+          "match_type": "exact_normalized_source_lemma"
+        }
+      ]
+    }
+  ]
+}

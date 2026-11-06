@@ -15,8 +15,16 @@ W, H = 2550, 3300
 # central proof-of-product, so this one setting prevents a Word Search visual
 # from leaking onto any other puzzle type.
 COVER_PUZZLE_TYPE = "Word Search"
+COVER_SAMPLE_WORD = ""
+COVER_SAMPLE_QUESTION = ""
+# Fallback for standalone previews; production passes the actual first grid.
+DEFAULT_SUDOKU_COVER_SAMPLE = "7...5..8.1.8...9.559.4.8.2.25..6.74...4..3196..9.8...2.2.....1.9.....65.....91..4"
+COVER_SAMPLE_SUDOKU = DEFAULT_SUDOKU_COVER_SAMPLE
+COVER_SAMPLE_WORDSEARCH = "HOLIDAYPUZZLESEARCH" * 12 + "HOLIDAYPUZZLESE"
 
 PALETTES = {
+    "after-hours-luxury": {"bg": (16, 18, 17), "accent": (203, 167, 107), "deep": (232, 222, 203), "mute": (164, 151, 126), "hi": (233, 189, 116)},
+    "celebration": {"bg": (247, 234, 213), "accent": (184, 65, 75), "deep": (35, 50, 75), "mute": (116, 91, 86), "hi": (255, 219, 111)},
     "nature":    {"bg": (244, 239, 226), "accent": (107, 142, 107), "deep": (32, 58, 38),  "mute": (120, 134, 116), "hi": (255, 211, 84)},
     "food":      {"bg": (250, 243, 229), "accent": (193, 84, 58),   "deep": (84, 28, 22),  "mute": (150, 108, 92),  "hi": (255, 200, 80)},
     "animals":   {"bg": (240, 238, 230), "accent": (58, 128, 124),  "deep": (18, 56, 54),  "mute": (108, 128, 124), "hi": (255, 211, 84)},
@@ -382,43 +390,89 @@ def hero_grid(d, cx, cy, cell, theme, accent, deep, hi, words=None):
 
 
 def puzzle_type_hero(d, cx, cy, cell, accent, deep, hi):
-    """Use a truthful cover visual for non-word-search puzzle books."""
+    """Use a truthful, background-transparent visual for puzzle covers.
+
+    The artwork remains visible between every line and character. Contrast is
+    supplied by paired light/dark strokes instead of the former white card,
+    keeping all puzzle types visually related without hiding the hero image.
+    """
+    if COVER_PUZZLE_TYPE == "Word Search + Sudoku":
+        # A word-search excerpt and the complete actual 9 x 9 Sudoku.
+        step = max(46, int(cell * .72))
+        top = cy - step * 2.2
+        starts = (cx - step * 6.2, cx + step * 1.2)
+        labels = ("WORD SEARCH EXCERPT", "SUDOKU")
+        label_font = f(ARIALB, max(28, int(step * .5)))
+        char_font = f(ARIALB, max(28, int(step * .62)))
+        for panel, x0 in enumerate(starts):
+            n = 5 if panel == 0 else 9
+            panel_step = 5 * step / n
+            char_font = f(ARIALB,max(18,int(panel_step*.62)))
+            panel_label_font = f(ARIALB,max(22,int(step*(.34 if panel==0 else .5))))
+            label_x = x0 + (5 * step - d.textlength(labels[panel], font=panel_label_font)) / 2
+            d.text((label_x, top - step * .85), labels[panel], font=panel_label_font,
+                   fill=hi, stroke_width=2, stroke_fill=deep)
+            for line in range(n+1):
+                width = 5 if panel == 0 or line % 3 else 8
+                d.line([(x0, top + line * panel_step), (x0 + 5 * step, top + line * panel_step)], fill=deep, width=width)
+                d.line([(x0 + line * panel_step, top), (x0 + line * panel_step, top + 5 * step)], fill=deep, width=width)
+            for row in range(n):
+                for col in range(n):
+                    value = (COVER_SAMPLE_WORDSEARCH[row * 15 + col] if panel == 0
+                             else COVER_SAMPLE_SUDOKU[row * 9 + col])
+                    if value == ".":
+                        continue
+                    d.text((x0 + col * panel_step + panel_step * .25, top + row * panel_step + panel_step * .12),
+                           value, font=char_font, fill=deep, stroke_width=2, stroke_fill=hi)
+        return
     if COVER_PUZZLE_TYPE == "Sudoku":
         n, size = 9, cell * 9; x0, y0 = cx - size // 2, cy - size // 2
-        d.rectangle([x0, y0, x0 + size, y0 + size], fill=(255, 255, 255), outline=deep, width=10)
-        digits = "534678912672195348198342567859761423426853791713924856961537284287419635345286179"
+        # Show an unsolved, uniquely solvable puzzle, never a completed answer
+        # grid. Production supplies the first puzzle from the book itself.
+        digits = COVER_SAMPLE_SUDOKU
         font = f(ARIALB, int(cell * .54))
         for row in range(n + 1):
-            width = 10 if row % 3 == 0 else 3
-            d.line([(x0, y0 + row * cell), (x0 + size, y0 + row * cell)], fill=deep, width=width)
-            d.line([(x0 + row * cell, y0), (x0 + row * cell, y0 + size)], fill=deep, width=width)
+            outer = 13 if row % 3 == 0 else 7
+            inner = 7 if row % 3 == 0 else 3
+            d.line([(x0, y0 + row * cell), (x0 + size, y0 + row * cell)], fill=hi, width=outer)
+            d.line([(x0 + row * cell, y0), (x0 + row * cell, y0 + size)], fill=hi, width=outer)
+            d.line([(x0, y0 + row * cell), (x0 + size, y0 + row * cell)], fill=deep, width=inner)
+            d.line([(x0 + row * cell, y0), (x0 + row * cell, y0 + size)], fill=deep, width=inner)
         for row in range(n):
             for col in range(n):
                 value = digits[row * n + col]
-                color = accent if (row + col) % 4 == 0 else deep
-                d.text((x0 + col * cell + cell * .31, y0 + row * cell + cell * .18), value, font=font, fill=color)
+                if value == ".":
+                    continue
+                color = accent if (row + col) % 4 == 0 else hi
+                d.text((x0 + col * cell + cell * .31, y0 + row * cell + cell * .18), value,
+                       font=font, fill=color, stroke_width=max(2, cell // 30), stroke_fill=deep)
         return
     if COVER_PUZZLE_TYPE == "Cryptogram":
         width, height = cell * 8, cell * 5; x0, y0 = cx - width // 2, cy - height // 2
-        d.rounded_rectangle([x0, y0, x0 + width, y0 + height], radius=28, fill=(255, 255, 255), outline=deep, width=10)
         title_font, code_font = f(ARIALB, int(cell * .34)), f(MONO, int(cell * .43))
-        _centered(d, "DECODE THE MESSAGE", title_font, y0 + cell * .35, accent)
-        code = "XQF LQJ YPMK  •  RST UVW  •  KLM NOP"
-        for index, line in enumerate((code, "_ _ _   _ _ _ _   _ _ _", "KEY:  A→M   B→N   C→O")):
-            _centered(d, line, code_font, y0 + cell * (1.45 + index * 1.05), deep if index < 2 else accent)
+        d.line([(x0 + cell, y0 + cell * .95), (x0 + width - cell, y0 + cell * .95)], fill=hi, width=8)
+        _centered_stroked(d, "DECODE THE MESSAGE", title_font, y0 + cell * .35, accent, deep, 3)
+        # A complete, playable ROT13 example: THE SKY IS WIDE.
+        code = "GUR FXL VF JVQR"
+        for index, line in enumerate((code, "___ ___ __ ____", "HINTS:  T→G   S→F   W→J")):
+            _centered_stroked(d, line, code_font, y0 + cell * (1.45 + index * 1.05), hi if index < 2 else accent, deep, 3)
         return
     if COVER_PUZZLE_TYPE == "Word Scramble + Trivia":
         width, height = cell * 8, cell * 5; x0, y0 = cx - width // 2, cy - height // 2
-        d.rounded_rectangle([x0, y0, x0 + width, y0 + height], radius=28, fill=(255, 255, 255), outline=deep, width=10)
-        tile_font = f(ARIALB, int(cell * .45))
-        _centered(d, "UNSCRAMBLE + DISCOVER", f(ARIALB, int(cell * .32)), y0 + cell * .32, accent)
-        letters = "P L A N E T"; tile = int(cell * .75)
-        start = cx - (len(letters.split()) * tile) // 2
-        for index, letter in enumerate(letters.split()):
+        sample = re.sub(r"[^A-Z]", "", COVER_SAMPLE_WORD.upper()) or "PUZZLE"
+        sample = sample[:14]
+        tile = min(int(cell * .75), int(cell * 6.7 / len(sample)))
+        tile_font = f(ARIALB, min(int(cell * .45), int(tile * .62)))
+        _centered_stroked(d, "UNSCRAMBLE + DISCOVER", f(ARIALB, int(cell * .32)), y0 + cell * .32, accent, deep, 3)
+        start = cx - (len(sample) * tile) // 2
+        for index, letter in enumerate(sample):
             x = start + index * tile
-            d.rounded_rectangle([x, y0 + cell * 1.25, x + tile - 12, y0 + cell * 2.0], radius=15, fill=hi, outline=deep, width=4)
-            d.text((x + tile * .24, y0 + cell * 1.36), letter, font=tile_font, fill=deep)
-        _centered(d, "Which planet is known as the Red Planet?", f(ARIALB, int(cell * .27)), y0 + cell * 2.65, deep)
+            d.rounded_rectangle([x, y0 + cell * 1.25, x + tile - 8, y0 + cell * 1.25 + tile], radius=12, outline=hi, width=5)
+            d.text((x + tile * .25, y0 + cell * 1.36), letter, font=tile_font, fill=hi, stroke_width=2, stroke_fill=deep)
+        question = COVER_SAMPLE_QUESTION or "Unscramble the word, then answer its clue."
+        question_font = f(ARIALB, int(cell * .23))
+        for index, line in enumerate(wrap(d, question, question_font, width - cell)[:2]):
+            _centered_stroked(d, line, question_font, y0 + cell * (2.55 + index * .32), hi, deep, 3)
         d.line([(x0 + cell, y0 + cell * 3.65), (x0 + width - cell, y0 + cell * 3.65)], fill=accent, width=5)
         return
     # Mixed Brain Games deliberately avoids the former large white frame and
@@ -475,11 +529,20 @@ def _centered(d, text, font, y, color):
     d.text(((W - d.textlength(text, font=font)) / 2, y), text, font=font, fill=color)
 
 
+def _centered_stroked(d, text, font, y, color, stroke, stroke_width=2):
+    d.text(((W - d.textlength(text, font=font)) / 2, y), text, font=font,
+           fill=color, stroke_width=stroke_width, stroke_fill=stroke)
+
+
 def difficulty_chip(d, difficulty, palette):
     """Draw a compact book-level difficulty marker without competing with the title."""
     if not difficulty:
         return
     label = str(difficulty).upper()
+    # A bare "MIXED" badge reads like the book contains mixed puzzle types.
+    # Make the promise explicit: this chip always describes difficulty.
+    if label == "MIXED":
+        label = "MIXED LEVELS"
     font = f(ARIALB, 30)
     width = d.textlength(label, font=font)
     x1, y1 = W - 145, 126
@@ -516,7 +579,7 @@ def cover_quality_report(title, subtitle, badge, puzzle_count, format_label, sty
         score -= 25; notes.append("Add the actual puzzle count before creating the final cover.")
     if "LARGE PRINT" in str(format_label or "").upper():
         notes.append("Large Print promise is shown as a high-contrast front-cover stamp.")
-    if str(style or "").lower() == "photo" and not str(art_path or "").strip():
+    if str(style or "").lower() in {"photo", "signature-photo"} and not str(art_path or "").strip():
         score -= 20; notes.append("Photo Hero needs a selected local image; choose another layout or add artwork.")
     if str(badge or "").strip():
         notes.append("The extra cover callout is separate from the puzzle-count badge.")
@@ -683,23 +746,35 @@ def photo_hero_cover(d, a, palette):
     # truthful puzzle proof instead.
     overlay = Image.new("RGBA", (W, H), (0, 0, 0, 0))
     od = ImageDraw.Draw(overlay)
-    if COVER_PUZZLE_TYPE != "Word Search":
-        puzzle_type_hero(od, W // 2, 2350, 94, accent, deep, hi)
+    # A readable proof on a quiet panel is safer than colored digits over art.
+    paper, ink = (250, 248, 239, 255), (29, 39, 51)
+    cy = 1900
+    if COVER_PUZZLE_TYPE == 'Word Search':
+        from wordsearch import generate_puzzle, grid_size_for
+        sample_words = list(getattr(a, 'cover_words', []) or DEFAULT_HERO_WORDS)[:12]
+        sample_words = [re.sub(r'[^A-Z]', '', str(word).upper()) for word in sample_words]
+        sample_words = [word for word in sample_words if 2 <= len(word) <= 21]
+        if not sample_words: sample_words = list(DEFAULT_HERO_WORDS)
+        grid, _, placed = generate_puzzle(sample_words, grid_size_for(sample_words), rng=random.Random(42))
+        if len(placed) != len(sample_words): raise ValueError('Cover sample could not place every theme word.')
+        n = len(grid); cell = min(90, 1260 // n)
+        width = n * cell; x0 = (W-width)//2; y0 = cy-width//2
+        od.rounded_rectangle((x0-65,y0-65,x0+width+65,y0+width+65), radius=42, fill=paper, outline=(*accent,255), width=7)
+        font=f(ARIALB, int(cell*.56))
+        for row in range(n):
+            for col in range(n):
+                x,y=x0+col*cell,y0+row*cell
+                od.rectangle((x,y,x+cell,y+cell),outline=(150,154,155),width=2)
+                od.text((x+cell*.26,y+cell*.12),grid[row][col],font=font,fill=ink)
     else:
-        grid_left, grid_top, cell, size = 1320, 1880, 118, 9
-        line_color = (*hi, 48)
-        letter_color = (*bg, 64)
-        font = f(ARIALB, 48)
-        word_source = list(getattr(a, "cover_words", []) or DEFAULT_HERO_WORDS)
-        letters = "".join(re.sub(r"[^A-Z]", "", str(word).upper()) for word in word_source) or "WORDSEARCHPUZZLES"
-        for row in range(size + 1):
-            od.line([(grid_left, grid_top + row * cell), (grid_left + size * cell, grid_top + row * cell)], fill=line_color, width=3)
-        for column in range(size + 1):
-            od.line([(grid_left + column * cell, grid_top), (grid_left + column * cell, grid_top + size * cell)], fill=line_color, width=3)
-        for row in range(size):
-            for column in range(size):
-                letter = letters[(row * size + column) % len(letters)]
-                od.text((grid_left + column * cell + 35, grid_top + row * cell + 31), letter, font=font, fill=letter_color)
+        cell = 132 if COVER_PUZZLE_TYPE == 'Sudoku' else 150
+        half_w = cell*4.5+70 if COVER_PUZZLE_TYPE == 'Sudoku' else 800
+        half_h = cell*4.5+70 if COVER_PUZZLE_TYPE == 'Sudoku' else 490
+        preview_position = getattr(a, 'puzzle_preview_position', 'center')
+        preview_x = {'left':int(W*.30),'right':int(W*.70)}.get(preview_position,W//2) if COVER_PUZZLE_TYPE=='Sudoku' else W//2
+        preview_x = max(half_w+130,min(W-half_w-130,preview_x))
+        od.rounded_rectangle((preview_x-half_w,cy-half_h,preview_x+half_w,cy+half_h),radius=42,fill=paper,outline=(*accent,255),width=7)
+        puzzle_type_hero(od,preview_x,cy,cell,ink,ink,ink)
     d._image.paste(overlay, (0, 0), overlay)
     # Restrained editorial label and a short accent rule make the cover feel
     # designed for this image rather than dropped into a template.
@@ -716,39 +791,156 @@ def photo_hero_cover(d, a, palette):
     else:
         _centered(d, format_text, label_font, 205, hi)
         d.line([(W // 2 - 165, 278), (W // 2 + 165, 278)], fill=hi, width=5)
-    title_size = 142
-    title_lines = []
-    for candidate in (154, 142, 130, 118, 106, 94):
-        candidate_font = f(IMPACT, candidate)
-        candidate_lines = _title_lines(d, a.title, candidate_font, W - 480)
-        if len(candidate_lines) <= 3:
-            title_size, title_lines = candidate, candidate_lines
-            break
-    if not title_lines:
-        title_lines = _title_lines(d, a.title, f(IMPACT, title_size), W - 480)
-    title_font = f(IMPACT, title_size)
-    y = 345
-    for line in title_lines:
-        x = (W - d.textlength(line, font=title_font)) / 2
-        # Photo covers can use a very dark palette background.  The old
-        # palette-bg title ink became nearly invisible over a dark photo, so
-        # use the palette highlight for consistently readable display type.
-        d.text((x + 4, y + 5), line, font=title_font, fill=(0, 0, 0))
-        d.text((x, y), line, font=title_font, fill=hi)
-        y += int(title_size * 1.02)
-    subtitle_font = f(ARIALB, 42)
-    for line in wrap(d, a.subtitle, subtitle_font, W - 560)[:2]:
-        _centered(d, line, subtitle_font, y + 20, hi)
-        y += 58
+    # Preserve title order while giving the puzzle type its own prominent line.
+    title = a.title.upper().replace('LARGE PRINT ', '')
+    match = re.search(r'\b(WORD SEARCH|SUDOKU|CRYPTOGRAM)\b',title)
+    segments = [(title, False)] if not match else [(title[:match.start()].strip(),False), (match.group(),True), (title[match.end():].strip(),False)]
+    layout=[]
+    for text, prominent in segments:
+        if not text: continue
+        size = 206 if prominent else 138
+        font=f(IMPACT,size)
+        for line in wrap(d,text,font,W-480): layout.append((line,size))
+    total_height=sum(int(size*1.12) for _,size in layout)
+    scale=min(1.0,690/max(1,total_height))
+    y=355
+    for line,size in layout:
+        size=max(64,int(size*scale)); font=f(IMPACT,size)
+        x=(W-d.textlength(line,font=font))/2
+        d.text((x+4,y+5),line,font=font,fill=(0,0,0))
+        d.text((x,y),line,font=font,fill=(255,247,216))
+        y+=int(size*1.12)
+    subtitle_font = f(ARIALB, 48)
+    subtitle_lines = wrap(d, a.subtitle, subtitle_font, W - 620)[:2]
+    if subtitle_lines:
+        panel_top = y + 10
+        panel_bottom = panel_top + 68 * len(subtitle_lines) + 24
+        d.rounded_rectangle([250, panel_top, W - 250, panel_bottom], radius=22,
+                            fill=(18, 24, 34), outline=hi, width=3)
+        for line in subtitle_lines:
+            _centered(d, line, subtitle_font, y + 26, hi)
+            y += 68
     if a.badge:
         badge_font = f(ARIALB, 40)
         badge = a.badge.upper()
         badge_width = min(d.textlength(badge, font=badge_font), W - 420)
         bx0, bx1 = (W - badge_width) / 2 - 34, (W + badge_width) / 2 + 34
-        d.rounded_rectangle([bx0, 2820, bx1, 2896], radius=20, fill=deep, outline=hi, width=3)
-        _centered(d, badge, badge_font, 2837, bg)
+        d.rounded_rectangle([bx0, 2680, bx1, 2756], radius=20, fill=deep, outline=hi, width=3)
+        _centered(d, badge, badge_font, 2697, bg)
     if a.author:
         _centered(d, a.author, f(ARIALB, 42), 3090, hi)
+
+
+def signature_photo_cover(d, a, palette):
+    """A restrained Signature layout within the existing approved-art route."""
+    if COVER_PUZZLE_TYPE != "Word Search":
+        raise ValueError("Signature Photo is a Word Search layout.")
+    from wordsearch import clean_words
+    theme_path = getattr(a, "theme_file", None)
+    if not theme_path:
+        raise ValueError("Signature Photo needs its complete 100-puzzle source.")
+    with open(theme_path, encoding="utf-8-sig") as source_file:
+        theme = json.load(source_file)
+    puzzles = theme.get("puzzles", [])
+    if len(puzzles) != 100 or a.puzzle_count != 100:
+        raise ValueError("Signature Photo requires 100 puzzles with at least twelve targets each.")
+    targets = [word for puzzle in puzzles for word in clean_words(puzzle.get("words", []))]
+    if any(len(clean_words(p.get("words", []))) < 12 for p in puzzles):
+        raise ValueError("Signature Photo requires 100 puzzles with at least twelve targets each.")
+    if len(targets) != len(set(targets)):
+        raise ValueError("Signature Photo cannot claim no repeated words for repeated targets.")
+    if not a.art or not os.path.isfile(a.art):
+        raise ValueError("Signature Photo needs approved artwork.")
+    with Image.open(a.art) as original:
+        source = original.convert("RGB")
+    scale = max(W / source.width, H / source.height)
+    photo = source.resize((round(source.width * scale), round(source.height * scale)), Image.Resampling.LANCZOS)
+    left, top = (photo.width - W) // 2, (photo.height - H) // 2
+    d._image.paste(photo.crop((left, top, left + W, top + H)), (0, 0))
+    cream, ink, gold = (251, 241, 218), (79, 40, 29), (167, 112, 49)
+    veil = Image.new("RGBA", (W, H), (0, 0, 0, 0))
+    vd = ImageDraw.Draw(veil)
+    for y in range(H):
+        alpha = 243 if y < 1450 else max(0, int(243 * (1900 - y) / 450))
+        if alpha:
+            vd.line((0, y, W, y), fill=(*cream, alpha))
+    d._image.paste(veil, (0, 0), veil)
+    d.rectangle((100, 100, W - 100, H - 100), outline=gold, width=7)
+    d.rectangle((125, 125, W - 125, H - 125), outline=gold, width=2)
+    _centered(d, "THE SIGNATURE PUZZLE COLLECTION", f(ARIALB, 51), 240, ink)
+    d.line((550, 345, W - 550, 345), fill=gold, width=5)
+    subject = re.sub(r"\s*[-–—:]?\s*signature edition\s*$", "", a.title, flags=re.I)
+    subject = re.sub(r"\bword\s*search\b", "", subject, flags=re.I).strip(" -:|")
+    title_font = f(GEORGIA, 204)
+    lines = wrap(d, subject.upper(), title_font, W - 460)
+    while len(lines) > 2 and title_font.size > 100:
+        title_font = f(GEORGIA, title_font.size - 6)
+        lines = wrap(d, subject.upper(), title_font, W - 460)
+    y = 470
+    for line in lines:
+        _centered(d, line, title_font, y, ink)
+        y += 245
+    _centered(d, "WORD SEARCH", f(ARIALB, 130), 1030, ink)
+    d.line((780, 1220, W - 780, 1220), fill=gold, width=5)
+    _centered(d, "SIGNATURE EDITION", f(GEORGIA, 76), 1270, ink)
+    _centered(d, f"{a.puzzle_count} PUZZLES  |  NO REPEATED WORDS", f(ARIALB, 56), 1440, ink)
+    _centered(d, "LARGE PRINT  |  COMPLETE SOLUTIONS", f(ARIALB, 44), 1530, ink)
+    if a.subtitle:
+        for offset, line in enumerate(wrap(d, a.subtitle, f(ARIAL, 44), W - 500)):
+            _centered(d, line, f(ARIAL, 44), 1640 + offset * 58, ink)
+    # Keep the seasonal artwork unobstructed in this photo-led edition.
+    if a.author:
+        _centered_stroked(d, a.author, f(ARIALB, 60), 3070, cream, ink, 3)
+
+
+def holiday_editorial_cover(d, a, palette):
+    """A photo-led, high-hierarchy direction for the ten-holiday collection.
+
+    Keep the photographed decorations visible at the edges while the calm
+    tabletop carries legible retail-scale type and two real puzzle fragments.
+    Other photo covers continue to use their existing layout unchanged.
+    """
+    if not a.art or not os.path.isfile(a.art):
+        raise ValueError("The holiday editorial cover needs its approved photo.")
+    source = Image.open(a.art).convert("RGB")
+    scale = max(W / source.width, H / source.height)
+    photo = source.resize((round(source.width * scale), round(source.height * scale)), Image.Resampling.LANCZOS)
+    left, top = (photo.width - W) // 2, (photo.height - H) // 2
+    d._image.paste(photo.crop((left, top, left + W, top + H)), (0, 0))
+    ink, cranberry, gold = (57, 39, 39), (142, 46, 59), (166, 112, 50)
+    cream = (251, 239, 219)
+    # A faint central wash works with the original photo, never a solid card.
+    wash = Image.new("RGBA", (W, H), (0, 0, 0, 0))
+    wd = ImageDraw.Draw(wash)
+    wd.rounded_rectangle((290, 465, 2260, 1980), radius=120, fill=(255, 244, 222, 35))
+    wd.rounded_rectangle((435, 2040, 2115, 2710), radius=70, fill=(255, 247, 230, 151),
+                         outline=(100, 54, 48, 80), width=5)
+    d._image.paste(wash, (0, 0), wash)
+
+    eyebrow = "THE YEAR-ROUND HOLIDAY PUZZLE COLLECTION"
+    _centered(d, eyebrow, f(ARIALB, 44), 425, cranberry)
+    d.line((680, 503, 1870, 503), fill=gold, width=7)
+    for line, y, size in (("CELEBRATE", 605, 224), ("ALL YEAR", 835, 262)):
+        title_font = f(GEORGIA, size)
+        _centered(d, line, title_font, y, ink)
+    d.line((830, 1180, 1720, 1180), fill=cranberry, width=9)
+
+    # Treat the total as one immediate retail promise. Keeping the number and
+    # label together prevents any suggestion that each holiday has 200 puzzles.
+    _centered(d, f"{a.puzzle_count or 200} PUZZLES!", f(ARIALB, 142), 1340, cranberry)
+    _centered(d, "100 WORD SEARCHES (12 WORDS EACH)  +  100 SUDOKU", f(ARIALB, 48), 1670, ink)
+    _centered(d, "CLASSIC NUMBERS  +  HOLIDAY SYMBOLS", f(ARIALB, 49), 1760, cranberry)
+    # Keep the complete submitted subtitle on the cover as well as the
+    # clearer editorial promise above, without crowding the puzzle samples.
+    sub_font = f(ARIALB, 35)
+    for offset, line in enumerate(wrap(d, a.subtitle, sub_font, W - 900)[:2]):
+        _centered(d, line, sub_font, 1870 + offset * 48, ink)
+
+    puzzle_type_hero(d, W // 2, 2350, 142, cranberry, ink, cream)
+    d.rounded_rectangle((845, 2755, 1705, 2840), radius=38, fill=cranberry)
+    _centered(d, "10 HOLIDAY CHAPTERS", f(ARIALB, 48), 2770, cream)
+    # The photo darkens at the foot, so a fine shadow protects the real author.
+    _centered_stroked(d, a.author, f(ARIALB, 51), 3060, cream, ink, 3)
 
 
 def mixed_brain_cover(d, a, palette, direction):
@@ -808,6 +1000,10 @@ def standout_cover(d, a, palette):
     style = a.style
     if style in {"mixed-edge", "mixed-editorial", "mixed-logic"} and COVER_PUZZLE_TYPE == "Mixed Brain Games":
         mixed_brain_cover(d, a, palette, style)
+    elif style == "holiday-editorial" and COVER_PUZZLE_TYPE == "Word Search + Sudoku":
+        holiday_editorial_cover(d, a, palette)
+    elif style == "signature-photo":
+        signature_photo_cover(d, a, palette)
     elif style == "photo":
         photo_hero_cover(d, a, palette)
     elif style == "sunburst":
@@ -954,23 +1150,44 @@ def main():
                     help="actual number of puzzles; shown as a clear cover stamp")
     ap.add_argument("--difficulty", default="", help="book-level difficulty shown as a small cover marker")
     ap.add_argument("--format-label", default="WORD SEARCH", help="truthful cover format label, such as LARGE PRINT or WORD SEARCH")
-    ap.add_argument("--puzzle-type", default="Word Search", choices=("Word Search", "Sudoku", "Cryptogram", "Word Scramble + Trivia", "Mixed Brain Games"), help="selects the truthful cover proof visual")
+    ap.add_argument("--puzzle-type", default="Word Search", choices=("Word Search", "Sudoku", "Cryptogram", "Word Scramble + Trivia", "Mixed Brain Games", "Word Search + Sudoku"), help="selects the truthful cover proof visual")
+    ap.add_argument("--sample-word", default="", help="actual scrambled answer shown on a Scramble + Trivia cover")
+    ap.add_argument("--sample-question", default="", help="matching actual question shown on a Scramble + Trivia cover")
+    ap.add_argument("--sample-sudoku", default="", help="81-character unsolved grid from the actual Sudoku interior; dots are blank cells")
+    ap.add_argument("--sample-wordsearch", default="", help="225 letters from the actual first 15x15 word-search grid")
     ap.add_argument("--palette", default="nature")
     ap.add_argument("--theme", default=None, help="silhouette theme; defaults to --palette")
     ap.add_argument("--theme-file", default=None, help="theme JSON used for real-word puzzle cover details")
     ap.add_argument("--art", default=None, help="licensed image used by the Photo Hero layout")
     ap.add_argument("--art-focus", choices=("top", "center", "bottom"), default="center", help="automatic crop focus for Photo Hero artwork")
-    ap.add_argument("--style", choices=("classic", "photo", "playful", "sunburst", "bold", "retro", "minimal", "gallery", "colorblock", "ticket", "halo", "stripe", "mixed-edge", "mixed-editorial", "mixed-logic"), default="classic")
+    ap.add_argument("--puzzle-preview-position", choices=("left", "center", "right"), default="center", help="place the sample puzzle away from the artwork's main subject")
+    ap.add_argument("--style", choices=("classic", "photo", "signature-photo", "holiday-editorial", "playful", "sunburst", "bold", "retro", "minimal", "gallery", "colorblock", "ticket", "halo", "stripe", "mixed-edge", "mixed-editorial", "mixed-logic"), default="classic")
     ap.add_argument("--out", required=True)
     ap.add_argument("--preview", action="store_true", help="write a quick 510x660 preview instead of a print cover")
+    ap.add_argument("--draft-fullsize", action="store_true",
+                    help="write a full-size review draft without creating an approval proof; cannot be used for a wrap")
     a = ap.parse_args()
+
+    if a.preview and a.draft_fullsize:
+        ap.error("Choose either --preview or --draft-fullsize, not both.")
 
     # Review-only previews may display a pending candidate. Every printable
     # render fails closed here, regardless of which caller supplied the path.
-    approved_asset = None if a.preview else require_production_approved_cover_asset(a.art)
+    # Full-size drafts are intentionally unapproved and must not receive the
+    # proof sidecar consumed by wrap_cover.py.
+    approved_asset = None if (a.preview or a.draft_fullsize) else require_production_approved_cover_asset(a.art)
 
-    global COVER_PUZZLE_TYPE
+    global COVER_PUZZLE_TYPE, COVER_SAMPLE_WORD, COVER_SAMPLE_QUESTION, COVER_SAMPLE_SUDOKU, COVER_SAMPLE_WORDSEARCH
     COVER_PUZZLE_TYPE = a.puzzle_type
+    COVER_SAMPLE_WORD = a.sample_word
+    COVER_SAMPLE_QUESTION = a.sample_question
+    if a.sample_sudoku and not re.fullmatch(r"[1-9.]{81}", a.sample_sudoku):
+        raise ValueError("The Sudoku cover sample must have exactly 81 digits or dots.")
+    COVER_SAMPLE_SUDOKU = a.sample_sudoku or DEFAULT_SUDOKU_COVER_SAMPLE
+    if a.sample_wordsearch and not re.fullmatch(r"[A-Z]{225}", a.sample_wordsearch):
+        raise ValueError("The word-search cover sample must contain 225 uppercase grid letters.")
+    if a.sample_wordsearch:
+        COVER_SAMPLE_WORDSEARCH = a.sample_wordsearch
     random.seed(11)
     theme = a.theme or a.palette
     a.cover_words = theme_words(a.theme_file)
@@ -982,12 +1199,18 @@ def main():
 
     if a.style != "classic":
         standout_cover(d, a, P)
-        difficulty_chip(d, a.difficulty, P)
-        puzzle_count_stamp(d, a.puzzle_count, P)
+        if a.style != "signature-photo":
+            difficulty_chip(d, a.difficulty, P)
+        if a.style != "signature-photo" and (a.style != "holiday-editorial" or a.puzzle_type != "Word Search + Sudoku"):
+            puzzle_count_stamp(d, a.puzzle_count, P)
         os.makedirs(os.path.dirname(a.out) or ".", exist_ok=True)
         if a.preview:
             img.resize((510, 660), Image.Resampling.LANCZOS).save(a.out, "PNG")
             print(f"PREVIEW -> {a.out}")
+            return
+        if a.draft_fullsize:
+            img.save(a.out, "PNG")
+            print(f"DRAFT -> {a.out}  ({W}x{H}; no approval proof created)")
             return
         img.save(a.out, "PNG")
         write_cover_approval_proof(a.out, approved_asset)
@@ -1081,6 +1304,10 @@ def main():
     if a.preview:
         img.resize((510, 660), Image.Resampling.LANCZOS).save(a.out, "PNG")
         print(f"PREVIEW -> {a.out}")
+        return
+    if a.draft_fullsize:
+        img.save(a.out, "PNG")
+        print(f"DRAFT -> {a.out}  ({W}x{H}; no approval proof created)")
         return
     img.save(a.out, "PNG")
     write_cover_approval_proof(a.out, approved_asset)

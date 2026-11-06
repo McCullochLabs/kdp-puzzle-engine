@@ -6,7 +6,7 @@ from PIL import Image, ImageDraw
 
 from background_generation.index import BackgroundAssetIndex
 from background_generation.providers import ProviderNotConfigured
-from background_generation.service import BackgroundGenerationService, build_prompt
+from background_generation.service import BackgroundGenerationService, _approved_classification, build_prompt
 
 
 def _test_image(path: Path) -> bytes:
@@ -56,6 +56,17 @@ def test_prompt_has_cover_safety_rules():
     assert "no words" in prompt and "no watermarks" in prompt and "non-explicit" in prompt
 
 
+def test_human_approved_generated_art_keeps_its_true_provider():
+    candidate = {"project_generated": True, "provenance": {"provider": "ChatGPT project generation"}}
+    assert _approved_classification(candidate) == "APPROVED_CHATGPT_GENERATED"
+    candidate["provenance"]["provider"] = "Cloudflare Workers AI"
+    assert _approved_classification(candidate) == "APPROVED_CLOUDFLARE_GENERATED"
+    candidate["provenance"]["provider"] = "unknown"
+    import pytest
+    with pytest.raises(ValueError, match="verified project-generation provider"):
+        _approved_classification(candidate)
+
+
 def test_unconfigured_generation_pauses_safely(tmp_path, monkeypatch):
     import background_generation.service as module
     monkeypatch.setattr(module, "QUEUE_FILE", tmp_path / "queue.json")
@@ -64,3 +75,15 @@ def test_unconfigured_generation_pauses_safely(tmp_path, monkeypatch):
     result = service.process_next()
     assert result.status == "PAUSED"
     assert "Connect first" in result.message
+
+
+def test_art_reuse_counts_distinct_active_books_not_rebuild_attempts(tmp_path):
+    live = tmp_path / "current_package"; live.mkdir()
+    row = {"usage": [
+        {"title": "Book A", "theme": "Nature", "package": str(live)},
+        {"title": "Book A", "theme": "Nature", "package": str(live)},
+        {"title": "Book B", "theme": "Nature", "package": str(tmp_path / "removed_draft")},
+        {"title": "Book C", "theme": "Travel", "package": ""},
+    ]}
+    active = BackgroundAssetIndex.active_usage(row)
+    assert {use["title"] for use in active} == {"Book A", "Book C"}

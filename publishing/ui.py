@@ -13,11 +13,15 @@ from tkinter import messagebox, ttk
 from PIL import Image, ImageTk
 
 from .database import MARKETPLACES
+from .catalog_view import (
+    CATALOG_VIEWS, catalog_counts, catalog_state, collapse_catalog_books,
+    in_catalog_view, record_kind_label,
+)
 from .marketplaces import PUBLISHERS
 from .etsy_bundles import ETSY_STORE_NAME
 from .production_gate import book_gate, gate_text, topic_gate
 from .readiness import PREPARED_FOLDER_NAMES, format_history, marketplace_rows, next_actions, online_state_text, whats_left
-from .package_layout import marketplace_handoff_folder, missing_core_package_files
+from .package_layout import marketplace_handoff_folder, missing_core_package_files, release_contract
 from .production_orchestrator import ProductionJobIndex
 from integrations.publication import PublicationRecord
 
@@ -315,17 +319,58 @@ class PublishingManagerDialog(tk.Toplevel):
         self._open_dashboard_on_start = open_dashboard
         self.title("Publishing Center"); fit_dialog_to_screen(self, 1320, 820, 920, 560)
         self.configure(background="#1f1f1f")
-        self.filter_text = tk.StringVar(); self.market_filter = tk.StringVar(value="All marketplaces"); self.ready_only = tk.BooleanVar(value=False); self.status = tk.StringVar(value="Sync your existing books to start the publishing catalog.")
+        self.filter_text = tk.StringVar(); self.market_filter = tk.StringVar(value="All marketplaces")
+        self.catalog_view = tk.StringVar(value="Completed books")
+        self.ready_only = tk.BooleanVar(value=False)  # Backward-compatible; replaced by the clearer Show filter.
+        self.status = tk.StringVar(value="Sync your existing books to start the publishing catalog.")
         self.job_status_filter = tk.StringVar(value="All statuses"); self.job_type_filter = tk.StringVar(value="All puzzle types"); self.job_priority_filter = tk.StringVar(value="All priorities"); self.job_attention_filter = tk.StringVar(value="")
         self.rows: dict[str, dict] = {}; self.recommendations: dict[str, dict] = {}; self._prepare_in_progress = False
+        self._catalog_refresh_generation = 0
+        self._catalog_search_timer: str | None = None
+        self._idea_gate_cache: dict[tuple, dict] = {}
         self._setup_styles(); self._build()
-        self.after(100, self._background_initial_sync)
+        # Put the saved catalog on screen first.  A large theme library can
+        # take time to rescan, but that should never make an existing catalog
+        # look empty or leave the operator wondering whether the app froze.
+        self.after(25, self._show_cached_catalog_preview)
+        self.after(150, self._background_initial_sync)
         self.after_idle(self._maximize_window)
         self.after_idle(self._open_initial_dashboard)
 
+    def _show_cached_catalog_preview(self) -> None:
+        """Show known books immediately while full production checks run."""
+        if not self.winfo_exists() or self.tree.get_children():
+            return
+        try:
+            books = self.service.db.list_books()
+        except Exception as exc:
+            self.status.set(f"The saved catalog could not be read: {exc}. The full background check is still running.")
+            return
+        collapsed = collapse_catalog_books(books)
+        counts = catalog_counts(collapsed)
+        visible = [book for book in collapsed if in_catalog_view(book, self.catalog_view.get())]
+        self.rows.clear(); self.tree.delete(*self.tree.get_children())
+        for book in visible:
+            meta, statuses = book["metadata"], book["statuses"]
+            iid = book["book_id"]; self.rows[iid] = book
+            state = catalog_state(book)
+            self.tree.insert(
+                "", "end", iid=iid,
+                values=(meta.get("title", ""), meta.get("series", ""), meta.get("puzzle_type", "Word Search"),
+                        meta.get("page_count", 0), record_kind_label(book["catalog_kind"]), "Checking…", state["next_action"]),
+                tags=("alternate",) if len(self.rows) % 2 == 0 else (),
+            )
+        self.refresh_selected_view()
+        self.status.set(
+            f"Showing {len(visible)} distinct {self.catalog_view.get().casefold()} while readiness is checked… "
+            f"{counts['packages']} complete package(s), {counts['in_progress']} incomplete, "
+            f"{counts['ideas']} idea(s), {counts['missing']} missing source/package(s), "
+            f"and {counts['aliases_hidden']} alias record(s) hidden."
+        )
+
     def _background_initial_sync(self) -> None:
         """Sync the large catalog without freezing navigation or first paint."""
-        self.status.set("Opening your catalog now; checking saved themes in the background…")
+        self.status.set(f"Showing {len(self.rows)} saved book record(s); checking themes and current readiness in the background…")
         def work() -> None:
             try:
                 count = self.sync_catalog()
@@ -333,10 +378,6 @@ class PublishingManagerDialog(tk.Toplevel):
             except Exception as exc:
                 self.after(0, lambda: self._catalog_refresh_failed(str(exc)))
         threading.Thread(target=work, daemon=True).start()
-
-    def _catalog_refresh_failed(self, detail: str) -> None:
-        if self.winfo_exists():
-            self.status.set(f"The catalog could not finish loading: {detail}. Close and reopen this screen to retry.")
 
     def _initial_sync_finished(self, count: int) -> None:
         if not self.winfo_exists():
@@ -353,46 +394,109 @@ class PublishingManagerDialog(tk.Toplevel):
         """Calculate slow production gates away from Tk's event loop."""
         selected_market = next((key for key, label in DISPLAY.items() if label == self.market_filter.get()), "")
         query = self.filter_text.get().casefold().strip()
-        ready_only = bool(self.ready_only.get())
+        chosen_view = self.catalog_view.get()
+        self._catalog_refresh_generation += 1
+        generation = self._catalog_refresh_generation
         def work() -> None:
             try:
-                books = self.service.db.list_books()
-                ready_ids = {item["book"]["book_id"] for item in self.service.ready_now_books()} if ready_only else set()
+                books = collapse_catalog_books(self.service.db.list_books())
+                counts = catalog_counts(books)
                 rows = []
                 for book in books:
                     meta, statuses = book["metadata"], book["statuses"]
-                    if ready_only and book["book_id"] not in ready_ids:
-                        continue
+                    if generation != self._catalog_refresh_generation:
+                        return
                     haystack = " ".join(str(meta.get(key) or "") for key in ("title", "series", "theme")).casefold()
                     if query and query not in haystack:
                         continue
                     if selected_market and statuses.get(selected_market) == "Not Prepared":
                         continue
-                    rows.append((book, self.service.production_gate(book["book_id"])))
+                    gate = None
+                    if book["catalog_kind"] == "book_package":
+                        # Same shared gate, using the already-loaded record.
+                        # Avoid reloading all 200 SQLite rows for every book.
+                        gate = book_gate(book)
+                    elif book["catalog_kind"] in {"ready_book_idea", "blocked_book_idea", "theme_idea"}:
+                        gate = self._cached_idea_gate(book)
+                    final_review = False
+                    contract_ready = None
+                    if book["catalog_kind"] == "book_package":
+                        package = str(book.get("package_path") or "")
+                        contract_ready = bool(release_contract(package)["ready"])
+                        lock = self.service.db.latest_release_lock_snapshot(book["book_id"])
+                        proof = ((lock or {}).get("snapshot") or {}).get("phase4_production_proof") or {}
+                        proof_id = str(proof.get("proof_id") or "")
+                        final_review = bool(proof_id and self.service.db.final_local_review(
+                            book["book_id"], proof_id=proof_id, package_path=package))
+                    state = catalog_state(book, gate=gate, final_review=final_review,
+                                          contract_ready=contract_ready)
+                    if not in_catalog_view(book, chosen_view, state):
+                        continue
+                    book["catalog_state"] = state
+                    rows.append((book, state))
                 recommendations = self.service.recommended_books()
-                self.after(0, lambda: self._show_catalog_snapshot(rows, recommendations))
+                self.after(0, lambda: self._show_catalog_snapshot(rows, recommendations, counts)
+                           if generation == self._catalog_refresh_generation else None)
             except Exception as exc:
-                self.after(0, lambda: self._initial_sync_failed(str(exc)))
+                detail = str(exc)
+                self.after(0, lambda: self._catalog_refresh_failed(detail)
+                           if generation == self._catalog_refresh_generation else None)
         threading.Thread(target=work, daemon=True).start()
 
-    def _show_catalog_snapshot(self, rows: list[tuple[dict, dict]], recommendations: list[dict]) -> None:
+    def _catalog_refresh_failed(self, detail: str) -> None:
+        if self.winfo_exists():
+            self.status.set(f"Catalog refresh needs attention: {detail}. Saved rows remain available; use Sync catalog to retry.")
+
+    def _cached_idea_gate(self, book: dict) -> dict:
+        """Reuse an unchanged theme check without caching completed-PDF proof."""
+        source = Path(str(book.get("source_key") or ""))
+        try:
+            source_stamp = source.stat().st_mtime_ns
+        except OSError:
+            source_stamp = -1
+        meta = book.get("metadata") or {}
+        key = (
+            str(book.get("book_id") or ""), source_stamp,
+            str(meta.get("title") or ""), str(meta.get("author") or ""),
+            str(meta.get("production_status") or ""),
+        )
+        if key not in self._idea_gate_cache:
+            self._idea_gate_cache[key] = book_gate(book)
+        return self._idea_gate_cache[key]
+
+    def _schedule_catalog_search(self) -> None:
+        """Wait for typing to pause before recalculating the filtered view."""
+        if self._catalog_search_timer:
+            self.after_cancel(self._catalog_search_timer)
+        self._catalog_search_timer = self.after(250, self.refresh)
+
+    def _show_catalog_snapshot(self, rows: list[tuple[dict, dict]], recommendations: list[dict], counts: dict[str, int]) -> None:
         if not self.winfo_exists():
             return
+        selected = tuple(self.tree.selection())
         self.rows.clear(); self.tree.delete(*self.tree.get_children())
-        for book, gate in rows:
-            meta, statuses = book["metadata"], book["statuses"]
+        for book, state in rows:
+            meta = book["metadata"]
             iid = book["book_id"]; self.rows[iid] = book
-            production = "Ready" if gate["ready"] else "Needs attention"
-            ready = [PUBLISHERS[key].label for key, status in statuses.items() if status == "Ready"]
-            publishing = "Ready: " + ", ".join(ready[:2]) if ready else "Not prepared"
-            next_step = "Review production" if not gate["ready"] else ("Create Master Release" if not book.get("package_path") else (f"Publish {ready[0]}" if ready else "Prepare a marketplace"))
-            self.tree.insert("", "end", iid=iid, values=(meta.get("title", ""), meta.get("series", ""), meta.get("puzzle_type", "Word Search"), meta.get("page_count", 0), production, publishing, next_step), tags=("alternate",) if len(self.rows) % 2 == 0 else ())
+            self.tree.insert("", "end", iid=iid, values=(
+                meta.get("title", ""), meta.get("series", ""), meta.get("puzzle_type", "Word Search"),
+                meta.get("page_count", 0), record_kind_label(book["catalog_kind"]),
+                state["status"], state["next_action"]),
+                tags=("alternate",) if len(self.rows) % 2 == 0 else ())
+        keep_selection = tuple(book_id for book_id in selected if book_id in self.rows)
+        if keep_selection:
+            self.tree.selection_set(keep_selection)
         self.recommendations.clear(); self.recommendation_tree.delete(*self.recommendation_tree.get_children())
         for item in recommendations:
             book = item["book"]; iid = book["book_id"]; self.recommendations[iid] = item
             self.recommendation_tree.insert("", "end", iid=iid, values=(book["metadata"].get("title", ""), item["topic"], item["puzzles"] or "—", item["action"], item["reason"]), tags=("alternate",) if len(self.recommendations) % 2 == 0 else ())
         self.refresh_selected_view()
-        self.status.set(f"Catalog ready: {len(self.rows)} book record(s), {len(self.recommendations)} recommendation(s).")
+        self.status.set(
+            f"Showing {len(self.rows)} distinct {self.catalog_view.get().casefold()}. "
+            f"Catalog truth: {counts['packages']} complete package(s), {counts['in_progress']} incomplete, "
+            f"{counts['ideas']} idea(s), {counts['missing']} missing source/package(s), "
+            f"{counts['aliases_hidden']} alias record(s) hidden."
+        )
 
     def _open_initial_dashboard(self) -> None:
         """Let the main studio open the useful publishing view in one click."""
@@ -445,13 +549,14 @@ class PublishingManagerDialog(tk.Toplevel):
         heading = ttk.Frame(root, style="Publish.TFrame"); heading.grid(row=0, column=0, sticky="ew"); heading.columnconfigure(0, weight=1)
         ttk.Label(heading, text="Publishing Center", style="Publish.Title.TLabel").grid(row=0, column=0, sticky="w")
         ttk.Button(heading, text="What needs attention?", command=self.open_book_readiness, style="Publish.Primary.TButton").grid(row=0, column=1, sticky="e", padx=(0, 8))
-        ttk.Button(heading, text="What should I do next?", command=self.open_business_guidance, style="Publish.Primary.TButton").grid(row=0, column=2, sticky="e", padx=(0, 8))
-        ttk.Button(heading, text="Production dashboard", command=self.open_production_center, style="Publish.Action.TButton").grid(row=0, column=3, sticky="e", padx=(0, 8))
-        ttk.Button(heading, text="Review selected", command=self.open_batch_review, style="Publish.Action.TButton").grid(row=0, column=4, sticky="e", padx=(0, 8))
-        ttk.Button(heading, text="Approved queue", command=self.open_approved_queue, style="Publish.Action.TButton").grid(row=0, column=5, sticky="e", padx=(0, 8))
+        ttk.Button(heading, text="Production dashboard", command=self.open_production_center, style="Publish.Action.TButton").grid(row=0, column=2, sticky="e", padx=(0, 8))
         more = ttk.Menubutton(heading, text="More tools", style="Publish.Action.TMenubutton")
-        more.grid(row=0, column=6, sticky="e", padx=(0, 8))
+        more.grid(row=0, column=3, sticky="e", padx=(0, 8))
         more_menu = tk.Menu(more, tearoff=False)
+        more_menu.add_command(label="What should I do next?", command=self.open_business_guidance)
+        more_menu.add_command(label="Review selected books", command=self.open_batch_review)
+        more_menu.add_command(label="Approved production queue", command=self.open_approved_queue)
+        more_menu.add_separator()
         more_menu.add_command(label="Upload status", command=self.open_upload_status)
         more_menu.add_command(label="Create Etsy bundle", command=self.open_etsy_bundle_builder)
         more_menu.add_command(label="Business guidance", command=self.open_business_guidance)
@@ -461,8 +566,8 @@ class PublishingManagerDialog(tk.Toplevel):
         more_menu.add_command(label="Visual series map", command=self.open_series_map)
         more_menu.add_command(label="Legacy recovery tools", command=self.open_recovery_center)
         more.configure(menu=more_menu)
-        ttk.Button(heading, text="New book", command=self.start_new_book, style="Publish.Primary.TButton").grid(row=0, column=7, sticky="e")
-        ttk.Button(heading, text="Create best version", command=self.create_best_version, style="Publish.Primary.TButton").grid(row=0, column=8, sticky="e", padx=(8, 0))
+        ttk.Button(heading, text="New book", command=self.start_new_book, style="Publish.Primary.TButton").grid(row=0, column=4, sticky="e")
+        ttk.Button(heading, text="Create best version", command=self.create_best_version, style="Publish.Primary.TButton").grid(row=0, column=5, sticky="e", padx=(8, 0))
         ttk.Label(root, text="Choose a book, review its production readiness, then prepare the marketplace files you need. A Master Release is your approved source package; marketplace packages are safe copies made from it.", style="Publish.Subtitle.TLabel", wraplength=1150).grid(row=1, column=0, sticky="w", pady=(3, 16))
         recommended = ttk.Labelframe(root, text="Recommended next books", padding=12, style="Publish.Card.TLabelframe")
         recommended.grid(row=2, column=0, sticky="ew", pady=(0, 10)); recommended.columnconfigure(0, weight=1)
@@ -502,16 +607,18 @@ class PublishingManagerDialog(tk.Toplevel):
         self._build_content_capacity(content_tab)
         self._build_production_queue(queue_tab)
         filters = ttk.Frame(catalog_tab, style="Publish.TFrame"); filters.grid(row=0, column=0, sticky="ew", pady=(0, 10))
-        ttk.Label(filters, text="Find a book", style="Publish.TLabel").pack(side="left"); search = ttk.Entry(filters, textvariable=self.filter_text, width=34, style="Publish.TEntry"); search.pack(side="left", padx=(7, 16)); search.bind("<KeyRelease>", lambda _event: self.refresh())
-        ttk.Label(filters, text="Marketplace", style="Publish.TLabel").pack(side="left"); combo = ttk.Combobox(filters, textvariable=self.market_filter, values=("All marketplaces", *[DISPLAY[key] for key in MARKETPLACES]), state="readonly", width=16, style="Publish.TCombobox"); combo.pack(side="left", padx=7); combo.bind("<<ComboboxSelected>>", lambda _event: self.refresh())
-        ttk.Checkbutton(filters, text="Ready now only", variable=self.ready_only, command=self.refresh).pack(side="left", padx=(8, 0))
+        ttk.Label(filters, text="Find", style="Publish.TLabel").pack(side="left"); search = ttk.Entry(filters, textvariable=self.filter_text, width=28, style="Publish.TEntry"); search.pack(side="left", padx=(7, 14)); search.bind("<KeyRelease>", lambda _event: self._schedule_catalog_search())
+        ttk.Label(filters, text="Show", style="Publish.TLabel").pack(side="left")
+        view_combo = ttk.Combobox(filters, textvariable=self.catalog_view, values=CATALOG_VIEWS, state="readonly", width=18, style="Publish.TCombobox")
+        view_combo.pack(side="left", padx=7); view_combo.bind("<<ComboboxSelected>>", lambda _event: self.refresh())
+        ttk.Label(filters, text="Marketplace", style="Publish.TLabel").pack(side="left", padx=(8, 0)); combo = ttk.Combobox(filters, textvariable=self.market_filter, values=("All marketplaces", *[DISPLAY[key] for key in MARKETPLACES]), state="readonly", width=14, style="Publish.TCombobox"); combo.pack(side="left", padx=7); combo.bind("<<ComboboxSelected>>", lambda _event: self.refresh())
         ttk.Button(filters, text="Scan prepared folders", command=self.scan_local_status, style="Publish.Action.TButton").pack(side="right")
         ttk.Button(filters, text="Sync catalog", command=lambda: self.refresh(sync=True), style="Publish.Action.TButton").pack(side="right", padx=(0, 6))
-        columns = ("book", "series", "type", "pages", "production", "publishing", "next")
+        columns = ("book", "series", "type", "pages", "record", "status", "next")
         self.tree = ttk.Treeview(catalog_tab, columns=columns, show="headings", selectmode="extended", style="Publish.Treeview")
         self.tree.tag_configure("alternate", background="#1d262d")
-        labels = {"book": "Book", "series": "Series", "type": "Type", "pages": "Pages", "production": "Production", "publishing": "Publishing", "next": "Next step"}
-        widths = {"book": 270, "series": 160, "type": 140, "pages": 65, "production": 135, "publishing": 145, "next": 220}
+        labels = {"book": "Book", "series": "Series", "type": "Puzzle type", "pages": "Pages", "record": "Record", "status": "Status", "next": "One next action"}
+        widths = {"book": 270, "series": 145, "type": 125, "pages": 55, "record": 125, "status": 140, "next": 260}
         for key in columns: self.tree.heading(key, text=labels[key]); self.tree.column(key, width=widths[key], anchor="w" if key in ("book", "series", "type", "next") else "center")
         self.tree.grid(row=1, column=0, sticky="nsew"); scroll = ttk.Scrollbar(catalog_tab, orient="vertical", command=self.tree.yview); scroll.grid(row=1, column=1, sticky="ns"); self.tree.configure(yscrollcommand=scroll.set)
         self.tree.bind("<Double-1>", lambda _event: self.open_book())
@@ -672,13 +779,16 @@ class PublishingManagerDialog(tk.Toplevel):
         root.columnconfigure(0, weight=1); root.rowconfigure(3, weight=1)
         overview = ttk.Labelframe(root, text="Book overview", padding=12, style="Publish.Card.TLabelframe"); overview.grid(row=0, column=0, sticky="ew"); overview.columnconfigure(0, weight=1)
         self.sel_title = tk.StringVar(value=""); self.sel_detail = tk.StringVar(value=""); self.sel_path = tk.StringVar(value=""); self.sel_counts = tk.StringVar(value="")
+        self.selected_catalog_state = {"status": "Needs review", "next_action": "Review the book"}
         ttk.Label(overview, textvariable=self.sel_title, style="Publish.BookTitle.TLabel").grid(row=0, column=0, sticky="w")
         ttk.Button(overview, text="Commercial plan", command=self._show_commercial_plan, style="Publish.Action.TButton").grid(row=0, column=1, sticky="e", padx=(0, 6))
         # Read-only canonical product inspector (Universal Publishing adoption).
         ttk.Button(overview, text="View Master Product", command=self._open_master_product, style="Publish.Action.TButton").grid(row=0, column=2, sticky="e")
         ttk.Label(overview, textvariable=self.sel_detail, style="Publish.TLabel", wraplength=1080).grid(row=1, column=0, sticky="w", pady=(3, 0))
         ttk.Label(overview, textvariable=self.sel_path, style="Publish.Subtitle.TLabel", wraplength=1080, justify="left").grid(row=2, column=0, sticky="w", pady=(3, 0))
-        ttk.Label(overview, textvariable=self.sel_counts, style="Publish.Status.TLabel", wraplength=1080).grid(row=3, column=0, sticky="ew", pady=(8, 0))
+        ttk.Label(overview, textvariable=self.sel_counts, style="Publish.Status.TLabel", wraplength=850).grid(row=3, column=0, sticky="ew", pady=(8, 0))
+        self.primary_next_button = ttk.Button(overview, text="Open next step", command=self._run_primary_catalog_action, style="Publish.Primary.TButton")
+        self.primary_next_button.grid(row=3, column=1, columnspan=2, sticky="e", padx=(10, 0), pady=(8, 0))
         left = ttk.Labelframe(root, text="What's left?", padding=12, style="Publish.Card.TLabelframe"); left.grid(row=1, column=0, sticky="ew", pady=(10, 0)); left.columnconfigure(0, weight=1)
         self.whats_left_box = tk.Text(left, height=8, wrap="word", state="disabled", background="#292929", foreground="#d9f5ee", relief="flat", padx=10, pady=8)
         self.whats_left_box.grid(row=0, column=0, sticky="ew")
@@ -724,9 +834,32 @@ class PublishingManagerDialog(tk.Toplevel):
         self.market_buttons: dict[str, ttk.Button] = {}
         for name, label, command, style_name in specs:
             button = ttk.Button(bar, text=label, command=command, style=style_name, state="disabled")
-            button.pack(side="left", padx=(0, 6))
             self.market_buttons[name] = button
-        ttk.Label(bar, text="Actions never publish anything automatically.", style="Publish.Subtitle.TLabel").pack(side="right")
+        # Keep the four normal next actions visible.  Less common file,
+        # preview, online and history actions remain available in two short
+        # menus instead of overflowing a laptop-width row.
+        for name in ("prepare", "validate", "copy", "record"):
+            self.market_buttons[name].pack(side="left", padx=(0, 6))
+        files = ttk.Menubutton(bar, text="Files & previews ▾", style="Publish.Action.TMenubutton")
+        files.pack(side="left", padx=(0, 6))
+        files_menu = tk.Menu(files, tearoff=False)
+        for name in ("sheet", "payhip_preview", "payhip_customer", "folder"):
+            files_menu.add_command(label=self.market_buttons[name].cget("text"), command=self.market_buttons[name].invoke)
+        files.configure(menu=files_menu)
+        more_actions = ttk.Menubutton(bar, text="More actions ▾", style="Publish.Action.TMenubutton")
+        more_actions.pack(side="left")
+        more_actions_menu = tk.Menu(more_actions, tearoff=False)
+        for name in ("site", "listing", "draft", "export", "history"):
+            more_actions_menu.add_command(label=self.market_buttons[name].cget("text"), command=self.market_buttons[name].invoke)
+        more_actions.configure(menu=more_actions_menu)
+        self.market_action_menus = {
+            "sheet": (files_menu, 0), "payhip_preview": (files_menu, 1),
+            "payhip_customer": (files_menu, 2), "folder": (files_menu, 3),
+            "site": (more_actions_menu, 0), "listing": (more_actions_menu, 1),
+            "draft": (more_actions_menu, 2), "export": (more_actions_menu, 3),
+            "history": (more_actions_menu, 4),
+        }
+        ttk.Label(bar, text="Creates files only; nothing is published automatically.", style="Publish.Subtitle.TLabel").pack(side="right")
 
     def refresh_selected_view(self) -> None:
         """Mirror the catalog selection into the Selected Book tab (no tab switching)."""
@@ -740,6 +873,8 @@ class PublishingManagerDialog(tk.Toplevel):
             self.selected_book, self.selected_market_key, self.marketplace_row_map = None, "", {}
             self.master_product = None
             self.publication_records = {}
+            if hasattr(self, "primary_next_button"):
+                self.primary_next_button.configure(state="disabled", text="Open next step")
             return
         book = books[0]; self.selected_book = book
         self.selected_content.grid(); self.selected_empty.grid_remove()
@@ -772,7 +907,19 @@ class PublishingManagerDialog(tk.Toplevel):
                  "last_synced_at": record.get("last_synced_at", "")})
             for key, record in records.items()
         }
-        self.sel_counts.set(publishing_counts_line(rows))
+        self.selected_catalog_state = catalog_state(
+            book,
+            gate=truth["content_and_source"],
+            final_review=bool((truth.get("cover") or {}).get("final_local_review")),
+            contract_ready=bool((truth.get("package_contract") or {}).get("ready")),
+        )
+        self.sel_counts.set(
+            f"{self.selected_catalog_state['status']}  •  Next: {self.selected_catalog_state['next_action']}\n"
+            f"{publishing_counts_line(rows)}"
+        )
+        self.primary_next_button.configure(
+            state="normal", text=self.selected_catalog_state["next_action"]
+        )
         self.whats_left_box.configure(state="normal"); self.whats_left_box.delete("1.0", "end"); self.whats_left_box.insert("end", whats_left_text(rows)); self.whats_left_box.configure(state="disabled")
         self.market_tree.selection_remove(*self.market_tree.selection())
         self.market_tree.delete(*self.market_tree.get_children())
@@ -798,6 +945,50 @@ class PublishingManagerDialog(tk.Toplevel):
             self._market_rebuilding = False
         self._render_marketplace_cards(rows)
         self._set_market_error_detail(); self._update_market_actions()
+
+    def _run_primary_catalog_action(self) -> None:
+        """Run the one plain-English next action shown for the selected book."""
+        if not self.selected_book:
+            return
+        status = str(self.selected_catalog_state.get("status") or "")
+        statuses = self.selected_book.get("statuses") or {}
+
+        def choose_marketplace(wanted: str) -> bool:
+            key = next((name for name, value in statuses.items() if value == wanted), "")
+            if not key and wanted == "Ready":
+                key = "amazon"
+            if key not in self.marketplace_row_map:
+                return False
+            self.selected_market_key = key
+            self.market_tree.selection_set(key); self.market_tree.focus(key)
+            self._set_market_error_detail(); self._update_market_actions()
+            return True
+
+        if status == "Published":
+            if choose_marketplace("Published"):
+                row = self._current_market_row()
+                (self._open_saved_listing if row and row.get("url") else self._open_record_listing)()
+            return
+        if status == "Uploaded — verify live":
+            if choose_marketplace("Uploaded"):
+                self._open_record_listing()
+            return
+        if status == "Ready to publish":
+            if choose_marketplace("Ready"):
+                row = self._current_market_row()
+                (self._open_publishing_sheet if row and row.get("has_local_folder") else self._prepare_selected_marketplace)()
+            return
+        if status == "Approved":
+            if choose_marketplace("Ready"):
+                self._prepare_selected_marketplace()
+            return
+        if status == "Ready to create":
+            self.create_selected_package()
+            return
+        if status in {"Missing package", "Incomplete package"}:
+            self.open_listing_review()
+            return
+        self.open_listing_review()
 
     def _render_marketplace_cards(self, rows: list[dict]) -> None:
         """Show the normal publish path as compact cards; retain the table for details."""
@@ -913,6 +1104,8 @@ class PublishingManagerDialog(tk.Toplevel):
         }
         for name, button in self.market_buttons.items():
             button.configure(state="normal" if enabled[name] else "disabled")
+        for name, (menu, index) in self.market_action_menus.items():
+            menu.entryconfigure(index, state="normal" if enabled[name] else "disabled")
 
     def _current_market_row(self) -> dict | None:
         return self.marketplace_row_map.get(self.selected_market_key)
@@ -1155,37 +1348,12 @@ class PublishingManagerDialog(tk.Toplevel):
         threading.Thread(target=runner, daemon=True).start()
 
     def refresh(self, sync: bool = False) -> None:
+        self._catalog_search_timer = None
         if sync:
-            count = self.sync_catalog(); self.status.set(f"Synced {count} theme records into the Publishing Manager. Existing metadata locks were preserved.")
-        selected_market = next((key for key, label in DISPLAY.items() if label == self.market_filter.get()), "")
-        query = self.filter_text.get().casefold().strip(); self.rows.clear(); self.tree.delete(*self.tree.get_children())
-        for book in self.service.db.list_books():
-            meta, statuses = book["metadata"], book["statuses"]
-            if self.ready_only.get() and not any(item["book"]["book_id"] == book["book_id"] for item in self.service.ready_now_books()):
-                continue
-            haystack = " ".join(str(meta.get(key) or "") for key in ("title", "series", "theme")).casefold()
-            if query and query not in haystack: continue
-            if selected_market and statuses.get(selected_market) == "Not Prepared": continue
-            iid = book["book_id"]; self.rows[iid] = book
-            gate = self.service.production_gate(iid)
-            production = "Ready" if gate["ready"] else "Needs attention"
-            ready = [PUBLISHERS[key].label for key, status in statuses.items() if status == "Ready"]
-            publishing = "Ready: " + ", ".join(ready[:2]) if ready else "Not prepared"
-            if not gate["ready"]:
-                next_step = "Review production"
-            elif not book.get("package_path"):
-                next_step = "Create Master Release"
-            elif ready:
-                next_step = f"Publish {ready[0]}"
-            else:
-                next_step = "Prepare a marketplace"
-            self.tree.insert("", "end", iid=iid, values=(meta.get("title", ""), meta.get("series", ""), meta.get("puzzle_type", "Word Search"), meta.get("page_count", 0), production, publishing, next_step), tags=("alternate",) if len(self.rows) % 2 == 0 else ())
-        self.recommendations.clear(); self.recommendation_tree.delete(*self.recommendation_tree.get_children())
-        for item in self.service.recommended_books():
-            book = item["book"]; iid = book["book_id"]; self.recommendations[iid] = item
-            self.recommendation_tree.insert("", "end", iid=iid, values=(book["metadata"].get("title", ""), item["topic"], item["puzzles"] or "—", item["action"], item["reason"]), tags=("alternate",) if len(self.recommendations) % 2 == 0 else ())
-        self.refresh_selected_view()
-        self.refresh_production_queue()
+            self._background_initial_sync()
+            return
+        self.status.set(f"Refreshing {self.catalog_view.get().casefold()} and its current next actions…")
+        self._refresh_catalog_async()
 
     def create_best_version(self) -> None:
         candidate = self.service.best_version()
@@ -2025,7 +2193,7 @@ class ProductionReadinessDialog(tk.Toplevel):
         super().__init__(parent); self.parent_manager, self.service, self.on_changed = parent, service, on_changed
         self.title("Production dashboard"); fit_dialog_to_screen(self, 1120, 720, 820, 500); self.configure(background="#1f1f1f"); self.transient(parent)
         self.status = tk.StringVar(value="Checking the catalog…"); self.rows = {}
-        root = ttk.Frame(self, padding=22, style="Publish.TFrame"); root.pack(fill="both", expand=True); root.columnconfigure(0, weight=1); root.rowconfigure(2, weight=1)
+        root = ttk.Frame(self, padding=22, style="Publish.TFrame"); root.pack(fill="both", expand=True); root.columnconfigure(0, weight=1); root.rowconfigure(4, weight=1)
         ttk.Label(root, text="Production dashboard", style="Publish.Title.TLabel").grid(row=0, column=0, sticky="w")
         ttk.Label(root, text="Your best next books, ranked from real local readiness: production gate, completed files, specific marketplace copy, cover availability, and series connection. This is a production score—not a sales prediction.", style="Publish.Subtitle.TLabel", wraplength=1040).grid(row=1, column=0, sticky="w", pady=(3, 12))
         ttk.Label(root, text="Needs your attention first", style="Publish.Section.TLabel").grid(row=2, column=0, sticky="w", pady=(0, 4))
@@ -2036,13 +2204,18 @@ class ProductionReadinessDialog(tk.Toplevel):
         self.tree = ttk.Treeview(root, columns=("book", "score", "package", "copy", "next"), show="headings", style="Publish.Treeview")
         for key, label, width in (("book", "Book", 280), ("score", "Production score", 110), ("package", "Package", 115), ("copy", "Copy quality", 105), ("next", "Why it is ready", 490)):
             self.tree.heading(key, text=label); self.tree.column(key, width=width, anchor="w")
-        self.tree.grid(row=4, column=0, sticky="nsew")
+        ranked = ttk.Frame(root, style="Publish.TFrame"); ranked.grid(row=4, column=0, sticky="nsew")
+        ranked.columnconfigure(0, weight=1); ranked.rowconfigure(0, weight=1)
+        self.tree.grid(in_=ranked, row=0, column=0, sticky="nsew")
+        tree_scroll = ttk.Scrollbar(ranked, orient="vertical", command=self.tree.yview)
+        tree_scroll.grid(row=0, column=1, sticky="ns"); self.tree.configure(yscrollcommand=tree_scroll.set)
         actions = ttk.Frame(root, style="Publish.TFrame"); actions.grid(row=5, column=0, sticky="ew", pady=(12, 0))
-        self.refresh_button = ttk.Button(actions, text="Refresh dashboard", command=self.refresh, style="Publish.Action.TButton"); self.refresh_button.pack(side="left")
-        ttk.Button(actions, text="Review selected", command=self.review_selected, style="Publish.Action.TButton").pack(side="left", padx=7)
-        ttk.Button(actions, text="Build best next book", command=self.build_best, style="Publish.Primary.TButton").pack(side="left")
-        self.repair_button = ttk.Button(actions, text="Fix local handoff status", command=self.fix_local_status, style="Publish.Primary.TButton"); self.repair_button.pack(side="left", padx=7)
-        ttk.Button(actions, text="Close", command=self.destroy, style="Publish.Action.TButton").pack(side="right")
+        for column in range(5): actions.columnconfigure(column, weight=1)
+        self.refresh_button = ttk.Button(actions, text="Refresh", command=self.refresh, style="Publish.Action.TButton"); self.refresh_button.grid(row=0, column=0, sticky="ew", padx=(0,4))
+        ttk.Button(actions, text="Review selected", command=self.review_selected, style="Publish.Action.TButton").grid(row=0, column=1, sticky="ew", padx=4)
+        ttk.Button(actions, text="Build best next book", command=self.build_best, style="Publish.Primary.TButton").grid(row=0, column=2, sticky="ew", padx=4)
+        self.repair_button = ttk.Button(actions, text="Recheck local files", command=self.fix_local_status, style="Publish.Action.TButton"); self.repair_button.grid(row=0, column=3, sticky="ew", padx=4)
+        ttk.Button(actions, text="Close", command=self.destroy, style="Publish.Action.TButton").grid(row=0, column=4, sticky="ew", padx=(4,0))
         ttk.Label(root, textvariable=self.status, style="Publish.Status.TLabel", wraplength=940).grid(row=6, column=0, sticky="ew", pady=(12, 0))
         self.refresh()
 
@@ -2482,7 +2655,14 @@ class BusinessGuidanceDialog(tk.Toplevel):
             "final_review", source="publishing_database.final_local_reviews",
             evidence_id=f"{proof_id}:{review['reviewed_at']}", detail="Operator approved the exact locked local proof revision.",
         )
-        self.next_text.set("Final Local Review recorded. The package may now move to Platform Preview; it has not been published.")
+        icon_warning = ""
+        try:
+            from .folder_icons import mark_sale_ready_folder, refresh_explorer_icons
+            mark_sale_ready_folder(self.service.project, package)
+            refresh_explorer_icons()
+        except OSError as exc:
+            icon_warning = f" Windows could not refresh the red folder icon ({exc}); reopen the out folder or run the ready-folder icon refresh tool."
+        self.next_text.set("Final Local Review recorded. The package may now move to Platform Preview; it has not been published." + icon_warning)
         self.refresh()
 
     def run_product_qa(self) -> None:

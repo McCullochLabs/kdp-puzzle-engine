@@ -1,0 +1,86 @@
+{
+  "schema_version": 1,
+  "research_status": "REVIEW_REQUIRED_NOT_APPROVED",
+  "group": "verb.social",
+  "records": [
+    {
+      "normalized": "ACTON",
+      "status": "pending_context_and_editorial_review",
+      "candidate_categories": [
+        "verb.social"
+      ],
+      "source_senses": [
+        {
+          "lemma": "act_on",
+          "synset": "verb:02376429",
+          "part_of_speech": "verb",
+          "lexical_category": "verb.social",
+          "definition": "carry further or advance; \"Can you act on this matter soon?\"",
+          "match_type": "exact_normalized_source_lemma"
+        },
+        {
+          "lemma": "act_on",
+          "synset": "verb:02376631",
+          "part_of_speech": "verb",
+          "lexical_category": "verb.social",
+          "definition": "regulate one's behavior in accordance with certain information, ideas, or advice; \"The Founding Fathers acted on certain moral principles\"",
+          "match_type": "exact_normalized_source_lemma"
+        }
+      ]
+    },
+    {
+      "normalized": "ENROLLED",
+      "status": "pending_context_and_editorial_review",
+      "candidate_categories": [
+        "verb.social"
+      ],
+      "source_senses": [
+        {
+          "lemma": "enrol",
+          "synset": "verb:02471327",
+          "part_of_speech": "verb",
+          "lexical_category": "verb.social",
+          "definition": "register formally as a participant or member; \"The party recruited many new members\"",
+          "match_type": "attested_WordNet_exception",
+          "inflected_source_word": "ENROLLED"
+        },
+        {
+          "lemma": "enroll",
+          "synset": "verb:02471327",
+          "part_of_speech": "verb",
+          "lexical_category": "verb.social",
+          "definition": "register formally as a participant or member; \"The party recruited many new members\"",
+          "match_type": "attested_WordNet_exception",
+          "inflected_source_word": "ENROLLED"
+        }
+      ]
+    },
+    {
+      "normalized": "ENROLLING",
+      "status": "pending_context_and_editorial_review",
+      "candidate_categories": [
+        "verb.social"
+      ],
+      "source_senses": [
+        {
+          "lemma": "enrol",
+          "synset": "verb:02471327",
+          "part_of_speech": "verb",
+          "lexical_category": "verb.social",
+          "definition": "register formally as a participant or member; \"The party recruited many new members\"",
+          "match_type": "attested_WordNet_exception",
+          "inflected_source_word": "ENROLLING"
+        },
+        {
+          "lemma": "enroll",
+          "synset": "verb:02471327",
+          "part_of_speech": "verb",
+          "lexical_category": "verb.social",
+          "definition": "register formally as a participant or member; \"The party recruited many new members\"",
+          "match_type": "attested_WordNet_exception",
+          "inflected_source_word": "ENROLLING"
+        }
+      ]
+    }
+  ]
+}

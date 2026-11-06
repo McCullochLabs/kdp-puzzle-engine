@@ -1,0 +1,178 @@
+{
+  "schema_version": 1,
+  "research_status": "REVIEW_REQUIRED_NOT_APPROVED",
+  "lexical_review_group": "noun.plant",
+  "records": [
+    {
+      "normalized": "ACER",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "Acer",
+          "synset": "n:12752039",
+          "lexical_category": "noun.plant",
+          "definition": "type genus of the Aceraceae; trees or shrubs having winged fruit"
+        }
+      ],
+      "candidate_categories": [
+        "noun.plant"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    },
+    {
+      "normalized": "EUGENIA",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "Eugenia",
+          "synset": "n:12331415",
+          "lexical_category": "noun.plant",
+          "definition": "tropical trees and shrubs with aromatic leaves and often valuable hard wood"
+        }
+      ],
+      "candidate_categories": [
+        "noun.plant"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    },
+    {
+      "normalized": "MANGROVE",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "mangrove",
+          "synset": "n:12345899",
+          "lexical_category": "noun.plant",
+          "definition": "a tropical tree or shrub bearing fruit that germinates while still on the tree and having numerous prop roots that eventually form an impenetrable mass and are important in land building"
+        }
+      ],
+      "candidate_categories": [
+        "noun.plant"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    },
+    {
+      "normalized": "MELISSA",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "Melissa",
+          "synset": "n:12854443",
+          "lexical_category": "noun.plant",
+          "definition": "a genus of Old World mints of the family Labiatae"
+        }
+      ],
+      "candidate_categories": [
+        "noun.plant"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    },
+    {
+      "normalized": "MUSA",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "Musa",
+          "synset": "n:12352150",
+          "lexical_category": "noun.plant",
+          "definition": "type genus of the Musaceae: bananas"
+        }
+      ],
+      "candidate_categories": [
+        "noun.plant"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    },
+    {
+      "normalized": "PINOT",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "Pinot",
+          "synset": "n:13146035",
+          "lexical_category": "noun.plant",
+          "definition": "any of several purple or white wine grapes used especially for Burgundies and champagnes"
+        }
+      ],
+      "candidate_categories": [
+        "noun.plant"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    },
+    {
+      "normalized": "PINUS",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "Pinus",
+          "synset": "n:11608055",
+          "lexical_category": "noun.plant",
+          "definition": "type genus of the Pinaceae: large genus of true pines"
+        }
+      ],
+      "candidate_categories": [
+        "noun.plant"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    },
+    {
+      "normalized": "POA",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "Poa",
+          "synset": "n:12131216",
+          "lexical_category": "noun.plant",
+          "definition": "chiefly perennial grasses of cool temperate regions"
+        }
+      ],
+      "candidate_categories": [
+        "noun.plant"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    },
+    {
+      "normalized": "ROSA",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "Rosa",
+          "synset": "n:12620031",
+          "lexical_category": "noun.plant",
+          "definition": "large genus of erect or climbing prickly shrubs including roses"
+        }
+      ],
+      "candidate_categories": [
+        "noun.plant"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    }
+  ]
+}

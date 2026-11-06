@@ -1,0 +1,83 @@
+{
+  "schema_version": 1,
+  "research_status": "REVIEW_REQUIRED_NOT_APPROVED",
+  "lexical_review_group": "noun.Tops",
+  "records": [
+    {
+      "normalized": "ARTEFACT",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "artefact",
+          "synset": "n:00021939",
+          "lexical_category": "noun.Tops",
+          "definition": "a man-made object taken as a whole"
+        }
+      ],
+      "candidate_categories": [
+        "noun.Tops"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    },
+    {
+      "normalized": "ARTIFACT",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "artifact",
+          "synset": "n:00021939",
+          "lexical_category": "noun.Tops",
+          "definition": "a man-made object taken as a whole"
+        }
+      ],
+      "candidate_categories": [
+        "noun.Tops"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    },
+    {
+      "normalized": "COGNITION",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "cognition",
+          "synset": "n:00023271",
+          "lexical_category": "noun.Tops",
+          "definition": "the psychological result of perception and learning and reasoning"
+        }
+      ],
+      "candidate_categories": [
+        "noun.Tops"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    },
+    {
+      "normalized": "ENTITY",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "entity",
+          "synset": "n:00001740",
+          "lexical_category": "noun.Tops",
+          "definition": "that which is perceived or known or inferred to have its own distinct existence (living or nonliving)"
+        }
+      ],
+      "candidate_categories": [
+        "noun.Tops"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    }
+  ]
+}

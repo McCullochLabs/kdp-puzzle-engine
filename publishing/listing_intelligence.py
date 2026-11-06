@@ -16,7 +16,7 @@ from integrations.wincred import load_secret
 from .listing_copy import listing_copy_text
 
 DEFAULT_MODEL = "gemini-3.5-flash-lite"
-PROMPT_VERSION = "listing-v2-gemini-first"
+PROMPT_VERSION = "listing-v4-scramble-tags"
 
 class ListingProviderError(RuntimeError): pass
 class AuthError(ListingProviderError): pass
@@ -39,10 +39,14 @@ def _human_fields(meta: dict) -> set[str]:
 
 def _semantic_unique(values, facts, limit, max_length=50):
     """Keep distinct discovery angles, not simple word-order rewrites."""
-    selected=[]; seen=[]; title=_tokens(facts.get("title"))
+    selected=[]; seen=[]; title=_tokens(facts.get("title")); author=_tokens(facts.get("author"))
     for value in values or []:
         phrase=" ".join(str(value).split()).strip(); tokens=_tokens(phrase)
         if not phrase or len(phrase)>max_length or tokens <= title: continue
+        # KDP already has a contributor field. Repeating the contributor in
+        # backend discovery phrases wastes space and can confuse metadata
+        # review, particularly when an old AI draft treats the name as SEO.
+        if len(author) >= 2 and len(tokens & author) >= 2: continue
         if any(tokens and len(tokens & prior) / max(1, min(len(tokens), len(prior))) >= .8 for prior in seen): continue
         selected.append(phrase); seen.append(tokens)
         if len(selected)>=limit: break
@@ -66,8 +70,10 @@ def verified_facts(book: dict, platform: str) -> dict:
     features = []
     if "large print" in " ".join(str(meta.get(k) or "") for k in ("title", "subtitle", "format_label")).casefold(): features.append("large print")
     if int(meta.get("puzzle_count") or 0) >= 100: features.append("100-puzzle Signature-scale collection")
-    if bool(meta.get("no_repeat_words") or meta.get("unique_words_verified")): features.append("verified no-repeat word promise")
-    return {"product_id": str(book.get("book_id") or ""), "title": str(meta.get("title") or ""), "subtitle": str(meta.get("subtitle") or ""), "topic": str(meta.get("theme") or meta.get("detected_topic") or ""), "puzzle_type": kind, "puzzle_count": int(meta.get("puzzle_count") or 0), "difficulty": str(meta.get("difficulty") or meta.get("difficulty_label") or "Standard"), "audience": str(meta.get("audience") or "adults and teens"), "page_count": int(meta.get("page_count") or 0), "format": "downloadable PDF" if digital else "paperback puzzle book", "trim": str(meta.get("trim_size") or "8.5x11"), "large_print": "large print" in features, "solutions_included": True, "series": str(meta.get("series") or ""), "author": str(meta.get("author") or ""), "platform": platform, "price": prices.get(platform) or prices.get("payhip" if digital else "amazon"), "digital": digital, "bundle_contents": [], "meaningful_features": features, "actual_puzzle_groups": list(meta.get("puzzle_groups") or [])[:12], "category_context": list(meta.get("ingram_subjects") or meta.get("categories") or [])[:4], "human_controlled_fields": sorted(_human_fields(meta))}
+    if not meta.get("repetition_policy") and bool(meta.get("no_repeat_words") or meta.get("unique_words_verified")): features.append("verified no-repeat word promise")
+    if kind == "Sudoku": features.append("number, letter, and themed shape Sudoku")
+    if kind == "Mixed Brain Games": features.append("Sudoku, Cryptograms, and word scrambles with fact clues")
+    return {"product_id": str(book.get("book_id") or ""), "title": str(meta.get("title") or ""), "subtitle": str(meta.get("subtitle") or ""), "topic": str(meta.get("theme") or meta.get("detected_topic") or ""), "puzzle_type": kind, "puzzle_count": int(meta.get("puzzle_count") or 0), "difficulty": str(meta.get("difficulty") or meta.get("difficulty_label") or "Standard"), "audience": str(meta.get("audience") or "adults and teens"), "page_count": int(meta.get("page_count") or 0), "format": "downloadable PDF" if digital else "paperback puzzle book", "trim": str(meta.get("trim_size") or "8.5x11"), "large_print": "large print" in features, "solutions_included": True, "series": str(meta.get("series") or ""), "author": str(meta.get("author") or ""), "platform": platform, "price": prices.get(platform) or prices.get("payhip" if digital else "amazon"), "digital": digital, "bundle_contents": [], "meaningful_features": features, "actual_puzzle_groups": list(meta.get("puzzle_groups") or [])[:12], "category_context": list(meta.get("ingram_subjects") or meta.get("categories") or [])[:4], "human_controlled_fields": sorted(_human_fields(meta)), "scramble_content_promise": "Questions are fact clues to the scrambled answers, not separate trivia quizzes." if kind == "Word Scramble + Trivia" else ""}
 
 def _schema() -> dict:
     item = {"type": "string"}
@@ -155,12 +161,22 @@ def validate_output(result: dict, facts: dict) -> tuple[bool, list[str], dict]:
             issues.append(f"Copy introduced an unsupported {label.rstrip('s')} count.")
             break
     lower=text.casefold()
+    if "verified no-repeat word promise" not in facts.get("meaningful_features", []) and re.search(r"\bno[ -]+repeat|\brepeat[ -]+free|\bwithout repeat", lower):
+        issues.append("Copy claims no repeated words without a verified no-repeat fact.")
     if facts.get("digital") and any(term in lower for term in ("paperback shipped", "ships to your door", "physical book")): issues.append("Digital product copy contradicts the verified download format.")
     if not facts.get("digital") and any(term in lower for term in ("instant download", "downloadable pdf", "no physical product")): issues.append("Print product copy contradicts the verified format.")
     if not facts.get("large_print") and "large print" in lower: issues.append("Copy claims large print without a verified large-print fact.")
     if not facts.get("solutions_included") and "solutions included" in lower: issues.append("Copy claims solutions without a verified fact.")
+    if facts.get("puzzle_type") == "Word Scramble + Trivia" and re.search(r"word scramble\s*\+\s*trivia|\btrivia\s+(?:challenges?|questions?|quizzes?|games?)\b", text, re.I):
+        issues.append("Copy promises separate trivia challenges; this book uses questions as clues to scrambled answers.")
     cleaned={key: (value if isinstance(value, str) else [" ".join(str(item).split()) for item in value if str(item).strip()] if isinstance(value, list) else "") for key,value in result.items()}
     cleaned["keywords"]=_semantic_unique(cleaned.get("keywords", []), facts, 7); cleaned["tags"]=_semantic_unique(cleaned.get("tags", []), facts, 13, max_length=20)
+    keyword_text = " ".join(cleaned["keywords"]).casefold()
+    kind = str(facts.get("puzzle_type") or "")
+    if kind == "Cryptogram" and "trivia" in keyword_text:
+        issues.append("Cryptogram keywords incorrectly promise trivia content.")
+    if kind == "Sudoku" and any(term in keyword_text for term in ("word search", "word find", "cryptogram", "word scramble")):
+        issues.append("Sudoku keywords incorrectly name a different puzzle type.")
     return not issues, issues, cleaned
 
 def _unique(values, facts, limit):
@@ -179,6 +195,7 @@ def listing_critic(content: dict, facts: dict) -> list[str]:
     keywords = list(content.get("keywords") or [])
     if len(description) < 120: notes.append("Description is brief; add a clearer buyer benefit if this is an AI suggestion you plan to use.")
     if len(set(str(value).casefold() for value in keywords)) != len(keywords): notes.append("Keyword phrases repeat; keep only distinct discovery phrases.")
+    if len(keywords) < 5: notes.append("Fewer than five distinct keyword phrases are available; review additional accurate discovery angles before publishing.")
     title_terms = _tokens(facts.get("title"))
     if keywords and all(_tokens(value) <= title_terms for value in keywords): notes.append("Keywords only repeat title words; add topic, audience, or use-case discovery terms.")
     if not facts.get("topic"): notes.append("No verified topic is available; keep listing language broad until the book facts are completed.")
@@ -188,48 +205,68 @@ def local_fallback_content(book: dict, facts: dict) -> dict:
     """Specific offline copy for when Gemini is unavailable—not a flat template."""
     meta = book.get("metadata") or {}; title=str(facts.get("title") or "Puzzle Book"); topic=str(facts.get("topic") or "this theme")
     kind=str(facts.get("puzzle_type") or "Puzzle Book"); count=int(facts.get("puzzle_count") or 0); audience=str(facts.get("audience") or "puzzle lovers")
+    public_kind = "word-scramble and fact-clue" if kind == "Word Scramble + Trivia" else kind.lower()
     experiences = {
         "Word Search": "scan the grid for familiar theme words and settle into a satisfying paper-and-pencil break",
-        "Sudoku": "work through orderly logic challenges at a comfortable pace",
+        "Sudoku": "work through number, letter, and themed shape Sudoku at a comfortable pace",
         "Cryptogram": "follow clues, spot patterns, and uncover each encoded message",
-        "Word Scramble + Trivia": "unscramble a themed word, then use the paired trivia to deepen the challenge",
-        "Mixed Brain Games": "switch between varied challenges for a more flexible, screen-free puzzle session",
+        "Word Scramble + Trivia": "use each fact clue to unscramble its themed answer",
+        "Mixed Brain Games": "switch between Sudoku, Cryptograms, and word scrambles with fact clues for a more flexible, screen-free puzzle session",
     }
     experience=experiences.get(kind, "enjoy a focused, screen-free puzzle session")
     large=" The large-print presentation keeps the pages easy to follow." if facts.get("large_print") else ""
-    core=(f"{title} brings {topic} to the puzzle table with {count} {kind.lower()} challenges for {audience}. "
+    core=(f"{title} brings {topic} to the puzzle table with {count} {public_kind} challenges for {audience}. "
                  f"Readers can {experience}. Every challenge is organized for easy pick-up-and-put-down solving, with solutions available when it is time to check an answer.{large}\n\n"
                  f"This is a focused collection for readers who genuinely enjoy {topic}—not a catch-all puzzle book. Start anywhere, work at your own rhythm, and return whenever you want a clear, enjoyable mental break.")
     platform = str(facts.get("platform") or "amazon").casefold()
     if platform == "etsy":
         description = (f"A printable {topic} puzzle experience for {audience}. {core}\n\n"
-                       f"WHAT YOU RECEIVE\n• One downloadable PDF\n• {count} {kind.lower()} challenges\n• Complete solutions\n\n"
+                       f"WHAT YOU RECEIVE\n• One downloadable PDF\n• {count} {public_kind} challenges\n• Complete solutions\n\n"
                        "DIGITAL DOWNLOAD — NO PHYSICAL PRODUCT. Download access is provided by the marketplace after purchase; printing results depend on your printer and settings.")
     elif platform == "payhip":
         description = (f"Make room for a focused, screen-free {topic} break. {core}\n\n"
                        "Your purchase includes a customer-ready downloadable PDF with the complete puzzle collection and solutions. Save it for personal use and print the pages you want according to the included use guidance.")
     elif platform in {"ingram", "barnes_noble"}:
-        description = (f"{title} is a professionally organized {kind.lower()} collection focused on {topic}. "
+        description = (f"{title} is a professionally organized {public_kind} collection focused on {topic}. "
                        f"It contains {count} puzzles for {audience}, uses a {facts.get('difficulty') or 'Standard'} difficulty level, and includes complete solutions. "
                        "The edition is designed for clear navigation and dependable paper-and-pencil use.")
     elif platform in {"lulu", "bookvault", "website", "direct"}:
-        description = (f"A direct-sale {topic} puzzle collection with clear product specifications: {count} {kind.lower()} challenges, complete solutions, and a {facts.get('trim') or 'verified'} page format. " + core)
+        description = (f"A direct-sale {topic} puzzle collection with clear product specifications: {count} {public_kind} challenges, complete solutions, and a {facts.get('trim') or 'verified'} page format. " + core)
     else:
         description = core
     subject = (title + " " + topic).casefold()
     niche_map = [
-        (("car", "vehicle", "automotive", "road trip"), ["vintage car word games", "road trip activity book", "car enthusiast gift", "classic truck puzzles", "highway travel word find"]),
-        (("garden", "kitchen", "food"), ["garden themed puzzles", "kitchen table games", "home hobby activity", "food lover word games", "screen free hobby book"]),
+        (("car", "vehicle", "automotive", "road trip"), ["vintage car brain games", "road trip activity book", "car enthusiast gift", "classic truck puzzles", "highway travel puzzles"]),
+        (("garden", "growing", "plant"), ["garden lover brain games", "botanical quiet time", "green thumb activity", "relaxing garden puzzles", "nature hobby gift"]),
+        (("kitchen", "food", "baking"), ["food lover brain games", "kitchen table puzzles", "baker quiet time", "culinary themed activity", "screen free hobby gift"]),
         (("space", "celestial", "stargazer", "astronomy"), ["astronomy puzzle book", "space themed brain games", "stargazing activity book", "planet lover puzzles", "cosmic logic challenges"]),
-        (("heritage", "history", "american"), ["american history puzzles", "heritage activity book", "history lover brain games", "usa trivia challenge", "screen free history gift"]),
+        (("heritage", "history", "american"), ["american heritage puzzles", "history lover brain games", "patriotic code challenge", "historical themed activity", "screen free history gift"]),
         (("vocabulary", "grade", "study", "school"), ["grade school vocabulary", "student word practice", "classroom brain break", "learning activity book", "school word games"]),
-        (("wild", "nature", "outdoor"), ["nature themed brain games", "outdoor activity book", "wildlife puzzle collection", "national park style puzzles", "screen free nature gift"]),
+        (("national park", "parks"), ["national park brain games", "park lover activity", "outdoor travel puzzles", "camping quiet time", "scenic nature gift"]),
+        (("wild", "nature", "outdoor", "woods"), ["nature themed brain games", "outdoor activity book", "wildlife puzzle collection", "forest lover puzzles", "screen free nature gift"]),
+        (("ocean", "marine", "sea"), ["ocean lover brain games", "marine life activity", "coastal quiet time", "underwater themed puzzles", "sea life gift"]),
+        (("cat", "feline"), ["cat lover brain games", "cozy pet activity", "feline themed puzzles", "quiet time logic", "gift for cat fans"]),
+        (("dog", "canine", "pet"), ["dog lover brain games", "pet themed activity", "canine fan puzzles", "quiet time logic", "gift for dog fans"]),
+        (("christmas", "holiday", "winter"), ["christmas brain games", "cozy winter activity", "holiday quiet time", "seasonal logic puzzles", "festive puzzle gift"]),
+        (("faith", "bible", "encouragement"), ["faith based brain games", "inspirational code puzzles", "christian quiet time", "encouraging word activity", "religious puzzle gift"]),
+        (("journey", "travel", "adventure"), ["travel themed brain games", "vacation activity book", "armchair travel puzzles", "trip planning break", "adventure lover gift"]),
+        (("curiosity", "general knowledge"), ["general knowledge games", "curious minds activity", "fact clue puzzles", "everyday brain break", "screen free wordplay"]),
     ]
     niche = next((phrases for triggers, phrases in niche_map if any(trigger in subject for trigger in triggers)), [])
-    type_angles = {"Word Search":["adult word find book", "large print word games" if facts.get("large_print") else "themed word search book"], "Sudoku":["symbol sudoku puzzles", "logic puzzle activity book"], "Cryptogram":["code breaking puzzles", "cipher challenge book"], "Word Scramble + Trivia":["word scramble trivia", "themed trivia challenge"], "Mixed Brain Games":["variety puzzle collection", "brain game activity book"]}
-    existing = [*niche, *type_angles.get(kind, []), f"{kind.lower()} for {audience}", "screen free puzzle break", *(meta.get("amazon_keywords") or [])]
-    tags = [*niche, *type_angles.get(kind, []), topic, "printable puzzle pdf", "puzzle book gift", *(meta.get("etsy_tags") or [])]
-    return {"description":description,"subtitle":str(facts.get("subtitle") or ""),"keywords":_semantic_unique(existing, facts, 7),"tags":_semantic_unique(tags, facts, 13,20),"marketing_hooks":[f"A focused {topic} puzzle break.", f"{count} challenges for readers who enjoy {topic}."],"short_ad_copy":f"A focused {topic} puzzle break with {count} {kind.lower()} challenges.","capcut_prompt":f"Use the verified cover and real interior pages to show {title}; do not add unverified claims."}
+    type_angles = {"Word Search":["adult word find book", "large print word games" if facts.get("large_print") else "themed word search book"], "Sudoku":["symbol sudoku puzzles", "logic puzzle activity book"], "Cryptogram":["code breaking puzzles", "cipher challenge book"], "Word Scramble + Trivia":["word scramble with clues", "fact clue word games"], "Mixed Brain Games":["variety puzzle collection", "brain game activity book"]}
+    if kind == "Word Scramble + Trivia":
+        # Older catalog records can contain tags for independent trivia
+        # puzzles. The offline path must not recycle those into a new listing.
+        scramble_terms = ["word scramble", "fact clue puzzles", "brain games", "word puzzle pdf", "printable word games", "puzzle gift", "adult word games", "teen word puzzles", "unscramble words", "wordplay activity", "screen free games", "knowledge games"]
+        existing = [*niche, *type_angles[kind], topic, *scramble_terms]
+        tags = [topic, *scramble_terms]
+    else:
+        # Do not recycle old metadata here. The fallback is the recovery path
+        # for weak or rejected drafts, so carrying stale author names or wrong
+        # puzzle-type phrases forward would defeat the repair.
+        existing = [*niche, *type_angles.get(kind, []), f"{public_kind} for {audience}", "screen free puzzle break"]
+        tags = [*niche, *type_angles.get(kind, []), topic, "printable puzzle pdf", "puzzle book gift"]
+    return {"description":description,"subtitle":str(facts.get("subtitle") or ""),"keywords":_semantic_unique(existing, facts, 7),"tags":_semantic_unique(tags, facts, 13,20),"marketing_hooks":[f"A focused {topic} puzzle break.", f"{count} challenges for readers who enjoy {topic}."],"short_ad_copy":f"A focused {topic} puzzle break with {count} {public_kind} challenges.","capcut_prompt":f"Use the verified cover and real interior pages to show {title}; do not add unverified claims."}
 
 def repair_output(result: dict, facts: dict) -> dict:
     """Repair individual unsafe fields without throwing away a valid AI draft."""
@@ -246,7 +283,9 @@ def repair_output(result: dict, facts: dict) -> dict:
         repaired["description"] = " ".join(line for line in fallback.splitlines() if line and not line.isupper())
         repaired["subtitle"] = str(facts.get("subtitle") or "")
     valid, _issues, cleaned = validate_output(repaired, facts)
-    return cleaned if valid else {**local_fallback_content({"metadata": {}}, facts), "keywords": _semantic_unique(result.get("keywords", []), facts, 7), "tags": _semantic_unique(result.get("tags", []), facts, 13, 20)}
+    # Invalid discovery phrases can make the same unsupported promise as a
+    # description. Never carry unchecked Gemini tags into the local fallback.
+    return cleaned if valid else local_fallback_content({"metadata": {}}, facts)
 
 def apply_listing_intelligence(metadata: dict, record: dict) -> tuple[dict, list[str]]:
     """Apply validated AI fields only where the owner is not the user."""

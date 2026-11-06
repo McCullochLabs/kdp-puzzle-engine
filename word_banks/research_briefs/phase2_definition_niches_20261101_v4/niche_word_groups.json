@@ -1,0 +1,81 @@
+{
+  "schema_version": 1,
+  "status": "REVIEW_REQUIRED",
+  "groups": {
+    "Birds and Birdwatching": [
+      "SEAGULL"
+    ],
+    "Books and Written Works": [
+      "GUIDEBOOK"
+    ],
+    "Buildings and Architecture": [
+      "INN",
+      "SCHOOLHOUSE"
+    ],
+    "Clothing and Apparel": [
+      "PARKA",
+      "PONCHO"
+    ],
+    "Crafts and Skilled Trades": [
+      "STITCHING"
+    ],
+    "Feelings and Emotional Vocabulary": [
+      "AMBIVALENCE",
+      "CYNICISM",
+      "CONTENTMENT",
+      "EUPHORIA",
+      "TOGETHERNESS",
+      "TREPIDATION"
+    ],
+    "Fields of Science": [
+      "ACOUSTICS",
+      "THERMODYNAMICS"
+    ],
+    "Figures of Speech": [
+      "HYPERBOLE",
+      "OXYMORON"
+    ],
+    "Fungi and Mycology": [
+      "FUNGUS"
+    ],
+    "Geological Formations": [
+      "AQUIFER",
+      "PLATEAU"
+    ],
+    "Geometric Shapes": [
+      "POLYGON"
+    ],
+    "Literature and Writing": [
+      "STANZA"
+    ],
+    "Machines and Mechanisms": [
+      "PHONOGRAPH",
+      "TYPEWRITER"
+    ],
+    "Merchants and Retail": [
+      "TRADESMAN"
+    ],
+    "Musical Instruments": [
+      "TAMBOURINE"
+    ],
+    "Musicians": [
+      "SOLOIST",
+      "VOCALIST"
+    ],
+    "Plants and Botany": [
+      "CACTUS"
+    ],
+    "Prose": [
+      "NONFICTION"
+    ],
+    "Reptiles": [
+      "REPTILE"
+    ],
+    "Words and Linguistic Forms": [
+      "PRONOUN"
+    ],
+    "Workers and Trades": [
+      "PROSPECTOR"
+    ]
+  }
+}

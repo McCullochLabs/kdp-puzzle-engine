@@ -1,0 +1,1844 @@
+{
+  "schema_version": 1,
+  "research_status": "REVIEW_REQUIRED_NOT_APPROVED",
+  "lexical_review_group": "noun.artifact",
+  "records": [
+    {
+      "normalized": "AIRBAG",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "air_bag",
+          "synset": "n:02685365",
+          "lexical_category": "noun.artifact",
+          "definition": "a safety restraint in an automobile; the bag inflates on collision and prevents the driver or passenger from being thrown forward"
+        }
+      ],
+      "candidate_categories": [
+        "noun.artifact"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    },
+    {
+      "normalized": "ALB",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "alb",
+          "synset": "n:02694966",
+          "lexical_category": "noun.artifact",
+          "definition": "a white linen liturgical vestment with sleeves; worn by priests"
+        }
+      ],
+      "candidate_categories": [
+        "noun.artifact"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    },
+    {
+      "normalized": "ALHAMBRA",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "Alhambra",
+          "synset": "n:02696669",
+          "lexical_category": "noun.artifact",
+          "definition": "a fortified Moorish palace built near Granada by Muslim kings in the Middle Ages"
+        }
+      ],
+      "candidate_categories": [
+        "noun.artifact"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    },
+    {
+      "normalized": "ALLEYWAY",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "alleyway",
+          "synset": "n:02697759",
+          "lexical_category": "noun.artifact",
+          "definition": "a narrow street with walls on both sides"
+        }
+      ],
+      "candidate_categories": [
+        "noun.artifact"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    },
+    {
+      "normalized": "AMERICANA",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "Americana",
+          "synset": "n:02701393",
+          "lexical_category": "noun.artifact",
+          "definition": "any artifact (such as books or furniture or art) that is distinctive of America"
+        }
+      ],
+      "candidate_categories": [
+        "noun.artifact"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    },
+    {
+      "normalized": "AMEX",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "AMEX",
+          "synset": "n:02701871",
+          "lexical_category": "noun.artifact",
+          "definition": "a stock exchange in New York"
+        }
+      ],
+      "candidate_categories": [
+        "noun.artifact"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    },
+    {
+      "normalized": "APHRODISIAC",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "aphrodisiac",
+          "synset": "n:02727281",
+          "lexical_category": "noun.artifact",
+          "definition": "a drug or other agent that stimulates sexual desire"
+        }
+      ],
+      "candidate_categories": [
+        "noun.artifact"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    },
+    {
+      "normalized": "BACKSTREET",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "back_street",
+          "synset": "n:02697759",
+          "lexical_category": "noun.artifact",
+          "definition": "a narrow street with walls on both sides"
+        }
+      ],
+      "candidate_categories": [
+        "noun.artifact"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    },
+    {
+      "normalized": "BASTILLE",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "bastille",
+          "synset": "n:02805443",
+          "lexical_category": "noun.artifact",
+          "definition": "a jail or prison (especially one that is run in a tyrannical manner)"
+        },
+        {
+          "lemma": "Bastille",
+          "synset": "n:02805584",
+          "lexical_category": "noun.artifact",
+          "definition": "a fortress built in Paris in the 14th century and used as a prison in the 17th and 18th centuries; it was destroyed July 14, 1789 at the start of the French Revolution"
+        }
+      ],
+      "candidate_categories": [
+        "noun.artifact"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    },
+    {
+      "normalized": "BOARDROOM",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "boardroom",
+          "synset": "n:02857644",
+          "lexical_category": "noun.artifact",
+          "definition": "a room where a committee meets (such as the board of directors of a company)"
+        }
+      ],
+      "candidate_categories": [
+        "noun.artifact"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    },
+    {
+      "normalized": "BREN",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "Bren",
+          "synset": "n:02897097",
+          "lexical_category": "noun.artifact",
+          "definition": "a submachine gun operated by gas pressure; used by the British in World War II"
+        }
+      ],
+      "candidate_categories": [
+        "noun.artifact"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    },
+    {
+      "normalized": "BROTHEL",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "brothel",
+          "synset": "n:04581595",
+          "lexical_category": "noun.artifact",
+          "definition": "a building where prostitutes are available"
+        }
+      ],
+      "candidate_categories": [
+        "noun.artifact"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    },
+    {
+      "normalized": "BUGGY",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "buggy",
+          "synset": "n:02912557",
+          "lexical_category": "noun.artifact",
+          "definition": "a small lightweight carriage; drawn by a single horse"
+        }
+      ],
+      "candidate_categories": [
+        "noun.artifact"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    },
+    {
+      "normalized": "BULWARK",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "bulwark",
+          "synset": "n:02894605",
+          "lexical_category": "noun.artifact",
+          "definition": "a protective structure of stone or concrete; extends from shore into the water to prevent a beach from washing away"
+        },
+        {
+          "lemma": "bulwark",
+          "synset": "n:02918330",
+          "lexical_category": "noun.artifact",
+          "definition": "a fencelike structure around a deck (usually plural)"
+        },
+        {
+          "lemma": "bulwark",
+          "synset": "n:04051825",
+          "lexical_category": "noun.artifact",
+          "definition": "an embankment built around a space for defensive purposes; \"they stormed the ramparts of the city\"; \"they blew the trumpet and the walls came tumbling down\""
+        }
+      ],
+      "candidate_categories": [
+        "noun.artifact"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    },
+    {
+      "normalized": "BURBERRY",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "Burberry",
+          "synset": "n:02921406",
+          "lexical_category": "noun.artifact",
+          "definition": "a lightweight belted raincoat typically made of tan gabardine with a distinctive tartan lining; named for the original manufacturer"
+        }
+      ],
+      "candidate_categories": [
+        "noun.artifact"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    },
+    {
+      "normalized": "BUTTRESS",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "buttress",
+          "synset": "n:02929289",
+          "lexical_category": "noun.artifact",
+          "definition": "a support usually of stone or brick; supports the wall of a building"
+        }
+      ],
+      "candidate_categories": [
+        "noun.artifact"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    },
+    {
+      "normalized": "CDR",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "CD-R",
+          "synset": "n:02988486",
+          "lexical_category": "noun.artifact",
+          "definition": "a compact disc on which you can write only once and thereafter is read-only memory"
+        }
+      ],
+      "candidate_categories": [
+        "noun.artifact"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    },
+    {
+      "normalized": "CHALICE",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "chalice",
+          "synset": "n:03002948",
+          "lexical_category": "noun.artifact",
+          "definition": "a bowl-shaped drinking vessel; especially the Eucharistic cup"
+        }
+      ],
+      "candidate_categories": [
+        "noun.artifact"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    },
+    {
+      "normalized": "CHANCEL",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "chancel",
+          "synset": "n:03004824",
+          "lexical_category": "noun.artifact",
+          "definition": "area around the altar of a church for the clergy and choir; often enclosed by a lattice or railing"
+        }
+      ],
+      "candidate_categories": [
+        "noun.artifact"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    },
+    {
+      "normalized": "COLOSSEUM",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "Colosseum",
+          "synset": "n:03072828",
+          "lexical_category": "noun.artifact",
+          "definition": "a large amphitheater in Rome whose construction was begun by Vespasian about AD 75 or 80"
+        }
+      ],
+      "candidate_categories": [
+        "noun.artifact"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    },
+    {
+      "normalized": "CONDENSER",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "condenser",
+          "synset": "n:02955247",
+          "lexical_category": "noun.artifact",
+          "definition": "an electrical device characterized by its capacity to store an electric charge"
+        },
+        {
+          "lemma": "condenser",
+          "synset": "n:03087366",
+          "lexical_category": "noun.artifact",
+          "definition": "lens used to concentrate light on an object"
+        },
+        {
+          "lemma": "condenser",
+          "synset": "n:03087521",
+          "lexical_category": "noun.artifact",
+          "definition": "a hollow coil that condenses by abstracting heat"
+        },
+        {
+          "lemma": "condenser",
+          "synset": "n:03087643",
+          "lexical_category": "noun.artifact",
+          "definition": "an apparatus that converts vapor into liquid"
+        }
+      ],
+      "candidate_categories": [
+        "noun.artifact"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    },
+    {
+      "normalized": "CONDOM",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "condom",
+          "synset": "n:03088164",
+          "lexical_category": "noun.artifact",
+          "definition": "contraceptive device consisting of a sheath of thin rubber or latex that is worn over the penis during intercourse"
+        }
+      ],
+      "candidate_categories": [
+        "noun.artifact"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    },
+    {
+      "normalized": "CORNICE",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "cornice",
+          "synset": "n:03111041",
+          "lexical_category": "noun.artifact",
+          "definition": "the topmost projecting part of an entablature"
+        },
+        {
+          "lemma": "cornice",
+          "synset": "n:03111177",
+          "lexical_category": "noun.artifact",
+          "definition": "a molding at the corner between the ceiling and the top of a wall"
+        },
+        {
+          "lemma": "cornice",
+          "synset": "n:03111296",
+          "lexical_category": "noun.artifact",
+          "definition": "a decorative framework to conceal curtain fixtures at the top of a window casing"
+        }
+      ],
+      "candidate_categories": [
+        "noun.artifact"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    },
+    {
+      "normalized": "CPU",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "CPU",
+          "synset": "n:02995345",
+          "lexical_category": "noun.artifact",
+          "definition": "(computer science) the part of a computer (a microprocessor chip) that does most of the data processing; \"the CPU and the memory form the central part of a computer to which the peripherals are attached\""
+        },
+        {
+          "lemma": "C.P.U.",
+          "synset": "n:02995345",
+          "lexical_category": "noun.artifact",
+          "definition": "(computer science) the part of a computer (a microprocessor chip) that does most of the data processing; \"the CPU and the memory form the central part of a computer to which the peripherals are attached\""
+        }
+      ],
+      "candidate_categories": [
+        "noun.artifact"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    },
+    {
+      "normalized": "CRO",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "CRO",
+          "synset": "n:03857828",
+          "lexical_category": "noun.artifact",
+          "definition": "electronic equipment that provides visual images of varying electrical quantities"
+        }
+      ],
+      "candidate_categories": [
+        "noun.artifact"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    },
+    {
+      "normalized": "DAT",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "DAT",
+          "synset": "n:03195959",
+          "lexical_category": "noun.artifact",
+          "definition": "a digital tape recording of sound"
+        }
+      ],
+      "candidate_categories": [
+        "noun.artifact"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    },
+    {
+      "normalized": "DIAZEPAM",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "diazepam",
+          "synset": "n:03189995",
+          "lexical_category": "noun.artifact",
+          "definition": "a tranquilizer (trade name Valium) used to relieve anxiety and relax muscles; acts by enhancing the inhibitory actions of the neurotransmitter GABA; can also be used as an anticonvulsant drug in cases of nerve agent poisoning"
+        }
+      ],
+      "candidate_categories": [
+        "noun.artifact"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    },
+    {
+      "normalized": "DILDO",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "dildo",
+          "synset": "n:03198500",
+          "lexical_category": "noun.artifact",
+          "definition": "a vibrating device that substitutes for an erect penis to provide vaginal stimulation"
+        }
+      ],
+      "candidate_categories": [
+        "noun.artifact"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    },
+    {
+      "normalized": "DUFFEL",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "duffel",
+          "synset": "n:03253796",
+          "lexical_category": "noun.artifact",
+          "definition": "a coarse heavy woolen fabric"
+        },
+        {
+          "lemma": "duffel",
+          "synset": "n:03253886",
+          "lexical_category": "noun.artifact",
+          "definition": "a large cylindrical bag of heavy cloth; for carrying personal belongings"
+        }
+      ],
+      "candidate_categories": [
+        "noun.artifact"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    },
+    {
+      "normalized": "EDS",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "EDS",
+          "synset": "n:03305300",
+          "lexical_category": "noun.artifact",
+          "definition": "a rapid automatic system to detect plastic explosives in passengers' luggage using X-ray technology and computers; designed for use in airports"
+        }
+      ],
+      "candidate_categories": [
+        "noun.artifact"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    },
+    {
+      "normalized": "ELVIS",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "Elvis",
+          "synset": "n:02675657",
+          "lexical_category": "noun.artifact",
+          "definition": "street name for lysergic acid diethylamide"
+        }
+      ],
+      "candidate_categories": [
+        "noun.artifact"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    },
+    {
+      "normalized": "ENTANGLEMENT",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "entanglement",
+          "synset": "n:04568557",
+          "lexical_category": "noun.artifact",
+          "definition": "an intricate trap that entangles or ensnares its victim"
+        }
+      ],
+      "candidate_categories": [
+        "noun.artifact"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    },
+    {
+      "normalized": "EXCALIBUR",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "Excalibur",
+          "synset": "n:03302030",
+          "lexical_category": "noun.artifact",
+          "definition": "the legendary sword of King Arthur"
+        }
+      ],
+      "candidate_categories": [
+        "noun.artifact"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    },
+    {
+      "normalized": "FAE",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "FAE",
+          "synset": "n:03400389",
+          "lexical_category": "noun.artifact",
+          "definition": "a device consisting of a container of fuel and two explosive charges; the first charge bursts open the fuel container at a predetermined height and spreads the fuel in a cloud that mixes with atmospheric oxygen; the second charge detonates the cloud which creates an enormous blast wave and incinerates whatever is below"
+        }
+      ],
+      "candidate_categories": [
+        "noun.artifact"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    },
+    {
+      "normalized": "FENTANYL",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "Fentanyl",
+          "synset": "n:03328650",
+          "lexical_category": "noun.artifact",
+          "definition": "trade names of a narcotic analgesic that can be inhaled and that acts on the central nervous system and may become addictive; used as a veterinary anesthetic and with other drugs before, during, and after surgery; also used as a nonlethal gas to incapacitate people in hostage situations; also abused as a recreational drug"
+        }
+      ],
+      "candidate_categories": [
+        "noun.artifact"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    },
+    {
+      "normalized": "FET",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "FET",
+          "synset": "n:03332784",
+          "lexical_category": "noun.artifact",
+          "definition": "a transistor in which most current flows in a channel whose effective resistance can be controlled by a transverse electric field"
+        }
+      ],
+      "candidate_categories": [
+        "noun.artifact"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    },
+    {
+      "normalized": "FLAGSHIP",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "flagship",
+          "synset": "n:03356038",
+          "lexical_category": "noun.artifact",
+          "definition": "the ship that carries the commander of a fleet and flies his flag"
+        },
+        {
+          "lemma": "flagship",
+          "synset": "n:03356158",
+          "lexical_category": "noun.artifact",
+          "definition": "the chief one of a related group; \"it is their flagship newspaper\""
+        }
+      ],
+      "candidate_categories": [
+        "noun.artifact"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    },
+    {
+      "normalized": "FLYWHEEL",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "flywheel",
+          "synset": "n:03374649",
+          "lexical_category": "noun.artifact",
+          "definition": "regulator consisting of a heavy wheel that stores kinetic energy and smooths the operation of a reciprocating engine"
+        }
+      ],
+      "candidate_categories": [
+        "noun.artifact"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    },
+    {
+      "normalized": "FREEZER",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "freezer",
+          "synset": "n:03170635",
+          "lexical_category": "noun.artifact",
+          "definition": "electric refrigerator (trade name Deepfreeze) in which food is frozen and stored for long periods of time"
+        }
+      ],
+      "candidate_categories": [
+        "noun.artifact"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    },
+    {
+      "normalized": "GARGOYLE",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "gargoyle",
+          "synset": "n:03418488",
+          "lexical_category": "noun.artifact",
+          "definition": "an ornament consisting of a grotesquely carved figure of a person or animal"
+        },
+        {
+          "lemma": "gargoyle",
+          "synset": "n:03418618",
+          "lexical_category": "noun.artifact",
+          "definition": "a spout that terminates in a grotesquely carved figure of a person or animal"
+        }
+      ],
+      "candidate_categories": [
+        "noun.artifact"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    },
+    {
+      "normalized": "GRAPHIC",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "graphic",
+          "synset": "n:03453696",
+          "lexical_category": "noun.artifact",
+          "definition": "an image that is generated by a computer"
+        }
+      ],
+      "candidate_categories": [
+        "noun.artifact"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    },
+    {
+      "normalized": "HAIRSPRAY",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "hair_spray",
+          "synset": "n:03476991",
+          "lexical_category": "noun.artifact",
+          "definition": "toiletry consisting of a commercial preparation that is sprayed on the hair to hold it in place"
+        }
+      ],
+      "candidate_categories": [
+        "noun.artifact"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    },
+    {
+      "normalized": "HARPOON",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "harpoon",
+          "synset": "n:03495671",
+          "lexical_category": "noun.artifact",
+          "definition": "a spear with a shaft and barbed point for throwing; used for catching large fish or whales; a strong line is attached to it"
+        }
+      ],
+      "candidate_categories": [
+        "noun.artifact"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    },
+    {
+      "normalized": "HOURGLASS",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "hourglass",
+          "synset": "n:03544143",
+          "lexical_category": "noun.artifact",
+          "definition": "a sandglass that runs for sixty minutes"
+        }
+      ],
+      "candidate_categories": [
+        "noun.artifact"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    },
+    {
+      "normalized": "ICBM",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "ICBM",
+          "synset": "n:03578251",
+          "lexical_category": "noun.artifact",
+          "definition": "a ballistic missile that is capable of traveling from one continent to another"
+        }
+      ],
+      "candidate_categories": [
+        "noun.artifact"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    },
+    {
+      "normalized": "IGLOO",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "igloo",
+          "synset": "n:03560430",
+          "lexical_category": "noun.artifact",
+          "definition": "an Eskimo hut; usually built of blocks (of sod or snow) in the shape of a dome"
+        }
+      ],
+      "candidate_categories": [
+        "noun.artifact"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    },
+    {
+      "normalized": "IMPRESSIONISM",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "Impressionism",
+          "synset": "n:03565051",
+          "lexical_category": "noun.artifact",
+          "definition": "a school of late 19th century French painters who pictured appearances by strokes of unmixed colors to give the impression of reflected light"
+        }
+      ],
+      "candidate_categories": [
+        "noun.artifact"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    },
+    {
+      "normalized": "KREMLIN",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "kremlin",
+          "synset": "n:03628511",
+          "lexical_category": "noun.artifact",
+          "definition": "citadel of a Russian town"
+        },
+        {
+          "lemma": "Kremlin",
+          "synset": "n:03628590",
+          "lexical_category": "noun.artifact",
+          "definition": "citadel of Moscow, housing the offices of the Russian government"
+        }
+      ],
+      "candidate_categories": [
+        "noun.artifact"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    },
+    {
+      "normalized": "LAN",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "LAN",
+          "synset": "n:03681477",
+          "lexical_category": "noun.artifact",
+          "definition": "a local computer network for communication between computers; especially a network connecting computers and word processors and other electronic office equipment to create a communication system between offices"
+        }
+      ],
+      "candidate_categories": [
+        "noun.artifact"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    },
+    {
+      "normalized": "LAUNDROMAT",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "Laundromat",
+          "synset": "n:03647872",
+          "lexical_category": "noun.artifact",
+          "definition": "a self-service laundry (service mark Laundromat) where coin-operated washing machines are available to individual customers"
+        }
+      ],
+      "candidate_categories": [
+        "noun.artifact"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    },
+    {
+      "normalized": "LAWNMOWER",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "lawn_mower",
+          "synset": "n:03649909",
+          "lexical_category": "noun.artifact",
+          "definition": "garden tool for mowing grass on lawns"
+        }
+      ],
+      "candidate_categories": [
+        "noun.artifact"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    },
+    {
+      "normalized": "LCD",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "LCD",
+          "synset": "n:03676759",
+          "lexical_category": "noun.artifact",
+          "definition": "a digital display that uses liquid crystal cells that change reflectivity in an applied electric field; used for portable computer displays and watches etc."
+        }
+      ],
+      "candidate_categories": [
+        "noun.artifact"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    },
+    {
+      "normalized": "LED",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "LED",
+          "synset": "n:03666362",
+          "lexical_category": "noun.artifact",
+          "definition": "diode such that light emitted at a p-n junction is proportional to the bias current; color depends on the material used"
+        }
+      ],
+      "candidate_categories": [
+        "noun.artifact"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    },
+    {
+      "normalized": "LOUVRE",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "louvre",
+          "synset": "n:03692676",
+          "lexical_category": "noun.artifact",
+          "definition": "one of a set of parallel slats in a door or window to admit air and reject rain"
+        },
+        {
+          "lemma": "Louvre",
+          "synset": "n:03692942",
+          "lexical_category": "noun.artifact",
+          "definition": "an art museum that is a famous tourist attraction in Paris"
+        }
+      ],
+      "candidate_categories": [
+        "noun.artifact"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    },
+    {
+      "normalized": "MANTEL",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "mantel",
+          "synset": "n:03719343",
+          "lexical_category": "noun.artifact",
+          "definition": "shelf that projects from wall above fireplace; \"in Britain they call a mantel a chimneypiece\""
+        }
+      ],
+      "candidate_categories": [
+        "noun.artifact"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    },
+    {
+      "normalized": "METH",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "meth",
+          "synset": "n:03754295",
+          "lexical_category": "noun.artifact",
+          "definition": "an amphetamine derivative (trade name Methedrine) used in the form of a crystalline hydrochloride; used as a stimulant to the nervous system and as an appetite suppressant"
+        }
+      ],
+      "candidate_categories": [
+        "noun.artifact"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    },
+    {
+      "normalized": "METHAMPHETAMINE",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "methamphetamine",
+          "synset": "n:03754295",
+          "lexical_category": "noun.artifact",
+          "definition": "an amphetamine derivative (trade name Methedrine) used in the form of a crystalline hydrochloride; used as a stimulant to the nervous system and as an appetite suppressant"
+        }
+      ],
+      "candidate_categories": [
+        "noun.artifact"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    },
+    {
+      "normalized": "MIT",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "MIT",
+          "synset": "n:03725968",
+          "lexical_category": "noun.artifact",
+          "definition": "an engineering university in Cambridge"
+        }
+      ],
+      "candidate_categories": [
+        "noun.artifact"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    },
+    {
+      "normalized": "MOTHERBOARD",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "mother_board",
+          "synset": "n:03125057",
+          "lexical_category": "noun.artifact",
+          "definition": "the main circuit board for a computer"
+        }
+      ],
+      "candidate_categories": [
+        "noun.artifact"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    },
+    {
+      "normalized": "OUIJA",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "Ouija",
+          "synset": "n:03858662",
+          "lexical_category": "noun.artifact",
+          "definition": "a board with the alphabet on it; used with a planchette to spell out supernatural messages"
+        }
+      ],
+      "candidate_categories": [
+        "noun.artifact"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    },
+    {
+      "normalized": "OVERPASS",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "overpass",
+          "synset": "n:03865557",
+          "lexical_category": "noun.artifact",
+          "definition": "bridge formed by the upper level of a crossing of two highways at different levels"
+        }
+      ],
+      "candidate_categories": [
+        "noun.artifact"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    },
+    {
+      "normalized": "PADDOCK",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "paddock",
+          "synset": "n:03874487",
+          "lexical_category": "noun.artifact",
+          "definition": "pen where racehorses are saddled and paraded before a race"
+        }
+      ],
+      "candidate_categories": [
+        "noun.artifact"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    },
+    {
+      "normalized": "PARTHENON",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "Parthenon",
+          "synset": "n:03893732",
+          "lexical_category": "noun.artifact",
+          "definition": "the main temple of the goddess Athena; built on the acropolis in Athens more than 400 years B.C.; example of Doric architecture"
+        }
+      ],
+      "candidate_categories": [
+        "noun.artifact"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    },
+    {
+      "normalized": "PATINA",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "patina",
+          "synset": "n:03899612",
+          "lexical_category": "noun.artifact",
+          "definition": "a fine coating of oxide on the surface of a metal"
+        }
+      ],
+      "candidate_categories": [
+        "noun.artifact"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    },
+    {
+      "normalized": "PELHAM",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "Pelham",
+          "synset": "n:03906463",
+          "lexical_category": "noun.artifact",
+          "definition": "a bit with a bar mouthpiece that is designed to combine a curb and snaffle"
+        }
+      ],
+      "candidate_categories": [
+        "noun.artifact"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    },
+    {
+      "normalized": "PEW",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "pew",
+          "synset": "n:03920867",
+          "lexical_category": "noun.artifact",
+          "definition": "long bench with backs; used in church by the congregation"
+        }
+      ],
+      "candidate_categories": [
+        "noun.artifact"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    },
+    {
+      "normalized": "POLAROID",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "Polaroid",
+          "synset": "n:03976268",
+          "lexical_category": "noun.artifact",
+          "definition": "(trade mark) a plastic film that can polarize a beam of light; often used in sunglasses to eliminate glare"
+        }
+      ],
+      "candidate_categories": [
+        "noun.artifact"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    },
+    {
+      "normalized": "PORTICO",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "portico",
+          "synset": "n:03986704",
+          "lexical_category": "noun.artifact",
+          "definition": "a porch or entrance to a building consisting of a covered and often columned area"
+        }
+      ],
+      "candidate_categories": [
+        "noun.artifact"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    },
+    {
+      "normalized": "PRESIDIO",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "presidio",
+          "synset": "n:03999763",
+          "lexical_category": "noun.artifact",
+          "definition": "a fortress established in the southwestern United States by the Spanish in order to protect their missions and other holdings; \"Tucson was first settled as a walled presidio\""
+        }
+      ],
+      "candidate_categories": [
+        "noun.artifact"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    },
+    {
+      "normalized": "RACEWAY",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "raceway",
+          "synset": "n:04037625",
+          "lexical_category": "noun.artifact",
+          "definition": "a course over which races are run"
+        },
+        {
+          "lemma": "raceway",
+          "synset": "n:04037873",
+          "lexical_category": "noun.artifact",
+          "definition": "a canal for a current of water"
+        }
+      ],
+      "candidate_categories": [
+        "noun.artifact"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    },
+    {
+      "normalized": "ROM",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "ROM",
+          "synset": "n:04058239",
+          "lexical_category": "noun.artifact",
+          "definition": "(computer science) memory whose contents can be accessed and read but cannot be changed"
+        }
+      ],
+      "candidate_categories": [
+        "noun.artifact"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    },
+    {
+      "normalized": "SAM",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "SAM",
+          "synset": "n:04363210",
+          "lexical_category": "noun.artifact",
+          "definition": "a guided missile fired from land or shipboard against an airborne target"
+        }
+      ],
+      "candidate_categories": [
+        "noun.artifact"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    },
+    {
+      "normalized": "SASH",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "sash",
+          "synset": "n:03438071",
+          "lexical_category": "noun.artifact",
+          "definition": "a band of material around the waist that strengthens a skirt or trousers"
+        },
+        {
+          "lemma": "sash",
+          "synset": "n:04136510",
+          "lexical_category": "noun.artifact",
+          "definition": "a framework that holds the panes of a window in the window frame"
+        }
+      ],
+      "candidate_categories": [
+        "noun.artifact"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    },
+    {
+      "normalized": "SCARF",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "scarf",
+          "synset": "n:04143897",
+          "lexical_category": "noun.artifact",
+          "definition": "a garment worn around the head or neck or shoulders for warmth or decoration"
+        },
+        {
+          "lemma": "scarf",
+          "synset": "n:04144241",
+          "lexical_category": "noun.artifact",
+          "definition": "a joint made by notching the ends of two pieces of timber or metal so that they will lock together end-to-end"
+        }
+      ],
+      "candidate_categories": [
+        "noun.artifact"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    },
+    {
+      "normalized": "SCUBA",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "scuba",
+          "synset": "n:02731629",
+          "lexical_category": "noun.artifact",
+          "definition": "a device (trade name Aqua-Lung) that lets divers breathe under water; scuba is an acronym for self-contained underwater breathing apparatus"
+        }
+      ],
+      "candidate_categories": [
+        "noun.artifact"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    },
+    {
+      "normalized": "SHERATON",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "Sheraton",
+          "synset": "n:04192521",
+          "lexical_category": "noun.artifact",
+          "definition": "a furniture style that originated in England around 1800; simple in design with straight lines and classical ornamentation"
+        }
+      ],
+      "candidate_categories": [
+        "noun.artifact"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    },
+    {
+      "normalized": "SMELTER",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "smelter",
+          "synset": "n:04246156",
+          "lexical_category": "noun.artifact",
+          "definition": "an industrial plant for smelting"
+        }
+      ],
+      "candidate_categories": [
+        "noun.artifact"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    },
+    {
+      "normalized": "SORBONNE",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "Sorbonne",
+          "synset": "n:03890713",
+          "lexical_category": "noun.artifact",
+          "definition": "a university in Paris; intellectual center of France"
+        }
+      ],
+      "candidate_categories": [
+        "noun.artifact"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    },
+    {
+      "normalized": "STETSON",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "Stetson",
+          "synset": "n:03325941",
+          "lexical_category": "noun.artifact",
+          "definition": "a hat made of felt with a creased crown"
+        }
+      ],
+      "candidate_categories": [
+        "noun.artifact"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    },
+    {
+      "normalized": "TNT",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "TNT",
+          "synset": "n:04442143",
+          "lexical_category": "noun.artifact",
+          "definition": "explosive consisting of a yellow crystalline compound that is a flammable toxic derivative of toluene"
+        }
+      ],
+      "candidate_categories": [
+        "noun.artifact"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    },
+    {
+      "normalized": "TOOLKIT",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "tool_kit",
+          "synset": "n:02966687",
+          "lexical_category": "noun.artifact",
+          "definition": "a set of carpenter's tools"
+        }
+      ],
+      "candidate_categories": [
+        "noun.artifact"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    },
+    {
+      "normalized": "TOWNHOUSE",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "town_house",
+          "synset": "n:04115256",
+          "lexical_category": "noun.artifact",
+          "definition": "a house that is one of a row of identical houses situated side by side and sharing common walls"
+        }
+      ],
+      "candidate_categories": [
+        "noun.artifact"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    },
+    {
+      "normalized": "VALIUM",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "Valium",
+          "synset": "n:03189995",
+          "lexical_category": "noun.artifact",
+          "definition": "a tranquilizer (trade name Valium) used to relieve anxiety and relax muscles; acts by enhancing the inhibitory actions of the neurotransmitter GABA; can also be used as an anticonvulsant drug in cases of nerve agent poisoning"
+        }
+      ],
+      "candidate_categories": [
+        "noun.artifact"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    },
+    {
+      "normalized": "VASELINE",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "Vaseline",
+          "synset": "n:04522309",
+          "lexical_category": "noun.artifact",
+          "definition": "a trademarked brand of petroleum jelly"
+        }
+      ],
+      "candidate_categories": [
+        "noun.artifact"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    },
+    {
+      "normalized": "VATICAN",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "Vatican",
+          "synset": "n:04523380",
+          "lexical_category": "noun.artifact",
+          "definition": "the residence of the Catholic Pope in the Vatican City"
+        }
+      ],
+      "candidate_categories": [
+        "noun.artifact"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    },
+    {
+      "normalized": "VERSED",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "Versed",
+          "synset": "n:03761845",
+          "lexical_category": "noun.artifact",
+          "definition": "an injectable form of benzodiazepine (trade name Versed) useful for sedation and for reducing pain during uncomfortable medical procedures"
+        }
+      ],
+      "candidate_categories": [
+        "noun.artifact"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    },
+    {
+      "normalized": "VIADUCT",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "viaduct",
+          "synset": "n:04532670",
+          "lexical_category": "noun.artifact",
+          "definition": "bridge consisting of a series of arches supported by piers used to carry a road (or railroad) over a valley"
+        }
+      ],
+      "candidate_categories": [
+        "noun.artifact"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    },
+    {
+      "normalized": "VISOR",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "visor",
+          "synset": "n:02838728",
+          "lexical_category": "noun.artifact",
+          "definition": "a brim that projects to the front to shade the eyes; \"he pulled down the bill of his cap and trudged ahead\""
+        },
+        {
+          "lemma": "visor",
+          "synset": "n:04538878",
+          "lexical_category": "noun.artifact",
+          "definition": "a piece of armor plate (with eye slits) fixed or hinged to a medieval helmet to protect the face"
+        }
+      ],
+      "candidate_categories": [
+        "noun.artifact"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    },
+    {
+      "normalized": "WARFARIN",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "warfarin",
+          "synset": "n:04551205",
+          "lexical_category": "noun.artifact",
+          "definition": "an anticoagulant (trade name Coumadin) use to prevent and treat a thrombus or embolus"
+        }
+      ],
+      "candidate_categories": [
+        "noun.artifact"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    },
+    {
+      "normalized": "WILTON",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "Wilton",
+          "synset": "n:04585128",
+          "lexical_category": "noun.artifact",
+          "definition": "a carpet woven on a Jacquard loom with loops like a Brussels carpet but having the loops cut to form a close velvety pile"
+        }
+      ],
+      "candidate_categories": [
+        "noun.artifact"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    },
+    {
+      "normalized": "LEGO",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "Lego",
+          "synset": "n:03655295",
+          "lexical_category": "noun.artifact",
+          "definition": "(trademark) a child's plastic construction set for making mechanical models"
+        }
+      ],
+      "candidate_categories": [
+        "noun.artifact"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": true,
+        "safety_review": false
+      }
+    }
+  ]
+}

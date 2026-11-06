@@ -35,6 +35,25 @@ def _money(value: float) -> float:
     return max(0.99, float(int(value)) + 0.99)
 
 
+def kdp_us_large_trim_estimate(meta: dict) -> dict[str, float | str]:
+    """Current planning estimate for US black-ink 8.5x11 paperbacks.
+
+    KDP remains the final authority. Rates below reflect its September 2026
+    published table: $2.84 through 110 pages, then $1.00 + $0.017/page, with
+    the 60% Amazon.com royalty tier beginning at $9.99.
+    """
+    pages = _number(meta.get("page_count"))
+    price = float(recommended_prices(meta)["amazon"])
+    printing = 2.84 if 24 <= pages <= 110 else 1.00 + pages * 0.017 if pages > 110 else 0.0
+    rate = 0.60 if price >= 9.99 else 0.50
+    return {
+        "basis": "Amazon.com, black ink, white paper, large trim; rates checked 2026-09-20",
+        "estimated_printing_cost": round(printing, 2),
+        "royalty_rate": rate,
+        "estimated_royalty": round(max(0.0, price * rate - printing), 2),
+    }
+
+
 def recommended_prices(meta: dict) -> dict[str, float]:
     """Return conservative starting prices, not a promise of printer margin.
 
@@ -46,22 +65,32 @@ def recommended_prices(meta: dict) -> dict[str, float]:
     pages = _number(meta.get("page_count"))
     puzzles = _number(meta.get("puzzle_count"))
     edition = " ".join(str(meta.get(key) or "") for key in ("title", "subtitle", "edition")).casefold()
-    signature = "signature" in edition or puzzles >= 100
+    signature = "signature" in edition
+    puzzle_type = str(meta.get("puzzle_type") or "")
+    variety = any(term in edition for term in ("letter and shape", "letter, and shape", "symbols")) or puzzle_type == "Mixed Brain Games"
 
     if pages >= 240:
-        paperback = 13.99
+        paperback = 14.99
     elif pages >= 180:
-        paperback = 12.99
+        paperback = 13.99
     elif pages >= 120:
         paperback = 11.99
     else:
         paperback = 9.99
+    if pages < 120 and puzzle_type == "Mixed Brain Games":
+        paperback += 1.00
+    if puzzles >= 100:
+        paperback += 1.00
+    if variety and pages < 180:
+        paperback += 1.00
     if signature:
         paperback += 2.00
 
     # Direct downloads are a separate product: no print cost, but still a
     # complete, professionally formatted puzzle book.
-    digital = 7.99 if puzzles >= 100 or pages >= 180 else 6.99 if puzzles >= 48 else 4.99
+    digital = 6.99 if puzzles >= 100 or pages >= 180 or variety else 4.99
+    if signature:
+        digital += 1.00
     print_plus_distribution = _money(paperback + 2.00)
     return {
         "amazon": _money(paperback),
@@ -132,7 +161,8 @@ def listing_copy_text(book: dict, platform: str) -> str:
         "",
     ]
     if platform == "amazon":
-        base += ["KDP KEYWORDS (one per line)", "-" * 28, _lines(content["amazon_keywords"]), "", "KDP CATEGORIES", "-" * 20, _lines(content["ingram_subjects"])]
+        estimate = kdp_us_large_trim_estimate(meta)
+        base += ["KDP KEYWORDS (one per line)", "-" * 28, _lines(content["amazon_keywords"]), "", "KDP CATEGORY DIRECTIONS (choose the closest current paths in the KDP portal)", "-" * 74, _lines(content.get("amazon_category_directions") or []), "", "PRIMARY AUDIENCE / READING AGE", "-" * 31, f"Primary audience: {content.get('primary_audience') or 'Adult / General'}", f"Reading age: {content.get('reading_age') or 'Not required'}", "", "BISAC / DISTRIBUTION SUBJECT", "-" * 29, _lines(content["ingram_subjects"]), "", "CURRENT US PRICE CHECK", "-" * 22, f"Planning basis: {estimate['basis']}", f"Estimated printing cost: ${estimate['estimated_printing_cost']:.2f}", f"Estimated royalty at {int(float(estimate['royalty_rate']) * 100)}%: ${estimate['estimated_royalty']:.2f}"]
     elif platform == "etsy":
         base += ["ETSY TAGS (up to 13; one per line)", "-" * 35, _lines(content["etsy_tags"]), "", "DIGITAL DELIVERY", "-" * 20, "Instant download PDF. State clearly that this is a digital product if you list it as one."]
     elif platform == "payhip":

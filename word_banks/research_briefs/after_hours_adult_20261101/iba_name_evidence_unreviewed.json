@@ -1,0 +1,512 @@
+[
+  {
+    "name": "Alexander",
+    "url": "https://iba-world.com/iba-cocktail/alexander/",
+    "directory_url": "https://iba-world.com/cocktails/all-cocktails/"
+  },
+  {
+    "name": "Americano",
+    "url": "https://iba-world.com/iba-cocktail/americano/",
+    "directory_url": "https://iba-world.com/cocktails/all-cocktails/"
+  },
+  {
+    "name": "Angel Face",
+    "url": "https://iba-world.com/iba-cocktail/angel-face/",
+    "directory_url": "https://iba-world.com/cocktails/all-cocktails/"
+  },
+  {
+    "name": "Aviation",
+    "url": "https://iba-world.com/iba-cocktail/aviation/",
+    "directory_url": "https://iba-world.com/cocktails/all-cocktails/"
+  },
+  {
+    "name": "Bee’s Knees",
+    "url": "https://iba-world.com/iba-cocktail/bees-knees/",
+    "directory_url": "https://iba-world.com/cocktails/all-cocktails/"
+  },
+  {
+    "name": "Bellini",
+    "url": "https://iba-world.com/iba-cocktail/bellini/",
+    "directory_url": "https://iba-world.com/cocktails/all-cocktails/"
+  },
+  {
+    "name": "Between the Sheets",
+    "url": "https://iba-world.com/iba-cocktail/between-the-sheets/",
+    "directory_url": "https://iba-world.com/cocktails/all-cocktails/"
+  },
+  {
+    "name": "Black Russian",
+    "url": "https://iba-world.com/iba-cocktail/black-russian/",
+    "directory_url": "https://iba-world.com/cocktails/all-cocktails/"
+  },
+  {
+    "name": "Bloody Mary",
+    "url": "https://iba-world.com/iba-cocktail/bloody-mary/",
+    "directory_url": "https://iba-world.com/cocktails/all-cocktails/"
+  },
+  {
+    "name": "Boulevardier",
+    "url": "https://iba-world.com/iba-cocktail/boulevardier/",
+    "directory_url": "https://iba-world.com/cocktails/all-cocktails/"
+  },
+  {
+    "name": "Bramble",
+    "url": "https://iba-world.com/iba-cocktail/bramble/",
+    "directory_url": "https://iba-world.com/cocktails/all-cocktails/"
+  },
+  {
+    "name": "Brandy Crusta",
+    "url": "https://iba-world.com/iba-cocktail/brandy-crusta/",
+    "directory_url": "https://iba-world.com/cocktails/all-cocktails/"
+  },
+  {
+    "name": "Caipirinha",
+    "url": "https://iba-world.com/iba-cocktail/caipirinha/",
+    "directory_url": "https://iba-world.com/cocktails/all-cocktails/"
+  },
+  {
+    "name": "Canchanchara",
+    "url": "https://iba-world.com/iba-cocktail/canchanchara/",
+    "directory_url": "https://iba-world.com/cocktails/all-cocktails/"
+  },
+  {
+    "name": "Cardinale",
+    "url": "https://iba-world.com/iba-cocktail/cardinale/",
+    "directory_url": "https://iba-world.com/cocktails/all-cocktails/"
+  },
+  {
+    "name": "Casino",
+    "url": "https://iba-world.com/iba-cocktail/casino/",
+    "directory_url": "https://iba-world.com/cocktails/all-cocktails/"
+  },
+  {
+    "name": "Champagne Cocktail",
+    "url": "https://iba-world.com/iba-cocktail/champagne-cocktail/",
+    "directory_url": "https://iba-world.com/cocktails/all-cocktails/"
+  },
+  {
+    "name": "Chartreuse Swizzle",
+    "url": "https://iba-world.com/iba-cocktail/chartreuse-swizzle/",
+    "directory_url": "https://iba-world.com/cocktails/all-cocktails/"
+  },
+  {
+    "name": "Clover Club",
+    "url": "https://iba-world.com/iba-cocktail/clover-club/",
+    "directory_url": "https://iba-world.com/cocktails/all-cocktails/"
+  },
+  {
+    "name": "Corpse Reviver #2",
+    "url": "https://iba-world.com/iba-cocktail/corpse-reviver-2/",
+    "directory_url": "https://iba-world.com/cocktails/all-cocktails/"
+  },
+  {
+    "name": "Cosmopolitan",
+    "url": "https://iba-world.com/iba-cocktail/cosmopolitan/",
+    "directory_url": "https://iba-world.com/cocktails/all-cocktails/page/2/"
+  },
+  {
+    "name": "Cuba Libre",
+    "url": "https://iba-world.com/iba-cocktail/cuba-libre/",
+    "directory_url": "https://iba-world.com/cocktails/all-cocktails/page/2/"
+  },
+  {
+    "name": "Daiquiri",
+    "url": "https://iba-world.com/iba-cocktail/daiquiri/",
+    "directory_url": "https://iba-world.com/cocktails/all-cocktails/page/2/"
+  },
+  {
+    "name": "Dark ‘N’ Stormy",
+    "url": "https://iba-world.com/iba-cocktail/dark-n-stormy/",
+    "directory_url": "https://iba-world.com/cocktails/all-cocktails/page/2/"
+  },
+  {
+    "name": "Don's Special Daiquiri",
+    "url": "https://iba-world.com/iba-cocktail/dons-special-daiquiri/",
+    "directory_url": "https://iba-world.com/cocktails/all-cocktails/page/2/"
+  },
+  {
+    "name": "Dry Martini",
+    "url": "https://iba-world.com/iba-cocktail/dry-martini/",
+    "directory_url": "https://iba-world.com/cocktails/all-cocktails/page/2/"
+  },
+  {
+    "name": "Espresso Martini",
+    "url": "https://iba-world.com/iba-cocktail/espresso-martini/",
+    "directory_url": "https://iba-world.com/cocktails/all-cocktails/page/2/"
+  },
+  {
+    "name": "Fernandito",
+    "url": "https://iba-world.com/iba-cocktail/fernandito/",
+    "directory_url": "https://iba-world.com/cocktails/all-cocktails/page/2/"
+  },
+  {
+    "name": "French 75",
+    "url": "https://iba-world.com/iba-cocktail/french-75/",
+    "directory_url": "https://iba-world.com/cocktails/all-cocktails/page/2/"
+  },
+  {
+    "name": "French Connection",
+    "url": "https://iba-world.com/iba-cocktail/french-connection/",
+    "directory_url": "https://iba-world.com/cocktails/all-cocktails/page/2/"
+  },
+  {
+    "name": "French Martini",
+    "url": "https://iba-world.com/iba-cocktail/french-martini/",
+    "directory_url": "https://iba-world.com/cocktails/all-cocktails/page/2/"
+  },
+  {
+    "name": "Garibaldi",
+    "url": "https://iba-world.com/iba-cocktail/garibaldi/",
+    "directory_url": "https://iba-world.com/cocktails/all-cocktails/page/2/"
+  },
+  {
+    "name": "Gin Basil Smash",
+    "url": "https://iba-world.com/iba-cocktail/gin-basil-smash/",
+    "directory_url": "https://iba-world.com/cocktails/all-cocktails/page/2/"
+  },
+  {
+    "name": "Gin Fizz",
+    "url": "https://iba-world.com/iba-cocktail/gin-fizz/",
+    "directory_url": "https://iba-world.com/cocktails/all-cocktails/page/2/"
+  },
+  {
+    "name": "Grand Margarita",
+    "url": "https://iba-world.com/iba-cocktail/grand-margarita/",
+    "directory_url": "https://iba-world.com/cocktails/all-cocktails/page/2/"
+  },
+  {
+    "name": "Grasshopper",
+    "url": "https://iba-world.com/iba-cocktail/grasshopper/",
+    "directory_url": "https://iba-world.com/cocktails/all-cocktails/page/2/"
+  },
+  {
+    "name": "Hanky Panky",
+    "url": "https://iba-world.com/iba-cocktail/hanky-panky/",
+    "directory_url": "https://iba-world.com/cocktails/all-cocktails/page/2/"
+  },
+  {
+    "name": "Hemingway Special",
+    "url": "https://iba-world.com/iba-cocktail/hemingway-special/",
+    "directory_url": "https://iba-world.com/cocktails/all-cocktails/page/2/"
+  },
+  {
+    "name": "Horse’s Neck",
+    "url": "https://iba-world.com/iba-cocktail/horses-neck/",
+    "directory_url": "https://iba-world.com/cocktails/all-cocktails/page/2/"
+  },
+  {
+    "name": "IBA Tiki",
+    "url": "https://iba-world.com/iba-cocktail/iba-tiki/",
+    "directory_url": "https://iba-world.com/cocktails/all-cocktails/page/2/"
+  },
+  {
+    "name": "Illegal",
+    "url": "https://iba-world.com/iba-cocktail/illegal/",
+    "directory_url": "https://iba-world.com/cocktails/all-cocktails/page/3/"
+  },
+  {
+    "name": "Irish Coffee",
+    "url": "https://iba-world.com/iba-cocktail/irish-coffee/",
+    "directory_url": "https://iba-world.com/cocktails/all-cocktails/page/3/"
+  },
+  {
+    "name": "John Collins",
+    "url": "https://iba-world.com/iba-cocktail/john-collins/",
+    "directory_url": "https://iba-world.com/cocktails/all-cocktails/page/3/"
+  },
+  {
+    "name": "Jungle Bird",
+    "url": "https://iba-world.com/iba-cocktail/jungle-bird/",
+    "directory_url": "https://iba-world.com/cocktails/all-cocktails/page/3/"
+  },
+  {
+    "name": "Kir",
+    "url": "https://iba-world.com/iba-cocktail/kir/",
+    "directory_url": "https://iba-world.com/cocktails/all-cocktails/page/3/"
+  },
+  {
+    "name": "Last Word",
+    "url": "https://iba-world.com/iba-cocktail/last-word/",
+    "directory_url": "https://iba-world.com/cocktails/all-cocktails/page/3/"
+  },
+  {
+    "name": "Lemon Drop Martini",
+    "url": "https://iba-world.com/iba-cocktail/lemon-drop-martini/",
+    "directory_url": "https://iba-world.com/cocktails/all-cocktails/page/3/"
+  },
+  {
+    "name": "Long Island Iced Tea",
+    "url": "https://iba-world.com/iba-cocktail/long-island-iced-tea/",
+    "directory_url": "https://iba-world.com/cocktails/all-cocktails/page/3/"
+  },
+  {
+    "name": "Mai-Tai",
+    "url": "https://iba-world.com/iba-cocktail/mai-tai/",
+    "directory_url": "https://iba-world.com/cocktails/all-cocktails/page/3/"
+  },
+  {
+    "name": "Manhattan",
+    "url": "https://iba-world.com/iba-cocktail/manhattan/",
+    "directory_url": "https://iba-world.com/cocktails/all-cocktails/page/3/"
+  },
+  {
+    "name": "Margarita",
+    "url": "https://iba-world.com/iba-cocktail/margarita/",
+    "directory_url": "https://iba-world.com/cocktails/all-cocktails/page/3/"
+  },
+  {
+    "name": "Martinez",
+    "url": "https://iba-world.com/iba-cocktail/martinez/",
+    "directory_url": "https://iba-world.com/cocktails/all-cocktails/page/3/"
+  },
+  {
+    "name": "Mary Pickford",
+    "url": "https://iba-world.com/iba-cocktail/mary-pickford/",
+    "directory_url": "https://iba-world.com/cocktails/all-cocktails/page/3/"
+  },
+  {
+    "name": "Mimosa",
+    "url": "https://iba-world.com/iba-cocktail/mimosa/",
+    "directory_url": "https://iba-world.com/cocktails/all-cocktails/page/3/"
+  },
+  {
+    "name": "Mint Julep",
+    "url": "https://iba-world.com/iba-cocktail/mint-julep/",
+    "directory_url": "https://iba-world.com/cocktails/all-cocktails/page/3/"
+  },
+  {
+    "name": "Missionary's Downfall",
+    "url": "https://iba-world.com/iba-cocktail/missionarys-downfall/",
+    "directory_url": "https://iba-world.com/cocktails/all-cocktails/page/3/"
+  },
+  {
+    "name": "Mojito",
+    "url": "https://iba-world.com/iba-cocktail/mojito/",
+    "directory_url": "https://iba-world.com/cocktails/all-cocktails/page/3/"
+  },
+  {
+    "name": "Monkey Gland",
+    "url": "https://iba-world.com/iba-cocktail/monkey-gland/",
+    "directory_url": "https://iba-world.com/cocktails/all-cocktails/page/3/"
+  },
+  {
+    "name": "Moscow Mule",
+    "url": "https://iba-world.com/iba-cocktail/moscow-mule/",
+    "directory_url": "https://iba-world.com/cocktails/all-cocktails/page/3/"
+  },
+  {
+    "name": "Naked and Famous",
+    "url": "https://iba-world.com/iba-cocktail/naked-and-famous/",
+    "directory_url": "https://iba-world.com/cocktails/all-cocktails/page/3/"
+  },
+  {
+    "name": "Negroni",
+    "url": "https://iba-world.com/iba-cocktail/negroni/",
+    "directory_url": "https://iba-world.com/cocktails/all-cocktails/page/4/"
+  },
+  {
+    "name": "New York Sour",
+    "url": "https://iba-world.com/iba-cocktail/new-york-sour/",
+    "directory_url": "https://iba-world.com/cocktails/all-cocktails/page/4/"
+  },
+  {
+    "name": "Old Cuban",
+    "url": "https://iba-world.com/iba-cocktail/old-cuban/",
+    "directory_url": "https://iba-world.com/cocktails/all-cocktails/page/4/"
+  },
+  {
+    "name": "Old Fashioned",
+    "url": "https://iba-world.com/iba-cocktail/old-fashioned/",
+    "directory_url": "https://iba-world.com/cocktails/all-cocktails/page/4/"
+  },
+  {
+    "name": "Paloma",
+    "url": "https://iba-world.com/iba-cocktail/paloma/",
+    "directory_url": "https://iba-world.com/cocktails/all-cocktails/page/4/"
+  },
+  {
+    "name": "Paper Plane",
+    "url": "https://iba-world.com/iba-cocktail/paper-plane/",
+    "directory_url": "https://iba-world.com/cocktails/all-cocktails/page/4/"
+  },
+  {
+    "name": "Paradise",
+    "url": "https://iba-world.com/iba-cocktail/paradise/",
+    "directory_url": "https://iba-world.com/cocktails/all-cocktails/page/4/"
+  },
+  {
+    "name": "Penicillin",
+    "url": "https://iba-world.com/iba-cocktail/penicillin/",
+    "directory_url": "https://iba-world.com/cocktails/all-cocktails/page/4/"
+  },
+  {
+    "name": "Pina Colada",
+    "url": "https://iba-world.com/iba-cocktail/pina-colada/",
+    "directory_url": "https://iba-world.com/cocktails/all-cocktails/page/4/"
+  },
+  {
+    "name": "Pisco Punch",
+    "url": "https://iba-world.com/iba-cocktail/pisco-punch/",
+    "directory_url": "https://iba-world.com/cocktails/all-cocktails/page/4/"
+  },
+  {
+    "name": "Pisco Sour",
+    "url": "https://iba-world.com/iba-cocktail/pisco-sour/",
+    "directory_url": "https://iba-world.com/cocktails/all-cocktails/page/4/"
+  },
+  {
+    "name": "Planters Punch",
+    "url": "https://iba-world.com/iba-cocktail/planters-punch/",
+    "directory_url": "https://iba-world.com/cocktails/all-cocktails/page/4/"
+  },
+  {
+    "name": "Porn Star Martini",
+    "url": "https://iba-world.com/iba-cocktail/porn-star-martini/",
+    "directory_url": "https://iba-world.com/cocktails/all-cocktails/page/4/"
+  },
+  {
+    "name": "Porto Flip",
+    "url": "https://iba-world.com/iba-cocktail/porto-flip/",
+    "directory_url": "https://iba-world.com/cocktails/all-cocktails/page/4/"
+  },
+  {
+    "name": "Rabo de Galo",
+    "url": "https://iba-world.com/iba-cocktail/rabo-de-galo/",
+    "directory_url": "https://iba-world.com/cocktails/all-cocktails/page/4/"
+  },
+  {
+    "name": "Ramos Fizz",
+    "url": "https://iba-world.com/iba-cocktail/ramos-fizz/",
+    "directory_url": "https://iba-world.com/cocktails/all-cocktails/page/4/"
+  },
+  {
+    "name": "Remember the Maine",
+    "url": "https://iba-world.com/iba-cocktail/remember-the-maine/",
+    "directory_url": "https://iba-world.com/cocktails/all-cocktails/page/4/"
+  },
+  {
+    "name": "Russian Spring Punch",
+    "url": "https://iba-world.com/iba-cocktail/russian-spring-punch/",
+    "directory_url": "https://iba-world.com/cocktails/all-cocktails/page/4/"
+  },
+  {
+    "name": "Rusty Nail",
+    "url": "https://iba-world.com/iba-cocktail/rusty-nail/",
+    "directory_url": "https://iba-world.com/cocktails/all-cocktails/page/4/"
+  },
+  {
+    "name": "Sazerac",
+    "url": "https://iba-world.com/iba-cocktail/sazerac/",
+    "directory_url": "https://iba-world.com/cocktails/all-cocktails/page/4/"
+  },
+  {
+    "name": "Sea Breeze",
+    "url": "https://iba-world.com/iba-cocktail/sea-breeze/",
+    "directory_url": "https://iba-world.com/cocktails/all-cocktails/page/5/"
+  },
+  {
+    "name": "Sex on the Beach",
+    "url": "https://iba-world.com/iba-cocktail/sex-on-the-beach/",
+    "directory_url": "https://iba-world.com/cocktails/all-cocktails/page/5/"
+  },
+  {
+    "name": "Sherry Cobbler",
+    "url": "https://iba-world.com/iba-cocktail/sherry-cobbler/",
+    "directory_url": "https://iba-world.com/cocktails/all-cocktails/page/5/"
+  },
+  {
+    "name": "Sidecar",
+    "url": "https://iba-world.com/iba-cocktail/sidecar/",
+    "directory_url": "https://iba-world.com/cocktails/all-cocktails/page/5/"
+  },
+  {
+    "name": "Singapore Sling",
+    "url": "https://iba-world.com/iba-cocktail/singapore-sling/",
+    "directory_url": "https://iba-world.com/cocktails/all-cocktails/page/5/"
+  },
+  {
+    "name": "South Side",
+    "url": "https://iba-world.com/iba-cocktail/south-side/",
+    "directory_url": "https://iba-world.com/cocktails/all-cocktails/page/5/"
+  },
+  {
+    "name": "Spicy Fifty",
+    "url": "https://iba-world.com/iba-cocktail/spicy-fifty/",
+    "directory_url": "https://iba-world.com/cocktails/all-cocktails/page/5/"
+  },
+  {
+    "name": "Spritz",
+    "url": "https://iba-world.com/iba-cocktail/spritz/",
+    "directory_url": "https://iba-world.com/cocktails/all-cocktails/page/5/"
+  },
+  {
+    "name": "Stinger",
+    "url": "https://iba-world.com/iba-cocktail/stinger/",
+    "directory_url": "https://iba-world.com/cocktails/all-cocktails/page/5/"
+  },
+  {
+    "name": "Suffering Bastard",
+    "url": "https://iba-world.com/iba-cocktail/suffering-bastard/",
+    "directory_url": "https://iba-world.com/cocktails/all-cocktails/page/5/"
+  },
+  {
+    "name": "Tequila Sunrise",
+    "url": "https://iba-world.com/iba-cocktail/tequila-sunrise/",
+    "directory_url": "https://iba-world.com/cocktails/all-cocktails/page/5/"
+  },
+  {
+    "name": "Three Dots and a Dash",
+    "url": "https://iba-world.com/iba-cocktail/three-dots-and-a-dash/",
+    "directory_url": "https://iba-world.com/cocktails/all-cocktails/page/5/"
+  },
+  {
+    "name": "Tipperary",
+    "url": "https://iba-world.com/iba-cocktail/tipperary/",
+    "directory_url": "https://iba-world.com/cocktails/all-cocktails/page/5/"
+  },
+  {
+    "name": "Tommy's Margarita",
+    "url": "https://iba-world.com/iba-cocktail/tommys-margarita/",
+    "directory_url": "https://iba-world.com/cocktails/all-cocktails/page/5/"
+  },
+  {
+    "name": "Trinidad Sour",
+    "url": "https://iba-world.com/iba-cocktail/trinidad-sour/",
+    "directory_url": "https://iba-world.com/cocktails/all-cocktails/page/5/"
+  },
+  {
+    "name": "Tuxedo",
+    "url": "https://iba-world.com/iba-cocktail/tuxedo/",
+    "directory_url": "https://iba-world.com/cocktails/all-cocktails/page/5/"
+  },
+  {
+    "name": "Ve.N.To",
+    "url": "https://iba-world.com/iba-cocktail/ve-n-to/",
+    "directory_url": "https://iba-world.com/cocktails/all-cocktails/page/5/"
+  },
+  {
+    "name": "Vesper",
+    "url": "https://iba-world.com/iba-cocktail/vesper/",
+    "directory_url": "https://iba-world.com/cocktails/all-cocktails/page/5/"
+  },
+  {
+    "name": "Vieux Carré",
+    "url": "https://iba-world.com/iba-cocktail/vieux-carre/",
+    "directory_url": "https://iba-world.com/cocktails/all-cocktails/page/5/"
+  },
+  {
+    "name": "Whiskey Sour",
+    "url": "https://iba-world.com/iba-cocktail/whiskey-sour/",
+    "directory_url": "https://iba-world.com/cocktails/all-cocktails/page/5/"
+  },
+  {
+    "name": "White Lady",
+    "url": "https://iba-world.com/iba-cocktail/white-lady/",
+    "directory_url": "https://iba-world.com/cocktails/all-cocktails/page/6/"
+  },
+  {
+    "name": "Zombie",
+    "url": "https://iba-world.com/iba-cocktail/zombie/",
+    "directory_url": "https://iba-world.com/cocktails/all-cocktails/page/6/"
+  }
+]

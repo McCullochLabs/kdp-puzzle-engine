@@ -1,0 +1,1038 @@
+{
+  "title": "Faithful Words Word Search",
+  "subtitle": "50 large-print puzzles for Bible themes, hope and encouragement",
+  "author": "Jordan M. Slade",
+  "series": "Faithful Words",
+  "detected_topic": "Bible and Faith",
+  "difficulty_label": "Relaxing",
+  "palette": "bible",
+  "recommended_palette": "bible",
+  "cover_style": "classic",
+  "recommended_cover_style": "classic",
+  "no_repeat_words": true,
+  "cover_imprint": "Slade Puzzle Co.",
+  "cover_badge": "50 LARGE-PRINT PUZZLES • NO REPEATED WORDS",
+  "puzzles": [
+    {
+      "name": "Walking in Faith",
+      "words": [
+        "BELIEF",
+        "TRUST",
+        "CONFIDENCE",
+        "STEADFAST",
+        "FAITHFUL",
+        "CONVICTION",
+        "DEVOTION",
+        "RELIANCE",
+        "ASSURANCE",
+        "FIDELITY",
+        "COMMITMENT",
+        "WALK"
+      ],
+      "mini_theme": "Walking in Faith",
+      "page_title_verified": true,
+      "page_title_basis": "editorial_review"
+    },
+    {
+      "name": "Daily Encouragement",
+      "words": [
+        "UPLIFT",
+        "COMFORT",
+        "STRENGTH",
+        "COURAGE",
+        "HEARTEN",
+        "INSPIRE",
+        "SOLACE",
+        "CHEER",
+        "REASSURE",
+        "BOLDNESS",
+        "SUSTAIN",
+        "GRACE"
+      ],
+      "mini_theme": "Daily Encouragement",
+      "page_title_verified": true,
+      "page_title_basis": "editorial_review"
+    },
+    {
+      "name": "Fruits of the Spirit",
+      "words": [
+        "LOVE",
+        "JOY",
+        "PEACE",
+        "PATIENCE",
+        "KINDNESS",
+        "GOODNESS",
+        "GENTLENESS",
+        "FAITHFULNESS",
+        "SELFCONTROL",
+        "HARVEST",
+        "BLOSSOM",
+        "SPIRIT"
+      ],
+      "mini_theme": "Fruits of the Spirit",
+      "page_title_verified": true,
+      "page_title_basis": "editorial_review"
+    },
+    {
+      "name": "Psalms of Praise",
+      "words": [
+        "PSALM",
+        "PRAISE",
+        "WORSHIP",
+        "SONG",
+        "HYMN",
+        "MELODY",
+        "HARP",
+        "SING",
+        "REJOICE",
+        "GLORY",
+        "HONOR",
+        "EXALT"
+      ],
+      "mini_theme": "Psalms of Praise",
+      "page_title_verified": true,
+      "page_title_basis": "editorial_review"
+    },
+    {
+      "name": "Quiet Moments",
+      "words": [
+        "QUIET",
+        "SILENCE",
+        "MEDITATE",
+        "REFLECT",
+        "STILLNESS",
+        "SOLITUDE",
+        "LISTEN",
+        "WHISPER",
+        "CALM",
+        "PEACEFUL",
+        "SABBATH",
+        "RENEW"
+      ],
+      "mini_theme": "Quiet Moments",
+      "page_title_verified": true,
+      "page_title_basis": "editorial_review"
+    },
+    {
+      "name": "Victorious Spirit",
+      "words": [
+        "VICTORY",
+        "TRIUMPH",
+        "OVERCOME",
+        "CONQUER",
+        "WINNER",
+        "CROWN",
+        "PRIZE",
+        "SUCCESS",
+        "FREEDOM",
+        "LIBERTY",
+        "RESCUE",
+        "DELIVER"
+      ],
+      "mini_theme": "Victorious Spirit",
+      "page_title_verified": true,
+      "page_title_basis": "editorial_review"
+    },
+    {
+      "name": "Gathering in Fellowship",
+      "words": [
+        "ASSEMBLY",
+        "COMMUNITY",
+        "CONGREGATION",
+        "FELLOWSHIP",
+        "BRETHREN",
+        "COMMUNION",
+        "HARMONY",
+        "UNITY",
+        "GATHERING",
+        "WELCOME",
+        "SHARING",
+        "BELOVED"
+      ],
+      "mini_theme": "Gathering in Fellowship",
+      "page_title_verified": true,
+      "page_title_basis": "editorial_review"
+    },
+    {
+      "name": "Attributes of the Divine",
+      "words": [
+        "HOLINESS",
+        "RIGHTEOUSNESS",
+        "SOVEREIGN",
+        "OMNIPOTENT",
+        "CREATOR",
+        "REDEEMER",
+        "SAVIOR",
+        "ALMIGHTY",
+        "ETERNAL",
+        "UNCHANGING",
+        "SUPREME",
+        "MAJESTIC"
+      ],
+      "mini_theme": "Attributes of the Divine",
+      "page_title_verified": true,
+      "page_title_basis": "editorial_review"
+    },
+    {
+      "name": "Places of Prayer",
+      "words": [
+        "INNER ROOM",
+        "MOUNTAINTOP",
+        "GARDEN",
+        "WILDERNESS",
+        "TEMPLE",
+        "SYNAGOGUE",
+        "UPPER ROOM",
+        "SHORELINE",
+        "SANCTUARY",
+        "ALTARS",
+        "CLOSER",
+        "SECRET PLACE"
+      ],
+      "mini_theme": "Places of Prayer",
+      "page_title_verified": true,
+      "page_title_basis": "editorial_review"
+    },
+    {
+      "name": "Thanksgiving and Gratitude",
+      "words": [
+        "THANKFUL",
+        "COUNT BLESSINGS",
+        "APPRECIATION",
+        "HEART OF THANKS",
+        "ABUNDANCE",
+        "GRACE RECEIVED",
+        "MERCY ENDURES",
+        "JOYFUL SPIRIT",
+        "RECOGNITION",
+        "BLISSFUL",
+        "PRAISE GOD",
+        "CONTENTMENT"
+      ],
+      "mini_theme": "Thanksgiving and Gratitude",
+      "page_title_verified": true,
+      "page_title_basis": "editorial_review"
+    },
+    {
+      "name": "Postures of Prayer",
+      "words": [
+        "BOWING DOWN",
+        "KNEELING",
+        "LIFTED HANDS",
+        "CLOSED EYES",
+        "HEAD BOWED",
+        "REACHING OUT",
+        "SURRENDER",
+        "HUMILITY",
+        "LOWLY HEART",
+        "PROSTRATE",
+        "SEEKING GOD",
+        "OPEN ARMS"
+      ],
+      "mini_theme": "Postures of Prayer",
+      "page_title_verified": true,
+      "page_title_basis": "editorial_review"
+    },
+    {
+      "name": "Spiritual Renewal",
+      "words": [
+        "REVIVAL",
+        "AWAKENING",
+        "FRESH WIND",
+        "LIVING WATER",
+        "CLEANSING",
+        "REFINING FIRE",
+        "RESTORED SOUL",
+        "NEW BEGINNING",
+        "TRANSFORMED",
+        "DEDICATED",
+        "CONSECRATION",
+        "HOLY SPIRIT"
+      ],
+      "mini_theme": "Spiritual Renewal",
+      "page_title_verified": true,
+      "page_title_basis": "editorial_review"
+    },
+    {
+      "name": "Journey to Bethlehem",
+      "words": [
+        "BETHLEHEM",
+        "JOSEPH",
+        "MARY",
+        "MANGER",
+        "SHEPHERDS",
+        "STAR",
+        "ANGELS",
+        "INN",
+        "CENSUS",
+        "SWADDLING",
+        "MAGI",
+        "STABLE"
+      ],
+      "mini_theme": "Journey to Bethlehem",
+      "page_title_verified": true,
+      "page_title_basis": "editorial_review"
+    },
+    {
+      "name": "Miracles of Healing",
+      "words": [
+        "BLINDBARTIMAEUS",
+        "LAZARUS",
+        "LEPER",
+        "PARALYTIC",
+        "POOLOFBETHESDA",
+        "JAIRUSDAUGHTER",
+        "SEVEREDEAR",
+        "FEVERHEALED",
+        "CURED",
+        "RESTORE",
+        "FAITH",
+        "HEALINGTOUCH"
+      ],
+      "mini_theme": "Miracles of Healing",
+      "page_title_verified": true,
+      "page_title_basis": "editorial_review"
+    },
+    {
+      "name": "Patriarchs of Faith",
+      "words": [
+        "ABRAHAM",
+        "ISAAC",
+        "JACOB",
+        "NOAH",
+        "JOB",
+        "MELCHIZEDEK",
+        "ENOCH",
+        "TERAH",
+        "LOT",
+        "COVENANT",
+        "PROMISE",
+        "ANCESTORS"
+      ],
+      "mini_theme": "Patriarchs of Faith",
+      "page_title_verified": true,
+      "page_title_basis": "editorial_review"
+    },
+    {
+      "name": "Rivers of Scripture",
+      "words": [
+        "JORDAN",
+        "EUPHRATES",
+        "TIGRIS",
+        "NILE",
+        "CHEBAR",
+        "KIDRON",
+        "ABANA",
+        "PHARPAR",
+        "STREAM",
+        "WATERS",
+        "CURRENT",
+        "FLOW"
+      ],
+      "mini_theme": "Rivers of Scripture",
+      "page_title_verified": true,
+      "page_title_basis": "editorial_review"
+    },
+    {
+      "name": "Women of Valor",
+      "words": [
+        "DEBORAH",
+        "RUTH",
+        "ESTHER",
+        "HANNAH",
+        "ABIGAIL",
+        "MIRIAM",
+        "PRISCILLA",
+        "LYDIA",
+        "PHOEBE",
+        "NAOMI",
+        "SARAH",
+        "ELIZABETH"
+      ],
+      "mini_theme": "Women of Valor",
+      "page_title_verified": true,
+      "page_title_basis": "editorial_review"
+    },
+    {
+      "name": "Coastal Towns and Ports",
+      "words": [
+        "JOPPA",
+        "CAESAREA",
+        "TYRE",
+        "SIDON",
+        "TARSUS",
+        "MILETUS",
+        "PAPHOS",
+        "SMYRNA",
+        "EPHESUS",
+        "HARBOR",
+        "VESSEL",
+        "ANCHOR"
+      ],
+      "mini_theme": "Coastal Towns and Ports",
+      "page_title_verified": true,
+      "page_title_basis": "editorial_review"
+    },
+    {
+      "name": "Apostles and Companions",
+      "words": [
+        "PETER",
+        "ANDREW",
+        "JAMES",
+        "JOHN",
+        "PHILIP",
+        "BARTHOLOMEW",
+        "MATTHEW",
+        "THOMAS",
+        "THADDAEUS",
+        "SIMON",
+        "MATTHIAS",
+        "BARNABAS"
+      ],
+      "mini_theme": "Apostles and Companions",
+      "page_title_verified": true,
+      "page_title_basis": "editorial_review"
+    },
+    {
+      "name": "Valleys and Mountains",
+      "words": [
+        "MOUNTSINAI",
+        "MOUNTCARMEL",
+        "MOUNTTABOR",
+        "MOUNTNEBOT",
+        "MOUNTOFOLIVES",
+        "VALLEYOFELAH",
+        "VALLEYOFACHOR",
+        "PLAINOFSHARON",
+        "SUMMIT",
+        "RIDGE",
+        "SLOPES",
+        "HEIGHTS"
+      ],
+      "mini_theme": "Valleys and Mountains",
+      "page_title_verified": true,
+      "page_title_basis": "editorial_review"
+    },
+    {
+      "name": "Kings of Israel",
+      "words": [
+        "DAVID",
+        "SOLOMON",
+        "SAUL",
+        "HEZEKIAH",
+        "JOSIAH",
+        "JEHOSHAPHAT",
+        "UZZIAH",
+        "JOTHAM",
+        "AHAZ",
+        "MANASSEH",
+        "AMON",
+        "REHOBOAM"
+      ],
+      "mini_theme": "Kings of Israel",
+      "page_title_verified": true,
+      "page_title_basis": "editorial_review"
+    },
+    {
+      "name": "Prophets of God",
+      "words": [
+        "ISAIAH",
+        "JEREMIAH",
+        "EZEKIEL",
+        "DANIEL",
+        "ELIJAH",
+        "ELISHA",
+        "NATHAN",
+        "JONAH",
+        "AMOS",
+        "MICAH",
+        "JOEL",
+        "MALACHI"
+      ],
+      "mini_theme": "Prophets of God",
+      "page_title_verified": true,
+      "page_title_basis": "editorial_review"
+    },
+    {
+      "name": "Regions and Nations",
+      "words": [
+        "GALILEE",
+        "JUDEA",
+        "EGYPT",
+        "BABYLON",
+        "PERSIA",
+        "ASSYRIA",
+        "ARABIA",
+        "CANAAN",
+        "EDOM",
+        "MOAB",
+        "MIDIAN",
+        "PHILISTIA"
+      ],
+      "mini_theme": "Regions and Nations",
+      "page_title_verified": true,
+      "page_title_basis": "editorial_review"
+    },
+    {
+      "name": "Parables of the Lost",
+      "words": [
+        "LOST SHEEP",
+        "SHEPHERD",
+        "NINETY NINE",
+        "LOST COIN",
+        "WOMAN",
+        "LAMP",
+        "SWEEP",
+        "PRODIGAL SON",
+        "RECONCILIATION",
+        "FATHER",
+        "CELEBRATION",
+        "FOUND"
+      ],
+      "mini_theme": "Parables of the Lost",
+      "page_title_verified": true,
+      "page_title_basis": "editorial_review"
+    },
+    {
+      "name": "Sermon on the Mount",
+      "words": [
+        "BEATITUDES",
+        "MOURN",
+        "MEEK",
+        "MERCIFUL",
+        "PEACEMAKERS",
+        "SALT OF THE EARTH",
+        "LIGHT OF THE WORLD",
+        "TURN THE OTHER CHEEK",
+        "LOVE YOUR ENEMIES",
+        "SECRET PRAYER",
+        "NARROW GATE",
+        "WISE BUILDER"
+      ],
+      "mini_theme": "Sermon on the Mount",
+      "page_title_verified": true,
+      "page_title_basis": "editorial_review"
+    },
+    {
+      "name": "Parables of the Kingdom",
+      "words": [
+        "MUSTARD SEED",
+        "YEAST",
+        "HIDDEN TREASURE",
+        "PEARL OF GREAT PRICE",
+        "FISHING NET",
+        "WEEDS AND WHEAT",
+        "LANDOWNER",
+        "VINEYARD",
+        "WEDDING BANQUET",
+        "TEN VIRGINS",
+        "TALENTS",
+        "FAITHFUL SERVANT"
+      ],
+      "mini_theme": "Parables of the Kingdom",
+      "page_title_verified": true,
+      "page_title_basis": "editorial_review"
+    },
+    {
+      "name": "Teachings on Prayer",
+      "words": [
+        "THE LORD'S PRAYER",
+        "OUR FATHER",
+        "DAILY BREAD",
+        "TRESPASSES",
+        "TEMPTATION",
+        "DELIVER US",
+        "ASK AND IT WILL BE GIVEN",
+        "KNOCK",
+        "PERSISTENT WIDOW",
+        "CLOSET PRAYER",
+        "FATHER WHO SEES IN SECRET",
+        "AMEN"
+      ],
+      "mini_theme": "Teachings on Prayer",
+      "page_title_verified": true,
+      "page_title_basis": "editorial_review"
+    },
+    {
+      "name": "Character and Conduct",
+      "words": [
+        "BEHAVIOR",
+        "EXAMPLE",
+        "WITNESS",
+        "TESTIMONY",
+        "REPUTATION",
+        "DIGNITY",
+        "RESPECT",
+        "KIND HEART",
+        "GENEROSITY",
+        "HOSPITALITY",
+        "SERVICE",
+        "GOOD WORKS"
+      ],
+      "mini_theme": "Character and Conduct",
+      "page_title_verified": true,
+      "page_title_basis": "editorial_review"
+    },
+    {
+      "name": "Abiding Values",
+      "words": [
+        "TRUTH",
+        "LIGHT",
+        "PERFECTION",
+        "EXCELLENCE",
+        "NOBILITY",
+        "WORTH",
+        "TREASURE",
+        "ETERNAL LIFE",
+        "HEAVENLY MIND",
+        "PURE DEVOTION",
+        "HOLY LIVING",
+        "SOUND DOCTRINE"
+      ],
+      "mini_theme": "Abiding Values",
+      "page_title_verified": true,
+      "page_title_basis": "editorial_review"
+    },
+    {
+      "name": "Community Care",
+      "words": [
+        "FOOD PANTRY",
+        "SHELTER",
+        "NEIGHBOR",
+        "RESCUE MISSION",
+        "CLOTHING DRIVE",
+        "OUTREACH",
+        "ADVOCACY",
+        "REFUGE",
+        "STREET MINISTRY",
+        "HOMELESS",
+        "HEALING",
+        "EMPATHY"
+      ],
+      "mini_theme": "Community Care",
+      "page_title_verified": true,
+      "page_title_basis": "editorial_review"
+    },
+    {
+      "name": "Hospitality",
+      "words": [
+        "OPEN DOORS",
+        "GUEST",
+        "HOST",
+        "WELCOME TABLE",
+        "WARMTH",
+        "RECEPTION",
+        "ACCOMMODATE",
+        "SIT DOWN",
+        "BREAK BREAD",
+        "FELLOWSHIP HALL",
+        "INVITATION",
+        "SMILE"
+      ],
+      "mini_theme": "Hospitality",
+      "page_title_verified": true,
+      "page_title_basis": "editorial_review"
+    },
+    {
+      "name": "Christian Unity",
+      "words": [
+        "ONE BODY",
+        "PEACEABLE",
+        "ACCORD",
+        "KINDRED",
+        "SHARED VISION",
+        "BROTHERLY LOVE",
+        "CONCORD",
+        "BOUNDLESS",
+        "ONE SPIRIT",
+        "CONNECTED",
+        "TOGETHERNESS",
+        "AMITY"
+      ],
+      "mini_theme": "Christian Unity",
+      "page_title_verified": true,
+      "page_title_basis": "editorial_review"
+    },
+    {
+      "name": "Spiritual Growth",
+      "words": [
+        "MATURITY",
+        "WISDOM",
+        "DISCIPLESHIP",
+        "ROOTED",
+        "BUILDING FAITH",
+        "TRANSFORMATION",
+        "RENEWAL",
+        "UNDERSTANDING",
+        "INSTRUCTION",
+        "SEEKING",
+        "LEARNING",
+        "PROGRESS"
+      ],
+      "mini_theme": "Spiritual Growth",
+      "page_title_verified": true,
+      "page_title_basis": "editorial_review"
+    },
+    {
+      "name": "Servant Heart",
+      "words": [
+        "SERVITUDE",
+        "HELPING HAND",
+        "MINISTRY",
+        "SELFLESSNESS",
+        "GIVING",
+        "HOSTING",
+        "CARE",
+        "MINISTERING",
+        "TENDING",
+        "SUPPORT",
+        "PROVISION",
+        "LABOR OF LOVE"
+      ],
+      "mini_theme": "Servant Heart",
+      "page_title_verified": true,
+      "page_title_basis": "editorial_review"
+    },
+    {
+      "name": "Attributes of Love",
+      "words": [
+        "PATIENT",
+        "KIND",
+        "NOT JEALOUS",
+        "NOT BOASTFUL",
+        "NOT PROUD",
+        "NOT RUDE",
+        "UNSELFISH",
+        "SLOW TO ANGER",
+        "KEEPS NO RECORD",
+        "REJOICES IN TRUTH",
+        "BEARS ALL THINGS",
+        "NEVER FAILS"
+      ],
+      "mini_theme": "Attributes of Love",
+      "page_title_verified": true,
+      "page_title_basis": "editorial_review"
+    },
+    {
+      "name": "Heartfelt Thanksgiving",
+      "words": [
+        "GRATEFUL HEART",
+        "PRAYER OF THANKS",
+        "COUNT YOUR BLESSINGS",
+        "DAILY DEVOTION",
+        "JOYFUL PRAISE",
+        "ABUNDANT MERCY",
+        "GIFT OF GRACE",
+        "FAITHFUL PROMISE",
+        "SACRED ALTAR",
+        "HUMBLE SPIRIT",
+        "ENDURING LOVE",
+        "DIVINE FAVOR"
+      ],
+      "mini_theme": "Heartfelt Thanksgiving",
+      "page_title_verified": true,
+      "page_title_basis": "editorial_review"
+    },
+    {
+      "name": "Paths of Righteousness",
+      "words": [
+        "NARROW ROAD",
+        "GUIDING LIGHT",
+        "STEADFAST FAITH",
+        "TRUE COMPASS",
+        "WISE COUNSEL",
+        "HONEST PATH",
+        "NOBLE PURPOSE",
+        "WALK UPRIGHT",
+        "PURE MOTIVE",
+        "JUSTICE AND MERCY",
+        "DIVINE TRUTH",
+        "HEAVENLY WAY"
+      ],
+      "mini_theme": "Paths of Righteousness",
+      "page_title_verified": true,
+      "page_title_basis": "editorial_review"
+    },
+    {
+      "name": "Local Church Life",
+      "words": [
+        "PULPIT",
+        "GREETERS",
+        "PASTOR",
+        "MEMBERSHIP",
+        "BAPTISTRY",
+        "USHER",
+        "COUNCIL",
+        "DEACON",
+        "ALTO",
+        "ORGAN",
+        "CHANCEL",
+        "ELDER"
+      ],
+      "mini_theme": "Local Church Life",
+      "page_title_verified": true,
+      "page_title_basis": "editorial_review"
+    },
+    {
+      "name": "Works of Mercy",
+      "words": [
+        "FEED THE HUNGRY",
+        "CLOTHE THE NAKED",
+        "VISIT THE SICK",
+        "WELCOME STRANGERS",
+        "COMFORT MOURNERS",
+        "SHELTER THE HOMELESS",
+        "SHARE YOUR BREAD",
+        "GIVE CLEAN WATER",
+        "LIBERATE CAPTIVES",
+        "PRACTICE KINDNESS",
+        "EXTEND MERCY",
+        "SHOW COMPASSION"
+      ],
+      "mini_theme": "Works of Mercy",
+      "page_title_verified": true,
+      "page_title_basis": "editorial_review"
+    },
+    {
+      "name": "Church Body Ministry",
+      "words": [
+        "PASTORAL CARE",
+        "DEACON SERVICE",
+        "YOUTH LEADERSHIP",
+        "CHOIR ANTHEMS",
+        "USHER DUTIES",
+        "SUNDAY SCHOOL",
+        "PRAYER CHAIN",
+        "NURSERY HELP",
+        "GREETING TEAM",
+        "MISSIONS SUPPORT",
+        "HOSPITALITY WING",
+        "AUDIO VISUAL"
+      ],
+      "mini_theme": "Church Body Ministry",
+      "page_title_verified": true,
+      "page_title_basis": "editorial_review"
+    },
+    {
+      "name": "Caring for Neighbors",
+      "words": [
+        "LOVE YOUR NEIGHBOR",
+        "CHECKING IN",
+        "MOWING LAWNS",
+        "COOKING MEALS",
+        "LISTENING EAR",
+        "OFFERING RIDES",
+        "SMILING FACES",
+        "KIND WORDS",
+        "PRAYING FOR THEM",
+        "SHARING FRUIT",
+        "OFFERING HELP",
+        "GENTLE COMFORT"
+      ],
+      "mini_theme": "Caring for Neighbors",
+      "page_title_verified": true,
+      "page_title_basis": "editorial_review"
+    },
+    {
+      "name": "Global Missions",
+      "words": [
+        "CROSSING BORDERS",
+        "TRANSLATING BIBLE",
+        "PLANTING CHURCHES",
+        "MEDICAL CLINIC",
+        "DIGGING WELLS",
+        "TEACHING CHILDREN",
+        "SPREADING GOSPEL",
+        "SENDING TEAMS",
+        "FINANCIAL SUPPORT",
+        "PRAYER PARTNERS",
+        "HOPE ABROAD",
+        "DISCIPLE NATIONS"
+      ],
+      "mini_theme": "Global Missions",
+      "page_title_verified": true,
+      "page_title_basis": "editorial_review"
+    },
+    {
+      "name": "Christian Celebrations",
+      "words": [
+        "ADVENT",
+        "CHRISTMAS",
+        "EPIPHANY",
+        "LENT",
+        "PALM SUNDAY",
+        "GOOD FRIDAY",
+        "EASTER",
+        "ASCENSION",
+        "PENTECOST",
+        "TRINITY SUNDAY",
+        "ALL SAINTS",
+        "CHRIST THE KING"
+      ],
+      "mini_theme": "Christian Celebrations",
+      "page_title_verified": true,
+      "page_title_basis": "editorial_review"
+    },
+    {
+      "name": "Sacraments and Holy Rites",
+      "words": [
+        "BAPTISM",
+        "HOLY COMMUNION",
+        "CONFIRMATION",
+        "MATRIMONY",
+        "ORDINATION",
+        "PENANCE",
+        "ANOINTING",
+        "EUCHARIST",
+        "THE LORD SUPPER",
+        "FOOT WASHING",
+        "BLESSING",
+        "DEDICATION"
+      ],
+      "mini_theme": "Sacraments and Holy Rites",
+      "page_title_verified": true,
+      "page_title_basis": "editorial_review"
+    },
+    {
+      "name": "Liturgical Vestments and Objects",
+      "words": [
+        "CENSER",
+        "CHALICE",
+        "PATEN",
+        "CROZIER",
+        "MITRE",
+        "CASSOCK",
+        "SURPLICE",
+        "STOLE",
+        "ALTAR CLOTH",
+        "PASCHAL CANDLE",
+        "OFFERING PLATE",
+        "COLLECTION BOX"
+      ],
+      "mini_theme": "Liturgical Vestments and Objects",
+      "page_title_verified": true,
+      "page_title_basis": "editorial_review"
+    },
+    {
+      "name": "Timeless Hymns",
+      "words": [
+        "AMAZINGGRACE",
+        "HOLYHOLYHOLY",
+        "GREATISAFIDELITY",
+        "ROCKOFAJES",
+        "ABIDEMEWITHME",
+        "BETHUREMYVISION",
+        "JOYFULJOYFUL",
+        "HOWGREATTHOUART",
+        "NEARERMYGOD",
+        "WHILEPSALMSING",
+        "SWEETHOUROFPRAYER",
+        "FAITHOFOURFATHERS"
+      ],
+      "mini_theme": "Timeless Hymns",
+      "page_title_verified": true,
+      "page_title_basis": "editorial_review"
+    },
+    {
+      "name": "Symbols of Faith",
+      "words": [
+        "EMPTY CROSS",
+        "OLIVE BRANCH",
+        "WHITE DOVE",
+        "BURNING BUSH",
+        "ANCHOR HOPE",
+        "ALPHA OMEGA",
+        "BURNING LAMP",
+        "SHEPHERD CROOK",
+        "PASSOVER LAMB",
+        "LOAVES FISH",
+        "OPEN BIBLE",
+        "FIERY TONGUES"
+      ],
+      "mini_theme": "Symbols of Faith",
+      "page_title_verified": true,
+      "page_title_basis": "editorial_review"
+    },
+    {
+      "name": "Counting Our Blessings",
+      "words": [
+        "GRATITUDE",
+        "THANKSGIVING",
+        "ABUNDANT BLESSINGS",
+        "GENEROUS GIVER",
+        "DAILY MERCIES",
+        "HEARTFELT PRAISE",
+        "JOYFUL SONG",
+        "FAITHFUL PROVISION",
+        "COUNTLESS GIFTS",
+        "SMILE OF GOD",
+        "SWEET FELLOWSHIP",
+        "REJOICING ALWAYS"
+      ],
+      "mini_theme": "Counting Our Blessings",
+      "page_title_verified": true,
+      "page_title_basis": "editorial_review"
+    },
+    {
+      "name": "Still Waters and Calm",
+      "words": [
+        "QUIET REFLECTION",
+        "INNER PEACE",
+        "STILL WATERS",
+        "GENTLE WHISPER",
+        "RESTING PLACE",
+        "SOUL REFRESHED",
+        "HOLY SILENCE",
+        "TRUSTING HEART",
+        "COMFORTING LIGHT",
+        "PATIENT WAITING",
+        "PEACEFUL REPOSE",
+        "SERENE MOMENT"
+      ],
+      "mini_theme": "Still Waters and Calm",
+      "page_title_verified": true,
+      "page_title_basis": "editorial_review"
+    },
+    {
+      "name": "Church Welcome and Worship",
+      "words": [
+        "GREETER",
+        "CHOIR",
+        "ORGANIST",
+        "PIANIST",
+        "READER",
+        "VOLUNTEER",
+        "LECTERN",
+        "HYMNAL",
+        "PEW",
+        "VESTIBULE",
+        "BULLETIN",
+        "NURSERY"
+      ],
+      "mini_theme": "Church Welcome and Worship",
+      "page_title_verified": true,
+      "page_title_basis": "editorial_review"
+    }
+  ],
+  "source_word_bank": {
+    "name": "Editorial Word Search Rebuild v2",
+    "topics": [
+      "Bible and Faith"
+    ],
+    "selection_policy": "Page-grouped provider proposals; locally screened for exact capacity, normalized uniqueness, length, protected names, and page coherence",
+    "candidate_sha256": "348d5865c32d6ae541872f81483d6394c927d8d4f5a2791e1d96066f1fc622ae"
+  },
+  "quality_review": {
+    "production_ready": true,
+    "verdict": "PASS",
+    "checked_at": "2026-09-19T18:52:18",
+    "source": "assistant-assisted editorial rebuild",
+    "checks": [
+      "exact capacity",
+      "no repeated normalized entries",
+      "3–21 normalized letters",
+      "protected/rejected-term screen",
+      "coherent reviewed page titles"
+    ]
+  }
+}

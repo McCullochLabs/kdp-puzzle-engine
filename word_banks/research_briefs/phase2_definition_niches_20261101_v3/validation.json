@@ -1,0 +1,59 @@
+{
+  "source_untrusted_records": 21540,
+  "new_unique_candidates": 44,
+  "new_niche_groups": 29,
+  "held_not_forced": 7510,
+  "prior_candidate_words_excluded": 30345,
+  "approval_changes": 0,
+  "source_changes": 0,
+  "input_sha256": {
+    "word_banks\\word_intelligence\\word_store.json": "9e350e4cd65a7968591302f658acb704ca87cd23491a033ffb4623189924b6d8",
+    "word_banks\\research_briefs\\definition_backed_word_organization_2026_10_09\\semantic_roots.txt": "c87d7490420a8307b65b48b9f245f7d69cc2049278c45451dbef17379f955ff7",
+    "word_banks\\research_briefs\\definition_backed_word_organization_2026_10_09\\semantic_word_groups.json": "6bce7779cafb465b3003a674a8df3abb056f5fc39378400f868a18fcefbdc88f",
+    "word_banks\\source_data\\definition_reference_wordnet_3_0\\data.noun": "489f145e0f68877c0be5bd0eb4117adaaac52f38f6204eb8d85dbe2158b614cc",
+    "word_banks\\source_data\\definition_reference_wordnet_3_0\\index.noun": "a490d99d93d017bf4822fe2f0ffa51fd73911ce271dc7535fade21f8814b5a04",
+    "word_banks\\source_data\\definition_reference_wordnet_3_0\\index.verb": "c7c79b558d787f1e31c6f8b3eeadb8fcbb26a64545ecc1241e21d9b61f95ee8e",
+    "word_banks\\source_data\\definition_reference_wordnet_3_0\\index.adj": "42f58dda2c7cff66eb8fa55ba62e0a873a9b3f43c878e8201108f5dab6dcff28",
+    "word_banks\\source_data\\definition_reference_wordnet_3_0\\index.adv": "6f5465ed5758fe9c8a2f7ec17b1300f3aa875756c70ff7cba162f7e71bcf88ea",
+    "word_banks\\source_data\\definition_reference_wordnet_3_0\\LICENSE": "7731175a77952e259390b496fab905e57118b8d19ad3a8383c67eee724ff443f",
+    "word_banks\\research_briefs\\christmas_winter_20261021\\signature_grouped_candidates.json": "2593ce277de7b3254fad695b68b363d3216f620558e098c1b64aaf38d201de75",
+    "word_banks\\research_briefs\\dataset_expansion_2026_10_09\\canonical_candidates.json": "ddf490be76bebefd64cda05d7ad70a6958775ff212db7b7cf64e31df15f358d7",
+    "word_banks\\research_briefs\\dataset_expansion_2026_10_09\\nonword_candidates.json": "fb98b0713d07ed2aa6c3c2cb227eb9e00336d58c96e5b330eff54c94e552917a",
+    "word_banks\\research_briefs\\dataset_expansion_2026_10_09\\wordsearch_candidates.json": "9c50910d7d579d29491939177ad926d03ce681fb2b7ba1e0ee442c1e1640ee4d",
+    "word_banks\\research_briefs\\definition_backed_word_organization_2026_10_09\\canonical_candidates.json": "c6907b3b4d44d60536ab22d512d983fc6e03ae624e17d9ec779a18658273926e",
+    "word_banks\\research_briefs\\definition_backed_word_organization_2026_10_09\\grouping_review_candidates.json": "a62172e812ebf9af9c6aa28d33a36bbb662d1f0f7986564bba69b06d2804b3aa",
+    "word_banks\\research_briefs\\thanksgiving_fall_20261021\\commercial_book_candidates.json": "7849f84d60d7c3216794b42d3cf5a2b522997b2901d71bae3fde3e4857c6d50f",
+    "word_banks\\research_briefs\\thanksgiving_fall_20261021\\signature_book_candidates.json": "cd048d20dab325fa2e6d7bf55383aca04db54d1acbda2969480b3367d9955945",
+    "word_banks\\research_briefs\\thanksgiving_fall_20261021\\signature_grouped_candidates.json": "c834d9c8e40b0937941f40ebbc50ac88e459a689d7f11304eb9e0726b6420eb5",
+    "word_banks\\research_briefs\\ungrouped_word_organization_2026_10_09\\canonical_grouping_candidates.json": "70458a00da4948ea85a76b97e54a829ef1e05235c1e21022eddfcc2d569f1d40",
+    "word_banks\\research_briefs\\ungrouped_word_organization_2026_10_09\\grouping_review_candidates.json": "e42c481f20c1853d1bf7eb229648b9963195e01249d78a79113de653d42c3c16",
+    "word_banks\\research_briefs\\ungrouped_word_organization_2026_10_09\\held_candidates.json": "ba2b9d57f27fd7dbb05855fc1182e253d6d6221b833dec17ce19becfed728ce4",
+    "word_banks\\Guided_Builder_Master_Word_Bank.json": "111d3fcead5a3479bb2efec505d2d0c5a8fbec4a9e58f60349c677390b394b73",
+    "data\\content_approval_decisions.json": "aa0918a95a578b775406d480e872f271f9f567a765618e511c8156c11cea5a2d"
+  },
+  "prior_candidate_files": [
+    "word_banks\\research_briefs\\christmas_winter_20261021\\signature_grouped_candidates.json",
+    "word_banks\\research_briefs\\dataset_expansion_2026_10_09\\canonical_candidates.json",
+    "word_banks\\research_briefs\\dataset_expansion_2026_10_09\\nonword_candidates.json",
+    "word_banks\\research_briefs\\dataset_expansion_2026_10_09\\wordsearch_candidates.json",
+    "word_banks\\research_briefs\\definition_backed_word_organization_2026_10_09\\canonical_candidates.json",
+    "word_banks\\research_briefs\\definition_backed_word_organization_2026_10_09\\grouping_review_candidates.json",
+    "word_banks\\research_briefs\\thanksgiving_fall_20261021\\commercial_book_candidates.json",
+    "word_banks\\research_briefs\\thanksgiving_fall_20261021\\signature_book_candidates.json",
+    "word_banks\\research_briefs\\thanksgiving_fall_20261021\\signature_grouped_candidates.json",
+    "word_banks\\research_briefs\\ungrouped_word_organization_2026_10_09\\canonical_grouping_candidates.json",
+    "word_banks\\research_briefs\\ungrouped_word_organization_2026_10_09\\grouping_review_candidates.json",
+    "word_banks\\research_briefs\\ungrouped_word_organization_2026_10_09\\held_candidates.json"
+  ],
+  "current_campaign_versions_skipped": [
+    "word_banks\\research_briefs\\phase2_definition_niches_20261101\\canonical_candidates.json",
+    "word_banks\\research_briefs\\phase2_definition_niches_20261101\\grouping_review_candidates.json",
+    "word_banks\\research_briefs\\phase2_definition_niches_20261101_v2\\canonical_candidates.json",
+    "word_banks\\research_briefs\\phase2_definition_niches_20261101_v2\\grouping_review_candidates.json"
+  ],
+  "source_preservation_verified": true,
+  "limitations": [
+    "Single noun sense does not exclude other parts of speech or specialist/parent-topic ambiguity. All remain proposed and pending review.",
+    "No master/store/taxonomy or existing campaign was changed. No book capacity or trivia verification is inferred."
+  ]
+}

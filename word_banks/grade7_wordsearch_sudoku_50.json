@@ -1,0 +1,44 @@
+{
+  "title": "Think, Search, Solve",
+  "subtitle": "50 Word Search & Sudoku Puzzles for Seventh Graders",
+  "author": "Jordan M. Slade",
+  "reader_profile": "grade_7",
+  "editorial_basis": "Original cross-subject vocabulary selection for recreational seventh-grade enrichment. Teacher review is pending; no curriculum alignment or reading-age certification is claimed.",
+  "chapters": [
+    {"title":"Science in Action","topics":[
+      {"name":"Think Like a Scientist","words":"HYPOTHESIS VARIABLE EVIDENCE OBSERVATION EXPERIMENT CONTROL MEASUREMENT PROCEDURE PREDICTION CONCLUSION ANALYSIS REPLICATION","prompt":"How does evidence help you decide whether a hypothesis is supported?"},
+      {"name":"Inside Living Things","words":"NUCLEUS CYTOPLASM MEMBRANE ORGANELLE MITOCHONDRIA CHLOROPLAST TISSUE ORGANISM VACUOLE RIBOSOME CHROMOSOME CELLULAR","prompt":"Choose an organelle and explain its job inside a cell."},
+      {"name":"Matter and Reactions","words":"ATOM ELEMENT COMPOUND MIXTURE MOLECULE REACTANT PRODUCT SOLUTION SOLVENT SOLUTE DENSITY CATALYST","prompt":"Explain one difference between a mixture and a compound."},
+      {"name":"Forces and Motion","words":"VELOCITY ACCELERATION FRICTION GRAVITY INERTIA MOMENTUM MASS FORCE MOTION DISTANCE SPEED BALANCED","prompt":"Describe a familiar situation in which friction is useful."},
+      {"name":"Earth and Space","words":"TECTONIC MANTLE CRUST MAGMA EROSION SEDIMENT ORBIT GALAXY ASTEROID COMET ECLIPSE SATELLITE","prompt":"How are erosion and sediment connected?"}
+    ]},
+    {"title":"Patterns and Possibilities","topics":[
+      {"name":"Algebra Toolkit","words":"COEFFICIENT EXPRESSION EQUATION INEQUALITY EXPONENT CONSTANT TERM SUBSTITUTE SIMPLIFY EQUIVALENT INVERSE EVALUATE","prompt":"Describe how an equation differs from an expression."},
+      {"name":"Proportional Thinking","words":"RATIO PROPORTION PERCENT FRACTION DECIMAL RECIPROCAL QUOTIENT NUMERATOR DENOMINATOR UNITRATE SCALE CONVERSION","prompt":"Give a real-life example of a unit rate. UNITRATE appears without a space."},
+      {"name":"Shape and Space","words":"TRIANGLE POLYGON CIRCLE DIAMETER RADIUS CIRCUMFERENCE ANGLE VERTEX PRISM PYRAMID VOLUME SURFACE","prompt":"How are the radius and diameter of a circle related?"},
+      {"name":"Data Detectives","words":"STATISTICS SAMPLE POPULATION MEDIAN MODE RANGE OUTLIER FREQUENCY HISTOGRAM PROBABILITY EVENT RANDOM","prompt":"Explain why an outlier can change the way you describe a data set."},
+      {"name":"Reasoning Strategies","words":"PATTERN SEQUENCE ESTIMATE JUSTIFY COMPARE CLASSIFY GENERALIZE DEDUCTION COUNTEREXAMPLE REPRESENT MODEL VERIFY","prompt":"Why is a counterexample enough to disprove a statement about every case?"}
+    ]},
+    {"title":"Words and Worlds","topics":[
+      {"name":"Reading Between Lines","words":"INFERENCE CONTEXT THEME NARRATOR PERSPECTIVE CONFLICT RESOLUTION SETTING CHARACTER PLOT SUMMARY MOTIVE","prompt":"What clues can help you infer a character's motive?"},
+      {"name":"Build an Argument","words":"CLAIM REASON SUPPORT COUNTERCLAIM REBUTTAL CREDIBILITY AUDIENCE PURPOSE PERSUASION CITATION SOURCE LOGIC","prompt":"Why should a strong argument consider a counterclaim?"},
+      {"name":"Figurative Language","words":"METAPHOR SIMILE PERSONIFICATION HYPERBOLE ALLITERATION ONOMATOPOEIA IMAGERY SYMBOLISM IDIOM RHYME RHYTHM STANZA","prompt":"Write a simile that describes a place you enjoy."},
+      {"name":"The Writing Workshop","words":"BRAINSTORM OUTLINE DRAFT REVISE EDIT TRANSITION THESIS PARAGRAPH INTRODUCTION COHERENCE PRECISION VOICE","prompt":"Explain how revising a draft differs from editing it."},
+      {"name":"Word Building","words":"PREFIX SUFFIX ROOT SYNONYM ANTONYM HOMOPHONE DENOTATION CONNOTATION ETYMOLOGY VOCABULARY MORPHEME SYLLABLE","prompt":"Choose a prefix and show how it changes a word's meaning."}
+    ]},
+    {"title":"People and Places","topics":[
+      {"name":"Map Your World","words":"LATITUDE LONGITUDE EQUATOR MERIDIAN HEMISPHERE CONTINENT TOPOGRAPHY ELEVATION PLATEAU PENINSULA ARCHIPELAGO DELTA","prompt":"How do latitude and longitude work together to locate a place?"},
+      {"name":"Civilizations and Exchange","words":"CIVILIZATION AGRICULTURE IRRIGATION EMPIRE DYNASTY MIGRATION COMMERCE ARTIFACT ARCHAEOLOGY CHRONOLOGY TRADITION CULTURE","prompt":"How might an artifact help us learn about a past civilization?"},
+      {"name":"Citizens and Communities","words":"CITIZEN CONSTITUTION DEMOCRACY REPUBLIC LEGISLATURE EXECUTIVE JUDICIARY RIGHTS RESPONSIBILITY REPRESENTATIVE AMENDMENT DEBATE","prompt":"Describe one responsibility people have in a community."},
+      {"name":"Everyday Economics","words":"SCARCITY RESOURCE DEMAND SUPPLY INCENTIVE OPPORTUNITY BUDGET SAVINGS INVESTMENT PRODUCER CONSUMER MARKET","prompt":"What might you give up when you choose to spend money on one item?"},
+      {"name":"Connected Environments","words":"ECOSYSTEM HABITAT BIODIVERSITY ADAPTATION CONSERVATION SUSTAINABLE RENEWABLE WATERSHED POLLUTION CLIMATE DROUGHT RESILIENCE","prompt":"How can protecting a habitat help preserve biodiversity?"}
+    ]},
+    {"title":"Create and Investigate","topics":[
+      {"name":"Design and Engineering","words":"PROTOTYPE CONSTRAINT CRITERIA ITERATION OPTIMIZE BLUEPRINT STRUCTURE MECHANISM LEVER PULLEY GEARS TRADEOFF","prompt":"Why might an engineer build more than one prototype?"},
+      {"name":"Digital Decisions","words":"ALGORITHM ENCRYPTION PASSWORD PRIVACY NETWORK BROWSER DATABASE DEBUGGING PHISHING COPYRIGHT ATTRIBUTION FOOTPRINT","prompt":"What is one action that helps protect your digital privacy?"},
+      {"name":"Art in Focus","words":"COMPOSITION CONTRAST TEXTURE CONTOUR PALETTE PIGMENT SCULPTURE COLLAGE ABSTRACT REALISM BALANCE EMPHASIS","prompt":"How could contrast help direct attention in an artwork?"},
+      {"name":"Music and Performance","words":"MELODY HARMONY TEMPO DYNAMICS TIMBRE NOTATION ENSEMBLE REHEARSAL IMPROVISATION ACOUSTICS CHORD INTERVAL","prompt":"How might changing tempo affect the mood of a performance?"},
+      {"name":"Learning That Lasts","words":"CURIOSITY FOCUS PRACTICE REFLECTION FEEDBACK PERSISTENCE ORGANIZATION COLLABORATION PLANNING RETRIEVAL SPACING MINDSET","prompt":"Describe how feedback could help you improve a skill."}
+    ]}
+  ]
+}

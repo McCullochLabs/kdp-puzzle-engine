@@ -33,7 +33,7 @@ def test_platform_copy_includes_platform_specific_information(tmp_path):
     text = listing_copy_text(book, "etsy")
     assert "ETSY — READY-TO-COPY" in text
     assert "ETSY TAGS" in text
-    assert "Suggested starting price: $6.99" in text
+    assert "Suggested starting price: $4.99" in text
     assert "20 MB" in upload_notes_text(book, "etsy")
 
 

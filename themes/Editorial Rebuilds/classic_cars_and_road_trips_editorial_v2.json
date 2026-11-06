@@ -1,0 +1,998 @@
+{
+  "title": "Classic Cars and Road Trips Word Search",
+  "subtitle": "48 large-print puzzles for vintage vehicle fans and open-road dreamers",
+  "author": "Jordan M. Slade",
+  "series": "Classic Cars and Road Trips",
+  "detected_topic": "Vehicles & Automotive",
+  "difficulty_label": "Standard",
+  "palette": "retro-drive",
+  "recommended_palette": "retro-drive",
+  "cover_style": "photo",
+  "recommended_cover_style": "photo",
+  "no_repeat_words": true,
+  "cover_imprint": "Slade Puzzle Co.",
+  "cover_badge": "48 LARGE-PRINT PUZZLES • NO REPEATED WORDS",
+  "puzzles": [
+    {
+      "name": "Vintage Roadsters",
+      "words": [
+        "CONVERTIBLE",
+        "RUMBLE SEAT",
+        "CANVAS TOP",
+        "SPOKE WHEELS",
+        "WINDSHIELD",
+        "LEATHER STRAPS",
+        "CHROME GRILLE",
+        "RUNNING BOARD",
+        "HEADLAMPS",
+        "WHITE WALLS",
+        "DUAL EXHAUSTS",
+        "STEERING WHEEL"
+      ],
+      "mini_theme": "Vintage Roadsters",
+      "page_title_verified": true,
+      "page_title_basis": "editorial_review"
+    },
+    {
+      "name": "Garage Workshop",
+      "words": [
+        "HYDRAULIC LIFT",
+        "SOCKET SET",
+        "TORQUE WRENCH",
+        "CARBURETOR",
+        "TIMING LIGHT",
+        "SPARK PLUG",
+        "OIL FILTER",
+        "GASKET SEALER",
+        "SANDPAPER",
+        "PRIMER COAT",
+        "METAL POLISH",
+        "BATTERY CHARGER"
+      ],
+      "mini_theme": "Garage Workshop",
+      "page_title_verified": true,
+      "page_title_basis": "editorial_review"
+    },
+    {
+      "name": "Scenic Highways",
+      "words": [
+        "COASTAL ROUTE",
+        "MOUNTAIN PASS",
+        "DESERT FLOOR",
+        "WINDING PAVEMENT",
+        "ASPHALT RIBBON",
+        "PINE FOREST",
+        "OVERLOOK POINT",
+        "SUNSET HORIZON",
+        "BRIDGE CROSSING",
+        "CANYON DRIVE",
+        "VALLEY BOTTOM",
+        "REST STOP"
+      ],
+      "mini_theme": "Scenic Highways",
+      "page_title_verified": true,
+      "page_title_basis": "editorial_review"
+    },
+    {
+      "name": "Engine Components",
+      "words": [
+        "CYLINDER HEAD",
+        "PISTON RING",
+        "VALVE SPRING",
+        "CRANKSHAFT",
+        "CAMSHAFT GEAR",
+        "INTAKE MANIFOLD",
+        "EXHAUST PIPE",
+        "WATER PUMP",
+        "FUEL PUMP",
+        "DISTRIBUTOR",
+        "ALTERNATOR",
+        "TIMING CHAIN"
+      ],
+      "mini_theme": "Engine Components",
+      "page_title_verified": true,
+      "page_title_basis": "editorial_review"
+    },
+    {
+      "name": "Car Show Events",
+      "words": [
+        "JUDGING AREA",
+        "POLISHED CHROME",
+        "TROPHY TABLE",
+        "PARKING FIELD",
+        "COLLECTOR CAR",
+        "CLUB PAVILION",
+        "RESTORED BEAUTY",
+        "PROUD OWNER",
+        "BADGE PLAQUE",
+        "SPECTATOR CROWD",
+        "REGISTRATION",
+        "VENDOR TENT"
+      ],
+      "mini_theme": "Car Show Events",
+      "page_title_verified": true,
+      "page_title_basis": "editorial_review"
+    },
+    {
+      "name": "Restoration Shop",
+      "words": [
+        "RUST REMOVAL",
+        "SHEET METAL",
+        "BODY HAMMER",
+        "WELDING TORCH",
+        "PRIMER SPRAY",
+        "CLEAR COAT",
+        "COLOR SANDING",
+        "UPHOLSTERY",
+        "DASH VENEER",
+        "WIRING LOOM",
+        "GLASS WINDOW",
+        "RUBBER SEAL"
+      ],
+      "mini_theme": "Restoration Shop",
+      "page_title_verified": true,
+      "page_title_basis": "editorial_review"
+    },
+    {
+      "name": "Historic Touring",
+      "words": [
+        "PAPER MAP",
+        "COMPASS NEEDLE",
+        "DINER STOP",
+        "MOTEL SIGN",
+        "ROADSIDE VIEW",
+        "TRUNK LUGGAGE",
+        "SPARE TIRE",
+        "GAS STATION",
+        "COUNTRY LANE",
+        "GRAVEL TRACK",
+        "TOLL BOOTH",
+        "HORIZON LINE"
+      ],
+      "mini_theme": "Historic Touring",
+      "page_title_verified": true,
+      "page_title_basis": "editorial_review"
+    },
+    {
+      "name": "Transmission and Drivetrain",
+      "words": [
+        "MANUAL SHIFT",
+        "CLUTCH PEDAL",
+        "GEAR BOX",
+        "DRIVE SHAFT",
+        "DIFFERENTIAL",
+        "AXLE HOUSING",
+        "UNIVERSAL JOINT",
+        "BRAKE DRUM",
+        "WHEEL BEARING",
+        "LEAF SPRING",
+        "SHOCK ABSORBER",
+        "STEERING BOX"
+      ],
+      "mini_theme": "Transmission and Drivetrain",
+      "page_title_verified": true,
+      "page_title_basis": "editorial_review"
+    },
+    {
+      "name": "Carburetor Rebuild",
+      "words": [
+        "ACCELERATOR PUMP",
+        "CHOKE VALVE",
+        "IDLE MIXTURE",
+        "NEEDLE VALVE",
+        "FLOAT BOWL",
+        "THROTTLE SHAFT",
+        "MAIN JET",
+        "GASKET KIT",
+        "AIR HORN",
+        "VENTURI TUBE",
+        "ACCELERATOR CABLE",
+        "VACUUM PORT"
+      ],
+      "mini_theme": "Carburetor Rebuild",
+      "page_title_verified": true,
+      "page_title_basis": "editorial_review"
+    },
+    {
+      "name": "Barn Find Recovery",
+      "words": [
+        "DUST LAYER",
+        "RUSTED PANELS",
+        "FLAT TIRES",
+        "SEIZED ENGINE",
+        "WOODEN BLOCKS",
+        "TOW STRAP",
+        "FLATBED TRAILER",
+        "ORIGINAL PAINT",
+        "CHASSIS NUMBER",
+        "TITLE SEARCH",
+        "DRY ROT",
+        "SPIDER WEBS"
+      ],
+      "mini_theme": "Barn Find Recovery",
+      "page_title_verified": true,
+      "page_title_basis": "editorial_review"
+    },
+    {
+      "name": "Customizing and Hot Rodding",
+      "words": [
+        "CHOPPED TOP",
+        "LOUVERED HOOD",
+        "FENDER SKIRTS",
+        "PIE CRUST SLICKS",
+        "MOON HUBCAPS",
+        "TWIN CARBURETORS",
+        "FLAME PAINTJOB",
+        "DUAL EXHAUST",
+        "DROP AXLE",
+        "HEADER PIPES",
+        "SPLIT WINDSHIELD",
+        "FRENCHED HEADLIGHTS"
+      ],
+      "mini_theme": "Customizing and Hot Rodding",
+      "page_title_verified": true,
+      "page_title_basis": "editorial_review"
+    },
+    {
+      "name": "Vehicle Electrical System",
+      "words": [
+        "GENERATOR",
+        "VOLTAGE REGULATOR",
+        "IGNITION COIL",
+        "POINTS AND CONDENSER",
+        "SPARK PLUG WIRE",
+        "STARTING MOTOR",
+        "FUSE BLOCK",
+        "HEADLIGHT SWITCH",
+        "DASHBOARD GAUGES",
+        "HORN RELAY",
+        "BATTERY CABLE",
+        "DISTRIBUTOR CAP"
+      ],
+      "mini_theme": "Vehicle Electrical System",
+      "page_title_verified": true,
+      "page_title_basis": "editorial_review"
+    },
+    {
+      "name": "Vintage Touring Gear",
+      "words": [
+        "LEATHER LUGGAGE",
+        "ROAD ATLAS",
+        "MAP LIGHT",
+        "THERMOS BOTTLE",
+        "TICKET STUB",
+        "CAMERA BAG",
+        "SUNGLASSES",
+        "PICNIC BASKET",
+        "WOOL BLANKET",
+        "GLOVE COMPARTMENT",
+        "DASHBOARD COMPASS",
+        "EXTRA GAS CAN"
+      ],
+      "mini_theme": "Vintage Touring Gear",
+      "page_title_verified": true,
+      "page_title_basis": "editorial_review"
+    },
+    {
+      "name": "Automotive Bodywork",
+      "words": [
+        "METAL HAMMER",
+        "DOLLY BLOCK",
+        "LEAD SOLDER",
+        "BODY FILLER",
+        "SANDING BLOCK",
+        "PRIMER SEALER",
+        "MASKING TAPE",
+        "RUBBING COMPOUND",
+        "BUFFING WHEEL",
+        "CHROME TRIM",
+        "WEATHERSTRIP",
+        "DOOR LATCH"
+      ],
+      "mini_theme": "Automotive Bodywork",
+      "page_title_verified": true,
+      "page_title_basis": "editorial_review"
+    },
+    {
+      "name": "Vintage Dashboard Gauges",
+      "words": [
+        "SPEEDOMETER",
+        "TACHOMETER",
+        "FUEL GAUGE",
+        "OIL PRESSURE",
+        "TEMPERATURE",
+        "CLOCK",
+        "ODOMETER",
+        "AMMETER",
+        "CHOKE CABLE",
+        "DASHBOARD",
+        "IGNITION KEY",
+        "TOGGLE SWITCH"
+      ],
+      "mini_theme": "Vintage Dashboard Gauges",
+      "page_title_verified": true,
+      "page_title_basis": "editorial_review"
+    },
+    {
+      "name": "Scenic Mountain Pass",
+      "words": [
+        "SWITCHBACK",
+        "STEEP GRADE",
+        "PINE TREES",
+        "OVERLOOK",
+        "SUMMIT VIEW",
+        "GRANITE ROCKS",
+        "GUARDRAIL",
+        "ALPINE AIR",
+        "RADIATOR STEAM",
+        "DOWNSHIFT",
+        "BRAKE FADE",
+        "WILDFLOWERS"
+      ],
+      "mini_theme": "Scenic Mountain Pass",
+      "page_title_verified": true,
+      "page_title_basis": "editorial_review"
+    },
+    {
+      "name": "Coastal Highway Cruise",
+      "words": [
+        "SANDY BEACH",
+        "OCEAN BREEZE",
+        "LIGHTHOUSE",
+        "ROLLING DUNES",
+        "SEAGULL",
+        "SALT AIR",
+        "CONVERTIBLE TOP",
+        "SUNSET VIEW",
+        "ROCKY CLIFF",
+        "PACIFIC COAST",
+        "BRIDGE SPAN",
+        "TIDAL POOL"
+      ],
+      "mini_theme": "Coastal Highway Cruise",
+      "page_title_verified": true,
+      "page_title_basis": "editorial_review"
+    },
+    {
+      "name": "Car Show Exhibits",
+      "words": [
+        "CONCOURS D'ELEGANCE",
+        "PEOPLES CHOICE",
+        "DASH PLAQUE",
+        "TROPHY PRESENTATION",
+        "RESTORED ORIGINAL",
+        "CUSTOM PAINT",
+        "PADDOCK",
+        "JUDGING SHEET",
+        "VINTAGE BADGE",
+        "POLISHING CLOTH",
+        "SHOW FIELD",
+        "RIBBON"
+      ],
+      "mini_theme": "Car Show Exhibits",
+      "page_title_verified": true,
+      "page_title_basis": "editorial_review"
+    },
+    {
+      "name": "Drive-In Culture",
+      "words": [
+        "DOUBLE FEATURE",
+        "SPEAKER BOX",
+        "BUTTERED POPCORN",
+        "NEON SIGN",
+        "MALT SHOP",
+        "PARKING STALL",
+        "INTERMISSION",
+        "CARHOP",
+        "SILVER SCREEN",
+        "MILKSHAKE",
+        "STARLIT NIGHT",
+        "CONCESSION STAND"
+      ],
+      "mini_theme": "Drive-In Culture",
+      "page_title_verified": true,
+      "page_title_basis": "editorial_review"
+    },
+    {
+      "name": "Vintage Racing Era",
+      "words": [
+        "CHECKERED FLAG",
+        "PIT CREW",
+        "STARTING GRID",
+        "LE MANS START",
+        "OPEN FACE HELMET",
+        "LEATHER GLOVES",
+        "SPEEDWAY",
+        "TIME TRIAL",
+        "RACEWAY",
+        "SAFETY HARNESS",
+        "WINNERS CIRCLE",
+        "OVAL TRACK"
+      ],
+      "mini_theme": "Vintage Racing Era",
+      "page_title_verified": true,
+      "page_title_basis": "editorial_review"
+    },
+    {
+      "name": "Vintage Car Camping",
+      "words": [
+        "ROOF RACK",
+        "CANVAS TENT",
+        "COOLER",
+        "CAMPFIRE",
+        "SLEEPING BAG",
+        "LANTERN",
+        "FOLDING CHAIR",
+        "THERMOS",
+        "WOODLANDS",
+        "STARGAZING",
+        "PICNIC TABLE",
+        "TRAIL MAP"
+      ],
+      "mini_theme": "Vintage Car Camping",
+      "page_title_verified": true,
+      "page_title_basis": "editorial_review"
+    },
+    {
+      "name": "Highway Tour",
+      "words": [
+        "ROADSIDE",
+        "MOTEL",
+        "DINER",
+        "BILLBOARD",
+        "SCENIC VIEW",
+        "ASPHALT",
+        "MILEPOST",
+        "GUIDEBOOK",
+        "CROSSCOUNTRY",
+        "ROUTE PLAN",
+        "JOURNEY",
+        "SMALL TOWN"
+      ],
+      "mini_theme": "Highway Tour",
+      "page_title_verified": true,
+      "page_title_basis": "editorial_review"
+    },
+    {
+      "name": "Automatic Transmissions",
+      "words": [
+        "TORQUE CONVERTER",
+        "VALVE BODY",
+        "PLANETARY GEAR",
+        "GOVERNOR",
+        "TRANSMISSION PAN",
+        "FLUID PUMP",
+        "BAND ADJUSTMENT",
+        "MODULATOR VALVE",
+        "SERVO PISTON",
+        "SHIFT KIT",
+        "PARK PAWL",
+        "COOLER LINES"
+      ],
+      "mini_theme": "Automatic Transmissions",
+      "page_title_verified": true,
+      "page_title_basis": "editorial_review"
+    },
+    {
+      "name": "Front Suspension",
+      "words": [
+        "DOUBLE WISHBONE",
+        "A ARM",
+        "BALL JOINT",
+        "COIL SPRING",
+        "TORSION BAR",
+        "SWAY BAR",
+        "CONTROL ARM",
+        "SPINDLE",
+        "KNUCKLE",
+        "BUSHING",
+        "CAMBER",
+        "CASTER"
+      ],
+      "mini_theme": "Front Suspension",
+      "page_title_verified": true,
+      "page_title_basis": "editorial_review"
+    },
+    {
+      "name": "Shock Absorbers and Dampers",
+      "words": [
+        "HYDRAULIC SHOCK",
+        "LEVER ACTION",
+        "PISTON ROD",
+        "VALVE STACK",
+        "REBOUND VALVE",
+        "COMPRESSION VALVE",
+        "OIL SEAL",
+        "DUST BOOT",
+        "MOUNTING EYE",
+        "RIDE QUALITY",
+        "GAS CHARGED",
+        "BUMP STOP"
+      ],
+      "mini_theme": "Shock Absorbers and Dampers",
+      "page_title_verified": true,
+      "page_title_basis": "editorial_review"
+    },
+    {
+      "name": "Chassis and Alignment",
+      "words": [
+        "FRAME RAIL",
+        "X MEMBER",
+        "BOXED FRAME",
+        "WHEEL ALIGNMENT",
+        "TOE IN",
+        "RIDE HEIGHT",
+        "CURB WEIGHT",
+        "WEIGHT TRANSFER",
+        "CHASSIS FLEX",
+        "SUBFRAME",
+        "BODY MOUNT",
+        "TRACK WIDTH"
+      ],
+      "mini_theme": "Chassis and Alignment",
+      "page_title_verified": true,
+      "page_title_basis": "editorial_review"
+    },
+    {
+      "name": "Seating and Upholstery",
+      "words": [
+        "BENCH SEAT",
+        "BUCKET SEAT",
+        "LEATHER HIDE",
+        "VINYL TRIM",
+        "HEADREST",
+        "ARMREST",
+        "SEAT ADJUSTER",
+        "SPRING CUSHION",
+        "PIPING SEAM",
+        "DOOR PANEL",
+        "KICK PANEL",
+        "FLOOR MAT"
+      ],
+      "mini_theme": "Seating and Upholstery",
+      "page_title_verified": true,
+      "page_title_basis": "editorial_review"
+    },
+    {
+      "name": "Cabin Comfort and Climate",
+      "words": [
+        "HEATER CORE",
+        "DEFROSTER",
+        "FRESH AIR VENT",
+        "BLOWER MOTOR",
+        "PUSHBUTTON RADIO",
+        "VACUUM TUBE",
+        "SPEAKER GRILLE",
+        "ASHTRAY",
+        "GLOVE BOX",
+        "SUN VISOR",
+        "REARVIEW MIRROR",
+        "DOME LIGHT"
+      ],
+      "mini_theme": "Cabin Comfort and Climate",
+      "page_title_verified": true,
+      "page_title_basis": "editorial_review"
+    },
+    {
+      "name": "Cockpit Safety and Protection",
+      "words": [
+        "LAP BELT",
+        "SHOULDER HARNESS",
+        "PADDED DASH",
+        "SAFETY GLASS",
+        "FIRE EXTINGUISHER",
+        "FIRST AID KIT",
+        "EMERGENCY BRAKE",
+        "SIDE MARKER",
+        "LOCKING STEERING",
+        "BREAKAWAY MIRROR",
+        "HAZARD SWITCH",
+        "TRIP ODOMETER"
+      ],
+      "mini_theme": "Cockpit Safety and Protection",
+      "page_title_verified": true,
+      "page_title_basis": "editorial_review"
+    },
+    {
+      "name": "Vintage Steering Wheels",
+      "words": [
+        "WOODEN RIM",
+        "HORN RING",
+        "CENTER CAP",
+        "THREE SPOKES",
+        "DEEP DISH",
+        "BAKELITE",
+        "POWER STEERING",
+        "COLUMN SHIFT",
+        "TILT WHEEL",
+        "GRIP",
+        "BOSS",
+        "HORN BUTTON"
+      ],
+      "mini_theme": "Vintage Steering Wheels",
+      "page_title_verified": true,
+      "page_title_basis": "editorial_review"
+    },
+    {
+      "name": "Pedal and Shifter Area",
+      "words": [
+        "FLOOR PEDAL",
+        "RUBBER PAD",
+        "CLUTCH LEVER",
+        "BRAKE ARM",
+        "GAS PEDAL",
+        "FLOOR SHIFT",
+        "SHIFT KNOB",
+        "GATE PLATE",
+        "METAL LINKAGE",
+        "BOOT COVER",
+        "DIMMER SWITCH",
+        "HIGH BEAM"
+      ],
+      "mini_theme": "Pedal and Shifter Area",
+      "page_title_verified": true,
+      "page_title_basis": "editorial_review"
+    },
+    {
+      "name": "Restoring the Interior",
+      "words": [
+        "FOAM PADDING",
+        "HOG RINGS",
+        "UPHOLSTERY TACK",
+        "HEADLINER",
+        "PACKAGE TRAY",
+        "RECOVER SEAT",
+        "REWIRE DASH",
+        "POLISH CHROME",
+        "REPLACE GLASS",
+        "GLUE SEAL",
+        "SCUFF PLATE",
+        "RESTORE"
+      ],
+      "mini_theme": "Restoring the Interior",
+      "page_title_verified": true,
+      "page_title_basis": "editorial_review"
+    },
+    {
+      "name": "Routine Maintenance",
+      "words": [
+        "OIL CHANGE",
+        "SPARK PLUGS",
+        "COOLANT FLUSH",
+        "BRAKE BLEED",
+        "FILTER REPLACEMENT",
+        "TIRE ROTATION",
+        "BELT TENSION",
+        "FLUID CHECK",
+        "GREASE FITTINGS",
+        "VALVE LASH",
+        "POINT GAP",
+        "CARBURETOR TUNE"
+      ],
+      "mini_theme": "Routine Maintenance",
+      "page_title_verified": true,
+      "page_title_basis": "editorial_review"
+    },
+    {
+      "name": "Hand Tools and Hardware",
+      "words": [
+        "SOCKET WRENCH",
+        "TORQUE GAUGE",
+        "IMPACT DRIVER",
+        "HEX KEY SET",
+        "BENCH GRINDER",
+        "BRASS MALLET",
+        "DIAL INDICATOR",
+        "FEELER GAUGE",
+        "LOCKING PLIERS",
+        "UTILITY KNIFE",
+        "INSPECTION LIGHT",
+        "BREAKER BAR"
+      ],
+      "mini_theme": "Hand Tools and Hardware",
+      "page_title_verified": true,
+      "page_title_basis": "editorial_review"
+    },
+    {
+      "name": "Exhaust and Drivetrain",
+      "words": [
+        "PIPE BENDER",
+        "EXHAUST WRAP",
+        "U JOINT",
+        "CLUTCH DISC",
+        "FLYWHEEL",
+        "GEAR PULLER",
+        "FLUID FLUSH",
+        "BRAKE BLEEDER",
+        "AXLE SHAFT",
+        "GASKET SHEET",
+        "SEAL DRIVER",
+        "BEARING RACE"
+      ],
+      "mini_theme": "Exhaust and Drivetrain",
+      "page_title_verified": true,
+      "page_title_basis": "editorial_review"
+    },
+    {
+      "name": "Garage Organization",
+      "words": [
+        "TOOL CHEST",
+        "PARTS WASHER",
+        "CREEPER CART",
+        "SHOP VACUUM",
+        "STORAGE BIN",
+        "PEGBOARD WALL",
+        "FIRE BLANKET",
+        "JACK STANDS",
+        "FLOOR JACK",
+        "FLUID DRAIN",
+        "SAFETY SPECS",
+        "WORK BENCH"
+      ],
+      "mini_theme": "Garage Organization",
+      "page_title_verified": true,
+      "page_title_basis": "editorial_review"
+    },
+    {
+      "name": "Detailing and Show Prep",
+      "words": [
+        "CLAY BAR",
+        "CHROME POLISH",
+        "MICROFIBER TOWEL",
+        "TIRE DRESSING",
+        "WHEEL CLEANER",
+        "PAINT SEALANT",
+        "CARNAUBA WAX",
+        "HORSEHAIR BRUSH",
+        "TRIM RESTORER",
+        "GLASS CLEANER",
+        "DETAILING SPRAY",
+        "BUFFING PAD"
+      ],
+      "mini_theme": "Detailing and Show Prep",
+      "page_title_verified": true,
+      "page_title_basis": "editorial_review"
+    },
+    {
+      "name": "Collector Market",
+      "words": [
+        "AUCTION BLOCK",
+        "BIDDER PADDLE",
+        "RESERVE PRICE",
+        "PROVENANCE",
+        "BILL OF SALE",
+        "APPRAISAL",
+        "INVESTMENT",
+        "GARAGE FIND",
+        "TITLE TRANSFER",
+        "PRIVATE SALE",
+        "BROKER",
+        "MARKET VALUE"
+      ],
+      "mini_theme": "Collector Market",
+      "page_title_verified": true,
+      "page_title_basis": "editorial_review"
+    },
+    {
+      "name": "Judges Inspection",
+      "words": [
+        "WHITE GLOVES",
+        "ENGINE BAY",
+        "UNDERCARRIAGE",
+        "STAMPINGS",
+        "SCORE SHEET",
+        "DEDUCTIONS",
+        "AUTHENTICITY",
+        "CORRECT FASTENERS",
+        "FACTORY SPECS",
+        "SERIAL NUMBERS",
+        "POINT SCALE",
+        "CONSULTANT"
+      ],
+      "mini_theme": "Judges Inspection",
+      "page_title_verified": true,
+      "page_title_basis": "editorial_review"
+    },
+    {
+      "name": "Cars and Coffee",
+      "words": [
+        "EARLY MORNING",
+        "PARKING LOT",
+        "ENTHUSIAST",
+        "HOT COFFEE",
+        "VEHICLE",
+        "POLISHING",
+        "HOOD UP",
+        "CHATTING",
+        "WEEKEND",
+        "SUNRISE",
+        "SPOTLIGHT",
+        "LOCAL MEET"
+      ],
+      "mini_theme": "Cars and Coffee",
+      "page_title_verified": true,
+      "page_title_basis": "editorial_review"
+    },
+    {
+      "name": "Car Club Gathering",
+      "words": [
+        "MONTHLY MEETING",
+        "MEMBERSHIP",
+        "NEWSLETTER",
+        "CONVOY",
+        "CHAPTER",
+        "PRESIDENT",
+        "TREASURER",
+        "BULLETIN",
+        "ANNUAL DUES",
+        "OFFICER",
+        "ROSTER",
+        "BADGE"
+      ],
+      "mini_theme": "Car Club Gathering",
+      "page_title_verified": true,
+      "page_title_basis": "editorial_review"
+    },
+    {
+      "name": "Swap Meet Hunt",
+      "words": [
+        "SPARE PARTS",
+        "RUSTY CHROME",
+        "OLD EMBLEM",
+        "VENDOR STALL",
+        "BARGAIN",
+        "TOOLBOX",
+        "HARDWARE",
+        "MANUALS",
+        "HEADLIGHT BEZEL",
+        "HUBCAP",
+        "GASKET",
+        "TREASURE"
+      ],
+      "mini_theme": "Swap Meet Hunt",
+      "page_title_verified": true,
+      "page_title_basis": "editorial_review"
+    },
+    {
+      "name": "Award Ceremony",
+      "words": [
+        "STANDING OVATION",
+        "GOLD CUP",
+        "WINNER CIRCLE",
+        "SPEECH",
+        "APPLAUSE",
+        "HANDSHAKE",
+        "PHOTOGRAPH",
+        "CERTIFICATE",
+        "MEDAL",
+        "GLORY",
+        "HONORS",
+        "CELEBRATION"
+      ],
+      "mini_theme": "Award Ceremony",
+      "page_title_verified": true,
+      "page_title_basis": "editorial_review"
+    },
+    {
+      "name": "Neon Roadside Motels",
+      "words": [
+        "VINTAGE SIGN",
+        "VACANCY GLOW",
+        "PARKING SPOT",
+        "NIGHT CHECKIN",
+        "ROADSIDE LODGE",
+        "POTTED PALM",
+        "SCREEN DOOR",
+        "ICE MACHINE",
+        "KEY RING",
+        "LINOLEUM FLOOR",
+        "CORNER ROOM",
+        "NEON HUM"
+      ],
+      "mini_theme": "Neon Roadside Motels",
+      "page_title_verified": true,
+      "page_title_basis": "editorial_review"
+    },
+    {
+      "name": "Desert Highway Vistas",
+      "words": [
+        "SHIMMERING HEAT",
+        "DISTANT HORIZON",
+        "SAGUARO CACTUS",
+        "ENDLESS ASPHALT",
+        "ARID VALLEY",
+        "SUNBAKED EARTH",
+        "GOLDEN SAND",
+        "CLEAR SKIES",
+        "ROCKY OUTCROP",
+        "DUSTY DASH",
+        "LONELY STRETCH",
+        "HEAT WAVE"
+      ],
+      "mini_theme": "Desert Highway Vistas",
+      "page_title_verified": true,
+      "page_title_basis": "editorial_review"
+    },
+    {
+      "name": "Concours Elegance",
+      "words": [
+        "BEST OF SHOW",
+        "COACHWORK",
+        "TROPHY",
+        "COLLECTOR",
+        "HERITAGE",
+        "RESTORATION",
+        "ORIGINAL",
+        "SCORING",
+        "EXHIBITION",
+        "PAVILION",
+        "PATINA",
+        "RARITY"
+      ],
+      "mini_theme": "Concours Elegance",
+      "page_title_verified": true,
+      "page_title_basis": "editorial_review"
+    },
+    {
+      "name": "Tire Shop Essentials",
+      "words": [
+        "BIAS PLY",
+        "RADIAL TIRE",
+        "VALVE STEM",
+        "TREAD DEPTH",
+        "TIRE IRON",
+        "WHEEL WEIGHT",
+        "BALANCING",
+        "RIM WIDTH",
+        "LUG NUT",
+        "WHEEL STUD",
+        "WHITEWALL CLEANER",
+        "INNER TUBE"
+      ],
+      "mini_theme": "Tire Shop Essentials",
+      "page_title_verified": true,
+      "page_title_basis": "editorial_review"
+    },
+    {
+      "name": "Fuel and Ignition",
+      "words": [
+        "FUEL TANK",
+        "FUEL LINE",
+        "MECHANICAL PUMP",
+        "VAPOR LOCK",
+        "SEDIMENT BOWL",
+        "AIR CLEANER",
+        "IGNITION POINTS",
+        "CONDENSER",
+        "ROTOR ARM",
+        "ADVANCE WEIGHT",
+        "DWELL METER",
+        "SPARK TESTER"
+      ],
+      "mini_theme": "Fuel and Ignition",
+      "page_title_verified": true,
+      "page_title_basis": "editorial_review"
+    }
+  ],
+  "source_word_bank": {
+    "name": "Editorial Word Search Rebuild v2",
+    "topics": [
+      "Vehicles & Automotive"
+    ],
+    "selection_policy": "Page-grouped provider proposals; locally screened for exact capacity, normalized uniqueness, length, protected names, and page coherence",
+    "candidate_sha256": "348d5865c32d6ae541872f81483d6394c927d8d4f5a2791e1d96066f1fc622ae"
+  },
+  "quality_review": {
+    "production_ready": true,
+    "verdict": "PASS",
+    "checked_at": "2026-09-19T18:52:18",
+    "source": "assistant-assisted editorial rebuild",
+    "checks": [
+      "exact capacity",
+      "no repeated normalized entries",
+      "3–21 normalized letters",
+      "protected/rejected-term screen",
+      "coherent reviewed page titles"
+    ]
+  }
+}

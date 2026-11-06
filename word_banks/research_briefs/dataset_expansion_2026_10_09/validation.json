@@ -1,0 +1,22 @@
+{
+  "canonical_records": 252,
+  "word_groups": 18,
+  "word_entries": 180,
+  "cryptograms": 36,
+  "scramble_trivia_pairs": 36,
+  "candidate_approval": "pending_review",
+  "factual_approval": "pending_review",
+  "checks_passed": [
+    "existing canonical contract",
+    "deterministic unique IDs",
+    "within-topic word deduplication",
+    "3 to 18 normalized letters",
+    "35 to 110 cryptogram characters",
+    "answer and scramble word agreement",
+    "six distinct cryptograms per topic"
+  ],
+  "source_hashes": {
+    "word_banks\\puzzle_content_library.json": "c513fe8d3c3c0ad64c7ba91b3f70e1353ba182e496ba51578ee9d46cf3873fc4",
+    "sudoku_symbols.py": "f743afc270d4aeac9ff835f618bb00f7f3781692b9d057d34752a360c1f1fee6"
+  }
+}

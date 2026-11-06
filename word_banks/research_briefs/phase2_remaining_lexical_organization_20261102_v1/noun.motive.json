@@ -1,0 +1,26 @@
+{
+  "schema_version": 1,
+  "research_status": "REVIEW_REQUIRED_NOT_APPROVED",
+  "lexical_review_group": "noun.motive",
+  "records": [
+    {
+      "normalized": "WHY",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "why",
+          "synset": "n:09179606",
+          "lexical_category": "noun.motive",
+          "definition": "the cause or intention underlying an action or situation, especially in the phrase `the whys and wherefores'"
+        }
+      ],
+      "candidate_categories": [
+        "noun.motive"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    }
+  ]
+}

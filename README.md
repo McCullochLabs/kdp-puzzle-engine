@@ -1,7 +1,7 @@
 # KDP Puzzle Engine
 
 [![CI](https://github.com/vijaxx/kdp-puzzle-engine/actions/workflows/ci.yml/badge.svg)](https://github.com/vijaxx/kdp-puzzle-engine/actions/workflows/ci.yml)
-![Python](https://img.shields.io/badge/python-3.13.11%2064--bit-blue)
+![Python](https://img.shields.io/badge/python-3.13.15%2064--bit-blue)
 [![License: MIT](https://img.shields.io/badge/license-MIT-green)](LICENSE)
 
 Creates polished, print-ready puzzle-book packages for Amazon KDP: Word Search, Sudoku, Cryptograms, and Word Scramble + Trivia. The app builds the interior, cover, full wrap, listing kit, and proof reports together.
@@ -14,6 +14,14 @@ The premise: most puzzle-book sellers on KDP build books by hand, one at a time.
 <td><img src="docs/sample-wordsearch-cover.png" width="280" alt="Sample word search book cover"><br><sub>wordsearch.py + cover.py</sub></td>
 <td><img src="docs/sample-sudoku-cover.png" width="280" alt="Sample Sudoku book cover"><br><sub>Sudoku Book Studio</sub></td>
 </tr></table>
+
+## Family Studio
+
+The desktop app opens a simpler interface for creating, finding, and reviewing
+puzzle products. Describe an idea or use the clear starting buttons. Optional
+Codex (existing ChatGPT sign-in) or local Ollama can interpret requests through the same validated tools; Guide mode works without a model. Select the provider in Menu → Settings. Saved books include an optional cover audit, and themes such as Homesteading can combine checked word groups.
+The established cover generator and production checks remain authoritative.
+See [Family Studio](docs/FAMILY_STUDIO.md) and the [tool audit](docs/STUDIO_TOOL_AUDIT.md).
 
 ## Generators
 
@@ -38,7 +46,7 @@ Python, ReportLab (PDF generation), Pillow (cover rendering), and local JSON lib
 
 ## Running it
 
-The supported development and desktop runtime is **64-bit CPython 3.13.11**.
+The supported development and desktop runtime is **64-bit CPython 3.13.15**.
 Create a fresh virtual environment from that exact interpreter, install
 `requirements-dev.txt`, then verify it before running the app:
 
@@ -53,6 +61,15 @@ python -m venv .venv
 `tools\validate_themes.py` calls the application's canonical project checker,
 checks the complete organized theme library without modifying it, and exits
 non-zero on any problem. CI runs both the runtime and theme checks.
+
+## Printable activity packs
+
+Choose **Create → Printable activity pack** in the main app to
+create short Word Search, Word Scramble, and Sudoku packs. Theme presets,
+custom vocabulary, and an optional recipient line produce activity and answer
+PDFs plus a customer ZIP. See [Printable Activity Packs](docs/PRINTABLE_ACTIVITY_PACKS.md)
+for inputs, printing instructions, and review boundaries. This local printable
+route does not publish listings or replace commercial-book proof gates.
 
 ## Etsy integration
 

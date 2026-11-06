@@ -1,0 +1,526 @@
+{
+  "schema_version": 1,
+  "research_status": "REVIEW_REQUIRED_NOT_APPROVED",
+  "lexical_review_group": "noun.animal",
+  "records": [
+    {
+      "normalized": "AIX",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "Aix",
+          "synset": "n:01851996",
+          "lexical_category": "noun.animal",
+          "definition": "wood duck and mandarin duck"
+        }
+      ],
+      "candidate_categories": [
+        "noun.animal"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    },
+    {
+      "normalized": "ANAS",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "Anas",
+          "synset": "n:01847565",
+          "lexical_category": "noun.animal",
+          "definition": "type genus of the Anatidae: freshwater ducks"
+        }
+      ],
+      "candidate_categories": [
+        "noun.animal"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    },
+    {
+      "normalized": "APIS",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "Apis",
+          "synset": "n:02208143",
+          "lexical_category": "noun.animal",
+          "definition": "type genus of the Apidae: honeybees"
+        }
+      ],
+      "candidate_categories": [
+        "noun.animal"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    },
+    {
+      "normalized": "BOS",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "Bos",
+          "synset": "n:02401661",
+          "lexical_category": "noun.animal",
+          "definition": "wild and domestic cattle; in some classifications placed in the subfamily Bovinae or tribe Bovini"
+        }
+      ],
+      "candidate_categories": [
+        "noun.animal"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    },
+    {
+      "normalized": "CARNIVORE",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "carnivore",
+          "synset": "n:01324431",
+          "lexical_category": "noun.animal",
+          "definition": "any animal that feeds on flesh; \"Tyrannosaurus Rex was a large carnivore\"; \"insectivorous plants are considered carnivores\""
+        },
+        {
+          "lemma": "carnivore",
+          "synset": "n:02075296",
+          "lexical_category": "noun.animal",
+          "definition": "a terrestrial or aquatic flesh-eating mammal; \"terrestrial carnivores have four or five clawed digits on each limb\""
+        }
+      ],
+      "candidate_categories": [
+        "noun.animal"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    },
+    {
+      "normalized": "CHARA",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "Chara",
+          "synset": "n:01412925",
+          "lexical_category": "noun.animal",
+          "definition": "green algae common in freshwater lakes of limestone districts"
+        }
+      ],
+      "candidate_categories": [
+        "noun.animal"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    },
+    {
+      "normalized": "CHEN",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "Chen",
+          "synset": "n:01856748",
+          "lexical_category": "noun.animal",
+          "definition": "wild goose having white adult plumage"
+        }
+      ],
+      "candidate_categories": [
+        "noun.animal"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    },
+    {
+      "normalized": "CHLOROPHYLL",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "chlorophyll",
+          "synset": "n:01398212",
+          "lexical_category": "noun.animal",
+          "definition": "any of a group of green pigments found in photosynthetic organisms; there are four naturally occurring forms"
+        }
+      ],
+      "candidate_categories": [
+        "noun.animal"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    },
+    {
+      "normalized": "CHRYSALIS",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "chrysalis",
+          "synset": "n:02312640",
+          "lexical_category": "noun.animal",
+          "definition": "pupa of a moth or butterfly enclosed in a cocoon"
+        }
+      ],
+      "candidate_categories": [
+        "noun.animal"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    },
+    {
+      "normalized": "DOMINICK",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "Dominick",
+          "synset": "n:01793565",
+          "lexical_category": "noun.animal",
+          "definition": "American breed of chicken having barred grey plumage raised for meat and brown eggs"
+        }
+      ],
+      "candidate_categories": [
+        "noun.animal"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    },
+    {
+      "normalized": "DOMINIQUE",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "Dominique",
+          "synset": "n:01793565",
+          "lexical_category": "noun.animal",
+          "definition": "American breed of chicken having barred grey plumage raised for meat and brown eggs"
+        }
+      ],
+      "candidate_categories": [
+        "noun.animal"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    },
+    {
+      "normalized": "FALCO",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "Falco",
+          "synset": "n:01611252",
+          "lexical_category": "noun.animal",
+          "definition": "a genus of Falconidae"
+        }
+      ],
+      "candidate_categories": [
+        "noun.animal"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    },
+    {
+      "normalized": "GALLERIA",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "Galleria",
+          "synset": "n:02289177",
+          "lexical_category": "noun.animal",
+          "definition": "a genus of Pyralidae"
+        }
+      ],
+      "candidate_categories": [
+        "noun.animal"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    },
+    {
+      "normalized": "HEREFORD",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "Hereford",
+          "synset": "n:02407625",
+          "lexical_category": "noun.animal",
+          "definition": "hardy English breed of dairy cattle raised extensively in United States"
+        }
+      ],
+      "candidate_categories": [
+        "noun.animal"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    },
+    {
+      "normalized": "HOLSTEIN",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "Holstein",
+          "synset": "n:02407390",
+          "lexical_category": "noun.animal",
+          "definition": "a breed of dairy cattle from northern Holland"
+        }
+      ],
+      "candidate_categories": [
+        "noun.animal"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    },
+    {
+      "normalized": "LARVA",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "larva",
+          "synset": "n:02311060",
+          "lexical_category": "noun.animal",
+          "definition": "the immature free-living form of most invertebrates and amphibians and fish which at hatching from the egg is fundamentally unlike its parent and must metamorphose"
+        }
+      ],
+      "candidate_categories": [
+        "noun.animal"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    },
+    {
+      "normalized": "MAJA",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "Maja",
+          "synset": "n:01981884",
+          "lexical_category": "noun.animal",
+          "definition": "type genus of the Majidae; nearly cosmopolitan in distribution"
+        }
+      ],
+      "candidate_categories": [
+        "noun.animal"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    },
+    {
+      "normalized": "MYA",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "Mya",
+          "synset": "n:01957202",
+          "lexical_category": "noun.animal",
+          "definition": "type genus of the family Myacidae"
+        }
+      ],
+      "candidate_categories": [
+        "noun.animal"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    },
+    {
+      "normalized": "MINA",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "mina",
+          "synset": "n:01577659",
+          "lexical_category": "noun.animal",
+          "definition": "tropical Asian starlings"
+        }
+      ],
+      "candidate_categories": [
+        "noun.animal"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    },
+    {
+      "normalized": "MUS",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "Mus",
+          "synset": "n:02331960",
+          "lexical_category": "noun.animal",
+          "definition": "type genus of the Muridae: common house mice; the tips of the upper incisors have a square notch"
+        }
+      ],
+      "candidate_categories": [
+        "noun.animal"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    },
+    {
+      "normalized": "PEMBROKE",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "Pembroke",
+          "synset": "n:02113023",
+          "lexical_category": "noun.animal",
+          "definition": "the smaller and straight-legged variety of corgi having pointed ears and a short tail"
+        }
+      ],
+      "candidate_categories": [
+        "noun.animal"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    },
+    {
+      "normalized": "RANA",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "Rana",
+          "synset": "n:01640567",
+          "lexical_category": "noun.animal",
+          "definition": "type genus of the Ranidae"
+        }
+      ],
+      "candidate_categories": [
+        "noun.animal"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    },
+    {
+      "normalized": "SCOTTIE",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "Scottie",
+          "synset": "n:02097298",
+          "lexical_category": "noun.animal",
+          "definition": "old Scottish breed of small long-haired usually black terrier with erect tail and ears"
+        }
+      ],
+      "candidate_categories": [
+        "noun.animal"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    },
+    {
+      "normalized": "SILVIA",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "Silvia",
+          "synset": "n:01564630",
+          "lexical_category": "noun.animal",
+          "definition": "type genus of the Sylviidae: warblers"
+        }
+      ],
+      "candidate_categories": [
+        "noun.animal"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    },
+    {
+      "normalized": "SUS",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "Sus",
+          "synset": "n:02395244",
+          "lexical_category": "noun.animal",
+          "definition": "type genus of the Suidae"
+        }
+      ],
+      "candidate_categories": [
+        "noun.animal"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    },
+    {
+      "normalized": "TILAPIA",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "Tilapia",
+          "synset": "n:02586129",
+          "lexical_category": "noun.animal",
+          "definition": "a genus of Cichlidae"
+        }
+      ],
+      "candidate_categories": [
+        "noun.animal"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    },
+    {
+      "normalized": "UTA",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "Uta",
+          "synset": "n:01681200",
+          "lexical_category": "noun.animal",
+          "definition": "a reptile genus of Iguanidae"
+        }
+      ],
+      "candidate_categories": [
+        "noun.animal"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    }
+  ]
+}

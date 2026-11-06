@@ -66,12 +66,17 @@ def build_word_search(plan: dict) -> Path:
     data = json.loads(plan["theme"].read_text(encoding="utf-8-sig"))
     folder = OUT / f"commercial_baseline_{plan['seed']}_{studio.WordSearchCreator._safe_filename(plan['title']).lower()}"
     from background_generation.index import BackgroundAssetIndex
-    choices = BackgroundAssetIndex().approved_choices(" ".join((plan["title"], str(data.get("detected_topic") or ""))))
-    choice = choices[plan["seed"] % len(choices)] if choices else None
+    cover_data = {**data, "title": plan["title"], "subtitle": plan["subtitle"],
+                  "_theme_path": str(plan["theme"]), "_creation_route": "Word Search"}
+    # The shared router chooses only among the strongest equally relevant
+    # assets.  Indexing the entire candidate list by seed could select a
+    # much weaker, unrelated image even though a perfect topic match existed.
+    choice = studio.recommend_background_photo(cover_data)
     # A correctly indexed file is still visually checked for this flagship
     # vehicle title.  Keep the explicit road-trip asset rather than allowing
     # a broad topic match to select an unrelated ocean image.
     if plan["title"] == "Classic Cars and Road Trips Word Search":
+        choices = BackgroundAssetIndex().approved_choices(" ".join((plan["title"], str(data.get("detected_topic") or ""))))
         choice = next((item for item in choices if str(item.get("file") or "").endswith("vehicles_vintage_v3.png")), choice)
     art = PROJECT / str(choice.get("file") or "") if choice else None
     if not art or not art.is_file():

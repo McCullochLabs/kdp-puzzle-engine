@@ -1,9 +1,9 @@
 {
   "classic_cars_road_trips.json": {
     "stage": "Ready",
-    "title_at_package": "Phase 8 Classic Cars Word Search",
-    "package": "C:\\Users\\jorda\\Desktop\\Word Search Creator\\kdp-puzzle-engine\\tmp\\phase8_acceptance_wordsearch_20260828\\out\\phase8_word_search_acceptance",
-    "package_created": "2026-08-28T16:39:37",
+    "title_at_package": "Classic Cars and Road Trips Word Search",
+    "package": "C:\\Users\\jorda\\Desktop\\Word Search Creator\\kdp-puzzle-engine\\out\\commercial_baseline_6101_classic_cars_and_road_trips_word_search",
+    "package_created": "2026-09-08T16:39:42",
     "interior_pages": 82,
     "release_status": "Ready for KDP Print Previewer"
   },
@@ -11,7 +11,7 @@
     "stage": "Ready",
     "title_at_package": "Vocabulary Adventures: Grade School",
     "package": "C:\\Users\\jorda\\Desktop\\Word Search Creator\\kdp-puzzle-engine\\out\\commercial_baseline_6102_vocabulary_adventures_grade_school",
-    "package_created": "2026-08-27T16:02:13",
+    "package_created": "2026-09-08T16:40:44",
     "interior_pages": 82,
     "release_status": "Ready for KDP Print Previewer"
   },
@@ -26,24 +26,24 @@
   "faithful_words_20260828_203806.json": {
     "stage": "Ready",
     "title_at_package": "Faithful Words Word Search",
-    "package": "C:\\Users\\jorda\\Desktop\\Word Search Creator\\kdp-puzzle-engine\\out\\production_20260903_053046\\Faithful_Words_Word_Search",
-    "package_created": "2026-09-03T05:32:04",
+    "package": "C:\\Users\\jorda\\Desktop\\Word Search Creator\\kdp-puzzle-engine\\out\\commercial_baseline_6113_faithful_words_word_search",
+    "package_created": "2026-09-08T16:43:45",
     "interior_pages": 84,
     "release_status": "Ready for KDP Print Previewer"
   },
   "road_trip_classics_20260828_203806.json": {
     "stage": "Ready",
     "title_at_package": "Road Trip Classics Word Search",
-    "package": "C:\\Users\\jorda\\Desktop\\Word Search Creator\\kdp-puzzle-engine\\out\\production_20260903_053046\\Road_Trip_Classics_Word_Search",
-    "package_created": "2026-09-03T05:32:51",
+    "package": "C:\\Users\\jorda\\Desktop\\Word Search Creator\\kdp-puzzle-engine\\out\\commercial_baseline_6114_road_trip_classics_word_search",
+    "package_created": "2026-09-08T16:44:51",
     "interior_pages": 84,
     "release_status": "Ready for KDP Print Previewer"
   },
   "american_moments_20260828_203806.json": {
     "stage": "Ready",
     "title_at_package": "American Moments Word Search",
-    "package": "C:\\Users\\jorda\\Desktop\\Word Search Creator\\kdp-puzzle-engine\\out\\production_20260903_053046\\American_Moments_Word_Search",
-    "package_created": "2026-09-03T05:31:16",
+    "package": "C:\\Users\\jorda\\Desktop\\Word Search Creator\\kdp-puzzle-engine\\out\\commercial_baseline_6115_american_moments_word_search",
+    "package_created": "2026-09-08T16:45:54",
     "interior_pages": 84,
     "release_status": "Ready for KDP Print Previewer"
   },
@@ -53,6 +53,86 @@
     "package": "C:\\Users\\jorda\\Desktop\\Word Search Creator\\kdp-puzzle-engine\\out\\production_20260903_053046\\Garden_Discovery_Word_Search",
     "package_created": "2026-09-03T05:32:28",
     "interior_pages": 84,
+    "release_status": "Ready for KDP Print Previewer"
+  },
+  "advanced_vocabulary_challenge.json": {
+    "stage": "Ready",
+    "title_at_package": "Advanced Vocabulary Challenge Word Search",
+    "package": "C:\\Users\\jorda\\Desktop\\Word Search Creator\\kdp-puzzle-engine\\out\\commercial_baseline_6103_advanced_vocabulary_challenge_word_search",
+    "package_created": "2026-09-08T16:41:47",
+    "interior_pages": 82,
+    "release_status": "Ready for KDP Print Previewer"
+  },
+  "faithful_words_large_print_signature_100.json": {
+    "stage": "Ready",
+    "title_at_package": "Faithful Words: Large-Print Bible Word Search for Adults",
+    "package": "C:\\Users\\jorda\\Desktop\\Word Search Creator\\kdp-puzzle-engine\\out\\commercial_baseline_731001_faithful_words_large-print_bible_word_search_for_adults",
+    "package_created": "2026-09-14T12:25:20",
+    "interior_pages": 160,
+    "release_status": "Ready for KDP Print Previewer"
+  },
+  "vocabulary_ladder_grade_5.json": {
+    "stage": "Ready",
+    "title_at_package": "Vocabulary Ladder: Grade 5 Word Quest",
+    "package": "C:\\Users\\jorda\\Desktop\\Word Search Creator\\kdp-puzzle-engine\\out\\commercial_baseline_731105_vocabulary_ladder_grade_5_word_quest",
+    "package_created": "2026-09-14T12:27:12",
+    "interior_pages": 82,
+    "release_status": "Ready for KDP Print Previewer"
+  },
+  "classic_cars_and_road_trips_editorial_v2.json": {
+    "stage": "Ready",
+    "title_at_package": "Classic Cars and Road Trips Word Search",
+    "package": "C:\\Users\\jorda\\Desktop\\Word Search Creator\\kdp-puzzle-engine\\out\\release_candidates\\system_20261101_v1\\classic_cars_revision_v5",
+    "package_created": "2026-11-01T15:33:29",
+    "interior_pages": 82,
+    "release_status": "Ready for KDP Print Previewer"
+  },
+  "advanced_vocabulary_challenge_editorial_v2.json": {
+    "stage": "Ready",
+    "title_at_package": "Advanced Vocabulary Challenge Word Search",
+    "package": "C:\\Users\\jorda\\Desktop\\Word Search Creator\\kdp-puzzle-engine\\out\\commercial_baseline_6103_advanced_vocabulary_challenge_word_search",
+    "package_created": "2026-09-20T13:11:59",
+    "interior_pages": 82,
+    "release_status": "Ready for KDP Print Previewer"
+  },
+  "faithful_words_50_editorial_v2.json": {
+    "stage": "Ready",
+    "title_at_package": "Faithful Words Word Search",
+    "package": "C:\\Users\\jorda\\Desktop\\Word Search Creator\\kdp-puzzle-engine\\out\\commercial_baseline_6113_faithful_words_word_search",
+    "package_created": "2026-09-19T19:30:15",
+    "interior_pages": 84,
+    "release_status": "Ready for KDP Print Previewer"
+  },
+  "road_trip_classics_editorial_v2.json": {
+    "stage": "Ready",
+    "title_at_package": "Road Trip Classics Word Search",
+    "package": "C:\\Users\\jorda\\Desktop\\Word Search Creator\\kdp-puzzle-engine\\out\\commercial_baseline_6114_road_trip_classics_word_search",
+    "package_created": "2026-09-19T19:31:09",
+    "interior_pages": 84,
+    "release_status": "Ready for KDP Print Previewer"
+  },
+  "american_moments_editorial_v2.json": {
+    "stage": "Ready",
+    "title_at_package": "American Moments Word Search",
+    "package": "C:\\Users\\jorda\\Desktop\\Word Search Creator\\kdp-puzzle-engine\\out\\commercial_baseline_6115_american_moments_word_search",
+    "package_created": "2026-09-19T19:32:08",
+    "interior_pages": 84,
+    "release_status": "Ready for KDP Print Previewer"
+  },
+  "faithful_words_signature_100_editorial_v2.json": {
+    "stage": "Ready",
+    "title_at_package": "Faithful Words: Large-Print Bible Word Search for Adults",
+    "package": "C:\\Users\\jorda\\Desktop\\Word Search Creator\\kdp-puzzle-engine\\out\\commercial_baseline_731001_faithful_words_large-print_bible_word_search_for_adults",
+    "package_created": "2026-09-19T19:33:14",
+    "interior_pages": 160,
+    "release_status": "Ready for KDP Print Previewer"
+  },
+  "vocabulary_ladder_grade_5_editorial_v2.json": {
+    "stage": "Ready",
+    "title_at_package": "Vocabulary Ladder: Grade 5 Word Quest",
+    "package": "C:\\Users\\jorda\\Desktop\\Word Search Creator\\kdp-puzzle-engine\\out\\commercial_baseline_731105_vocabulary_ladder_grade_5_word_quest",
+    "package_created": "2026-09-20T13:12:46",
+    "interior_pages": 82,
     "release_status": "Ready for KDP Print Previewer"
   }
 }

@@ -1,0 +1,45 @@
+{
+  "schema_version": 1,
+  "research_status": "REVIEW_REQUIRED_NOT_APPROVED",
+  "lexical_review_group": "noun.feeling",
+  "records": [
+    {
+      "normalized": "LIBIDO",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "libido",
+          "synset": "n:07489548",
+          "lexical_category": "noun.feeling",
+          "definition": "(psychoanalysis) a Freudian term for sexual urge or desire"
+        }
+      ],
+      "candidate_categories": [
+        "noun.feeling"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    },
+    {
+      "normalized": "SEXINESS",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "sexiness",
+          "synset": "n:07489059",
+          "lexical_category": "noun.feeling",
+          "definition": "the arousal of feelings of sexual desire"
+        }
+      ],
+      "candidate_categories": [
+        "noun.feeling"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    }
+  ]
+}

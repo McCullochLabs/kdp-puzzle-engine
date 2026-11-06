@@ -1,0 +1,25 @@
+{
+  "schema_version": 1,
+  "status": "REVIEW_REQUIRED",
+  "batch": "definition_backed_word_organization_2026_10_09",
+  "organized_unique_words": 29620,
+  "meaning_groups": 620,
+  "definition_reference_folder": "word_banks/source_data/definition_reference_wordnet_3_0",
+  "complete_remaining_backlog": "remaining_unassigned.json",
+  "reason_queues": "review_holds.json",
+  "lexeme_family_index": "lexeme_families.json",
+  "previous_batches_preserved": [
+    "dataset_expansion_2026_10_09",
+    "ungrouped_word_organization_2026_10_09"
+  ],
+  "completed_passes": [
+    "exact lexical definitions",
+    "explicit inflection exception lookup",
+    "documented regular inflection lookup",
+    "focused semantic niche grouping",
+    "general vocabulary grouping",
+    "alternate sense preservation",
+    "original source and approval checksum validation"
+  ],
+  "approval_policy": "Keep all proposals pending; use existing approval gates. Do not infer approval from a dictionary definition or a completed grouping pass."
+}

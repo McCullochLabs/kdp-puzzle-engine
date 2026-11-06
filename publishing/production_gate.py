@@ -27,9 +27,8 @@ def book_gate(book: dict) -> dict:
     puzzles = source.get("puzzles") if isinstance(source.get("puzzles"), list) else []
     quality_review = source.get("quality_review")
     if isinstance(quality_review, dict) and quality_review.get("production_ready") is False:
-        blockers.append(
-            "This theme's verified word-quality review needs a curated topic rebuild before production."
-        )
+        blockers.append(str(quality_review.get("editorial_hold_reason") or
+                            "This theme's verified word-quality review needs a curated topic rebuild before production."))
     if not title:
         blockers.append("Add a book title.")
     if not author:
@@ -43,7 +42,10 @@ def book_gate(book: dict) -> dict:
         words = [str(word).strip().upper() for item in puzzles if isinstance(item, dict) for word in item.get("words", []) if str(word).strip()]
         # Older imported themes did not declare the no-repeat promise.  Do not
         # retroactively block those records here; new automatic blueprints do.
-        if source.get("no_repeat_words") is True and words and len(words) != len(set(words)):
+        from .repetition_policy import requested as repetition_requested, evaluate as evaluate_repetition
+        if repetition_requested(source):
+            blockers.extend(evaluate_repetition(source)["errors"])
+        elif source.get("no_repeat_words") is True and words and len(words) != len(set(words)):
             blockers.append("This source repeats words; rebuild it before automatic packaging.")
     if source and str(meta.get("production_status") or "") not in {"Passed", "Complete package"}:
         notes.append("Run the book-quality check before final packaging; this keeps old or changed sources from slipping through.")

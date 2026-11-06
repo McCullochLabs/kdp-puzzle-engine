@@ -1,0 +1,20 @@
+{
+  "source_untrusted_records": 21540,
+  "new_unique_candidates": 0,
+  "new_niche_groups": 0,
+  "held_not_forced": 7449,
+  "prior_candidate_words_excluded": 30450,
+  "approval_changes": 0,
+  "source_changes": 0,
+  "input_sha256": {
+    "word_banks\\word_intelligence\\word_store.json": "9e350e4cd65a7968591302f658acb704ca87cd23491a033ffb4623189924b6d8",
+    "word_banks\\research_briefs\\definition_backed_word_organization_2026_10_09\\semantic_roots.txt": "c87d7490420a8307b65b48b9f245f7d69cc2049278c45451dbef17379f955ff7",
+    "word_banks\\research_briefs\\definition_backed_word_organization_2026_10_09\\semantic_word_groups.json": "6bce7779cafb465b3003a674a8df3abb056f5fc39378400f868a18fcefbdc88f",
+    "word_banks\\source_data\\definition_reference_wordnet_3_0\\data.noun": "489f145e0f68877c0be5bd0eb4117adaaac52f38f6204eb8d85dbe2158b614cc",
+    "word_banks\\source_data\\definition_reference_wordnet_3_0\\index.noun": "a490d99d93d017bf4822fe2f0ffa51fd73911ce271dc7535fade21f8814b5a04"
+  },
+  "limitations": [
+    "Single noun sense does not exclude other parts of speech or specialist/parent-topic ambiguity. All remain proposed and pending review.",
+    "No master/store/taxonomy or existing campaign was changed. No book capacity or trivia verification is inferred."
+  ]
+}

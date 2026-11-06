@@ -1,0 +1,5114 @@
+{
+  "schema_version": 1,
+  "research_status": "REVIEW_REQUIRED_NOT_APPROVED",
+  "lexical_review_group": "noun.location",
+  "records": [
+    {
+      "normalized": "ABERDEEN",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "Aberdeen",
+          "synset": "n:08892186",
+          "lexical_category": "noun.location",
+          "definition": "a city in northeastern Scotland on the North Sea"
+        },
+        {
+          "lemma": "Aberdeen",
+          "synset": "n:09094093",
+          "lexical_category": "noun.location",
+          "definition": "a town in northeastern Maryland"
+        },
+        {
+          "lemma": "Aberdeen",
+          "synset": "n:09139380",
+          "lexical_category": "noun.location",
+          "definition": "a town in northeastern South Dakota"
+        },
+        {
+          "lemma": "Aberdeen",
+          "synset": "n:09153570",
+          "lexical_category": "noun.location",
+          "definition": "a town in western Washington"
+        }
+      ],
+      "candidate_categories": [
+        "noun.location"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    },
+    {
+      "normalized": "ABILENE",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "Abilene",
+          "synset": "n:09088151",
+          "lexical_category": "noun.location",
+          "definition": "a town in central Kansas to the west of Topeka; home of Dwight D. Eisenhower"
+        },
+        {
+          "lemma": "Abilene",
+          "synset": "n:09142674",
+          "lexical_category": "noun.location",
+          "definition": "a city in central Texas"
+        }
+      ],
+      "candidate_categories": [
+        "noun.location"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    },
+    {
+      "normalized": "ACAPULCO",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "Acapulco",
+          "synset": "n:08742205",
+          "lexical_category": "noun.location",
+          "definition": "a port and fashionable resort city on the Pacific coast of southern Mexico; known for beaches and water sports (including cliff diving)"
+        }
+      ],
+      "candidate_categories": [
+        "noun.location"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    },
+    {
+      "normalized": "ACCRA",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "Accra",
+          "synset": "n:08946564",
+          "lexical_category": "noun.location",
+          "definition": "the capital and largest city of Ghana with a deep-water port"
+        }
+      ],
+      "candidate_categories": [
+        "noun.location"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    },
+    {
+      "normalized": "ADEN",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "Aden",
+          "synset": "n:09164903",
+          "lexical_category": "noun.location",
+          "definition": "an important port of Yemen; located on the Gulf of Aden; its strategic location has made it a major trading center of southern Arabia since ancient times"
+        }
+      ],
+      "candidate_categories": [
+        "noun.location"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    },
+    {
+      "normalized": "AGRA",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "Agra",
+          "synset": "n:08904115",
+          "lexical_category": "noun.location",
+          "definition": "a city in northern India; former capital of the Mogul empire; site of the Taj Mahal"
+        }
+      ],
+      "candidate_categories": [
+        "noun.location"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    },
+    {
+      "normalized": "AKRON",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "Akron",
+          "synset": "n:09130452",
+          "lexical_category": "noun.location",
+          "definition": "a city in northeastern Ohio; the heart of the United States rubber industry"
+        }
+      ],
+      "candidate_categories": [
+        "noun.location"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    },
+    {
+      "normalized": "ALBANIA",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "Albania",
+          "synset": "n:08704822",
+          "lexical_category": "noun.location",
+          "definition": "a republic in southeastern Europe on the Adriatic coast of the Balkan Peninsula"
+        }
+      ],
+      "candidate_categories": [
+        "noun.location"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    },
+    {
+      "normalized": "ALBERTA",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "Alberta",
+          "synset": "n:08822202",
+          "lexical_category": "noun.location",
+          "definition": "one of the three prairie provinces in western Canada; rich in oil and natural gas and minerals"
+        }
+      ],
+      "candidate_categories": [
+        "noun.location"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    },
+    {
+      "normalized": "ALBION",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "Albion",
+          "synset": "n:08872936",
+          "lexical_category": "noun.location",
+          "definition": "archaic name for England or Great Britain; used poetically"
+        }
+      ],
+      "candidate_categories": [
+        "noun.location"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    },
+    {
+      "normalized": "ALBUQUERQUE",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "Albuquerque",
+          "synset": "n:09115315",
+          "lexical_category": "noun.location",
+          "definition": "the largest city in New Mexico; located in central New Mexico on the Rio Grande river"
+        }
+      ],
+      "candidate_categories": [
+        "noun.location"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    },
+    {
+      "normalized": "AMARILLO",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "Amarillo",
+          "synset": "n:09142771",
+          "lexical_category": "noun.location",
+          "definition": "a city in the northern panhandle of Texas"
+        }
+      ],
+      "candidate_categories": [
+        "noun.location"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    },
+    {
+      "normalized": "AMMAN",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "Amman",
+          "synset": "n:08927548",
+          "lexical_category": "noun.location",
+          "definition": "the capital and largest city of Jordan"
+        }
+      ],
+      "candidate_categories": [
+        "noun.location"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    },
+    {
+      "normalized": "ANAHEIM",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "Anaheim",
+          "synset": "n:09062015",
+          "lexical_category": "noun.location",
+          "definition": "a city in southern California (southeast of Los Angeles); site of Disneyland"
+        }
+      ],
+      "candidate_categories": [
+        "noun.location"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    },
+    {
+      "normalized": "ANDORRA",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "Andorra",
+          "synset": "n:09023118",
+          "lexical_category": "noun.location",
+          "definition": "a small republic in the eastern Pyrenees between Spain and France"
+        }
+      ],
+      "candidate_categories": [
+        "noun.location"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    },
+    {
+      "normalized": "ANKARA",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "Ankara",
+          "synset": "n:09040601",
+          "lexical_category": "noun.location",
+          "definition": "the capital of Turkey; located in west-central Turkey; it was formerly known as Angora and is the home of Angora goats"
+        }
+      ],
+      "candidate_categories": [
+        "noun.location"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    },
+    {
+      "normalized": "ANTARCTIC",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "Antarctic",
+          "synset": "n:08494459",
+          "lexical_category": "noun.location",
+          "definition": "the region around the south pole: Antarctica and surrounding waters"
+        }
+      ],
+      "candidate_categories": [
+        "noun.location"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    },
+    {
+      "normalized": "ANTWERP",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "Antwerp",
+          "synset": "n:08850741",
+          "lexical_category": "noun.location",
+          "definition": "a busy port and financial center in northern Belgium on the Scheldt river; it has long been a center for the diamond industry and the first stock exchange was opened there in 1460"
+        }
+      ],
+      "candidate_categories": [
+        "noun.location"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    },
+    {
+      "normalized": "APPALACHIA",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "Appalachia",
+          "synset": "n:08493493",
+          "lexical_category": "noun.location",
+          "definition": "an impoverished coal mining area in the Appalachian Mountains (from Pennsylvania to North Carolina)"
+        }
+      ],
+      "candidate_categories": [
+        "noun.location"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    },
+    {
+      "normalized": "ARGOS",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "Argos",
+          "synset": "n:08786660",
+          "lexical_category": "noun.location",
+          "definition": "an ancient city in southeastern Greece; dominated the Peloponnese in the 7th century BC"
+        }
+      ],
+      "candidate_categories": [
+        "noun.location"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    },
+    {
+      "normalized": "ARIANA",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "Ariana",
+          "synset": "n:09037991",
+          "lexical_category": "noun.location",
+          "definition": "city in Tunisia"
+        }
+      ],
+      "candidate_categories": [
+        "noun.location"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    },
+    {
+      "normalized": "ASSAM",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "Assam",
+          "synset": "n:08902097",
+          "lexical_category": "noun.location",
+          "definition": "state in northeastern India"
+        }
+      ],
+      "candidate_categories": [
+        "noun.location"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    },
+    {
+      "normalized": "AZORES",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "Azores",
+          "synset": "n:08985345",
+          "lexical_category": "noun.location",
+          "definition": "islands in the Atlantic Ocean belonging to Portugal; \"the Azores are strategically located on transatlantic air and shipping routes\""
+        }
+      ],
+      "candidate_categories": [
+        "noun.location"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    },
+    {
+      "normalized": "BAGHDAD",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "Baghdad",
+          "synset": "n:08914193",
+          "lexical_category": "noun.location",
+          "definition": "capital and largest city of Iraq; located on the Tigris River; \"Baghdad is one of the great cities of the Muslim world\""
+        }
+      ],
+      "candidate_categories": [
+        "noun.location"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    },
+    {
+      "normalized": "BAKERSFIELD",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "Bakersfield",
+          "synset": "n:09062320",
+          "lexical_category": "noun.location",
+          "definition": "a city in south central California at the southern end of the San Joaquin Valley"
+        }
+      ],
+      "candidate_categories": [
+        "noun.location"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    },
+    {
+      "normalized": "BAKU",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "Baku",
+          "synset": "n:09018426",
+          "lexical_category": "noun.location",
+          "definition": "a port city on the Caspian Sea that is the capital of Azerbaijan and an important center for oil production"
+        }
+      ],
+      "candidate_categories": [
+        "noun.location"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    },
+    {
+      "normalized": "BALI",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "Bali",
+          "synset": "n:08908509",
+          "lexical_category": "noun.location",
+          "definition": "an island in Indonesia to the east of Java; striking volcanic scenery; culture is known for elaborate dances and rituals and for handicrafts"
+        }
+      ],
+      "candidate_categories": [
+        "noun.location"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    },
+    {
+      "normalized": "BANFF",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "Banff",
+          "synset": "n:08822427",
+          "lexical_category": "noun.location",
+          "definition": "a popular vacation spot in the Canadian Rockies"
+        }
+      ],
+      "candidate_categories": [
+        "noun.location"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    },
+    {
+      "normalized": "BANGLADESH",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "Bangladesh",
+          "synset": "n:08848731",
+          "lexical_category": "noun.location",
+          "definition": "a Muslim republic in southern Asia bordered by India to the north and west and east and the Bay of Bengal to the south; formerly part of India and then part of Pakistan; it achieved independence in 1971"
+        },
+        {
+          "lemma": "Bangla_Desh",
+          "synset": "n:08848731",
+          "lexical_category": "noun.location",
+          "definition": "a Muslim republic in southern Asia bordered by India to the north and west and east and the Bay of Bengal to the south; formerly part of India and then part of Pakistan; it achieved independence in 1971"
+        }
+      ],
+      "candidate_categories": [
+        "noun.location"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    },
+    {
+      "normalized": "BARI",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "Bari",
+          "synset": "n:08810505",
+          "lexical_category": "noun.location",
+          "definition": "capital city of the Apulia region on the Adriatic coast"
+        }
+      ],
+      "candidate_categories": [
+        "noun.location"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    },
+    {
+      "normalized": "BEIRUT",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "Beirut",
+          "synset": "n:08957806",
+          "lexical_category": "noun.location",
+          "definition": "capital and largest city of Lebanon; located in western Lebanon on the Mediterranean"
+        }
+      ],
+      "candidate_categories": [
+        "noun.location"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    },
+    {
+      "normalized": "BELGRADE",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "Belgrade",
+          "synset": "n:08817418",
+          "lexical_category": "noun.location",
+          "definition": "capital and largest city of Serbia and Montenegro; situated on the Danube"
+        }
+      ],
+      "candidate_categories": [
+        "noun.location"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    },
+    {
+      "normalized": "BENIN",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "Benin",
+          "synset": "n:08759420",
+          "lexical_category": "noun.location",
+          "definition": "a country on western coast of Africa; formerly under French control"
+        }
+      ],
+      "candidate_categories": [
+        "noun.location"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    },
+    {
+      "normalized": "BERN",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "Bern",
+          "synset": "n:09032321",
+          "lexical_category": "noun.location",
+          "definition": "the capital of Switzerland; located in western Switzerland"
+        }
+      ],
+      "candidate_categories": [
+        "noun.location"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    },
+    {
+      "normalized": "BERNE",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "Berne",
+          "synset": "n:09032321",
+          "lexical_category": "noun.location",
+          "definition": "the capital of Switzerland; located in western Switzerland"
+        }
+      ],
+      "candidate_categories": [
+        "noun.location"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    },
+    {
+      "normalized": "BILLINGS",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "Billings",
+          "synset": "n:09108728",
+          "lexical_category": "noun.location",
+          "definition": "the largest city in Montana; located in southern Montana on the Yellowstone river"
+        }
+      ],
+      "candidate_categories": [
+        "noun.location"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    },
+    {
+      "normalized": "BLOOMSBURY",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "Bloomsbury",
+          "synset": "n:08874920",
+          "lexical_category": "noun.location",
+          "definition": "a city district of central London laid out in garden squares"
+        }
+      ],
+      "candidate_categories": [
+        "noun.location"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    },
+    {
+      "normalized": "BOGOTA",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "Bogota",
+          "synset": "n:08732979",
+          "lexical_category": "noun.location",
+          "definition": "capital and largest city of Colombia; located in central Colombia on a high fertile plain"
+        }
+      ],
+      "candidate_categories": [
+        "noun.location"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    },
+    {
+      "normalized": "BOISE",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "Boise",
+          "synset": "n:09081560",
+          "lexical_category": "noun.location",
+          "definition": "the capital and largest city of Idaho"
+        }
+      ],
+      "candidate_categories": [
+        "noun.location"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    },
+    {
+      "normalized": "BORNEO",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "Borneo",
+          "synset": "n:08843215",
+          "lexical_category": "noun.location",
+          "definition": "3rd largest island in the world; in the western Pacific to the north of Java; largely covered by dense jungle and rain forest; part of the Malay Archipelago"
+        }
+      ],
+      "candidate_categories": [
+        "noun.location"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    },
+    {
+      "normalized": "BRANDENBURG",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "Brandenburg",
+          "synset": "n:08775597",
+          "lexical_category": "noun.location",
+          "definition": "the territory of an Elector (of the Holy Roman Empire) that expanded to become the kingdom of Prussia in 1701"
+        }
+      ],
+      "candidate_categories": [
+        "noun.location"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    },
+    {
+      "normalized": "BRASIL",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "Brasil",
+          "synset": "n:08853741",
+          "lexical_category": "noun.location",
+          "definition": "the largest Latin American country and the largest Portuguese speaking country in the world; located in the central and northeastern part of South America; world's leading coffee exporter"
+        }
+      ],
+      "candidate_categories": [
+        "noun.location"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    },
+    {
+      "normalized": "BREST",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "Brest",
+          "synset": "n:08934694",
+          "lexical_category": "noun.location",
+          "definition": "a port city in northwestern France (in Brittany); the chief naval station of France"
+        }
+      ],
+      "candidate_categories": [
+        "noun.location"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    },
+    {
+      "normalized": "BRIDGEPORT",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "Bridgeport",
+          "synset": "n:09068921",
+          "lexical_category": "noun.location",
+          "definition": "a port in southwestern Connecticut on Long Island Sound"
+        }
+      ],
+      "candidate_categories": [
+        "noun.location"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    },
+    {
+      "normalized": "BRISBANE",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "Brisbane",
+          "synset": "n:08832877",
+          "lexical_category": "noun.location",
+          "definition": "capital and largest city of Queensland state; located in the southeastern corner of Queensland on the Pacific; settled by British as a penal colony; 3rd largest city in Australia"
+        }
+      ],
+      "candidate_categories": [
+        "noun.location"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    },
+    {
+      "normalized": "BRITTANY",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "Brittany",
+          "synset": "n:08941208",
+          "lexical_category": "noun.location",
+          "definition": "a former province of northwestern France on a peninsula between the English Channel and the Bay of Biscay"
+        }
+      ],
+      "candidate_categories": [
+        "noun.location"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    },
+    {
+      "normalized": "BRONX",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "Bronx",
+          "synset": "n:09119989",
+          "lexical_category": "noun.location",
+          "definition": "a borough of New York City"
+        }
+      ],
+      "candidate_categories": [
+        "noun.location"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    },
+    {
+      "normalized": "BRUGES",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "Bruges",
+          "synset": "n:08851034",
+          "lexical_category": "noun.location",
+          "definition": "a city in northwestern Belgium that is connected by canal to the North Sea; in the 13th century it was a leading member of the Hanseatic League; the old city (known as the City of Bridges) is a popular tourist attraction"
+        }
+      ],
+      "candidate_categories": [
+        "noun.location"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    },
+    {
+      "normalized": "BRUSSELS",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "Brussels",
+          "synset": "n:08850450",
+          "lexical_category": "noun.location",
+          "definition": "the capital and largest city of Belgium; seat of the North Atlantic Treaty Organization"
+        }
+      ],
+      "candidate_categories": [
+        "noun.location"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    },
+    {
+      "normalized": "BUCHAREST",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "Bucharest",
+          "synset": "n:08814474",
+          "lexical_category": "noun.location",
+          "definition": "national capital and largest city of Romania in southeastern Romania"
+        }
+      ],
+      "candidate_categories": [
+        "noun.location"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    },
+    {
+      "normalized": "BUDAPEST",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "Budapest",
+          "synset": "n:08952423",
+          "lexical_category": "noun.location",
+          "definition": "capital and largest city of Hungary; located on the Danube River in north-central Hungary"
+        }
+      ],
+      "candidate_categories": [
+        "noun.location"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    },
+    {
+      "normalized": "BULGARIA",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "Bulgaria",
+          "synset": "n:08714132",
+          "lexical_category": "noun.location",
+          "definition": "a republic in the eastern part of the Balkan Peninsula in southeastern Europe"
+        }
+      ],
+      "candidate_categories": [
+        "noun.location"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    },
+    {
+      "normalized": "BURMA",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "Burma",
+          "synset": "n:08715390",
+          "lexical_category": "noun.location",
+          "definition": "a mountainous republic in southeastern Asia on the Bay of Bengal; \"much opium is grown in Myanmar\""
+        }
+      ],
+      "candidate_categories": [
+        "noun.location"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    },
+    {
+      "normalized": "CALAIS",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "Calais",
+          "synset": "n:08934868",
+          "lexical_category": "noun.location",
+          "definition": "a town in northern France on the Strait of Dover that serves as a ferry port to England; in 1347 it was captured by the English king Edward III after a long siege and remained in English hands until it was recaptured by the French king Henry II in 1558"
+        }
+      ],
+      "candidate_categories": [
+        "noun.location"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    },
+    {
+      "normalized": "CALCUTTA",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "Calcutta",
+          "synset": "n:08903636",
+          "lexical_category": "noun.location",
+          "definition": "the largest city in India and one of the largest cities in the world; located in eastern India; suffers from poverty and overcrowding"
+        }
+      ],
+      "candidate_categories": [
+        "noun.location"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    },
+    {
+      "normalized": "CAMBODIA",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "Cambodia",
+          "synset": "n:08716738",
+          "lexical_category": "noun.location",
+          "definition": "a nation in southeastern Asia; was part of Indochina under French rule until 1946"
+        }
+      ],
+      "candidate_categories": [
+        "noun.location"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    },
+    {
+      "normalized": "CAMELOT",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "Camelot",
+          "synset": "n:08558289",
+          "lexical_category": "noun.location",
+          "definition": "(Arthurian legend) the capital of King Arthur's kingdom; according to the legend, truth and goodness and beauty reigned there"
+        }
+      ],
+      "candidate_categories": [
+        "noun.location"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    },
+    {
+      "normalized": "CAMEROON",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "Cameroon",
+          "synset": "n:08717209",
+          "lexical_category": "noun.location",
+          "definition": "a republic on the western coast of central Africa; was under French and British control until 1960"
+        },
+        {
+          "lemma": "Cameroon",
+          "synset": "n:09173623",
+          "lexical_category": "noun.location",
+          "definition": "an inactive volcano in western Cameroon; highest peak on the West African coast"
+        }
+      ],
+      "candidate_categories": [
+        "noun.location"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    },
+    {
+      "normalized": "CANARIES",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "Canaries",
+          "synset": "n:09024972",
+          "lexical_category": "noun.location",
+          "definition": "a group of mountainous islands in the Atlantic off the northwest coast of Africa forming Spanish provinces"
+        }
+      ],
+      "candidate_categories": [
+        "noun.location"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    },
+    {
+      "normalized": "CAPRI",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "Capri",
+          "synset": "n:08805953",
+          "lexical_category": "noun.location",
+          "definition": "an island (part of Campania) in the Bay of Naples in southern Italy; a tourist attraction noted for beautiful scenery"
+        }
+      ],
+      "candidate_categories": [
+        "noun.location"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    },
+    {
+      "normalized": "CARBONDALE",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "Carbondale",
+          "synset": "n:09083151",
+          "lexical_category": "noun.location",
+          "definition": "a town in southern Illinois"
+        }
+      ],
+      "candidate_categories": [
+        "noun.location"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    },
+    {
+      "normalized": "CASPER",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "Casper",
+          "synset": "n:09159546",
+          "lexical_category": "noun.location",
+          "definition": "a city of east central Wyoming on the North Platte river"
+        }
+      ],
+      "candidate_categories": [
+        "noun.location"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    },
+    {
+      "normalized": "CASTILE",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "Castile",
+          "synset": "n:09027853",
+          "lexical_category": "noun.location",
+          "definition": "a region of central Spain; a former kingdom that comprised most of modern Spain and united with Aragon to form Spain in 1479"
+        }
+      ],
+      "candidate_categories": [
+        "noun.location"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    },
+    {
+      "normalized": "CATHAY",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "Cathay",
+          "synset": "n:08723006",
+          "lexical_category": "noun.location",
+          "definition": "a communist nation that covers a vast territory in eastern Asia; the most populous country in the world"
+        }
+      ],
+      "candidate_categories": [
+        "noun.location"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    },
+    {
+      "normalized": "CEYLON",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "Ceylon",
+          "synset": "n:08718962",
+          "lexical_category": "noun.location",
+          "definition": "an island in the Indian Ocean off the southeastern coast of India"
+        },
+        {
+          "lemma": "Ceylon",
+          "synset": "n:08719100",
+          "lexical_category": "noun.location",
+          "definition": "a republic on the island of Ceylon; became independent of the United Kingdom in 1948"
+        }
+      ],
+      "candidate_categories": [
+        "noun.location"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    },
+    {
+      "normalized": "COLOMBO",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "Colombo",
+          "synset": "n:08719465",
+          "lexical_category": "noun.location",
+          "definition": "the capital and largest city of Sri Lanka; has one of the largest harbors in the world; is located on the western coast of the island of Ceylon"
+        }
+      ],
+      "candidate_categories": [
+        "noun.location"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    },
+    {
+      "normalized": "CORNWALL",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "Cornwall",
+          "synset": "n:08881398",
+          "lexical_category": "noun.location",
+          "definition": "a hilly county in southwestern England"
+        }
+      ],
+      "candidate_categories": [
+        "noun.location"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    },
+    {
+      "normalized": "CZECHOSLOVAKIA",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "Czechoslovakia",
+          "synset": "n:08757569",
+          "lexical_category": "noun.location",
+          "definition": "a former republic in central Europe; divided into Czech Republic and Slovakia in 1993"
+        }
+      ],
+      "candidate_categories": [
+        "noun.location"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    },
+    {
+      "normalized": "DALLAS",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "Dallas",
+          "synset": "n:09143786",
+          "lexical_category": "noun.location",
+          "definition": "a large commercial and industrial city in northeastern Texas located in the heart of the northern Texas oil fields"
+        }
+      ],
+      "candidate_categories": [
+        "noun.location"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    },
+    {
+      "normalized": "DANZIG",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "Danzig",
+          "synset": "n:08983742",
+          "lexical_category": "noun.location",
+          "definition": "a port city of northern Poland near the mouth of the Vistula River on a gulf of the Baltic Sea; a member of the Hanseatic League in the 14th century"
+        }
+      ],
+      "candidate_categories": [
+        "noun.location"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    },
+    {
+      "normalized": "DEUTSCHLAND",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "Deutschland",
+          "synset": "n:08766988",
+          "lexical_category": "noun.location",
+          "definition": "a republic in central Europe; split into East Germany and West Germany after World War II and reunited in 1990"
+        }
+      ],
+      "candidate_categories": [
+        "noun.location"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    },
+    {
+      "normalized": "DEVONSHIRE",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "Devonshire",
+          "synset": "n:08881944",
+          "lexical_category": "noun.location",
+          "definition": "a county in southwestern England"
+        }
+      ],
+      "candidate_categories": [
+        "noun.location"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    },
+    {
+      "normalized": "DJIBOUTI",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "Djibouti",
+          "synset": "n:08762495",
+          "lexical_category": "noun.location",
+          "definition": "a country in northeastern Africa on the Somali peninsula; formerly under French control but became independent in 1997"
+        },
+        {
+          "lemma": "Djibouti",
+          "synset": "n:08762823",
+          "lexical_category": "noun.location",
+          "definition": "port city on the Gulf of Aden; the capital and largest city of Djibouti"
+        }
+      ],
+      "candidate_categories": [
+        "noun.location"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    },
+    {
+      "normalized": "DOMINICA",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "Dominica",
+          "synset": "n:08763010",
+          "lexical_category": "noun.location",
+          "definition": "a volcanic island in the Windward Islands that was once a stronghold of the Carib Indians"
+        },
+        {
+          "lemma": "Dominica",
+          "synset": "n:08763193",
+          "lexical_category": "noun.location",
+          "definition": "a country on the island of Dominica"
+        }
+      ],
+      "candidate_categories": [
+        "noun.location"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    },
+    {
+      "normalized": "DURBAN",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "Durban",
+          "synset": "n:09001007",
+          "lexical_category": "noun.location",
+          "definition": "a port city in eastern South Africa on the Indian Ocean; resort and industrial center"
+        }
+      ],
+      "candidate_categories": [
+        "noun.location"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    },
+    {
+      "normalized": "ECUADOR",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "Ecuador",
+          "synset": "n:08776687",
+          "lexical_category": "noun.location",
+          "definition": "a republic in northwestern South America; became independent from Spain in 1822; the landscape is dominated by the Andes"
+        }
+      ],
+      "candidate_categories": [
+        "noun.location"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    },
+    {
+      "normalized": "ENID",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "Enid",
+          "synset": "n:09132163",
+          "lexical_category": "noun.location",
+          "definition": "a town in north central Oklahoma"
+        }
+      ],
+      "candidate_categories": [
+        "noun.location"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    },
+    {
+      "normalized": "ERIN",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "Erin",
+          "synset": "n:08860001",
+          "lexical_category": "noun.location",
+          "definition": "an early name of Ireland that is now used in poetry"
+        }
+      ],
+      "candidate_categories": [
+        "noun.location"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    },
+    {
+      "normalized": "ESTONIA",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "Estonia",
+          "synset": "n:09012297",
+          "lexical_category": "noun.location",
+          "definition": "a republic in northeastern Europe on the Baltic Sea"
+        }
+      ],
+      "candidate_categories": [
+        "noun.location"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    },
+    {
+      "normalized": "FERRARA",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "Ferrara",
+          "synset": "n:08805386",
+          "lexical_category": "noun.location",
+          "definition": "a city in northern Italy; \"in the 13th century Ferrara was a center of Renaissance learning and the arts\""
+        }
+      ],
+      "candidate_categories": [
+        "noun.location"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    },
+    {
+      "normalized": "FIJI",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "Fiji",
+          "synset": "n:08779149",
+          "lexical_category": "noun.location",
+          "definition": "an independent state within the British Commonwealth located on the Fiji Islands"
+        }
+      ],
+      "candidate_categories": [
+        "noun.location"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    },
+    {
+      "normalized": "FLANDERS",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "Flanders",
+          "synset": "n:08849549",
+          "lexical_category": "noun.location",
+          "definition": "a medieval country in northern Europe that included regions now parts of northern France and Belgium and southwestern Netherlands"
+        }
+      ],
+      "candidate_categories": [
+        "noun.location"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    },
+    {
+      "normalized": "FLORENCE",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "Florence",
+          "synset": "n:08812166",
+          "lexical_category": "noun.location",
+          "definition": "a city in central Italy on the Arno; provincial capital of Tuscany; center of the Italian Renaissance from 14th to 16th centuries"
+        },
+        {
+          "lemma": "Florence",
+          "synset": "n:09138676",
+          "lexical_category": "noun.location",
+          "definition": "a town in northeast South Carolina; transportation center"
+        }
+      ],
+      "candidate_categories": [
+        "noun.location"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    },
+    {
+      "normalized": "FRANKFORT",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "Frankfort",
+          "synset": "n:08772922",
+          "lexical_category": "noun.location",
+          "definition": "a German city; an industrial and commercial and financial center"
+        },
+        {
+          "lemma": "Frankfort",
+          "synset": "n:09089631",
+          "lexical_category": "noun.location",
+          "definition": "the capital of Kentucky; located in northern Kentucky"
+        }
+      ],
+      "candidate_categories": [
+        "noun.location"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    },
+    {
+      "normalized": "FREEPORT",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "free_port",
+          "synset": "n:08638033",
+          "lexical_category": "noun.location",
+          "definition": "a port open on equal terms to all commercial vessels"
+        },
+        {
+          "lemma": "free_port",
+          "synset": "n:08639586",
+          "lexical_category": "noun.location",
+          "definition": "an area adjoining a port where goods that are intended for reshipment can be received and stored without payment of duties"
+        }
+      ],
+      "candidate_categories": [
+        "noun.location"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    },
+    {
+      "normalized": "GABON",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "Gabon",
+          "synset": "n:08945529",
+          "lexical_category": "noun.location",
+          "definition": "a republic on the west coast of Africa"
+        }
+      ],
+      "candidate_categories": [
+        "noun.location"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    },
+    {
+      "normalized": "GALLUP",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "Gallup",
+          "synset": "n:09115756",
+          "lexical_category": "noun.location",
+          "definition": "a town in northwestern New Mexico near the Arizona border"
+        }
+      ],
+      "candidate_categories": [
+        "noun.location"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    },
+    {
+      "normalized": "GAMBIA",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "Gambia",
+          "synset": "n:08945821",
+          "lexical_category": "noun.location",
+          "definition": "a narrow republic surrounded by Senegal in West Africa"
+        }
+      ],
+      "candidate_categories": [
+        "noun.location"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    },
+    {
+      "normalized": "GHANA",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "Ghana",
+          "synset": "n:08946187",
+          "lexical_category": "noun.location",
+          "definition": "a republic in West Africa on the Gulf of Guinea; \"Ghana was colonized as the Gold Coast by the British\""
+        }
+      ],
+      "candidate_categories": [
+        "noun.location"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    },
+    {
+      "normalized": "GLASGOW",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "Glasgow",
+          "synset": "n:08892971",
+          "lexical_category": "noun.location",
+          "definition": "largest city in Scotland; a port on the Clyde in west central Scotland; one of the great shipbuilding centers of the world"
+        }
+      ],
+      "candidate_categories": [
+        "noun.location"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    },
+    {
+      "normalized": "GLOUCESTER",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "Gloucester",
+          "synset": "n:08880083",
+          "lexical_category": "noun.location",
+          "definition": "a city in southwestern England in Gloucestershire on the Severn"
+        },
+        {
+          "lemma": "Gloucester",
+          "synset": "n:09097079",
+          "lexical_category": "noun.location",
+          "definition": "a town in northeastern Massachusetts on Cape Ann to the northeast of Boston; the harbor has been a fishing center for centuries"
+        }
+      ],
+      "candidate_categories": [
+        "noun.location"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    },
+    {
+      "normalized": "GOA",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "Goa",
+          "synset": "n:08905186",
+          "lexical_category": "noun.location",
+          "definition": "a state of southwestern India; a former Portuguese colony"
+        }
+      ],
+      "candidate_categories": [
+        "noun.location"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    },
+    {
+      "normalized": "GRANADA",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "Granada",
+          "synset": "n:09025863",
+          "lexical_category": "noun.location",
+          "definition": "a city in southeastern Spain that was the capital of the Moorish kingdom until it was captured by Ferdinand and Isabella in 1492; site of the Alhambra (a palace and fortress built by Moors in the Middle Ages) which is now a major tourist attraction"
+        }
+      ],
+      "candidate_categories": [
+        "noun.location"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    },
+    {
+      "normalized": "GRENADA",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "Grenada",
+          "synset": "n:08946909",
+          "lexical_category": "noun.location",
+          "definition": "an island state in the West Indies in the southeastern Caribbean Sea; an independent state within the British Commonwealth"
+        }
+      ],
+      "candidate_categories": [
+        "noun.location"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    },
+    {
+      "normalized": "GUYANA",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "Guyana",
+          "synset": "n:08948346",
+          "lexical_category": "noun.location",
+          "definition": "a republic in northeastern South America; formerly part of the British Empire, but it achieved independence from the United Kingdom in 1966"
+        }
+      ],
+      "candidate_categories": [
+        "noun.location"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    },
+    {
+      "normalized": "HAITI",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "Haiti",
+          "synset": "n:08751317",
+          "lexical_category": "noun.location",
+          "definition": "an island in the West Indies"
+        },
+        {
+          "lemma": "Haiti",
+          "synset": "n:08751494",
+          "lexical_category": "noun.location",
+          "definition": "a republic in the West Indies on the western part of the island of Hispaniola; achieved independence from France in 1804; the poorest and most illiterate nation in the western hemisphere"
+        }
+      ],
+      "candidate_categories": [
+        "noun.location"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    },
+    {
+      "normalized": "HALIFAX",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "Halifax",
+          "synset": "n:08827002",
+          "lexical_category": "noun.location",
+          "definition": "provincial capital and largest city of Nova Scotia"
+        }
+      ],
+      "candidate_categories": [
+        "noun.location"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    },
+    {
+      "normalized": "HANOI",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "Hanoi",
+          "synset": "n:09164095",
+          "lexical_category": "noun.location",
+          "definition": "the capital city of Vietnam; located in North Vietnam"
+        }
+      ],
+      "candidate_categories": [
+        "noun.location"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    },
+    {
+      "normalized": "HARLEM",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "Harlem",
+          "synset": "n:09121334",
+          "lexical_category": "noun.location",
+          "definition": "a district of Manhattan; now largely a Black ghetto"
+        }
+      ],
+      "candidate_categories": [
+        "noun.location"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    },
+    {
+      "normalized": "HELENA",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "Helena",
+          "synset": "n:09109180",
+          "lexical_category": "noun.location",
+          "definition": "capital of the state of Montana; located in western Montana"
+        }
+      ],
+      "candidate_categories": [
+        "noun.location"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    },
+    {
+      "normalized": "HELSINKI",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "Helsinki",
+          "synset": "n:08780018",
+          "lexical_category": "noun.location",
+          "definition": "the capital and largest city of Finland; located in southern Finland; a major port and commercial and cultural center"
+        }
+      ],
+      "candidate_categories": [
+        "noun.location"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    },
+    {
+      "normalized": "HERTFORDSHIRE",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "Hertfordshire",
+          "synset": "n:08882807",
+          "lexical_category": "noun.location",
+          "definition": "a county in southern England"
+        }
+      ],
+      "candidate_categories": [
+        "noun.location"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    },
+    {
+      "normalized": "HINDUSTAN",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "Hindustan",
+          "synset": "n:08902422",
+          "lexical_category": "noun.location",
+          "definition": "northern region of India where Hinduism predominates"
+        }
+      ],
+      "candidate_categories": [
+        "noun.location"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    },
+    {
+      "normalized": "HIROSHIMA",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "Hiroshima",
+          "synset": "n:08925287",
+          "lexical_category": "noun.location",
+          "definition": "a port city on the southwestern coast of Honshu in Japan; on August 6, 1945 Hiroshima was almost completely destroyed by the first atomic bomb dropped on a populated area"
+        }
+      ],
+      "candidate_categories": [
+        "noun.location"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    },
+    {
+      "normalized": "HONGKONG",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "Hong_Kong",
+          "synset": "n:08731148",
+          "lexical_category": "noun.location",
+          "definition": "formerly a Crown Colony on the coast of southern China in Guangdong province; leased by China to Britain in 1842 and returned in 1997; one of the world's leading commercial centers"
+        }
+      ],
+      "candidate_categories": [
+        "noun.location"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    },
+    {
+      "normalized": "YAKIMA",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "Yakima",
+          "synset": "n:09155199",
+          "lexical_category": "noun.location",
+          "definition": "a town in south central Washington"
+        }
+      ],
+      "candidate_categories": [
+        "noun.location"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    },
+    {
+      "normalized": "IBERIA",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "Iberia",
+          "synset": "n:08984567",
+          "lexical_category": "noun.location",
+          "definition": "a peninsula in southwestern Europe"
+        },
+        {
+          "lemma": "Iberia",
+          "synset": "n:09018647",
+          "lexical_category": "noun.location",
+          "definition": "an ancient geographical region to the south of the Caucasus Mountains that corresponded approximately to the present-day Georgia"
+        }
+      ],
+      "candidate_categories": [
+        "noun.location"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    },
+    {
+      "normalized": "INDOCHINA",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "Indochina",
+          "synset": "n:08731606",
+          "lexical_category": "noun.location",
+          "definition": "a peninsula of southeastern Asia that includes Myanmar and Cambodia and Laos and Malaysia and Thailand and Vietnam"
+        }
+      ],
+      "candidate_categories": [
+        "noun.location"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    },
+    {
+      "normalized": "INDONESIA",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "Indonesia",
+          "synset": "n:08907606",
+          "lexical_category": "noun.location",
+          "definition": "a republic in southeastern Asia on an archipelago including more than 13,000 islands; achieved independence from the Netherlands in 1945; the principal oil producer in the Far East and Pacific regions"
+        }
+      ],
+      "candidate_categories": [
+        "noun.location"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    },
+    {
+      "normalized": "YOKOHAMA",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "Yokohama",
+          "synset": "n:08924238",
+          "lexical_category": "noun.location",
+          "definition": "port city on southeastern Honshu in central Japan"
+        }
+      ],
+      "candidate_categories": [
+        "noun.location"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    },
+    {
+      "normalized": "YOUNGSTOWN",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "Youngstown",
+          "synset": "n:09131553",
+          "lexical_category": "noun.location",
+          "definition": "a city in northeast Ohio"
+        }
+      ],
+      "candidate_categories": [
+        "noun.location"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    },
+    {
+      "normalized": "IRAQ",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "Iraq",
+          "synset": "n:08913434",
+          "lexical_category": "noun.location",
+          "definition": "a republic in the Middle East in western Asia; the ancient civilization of Mesopotamia was in the area now known as Iraq"
+        }
+      ],
+      "candidate_categories": [
+        "noun.location"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    },
+    {
+      "normalized": "ITHACA",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "Ithaca",
+          "synset": "n:08784746",
+          "lexical_category": "noun.location",
+          "definition": "a Greek island to the west of Greece; in Homeric legend Odysseus was its king"
+        },
+        {
+          "lemma": "Ithaca",
+          "synset": "n:09121814",
+          "lexical_category": "noun.location",
+          "definition": "a college town in central New York on Lake Cayuga"
+        }
+      ],
+      "candidate_categories": [
+        "noun.location"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    },
+    {
+      "normalized": "JACKSONVILLE",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "Jacksonville",
+          "synset": "n:09073258",
+          "lexical_category": "noun.location",
+          "definition": "Florida's largest city; a port and important commercial center in northeastern Florida"
+        }
+      ],
+      "candidate_categories": [
+        "noun.location"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    },
+    {
+      "normalized": "JOHANNESBURG",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "Johannesburg",
+          "synset": "n:09000665",
+          "lexical_category": "noun.location",
+          "definition": "city in the northeastern part of South Africa near Pretoria; commercial center for diamond and gold industries"
+        }
+      ],
+      "candidate_categories": [
+        "noun.location"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    },
+    {
+      "normalized": "JUNEAU",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "Juneau",
+          "synset": "n:09055786",
+          "lexical_category": "noun.location",
+          "definition": "the state capital of Alaska"
+        }
+      ],
+      "candidate_categories": [
+        "noun.location"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    },
+    {
+      "normalized": "KASHMIR",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "Kashmir",
+          "synset": "n:08975617",
+          "lexical_category": "noun.location",
+          "definition": "an area in southwestern Asia whose sovereignty is disputed between Pakistan and India"
+        }
+      ],
+      "candidate_categories": [
+        "noun.location"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    },
+    {
+      "normalized": "KENYA",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "Kenya",
+          "synset": "n:08928193",
+          "lexical_category": "noun.location",
+          "definition": "a republic in eastern Africa; achieved independence from the United Kingdom in 1963; major archeological discoveries have been made in the Great Rift Valley in Kenya"
+        }
+      ],
+      "candidate_categories": [
+        "noun.location"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    },
+    {
+      "normalized": "KHARTOUM",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "Khartoum",
+          "synset": "n:09030210",
+          "lexical_category": "noun.location",
+          "definition": "the capital of Sudan located at the confluence of the Blue Nile and White Nile"
+        }
+      ],
+      "candidate_categories": [
+        "noun.location"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    },
+    {
+      "normalized": "KIEV",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "Kiev",
+          "synset": "n:09015907",
+          "lexical_category": "noun.location",
+          "definition": "capital and largest city of the Ukraine; a major manufacturing and transportation center"
+        }
+      ],
+      "candidate_categories": [
+        "noun.location"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    },
+    {
+      "normalized": "KYOTO",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "Kyoto",
+          "synset": "n:08925093",
+          "lexical_category": "noun.location",
+          "definition": "a city in central Japan on southern Honshu; a famous cultural center that was once the capital of Japan"
+        }
+      ],
+      "candidate_categories": [
+        "noun.location"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    },
+    {
+      "normalized": "KUWAIT",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "Kuwait",
+          "synset": "n:08929243",
+          "lexical_category": "noun.location",
+          "definition": "an Arab kingdom in Asia on the northwestern coast of the Persian Gulf; a major source of petroleum"
+        },
+        {
+          "lemma": "Kuwait",
+          "synset": "n:08929555",
+          "lexical_category": "noun.location",
+          "definition": "a seaport on the Persian Gulf and capital of Kuwait"
+        }
+      ],
+      "candidate_categories": [
+        "noun.location"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    },
+    {
+      "normalized": "LAHORE",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "Lahore",
+          "synset": "n:08977428",
+          "lexical_category": "noun.location",
+          "definition": "city in northeast Pakistan"
+        }
+      ],
+      "candidate_categories": [
+        "noun.location"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    },
+    {
+      "normalized": "LANCASHIRE",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "Lancashire",
+          "synset": "n:08884806",
+          "lexical_category": "noun.location",
+          "definition": "a historical area of northwestern England on the Irish Sea; noted for textiles"
+        }
+      ],
+      "candidate_categories": [
+        "noun.location"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    },
+    {
+      "normalized": "LANSING",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "Lansing",
+          "synset": "n:09101318",
+          "lexical_category": "noun.location",
+          "definition": "capital of the state of Michigan; located in southern Michigan on the Grand River"
+        }
+      ],
+      "candidate_categories": [
+        "noun.location"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    },
+    {
+      "normalized": "LAOS",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "Laos",
+          "synset": "n:08956760",
+          "lexical_category": "noun.location",
+          "definition": "a mountainous landlocked communist state in southeastern Asia; achieved independence from France in 1949"
+        }
+      ],
+      "candidate_categories": [
+        "noun.location"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    },
+    {
+      "normalized": "LAPLAND",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "Lapland",
+          "synset": "n:08957212",
+          "lexical_category": "noun.location",
+          "definition": "a region in northmost Europe inhabited by Lapps"
+        }
+      ],
+      "candidate_categories": [
+        "noun.location"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    },
+    {
+      "normalized": "LARAMIE",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "Laramie",
+          "synset": "n:09160056",
+          "lexical_category": "noun.location",
+          "definition": "a university town in southeast Wyoming"
+        }
+      ],
+      "candidate_categories": [
+        "noun.location"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    },
+    {
+      "normalized": "LATVIA",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "Latvia",
+          "synset": "n:09013074",
+          "lexical_category": "noun.location",
+          "definition": "a republic in northeastern Europe on the eastern coast of the Baltic Sea"
+        }
+      ],
+      "candidate_categories": [
+        "noun.location"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    },
+    {
+      "normalized": "LAWTON",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "Lawton",
+          "synset": "n:09132266",
+          "lexical_category": "noun.location",
+          "definition": "a town in southwest Oklahoma"
+        }
+      ],
+      "candidate_categories": [
+        "noun.location"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    },
+    {
+      "normalized": "LIBERIA",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "Liberia",
+          "synset": "n:08959254",
+          "lexical_category": "noun.location",
+          "definition": "a republic in West Africa; established in 1822 by Americans as a way to free negro slaves"
+        }
+      ],
+      "candidate_categories": [
+        "noun.location"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    },
+    {
+      "normalized": "LIECHTENSTEIN",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "Liechtenstein",
+          "synset": "n:08960548",
+          "lexical_category": "noun.location",
+          "definition": "a small landlocked principality (constitutional monarchy) in central Europe located in the Alps between Austria and Switzerland"
+        }
+      ],
+      "candidate_categories": [
+        "noun.location"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    },
+    {
+      "normalized": "LIMA",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "Lima",
+          "synset": "n:08979878",
+          "lexical_category": "noun.location",
+          "definition": "capital and largest city and economic center of Peru; located in western Peru; was capital of the Spanish empire in the New World until the 19th century"
+        }
+      ],
+      "candidate_categories": [
+        "noun.location"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    },
+    {
+      "normalized": "LOWLANDS",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "Lowlands",
+          "synset": "n:08891889",
+          "lexical_category": "noun.location",
+          "definition": "the southern part of Scotland that is not mountainous"
+        }
+      ],
+      "candidate_categories": [
+        "noun.location"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    },
+    {
+      "normalized": "LUXEMBURG",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "Luxemburg",
+          "synset": "n:08960987",
+          "lexical_category": "noun.location",
+          "definition": "a grand duchy (a constitutional monarchy) landlocked in northwestern Europe between France and Belgium and Germany; an international financial center"
+        },
+        {
+          "lemma": "Luxemburg",
+          "synset": "n:08961402",
+          "lexical_category": "noun.location",
+          "definition": "the capital and largest city of Luxembourg"
+        }
+      ],
+      "candidate_categories": [
+        "noun.location"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    },
+    {
+      "normalized": "MACAO",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "Macao",
+          "synset": "n:08731423",
+          "lexical_category": "noun.location",
+          "definition": "a former Portuguese province on the south coast of China and two islands in the South China Sea; reverted to China in 1999"
+        }
+      ],
+      "candidate_categories": [
+        "noun.location"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    },
+    {
+      "normalized": "MADAGASCAR",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "Madagascar",
+          "synset": "n:08961970",
+          "lexical_category": "noun.location",
+          "definition": "an island in the Indian Ocean off the southeastern coast of Africa; the 4th largest island in the world"
+        },
+        {
+          "lemma": "Madagascar",
+          "synset": "n:08962187",
+          "lexical_category": "noun.location",
+          "definition": "a republic on the island of Madagascar; achieved independence from France in 1960"
+        }
+      ],
+      "candidate_categories": [
+        "noun.location"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    },
+    {
+      "normalized": "MALAGA",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "Malaga",
+          "synset": "n:09026614",
+          "lexical_category": "noun.location",
+          "definition": "a port city and resort in Andalusia in southern Spain on the Mediterranean"
+        }
+      ],
+      "candidate_categories": [
+        "noun.location"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    },
+    {
+      "normalized": "MALAYA",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "Malaya",
+          "synset": "n:08963369",
+          "lexical_category": "noun.location",
+          "definition": "a constitutional monarchy in southeastern Asia on Borneo and the Malay Peninsula; achieved independence from the United Kingdom in 1957"
+        }
+      ],
+      "candidate_categories": [
+        "noun.location"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    },
+    {
+      "normalized": "MALI",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "Mali",
+          "synset": "n:08965598",
+          "lexical_category": "noun.location",
+          "definition": "a landlocked republic in northwestern Africa; achieved independence from France in 1960; Mali was a center of West African civilization for more than 4,000 years"
+        }
+      ],
+      "candidate_categories": [
+        "noun.location"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    },
+    {
+      "normalized": "MANDALAY",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "Mandalay",
+          "synset": "n:08715952",
+          "lexical_category": "noun.location",
+          "definition": "a city in central Myanmar to the north of Rangoon"
+        }
+      ],
+      "candidate_categories": [
+        "noun.location"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    },
+    {
+      "normalized": "MANITOBA",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "Manitoba",
+          "synset": "n:08823968",
+          "lexical_category": "noun.location",
+          "definition": "one of the three prairie provinces in central Canada"
+        }
+      ],
+      "candidate_categories": [
+        "noun.location"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    },
+    {
+      "normalized": "MARSEILLES",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "Marseilles",
+          "synset": "n:08936833",
+          "lexical_category": "noun.location",
+          "definition": "a port city in southeastern France on the Mediterranean"
+        }
+      ],
+      "candidate_categories": [
+        "noun.location"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    },
+    {
+      "normalized": "MAURITANIA",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "Mauritania",
+          "synset": "n:08966820",
+          "lexical_category": "noun.location",
+          "definition": "a country in northwestern Africa with a provisional military government; achieved independence from France in 1960; largely western Sahara Desert"
+        }
+      ],
+      "candidate_categories": [
+        "noun.location"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    },
+    {
+      "normalized": "MECCA",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "mecca",
+          "synset": "n:08598568",
+          "lexical_category": "noun.location",
+          "definition": "a place that attracts many visitors; \"New York is a mecca for young artists\""
+        },
+        {
+          "lemma": "Mecca",
+          "synset": "n:08994090",
+          "lexical_category": "noun.location",
+          "definition": "joint capital (with Riyadh) of Saudi Arabia; located in western Saudi Arabia; as the birthplace of Muhammad it is the holiest city of Islam"
+        }
+      ],
+      "candidate_categories": [
+        "noun.location"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    },
+    {
+      "normalized": "MEDELLIN",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "Medellin",
+          "synset": "n:08733291",
+          "lexical_category": "noun.location",
+          "definition": "city in western Colombia; important coffee center"
+        }
+      ],
+      "candidate_categories": [
+        "noun.location"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    },
+    {
+      "normalized": "MICRONESIA",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "Micronesia",
+          "synset": "n:08836886",
+          "lexical_category": "noun.location",
+          "definition": "the islands in the northwestern part of Oceania"
+        },
+        {
+          "lemma": "Micronesia",
+          "synset": "n:08837048",
+          "lexical_category": "noun.location",
+          "definition": "a country scattered over Micronesia with a constitutional government in free association with the United States; achieved independence in 1986"
+        }
+      ],
+      "candidate_categories": [
+        "noun.location"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    },
+    {
+      "normalized": "MIDEAST",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "Mideast",
+          "synset": "n:08791167",
+          "lexical_category": "noun.location",
+          "definition": "the area around the eastern Mediterranean; from Turkey to northern Africa and eastward to Iran; the site of such ancient civilizations as Phoenicia and Babylon and Egypt and the birthplace of Judaism and Christianity and Islam; had continuous economic and political turmoil in the 20th century; \"the Middle East is the cradle of Western civilization\""
+        }
+      ],
+      "candidate_categories": [
+        "noun.location"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    },
+    {
+      "normalized": "MYSORE",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "Mysore",
+          "synset": "n:08902196",
+          "lexical_category": "noun.location",
+          "definition": "state in southern India; formerly Mysore"
+        },
+        {
+          "lemma": "Mysore",
+          "synset": "n:08904731",
+          "lexical_category": "noun.location",
+          "definition": "a city in southern India to the southwest of Bangalore"
+        }
+      ],
+      "candidate_categories": [
+        "noun.location"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    },
+    {
+      "normalized": "MONA",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "Mona",
+          "synset": "n:08895928",
+          "lexical_category": "noun.location",
+          "definition": "an island to the northwest of Wales"
+        }
+      ],
+      "candidate_categories": [
+        "noun.location"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    },
+    {
+      "normalized": "MONGOLIA",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "Mongolia",
+          "synset": "n:08968677",
+          "lexical_category": "noun.location",
+          "definition": "a vast region in Asia including the Mongolian People's Republic and China's Inner Mongolia"
+        },
+        {
+          "lemma": "Mongolia",
+          "synset": "n:08968879",
+          "lexical_category": "noun.location",
+          "definition": "a landlocked socialist republic in central Asia"
+        }
+      ],
+      "candidate_categories": [
+        "noun.location"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    },
+    {
+      "normalized": "MONTEVIDEO",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "Montevideo",
+          "synset": "n:09160571",
+          "lexical_category": "noun.location",
+          "definition": "the capital and largest city of Uruguay; a cosmopolitan city and one of the busiest ports in South America"
+        }
+      ],
+      "candidate_categories": [
+        "noun.location"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    },
+    {
+      "normalized": "MONTPELIER",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "Montpelier",
+          "synset": "n:09148259",
+          "lexical_category": "noun.location",
+          "definition": "capital of the state of Vermont; located in north central Vermont"
+        }
+      ],
+      "candidate_categories": [
+        "noun.location"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    },
+    {
+      "normalized": "MOSUL",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "Mosul",
+          "synset": "n:08915017",
+          "lexical_category": "noun.location",
+          "definition": "a city in northern Iraq on the Tigris across from the ruins of Nineveh"
+        }
+      ],
+      "candidate_categories": [
+        "noun.location"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    },
+    {
+      "normalized": "NAGASAKI",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "Nagasaki",
+          "synset": "n:08925957",
+          "lexical_category": "noun.location",
+          "definition": "a city in southern Japan on Kyushu; a leading port and shipbuilding center; on August 9, 1945 Nagasaki became the second populated area to receive an atomic bomb"
+        }
+      ],
+      "candidate_categories": [
+        "noun.location"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    },
+    {
+      "normalized": "NANKING",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "Nanking",
+          "synset": "n:08728066",
+          "lexical_category": "noun.location",
+          "definition": "a city in eastern China on the Yangtze River; a former capital of China; the scene of a Japanese massacre in the 1930s"
+        }
+      ],
+      "candidate_categories": [
+        "noun.location"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    },
+    {
+      "normalized": "NATCHEZ",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "Natchez",
+          "synset": "n:09105260",
+          "lexical_category": "noun.location",
+          "definition": "a town in southwest Mississippi on the Mississippi River"
+        }
+      ],
+      "candidate_categories": [
+        "noun.location"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    },
+    {
+      "normalized": "NICE",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "Nice",
+          "synset": "n:08937251",
+          "lexical_category": "noun.location",
+          "definition": "a city in southeastern France on the Mediterranean; the leading resort on the French Riviera"
+        }
+      ],
+      "candidate_categories": [
+        "noun.location"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    },
+    {
+      "normalized": "NIGERIA",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "Nigeria",
+          "synset": "n:08973776",
+          "lexical_category": "noun.location",
+          "definition": "a republic in West Africa on the Gulf of Guinea; gained independence from Britain in 1960; most populous African country"
+        }
+      ],
+      "candidate_categories": [
+        "noun.location"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    },
+    {
+      "normalized": "NIPPON",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "Nippon",
+          "synset": "n:08921850",
+          "lexical_category": "noun.location",
+          "definition": "a constitutional monarchy occupying the Japanese Archipelago; a world leader in electronics and automobile manufacture and ship building"
+        }
+      ],
+      "candidate_categories": [
+        "noun.location"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    },
+    {
+      "normalized": "NORMANDY",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "Normandy",
+          "synset": "n:08944561",
+          "lexical_category": "noun.location",
+          "definition": "a former province of northwestern France on the English channel; divided into Haute-Normandie and Basse-Normandie"
+        }
+      ],
+      "candidate_categories": [
+        "noun.location"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    },
+    {
+      "normalized": "OCEANIA",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "Oceania",
+          "synset": "n:08835875",
+          "lexical_category": "noun.location",
+          "definition": "a large group of islands in the south Pacific including Melanesia and Micronesia and Polynesia (and sometimes Australasia and the Malay Archipelago)"
+        }
+      ],
+      "candidate_categories": [
+        "noun.location"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    },
+    {
+      "normalized": "ODESSA",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "Odessa",
+          "synset": "n:09017005",
+          "lexical_category": "noun.location",
+          "definition": "a port city of south central Ukraine on an arm of the Black Sea"
+        },
+        {
+          "lemma": "Odessa",
+          "synset": "n:09145655",
+          "lexical_category": "noun.location",
+          "definition": "a city in western Texas"
+        }
+      ],
+      "candidate_categories": [
+        "noun.location"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    },
+    {
+      "normalized": "OMAN",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "Oman",
+          "synset": "n:08975106",
+          "lexical_category": "noun.location",
+          "definition": "a strategically located monarchy on the southern and eastern coasts of the Arabian Peninsula; the economy is dominated by oil"
+        }
+      ],
+      "candidate_categories": [
+        "noun.location"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    },
+    {
+      "normalized": "OSAKA",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "Osaka",
+          "synset": "n:08924023",
+          "lexical_category": "noun.location",
+          "definition": "port city on southern Honshu on Osaka Bay; a commercial and industrial center of Japan"
+        }
+      ],
+      "candidate_categories": [
+        "noun.location"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    },
+    {
+      "normalized": "OSLO",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "Oslo",
+          "synset": "n:08765069",
+          "lexical_category": "noun.location",
+          "definition": "the capital and largest city of Norway; the country's main port; located at the head of a fjord on Norway's southern coast"
+        }
+      ],
+      "candidate_categories": [
+        "noun.location"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    },
+    {
+      "normalized": "OUTSKIRTS",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "outskirts",
+          "synset": "n:08539276",
+          "lexical_category": "noun.location",
+          "definition": "outlying areas (as of a city or town); \"they lived on the outskirts of Houston\"; \"they mingled in the outskirts of the crowd\""
+        }
+      ],
+      "candidate_categories": [
+        "noun.location"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    },
+    {
+      "normalized": "PALAU",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "Palau",
+          "synset": "n:08977948",
+          "lexical_category": "noun.location",
+          "definition": "a chain of more than 200 islands about 400 miles long in the western central Pacific Ocean"
+        },
+        {
+          "lemma": "Palau",
+          "synset": "n:08978161",
+          "lexical_category": "noun.location",
+          "definition": "a republic in the western central Pacific Ocean in association with the United States"
+        }
+      ],
+      "candidate_categories": [
+        "noun.location"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    },
+    {
+      "normalized": "PALERMO",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "Palermo",
+          "synset": "n:08811473",
+          "lexical_category": "noun.location",
+          "definition": "the capital of Sicily; located in northwestern Sicily; an important port for 3000 years"
+        }
+      ],
+      "candidate_categories": [
+        "noun.location"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    },
+    {
+      "normalized": "PALESTINE",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "Palestine",
+          "synset": "n:08798382",
+          "lexical_category": "noun.location",
+          "definition": "an ancient country in southwestern Asia on the east coast of the Mediterranean Sea; a place of pilgrimage for Christianity and Islam and Judaism"
+        },
+        {
+          "lemma": "Palestine",
+          "synset": "n:08798771",
+          "lexical_category": "noun.location",
+          "definition": "a former British mandate on the east coast of the Mediterranean; divided between Jordan and Israel in 1948"
+        }
+      ],
+      "candidate_categories": [
+        "noun.location"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    },
+    {
+      "normalized": "PAPUA",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "Papua",
+          "synset": "n:08844923",
+          "lexical_category": "noun.location",
+          "definition": "the southeastern part of Papua New Guinea"
+        }
+      ],
+      "candidate_categories": [
+        "noun.location"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    },
+    {
+      "normalized": "PARAGUAY",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "Paraguay",
+          "synset": "n:08978343",
+          "lexical_category": "noun.location",
+          "definition": "a landlocked republic in south central South America; achieved independence from Spain in 1811"
+        }
+      ],
+      "candidate_categories": [
+        "noun.location"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    },
+    {
+      "normalized": "PATAGONIA",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "Patagonia",
+          "synset": "n:08711468",
+          "lexical_category": "noun.location",
+          "definition": "region in southern South America between the Andes and the South Atlantic"
+        }
+      ],
+      "candidate_categories": [
+        "noun.location"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    },
+    {
+      "normalized": "PEORIA",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "Peoria",
+          "synset": "n:09084075",
+          "lexical_category": "noun.location",
+          "definition": "a city in central Illinois on the Illinois River"
+        }
+      ],
+      "candidate_categories": [
+        "noun.location"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    },
+    {
+      "normalized": "PIERRE",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "Pierre",
+          "synset": "n:09139508",
+          "lexical_category": "noun.location",
+          "definition": "capital of the state of South Dakota; located in central South Dakota on the Missouri river"
+        }
+      ],
+      "candidate_categories": [
+        "noun.location"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    },
+    {
+      "normalized": "PYONGYANG",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "Pyongyang",
+          "synset": "n:08955397",
+          "lexical_category": "noun.location",
+          "definition": "capital of North Korea and an industrial center; \"Pyongyang is Korea's oldest city but little of its history has been preserved\""
+        }
+      ],
+      "candidate_categories": [
+        "noun.location"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    },
+    {
+      "normalized": "PISA",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "Pisa",
+          "synset": "n:08809910",
+          "lexical_category": "noun.location",
+          "definition": "a city in Tuscany; site of the famous Leaning Tower"
+        }
+      ],
+      "candidate_categories": [
+        "noun.location"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    },
+    {
+      "normalized": "POLYNESIA",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "Polynesia",
+          "synset": "n:08841667",
+          "lexical_category": "noun.location",
+          "definition": "the islands in the eastern part of Oceania"
+        }
+      ],
+      "candidate_categories": [
+        "noun.location"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    },
+    {
+      "normalized": "POMPEII",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "Pompeii",
+          "synset": "n:08803883",
+          "lexical_category": "noun.location",
+          "definition": "ancient city to the southeast of Naples that was buried by a volcanic eruption from Vesuvius"
+        }
+      ],
+      "candidate_categories": [
+        "noun.location"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    },
+    {
+      "normalized": "PRAGUE",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "Prague",
+          "synset": "n:08757926",
+          "lexical_category": "noun.location",
+          "definition": "the capital and largest city of the Czech Republic in the western part of the country; a cultural and commercial center since the 14th century"
+        }
+      ],
+      "candidate_categories": [
+        "noun.location"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    },
+    {
+      "normalized": "PROVENANCE",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "provenance",
+          "synset": "n:08510456",
+          "lexical_category": "noun.location",
+          "definition": "where something originated or was nurtured in its early existence; \"the birthplace of civilization\""
+        }
+      ],
+      "candidate_categories": [
+        "noun.location"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    },
+    {
+      "normalized": "PROVENCE",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "Provence",
+          "synset": "n:08944960",
+          "lexical_category": "noun.location",
+          "definition": "a former province of southeastern France; now administered with Cote d'Azur"
+        }
+      ],
+      "candidate_categories": [
+        "noun.location"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    },
+    {
+      "normalized": "QATAR",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "Qatar",
+          "synset": "n:08986691",
+          "lexical_category": "noun.location",
+          "definition": "a peninsula extending northward from the Arabian mainland into the Persian Gulf"
+        },
+        {
+          "lemma": "Qatar",
+          "synset": "n:08986905",
+          "lexical_category": "noun.location",
+          "definition": "an Arab country on the peninsula of Qatar; achieved independence from the United Kingdom in 1971; the economy is dominated by oil"
+        }
+      ],
+      "candidate_categories": [
+        "noun.location"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    },
+    {
+      "normalized": "QUITO",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "Quito",
+          "synset": "n:08777233",
+          "lexical_category": "noun.location",
+          "definition": "the capital of Ecuador"
+        }
+      ],
+      "candidate_categories": [
+        "noun.location"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    },
+    {
+      "normalized": "RABAT",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "Rabat",
+          "synset": "n:08970445",
+          "lexical_category": "noun.location",
+          "definition": "the capital of Morocco; located in the northwestern on the Atlantic coast"
+        }
+      ],
+      "candidate_categories": [
+        "noun.location"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    },
+    {
+      "normalized": "RANGOON",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "Rangoon",
+          "synset": "n:08715777",
+          "lexical_category": "noun.location",
+          "definition": "the capital and largest city of Myanmar; located in the south near the Irrawaddy river delta"
+        }
+      ],
+      "candidate_categories": [
+        "noun.location"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    },
+    {
+      "normalized": "REDDING",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "Redding",
+          "synset": "n:09064729",
+          "lexical_category": "noun.location",
+          "definition": "a town in north central California on the Sacramento River"
+        }
+      ],
+      "candidate_categories": [
+        "noun.location"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    },
+    {
+      "normalized": "REDLINE",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "red_line",
+          "synset": "n:08629922",
+          "lexical_category": "noun.location",
+          "definition": "a line that is colored red and that bisects an ice hockey rink"
+        }
+      ],
+      "candidate_categories": [
+        "noun.location"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    },
+    {
+      "normalized": "REGINA",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "Regina",
+          "synset": "n:08830005",
+          "lexical_category": "noun.location",
+          "definition": "the provincial capital of Saskatchewan"
+        }
+      ],
+      "candidate_categories": [
+        "noun.location"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    },
+    {
+      "normalized": "REYKJAVIK",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "Reykjavik",
+          "synset": "n:08953596",
+          "lexical_category": "noun.location",
+          "definition": "the capital and chief port of Iceland on the southwestern coast of Iceland; buildings are heated by natural hot water"
+        }
+      ],
+      "candidate_categories": [
+        "noun.location"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    },
+    {
+      "normalized": "RENO",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "Reno",
+          "synset": "n:09111168",
+          "lexical_category": "noun.location",
+          "definition": "a city in western Nevada at the foot of the Sierra Nevada Mountains; known for gambling casinos and easy divorce and remarriage"
+        }
+      ],
+      "candidate_categories": [
+        "noun.location"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    },
+    {
+      "normalized": "RHODESIA",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "Rhodesia",
+          "synset": "n:09167101",
+          "lexical_category": "noun.location",
+          "definition": "a landlocked republic in south central Africa formerly called Rhodesia; achieved independence from the United Kingdom in 1980"
+        }
+      ],
+      "candidate_categories": [
+        "noun.location"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    },
+    {
+      "normalized": "RIGA",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "Riga",
+          "synset": "n:09013353",
+          "lexical_category": "noun.location",
+          "definition": "a port city on the Gulf of Riga that is the capital and largest city of Latvia; formerly a member of the Hanseatic League"
+        }
+      ],
+      "candidate_categories": [
+        "noun.location"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    },
+    {
+      "normalized": "RIVIERA",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "Riviera",
+          "synset": "n:08939201",
+          "lexical_category": "noun.location",
+          "definition": "a coastal area between La Spezia in Italy and Cannes in France; \"the Riviera contains some of Europe's most popular resorts\""
+        }
+      ],
+      "candidate_categories": [
+        "noun.location"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    },
+    {
+      "normalized": "RUS",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "Rus",
+          "synset": "n:09002630",
+          "lexical_category": "noun.location",
+          "definition": "the medieval Russian state established by Scandinavian traders in the 9th century; the capital was first in Novgorod and then in Kiev"
+        }
+      ],
+      "candidate_categories": [
+        "noun.location"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    },
+    {
+      "normalized": "SABA",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "Saba",
+          "synset": "n:08749167",
+          "lexical_category": "noun.location",
+          "definition": "a island in the Netherlands Antilles that is the top of an extinct volcano"
+        }
+      ],
+      "candidate_categories": [
+        "noun.location"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    },
+    {
+      "normalized": "SAIGON",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "Saigon",
+          "synset": "n:09164241",
+          "lexical_category": "noun.location",
+          "definition": "a city in South Vietnam; formerly (as Saigon) it was the capital of French Indochina"
+        }
+      ],
+      "candidate_categories": [
+        "noun.location"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    },
+    {
+      "normalized": "SALINA",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "Salina",
+          "synset": "n:09088718",
+          "lexical_category": "noun.location",
+          "definition": "a town in central Kansas"
+        }
+      ],
+      "candidate_categories": [
+        "noun.location"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    },
+    {
+      "normalized": "SALISBURY",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "Salisbury",
+          "synset": "n:09167505",
+          "lexical_category": "noun.location",
+          "definition": "the capital and largest city of Zimbabwe"
+        }
+      ],
+      "candidate_categories": [
+        "noun.location"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    },
+    {
+      "normalized": "SANTOS",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "Santos",
+          "synset": "n:08856630",
+          "lexical_category": "noun.location",
+          "definition": "a port city in southwestern Brazil on an offshore island near Sao Paulo"
+        }
+      ],
+      "candidate_categories": [
+        "noun.location"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    },
+    {
+      "normalized": "SARDINIA",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "Sardinia",
+          "synset": "n:08810631",
+          "lexical_category": "noun.location",
+          "definition": "an island in the Mediterranean to the west of Italy"
+        },
+        {
+          "lemma": "Sardinia",
+          "synset": "n:08810786",
+          "lexical_category": "noun.location",
+          "definition": "the Italian region on the island of Sardinia; the kingdom of Sardinia was the nucleus for uniting Italy during the 19th century"
+        }
+      ],
+      "candidate_categories": [
+        "noun.location"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    },
+    {
+      "normalized": "SAXONY",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "Saxony",
+          "synset": "n:08769179",
+          "lexical_category": "noun.location",
+          "definition": "an area in Germany around the upper Elbe river; the original home of the Saxons"
+        }
+      ],
+      "candidate_categories": [
+        "noun.location"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    },
+    {
+      "normalized": "SEE",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "see",
+          "synset": "n:08586825",
+          "lexical_category": "noun.location",
+          "definition": "the seat within a bishop's diocese where his cathedral is located"
+        }
+      ],
+      "candidate_categories": [
+        "noun.location"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    },
+    {
+      "normalized": "SENEGAL",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "Senegal",
+          "synset": "n:08995862",
+          "lexical_category": "noun.location",
+          "definition": "a republic in northwestern Africa on the coast of the Atlantic; formerly a French colony but achieved independence in 1960"
+        }
+      ],
+      "candidate_categories": [
+        "noun.location"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    },
+    {
+      "normalized": "SEOUL",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "Seoul",
+          "synset": "n:08955951",
+          "lexical_category": "noun.location",
+          "definition": "the capital of South Korea and the largest city of Asia; located in northwestern South Korea"
+        }
+      ],
+      "candidate_categories": [
+        "noun.location"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    },
+    {
+      "normalized": "SEVASTOPOL",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "Sevastopol",
+          "synset": "n:09017168",
+          "lexical_category": "noun.location",
+          "definition": "a city in southern Ukraine on the Black Sea"
+        }
+      ],
+      "candidate_categories": [
+        "noun.location"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    },
+    {
+      "normalized": "SEVILLE",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "Seville",
+          "synset": "n:09027089",
+          "lexical_category": "noun.location",
+          "definition": "a city in southwestern Spain; a major port and cultural center; the capital of bullfighting in Spain"
+        }
+      ],
+      "candidate_categories": [
+        "noun.location"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    },
+    {
+      "normalized": "SHEFFIELD",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "Sheffield",
+          "synset": "n:08880375",
+          "lexical_category": "noun.location",
+          "definition": "a steel manufacturing city in northern England famous for its cutlery industry"
+        }
+      ],
+      "candidate_categories": [
+        "noun.location"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    },
+    {
+      "normalized": "SHIRAZ",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "Shiraz",
+          "synset": "n:08912279",
+          "lexical_category": "noun.location",
+          "definition": "a city in central southwestern Iran; ruins of ancient Persepolis are nearby"
+        }
+      ],
+      "candidate_categories": [
+        "noun.location"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    },
+    {
+      "normalized": "SHREVEPORT",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "Shreveport",
+          "synset": "n:09092352",
+          "lexical_category": "noun.location",
+          "definition": "a city in northwest Louisiana on the Red River near the Texas border"
+        }
+      ],
+      "candidate_categories": [
+        "noun.location"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    },
+    {
+      "normalized": "SIAM",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "Siam",
+          "synset": "n:09036452",
+          "lexical_category": "noun.location",
+          "definition": "a country of southeastern Asia that extends southward along the Isthmus of Kra to the Malay Peninsula; \"Thailand is the official name of the former Siam\""
+        }
+      ],
+      "candidate_categories": [
+        "noun.location"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    },
+    {
+      "normalized": "SICILY",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "Sicily",
+          "synset": "n:08810999",
+          "lexical_category": "noun.location",
+          "definition": "the largest island in the Mediterranean"
+        },
+        {
+          "lemma": "Sicily",
+          "synset": "n:08811215",
+          "lexical_category": "noun.location",
+          "definition": "the Italian region on the island of Sicily"
+        }
+      ],
+      "candidate_categories": [
+        "noun.location"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    },
+    {
+      "normalized": "SIKKIM",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "Sikkim",
+          "synset": "n:08902569",
+          "lexical_category": "noun.location",
+          "definition": "a geographical area and former kingdom in northeastern India in the Himalaya Mountains between Nepal and Bhutan"
+        }
+      ],
+      "candidate_categories": [
+        "noun.location"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    },
+    {
+      "normalized": "SIND",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "Sind",
+          "synset": "n:08977845",
+          "lexical_category": "noun.location",
+          "definition": "a region of southeastern Pakistan"
+        }
+      ],
+      "candidate_categories": [
+        "noun.location"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    },
+    {
+      "normalized": "SITKA",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "Sitka",
+          "synset": "n:09056278",
+          "lexical_category": "noun.location",
+          "definition": "a town in southeastern Alaska that was the capital of Russian America and served as the capital of Alaska from 1867 until 1906"
+        }
+      ],
+      "candidate_categories": [
+        "noun.location"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    },
+    {
+      "normalized": "SOFIA",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "Sofia",
+          "synset": "n:08714458",
+          "lexical_category": "noun.location",
+          "definition": "capital and largest city of Bulgaria located in western Bulgaria"
+        }
+      ],
+      "candidate_categories": [
+        "noun.location"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    },
+    {
+      "normalized": "SOMALIA",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "Somalia",
+          "synset": "n:08998560",
+          "lexical_category": "noun.location",
+          "definition": "a republic in extreme eastern Africa on the Somali peninsula; subject to tribal warfare"
+        }
+      ],
+      "candidate_categories": [
+        "noun.location"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    },
+    {
+      "normalized": "SPARTA",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "Sparta",
+          "synset": "n:08787240",
+          "lexical_category": "noun.location",
+          "definition": "an ancient Greek city famous for military prowess; the dominant city of the Peloponnesus prior to the 4th century BC"
+        }
+      ],
+      "candidate_categories": [
+        "noun.location"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    },
+    {
+      "normalized": "SPOKANE",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "Spokane",
+          "synset": "n:09154607",
+          "lexical_category": "noun.location",
+          "definition": "a city in eastern Washington near the Idaho border"
+        }
+      ],
+      "candidate_categories": [
+        "noun.location"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    },
+    {
+      "normalized": "STALINGRAD",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "Stalingrad",
+          "synset": "n:09010085",
+          "lexical_category": "noun.location",
+          "definition": "a city in the European part of Russia on the Volga; site of German defeat in World War II in the winter of 1942-43"
+        }
+      ],
+      "candidate_categories": [
+        "noun.location"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    },
+    {
+      "normalized": "STOCKHOLM",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "Stockholm",
+          "synset": "n:08766236",
+          "lexical_category": "noun.location",
+          "definition": "the capital and largest city of Sweden; located in southern Sweden on the Baltic; \"the Nobel Prize is awarded in Stockholm\""
+        }
+      ],
+      "candidate_categories": [
+        "noun.location"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    },
+    {
+      "normalized": "STONEHENGE",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "Stonehenge",
+          "synset": "n:08656750",
+          "lexical_category": "noun.location",
+          "definition": "an ancient megalithic monument in southern England; probably used for ritual purposes"
+        }
+      ],
+      "candidate_categories": [
+        "noun.location"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    },
+    {
+      "normalized": "SUISSE",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "Suisse",
+          "synset": "n:09031653",
+          "lexical_category": "noun.location",
+          "definition": "a landlocked federal republic in central Europe"
+        }
+      ],
+      "candidate_categories": [
+        "noun.location"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    },
+    {
+      "normalized": "SUMATRA",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "Sumatra",
+          "synset": "n:08908954",
+          "lexical_category": "noun.location",
+          "definition": "a mountainous island in western Indonesia"
+        }
+      ],
+      "candidate_categories": [
+        "noun.location"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    },
+    {
+      "normalized": "SUR",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "Sur",
+          "synset": "n:08958334",
+          "lexical_category": "noun.location",
+          "definition": "a port in southern Lebanon on the Mediterranean Sea; formerly a major Phoenician seaport famous for silks"
+        }
+      ],
+      "candidate_categories": [
+        "noun.location"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    },
+    {
+      "normalized": "SUSSEX",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "Sussex",
+          "synset": "n:08886432",
+          "lexical_category": "noun.location",
+          "definition": "a county in southern England on the English Channel; formerly an Anglo-Saxon kingdom that was captured by Wessex in the 9th century"
+        }
+      ],
+      "candidate_categories": [
+        "noun.location"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    },
+    {
+      "normalized": "SWAZILAND",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "Swaziland",
+          "synset": "n:09031233",
+          "lexical_category": "noun.location",
+          "definition": "a landlocked monarchy in southeastern Africa; member of the commonwealth that achieved independence from the United Kingdom in 1968"
+        }
+      ],
+      "candidate_categories": [
+        "noun.location"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    },
+    {
+      "normalized": "TAHITI",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "Tahiti",
+          "synset": "n:08989941",
+          "lexical_category": "noun.location",
+          "definition": "an island in the south Pacific; the most important island in French Polynesia; made famous by Robert Louis Stevenson and Paul Gauguin"
+        }
+      ],
+      "candidate_categories": [
+        "noun.location"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    },
+    {
+      "normalized": "TAIPEI",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "Taipei",
+          "synset": "n:08730895",
+          "lexical_category": "noun.location",
+          "definition": "the capital of Nationalist China; located in northern Taiwan"
+        }
+      ],
+      "candidate_categories": [
+        "noun.location"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    },
+    {
+      "normalized": "TALLAHASSEE",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "Tallahassee",
+          "synset": "n:09075170",
+          "lexical_category": "noun.location",
+          "definition": "capital of the state of Florida; located in northern Florida"
+        }
+      ],
+      "candidate_categories": [
+        "noun.location"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    },
+    {
+      "normalized": "TANGIER",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "Tangier",
+          "synset": "n:08970611",
+          "lexical_category": "noun.location",
+          "definition": "a city of northern Morocco at the west end of the Strait of Gibraltar; \"the first tangerines were shipped from Tangier to Europe in 1841\""
+        }
+      ],
+      "candidate_categories": [
+        "noun.location"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    },
+    {
+      "normalized": "TANZANIA",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "Tanzania",
+          "synset": "n:09034550",
+          "lexical_category": "noun.location",
+          "definition": "a republic in eastern Africa"
+        }
+      ],
+      "candidate_categories": [
+        "noun.location"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    },
+    {
+      "normalized": "TARA",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "Tara",
+          "synset": "n:08889784",
+          "lexical_category": "noun.location",
+          "definition": "a village in eastern Ireland (northwest of Dublin); seat of Irish kings until 6th century"
+        }
+      ],
+      "candidate_categories": [
+        "noun.location"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    },
+    {
+      "normalized": "THULE",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "Thule",
+          "synset": "n:08954269",
+          "lexical_category": "noun.location",
+          "definition": "the geographical region believed by ancient geographers to be the northernmost land in the inhabited world"
+        },
+        {
+          "lemma": "Thule",
+          "synset": "n:08954443",
+          "lexical_category": "noun.location",
+          "definition": "a town in northwestern Greenland; during World War II a United States naval base was built there"
+        }
+      ],
+      "candidate_categories": [
+        "noun.location"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    },
+    {
+      "normalized": "TIMOR",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "Timor",
+          "synset": "n:08908739",
+          "lexical_category": "noun.location",
+          "definition": "an island in Indonesia in the Malay Archipelago; the largest and most eastern of the Lesser Sunda Islands"
+        }
+      ],
+      "candidate_categories": [
+        "noun.location"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    },
+    {
+      "normalized": "TIVOLI",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "Tivoli",
+          "synset": "n:08808077",
+          "lexical_category": "noun.location",
+          "definition": "a town twenty miles to the east of Rome (Tibur is the ancient name); a summer resort during the Roman empire; noted for its waterfalls"
+        }
+      ],
+      "candidate_categories": [
+        "noun.location"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    },
+    {
+      "normalized": "TOGO",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "Togo",
+          "synset": "n:08759986",
+          "lexical_category": "noun.location",
+          "definition": "a republic on the western coast of Africa on the Gulf of Guinea; formerly under French control"
+        }
+      ],
+      "candidate_categories": [
+        "noun.location"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    },
+    {
+      "normalized": "TOYOTA",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "Toyota",
+          "synset": "n:08926543",
+          "lexical_category": "noun.location",
+          "definition": "an industrial city of Japan in southern Honshu"
+        }
+      ],
+      "candidate_categories": [
+        "noun.location"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    },
+    {
+      "normalized": "TOKYO",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "Tokyo",
+          "synset": "n:08923348",
+          "lexical_category": "noun.location",
+          "definition": "the capital and largest city of Japan; the economic and cultural center of Japan"
+        }
+      ],
+      "candidate_categories": [
+        "noun.location"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    },
+    {
+      "normalized": "TOWNSHIP",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "township",
+          "synset": "n:08672199",
+          "lexical_category": "noun.location",
+          "definition": "an administrative division of a county; \"the town is responsible for snow removal\""
+        }
+      ],
+      "candidate_categories": [
+        "noun.location"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    },
+    {
+      "normalized": "TRANSVAAL",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "Transvaal",
+          "synset": "n:09001373",
+          "lexical_category": "noun.location",
+          "definition": "a province of northeastern South Africa originally inhabited by Africans who spoke Bantu; colonized by the Boers"
+        }
+      ],
+      "candidate_categories": [
+        "noun.location"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    },
+    {
+      "normalized": "TRINIDAD",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "Trinidad",
+          "synset": "n:08755852",
+          "lexical_category": "noun.location",
+          "definition": "an island in West Indies just off the northeastern coast of Venezuela"
+        }
+      ],
+      "candidate_categories": [
+        "noun.location"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    },
+    {
+      "normalized": "TROPICS",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "tropics",
+          "synset": "n:08665281",
+          "lexical_category": "noun.location",
+          "definition": "the part of the Earth's surface between the Tropic of Cancer and the Tropic of Capricorn; characterized by a hot climate"
+        }
+      ],
+      "candidate_categories": [
+        "noun.location"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    },
+    {
+      "normalized": "TULSA",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "Tulsa",
+          "synset": "n:09132778",
+          "lexical_category": "noun.location",
+          "definition": "a major city of northeastern Oklahoma on the Arkansas river; once known as the oil capital of the world and still heavily involved in the oil and gas industries"
+        }
+      ],
+      "candidate_categories": [
+        "noun.location"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    },
+    {
+      "normalized": "TUNIS",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "Tunis",
+          "synset": "n:09037838",
+          "lexical_category": "noun.location",
+          "definition": "the capital and principal port of Tunisia"
+        }
+      ],
+      "candidate_categories": [
+        "noun.location"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    },
+    {
+      "normalized": "TUSCANY",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "Tuscany",
+          "synset": "n:08811982",
+          "lexical_category": "noun.location",
+          "definition": "a region in central Italy"
+        }
+      ],
+      "candidate_categories": [
+        "noun.location"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    },
+    {
+      "normalized": "UGANDA",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "Uganda",
+          "synset": "n:09043052",
+          "lexical_category": "noun.location",
+          "definition": "a landlocked republic in eastern Africa; achieved independence from the United Kingdom in 1962"
+        }
+      ],
+      "candidate_categories": [
+        "noun.location"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    },
+    {
+      "normalized": "URBANA",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "Urbana",
+          "synset": "n:09084615",
+          "lexical_category": "noun.location",
+          "definition": "a university town in east central Illinois adjoining Champaign"
+        }
+      ],
+      "candidate_categories": [
+        "noun.location"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    },
+    {
+      "normalized": "VALENCIA",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "Valencia",
+          "synset": "n:09028477",
+          "lexical_category": "noun.location",
+          "definition": "a city in eastern Spain on the Mediterranean; \"Valencia is the third largest city in Spain\""
+        },
+        {
+          "lemma": "Valencia",
+          "synset": "n:09163077",
+          "lexical_category": "noun.location",
+          "definition": "an industrial city in northern Venezuela"
+        }
+      ],
+      "candidate_categories": [
+        "noun.location"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    },
+    {
+      "normalized": "VERONA",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "Verona",
+          "synset": "n:08813699",
+          "lexical_category": "noun.location",
+          "definition": "a city in Veneto on the River Adige"
+        }
+      ],
+      "candidate_categories": [
+        "noun.location"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    },
+    {
+      "normalized": "VESUVIUS",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "Vesuvius",
+          "synset": "n:09177883",
+          "lexical_category": "noun.location",
+          "definition": "a volcano in southwestern Italy on the Mediterranean coast; a Plinian eruption in 79 AD buried Pompeii and killed Pliny the Elder; last erupted in 1944"
+        }
+      ],
+      "candidate_categories": [
+        "noun.location"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    },
+    {
+      "normalized": "VICHY",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "Vichy",
+          "synset": "n:08938819",
+          "lexical_category": "noun.location",
+          "definition": "a town in central France (south of Paris) noted for hot mineral springs; was capital of the unoccupied part of France during World War II"
+        }
+      ],
+      "candidate_categories": [
+        "noun.location"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    },
+    {
+      "normalized": "VILA",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "Vila",
+          "synset": "n:09160968",
+          "lexical_category": "noun.location",
+          "definition": "capital of Vanuatu"
+        }
+      ],
+      "candidate_categories": [
+        "noun.location"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    },
+    {
+      "normalized": "WACO",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "Waco",
+          "synset": "n:09146813",
+          "lexical_category": "noun.location",
+          "definition": "a city in east central Texas"
+        }
+      ],
+      "candidate_categories": [
+        "noun.location"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    },
+    {
+      "normalized": "WARSAW",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "Warsaw",
+          "synset": "n:08983105",
+          "lexical_category": "noun.location",
+          "definition": "the capital and largest city of Poland; located in central Poland"
+        }
+      ],
+      "candidate_categories": [
+        "noun.location"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    },
+    {
+      "normalized": "WATERBURY",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "Waterbury",
+          "synset": "n:09069752",
+          "lexical_category": "noun.location",
+          "definition": "a city in west central Connecticut"
+        }
+      ],
+      "candidate_categories": [
+        "noun.location"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    },
+    {
+      "normalized": "WESTMINSTER",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "Westminster",
+          "synset": "n:08875547",
+          "lexical_category": "noun.location",
+          "definition": "a borough of Greater London on the Thames; contains Buckingham Palace and the Houses of Parliament and Westminster Abbey"
+        }
+      ],
+      "candidate_categories": [
+        "noun.location"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    },
+    {
+      "normalized": "ZANZIBAR",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "Zanzibar",
+          "synset": "n:09035458",
+          "lexical_category": "noun.location",
+          "definition": "an island in the Indian Ocean off the east coast of Africa; part of the United Republic of Tanzania"
+        }
+      ],
+      "candidate_categories": [
+        "noun.location"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    },
+    {
+      "normalized": "ZURICH",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "Zurich",
+          "synset": "n:09033117",
+          "lexical_category": "noun.location",
+          "definition": "the largest city in Switzerland; located in the northern part of the country; \"Zurich is the center of the German-speaking part of Switzerland\""
+        }
+      ],
+      "candidate_categories": [
+        "noun.location"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    }
+  ]
+}

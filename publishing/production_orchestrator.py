@@ -87,16 +87,21 @@ def component_fingerprints(context: dict) -> dict[str, str]:
     content = {key: context.get(key) for key in (
         "book_plan_id", "source_revision", "capacity_proof", "puzzle_type",
         "puzzle_count", "items_per_puzzle", "difficulty", "seed",
+        "repetition_policy", "collection_id", "collection_book_id", "interior_profile",
+        "reader_profile",
     )}
+    from .puzzle_integrity import POLICY_REVISION
+    content['puzzle_quality_policy'] = POLICY_REVISION
     cover = {key: context.get(key) for key in (
         "title", "subtitle", "author", "puzzle_type", "puzzle_count",
         "difficulty", "large_print", "cover_art_id", "cover_art_sha256",
         "cover_style", "palette",
     )}
+    cover['puzzle_preview_policy'] = POLICY_REVISION
     listing = {key: context.get(key) for key in (
         "title", "subtitle", "author", "topic", "audience", "series",
         "puzzle_type", "puzzle_count", "difficulty", "large_print",
-        "signature_edition", "no_repeat_words", "page_count", "trim_size",
+        "signature_edition", "no_repeat_words", "page_count", "trim_size", "repetition_policy",
     )}
     return {
         "idea": _digest({key: context.get(key) for key in ("book_id", "title", "topic", "puzzle_type")}),

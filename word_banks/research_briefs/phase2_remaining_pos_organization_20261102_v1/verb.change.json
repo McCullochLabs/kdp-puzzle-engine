@@ -1,0 +1,24 @@
+{
+  "schema_version": 1,
+  "research_status": "REVIEW_REQUIRED_NOT_APPROVED",
+  "group": "verb.change",
+  "records": [
+    {
+      "normalized": "BURNOUT",
+      "status": "pending_context_and_editorial_review",
+      "candidate_categories": [
+        "verb.change"
+      ],
+      "source_senses": [
+        {
+          "lemma": "burn_out",
+          "synset": "verb:00435294",
+          "part_of_speech": "verb",
+          "lexical_category": "verb.change",
+          "definition": "melt, break, or become otherwise unusable; \"The lightbulbs blew out\"; \"The fuse blew\"",
+          "match_type": "exact_normalized_source_lemma"
+        }
+      ]
+    }
+  ]
+}

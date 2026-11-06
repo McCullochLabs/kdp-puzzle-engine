@@ -9,6 +9,7 @@ from __future__ import annotations
 
 from typing import Any
 
+from .catalog_view import catalog_state, collapse_catalog_books
 from .production_gate import book_gate
 
 
@@ -20,30 +21,26 @@ VISIBLE_STATUSES = (
 
 def book_stage(book: dict[str, Any]) -> str:
     """Return one stable, user-facing stage from the existing book record."""
-    statuses = {str(value) for value in (book.get("statuses") or {}).values()}
-    if "Published" in statuses:
-        return "Published"
-    if "Uploaded" in statuses:
-        return "Ready to Publish"
-    package_path = str(book.get("package_path") or "")
-    if package_path:
+    gate = None
+    if str(book.get("package_path") or ""):
         try:
             gate = book_gate(book)
         except (KeyError, TypeError, ValueError):
             gate = {"ready": False}
-        if gate.get("ready"):
-            return "Approved" if "Ready" not in statuses else "Ready to Publish"
-        return "Needs Attention"
-    production = str((book.get("metadata") or {}).get("production_status") or "").casefold()
-    if production in {"passed", "passed with notes"}:
-        return "Needs Review"
-    if production in {"complete package", "ready"}:
-        return "Needs Review"
-    return "Needs Attention"
+    status = catalog_state(book, gate=gate, final_review=False)["status"]
+    return {
+        "Published": "Published",
+        "Uploaded — verify live": "Ready to Publish",
+        "Ready to publish": "Ready to Publish",
+        "Approved": "Approved",
+        "Ready to create": "Needs Review",
+        "Needs final proof": "Needs Review",
+    }.get(status, "Needs Attention")
 
 
 def next_action(books: list[dict[str, Any]]) -> dict[str, Any]:
     """Choose exactly one honest next action from actual catalog state."""
+    books = collapse_catalog_books(books)
     if not books:
         return {
             "kind": "create", "book_id": "", "label": "Create your first book",
@@ -67,6 +64,7 @@ def next_action(books: list[dict[str, Any]]) -> dict[str, Any]:
 
 def home_summary(books: list[dict[str, Any]]) -> dict[str, Any]:
     """Return a compact status tally plus the one recommended action."""
+    books = collapse_catalog_books(books)
     counts = {status: 0 for status in VISIBLE_STATUSES}
     for book in books:
         counts[book_stage(book)] = counts.get(book_stage(book), 0) + 1

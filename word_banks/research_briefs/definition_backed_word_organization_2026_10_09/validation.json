@@ -1,0 +1,23 @@
+{
+  "passed": true,
+  "record_count": 29620,
+  "checks": [
+    "All canonical records validate against the existing schema",
+    "Unique IDs and normalized words",
+    "No overlap with approved or earlier grouped vocabulary",
+    "Original dictionary membership preserved",
+    "All parent topics resolve to existing taxonomy",
+    "No existing rejected topic link used",
+    "Existing safety and trademark gates respected",
+    "Primary and alternate definition senses preserved",
+    "Group counts reconcile exactly",
+    "Selected plus residual words reconcile exactly",
+    "Input files and approval decisions remain unchanged"
+  ],
+  "part_of_speech_counts": {
+    "v": 6066,
+    "n": 17340,
+    "r": 968,
+    "a": 5246
+  }
+}

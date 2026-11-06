@@ -8,18 +8,31 @@ import wordsearch as ws
 import word_search_creator as app
 
 
+def test_educational_tracker_uses_real_mini_theme_name():
+    puzzles = [{"name": "Reading Comprehension Strategies"}]
+    label = ws.tracker_puzzle_name(puzzles, 1)
+    assert label.startswith("Reading Comprehension")
+    assert len(label) <= 28
+    assert label.endswith("...")
+    assert "Vocabulary Practice" not in label
+
+
 def test_clean_words_uppercases_and_strips_non_alpha():
     assert ws.clean_words(["cat", "Dog-2", "  fish "]) == ["CAT", "DOG", "FISH"]
 
 
-def test_clean_words_drops_words_longer_than_largest_supported_grid():
+def test_clean_words_rejects_words_longer_than_largest_supported_grid():
     # Automatic sizing supports dense books up to the 21×21 grid limit.
     too_long = "X" * (ws.MAX_GRID_N + 1)
-    assert too_long not in ws.clean_words([too_long, "OK"])
+    import pytest
+    with pytest.raises(ValueError,match='replace'):
+        ws.clean_words([too_long, "OK"])
 
 
-def test_clean_words_drops_empty_results():
-    assert ws.clean_words(["123", "-- ", "cat"]) == ["CAT"]
+def test_clean_words_rejects_empty_results():
+    import pytest
+    with pytest.raises(ValueError,match='replace'):
+        ws.clean_words(["123", "-- ", "cat"])
 
 
 def test_interior_section_plan_adds_consistent_chapters_without_reordering_puzzles():

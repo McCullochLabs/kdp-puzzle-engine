@@ -1,0 +1,2323 @@
+{
+  "date": "2026-10-09",
+  "scope": "Source datasets only; no books or outputs inspected.",
+  "legacy_nonword_packs": [
+    {
+      "topic": "Space & Astronomy",
+      "cryptograms": 180,
+      "duplicate_cryptograms": 0,
+      "template_cryptograms": 170,
+      "trivia": 180,
+      "generic_clues": 170,
+      "duplicate_scramble_answers": 0
+    },
+    {
+      "topic": "Garden & Growing",
+      "cryptograms": 180,
+      "duplicate_cryptograms": 0,
+      "template_cryptograms": 170,
+      "trivia": 180,
+      "generic_clues": 170,
+      "duplicate_scramble_answers": 0
+    },
+    {
+      "topic": "Travel & Adventure",
+      "cryptograms": 180,
+      "duplicate_cryptograms": 0,
+      "template_cryptograms": 170,
+      "trivia": 180,
+      "generic_clues": 170,
+      "duplicate_scramble_answers": 0
+    }
+  ],
+  "wordsearch_theme_files": [
+    {
+      "file": "themes\\1950s_General_Publish_Ready_Word_Banks.json",
+      "word_entries": 1200,
+      "distinct_normalized_words": 1200,
+      "repeated_entries": 0,
+      "empty_normalized_entries": 0,
+      "over_18_letters": 0,
+      "note": "Repetitions and lengths are triage findings, not automatic rejection; inspect page allocation and grid size."
+    },
+    {
+      "file": "themes\\1950s_Wordsearch_for_Men_Publish_Ready_Word_Banks.json",
+      "word_entries": 600,
+      "distinct_normalized_words": 600,
+      "repeated_entries": 0,
+      "empty_normalized_entries": 0,
+      "over_18_letters": 0,
+      "note": "Repetitions and lengths are triage findings, not automatic rejection; inspect page allocation and grid size."
+    },
+    {
+      "file": "themes\\1950s_Wordsearch_for_Women_Publish_Ready_Word_Banks.json",
+      "word_entries": 600,
+      "distinct_normalized_words": 600,
+      "repeated_entries": 0,
+      "empty_normalized_entries": 0,
+      "over_18_letters": 0,
+      "note": "Repetitions and lengths are triage findings, not automatic rejection; inspect page allocation and grid size."
+    },
+    {
+      "file": "themes\\1960s_General_Publish_Ready_Word_Banks.json",
+      "word_entries": 1200,
+      "distinct_normalized_words": 1200,
+      "repeated_entries": 0,
+      "empty_normalized_entries": 0,
+      "over_18_letters": 0,
+      "note": "Repetitions and lengths are triage findings, not automatic rejection; inspect page allocation and grid size."
+    },
+    {
+      "file": "themes\\1960s_Wordsearch_for_Men_Publish_Ready_Word_Banks.json",
+      "word_entries": 600,
+      "distinct_normalized_words": 600,
+      "repeated_entries": 0,
+      "empty_normalized_entries": 0,
+      "over_18_letters": 0,
+      "note": "Repetitions and lengths are triage findings, not automatic rejection; inspect page allocation and grid size."
+    },
+    {
+      "file": "themes\\1960s_Wordsearch_for_Women_Publish_Ready_Word_Banks.json",
+      "word_entries": 600,
+      "distinct_normalized_words": 600,
+      "repeated_entries": 0,
+      "empty_normalized_entries": 0,
+      "over_18_letters": 0,
+      "note": "Repetitions and lengths are triage findings, not automatic rejection; inspect page allocation and grid size."
+    },
+    {
+      "file": "themes\\1970s_General_Publish_Ready_Word_Banks.json",
+      "word_entries": 1200,
+      "distinct_normalized_words": 1200,
+      "repeated_entries": 0,
+      "empty_normalized_entries": 0,
+      "over_18_letters": 0,
+      "note": "Repetitions and lengths are triage findings, not automatic rejection; inspect page allocation and grid size."
+    },
+    {
+      "file": "themes\\1970s_Wordsearch_for_Men_Publish_Ready_Word_Banks.json",
+      "word_entries": 600,
+      "distinct_normalized_words": 600,
+      "repeated_entries": 0,
+      "empty_normalized_entries": 0,
+      "over_18_letters": 0,
+      "note": "Repetitions and lengths are triage findings, not automatic rejection; inspect page allocation and grid size."
+    },
+    {
+      "file": "themes\\1970s_Wordsearch_for_Women_Publish_Ready_Word_Banks.json",
+      "word_entries": 600,
+      "distinct_normalized_words": 600,
+      "repeated_entries": 0,
+      "empty_normalized_entries": 0,
+      "over_18_letters": 0,
+      "note": "Repetitions and lengths are triage findings, not automatic rejection; inspect page allocation and grid size."
+    },
+    {
+      "file": "themes\\1980s_General_Publish_Ready_Word_Banks.json",
+      "word_entries": 1200,
+      "distinct_normalized_words": 1200,
+      "repeated_entries": 0,
+      "empty_normalized_entries": 0,
+      "over_18_letters": 0,
+      "note": "Repetitions and lengths are triage findings, not automatic rejection; inspect page allocation and grid size."
+    },
+    {
+      "file": "themes\\1980s_Wordsearch_for_Men_Publish_Ready_Word_Banks.json",
+      "word_entries": 600,
+      "distinct_normalized_words": 600,
+      "repeated_entries": 0,
+      "empty_normalized_entries": 0,
+      "over_18_letters": 0,
+      "note": "Repetitions and lengths are triage findings, not automatic rejection; inspect page allocation and grid size."
+    },
+    {
+      "file": "themes\\1980s_Wordsearch_for_Women_Publish_Ready_Word_Banks.json",
+      "word_entries": 600,
+      "distinct_normalized_words": 600,
+      "repeated_entries": 0,
+      "empty_normalized_entries": 0,
+      "over_18_letters": 0,
+      "note": "Repetitions and lengths are triage findings, not automatic rejection; inspect page allocation and grid size."
+    },
+    {
+      "file": "themes\\1990s_General_Publish_Ready_Word_Banks.json",
+      "word_entries": 1200,
+      "distinct_normalized_words": 1200,
+      "repeated_entries": 0,
+      "empty_normalized_entries": 0,
+      "over_18_letters": 0,
+      "note": "Repetitions and lengths are triage findings, not automatic rejection; inspect page allocation and grid size."
+    },
+    {
+      "file": "themes\\1990s_Wordsearch_for_Men_Publish_Ready_Word_Banks.json",
+      "word_entries": 600,
+      "distinct_normalized_words": 600,
+      "repeated_entries": 0,
+      "empty_normalized_entries": 0,
+      "over_18_letters": 0,
+      "note": "Repetitions and lengths are triage findings, not automatic rejection; inspect page allocation and grid size."
+    },
+    {
+      "file": "themes\\1990s_Wordsearch_for_Women_Publish_Ready_Word_Banks.json",
+      "word_entries": 600,
+      "distinct_normalized_words": 600,
+      "repeated_entries": 0,
+      "empty_normalized_entries": 0,
+      "over_18_letters": 0,
+      "note": "Repetitions and lengths are triage findings, not automatic rejection; inspect page allocation and grid size."
+    },
+    {
+      "file": "themes\\2000s_General_Publish_Ready_Word_Banks.json",
+      "word_entries": 1200,
+      "distinct_normalized_words": 1200,
+      "repeated_entries": 0,
+      "empty_normalized_entries": 0,
+      "over_18_letters": 0,
+      "note": "Repetitions and lengths are triage findings, not automatic rejection; inspect page allocation and grid size."
+    },
+    {
+      "file": "themes\\2000s_Wordsearch_for_Men_Publish_Ready_Word_Banks.json",
+      "word_entries": 600,
+      "distinct_normalized_words": 600,
+      "repeated_entries": 0,
+      "empty_normalized_entries": 0,
+      "over_18_letters": 0,
+      "note": "Repetitions and lengths are triage findings, not automatic rejection; inspect page allocation and grid size."
+    },
+    {
+      "file": "themes\\2000s_Wordsearch_for_Women_Publish_Ready_Word_Banks.json",
+      "word_entries": 600,
+      "distinct_normalized_words": 600,
+      "repeated_entries": 0,
+      "empty_normalized_entries": 0,
+      "over_18_letters": 0,
+      "note": "Repetitions and lengths are triage findings, not automatic rejection; inspect page allocation and grid size."
+    },
+    {
+      "file": "themes\\90s_nostalgia.json",
+      "word_entries": 576,
+      "distinct_normalized_words": 576,
+      "repeated_entries": 0,
+      "empty_normalized_entries": 0,
+      "over_18_letters": 0,
+      "note": "Repetitions and lengths are triage findings, not automatic rejection; inspect page allocation and grid size."
+    },
+    {
+      "file": "themes\\90s_nostalgia_word_search.json",
+      "word_entries": 576,
+      "distinct_normalized_words": 576,
+      "repeated_entries": 0,
+      "empty_normalized_entries": 0,
+      "over_18_letters": 0,
+      "note": "Repetitions and lengths are triage findings, not automatic rejection; inspect page allocation and grid size."
+    },
+    {
+      "file": "themes\\Adult Collection\\chill_culture_word_search.json",
+      "word_entries": 576,
+      "distinct_normalized_words": 576,
+      "repeated_entries": 0,
+      "empty_normalized_entries": 0,
+      "over_18_letters": 504,
+      "note": "Repetitions and lengths are triage findings, not automatic rejection; inspect page allocation and grid size."
+    },
+    {
+      "file": "themes\\Adult Collection\\cocktail_hour_word_search.json",
+      "word_entries": 576,
+      "distinct_normalized_words": 576,
+      "repeated_entries": 0,
+      "empty_normalized_entries": 0,
+      "over_18_letters": 386,
+      "note": "Repetitions and lengths are triage findings, not automatic rejection; inspect page allocation and grid size."
+    },
+    {
+      "file": "themes\\Adult Collection\\date_night_word_search.json",
+      "word_entries": 576,
+      "distinct_normalized_words": 576,
+      "repeated_entries": 0,
+      "empty_normalized_entries": 0,
+      "over_18_letters": 536,
+      "note": "Repetitions and lengths are triage findings, not automatic rejection; inspect page allocation and grid size."
+    },
+    {
+      "file": "themes\\Adult Collection\\range_&_outdoors_word_search.json",
+      "word_entries": 576,
+      "distinct_normalized_words": 576,
+      "repeated_entries": 0,
+      "empty_normalized_entries": 0,
+      "over_18_letters": 550,
+      "note": "Repetitions and lengths are triage findings, not automatic rejection; inspect page allocation and grid size."
+    },
+    {
+      "file": "themes\\american-nostalgia.json",
+      "word_entries": 576,
+      "distinct_normalized_words": 576,
+      "repeated_entries": 0,
+      "empty_normalized_entries": 0,
+      "over_18_letters": 0,
+      "note": "Repetitions and lengths are triage findings, not automatic rejection; inspect page allocation and grid size."
+    },
+    {
+      "file": "themes\\animals-and-wildlife-conservation.json",
+      "word_entries": 576,
+      "distinct_normalized_words": 576,
+      "repeated_entries": 0,
+      "empty_normalized_entries": 0,
+      "over_18_letters": 0,
+      "note": "Repetitions and lengths are triage findings, not automatic rejection; inspect page allocation and grid size."
+    },
+    {
+      "file": "themes\\Arizona_100_Themed_Wordsearch_Word_Banks.json",
+      "word_entries": 2000,
+      "distinct_normalized_words": 2000,
+      "repeated_entries": 0,
+      "empty_normalized_entries": 0,
+      "over_18_letters": 0,
+      "note": "Repetitions and lengths are triage findings, not automatic rejection; inspect page allocation and grid size."
+    },
+    {
+      "file": "themes\\beach-vacation.json",
+      "word_entries": 576,
+      "distinct_normalized_words": 576,
+      "repeated_entries": 0,
+      "empty_normalized_entries": 0,
+      "over_18_letters": 0,
+      "note": "Repetitions and lengths are triage findings, not automatic rejection; inspect page allocation and grid size."
+    },
+    {
+      "file": "themes\\California_100_Themed_Wordsearch_Word_Banks.json",
+      "word_entries": 2000,
+      "distinct_normalized_words": 2000,
+      "repeated_entries": 0,
+      "empty_normalized_entries": 0,
+      "over_18_letters": 0,
+      "note": "Repetitions and lengths are triage findings, not automatic rejection; inspect page allocation and grid size."
+    },
+    {
+      "file": "themes\\childhood-memories.json",
+      "word_entries": 576,
+      "distinct_normalized_words": 576,
+      "repeated_entries": 0,
+      "empty_normalized_entries": 0,
+      "over_18_letters": 0,
+      "note": "Repetitions and lengths are triage findings, not automatic rejection; inspect page allocation and grid size."
+    },
+    {
+      "file": "themes\\christmas_100.json",
+      "word_entries": 576,
+      "distinct_normalized_words": 576,
+      "repeated_entries": 0,
+      "empty_normalized_entries": 0,
+      "over_18_letters": 0,
+      "note": "Repetitions and lengths are triage findings, not automatic rejection; inspect page allocation and grid size."
+    },
+    {
+      "file": "themes\\Editorial Rebuilds\\advanced_vocabulary_challenge_editorial_v2.json",
+      "word_entries": 576,
+      "distinct_normalized_words": 576,
+      "repeated_entries": 0,
+      "empty_normalized_entries": 0,
+      "over_18_letters": 1,
+      "note": "Repetitions and lengths are triage findings, not automatic rejection; inspect page allocation and grid size."
+    },
+    {
+      "file": "themes\\Editorial Rebuilds\\american_moments_editorial_v2.json",
+      "word_entries": 600,
+      "distinct_normalized_words": 600,
+      "repeated_entries": 0,
+      "empty_normalized_entries": 0,
+      "over_18_letters": 6,
+      "note": "Repetitions and lengths are triage findings, not automatic rejection; inspect page allocation and grid size."
+    },
+    {
+      "file": "themes\\Editorial Rebuilds\\classic_cars_and_road_trips_editorial_v2.json",
+      "word_entries": 576,
+      "distinct_normalized_words": 576,
+      "repeated_entries": 0,
+      "empty_normalized_entries": 0,
+      "over_18_letters": 0,
+      "note": "Repetitions and lengths are triage findings, not automatic rejection; inspect page allocation and grid size."
+    },
+    {
+      "file": "themes\\Editorial Rebuilds\\faithful_words_50_editorial_v2.json",
+      "word_entries": 600,
+      "distinct_normalized_words": 600,
+      "repeated_entries": 0,
+      "empty_normalized_entries": 0,
+      "over_18_letters": 2,
+      "note": "Repetitions and lengths are triage findings, not automatic rejection; inspect page allocation and grid size."
+    },
+    {
+      "file": "themes\\Editorial Rebuilds\\faithful_words_signature_100_editorial_v2.json",
+      "word_entries": 1200,
+      "distinct_normalized_words": 1200,
+      "repeated_entries": 0,
+      "empty_normalized_entries": 0,
+      "over_18_letters": 11,
+      "note": "Repetitions and lengths are triage findings, not automatic rejection; inspect page allocation and grid size."
+    },
+    {
+      "file": "themes\\Editorial Rebuilds\\road_trip_classics_editorial_v2.json",
+      "word_entries": 600,
+      "distinct_normalized_words": 600,
+      "repeated_entries": 0,
+      "empty_normalized_entries": 0,
+      "over_18_letters": 2,
+      "note": "Repetitions and lengths are triage findings, not automatic rejection; inspect page allocation and grid size."
+    },
+    {
+      "file": "themes\\Editorial Rebuilds\\vocabulary_ladder_grade_5_editorial_v2.json",
+      "word_entries": 576,
+      "distinct_normalized_words": 576,
+      "repeated_entries": 0,
+      "empty_normalized_entries": 0,
+      "over_18_letters": 0,
+      "note": "Repetitions and lengths are triage findings, not automatic rejection; inspect page allocation and grid size."
+    },
+    {
+      "file": "themes\\endangered-species-and-wildlife.json",
+      "word_entries": 576,
+      "distinct_normalized_words": 576,
+      "repeated_entries": 0,
+      "empty_normalized_entries": 0,
+      "over_18_letters": 0,
+      "note": "Repetitions and lengths are triage findings, not automatic rejection; inspect page allocation and grid size."
+    },
+    {
+      "file": "themes\\Florida_100_Themed_Wordsearch_Word_Banks.json",
+      "word_entries": 2000,
+      "distinct_normalized_words": 2000,
+      "repeated_entries": 0,
+      "empty_normalized_entries": 0,
+      "over_18_letters": 0,
+      "note": "Repetitions and lengths are triage findings, not automatic rejection; inspect page allocation and grid size."
+    },
+    {
+      "file": "themes\\gardening.json",
+      "word_entries": 580,
+      "distinct_normalized_words": 580,
+      "repeated_entries": 0,
+      "empty_normalized_entries": 0,
+      "over_18_letters": 0,
+      "note": "Repetitions and lengths are triage findings, not automatic rejection; inspect page allocation and grid size."
+    },
+    {
+      "file": "themes\\halloween,_autumn_&_harvest_puzzle_journey.json",
+      "word_entries": 576,
+      "distinct_normalized_words": 576,
+      "repeated_entries": 0,
+      "empty_normalized_entries": 0,
+      "over_18_letters": 0,
+      "note": "Repetitions and lengths are triage findings, not automatic rejection; inspect page allocation and grid size."
+    },
+    {
+      "file": "themes\\halloween_100.json",
+      "word_entries": 576,
+      "distinct_normalized_words": 576,
+      "repeated_entries": 0,
+      "empty_normalized_entries": 0,
+      "over_18_letters": 0,
+      "note": "Repetitions and lengths are triage findings, not automatic rejection; inspect page allocation and grid size."
+    },
+    {
+      "file": "themes\\history.json",
+      "word_entries": 576,
+      "distinct_normalized_words": 576,
+      "repeated_entries": 0,
+      "empty_normalized_entries": 0,
+      "over_18_letters": 0,
+      "note": "Repetitions and lengths are triage findings, not automatic rejection; inspect page allocation and grid size."
+    },
+    {
+      "file": "themes\\home-cooking-and-baking.json",
+      "word_entries": 576,
+      "distinct_normalized_words": 576,
+      "repeated_entries": 0,
+      "empty_normalized_entries": 0,
+      "over_18_letters": 0,
+      "note": "Repetitions and lengths are triage findings, not automatic rejection; inspect page allocation and grid size."
+    },
+    {
+      "file": "themes\\home-cooking-and-family-traditions.json",
+      "word_entries": 576,
+      "distinct_normalized_words": 576,
+      "repeated_entries": 0,
+      "empty_normalized_entries": 0,
+      "over_18_letters": 0,
+      "note": "Repetitions and lengths are triage findings, not automatic rejection; inspect page allocation and grid size."
+    },
+    {
+      "file": "themes\\house_pets_48.json",
+      "word_entries": 576,
+      "distinct_normalized_words": 576,
+      "repeated_entries": 0,
+      "empty_normalized_entries": 0,
+      "over_18_letters": 0,
+      "note": "Repetitions and lengths are triage findings, not automatic rejection; inspect page allocation and grid size."
+    },
+    {
+      "file": "themes\\Launch Collection\\launch_cars_trucks_road_trips_20260822_174014.json",
+      "word_entries": 576,
+      "distinct_normalized_words": 576,
+      "repeated_entries": 0,
+      "empty_normalized_entries": 0,
+      "over_18_letters": 0,
+      "note": "Repetitions and lengths are triage findings, not automatic rejection; inspect page allocation and grid size."
+    },
+    {
+      "file": "themes\\Launch Collection\\launch_cars_trucks_road_trips_20260822_174220.json",
+      "word_entries": 576,
+      "distinct_normalized_words": 576,
+      "repeated_entries": 0,
+      "empty_normalized_entries": 0,
+      "over_18_letters": 0,
+      "note": "Repetitions and lengths are triage findings, not automatic rejection; inspect page allocation and grid size."
+    },
+    {
+      "file": "themes\\Launch Collection\\launch_cars_trucks_road_trips_20260822_174309.json",
+      "word_entries": 576,
+      "distinct_normalized_words": 576,
+      "repeated_entries": 0,
+      "empty_normalized_entries": 0,
+      "over_18_letters": 0,
+      "note": "Repetitions and lengths are triage findings, not automatic rejection; inspect page allocation and grid size."
+    },
+    {
+      "file": "themes\\Launch Collection\\launch_cars_trucks_road_trips_20260822_174556.json",
+      "word_entries": 576,
+      "distinct_normalized_words": 576,
+      "repeated_entries": 0,
+      "empty_normalized_entries": 0,
+      "over_18_letters": 0,
+      "note": "Repetitions and lengths are triage findings, not automatic rejection; inspect page allocation and grid size."
+    },
+    {
+      "file": "themes\\Launch Collection\\launch_nostalgia_through_decades_20260822_174014.json",
+      "word_entries": 576,
+      "distinct_normalized_words": 576,
+      "repeated_entries": 0,
+      "empty_normalized_entries": 0,
+      "over_18_letters": 0,
+      "note": "Repetitions and lengths are triage findings, not automatic rejection; inspect page allocation and grid size."
+    },
+    {
+      "file": "themes\\Launch Collection\\launch_nostalgia_through_decades_20260822_174220.json",
+      "word_entries": 576,
+      "distinct_normalized_words": 576,
+      "repeated_entries": 0,
+      "empty_normalized_entries": 0,
+      "over_18_letters": 0,
+      "note": "Repetitions and lengths are triage findings, not automatic rejection; inspect page allocation and grid size."
+    },
+    {
+      "file": "themes\\Launch Collection\\launch_nostalgia_through_decades_20260822_174309.json",
+      "word_entries": 576,
+      "distinct_normalized_words": 576,
+      "repeated_entries": 0,
+      "empty_normalized_entries": 0,
+      "over_18_letters": 0,
+      "note": "Repetitions and lengths are triage findings, not automatic rejection; inspect page allocation and grid size."
+    },
+    {
+      "file": "themes\\Launch Collection\\launch_nostalgia_through_decades_20260822_174556.json",
+      "word_entries": 576,
+      "distinct_normalized_words": 576,
+      "repeated_entries": 0,
+      "empty_normalized_entries": 0,
+      "over_18_letters": 0,
+      "note": "Repetitions and lengths are triage findings, not automatic rejection; inspect page allocation and grid size."
+    },
+    {
+      "file": "themes\\Launch Collection\\launch_space_astronomy_20260822_174014.json",
+      "word_entries": 576,
+      "distinct_normalized_words": 576,
+      "repeated_entries": 0,
+      "empty_normalized_entries": 0,
+      "over_18_letters": 0,
+      "note": "Repetitions and lengths are triage findings, not automatic rejection; inspect page allocation and grid size."
+    },
+    {
+      "file": "themes\\Launch Collection\\launch_space_astronomy_20260822_174220.json",
+      "word_entries": 576,
+      "distinct_normalized_words": 576,
+      "repeated_entries": 0,
+      "empty_normalized_entries": 0,
+      "over_18_letters": 0,
+      "note": "Repetitions and lengths are triage findings, not automatic rejection; inspect page allocation and grid size."
+    },
+    {
+      "file": "themes\\Launch Collection\\launch_space_astronomy_20260822_174309.json",
+      "word_entries": 576,
+      "distinct_normalized_words": 576,
+      "repeated_entries": 0,
+      "empty_normalized_entries": 0,
+      "over_18_letters": 0,
+      "note": "Repetitions and lengths are triage findings, not automatic rejection; inspect page allocation and grid size."
+    },
+    {
+      "file": "themes\\Launch Collection\\launch_space_astronomy_20260822_174556.json",
+      "word_entries": 576,
+      "distinct_normalized_words": 576,
+      "repeated_entries": 0,
+      "empty_normalized_entries": 0,
+      "over_18_letters": 0,
+      "note": "Repetitions and lengths are triage findings, not automatic rejection; inspect page allocation and grid size."
+    },
+    {
+      "file": "themes\\Launch Collection\\Verified Release Candidates\\backyard_birdwatching_preproduction.json",
+      "word_entries": 576,
+      "distinct_normalized_words": 576,
+      "repeated_entries": 0,
+      "empty_normalized_entries": 0,
+      "over_18_letters": 0,
+      "note": "Repetitions and lengths are triage findings, not automatic rejection; inspect page allocation and grid size."
+    },
+    {
+      "file": "themes\\Launch Collection\\Verified Release Candidates\\cozy_pets_preproduction.json",
+      "word_entries": 576,
+      "distinct_normalized_words": 576,
+      "repeated_entries": 0,
+      "empty_normalized_entries": 0,
+      "over_18_letters": 0,
+      "note": "Repetitions and lengths are triage findings, not automatic rejection; inspect page allocation and grid size."
+    },
+    {
+      "file": "themes\\Launch Collection\\Verified Release Candidates\\harvest_table_traditions_preproduction.json",
+      "word_entries": 576,
+      "distinct_normalized_words": 576,
+      "repeated_entries": 0,
+      "empty_normalized_entries": 0,
+      "over_18_letters": 0,
+      "note": "Repetitions and lengths are triage findings, not automatic rejection; inspect page allocation and grid size."
+    },
+    {
+      "file": "themes\\Launch Collection\\Verified Release Candidates\\thanksgiving_table_traditions.json",
+      "word_entries": 576,
+      "distinct_normalized_words": 576,
+      "repeated_entries": 0,
+      "empty_normalized_entries": 0,
+      "over_18_letters": 0,
+      "note": "Repetitions and lengths are triage findings, not automatic rejection; inspect page allocation and grid size."
+    },
+    {
+      "file": "themes\\Market Opportunity Collection\\market_01_bible_word_search_faith_and_encouragement.json",
+      "word_entries": 576,
+      "distinct_normalized_words": 576,
+      "repeated_entries": 0,
+      "empty_normalized_entries": 0,
+      "over_18_letters": 0,
+      "note": "Repetitions and lengths are triage findings, not automatic rejection; inspect page allocation and grid size."
+    },
+    {
+      "file": "themes\\Market Opportunity Collection\\market_02_mindfulness_and_gratitude_word_search.json",
+      "word_entries": 576,
+      "distinct_normalized_words": 576,
+      "repeated_entries": 0,
+      "empty_normalized_entries": 0,
+      "over_18_letters": 0,
+      "note": "Repetitions and lengths are triage findings, not automatic rejection; inspect page allocation and grid size."
+    },
+    {
+      "file": "themes\\Market Opportunity Collection\\market_03_gardening_word_search_flowers_and_homegrown_fun.json",
+      "word_entries": 576,
+      "distinct_normalized_words": 576,
+      "repeated_entries": 0,
+      "empty_normalized_entries": 0,
+      "over_18_letters": 0,
+      "note": "Repetitions and lengths are triage findings, not automatic rejection; inspect page allocation and grid size."
+    },
+    {
+      "file": "themes\\Market Opportunity Collection\\market_04_national_parks_word_search_trails_and_wonders.json",
+      "word_entries": 576,
+      "distinct_normalized_words": 576,
+      "repeated_entries": 0,
+      "empty_normalized_entries": 0,
+      "over_18_letters": 0,
+      "note": "Repetitions and lengths are triage findings, not automatic rejection; inspect page allocation and grid size."
+    },
+    {
+      "file": "themes\\Market Opportunity Collection\\market_05_travel_the_world_word_search.json",
+      "word_entries": 576,
+      "distinct_normalized_words": 576,
+      "repeated_entries": 0,
+      "empty_normalized_entries": 0,
+      "over_18_letters": 0,
+      "note": "Repetitions and lengths are triage findings, not automatic rejection; inspect page allocation and grid size."
+    },
+    {
+      "file": "themes\\Market Opportunity Collection\\market_06_ocean_life_word_search.json",
+      "word_entries": 576,
+      "distinct_normalized_words": 576,
+      "repeated_entries": 0,
+      "empty_normalized_entries": 0,
+      "over_18_letters": 0,
+      "note": "Repetitions and lengths are triage findings, not automatic rejection; inspect page allocation and grid size."
+    },
+    {
+      "file": "themes\\Market Opportunity Collection\\market_07_dog_lover_word_search.json",
+      "word_entries": 576,
+      "distinct_normalized_words": 576,
+      "repeated_entries": 0,
+      "empty_normalized_entries": 0,
+      "over_18_letters": 0,
+      "note": "Repetitions and lengths are triage findings, not automatic rejection; inspect page allocation and grid size."
+    },
+    {
+      "file": "themes\\Market Opportunity Collection\\market_08_cat_lover_word_search.json",
+      "word_entries": 576,
+      "distinct_normalized_words": 576,
+      "repeated_entries": 0,
+      "empty_normalized_entries": 0,
+      "over_18_letters": 0,
+      "note": "Repetitions and lengths are triage findings, not automatic rejection; inspect page allocation and grid size."
+    },
+    {
+      "file": "themes\\Market Opportunity Collection\\market_09_birdwatching_word_search.json",
+      "word_entries": 576,
+      "distinct_normalized_words": 576,
+      "repeated_entries": 0,
+      "empty_normalized_entries": 0,
+      "over_18_letters": 0,
+      "note": "Repetitions and lengths are triage findings, not automatic rejection; inspect page allocation and grid size."
+    },
+    {
+      "file": "themes\\Market Opportunity Collection\\market_10_homesteading_word_search.json",
+      "word_entries": 576,
+      "distinct_normalized_words": 576,
+      "repeated_entries": 0,
+      "empty_normalized_entries": 0,
+      "over_18_letters": 0,
+      "note": "Repetitions and lengths are triage findings, not automatic rejection; inspect page allocation and grid size."
+    },
+    {
+      "file": "themes\\Market Opportunity Collection\\market_11_baking_and_dessert_word_search.json",
+      "word_entries": 576,
+      "distinct_normalized_words": 576,
+      "repeated_entries": 0,
+      "empty_normalized_entries": 0,
+      "over_18_letters": 0,
+      "note": "Repetitions and lengths are triage findings, not automatic rejection; inspect page allocation and grid size."
+    },
+    {
+      "file": "themes\\Market Opportunity Collection\\market_12_herbs_fruits_and_vegetables_word_search.json",
+      "word_entries": 576,
+      "distinct_normalized_words": 576,
+      "repeated_entries": 0,
+      "empty_normalized_entries": 0,
+      "over_18_letters": 0,
+      "note": "Repetitions and lengths are triage findings, not automatic rejection; inspect page allocation and grid size."
+    },
+    {
+      "file": "themes\\Market Opportunity Collection\\market_13_american_history_word_search.json",
+      "word_entries": 576,
+      "distinct_normalized_words": 576,
+      "repeated_entries": 0,
+      "empty_normalized_entries": 0,
+      "over_18_letters": 0,
+      "note": "Repetitions and lengths are triage findings, not automatic rejection; inspect page allocation and grid size."
+    },
+    {
+      "file": "themes\\Market Opportunity Collection\\market_14_world_war_ii_history_word_search.json",
+      "word_entries": 576,
+      "distinct_normalized_words": 576,
+      "repeated_entries": 0,
+      "empty_normalized_entries": 0,
+      "over_18_letters": 0,
+      "note": "Repetitions and lengths are triage findings, not automatic rejection; inspect page allocation and grid size."
+    },
+    {
+      "file": "themes\\Market Opportunity Collection\\market_15_space_and_astronomy_word_search.json",
+      "word_entries": 576,
+      "distinct_normalized_words": 576,
+      "repeated_entries": 0,
+      "empty_normalized_entries": 0,
+      "over_18_letters": 0,
+      "note": "Repetitions and lengths are triage findings, not automatic rejection; inspect page allocation and grid size."
+    },
+    {
+      "file": "themes\\Market Opportunity Collection\\market_16_cars_trucks_and_road_trips_word_search.json",
+      "word_entries": 576,
+      "distinct_normalized_words": 576,
+      "repeated_entries": 0,
+      "empty_normalized_entries": 0,
+      "over_18_letters": 0,
+      "note": "Repetitions and lengths are triage findings, not automatic rejection; inspect page allocation and grid size."
+    },
+    {
+      "file": "themes\\Market Opportunity Collection\\market_17_video_game_culture_word_search.json",
+      "word_entries": 576,
+      "distinct_normalized_words": 576,
+      "repeated_entries": 0,
+      "empty_normalized_entries": 0,
+      "over_18_letters": 0,
+      "note": "Repetitions and lengths are triage findings, not automatic rejection; inspect page allocation and grid size."
+    },
+    {
+      "file": "themes\\Market Opportunity Collection\\market_18_sports_and_hobbies_word_search.json",
+      "word_entries": 576,
+      "distinct_normalized_words": 576,
+      "repeated_entries": 0,
+      "empty_normalized_entries": 0,
+      "over_18_letters": 0,
+      "note": "Repetitions and lengths are triage findings, not automatic rejection; inspect page allocation and grid size."
+    },
+    {
+      "file": "themes\\Market Opportunity Collection\\market_19_seasonal_celebrations_word_search.json",
+      "word_entries": 576,
+      "distinct_normalized_words": 576,
+      "repeated_entries": 0,
+      "empty_normalized_entries": 0,
+      "over_18_letters": 0,
+      "note": "Repetitions and lengths are triage findings, not automatic rejection; inspect page allocation and grid size."
+    },
+    {
+      "file": "themes\\Market Opportunity Collection\\market_20_through_the_decades_word_search.json",
+      "word_entries": 576,
+      "distinct_normalized_words": 576,
+      "repeated_entries": 0,
+      "empty_normalized_entries": 0,
+      "over_18_letters": 0,
+      "note": "Repetitions and lengths are triage findings, not automatic rejection; inspect page allocation and grid size."
+    },
+    {
+      "file": "themes\\movies.json",
+      "word_entries": 576,
+      "distinct_normalized_words": 576,
+      "repeated_entries": 0,
+      "empty_normalized_entries": 0,
+      "over_18_letters": 0,
+      "note": "Repetitions and lengths are triage findings, not automatic rejection; inspect page allocation and grid size."
+    },
+    {
+      "file": "themes\\national_parks_01_greatsmokymountains.json",
+      "word_entries": 576,
+      "distinct_normalized_words": 576,
+      "repeated_entries": 0,
+      "empty_normalized_entries": 0,
+      "over_18_letters": 0,
+      "note": "Repetitions and lengths are triage findings, not automatic rejection; inspect page allocation and grid size."
+    },
+    {
+      "file": "themes\\national_parks_02_zion.json",
+      "word_entries": 576,
+      "distinct_normalized_words": 576,
+      "repeated_entries": 0,
+      "empty_normalized_entries": 0,
+      "over_18_letters": 0,
+      "note": "Repetitions and lengths are triage findings, not automatic rejection; inspect page allocation and grid size."
+    },
+    {
+      "file": "themes\\national_parks_03_yellowstone.json",
+      "word_entries": 576,
+      "distinct_normalized_words": 576,
+      "repeated_entries": 0,
+      "empty_normalized_entries": 0,
+      "over_18_letters": 0,
+      "note": "Repetitions and lengths are triage findings, not automatic rejection; inspect page allocation and grid size."
+    },
+    {
+      "file": "themes\\national_parks_04_grandcanyon.json",
+      "word_entries": 576,
+      "distinct_normalized_words": 576,
+      "repeated_entries": 0,
+      "empty_normalized_entries": 0,
+      "over_18_letters": 0,
+      "note": "Repetitions and lengths are triage findings, not automatic rejection; inspect page allocation and grid size."
+    },
+    {
+      "file": "themes\\national_parks_05_yosemite.json",
+      "word_entries": 576,
+      "distinct_normalized_words": 576,
+      "repeated_entries": 0,
+      "empty_normalized_entries": 0,
+      "over_18_letters": 0,
+      "note": "Repetitions and lengths are triage findings, not automatic rejection; inspect page allocation and grid size."
+    },
+    {
+      "file": "themes\\national_parks_06_rockymountain.json",
+      "word_entries": 576,
+      "distinct_normalized_words": 576,
+      "repeated_entries": 0,
+      "empty_normalized_entries": 0,
+      "over_18_letters": 0,
+      "note": "Repetitions and lengths are triage findings, not automatic rejection; inspect page allocation and grid size."
+    },
+    {
+      "file": "themes\\national_parks_07_acadia.json",
+      "word_entries": 576,
+      "distinct_normalized_words": 576,
+      "repeated_entries": 0,
+      "empty_normalized_entries": 0,
+      "over_18_letters": 0,
+      "note": "Repetitions and lengths are triage findings, not automatic rejection; inspect page allocation and grid size."
+    },
+    {
+      "file": "themes\\national_parks_08_grandteton.json",
+      "word_entries": 576,
+      "distinct_normalized_words": 576,
+      "repeated_entries": 0,
+      "empty_normalized_entries": 0,
+      "over_18_letters": 0,
+      "note": "Repetitions and lengths are triage findings, not automatic rejection; inspect page allocation and grid size."
+    },
+    {
+      "file": "themes\\national_parks_09_olympic.json",
+      "word_entries": 576,
+      "distinct_normalized_words": 576,
+      "repeated_entries": 0,
+      "empty_normalized_entries": 0,
+      "over_18_letters": 0,
+      "note": "Repetitions and lengths are triage findings, not automatic rejection; inspect page allocation and grid size."
+    },
+    {
+      "file": "themes\\national_parks_10_glacier.json",
+      "word_entries": 576,
+      "distinct_normalized_words": 576,
+      "repeated_entries": 0,
+      "empty_normalized_entries": 0,
+      "over_18_letters": 0,
+      "note": "Repetitions and lengths are triage findings, not automatic rejection; inspect page allocation and grid size."
+    },
+    {
+      "file": "themes\\national_parks_11_joshuatree.json",
+      "word_entries": 576,
+      "distinct_normalized_words": 576,
+      "repeated_entries": 0,
+      "empty_normalized_entries": 0,
+      "over_18_letters": 0,
+      "note": "Repetitions and lengths are triage findings, not automatic rejection; inspect page allocation and grid size."
+    },
+    {
+      "file": "themes\\national_parks_12_cuyahogavalley.json",
+      "word_entries": 576,
+      "distinct_normalized_words": 576,
+      "repeated_entries": 0,
+      "empty_normalized_entries": 0,
+      "over_18_letters": 0,
+      "note": "Repetitions and lengths are triage findings, not automatic rejection; inspect page allocation and grid size."
+    },
+    {
+      "file": "themes\\national_parks_13_indianadunes.json",
+      "word_entries": 576,
+      "distinct_normalized_words": 576,
+      "repeated_entries": 0,
+      "empty_normalized_entries": 0,
+      "over_18_letters": 0,
+      "note": "Repetitions and lengths are triage findings, not automatic rejection; inspect page allocation and grid size."
+    },
+    {
+      "file": "themes\\national_parks_14_hotsprings.json",
+      "word_entries": 576,
+      "distinct_normalized_words": 576,
+      "repeated_entries": 0,
+      "empty_normalized_entries": 0,
+      "over_18_letters": 0,
+      "note": "Repetitions and lengths are triage findings, not automatic rejection; inspect page allocation and grid size."
+    },
+    {
+      "file": "themes\\national_parks_15_brycecanyon.json",
+      "word_entries": 576,
+      "distinct_normalized_words": 576,
+      "repeated_entries": 0,
+      "empty_normalized_entries": 0,
+      "over_18_letters": 0,
+      "note": "Repetitions and lengths are triage findings, not automatic rejection; inspect page allocation and grid size."
+    },
+    {
+      "file": "themes\\national_parks_16_shenandoah.json",
+      "word_entries": 576,
+      "distinct_normalized_words": 576,
+      "repeated_entries": 0,
+      "empty_normalized_entries": 0,
+      "over_18_letters": 0,
+      "note": "Repetitions and lengths are triage findings, not automatic rejection; inspect page allocation and grid size."
+    },
+    {
+      "file": "themes\\national_parks_17_mountrainier.json",
+      "word_entries": 576,
+      "distinct_normalized_words": 576,
+      "repeated_entries": 0,
+      "empty_normalized_entries": 0,
+      "over_18_letters": 0,
+      "note": "Repetitions and lengths are triage findings, not automatic rejection; inspect page allocation and grid size."
+    },
+    {
+      "file": "themes\\national_parks_18_arches.json",
+      "word_entries": 576,
+      "distinct_normalized_words": 576,
+      "repeated_entries": 0,
+      "empty_normalized_entries": 0,
+      "over_18_letters": 0,
+      "note": "Repetitions and lengths are triage findings, not automatic rejection; inspect page allocation and grid size."
+    },
+    {
+      "file": "themes\\national_parks_19_newrivergorge.json",
+      "word_entries": 576,
+      "distinct_normalized_words": 576,
+      "repeated_entries": 0,
+      "empty_normalized_entries": 0,
+      "over_18_letters": 0,
+      "note": "Repetitions and lengths are triage findings, not automatic rejection; inspect page allocation and grid size."
+    },
+    {
+      "file": "themes\\national_parks_20_deathvalley.json",
+      "word_entries": 576,
+      "distinct_normalized_words": 576,
+      "repeated_entries": 0,
+      "empty_normalized_entries": 0,
+      "over_18_letters": 0,
+      "note": "Repetitions and lengths are triage findings, not automatic rejection; inspect page allocation and grid size."
+    },
+    {
+      "file": "themes\\New_York_100_Themed_Wordsearch_Word_Banks.json",
+      "word_entries": 2000,
+      "distinct_normalized_words": 2000,
+      "repeated_entries": 0,
+      "empty_normalized_entries": 0,
+      "over_18_letters": 0,
+      "note": "Repetitions and lengths are triage findings, not automatic rejection; inspect page allocation and grid size."
+    },
+    {
+      "file": "themes\\ocean-life.json",
+      "word_entries": 576,
+      "distinct_normalized_words": 576,
+      "repeated_entries": 0,
+      "empty_normalized_entries": 0,
+      "over_18_letters": 0,
+      "note": "Repetitions and lengths are triage findings, not automatic rejection; inspect page allocation and grid size."
+    },
+    {
+      "file": "themes\\ocean_life_100.json",
+      "word_entries": 2000,
+      "distinct_normalized_words": 2000,
+      "repeated_entries": 0,
+      "empty_normalized_entries": 0,
+      "over_18_letters": 0,
+      "note": "Repetitions and lengths are triage findings, not automatic rejection; inspect page allocation and grid size."
+    },
+    {
+      "file": "themes\\outdoor-activities.json",
+      "word_entries": 576,
+      "distinct_normalized_words": 576,
+      "repeated_entries": 0,
+      "empty_normalized_entries": 0,
+      "over_18_letters": 0,
+      "note": "Repetitions and lengths are triage findings, not automatic rejection; inspect page allocation and grid size."
+    },
+    {
+      "file": "themes\\Pennsylvania_100_Themed_Wordsearch_Word_Banks.json",
+      "word_entries": 2000,
+      "distinct_normalized_words": 2000,
+      "repeated_entries": 0,
+      "empty_normalized_entries": 0,
+      "over_18_letters": 0,
+      "note": "Repetitions and lengths are triage findings, not automatic rejection; inspect page allocation and grid size."
+    },
+    {
+      "file": "themes\\pets_100.json",
+      "word_entries": 576,
+      "distinct_normalized_words": 576,
+      "repeated_entries": 0,
+      "empty_normalized_entries": 0,
+      "over_18_letters": 0,
+      "note": "Repetitions and lengths are triage findings, not automatic rejection; inspect page allocation and grid size."
+    },
+    {
+      "file": "themes\\popular_01_dogbreeds.json",
+      "word_entries": 576,
+      "distinct_normalized_words": 576,
+      "repeated_entries": 0,
+      "empty_normalized_entries": 0,
+      "over_18_letters": 0,
+      "note": "Repetitions and lengths are triage findings, not automatic rejection; inspect page allocation and grid size."
+    },
+    {
+      "file": "themes\\popular_02_catlover.json",
+      "word_entries": 576,
+      "distinct_normalized_words": 576,
+      "repeated_entries": 0,
+      "empty_normalized_entries": 0,
+      "over_18_letters": 0,
+      "note": "Repetitions and lengths are triage findings, not automatic rejection; inspect page allocation and grid size."
+    },
+    {
+      "file": "themes\\popular_03_horselover.json",
+      "word_entries": 576,
+      "distinct_normalized_words": 576,
+      "repeated_entries": 0,
+      "empty_normalized_entries": 0,
+      "over_18_letters": 0,
+      "note": "Repetitions and lengths are triage findings, not automatic rejection; inspect page allocation and grid size."
+    },
+    {
+      "file": "themes\\popular_04_birdwatching.json",
+      "word_entries": 576,
+      "distinct_normalized_words": 576,
+      "repeated_entries": 0,
+      "empty_normalized_entries": 0,
+      "over_18_letters": 0,
+      "note": "Repetitions and lengths are triage findings, not automatic rejection; inspect page allocation and grid size."
+    },
+    {
+      "file": "themes\\popular_05_farmanimals.json",
+      "word_entries": 576,
+      "distinct_normalized_words": 576,
+      "repeated_entries": 0,
+      "empty_normalized_entries": 0,
+      "over_18_letters": 0,
+      "note": "Repetitions and lengths are triage findings, not automatic rejection; inspect page allocation and grid size."
+    },
+    {
+      "file": "themes\\popular_06_booksofthebible.json",
+      "word_entries": 576,
+      "distinct_normalized_words": 576,
+      "repeated_entries": 0,
+      "empty_normalized_entries": 0,
+      "over_18_letters": 0,
+      "note": "Repetitions and lengths are triage findings, not automatic rejection; inspect page allocation and grid size."
+    },
+    {
+      "file": "themes\\popular_07_faithandencouragement.json",
+      "word_entries": 576,
+      "distinct_normalized_words": 576,
+      "repeated_entries": 0,
+      "empty_normalized_entries": 0,
+      "over_18_letters": 0,
+      "note": "Repetitions and lengths are triage findings, not automatic rejection; inspect page allocation and grid size."
+    },
+    {
+      "file": "themes\\popular_08_worldcountriesandcapitals.json",
+      "word_entries": 576,
+      "distinct_normalized_words": 576,
+      "repeated_entries": 0,
+      "empty_normalized_entries": 0,
+      "over_18_letters": 0,
+      "note": "Repetitions and lengths are triage findings, not automatic rejection; inspect page allocation and grid size."
+    },
+    {
+      "file": "themes\\popular_09_americanroadtrip.json",
+      "word_entries": 576,
+      "distinct_normalized_words": 576,
+      "repeated_entries": 0,
+      "empty_normalized_entries": 0,
+      "over_18_letters": 0,
+      "note": "Repetitions and lengths are triage findings, not automatic rejection; inspect page allocation and grid size."
+    },
+    {
+      "file": "themes\\popular_10_gardening.json",
+      "word_entries": 576,
+      "distinct_normalized_words": 576,
+      "repeated_entries": 0,
+      "empty_normalized_entries": 0,
+      "over_18_letters": 0,
+      "note": "Repetitions and lengths are triage findings, not automatic rejection; inspect page allocation and grid size."
+    },
+    {
+      "file": "themes\\popular_11_baking.json",
+      "word_entries": 576,
+      "distinct_normalized_words": 576,
+      "repeated_entries": 0,
+      "empty_normalized_entries": 0,
+      "over_18_letters": 0,
+      "note": "Repetitions and lengths are triage findings, not automatic rejection; inspect page allocation and grid size."
+    },
+    {
+      "file": "themes\\popular_12_coffeeandtea.json",
+      "word_entries": 576,
+      "distinct_normalized_words": 576,
+      "repeated_entries": 0,
+      "empty_normalized_entries": 0,
+      "over_18_letters": 0,
+      "note": "Repetitions and lengths are triage findings, not automatic rejection; inspect page allocation and grid size."
+    },
+    {
+      "file": "themes\\popular_13_wineandcheese.json",
+      "word_entries": 576,
+      "distinct_normalized_words": 576,
+      "repeated_entries": 0,
+      "empty_normalized_entries": 0,
+      "over_18_letters": 0,
+      "note": "Repetitions and lengths are triage findings, not automatic rejection; inspect page allocation and grid size."
+    },
+    {
+      "file": "themes\\popular_14_fishing.json",
+      "word_entries": 576,
+      "distinct_normalized_words": 576,
+      "repeated_entries": 0,
+      "empty_normalized_entries": 0,
+      "over_18_letters": 0,
+      "note": "Repetitions and lengths are triage findings, not automatic rejection; inspect page allocation and grid size."
+    },
+    {
+      "file": "themes\\popular_15_golf.json",
+      "word_entries": 576,
+      "distinct_normalized_words": 576,
+      "repeated_entries": 0,
+      "empty_normalized_entries": 0,
+      "over_18_letters": 0,
+      "note": "Repetitions and lengths are triage findings, not automatic rejection; inspect page allocation and grid size."
+    },
+    {
+      "file": "themes\\popular_16_quilting.json",
+      "word_entries": 576,
+      "distinct_normalized_words": 576,
+      "repeated_entries": 0,
+      "empty_normalized_entries": 0,
+      "over_18_letters": 0,
+      "note": "Repetitions and lengths are triage findings, not automatic rejection; inspect page allocation and grid size."
+    },
+    {
+      "file": "themes\\popular_17_sewingandcrafts.json",
+      "word_entries": 576,
+      "distinct_normalized_words": 576,
+      "repeated_entries": 0,
+      "empty_normalized_entries": 0,
+      "over_18_letters": 0,
+      "note": "Repetitions and lengths are triage findings, not automatic rejection; inspect page allocation and grid size."
+    },
+    {
+      "file": "themes\\popular_18_classicliterature.json",
+      "word_entries": 576,
+      "distinct_normalized_words": 576,
+      "repeated_entries": 0,
+      "empty_normalized_entries": 0,
+      "over_18_letters": 0,
+      "note": "Repetitions and lengths are triage findings, not automatic rejection; inspect page allocation and grid size."
+    },
+    {
+      "file": "themes\\popular_19_mindfulnessandgratitude.json",
+      "word_entries": 576,
+      "distinct_normalized_words": 576,
+      "repeated_entries": 0,
+      "empty_normalized_entries": 0,
+      "over_18_letters": 0,
+      "note": "Repetitions and lengths are triage findings, not automatic rejection; inspect page allocation and grid size."
+    },
+    {
+      "file": "themes\\popular_20_cozyautumn.json",
+      "word_entries": 576,
+      "distinct_normalized_words": 576,
+      "repeated_entries": 0,
+      "empty_normalized_entries": 0,
+      "over_18_letters": 0,
+      "note": "Repetitions and lengths are triage findings, not automatic rejection; inspect page allocation and grid size."
+    },
+    {
+      "file": "themes\\Production Launch 5\\top5_01_national_parks_20260822_193509.json",
+      "word_entries": 576,
+      "distinct_normalized_words": 576,
+      "repeated_entries": 0,
+      "empty_normalized_entries": 0,
+      "over_18_letters": 0,
+      "note": "Repetitions and lengths are triage findings, not automatic rejection; inspect page allocation and grid size."
+    },
+    {
+      "file": "themes\\Production Launch 5\\top5_01_national_parks_20260822_193711.json",
+      "word_entries": 576,
+      "distinct_normalized_words": 576,
+      "repeated_entries": 0,
+      "empty_normalized_entries": 0,
+      "over_18_letters": 0,
+      "note": "Repetitions and lengths are triage findings, not automatic rejection; inspect page allocation and grid size."
+    },
+    {
+      "file": "themes\\Production Launch 5\\top5_01_national_parks_20260822_193739.json",
+      "word_entries": 576,
+      "distinct_normalized_words": 576,
+      "repeated_entries": 0,
+      "empty_normalized_entries": 0,
+      "over_18_letters": 0,
+      "note": "Repetitions and lengths are triage findings, not automatic rejection; inspect page allocation and grid size."
+    },
+    {
+      "file": "themes\\Production Launch 5\\top5_01_national_parks_20260822_193911.json",
+      "word_entries": 576,
+      "distinct_normalized_words": 576,
+      "repeated_entries": 0,
+      "empty_normalized_entries": 0,
+      "over_18_letters": 0,
+      "note": "Repetitions and lengths are triage findings, not automatic rejection; inspect page allocation and grid size."
+    },
+    {
+      "file": "themes\\Production Launch 5\\top5_01_national_parks_20260822_194231.json",
+      "word_entries": 576,
+      "distinct_normalized_words": 576,
+      "repeated_entries": 0,
+      "empty_normalized_entries": 0,
+      "over_18_letters": 0,
+      "note": "Repetitions and lengths are triage findings, not automatic rejection; inspect page allocation and grid size."
+    },
+    {
+      "file": "themes\\Production Launch 5\\top5_01_national_parks_20260822_194419.json",
+      "word_entries": 576,
+      "distinct_normalized_words": 576,
+      "repeated_entries": 0,
+      "empty_normalized_entries": 0,
+      "over_18_letters": 0,
+      "note": "Repetitions and lengths are triage findings, not automatic rejection; inspect page allocation and grid size."
+    },
+    {
+      "file": "themes\\Production Launch 5\\top5_01_national_parks_20260822_195130.json",
+      "word_entries": 576,
+      "distinct_normalized_words": 576,
+      "repeated_entries": 0,
+      "empty_normalized_entries": 0,
+      "over_18_letters": 0,
+      "note": "Repetitions and lengths are triage findings, not automatic rejection; inspect page allocation and grid size."
+    },
+    {
+      "file": "themes\\Production Launch 5\\top5_01_national_parks_20260822_195201.json",
+      "word_entries": 576,
+      "distinct_normalized_words": 576,
+      "repeated_entries": 0,
+      "empty_normalized_entries": 0,
+      "over_18_letters": 0,
+      "note": "Repetitions and lengths are triage findings, not automatic rejection; inspect page allocation and grid size."
+    },
+    {
+      "file": "themes\\Production Launch 5\\top5_02_gardening_20260822_193711.json",
+      "word_entries": 576,
+      "distinct_normalized_words": 576,
+      "repeated_entries": 0,
+      "empty_normalized_entries": 0,
+      "over_18_letters": 0,
+      "note": "Repetitions and lengths are triage findings, not automatic rejection; inspect page allocation and grid size."
+    },
+    {
+      "file": "themes\\Production Launch 5\\top5_02_gardening_20260822_193739.json",
+      "word_entries": 576,
+      "distinct_normalized_words": 576,
+      "repeated_entries": 0,
+      "empty_normalized_entries": 0,
+      "over_18_letters": 0,
+      "note": "Repetitions and lengths are triage findings, not automatic rejection; inspect page allocation and grid size."
+    },
+    {
+      "file": "themes\\Production Launch 5\\top5_02_gardening_20260822_193911.json",
+      "word_entries": 576,
+      "distinct_normalized_words": 576,
+      "repeated_entries": 0,
+      "empty_normalized_entries": 0,
+      "over_18_letters": 0,
+      "note": "Repetitions and lengths are triage findings, not automatic rejection; inspect page allocation and grid size."
+    },
+    {
+      "file": "themes\\Production Launch 5\\top5_02_gardening_20260822_194231.json",
+      "word_entries": 576,
+      "distinct_normalized_words": 576,
+      "repeated_entries": 0,
+      "empty_normalized_entries": 0,
+      "over_18_letters": 0,
+      "note": "Repetitions and lengths are triage findings, not automatic rejection; inspect page allocation and grid size."
+    },
+    {
+      "file": "themes\\Production Launch 5\\top5_02_gardening_20260822_194419.json",
+      "word_entries": 576,
+      "distinct_normalized_words": 576,
+      "repeated_entries": 0,
+      "empty_normalized_entries": 0,
+      "over_18_letters": 0,
+      "note": "Repetitions and lengths are triage findings, not automatic rejection; inspect page allocation and grid size."
+    },
+    {
+      "file": "themes\\Production Launch 5\\top5_02_gardening_20260822_195130.json",
+      "word_entries": 576,
+      "distinct_normalized_words": 576,
+      "repeated_entries": 0,
+      "empty_normalized_entries": 0,
+      "over_18_letters": 0,
+      "note": "Repetitions and lengths are triage findings, not automatic rejection; inspect page allocation and grid size."
+    },
+    {
+      "file": "themes\\Production Launch 5\\top5_02_gardening_20260822_195201.json",
+      "word_entries": 576,
+      "distinct_normalized_words": 576,
+      "repeated_entries": 0,
+      "empty_normalized_entries": 0,
+      "over_18_letters": 0,
+      "note": "Repetitions and lengths are triage findings, not automatic rejection; inspect page allocation and grid size."
+    },
+    {
+      "file": "themes\\Production Launch 5\\top5_03_thanksgiving_20260822_193711.json",
+      "word_entries": 576,
+      "distinct_normalized_words": 576,
+      "repeated_entries": 0,
+      "empty_normalized_entries": 0,
+      "over_18_letters": 0,
+      "note": "Repetitions and lengths are triage findings, not automatic rejection; inspect page allocation and grid size."
+    },
+    {
+      "file": "themes\\Production Launch 5\\top5_03_thanksgiving_20260822_193739.json",
+      "word_entries": 576,
+      "distinct_normalized_words": 576,
+      "repeated_entries": 0,
+      "empty_normalized_entries": 0,
+      "over_18_letters": 0,
+      "note": "Repetitions and lengths are triage findings, not automatic rejection; inspect page allocation and grid size."
+    },
+    {
+      "file": "themes\\Production Launch 5\\top5_03_thanksgiving_20260822_193911.json",
+      "word_entries": 576,
+      "distinct_normalized_words": 576,
+      "repeated_entries": 0,
+      "empty_normalized_entries": 0,
+      "over_18_letters": 0,
+      "note": "Repetitions and lengths are triage findings, not automatic rejection; inspect page allocation and grid size."
+    },
+    {
+      "file": "themes\\Production Launch 5\\top5_03_thanksgiving_20260822_194231.json",
+      "word_entries": 576,
+      "distinct_normalized_words": 576,
+      "repeated_entries": 0,
+      "empty_normalized_entries": 0,
+      "over_18_letters": 0,
+      "note": "Repetitions and lengths are triage findings, not automatic rejection; inspect page allocation and grid size."
+    },
+    {
+      "file": "themes\\Production Launch 5\\top5_03_thanksgiving_20260822_194419.json",
+      "word_entries": 576,
+      "distinct_normalized_words": 576,
+      "repeated_entries": 0,
+      "empty_normalized_entries": 0,
+      "over_18_letters": 0,
+      "note": "Repetitions and lengths are triage findings, not automatic rejection; inspect page allocation and grid size."
+    },
+    {
+      "file": "themes\\Production Launch 5\\top5_03_thanksgiving_20260822_195130.json",
+      "word_entries": 576,
+      "distinct_normalized_words": 576,
+      "repeated_entries": 0,
+      "empty_normalized_entries": 0,
+      "over_18_letters": 0,
+      "note": "Repetitions and lengths are triage findings, not automatic rejection; inspect page allocation and grid size."
+    },
+    {
+      "file": "themes\\Production Launch 5\\top5_03_thanksgiving_20260822_195201.json",
+      "word_entries": 576,
+      "distinct_normalized_words": 576,
+      "repeated_entries": 0,
+      "empty_normalized_entries": 0,
+      "over_18_letters": 0,
+      "note": "Repetitions and lengths are triage findings, not automatic rejection; inspect page allocation and grid size."
+    },
+    {
+      "file": "themes\\Production Launch 5\\top5_04_holiday_celebrations_20260822_193711.json",
+      "word_entries": 576,
+      "distinct_normalized_words": 576,
+      "repeated_entries": 0,
+      "empty_normalized_entries": 0,
+      "over_18_letters": 0,
+      "note": "Repetitions and lengths are triage findings, not automatic rejection; inspect page allocation and grid size."
+    },
+    {
+      "file": "themes\\Production Launch 5\\top5_04_holiday_celebrations_20260822_193739.json",
+      "word_entries": 576,
+      "distinct_normalized_words": 576,
+      "repeated_entries": 0,
+      "empty_normalized_entries": 0,
+      "over_18_letters": 0,
+      "note": "Repetitions and lengths are triage findings, not automatic rejection; inspect page allocation and grid size."
+    },
+    {
+      "file": "themes\\Production Launch 5\\top5_04_holiday_celebrations_20260822_193911.json",
+      "word_entries": 576,
+      "distinct_normalized_words": 576,
+      "repeated_entries": 0,
+      "empty_normalized_entries": 0,
+      "over_18_letters": 0,
+      "note": "Repetitions and lengths are triage findings, not automatic rejection; inspect page allocation and grid size."
+    },
+    {
+      "file": "themes\\Production Launch 5\\top5_04_holiday_celebrations_20260822_194231.json",
+      "word_entries": 576,
+      "distinct_normalized_words": 576,
+      "repeated_entries": 0,
+      "empty_normalized_entries": 0,
+      "over_18_letters": 0,
+      "note": "Repetitions and lengths are triage findings, not automatic rejection; inspect page allocation and grid size."
+    },
+    {
+      "file": "themes\\Production Launch 5\\top5_04_holiday_celebrations_20260822_194419.json",
+      "word_entries": 576,
+      "distinct_normalized_words": 576,
+      "repeated_entries": 0,
+      "empty_normalized_entries": 0,
+      "over_18_letters": 0,
+      "note": "Repetitions and lengths are triage findings, not automatic rejection; inspect page allocation and grid size."
+    },
+    {
+      "file": "themes\\Production Launch 5\\top5_04_holiday_celebrations_20260822_195130.json",
+      "word_entries": 576,
+      "distinct_normalized_words": 576,
+      "repeated_entries": 0,
+      "empty_normalized_entries": 0,
+      "over_18_letters": 0,
+      "note": "Repetitions and lengths are triage findings, not automatic rejection; inspect page allocation and grid size."
+    },
+    {
+      "file": "themes\\Production Launch 5\\top5_04_holiday_celebrations_20260822_195201.json",
+      "word_entries": 576,
+      "distinct_normalized_words": 576,
+      "repeated_entries": 0,
+      "empty_normalized_entries": 0,
+      "over_18_letters": 0,
+      "note": "Repetitions and lengths are triage findings, not automatic rejection; inspect page allocation and grid size."
+    },
+    {
+      "file": "themes\\Production Launch 5\\top5_05_easter_spring_20260822_193711.json",
+      "word_entries": 576,
+      "distinct_normalized_words": 576,
+      "repeated_entries": 0,
+      "empty_normalized_entries": 0,
+      "over_18_letters": 0,
+      "note": "Repetitions and lengths are triage findings, not automatic rejection; inspect page allocation and grid size."
+    },
+    {
+      "file": "themes\\Production Launch 5\\top5_05_easter_spring_20260822_193739.json",
+      "word_entries": 576,
+      "distinct_normalized_words": 576,
+      "repeated_entries": 0,
+      "empty_normalized_entries": 0,
+      "over_18_letters": 0,
+      "note": "Repetitions and lengths are triage findings, not automatic rejection; inspect page allocation and grid size."
+    },
+    {
+      "file": "themes\\Production Launch 5\\top5_05_easter_spring_20260822_193911.json",
+      "word_entries": 576,
+      "distinct_normalized_words": 576,
+      "repeated_entries": 0,
+      "empty_normalized_entries": 0,
+      "over_18_letters": 0,
+      "note": "Repetitions and lengths are triage findings, not automatic rejection; inspect page allocation and grid size."
+    },
+    {
+      "file": "themes\\Production Launch 5\\top5_05_easter_spring_20260822_194231.json",
+      "word_entries": 576,
+      "distinct_normalized_words": 576,
+      "repeated_entries": 0,
+      "empty_normalized_entries": 0,
+      "over_18_letters": 0,
+      "note": "Repetitions and lengths are triage findings, not automatic rejection; inspect page allocation and grid size."
+    },
+    {
+      "file": "themes\\Production Launch 5\\top5_05_easter_spring_20260822_194419.json",
+      "word_entries": 576,
+      "distinct_normalized_words": 576,
+      "repeated_entries": 0,
+      "empty_normalized_entries": 0,
+      "over_18_letters": 0,
+      "note": "Repetitions and lengths are triage findings, not automatic rejection; inspect page allocation and grid size."
+    },
+    {
+      "file": "themes\\Production Launch 5\\top5_05_easter_spring_20260822_195130.json",
+      "word_entries": 576,
+      "distinct_normalized_words": 576,
+      "repeated_entries": 0,
+      "empty_normalized_entries": 0,
+      "over_18_letters": 0,
+      "note": "Repetitions and lengths are triage findings, not automatic rejection; inspect page allocation and grid size."
+    },
+    {
+      "file": "themes\\Production Launch 5\\top5_05_easter_spring_20260822_195201.json",
+      "word_entries": 576,
+      "distinct_normalized_words": 576,
+      "repeated_entries": 0,
+      "empty_normalized_entries": 0,
+      "over_18_letters": 0,
+      "note": "Repetitions and lengths are triage findings, not automatic rejection; inspect page allocation and grid size."
+    },
+    {
+      "file": "themes\\reptiles_48.json",
+      "word_entries": 576,
+      "distinct_normalized_words": 576,
+      "repeated_entries": 0,
+      "empty_normalized_entries": 0,
+      "over_18_letters": 0,
+      "note": "Repetitions and lengths are triage findings, not automatic rejection; inspect page allocation and grid size."
+    },
+    {
+      "file": "themes\\retro-travel-and-landmarks.json",
+      "word_entries": 576,
+      "distinct_normalized_words": 576,
+      "repeated_entries": 0,
+      "empty_normalized_entries": 0,
+      "over_18_letters": 0,
+      "note": "Repetitions and lengths are triage findings, not automatic rejection; inspect page allocation and grid size."
+    },
+    {
+      "file": "themes\\Signature Editions\\signature_garden_homestead_harvest_20260822_210209.json",
+      "word_entries": 1200,
+      "distinct_normalized_words": 1200,
+      "repeated_entries": 0,
+      "empty_normalized_entries": 0,
+      "over_18_letters": 0,
+      "note": "Repetitions and lengths are triage findings, not automatic rejection; inspect page allocation and grid size."
+    },
+    {
+      "file": "themes\\Signature Editions\\signature_garden_homestead_harvest_20260822_211740.json",
+      "word_entries": 1200,
+      "distinct_normalized_words": 1200,
+      "repeated_entries": 0,
+      "empty_normalized_entries": 0,
+      "over_18_letters": 0,
+      "note": "Repetitions and lengths are triage findings, not automatic rejection; inspect page allocation and grid size."
+    },
+    {
+      "file": "themes\\Signature Editions\\signature_garden_homestead_harvest_20260822_211833.json",
+      "word_entries": 1200,
+      "distinct_normalized_words": 1200,
+      "repeated_entries": 0,
+      "empty_normalized_entries": 0,
+      "over_18_letters": 0,
+      "note": "Repetitions and lengths are triage findings, not automatic rejection; inspect page allocation and grid size."
+    },
+    {
+      "file": "themes\\Signature Editions\\signature_garden_homestead_harvest_20260822_212027.json",
+      "word_entries": 1200,
+      "distinct_normalized_words": 1200,
+      "repeated_entries": 0,
+      "empty_normalized_entries": 0,
+      "over_18_letters": 0,
+      "note": "Repetitions and lengths are triage findings, not automatic rejection; inspect page allocation and grid size."
+    },
+    {
+      "file": "themes\\Signature Editions\\signature_garden_homestead_harvest_20260822_222054.json",
+      "word_entries": 1200,
+      "distinct_normalized_words": 1200,
+      "repeated_entries": 0,
+      "empty_normalized_entries": 0,
+      "over_18_letters": 0,
+      "note": "Repetitions and lengths are triage findings, not automatic rejection; inspect page allocation and grid size."
+    },
+    {
+      "file": "themes\\Signature Editions\\signature_space_planets_astronomy_20260822_210209.json",
+      "word_entries": 1200,
+      "distinct_normalized_words": 1200,
+      "repeated_entries": 0,
+      "empty_normalized_entries": 0,
+      "over_18_letters": 0,
+      "note": "Repetitions and lengths are triage findings, not automatic rejection; inspect page allocation and grid size."
+    },
+    {
+      "file": "themes\\Signature Editions\\signature_space_planets_astronomy_20260822_211740.json",
+      "word_entries": 1200,
+      "distinct_normalized_words": 1200,
+      "repeated_entries": 0,
+      "empty_normalized_entries": 0,
+      "over_18_letters": 0,
+      "note": "Repetitions and lengths are triage findings, not automatic rejection; inspect page allocation and grid size."
+    },
+    {
+      "file": "themes\\Signature Editions\\signature_space_planets_astronomy_20260822_211833.json",
+      "word_entries": 1200,
+      "distinct_normalized_words": 1200,
+      "repeated_entries": 0,
+      "empty_normalized_entries": 0,
+      "over_18_letters": 0,
+      "note": "Repetitions and lengths are triage findings, not automatic rejection; inspect page allocation and grid size."
+    },
+    {
+      "file": "themes\\Signature Editions\\signature_space_planets_astronomy_20260822_212027.json",
+      "word_entries": 1200,
+      "distinct_normalized_words": 1200,
+      "repeated_entries": 0,
+      "empty_normalized_entries": 0,
+      "over_18_letters": 0,
+      "note": "Repetitions and lengths are triage findings, not automatic rejection; inspect page allocation and grid size."
+    },
+    {
+      "file": "themes\\Signature Editions\\signature_space_planets_astronomy_20260822_222054.json",
+      "word_entries": 1200,
+      "distinct_normalized_words": 1200,
+      "repeated_entries": 0,
+      "empty_normalized_entries": 0,
+      "over_18_letters": 0,
+      "note": "Repetitions and lengths are triage findings, not automatic rejection; inspect page allocation and grid size."
+    },
+    {
+      "file": "themes\\signature_all_star_sports.json",
+      "word_entries": 720,
+      "distinct_normalized_words": 720,
+      "repeated_entries": 0,
+      "empty_normalized_entries": 0,
+      "over_18_letters": 0,
+      "note": "Repetitions and lengths are triage findings, not automatic rejection; inspect page allocation and grid size."
+    },
+    {
+      "file": "themes\\signature_american_history_defining_moments.json",
+      "word_entries": 576,
+      "distinct_normalized_words": 576,
+      "repeated_entries": 0,
+      "empty_normalized_entries": 0,
+      "over_18_letters": 0,
+      "note": "Repetitions and lengths are triage findings, not automatic rejection; inspect page allocation and grid size."
+    },
+    {
+      "file": "themes\\signature_american_history_teens.json",
+      "word_entries": 576,
+      "distinct_normalized_words": 576,
+      "repeated_entries": 0,
+      "empty_normalized_entries": 0,
+      "over_18_letters": 0,
+      "note": "Repetitions and lengths are triage findings, not automatic rejection; inspect page allocation and grid size."
+    },
+    {
+      "file": "themes\\signature_bible_stories.json",
+      "word_entries": 1200,
+      "distinct_normalized_words": 1200,
+      "repeated_entries": 0,
+      "empty_normalized_entries": 0,
+      "over_18_letters": 0,
+      "note": "Repetitions and lengths are triage findings, not automatic rejection; inspect page allocation and grid size."
+    },
+    {
+      "file": "themes\\signature_birds_of_north_america.json",
+      "word_entries": 1200,
+      "distinct_normalized_words": 1200,
+      "repeated_entries": 0,
+      "empty_normalized_entries": 0,
+      "over_18_letters": 0,
+      "note": "Repetitions and lengths are triage findings, not automatic rejection; inspect page allocation and grid size."
+    },
+    {
+      "file": "themes\\signature_christmas_traditions.json",
+      "word_entries": 576,
+      "distinct_normalized_words": 576,
+      "repeated_entries": 0,
+      "empty_normalized_entries": 0,
+      "over_18_letters": 0,
+      "note": "Repetitions and lengths are triage findings, not automatic rejection; inspect page allocation and grid size."
+    },
+    {
+      "file": "themes\\signature_flavors_of_the_world.json",
+      "word_entries": 1200,
+      "distinct_normalized_words": 1200,
+      "repeated_entries": 0,
+      "empty_normalized_entries": 0,
+      "over_18_letters": 0,
+      "note": "Repetitions and lengths are triage findings, not automatic rejection; inspect page allocation and grid size."
+    },
+    {
+      "file": "themes\\signature_great_journeys.json",
+      "word_entries": 1200,
+      "distinct_normalized_words": 1200,
+      "repeated_entries": 0,
+      "empty_normalized_entries": 0,
+      "over_18_letters": 0,
+      "note": "Repetitions and lengths are triage findings, not automatic rejection; inspect page allocation and grid size."
+    },
+    {
+      "file": "themes\\signature_herbsfruitsandvegetableswordsearch.json",
+      "word_entries": 1200,
+      "distinct_normalized_words": 1200,
+      "repeated_entries": 0,
+      "empty_normalized_entries": 0,
+      "over_18_letters": 0,
+      "note": "Repetitions and lengths are triage findings, not automatic rejection; inspect page allocation and grid size."
+    },
+    {
+      "file": "themes\\signature_homesteadingwordsearch.json",
+      "word_entries": 1200,
+      "distinct_normalized_words": 1200,
+      "repeated_entries": 0,
+      "empty_normalized_entries": 0,
+      "over_18_letters": 0,
+      "note": "Repetitions and lengths are triage findings, not automatic rejection; inspect page allocation and grid size."
+    },
+    {
+      "file": "themes\\signature_natures_wonders.json",
+      "word_entries": 1200,
+      "distinct_normalized_words": 1200,
+      "repeated_entries": 0,
+      "empty_normalized_entries": 0,
+      "over_18_letters": 0,
+      "note": "Repetitions and lengths are triage findings, not automatic rejection; inspect page allocation and grid size."
+    },
+    {
+      "file": "themes\\signature_positiveparentingwordsearch.json",
+      "word_entries": 576,
+      "distinct_normalized_words": 576,
+      "repeated_entries": 0,
+      "empty_normalized_entries": 0,
+      "over_18_letters": 0,
+      "note": "Repetitions and lengths are triage findings, not automatic rejection; inspect page allocation and grid size."
+    },
+    {
+      "file": "themes\\signature_signaturegardeningwordsearch.json",
+      "word_entries": 1200,
+      "distinct_normalized_words": 1200,
+      "repeated_entries": 0,
+      "empty_normalized_entries": 0,
+      "over_18_letters": 0,
+      "note": "Repetitions and lengths are triage findings, not automatic rejection; inspect page allocation and grid size."
+    },
+    {
+      "file": "themes\\signature_wwii_history_for_men.json",
+      "word_entries": 576,
+      "distinct_normalized_words": 576,
+      "repeated_entries": 0,
+      "empty_normalized_entries": 0,
+      "over_18_letters": 0,
+      "note": "Repetitions and lengths are triage findings, not automatic rejection; inspect page allocation and grid size."
+    },
+    {
+      "file": "themes\\space_for_kids_&_teens_word_search.json",
+      "word_entries": 1200,
+      "distinct_normalized_words": 1200,
+      "repeated_entries": 0,
+      "empty_normalized_entries": 0,
+      "over_18_letters": 0,
+      "note": "Repetitions and lengths are triage findings, not automatic rejection; inspect page allocation and grid size."
+    },
+    {
+      "file": "themes\\space_for_kids_&_teens_word_search_2.json",
+      "word_entries": 576,
+      "distinct_normalized_words": 576,
+      "repeated_entries": 0,
+      "empty_normalized_entries": 0,
+      "over_18_letters": 0,
+      "note": "Repetitions and lengths are triage findings, not automatic rejection; inspect page allocation and grid size."
+    },
+    {
+      "file": "themes\\States\\Arizona\\Arizona_100_Themed_Wordsearch_Word_Banks.json",
+      "word_entries": 2000,
+      "distinct_normalized_words": 2000,
+      "repeated_entries": 0,
+      "empty_normalized_entries": 0,
+      "over_18_letters": 0,
+      "note": "Repetitions and lengths are triage findings, not automatic rejection; inspect page allocation and grid size."
+    },
+    {
+      "file": "themes\\summer-vacation.json",
+      "word_entries": 576,
+      "distinct_normalized_words": 576,
+      "repeated_entries": 0,
+      "empty_normalized_entries": 0,
+      "over_18_letters": 0,
+      "note": "Repetitions and lengths are triage findings, not automatic rejection; inspect page allocation and grid size."
+    },
+    {
+      "file": "themes\\Summer-vacay.json",
+      "word_entries": 1140,
+      "distinct_normalized_words": 1140,
+      "repeated_entries": 0,
+      "empty_normalized_entries": 0,
+      "over_18_letters": 0,
+      "note": "Repetitions and lengths are triage findings, not automatic rejection; inspect page allocation and grid size."
+    },
+    {
+      "file": "themes\\Texas_100_Themed_Wordsearch_Word_Banks.json",
+      "word_entries": 2000,
+      "distinct_normalized_words": 2000,
+      "repeated_entries": 0,
+      "empty_normalized_entries": 0,
+      "over_18_letters": 0,
+      "note": "Repetitions and lengths are triage findings, not automatic rejection; inspect page allocation and grid size."
+    },
+    {
+      "file": "themes\\thanksgiving_100.json",
+      "word_entries": 2000,
+      "distinct_normalized_words": 2000,
+      "repeated_entries": 0,
+      "empty_normalized_entries": 0,
+      "over_18_letters": 0,
+      "note": "Repetitions and lengths are triage findings, not automatic rejection; inspect page allocation and grid size."
+    },
+    {
+      "file": "themes\\Trending 50 Puzzle Releases\\cosmic_discovery_20260828_203806.json",
+      "word_entries": 600,
+      "distinct_normalized_words": 600,
+      "repeated_entries": 0,
+      "empty_normalized_entries": 0,
+      "over_18_letters": 0,
+      "note": "Repetitions and lengths are triage findings, not automatic rejection; inspect page allocation and grid size."
+    },
+    {
+      "file": "themes\\Trending 50 Puzzle Releases\\garden_discovery_20260828_204320.json",
+      "word_entries": 600,
+      "distinct_normalized_words": 600,
+      "repeated_entries": 0,
+      "empty_normalized_entries": 0,
+      "over_18_letters": 0,
+      "note": "Repetitions and lengths are triage findings, not automatic rejection; inspect page allocation and grid size."
+    },
+    {
+      "file": "themes\\Vocabulary Ladder Collection\\Grades 5 to 12\\Signature 100 Puzzle Editions\\vocabulary_ladder_grade_10_signature_100_puzzles_20260822_174014.json",
+      "word_entries": 1200,
+      "distinct_normalized_words": 1200,
+      "repeated_entries": 0,
+      "empty_normalized_entries": 0,
+      "over_18_letters": 0,
+      "note": "Repetitions and lengths are triage findings, not automatic rejection; inspect page allocation and grid size."
+    },
+    {
+      "file": "themes\\Vocabulary Ladder Collection\\Grades 5 to 12\\Signature 100 Puzzle Editions\\vocabulary_ladder_grade_10_signature_100_puzzles_20260822_174220.json",
+      "word_entries": 1200,
+      "distinct_normalized_words": 1200,
+      "repeated_entries": 0,
+      "empty_normalized_entries": 0,
+      "over_18_letters": 0,
+      "note": "Repetitions and lengths are triage findings, not automatic rejection; inspect page allocation and grid size."
+    },
+    {
+      "file": "themes\\Vocabulary Ladder Collection\\Grades 5 to 12\\Signature 100 Puzzle Editions\\vocabulary_ladder_grade_10_signature_100_puzzles_20260822_174309.json",
+      "word_entries": 1200,
+      "distinct_normalized_words": 1200,
+      "repeated_entries": 0,
+      "empty_normalized_entries": 0,
+      "over_18_letters": 0,
+      "note": "Repetitions and lengths are triage findings, not automatic rejection; inspect page allocation and grid size."
+    },
+    {
+      "file": "themes\\Vocabulary Ladder Collection\\Grades 5 to 12\\Signature 100 Puzzle Editions\\vocabulary_ladder_grade_10_signature_100_puzzles_20260822_174556.json",
+      "word_entries": 1200,
+      "distinct_normalized_words": 1200,
+      "repeated_entries": 0,
+      "empty_normalized_entries": 0,
+      "over_18_letters": 0,
+      "note": "Repetitions and lengths are triage findings, not automatic rejection; inspect page allocation and grid size."
+    },
+    {
+      "file": "themes\\Vocabulary Ladder Collection\\Grades 5 to 12\\Signature 100 Puzzle Editions\\vocabulary_ladder_grade_11_signature_100_puzzles_20260822_174014.json",
+      "word_entries": 1200,
+      "distinct_normalized_words": 1200,
+      "repeated_entries": 0,
+      "empty_normalized_entries": 0,
+      "over_18_letters": 0,
+      "note": "Repetitions and lengths are triage findings, not automatic rejection; inspect page allocation and grid size."
+    },
+    {
+      "file": "themes\\Vocabulary Ladder Collection\\Grades 5 to 12\\Signature 100 Puzzle Editions\\vocabulary_ladder_grade_11_signature_100_puzzles_20260822_174220.json",
+      "word_entries": 1200,
+      "distinct_normalized_words": 1200,
+      "repeated_entries": 0,
+      "empty_normalized_entries": 0,
+      "over_18_letters": 0,
+      "note": "Repetitions and lengths are triage findings, not automatic rejection; inspect page allocation and grid size."
+    },
+    {
+      "file": "themes\\Vocabulary Ladder Collection\\Grades 5 to 12\\Signature 100 Puzzle Editions\\vocabulary_ladder_grade_11_signature_100_puzzles_20260822_174309.json",
+      "word_entries": 1200,
+      "distinct_normalized_words": 1200,
+      "repeated_entries": 0,
+      "empty_normalized_entries": 0,
+      "over_18_letters": 0,
+      "note": "Repetitions and lengths are triage findings, not automatic rejection; inspect page allocation and grid size."
+    },
+    {
+      "file": "themes\\Vocabulary Ladder Collection\\Grades 5 to 12\\Signature 100 Puzzle Editions\\vocabulary_ladder_grade_11_signature_100_puzzles_20260822_174556.json",
+      "word_entries": 1200,
+      "distinct_normalized_words": 1200,
+      "repeated_entries": 0,
+      "empty_normalized_entries": 0,
+      "over_18_letters": 0,
+      "note": "Repetitions and lengths are triage findings, not automatic rejection; inspect page allocation and grid size."
+    },
+    {
+      "file": "themes\\Vocabulary Ladder Collection\\Grades 5 to 12\\Signature 100 Puzzle Editions\\vocabulary_ladder_grade_12_signature_100_puzzles_20260822_174014.json",
+      "word_entries": 1200,
+      "distinct_normalized_words": 1200,
+      "repeated_entries": 0,
+      "empty_normalized_entries": 0,
+      "over_18_letters": 0,
+      "note": "Repetitions and lengths are triage findings, not automatic rejection; inspect page allocation and grid size."
+    },
+    {
+      "file": "themes\\Vocabulary Ladder Collection\\Grades 5 to 12\\Signature 100 Puzzle Editions\\vocabulary_ladder_grade_12_signature_100_puzzles_20260822_174220.json",
+      "word_entries": 1200,
+      "distinct_normalized_words": 1200,
+      "repeated_entries": 0,
+      "empty_normalized_entries": 0,
+      "over_18_letters": 0,
+      "note": "Repetitions and lengths are triage findings, not automatic rejection; inspect page allocation and grid size."
+    },
+    {
+      "file": "themes\\Vocabulary Ladder Collection\\Grades 5 to 12\\Signature 100 Puzzle Editions\\vocabulary_ladder_grade_12_signature_100_puzzles_20260822_174309.json",
+      "word_entries": 1200,
+      "distinct_normalized_words": 1200,
+      "repeated_entries": 0,
+      "empty_normalized_entries": 0,
+      "over_18_letters": 0,
+      "note": "Repetitions and lengths are triage findings, not automatic rejection; inspect page allocation and grid size."
+    },
+    {
+      "file": "themes\\Vocabulary Ladder Collection\\Grades 5 to 12\\Signature 100 Puzzle Editions\\vocabulary_ladder_grade_12_signature_100_puzzles_20260822_174556.json",
+      "word_entries": 1200,
+      "distinct_normalized_words": 1200,
+      "repeated_entries": 0,
+      "empty_normalized_entries": 0,
+      "over_18_letters": 0,
+      "note": "Repetitions and lengths are triage findings, not automatic rejection; inspect page allocation and grid size."
+    },
+    {
+      "file": "themes\\Vocabulary Ladder Collection\\Grades 5 to 12\\Signature 100 Puzzle Editions\\vocabulary_ladder_grade_5_signature_100_puzzles_20260822_174014.json",
+      "word_entries": 1200,
+      "distinct_normalized_words": 1200,
+      "repeated_entries": 0,
+      "empty_normalized_entries": 0,
+      "over_18_letters": 0,
+      "note": "Repetitions and lengths are triage findings, not automatic rejection; inspect page allocation and grid size."
+    },
+    {
+      "file": "themes\\Vocabulary Ladder Collection\\Grades 5 to 12\\Signature 100 Puzzle Editions\\vocabulary_ladder_grade_5_signature_100_puzzles_20260822_174220.json",
+      "word_entries": 1200,
+      "distinct_normalized_words": 1200,
+      "repeated_entries": 0,
+      "empty_normalized_entries": 0,
+      "over_18_letters": 0,
+      "note": "Repetitions and lengths are triage findings, not automatic rejection; inspect page allocation and grid size."
+    },
+    {
+      "file": "themes\\Vocabulary Ladder Collection\\Grades 5 to 12\\Signature 100 Puzzle Editions\\vocabulary_ladder_grade_5_signature_100_puzzles_20260822_174309.json",
+      "word_entries": 1200,
+      "distinct_normalized_words": 1200,
+      "repeated_entries": 0,
+      "empty_normalized_entries": 0,
+      "over_18_letters": 0,
+      "note": "Repetitions and lengths are triage findings, not automatic rejection; inspect page allocation and grid size."
+    },
+    {
+      "file": "themes\\Vocabulary Ladder Collection\\Grades 5 to 12\\Signature 100 Puzzle Editions\\vocabulary_ladder_grade_5_signature_100_puzzles_20260822_174556.json",
+      "word_entries": 1200,
+      "distinct_normalized_words": 1200,
+      "repeated_entries": 0,
+      "empty_normalized_entries": 0,
+      "over_18_letters": 0,
+      "note": "Repetitions and lengths are triage findings, not automatic rejection; inspect page allocation and grid size."
+    },
+    {
+      "file": "themes\\Vocabulary Ladder Collection\\Grades 5 to 12\\Signature 100 Puzzle Editions\\vocabulary_ladder_grade_6_signature_100_puzzles_20260822_174014.json",
+      "word_entries": 1200,
+      "distinct_normalized_words": 1200,
+      "repeated_entries": 0,
+      "empty_normalized_entries": 0,
+      "over_18_letters": 0,
+      "note": "Repetitions and lengths are triage findings, not automatic rejection; inspect page allocation and grid size."
+    },
+    {
+      "file": "themes\\Vocabulary Ladder Collection\\Grades 5 to 12\\Signature 100 Puzzle Editions\\vocabulary_ladder_grade_6_signature_100_puzzles_20260822_174220.json",
+      "word_entries": 1200,
+      "distinct_normalized_words": 1200,
+      "repeated_entries": 0,
+      "empty_normalized_entries": 0,
+      "over_18_letters": 0,
+      "note": "Repetitions and lengths are triage findings, not automatic rejection; inspect page allocation and grid size."
+    },
+    {
+      "file": "themes\\Vocabulary Ladder Collection\\Grades 5 to 12\\Signature 100 Puzzle Editions\\vocabulary_ladder_grade_6_signature_100_puzzles_20260822_174309.json",
+      "word_entries": 1200,
+      "distinct_normalized_words": 1200,
+      "repeated_entries": 0,
+      "empty_normalized_entries": 0,
+      "over_18_letters": 0,
+      "note": "Repetitions and lengths are triage findings, not automatic rejection; inspect page allocation and grid size."
+    },
+    {
+      "file": "themes\\Vocabulary Ladder Collection\\Grades 5 to 12\\Signature 100 Puzzle Editions\\vocabulary_ladder_grade_6_signature_100_puzzles_20260822_174556.json",
+      "word_entries": 1200,
+      "distinct_normalized_words": 1200,
+      "repeated_entries": 0,
+      "empty_normalized_entries": 0,
+      "over_18_letters": 0,
+      "note": "Repetitions and lengths are triage findings, not automatic rejection; inspect page allocation and grid size."
+    },
+    {
+      "file": "themes\\Vocabulary Ladder Collection\\Grades 5 to 12\\Signature 100 Puzzle Editions\\vocabulary_ladder_grade_7_signature_100_puzzles_20260822_174014.json",
+      "word_entries": 1200,
+      "distinct_normalized_words": 1200,
+      "repeated_entries": 0,
+      "empty_normalized_entries": 0,
+      "over_18_letters": 0,
+      "note": "Repetitions and lengths are triage findings, not automatic rejection; inspect page allocation and grid size."
+    },
+    {
+      "file": "themes\\Vocabulary Ladder Collection\\Grades 5 to 12\\Signature 100 Puzzle Editions\\vocabulary_ladder_grade_7_signature_100_puzzles_20260822_174220.json",
+      "word_entries": 1200,
+      "distinct_normalized_words": 1200,
+      "repeated_entries": 0,
+      "empty_normalized_entries": 0,
+      "over_18_letters": 0,
+      "note": "Repetitions and lengths are triage findings, not automatic rejection; inspect page allocation and grid size."
+    },
+    {
+      "file": "themes\\Vocabulary Ladder Collection\\Grades 5 to 12\\Signature 100 Puzzle Editions\\vocabulary_ladder_grade_7_signature_100_puzzles_20260822_174309.json",
+      "word_entries": 1200,
+      "distinct_normalized_words": 1200,
+      "repeated_entries": 0,
+      "empty_normalized_entries": 0,
+      "over_18_letters": 0,
+      "note": "Repetitions and lengths are triage findings, not automatic rejection; inspect page allocation and grid size."
+    },
+    {
+      "file": "themes\\Vocabulary Ladder Collection\\Grades 5 to 12\\Signature 100 Puzzle Editions\\vocabulary_ladder_grade_7_signature_100_puzzles_20260822_174556.json",
+      "word_entries": 1200,
+      "distinct_normalized_words": 1200,
+      "repeated_entries": 0,
+      "empty_normalized_entries": 0,
+      "over_18_letters": 0,
+      "note": "Repetitions and lengths are triage findings, not automatic rejection; inspect page allocation and grid size."
+    },
+    {
+      "file": "themes\\Vocabulary Ladder Collection\\Grades 5 to 12\\Signature 100 Puzzle Editions\\vocabulary_ladder_grade_8_signature_100_puzzles_20260822_174014.json",
+      "word_entries": 1200,
+      "distinct_normalized_words": 1200,
+      "repeated_entries": 0,
+      "empty_normalized_entries": 0,
+      "over_18_letters": 0,
+      "note": "Repetitions and lengths are triage findings, not automatic rejection; inspect page allocation and grid size."
+    },
+    {
+      "file": "themes\\Vocabulary Ladder Collection\\Grades 5 to 12\\Signature 100 Puzzle Editions\\vocabulary_ladder_grade_8_signature_100_puzzles_20260822_174220.json",
+      "word_entries": 1200,
+      "distinct_normalized_words": 1200,
+      "repeated_entries": 0,
+      "empty_normalized_entries": 0,
+      "over_18_letters": 0,
+      "note": "Repetitions and lengths are triage findings, not automatic rejection; inspect page allocation and grid size."
+    },
+    {
+      "file": "themes\\Vocabulary Ladder Collection\\Grades 5 to 12\\Signature 100 Puzzle Editions\\vocabulary_ladder_grade_8_signature_100_puzzles_20260822_174309.json",
+      "word_entries": 1200,
+      "distinct_normalized_words": 1200,
+      "repeated_entries": 0,
+      "empty_normalized_entries": 0,
+      "over_18_letters": 0,
+      "note": "Repetitions and lengths are triage findings, not automatic rejection; inspect page allocation and grid size."
+    },
+    {
+      "file": "themes\\Vocabulary Ladder Collection\\Grades 5 to 12\\Signature 100 Puzzle Editions\\vocabulary_ladder_grade_8_signature_100_puzzles_20260822_174556.json",
+      "word_entries": 1200,
+      "distinct_normalized_words": 1200,
+      "repeated_entries": 0,
+      "empty_normalized_entries": 0,
+      "over_18_letters": 0,
+      "note": "Repetitions and lengths are triage findings, not automatic rejection; inspect page allocation and grid size."
+    },
+    {
+      "file": "themes\\Vocabulary Ladder Collection\\Grades 5 to 12\\Signature 100 Puzzle Editions\\vocabulary_ladder_grade_9_signature_100_puzzles_20260822_174014.json",
+      "word_entries": 1200,
+      "distinct_normalized_words": 1200,
+      "repeated_entries": 0,
+      "empty_normalized_entries": 0,
+      "over_18_letters": 0,
+      "note": "Repetitions and lengths are triage findings, not automatic rejection; inspect page allocation and grid size."
+    },
+    {
+      "file": "themes\\Vocabulary Ladder Collection\\Grades 5 to 12\\Signature 100 Puzzle Editions\\vocabulary_ladder_grade_9_signature_100_puzzles_20260822_174220.json",
+      "word_entries": 1200,
+      "distinct_normalized_words": 1200,
+      "repeated_entries": 0,
+      "empty_normalized_entries": 0,
+      "over_18_letters": 0,
+      "note": "Repetitions and lengths are triage findings, not automatic rejection; inspect page allocation and grid size."
+    },
+    {
+      "file": "themes\\Vocabulary Ladder Collection\\Grades 5 to 12\\Signature 100 Puzzle Editions\\vocabulary_ladder_grade_9_signature_100_puzzles_20260822_174309.json",
+      "word_entries": 1200,
+      "distinct_normalized_words": 1200,
+      "repeated_entries": 0,
+      "empty_normalized_entries": 0,
+      "over_18_letters": 0,
+      "note": "Repetitions and lengths are triage findings, not automatic rejection; inspect page allocation and grid size."
+    },
+    {
+      "file": "themes\\Vocabulary Ladder Collection\\Grades 5 to 12\\Signature 100 Puzzle Editions\\vocabulary_ladder_grade_9_signature_100_puzzles_20260822_174556.json",
+      "word_entries": 1200,
+      "distinct_normalized_words": 1200,
+      "repeated_entries": 0,
+      "empty_normalized_entries": 0,
+      "over_18_letters": 0,
+      "note": "Repetitions and lengths are triage findings, not automatic rejection; inspect page allocation and grid size."
+    },
+    {
+      "file": "themes\\Vocabulary Ladder Collection\\Grades 5 to 12\\vocabulary_ladder_grade_10.json",
+      "word_entries": 576,
+      "distinct_normalized_words": 576,
+      "repeated_entries": 0,
+      "empty_normalized_entries": 0,
+      "over_18_letters": 0,
+      "note": "Repetitions and lengths are triage findings, not automatic rejection; inspect page allocation and grid size."
+    },
+    {
+      "file": "themes\\Vocabulary Ladder Collection\\Grades 5 to 12\\vocabulary_ladder_grade_10_signature_edition.json",
+      "word_entries": 1200,
+      "distinct_normalized_words": 1200,
+      "repeated_entries": 0,
+      "empty_normalized_entries": 0,
+      "over_18_letters": 0,
+      "note": "Repetitions and lengths are triage findings, not automatic rejection; inspect page allocation and grid size."
+    },
+    {
+      "file": "themes\\Vocabulary Ladder Collection\\Grades 5 to 12\\vocabulary_ladder_grade_11.json",
+      "word_entries": 576,
+      "distinct_normalized_words": 576,
+      "repeated_entries": 0,
+      "empty_normalized_entries": 0,
+      "over_18_letters": 0,
+      "note": "Repetitions and lengths are triage findings, not automatic rejection; inspect page allocation and grid size."
+    },
+    {
+      "file": "themes\\Vocabulary Ladder Collection\\Grades 5 to 12\\vocabulary_ladder_grade_11_signature_edition.json",
+      "word_entries": 1200,
+      "distinct_normalized_words": 1200,
+      "repeated_entries": 0,
+      "empty_normalized_entries": 0,
+      "over_18_letters": 0,
+      "note": "Repetitions and lengths are triage findings, not automatic rejection; inspect page allocation and grid size."
+    },
+    {
+      "file": "themes\\Vocabulary Ladder Collection\\Grades 5 to 12\\vocabulary_ladder_grade_12.json",
+      "word_entries": 576,
+      "distinct_normalized_words": 576,
+      "repeated_entries": 0,
+      "empty_normalized_entries": 0,
+      "over_18_letters": 0,
+      "note": "Repetitions and lengths are triage findings, not automatic rejection; inspect page allocation and grid size."
+    },
+    {
+      "file": "themes\\Vocabulary Ladder Collection\\Grades 5 to 12\\vocabulary_ladder_grade_12_signature_edition.json",
+      "word_entries": 1200,
+      "distinct_normalized_words": 1200,
+      "repeated_entries": 0,
+      "empty_normalized_entries": 0,
+      "over_18_letters": 0,
+      "note": "Repetitions and lengths are triage findings, not automatic rejection; inspect page allocation and grid size."
+    },
+    {
+      "file": "themes\\Vocabulary Ladder Collection\\Grades 5 to 12\\vocabulary_ladder_grade_5_signature_edition.json",
+      "word_entries": 1200,
+      "distinct_normalized_words": 1200,
+      "repeated_entries": 0,
+      "empty_normalized_entries": 0,
+      "over_18_letters": 0,
+      "note": "Repetitions and lengths are triage findings, not automatic rejection; inspect page allocation and grid size."
+    },
+    {
+      "file": "themes\\Vocabulary Ladder Collection\\Grades 5 to 12\\vocabulary_ladder_grade_6.json",
+      "word_entries": 576,
+      "distinct_normalized_words": 576,
+      "repeated_entries": 0,
+      "empty_normalized_entries": 0,
+      "over_18_letters": 0,
+      "note": "Repetitions and lengths are triage findings, not automatic rejection; inspect page allocation and grid size."
+    },
+    {
+      "file": "themes\\Vocabulary Ladder Collection\\Grades 5 to 12\\vocabulary_ladder_grade_6_signature_edition.json",
+      "word_entries": 1200,
+      "distinct_normalized_words": 1200,
+      "repeated_entries": 0,
+      "empty_normalized_entries": 0,
+      "over_18_letters": 0,
+      "note": "Repetitions and lengths are triage findings, not automatic rejection; inspect page allocation and grid size."
+    },
+    {
+      "file": "themes\\Vocabulary Ladder Collection\\Grades 5 to 12\\vocabulary_ladder_grade_7.json",
+      "word_entries": 576,
+      "distinct_normalized_words": 576,
+      "repeated_entries": 0,
+      "empty_normalized_entries": 0,
+      "over_18_letters": 0,
+      "note": "Repetitions and lengths are triage findings, not automatic rejection; inspect page allocation and grid size."
+    },
+    {
+      "file": "themes\\Vocabulary Ladder Collection\\Grades 5 to 12\\vocabulary_ladder_grade_7_signature_edition.json",
+      "word_entries": 1200,
+      "distinct_normalized_words": 1200,
+      "repeated_entries": 0,
+      "empty_normalized_entries": 0,
+      "over_18_letters": 0,
+      "note": "Repetitions and lengths are triage findings, not automatic rejection; inspect page allocation and grid size."
+    },
+    {
+      "file": "themes\\Vocabulary Ladder Collection\\Grades 5 to 12\\vocabulary_ladder_grade_8.json",
+      "word_entries": 576,
+      "distinct_normalized_words": 576,
+      "repeated_entries": 0,
+      "empty_normalized_entries": 0,
+      "over_18_letters": 0,
+      "note": "Repetitions and lengths are triage findings, not automatic rejection; inspect page allocation and grid size."
+    },
+    {
+      "file": "themes\\Vocabulary Ladder Collection\\Grades 5 to 12\\vocabulary_ladder_grade_8_signature_edition.json",
+      "word_entries": 1200,
+      "distinct_normalized_words": 1200,
+      "repeated_entries": 0,
+      "empty_normalized_entries": 0,
+      "over_18_letters": 0,
+      "note": "Repetitions and lengths are triage findings, not automatic rejection; inspect page allocation and grid size."
+    },
+    {
+      "file": "themes\\Vocabulary Ladder Collection\\Grades 5 to 12\\vocabulary_ladder_grade_9.json",
+      "word_entries": 576,
+      "distinct_normalized_words": 576,
+      "repeated_entries": 0,
+      "empty_normalized_entries": 0,
+      "over_18_letters": 0,
+      "note": "Repetitions and lengths are triage findings, not automatic rejection; inspect page allocation and grid size."
+    },
+    {
+      "file": "themes\\Vocabulary Ladder Collection\\Grades 5 to 12\\vocabulary_ladder_grade_9_signature_edition.json",
+      "word_entries": 1200,
+      "distinct_normalized_words": 1200,
+      "repeated_entries": 0,
+      "empty_normalized_entries": 0,
+      "over_18_letters": 0,
+      "note": "Repetitions and lengths are triage findings, not automatic rejection; inspect page allocation and grid size."
+    },
+    {
+      "file": "themes\\Vocabulary Ladder Collection\\vocabulary_adventures_grade_school_signature_edition.json",
+      "word_entries": 1200,
+      "distinct_normalized_words": 1200,
+      "repeated_entries": 0,
+      "empty_normalized_entries": 0,
+      "over_18_letters": 0,
+      "note": "Repetitions and lengths are triage findings, not automatic rejection; inspect page allocation and grid size."
+    },
+    {
+      "file": "themes\\Vocabulary Ladder Collection\\vocabulary_mastery_high_school.json",
+      "word_entries": 192,
+      "distinct_normalized_words": 192,
+      "repeated_entries": 0,
+      "empty_normalized_entries": 0,
+      "over_18_letters": 0,
+      "note": "Repetitions and lengths are triage findings, not automatic rejection; inspect page allocation and grid size."
+    },
+    {
+      "file": "themes\\Vocabulary Ladder Collection\\vocabulary_mastery_high_school_signature_edition.json",
+      "word_entries": 1200,
+      "distinct_normalized_words": 1200,
+      "repeated_entries": 0,
+      "empty_normalized_entries": 0,
+      "over_18_letters": 0,
+      "note": "Repetitions and lengths are triage findings, not automatic rejection; inspect page allocation and grid size."
+    },
+    {
+      "file": "themes\\Vocabulary Ladder Collection\\word_wise_middle_school_vocabulary.json",
+      "word_entries": 576,
+      "distinct_normalized_words": 576,
+      "repeated_entries": 0,
+      "empty_normalized_entries": 0,
+      "over_18_letters": 0,
+      "note": "Repetitions and lengths are triage findings, not automatic rejection; inspect page allocation and grid size."
+    },
+    {
+      "file": "themes\\Vocabulary Ladder Collection\\word_wise_middle_school_vocabulary_signature_edition.json",
+      "word_entries": 1200,
+      "distinct_normalized_words": 1200,
+      "repeated_entries": 0,
+      "empty_normalized_entries": 0,
+      "over_18_letters": 0,
+      "note": "Repetitions and lengths are triage findings, not automatic rejection; inspect page allocation and grid size."
+    },
+    {
+      "file": "themes\\weather_climate_48.json",
+      "word_entries": 576,
+      "distinct_normalized_words": 576,
+      "repeated_entries": 0,
+      "empty_normalized_entries": 0,
+      "over_18_letters": 0,
+      "note": "Repetitions and lengths are triage findings, not automatic rejection; inspect page allocation and grid size."
+    }
+  ],
+  "sudoku_symbol_packs": 18,
+  "sudoku_invalid_cardinality": []
+}

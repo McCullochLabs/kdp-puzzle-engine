@@ -1,0 +1,108 @@
+{
+  "schema_version": 1,
+  "status": "REVIEW_REQUIRED",
+  "groups": {
+    "Birds and Birdwatching": [
+      "MINA",
+      "SEAGULL"
+    ],
+    "Books and Written Works": [
+      "GUIDEBOOK"
+    ],
+    "Buildings and Architecture": [
+      "INN",
+      "SCHOOLHOUSE"
+    ],
+    "Ceremonies and Celebrations": [
+      "FORMALITIES"
+    ],
+    "Clocks and Timepieces": [
+      "HOURGLASS"
+    ],
+    "Clothing and Apparel": [
+      "ALB",
+      "PARKA",
+      "PONCHO"
+    ],
+    "Containers and Storage": [
+      "CHALICE"
+    ],
+    "Crafts and Skilled Trades": [
+      "STITCHING"
+    ],
+    "Feelings and Emotional Vocabulary": [
+      "AMBIVALENCE",
+      "CYNICISM",
+      "CONTENTMENT",
+      "EUPHORIA",
+      "TOGETHERNESS",
+      "TREPIDATION"
+    ],
+    "Fields of Science": [
+      "ACOUSTICS",
+      "THERMODYNAMICS"
+    ],
+    "Figures of Speech": [
+      "HYPERBOLE",
+      "OXYMORON"
+    ],
+    "Fungi and Mycology": [
+      "FUNGUS"
+    ],
+    "Furniture": [
+      "PEW"
+    ],
+    "Geological Formations": [
+      "AQUIFER",
+      "PLATEAU"
+    ],
+    "Geometric Shapes": [
+      "POLYGON"
+    ],
+    "Insects and Entomology": [
+      "CHRYSALIS"
+    ],
+    "Literature and Writing": [
+      "STANZA"
+    ],
+    "Machines and Mechanisms": [
+      "PHONOGRAPH",
+      "TYPEWRITER"
+    ],
+    "Merchants and Retail": [
+      "TRADESMAN"
+    ],
+    "Musical Instruments": [
+      "TAMBOURINE"
+    ],
+    "Musicians": [
+      "SOLOIST",
+      "VOCALIST"
+    ],
+    "Organizations and Community": [
+      "COASTGUARD"
+    ],
+    "Plants and Botany": [
+      "CACTUS"
+    ],
+    "Prose": [
+      "NONFICTION"
+    ],
+    "Reptiles": [
+      "REPTILE"
+    ],
+    "Rock Types": [
+      "LAVA",
+      "MAGMA"
+    ],
+    "Rooms and Interior Spaces": [
+      "BOARDROOM"
+    ],
+    "Words and Linguistic Forms": [
+      "PRONOUN"
+    ],
+    "Workers and Trades": [
+      "PROSPECTOR"
+    ]
+  }
+}

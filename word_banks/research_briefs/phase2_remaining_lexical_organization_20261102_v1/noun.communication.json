@@ -1,0 +1,2164 @@
+{
+  "schema_version": 1,
+  "research_status": "REVIEW_REQUIRED_NOT_APPROVED",
+  "lexical_review_group": "noun.communication",
+  "records": [
+    {
+      "normalized": "AAS",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "AAS",
+          "synset": "n:06698031",
+          "lexical_category": "noun.communication",
+          "definition": "an associate degree in applied science"
+        }
+      ],
+      "candidate_categories": [
+        "noun.communication"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    },
+    {
+      "normalized": "ADJECTIVE",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "adjective",
+          "synset": "n:06319029",
+          "lexical_category": "noun.communication",
+          "definition": "the word class that qualifies nouns"
+        },
+        {
+          "lemma": "adjective",
+          "synset": "n:06321702",
+          "lexical_category": "noun.communication",
+          "definition": "a word that expresses an attribute of something"
+        }
+      ],
+      "candidate_categories": [
+        "noun.communication"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    },
+    {
+      "normalized": "AFRIKAANS",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "Afrikaans",
+          "synset": "n:06952861",
+          "lexical_category": "noun.communication",
+          "definition": "an official language of the Republic of South Africa; closely related to Dutch and Flemish"
+        }
+      ],
+      "candidate_categories": [
+        "noun.communication"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    },
+    {
+      "normalized": "AGA",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "Aga",
+          "synset": "n:06340047",
+          "lexical_category": "noun.communication",
+          "definition": "title for a civil or military leader (especially in Turkey)"
+        }
+      ],
+      "candidate_categories": [
+        "noun.communication"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    },
+    {
+      "normalized": "AYURVEDA",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "Ayurveda",
+          "synset": "n:06466030",
+          "lexical_category": "noun.communication",
+          "definition": "(Sanskrit) an ancient medical treatise summarizing the Hindu art of healing and prolonging life; sometimes regarded as a 5th Veda"
+        }
+      ],
+      "candidate_categories": [
+        "noun.communication"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    },
+    {
+      "normalized": "AKU",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "Aku",
+          "synset": "n:06997368",
+          "lexical_category": "noun.communication",
+          "definition": "a Kwa language spoken by the Yoruba in southwestern Nigeria"
+        }
+      ],
+      "candidate_categories": [
+        "noun.communication"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    },
+    {
+      "normalized": "ALIBI",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "alibi",
+          "synset": "n:06741099",
+          "lexical_category": "noun.communication",
+          "definition": "(law) a defense by an accused person purporting to show that he or she could not have committed the crime in question"
+        },
+        {
+          "lemma": "alibi",
+          "synset": "n:06741305",
+          "lexical_category": "noun.communication",
+          "definition": "a defense of some offensive behavior or some failure to keep a promise etc.; \"he kept finding excuses to stay\"; \"every day he had a new alibi for not getting a job\"; \"his transparent self-justification was unacceptable\""
+        }
+      ],
+      "candidate_categories": [
+        "noun.communication"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    },
+    {
+      "normalized": "ALLEGORY",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "allegory",
+          "synset": "n:06366581",
+          "lexical_category": "noun.communication",
+          "definition": "an expressive style that uses fictional characters and events to describe some subject by suggestive resemblances; an extended metaphor"
+        },
+        {
+          "lemma": "allegory",
+          "synset": "n:06372095",
+          "lexical_category": "noun.communication",
+          "definition": "a short moral story (often with animal characters)"
+        },
+        {
+          "lemma": "allegory",
+          "synset": "n:06880664",
+          "lexical_category": "noun.communication",
+          "definition": "a visible symbol representing an abstract idea"
+        }
+      ],
+      "candidate_categories": [
+        "noun.communication"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    },
+    {
+      "normalized": "ANECDOTE",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "anecdote",
+          "synset": "n:07220586",
+          "lexical_category": "noun.communication",
+          "definition": "short account of an incident (especially a biographical one)"
+        }
+      ],
+      "candidate_categories": [
+        "noun.communication"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    },
+    {
+      "normalized": "APOSTROPHE",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "apostrophe",
+          "synset": "n:06841987",
+          "lexical_category": "noun.communication",
+          "definition": "the mark (') used to indicate the omission of one or more letters from a printed word"
+        },
+        {
+          "lemma": "apostrophe",
+          "synset": "n:07101937",
+          "lexical_category": "noun.communication",
+          "definition": "address to an absent or imaginary person"
+        }
+      ],
+      "candidate_categories": [
+        "noun.communication"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    },
+    {
+      "normalized": "ARAMAIC",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "Aramaic",
+          "synset": "n:06351888",
+          "lexical_category": "noun.communication",
+          "definition": "an alphabetical (or perhaps syllabic) script used since the 9th century BC to write the Aramaic language; many other scripts were subsequently derived from it"
+        },
+        {
+          "lemma": "Aramaic",
+          "synset": "n:06988307",
+          "lexical_category": "noun.communication",
+          "definition": "a Semitic language originally of the ancient Arameans but still spoken by other people in southwestern Asia"
+        }
+      ],
+      "candidate_categories": [
+        "noun.communication"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    },
+    {
+      "normalized": "ASCII",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "ASCII",
+          "synset": "n:06356755",
+          "lexical_category": "noun.communication",
+          "definition": "(computer science) a code for information exchange between computers made by different companies; a string of 7 binary digits represents each character; used in most microcomputers"
+        }
+      ],
+      "candidate_categories": [
+        "noun.communication"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    },
+    {
+      "normalized": "BAI",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "Bai",
+          "synset": "n:06931605",
+          "lexical_category": "noun.communication",
+          "definition": "the Tibeto-Burman language spoken in the Dali region of Yunnan"
+        }
+      ],
+      "candidate_categories": [
+        "noun.communication"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    },
+    {
+      "normalized": "BALINESE",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "Balinese",
+          "synset": "n:06939656",
+          "lexical_category": "noun.communication",
+          "definition": "the Indonesian language of the people of Bali"
+        }
+      ],
+      "candidate_categories": [
+        "noun.communication"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    },
+    {
+      "normalized": "BENCHMARK",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "benchmark",
+          "synset": "n:07259145",
+          "lexical_category": "noun.communication",
+          "definition": "a surveyor's mark on a permanent object of predetermined position and elevation used as a reference point"
+        },
+        {
+          "lemma": "bench_mark",
+          "synset": "n:07259145",
+          "lexical_category": "noun.communication",
+          "definition": "a surveyor's mark on a permanent object of predetermined position and elevation used as a reference point"
+        },
+        {
+          "lemma": "benchmark",
+          "synset": "n:07261143",
+          "lexical_category": "noun.communication",
+          "definition": "a standard by which something can be measured or judged; \"his painting sets the benchmark of quality\""
+        }
+      ],
+      "candidate_categories": [
+        "noun.communication"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    },
+    {
+      "normalized": "BICKERING",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "bickering",
+          "synset": "n:07184735",
+          "lexical_category": "noun.communication",
+          "definition": "a quarrel about petty points"
+        }
+      ],
+      "candidate_categories": [
+        "noun.communication"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    },
+    {
+      "normalized": "BULLETIN",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "bulletin",
+          "synset": "n:06682290",
+          "lexical_category": "noun.communication",
+          "definition": "a brief report (especially an official statement issued for immediate publication or broadcast)"
+        }
+      ],
+      "candidate_categories": [
+        "noun.communication"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    },
+    {
+      "normalized": "CANTONESE",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "Cantonese",
+          "synset": "n:06930427",
+          "lexical_category": "noun.communication",
+          "definition": "the dialect of Chinese spoken in Canton and neighboring provinces and in Hong Kong and elsewhere outside China"
+        }
+      ],
+      "candidate_categories": [
+        "noun.communication"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    },
+    {
+      "normalized": "CYRILLIC",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "Cyrillic",
+          "synset": "n:06499796",
+          "lexical_category": "noun.communication",
+          "definition": "an alphabet derived from the Greek alphabet and used for writing Slavic languages (Russian, Bulgarian, Serbian, Ukrainian, and some other Slavic languages)"
+        }
+      ],
+      "candidate_categories": [
+        "noun.communication"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    },
+    {
+      "normalized": "CLI",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "CLI",
+          "synset": "n:06575505",
+          "lexical_category": "noun.communication",
+          "definition": "a user interface in which you type commands instead of choosing them from a menu or selecting an icon"
+        }
+      ],
+      "candidate_categories": [
+        "noun.communication"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    },
+    {
+      "normalized": "COPTIC",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "Coptic",
+          "synset": "n:06990371",
+          "lexical_category": "noun.communication",
+          "definition": "the liturgical language of the Coptic Church used in Egypt and Ethiopia; written in the Greek alphabet"
+        }
+      ],
+      "candidate_categories": [
+        "noun.communication"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    },
+    {
+      "normalized": "CPI",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "CPI",
+          "synset": "n:06474972",
+          "lexical_category": "noun.communication",
+          "definition": "a self-report personality inventory originally derived from the MMPI; consists of several hundred yes-no questions and yields scores on a number of scales including dominance and self acceptance and self control and socialization and achievement etc."
+        },
+        {
+          "lemma": "CPI",
+          "synset": "n:06641654",
+          "lexical_category": "noun.communication",
+          "definition": "an index of the cost of all goods and services to a typical consumer"
+        }
+      ],
+      "candidate_categories": [
+        "noun.communication"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    },
+    {
+      "normalized": "DIALOGUE",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "dialogue",
+          "synset": "n:06366391",
+          "lexical_category": "noun.communication",
+          "definition": "a literary composition in the form of a conversation between two people; \"he has read Plato's Dialogues in the original Greek\""
+        },
+        {
+          "lemma": "dialogue",
+          "synset": "n:07010541",
+          "lexical_category": "noun.communication",
+          "definition": "the lines spoken by characters in drama or fiction"
+        },
+        {
+          "lemma": "dialogue",
+          "synset": "n:07136206",
+          "lexical_category": "noun.communication",
+          "definition": "a conversation between two persons"
+        },
+        {
+          "lemma": "dialogue",
+          "synset": "n:07148192",
+          "lexical_category": "noun.communication",
+          "definition": "a discussion intended to produce an agreement; \"the buyout negotiation lasted several days\"; \"they disagreed but kept an open dialogue\"; \"talks between Israelis and Palestinians\""
+        }
+      ],
+      "candidate_categories": [
+        "noun.communication"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    },
+    {
+      "normalized": "DICTION",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "diction",
+          "synset": "n:07081739",
+          "lexical_category": "noun.communication",
+          "definition": "the manner in which something is expressed in words; \"use concise military verbiage\"- G.S.Patton"
+        },
+        {
+          "lemma": "diction",
+          "synset": "n:07132415",
+          "lexical_category": "noun.communication",
+          "definition": "the articulation of speech regarded from the point of view of its intelligibility to the audience"
+        }
+      ],
+      "candidate_categories": [
+        "noun.communication"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    },
+    {
+      "normalized": "DINKA",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "Dinka",
+          "synset": "n:06998322",
+          "lexical_category": "noun.communication",
+          "definition": "a Nilotic language"
+        }
+      ],
+      "candidate_categories": [
+        "noun.communication"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    },
+    {
+      "normalized": "DONA",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "Dona",
+          "synset": "n:06340563",
+          "lexical_category": "noun.communication",
+          "definition": "a Spanish courtesy title or form of address for a woman; \"Dona Marguerita\""
+        }
+      ],
+      "candidate_categories": [
+        "noun.communication"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    },
+    {
+      "normalized": "EMMY",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "Emmy",
+          "synset": "n:07268603",
+          "lexical_category": "noun.communication",
+          "definition": "an annual award by the Academy of Television Arts and Sciences for outstanding achievements in television"
+        }
+      ],
+      "candidate_categories": [
+        "noun.communication"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    },
+    {
+      "normalized": "EPI",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "EPI",
+          "synset": "n:06475307",
+          "lexical_category": "noun.communication",
+          "definition": "a self-report personality inventory based on Hans Eysenck's factor analysis of personality which assumes three basic factors (the two most important being extraversion to introversion and neuroticism)"
+        }
+      ],
+      "candidate_categories": [
+        "noun.communication"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    },
+    {
+      "normalized": "ESP",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "E.S.P.",
+          "synset": "n:07256695",
+          "lexical_category": "noun.communication",
+          "definition": "apparent power to perceive things that are not present to the senses"
+        },
+        {
+          "lemma": "ESP",
+          "synset": "n:07256695",
+          "lexical_category": "noun.communication",
+          "definition": "apparent power to perceive things that are not present to the senses"
+        }
+      ],
+      "candidate_categories": [
+        "noun.communication"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    },
+    {
+      "normalized": "ESPERANTO",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "Esperanto",
+          "synset": "n:06895791",
+          "lexical_category": "noun.communication",
+          "definition": "an artificial language based as far as possible on words common to all the European languages"
+        }
+      ],
+      "candidate_categories": [
+        "noun.communication"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    },
+    {
+      "normalized": "ESTONIAN",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "Estonian",
+          "synset": "n:06957896",
+          "lexical_category": "noun.communication",
+          "definition": "the official language of Estonia; belongs to the Baltic-Finnic family of languages"
+        }
+      ],
+      "candidate_categories": [
+        "noun.communication"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    },
+    {
+      "normalized": "EUPHEMISM",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "euphemism",
+          "synset": "n:06605046",
+          "lexical_category": "noun.communication",
+          "definition": "an inoffensive or indirect expression that is substituted for one that is considered offensive or too harsh"
+        }
+      ],
+      "candidate_categories": [
+        "noun.communication"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    },
+    {
+      "normalized": "EXCLAMATION",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "exclamation",
+          "synset": "n:07102802",
+          "lexical_category": "noun.communication",
+          "definition": "an exclamatory rhetorical device; \"O tempore! O mores\""
+        },
+        {
+          "lemma": "exclamation",
+          "synset": "n:07125523",
+          "lexical_category": "noun.communication",
+          "definition": "an abrupt excited utterance; \"she gave an exclamation of delight\"; \"there was much exclaiming over it\""
+        },
+        {
+          "lemma": "exclamation",
+          "synset": "n:07209868",
+          "lexical_category": "noun.communication",
+          "definition": "a loud complaint or protest or reproach"
+        }
+      ],
+      "candidate_categories": [
+        "noun.communication"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    },
+    {
+      "normalized": "FAQ",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "FAQ",
+          "synset": "n:06491026",
+          "lexical_category": "noun.communication",
+          "definition": "a list of questions that are frequently asked (about a given topic) along with their answers"
+        }
+      ],
+      "candidate_categories": [
+        "noun.communication"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    },
+    {
+      "normalized": "FORTRAN",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "FORTRAN",
+          "synset": "n:06902362",
+          "lexical_category": "noun.communication",
+          "definition": "a high-level programing language for mathematical and scientific purposes; stands for formula translation"
+        }
+      ],
+      "candidate_categories": [
+        "noun.communication"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    },
+    {
+      "normalized": "FRAU",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "Frau",
+          "synset": "n:06340707",
+          "lexical_category": "noun.communication",
+          "definition": "a German courtesy title or form of address for an adult woman"
+        }
+      ],
+      "candidate_categories": [
+        "noun.communication"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    },
+    {
+      "normalized": "GIGGLE",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "giggle",
+          "synset": "n:07127693",
+          "lexical_category": "noun.communication",
+          "definition": "a foolish or nervous laugh"
+        }
+      ],
+      "candidate_categories": [
+        "noun.communication"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    },
+    {
+      "normalized": "HANDSHAKE",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "handshake",
+          "synset": "n:06632097",
+          "lexical_category": "noun.communication",
+          "definition": "grasping and shaking a person's hand (as to acknowledge an introduction or to agree on a contract)"
+        }
+      ],
+      "candidate_categories": [
+        "noun.communication"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    },
+    {
+      "normalized": "HELLENIC",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "Hellenic",
+          "synset": "n:06976392",
+          "lexical_category": "noun.communication",
+          "definition": "the Hellenic branch of the Indo-European family of languages"
+        }
+      ],
+      "candidate_categories": [
+        "noun.communication"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    },
+    {
+      "normalized": "HORSESHIT",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "horseshit",
+          "synset": "n:06611376",
+          "lexical_category": "noun.communication",
+          "definition": "obscene words for unacceptable behavior; \"I put up with a lot of bullshit from that jerk\"; \"what he said was mostly bull\""
+        }
+      ],
+      "candidate_categories": [
+        "noun.communication"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    },
+    {
+      "normalized": "YAY",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "Yay",
+          "synset": "n:06936461",
+          "lexical_category": "noun.communication",
+          "definition": "a branch of the Tai languages"
+        }
+      ],
+      "candidate_categories": [
+        "noun.communication"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    },
+    {
+      "normalized": "YES",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "yes",
+          "synset": "n:07203900",
+          "lexical_category": "noun.communication",
+          "definition": "an affirmative; \"I was hoping for a yes\""
+        }
+      ],
+      "candidate_categories": [
+        "noun.communication"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    },
+    {
+      "normalized": "YIDDISH",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "Yiddish",
+          "synset": "n:06951067",
+          "lexical_category": "noun.communication",
+          "definition": "a dialect of High German including some Hebrew and other words; spoken in Europe as a vernacular by many Jews; written in the Hebrew script"
+        }
+      ],
+      "candidate_categories": [
+        "noun.communication"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    },
+    {
+      "normalized": "ILIAD",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "Iliad",
+          "synset": "n:06382072",
+          "lexical_category": "noun.communication",
+          "definition": "a Greek epic poem (attributed to Homer) describing the siege of Troy"
+        }
+      ],
+      "candidate_categories": [
+        "noun.communication"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    },
+    {
+      "normalized": "INNUENDO",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "innuendo",
+          "synset": "n:07238455",
+          "lexical_category": "noun.communication",
+          "definition": "an indirect (and usually malicious) implication"
+        }
+      ],
+      "candidate_categories": [
+        "noun.communication"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    },
+    {
+      "normalized": "INTERNATIONALE",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "Internationale",
+          "synset": "n:07036768",
+          "lexical_category": "noun.communication",
+          "definition": "a revolutionary socialist anthem"
+        }
+      ],
+      "candidate_categories": [
+        "noun.communication"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    },
+    {
+      "normalized": "KANNADA",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "Kannada",
+          "synset": "n:06979957",
+          "lexical_category": "noun.communication",
+          "definition": "a Dravidian language spoken in southern India"
+        }
+      ],
+      "candidate_categories": [
+        "noun.communication"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    },
+    {
+      "normalized": "KAREN",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "Karen",
+          "synset": "n:06932130",
+          "lexical_category": "noun.communication",
+          "definition": "the Tibeto-Burman language spoken in the Thailand and Burmese borderlands"
+        }
+      ],
+      "candidate_categories": [
+        "noun.communication"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    },
+    {
+      "normalized": "KEYWORD",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "key_word",
+          "synset": "n:06293106",
+          "lexical_category": "noun.communication",
+          "definition": "a significant word used in indexing or cataloging"
+        },
+        {
+          "lemma": "key_word",
+          "synset": "n:06492320",
+          "lexical_category": "noun.communication",
+          "definition": "a word that is used as a pattern to decode an encrypted message"
+        }
+      ],
+      "candidate_categories": [
+        "noun.communication"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    },
+    {
+      "normalized": "KORAN",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "Koran",
+          "synset": "n:06461609",
+          "lexical_category": "noun.communication",
+          "definition": "the sacred writings of Islam revealed by God to the prophet Muhammad during his life at Mecca and Medina"
+        }
+      ],
+      "candidate_categories": [
+        "noun.communication"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    },
+    {
+      "normalized": "LOLO",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "Lolo",
+          "synset": "n:06932948",
+          "lexical_category": "noun.communication",
+          "definition": "a Loloish language"
+        }
+      ],
+      "candidate_categories": [
+        "noun.communication"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    },
+    {
+      "normalized": "LOWDOWN",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "low-down",
+          "synset": "n:06636113",
+          "lexical_category": "noun.communication",
+          "definition": "slang terms for inside information; \"is that the straight dope?\""
+        }
+      ],
+      "candidate_categories": [
+        "noun.communication"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    },
+    {
+      "normalized": "LOWERCASE",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "lowercase",
+          "synset": "n:06824757",
+          "lexical_category": "noun.communication",
+          "definition": "the characters that were once kept in bottom half of a compositor's type case"
+        }
+      ],
+      "candidate_categories": [
+        "noun.communication"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    },
+    {
+      "normalized": "LUO",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "Luo",
+          "synset": "n:06998392",
+          "lexical_category": "noun.communication",
+          "definition": "a Nilotic language"
+        }
+      ],
+      "candidate_categories": [
+        "noun.communication"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    },
+    {
+      "normalized": "MALAYALAM",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "Malayalam",
+          "synset": "n:06980175",
+          "lexical_category": "noun.communication",
+          "definition": "a Dravidian language (closely related to Tamil) that is spoken in southwestern India"
+        }
+      ],
+      "candidate_categories": [
+        "noun.communication"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    },
+    {
+      "normalized": "MARATHI",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "Marathi",
+          "synset": "n:06971281",
+          "lexical_category": "noun.communication",
+          "definition": "an Indic language; the state language of Maharashtra in west central India; written in the Devanagari script"
+        }
+      ],
+      "candidate_categories": [
+        "noun.communication"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    },
+    {
+      "normalized": "MASA",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "Masa",
+          "synset": "n:06986100",
+          "lexical_category": "noun.communication",
+          "definition": "an independent group of closely related Chadic languages spoken in the area between the Biu-Mandara and East Chadic languages"
+        }
+      ],
+      "candidate_categories": [
+        "noun.communication"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    },
+    {
+      "normalized": "MASAI",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "Masai",
+          "synset": "n:06998460",
+          "lexical_category": "noun.communication",
+          "definition": "a Nilotic language"
+        }
+      ],
+      "candidate_categories": [
+        "noun.communication"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    },
+    {
+      "normalized": "MED",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "MEd",
+          "synset": "n:06701596",
+          "lexical_category": "noun.communication",
+          "definition": "a master's degree in education"
+        }
+      ],
+      "candidate_categories": [
+        "noun.communication"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    },
+    {
+      "normalized": "MIRI",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "Miri",
+          "synset": "n:06933824",
+          "lexical_category": "noun.communication",
+          "definition": "little known Kamarupan languages"
+        }
+      ],
+      "candidate_categories": [
+        "noun.communication"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    },
+    {
+      "normalized": "MISTER",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "Mister",
+          "synset": "n:06341340",
+          "lexical_category": "noun.communication",
+          "definition": "a form of address for a man"
+        }
+      ],
+      "candidate_categories": [
+        "noun.communication"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    },
+    {
+      "normalized": "MRS",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "Mrs",
+          "synset": "n:06341431",
+          "lexical_category": "noun.communication",
+          "definition": "a form of address for a married woman"
+        },
+        {
+          "lemma": "Mrs.",
+          "synset": "n:06341431",
+          "lexical_category": "noun.communication",
+          "definition": "a form of address for a married woman"
+        }
+      ],
+      "candidate_categories": [
+        "noun.communication"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    },
+    {
+      "normalized": "NAGA",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "Naga",
+          "synset": "n:06933429",
+          "lexical_category": "noun.communication",
+          "definition": "Kamarupan languages spoken in northeastern India and western Burma"
+        }
+      ],
+      "candidate_categories": [
+        "noun.communication"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    },
+    {
+      "normalized": "NEWSLETTER",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "newsletter",
+          "synset": "n:06681976",
+          "lexical_category": "noun.communication",
+          "definition": "report or open letter giving informal or confidential news of interest to a special group"
+        }
+      ],
+      "candidate_categories": [
+        "noun.communication"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    },
+    {
+      "normalized": "NOUN",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "noun",
+          "synset": "n:06317862",
+          "lexical_category": "noun.communication",
+          "definition": "the word class that can serve as the subject or object of a verb, the object of a preposition, or in apposition"
+        },
+        {
+          "lemma": "noun",
+          "synset": "n:06319293",
+          "lexical_category": "noun.communication",
+          "definition": "a content word that can be used to refer to a person, place, thing, quality, or action"
+        }
+      ],
+      "candidate_categories": [
+        "noun.communication"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    },
+    {
+      "normalized": "NUANCE",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "nuance",
+          "synset": "n:06606191",
+          "lexical_category": "noun.communication",
+          "definition": "a subtle difference in meaning or opinion or attitude; \"without understanding the finer nuances you can't enjoy the humor\"; \"don't argue about shades of meaning\""
+        }
+      ],
+      "candidate_categories": [
+        "noun.communication"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    },
+    {
+      "normalized": "ORATORY",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "oratory",
+          "synset": "n:07241205",
+          "lexical_category": "noun.communication",
+          "definition": "addressing an audience formally (usually a long and rhetorical address and often pompous); \"he loved the sound of his own oratory\""
+        }
+      ],
+      "candidate_categories": [
+        "noun.communication"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    },
+    {
+      "normalized": "PALI",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "Pali",
+          "synset": "n:06973334",
+          "lexical_category": "noun.communication",
+          "definition": "an ancient Prakrit language (derived from Sanskrit) that is the scriptural and liturgical language of Theravada Buddhism"
+        }
+      ],
+      "candidate_categories": [
+        "noun.communication"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    },
+    {
+      "normalized": "POSSESSIVE",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "possessive",
+          "synset": "n:06311852",
+          "lexical_category": "noun.communication",
+          "definition": "the case expressing ownership"
+        }
+      ],
+      "candidate_categories": [
+        "noun.communication"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    },
+    {
+      "normalized": "PREDICATE",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "predicate",
+          "synset": "n:06316626",
+          "lexical_category": "noun.communication",
+          "definition": "one of the two main constituents of a sentence; the predicate contains the verb and its complements"
+        },
+        {
+          "lemma": "predicate",
+          "synset": "n:06316813",
+          "lexical_category": "noun.communication",
+          "definition": "(logic) what is predicated of the subject of a proposition; the second term in a proposition is predicated of the first term by means of the copula; \"`Socrates is a man' predicates manhood of Socrates\""
+        }
+      ],
+      "candidate_categories": [
+        "noun.communication"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    },
+    {
+      "normalized": "PREFIX",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "prefix",
+          "synset": "n:06308304",
+          "lexical_category": "noun.communication",
+          "definition": "an affix that is added in front of the word"
+        }
+      ],
+      "candidate_categories": [
+        "noun.communication"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    },
+    {
+      "normalized": "PREPOSITION",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "preposition",
+          "synset": "n:06325145",
+          "lexical_category": "noun.communication",
+          "definition": "a function word that combines with a noun or pronoun or noun phrase to form a prepositional phrase that can have an adverbial or adjectival relation to some other word"
+        },
+        {
+          "lemma": "preposition",
+          "synset": "n:06483992",
+          "lexical_category": "noun.communication",
+          "definition": "(linguistics) the placing of one linguistic element before another (as placing a modifier before the word it modifies in a sentence or placing an affix before the base to which it is attached)"
+        }
+      ],
+      "candidate_categories": [
+        "noun.communication"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    },
+    {
+      "normalized": "PROFANITY",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "profanity",
+          "synset": "n:07128527",
+          "lexical_category": "noun.communication",
+          "definition": "vulgar or irreverent speech or action"
+        }
+      ],
+      "candidate_categories": [
+        "noun.communication"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    },
+    {
+      "normalized": "PROLOGUE",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "prologue",
+          "synset": "n:07009421",
+          "lexical_category": "noun.communication",
+          "definition": "an introduction to a play"
+        }
+      ],
+      "candidate_categories": [
+        "noun.communication"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    },
+    {
+      "normalized": "PSEUDONYM",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "pseudonym",
+          "synset": "n:06338278",
+          "lexical_category": "noun.communication",
+          "definition": "a fictitious name used when the person performs a particular social role"
+        }
+      ],
+      "candidate_categories": [
+        "noun.communication"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    },
+    {
+      "normalized": "PUN",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "pun",
+          "synset": "n:06781581",
+          "lexical_category": "noun.communication",
+          "definition": "a humorous play on words; \"I do it for the pun of it\"; \"his constant punning irritated her\""
+        }
+      ],
+      "candidate_categories": [
+        "noun.communication"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    },
+    {
+      "normalized": "RAGNAROK",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "Ragnarok",
+          "synset": "n:06372925",
+          "lexical_category": "noun.communication",
+          "definition": "myth about the ultimate destruction of the gods in a battle with evil"
+        }
+      ],
+      "candidate_categories": [
+        "noun.communication"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    },
+    {
+      "normalized": "REBUTTAL",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "rebuttal",
+          "synset": "n:06562993",
+          "lexical_category": "noun.communication",
+          "definition": "(law) a pleading by the defendant in reply to a plaintiff's surrejoinder"
+        },
+        {
+          "lemma": "rebuttal",
+          "synset": "n:07201220",
+          "lexical_category": "noun.communication",
+          "definition": "the speech act of refuting by offering a contrary contention or argument"
+        }
+      ],
+      "candidate_categories": [
+        "noun.communication"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    },
+    {
+      "normalized": "REPRIMAND",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "reprimand",
+          "synset": "n:06711855",
+          "lexical_category": "noun.communication",
+          "definition": "an act or expression of criticism and censure; \"he had to take the rebuke with a smile on his face\""
+        }
+      ],
+      "candidate_categories": [
+        "noun.communication"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    },
+    {
+      "normalized": "RON",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "Ron",
+          "synset": "n:06983114",
+          "lexical_category": "noun.communication",
+          "definition": "a Chadic language spoken in northern Nigeria"
+        }
+      ],
+      "candidate_categories": [
+        "noun.communication"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    },
+    {
+      "normalized": "SAHARAN",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "Saharan",
+          "synset": "n:06998530",
+          "lexical_category": "noun.communication",
+          "definition": "a Nilo-Saharan language spoken in parts of Chad"
+        }
+      ],
+      "candidate_categories": [
+        "noun.communication"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    },
+    {
+      "normalized": "SANSKRIT",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "Sanskrit",
+          "synset": "n:06969129",
+          "lexical_category": "noun.communication",
+          "definition": "(Hinduism) an ancient language of India (the language of the Vedas and of Hinduism); an official language of India although it is now used only for religious purposes"
+        }
+      ],
+      "candidate_categories": [
+        "noun.communication"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    },
+    {
+      "normalized": "SCOTS",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "Scots",
+          "synset": "n:06950209",
+          "lexical_category": "noun.communication",
+          "definition": "the dialect of English used in Scotland"
+        }
+      ],
+      "candidate_categories": [
+        "noun.communication"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    },
+    {
+      "normalized": "SEMITIC",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "Semitic",
+          "synset": "n:06986894",
+          "lexical_category": "noun.communication",
+          "definition": "a major branch of the Afro-Asiatic language family"
+        }
+      ],
+      "candidate_categories": [
+        "noun.communication"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    },
+    {
+      "normalized": "SENOR",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "Senor",
+          "synset": "n:06341862",
+          "lexical_category": "noun.communication",
+          "definition": "a Spanish title or form of address for a man; similar to the English `Mr' or `sir'"
+        }
+      ],
+      "candidate_categories": [
+        "noun.communication"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    },
+    {
+      "normalized": "SHAN",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "Shan",
+          "synset": "n:06935223",
+          "lexical_category": "noun.communication",
+          "definition": "a branch of the Tai languages"
+        }
+      ],
+      "candidate_categories": [
+        "noun.communication"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    },
+    {
+      "normalized": "SIDEBAR",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "sidebar",
+          "synset": "n:06271403",
+          "lexical_category": "noun.communication",
+          "definition": "a short news story presenting sidelights on a major story"
+        },
+        {
+          "lemma": "sidebar",
+          "synset": "n:07143450",
+          "lexical_category": "noun.communication",
+          "definition": "(law) a courtroom conference between the lawyers and the judge that is held out of the jury's hearing"
+        }
+      ],
+      "candidate_categories": [
+        "noun.communication"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    },
+    {
+      "normalized": "SYLLABLE",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "syllable",
+          "synset": "n:06304671",
+          "lexical_category": "noun.communication",
+          "definition": "a unit of spoken language larger than a phoneme; \"the word `pocket' has two syllables\""
+        }
+      ],
+      "candidate_categories": [
+        "noun.communication"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    },
+    {
+      "normalized": "SYNOPSIS",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "synopsis",
+          "synset": "n:06468951",
+          "lexical_category": "noun.communication",
+          "definition": "a sketchy summary of the main points of an argument or theory"
+        }
+      ],
+      "candidate_categories": [
+        "noun.communication"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    },
+    {
+      "normalized": "SLANG",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "slang",
+          "synset": "n:07157273",
+          "lexical_category": "noun.communication",
+          "definition": "a characteristic language of a particular group (as among thieves); \"they don't speak our lingo\""
+        },
+        {
+          "lemma": "slang",
+          "synset": "n:07159467",
+          "lexical_category": "noun.communication",
+          "definition": "informal language consisting of words and expressions that are not considered appropriate for formal occasions; often vituperative or vulgar; \"their speech was full of slang expressions\""
+        }
+      ],
+      "candidate_categories": [
+        "noun.communication"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    },
+    {
+      "normalized": "SMIRK",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "smirk",
+          "synset": "n:06878580",
+          "lexical_category": "noun.communication",
+          "definition": "a smile expressing smugness or scorn instead of pleasure"
+        }
+      ],
+      "candidate_categories": [
+        "noun.communication"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    },
+    {
+      "normalized": "SOS",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "SOS",
+          "synset": "n:06803845",
+          "lexical_category": "noun.communication",
+          "definition": "an internationally recognized distress signal in radio code"
+        }
+      ],
+      "candidate_categories": [
+        "noun.communication"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    },
+    {
+      "normalized": "SUFFIX",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "suffix",
+          "synset": "n:06308987",
+          "lexical_category": "noun.communication",
+          "definition": "an affix that is added at the end of the word"
+        }
+      ],
+      "candidate_categories": [
+        "noun.communication"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    },
+    {
+      "normalized": "SWAHILI",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "Swahili",
+          "synset": "n:06995792",
+          "lexical_category": "noun.communication",
+          "definition": "the most widely spoken Bantu languages; the official language of Kenya and Tanzania and widely used as a lingua franca in east and central Africa"
+        }
+      ],
+      "candidate_categories": [
+        "noun.communication"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    },
+    {
+      "normalized": "TAY",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "Tay",
+          "synset": "n:06935911",
+          "lexical_category": "noun.communication",
+          "definition": "a branch of the Tai languages"
+        }
+      ],
+      "candidate_categories": [
+        "noun.communication"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    },
+    {
+      "normalized": "TALMUD",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "Talmud",
+          "synset": "n:06462396",
+          "lexical_category": "noun.communication",
+          "definition": "the collection of ancient rabbinic writings on Jewish law and tradition (the Mishna and the Gemara) that constitute the basis of religious authority in Orthodox Judaism"
+        }
+      ],
+      "candidate_categories": [
+        "noun.communication"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    },
+    {
+      "normalized": "TERA",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "Tera",
+          "synset": "n:06983795",
+          "lexical_category": "noun.communication",
+          "definition": "a three-tone Chadic language"
+        }
+      ],
+      "candidate_categories": [
+        "noun.communication"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    },
+    {
+      "normalized": "THO",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "Tho",
+          "synset": "n:06936070",
+          "lexical_category": "noun.communication",
+          "definition": "a branch of the Tai languages"
+        }
+      ],
+      "candidate_categories": [
+        "noun.communication"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    },
+    {
+      "normalized": "TORAH",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "Torah",
+          "synset": "n:06408442",
+          "lexical_category": "noun.communication",
+          "definition": "(Judaism) the scroll of parchment on which the first five books of the Hebrew Scripture is written; is used in a synagogue during services"
+        },
+        {
+          "lemma": "Torah",
+          "synset": "n:06451891",
+          "lexical_category": "noun.communication",
+          "definition": "the first of three divisions of the Hebrew Scriptures comprising the first five books of the Hebrew Bible considered as a unit"
+        },
+        {
+          "lemma": "Torah",
+          "synset": "n:06452223",
+          "lexical_category": "noun.communication",
+          "definition": "the whole body of the Jewish sacred writings and tradition including the oral tradition"
+        }
+      ],
+      "candidate_categories": [
+        "noun.communication"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    },
+    {
+      "normalized": "TURKIC",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "Turkic",
+          "synset": "n:06926458",
+          "lexical_category": "noun.communication",
+          "definition": "a subfamily of Altaic languages"
+        }
+      ],
+      "candidate_categories": [
+        "noun.communication"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    },
+    {
+      "normalized": "UNIX",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "UNIX",
+          "synset": "n:06568706",
+          "lexical_category": "noun.communication",
+          "definition": "trademark for a powerful operating system"
+        }
+      ],
+      "candidate_categories": [
+        "noun.communication"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    },
+    {
+      "normalized": "URDU",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "Urdu",
+          "synset": "n:06969916",
+          "lexical_category": "noun.communication",
+          "definition": "the official literary language of Pakistan, closely related to Hindi; widely used in India (mostly by Moslems); written in Arabic script"
+        }
+      ],
+      "candidate_categories": [
+        "noun.communication"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    },
+    {
+      "normalized": "VEDA",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "Veda",
+          "synset": "n:06464419",
+          "lexical_category": "noun.communication",
+          "definition": "(from the Sanskrit word for `knowledge') any of the most ancient sacred writings of Hinduism written in early Sanskrit; traditionally believed to comprise the Samhitas, the Brahmanas, the Aranyakas, and the Upanishads"
+        }
+      ],
+      "candidate_categories": [
+        "noun.communication"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    },
+    {
+      "normalized": "VERB",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "verb",
+          "synset": "n:06318062",
+          "lexical_category": "noun.communication",
+          "definition": "the word class that serves as the predicate of a sentence"
+        },
+        {
+          "lemma": "verb",
+          "synset": "n:06320569",
+          "lexical_category": "noun.communication",
+          "definition": "a content word that denotes an action, occurrence, or state of existence"
+        }
+      ],
+      "candidate_categories": [
+        "noun.communication"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    },
+    {
+      "normalized": "VOW",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "vow",
+          "synset": "n:07228751",
+          "lexical_category": "noun.communication",
+          "definition": "a solemn pledge (to oneself or to another or to a deity) to do something or to behave in a certain manner; \"they took vows of poverty\""
+        }
+      ],
+      "candidate_categories": [
+        "noun.communication"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    }
+  ]
+}

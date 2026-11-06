@@ -148,6 +148,23 @@ def test_clean_book_scores_high_and_has_no_hard_failures(nature_world):
     assert report.overall in ("A", "B")
 
 
+def test_unknown_words_cannot_receive_a_certified_quality_grade(nature_world):
+    store,taxonomy=nature_world
+    report=score_book(store,taxonomy,'gardening',[['UNKNOWNWORD','ANOTHERUNKNOWN']])
+    assert report.reviewed_coverage==0
+    assert report.topic_purity==0
+    assert report.overall=='Unverified'
+    assert report.to_dict()['unknown_word_count']==2
+    assert report.evidence_status=='insufficient evidence'
+
+
+def test_quality_normalizes_repetition_and_reports_partial_coverage(nature_world):
+    store,taxonomy=nature_world
+    report=score_book(store,taxonomy,'gardening',[['trowel','TROWEL','UNKNOWNWORD']])
+    assert report.unique_vocabulary==2 and report.repeated_words==1
+    assert report.reviewed_coverage==.5 and report.overall=='Unverified'
+
+
 def test_contaminated_book_hard_fails(nature_world):
     store, taxonomy = nature_world
     puzzles = [["TROWEL", "WHALE"], ["CORAL", "SEEDS"]]   # ocean words
@@ -179,3 +196,11 @@ def test_production_truth_flags_unrelated_buyer_facing_puzzle_label(nature_world
                           min_words_per_puzzle=2,
                           puzzle_names=["Ocean Traditions", "Garden Tools"])
     assert any("label" in item.lower() for item in truth.warnings)
+
+
+def test_quality_and_pool_share_cluster_mapping_for_compound_words():
+    from word_intelligence.book_quality import _cluster_of
+    words = ['COMPOST BIN', 'GARDEN TROWEL', 'SOIL MIX', 'ZUCCHINI', 'QQQUUUVVV']
+    expected = assign_clusters(None, None, 'gardening', words)
+    from word_intelligence.normalization import clean_surface
+    assert {clean_surface(word): _cluster_of('gardening', word) for word in words} == expected

@@ -1,0 +1,57 @@
+{
+  "schema_version": 1,
+  "research_status": "REVIEW_REQUIRED_NOT_APPROVED",
+  "group": "verb.cognition",
+  "records": [
+    {
+      "normalized": "EVALUATE",
+      "status": "pending_context_and_editorial_review",
+      "candidate_categories": [
+        "verb.cognition"
+      ],
+      "source_senses": [
+        {
+          "lemma": "evaluate",
+          "synset": "verb:00670261",
+          "part_of_speech": "verb",
+          "lexical_category": "verb.cognition",
+          "definition": "form a critical opinion of; \"I cannot judge some works of modern art\"; \"How do you evaluate this grant proposal?\" \"We shouldn't pass judgment on other people\"",
+          "match_type": "exact_normalized_source_lemma"
+        },
+        {
+          "lemma": "evaluate",
+          "synset": "verb:00681429",
+          "part_of_speech": "verb",
+          "lexical_category": "verb.cognition",
+          "definition": "evaluate or estimate the nature, quality, ability, extent, or significance of; \"I will have the family jewels appraised by a professional\"; \"access all the factors when taking a risk\"",
+          "match_type": "exact_normalized_source_lemma"
+        }
+      ]
+    },
+    {
+      "normalized": "SYNTHESIZE",
+      "status": "pending_context_and_editorial_review",
+      "candidate_categories": [
+        "verb.cognition"
+      ],
+      "source_senses": [
+        {
+          "lemma": "synthesize",
+          "synset": "verb:00644066",
+          "part_of_speech": "verb",
+          "lexical_category": "verb.cognition",
+          "definition": "combine so as to form a more complex, product; \"his operas synthesize music and drama in perfect harmony\"; \"The liver synthesizes vitamins\"",
+          "match_type": "exact_normalized_source_lemma"
+        },
+        {
+          "lemma": "synthesize",
+          "synset": "verb:00644430",
+          "part_of_speech": "verb",
+          "lexical_category": "verb.cognition",
+          "definition": "combine and form a synthesis; \"Vitamin D only synthesizes when sunlight is available\"",
+          "match_type": "exact_normalized_source_lemma"
+        }
+      ]
+    }
+  ]
+}

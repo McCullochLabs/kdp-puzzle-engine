@@ -50,13 +50,14 @@ def tags_for(metadata: dict) -> list[str]:
         "Word Search": ["printable word searches", "word search puzzles for adults", "themed word search book"],
         "Sudoku": ["printable sudoku", "sudoku puzzles for adults", "logic puzzle book"],
         "Cryptogram": ["printable cryptograms", "cryptogram puzzles for adults", "code breaking puzzles"],
-        "Word Scramble + Trivia": ["word scramble trivia", "printable trivia puzzles", "word puzzles for adults"],
-        "Mixed Brain Games": ["brain games for adults", "printable brain games", "mixed puzzle book", "sudoku puzzles", "cryptogram puzzles", "word scramble trivia"],
+        "Word Scramble + Trivia": ["word scramble clues", "printable word games", "word puzzles for adults"],
+        "Mixed Brain Games": ["brain games for adults", "printable brain games", "mixed puzzle book", "sudoku puzzles", "cryptogram puzzles", "word scrambles with clues"],
     }
     if not values:
-        values = [f"{topic} {kind.casefold()}" if topic else "", topic, *type_tags.get(kind, ["printable puzzle collection"])]
+        public_kind = "word scrambles with fact clues" if kind == "Word Scramble + Trivia" else kind.casefold()
+        values = [f"{topic} {public_kind}" if topic else "", topic, *type_tags.get(kind, ["printable puzzle collection"])]
         if difficulty and difficulty not in {"standard", "normal"}:
-            values.append(f"{difficulty} {kind.casefold()} challenges")
+            values.append(f"{difficulty} {public_kind} challenges")
         if "signature" in " ".join(str(metadata.get(key) or "") for key in ("title", "subtitle", "edition")).casefold():
             values.append("signature puzzle collection")
         values.append("printable puzzles for adults")
@@ -109,12 +110,12 @@ def description_for(metadata: dict) -> str:
     content = marketplace_content(metadata); kind = content.get("puzzle_type") or puzzle_type_for(metadata)
     count = int(metadata.get("puzzle_count") or 0); topic = str(metadata.get("theme") or metadata.get("detected_topic") or "a relaxing variety of puzzles").strip()
     difficulty = str(metadata.get("difficulty") or metadata.get("difficulty_label") or "Standard").lower()
-    types = {"Mixed Brain Games": "a variety of Sudoku, cryptograms, word challenges, and trivia-style brain games", "Sudoku": "verified Sudoku challenges", "Cryptogram": "code-breaking cryptogram challenges", "Word Search": "themed word-search puzzles", "Word Scramble + Trivia": "word scrambles paired with approachable trivia"}
+    types = {"Mixed Brain Games": "a variety of Sudoku, cryptograms, and word scrambles with fact clues", "Sudoku": "verified Sudoku challenges", "Cryptogram": "code-breaking cryptogram challenges", "Word Search": "themed word-search puzzles", "Word Scramble + Trivia": "word scrambles guided by approachable fact clues"}
     title = str(metadata.get("title") or "This puzzle collection")
     return (f"{title} is a printable collection of {count} {types.get(kind, 'printable puzzle challenges')} for adults and teens. "
             f"The book has a {difficulty} feel, clear full-size pages, and complete solutions so you can enjoy {topic} at your own pace.\n\n"
             "DIGITAL PRODUCT: This purchase includes a downloadable PDF that you can print at home or enjoy on-screen. No physical product will be shipped.\n\n"
-            f"What you receive:\n• {count} clearly organized {kind.lower()} challenges\n• Complete solutions\n• A clean printable PDF in an easy-to-use layout\n\n"
+            f"What you receive:\n• {count} clearly organized {types.get(kind, kind.lower())}\n• Complete solutions\n• A clean printable PDF in an easy-to-use layout\n\n"
             "Download your file after purchase, choose a puzzle that fits your mood, and enjoy a satisfying screen-free break.")
 
 

@@ -1,0 +1,260 @@
+{
+  "schema_version": 1,
+  "research_status": "REVIEW_REQUIRED_NOT_APPROVED",
+  "lexical_review_group": "noun.state",
+  "records": [
+    {
+      "normalized": "AAA",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "AAA",
+          "synset": "n:14106456",
+          "lexical_category": "noun.state",
+          "definition": "an aneurysm of the abdominal aorta associated with old age and hypertension"
+        }
+      ],
+      "candidate_categories": [
+        "noun.state"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    },
+    {
+      "normalized": "ADD",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "ADD",
+          "synset": "n:14056280",
+          "lexical_category": "noun.state",
+          "definition": "a condition (mostly in boys) characterized by behavioral and learning disorders"
+        }
+      ],
+      "candidate_categories": [
+        "noun.state"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    },
+    {
+      "normalized": "AFFLUENCE",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "affluence",
+          "synset": "n:14491625",
+          "lexical_category": "noun.state",
+          "definition": "abundant wealth; \"they studied forerunners of richness or poverty\"; \"the richness all around unsettled him for he had expected to find poverty\""
+        }
+      ],
+      "candidate_categories": [
+        "noun.state"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    },
+    {
+      "normalized": "ALS",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "ALS",
+          "synset": "n:14105737",
+          "lexical_category": "noun.state",
+          "definition": "thickening of tissue in the motor tracts of the lateral columns and anterior horns of the spinal cord; results in progressive muscle atrophy that starts in the limbs"
+        }
+      ],
+      "candidate_categories": [
+        "noun.state"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    },
+    {
+      "normalized": "AMOUR",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "amour",
+          "synset": "n:13931889",
+          "lexical_category": "noun.state",
+          "definition": "a usually secretive or illicit sexual relationship"
+        }
+      ],
+      "candidate_categories": [
+        "noun.state"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    },
+    {
+      "normalized": "FAS",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "FAS",
+          "synset": "n:14305458",
+          "lexical_category": "noun.state",
+          "definition": "a congenital medical condition in which body deformation occurs or facial development or mental ability is impaired because the mother drinks alcohol during pregnancy"
+        }
+      ],
+      "candidate_categories": [
+        "noun.state"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    },
+    {
+      "normalized": "PREPAREDNESS",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "preparedness",
+          "synset": "n:14031108",
+          "lexical_category": "noun.state",
+          "definition": "the state of having been made ready or prepared for use or action (especially military action); \"putting them in readiness\"; \"their preparation was more than adequate\""
+        }
+      ],
+      "candidate_categories": [
+        "noun.state"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    },
+    {
+      "normalized": "PSORIASIS",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "psoriasis",
+          "synset": "n:14231794",
+          "lexical_category": "noun.state",
+          "definition": "a chronic skin disease characterized by dry red patches covered with scales; occurs especially on the scalp and ears and genitalia and the skin over bony prominences"
+        }
+      ],
+      "candidate_categories": [
+        "noun.state"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    },
+    {
+      "normalized": "SAY",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "say",
+          "synset": "n:14485526",
+          "lexical_category": "noun.state",
+          "definition": "the chance to speak; \"let him have his say\""
+        }
+      ],
+      "candidate_categories": [
+        "noun.state"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    },
+    {
+      "normalized": "SUSCEPTIBILITY",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "susceptibility",
+          "synset": "n:14530061",
+          "lexical_category": "noun.state",
+          "definition": "the state of being susceptible; easily affected"
+        }
+      ],
+      "candidate_categories": [
+        "noun.state"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    },
+    {
+      "normalized": "TSS",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "TSS",
+          "synset": "n:14470144",
+          "lexical_category": "noun.state",
+          "definition": "syndrome resulting from a serious acute (sometimes fatal) infection associated with the presence of staphylococcus; characterized by fever and diarrhea and nausea and diffuse erythema and shock; occurs especially in menstruating women using highly absorbent tampons"
+        }
+      ],
+      "candidate_categories": [
+        "noun.state"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    },
+    {
+      "normalized": "WHOLENESS",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "wholeness",
+          "synset": "n:14050011",
+          "lexical_category": "noun.state",
+          "definition": "a state of robust good health"
+        },
+        {
+          "lemma": "wholeness",
+          "synset": "n:14460565",
+          "lexical_category": "noun.state",
+          "definition": "an undivided or unbroken completeness or totality with nothing wanting; \"the integrity of the nervous system is required for normal development\"; \"he took measures to insure the territorial unity of Croatia\""
+        }
+      ],
+      "candidate_categories": [
+        "noun.state"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    },
+    {
+      "normalized": "ZEITGEIST",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "Zeitgeist",
+          "synset": "n:14526635",
+          "lexical_category": "noun.state",
+          "definition": "the spirit of the time; the spirit characteristic of an age or generation"
+        }
+      ],
+      "candidate_categories": [
+        "noun.state"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    }
+  ]
+}

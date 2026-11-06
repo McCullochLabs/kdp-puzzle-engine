@@ -35,7 +35,7 @@
         "civil war",
         "president"
       ],
-      "updated_at": "2026-09-06T03:03:48+00:00",
+      "updated_at": "2026-09-19T01:44:26+00:00",
       "usage": [
         {
           "at": "2026-08-27T15:13:01+00:00",
@@ -52,6 +52,12 @@
         {
           "at": "2026-08-27T23:03:18+00:00",
           "package": "C:\\Users\\jorda\\Desktop\\Word Search Creator\\kdp-puzzle-engine\\out\\american_heritage_cipher_challenge_20260827_160243",
+          "theme": "History & Heritage",
+          "title": "American Heritage Cipher Challenge"
+        },
+        {
+          "at": "2026-09-19T01:44:26+00:00",
+          "package": "C:\\Users\\jorda\\Desktop\\Word Search Creator\\kdp-puzzle-engine\\out\\american_heritage_cipher_challenge_20260918_184401",
           "theme": "History & Heritage",
           "title": "American Heritage Cipher Challenge"
         }
@@ -139,8 +145,27 @@
         "civil war",
         "president"
       ],
-      "updated_at": "2026-09-06T03:03:49+00:00",
-      "usage": [],
+      "updated_at": "2026-09-20T02:32:21+00:00",
+      "usage": [
+        {
+          "at": "2026-09-08T23:48:04+00:00",
+          "package": "C:\\Users\\jorda\\Desktop\\Word Search Creator\\kdp-puzzle-engine\\out\\american_heritage_cipher_challenge_20260908_164740",
+          "theme": "History & Heritage",
+          "title": "American Heritage Cipher Challenge"
+        },
+        {
+          "at": "2026-09-20T02:16:20+00:00",
+          "package": "",
+          "theme": "C:\\Users\\jorda\\Desktop\\Word Search Creator\\kdp-puzzle-engine\\themes\\Editorial Rebuilds\\american_moments_editorial_v2.json",
+          "title": "American Moments Word Search"
+        },
+        {
+          "at": "2026-09-20T02:32:21+00:00",
+          "package": "",
+          "theme": "C:\\Users\\jorda\\Desktop\\Word Search Creator\\kdp-puzzle-engine\\themes\\Editorial Rebuilds\\american_moments_editorial_v2.json",
+          "title": "American Moments Word Search"
+        }
+      ],
       "visual_family_id": "vf_8c070b2b170f2516"
     },
     {
@@ -285,13 +310,19 @@
         "prayer",
         "devotional"
       ],
-      "updated_at": "2026-09-06T03:03:49+00:00",
+      "updated_at": "2026-09-20T02:17:34+00:00",
       "usage": [
         {
           "at": "2026-08-29T03:40:18+00:00",
           "package": "",
           "theme": "C:\\Users\\jorda\\Desktop\\Word Search Creator\\kdp-puzzle-engine\\themes\\Trending 50 Puzzle Releases\\faithful_words_20260828_203806.json",
           "title": "Faithful Words Word Search"
+        },
+        {
+          "at": "2026-09-20T02:17:34+00:00",
+          "package": "",
+          "theme": "C:\\Users\\jorda\\Desktop\\Word Search Creator\\kdp-puzzle-engine\\themes\\Editorial Rebuilds\\faithful_words_signature_100_editorial_v2.json",
+          "title": "Faithful Words: Large-Print Bible Word Search for Adults"
         }
       ],
       "visual_family_id": "vf_134b4b3f2e1f0f3e"
@@ -330,8 +361,21 @@
         "prayer",
         "devotional"
       ],
-      "updated_at": "2026-09-06T03:03:49+00:00",
-      "usage": [],
+      "updated_at": "2026-09-20T02:33:30+00:00",
+      "usage": [
+        {
+          "at": "2026-09-19T01:44:52+00:00",
+          "package": "C:\\Users\\jorda\\Desktop\\Word Search Creator\\kdp-puzzle-engine\\out\\faith_and_encouragement_cipher_challenge_20260918_184426",
+          "theme": "Bible & Faith",
+          "title": "Faith and Encouragement Cipher Challenge"
+        },
+        {
+          "at": "2026-09-20T02:33:30+00:00",
+          "package": "",
+          "theme": "C:\\Users\\jorda\\Desktop\\Word Search Creator\\kdp-puzzle-engine\\themes\\Editorial Rebuilds\\faithful_words_signature_100_editorial_v2.json",
+          "title": "Faithful Words: Large-Print Bible Word Search for Adults"
+        }
+      ],
       "visual_family_id": "vf_0303070703032307"
     },
     {
@@ -368,8 +412,27 @@
         "prayer",
         "devotional"
       ],
-      "updated_at": "2026-09-06T03:03:50+00:00",
-      "usage": [],
+      "updated_at": "2026-09-20T02:30:27+00:00",
+      "usage": [
+        {
+          "at": "2026-09-11T01:40:59+00:00",
+          "package": "C:\\Users\\jorda\\Desktop\\Word Search Creator\\kdp-puzzle-engine\\out\\faith_and_encouragement_cipher_challenge_20260910_184034",
+          "theme": "Bible & Faith",
+          "title": "Faith and Encouragement Cipher Challenge"
+        },
+        {
+          "at": "2026-09-20T02:14:38+00:00",
+          "package": "",
+          "theme": "C:\\Users\\jorda\\Desktop\\Word Search Creator\\kdp-puzzle-engine\\themes\\Editorial Rebuilds\\faithful_words_50_editorial_v2.json",
+          "title": "Faithful Words Word Search"
+        },
+        {
+          "at": "2026-09-20T02:30:27+00:00",
+          "package": "",
+          "theme": "C:\\Users\\jorda\\Desktop\\Word Search Creator\\kdp-puzzle-engine\\themes\\Editorial Rebuilds\\faithful_words_50_editorial_v2.json",
+          "title": "Faithful Words Word Search"
+        }
+      ],
       "visual_family_id": "vf_030719351f273e6f"
     },
     {
@@ -522,8 +585,15 @@
         "literature",
         "vocabulary"
       ],
-      "updated_at": "2026-09-06T03:03:50+00:00",
-      "usage": [],
+      "updated_at": "2026-11-02T21:12:42+00:00",
+      "usage": [
+        {
+          "at": "2026-11-02T21:12:42+00:00",
+          "package": "",
+          "theme": "C:\\Users\\jorda\\Desktop\\Word Search Creator\\kdp-puzzle-engine\\data\\studio_wordsearch_drafts\\8e71bb0763914963bc08b34a545031ac\\theme.json",
+          "title": "Everything Library Word Search - 8e71bb07"
+        }
+      ],
       "visual_family_id": "vf_838f8e8eacb0c721"
     },
     {
@@ -638,13 +708,19 @@
         "recipe",
         "dessert"
       ],
-      "updated_at": "2026-09-06T03:03:51+00:00",
+      "updated_at": "2026-09-11T01:46:00+00:00",
       "usage": [
         {
           "at": "2026-08-28T23:28:37+00:00",
           "package": "C:\\Users\\jorda\\Desktop\\Word Search Creator\\kdp-puzzle-engine\\tmp\\phase8_acceptance_20260828\\out\\phase_8_scramble_acceptance_20260828_162829",
           "theme": "Food & Home",
           "title": "Phase 8 Scramble Acceptance"
+        },
+        {
+          "at": "2026-09-11T01:46:00+00:00",
+          "package": "C:\\Users\\jorda\\Desktop\\Word Search Creator\\kdp-puzzle-engine\\out\\baking_break_large_print_sudoku_20260910_184530",
+          "theme": "Baking & Food",
+          "title": "Baking Break Large Print Sudoku"
         }
       ],
       "visual_family_id": "vf_0703030363e87333"
@@ -682,8 +758,15 @@
         "recipe",
         "dessert"
       ],
-      "updated_at": "2026-09-06T03:03:51+00:00",
-      "usage": [],
+      "updated_at": "2026-09-08T23:48:54+00:00",
+      "usage": [
+        {
+          "at": "2026-09-08T23:48:54+00:00",
+          "package": "C:\\Users\\jorda\\Desktop\\Word Search Creator\\kdp-puzzle-engine\\out\\kitchen_table_scramble_and_trivia_20260908_164830",
+          "theme": "Food & Home",
+          "title": "Kitchen Table Scramble and Trivia"
+        }
+      ],
       "visual_family_id": "vf_3f3f9f0f8767cfc8"
     },
     {
@@ -719,7 +802,7 @@
         "recipe",
         "dessert"
       ],
-      "updated_at": "2026-09-06T03:03:51+00:00",
+      "updated_at": "2026-09-19T01:45:40+00:00",
       "usage": [
         {
           "at": "2026-08-27T15:13:16+00:00",
@@ -738,6 +821,12 @@
           "package": "C:\\Users\\jorda\\Desktop\\Word Search Creator\\kdp-puzzle-engine\\out\\kitchen_table_scramble_and_trivia_20260827_160326",
           "theme": "Food & Home",
           "title": "Kitchen Table Scramble and Trivia"
+        },
+        {
+          "at": "2026-09-19T01:45:40+00:00",
+          "package": "C:\\Users\\jorda\\Desktop\\Word Search Creator\\kdp-puzzle-engine\\out\\kitchen_table_word_scrambles_20260918_184517",
+          "theme": "Food & Home",
+          "title": "Kitchen Table Word Scrambles"
         }
       ],
       "visual_family_id": "vf_fffe013a92d99bad"
@@ -775,8 +864,15 @@
         "vegetable",
         "homestead"
       ],
-      "updated_at": "2026-09-06T03:03:51+00:00",
-      "usage": [],
+      "updated_at": "2026-09-08T23:47:13+00:00",
+      "usage": [
+        {
+          "at": "2026-09-08T23:47:13+00:00",
+          "package": "C:\\Users\\jorda\\Desktop\\Word Search Creator\\kdp-puzzle-engine\\out\\garden_path_symbols_sudoku_20260908_164646",
+          "theme": "Garden & Growing",
+          "title": "Garden Path Symbols Sudoku"
+        }
+      ],
       "visual_family_id": "vf_0f4f17312cd9711f"
     },
     {
@@ -874,13 +970,19 @@
         "vegetable",
         "homestead"
       ],
-      "updated_at": "2026-09-06T03:03:52+00:00",
+      "updated_at": "2026-09-11T01:44:25+00:00",
       "usage": [
         {
           "at": "2026-08-29T03:44:08+00:00",
           "package": "",
           "theme": "C:\\Users\\jorda\\Desktop\\Word Search Creator\\kdp-puzzle-engine\\themes\\Trending 50 Puzzle Releases\\garden_discovery_20260828_204320.json",
           "title": "Garden Discovery Word Search"
+        },
+        {
+          "at": "2026-09-11T01:44:25+00:00",
+          "package": "C:\\Users\\jorda\\Desktop\\Word Search Creator\\kdp-puzzle-engine\\out\\garden_calm_large_print_sudoku_20260910_184355",
+          "theme": "Garden & Growing",
+          "title": "Garden Calm Large Print Sudoku"
         }
       ],
       "visual_family_id": "vf_00001b17531f7b0d"
@@ -1008,7 +1110,7 @@
         "camping",
         "wildlife"
       ],
-      "updated_at": "2026-09-06T03:03:52+00:00",
+      "updated_at": "2026-11-02T14:57:49+00:00",
       "usage": [
         {
           "at": "2026-08-27T15:13:24+00:00",
@@ -1027,6 +1129,96 @@
           "package": "C:\\Users\\jorda\\Desktop\\Word Search Creator\\kdp-puzzle-engine\\out\\wild_places_brain_games_collection_20260827_160333",
           "theme": "Nature & Outdoors",
           "title": "Wild Places Brain Games Collection"
+        },
+        {
+          "at": "2026-09-08T23:49:19+00:00",
+          "package": "C:\\Users\\jorda\\Desktop\\Word Search Creator\\kdp-puzzle-engine\\out\\wild_places_brain_games_collection_20260908_164854",
+          "theme": "Nature & Outdoors",
+          "title": "Wild Places Brain Games Collection"
+        },
+        {
+          "at": "2026-09-11T01:43:23+00:00",
+          "package": "C:\\Users\\jorda\\Desktop\\Word Search Creator\\kdp-puzzle-engine\\out\\national_parks_large_print_sudoku_20260910_184252",
+          "theme": "National Parks",
+          "title": "National Parks Large Print Sudoku"
+        },
+        {
+          "at": "2026-09-17T21:23:52+00:00",
+          "package": "C:\\Users\\jorda\\Desktop\\Word Search Creator\\kdp-puzzle-engine\\out\\forest_trails_sudoku_20260917_142323",
+          "theme": "Nature & Outdoors",
+          "title": "Forest Trails Sudoku"
+        },
+        {
+          "at": "2026-09-17T21:32:35+00:00",
+          "package": "C:\\Users\\jorda\\Desktop\\Word Search Creator\\kdp-puzzle-engine\\out\\the_forest_trails_sudoku_book_20260917_143206",
+          "theme": "Nature & Outdoors",
+          "title": "The Forest Trails Sudoku Book"
+        },
+        {
+          "at": "2026-09-17T21:39:35+00:00",
+          "package": "C:\\Users\\jorda\\Desktop\\Word Search Creator\\kdp-puzzle-engine\\out\\into_the_woods_sudoku_20260917_143904",
+          "theme": "Nature & Outdoors",
+          "title": "Into the Woods Sudoku"
+        },
+        {
+          "at": "2026-09-17T22:13:33+00:00",
+          "package": "C:\\Users\\jorda\\Desktop\\Word Search Creator\\kdp-puzzle-engine\\out\\into_the_woods_sudoku_20260917_151303",
+          "theme": "Nature & Outdoors",
+          "title": "Into the Woods Sudoku"
+        },
+        {
+          "at": "2026-09-19T01:46:31+00:00",
+          "package": "C:\\Users\\jorda\\Desktop\\Word Search Creator\\kdp-puzzle-engine\\out\\wild_places_brain_games_collection_20260918_184606",
+          "theme": "Nature & Outdoors",
+          "title": "Wild Places Brain Games Collection"
+        },
+        {
+          "at": "2026-11-01T22:03:07+00:00",
+          "package": "C:\\Users\\jorda\\Desktop\\Word Search Creator\\kdp-puzzle-engine\\out\\release_candidates\\system_20261101_v1\\field_notes_in_code_20261101_150240",
+          "theme": "Nature & Outdoors",
+          "title": "Field Notes in Code"
+        },
+        {
+          "at": "2026-11-01T22:04:08+00:00",
+          "package": "C:\\Users\\jorda\\Desktop\\Word Search Creator\\kdp-puzzle-engine\\out\\release_candidates\\system_20261101_v1\\nature_break_puzzle_collection_20261101_150331",
+          "theme": "Nature & Outdoors",
+          "title": "Nature Break Puzzle Collection"
+        },
+        {
+          "at": "2026-11-01T22:21:51+00:00",
+          "package": "C:\\Users\\jorda\\Desktop\\Word Search Creator\\kdp-puzzle-engine\\out\\release_candidates\\system_20261101_v1\\field_notes_in_code_20261101_152128",
+          "theme": "Nature & Outdoors",
+          "title": "Field Notes in Code"
+        },
+        {
+          "at": "2026-11-01T22:22:46+00:00",
+          "package": "C:\\Users\\jorda\\Desktop\\Word Search Creator\\kdp-puzzle-engine\\out\\release_candidates\\system_20261101_v1\\nature_break_puzzle_collection_20261101_152218",
+          "theme": "Nature & Outdoors",
+          "title": "Nature Break Puzzle Collection"
+        },
+        {
+          "at": "2026-11-01T23:16:29+00:00",
+          "package": "C:\\Users\\jorda\\Desktop\\Word Search Creator\\kdp-puzzle-engine\\out\\release_candidates\\system_20261101_print_quality_v2\\field_notes_in_code_20261101_161605",
+          "theme": "Nature & Outdoors",
+          "title": "Field Notes in Code"
+        },
+        {
+          "at": "2026-11-01T23:17:33+00:00",
+          "package": "C:\\Users\\jorda\\Desktop\\Word Search Creator\\kdp-puzzle-engine\\out\\release_candidates\\system_20261101_print_quality_v2\\nature_break_puzzle_collection_20261101_161700",
+          "theme": "Nature & Outdoors",
+          "title": "Nature Break Puzzle Collection"
+        },
+        {
+          "at": "2026-11-02T14:56:58+00:00",
+          "package": "C:\\Users\\jorda\\Desktop\\Word Search Creator\\kdp-puzzle-engine\\data\\studio_revision_candidates\\c162ef81c0fb4c0e8c49138f793e90ce\\field_notes_in_code_20261102_075637",
+          "theme": "Nature & Outdoors",
+          "title": "Field Notes in Code"
+        },
+        {
+          "at": "2026-11-02T14:57:49+00:00",
+          "package": "C:\\Users\\jorda\\Desktop\\Word Search Creator\\kdp-puzzle-engine\\data\\studio_revision_candidates\\7ef8b965ef95497da95cbd595638e8b7\\nature_break_puzzle_collection_20261102_075723",
+          "theme": "Nature & Outdoors",
+          "title": "Nature Break Puzzle Collection"
         }
       ],
       "visual_family_id": "vf_00600f1f2f4e4e1d"
@@ -1064,8 +1256,15 @@
         "coastal",
         "water"
       ],
-      "updated_at": "2026-09-06T03:03:52+00:00",
-      "usage": [],
+      "updated_at": "2026-09-11T01:45:30+00:00",
+      "usage": [
+        {
+          "at": "2026-09-11T01:45:30+00:00",
+          "package": "C:\\Users\\jorda\\Desktop\\Word Search Creator\\kdp-puzzle-engine\\out\\ocean_escape_large_print_sudoku_20260910_184458",
+          "theme": "Ocean Life",
+          "title": "Ocean Escape Large Print Sudoku"
+        }
+      ],
       "visual_family_id": "vf_1f1f3f1f0f26cc8e"
     },
     {
@@ -1197,8 +1396,27 @@
         "arches word",
         "stone arches"
       ],
-      "updated_at": "2026-09-06T03:03:53+00:00",
-      "usage": [],
+      "updated_at": "2026-09-20T01:37:52+00:00",
+      "usage": [
+        {
+          "at": "2026-09-08T23:45:17+00:00",
+          "package": "",
+          "theme": "C:\\Users\\jorda\\Desktop\\Word Search Creator\\kdp-puzzle-engine\\themes\\Trending 50 Puzzle Releases\\road_trip_classics_20260828_203806.json",
+          "title": "Road Trip Classics Word Search"
+        },
+        {
+          "at": "2026-09-19T17:19:53+00:00",
+          "package": "",
+          "theme": "C:\\Users\\jorda\\Desktop\\Word Search Creator\\kdp-puzzle-engine\\themes\\Editorial Rebuilds\\faithful_words_50_editorial_v2.json",
+          "title": "Faithful Words Word Search"
+        },
+        {
+          "at": "2026-09-20T01:37:52+00:00",
+          "package": "",
+          "theme": "C:\\Users\\jorda\\Desktop\\Word Search Creator\\kdp-puzzle-engine\\themes\\Editorial Rebuilds\\road_trip_classics_editorial_v2.json",
+          "title": "Road Trip Classics Word Search"
+        }
+      ],
       "visual_family_id": "vf_000000fe8713bf19"
     },
     {
@@ -1473,8 +1691,21 @@
         "mountain lakes",
         "lakes and wildflowers"
       ],
-      "updated_at": "2026-09-06T03:03:54+00:00",
-      "usage": [],
+      "updated_at": "2026-11-01T22:20:42+00:00",
+      "usage": [
+        {
+          "at": "2026-11-01T22:11:24+00:00",
+          "package": "",
+          "theme": "C:\\Users\\jorda\\Desktop\\Word Search Creator\\kdp-puzzle-engine\\themes\\Editorial Rebuilds\\classic_cars_and_road_trips_editorial_v2.json",
+          "title": "Classic Cars and Road Trips Word Search"
+        },
+        {
+          "at": "2026-11-01T22:20:42+00:00",
+          "package": "",
+          "theme": "C:\\Users\\jorda\\Desktop\\Word Search Creator\\kdp-puzzle-engine\\themes\\Editorial Rebuilds\\classic_cars_and_road_trips_editorial_v2.json",
+          "title": "Classic Cars and Road Trips Word Search"
+        }
+      ],
       "visual_family_id": "vf_ffff5d0d0d746c84"
     },
     {
@@ -1541,8 +1772,21 @@
         "rivers and rails",
         "rivers and rapids"
       ],
-      "updated_at": "2026-09-06T03:03:55+00:00",
-      "usage": [],
+      "updated_at": "2026-09-20T02:01:22+00:00",
+      "usage": [
+        {
+          "at": "2026-09-19T17:22:45+00:00",
+          "package": "",
+          "theme": "C:\\Users\\jorda\\Desktop\\Word Search Creator\\kdp-puzzle-engine\\themes\\Editorial Rebuilds\\faithful_words_signature_100_editorial_v2.json",
+          "title": "Faithful Words: Large-Print Bible Word Search for Adults"
+        },
+        {
+          "at": "2026-09-20T02:01:22+00:00",
+          "package": "",
+          "theme": "C:\\Users\\jorda\\Desktop\\Word Search Creator\\kdp-puzzle-engine\\themes\\Editorial Rebuilds\\faithful_words_signature_100_editorial_v2.json",
+          "title": "Faithful Words: Large-Print Bible Word Search for Adults"
+        }
+      ],
       "visual_family_id": "vf_0f593f0f0c07601c"
     },
     {
@@ -1607,8 +1851,21 @@
         "mount rainier",
         "volcano and meadows"
       ],
-      "updated_at": "2026-09-06T03:03:55+00:00",
-      "usage": [],
+      "updated_at": "2026-09-20T01:36:51+00:00",
+      "usage": [
+        {
+          "at": "2026-09-14T19:17:39+00:00",
+          "package": "",
+          "theme": "C:\\Users\\jorda\\Desktop\\Word Search Creator\\kdp-puzzle-engine\\themes\\Faithful Words Series\\faithful_words_large_print_signature_100.json",
+          "title": "Faithful Words: Large-Print Bible Word Search for Adults"
+        },
+        {
+          "at": "2026-09-20T01:36:51+00:00",
+          "package": "",
+          "theme": "C:\\Users\\jorda\\Desktop\\Word Search Creator\\kdp-puzzle-engine\\themes\\Editorial Rebuilds\\faithful_words_50_editorial_v2.json",
+          "title": "Faithful Words Word Search"
+        }
+      ],
       "visual_family_id": "vf_fffffe9204848929"
     },
     {
@@ -1641,8 +1898,15 @@
         "granite and waterfalls",
         "waterfall"
       ],
-      "updated_at": "2026-09-06T03:03:55+00:00",
-      "usage": [],
+      "updated_at": "2026-09-14T19:26:18+00:00",
+      "usage": [
+        {
+          "at": "2026-09-14T19:26:18+00:00",
+          "package": "",
+          "theme": "C:\\Users\\jorda\\Desktop\\Word Search Creator\\kdp-puzzle-engine\\themes\\Faithful Words Series\\faithful_words_large_print_signature_100.json",
+          "title": "Faithful Words: Large-Print Bible Word Search for Adults"
+        }
+      ],
       "visual_family_id": "vf_4d1d64430e2d4474"
     },
     {
@@ -1656,7 +1920,7 @@
         "width": 1024
       },
       "lifecycle_state": "active",
-      "name": "Pets and Animals",
+      "name": "Dogs and Cats at Home",
       "orientation": "portrait",
       "palette": "animals",
       "path": "cover_assets\\background_photos\\pets.png",
@@ -1676,11 +1940,17 @@
         "dog",
         "cat",
         "animal",
-        "bird",
-        "reptile"
+        "dogs and cats"
       ],
-      "updated_at": "2026-09-06T03:03:55+00:00",
-      "usage": [],
+      "updated_at": "2026-09-11T01:39:59+00:00",
+      "usage": [
+        {
+          "at": "2026-09-11T01:39:59+00:00",
+          "package": "C:\\Users\\jorda\\Desktop\\Word Search Creator\\kdp-puzzle-engine\\out\\dog_lovers_large_print_sudoku_20260910_183928",
+          "theme": "Dogs & Pets",
+          "title": "Dog Lovers Large Print Sudoku"
+        }
+      ],
       "visual_family_id": "vf_a73f0f630f27361c"
     },
     {
@@ -1694,7 +1964,7 @@
         "width": 1024
       },
       "lifecycle_state": "active",
-      "name": "Pets and Animals",
+      "name": "Cozy Cat at Home",
       "orientation": "portrait",
       "palette": "animals",
       "path": "cover_assets\\background_photos\\pets_cat_v3.png",
@@ -1711,19 +1981,25 @@
       "topics": [
         "pet",
         "pets",
-        "dog",
         "cat",
-        "animal",
-        "bird",
-        "reptile"
+        "cats",
+        "feline",
+        "kitten",
+        "animal"
       ],
-      "updated_at": "2026-09-06T03:03:56+00:00",
+      "updated_at": "2026-09-11T01:58:31+00:00",
       "usage": [
         {
           "at": "2026-08-27T15:40:55+00:00",
           "package": "C:\\Users\\jorda\\Desktop\\Word Search Creator\\kdp-puzzle-engine\\out\\backyard_wildlife_scramble_and_trivia_20260827_084049",
           "theme": "Pets & Animal Life",
           "title": "Backyard Wildlife Scramble and Trivia"
+        },
+        {
+          "at": "2026-09-11T01:58:31+00:00",
+          "package": "C:\\Users\\jorda\\Desktop\\Word Search Creator\\kdp-puzzle-engine\\out\\cat_lovers_large_print_sudoku_20260910_185800",
+          "theme": "Cats & Pets",
+          "title": "Cat Lovers Large Print Sudoku"
         }
       ],
       "visual_family_id": "vf_43455b1b5f8fcb7d"
@@ -1739,7 +2015,7 @@
         "width": 1024
       },
       "lifecycle_state": "active",
-      "name": "Pets and Animals",
+      "name": "Playful Puppy",
       "orientation": "portrait",
       "palette": "animals",
       "path": "cover_assets\\background_photos\\pets_puppy_v2.png",
@@ -1751,19 +2027,39 @@
         "basis": "Existing Slade Puzzles AI background library manifest",
         "provider": "ChatGPT project generation"
       },
+      "puzzle_preview_position": "right",
       "sha256": "bc47e4fd96cd8da85e57819b3c5ed01c303b29d5f966f7c3cbfb6b312b2133b8",
       "source_type": "generated_art",
       "topics": [
         "pet",
         "pets",
         "dog",
-        "cat",
-        "animal",
-        "bird",
-        "reptile"
+        "dogs",
+        "canine",
+        "puppy",
+        "animal"
       ],
-      "updated_at": "2026-09-06T03:03:56+00:00",
-      "usage": [],
+      "updated_at": "2026-09-11T02:03:43+00:00",
+      "usage": [
+        {
+          "at": "2026-09-11T01:40:31+00:00",
+          "package": "C:\\Users\\jorda\\Desktop\\Word Search Creator\\kdp-puzzle-engine\\out\\cat_lovers_large_print_sudoku_20260910_184000",
+          "theme": "Cats & Pets",
+          "title": "Cat Lovers Large Print Sudoku"
+        },
+        {
+          "at": "2026-09-11T01:54:51+00:00",
+          "package": "C:\\Users\\jorda\\Desktop\\Word Search Creator\\kdp-puzzle-engine\\out\\dog_lovers_large_print_sudoku_20260910_185419",
+          "theme": "Dogs & Pets",
+          "title": "Dog Lovers Large Print Sudoku"
+        },
+        {
+          "at": "2026-09-11T02:03:43+00:00",
+          "package": "C:\\Users\\jorda\\Desktop\\Word Search Creator\\kdp-puzzle-engine\\out\\dog_lovers_large_print_sudoku_20260910_190311",
+          "theme": "Dogs & Pets",
+          "title": "Dog Lovers Large Print Sudoku"
+        }
+      ],
       "visual_family_id": "vf_3f7b592727135f27"
     },
     {
@@ -1797,13 +2093,19 @@
         "code breaking",
         "codebreaker"
       ],
-      "updated_at": "2026-09-06T03:03:56+00:00",
+      "updated_at": "2026-11-04T07:20:08+00:00",
       "usage": [
         {
           "at": "2026-09-05T05:05:57+00:00",
           "package": "C:\\Users\\jorda\\Desktop\\Word Search Creator\\kdp-puzzle-engine\\out\\acceptance_cryptogram_collection_20260904_220538",
           "theme": "General Starter",
           "title": "Acceptance Cryptogram Collection"
+        },
+        {
+          "at": "2026-11-04T07:20:08+00:00",
+          "package": "C:\\Users\\jorda\\Desktop\\Word Search Creator\\kdp-puzzle-engine\\out\\general_starter_cryptogram_20899947_20261104_001926_97889094f2",
+          "theme": "General Starter",
+          "title": "General Starter Cryptogram \u2014 20899947"
         }
       ],
       "visual_family_id": "vf_130b7b050f6f6bb2"
@@ -1874,8 +2176,39 @@
         "code breaking",
         "codebreaker"
       ],
-      "updated_at": "2026-09-06T03:03:56+00:00",
-      "usage": [],
+      "updated_at": "2026-11-04T06:19:22+00:00",
+      "usage": [
+        {
+          "at": "2026-11-02T15:30:22+00:00",
+          "package": "C:\\Users\\jorda\\Desktop\\Word Search Creator\\kdp-puzzle-engine\\out\\general_starter_cryptogram_67ac94ec_20261102_082948",
+          "theme": "General Starter",
+          "title": "General Starter Cryptogram \u2014 67ac94ec"
+        },
+        {
+          "at": "2026-11-03T03:45:44+00:00",
+          "package": "C:\\Users\\jorda\\Desktop\\Word Search Creator\\kdp-puzzle-engine\\data\\studio_revision_candidates\\c622857b36d446f9a50d5114e5b65d7a\\general_starter_cryptogram_67ac94ec_20261102_204517",
+          "theme": "General Starter",
+          "title": "General Starter Cryptogram \u2014 67ac94ec"
+        },
+        {
+          "at": "2026-11-03T04:45:00+00:00",
+          "package": "C:\\Users\\jorda\\Desktop\\Word Search Creator\\kdp-puzzle-engine\\data\\studio_revision_candidates\\52a6dc1f2bcd42089181b5a53a31cf29\\general_starter_cryptogram_67ac94ec_20261102_214438",
+          "theme": "General Starter",
+          "title": "General Starter Cryptogram \u2014 67ac94ec"
+        },
+        {
+          "at": "2026-11-04T05:19:46+00:00",
+          "package": "C:\\Users\\jorda\\Desktop\\Word Search Creator\\kdp-puzzle-engine\\data\\studio_revision_candidates\\bc8badaf2c464cf5b1179297b13ea683\\typography_acceptance_bc8badaf_20261103_221924_06ce0c9acc",
+          "theme": "General Starter",
+          "title": "Typography Acceptance bc8badaf"
+        },
+        {
+          "at": "2026-11-04T06:19:22+00:00",
+          "package": "C:\\Users\\jorda\\Desktop\\Word Search Creator\\kdp-puzzle-engine\\data\\studio_revision_candidates\\c27f388a3f024fa98cb979f5e6c9593e\\general_starter_cryptogram_67ac94ec_20261103_231902_e6db31aea4",
+          "theme": "General Starter",
+          "title": "General Starter Cryptogram \u2014 67ac94ec"
+        }
+      ],
       "visual_family_id": "vf_1f3f3fc79f2d3b93"
     },
     {
@@ -1909,7 +2242,7 @@
         "quiz",
         "word game"
       ],
-      "updated_at": "2026-09-06T03:03:56+00:00",
+      "updated_at": "2026-09-20T01:59:13+00:00",
       "usage": [
         {
           "at": "2026-08-27T15:09:03+00:00",
@@ -1922,6 +2255,36 @@
           "package": "C:\\Users\\jorda\\Desktop\\Word Search Creator\\kdp-puzzle-engine\\out\\acceptance_variety_brain_games_final_20260905_090657",
           "theme": "General Knowledge & Curiosity",
           "title": "Acceptance Variety Brain Games Final"
+        },
+        {
+          "at": "2026-09-17T21:21:37+00:00",
+          "package": "C:\\Users\\jorda\\Desktop\\Word Search Creator\\kdp-puzzle-engine\\out\\the_everyday_curiosity_puzzle_book_20260917_142113",
+          "theme": "General Knowledge & Curiosity",
+          "title": "The Everyday Curiosity Puzzle Book"
+        },
+        {
+          "at": "2026-09-18T02:31:33+00:00",
+          "package": "C:\\Users\\jorda\\Desktop\\Word Search Creator\\kdp-puzzle-engine\\out\\the_curiosity_cabinet_20260917_193108",
+          "theme": "General Knowledge & Curiosity",
+          "title": "The Curiosity Cabinet"
+        },
+        {
+          "at": "2026-09-20T01:40:07+00:00",
+          "package": "",
+          "theme": "C:\\Users\\jorda\\Desktop\\Word Search Creator\\kdp-puzzle-engine\\themes\\Editorial Rebuilds\\faithful_words_signature_100_editorial_v2.json",
+          "title": "Faithful Words: Large-Print Bible Word Search for Adults"
+        },
+        {
+          "at": "2026-09-20T01:58:17+00:00",
+          "package": "",
+          "theme": "C:\\Users\\jorda\\Desktop\\Word Search Creator\\kdp-puzzle-engine\\themes\\Editorial Rebuilds\\faithful_words_50_editorial_v2.json",
+          "title": "Faithful Words Word Search"
+        },
+        {
+          "at": "2026-09-20T01:59:13+00:00",
+          "package": "",
+          "theme": "C:\\Users\\jorda\\Desktop\\Word Search Creator\\kdp-puzzle-engine\\themes\\Editorial Rebuilds\\road_trip_classics_editorial_v2.json",
+          "title": "Road Trip Classics Word Search"
         }
       ],
       "visual_family_id": "vf_1f0f8f4eeb0d3ce1"
@@ -1957,7 +2320,7 @@
         "quiz",
         "word game"
       ],
-      "updated_at": "2026-09-06T03:03:57+00:00",
+      "updated_at": "2026-11-03T04:42:05+00:00",
       "usage": [
         {
           "at": "2026-08-27T15:08:10+00:00",
@@ -1982,6 +2345,36 @@
           "package": "C:\\Users\\jorda\\Desktop\\Word Search Creator\\kdp-puzzle-engine\\tmp\\phase8_acceptance_mixed_20260828\\out\\phase_8_mixed_games_acceptance_20260828_163000",
           "theme": "General Knowledge & Curiosity",
           "title": "Phase 8 Mixed Games Acceptance"
+        },
+        {
+          "at": "2026-09-18T02:39:13+00:00",
+          "package": "C:\\Users\\jorda\\Desktop\\Word Search Creator\\kdp-puzzle-engine\\out\\the_curiosity_cabinet_20260917_193851",
+          "theme": "General Knowledge & Curiosity",
+          "title": "The Curiosity Cabinet"
+        },
+        {
+          "at": "2026-09-19T17:18:59+00:00",
+          "package": "",
+          "theme": "C:\\Users\\jorda\\Desktop\\Word Search Creator\\kdp-puzzle-engine\\themes\\Editorial Rebuilds\\advanced_vocabulary_challenge_editorial_v2.json",
+          "title": "Advanced Vocabulary Challenge Word Search"
+        },
+        {
+          "at": "2026-09-20T01:35:53+00:00",
+          "package": "",
+          "theme": "C:\\Users\\jorda\\Desktop\\Word Search Creator\\kdp-puzzle-engine\\themes\\Editorial Rebuilds\\advanced_vocabulary_challenge_editorial_v2.json",
+          "title": "Advanced Vocabulary Challenge Word Search"
+        },
+        {
+          "at": "2026-11-02T15:31:46+00:00",
+          "package": "C:\\Users\\jorda\\Desktop\\Word Search Creator\\kdp-puzzle-engine\\out\\general_starter_word_scramble_trivia_acaf87db_20261102_083124",
+          "theme": "General Starter",
+          "title": "General Starter Word Scramble + Trivia \u2014 acaf87db"
+        },
+        {
+          "at": "2026-11-03T04:42:05+00:00",
+          "package": "C:\\Users\\jorda\\Desktop\\Word Search Creator\\kdp-puzzle-engine\\data\\studio_revision_candidates\\5db2a12fb084411baeab1657ab9dba75\\general_starter_word_scramble_trivia_acaf87db_20261102_214145",
+          "theme": "General Starter",
+          "title": "General Starter Word Scramble + Trivia \u2014 acaf87db"
         }
       ],
       "visual_family_id": "vf_630b2b030e071d2d"
@@ -2017,7 +2410,7 @@
         "quiz",
         "word game"
       ],
-      "updated_at": "2026-09-06T03:03:57+00:00",
+      "updated_at": "2026-09-20T01:57:17+00:00",
       "usage": [
         {
           "at": "2026-09-05T05:06:18+00:00",
@@ -2030,6 +2423,54 @@
           "package": "C:\\Users\\jorda\\Desktop\\Word Search Creator\\kdp-puzzle-engine\\out\\acceptance_curiosity_scramble_final_20260905_090640",
           "theme": "General Knowledge & Curiosity",
           "title": "Acceptance Curiosity Scramble Final"
+        },
+        {
+          "at": "2026-09-08T23:42:02+00:00",
+          "package": "",
+          "theme": "C:\\Users\\jorda\\Desktop\\Word Search Creator\\kdp-puzzle-engine\\themes\\Launch Collection\\Verified Release Candidates\\advanced_vocabulary_challenge.json",
+          "title": "Advanced Vocabulary Challenge Word Search"
+        },
+        {
+          "at": "2026-09-17T21:22:55+00:00",
+          "package": "C:\\Users\\jorda\\Desktop\\Word Search Creator\\kdp-puzzle-engine\\out\\the_curiosity_cabinet_20260917_142230",
+          "theme": "General Knowledge & Curiosity",
+          "title": "The Curiosity Cabinet"
+        },
+        {
+          "at": "2026-09-18T02:43:43+00:00",
+          "package": "C:\\Users\\jorda\\Desktop\\Word Search Creator\\kdp-puzzle-engine\\out\\the_curiosity_cabinet_20260917_194318",
+          "theme": "General Knowledge & Curiosity",
+          "title": "The Curiosity Cabinet"
+        },
+        {
+          "at": "2026-09-18T13:26:51+00:00",
+          "package": "C:\\Users\\jorda\\Desktop\\Word Search Creator\\kdp-puzzle-engine\\out\\the_curiosity_cabinet_20260918_062626",
+          "theme": "General Knowledge & Curiosity",
+          "title": "The Curiosity Cabinet"
+        },
+        {
+          "at": "2026-09-18T13:47:05+00:00",
+          "package": "C:\\Users\\jorda\\Desktop\\Word Search Creator\\kdp-puzzle-engine\\out\\the_curiosity_cabinet_20260918_064640",
+          "theme": "General Knowledge & Curiosity",
+          "title": "The Curiosity Cabinet"
+        },
+        {
+          "at": "2026-09-18T13:50:42+00:00",
+          "package": "C:\\Users\\jorda\\Desktop\\Word Search Creator\\kdp-puzzle-engine\\out\\the_curiosity_cabinet_20260918_065017",
+          "theme": "General Knowledge & Curiosity",
+          "title": "The Curiosity Cabinet"
+        },
+        {
+          "at": "2026-09-18T13:54:19+00:00",
+          "package": "C:\\Users\\jorda\\Desktop\\Word Search Creator\\kdp-puzzle-engine\\out\\the_curiosity_cabinet_20260918_065354",
+          "theme": "General Knowledge & Curiosity",
+          "title": "The Curiosity Cabinet"
+        },
+        {
+          "at": "2026-09-20T01:57:17+00:00",
+          "package": "",
+          "theme": "C:\\Users\\jorda\\Desktop\\Word Search Creator\\kdp-puzzle-engine\\themes\\Editorial Rebuilds\\advanced_vocabulary_challenge_editorial_v2.json",
+          "title": "Advanced Vocabulary Challenge Word Search"
         }
       ],
       "visual_family_id": "vf_07235f210717cf0a"
@@ -2183,7 +2624,7 @@
         "camper",
         "automotive"
       ],
-      "updated_at": "2026-09-06T03:03:57+00:00",
+      "updated_at": "2026-11-01T23:14:50+00:00",
       "usage": [
         {
           "at": "2026-08-27T15:17:58+00:00",
@@ -2202,6 +2643,24 @@
           "package": "C:\\Users\\jorda\\Desktop\\Word Search Creator\\kdp-puzzle-engine\\out\\motor_mile_brain_games_20260827_084156",
           "theme": "Cars & Adventure",
           "title": "Motor Mile Brain Games"
+        },
+        {
+          "at": "2026-09-20T02:15:28+00:00",
+          "package": "",
+          "theme": "C:\\Users\\jorda\\Desktop\\Word Search Creator\\kdp-puzzle-engine\\themes\\Editorial Rebuilds\\road_trip_classics_editorial_v2.json",
+          "title": "Road Trip Classics Word Search"
+        },
+        {
+          "at": "2026-11-01T22:33:40+00:00",
+          "package": "",
+          "theme": "C:\\Users\\jorda\\Desktop\\Word Search Creator\\kdp-puzzle-engine\\themes\\Editorial Rebuilds\\classic_cars_and_road_trips_editorial_v2.json",
+          "title": "Classic Cars and Road Trips Word Search"
+        },
+        {
+          "at": "2026-11-01T23:14:50+00:00",
+          "package": "",
+          "theme": "C:\\Users\\jorda\\Desktop\\Word Search Creator\\kdp-puzzle-engine\\themes\\Editorial Rebuilds\\classic_cars_and_road_trips_editorial_v2.json",
+          "title": "Classic Cars and Road Trips Word Search"
         }
       ],
       "visual_family_id": "vf_f8f8f81e2d2cbe1f"
@@ -2240,8 +2699,45 @@
         "elementary vocabulary",
         "grade vocabulary"
       ],
-      "updated_at": "2026-09-06T03:03:58+00:00",
-      "usage": [],
+      "updated_at": "2026-09-20T20:12:58+00:00",
+      "usage": [
+        {
+          "at": "2026-09-08T23:41:11+00:00",
+          "package": "",
+          "theme": "C:\\Users\\jorda\\Desktop\\Word Search Creator\\kdp-puzzle-engine\\themes\\Vocabulary Ladder Collection\\vocabulary_adventures_grade_school.json",
+          "title": "Vocabulary Adventures: Grade School"
+        },
+        {
+          "at": "2026-09-08T23:44:13+00:00",
+          "package": "",
+          "theme": "C:\\Users\\jorda\\Desktop\\Word Search Creator\\kdp-puzzle-engine\\themes\\Trending 50 Puzzle Releases\\faithful_words_20260828_203806.json",
+          "title": "Faithful Words Word Search"
+        },
+        {
+          "at": "2026-09-20T02:34:29+00:00",
+          "package": "",
+          "theme": "C:\\Users\\jorda\\Desktop\\Word Search Creator\\kdp-puzzle-engine\\themes\\Editorial Rebuilds\\vocabulary_ladder_grade_5_editorial_v2.json",
+          "title": "Vocabulary Ladder: Grade 5 Word Quest"
+        },
+        {
+          "at": "2026-09-20T02:45:58+00:00",
+          "package": "",
+          "theme": "C:\\Users\\jorda\\Desktop\\Word Search Creator\\kdp-puzzle-engine\\themes\\Editorial Rebuilds\\vocabulary_ladder_grade_5_editorial_v2.json",
+          "title": "Vocabulary Ladder: Grade 5 Word Quest"
+        },
+        {
+          "at": "2026-09-20T02:52:30+00:00",
+          "package": "",
+          "theme": "C:\\Users\\jorda\\Desktop\\Word Search Creator\\kdp-puzzle-engine\\themes\\Editorial Rebuilds\\vocabulary_ladder_grade_5_editorial_v2.json",
+          "title": "Vocabulary Ladder: Grade 5 Word Quest"
+        },
+        {
+          "at": "2026-09-20T20:12:58+00:00",
+          "package": "",
+          "theme": "C:\\Users\\jorda\\Desktop\\Word Search Creator\\kdp-puzzle-engine\\themes\\Editorial Rebuilds\\vocabulary_ladder_grade_5_editorial_v2.json",
+          "title": "Vocabulary Ladder: Grade 5 Word Quest"
+        }
+      ],
       "visual_family_id": "vf_dff99da9c899b3c3"
     },
     {
@@ -2278,8 +2774,39 @@
         "vocabulary mastery",
         "high school vocabulary"
       ],
-      "updated_at": "2026-09-06T03:03:58+00:00",
-      "usage": [],
+      "updated_at": "2026-09-20T20:12:09+00:00",
+      "usage": [
+        {
+          "at": "2026-09-08T23:49:47+00:00",
+          "package": "C:\\Users\\jorda\\Desktop\\Word Search Creator\\kdp-puzzle-engine\\out\\study_break_brain_games_collection_20260908_164920",
+          "theme": "School & Vocabulary",
+          "title": "Study Break Brain Games Collection"
+        },
+        {
+          "at": "2026-09-20T02:29:33+00:00",
+          "package": "",
+          "theme": "C:\\Users\\jorda\\Desktop\\Word Search Creator\\kdp-puzzle-engine\\themes\\Editorial Rebuilds\\advanced_vocabulary_challenge_editorial_v2.json",
+          "title": "Advanced Vocabulary Challenge Word Search"
+        },
+        {
+          "at": "2026-09-20T02:45:09+00:00",
+          "package": "",
+          "theme": "C:\\Users\\jorda\\Desktop\\Word Search Creator\\kdp-puzzle-engine\\themes\\Editorial Rebuilds\\advanced_vocabulary_challenge_editorial_v2.json",
+          "title": "Advanced Vocabulary Challenge Word Search"
+        },
+        {
+          "at": "2026-09-20T02:51:41+00:00",
+          "package": "",
+          "theme": "C:\\Users\\jorda\\Desktop\\Word Search Creator\\kdp-puzzle-engine\\themes\\Editorial Rebuilds\\advanced_vocabulary_challenge_editorial_v2.json",
+          "title": "Advanced Vocabulary Challenge Word Search"
+        },
+        {
+          "at": "2026-09-20T20:12:09+00:00",
+          "package": "",
+          "theme": "C:\\Users\\jorda\\Desktop\\Word Search Creator\\kdp-puzzle-engine\\themes\\Editorial Rebuilds\\advanced_vocabulary_challenge_editorial_v2.json",
+          "title": "Advanced Vocabulary Challenge Word Search"
+        }
+      ],
       "visual_family_id": "vf_0f0f4f473d6d2e69"
     },
     {
@@ -2315,7 +2842,7 @@
         "word wise",
         "middle vocabulary"
       ],
-      "updated_at": "2026-09-06T03:03:58+00:00",
+      "updated_at": "2026-09-20T02:02:17+00:00",
       "usage": [
         {
           "at": "2026-08-27T15:14:26+00:00",
@@ -2334,6 +2861,42 @@
           "package": "C:\\Users\\jorda\\Desktop\\Word Search Creator\\kdp-puzzle-engine\\out\\study_break_brain_games_collection_20260827_160340",
           "theme": "School & Vocabulary",
           "title": "Study Break Brain Games Collection"
+        },
+        {
+          "at": "2026-09-14T19:19:11+00:00",
+          "package": "",
+          "theme": "C:\\Users\\jorda\\Desktop\\Word Search Creator\\kdp-puzzle-engine\\themes\\Vocabulary Ladder Collection\\Grades 5 to 12\\vocabulary_ladder_grade_5.json",
+          "title": "Vocabulary Ladder: Grade 5 Word Quest"
+        },
+        {
+          "at": "2026-09-14T19:27:33+00:00",
+          "package": "",
+          "theme": "C:\\Users\\jorda\\Desktop\\Word Search Creator\\kdp-puzzle-engine\\themes\\Vocabulary Ladder Collection\\Grades 5 to 12\\vocabulary_ladder_grade_5.json",
+          "title": "Vocabulary Ladder: Grade 5 Word Quest"
+        },
+        {
+          "at": "2026-09-19T01:46:57+00:00",
+          "package": "C:\\Users\\jorda\\Desktop\\Word Search Creator\\kdp-puzzle-engine\\out\\study_break_brain_games_collection_20260918_184632",
+          "theme": "School & Vocabulary",
+          "title": "Study Break Brain Games Collection"
+        },
+        {
+          "at": "2026-09-19T17:23:34+00:00",
+          "package": "",
+          "theme": "C:\\Users\\jorda\\Desktop\\Word Search Creator\\kdp-puzzle-engine\\themes\\Editorial Rebuilds\\vocabulary_ladder_grade_5_editorial_v2.json",
+          "title": "Vocabulary Ladder: Grade 5 Word Quest"
+        },
+        {
+          "at": "2026-09-20T01:41:02+00:00",
+          "package": "",
+          "theme": "C:\\Users\\jorda\\Desktop\\Word Search Creator\\kdp-puzzle-engine\\themes\\Editorial Rebuilds\\vocabulary_ladder_grade_5_editorial_v2.json",
+          "title": "Vocabulary Ladder: Grade 5 Word Quest"
+        },
+        {
+          "at": "2026-09-20T02:02:17+00:00",
+          "package": "",
+          "theme": "C:\\Users\\jorda\\Desktop\\Word Search Creator\\kdp-puzzle-engine\\themes\\Editorial Rebuilds\\vocabulary_ladder_grade_5_editorial_v2.json",
+          "title": "Vocabulary Ladder: Grade 5 Word Quest"
         }
       ],
       "visual_family_id": "vf_0f8fc0d2589e66ff"
@@ -2372,7 +2935,7 @@
         "galaxy",
         "rocket"
       ],
-      "updated_at": "2026-09-06T03:03:58+00:00",
+      "updated_at": "2026-11-04T00:50:31+00:00",
       "usage": [
         {
           "at": "2026-08-27T15:11:58+00:00",
@@ -2397,6 +2960,30 @@
           "package": "C:\\Users\\jorda\\Desktop\\Word Search Creator\\kdp-puzzle-engine\\tmp\\phase8_acceptance_20260828\\out\\phase_8_cryptogram_acceptance_20260828_162821",
           "theme": "Space & Astronomy",
           "title": "Phase 8 Cryptogram Acceptance"
+        },
+        {
+          "at": "2026-09-19T01:44:01+00:00",
+          "package": "C:\\Users\\jorda\\Desktop\\Word Search Creator\\kdp-puzzle-engine\\out\\celestial_cipher_challenge_20260918_184336",
+          "theme": "Space & Astronomy",
+          "title": "Celestial Cipher Challenge"
+        },
+        {
+          "at": "2026-11-01T22:02:28+00:00",
+          "package": "C:\\Users\\jorda\\Desktop\\Word Search Creator\\kdp-puzzle-engine\\out\\release_candidates\\system_20261101_v1\\quiet_orbit_sudoku_20261101_150150",
+          "theme": "Space & Astronomy",
+          "title": "Quiet Orbit Sudoku"
+        },
+        {
+          "at": "2026-11-02T14:05:18+00:00",
+          "package": "C:\\Users\\jorda\\Desktop\\Word Search Creator\\kdp-puzzle-engine\\out\\space_astronomy_sudoku_92ce4196_20261102_070454",
+          "theme": "Space & Astronomy",
+          "title": "Space & Astronomy Sudoku \u2014 92ce4196"
+        },
+        {
+          "at": "2026-11-04T00:50:31+00:00",
+          "package": "C:\\Users\\jorda\\Desktop\\Word Search Creator\\kdp-puzzle-engine\\out\\space_astronomy_sudoku_4a0c7b43_20261103_175008_4adc25cb82",
+          "theme": "Space & Astronomy",
+          "title": "Space & Astronomy Sudoku \u2014 4a0c7b43"
         }
       ],
       "visual_family_id": "vf_1f4f1f1f0f07f93b"
@@ -2435,7 +3022,7 @@
         "galaxy",
         "rocket"
       ],
-      "updated_at": "2026-09-06T03:03:58+00:00",
+      "updated_at": "2026-11-03T23:50:22+00:00",
       "usage": [
         {
           "at": "2026-08-27T15:08:05+00:00",
@@ -2454,6 +3041,54 @@
           "package": "",
           "theme": "C:\\Users\\jorda\\Desktop\\Word Search Creator\\kdp-puzzle-engine\\themes\\Trending 50 Puzzle Releases\\cosmic_discovery_20260828_203806.json",
           "title": "Cosmic Discovery Word Search"
+        },
+        {
+          "at": "2026-09-11T01:43:55+00:00",
+          "package": "C:\\Users\\jorda\\Desktop\\Word Search Creator\\kdp-puzzle-engine\\out\\space_explorer_large_print_sudoku_20260910_184323",
+          "theme": "Space & Astronomy",
+          "title": "Space Explorer Large Print Sudoku"
+        },
+        {
+          "at": "2026-11-02T14:10:16+00:00",
+          "package": "C:\\Users\\jorda\\Desktop\\Word Search Creator\\kdp-puzzle-engine\\out\\space_astronomy_sudoku_c43c1e5f_20261102_070949",
+          "theme": "Space & Astronomy",
+          "title": "Space & Astronomy Sudoku \u2014 c43c1e5f"
+        },
+        {
+          "at": "2026-11-02T14:31:11+00:00",
+          "package": "C:\\Users\\jorda\\Desktop\\Word Search Creator\\kdp-puzzle-engine\\data\\studio_revision_candidates\\7634faac3b0e4b7681b3bcb2db6db59f\\quiet_orbit_staged_revision_20261102_073045",
+          "theme": "Space & Astronomy",
+          "title": "Quiet Orbit Staged Revision"
+        },
+        {
+          "at": "2026-11-02T14:53:18+00:00",
+          "package": "C:\\Users\\jorda\\Desktop\\Word Search Creator\\kdp-puzzle-engine\\data\\studio_revision_candidates\\2aec8cd231f8466e9e80c8ee61f120d9\\space_astronomy_sudoku_c43c1e5f_20261102_075247",
+          "theme": "Space & Astronomy",
+          "title": "Space & Astronomy Sudoku \u2014 c43c1e5f"
+        },
+        {
+          "at": "2026-11-02T14:55:13+00:00",
+          "package": "C:\\Users\\jorda\\Desktop\\Word Search Creator\\kdp-puzzle-engine\\data\\studio_revision_candidates\\cb816e974b8947b398e28e8134f3c8a0\\space_astronomy_sudoku_c43c1e5f_20261102_075438",
+          "theme": "Space & Astronomy",
+          "title": "Space & Astronomy Sudoku \u2014 c43c1e5f"
+        },
+        {
+          "at": "2026-11-02T15:35:24+00:00",
+          "package": "C:\\Users\\jorda\\Desktop\\Word Search Creator\\kdp-puzzle-engine\\data\\studio_revision_candidates\\261004915ec4423a9427c6b336ba7a78\\quiet_orbit_chat_adoption_audit_20261102_083454",
+          "theme": "Space & Astronomy",
+          "title": "Quiet Orbit Chat Adoption Audit"
+        },
+        {
+          "at": "2026-11-03T22:50:43+00:00",
+          "package": "C:\\Users\\jorda\\Desktop\\Word Search Creator\\kdp-puzzle-engine\\data\\studio_revision_candidates\\e80640c5fc6e4d3ebc9d9616d89a26d1\\typography_acceptance_e80640c5_20261103_155019_ad71e2be6e",
+          "theme": "Space & Astronomy",
+          "title": "Typography Acceptance e80640c5"
+        },
+        {
+          "at": "2026-11-03T23:50:22+00:00",
+          "package": "C:\\Users\\jorda\\Desktop\\Word Search Creator\\kdp-puzzle-engine\\data\\studio_revision_candidates\\7e66c1bfe23b4fbea2dc1e713e717532\\quiet_orbit_chat_adoption_audit_20261103_164958_bfbfb5b637",
+          "theme": "Space & Astronomy",
+          "title": "Quiet Orbit Chat Adoption Audit"
         }
       ],
       "visual_family_id": "vf_21005064d1d94903"
@@ -2492,7 +3127,7 @@
         "galaxy",
         "rocket"
       ],
-      "updated_at": "2026-09-06T03:03:58+00:00",
+      "updated_at": "2026-11-02T14:02:05+00:00",
       "usage": [
         {
           "at": "2026-08-27T15:12:14+00:00",
@@ -2505,6 +3140,36 @@
           "package": "C:\\Users\\jorda\\Desktop\\Word Search Creator\\kdp-puzzle-engine\\out\\celestial_cipher_challenge_20260827_160235",
           "theme": "Space & Astronomy",
           "title": "Celestial Cipher Challenge"
+        },
+        {
+          "at": "2026-09-08T23:46:46+00:00",
+          "package": "C:\\Users\\jorda\\Desktop\\Word Search Creator\\kdp-puzzle-engine\\out\\stargazer_symbols_sudoku_20260908_164619",
+          "theme": "Space & Astronomy",
+          "title": "Stargazer Symbols Sudoku"
+        },
+        {
+          "at": "2026-09-08T23:47:39+00:00",
+          "package": "C:\\Users\\jorda\\Desktop\\Word Search Creator\\kdp-puzzle-engine\\out\\celestial_cipher_challenge_20260908_164713",
+          "theme": "Space & Astronomy",
+          "title": "Celestial Cipher Challenge"
+        },
+        {
+          "at": "2026-11-01T22:21:20+00:00",
+          "package": "C:\\Users\\jorda\\Desktop\\Word Search Creator\\kdp-puzzle-engine\\out\\release_candidates\\system_20261101_v1\\quiet_orbit_sudoku_20261101_152049",
+          "theme": "Space & Astronomy",
+          "title": "Quiet Orbit Sudoku"
+        },
+        {
+          "at": "2026-11-01T23:15:53+00:00",
+          "package": "C:\\Users\\jorda\\Desktop\\Word Search Creator\\kdp-puzzle-engine\\out\\release_candidates\\system_20261101_print_quality_v2\\quiet_orbit_sudoku_20261101_161510",
+          "theme": "Space & Astronomy",
+          "title": "Quiet Orbit Sudoku"
+        },
+        {
+          "at": "2026-11-02T14:02:05+00:00",
+          "package": "C:\\Users\\jorda\\Desktop\\Word Search Creator\\kdp-puzzle-engine\\out\\space_astronomy_sudoku_46e13cc2_20261102_070140",
+          "theme": "Space & Astronomy",
+          "title": "Space & Astronomy Sudoku \u2014 46e13cc2"
         }
       ],
       "visual_family_id": "vf_0000000048080853"
@@ -2654,8 +3319,21 @@
         "logic puzzle",
         "brain games"
       ],
-      "updated_at": "2026-09-06T03:03:59+00:00",
-      "usage": [],
+      "updated_at": "2026-09-20T22:33:22+00:00",
+      "usage": [
+        {
+          "at": "2026-09-08T23:50:18+00:00",
+          "package": "C:\\Users\\jorda\\Desktop\\Word Search Creator\\kdp-puzzle-engine\\out\\large_print_sudoku_20260908_164947",
+          "theme": "General Starter",
+          "title": "Large Print Sudoku"
+        },
+        {
+          "at": "2026-09-20T22:33:22+00:00",
+          "package": "C:\\Users\\jorda\\Desktop\\Word Search Creator\\kdp-puzzle-engine\\out\\large_print_sudoku_20260920_153246",
+          "theme": "General Starter",
+          "title": "Large Print Sudoku"
+        }
+      ],
       "visual_family_id": "vf_cd86446971b1cbd9"
     },
     {
@@ -2689,8 +3367,15 @@
         "logic puzzle",
         "brain games"
       ],
-      "updated_at": "2026-09-06T03:03:59+00:00",
-      "usage": [],
+      "updated_at": "2026-10-21T12:58:07+00:00",
+      "usage": [
+        {
+          "at": "2026-10-21T12:58:07+00:00",
+          "package": "C:\\Users\\jorda\\Documents\\Codex\\2026-10-21\\files-mentioned-by-the-user-family\\outputs\\hp-verification\\books\\hp_family_sudoku_verification_20261021_055714",
+          "theme": "General Starter",
+          "title": "HP Family Sudoku Verification"
+        }
+      ],
       "visual_family_id": "vf_3f3d1b1b0e4be7eb"
     },
     {
@@ -2724,8 +3409,27 @@
         "logic puzzle",
         "brain games"
       ],
-      "updated_at": "2026-09-06T03:04:00+00:00",
-      "usage": [],
+      "updated_at": "2026-11-03T04:42:43+00:00",
+      "usage": [
+        {
+          "at": "2026-10-21T14:09:48+00:00",
+          "package": "C:\\Users\\jorda\\Documents\\Codex\\2026-10-21\\files-mentioned-by-the-user-family\\outputs\\hp-verification\\books\\hp_corrected_sudoku_verification_20261021_070846",
+          "theme": "General Starter",
+          "title": "HP Corrected Sudoku Verification"
+        },
+        {
+          "at": "2026-11-02T15:34:03+00:00",
+          "package": "C:\\Users\\jorda\\Desktop\\Word Search Creator\\kdp-puzzle-engine\\out\\general_starter_mixed_brain_games_95723f69_20261102_083335",
+          "theme": "General Starter",
+          "title": "General Starter Mixed Brain Games \u2014 95723f69"
+        },
+        {
+          "at": "2026-11-03T04:42:43+00:00",
+          "package": "C:\\Users\\jorda\\Desktop\\Word Search Creator\\kdp-puzzle-engine\\data\\studio_revision_candidates\\01d046f0d5a544dfb9f4cb67c4639f83\\general_starter_mixed_brain_games_95723f69_20261102_214218",
+          "theme": "General Starter",
+          "title": "General Starter Mixed Brain Games \u2014 95723f69"
+        }
+      ],
       "visual_family_id": "vf_3c1fdf3f3f3c9382"
     },
     {
@@ -2762,8 +3466,21 @@
         "geography",
         "world war"
       ],
-      "updated_at": "2026-09-06T03:04:00+00:00",
-      "usage": [],
+      "updated_at": "2026-09-11T01:44:58+00:00",
+      "usage": [
+        {
+          "at": "2026-09-08T23:48:29+00:00",
+          "package": "C:\\Users\\jorda\\Desktop\\Word Search Creator\\kdp-puzzle-engine\\out\\great_american_road_trip_scramble_and_trivia_20260908_164805",
+          "theme": "Travel & Adventure",
+          "title": "Great American Road Trip Scramble and Trivia"
+        },
+        {
+          "at": "2026-09-11T01:44:58+00:00",
+          "package": "C:\\Users\\jorda\\Desktop\\Word Search Creator\\kdp-puzzle-engine\\out\\road_trip_large_print_sudoku_20260910_184426",
+          "theme": "Travel & Adventure",
+          "title": "Road Trip Large Print Sudoku"
+        }
+      ],
       "visual_family_id": "vf_0f0f03038e1b5a7e"
     },
     {
@@ -2800,7 +3517,7 @@
         "geography",
         "world war"
       ],
-      "updated_at": "2026-09-06T03:04:00+00:00",
+      "updated_at": "2026-09-08T23:46:18+00:00",
       "usage": [
         {
           "at": "2026-08-27T15:13:08+00:00",
@@ -2819,6 +3536,12 @@
           "package": "C:\\Users\\jorda\\Desktop\\Word Search Creator\\kdp-puzzle-engine\\out\\great_american_road_trip_scramble_and_trivia_20260827_160319",
           "theme": "Travel & Adventure",
           "title": "Great American Road Trip Scramble and Trivia"
+        },
+        {
+          "at": "2026-09-08T23:46:18+00:00",
+          "package": "",
+          "theme": "C:\\Users\\jorda\\Desktop\\Word Search Creator\\kdp-puzzle-engine\\themes\\Trending 50 Puzzle Releases\\american_moments_20260828_203806.json",
+          "title": "American Moments Word Search"
         }
       ],
       "visual_family_id": "vf_000000000c123262"
@@ -2857,13 +3580,55 @@
         "geography",
         "world war"
       ],
-      "updated_at": "2026-09-06T03:04:00+00:00",
+      "updated_at": "2026-09-20T02:00:07+00:00",
       "usage": [
         {
           "at": "2026-08-27T15:40:14+00:00",
           "package": "C:\\Users\\jorda\\Desktop\\Word Search Creator\\kdp-puzzle-engine\\out\\world_traveler_cipher_challenge_20260827_084002",
           "theme": "Travel & Adventure",
           "title": "World Traveler Cipher Challenge"
+        },
+        {
+          "at": "2026-09-16T23:27:34+00:00",
+          "package": "C:\\Users\\jorda\\Desktop\\Word Search Creator\\kdp-puzzle-engine\\out\\journeys_near_and_far_scramble_and_trivia_20260916_162710",
+          "theme": "Travel & Adventure",
+          "title": "Journeys Near and Far Scramble and Trivia"
+        },
+        {
+          "at": "2026-09-16T23:32:42+00:00",
+          "package": "C:\\Users\\jorda\\Desktop\\Word Search Creator\\kdp-puzzle-engine\\out\\journeys_near_and_far_scramble_and_trivia_20260916_163217",
+          "theme": "Travel & Adventure",
+          "title": "Journeys Near and Far Scramble and Trivia"
+        },
+        {
+          "at": "2026-09-19T01:46:05+00:00",
+          "package": "C:\\Users\\jorda\\Desktop\\Word Search Creator\\kdp-puzzle-engine\\out\\journeys_near_and_far_word_scrambles_20260918_184541",
+          "theme": "Travel & Adventure",
+          "title": "Journeys Near and Far Word Scrambles"
+        },
+        {
+          "at": "2026-09-19T17:20:46+00:00",
+          "package": "",
+          "theme": "C:\\Users\\jorda\\Desktop\\Word Search Creator\\kdp-puzzle-engine\\themes\\Editorial Rebuilds\\road_trip_classics_editorial_v2.json",
+          "title": "Road Trip Classics Word Search"
+        },
+        {
+          "at": "2026-09-19T17:21:38+00:00",
+          "package": "",
+          "theme": "C:\\Users\\jorda\\Desktop\\Word Search Creator\\kdp-puzzle-engine\\themes\\Editorial Rebuilds\\american_moments_editorial_v2.json",
+          "title": "American Moments Word Search"
+        },
+        {
+          "at": "2026-09-20T01:38:54+00:00",
+          "package": "",
+          "theme": "C:\\Users\\jorda\\Desktop\\Word Search Creator\\kdp-puzzle-engine\\themes\\Editorial Rebuilds\\american_moments_editorial_v2.json",
+          "title": "American Moments Word Search"
+        },
+        {
+          "at": "2026-09-20T02:00:07+00:00",
+          "package": "",
+          "theme": "C:\\Users\\jorda\\Desktop\\Word Search Creator\\kdp-puzzle-engine\\themes\\Editorial Rebuilds\\american_moments_editorial_v2.json",
+          "title": "American Moments Word Search"
         }
       ],
       "visual_family_id": "vf_7f7f3f3fe7c383c3"
@@ -2903,13 +3668,25 @@
         "camper",
         "automotive"
       ],
-      "updated_at": "2026-09-06T03:04:00+00:00",
+      "updated_at": "2026-09-19T01:45:16+00:00",
       "usage": [
         {
           "at": "2026-08-29T03:41:10+00:00",
           "package": "",
           "theme": "C:\\Users\\jorda\\Desktop\\Word Search Creator\\kdp-puzzle-engine\\themes\\Trending 50 Puzzle Releases\\road_trip_classics_20260828_203806.json",
           "title": "Road Trip Classics Word Search"
+        },
+        {
+          "at": "2026-09-16T23:31:02+00:00",
+          "package": "C:\\Users\\jorda\\Desktop\\Word Search Creator\\kdp-puzzle-engine\\out\\journeys_near_and_far_scramble_and_trivia_20260916_163040",
+          "theme": "Travel & Adventure",
+          "title": "Journeys Near and Far Scramble and Trivia"
+        },
+        {
+          "at": "2026-09-19T01:45:16+00:00",
+          "package": "C:\\Users\\jorda\\Desktop\\Word Search Creator\\kdp-puzzle-engine\\out\\great_american_road_trip_word_scrambles_20260918_184452",
+          "theme": "Road Trips & Highways",
+          "title": "Great American Road Trip Word Scrambles"
         }
       ],
       "visual_family_id": "vf_000000008096b77c"
@@ -2949,13 +3726,49 @@
         "camper",
         "automotive"
       ],
-      "updated_at": "2026-09-06T03:04:00+00:00",
+      "updated_at": "2026-09-20T02:31:20+00:00",
       "usage": [
         {
           "at": "2026-08-27T23:10:10+00:00",
           "package": "",
           "theme": "C:\\Users\\jorda\\Desktop\\Word Search Creator\\kdp-puzzle-engine\\themes\\Launch Collection\\Verified Release Candidates\\classic_cars_road_trips.json",
           "title": "Classic Cars and Road Trips Word Search"
+        },
+        {
+          "at": "2026-09-08T23:40:08+00:00",
+          "package": "",
+          "theme": "C:\\Users\\jorda\\Desktop\\Word Search Creator\\kdp-puzzle-engine\\themes\\Launch Collection\\Verified Release Candidates\\classic_cars_road_trips.json",
+          "title": "Classic Cars and Road Trips Word Search"
+        },
+        {
+          "at": "2026-09-19T17:18:09+00:00",
+          "package": "",
+          "theme": "C:\\Users\\jorda\\Desktop\\Word Search Creator\\kdp-puzzle-engine\\themes\\Editorial Rebuilds\\classic_cars_and_road_trips_editorial_v2.json",
+          "title": "Classic Cars and Road Trips Word Search"
+        },
+        {
+          "at": "2026-09-20T01:34:57+00:00",
+          "package": "",
+          "theme": "C:\\Users\\jorda\\Desktop\\Word Search Creator\\kdp-puzzle-engine\\themes\\Editorial Rebuilds\\classic_cars_and_road_trips_editorial_v2.json",
+          "title": "Classic Cars and Road Trips Word Search"
+        },
+        {
+          "at": "2026-09-20T01:56:22+00:00",
+          "package": "",
+          "theme": "C:\\Users\\jorda\\Desktop\\Word Search Creator\\kdp-puzzle-engine\\themes\\Editorial Rebuilds\\classic_cars_and_road_trips_editorial_v2.json",
+          "title": "Classic Cars and Road Trips Word Search"
+        },
+        {
+          "at": "2026-09-20T02:28:43+00:00",
+          "package": "",
+          "theme": "C:\\Users\\jorda\\Desktop\\Word Search Creator\\kdp-puzzle-engine\\themes\\Editorial Rebuilds\\classic_cars_and_road_trips_editorial_v2.json",
+          "title": "Classic Cars and Road Trips Word Search"
+        },
+        {
+          "at": "2026-09-20T02:31:20+00:00",
+          "package": "",
+          "theme": "C:\\Users\\jorda\\Desktop\\Word Search Creator\\kdp-puzzle-engine\\themes\\Editorial Rebuilds\\road_trip_classics_editorial_v2.json",
+          "title": "Road Trip Classics Word Search"
         }
       ],
       "visual_family_id": "vf_9160100203fa605f"
@@ -3140,8 +3953,15 @@
         "holiday",
         "snow"
       ],
-      "updated_at": "2026-09-06T03:04:01+00:00",
-      "usage": [],
+      "updated_at": "2026-09-11T01:39:27+00:00",
+      "usage": [
+        {
+          "at": "2026-09-11T01:39:27+00:00",
+          "package": "C:\\Users\\jorda\\Desktop\\Word Search Creator\\kdp-puzzle-engine\\out\\christmas_calm_large_print_sudoku_20260910_183856",
+          "theme": "Christmas & Winter",
+          "title": "Christmas Calm Large Print Sudoku"
+        }
+      ],
       "visual_family_id": "vf_0f0f0f3b39bdadaf"
     },
     {
@@ -3344,6 +4164,415 @@
         }
       ],
       "visual_family_id": "vf_7e7b7fb7773f3f05"
+    },
+    {
+      "approval_revision": "2026-09-22T02:57:43+00:00",
+      "approval_state": "approved",
+      "asset_id": "bg_holiday_year_round_20260921",
+      "audience": "general",
+      "classification": "APPROVED_CHATGPT_GENERATED",
+      "created_at": "2026-09-22T00:54:25+00:00",
+      "file": "cover_assets\\generated_backgrounds\\approved\\holiday_year_round_20260921.png",
+      "focus": "center",
+      "health": {
+        "height": 1536,
+        "variance": 2455.5,
+        "width": 1024
+      },
+      "lifecycle_state": "active",
+      "name": "Year-Round Holidays (Review Candidate)",
+      "orientation": "portrait",
+      "palette": "celebration",
+      "path": "cover_assets\\generated_backgrounds\\approved\\holiday_year_round_20260921.png",
+      "perceptual_hash": "4f8f9f7f3f2b860e",
+      "production_approved": true,
+      "project_generated": true,
+      "provenance": {
+        "generated_at": "2026-09-22T00:54:25+00:00",
+        "model": "image_gen",
+        "prompt": "Year-round holiday photo-style background with small seasonal accents around an open center; no text, people, logos, or religious symbols.",
+        "provider": "ChatGPT project generation"
+      },
+      "sha256": "8751123a576fa0f2b106d22922dc51ab9002c55191c8f1cbfd09a62fe125c70f",
+      "source_type": "generated_art",
+      "topics": [
+        "holiday",
+        "celebrations",
+        "new year",
+        "valentine",
+        "easter",
+        "independence day",
+        "halloween",
+        "thanksgiving",
+        "hanukkah",
+        "christmas"
+      ],
+      "updated_at": "2026-09-22T02:57:43+00:00",
+      "usage": [],
+      "visual_family_id": "vf_4f8f9f7f3f2b860e"
+    },
+    {
+      "approval_revision": "2026-10-10T16:18:48+00:00",
+      "approval_state": "approved",
+      "asset_id": "chatgpt_growing_up_50s_60s_cover_20261010",
+      "audience": "adult",
+      "classification": "APPROVED_CHATGPT_GENERATED",
+      "created_at": "2026-10-08T00:00:00+00:00",
+      "file": "cover_assets\\generated_backgrounds\\approved\\growing_up_50s_60s_approved_concept.png",
+      "focus": "center",
+      "health": {
+        "height": 1536,
+        "variance": 2099.1,
+        "width": 1024
+      },
+      "human_review_evidence": {
+        "approved_date": "2026-10-10",
+        "basis": "User explicitly approved the selected cover concepts and confirmed image/layout/text sizing.",
+        "decision": "approved",
+        "reviewer": "User"
+      },
+      "lifecycle_state": "active",
+      "name": "Growing Up in the 50s and 60s approved cover illustration",
+      "orientation": "portrait",
+      "palette": "nostalgia",
+      "path": "cover_assets\\generated_backgrounds\\approved\\growing_up_50s_60s_approved_concept.png",
+      "perceptual_hash": "a747ce373a307c0c",
+      "production_approved": true,
+      "project_generated": true,
+      "provenance": {
+        "provider": "ChatGPT project generation",
+        "source_note": "AI-generated illustration retained in the project cover library; exact prior-session prompt/model metadata was not preserved."
+      },
+      "sha256": "0d123bc07fa26cedcca6cae41c23c668f9942091c8b20797820675374fbfa0df",
+      "source_type": "generated_art",
+      "topics": [
+        "adult",
+        "nostalgia",
+        "word search",
+        "American childhood",
+        "1950s",
+        "1960s",
+        "school days",
+        "neighborhood life",
+        "family traditions"
+      ],
+      "updated_at": "2026-10-10T16:18:48+00:00",
+      "usage": [],
+      "visual_family_id": "vf_a747ce373a307c0c"
+    },
+    {
+      "approval_revision": "2026-10-10T16:18:53+00:00",
+      "approval_state": "approved",
+      "asset_id": "chatgpt_kitchen_table_memories_cover_20261010",
+      "audience": "adult",
+      "classification": "APPROVED_CHATGPT_GENERATED",
+      "created_at": "2026-10-08T00:00:00+00:00",
+      "file": "cover_assets\\generated_backgrounds\\approved\\kitchen_table_memories_approved_concept.png",
+      "focus": "center",
+      "health": {
+        "height": 1536,
+        "variance": 2578.26,
+        "width": 1024
+      },
+      "human_review_evidence": {
+        "approved_date": "2026-10-10",
+        "basis": "User explicitly approved the selected cover concepts and confirmed image/layout/text sizing.",
+        "decision": "approved",
+        "reviewer": "User"
+      },
+      "lifecycle_state": "active",
+      "name": "Kitchen Table Memories approved cover illustration",
+      "orientation": "portrait",
+      "palette": "food",
+      "path": "cover_assets\\generated_backgrounds\\approved\\kitchen_table_memories_approved_concept.png",
+      "perceptual_hash": "7b397968e74d1bf8",
+      "production_approved": true,
+      "project_generated": true,
+      "provenance": {
+        "provider": "ChatGPT project generation",
+        "source_note": "AI-generated illustration retained in the project cover library; exact prior-session prompt/model metadata was not preserved."
+      },
+      "sha256": "fe9432e3970b5c603d629f402f7e70cb32dca33a1889403217197fa4ffb0a280",
+      "source_type": "generated_art",
+      "topics": [
+        "adult",
+        "home",
+        "word search",
+        "home cooking",
+        "gardens",
+        "handwork",
+        "family gatherings",
+        "kitchen table"
+      ],
+      "updated_at": "2026-10-10T16:18:53+00:00",
+      "usage": [],
+      "visual_family_id": "vf_7b397968e74d1bf8"
+    },
+    {
+      "approval_revision": "2026-10-10T16:18:58+00:00",
+      "approval_state": "approved",
+      "asset_id": "chatgpt_summer_days_remembered_cover_20261010",
+      "audience": "adult",
+      "classification": "APPROVED_CHATGPT_GENERATED",
+      "created_at": "2026-10-08T00:00:00+00:00",
+      "file": "cover_assets\\generated_backgrounds\\approved\\summer_days_remembered_approved_concept.png",
+      "focus": "center",
+      "health": {
+        "height": 1536,
+        "variance": 2863.06,
+        "width": 1024
+      },
+      "human_review_evidence": {
+        "approved_date": "2026-10-10",
+        "basis": "User explicitly approved the selected cover concepts and confirmed image/layout/text sizing.",
+        "decision": "approved",
+        "reviewer": "User"
+      },
+      "lifecycle_state": "active",
+      "name": "Summer Days Remembered approved cover illustration",
+      "orientation": "portrait",
+      "palette": "coastal-blue",
+      "path": "cover_assets\\generated_backgrounds\\approved\\summer_days_remembered_approved_concept.png",
+      "perceptual_hash": "0006c3461a263311",
+      "production_approved": true,
+      "project_generated": true,
+      "provenance": {
+        "provider": "ChatGPT project generation",
+        "source_note": "AI-generated illustration retained in the project cover library; exact prior-session prompt/model metadata was not preserved."
+      },
+      "sha256": "74cec0a69e665623a22a0fed734abd42e3c30c540be57a5700e1bf3b6734eba4",
+      "source_type": "generated_art",
+      "topics": [
+        "adult",
+        "summer",
+        "word search",
+        "summer outings",
+        "recreation",
+        "travel",
+        "picnics",
+        "camping",
+        "fishing",
+        "family vacations"
+      ],
+      "updated_at": "2026-11-02T14:57:21+00:00",
+      "usage": [
+        {
+          "at": "2026-11-01T22:08:09+00:00",
+          "package": "C:\\Users\\jorda\\Desktop\\Word Search Creator\\kdp-puzzle-engine\\out\\release_candidates\\system_20261101_v1\\roadside_word_discoveries_20261101_150737",
+          "theme": "Travel & Adventure",
+          "title": "Roadside Word Discoveries"
+        },
+        {
+          "at": "2026-11-01T22:22:16+00:00",
+          "package": "C:\\Users\\jorda\\Desktop\\Word Search Creator\\kdp-puzzle-engine\\out\\release_candidates\\system_20261101_v1\\roadside_word_discoveries_20261101_152154",
+          "theme": "Travel & Adventure",
+          "title": "Roadside Word Discoveries"
+        },
+        {
+          "at": "2026-11-01T23:16:58+00:00",
+          "package": "C:\\Users\\jorda\\Desktop\\Word Search Creator\\kdp-puzzle-engine\\out\\release_candidates\\system_20261101_print_quality_v2\\roadside_word_discoveries_20261101_161632",
+          "theme": "Travel & Adventure",
+          "title": "Roadside Word Discoveries"
+        },
+        {
+          "at": "2026-11-02T14:57:21+00:00",
+          "package": "C:\\Users\\jorda\\Desktop\\Word Search Creator\\kdp-puzzle-engine\\data\\studio_revision_candidates\\21786750033942c888c5daf27ac47f6c\\roadside_word_discoveries_20261102_075700",
+          "theme": "Travel & Adventure",
+          "title": "Roadside Word Discoveries"
+        }
+      ],
+      "visual_family_id": "vf_0006c3461a263311"
+    },
+    {
+      "approval_state": "awaiting_review",
+      "asset_id": "bg_0216445a014be166",
+      "audience": "general",
+      "classification": "GENERATED_AWAITING_REVIEW",
+      "created_at": "2026-10-13T22:52:22+00:00",
+      "file": "cover_assets\\generated_backgrounds\\candidates\\0216445a014be166.png",
+      "focus": "center",
+      "health": {
+        "height": 1024,
+        "variance": 2185.98,
+        "width": 1024
+      },
+      "lifecycle_state": "active",
+      "name": "Generated Halloween, Autumn & Harvest background",
+      "orientation": "landscape",
+      "palette": "autumn-harvest",
+      "path": "cover_assets\\generated_backgrounds\\candidates\\0216445a014be166.png",
+      "perceptual_hash": "0909170f176f0d4e",
+      "production_approved": false,
+      "project_generated": true,
+      "provenance": {
+        "generated_at": "2026-10-13T22:52:22+00:00",
+        "model": "@cf/black-forest-labs/flux-1-schnell",
+        "prompt": "Original cinematic editorial illustration for a SladePuzzleCo puzzle-book cover about Halloween, Autumn & Harvest. Palette direction: autumn-harvest. welcoming for a general puzzle-book audience. Central open space for title and badge. Strong but uncluttered subject matter directly related to the topic; portrait-friendly composition, print-ready visual hierarchy, no words, no letters, no numbers, no logos, no watermarks, no book covers, no puzzle grids, no brand marks, no copyrighted characters.",
+        "provider": "Cloudflare Workers AI"
+      },
+      "sha256": "9bf0d89a1c4ec6a67435889ddf34c425bf6e7629cc38f250f5c7ff2e71658389",
+      "source_type": "generated_art",
+      "topics": [
+        "autumn",
+        "halloween",
+        "harvest"
+      ],
+      "updated_at": "2026-10-13T22:52:22+00:00",
+      "usage": [],
+      "visual_family_id": "vf_0909170f176f0d4e"
+    },
+    {
+      "approval_state": "awaiting_review",
+      "asset_id": "bg_ed541e20ad368bb8",
+      "audience": "general",
+      "classification": "GENERATED_AWAITING_REVIEW",
+      "created_at": "2026-10-13T22:52:46+00:00",
+      "file": "cover_assets\\generated_backgrounds\\candidates\\ed541e20ad368bb8.png",
+      "focus": "center",
+      "health": {
+        "height": 1024,
+        "variance": 2509.44,
+        "width": 1024
+      },
+      "lifecycle_state": "active",
+      "name": "Generated Halloween, Autumn & Harvest background",
+      "orientation": "landscape",
+      "palette": "autumn-harvest",
+      "path": "cover_assets\\generated_backgrounds\\candidates\\ed541e20ad368bb8.png",
+      "perceptual_hash": "0909416b33163abb",
+      "production_approved": false,
+      "project_generated": true,
+      "provenance": {
+        "generated_at": "2026-10-13T22:52:46+00:00",
+        "model": "@cf/black-forest-labs/flux-1-schnell",
+        "prompt": "Original cinematic editorial illustration for a SladePuzzleCo puzzle-book cover about Halloween, Autumn & Harvest. Palette direction: autumn-harvest. welcoming for a general puzzle-book audience. Central open space for title and badge. Strong but uncluttered subject matter directly related to the topic; portrait-friendly composition, print-ready visual hierarchy, no words, no letters, no numbers, no logos, no watermarks, no book covers, no puzzle grids, no brand marks, no copyrighted characters.",
+        "provider": "Cloudflare Workers AI"
+      },
+      "sha256": "95beed8be6f86ee84c7f5551ab047c46217aa8f18704eb6cb75a941da74d487b",
+      "source_type": "generated_art",
+      "topics": [
+        "autumn",
+        "halloween",
+        "harvest"
+      ],
+      "updated_at": "2026-10-13T22:52:46+00:00",
+      "usage": [],
+      "visual_family_id": "vf_0909416b33163abb"
+    },
+    {
+      "approval_state": "awaiting_review",
+      "asset_id": "bg_f0bb159a923e5cc7",
+      "audience": "general",
+      "classification": "GENERATED_AWAITING_REVIEW",
+      "created_at": "2026-10-13T22:52:55+00:00",
+      "file": "cover_assets\\generated_backgrounds\\candidates\\f0bb159a923e5cc7.png",
+      "focus": "center",
+      "health": {
+        "height": 1024,
+        "variance": 4371.45,
+        "width": 1024
+      },
+      "lifecycle_state": "active",
+      "name": "Generated Halloween, Autumn & Harvest background",
+      "orientation": "landscape",
+      "palette": "autumn-harvest",
+      "path": "cover_assets\\generated_backgrounds\\candidates\\f0bb159a923e5cc7.png",
+      "perceptual_hash": "a92707332f0f534d",
+      "production_approved": false,
+      "project_generated": true,
+      "provenance": {
+        "generated_at": "2026-10-13T22:52:55+00:00",
+        "model": "@cf/black-forest-labs/flux-1-schnell",
+        "prompt": "Original polished dimensional paper-cut scene for a SladePuzzleCo puzzle-book cover about Halloween, Autumn & Harvest. Palette direction: autumn-harvest. welcoming for a general puzzle-book audience. Central open space for title and badge. Strong but uncluttered subject matter directly related to the topic; portrait-friendly composition, print-ready visual hierarchy, no words, no letters, no numbers, no logos, no watermarks, no book covers, no puzzle grids, no brand marks, no copyrighted characters.",
+        "provider": "Cloudflare Workers AI"
+      },
+      "sha256": "8f7b537a1a6bdbd25e9e4a7d0a1b5dec74394d0892d2d3598d4331795427ec53",
+      "source_type": "generated_art",
+      "topics": [
+        "autumn",
+        "halloween",
+        "harvest"
+      ],
+      "updated_at": "2026-10-13T22:52:55+00:00",
+      "usage": [],
+      "visual_family_id": "vf_a92707332f0f534d"
+    },
+    {
+      "approval_revision": "2026-11-02T14:03:15.769649+00:00",
+      "approval_state": "approved",
+      "asset_id": "after_hours_luxury_finished_front_v4",
+      "asset_role": "finished_front_cover",
+      "audience": "adult",
+      "classification": "APPROVED_PROJECT_GENERATED",
+      "created_at": "2026-11-02T14:03:15.769649+00:00",
+      "height": 3300,
+      "lifecycle_state": "active",
+      "name": "After Hours owner-approved dark luxury front",
+      "path": "cover_assets/project_generated/after_hours_luxury_front_v4.png",
+      "perceptual_hash": "cc9633868e8e8ccc",
+      "production_approved": true,
+      "project_generated": true,
+      "provenance": {
+        "approval_scope": "Exact After Hours cover asset only; content, rights, KDP readiness and publication remain separate pending gates",
+        "method": "Original local vector typography and ornament; metallic-color simulation",
+        "owner_design_approval": "Approve this dark-luxury design",
+        "owner_production_asset_authorization": "Authorize this cover asset for production use",
+        "provider": "SladePuzzleCo project generation",
+        "source_vector_sha256": "a1c7f887955e7f488473e458188068305bdc8c027e7f9e6234a8d8dee53c4217"
+      },
+      "retired_from_new_production": true,
+      "sha256": "0cd24f4ce9f35283748cb348b095b7cc8a4394298c7963c7b92891c545c18b50",
+      "source_type": "generated_art",
+      "superseded_by": "after_hours_luxury_finished_front_v5",
+      "topics": [
+        "afterhours",
+        "adult",
+        "naughty",
+        "cocktails",
+        "cannabis"
+      ],
+      "updated_at": "2026-11-02T14:03:15.769649+00:00",
+      "usage": [],
+      "visual_family_id": "vf_cc9633868e8e8ccc",
+      "width": 2550
+    },
+    {
+      "approval_revision": "2026-11-02T14:44:31.455281+00:00",
+      "approval_state": "approved",
+      "asset_id": "after_hours_luxury_finished_front_v5",
+      "asset_role": "finished_front_cover",
+      "audience": "adult",
+      "classification": "APPROVED_PROJECT_GENERATED",
+      "created_at": "2026-11-02T14:44:31.455281+00:00",
+      "height": 3300,
+      "lifecycle_state": "active",
+      "name": "After Hours owner-approved print-safe luxury front",
+      "path": "cover_assets/project_generated/after_hours_luxury_front_v5.png",
+      "perceptual_hash": "cc9633868e8e8ccc",
+      "production_approved": true,
+      "project_generated": true,
+      "provenance": {
+        "approval_scope": "Exact After Hours cover asset only; content, rights, KDP readiness and publication remain separate pending gates",
+        "method": "Original local vector typography and ornament; metallic-color simulation",
+        "owner_design_approval": "Approve this dark-luxury design",
+        "owner_production_asset_authorization": "Approve the print-safe replacement for production",
+        "provider": "SladePuzzleCo project generation",
+        "source_vector_sha256": "c8afbb6202c78d3a294ae1953a92beb2ee160a92e99b218e2fa514edbad6a8fd",
+        "technical_change": "Eight fine ornament strokes increased from .7pt to .8pt; design/layout/copy unchanged"
+      },
+      "sha256": "9c9a5eedefe9d81201848849713cfe8039f555acec37b3e8bf60a85ff9b071a2",
+      "source_type": "generated_art",
+      "topics": [
+        "afterhours",
+        "adult",
+        "naughty",
+        "cocktails",
+        "cannabis"
+      ],
+      "updated_at": "2026-11-02T14:44:31.455281+00:00",
+      "usage": [],
+      "visual_family_id": "vf_cc9633868e8e8ccc",
+      "width": 2550
     }
   ],
   "audit_notes": [
@@ -3385,9 +4614,33 @@
         "quarantined": 0,
         "unchanged": 0
       }
+    },
+    {
+      "action": "safe_discovery_metadata_refresh",
+      "at": "2026-10-10T16:18:48+00:00",
+      "fields_changed": 1,
+      "policy": "Only image-derived discovery metadata changed; approvals, provenance, files, and usage were preserved."
+    },
+    {
+      "action": "safe_discovery_metadata_refresh",
+      "at": "2026-10-10T16:18:53+00:00",
+      "fields_changed": 1,
+      "policy": "Only image-derived discovery metadata changed; approvals, provenance, files, and usage were preserved."
+    },
+    {
+      "action": "safe_discovery_metadata_refresh",
+      "at": "2026-10-10T16:18:58+00:00",
+      "fields_changed": 1,
+      "policy": "Only image-derived discovery metadata changed; approvals, provenance, files, and usage were preserved."
+    },
+    {
+      "action": "safe_discovery_metadata_refresh",
+      "at": "2026-11-02T14:03:15+00:00",
+      "fields_changed": 4,
+      "policy": "Only image-derived discovery metadata changed; approvals, provenance, files, and usage were preserved."
     }
   ],
   "created_at": "2026-08-27T00:55:58+00:00",
   "schema_version": 1,
-  "updated_at": "2026-09-06T03:04:01+00:00"
+  "updated_at": "2026-11-04T07:20:08+00:00"
 }

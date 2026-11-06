@@ -1,0 +1,412 @@
+{
+  "schema_version": 1,
+  "research_status": "REVIEW_REQUIRED_NOT_APPROVED",
+  "group": "noun.quantity",
+  "records": [
+    {
+      "normalized": "DG",
+      "status": "pending_context_and_editorial_review",
+      "candidate_categories": [
+        "noun.quantity"
+      ],
+      "source_senses": [
+        {
+          "lemma": "dg",
+          "synset": "noun:13723470",
+          "part_of_speech": "noun",
+          "lexical_category": "noun.quantity",
+          "definition": "1/10 gram",
+          "match_type": "exact_normalized_source_lemma"
+        }
+      ]
+    },
+    {
+      "normalized": "DL",
+      "status": "pending_context_and_editorial_review",
+      "candidate_categories": [
+        "noun.quantity"
+      ],
+      "source_senses": [
+        {
+          "lemma": "dl",
+          "synset": "noun:13624026",
+          "part_of_speech": "noun",
+          "lexical_category": "noun.quantity",
+          "definition": "a metric unit of volume equal to one tenth of a liter",
+          "match_type": "exact_normalized_source_lemma"
+        }
+      ]
+    },
+    {
+      "normalized": "EM",
+      "status": "pending_context_and_editorial_review",
+      "candidate_categories": [
+        "noun.quantity"
+      ],
+      "source_senses": [
+        {
+          "lemma": "em",
+          "synset": "noun:13712428",
+          "part_of_speech": "noun",
+          "lexical_category": "noun.quantity",
+          "definition": "a linear unit (1/6 inch) used in printing",
+          "match_type": "exact_normalized_source_lemma"
+        },
+        {
+          "lemma": "em",
+          "synset": "noun:13712689",
+          "part_of_speech": "noun",
+          "lexical_category": "noun.quantity",
+          "definition": "a quad with a square body; \"since `em quad' is hard to distinguish from `en quad', printers sometimes called it a `mutton quad'\"",
+          "match_type": "exact_normalized_source_lemma"
+        }
+      ]
+    },
+    {
+      "normalized": "EN",
+      "status": "pending_context_and_editorial_review",
+      "candidate_categories": [
+        "noun.quantity"
+      ],
+      "source_senses": [
+        {
+          "lemma": "en",
+          "synset": "noun:13712592",
+          "part_of_speech": "noun",
+          "lexical_category": "noun.quantity",
+          "definition": "half the width of an em",
+          "match_type": "exact_normalized_source_lemma"
+        }
+      ]
+    },
+    {
+      "normalized": "FT",
+      "status": "pending_context_and_editorial_review",
+      "candidate_categories": [
+        "noun.quantity"
+      ],
+      "source_senses": [
+        {
+          "lemma": "ft",
+          "synset": "noun:13650045",
+          "part_of_speech": "noun",
+          "lexical_category": "noun.quantity",
+          "definition": "a linear unit of length equal to 12 inches or a third of a yard; \"he is six feet tall\"",
+          "match_type": "exact_normalized_source_lemma"
+        }
+      ]
+    },
+    {
+      "normalized": "GM",
+      "status": "pending_context_and_editorial_review",
+      "candidate_categories": [
+        "noun.quantity"
+      ],
+      "source_senses": [
+        {
+          "lemma": "gm",
+          "synset": "noun:13723712",
+          "part_of_speech": "noun",
+          "lexical_category": "noun.quantity",
+          "definition": "a metric unit of weight equal to one thousandth of a kilogram",
+          "match_type": "exact_normalized_source_lemma"
+        }
+      ]
+    },
+    {
+      "normalized": "HL",
+      "status": "pending_context_and_editorial_review",
+      "candidate_categories": [
+        "noun.quantity"
+      ],
+      "source_senses": [
+        {
+          "lemma": "hl",
+          "synset": "noun:13624705",
+          "part_of_speech": "noun",
+          "lexical_category": "noun.quantity",
+          "definition": "a metric unit of volume or capacity equal to 100 liters",
+          "match_type": "exact_normalized_source_lemma"
+        }
+      ]
+    },
+    {
+      "normalized": "HM",
+      "status": "pending_context_and_editorial_review",
+      "candidate_categories": [
+        "noun.quantity"
+      ],
+      "source_senses": [
+        {
+          "lemma": "hm",
+          "synset": "noun:13659604",
+          "part_of_speech": "noun",
+          "lexical_category": "noun.quantity",
+          "definition": "a metric unit of length equal to 100 meters",
+          "match_type": "exact_normalized_source_lemma"
+        }
+      ]
+    },
+    {
+      "normalized": "HP",
+      "status": "pending_context_and_editorial_review",
+      "candidate_categories": [
+        "noun.quantity"
+      ],
+      "source_senses": [
+        {
+          "lemma": "HP",
+          "synset": "noun:13645010",
+          "part_of_speech": "noun",
+          "lexical_category": "noun.quantity",
+          "definition": "a unit of power equal to 746 watts",
+          "match_type": "exact_normalized_source_lemma"
+        },
+        {
+          "lemma": "H.P.",
+          "synset": "noun:13645010",
+          "part_of_speech": "noun",
+          "lexical_category": "noun.quantity",
+          "definition": "a unit of power equal to 746 watts",
+          "match_type": "exact_normalized_source_lemma"
+        }
+      ]
+    },
+    {
+      "normalized": "KB",
+      "status": "pending_context_and_editorial_review",
+      "candidate_categories": [
+        "noun.quantity"
+      ],
+      "source_senses": [
+        {
+          "lemma": "KB",
+          "synset": "noun:13627516",
+          "part_of_speech": "noun",
+          "lexical_category": "noun.quantity",
+          "definition": "a unit of information equal to 1024 bytes",
+          "match_type": "exact_normalized_source_lemma"
+        },
+        {
+          "lemma": "kB",
+          "synset": "noun:13627516",
+          "part_of_speech": "noun",
+          "lexical_category": "noun.quantity",
+          "definition": "a unit of information equal to 1024 bytes",
+          "match_type": "exact_normalized_source_lemma"
+        },
+        {
+          "lemma": "KB",
+          "synset": "noun:13627681",
+          "part_of_speech": "noun",
+          "lexical_category": "noun.quantity",
+          "definition": "a unit of information equal to 1000 bytes",
+          "match_type": "exact_normalized_source_lemma"
+        },
+        {
+          "lemma": "kB",
+          "synset": "noun:13627681",
+          "part_of_speech": "noun",
+          "lexical_category": "noun.quantity",
+          "definition": "a unit of information equal to 1000 bytes",
+          "match_type": "exact_normalized_source_lemma"
+        },
+        {
+          "lemma": "kb",
+          "synset": "noun:13627810",
+          "part_of_speech": "noun",
+          "lexical_category": "noun.quantity",
+          "definition": "a unit of information equal to 1000 bits",
+          "match_type": "exact_normalized_source_lemma"
+        }
+      ]
+    },
+    {
+      "normalized": "KG",
+      "status": "pending_context_and_editorial_review",
+      "candidate_categories": [
+        "noun.quantity"
+      ],
+      "source_senses": [
+        {
+          "lemma": "kg",
+          "synset": "noun:13724582",
+          "part_of_speech": "noun",
+          "lexical_category": "noun.quantity",
+          "definition": "one thousand grams; the basic unit of mass adopted under the Systeme International d'Unites; \"a kilogram is approximately 2.2 pounds\"",
+          "match_type": "exact_normalized_source_lemma"
+        }
+      ]
+    },
+    {
+      "normalized": "KM",
+      "status": "pending_context_and_editorial_review",
+      "candidate_categories": [
+        "noun.quantity"
+      ],
+      "source_senses": [
+        {
+          "lemma": "km",
+          "synset": "noun:13659760",
+          "part_of_speech": "noun",
+          "lexical_category": "noun.quantity",
+          "definition": "a metric unit of length equal to 1000 meters (or 0.621371 miles)",
+          "match_type": "exact_normalized_source_lemma"
+        }
+      ]
+    },
+    {
+      "normalized": "KT",
+      "status": "pending_context_and_editorial_review",
+      "candidate_categories": [
+        "noun.quantity"
+      ],
+      "source_senses": [
+        {
+          "lemma": "kt",
+          "synset": "noun:13585127",
+          "part_of_speech": "noun",
+          "lexical_category": "noun.quantity",
+          "definition": "the unit of measurement for the proportion of gold in an alloy; 18-karat gold is 75% gold; 24-karat gold is pure gold",
+          "match_type": "exact_normalized_source_lemma"
+        }
+      ]
+    },
+    {
+      "normalized": "KV",
+      "status": "pending_context_and_editorial_review",
+      "candidate_categories": [
+        "noun.quantity"
+      ],
+      "source_senses": [
+        {
+          "lemma": "kV",
+          "synset": "noun:13643770",
+          "part_of_speech": "noun",
+          "lexical_category": "noun.quantity",
+          "definition": "a unit of potential equal to a thousand volts",
+          "match_type": "exact_normalized_source_lemma"
+        }
+      ]
+    },
+    {
+      "normalized": "KW",
+      "status": "pending_context_and_editorial_review",
+      "candidate_categories": [
+        "noun.quantity"
+      ],
+      "source_senses": [
+        {
+          "lemma": "kW",
+          "synset": "noun:13644761",
+          "part_of_speech": "noun",
+          "lexical_category": "noun.quantity",
+          "definition": "a unit of power equal to 1000 watts",
+          "match_type": "exact_normalized_source_lemma"
+        }
+      ]
+    },
+    {
+      "normalized": "LB",
+      "status": "pending_context_and_editorial_review",
+      "candidate_categories": [
+        "noun.quantity"
+      ],
+      "source_senses": [
+        {
+          "lemma": "lb",
+          "synset": "noun:13720096",
+          "part_of_speech": "noun",
+          "lexical_category": "noun.quantity",
+          "definition": "16 ounces avoirdupois; \"he got a hernia when he tried to lift 100 pounds\"",
+          "match_type": "exact_normalized_source_lemma"
+        }
+      ]
+    },
+    {
+      "normalized": "LM",
+      "status": "pending_context_and_editorial_review",
+      "candidate_categories": [
+        "noun.quantity"
+      ],
+      "source_senses": [
+        {
+          "lemma": "lm",
+          "synset": "noun:13641299",
+          "part_of_speech": "noun",
+          "lexical_category": "noun.quantity",
+          "definition": "a unit of luminous flux equal to the amount of light given out through a solid angle of 1 steradian by a point source of 1 candela intensity radiating uniformly in all directions",
+          "match_type": "exact_normalized_source_lemma"
+        }
+      ]
+    },
+    {
+      "normalized": "ML",
+      "status": "pending_context_and_editorial_review",
+      "candidate_categories": [
+        "noun.quantity"
+      ],
+      "source_senses": [
+        {
+          "lemma": "ml",
+          "synset": "noun:13623636",
+          "part_of_speech": "noun",
+          "lexical_category": "noun.quantity",
+          "definition": "a metric unit of volume equal to one thousandth of a liter",
+          "match_type": "exact_normalized_source_lemma"
+        }
+      ]
+    },
+    {
+      "normalized": "NG",
+      "status": "pending_context_and_editorial_review",
+      "candidate_categories": [
+        "noun.quantity"
+      ],
+      "source_senses": [
+        {
+          "lemma": "ng",
+          "synset": "noun:13723189",
+          "part_of_speech": "noun",
+          "lexical_category": "noun.quantity",
+          "definition": "one billionth (1/1,000,000,000) gram",
+          "match_type": "exact_normalized_source_lemma"
+        }
+      ]
+    },
+    {
+      "normalized": "OZ",
+      "status": "pending_context_and_editorial_review",
+      "candidate_categories": [
+        "noun.quantity"
+      ],
+      "source_senses": [
+        {
+          "lemma": "oz.",
+          "synset": "noun:13719922",
+          "part_of_speech": "noun",
+          "lexical_category": "noun.quantity",
+          "definition": "a unit of weight equal to one sixteenth of a pound or 16 drams or 28.349 grams",
+          "match_type": "exact_normalized_source_lemma"
+        }
+      ]
+    },
+    {
+      "normalized": "WB",
+      "status": "pending_context_and_editorial_review",
+      "candidate_categories": [
+        "noun.quantity"
+      ],
+      "source_senses": [
+        {
+          "lemma": "Wb",
+          "synset": "noun:13638577",
+          "part_of_speech": "noun",
+          "lexical_category": "noun.quantity",
+          "definition": "a unit of magnetic flux equal to 100,000,000 maxwells",
+          "match_type": "exact_normalized_source_lemma"
+        }
+      ]
+    }
+  ]
+}

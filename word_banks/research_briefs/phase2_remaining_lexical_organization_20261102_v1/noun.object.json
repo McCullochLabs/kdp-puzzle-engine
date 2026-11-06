@@ -1,0 +1,678 @@
+{
+  "schema_version": 1,
+  "research_status": "REVIEW_REQUIRED_NOT_APPROVED",
+  "lexical_review_group": "noun.object",
+  "records": [
+    {
+      "normalized": "ADRIATIC",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "Adriatic",
+          "synset": "n:09188383",
+          "lexical_category": "noun.object",
+          "definition": "an arm of the Mediterranean between Slovenia and Croatia and Montenegro and Albania on the east and Italy on the west"
+        }
+      ],
+      "candidate_categories": [
+        "noun.object"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    },
+    {
+      "normalized": "AEGEAN",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "Aegean",
+          "synset": "n:09188609",
+          "lexical_category": "noun.object",
+          "definition": "an arm of the Mediterranean between Greece and Turkey; a main trade route for the ancient civilizations of Crete and Greece and Rome and Persia"
+        }
+      ],
+      "candidate_categories": [
+        "noun.object"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    },
+    {
+      "normalized": "AIRE",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "Aire",
+          "synset": "n:09191707",
+          "lexical_category": "noun.object",
+          "definition": "a river in northern England that flows southeast through West Yorkshire"
+        }
+      ],
+      "candidate_categories": [
+        "noun.object"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    },
+    {
+      "normalized": "ALPS",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "Alps",
+          "synset": "n:09194357",
+          "lexical_category": "noun.object",
+          "definition": "a large mountain system in south-central Europe; scenic beauty and winter sports make them a popular tourist attraction"
+        }
+      ],
+      "candidate_categories": [
+        "noun.object"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    },
+    {
+      "normalized": "ANDES",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "Andes",
+          "synset": "n:09196611",
+          "lexical_category": "noun.object",
+          "definition": "a mountain range in South America running 5000 miles along the Pacific coast"
+        }
+      ],
+      "candidate_categories": [
+        "noun.object"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    },
+    {
+      "normalized": "ANTARCTICA",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "Antarctica",
+          "synset": "n:09198106",
+          "lexical_category": "noun.object",
+          "definition": "an extremely cold continent at the south pole almost entirely below the Antarctic Circle; covered by an ice cap up to 13,000 feet deep; \"Antarctica is twice the size of Australia\""
+        }
+      ],
+      "candidate_categories": [
+        "noun.object"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    },
+    {
+      "normalized": "CASCADES",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "Cascades",
+          "synset": "n:09237076",
+          "lexical_category": "noun.object",
+          "definition": "a mountain range in the northwestern United States extending through Washington and Oregon and northern California; a part of the Coast Range"
+        }
+      ],
+      "candidate_categories": [
+        "noun.object"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    },
+    {
+      "normalized": "CASPIAN",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "Caspian",
+          "synset": "n:09237404",
+          "lexical_category": "noun.object",
+          "definition": "a large saltwater lake between Iran and Russia fed by the Volga River; the largest inland body of water in the world"
+        }
+      ],
+      "candidate_categories": [
+        "noun.object"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    },
+    {
+      "normalized": "CHANG",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "Chang",
+          "synset": "n:09481523",
+          "lexical_category": "noun.object",
+          "definition": "the longest river of Asia; flows eastward from Tibet into the East China Sea near Shanghai"
+        }
+      ],
+      "candidate_categories": [
+        "noun.object"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    },
+    {
+      "normalized": "DANUBE",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "Danube",
+          "synset": "n:09263087",
+          "lexical_category": "noun.object",
+          "definition": "the 2nd longest European river (after the Volga); flows from southwestern Germany to the Black Sea; \"Vienna, Budapest, and Belgrade are on the banks of the Danube\""
+        }
+      ],
+      "candidate_categories": [
+        "noun.object"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    },
+    {
+      "normalized": "EYRE",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "Eyre",
+          "synset": "n:09277913",
+          "lexical_category": "noun.object",
+          "definition": "a shallow salt lake in south central Australia about 35 feet below sea level; the largest lake in the country and the lowest point on the continent"
+        }
+      ],
+      "candidate_categories": [
+        "noun.object"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    },
+    {
+      "normalized": "EURASIA",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "Eurasia",
+          "synset": "n:09275016",
+          "lexical_category": "noun.object",
+          "definition": "the land mass formed by the continents of Europe and Asia"
+        }
+      ],
+      "candidate_categories": [
+        "noun.object"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    },
+    {
+      "normalized": "EVEREST",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "Everest",
+          "synset": "n:09277010",
+          "lexical_category": "noun.object",
+          "definition": "a mountain in the central Himalayas on the border of Tibet and Nepal; the highest mountain peak in the world (29,028 feet high)"
+        }
+      ],
+      "candidate_categories": [
+        "noun.object"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    },
+    {
+      "normalized": "FJORD",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "fjord",
+          "synset": "n:09281104",
+          "lexical_category": "noun.object",
+          "definition": "a long narrow inlet of the sea between steep cliffs; common in Norway"
+        }
+      ],
+      "candidate_categories": [
+        "noun.object"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    },
+    {
+      "normalized": "GILA",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "Gila",
+          "synset": "n:09288946",
+          "lexical_category": "noun.object",
+          "definition": "a river that rises in western New Mexico and flows westward through southern Arizona to become a tributary of the Colorado River"
+        }
+      ],
+      "candidate_categories": [
+        "noun.object"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    },
+    {
+      "normalized": "HIMALAYAS",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "Himalayas",
+          "synset": "n:09303647",
+          "lexical_category": "noun.object",
+          "definition": "a mountain range extending 1500 miles on the border between India and Tibet; this range contains the world's highest mountain"
+        }
+      ],
+      "candidate_categories": [
+        "noun.object"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    },
+    {
+      "normalized": "HURON",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "Huron",
+          "synset": "n:09331535",
+          "lexical_category": "noun.object",
+          "definition": "the 2nd largest of the Great Lakes"
+        }
+      ],
+      "candidate_categories": [
+        "noun.object"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    },
+    {
+      "normalized": "YANGTZE",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "Yangtze",
+          "synset": "n:09481523",
+          "lexical_category": "noun.object",
+          "definition": "the longest river of Asia; flows eastward from Tibet into the East China Sea near Shanghai"
+        }
+      ],
+      "candidate_categories": [
+        "noun.object"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    },
+    {
+      "normalized": "INDUS",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "Indus",
+          "synset": "n:09312231",
+          "lexical_category": "noun.object",
+          "definition": "an Asian river that rises in Tibet and flows through northern India and then southwest through Kashmir and Pakistan to the Arabian Sea; \"the valley of the Indus was the site of an early civilization\""
+        },
+        {
+          "lemma": "Indus",
+          "synset": "n:09312516",
+          "lexical_category": "noun.object",
+          "definition": "a faint constellation in the southern hemisphere near Telescopium and Tucana"
+        }
+      ],
+      "candidate_categories": [
+        "noun.object"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    },
+    {
+      "normalized": "ISLET",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "islet",
+          "synset": "n:09319456",
+          "lexical_category": "noun.object",
+          "definition": "a small island"
+        }
+      ],
+      "candidate_categories": [
+        "noun.object"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    },
+    {
+      "normalized": "KLAMATH",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "Klamath",
+          "synset": "n:09326467",
+          "lexical_category": "noun.object",
+          "definition": "a river flowing southwest from Oregon through northern California to the Pacific Ocean"
+        }
+      ],
+      "candidate_categories": [
+        "noun.object"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    },
+    {
+      "normalized": "LENA",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "Lena",
+          "synset": "n:09337686",
+          "lexical_category": "noun.object",
+          "definition": "a Russian river in Siberia; flows northward into the Laptev Sea"
+        }
+      ],
+      "candidate_categories": [
+        "noun.object"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    },
+    {
+      "normalized": "MEKONG",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "Mekong",
+          "synset": "n:09350524",
+          "lexical_category": "noun.object",
+          "definition": "an Asian river; flows through a large delta in southern Vietnam into the South China Sea"
+        }
+      ],
+      "candidate_categories": [
+        "noun.object"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    },
+    {
+      "normalized": "MORNINGSTAR",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "morning_star",
+          "synset": "n:09359471",
+          "lexical_category": "noun.object",
+          "definition": "a planet (usually Venus) seen just before sunrise in the eastern sky"
+        }
+      ],
+      "candidate_categories": [
+        "noun.object"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    },
+    {
+      "normalized": "NILE",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "Nile",
+          "synset": "n:09371360",
+          "lexical_category": "noun.object",
+          "definition": "the world's longest river (4150 miles); flows northward through eastern Africa into the Mediterranean; the Nile River valley in Egypt was the site of the world's first great civilization"
+        }
+      ],
+      "candidate_categories": [
+        "noun.object"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    },
+    {
+      "normalized": "NUGGET",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "nugget",
+          "synset": "n:09375481",
+          "lexical_category": "noun.object",
+          "definition": "a solid lump of a precious metal (especially gold) as found in the earth"
+        }
+      ],
+      "candidate_categories": [
+        "noun.object"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    },
+    {
+      "normalized": "OLYMPUS",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "Olympus",
+          "synset": "n:09378529",
+          "lexical_category": "noun.object",
+          "definition": "a mountain peak in northeast Greece near the Aegean coast; believed by ancient Greeks to be the dwelling place of the gods (9,570 feet high)"
+        }
+      ],
+      "candidate_categories": [
+        "noun.object"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    },
+    {
+      "normalized": "PYRENEES",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "Pyrenees",
+          "synset": "n:09401474",
+          "lexical_category": "noun.object",
+          "definition": "a chain of mountains between France and Spain"
+        }
+      ],
+      "candidate_categories": [
+        "noun.object"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    },
+    {
+      "normalized": "SEAFLOOR",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "sea_floor",
+          "synset": "n:09376526",
+          "lexical_category": "noun.object",
+          "definition": "the bottom of a sea or ocean"
+        }
+      ],
+      "candidate_categories": [
+        "noun.object"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    },
+    {
+      "normalized": "SHARI",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "Shari",
+          "synset": "n:09431409",
+          "lexical_category": "noun.object",
+          "definition": "an African river that flows northwest into Lake Chad"
+        }
+      ],
+      "candidate_categories": [
+        "noun.object"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    },
+    {
+      "normalized": "STRATOSPHERE",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "stratosphere",
+          "synset": "n:09448090",
+          "lexical_category": "noun.object",
+          "definition": "the atmospheric layer between the troposphere and the mesosphere"
+        }
+      ],
+      "candidate_categories": [
+        "noun.object"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    },
+    {
+      "normalized": "TIBER",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "Tiber",
+          "synset": "n:09457851",
+          "lexical_category": "noun.object",
+          "definition": "a river of central Italy; flows through Rome to the Tyrrhenian Sea"
+        }
+      ],
+      "candidate_categories": [
+        "noun.object"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    },
+    {
+      "normalized": "TIGRIS",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "Tigris",
+          "synset": "n:09458791",
+          "lexical_category": "noun.object",
+          "definition": "an Asian river; a tributary of the Euphrates River"
+        }
+      ],
+      "candidate_categories": [
+        "noun.object"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    },
+    {
+      "normalized": "TYNE",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "Tyne",
+          "synset": "n:09464805",
+          "lexical_category": "noun.object",
+          "definition": "a river in northern England that flows east to the North Sea"
+        }
+      ],
+      "candidate_categories": [
+        "noun.object"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    },
+    {
+      "normalized": "VOLGA",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "Volga",
+          "synset": "n:09473239",
+          "lexical_category": "noun.object",
+          "definition": "a Russian river; the longest river in Europe; flows into the Caspian Sea"
+        }
+      ],
+      "candidate_categories": [
+        "noun.object"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    }
+  ]
+}

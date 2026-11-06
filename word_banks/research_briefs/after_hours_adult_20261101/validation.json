@@ -1,0 +1,30 @@
+{
+  "status": "research_only_pending_review",
+  "raw_curated_unique": 466,
+  "lexically_attested_candidates": 418,
+  "held_unverified_or_length": 48,
+  "normalized_duplicates_removed": [],
+  "counts_by_niche": {
+    "profanity and minced oaths": 48,
+    "cheeky flirtation": 91,
+    "lingerie and adult accessories": 48,
+    "bar equipment and service": 66,
+    "alcoholic drinks": 165
+  },
+  "standard_required": 576,
+  "signature_required": 1200,
+  "standard_shortfall": 158,
+  "signature_shortfall": 782,
+  "standard_ready": false,
+  "signature_ready": false,
+  "complete_12_word_blocks_by_niche_upper_bound": 33,
+  "group_fit_and_production_gate_validation": "not performed; lexical evidence alone does not approve topic fit",
+  "wordnet_data_sha256": {
+    "data.adj": "f24b635368be441501c9b8001e9271fd3b30b203f00d91e332979e6f8fe35646",
+    "data.adv": "e66dbbda0e0359e41b7f225bff71dd0c263dc7c66c1b61abc9ba334973d92979",
+    "data.noun": "489f145e0f68877c0be5bd0eb4117adaaac52f38f6204eb8d85dbe2158b614cc",
+    "data.verb": "7fff397e93b4fb152fdaee116747cf1c40d7badedccb4b63f5503e8e962d9102"
+  },
+  "approval_changes": 0,
+  "production_bank_changes": 0
+}

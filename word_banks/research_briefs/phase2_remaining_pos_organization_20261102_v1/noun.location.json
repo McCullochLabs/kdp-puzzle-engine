@@ -1,0 +1,313 @@
+{
+  "schema_version": 1,
+  "research_status": "REVIEW_REQUIRED_NOT_APPROVED",
+  "group": "noun.location",
+  "records": [
+    {
+      "normalized": "AK",
+      "status": "pending_context_and_editorial_review",
+      "candidate_categories": [
+        "noun.location"
+      ],
+      "source_senses": [
+        {
+          "lemma": "AK",
+          "synset": "noun:09055015",
+          "part_of_speech": "noun",
+          "lexical_category": "noun.location",
+          "definition": "a state in northwestern North America; the 49th state admitted to the union; \"Alaska is the largest state in the United States\"",
+          "match_type": "exact_normalized_source_lemma"
+        }
+      ]
+    },
+    {
+      "normalized": "DE",
+      "status": "pending_context_and_editorial_review",
+      "candidate_categories": [
+        "noun.location"
+      ],
+      "source_senses": [
+        {
+          "lemma": "DE",
+          "synset": "noun:09069862",
+          "part_of_speech": "noun",
+          "lexical_category": "noun.location",
+          "definition": "a Mid-Atlantic state; one of the original 13 colonies",
+          "match_type": "exact_normalized_source_lemma"
+        }
+      ]
+    },
+    {
+      "normalized": "FL",
+      "status": "pending_context_and_editorial_review",
+      "candidate_categories": [
+        "noun.location"
+      ],
+      "source_senses": [
+        {
+          "lemma": "FL",
+          "synset": "noun:09071690",
+          "part_of_speech": "noun",
+          "lexical_category": "noun.location",
+          "definition": "a state in southeastern United States between the Atlantic and the Gulf of Mexico; one of the Confederate states during the American Civil War",
+          "match_type": "exact_normalized_source_lemma"
+        }
+      ]
+    },
+    {
+      "normalized": "IA",
+      "status": "pending_context_and_editorial_review",
+      "candidate_categories": [
+        "noun.location"
+      ],
+      "source_senses": [
+        {
+          "lemma": "IA",
+          "synset": "noun:09086173",
+          "part_of_speech": "noun",
+          "lexical_category": "noun.location",
+          "definition": "a state in midwestern United States",
+          "match_type": "exact_normalized_source_lemma"
+        }
+      ]
+    },
+    {
+      "normalized": "KY",
+      "status": "pending_context_and_editorial_review",
+      "candidate_categories": [
+        "noun.location"
+      ],
+      "source_senses": [
+        {
+          "lemma": "KY",
+          "synset": "noun:09089139",
+          "part_of_speech": "noun",
+          "lexical_category": "noun.location",
+          "definition": "a state in east central United States; a border state during the American Civil War; famous for breeding race horses",
+          "match_type": "exact_normalized_source_lemma"
+        }
+      ]
+    },
+    {
+      "normalized": "ME",
+      "status": "pending_context_and_editorial_review",
+      "candidate_categories": [
+        "noun.location"
+      ],
+      "source_senses": [
+        {
+          "lemma": "ME",
+          "synset": "noun:09092497",
+          "part_of_speech": "noun",
+          "lexical_category": "noun.location",
+          "definition": "a state in New England",
+          "match_type": "exact_normalized_source_lemma"
+        }
+      ]
+    },
+    {
+      "normalized": "NY",
+      "status": "pending_context_and_editorial_review",
+      "candidate_categories": [
+        "noun.location"
+      ],
+      "source_senses": [
+        {
+          "lemma": "NY",
+          "synset": "noun:09117351",
+          "part_of_speech": "noun",
+          "lexical_category": "noun.location",
+          "definition": "a Mid-Atlantic state; one of the original 13 colonies",
+          "match_type": "exact_normalized_source_lemma"
+        }
+      ]
+    },
+    {
+      "normalized": "NJ",
+      "status": "pending_context_and_editorial_review",
+      "candidate_categories": [
+        "noun.location"
+      ],
+      "source_senses": [
+        {
+          "lemma": "NJ",
+          "synset": "noun:09112282",
+          "part_of_speech": "noun",
+          "lexical_category": "noun.location",
+          "definition": "a Mid-Atlantic state on the Atlantic; one of the original 13 colonies",
+          "match_type": "exact_normalized_source_lemma"
+        }
+      ]
+    },
+    {
+      "normalized": "NV",
+      "status": "pending_context_and_editorial_review",
+      "candidate_categories": [
+        "noun.location"
+      ],
+      "source_senses": [
+        {
+          "lemma": "NV",
+          "synset": "noun:09110422",
+          "part_of_speech": "noun",
+          "lexical_category": "noun.location",
+          "definition": "a state in the southwestern United States",
+          "match_type": "exact_normalized_source_lemma"
+        }
+      ]
+    },
+    {
+      "normalized": "OH",
+      "status": "pending_context_and_editorial_review",
+      "candidate_categories": [
+        "noun.location"
+      ],
+      "source_senses": [
+        {
+          "lemma": "OH",
+          "synset": "noun:09130076",
+          "part_of_speech": "noun",
+          "lexical_category": "noun.location",
+          "definition": "a midwestern state in north central United States in the Great Lakes region",
+          "match_type": "exact_normalized_source_lemma"
+        }
+      ]
+    },
+    {
+      "normalized": "SD",
+      "status": "pending_context_and_editorial_review",
+      "candidate_categories": [
+        "noun.location"
+      ],
+      "source_senses": [
+        {
+          "lemma": "SD",
+          "synset": "noun:09138935",
+          "part_of_speech": "noun",
+          "lexical_category": "noun.location",
+          "definition": "a state in north central United States",
+          "match_type": "exact_normalized_source_lemma"
+        }
+      ]
+    },
+    {
+      "normalized": "TN",
+      "status": "pending_context_and_editorial_review",
+      "candidate_categories": [
+        "noun.location"
+      ],
+      "source_senses": [
+        {
+          "lemma": "TN",
+          "synset": "noun:09140148",
+          "part_of_speech": "noun",
+          "lexical_category": "noun.location",
+          "definition": "a state in east central United States",
+          "match_type": "exact_normalized_source_lemma"
+        }
+      ]
+    },
+    {
+      "normalized": "TX",
+      "status": "pending_context_and_editorial_review",
+      "candidate_categories": [
+        "noun.location"
+      ],
+      "source_senses": [
+        {
+          "lemma": "TX",
+          "synset": "noun:09141526",
+          "part_of_speech": "noun",
+          "lexical_category": "noun.location",
+          "definition": "the second largest state; located in southwestern United States on the Gulf of Mexico",
+          "match_type": "exact_normalized_source_lemma"
+        }
+      ]
+    },
+    {
+      "normalized": "UR",
+      "status": "pending_context_and_editorial_review",
+      "candidate_categories": [
+        "noun.location"
+      ],
+      "source_senses": [
+        {
+          "lemma": "Ur",
+          "synset": "noun:08918800",
+          "part_of_speech": "noun",
+          "lexical_category": "noun.location",
+          "definition": "an ancient city of Sumer located on a former channel of the Euphrates River",
+          "match_type": "exact_normalized_source_lemma"
+        }
+      ]
+    },
+    {
+      "normalized": "VT",
+      "status": "pending_context_and_editorial_review",
+      "candidate_categories": [
+        "noun.location"
+      ],
+      "source_senses": [
+        {
+          "lemma": "VT",
+          "synset": "noun:09147964",
+          "part_of_speech": "noun",
+          "lexical_category": "noun.location",
+          "definition": "a state in New England",
+          "match_type": "exact_normalized_source_lemma"
+        }
+      ]
+    },
+    {
+      "normalized": "WA",
+      "status": "pending_context_and_editorial_review",
+      "candidate_categories": [
+        "noun.location"
+      ],
+      "source_senses": [
+        {
+          "lemma": "WA",
+          "synset": "noun:09152944",
+          "part_of_speech": "noun",
+          "lexical_category": "noun.location",
+          "definition": "a state in northwestern United States on the Pacific",
+          "match_type": "exact_normalized_source_lemma"
+        }
+      ]
+    },
+    {
+      "normalized": "WI",
+      "status": "pending_context_and_editorial_review",
+      "candidate_categories": [
+        "noun.location"
+      ],
+      "source_senses": [
+        {
+          "lemma": "WI",
+          "synset": "noun:09157163",
+          "part_of_speech": "noun",
+          "lexical_category": "noun.location",
+          "definition": "a midwestern state in north central United States",
+          "match_type": "exact_normalized_source_lemma"
+        }
+      ]
+    },
+    {
+      "normalized": "WY",
+      "status": "pending_context_and_editorial_review",
+      "candidate_categories": [
+        "noun.location"
+      ],
+      "source_senses": [
+        {
+          "lemma": "WY",
+          "synset": "noun:09159003",
+          "part_of_speech": "noun",
+          "lexical_category": "noun.location",
+          "definition": "a state in the western United States; mountainous in the west and north with the Great Plains in the east",
+          "match_type": "exact_normalized_source_lemma"
+        }
+      ]
+    }
+  ]
+}

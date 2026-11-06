@@ -7,6 +7,9 @@ out/
 *.png
 !docs/*.png
 .pytest_cache/
+.quality-*/
+.quality-*.log
+.review-test-temp-*/
 
 .venv/
 .venv-32bit-backup/

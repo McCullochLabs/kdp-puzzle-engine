@@ -1,0 +1,172 @@
+# label|existing parent topic|WordNet noun lemma|zero-based sense
+Birds and Birdwatching|Birdwatching|bird|0
+Mammals and Wildlife|Forest Wildlife and Outdoors|mammal|0
+Fish and Aquatic Vertebrates|Nature|fish|0
+Insects and Entomology|Nature|insect|0
+Reptiles|Nature|reptile|0
+Amphibians|Nature|amphibian|2
+Mollusks and Shells|Nature|mollusk|0
+Crustaceans|Nature|crustacean|0
+Arachnids|Nature|arachnid|0
+Worms and Small Invertebrates|Nature|worm|0
+Horses and Equine Vocabulary|Farm Country and Rural Life|horse|0
+Dogs and Canine Vocabulary|Dogs & Pets|dog|0
+Cats and Feline Vocabulary|Cats & Pets|cat|0
+Cattle and Livestock|Farm Country and Rural Life|cattle|0
+Sheep and Wool Farming|Farm Country and Rural Life|sheep|0
+Goats|Farm Country and Rural Life|goat|0
+Poultry|Farm Country and Rural Life|poultry|0
+Butterflies|Nature|butterfly|0
+Moths|Nature|moth|0
+Beetles|Nature|beetle|0
+Bees|Nature|bee|0
+Ants|Nature|ant|0
+Snakes|Nature|snake|0
+Lizards|Nature|lizard|0
+Turtles|Nature|turtle|1
+Frogs and Toads|Nature|frog|0
+Plants and Botany|Nature|plant|1
+Flowers and Flowering Plants|Gardening|flower|0
+Trees and Dendrology|Nature|tree|0
+Shrubs and Bushes|Nature|shrub|0
+Herbaceous Plants|Nature|herb|0
+Ferns|Nature|fern|0
+Grasses|Nature|grass|0
+Mosses|Nature|moss|0
+Algae|Nature|algae|0
+Fungi and Mycology|Nature|fungus|0
+Leaves and Plant Anatomy|Nature|leaf|0
+Roots and Root Systems|Nature|root|0
+Fruits and Botanical Structures|Nature|fruit|0
+Vegetables|Baking and Food|vegetable|0
+Food and Ingredients|Baking and Food|food|0
+Beverages|Baking and Food|beverage|0
+Breads and Rolls|Baking and Food|bread|0
+Cakes and Baking|Baking and Food|cake|2
+Pastries|Baking and Food|pastry|1
+Cheeses|Baking and Food|cheese|0
+Culinary Herbs|Herbs Fruits and Vegetables|herb|1
+Spices|Baking and Food|spice|1
+Condiments and Sauces|Baking and Food|condiment|0
+Desserts|Baking and Food|dessert|0
+Grains and Cereals|Baking and Food|grain|1
+Nuts and Seeds|Nature|nut|0
+Soups|Baking and Food|soup|0
+Sandwiches|Baking and Food|sandwich|0
+Meat and Cuts|Baking and Food|meat|0
+Seafood as Food|Baking and Food|seafood|0
+Coffee|Baking and Food|coffee|0
+Tea|Baking and Food|tea|0
+Wine Vocabulary|Cocktail Hour, Nightlife & Social Club|wine|0
+Beer Vocabulary|Cocktail Hour, Nightlife & Social Club|beer|0
+Liquor Vocabulary|Cocktail Hour, Nightlife & Social Club|liquor|0
+Cooking Methods|Baking and Food|cooking|0
+Tools and Workshop Equipment|Hobbies Crafts and Pastimes|tool|0
+Household Utensils|Home and Household|utensil|0
+Kitchenware|Baking and Food|kitchenware|0
+Cutlery|Baking and Food|cutlery|0
+Household Appliances|Home and Household|household_appliance|0
+Furniture|Home and Household|furniture|0
+Bedding|Home and Household|bedding|0
+Clothing and Apparel|Home and Household|clothing|0
+Textiles and Fabrics|Hobbies Crafts and Pastimes|fabric|0
+Footwear|Home and Household|footwear|0
+Headgear|Home and Household|headgear|0
+Jewelry and Adornment|Arts Creativity and Making|jewelry|0
+Containers and Storage|Home and Household|container|0
+Mechanical Fasteners|Hobbies Crafts and Pastimes|fastener|1
+Machines and Mechanisms|Science and Discovery|machine|0
+Musical Instruments|Music and Instruments|musical_instrument|0
+Music and Musical Forms|Music and Instruments|music|0
+Songs|Music and Instruments|song|0
+Dance|Arts Creativity and Making|dance|0
+Sports and Athletics|Sports and Hobbies|sport|0
+Games and Play|Sports and Hobbies|game|0
+Recreation and Pastimes|Hobbies Crafts and Pastimes|recreation|0
+Physical Exercise|Sports and Hobbies|exercise|0
+Buildings and Architecture|General Interest|building|0
+Rooms and Interior Spaces|Home and Household|room|0
+Vehicles and Transport|Vehicles & Automotive|vehicle|0
+Watercraft and Boats|Coastal Lake and River Life|vessel|1
+Aircraft|Travel Road Trips and Getaways|aircraft|0
+Spacecraft|Space & Astronomy|spacecraft|0
+Motor Vehicles|Vehicles & Automotive|motor_vehicle|0
+Bicycles|Sports and Hobbies|bicycle|0
+Motorcycles|Vehicles & Automotive|motorcycle|0
+Trucks|Vehicles & Automotive|truck|0
+Cars|Vehicles & Automotive|automobile|0
+Artworks and Visual Art|Arts Creativity and Making|art|0
+Artistic Creation|Arts Creativity and Making|art|1
+Crafts and Skilled Trades|Hobbies Crafts and Pastimes|craft|0
+Needlework|Hobbies Crafts and Pastimes|needlework|0
+Painting|Arts Creativity and Making|painting|0
+Sculpture|Arts Creativity and Making|sculpture|0
+Photography|Arts Creativity and Making|photography|0
+Drawing|Arts Creativity and Making|drawing|0
+Pottery|Arts Creativity and Making|pottery|0
+Occupations and Work|Careers Community and Everyday Life|occupation|0
+Workers and Trades|Careers Community and Everyday Life|worker|0
+Skilled Workers|Careers Community and Everyday Life|skilled_worker|0
+Educators|Careers Community and Everyday Life|educator|0
+Scientists|Science and Discovery|scientist|0
+Artists|Arts Creativity and Making|artist|0
+Musicians|Music and Instruments|musician|0
+Writers|Books Reading and Libraries|writer|0
+Athletes|Sports and Hobbies|athlete|0
+Merchants and Retail|Careers Community and Everyday Life|merchant|0
+Organizations and Community|Careers Community and Everyday Life|organization|0
+Institutions|Careers Community and Everyday Life|institution|0
+Education and Instruction|Careers Community and Everyday Life|education|0
+Fields of Science|Science and Discovery|science|0
+Geology|Science and Discovery|geology|0
+Astronomy|Space & Astronomy|astronomy|0
+Minerals and Mineralogy|Science and Discovery|mineral|0
+Rock Types|Science and Discovery|rock|1
+Gemstones and Lapidary|Hobbies Crafts and Pastimes|gemstone|0
+Metals and Elements|Science and Discovery|metal|0
+Alloys|Science and Discovery|metal|1
+Wood and Timber|Hobbies Crafts and Pastimes|wood|0
+Leather|Hobbies Crafts and Pastimes|leather|0
+Glass Materials|Arts Creativity and Making|glass|0
+Weather and Atmospheric Conditions|Weather and Climate|weather|0
+Celestial Bodies|Space & Astronomy|celestial_body|0
+Geological Formations|Nature|geological_formation|0
+Mountains and Highlands|Outdoor Adventure|mountain|0
+Rivers and Waterways|Coastal Lake and River Life|river|0
+Lakes|Coastal Lake and River Life|lake|0
+Wetlands|Nature|wetland|0
+Forests and Woodlands|Forest Wildlife and Outdoors|forest|0
+Deserts|Nature|desert|0
+Optical Instruments|Science and Discovery|optical_instrument|0
+Electrical Devices|Science and Discovery|electrical_device|0
+Electronic Devices|Science and Discovery|electronic_device|0
+Computers|Science and Discovery|computer|0
+Software Vocabulary|Science and Discovery|software|0
+Mathematics|Science and Discovery|mathematics|0
+Geometry|Science and Discovery|geometry|0
+Measurements and Units|Science and Discovery|unit|0
+Clocks and Timepieces|Hobbies Crafts and Pastimes|timepiece|0
+Books and Written Works|Books Reading and Libraries|book|0
+Physical Books and Binding|Books Reading and Libraries|book|1
+Literature and Writing|Books Reading and Libraries|writing|1
+Poetry|Books Reading and Libraries|poetry|0
+Prose|Books Reading and Libraries|prose|0
+Grammar|Word Skills and Brain Games|grammar|0
+Punctuation|Word Skills and Brain Games|punctuation|1
+Words and Linguistic Forms|Word Skills and Brain Games|word|0
+Figures of Speech|Word Skills and Brain Games|figure_of_speech|0
+Colors and Hues|Arts Creativity and Making|color|0
+Geometric Shapes|Science and Discovery|shape|1
+Feelings and Emotional Vocabulary|General Interest|feeling|0
+Personality Vocabulary|General Interest|personality|0
+Ceremonies and Celebrations|Holiday and Seasonal Life|ceremony|0
+Celebrations|Holiday and Seasonal Life|celebration|1
+Festivals and Performance Events|Holiday and Seasonal Life|festival|1
+Railways and Trains|Vehicles & Automotive|train|0
+Ships and Seafaring|Coastal Lake and River Life|ship|0
+Islands and Coastal Landforms|Nature|island|0
+Chemical Elements|Science and Discovery|chemical_element|0
+Numbers and Counting|Word Skills and Brain Games|number|1
+Calendars and Timekeeping|General Interest|calendar|0
+Paper and Papermaking|Hobbies Crafts and Pastimes|paper|0
+Plastics and Materials|Science and Discovery|plastic|0

@@ -1,0 +1,219 @@
+{
+  "schema_version": 1,
+  "status": "REVIEW_REQUIRED",
+  "groups": {
+    "Aircraft": [
+      "BLIMP"
+    ],
+    "Athletes": [
+      "LUGER"
+    ],
+    "Beverages": [
+      "BENEDICTINE",
+      "COLA",
+      "MEAD"
+    ],
+    "Birds and Birdwatching": [
+      "JAY",
+      "MINA",
+      "SEAGULL"
+    ],
+    "Books and Written Works": [
+      "GUIDEBOOK"
+    ],
+    "Buildings and Architecture": [
+      "BROTHEL",
+      "INN",
+      "SCHOOLHOUSE"
+    ],
+    "Ceremonies and Celebrations": [
+      "FORMALITIES"
+    ],
+    "Clocks and Timepieces": [
+      "HOURGLASS"
+    ],
+    "Clothing and Apparel": [
+      "ALB",
+      "BIKINI",
+      "GARIBALDI",
+      "PARKA",
+      "PONCHO",
+      "TUTU",
+      "ULSTER"
+    ],
+    "Coffee": [
+      "JAVA"
+    ],
+    "Colors and Hues": [
+      "BURGUNDY",
+      "PASTEL"
+    ],
+    "Containers and Storage": [
+      "ASHTRAY",
+      "CHALICE",
+      "THERMOS",
+      "VAT"
+    ],
+    "Crafts and Skilled Trades": [
+      "STITCHING"
+    ],
+    "Feelings and Emotional Vocabulary": [
+      "AMBIVALENCE",
+      "CYNICISM",
+      "CONTENTMENT",
+      "EUPHORIA",
+      "TOGETHERNESS",
+      "TREPIDATION"
+    ],
+    "Fields of Science": [
+      "ACOUSTICS",
+      "THERMODYNAMICS"
+    ],
+    "Figures of Speech": [
+      "HYPERBOLE",
+      "OXYMORON"
+    ],
+    "Food and Ingredients": [
+      "GRAHAM"
+    ],
+    "Fruits and Botanical Structures": [
+      "BARTLETT",
+      "SASKATOON"
+    ],
+    "Fungi and Mycology": [
+      "FUNGUS"
+    ],
+    "Furniture": [
+      "PEW"
+    ],
+    "Games and Play": [
+      "BOLIVIA"
+    ],
+    "Geological Formations": [
+      "AQUIFER",
+      "PIEDMONT",
+      "PLATEAU"
+    ],
+    "Geometric Shapes": [
+      "DEC",
+      "HUMP",
+      "PENTAGON",
+      "POLYGON"
+    ],
+    "Insects and Entomology": [
+      "CHRYSALIS",
+      "EPHEMERAL"
+    ],
+    "Liquor Vocabulary": [
+      "BOURBON"
+    ],
+    "Literature and Writing": [
+      "EPIC",
+      "LIMERICK",
+      "PARAPHRASE",
+      "PUT",
+      "STANZA",
+      "TANTRA"
+    ],
+    "Machines and Mechanisms": [
+      "PHONOGRAPH",
+      "TYPEWRITER"
+    ],
+    "Mammals and Wildlife": [
+      "DOE"
+    ],
+    "Measurements and Units": [
+      "ARE",
+      "CALORIE"
+    ],
+    "Meat and Cuts": [
+      "WIENER"
+    ],
+    "Mechanical Fasteners": [
+      "GASKET"
+    ],
+    "Merchants and Retail": [
+      "TRADESMAN"
+    ],
+    "Music and Musical Forms": [
+      "COUNTERPOINT"
+    ],
+    "Musical Instruments": [
+      "SAX",
+      "TAMBOURINE"
+    ],
+    "Musicians": [
+      "SOLOIST",
+      "VOCALIST"
+    ],
+    "Organizations and Community": [
+      "COASTGUARD",
+      "MEN"
+    ],
+    "Pastries": [
+      "QUICHE"
+    ],
+    "Plants and Botany": [
+      "CACTUS",
+      "SUCCULENT"
+    ],
+    "Prose": [
+      "NONFICTION"
+    ],
+    "Punctuation": [
+      "HYPHEN"
+    ],
+    "Reptiles": [
+      "REPTILE"
+    ],
+    "Rock Types": [
+      "LAVA",
+      "MAGMA"
+    ],
+    "Rooms and Interior Spaces": [
+      "BOARDROOM"
+    ],
+    "Sandwiches": [
+      "BURGER"
+    ],
+    "Sheep and Wool Farming": [
+      "EWE"
+    ],
+    "Skilled Workers": [
+      "CARTWRIGHT",
+      "SEXTON",
+      "THATCHER"
+    ],
+    "Software Vocabulary": [
+      "TROJAN"
+    ],
+    "Textiles and Fabrics": [
+      "MADRAS",
+      "MARSEILLE",
+      "SILESIA",
+      "TEXTILE"
+    ],
+    "Tools and Workshop Equipment": [
+      "SLEDGEHAMMER"
+    ],
+    "Vegetables": [
+      "SAVOY",
+      "TABASCO"
+    ],
+    "Watercraft and Boats": [
+      "BARGE"
+    ],
+    "Wine Vocabulary": [
+      "MACON"
+    ],
+    "Words and Linguistic Forms": [
+      "PLURAL",
+      "PRONOUN"
+    ],
+    "Workers and Trades": [
+      "HERDER",
+      "PITMAN",
+      "PROSPECTOR"
+    ]
+  }
+}

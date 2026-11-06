@@ -1,0 +1,72 @@
+{
+  "selected_campaign": "phase2_definition_niches_20261101_v3",
+  "canonical_records_schema_validated": 44,
+  "unique_candidates": 44,
+  "niche_groups": 29,
+  "prior_campaign_overlap": 0,
+  "current_campaign_files_skipped": 6,
+  "source_hashes_rechecked": 23,
+  "source_and_protected_approval_hashes_unchanged": true,
+  "all_topics_proposed": true,
+  "all_editorial_statuses_pending_review": true,
+  "definition_gloss_synset_matches": 44,
+  "editorial_review_items": [
+    {
+      "words": [
+        "ALB",
+        "CHALICE",
+        "PEW"
+      ],
+      "issue": "Religious objects/clothing are legitimate lexical senses, but home_household is broad; faith/cultural context and respectful audience fit require review."
+    },
+    {
+      "words": [
+        "HOURGLASS"
+      ],
+      "issue": "Clocks and Timepieces niche is defensible; inherited sports_hobbies parent is weak and needs reassignment review."
+    },
+    {
+      "words": [
+        "BOARDROOM"
+      ],
+      "issue": "Room subtype is valid; home_household parent is weak for corporate context."
+    },
+    {
+      "words": [
+        "MINA"
+      ],
+      "issue": "WordNet bird spelling is an uncommon variant; audience familiarity and spelling preference need editorial decision."
+    },
+    {
+      "words": [
+        "CHRYSALIS"
+      ],
+      "issue": "Inherited WordNet gloss uses cocoon wording; must not reuse as a verified butterfly fact without external entomology review."
+    },
+    {
+      "words": [
+        "COASTGUARD"
+      ],
+      "issue": "Combined spelling and military-service sense need regional/organizational naming review."
+    },
+    {
+      "words": [
+        "LAVA",
+        "MAGMA"
+      ],
+      "issue": "Rock Types niche includes molten material; group label/context needs geological accuracy review."
+    },
+    {
+      "words": [
+        "FORMALITIES"
+      ],
+      "issue": "Etiquette/custom is not necessarily a holiday celebration; inherited holiday_seasonal_life topic fit requires context."
+    }
+  ],
+  "approved_count": 0,
+  "limits": [
+    "Definition provenance proves source correspondence, not factual endorsement or audience/topic suitability.",
+    "Current campaign versions intentionally do not exclude one another; v3 supersedes v1/v2 rather than adding44 approvals.",
+    "44 new means new relative to pre-phase2 candidate campaigns, not new to preserved v1 experiment."
+  ]
+}

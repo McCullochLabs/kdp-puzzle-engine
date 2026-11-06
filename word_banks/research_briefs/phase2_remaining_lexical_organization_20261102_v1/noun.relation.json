@@ -1,0 +1,127 @@
+{
+  "schema_version": 1,
+  "research_status": "REVIEW_REQUIRED_NOT_APPROVED",
+  "lexical_review_group": "noun.relation",
+  "records": [
+    {
+      "normalized": "ALT",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "ALT",
+          "synset": "n:13836550",
+          "lexical_category": "noun.relation",
+          "definition": "angular distance above the horizon (especially of a celestial object)"
+        }
+      ],
+      "candidate_categories": [
+        "noun.relation"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    },
+    {
+      "normalized": "ESE",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "ESE",
+          "synset": "n:13832599",
+          "lexical_category": "noun.relation",
+          "definition": "the compass point midway between east and southeast"
+        }
+      ],
+      "candidate_categories": [
+        "noun.relation"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    },
+    {
+      "normalized": "HORIZONTAL",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "horizontal",
+          "synset": "n:13828681",
+          "lexical_category": "noun.relation",
+          "definition": "something that is oriented horizontally"
+        }
+      ],
+      "candidate_categories": [
+        "noun.relation"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    },
+    {
+      "normalized": "KINSHIP",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "kinship",
+          "synset": "n:13811410",
+          "lexical_category": "noun.relation",
+          "definition": "a close connection marked by community of interests or similarity in nature or character; \"found a natural affinity with the immigrants\"; \"felt a deep kinship with the other students\"; \"anthropology's kinship with the humanities\""
+        },
+        {
+          "lemma": "kinship",
+          "synset": "n:13812607",
+          "lexical_category": "noun.relation",
+          "definition": "(anthropology) relatedness or connection by blood or marriage or adoption"
+        }
+      ],
+      "candidate_categories": [
+        "noun.relation"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    },
+    {
+      "normalized": "RAPPORT",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "rapport",
+          "synset": "n:13811740",
+          "lexical_category": "noun.relation",
+          "definition": "a relationship of mutual understanding or trust and agreement between people"
+        }
+      ],
+      "candidate_categories": [
+        "noun.relation"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    },
+    {
+      "normalized": "SYMBIOSIS",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "symbiosis",
+          "synset": "n:13842622",
+          "lexical_category": "noun.relation",
+          "definition": "the relation between two different species of organisms that are interdependent; each gains benefits from the other"
+        }
+      ],
+      "candidate_categories": [
+        "noun.relation"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    }
+  ]
+}

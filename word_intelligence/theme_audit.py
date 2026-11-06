@@ -310,9 +310,14 @@ def audit_theme(theme_data: dict, theme_file: str, store, taxonomy,
     # Mark repeats (same word used multiple times inside one theme).
     # Keep-first semantics: the first occurrence keeps its original status;
     # every later occurrence is reported as a duplicate finding.
+    from publishing.repetition_policy import requested as repetition_requested, evaluate as evaluate_repetition
+    repetition = evaluate_repetition(theme_data) if repetition_requested(theme_data) else None
+    bounded_repetition = bool(repetition and repetition["passed"])
+    if bounded_repetition:
+        report.notes.append("Approved collection repetition limits passed; every occurrence still retains its topic/safety classification.")
     seen_once: set[str] = set()
     for norm, count in seen_norms.items():
-        if count > 1 and norm in findings_by_norm:
+        if count > 1 and norm in findings_by_norm and not bounded_repetition:
             dup = findings_by_norm[norm]
             dup.status = "duplicate"
             dup.detail = f"Used {count}x in this theme"
@@ -372,6 +377,9 @@ def audit_theme(theme_data: dict, theme_file: str, store, taxonomy,
             report.notes.append("Duplicate words inside theme")
     else:
         report.verdict = VERDICT_PASS
+    if repetition and not repetition["passed"]:
+        report.verdict = VERDICT_FAIL
+        report.notes.extend(repetition["errors"])
     return report
 
 

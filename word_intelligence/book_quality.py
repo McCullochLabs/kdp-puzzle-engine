@@ -13,6 +13,7 @@ from dataclasses import dataclass, field
 from .anchors import compatibility_closure
 from .normalization import clean_surface, split_tokens
 from .quality import PuzzleWorthiness, assess_quality
+from .records import TRUSTED, APPROVED
 
 
 # A puzzle is "coherent" when its dominant cluster supplies at least this
@@ -29,7 +30,12 @@ class BookQualityReport:
     repeated_words: int = 0          # distinct words used more than once
     max_word_reuse: int = 0
     repetition_rate: float = 0.0     # reused slots / slots
-    topic_purity: float = 1.0        # on-topic-or-compatible / graded words
+    topic_purity: float = 0.0        # on-topic-or-compatible / graded words; see coverage
+    reviewed_vocabulary: int = 0
+    reviewed_coverage: float = 0.0
+    unknown_words: list[str] = field(default_factory=list)
+    unreviewed_words: list[str] = field(default_factory=list)
+    evidence_status: str = 'insufficient evidence'
     off_topic_words: list[str] = field(default_factory=list)
     flagged_words: list[str] = field(default_factory=list)
     weak_review_words: int = 0
@@ -51,6 +57,13 @@ class BookQualityReport:
             "max_word_reuse": self.max_word_reuse,
             "repetition_rate": self.repetition_rate,
             "topic_purity": self.topic_purity,
+            "reviewed_vocabulary": self.reviewed_vocabulary,
+            "reviewed_coverage": self.reviewed_coverage,
+            "unknown_words": list(self.unknown_words),
+            "unknown_word_count": len(self.unknown_words),
+            "unreviewed_words": list(self.unreviewed_words),
+            "unreviewed_word_count": len(self.unreviewed_words),
+            "evidence_status": self.evidence_status,
             "off_topic_words": list(self.off_topic_words),
             "flagged_words": list(self.flagged_words),
             "weak_review_words": self.weak_review_words,
@@ -77,22 +90,10 @@ def _letter(fraction: float) -> str:
 
 
 def _cluster_of(topic_id: str, word: str) -> str:
-    """Cluster label helper kept local to avoid recomputing full maps."""
-    from .clusters import GENERAL_CLUSTER, SEED_CLUSTERS
-
+    """Use the same reviewed cluster mapping as the pool and production gate."""
+    from .clusters import GENERAL_CLUSTER, assign_clusters
     norm = clean_surface(word)
-    seeds = SEED_CLUSTERS.get(topic_id, {})
-    for cluster, seed_words in seeds.items():
-        if norm in {clean_surface(s) for s in seed_words}:
-            return cluster
-    toks = set(split_tokens(norm))
-    best, hits = GENERAL_CLUSTER, 0
-    for cluster, seed_words in seeds.items():
-        overlap = len(toks & {t.lower() for s in seed_words
-                              for t in split_tokens(clean_surface(s))})
-        if overlap > hits:
-            best, hits = cluster, overlap
-    return best
+    return assign_clusters(None, None, topic_id, [word]).get(norm, GENERAL_CLUSTER)
 
 
 def score_book(store, taxonomy, topic_id: str, puzzles: list[list[str]],
@@ -103,7 +104,7 @@ def score_book(store, taxonomy, topic_id: str, puzzles: list[list[str]],
     report = BookQualityReport(topic_id=resolved)
     report.puzzles = len(puzzles)
 
-    flat: list[str] = [w for p in puzzles for w in p]
+    flat: list[str] = [clean_surface(w) for p in puzzles for w in p]
     report.word_slots = len(flat)
     if not flat:
         report.hard_failures.append("Book contains no puzzles")
@@ -125,6 +126,7 @@ def score_book(store, taxonomy, topic_id: str, puzzles: list[list[str]],
     for word in sorted(counts):
         record = store.get(word)
         if record is None:
+            report.unknown_words.append(word)
             continue                      # unknown -> not graded here
         if record.safety_review or record.trademark_review:
             report.flagged_words.append(word)
@@ -132,7 +134,10 @@ def score_book(store, taxonomy, topic_id: str, puzzles: list[list[str]],
         quality = assess_quality(record)
         if quality.worthiness == PuzzleWorthiness.REVIEW:
             weakish += 1
-        links = {l.topic_id for l in record.topics}
+        links = {l.topic_id for l in record.topics if l.status in (TRUSTED,APPROVED)}
+        if not links:
+            report.unreviewed_words.append(word)
+            continue
         graded += 1
         if resolved in links or (links & compatible):
             on_topic += 1
@@ -142,7 +147,11 @@ def score_book(store, taxonomy, topic_id: str, puzzles: list[list[str]],
                 report.off_topic_words.append(word)
     if graded:
         report.topic_purity = round(on_topic / graded, 4)
-    report.weak_review_words = weakish
+    report.reviewed_vocabulary = graded
+    report.reviewed_coverage = round(graded / len(counts), 4)
+    report.evidence_status = 'sufficient coverage' if report.reviewed_coverage >= .95 else 'insufficient evidence'
+    if report.reviewed_coverage < .95:
+        report.warnings.append(f'Insufficient evidence: {report.reviewed_coverage:.0%} vocabulary reviewed; {len(report.unknown_words)} unknown and {len(report.unreviewed_words)} unreviewed word(s).')
     report.weak_review_words = weakish
 
     # Subtopic spread + balance (spec PART S).
@@ -202,4 +211,6 @@ def score_book(store, taxonomy, topic_id: str, puzzles: list[list[str]],
     score -= (1.0 - report.topic_purity) * 0.8
     score -= report.repetition_rate * 0.3
     report.overall = _letter(max(0.0, min(1.0, score)))
+    if report.evidence_status == 'insufficient evidence':
+        report.overall = 'Unverified'
     return report

@@ -63,7 +63,7 @@ def test_trademark_terms_require_review():
 
 def test_length_bounds_exclude():
     assert assess_quality(_rec("AB", 4.0)).worthiness == PuzzleWorthiness.EXCLUDE
-    long_word = "A" * 19
+    long_word = "A" * 22
     assert assess_quality(_rec(long_word, 4.0)).worthiness == PuzzleWorthiness.EXCLUDE
 
 

@@ -111,10 +111,16 @@ The primary components of the codebase include:
 - **[`preflight.py`](file:///C:/Users/jorda/Desktop/Word%20Search%20Creator/kdp-puzzle-engine/preflight.py):** KDP print compliance validator.
 - **[`project_checks.py`](file:///C:/Users/jorda/Desktop/Word%20Search%20Creator/kdp-puzzle-engine/project_checks.py):** Whole-project catalog and theme JSON validator.
 - **[`publishing/`](file:///C:/Users/jorda/Desktop/Word%20Search%20Creator/kdp-puzzle-engine/publishing):** Multi-marketplace management system, SQLite catalog database (`data/books.db`), and Etsy bundle tools.
+- **`publishing/activity_packs.py` / `publishing/activity_pack_ui.py`:** Local printable activity-pack generation and guided Tkinter dialog, separate from commercial-book production gates.
+- **`publishing/family_studio.py` / `publishing/studio_assistant.py`:** Family-facing navigation and bounded request interpretation; `studio_providers.py` shares validation across managed ChatGPT-authenticated Codex (`studio_codex.py`), loopback Ollama, and Guide; existing generators, cover approvals, catalog, and publishing gates remain authoritative.
+- **`publishing/studio_cover_audit.py`, `studio_theme_recipes.py`:** Read-only measured/visual saved-cover reviews and explicit composite-group recipes/alternatives; no artwork approvals or source-bank writes.
+- **`publishing/studio_recovery.py`, `studio_preview.py`, `studio_health.py`:** Versioned unfinished forms in the canonical catalog DB, actual PDF/image previews, and read-only readiness evidence. `tools/check_studio.py` provides the HP/Ollama diagnostic entry point.
 - **[`publish_tools/`](file:///C:/Users/jorda/Desktop/Word%20Search%20Creator/kdp-puzzle-engine/publish_tools):** Chrome DevTools Protocol (CDP) browser automation utilities.
 - **[`themes/`](file:///C:/Users/jorda/Desktop/Word%20Search%20Creator/kdp-puzzle-engine/themes):** Structured word-search theme JSON library organized by categories.
 - **[`word_banks/`](file:///C:/Users/jorda/Desktop/Word%20Search%20Creator/kdp-puzzle-engine/word_banks):** Master vocabulary database, DWYL dictionary source data, and content libraries.
 - **[`tests/`](file:///C:/Users/jorda/Desktop/Word%20Search%20Creator/kdp-puzzle-engine/tests):** Automated Pytest test suite.
+
+- **`phone_studio.py`, `publishing/phone_web/`:** Loopback-only family pack workspace; checked planning through `studio_pack_planning.py`, persistent additive project/job tables and worker in `phone_pack_service.py`, actual previews/downloads, explicit bounded Codex assistance. No phone/network exposure or publishing actions. See `docs/PHONE_STUDIO_WORKFLOW.md`.
 
 *Update this section if new major modules or sub-packages are added.*
 
@@ -169,3 +175,10 @@ This software is a practical, everyday publishing production tool for the user. 
 **The user's explicit current instructions always take precedence over this document.**
 
 If a requested change appears to conflict with one of these protective guidelines, explain the technical context and trade-off clearly before proceeding rather than silently ignoring the user's intent.
+
+
+
+
+Chat integration services: `publishing/studio_chat_creation.py` owns confirmed local creation; `studio_chat_families.py` adapts supported non-Sudoku plans; `studio_chat_revisions.py` and `studio_revision_adoption.py` stage/adopt owned Sudoku changes with original preservation. `studio_theme_catalog.py` provides exact full-content identities and retained source aliases; `studio_project_queries.py` resolves read-only selected-project status and previews. Existing art/content/publishing gates remain authoritative.
+
+`studio_session.py` stores bounded conversation snapshots in existing completed recovery rows and restores canonical book IDs/pending decisions without action replay. `studio_chat_wordsearch.py` adapts checked groups to the unchanged gated Word Search pipeline; `studio_holiday_reuse.py` explicitly reuses the fixed existing holiday candidate after fresh QA without generating a duplicate. Custom hybrid recipes remain unsupported.

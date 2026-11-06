@@ -1,0 +1,469 @@
+{
+  "schema_version": 1,
+  "research_status": "REVIEW_REQUIRED_NOT_APPROVED",
+  "lexical_review_group": "noun.substance",
+  "records": [
+    {
+      "normalized": "ABS",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "ABS",
+          "synset": "n:14592028",
+          "lexical_category": "noun.substance",
+          "definition": "any of a class of composite plastics used to make car bodies and cases for computers and other appliances"
+        }
+      ],
+      "candidate_categories": [
+        "noun.substance"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    },
+    {
+      "normalized": "ADA",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "ADA",
+          "synset": "n:14707361",
+          "lexical_category": "noun.substance",
+          "definition": "an enzyme found in mammals that can catalyze the deamination of adenosine into inosine and ammonia; \"ADA deficiency can lead to one form of severe combined immunodeficiency disease\"; \"the gene encoding ADA was one of the earlier human genes to be isolated and cloned for study\""
+        }
+      ],
+      "candidate_categories": [
+        "noun.substance"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    },
+    {
+      "normalized": "ANDROGEN",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "androgen",
+          "synset": "n:14747587",
+          "lexical_category": "noun.substance",
+          "definition": "male sex hormone that is produced in the testes and responsible for typical male sexual characteristics"
+        }
+      ],
+      "candidate_categories": [
+        "noun.substance"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    },
+    {
+      "normalized": "ASPHALT",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "asphalt",
+          "synset": "n:14667455",
+          "lexical_category": "noun.substance",
+          "definition": "a dark bituminous substance found in natural beds and as residue from petroleum distillation; consists mainly of hydrocarbons"
+        },
+        {
+          "lemma": "asphalt",
+          "synset": "n:14769465",
+          "lexical_category": "noun.substance",
+          "definition": "mixed asphalt and crushed gravel or sand; used especially for paving but also for roofing"
+        }
+      ],
+      "candidate_categories": [
+        "noun.substance"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    },
+    {
+      "normalized": "CAUSTIC",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "caustic",
+          "synset": "n:15014529",
+          "lexical_category": "noun.substance",
+          "definition": "any chemical substance that burns or destroys living tissue"
+        }
+      ],
+      "candidate_categories": [
+        "noun.substance"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    },
+    {
+      "normalized": "DDT",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "DDT",
+          "synset": "n:14599938",
+          "lexical_category": "noun.substance",
+          "definition": "an insecticide that is also toxic to animals and humans; banned in the United States since 1972"
+        }
+      ],
+      "candidate_categories": [
+        "noun.substance"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    },
+    {
+      "normalized": "ESTROGEN",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "estrogen",
+          "synset": "n:14749794",
+          "lexical_category": "noun.substance",
+          "definition": "a general term for female steroid sex hormones that are secreted by the ovary and responsible for typical female sexual characteristics"
+        }
+      ],
+      "candidate_categories": [
+        "noun.substance"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    },
+    {
+      "normalized": "FIBERGLASS",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "fiberglass",
+          "synset": "n:14866769",
+          "lexical_category": "noun.substance",
+          "definition": "a covering material made of glass fibers in resins"
+        }
+      ],
+      "candidate_categories": [
+        "noun.substance"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    },
+    {
+      "normalized": "INSULATOR",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "insulator",
+          "synset": "n:14821590",
+          "lexical_category": "noun.substance",
+          "definition": "a material such as glass or porcelain with negligible electrical or thermal conductivity"
+        }
+      ],
+      "candidate_categories": [
+        "noun.substance"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    },
+    {
+      "normalized": "KENDAL",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "Kendal",
+          "synset": "n:14988961",
+          "lexical_category": "noun.substance",
+          "definition": "a green dye, often used to color cloth, which is obtained from the woad plant"
+        }
+      ],
+      "candidate_categories": [
+        "noun.substance"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    },
+    {
+      "normalized": "KLEENEX",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "Kleenex",
+          "synset": "n:14928008",
+          "lexical_category": "noun.substance",
+          "definition": "a piece of soft absorbent paper (usually two or more thin layers) used as a disposable handkerchief"
+        }
+      ],
+      "candidate_categories": [
+        "noun.substance"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    },
+    {
+      "normalized": "LAVA",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "lava",
+          "synset": "n:14930989",
+          "lexical_category": "noun.substance",
+          "definition": "rock that in its molten form (as magma) issues from volcanos; lava is what magma is called when it reaches the surface"
+        }
+      ],
+      "candidate_categories": [
+        "noun.substance"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    },
+    {
+      "normalized": "MAGMA",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "magma",
+          "synset": "n:14931795",
+          "lexical_category": "noun.substance",
+          "definition": "molten rock in the earth's crust"
+        }
+      ],
+      "candidate_categories": [
+        "noun.substance"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    },
+    {
+      "normalized": "NAD",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "NAD",
+          "synset": "n:14962612",
+          "lexical_category": "noun.substance",
+          "definition": "a coenzyme present in most living cells and derived from the B vitamin nicotinic acid; serves as a reductant in various metabolic processes"
+        }
+      ],
+      "candidate_categories": [
+        "noun.substance"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    },
+    {
+      "normalized": "PFC",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "PFC",
+          "synset": "n:14979132",
+          "lexical_category": "noun.substance",
+          "definition": "a powerful greenhouse gas emitted during the production of aluminum"
+        }
+      ],
+      "candidate_categories": [
+        "noun.substance"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    },
+    {
+      "normalized": "POLYMER",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "polymer",
+          "synset": "n:14994328",
+          "lexical_category": "noun.substance",
+          "definition": "a naturally occurring or synthetic compound consisting of large molecules made up of a linked series of repeated simple monomers"
+        }
+      ],
+      "candidate_categories": [
+        "noun.substance"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    },
+    {
+      "normalized": "PRECIPITATE",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "precipitate",
+          "synset": "n:14591635",
+          "lexical_category": "noun.substance",
+          "definition": "a precipitated solid substance in suspension or after settling or filtering"
+        }
+      ],
+      "candidate_categories": [
+        "noun.substance"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    },
+    {
+      "normalized": "PROGESTERONE",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "progesterone",
+          "synset": "n:14746048",
+          "lexical_category": "noun.substance",
+          "definition": "a steroid hormone (trade name Lipo-Lutin) produced in the ovary; prepares and maintains the uterus for pregnancy"
+        }
+      ],
+      "candidate_categories": [
+        "noun.substance"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    },
+    {
+      "normalized": "SALTWATER",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "saltwater",
+          "synset": "n:15008847",
+          "lexical_category": "noun.substance",
+          "definition": "water containing salts; \"the water in the ocean is all saltwater\""
+        }
+      ],
+      "candidate_categories": [
+        "noun.substance"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    },
+    {
+      "normalized": "SANDPAPER",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "sandpaper",
+          "synset": "n:14849880",
+          "lexical_category": "noun.substance",
+          "definition": "stiff paper coated with powdered emery or sand"
+        }
+      ],
+      "candidate_categories": [
+        "noun.substance"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    },
+    {
+      "normalized": "STYROFOAM",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "Styrofoam",
+          "synset": "n:14595933",
+          "lexical_category": "noun.substance",
+          "definition": "a light resilient foam of polystyrene"
+        }
+      ],
+      "candidate_categories": [
+        "noun.substance"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    },
+    {
+      "normalized": "TEFLON",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "Teflon",
+          "synset": "n:14596398",
+          "lexical_category": "noun.substance",
+          "definition": "a material used to coat cooking utensils and in industrial applications where sticking is to be avoided"
+        }
+      ],
+      "candidate_categories": [
+        "noun.substance"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    },
+    {
+      "normalized": "THUS",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "thus",
+          "synset": "n:14873951",
+          "lexical_category": "noun.substance",
+          "definition": "an aromatic gum resin obtained from various Arabian or East African trees; formerly valued for worship and for embalming and fumigation"
+        }
+      ],
+      "candidate_categories": [
+        "noun.substance"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    },
+    {
+      "normalized": "TURD",
+      "status": "pending_sense_and_editorial_review",
+      "source_noun_senses": [
+        {
+          "lemma": "turd",
+          "synset": "n:14854581",
+          "lexical_category": "noun.substance",
+          "definition": "obscene terms for feces"
+        }
+      ],
+      "candidate_categories": [
+        "noun.substance"
+      ],
+      "existing_gate_flags": {
+        "trademark_review": false,
+        "safety_review": false
+      }
+    }
+  ]
+}

@@ -1,0 +1,231 @@
+{
+  "schema_version": 1,
+  "research_status": "REVIEW_REQUIRED_NOT_APPROVED",
+  "group": "noun.person",
+  "records": [
+    {
+      "normalized": "AE",
+      "status": "pending_context_and_editorial_review",
+      "candidate_categories": [
+        "noun.person"
+      ],
+      "source_senses": [
+        {
+          "lemma": "A.E.",
+          "synset": "noun:11275035",
+          "part_of_speech": "noun",
+          "lexical_category": "noun.person",
+          "definition": "Irish writer whose pen name was A.E. (1867-1935)",
+          "match_type": "exact_normalized_source_lemma"
+        }
+      ]
+    },
+    {
+      "normalized": "BEAUX",
+      "status": "pending_context_and_editorial_review",
+      "candidate_categories": [
+        "noun.person"
+      ],
+      "source_senses": [
+        {
+          "lemma": "beau",
+          "synset": "noun:09871364",
+          "part_of_speech": "noun",
+          "lexical_category": "noun.person",
+          "definition": "a man who is the lover of a girl or young woman; \"if I'd known he was her boyfriend I wouldn't have asked\"",
+          "match_type": "attested_WordNet_exception",
+          "inflected_source_word": "BEAUX"
+        },
+        {
+          "lemma": "beau",
+          "synset": "noun:09991026",
+          "part_of_speech": "noun",
+          "lexical_category": "noun.person",
+          "definition": "a man who is much concerned with his dress and appearance",
+          "match_type": "attested_WordNet_exception",
+          "inflected_source_word": "BEAUX"
+        }
+      ]
+    },
+    {
+      "normalized": "DP",
+      "status": "pending_context_and_editorial_review",
+      "candidate_categories": [
+        "noun.person"
+      ],
+      "source_senses": [
+        {
+          "lemma": "DP",
+          "synset": "noun:10017890",
+          "part_of_speech": "noun",
+          "lexical_category": "noun.person",
+          "definition": "a person forced to flee from home or country",
+          "match_type": "exact_normalized_source_lemma"
+        }
+      ]
+    },
+    {
+      "normalized": "DR",
+      "status": "pending_context_and_editorial_review",
+      "candidate_categories": [
+        "noun.person"
+      ],
+      "source_senses": [
+        {
+          "lemma": "Dr.",
+          "synset": "noun:10020890",
+          "part_of_speech": "noun",
+          "lexical_category": "noun.person",
+          "definition": "a licensed medical practitioner; \"I felt so bad I went to see my doctor\"",
+          "match_type": "exact_normalized_source_lemma"
+        },
+        {
+          "lemma": "Dr.",
+          "synset": "noun:10021892",
+          "part_of_speech": "noun",
+          "lexical_category": "noun.person",
+          "definition": "a person who holds Ph.D. degree (or the equivalent) from an academic institution; \"she is a doctor of philosophy in physics\"",
+          "match_type": "exact_normalized_source_lemma"
+        }
+      ]
+    },
+    {
+      "normalized": "EA",
+      "status": "pending_context_and_editorial_review",
+      "candidate_categories": [
+        "noun.person"
+      ],
+      "source_senses": [
+        {
+          "lemma": "Ea",
+          "synset": "noun:09517628",
+          "part_of_speech": "noun",
+          "lexical_category": "noun.person",
+          "definition": "the Babylonian god of wisdom; son of Apsu and father of Marduk; counterpart of the Sumerian Enki; as one of the supreme triad including Anu and Bel he was assigned control of the watery element",
+          "match_type": "exact_normalized_source_lemma"
+        }
+      ]
+    },
+    {
+      "normalized": "FO",
+      "status": "pending_context_and_editorial_review",
+      "candidate_categories": [
+        "noun.person"
+      ],
+      "source_senses": [
+        {
+          "lemma": "FO",
+          "synset": "noun:10087080",
+          "part_of_speech": "noun",
+          "lexical_category": "noun.person",
+          "definition": "an officer holding the rank of major or lieutenant colonel or colonel",
+          "match_type": "exact_normalized_source_lemma"
+        }
+      ]
+    },
+    {
+      "normalized": "GP",
+      "status": "pending_context_and_editorial_review",
+      "candidate_categories": [
+        "noun.person"
+      ],
+      "source_senses": [
+        {
+          "lemma": "GP",
+          "synset": "noun:10126009",
+          "part_of_speech": "noun",
+          "lexical_category": "noun.person",
+          "definition": "a physician who is not a specialist but treats all illnesses",
+          "match_type": "exact_normalized_source_lemma"
+        }
+      ]
+    },
+    {
+      "normalized": "GRANDCHILDREN",
+      "status": "pending_context_and_editorial_review",
+      "candidate_categories": [
+        "noun.person"
+      ],
+      "source_senses": [
+        {
+          "lemma": "grandchild",
+          "synset": "noun:10141590",
+          "part_of_speech": "noun",
+          "lexical_category": "noun.person",
+          "definition": "a child of your son or daughter",
+          "match_type": "attested_WordNet_exception",
+          "inflected_source_word": "GRANDCHILDREN"
+        }
+      ]
+    },
+    {
+      "normalized": "KA",
+      "status": "pending_context_and_editorial_review",
+      "candidate_categories": [
+        "noun.person"
+      ],
+      "source_senses": [
+        {
+          "lemma": "Ka",
+          "synset": "noun:09526606",
+          "part_of_speech": "noun",
+          "lexical_category": "noun.person",
+          "definition": "unknown god; an epithet of Prajapati and Brahma",
+          "match_type": "exact_normalized_source_lemma"
+        }
+      ]
+    },
+    {
+      "normalized": "UX",
+      "status": "pending_context_and_editorial_review",
+      "candidate_categories": [
+        "noun.person"
+      ],
+      "source_senses": [
+        {
+          "lemma": "ux.",
+          "synset": "noun:10743941",
+          "part_of_speech": "noun",
+          "lexical_category": "noun.person",
+          "definition": "(legal terminology) the Latin word for wife",
+          "match_type": "exact_normalized_source_lemma"
+        }
+      ]
+    },
+    {
+      "normalized": "VP",
+      "status": "pending_context_and_editorial_review",
+      "candidate_categories": [
+        "noun.person"
+      ],
+      "source_senses": [
+        {
+          "lemma": "V.P.",
+          "synset": "noun:10751265",
+          "part_of_speech": "noun",
+          "lexical_category": "noun.person",
+          "definition": "an executive officer ranking immediately below a president; may serve in the president's place under certain circumstances",
+          "match_type": "exact_normalized_source_lemma"
+        }
+      ]
+    },
+    {
+      "normalized": "WEREWOLVES",
+      "status": "pending_context_and_editorial_review",
+      "candidate_categories": [
+        "noun.person"
+      ],
+      "source_senses": [
+        {
+          "lemma": "werewolf",
+          "synset": "noun:09503121",
+          "part_of_speech": "noun",
+          "lexical_category": "noun.person",
+          "definition": "a monster able to change appearance from human to wolf and back again",
+          "match_type": "attested_WordNet_exception",
+          "inflected_source_word": "WEREWOLVES"
+        }
+      ]
+    }
+  ]
+}

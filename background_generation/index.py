@@ -23,11 +23,12 @@ QUEUE_FILE = COVER_ASSETS / "background_generation_queue.json"
 LEGACY_LIBRARY_FILE = COVER_ASSETS / "background_photo_library.json"
 # Classification is only one part of the production gate.  A file is never
 # selectable merely because it happens to live in a cover-assets folder.
-APPROVED_PROVENANCE = {"APPROVED_CHATGPT_GENERATED", "APPROVED_PROJECT_GENERATED", "APPROVED_CLOUDFLARE_GENERATED"}
+APPROVED_PROVENANCE = {"APPROVED_CHATGPT_GENERATED", "APPROVED_PROJECT_GENERATED", "APPROVED_CLOUDFLARE_GENERATED", "APPROVED_GEMINI_GENERATED"}
 APPROVED_PHOTO_CLASSIFICATIONS = {"APPROVED_PROJECT_PHOTO", "APPROVED_LOCAL_PHOTO"}
 APPROVED_PROJECT_PROVIDERS = {
     "chatgpt project generation",
     "cloudflare workers ai",
+    "gemini api",
     "sladepuzzleco project generation",
 }
 
@@ -220,6 +221,23 @@ class BackgroundAssetIndex:
         )
 
     @staticmethod
+    def active_usage(row: dict) -> list[dict]:
+        """Count distinct current books, not abandoned rebuild attempts."""
+        distinct: dict[tuple[str, str], dict] = {}
+        for use in row.get("usage") or []:
+            if not isinstance(use, dict):
+                continue
+            package = str(use.get("package") or "").strip()
+            if package and not Path(package).is_dir():
+                continue
+            title = str(use.get("title") or "").strip().casefold()
+            theme = str(use.get("theme") or "").strip().casefold()
+            key = (title or package.casefold(), theme)
+            if key[0]:
+                distinct[key] = use
+        return list(distinct.values())
+
+    @staticmethod
     def _with_visual_families(rows: list[dict]) -> list[dict]:
         """Annotate candidates without mutating approval records.
 
@@ -325,7 +343,28 @@ class BackgroundAssetIndex:
         # and palette are secondary once relevance has been established.
         is_generic_topic = topic in {"", "general starter", "general knowledge & curiosity"}
         context_weight = 12 if is_generic_topic else 5
-        return (100 if exact else 0) + topic_overlap * 30 + max(0, context_overlap) * context_weight + audience_bonus
+        score = (100 if exact else 0) + topic_overlap * 30 + max(0, context_overlap) * context_weight + audience_bonus
+        # A broad pets image can be useful for a general pet collection, but
+        # it must not outrank species-specific artwork for a dog- or cat-led
+        # title. This also protects future routes that share one broad theme.
+        wants_dog = bool(tokens & {"dog", "dogs", "canine", "puppy"})
+        wants_cat = bool(tokens & {"cat", "cats", "feline", "kitten"})
+        has_dog = bool(tag_tokens & {"dog", "dogs", "canine", "puppy"})
+        has_cat = bool(tag_tokens & {"cat", "cats", "feline", "kitten"})
+        if wants_dog and not wants_cat and has_cat:
+            score -= 50
+        if wants_cat and not wants_dog and has_dog:
+            score -= 50
+        # A road landscape alone is weaker evidence than the named vehicle
+        # subject in a classic-car book, even when both mention travel.
+        vehicles = {"car", "cars", "vehicle", "vehicles", "automotive", "truck", "trucks", "automobile", "automobiles"}
+        if tokens & vehicles and not tag_tokens & vehicles:
+            score -= 60
+        risque_request = bool(tokens & {"naughty","kinky","swear","swearing","cuss","cussing","profanity","raunchy","risque"}) or {"sex","toys"}.issubset(tokens)
+        adult_visuals = {"naughty","kinky","swear","swearing","profanity","risque","raunchy","cocktail","cocktails","bar","nightlife","afterhours","lingerie","boudoir","masquerade"}
+        if risque_request and not tag_tokens & adult_visuals:
+            score -= 100  # An "adult" audience tag alone is not a matching theme.
+        return score
 
     def production_choices(self, data: dict, limit: int | None = None) -> list[dict]:
         """Return only meaningfully matched, approved project backgrounds.
@@ -337,6 +376,9 @@ class BackgroundAssetIndex:
         brief = self.cover_brief(data)
         scored: list[tuple[int, int, dict]] = []
         for row in self.assets():
+            # A finished, owner-approved cover is valid for wrap reuse, not a background for new titles.
+            if row.get("asset_role") == "finished_front_cover":
+                continue
             if not self.production_selectable(row):
                 continue
             if not (ROOT / str(row.get("path") or "")).is_file():
@@ -344,14 +386,14 @@ class BackgroundAssetIndex:
             relevance = self._topic_score(row, brief)
             if relevance < 12:
                 continue
-            recent_uses = len(row.get("usage") or [])
+            recent_uses = len(self.active_usage(row))
             score = relevance - min(recent_uses, 10) * 3
             scored.append((score, relevance, row))
         scored.sort(key=lambda item: (-item[0], -item[1], str(item[2].get("name", "")).casefold()))
         rows = [{**row, "match_score": score, "topic_match_score": relevance, "file": row["path"],
-                 "times_used_total": len(row.get("usage") or []),
-                 "times_used_same_topic": sum(str(use.get("theme") or "").casefold() == str(brief.get("topic") or "").casefold() for use in row.get("usage") or []),
-                 "times_used_same_puzzle_type": sum(str(brief.get("puzzle_type") or "").casefold() in str(use.get("title") or "").casefold() for use in row.get("usage") or [])}
+                 "times_used_total": len(self.active_usage(row)),
+                 "times_used_same_topic": sum(str(use.get("theme") or "").casefold() == str(brief.get("topic") or "").casefold() for use in self.active_usage(row)),
+                 "times_used_same_puzzle_type": sum(str(brief.get("puzzle_type") or "").casefold() in str(use.get("title") or "").casefold() for use in self.active_usage(row))}
                 for score, relevance, row in scored]
         rows = self._with_visual_families(rows)
         return rows if limit is None else rows[:limit]
@@ -493,7 +535,7 @@ def require_production_approved_cover_asset(path: Path | str | None, *, index: B
     allowed, reason, row = active.eligibility(path)
     if not allowed:
         raise CoverAssetApprovalError(
-            "COVER ART REQUIRED — production stopped because the selected background is " + reason +
+            "COVER ART REQUIRED â€” production stopped because the selected background is " + reason +
             ". Choose an approved asset or review pending artwork."
         )
     return row or {}

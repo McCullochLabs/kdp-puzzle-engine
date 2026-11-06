@@ -1,5 +1,6 @@
 """Phase 1 safety tests: protected statuses, audit trail, persisted errors."""
 import json
+import os
 import sqlite3
 import sys
 from pathlib import Path
@@ -11,6 +12,23 @@ sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
 from publishing.database import PROTECTED_STATUSES, PublishingDatabase
 from publishing.manager import PublishingService
 from publishing.marketplaces import PUBLISHERS
+def test_new_rebuild_replaces_locally_ready_draft_but_not_uploaded_book(tmp_path):
+    database = PublishingDatabase(tmp_path / "catalog.db")
+    old, new = tmp_path / "old_package", tmp_path / "new_package"
+    old.mkdir(); new.mkdir()
+    os.utime(old, (1000, 1000)); os.utime(new, (2000, 2000))
+    for book_id, folder in (("old", old), ("new", new)):
+        database.upsert_book(book_id, "package:" + str(folder), {"title": "Into the Woods Sudoku"}, str(folder))
+    database.transition_status("old", "amazon", "Ready", source="prepare")
+    assert database.prune_duplicate_unpublished_package_titles() == 1
+    assert database.get_book("old") is None
+    assert database.get_book("new") is not None
+
+    database.upsert_book("old", "package:" + str(old), {"title": "Into the Woods Sudoku"}, str(old))
+    database.transition_status("old", "amazon", "Uploaded", external_id="B0LIVE", source="manual")
+    assert database.prune_duplicate_unpublished_package_titles() == 1
+    assert database.get_book("old") is not None
+    assert database.get_book("new") is None
 
 
 def _theme(tmp_path: Path) -> Path:

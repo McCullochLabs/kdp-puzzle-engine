@@ -1,0 +1,9 @@
+{
+  "canonical_records_validated": 33,
+  "unique_niches": 21,
+  "prior_campaign_overlap": 0,
+  "semantic_holds": 11,
+  "protected_source_hashes_rechecked": 23,
+  "approval_changes": 0,
+  "status": "REVIEW_REQUIRED; NO PRODUCTION PROMOTION"
+}

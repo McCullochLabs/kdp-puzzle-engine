@@ -1,0 +1,1502 @@
+{
+  "date": "2026-10-22",
+  "runtime": "CPython 3.13.15 64-bit",
+  "isolated_run_original_totals": {
+    "passed": 1007,
+    "failed": 19,
+    "skipped": 1,
+    "error": 0
+  },
+  "effective_totals_after_recorded_reruns": {
+    "passed": 1011,
+    "failed": 18,
+    "skipped": 1,
+    "error": 0
+  },
+  "modules_completed": 120,
+  "modules": [
+    {
+      "module": "test_accessible_wordsearch.py",
+      "exit_code": 0,
+      "counts": {
+        "passed": 10,
+        "failed": 0,
+        "skipped": 0,
+        "error": 0
+      },
+      "failures": [],
+      "native_crash": false
+    },
+    {
+      "module": "test_activity_pack_ui.py",
+      "exit_code": 0,
+      "counts": {
+        "passed": 6,
+        "failed": 0,
+        "skipped": 0,
+        "error": 0
+      },
+      "failures": [],
+      "native_crash": false
+    },
+    {
+      "module": "test_activity_packs.py",
+      "exit_code": 0,
+      "counts": {
+        "passed": 21,
+        "failed": 0,
+        "skipped": 0,
+        "error": 0
+      },
+      "failures": [],
+      "native_crash": false
+    },
+    {
+      "module": "test_background_generation.py",
+      "exit_code": 0,
+      "counts": {
+        "passed": 7,
+        "failed": 0,
+        "skipped": 0,
+        "error": 0
+      },
+      "failures": [],
+      "native_crash": false
+    },
+    {
+      "module": "test_book_planning.py",
+      "exit_code": 0,
+      "counts": {
+        "passed": 19,
+        "failed": 0,
+        "skipped": 0,
+        "error": 0
+      },
+      "failures": [],
+      "native_crash": false
+    },
+    {
+      "module": "test_business_automation.py",
+      "exit_code": 0,
+      "counts": {
+        "passed": 3,
+        "failed": 0,
+        "skipped": 0,
+        "error": 0
+      },
+      "failures": [],
+      "native_crash": false
+    },
+    {
+      "module": "test_candidate_generation.py",
+      "exit_code": 1,
+      "counts": {
+        "passed": 3,
+        "failed": 1,
+        "skipped": 0,
+        "error": 0
+      },
+      "failures": [
+        "FAILED tests/test_candidate_generation.py::test_gemini_provider_is_unavailable_without_shared_credentials"
+      ],
+      "native_crash": false
+    },
+    {
+      "module": "test_capability_audit.py",
+      "exit_code": 0,
+      "counts": {
+        "passed": 2,
+        "failed": 0,
+        "skipped": 0,
+        "error": 0
+      },
+      "failures": [],
+      "native_crash": false
+    },
+    {
+      "module": "test_catalog_intelligence.py",
+      "exit_code": 0,
+      "counts": {
+        "passed": 6,
+        "failed": 0,
+        "skipped": 0,
+        "error": 0
+      },
+      "failures": [],
+      "native_crash": false
+    },
+    {
+      "module": "test_catalog_view.py",
+      "exit_code": 0,
+      "counts": {
+        "passed": 7,
+        "failed": 0,
+        "skipped": 0,
+        "error": 0
+      },
+      "failures": [],
+      "native_crash": false
+    },
+    {
+      "module": "test_codex_transport.py",
+      "exit_code": 0,
+      "counts": {
+        "passed": 8,
+        "failed": 0,
+        "skipped": 0,
+        "error": 0
+      },
+      "failures": [],
+      "native_crash": false
+    },
+    {
+      "module": "test_commercial_intelligence.py",
+      "exit_code": 0,
+      "counts": {
+        "passed": 3,
+        "failed": 0,
+        "skipped": 0,
+        "error": 0
+      },
+      "failures": [],
+      "native_crash": false
+    },
+    {
+      "module": "test_content_capacity.py",
+      "exit_code": 0,
+      "counts": {
+        "passed": 4,
+        "failed": 0,
+        "skipped": 0,
+        "error": 0
+      },
+      "failures": [],
+      "native_crash": false
+    },
+    {
+      "module": "test_content_capacity_engine.py",
+      "exit_code": 0,
+      "counts": {
+        "passed": 14,
+        "failed": 0,
+        "skipped": 0,
+        "error": 0
+      },
+      "failures": [],
+      "native_crash": false
+    },
+    {
+      "module": "test_content_contracts.py",
+      "exit_code": 0,
+      "counts": {
+        "passed": 11,
+        "failed": 0,
+        "skipped": 0,
+        "error": 0
+      },
+      "failures": [],
+      "native_crash": false
+    },
+    {
+      "module": "test_content_expansion.py",
+      "exit_code": 0,
+      "counts": {
+        "passed": 1,
+        "failed": 0,
+        "skipped": 0,
+        "error": 0
+      },
+      "failures": [],
+      "native_crash": false
+    },
+    {
+      "module": "test_cover_asset_approval_enforcement.py",
+      "exit_code": 0,
+      "counts": {
+        "passed": 9,
+        "failed": 0,
+        "skipped": 0,
+        "error": 0
+      },
+      "failures": [],
+      "native_crash": false
+    },
+    {
+      "module": "test_cover_draft_render.py",
+      "exit_code": 0,
+      "counts": {
+        "passed": 1,
+        "failed": 0,
+        "skipped": 0,
+        "error": 0
+      },
+      "failures": [],
+      "native_crash": false
+    },
+    {
+      "module": "test_cover_gallery_diversity.py",
+      "exit_code": 0,
+      "counts": {
+        "passed": 7,
+        "failed": 0,
+        "skipped": 0,
+        "error": 0
+      },
+      "failures": [],
+      "native_crash": false
+    },
+    {
+      "module": "test_cover_pipeline_routing.py",
+      "exit_code": 0,
+      "counts": {
+        "passed": 8,
+        "failed": 0,
+        "skipped": 0,
+        "error": 0
+      },
+      "failures": [],
+      "native_crash": false
+    },
+    {
+      "module": "test_cover_selection_and_review.py",
+      "exit_code": 0,
+      "counts": {
+        "passed": 10,
+        "failed": 0,
+        "skipped": 0,
+        "error": 0
+      },
+      "failures": [],
+      "native_crash": false
+    },
+    {
+      "module": "test_cryptogram_editorial_capacity.py",
+      "exit_code": 0,
+      "counts": {
+        "passed": 7,
+        "failed": 0,
+        "skipped": 0,
+        "error": 0
+      },
+      "failures": [],
+      "native_crash": false
+    },
+    {
+      "module": "test_ease_of_use.py",
+      "exit_code": 0,
+      "counts": {
+        "passed": 4,
+        "failed": 0,
+        "skipped": 0,
+        "error": 0
+      },
+      "failures": [],
+      "native_crash": false
+    },
+    {
+      "module": "test_editorial_overlay.py",
+      "exit_code": 0,
+      "counts": {
+        "passed": 6,
+        "failed": 0,
+        "skipped": 0,
+        "error": 0
+      },
+      "failures": [],
+      "native_crash": false
+    },
+    {
+      "module": "test_editorial_readiness.py",
+      "exit_code": 0,
+      "counts": {
+        "passed": 5,
+        "failed": 0,
+        "skipped": 0,
+        "error": 0
+      },
+      "failures": [],
+      "native_crash": false
+    },
+    {
+      "module": "test_editorial_review.py",
+      "exit_code": 0,
+      "counts": {
+        "passed": 2,
+        "failed": 0,
+        "skipped": 0,
+        "error": 0
+      },
+      "failures": [],
+      "native_crash": false
+    },
+    {
+      "module": "test_educational_value.py",
+      "exit_code": 0,
+      "counts": {
+        "passed": 2,
+        "failed": 0,
+        "skipped": 0,
+        "error": 0
+      },
+      "failures": [],
+      "native_crash": false
+    },
+    {
+      "module": "test_end_to_end_workflows.py",
+      "exit_code": 0,
+      "counts": {
+        "passed": 7,
+        "failed": 0,
+        "skipped": 0,
+        "error": 0
+      },
+      "failures": [],
+      "native_crash": false
+    },
+    {
+      "module": "test_expansion_campaign.py",
+      "exit_code": 0,
+      "counts": {
+        "passed": 1,
+        "failed": 0,
+        "skipped": 0,
+        "error": 0
+      },
+      "failures": [],
+      "native_crash": false
+    },
+    {
+      "module": "test_family_studio.py",
+      "exit_code": 0,
+      "counts": {
+        "passed": 18,
+        "failed": 0,
+        "skipped": 1,
+        "error": 0
+      },
+      "failures": [],
+      "native_crash": false
+    },
+    {
+      "module": "test_folder_icons.py",
+      "exit_code": 0,
+      "counts": {
+        "passed": 3,
+        "failed": 0,
+        "skipped": 0,
+        "error": 0
+      },
+      "failures": [],
+      "native_crash": false
+    },
+    {
+      "module": "test_font_utils.py",
+      "exit_code": 0,
+      "counts": {
+        "passed": 10,
+        "failed": 0,
+        "skipped": 0,
+        "error": 0
+      },
+      "failures": [],
+      "native_crash": false
+    },
+    {
+      "module": "test_guided_topic_pack_routing.py",
+      "exit_code": 0,
+      "counts": {
+        "passed": 4,
+        "failed": 0,
+        "skipped": 0,
+        "error": 0
+      },
+      "failures": [],
+      "native_crash": false
+    },
+    {
+      "module": "test_holiday_combo.py",
+      "exit_code": 0,
+      "counts": {
+        "passed": 6,
+        "failed": 0,
+        "skipped": 0,
+        "error": 0
+      },
+      "failures": [],
+      "native_crash": false
+    },
+    {
+      "module": "test_hub_universal_adoption.py",
+      "exit_code": 0,
+      "counts": {
+        "passed": 51,
+        "failed": 0,
+        "skipped": 0,
+        "error": 0
+      },
+      "failures": [],
+      "native_crash": false
+    },
+    {
+      "module": "test_integrations_phase_a.py",
+      "exit_code": 0,
+      "counts": {
+        "passed": 29,
+        "failed": 0,
+        "skipped": 0,
+        "error": 0
+      },
+      "failures": [],
+      "native_crash": false
+    },
+    {
+      "module": "test_integrations_phase_b_auth.py",
+      "exit_code": 0,
+      "counts": {
+        "passed": 18,
+        "failed": 0,
+        "skipped": 0,
+        "error": 0
+      },
+      "failures": [],
+      "native_crash": false
+    },
+    {
+      "module": "test_integrations_phase_b_draft_service.py",
+      "exit_code": 0,
+      "counts": {
+        "passed": 16,
+        "failed": 0,
+        "skipped": 0,
+        "error": 0
+      },
+      "failures": [],
+      "native_crash": false
+    },
+    {
+      "module": "test_job_queue.py",
+      "exit_code": 0,
+      "counts": {
+        "passed": 2,
+        "failed": 0,
+        "skipped": 0,
+        "error": 0
+      },
+      "failures": [],
+      "native_crash": false
+    },
+    {
+      "module": "test_legacy_routes.py",
+      "exit_code": 0,
+      "counts": {
+        "passed": 2,
+        "failed": 0,
+        "skipped": 0,
+        "error": 0
+      },
+      "failures": [],
+      "native_crash": false
+    },
+    {
+      "module": "test_listing_intelligence.py",
+      "exit_code": 0,
+      "counts": {
+        "passed": 14,
+        "failed": 0,
+        "skipped": 0,
+        "error": 0
+      },
+      "failures": [],
+      "native_crash": false
+    },
+    {
+      "module": "test_lulu_connection_ui.py",
+      "exit_code": 0,
+      "counts": {
+        "passed": 1,
+        "failed": 0,
+        "skipped": 0,
+        "error": 0
+      },
+      "failures": [],
+      "native_crash": false
+    },
+    {
+      "module": "test_lulu_credentials.py",
+      "exit_code": 0,
+      "counts": {
+        "passed": 3,
+        "failed": 0,
+        "skipped": 0,
+        "error": 0
+      },
+      "failures": [],
+      "native_crash": false
+    },
+    {
+      "module": "test_lulu_preflight.py",
+      "exit_code": 0,
+      "counts": {
+        "passed": 3,
+        "failed": 0,
+        "skipped": 0,
+        "error": 0
+      },
+      "failures": [],
+      "native_crash": false
+    },
+    {
+      "module": "test_major_improvement_stress.py",
+      "exit_code": 0,
+      "counts": {
+        "passed": 2,
+        "failed": 0,
+        "skipped": 0,
+        "error": 0
+      },
+      "failures": [],
+      "native_crash": false
+    },
+    {
+      "module": "test_manual_publishing_sheets.py",
+      "exit_code": 0,
+      "counts": {
+        "passed": 6,
+        "failed": 0,
+        "skipped": 0,
+        "error": 0
+      },
+      "failures": [],
+      "native_crash": false
+    },
+    {
+      "module": "test_market_opportunity.py",
+      "exit_code": 0,
+      "counts": {
+        "passed": 3,
+        "failed": 0,
+        "skipped": 0,
+        "error": 0
+      },
+      "failures": [],
+      "native_crash": false
+    },
+    {
+      "module": "test_marketplace_commercial_intelligence_v2.py",
+      "exit_code": 0,
+      "counts": {
+        "passed": 12,
+        "failed": 0,
+        "skipped": 0,
+        "error": 0
+      },
+      "failures": [],
+      "native_crash": false
+    },
+    {
+      "module": "test_marketplace_copy_quality.py",
+      "exit_code": 0,
+      "counts": {
+        "passed": 3,
+        "failed": 0,
+        "skipped": 0,
+        "error": 0
+      },
+      "failures": [],
+      "native_crash": false
+    },
+    {
+      "module": "test_marketplace_listing_copy.py",
+      "exit_code": 0,
+      "counts": {
+        "passed": 5,
+        "failed": 0,
+        "skipped": 0,
+        "error": 0
+      },
+      "failures": [],
+      "native_crash": false
+    },
+    {
+      "module": "test_marketplace_metadata.py",
+      "exit_code": 0,
+      "counts": {
+        "passed": 4,
+        "failed": 0,
+        "skipped": 0,
+        "error": 0
+      },
+      "failures": [],
+      "native_crash": false
+    },
+    {
+      "module": "test_mixed_theme_routing.py",
+      "exit_code": 0,
+      "counts": {
+        "passed": 2,
+        "failed": 0,
+        "skipped": 0,
+        "error": 0
+      },
+      "failures": [],
+      "native_crash": false
+    },
+    {
+      "module": "test_multi_channel_exports.py",
+      "exit_code": 0,
+      "counts": {
+        "passed": 3,
+        "failed": 0,
+        "skipped": 0,
+        "error": 0
+      },
+      "failures": [],
+      "native_crash": false
+    },
+    {
+      "module": "test_non_word_catalog.py",
+      "exit_code": 0,
+      "counts": {
+        "passed": 5,
+        "failed": 0,
+        "skipped": 0,
+        "error": 0
+      },
+      "failures": [],
+      "native_crash": false
+    },
+    {
+      "module": "test_operator_status.py",
+      "exit_code": 0,
+      "counts": {
+        "passed": 4,
+        "failed": 0,
+        "skipped": 0,
+        "error": 0
+      },
+      "failures": [],
+      "native_crash": false
+    },
+    {
+      "module": "test_package_layout.py",
+      "exit_code": 0,
+      "counts": {
+        "passed": 4,
+        "failed": 0,
+        "skipped": 0,
+        "error": 0
+      },
+      "failures": [],
+      "native_crash": false
+    },
+    {
+      "module": "test_pending_package_registration.py",
+      "exit_code": 0,
+      "counts": {
+        "passed": 2,
+        "failed": 0,
+        "skipped": 0,
+        "error": 0
+      },
+      "failures": [],
+      "native_crash": false
+    },
+    {
+      "module": "test_phase5_topic_aliases.py",
+      "exit_code": 0,
+      "counts": {
+        "passed": 2,
+        "failed": 0,
+        "skipped": 0,
+        "error": 0
+      },
+      "failures": [],
+      "native_crash": false
+    },
+    {
+      "module": "test_phase7_workflow_navigation.py",
+      "exit_code": 0,
+      "counts": {
+        "passed": 3,
+        "failed": 0,
+        "skipped": 0,
+        "error": 0
+      },
+      "failures": [],
+      "native_crash": false
+    },
+    {
+      "module": "test_phone_pack_service.py",
+      "exit_code": 0,
+      "counts": {
+        "passed": 9,
+        "failed": 0,
+        "skipped": 0,
+        "error": 0
+      },
+      "failures": [],
+      "native_crash": false
+    },
+    {
+      "module": "test_phone_studio.py",
+      "exit_code": 1,
+      "counts": {
+        "passed": 1,
+        "failed": 17,
+        "skipped": 0,
+        "error": 0
+      },
+      "failures": [
+        "FAILED tests/test_phone_studio.py::test_only_reviewed_assets_are_served[/] - ...",
+        "FAILED tests/test_phone_studio.py::test_only_reviewed_assets_are_served[/app.js]",
+        "FAILED tests/test_phone_studio.py::test_only_reviewed_assets_are_served[/style.css]",
+        "FAILED tests/test_phone_studio.py::test_only_reviewed_assets_are_served[/api/config]",
+        "FAILED tests/test_phone_studio.py::test_no_file_or_generation_access[/../requirements.txt]",
+        "FAILED tests/test_phone_studio.py::test_no_file_or_generation_access[/%2e%2e/data/books.db]",
+        "FAILED tests/test_phone_studio.py::test_no_file_or_generation_access[/data/books.db]",
+        "FAILED tests/test_phone_studio.py::test_no_file_or_generation_access[/api/generate]",
+        "FAILED tests/test_phone_studio.py::test_no_file_or_generation_access[/cover.py]",
+        "FAILED tests/test_phone_studio.py::test_no_mutations_or_foreign_hosts - Permi...",
+        "FAILED tests/test_phone_studio.py::test_checked_planning_endpoint - Permissio...",
+        "FAILED tests/test_phone_studio.py::test_cross_site_planning_rejected[bad0] - ...",
+        "FAILED tests/test_phone_studio.py::test_cross_site_planning_rejected[bad1] - ...",
+        "FAILED tests/test_phone_studio.py::test_cross_site_planning_rejected[bad2] - ...",
+        "FAILED tests/test_phone_studio.py::test_body_limits_and_bad_json - Permission...",
+        "FAILED tests/test_phone_studio.py::test_concurrent_planning_has_clear_retry",
+        "FAILED tests/test_phone_studio.py::test_live_http_saved_pack_workflow - Permi..."
+      ],
+      "native_crash": false
+    },
+    {
+      "module": "test_product_qa.py",
+      "exit_code": 0,
+      "counts": {
+        "passed": 9,
+        "failed": 0,
+        "skipped": 0,
+        "error": 0
+      },
+      "failures": [],
+      "native_crash": false
+    },
+    {
+      "module": "test_production_autopilot.py",
+      "exit_code": 0,
+      "counts": {
+        "passed": 7,
+        "failed": 0,
+        "skipped": 0,
+        "error": 0
+      },
+      "failures": [],
+      "native_crash": false
+    },
+    {
+      "module": "test_production_autopilot_stress.py",
+      "exit_code": 0,
+      "counts": {
+        "passed": 1,
+        "failed": 0,
+        "skipped": 0,
+        "error": 0
+      },
+      "failures": [],
+      "native_crash": false
+    },
+    {
+      "module": "test_production_dashboard.py",
+      "exit_code": 0,
+      "counts": {
+        "passed": 2,
+        "failed": 0,
+        "skipped": 0,
+        "error": 0
+      },
+      "failures": [],
+      "native_crash": false
+    },
+    {
+      "module": "test_production_intelligence.py",
+      "exit_code": 0,
+      "counts": {
+        "passed": 9,
+        "failed": 0,
+        "skipped": 0,
+        "error": 0
+      },
+      "failures": [],
+      "native_crash": false
+    },
+    {
+      "module": "test_production_orchestrator.py",
+      "exit_code": 0,
+      "counts": {
+        "passed": 7,
+        "failed": 0,
+        "skipped": 0,
+        "error": 0
+      },
+      "failures": [],
+      "native_crash": false
+    },
+    {
+      "module": "test_production_plan.py",
+      "exit_code": 0,
+      "counts": {
+        "passed": 3,
+        "failed": 0,
+        "skipped": 0,
+        "error": 0
+      },
+      "failures": [],
+      "native_crash": false
+    },
+    {
+      "module": "test_production_proof.py",
+      "exit_code": 0,
+      "counts": {
+        "passed": 8,
+        "failed": 0,
+        "skipped": 0,
+        "error": 0
+      },
+      "failures": [],
+      "native_crash": false
+    },
+    {
+      "module": "test_production_ui_navigation.py",
+      "exit_code": 0,
+      "counts": {
+        "passed": 3,
+        "failed": 0,
+        "skipped": 0,
+        "error": 0
+      },
+      "failures": [],
+      "native_crash": false
+    },
+    {
+      "module": "test_public_domain_library_sources.py",
+      "exit_code": 0,
+      "counts": {
+        "passed": 3,
+        "failed": 0,
+        "skipped": 0,
+        "error": 0
+      },
+      "failures": [],
+      "native_crash": false
+    },
+    {
+      "module": "test_publishing.py",
+      "exit_code": 0,
+      "counts": {
+        "passed": 21,
+        "failed": 0,
+        "skipped": 0,
+        "error": 0
+      },
+      "failures": [],
+      "native_crash": false
+    },
+    {
+      "module": "test_publishing_db_integration_state.py",
+      "exit_code": 0,
+      "counts": {
+        "passed": 9,
+        "failed": 0,
+        "skipped": 0,
+        "error": 0
+      },
+      "failures": [],
+      "native_crash": false
+    },
+    {
+      "module": "test_publishing_hub_ui.py",
+      "exit_code": 0,
+      "counts": {
+        "passed": 9,
+        "failed": 0,
+        "skipped": 0,
+        "error": 0
+      },
+      "failures": [],
+      "native_crash": false
+    },
+    {
+      "module": "test_publishing_readiness.py",
+      "exit_code": 0,
+      "counts": {
+        "passed": 20,
+        "failed": 0,
+        "skipped": 0,
+        "error": 0
+      },
+      "failures": [],
+      "native_crash": false
+    },
+    {
+      "module": "test_publishing_safety.py",
+      "exit_code": 0,
+      "counts": {
+        "passed": 10,
+        "failed": 0,
+        "skipped": 0,
+        "error": 0
+      },
+      "failures": [],
+      "native_crash": false
+    },
+    {
+      "module": "test_puzzle_integrity.py",
+      "exit_code": 0,
+      "counts": {
+        "passed": 22,
+        "failed": 0,
+        "skipped": 0,
+        "error": 0
+      },
+      "failures": [],
+      "native_crash": false,
+      "latest_validation": "22 tests passed in final 89-test run, including three added printed text-game checks."
+    },
+    {
+      "module": "test_puzzle_notes_padding.py",
+      "exit_code": 0,
+      "counts": {
+        "passed": 2,
+        "failed": 0,
+        "skipped": 0,
+        "error": 0
+      },
+      "failures": [],
+      "native_crash": false
+    },
+    {
+      "module": "test_puzzle_studio_plan_approval.py",
+      "exit_code": 0,
+      "counts": {
+        "passed": 4,
+        "failed": 0,
+        "skipped": 0,
+        "error": 0
+      },
+      "failures": [],
+      "native_crash": false
+    },
+    {
+      "module": "test_puzzle_type_registry.py",
+      "exit_code": 0,
+      "counts": {
+        "passed": 4,
+        "failed": 0,
+        "skipped": 0,
+        "error": 0
+      },
+      "failures": [],
+      "native_crash": false
+    },
+    {
+      "module": "test_reader_and_balance.py",
+      "exit_code": 0,
+      "counts": {
+        "passed": 11,
+        "failed": 0,
+        "skipped": 0,
+        "error": 0
+      },
+      "failures": [],
+      "native_crash": false
+    },
+    {
+      "module": "test_repetition_policy.py",
+      "exit_code": 0,
+      "counts": {
+        "passed": 20,
+        "failed": 0,
+        "skipped": 0,
+        "error": 0
+      },
+      "failures": [],
+      "native_crash": false
+    },
+    {
+      "module": "test_scramble_answer_key.py",
+      "exit_code": 0,
+      "counts": {
+        "passed": 4,
+        "failed": 0,
+        "skipped": 0,
+        "error": 0
+      },
+      "failures": [],
+      "native_crash": false
+    },
+    {
+      "module": "test_scramble_cover_sample.py",
+      "exit_code": 0,
+      "counts": {
+        "passed": 1,
+        "failed": 0,
+        "skipped": 0,
+        "error": 0
+      },
+      "failures": [],
+      "native_crash": false
+    },
+    {
+      "module": "test_shared_cover_routing.py",
+      "exit_code": 0,
+      "counts": {
+        "passed": 7,
+        "failed": 0,
+        "skipped": 0,
+        "error": 0
+      },
+      "failures": [],
+      "native_crash": false
+    },
+    {
+      "module": "test_signature_photo_cover.py",
+      "exit_code": 0,
+      "counts": {
+        "passed": 3,
+        "failed": 0,
+        "skipped": 0,
+        "error": 0
+      },
+      "failures": [],
+      "native_crash": false,
+      "resolved_by": "Signature validation order corrected; three tests passed on rerun and in the final 89-test run."
+    },
+    {
+      "module": "test_stabilization_contracts.py",
+      "exit_code": 0,
+      "counts": {
+        "passed": 9,
+        "failed": 0,
+        "skipped": 0,
+        "error": 0
+      },
+      "failures": [],
+      "native_crash": false
+    },
+    {
+      "module": "test_studio_assistant.py",
+      "exit_code": 0,
+      "counts": {
+        "passed": 19,
+        "failed": 0,
+        "skipped": 0,
+        "error": 0
+      },
+      "failures": [],
+      "native_crash": false
+    },
+    {
+      "module": "test_studio_cover_audit.py",
+      "exit_code": 0,
+      "counts": {
+        "passed": 8,
+        "failed": 0,
+        "skipped": 0,
+        "error": 0
+      },
+      "failures": [],
+      "native_crash": false
+    },
+    {
+      "module": "test_studio_health.py",
+      "exit_code": 0,
+      "counts": {
+        "passed": 2,
+        "failed": 0,
+        "skipped": 0,
+        "error": 0
+      },
+      "failures": [],
+      "native_crash": false
+    },
+    {
+      "module": "test_studio_pack_planning.py",
+      "exit_code": 0,
+      "counts": {
+        "passed": 16,
+        "failed": 0,
+        "skipped": 0,
+        "error": 0
+      },
+      "failures": [],
+      "native_crash": false
+    },
+    {
+      "module": "test_studio_preview.py",
+      "exit_code": 0,
+      "counts": {
+        "passed": 2,
+        "failed": 0,
+        "skipped": 0,
+        "error": 0
+      },
+      "failures": [],
+      "native_crash": false
+    },
+    {
+      "module": "test_studio_providers.py",
+      "exit_code": 0,
+      "counts": {
+        "passed": 8,
+        "failed": 0,
+        "skipped": 0,
+        "error": 0
+      },
+      "failures": [],
+      "native_crash": false
+    },
+    {
+      "module": "test_studio_recovery.py",
+      "exit_code": 0,
+      "counts": {
+        "passed": 2,
+        "failed": 0,
+        "skipped": 0,
+        "error": 0
+      },
+      "failures": [],
+      "native_crash": false
+    },
+    {
+      "module": "test_sudoku.py",
+      "exit_code": 0,
+      "counts": {
+        "passed": 5,
+        "failed": 0,
+        "skipped": 0,
+        "error": 0
+      },
+      "failures": [],
+      "native_crash": false
+    },
+    {
+      "module": "test_sudoku_cover_sample.py",
+      "exit_code": 0,
+      "counts": {
+        "passed": 2,
+        "failed": 0,
+        "skipped": 0,
+        "error": 0
+      },
+      "failures": [],
+      "native_crash": false
+    },
+    {
+      "module": "test_sudoku_symbols.py",
+      "exit_code": 0,
+      "counts": {
+        "passed": 3,
+        "failed": 0,
+        "skipped": 0,
+        "error": 0
+      },
+      "failures": [],
+      "native_crash": false
+    },
+    {
+      "module": "test_title_pages.py",
+      "exit_code": 0,
+      "counts": {
+        "passed": 4,
+        "failed": 0,
+        "skipped": 0,
+        "error": 0
+      },
+      "failures": [],
+      "native_crash": false
+    },
+    {
+      "module": "test_transparent_cover_motifs.py",
+      "exit_code": 0,
+      "counts": {
+        "passed": 1,
+        "failed": 0,
+        "skipped": 0,
+        "error": 0
+      },
+      "failures": [],
+      "native_crash": false
+    },
+    {
+      "module": "test_travel_trivia_capacity.py",
+      "exit_code": 0,
+      "counts": {
+        "passed": 3,
+        "failed": 0,
+        "skipped": 0,
+        "error": 0
+      },
+      "failures": [],
+      "native_crash": false
+    },
+    {
+      "module": "test_trend_research.py",
+      "exit_code": 0,
+      "counts": {
+        "passed": 3,
+        "failed": 0,
+        "skipped": 0,
+        "error": 0
+      },
+      "failures": [],
+      "native_crash": false
+    },
+    {
+      "module": "test_truth_service.py",
+      "exit_code": 0,
+      "counts": {
+        "passed": 4,
+        "failed": 0,
+        "skipped": 0,
+        "error": 0
+      },
+      "failures": [],
+      "native_crash": false
+    },
+    {
+      "module": "test_unified_production_orchestrator.py",
+      "exit_code": 0,
+      "counts": {
+        "passed": 18,
+        "failed": 0,
+        "skipped": 0,
+        "error": 0
+      },
+      "failures": [],
+      "native_crash": false
+    },
+    {
+      "module": "test_universal_factory_and_mapper.py",
+      "exit_code": 0,
+      "counts": {
+        "passed": 18,
+        "failed": 0,
+        "skipped": 0,
+        "error": 0
+      },
+      "failures": [],
+      "native_crash": false
+    },
+    {
+      "module": "test_universal_publishing_foundation.py",
+      "exit_code": 0,
+      "counts": {
+        "passed": 47,
+        "failed": 0,
+        "skipped": 0,
+        "error": 0
+      },
+      "failures": [],
+      "native_crash": false
+    },
+    {
+      "module": "test_word_intelligence_analysis_review.py",
+      "exit_code": 0,
+      "counts": {
+        "passed": 15,
+        "failed": 0,
+        "skipped": 0,
+        "error": 0
+      },
+      "failures": [],
+      "native_crash": false
+    },
+    {
+      "module": "test_word_intelligence_apply.py",
+      "exit_code": 0,
+      "counts": {
+        "passed": 8,
+        "failed": 0,
+        "skipped": 0,
+        "error": 0
+      },
+      "failures": [],
+      "native_crash": false
+    },
+    {
+      "module": "test_word_intelligence_bank_integration.py",
+      "exit_code": 0,
+      "counts": {
+        "passed": 4,
+        "failed": 0,
+        "skipped": 0,
+        "error": 0
+      },
+      "failures": [],
+      "native_crash": false
+    },
+    {
+      "module": "test_word_intelligence_classifier.py",
+      "exit_code": 0,
+      "counts": {
+        "passed": 17,
+        "failed": 0,
+        "skipped": 0,
+        "error": 0
+      },
+      "failures": [],
+      "native_crash": false
+    },
+    {
+      "module": "test_word_intelligence_normalization.py",
+      "exit_code": 0,
+      "counts": {
+        "passed": 22,
+        "failed": 0,
+        "skipped": 0,
+        "error": 0
+      },
+      "failures": [],
+      "native_crash": false
+    },
+    {
+      "module": "test_word_intelligence_quality_ambiguity.py",
+      "exit_code": 0,
+      "counts": {
+        "passed": 19,
+        "failed": 0,
+        "skipped": 0,
+        "error": 0
+      },
+      "failures": [],
+      "native_crash": false
+    },
+    {
+      "module": "test_word_intelligence_repair.py",
+      "exit_code": 0,
+      "counts": {
+        "passed": 14,
+        "failed": 0,
+        "skipped": 0,
+        "error": 0
+      },
+      "failures": [],
+      "native_crash": false
+    },
+    {
+      "module": "test_word_intelligence_reports.py",
+      "exit_code": 0,
+      "counts": {
+        "passed": 8,
+        "failed": 0,
+        "skipped": 0,
+        "error": 0
+      },
+      "failures": [],
+      "native_crash": false
+    },
+    {
+      "module": "test_word_intelligence_store.py",
+      "exit_code": 0,
+      "counts": {
+        "passed": 15,
+        "failed": 0,
+        "skipped": 0,
+        "error": 0
+      },
+      "failures": [],
+      "native_crash": false
+    },
+    {
+      "module": "test_word_intelligence_taxonomy.py",
+      "exit_code": 0,
+      "counts": {
+        "passed": 19,
+        "failed": 0,
+        "skipped": 0,
+        "error": 0
+      },
+      "failures": [],
+      "native_crash": false
+    },
+    {
+      "module": "test_word_intelligence_theme_audit_pool.py",
+      "exit_code": 0,
+      "counts": {
+        "passed": 14,
+        "failed": 0,
+        "skipped": 0,
+        "error": 0
+      },
+      "failures": [],
+      "native_crash": false
+    },
+    {
+      "module": "test_word_intelligence_wi2.py",
+      "exit_code": 0,
+      "counts": {
+        "passed": 18,
+        "failed": 0,
+        "skipped": 0,
+        "error": 0
+      },
+      "failures": [],
+      "native_crash": false
+    },
+    {
+      "module": "test_wordsearch.py",
+      "exit_code": 0,
+      "counts": {
+        "passed": 16,
+        "failed": 0,
+        "skipped": 0,
+        "error": 0
+      },
+      "failures": [],
+      "native_crash": false
+    },
+    {
+      "module": "test_wordsearch_kdp_margins_fonts.py",
+      "exit_code": 0,
+      "counts": {
+        "passed": 2,
+        "failed": 0,
+        "skipped": 0,
+        "error": 0
+      },
+      "failures": [],
+      "native_crash": false
+    },
+    {
+      "module": "test_wordsearch_page_titles.py",
+      "exit_code": 0,
+      "counts": {
+        "passed": 3,
+        "failed": 0,
+        "skipped": 0,
+        "error": 0
+      },
+      "failures": [],
+      "native_crash": false
+    }
+  ],
+  "final_affected_test_run": {
+    "passed": 89,
+    "failed": 0,
+    "seconds": 24.12,
+    "command": ".venv/Scripts/python.exe -m pytest tests/test_puzzle_integrity.py tests/test_product_qa.py tests/test_wordsearch.py tests/test_accessible_wordsearch.py tests/test_reader_and_balance.py tests/test_word_intelligence_wi2.py tests/test_signature_photo_cover.py -q -p no:cacheprovider --basetemp=.quality-verification-final-20261022 --tb=short"
+  },
+  "compile_check": "passed for all touched Python modules",
+  "runtime_check": "passed",
+  "theme_validation": "passed",
+  "diff_whitespace_check": "passed",
+  "outstanding_failures": {
+    "credential_manager": 1,
+    "loopback_http_sandbox_denials": 17
+  },
+  "product": {
+    "puzzles": 50,
+    "pages": 84,
+    "rendered_grid_readbacks": 100,
+    "blockers": 0,
+    "review_warnings": 1
+  }
+}

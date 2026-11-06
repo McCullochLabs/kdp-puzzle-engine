@@ -1,0 +1,19 @@
+{
+  "passed": true,
+  "checks": [
+    "existing canonical contract",
+    "existing expansion-candidate field layout",
+    "unique IDs and group links",
+    "only genuinely ungrouped source words selected",
+    "exact vocabulary matching, no substring classifier",
+    "all parent topics resolve to existing taxonomy",
+    "existing safety/trademark flags excluded",
+    "existing rejected topic links preserved",
+    "all candidates remain unapproved",
+    "source files unchanged"
+  ],
+  "counts": {
+    "word": 536,
+    "phrase": 1
+  }
+}

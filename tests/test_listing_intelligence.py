@@ -12,6 +12,7 @@ from publishing.listing_intelligence import (
     apply_listing_intelligence,
     local_fallback_content,
 )
+from publishing.payhip_product import tags_for
 
 
 class Provider:
@@ -40,6 +41,38 @@ def test_validator_rejects_hallucinated_count_and_format():
     facts=verified_facts(book(),"payhip"); value=good(); value["description"]="Over 150 puzzles in a paperback shipped to your door."
     valid, issues, _clean=validate_output(value,facts)
     assert not valid and len(issues)>=2
+
+
+def test_scramble_listing_rejects_separate_trivia_promise(tmp_path):
+    value = book()
+    value["metadata"].update({"puzzle_type": "Word Scramble + Trivia", "puzzle_count": 60})
+    facts = verified_facts(value, "amazon")
+    assert "not separate trivia quizzes" in facts["scramble_content_promise"]
+    draft = good()
+    draft["description"] = "Enjoy 60 Word Scramble + Trivia puzzles with solutions."
+    draft["tags"] = ["Trivia Puzzles", "Fact Clues"]
+    assert not validate_output(draft, facts)[0]
+    record = ListingIntelligence(Path(tmp_path), provider=Provider(draft)).generate(value, "amazon")
+    assert "trivia puzzles" not in record["content"]["description"].casefold()
+    assert "fact clue" in record["content"]["description"].casefold()
+    assert "Trivia Puzzles" not in record["content"]["tags"]
+
+
+def test_scramble_offline_copy_does_not_reuse_legacy_catalog_tags():
+    value = book()
+    value["metadata"].update({"puzzle_type": "Word Scramble + Trivia", "puzzle_count": 60,
+                              "etsy_tags": ["Trivia Puzzles", "Paperback Book"],
+                              "amazon_keywords": ["trivia quiz questions"]})
+    content = local_fallback_content(value, verified_facts(value, "etsy"))
+    assert "Trivia Puzzles" not in content["tags"]
+    assert "Paperback Book" not in content["tags"]
+    assert "trivia quiz questions" not in content["keywords"]
+
+
+def test_payhip_scramble_tags_describe_fact_clues():
+    tags = tags_for({"puzzle_type": "Word Scramble + Trivia", "theme": "General Knowledge & Curiosity"})
+    assert any("fact clues" in tag for tag in tags)
+    assert not any("trivia" in tag.casefold() for tag in tags)
 
 
 def test_intelligence_caches_validated_provider_copy(tmp_path):
@@ -90,8 +123,45 @@ def test_local_copy_is_used_only_after_a_configured_provider_fails(tmp_path):
 def test_local_fallback_uses_specific_discovery_angles():
     vehicle = book(); vehicle["metadata"].update({"title": "Classic Cars Road Trip Word Search", "theme": "Vehicles and Automotive", "puzzle_type": "Word Search"})
     content = local_fallback_content(vehicle, verified_facts(vehicle, "amazon"))
-    assert "vintage car word games" in content["keywords"]
+    assert "vintage car brain games" in content["keywords"]
     assert len(content["keywords"]) == len(set(content["keywords"]))
+
+
+def test_local_fallback_does_not_recycle_contributor_as_keyword():
+    value = book()
+    value["metadata"].update({"title": "Cat Lovers Large Print Sudoku", "theme": "Cats & Pets",
+                              "puzzle_type": "Sudoku", "amazon_keywords": ["Jordan M Slade books"]})
+    content = local_fallback_content(value, verified_facts(value, "amazon"))
+    assert all("jordan" not in phrase.casefold() and "slade" not in phrase.casefold()
+               for phrase in content["keywords"])
+    assert any("cat" in phrase.casefold() for phrase in content["keywords"])
+
+
+def test_cryptogram_keywords_cannot_promise_trivia():
+    value = book()
+    value["metadata"].update({"title": "American Heritage Cipher Challenge",
+                              "theme": "History & Heritage", "puzzle_type": "Cryptogram",
+                              "puzzle_count": 60})
+    facts = verified_facts(value, "amazon")
+    draft = good()
+    draft["description"] = "Decode 60 history cryptograms with complete solutions."
+    draft["keywords"] = ["american history puzzles", "usa trivia challenge", "code breaking games"]
+    valid, issues, _clean = validate_output(draft, facts)
+    assert not valid
+    assert any("trivia" in issue.casefold() for issue in issues)
+
+
+def test_sudoku_keywords_cannot_promise_word_finds():
+    facts = verified_facts({"metadata": {
+        "title": "Road Trip Sudoku", "theme": "Road Trips & Highways",
+        "puzzle_type": "Sudoku", "puzzle_count": 100,
+    }}, "amazon")
+    draft = good()
+    draft["description"] = "Solve 100 road-trip Sudoku puzzles with complete solutions."
+    draft["keywords"] = ["road trip activity book", "highway travel word find"]
+    valid, issues, _clean = validate_output(draft, facts)
+    assert not valid
+    assert any("different puzzle type" in issue.casefold() for issue in issues)
 
 
 def test_apply_preserves_explicit_human_description():

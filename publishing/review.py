@@ -6,6 +6,7 @@ from pathlib import Path
 from .listing_copy import listing_copy_text
 from .marketplaces import PUBLISHERS
 from .package_layout import package_file, proof_folder
+from .editorial_readiness import nonword_package_issues, source_editorial_issues
 
 
 def build_proof_contact_sheet(folder: Path) -> Path | None:
@@ -49,6 +50,8 @@ def review_result(book: dict, marketplace: str = "amazon") -> dict:
     """Return a buyer-facing listing and print-proof review without writing files."""
     meta = book.get("metadata") or {}; files = meta.get("files") if isinstance(meta.get("files"), dict) else {}
     blockers = list(PUBLISHERS[marketplace].blocking_issues(PUBLISHERS[marketplace].validate(book)))
+    blockers.extend(source_editorial_issues(book))
+    blockers.extend(nonword_package_issues(book))
     checks: list[str] = []
     interior = Path(str(files.get("print_interior") or "")); cover = Path(str(files.get("print_cover") or "")); front = Path(str(files.get("front_cover") or ""))
     checks.append("Interior PDF is present." if interior.is_file() else "Interior PDF is missing.")

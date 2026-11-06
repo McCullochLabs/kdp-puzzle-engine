@@ -1,0 +1,50 @@
+{
+  "schema_version": 1,
+  "research_status": "REVIEW_REQUIRED_NOT_APPROVED",
+  "group": "verb.communication",
+  "records": [
+    {
+      "normalized": "CHATTING",
+      "status": "pending_context_and_editorial_review",
+      "candidate_categories": [
+        "verb.communication"
+      ],
+      "source_senses": [
+        {
+          "lemma": "chat",
+          "synset": "verb:01038666",
+          "part_of_speech": "verb",
+          "lexical_category": "verb.communication",
+          "definition": "talk socially without exchanging too much information; \"the men were sitting in the cafe and shooting the breeze\"",
+          "match_type": "attested_WordNet_exception",
+          "inflected_source_word": "CHATTING"
+        }
+      ]
+    },
+    {
+      "normalized": "EXCLAIM",
+      "status": "pending_context_and_editorial_review",
+      "candidate_categories": [
+        "verb.communication"
+      ],
+      "source_senses": [
+        {
+          "lemma": "exclaim",
+          "synset": "verb:00912048",
+          "part_of_speech": "verb",
+          "lexical_category": "verb.communication",
+          "definition": "utter aloud; often with surprise, horror, or joy; \"`I won!' he exclaimed\"; \"`Help!' she cried\"; \"`I'm here,' the mother shouted when she saw her child looking lost\"",
+          "match_type": "exact_normalized_source_lemma"
+        },
+        {
+          "lemma": "exclaim",
+          "synset": "verb:00977336",
+          "part_of_speech": "verb",
+          "lexical_category": "verb.communication",
+          "definition": "state or announce; \"`I am not a Communist,' he exclaimed\"; \"The King will proclaim an amnesty\"",
+          "match_type": "exact_normalized_source_lemma"
+        }
+      ]
+    }
+  ]
+}

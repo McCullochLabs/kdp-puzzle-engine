@@ -1,0 +1,1004 @@
+{
+  "title": "Advanced Vocabulary Challenge Word Search",
+  "subtitle": "48 large-print word searches for stronger vocabulary and confident word lovers",
+  "author": "Jordan M. Slade",
+  "series": "Vocabulary Adventures",
+  "detected_topic": "High School Vocabulary",
+  "difficulty_label": "Challenging",
+  "palette": "scholarly-blue",
+  "recommended_palette": "scholarly-blue",
+  "cover_style": "classic",
+  "recommended_cover_style": "classic",
+  "no_repeat_words": true,
+  "cover_imprint": "Slade Puzzle Co.",
+  "cover_badge": "48 LARGE-PRINT PUZZLES • NO REPEATED WORDS",
+  "puzzles": [
+    {
+      "name": "Rhetorical Strategies",
+      "words": [
+        "ANECDOTE",
+        "TESTIMONY",
+        "ANALOGY",
+        "RHETORIC",
+        "STATISTICS",
+        "APPEAL",
+        "METAPHOR",
+        "CITATION",
+        "ASSERTION",
+        "EVIDENCE",
+        "PREMISE",
+        "COMPARISON"
+      ],
+      "mini_theme": "Rhetorical Strategies",
+      "page_title_verified": true,
+      "page_title_basis": "editorial_review"
+    },
+    {
+      "name": "Persuasive Techniques",
+      "words": [
+        "SEDUCTION",
+        "COERCION",
+        "MOTIVATION",
+        "INFLUENCE",
+        "EMPATHY",
+        "URGENCY",
+        "ENDORSEMENT",
+        "CAMPAIGN",
+        "PROPAGANDA",
+        "SUGGESTION",
+        "ADVOCACY",
+        "MANIPULATION"
+      ],
+      "mini_theme": "Persuasive Techniques",
+      "page_title_verified": true,
+      "page_title_basis": "editorial_review"
+    },
+    {
+      "name": "Debate and Dialogue",
+      "words": [
+        "CONCESSION",
+        "ARGUMENT",
+        "NEGOTIATION",
+        "DISAGREEMENT",
+        "CONSENSUS",
+        "DISCOURSE",
+        "STALEMATE",
+        "REBUTTAL",
+        "ACQUIESCENCE",
+        "CLASH",
+        "DIALOGUE",
+        "CONTENTION"
+      ],
+      "mini_theme": "Debate and Dialogue",
+      "page_title_verified": true,
+      "page_title_basis": "editorial_review"
+    },
+    {
+      "name": "Verbal Nuance",
+      "words": [
+        "SUBTEXT",
+        "NUANCE",
+        "SARCASM",
+        "IDIOM",
+        "DENOTATION",
+        "CONNOTATION",
+        "AMBIGUITY",
+        "INNUENDO",
+        "HYPERBOLE",
+        "DOUBLE ENTENDRE",
+        "EUPHEMISM",
+        "IRONY"
+      ],
+      "mini_theme": "Verbal Nuance",
+      "page_title_verified": true,
+      "page_title_basis": "editorial_review"
+    },
+    {
+      "name": "Public Speaking",
+      "words": [
+        "TONE",
+        "DICTION",
+        "ARTICULATION",
+        "DELIVERY",
+        "GESTURE",
+        "MODULATION",
+        "CADENCE",
+        "AUDIENCE",
+        "PROJECTION",
+        "CHARISMA",
+        "ORATORY",
+        "STAGE PRESENCE"
+      ],
+      "mini_theme": "Public Speaking",
+      "page_title_verified": true,
+      "page_title_basis": "editorial_review"
+    },
+    {
+      "name": "Critical Evaluation",
+      "words": [
+        "PREJUDICE",
+        "SCRUTINY",
+        "CRITIQUE",
+        "OBJECTIVITY",
+        "VALIDITY",
+        "CREDIBILITY",
+        "SKEPTICISM",
+        "VERIFICATION",
+        "PERSPECTIVE",
+        "JUDGMENT",
+        "BIAS",
+        "FALLACY"
+      ],
+      "mini_theme": "Critical Evaluation",
+      "page_title_verified": true,
+      "page_title_basis": "editorial_review"
+    },
+    {
+      "name": "Nonverbal Cues",
+      "words": [
+        "OCULESICS",
+        "HAPTICS",
+        "KINESICS",
+        "VOCALIC",
+        "TOUCH",
+        "FACIAL EXPRESSION",
+        "SMIRK",
+        "PROXEMICS",
+        "PARALANGUAGE",
+        "EYE CONTACT",
+        "STARE",
+        "POSTURE"
+      ],
+      "mini_theme": "Nonverbal Cues",
+      "page_title_verified": true,
+      "page_title_basis": "editorial_review"
+    },
+    {
+      "name": "Media and Messaging",
+      "words": [
+        "RECEIVER",
+        "TRANSMISSION",
+        "BROADCAST JOURNALISM",
+        "DIFFUSION",
+        "SENDER",
+        "CHANNEL",
+        "VIRAL",
+        "MESSAGE",
+        "BROADCAST",
+        "FEEDBACK",
+        "NOISE",
+        "MEDIUM"
+      ],
+      "mini_theme": "Media and Messaging",
+      "page_title_verified": true,
+      "page_title_basis": "editorial_review"
+    },
+    {
+      "name": "Debate and Dissent",
+      "words": [
+        "VITUPERATION",
+        "ARGUMENTATION",
+        "CLAMOR",
+        "BICKERING",
+        "INVECTIVE",
+        "LITIGATION",
+        "SQUABBLE",
+        "ANTAGONISM",
+        "POLEMIC",
+        "DISSENT",
+        "DISPUTATION",
+        "CONTROVERSY"
+      ],
+      "mini_theme": "Debate and Dissent",
+      "page_title_verified": true,
+      "page_title_basis": "editorial_review"
+    },
+    {
+      "name": "Assertive Postures",
+      "words": [
+        "DEFINITIVE",
+        "CATEGORICAL",
+        "UNEQUIVOCAL",
+        "EMPHATIC",
+        "UNYIELDING",
+        "DOGMATIC",
+        "ABSOLUTE",
+        "RESOLUTE",
+        "UNCOMPROMISING",
+        "FIERCE",
+        "UNWAVERING",
+        "ADAMANT"
+      ],
+      "mini_theme": "Assertive Postures",
+      "page_title_verified": true,
+      "page_title_basis": "editorial_review"
+    },
+    {
+      "name": "Eloquent Expression",
+      "words": [
+        "ARTICULATE",
+        "ELOQUENT",
+        "FLUENT",
+        "EXPRESSIVE",
+        "COHERENT",
+        "LUCID",
+        "PUNGENT",
+        "POETIC",
+        "EVOCATIVE",
+        "PERSPICUOUS",
+        "GLIB",
+        "SILVER-TONGUED"
+      ],
+      "mini_theme": "Eloquent Expression",
+      "page_title_verified": true,
+      "page_title_basis": "editorial_review"
+    },
+    {
+      "name": "Diplomatic Discourse",
+      "words": [
+        "CONCILIATORY",
+        "TACTFUL",
+        "MEDIATED",
+        "PRUDENT",
+        "PLACATING",
+        "DISCREET",
+        "AUSPICIOUS",
+        "POLITIC",
+        "RECONCILING",
+        "ARBITRATED",
+        "EQUITABLE",
+        "TEMPERATE"
+      ],
+      "mini_theme": "Diplomatic Discourse",
+      "page_title_verified": true,
+      "page_title_basis": "editorial_review"
+    },
+    {
+      "name": "Sarcastic Delivery",
+      "words": [
+        "SARDONIC",
+        "CAUSTIC",
+        "IRONIC",
+        "MOCKING",
+        "TRENCHANT",
+        "MORDANT",
+        "ACIDIC",
+        "SCATHING",
+        "SATIRICAL",
+        "WRY",
+        "DERISIVE",
+        "ACERBIC"
+      ],
+      "mini_theme": "Sarcastic Delivery",
+      "page_title_verified": true,
+      "page_title_basis": "editorial_review"
+    },
+    {
+      "name": "Interpersonal Rapport",
+      "words": [
+        "RAPPORT",
+        "AFFINITY",
+        "EMPATHETIC",
+        "HARMONIOUS",
+        "RESONANT",
+        "CONGENIAL",
+        "SYNERGY",
+        "ACCORD",
+        "SYNERGISTIC",
+        "SYMBIOSIS",
+        "ATTUNED",
+        "KINSHIP"
+      ],
+      "mini_theme": "Interpersonal Rapport",
+      "page_title_verified": true,
+      "page_title_basis": "editorial_review"
+    },
+    {
+      "name": "Criticism & Rebuttal",
+      "words": [
+        "CASTIGATE",
+        "REPRIMAND",
+        "REBUKE",
+        "REPROOF",
+        "CENSURE",
+        "DENUNCIATION",
+        "IMPEACH",
+        "ADMONISH",
+        "EXCORIATE",
+        "LAMBASTE",
+        "CHASTISE",
+        "OBJURGATION"
+      ],
+      "mini_theme": "Criticism & Rebuttal",
+      "page_title_verified": true,
+      "page_title_basis": "editorial_review"
+    },
+    {
+      "name": "Complex Emotional States",
+      "words": [
+        "AMBIVALENCE",
+        "MELANCHOLY",
+        "EUPHORIA",
+        "APATHY",
+        "NOSTALGIA",
+        "APPREHENSION",
+        "DISQUIET",
+        "SERENITY",
+        "VEXATION",
+        "TREPIDATION",
+        "ZEAL",
+        "LANGUOR"
+      ],
+      "mini_theme": "Complex Emotional States",
+      "page_title_verified": true,
+      "page_title_basis": "editorial_review"
+    },
+    {
+      "name": "Moral Integrity and Honor",
+      "words": [
+        "HONORABLE",
+        "RIGHTEOUS",
+        "UPRIGHT",
+        "SCIENTIFIC",
+        "PRINCIPLED",
+        "ETHICAL",
+        "BLAMELESS",
+        "IMPECCABLE",
+        "PROBITY",
+        "RECTITUDE",
+        "VERACIOUS",
+        "CONSCIENTIOUS"
+      ],
+      "mini_theme": "Moral Integrity and Honor",
+      "page_title_verified": true,
+      "page_title_basis": "editorial_review"
+    },
+    {
+      "name": "Intellectual Traits",
+      "words": [
+        "ASTUTE",
+        "SAGACIOUS",
+        "PERSPICACIOUS",
+        "SHREWD",
+        "DISCERNING",
+        "PENETRATING",
+        "PERCEPTIVE",
+        "BRILLIANT",
+        "KEEN",
+        "INSIGHTFUL",
+        "CLEVER",
+        "WISE"
+      ],
+      "mini_theme": "Intellectual Traits",
+      "page_title_verified": true,
+      "page_title_basis": "editorial_review"
+    },
+    {
+      "name": "Hidden Motives",
+      "words": [
+        "SURREPTITIOUS",
+        "CLANDESTINE",
+        "FURTIVE",
+        "STEALTHY",
+        "ULTERIOR",
+        "DECEPTIVE",
+        "SLY",
+        "CRAFTY",
+        "CUNNING",
+        "GUILE",
+        "SCHEMING",
+        "MACHINATING"
+      ],
+      "mini_theme": "Hidden Motives",
+      "page_title_verified": true,
+      "page_title_basis": "editorial_review"
+    },
+    {
+      "name": "Character Virtues",
+      "words": [
+        "INTEGRITY",
+        "FORTITUDE",
+        "COMPASSION",
+        "HUMILITY",
+        "DILIGENCE",
+        "ALTRUISM",
+        "CANDOR",
+        "RESILIENCE",
+        "PRUDENCE",
+        "FIDELITY",
+        "BENEVOLENCE",
+        "TENACITY"
+      ],
+      "mini_theme": "Character Virtues",
+      "page_title_verified": true,
+      "page_title_basis": "editorial_review"
+    },
+    {
+      "name": "Negative Traits",
+      "words": [
+        "ARROGANCE",
+        "COWARDICE",
+        "MALEVOLENCE",
+        "DECEPTIVENESS",
+        "HAUGHTINESS",
+        "PETULANCE",
+        "MALICE",
+        "PERFIDY",
+        "SPITE",
+        "COVETOUSNESS",
+        "OSTENTATION",
+        "OBSTINACY"
+      ],
+      "mini_theme": "Negative Traits",
+      "page_title_verified": true,
+      "page_title_basis": "editorial_review"
+    },
+    {
+      "name": "Social Interaction",
+      "words": [
+        "AMIABILITY",
+        "AFFABILITY",
+        "CORDIALITY",
+        "CIVILITY",
+        "GENIALITY",
+        "WARMTH",
+        "HOSPITALITY",
+        "CONGENIALITY",
+        "GRACIOUSNESS",
+        "SOCIABILITY",
+        "POLITENESS",
+        "AMITY"
+      ],
+      "mini_theme": "Social Interaction",
+      "page_title_verified": true,
+      "page_title_basis": "editorial_review"
+    },
+    {
+      "name": "Psychological Response",
+      "words": [
+        "VULNERABILITY",
+        "SUSCEPTIBILITY",
+        "SENSITIVITY",
+        "REACTION",
+        "DEFENSIVENESS",
+        "SCEPTICISM",
+        "CYNICISM",
+        "IMPRESSIONABILITY",
+        "RECEPTIVENESS",
+        "GUARDEDNESS",
+        "OPENNESS",
+        "TENDERNESS"
+      ],
+      "mini_theme": "Psychological Response",
+      "page_title_verified": true,
+      "page_title_basis": "editorial_review"
+    },
+    {
+      "name": "Social Attitudes",
+      "words": [
+        "EGALITARIAN",
+        "CONDESCENSION",
+        "PATERNALISTIC",
+        "SUPERCILIOUS",
+        "PATRONIZING",
+        "EGALITARIANISM",
+        "PHLEGMATIC",
+        "STOIC",
+        "FACETIOUS",
+        "SARCASTIC",
+        "CANDID",
+        "ALOOF"
+      ],
+      "mini_theme": "Social Attitudes",
+      "page_title_verified": true,
+      "page_title_basis": "editorial_review"
+    },
+    {
+      "name": "Moods and Tempers",
+      "words": [
+        "EXUBERANT",
+        "DESPONDENT",
+        "LACHRYMOSE",
+        "SANGUINE",
+        "MOROSE",
+        "PESSIMISTIC",
+        "OPTIMISTIC",
+        "JOVIAL",
+        "SULKING",
+        "IRASCIBLE",
+        "PLACID",
+        "TURBULENT"
+      ],
+      "mini_theme": "Moods and Tempers",
+      "page_title_verified": true,
+      "page_title_basis": "editorial_review"
+    },
+    {
+      "name": "Governance & Diplomacy",
+      "words": [
+        "AMBASSADOR",
+        "ALLIANCE",
+        "TREATY",
+        "SOVEREIGNTY",
+        "PROTOCOL",
+        "COALITION",
+        "HEGEMONY",
+        "RATIFICATION",
+        "SANCTION",
+        "CONCILIATION",
+        "EMBASSY",
+        "BIPARTISAN"
+      ],
+      "mini_theme": "Governance & Diplomacy",
+      "page_title_verified": true,
+      "page_title_basis": "editorial_review"
+    },
+    {
+      "name": "Socioeconomic Dynamics",
+      "words": [
+        "STRATIFICATION",
+        "INEQUALITY",
+        "MOBILITY",
+        "GENTRIFICATION",
+        "DEMOGRAPHICS",
+        "MERITOCRACY",
+        "PLUTOCRACY",
+        "MARGINALIZATION",
+        "INEQUITY",
+        "AFFLUENCE",
+        "POVERTY",
+        "DISTRIBUTION"
+      ],
+      "mini_theme": "Socioeconomic Dynamics",
+      "page_title_verified": true,
+      "page_title_basis": "editorial_review"
+    },
+    {
+      "name": "Cultural Integration",
+      "words": [
+        "ACCULTURATION",
+        "ASSIMILATION",
+        "MULTICULTURAL",
+        "DIVERSITY",
+        "PLURALISM",
+        "INCLUSION",
+        "HERITAGE",
+        "COEXISTENCE",
+        "GLOBALIZATION",
+        "HOMOGENEITY",
+        "TRADITION",
+        "INTERACTION"
+      ],
+      "mini_theme": "Cultural Integration",
+      "page_title_verified": true,
+      "page_title_basis": "editorial_review"
+    },
+    {
+      "name": "Public Infrastructure",
+      "words": [
+        "TRANSPORTATION",
+        "GRID",
+        "SANITATION",
+        "URBANIZATION",
+        "UTILITY",
+        "TELECOM",
+        "HIGHWAY",
+        "AQUEDUCT",
+        "BRIDGE",
+        "TRANSIT",
+        "WATERWAY",
+        "POWERPLANT"
+      ],
+      "mini_theme": "Public Infrastructure",
+      "page_title_verified": true,
+      "page_title_basis": "editorial_review"
+    },
+    {
+      "name": "Corporate Governance",
+      "words": [
+        "SHAREHOLDER",
+        "BOARDROOM",
+        "FIDUCIARY",
+        "EXECUTIVE",
+        "DIVIDEND",
+        "MERGER",
+        "ACQUISITION",
+        "STAKEHOLDER",
+        "LIABILITY",
+        "COMPLIANCE",
+        "PORTFOLIO",
+        "AUDITOR"
+      ],
+      "mini_theme": "Corporate Governance",
+      "page_title_verified": true,
+      "page_title_basis": "editorial_review"
+    },
+    {
+      "name": "Philanthropy & Aid",
+      "words": [
+        "HUMANITARIAN",
+        "DONATION",
+        "ENDOWMENT",
+        "CHARITY",
+        "VOLUNTEER",
+        "GRANT",
+        "RELIEF",
+        "FOUNDATION",
+        "BENEFACTOR",
+        "NONPROFIT",
+        "OUTREACH",
+        "SUSTENANCE"
+      ],
+      "mini_theme": "Philanthropy & Aid",
+      "page_title_verified": true,
+      "page_title_basis": "editorial_review"
+    },
+    {
+      "name": "Empirical Investigation",
+      "words": [
+        "HYPOTHESIS",
+        "EXPERIMENT",
+        "VARIABLE",
+        "OBSERVATION",
+        "CORRELATION",
+        "CAUSATION",
+        "METHODOLOGY",
+        "QUANTITATIVE",
+        "QUALITATIVE",
+        "PARADIGM",
+        "ANOMALY",
+        "REPLICATION"
+      ],
+      "mini_theme": "Empirical Investigation",
+      "page_title_verified": true,
+      "page_title_basis": "editorial_review"
+    },
+    {
+      "name": "Astrophysics & Space",
+      "words": [
+        "SINGULARITY",
+        "SUPERNOVA",
+        "COSMOLOGY",
+        "ACCELERATION",
+        "GRAVITATION",
+        "SPECTROSCOPY",
+        "RADIATION",
+        "EXPANSION",
+        "ORBITAL",
+        "BLACK HOLE",
+        "NEBULA",
+        "REDSHIFT"
+      ],
+      "mini_theme": "Astrophysics & Space",
+      "page_title_verified": true,
+      "page_title_basis": "editorial_review"
+    },
+    {
+      "name": "Quantum Mechanics",
+      "words": [
+        "ENTANGLEMENT",
+        "SUPERPOSITION",
+        "UNCERTAINTY",
+        "WAVEFUNCTION",
+        "PROBABILITY",
+        "COHERENCE",
+        "DECOHERENCE",
+        "INTERFERENCE",
+        "SUBATOMIC",
+        "TUNNELING",
+        "PHOTON",
+        "QUARK"
+      ],
+      "mini_theme": "Quantum Mechanics",
+      "page_title_verified": true,
+      "page_title_basis": "editorial_review"
+    },
+    {
+      "name": "Earth & Climate Science",
+      "words": [
+        "BIODIVERSITY",
+        "ECOSYSTEM",
+        "STRATOSPHERE",
+        "HYDROLOGICAL",
+        "DEFORESTATION",
+        "GEOTHERMAL",
+        "ATMOSPHERE",
+        "SUSTAINABILITY",
+        "POLLUTION",
+        "CRYOSPHERE",
+        "TOPOGRAPHY",
+        "LITHOSPHERE"
+      ],
+      "mini_theme": "Earth & Climate Science",
+      "page_title_verified": true,
+      "page_title_basis": "editorial_review"
+    },
+    {
+      "name": "Cognitive Neuroscience",
+      "words": [
+        "NEUROPLASTICITY",
+        "SYNAPSE",
+        "CONSCIOUSNESS",
+        "COGNITION",
+        "PERCEPTION",
+        "MEMORY",
+        "STIMULUS",
+        "NEURON",
+        "CEREBRUM",
+        "HEMISPHERE",
+        "RETICULAR",
+        "AMYGDALA"
+      ],
+      "mini_theme": "Cognitive Neuroscience",
+      "page_title_verified": true,
+      "page_title_basis": "editorial_review"
+    },
+    {
+      "name": "Chemical Reactions",
+      "words": [
+        "CATALYST",
+        "OXIDATION",
+        "REDUCTION",
+        "THERMODYNAMICS",
+        "ENTHALPY",
+        "ENTROPY",
+        "EQUILIBRIUM",
+        "PRECIPITATE",
+        "SOLUTION",
+        "MOLECULAR",
+        "POLYMER",
+        "STOICHIOMETRY"
+      ],
+      "mini_theme": "Chemical Reactions",
+      "page_title_verified": true,
+      "page_title_basis": "editorial_review"
+    },
+    {
+      "name": "Scientific Innovation",
+      "words": [
+        "INVENTION",
+        "TECHNOLOGY",
+        "AUTOMATION",
+        "CYBERNETICS",
+        "NANOTECHNOLOGY",
+        "BIOTECHNOLOGY",
+        "ROBOTICS",
+        "ALGORITHM",
+        "SIMULATION",
+        "SYNTHESIS",
+        "INNOVATION",
+        "PROTOTYPE"
+      ],
+      "mini_theme": "Scientific Innovation",
+      "page_title_verified": true,
+      "page_title_basis": "editorial_review"
+    },
+    {
+      "name": "Sharp Contrasts",
+      "words": [
+        "DICHOTOMY",
+        "ANTITHESIS",
+        "DISCREPANCY",
+        "JUXTAPOSITION",
+        "POLARIZATION",
+        "PARADOX",
+        "DIVERGENCE",
+        "INCONGRUITY",
+        "VARIANCE",
+        "CONTRADICTION",
+        "DISTINCTION",
+        "POLARITY"
+      ],
+      "mini_theme": "Sharp Contrasts",
+      "page_title_verified": true,
+      "page_title_basis": "editorial_review"
+    },
+    {
+      "name": "Sudden Alterations",
+      "words": [
+        "UPHEAVAL",
+        "REVOLUTION",
+        "DISRUPTION",
+        "CONVULSION",
+        "MUTATION",
+        "REVERSAL",
+        "VOLATILITY",
+        "BREAKTHROUGH",
+        "INTERRUPTION",
+        "CONVERSION",
+        "TURBULENCE",
+        "SWING"
+      ],
+      "mini_theme": "Sudden Alterations",
+      "page_title_verified": true,
+      "page_title_basis": "editorial_review"
+    },
+    {
+      "name": "Literary Forms and Structures",
+      "words": [
+        "NARRATIVE",
+        "ALLEGORY",
+        "MONOLOGUE",
+        "SATIRE",
+        "EPIC",
+        "ANTHOLOGY",
+        "CHRONICLE",
+        "BIOGRAPHY",
+        "TRAGEDY",
+        "PROLOGUE",
+        "PARODY",
+        "FABLE"
+      ],
+      "mini_theme": "Literary Forms and Structures",
+      "page_title_verified": true,
+      "page_title_basis": "editorial_review"
+    },
+    {
+      "name": "Publishing and Book Production",
+      "words": [
+        "CHAPTER",
+        "TYPOGRAPHY",
+        "GALLEYS",
+        "ILLUSTRATION",
+        "FOOTNOTE",
+        "SYNOPSIS",
+        "PSEUDONYM",
+        "MANUSCRIPT",
+        "EDITION",
+        "FRONTISPIECE",
+        "PAGINATION",
+        "BINDING"
+      ],
+      "mini_theme": "Publishing and Book Production",
+      "page_title_verified": true,
+      "page_title_basis": "editorial_review"
+    },
+    {
+      "name": "Architectural Design and Ornament",
+      "words": [
+        "PEDIMENT",
+        "ROTUNDA",
+        "GARGOYLE",
+        "PORTICO",
+        "BUTTRESS",
+        "FACADE",
+        "CAPITAL",
+        "MINARET",
+        "CORNICE",
+        "BALUSTRADE",
+        "COLONNADE",
+        "ARCHITRAVE"
+      ],
+      "mini_theme": "Architectural Design and Ornament",
+      "page_title_verified": true,
+      "page_title_basis": "editorial_review"
+    },
+    {
+      "name": "Musical Composition and Sound",
+      "words": [
+        "ALLEGRO",
+        "COUNTERPOINT",
+        "MELODY",
+        "OVERTURE",
+        "ARRANGEMENT",
+        "CONCERTO",
+        "CAPRICCIO",
+        "POLYPHONY",
+        "HARMONY",
+        "SYMPHONY",
+        "NOCTURNE",
+        "VIRTUOSO"
+      ],
+      "mini_theme": "Musical Composition and Sound",
+      "page_title_verified": true,
+      "page_title_basis": "editorial_review"
+    },
+    {
+      "name": "Execution and Output",
+      "words": [
+        "FUNCTION",
+        "EFFICIENCY",
+        "IMPLEMENT",
+        "OPTIMIZE",
+        "DELIVERABLE",
+        "RESOLUTION",
+        "OUTCOME",
+        "BENCHMARK",
+        "PERFORMANCE",
+        "EXECUTION",
+        "PRODUCTIVITY",
+        "CAPABILITY"
+      ],
+      "mini_theme": "Execution and Output",
+      "page_title_verified": true,
+      "page_title_basis": "editorial_review"
+    },
+    {
+      "name": "Temporal Transitions",
+      "words": [
+        "CHRONOLOGICAL",
+        "SIMULTANEOUS",
+        "INTERIM",
+        "PRELIMINARY",
+        "SUBSEQUENT",
+        "EPHEMERAL",
+        "PERPETUAL",
+        "TRANSITORY",
+        "SPORADIC",
+        "CONCURRENT",
+        "PROVISIONAL",
+        "RETROSPECTIVE"
+      ],
+      "mini_theme": "Temporal Transitions",
+      "page_title_verified": true,
+      "page_title_basis": "editorial_review"
+    },
+    {
+      "name": "Sound and Expression",
+      "words": [
+        "RESONANCE",
+        "SYNCOPATION",
+        "TIMBRE",
+        "SONOROUS",
+        "CACOPHONY",
+        "REVERBERATE",
+        "AUDIBLE",
+        "MUTED",
+        "CRESCENDO",
+        "DISSONANCE",
+        "ACOUSTICS",
+        "INTONATION"
+      ],
+      "mini_theme": "Sound and Expression",
+      "page_title_verified": true,
+      "page_title_basis": "editorial_review"
+    },
+    {
+      "name": "Light and Color",
+      "words": [
+        "LUMINOUS",
+        "RADIANCE",
+        "OPALESCENT",
+        "TRANSLUCENT",
+        "VIBRANT",
+        "PASTEL",
+        "CHROMATIC",
+        "CONTRAST",
+        "SILHOUETTE",
+        "ILLUMINATION",
+        "SPECTRUM",
+        "IRIDESCENT"
+      ],
+      "mini_theme": "Light and Color",
+      "page_title_verified": true,
+      "page_title_basis": "editorial_review"
+    }
+  ],
+  "source_word_bank": {
+    "name": "Editorial Word Search Rebuild v2",
+    "topics": [
+      "High School Vocabulary"
+    ],
+    "selection_policy": "Page-grouped provider proposals; locally screened for exact capacity, normalized uniqueness, length, protected names, and page coherence",
+    "candidate_sha256": "348d5865c32d6ae541872f81483d6394c927d8d4f5a2791e1d96066f1fc622ae"
+  },
+  "quality_review": {
+    "production_ready": true,
+    "verdict": "PASS",
+    "checked_at": "2026-09-19T18:52:18",
+    "source": "assistant-assisted editorial rebuild",
+    "checks": [
+      "exact capacity",
+      "no repeated normalized entries",
+      "3–21 normalized letters",
+      "protected/rejected-term screen",
+      "coherent reviewed page titles"
+    ]
+  },
+  "educational_editorial_review": {
+    "grade_appropriate": true,
+    "range": "Grades 9–12 and Adults",
+    "review_basis": "age, proper-name, brand, sensitive-term, length, and page-coherence screening",
+    "reviewed_at": "2026-09-19T18:52:18"
+  }
+}

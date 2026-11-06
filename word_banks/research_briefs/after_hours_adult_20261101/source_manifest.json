@@ -1,0 +1,45 @@
+{
+  "date": "2026-11-01",
+  "sources": [
+    {
+      "name": "Princeton WordNet 3.0",
+      "local_directory": "word_banks/source_data/definition_reference_wordnet_3_0",
+      "use": "exact lemma matches with synset offsets; definitions are disambiguation evidence only; copied license included"
+    },
+    {
+      "url": "https://dictionary.cambridge.org/us/grammar/british-grammar/swearing-and-taboo-expressions",
+      "verified_via": "web search result",
+      "terms": [
+        "fuck",
+        "shit",
+        "damn"
+      ]
+    },
+    {
+      "url": "https://dictionary.apa.org/vibrator",
+      "verified_via": "web search result",
+      "terms": [
+        "vibrator"
+      ]
+    },
+    {
+      "url": "https://dictionary.apa.org/dildo",
+      "verified_via": "web search result",
+      "terms": [
+        "dildo"
+      ]
+    }
+  ],
+  "untrusted_sources": [
+    "local_model_suggestions_untrusted.json when available"
+  ],
+  "prohibited_reuse": [
+    "artificial phrase combinations from Four themes / Adult Collection"
+  ],
+  "editorial_holds": [
+    "All candidates pending topic-fit and brand review",
+    "Some broad adjectives or bar supplies may be too tangential for final book",
+    "WordNet attestation does not prove an adult sense for every polysemous lemma",
+    "No 48-puzzle or 100-puzzle bank is ready"
+  ]
+}

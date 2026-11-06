@@ -54,13 +54,24 @@ class CandidateProviderError(RuntimeError):
     """A displayed, non-fallback error from an explicit candidate request."""
 
 
+_AUTO_CREDENTIALS = object()
+
+
 class GeminiCandidateGenerationProvider:
     """Word-Search-only adapter using the existing Gemini credential store."""
     provider_name = "Gemini"
 
-    def __init__(self, credentials=None, timeout: int = 20) -> None:
+    def __init__(self, credentials=_AUTO_CREDENTIALS, timeout: int = 20) -> None:
         from publishing.listing_intelligence import GeminiCredentials
-        self.credentials = credentials or GeminiCredentials.load()
+        from integrations.wincred import WinCredError
+        self.unavailable_reason = ''
+        if credentials is _AUTO_CREDENTIALS:
+            try:
+                credentials = GeminiCredentials.load()
+            except WinCredError:
+                credentials = None
+                self.unavailable_reason = 'Windows denied credential access. Reconnect the provider before generating candidates.'
+        self.credentials = credentials
         self.timeout = timeout
 
     def available(self) -> bool:

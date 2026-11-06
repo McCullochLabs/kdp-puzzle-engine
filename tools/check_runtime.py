@@ -5,7 +5,7 @@ import platform
 import struct
 import sys
 
-EXPECTED = (3, 13, 11)
+EXPECTED = (3, 13, 15)
 
 
 def runtime_errors() -> list[str]:
